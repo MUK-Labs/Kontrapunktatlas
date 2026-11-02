@@ -392,7 +392,20 @@ const ATLAS = {
           "locator": "Teil I, Kap. III, §§ 25, 27, S. 18–19 · einfacher strenger Kontrapunkt",
           "text": "Bis zur kleinen Sexte sind große, kleine und reine Intervalle erlaubt, darüber die reine Oktave. In Achteln muss die Stimme schrittweise gehen. Erst ab sechs Stimmen kommt die große Sexte als seltener Sprung hinzu.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=1"
+        },
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Nr. 2, Anmerkung S. 1 und Varianten a/b auf S. 2 (Remeš 2021, S. 2)",
+          "text": "An einem verminderten Dreiklang zeigt Förster, wie eine einzige Stimme über die Qualität des Anschlusses entscheidet. In der verworfenen Fassung (b) steigt g nach ais, eine übermäßige Sekunde. In (a) geht das g bei derselben Bassfolge nach fis.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=4",
+          "examples": [
+            "foerster-vermindert"
+          ]
         }
+      ],
+      "related": [
+        "generalbass-sextakkord"
       ]
     },
     {
@@ -875,7 +888,8 @@ const ATLAS = {
       "related": [
         "bindung-s4",
         "unterbrechung-s4",
-        "cambiata"
+        "cambiata",
+        "generalbass-zweideutiger-septakkord"
       ],
       "authors": [
         {
@@ -926,6 +940,17 @@ const ATLAS = {
           "locator": "Teil I, Kap. V, §§ 61–64, S. 33–34 · Auflösungsrichtung und Zeitpunkt",
           "text": "Der obere Vorhalt löst sich abwärts auf. Den aufwärts aufgelösten unteren Vorhalt gestatten die Autoren vor der Tonika in Moll oder wenn er mit dem Cantus firmus konsoniert. Im einfachen Kontrapunkt fällt die Auflösung auf den zweiten Schlag. Vorher darf ein anderer Akkordton erklingen. Die Auflösung darf vorweggenommen werden, wenn ihr Ton auch am regulären Platz erklingt.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1"
+        },
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Nr. 19, T. 5, S. 9, Anmerkung S. 10 (Remeš 2021, S. 26)",
+          "text": "In Nr. 19 erlaubt Förster ausdrücklich, die Dissonanz in Takt 5 aufwärts zu führen, weil ihm so die melodische Linie besser gefällt. Der Ton ist in einer Mittelstimme zu ergänzen. Remeš benennt ihn in seiner Ausgabe als des.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=12",
+          "examples": [
+            "foerster-aufwaerts"
+          ],
+          "comparison": "Prouts Aufwärtsauflösung zum Grundton betrifft einen von unten vorbereiteten Vorhalt im strengen Satz. Hier geht es um die Septime eines Akkords im Generalbass."
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies."
@@ -968,7 +993,8 @@ const ATLAS = {
         ]
       },
       "related": [
-        "verdeckte-parallelen"
+        "verdeckte-parallelen",
+        "generalbass-sextakkord"
       ],
       "authors": [
         {
@@ -1028,6 +1054,16 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch15imit4.pdf#page=1",
           "examples": [
             "gallon-bitsch-nr-154"
+          ]
+        },
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Nr. 26, T. 11, und Anmerkung, S. 14 (Remeš 2021, S. 37–38)",
+          "text": "In Takt 11 verlangt Förster als vierte Stimme die Oktave des Basstons. Die Sexte über dem Bass ist bereits im Diskant vorhanden. Würde eine weitere Stimme sie im Oktavabstand verdoppeln, entstünden in der Fortsetzung zwei aufeinanderfolgende Quinten.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=16",
+          "examples": [
+            "foerster-nr26-t11"
           ]
         }
       ]
@@ -1539,7 +1575,21 @@ const ATLAS = {
           "locator": "Teil I, Kap. III, §§ 27, 33–36, S. 19, 21–22 · melodisches Moll",
           "text": "Ein unmittelbarer chromatischer Schritt ist verboten. In a-Moll können fis im Aufstieg und g im Abstieg als Durchgänge oder Wechselnoten auftreten, ausnahmsweise auch als Akkordtöne im entsprechenden Stufengang. Zwischen zwei Formen derselben Stufe wünschen die Autoren in einer Stimme mindestens drei andere Töne.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=4"
+        },
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Nr. 11, T. 13–14, und Anmerkung, S. 6 (Remeš 2021, S. 14)",
+          "text": "Das g zu Beginn von Takt 13 ist fünfte Bassstufe in c-Moll und zugleich vierte in d-Moll. Förster schreibt im Diskant h statt b. Im Aufstieg zum cis vermeidet das h die übermäßige Sekunde b–cis.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=8",
+          "examples": [
+            "foerster-nr11"
+          ],
+          "comparison": "Auch Prout verwendet im aufsteigenden Moll die große sechste Stufe vor dem Leitton. Försters Generalbass zeigt diesen Schritt an einer Stelle, an der sich zugleich die tonale Bedeutung des Basses ändert."
         }
+      ],
+      "related": [
+        "generalbass-ziffern-stufen"
       ]
     },
     {
@@ -2307,11 +2357,20 @@ const ATLAS = {
           "locator": "Teil I, Kap. IV, §§ 58–60, S. 31–32 · einfacher Kontrapunkt",
           "text": "Ab drei Stimmen wird auf dem schweren Taktteil der vollständige Akkord angestrebt. Im dreistimmigen Satz dürfen im Inneren höchstens zwei unvollständige Akkorde stehen, nie unmittelbar nacheinander. Der vorletzte muss vollständig sein. Eine einzige vorübergehende Ausweichung in eine nahe Tonart ist zulässig.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10"
+        },
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Nr. 1, T. 10–11, S. 1 (Remeš 2021, S. 1)",
+          "text": "Im letzten Klang von Takt 10 gehört derselbe Basston f zu zwei Stufenzählungen. Er ist die vierte Stufe von C-Dur und die tiefe sechste Stufe von a-Moll. Beim folgenden h lauten die beiden Zahlen sieben und zwei. Försters Stufen zeigen, wie sich der Tonartbezug eines gespielten Basses verändert.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
+          "comparison": "Piston bezieht seine römische Ziffer auf den Grundton der Harmonie. Försters Zahl folgt dem gespielten Basston. Bei einem Sextakkord können die beiden Angaben deshalb verschiedene Töne bezeichnen."
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
       "related": [
-        "harmonischer-rhythmus"
+        "harmonischer-rhythmus",
+        "generalbass-ziffern-stufen"
       ]
     },
     {
@@ -3294,7 +3353,8 @@ const ATLAS = {
       "related": [
         "harmonik",
         "rhythmische-selbststaendigkeit",
-        "betonte-dissonanz"
+        "betonte-dissonanz",
+        "generalbass-sextakkord"
       ],
       "authors": [
         {
@@ -3321,6 +3381,16 @@ const ATLAS = {
           "locator": "Teil I, § 59, S. 32 · einfacher Kontrapunkt, auch vierte Spezies",
           "text": "Gewöhnlich gilt eine Harmonie pro Takt. Sie kann sich auch über mehrere Takte erstrecken. In der vierten Spezies ziehen die Autoren einen zweiten Klang im selben Takt einer unterbrochenen Synkopenkette vor, besonders bei Synkopen im Bass.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10"
+        },
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Nr. 26, T. 3 und Anmerkung, S. 14 (Remeš 2021, S. 37–38) · Ziffernwechsel über einem Basston",
+          "text": "In Takt 3 steht über demselben Bass erst 6, dann 5. War im ersten Sextakkord die Terz oder Sexte verdoppelt, greift der Spieler bei der 5 einen Quintsextakkord. War der Bass in der Oktave verdoppelt, folgt ein Dreiklang. Die liegende Bassnote allein verrät den zweiten Griff also noch nicht.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=16",
+          "examples": [
+            "foerster-nr26-t3"
+          ]
         }
       ]
     },
@@ -3653,6 +3723,192 @@ const ATLAS = {
           "locator": "Teil III, Kap. 66, S. 268 · mehrchörige Psalmen in Venedig",
           "text": "Zarlino beschreibt zwei oder drei räumlich getrennte vierstimmige Chöre in der venezianischen Vesper. Sie singen abwechselnd und gelegentlich gemeinsam, besonders zum Schluss. Jeder Chor soll auch für sich konsonant klingen. Bei den gemeinsamen Einsätzen beobachtet Zarlino die Bässe im Einklang oder in der Oktave, bisweilen in der Terz.",
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#p268"
+        }
+      ]
+    },
+    {
+      "id": "generalbass-ziffern-stufen",
+      "title": "Was unterscheidet die Generalbassziffer von der Bassstufe?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Bezifferung",
+        "Bassstufe",
+        "Tonleiter",
+        "Intervalle",
+        "Sextakkord",
+        "Skalenstufe",
+        "Foerster"
+      ],
+      "reading": "Lies vom selben Basston aus in zwei Richtungen. Welche Stufe ist er in der Tonleiter? Welche Töne gehören über ihn?",
+      "comparisons": [],
+      "related": [
+        "generalbass-sextakkord",
+        "generalbass-transponieren",
+        "harmonik"
+      ],
+      "authors": [
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Vorwort und Nr. 8, T. 1, S. 4 (Remeš 2021, S. 8)",
+          "text": "Beim Aussetzen eines Generalbasses ergänzt man Stimmen zu einer gegebenen Basslinie. Die Bezifferung nennt Intervalle über dem Basston. Försters zusätzliche Stufenzahl zeigt, wo dieser Ton in der geltenden Tonleiter steht. In Nr. 8 ist d die vierte Stufe von a-Moll. Die 6 über d verlangt die Sexte h, während der vorgegebene Diskant d singt.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=6",
+          "examples": [
+            "foerster-sextakkord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generalbass-sextakkord",
+      "title": "Welchen Ton darf ich beim Sextakkord verdoppeln?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Sextakkord",
+        "Verdopplung",
+        "Stimmzahl",
+        "erhöhte Sexte",
+        "Leitton",
+        "Orgelsatz",
+        "Foerster"
+      ],
+      "reading": "Bestimme zuerst die Größe der Sexte und ihre Stufe in der örtlichen Tonart. Probiere erst danach verschiedene Verdopplungen am Instrument.",
+      "comparisons": [],
+      "related": [
+        "generalbass-stimmenzahl",
+        "parallelen",
+        "harmonischer-rhythmus"
+      ],
+      "authors": [
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Vorbemerkung zu Nr. 8 und T. 7, S. 4 (Remeš 2021, S. 8)",
+          "text": "Im Sextakkord liegen Terz und Sexte über dem Bass. Bei einer erhöhten Sexte prüft Förster, ob sie übermäßig ist oder ihr oberer Ton als Leitton wirkt. Für die erhöhte Sexte auf der vierten Mollstufe, die keine dieser beiden Bedingungen erfüllt, erlaubt er drei Verdopplungen. Bass, Terz oder Sexte können in einer zweiten Stimme erklingen.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=6",
+          "examples": [
+            "foerster-nr8-t7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generalbass-zweideutiger-septakkord",
+      "title": "Wann braucht der „zweydeutige“ Septimenakkord eine Vorbereitung?",
+      "group": "Generalbass",
+      "tags": [
+        "Septimenakkord",
+        "halbvermindert",
+        "Vorbereitung",
+        "Dissonanz",
+        "siebte Stufe",
+        "zweite Stufe",
+        "Vogler",
+        "Knecht",
+        "Foerster"
+      ],
+      "reading": "Spiele h–d–f–a einmal in a-Moll und einmal in C-Dur. Welche Bassstufe hat der Akkord jeweils? Vergleiche nun, was der Melodieton unmittelbar vor der Septime und der Bass nach dem Akkord tun.",
+      "comparisons": [],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "dissonanzaufloesung",
+        "harmonik"
+      ],
+      "authors": [
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "„Zweydeutige Accorde“, S. 13, vor Nr. 25 (Remeš 2021, S. 34)",
+          "text": "Der Klang h–d–f–a kann auf der zweiten Bassstufe in a-Moll oder auf der siebten in C-Dur stehen. Auf II in Moll verlangt Förster die Vorbereitung der Septime. Auf VII in Dur entscheidet die harmonische Fortsetzung, ob sie vorbereitet werden muss oder frei eintreten darf. Diesen zweiten Fall mit seinen zwei möglichen Behandlungen nennt er „zweydeutig“.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=15",
+          "examples": [
+            "foerster-septimenvergleich"
+          ],
+          "comparison": "Förster berichtet, Vogler und Knecht unterschieden nach der Stufe. Auf II in Moll sei Vorbereitung erforderlich, auf VII in Dur entbehrlich. Sein Einwand betrifft den zweiten Fall. Auch auf VII in Dur gibt es für ihn Verbindungen, die eine Vorbereitung verlangen."
+        },
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Anleitung zum General-Bass (Leipzig, Breitkopf & Härtel)",
+          "locator": "§ 69, S. 23, mit Verweisen auf Nr. 91–93 · Försters Kriterium",
+          "text": "Folgt auf den Septimenakkord der siebten Durstufe der Tonikadreiklang, kann die Septime frei eintreten. Für die erste und zweite Umkehrung nennt Förster als Ziel den Sextakkord auf der dritten Bassstufe. Bei diesen Umkehrungen verlangt er die Dissonanz in der Oberstimme. Nimmt der Bass eine andere Wendung, verlangt er Vorbereitung.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf#page=25"
+        }
+      ]
+    },
+    {
+      "id": "generalbass-stimmenzahl",
+      "title": "Muss ich einen Generalbass immer vierstimmig aussetzen?",
+      "group": "Generalbass",
+      "tags": [
+        "Begleitung",
+        "Oberstimme",
+        "Diskant",
+        "Lage",
+        "Klavier",
+        "Orgel",
+        "Stimmenzahl",
+        "Aussetzung",
+        "Continuo",
+        "Foerster"
+      ],
+      "reading": "Spiele dieselbe Bassfolge zuerst mit drei, dann mit zwei Tönen in der rechten Hand. Welche Stimme kannst du weglassen, ohne die geforderte Harmonie zu verlieren?",
+      "comparisons": [],
+      "related": [
+        "generalbass-sextakkord",
+        "stimmabstand",
+        "speziesmischung"
+      ],
+      "authors": [
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Vorwort und Nr. 1, T. 1–4, S. 1 (Remeš 2021, Vorwort und S. 1)",
+          "text": "Für angehende Komponisten hält Förster seine Übung vierstimmig. Der angegebene Diskant zeigt eine günstige Lage. Lernende sollen weitere Lagen versuchen. Wer an der Orgel begleitet, kann besonders bei rascher Bewegung mit weniger Stimmen spielen.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
+          "examples": [
+            "foerster-dreiklang"
+          ]
+        },
+        {
+          "name": "Daniel Gottlob Türk",
+          "work": "Kurze Anweisung zum Generalbaßspielen (Halle und Leipzig, 1791)",
+          "locator": "Zweites Kapitel, § 61 und Anmerkungen, S. 74–75 · Begleitung am Tasteninstrument",
+          "text": "Türk lässt Anfänger zunächst vierstimmig üben. Beim Begleiten entscheidet auch die Besetzung. Im Piano oder bei kleiner Besetzung genügen oft drei Stimmen. Im Pianissimo oder unter einer solistischen Singstimme können zwei reichen. Für einen großen Chor oder ein Fortissimo kommen fünf oder mehr in Betracht.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf#page=82"
+        }
+      ]
+    },
+    {
+      "id": "generalbass-transponieren",
+      "title": "Wie transponiere ich einen Generalbass am Instrument?",
+      "group": "Generalbass",
+      "tags": [
+        "Transposition",
+        "Stufen",
+        "Tonarten",
+        "Tastenspiel",
+        "Bezifferung",
+        "Foerster"
+      ],
+      "reading": "Spiele die Bassstufen zunächst allein. Ergänze die rechte Hand in der Ausgangstonart. Realisiere den Bass danach aus dem Kopf in einer anderen Tonart.",
+      "comparisons": [],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "generalbass-stimmenzahl",
+        "chromatik"
+      ],
+      "authors": [
+        {
+          "name": "Emanuel Aloys Förster",
+          "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+          "locator": "Vorwort zur I. Abteilung · Transponierübung für Organisten",
+          "text": "Förster lässt den Bass einige Tonarten aufwärts und abwärts versetzen, ohne die Akkorde vorher auszuschreiben. Von C aus nennt er etwa D und Es aufwärts sowie H und B abwärts. Die Stufen des Basses und die Intervalle darüber lassen sich so in jeder neuen Tonart an den Tasten wiederfinden.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
+          "examples": [
+            "foerster-transponieren"
+          ]
         }
       ]
     }
@@ -4482,6 +4738,83 @@ const ATLAS = {
       "caption": "Spiele in Takt 6–7 nur Sopran und Bass und höre auf die Bewegung in die Quinte. Nimm dann die Mittelstimmen hinzu. Im vierstimmigen Kanon begründen die Autoren diese direkte Außenquinte ausdrücklich mit der Schwierigkeit der Aufgabe.",
       "credit": "Marcel Bitsch · Teil II, Nr. 152, T. 6–7 und Anmerkung, S. 117. Zuschreibung im Index des exemples, S. 129.",
       "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch15imit4.pdf#page=1"
+    },
+    "foerster-dreiklang": {
+      "title": "Nr. 1 · Bassstufen im Dreiklangssatz",
+      "caption": "Unter dem Bass stehen die Stufenpaare 1–5, 6–2, 5–1 und 4–5. Spiele die beiden ausgeschriebenen Klänge im ersten Takt. Ergänze die Mittelstimmen dort, wo nur Bass und Oberstimme stehen.",
+      "alt": "Die ersten vier Takte von Nr. 1. Unter jeder Bassnote steht ihre Stufe. Die ersten beiden Klänge sind vollständig ausgesetzt.",
+      "credit": "Emanuel Aloys Förster, Practische Beyspiele, Wien, Artaria, 1818, I. Abteilung, S. 1, Nr. 1, T. 1–4. Ausschnitt aus dem historischen Druck, IMSLP Nr. 756100. Gemeinfrei.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
+      "image": "quellen/noten/foerster-dreiklang.webp"
+    },
+    "foerster-sextakkord": {
+      "title": "Nr. 8 · Eine Bassnote mit zwei verschiedenen Zahlen",
+      "caption": "Schau auf die zweite Hälfte des ersten Takts. Die 4 unter dem Bass bezeichnet seine Stufe in der Tonleiter. Die 6 darüber verlangt eine Sexte über diesem Basston. Spiele Terz und Sexte hinzu.",
+      "alt": "Die ersten vier Takte von Nr. 8. An der zweiten Bassnote des ersten Takts steht eine 4 unter dem System und eine 6 über dem Basston.",
+      "credit": "Emanuel Aloys Förster, Practische Beyspiele, Wien, Artaria, 1818, I. Abteilung, S. 4, Nr. 8, T. 1–4. Ausschnitt aus dem historischen Druck, IMSLP Nr. 756100. Gemeinfrei.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=6",
+      "image": "quellen/noten/foerster-sextakkord.webp"
+    },
+    "foerster-septimenvergleich": {
+      "title": "Die Septime auf der zweiten Stufe in Moll und Dur",
+      "caption": "Spiele in beiden Sätzen die ersten beiden Klänge. Links bleibt das a über dem neuen Bass h liegen, rechts das c über d. Der gehaltene Ton wird jeweils zur Septime. Verfolge dann den Bass bis zur Tonika.",
+      "alt": "Zwei kurze vierstimmige Notenbeispiele, links in Moll und rechts in Dur. Die Bassstufen 1, 2 und 5 stehen unter den Systemen. Über der zweiten Stufe ist die Septime beziffert.",
+      "credit": "Emanuel Aloys Förster, Practische Beyspiele, Wien, Artaria, 1818, I. Abteilung, S. 13, unnummerierter Vergleich zwischen Nr. 24 und 25. Ausschnitt aus dem historischen Druck, IMSLP Nr. 756100. Gemeinfrei.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=15",
+      "image": "quellen/noten/foerster-septimenvergleich.webp"
+    },
+    "foerster-vermindert": {
+      "title": "Nach Nr. 2 · Drei Fortschreitungen in zwei Fassungen",
+      "caption": "Spiele dieselbe Stelle zuerst bei a, dann bei b. Verfolge die Stimme, die bei b eine übermäßige Sekunde zurücklegt. Wie ändert Förster ihren Weg bei a? Wiederhole die Hörprobe mit den beiden anderen Lagen.",
+      "alt": "Drei kurze Akkordpaare in Gruppe a und drei in Gruppe b. Förster billigt die Stimmführung bei a und beanstandet die übermäßige Sekunde bei b.",
+      "credit": "Emanuel Aloys Förster, Practische Beyspiele, Wien, Artaria, 1818, I. Abteilung, S. 1–2, Anmerkung zu Nr. 2 und Notenbeispiele a und b. Ausschnitt aus dem historischen Druck, IMSLP Nr. 756100. Gemeinfrei.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=4",
+      "image": "quellen/noten/foerster-vermindert.webp"
+    },
+    "foerster-aufwaerts": {
+      "title": "Nr. 19 · Eine aufsteigende Dissonanz",
+      "caption": "Das Kreuz über der ersten Halben in Takt 5 verweist auf Försters Anmerkung. Spiele zunächst Bass und Sopran. Ergänze dann die Mittelstimmen aus den Ziffern und verfolge den aufwärts geführten Dissonanzton in den nächsten Klang.",
+      "alt": "Takte 1–6 der Nr. 19. In Takt 5 kennzeichnet ein Pluszeichen die Stelle, auf die sich Försters Kommentar zur aufwärts geführten Dissonanz bezieht.",
+      "credit": "Emanuel Aloys Förster, Practische Beyspiele, Wien, Artaria, 1818, I. Abteilung, S. 9, Nr. 19, T. 1–6. Anmerkung auf S. 10. Ausschnitt aus dem historischen Druck, IMSLP Nr. 756100. Gemeinfrei.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=11",
+      "image": "quellen/noten/foerster-aufwaerts.webp"
+    },
+    "foerster-nr8-t7": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 8 · Erhöhte Sexte über der vierten Stufe in Moll",
+      "caption": "In der zweiten Takthälfte von T. 7 steht a im Bass. Der vorgezeichnete Griff darüber enthält a, c und fis. Höre, welcher Ton verdoppelt ist. In e-Moll ist das fis die zweite Stufe. Die Sexte a–fis ist groß.",
+      "credit": "Emanuel Aloys Förster, Nr. 8, T. 7, zweite Halbe, Artaria 1818, I. Abteilung, S. 4.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=6"
+    },
+    "foerster-nr26-t11": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 26 · die Verdopplung vor der Quintfolge prüfen",
+      "caption": "Spiele in Takt 11 die Bassnoten h–c mit dem g im Diskant. Ergänze zum ersten Sextakkord einmal ein weiteres g, dann ein h. Verfolge die Mittelstimmen zum folgenden Quintsextakkord. Försters Erläuterung zum Zeichen +++ steht am Fuß derselben Druckseite.",
+      "credit": "Emanuel Aloys Förster, Nr. 26, T. 11 (Zeichen +++), Artaria 1818, I. Abteilung, S. 14.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=16"
+    },
+    "foerster-nr11": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 11 · zwei Stufenzahlen unter einem g",
+      "caption": "Lies die beiden Stufenangaben 5 und 4 unter dem ersten Basston von Takt 13 in ihren beiden Zeilen. Singe den Diskant h–cis–d bis Takt 14. Probiere dieselbe Linie mit b und vergleiche den ersten Schritt.",
+      "credit": "Emanuel Aloys Förster, Nr. 11, T. 13–14 (Zeichen +), Artaria 1818, I. Abteilung, S. 6.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=8"
+    },
+    "foerster-transponieren": {
+      "kind": "leseuebung",
+      "title": "Derselbe bezifferte Bass in C-Dur und Es-Dur",
+      "alt": "Zwei Basszeilen mit den Stufen 1, 3, 4, 5, 1. Die Ziffer 6 steht in C-Dur beim e und in Es-Dur beim g.",
+      "caption": "Spiele c–e–f–g–c und ergänze über e die Terz g und die Sexte c. Versetze den Bass nach Es-Dur. Welche zwei Töne ergänzen jetzt das g? Spiele die neue Lage und vergleiche die beiden Sextakkorde.",
+      "credit": "Eigenes Notenbeispiel der Atlasredaktion zur Übung im Vorwort der Practischen Beyspiele. Es-Dur, zweiter Basston g mit b und es.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
+      "image": "quellen/noten/foerster-transponieren.webp"
+    },
+    "foerster-nr26-t3": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 26 · Zwei Griffe über demselben Basston",
+      "caption": "Halte den Bass in Takt 3 und spiele beide von Förster erläuterten Lösungen der Folge 6–5. Verfolge, wie die Verdopplung im ersten Griff die Stimmen im zweiten verändert.",
+      "credit": "Emanuel Aloys Förster, Nr. 26, T. 3 und Anmerkung zum ersten Pluszeichen, Artaria 1818, I. Abteilung, S. 14.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=16"
     }
   }
 };

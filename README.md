@@ -1,6 +1,6 @@
 # [Kontrapunktatlas](https://muk-labs.github.io/Kontrapunktatlas/)
 
-Ein deutschsprachiger Fragenatlas für den Unterricht im Spezieskontrapunkt und in der Fuge. Ausgangspunkt ist Adrián Artachos MUK-Handout *Woche 1*. Eine Frage führt zu den entsprechenden Aussagen im modalen und tonalen Satz, zu Artachos Hindemith-Vergleich und zu einzeln belegten Lehrbuchpositionen und zu den Notenbildern der betreffenden Ausgaben.
+Ein deutschsprachiger Fragenatlas für den Unterricht in Spezieskontrapunkt, Fuge und Generalbass. Ausgangspunkt ist Adrián Artachos MUK-Handout *Woche 1*. Eine Frage führt zu den entsprechenden Aussagen im modalen und tonalen Satz, zu Artachos Hindemith-Vergleich und zu einzeln belegten Lehrbuchpositionen und zu den Notenbildern der betreffenden Ausgaben.
 
 ## Lokal öffnen und auf GitHub Pages veröffentlichen
 
@@ -32,6 +32,20 @@ Drei Einstiege für den Unterricht
 | [Was ist eine Engführung, und braucht jede Fuge eine?](https://muk-labs.github.io/Kontrapunktatlas/#frage=fuge-engfuehrung) | Die Überlappung in BWV 846 in Vierteln zählen. Anschließend Cherubinis Forderung mit Prouts ausdrücklichem Einwand vergleichen. |
 
 Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
+
+## Generalbass bei Emanuel Aloys Förster
+
+Der Themenfilter **Generalbass** führt zu fünf eigenen Fragen. Unter **Quelle oder Lehransatz → Emanuel Aloys Förster** erscheinen zusätzlich seine Beispiele zu Melodieführung, Harmonik, harmonischem Rhythmus, Chromatik, Dissonanzauflösung und Quintparallelen.
+
+| Frage | Aufgabe am Instrument |
+| --- | --- |
+| [Was unterscheidet die Generalbassziffer von der Bassstufe?](https://muk-labs.github.io/Kontrapunktatlas/#frage=generalbass-ziffern-stufen) | In Nr. 8 über dem Basston d die verlangte Sexte spielen und denselben Basston in a-Moll als vierte Stufe singen. |
+| [Welchen Ton darf ich beim Sextakkord verdoppeln?](https://muk-labs.github.io/Kontrapunktatlas/#frage=generalbass-sextakkord) | In Nr. 8, Takt 7, die erhöhte Sexte bestimmen. Anschließend in Nr. 26 prüfen, welche Verdopplung eine Quintfolge vermeidet. |
+| [Muss ich immer vierstimmig aussetzen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=generalbass-stimmenzahl) | Försters erste Basszeile als Kompositionsübung und als Orgelbegleitung spielen. Türk bezieht dazu die Besetzungsstärke und Dynamik ein. |
+| [Wann braucht der „zweydeutige“ Septimenakkord eine Vorbereitung?](https://muk-labs.github.io/Kontrapunktatlas/#frage=generalbass-zweideutiger-septakkord) | Die Septime auf der zweiten Mollstufe mit demselben Klang auf der siebten Durstufe vergleichen. Försters Einwand gegen Vogler und Knecht und sein eigenes Kriterium in § 69 stehen bei der Frage. |
+| [Wie transponiere ich einen Generalbass am Instrument?](https://muk-labs.github.io/Kontrapunktatlas/#frage=generalbass-transponieren) | Einen kurzen bezifferten Bass in C-Dur realisieren und ohne ausgeschriebene Mittelstimmen nach Es-Dur versetzen. |
+
+Grundlage ist die erste Abteilung der *Practischen Beyspiele*, Wien, Artaria, 1818. Sie setzt die *Anleitung zum Generalbass* von 1804 fort. Die Fundstellen nennen Seite und Beispiel im historischen Druck sowie gegebenenfalls die Seitenzählung in Derek Remeš’ Studienausgabe, Bd. 1.1, Stand 5. Januar 2021. Der öffentlich zugängliche Band bei TU Dortmund enthält eine spätere Revision. Die fünf historischen Notenausschnitte im Atlas stammen aus dem Artaria-Druck. Die Transponierübung ist eigens für den Atlas notiert. [Artaria-Digitalisat](https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf) · [Studienausgabe von Derek Remeš](https://doi.org/10.17877/TUDODATA-2025-MBUKJOWZ)
 
 ## Noël-Gallon und Marcel Bitsch im Atlas
 
