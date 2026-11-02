@@ -1,6 +1,6 @@
 # [Kontrapunktatlas](https://muk-labs.github.io/Kontrapunktatlas/)
 
-Ein deutschsprachiger Fragenatlas für den Unterricht im zweistimmigen Kontrapunkt, ausgehend von Adrián Artachos MUK-Handout *Woche 1*. Eine Frage führt zu den entsprechenden Aussagen im modalen und tonalen Satz, zu Artachos Hindemith-Vergleich und zu einzeln belegten Lehrbuchpositionen und zu den Notenbildern der betreffenden Ausgaben.
+Ein deutschsprachiger Fragenatlas für den Unterricht im Spezieskontrapunkt und in der Fuge. Ausgangspunkt ist Adrián Artachos MUK-Handout *Woche 1*. Eine Frage führt zu den entsprechenden Aussagen im modalen und tonalen Satz, zu Artachos Hindemith-Vergleich und zu einzeln belegten Lehrbuchpositionen und zu den Notenbildern der betreffenden Ausgaben.
 
 ## Lokal öffnen und auf GitHub Pages veröffentlichen
 
@@ -19,6 +19,19 @@ Drei Einstiege für den Unterricht
 | [Darf ich mit einer Quinte oder Oktave beginnen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=anfangsintervall) | Fux setzt den Kontrapunkt über und unter denselben Cantus. Bei Zarlino setzt die zweite Stimme verspätet ein. Prout eröffnet mit einer Dezime. |
 | [Darf eine Dissonanz auf eine betonte Zeit fallen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=betonte-dissonanz) | Cherubini markiert den betonten Durchgang in seiner Lösung mit einem Stern. Prout greift dieselben Takte auf. |
 | [Wie verlässt die Nota cambiata ihre Dissonanz?](https://muk-labs.github.io/Kontrapunktatlas/#frage=cambiata) | Cherubinis Korrektur und Bellermanns Palestrina-Beleg machen zwei verschiedene Bewertungen des Terzsprungs hör- und lesbar. |
+
+## Fuge im Unterricht
+
+Über **Fuge · Thema und Antwort** auf der Startseite oder den Themenfilter **Fuge** erreicht man die Fugenfragen. Jede Frage lässt sich wie die Speziesfragen als eigener Link teilen. Die Autorenpositionen nennen die jeweilige Aufgabe und Ausgabe. Die zusätzlich ausgewiesenen Partiturbeobachtungen sind redaktionelle Lesehinweise zu Bachs Notentext.
+
+| Frage | Vorschlag für den Unterricht |
+| --- | --- |
+| [Wann ist die Antwort real, wann tonal?](https://muk-labs.github.io/Kontrapunktatlas/#frage=fuge-reale-tonale-antwort) | In den Fugen BWV 846 und 847 aus dem ersten Teil des Wohltemperierten Klaviers jeweils die ersten vier Töne von Dux und Comes vergleichen. |
+| [Wie viele Einsätze braucht die Exposition?](https://muk-labs.github.io/Kontrapunktatlas/#frage=fuge-exposition) | Eine zweistimmige Exposition nach Prout und nach Gédalge skizzieren. Die Zahl der Einsätze an beiden Modellen ablesen. |
+| [Wo endet das Fugenthema?](https://muk-labs.github.io/Kontrapunktatlas/#frage=fuge-themenende) | Die Basslinie von BWV 872 einmal bis zur Grenze von Prout und einmal bis zur Grenze von Keller spielen. Beide Töne sind im Notenbild markiert. |
+| [Was ist eine Engführung, und braucht jede Fuge eine?](https://muk-labs.github.io/Kontrapunktatlas/#frage=fuge-engfuehrung) | Die Überlappung in BWV 846 in Vierteln zählen. Anschließend Cherubinis Forderung mit Prouts ausdrücklichem Einwand vergleichen. |
+
+Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
 
 ## Quellen und Bearbeitung
 
@@ -39,6 +52,16 @@ Die Bilder sind Ausschnitte der historischen Drucke. Unter jedem Bild stehen die
 | Heinrich Bellermann | *Der Contrapunkt*, 4. Auflage, Berlin 1901. [Sibley Music Library, University of Rochester, gemeinfrei](https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=21800). |
 | Percy Goetschius | *Exercises in Elementary Counterpoint*, G. Schirmer, 5. Auflage, Copyright 1910. [Gemeinfreies Cornell-Exemplar](https://commons.wikimedia.org/wiki/File:Exercises_in_elementary_counterpoint_(IA_cu31924021751098).pdf). |
 
+Für die Fugenfragen kommen folgende Ausgaben und Analysen hinzu.
+
+| Autor | Werk und Quelle |
+| --- | --- |
+| Johann Sebastian Bach | *Das Wohltemperirte Clavier*, Bach-Gesellschaft, Bd. 14, hg. Franz Kroll (Leipzig, 1866). Gemeinfreie Notenausschnitte aus [Teil I](https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf) und [Teil II](https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf). |
+| Luigi Cherubini | Der Fugenteil der oben aufgeführten Novello-Ausgabe enthält die gedruckten Vergleichsbeispiele zu Antwort und Engführung. |
+| Ebenezer Prout | *Fugue* (London, Augener, 9. Druck, Vorwort 1891), [Digitalisat der UNC Music Library](https://commons.wikimedia.org/wiki/File:Fugue_(IA_fugueprout).pdf). Dazu die von Louis B. Prout herausgegebene [*Analysis of J. S. Bach’s Forty-Eight Fugues*](https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf) (London, 1910). |
+| André Gédalge | *Traité de la fugue. De la fugue d’école* (Paris, Enoch, 1901). [Gemeinfreies Exemplar der Sibley Music Library](https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=22662). |
+| Hermann Keller | *Das Wohltemperierte Klavier von Johann Sebastian Bach. Werk und Wiedergabe* (Kassel, 1965), S. 130. [Analyse von BWV 872](https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf#page=3). |
+
 Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis des Übungsbuchs und zum Einlegeblatt des theoretischen Bandes. Die modernen Lehrtexte von John Rothgeb, Kris Shaffer und Mark Gotham sind bei der jeweiligen Frage verlinkt.
 
 ## Eine Frage oder Autorenposition ergänzen
@@ -50,6 +73,7 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | `species` | Optional. Die beiden Handout-Zeilen mit dem gemeinsamen Originaltitel und je fünf Zelltexten in `modal` und `tonal`. |
 | `comparisons` | Eine Liste der passenden Zeilen auf S. 9 mit `label`, `modal`, `tonal`, `hindemith` und `comment`. Für eine neue Frage zunächst eine leere Liste einsetzen. |
 | `authors` | Optional. Für jede belegte Position ein Objekt mit `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
+| `authors[].kind` | Optional. `partitur` kennzeichnet eine redaktionelle Beobachtung im Notentext eines Komponisten. |
 | `authors[].examples` | Optional. Liste der Kennungen aus dem zentralen Bildverzeichnis `ATLAS.examples`. So kann derselbe Ausschnitt mehrere Fragen belegen. |
 | `reading` | Optional. Kurzer redaktioneller Hinweis auf einen hör- oder lesbaren Unterschied zwischen den Quellen. |
 | `related` | Optional. Liste der Kennungen verwandter Fragen. |
