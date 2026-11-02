@@ -184,6 +184,14 @@ const ATLAS = {
           "locator": "Ending, Regel 7 · zweistimmig, erste Spezies, Kadenz",
           "text": "Endet der Cantus firmus mit der zweiten und ersten Stufe, führt Rothgeb die Gegenstimme über die siebte zur ersten Stufe. Das beschreibt die beiden letzten Töne der Übung.",
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 51–52, Bsp. 73–74 · aufwärts aufgelöster Vorhalt",
+          "text": "Piston erörtert den übergebundenen Leitton als Fall, in dem die Aufwärtsauflösung besonders naheliegt. Dasselbe gilt für chromatisch erhöhte Töne. Bei anderen Vorhaltstönen betrachtet er die Aufwärtsauflösung als Ausnahme.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -252,6 +260,14 @@ const ATLAS = {
           "examples": [
             "goetschius-45-tritonus"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. VII, S. 124–125 · Quarte in zwei und drei Stimmen",
+          "text": "Die reine Quarte über dem Bass behandelt Piston als Dissonanz. Zwischen zwei Oberstimmen kann dieselbe Quarte konsonant wirken. Spiele zum Vergleich zuerst e–a und füge darunter ein c hinzu. Der Abstand der beiden oberen Töne bleibt gleich.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -325,6 +341,18 @@ const ATLAS = {
           "examples": [
             "bellermann-109-sexte"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. I, S. 14 und 19, Bsp. 1 · instrumentale Melodie",
+          "text": "Im Adagio von Beethovens Quartett op. 18 Nr. 1 zählt Piston fünf Sprünge in einer sonst überwiegend schrittweisen Phrase. Dazu gehört die fallende verminderte Septime b–cis. Sein Beispiel stammt aus dem Streichquartett und zeigt den Spielraum einer Instrumentalstimme.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-beethoven-op18-1-adagio"
+          ],
+          "comparison": "Rothgebs Verbot dissonanter Sprünge gilt dem selbst geschriebenen Cantus firmus. Die Beethoven-Stelle zeigt, welche andere Aufgabe eine instrumentale Phrase dem Intervall stellen kann."
         }
       ]
     },
@@ -391,6 +419,14 @@ const ATLAS = {
           "examples": [
             "prout-sprungausgleich"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. I, S. 19–20, Bsp. 13–16 · instrumentale Melodie",
+          "text": "Nach Septim- und Oktavsprüngen beobachtet Piston fast immer eine Umkehr der Richtung. In Beispiel 14 umrahmt Corelli einen aufsteigenden Oktavsprung durch absteigende Schritte. Beispiel 16 aus Bruckners Vierter Symphonie führt Piston ausdrücklich als Ausnahme an.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -564,6 +600,14 @@ const ATLAS = {
           "examples": [
             "cherubini-durchgang"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 55–56, Bsp. 80–81 · Verzierung einer melodischen Linie",
+          "text": "Eine Wechselnote entfernt sich schrittweise vom Bezugston und kehrt zu ihm zurück. Bei einer Échappée geht die Linie schrittweise hinaus und springt zum Ziel. Beide Wege lassen sich am Rhythmus und an der Fortsetzung unterscheiden.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -598,7 +642,8 @@ const ATLAS = {
       },
       "related": [
         "konsonanz",
-        "unbetonte-dissonanz"
+        "unbetonte-dissonanz",
+        "harmonischer-rhythmus"
       ],
       "authors": [
         {
@@ -644,6 +689,14 @@ const ATLAS = {
           "locator": "Kap. VII, §§ 64–67, S. 30–31, Bsp. 54–56 · zweistimmige tonale Diminution",
           "text": "Der Akzent allein entscheidet bei Goetschius nicht, welches Gewicht eine Note hat. Auch auf dem betonten Teil des Schlags kann ein akkordfremder Ton stehen. In Bsp. 56 erscheinen Nebennoten auf dem Schlag und weichen dann dem tragenden Akkordton.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=42"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 46–49, Bsp. 62–69 · Appoggiatura und Durchgang",
+          "text": "Eine Appoggiatura hat melodisches Gewicht. Ein Durchgang kann auf die Eins fallen und dennoch unbetont klingen. Piston prüft dafür die hörbare Phrasierung.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt."
@@ -705,6 +758,14 @@ const ATLAS = {
           "examples": [
             "goetschius-60-nebennoten"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 46, Bsp. 62 · Appoggiatura im tonalen Repertoire",
+          "text": "Die unvorbereitete Appoggiatura wird bei Piston häufig angesprungen. Sie löst sich im Halb- oder Ganztonschritt aufwärts oder abwärts.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -771,6 +832,18 @@ const ATLAS = {
           "examples": [
             "bellermann-182-aufloesung"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 52 und 58, Bsp. 74 und 86–88 · Richtung und Verzierung der Auflösung",
+          "text": "Aufwärtsauflösungen sind für Piston besonders bei Leittönen und chromatisch erhöhten Tönen naheliegend. Der Auflösungston kann auch verzögert werden. In Beispiel 86 tritt zwischen h und das erwartete c ein d. Zur Untersuchung solcher Verzierungen empfiehlt er Bachs Italienisches Konzert, zweiter Satz.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-bach-bwv971-andante"
+          ],
+          "comparison": "Für Prouts strengen Satz ist bei der Aufwärtsauflösung nur die Tonika als Ziel vorgesehen. Piston nennt im tonalen Repertoire auch weitere, seltene Aufwärtsauflösungen."
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies."
@@ -849,6 +922,14 @@ const ATLAS = {
           "locator": "Kap. IV, § 43, S. 18 und Kap. VII, §§ 73–74, S. 33–35, Bsp. 61 und 63 · gleichmäßiger und bewegter Satz",
           "text": "Zwei Oktaven hintereinander verdoppeln die Linie. Auch eine einzelne unbetonte Zwischennote beseitigt den Einwand nicht. In Bsp. 61 beurteilt Goetschius die Trennung durch einen betonten tragenden Ton günstiger.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=45"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. V, S. 83–85, Bsp. 124–130, und Kap. VIII, S. 146–147, Bsp. 232–233 · zwei Stimmen und Quartett",
+          "text": "Im Zweistimmensatz hört Piston parallele Oktaven als Verdopplung. In Haydns Quartett op. 17 Nr. 6 beobachtet er eine auffällige Folge von Quinten zwischen den Mittelstimmen. Die Quinten lösen Dissonanzen auf und treten gerade dadurch hervor.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -929,6 +1010,15 @@ const ATLAS = {
           "examples": [
             "bellermann-155-verdeckte"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. V, S. 86–87, Bsp. 133–135 · Repertoireanalyse im zweistimmigen Satz",
+          "text": "Für direkte Quinten und Oktaven bestreitet Piston eine allgemeingültige Verbotsregel. An zwei Bach-Fugen beurteilt er, wie stark die Rhythmen beider Stimmen das Zielintervall hervorheben.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "comparison": "Rothgeb schließt in seiner ersten Spezies jede gerade Bewegung in eine vollkommene Konsonanz aus. Piston bestreitet die Geltung dieses Verbots für das Komponieren allgemein. Dieselbe Fortschreitung erhält so in der Übung und im Repertoire verschiedene Bewertungen."
         }
       ]
     },
@@ -967,7 +1057,8 @@ const ATLAS = {
         ]
       },
       "related": [
-        "stimmuebergreifen"
+        "stimmuebergreifen",
+        "doppelter-kontrapunkt"
       ],
       "authors": [
         {
@@ -1019,6 +1110,15 @@ const ATLAS = {
           "examples": [
             "cherubini-kreuzung"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. V, S. 81–82, Bsp. 122, und Kap. IX, S. 170, Bsp. 260 · zweistimmiger Satz und doppelter Kontrapunkt",
+          "text": "Im freien Zweistimmensatz erlaubt Piston Kreuzungen, solange jede Linie in ihrem Register erkennbar bleibt. Für doppelten Kontrapunkt empfiehlt er sie nur selten. Eine Kreuzung kann die geplante Vertauschung an dieser Stelle verhindern.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "comparison": "Die Speziestabelle des Handouts schließt die Kreuzung aus. Fux billigt sie in einer konkreten Aussetzung, und Piston unterscheidet zwischen gewöhnlichem und vertauschbarem zweistimmigem Satz."
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt."
@@ -1078,6 +1178,14 @@ const ATLAS = {
           "examples": [
             "prout-uebergreifen"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. V, S. 82, Bsp. 123 · Stimmen ohne Kreuzung",
+          "text": "In Pistons Beispiel übersteigt das neue c der Unterstimme das vorige a der Oberstimme. Das Ohr kann so Töne verschiedener Stimmen verbinden.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -1140,9 +1248,21 @@ const ATLAS = {
           "locator": "Erste Gattung, S. 146–148 · zwei benachbarte Singstimmen",
           "text": "Bellermann kombiniert für die Übung benachbarte Stimmlagen. Die Dezime ist der größte zugelassene Abstand und hat ihren Platz nur vorübergehend im Inneren des Satzes. Als Gründe nennt er die Intonation ohne Instrumente und die leere Klangwirkung bei weitem Abstand.",
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=175"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. VII, S. 132–134, Bsp. 218–221, und Kap. IX, S. 169–171 · Instrumentalsatz und Lagentausch",
+          "text": "Beim dreistimmigen Instrumentalsatz beurteilt Piston den Abstand nach Besetzung, Register und Verlauf der Linien. Für einen geplanten Lagentausch mit nur einer Oktavversetzung setzt er eine konkrete Grenze. Ein größerer Abstand ließe die Stimmen in ihrer bisherigen Reihenfolge.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "comparison": "Bellermanns Dezimengrenze bezieht sich auf benachbarte Singstimmen. Pistons Oktavgrenze ergibt sich aus der verlangten Vertauschung. Die beiden Zahlen beantworten unterschiedliche Fragen."
         }
       ],
-      "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig."
+      "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
+      "related": [
+        "doppelter-kontrapunkt"
+      ]
     },
     {
       "id": "hoehepunkt",
@@ -1196,6 +1316,17 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118094",
           "examples": [
             "fux-cantus-d"
+          ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. I, S. 13–16, Bsp. 1, 4 und 7 · Melodiekontur im Repertoire",
+          "text": "In Beethovens Adagio hört Piston neben dem höchsten Ton b kleinere Gipfel auf f und g. Die Lage des Hauptgipfels ist beweglich. In Mendelssohns Quartett op. 80 erreicht die von ihm gewählte Phrase ihren höchsten Ton erst am Schluss.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-beethoven-op18-1-adagio"
           ]
         }
       ]
@@ -1260,6 +1391,14 @@ const ATLAS = {
           "examples": [
             "bellermann-124-aeolisch"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 43–44 · chromatische Töne in der dur-moll-tonalen Melodie",
+          "text": "Piston fragt nach der Funktion des veränderten Tons. Er kann zu einer Zwischendominante oder einem alterierten Akkord gehören, melodischer Nebenton sein oder aus der gleichnamigen Dur- beziehungsweise Molltonart stammen.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -1466,6 +1605,15 @@ const ATLAS = {
           "locator": "Kap. VII, §§ 252–254, S. 103 · zweistimmig, vierte Spezies",
           "text": "Eine Bindung über die Taktgrenze kann einen gemeinsamen Akkordton festhalten. Zum Vorhalt wird sie, wenn der gehaltene Ton dem neuen Akkord fremd ist und schrittweise in einen seiner Töne weitergeht. Die Vorbereitung muss mindestens so lang dauern wie die angebundene Note.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 50–53, Bsp. 71–76 · Vorhalt im tonalen Repertoire",
+          "text": "Der gehaltene Ton wird beim Harmoniewechsel akkordfremd. In Bachs Contrapunctus I bespricht Piston sogar ein c, das bereits als Durchgangston vorbereitet wird.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "comparison": "Fux und Rothgeb verlangen in der vierten Spezies eine konsonante Vorbereitung. Das von Piston beschriebene Bach-Beispiel führt über die Speziesaufgabe hinaus."
         }
       ]
     },
@@ -1785,6 +1933,14 @@ const ATLAS = {
           "examples": [
             "fux-cantus-d"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Einleitung, S. 9–12, und Kap. V, S. 72–74 · tonaler Kontrapunkt im Repertoire",
+          "text": "Piston geht von komponierten Stücken aus. Am zweistimmigen Satz prüft er, wie zwei Linien eine Harmonie tragen und dennoch in Kontur und rhythmischer Betonung unterscheidbar bleiben. Auch eine begleitende Basslinie kann diese Eigenständigkeit besitzen.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -1826,6 +1982,14 @@ const ATLAS = {
           "examples": [
             "fux-vorhalt"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 44–45, Bsp. 59–60 · harmonische und kontrapunktische Dissonanz",
+          "text": "Eine Akkordseptime bleibt für Piston Akkordbestandteil, auch wenn sie sich schrittweise auflöst. Ein akkordfremder Ton kann dagegen den melodischen Charakter einer Phrase bestimmen.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -1926,9 +2090,20 @@ const ATLAS = {
           "locator": "Einleitung, S. 1–3, Bsp. 1–3 · Grundgedanke der Harmonielehre",
           "text": "Goetschius zeigt c, e und g zuerst als Akkord, dann nacheinander als Melodie. Im mehrstimmigen Satz geben die Akkorde den Linien Anhaltspunkte. Sein Beethoven-Beispiel lässt die Stimmen erst einzeln und dann im Zusammenhang lesen.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=13"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 40–42, und Kap. V, S. 75–76 · harmonische Deutung einer Linie und eines Zweiklangs",
+          "text": "Pistons römische Ziffer bezeichnet den Grundton der Harmonie. Dieser Ton kann in beiden Stimmen fehlen. Bei einer Terz kommen mehrere Grundtöne infrage. Eine hinzugefügte Begleitung kann deshalb die harmonische Deutung desselben Stimmenpaars verändern.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ],
-      "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden."
+      "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
+      "related": [
+        "harmonischer-rhythmus"
+      ]
     },
     {
       "id": "beurteilung",
@@ -1987,7 +2162,18 @@ const ATLAS = {
           "locator": "Kap. IV, §§ 44–46, S. 18–20, Bsp. 37–40 · zweistimmige Übung",
           "text": "Spiele oder singe den hinzugefügten Kontrapunkt allein. Goetschius zeigt, dass jede Vertikale konsonieren und die hinzugefügte Linie dennoch schlecht geführt sein kann. Vergleiche anschließend mehrere Lösungen zum selben gegebenen Satz.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=30"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. I, S. 23–24, Students’ Work · Ausführung der Melodieaufgaben",
+          "text": "Piston prüft zuerst, ob die Musik die gestellte Aufgabe erfüllt. Die Lernenden wählen ein Instrument, dessen Klang und Umfang sie kennen, und legen Tempo und Dynamik fest. So lässt sich die entworfene Linie in der vorgesehenen Ausführung beurteilen.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
+      ],
+      "related": [
+        "rhythmische-selbststaendigkeit"
       ]
     },
     {
@@ -2045,6 +2231,15 @@ const ATLAS = {
           "locator": "Regel 6 · dritte Spezies, zwei Stimmen",
           "text": "Die Figur beginnt auf dem ersten oder dritten Viertel. Ihr zweiter Ton ist eine schrittweise erreichte Dissonanz. Eine gleichgerichtete Terz führt zur Konsonanz, dann folgen zwei Schritte in Gegenrichtung. Auch der fünfte Ton muss konsonant sein.",
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. III, S. 55–58, Bsp. 81 und 86 · Terminologie der tonalen Verzierung",
+          "text": "Pistons Grundform verziert einen Sekundschritt. Die rhythmisch leichte Zwischennote wird durch einen Terzsprung erreicht und schrittweise verlassen. Für die Figur mit Schritt hinein und Terzsprung zurück zum Ziel verwendet er den Namen Échappée.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "comparison": "Bei Fux und Rothgeb wird die Dissonanz schrittweise erreicht und im Terzsprung verlassen. Pistons Grundform kehrt die Reihenfolge um. Singe zum Vergleich h–d–c aus seinem Beispiel 86 und die mit 8–7–5 bezeichnete Stelle bei Fux."
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt."
@@ -2096,6 +2291,15 @@ const ATLAS = {
           "locator": "Regel 7 · zweite Spezies, Inneres der Übung",
           "text": "In der Übung mit zwei Halben pro Takt lässt Rothgeb den Einklang im Taktinneren auf der leichten Halben zu.",
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. V, S. 81–82, Bsp. 121–122 · Zweistimmigkeit im Repertoire",
+          "text": "Kurze Einklänge im Inneren kommen häufig vor. Piston vermeidet besonders die schrittweise Annäherung an einen Liegeton. Das Verlassen des Einklangs im Schritt ist gebräuchlich.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "comparison": "Der Einklang im Inneren, den Fux für Note gegen Note ausschließt, gehört bei Piston zum Repertoire. Bei Rothgeb ändert sich seine Zulässigkeit bereits zwischen erster und zweiter Spezies."
         }
       ]
     },
@@ -2174,6 +2378,14 @@ const ATLAS = {
           "locator": "Regel 8 · zweite Spezies, Halbenstimme",
           "text": "Sobald zwei Halbe gegen eine Ganze stehen, darf die Halbenstimme weder im Takt noch über den Taktstrich hinweg denselben Ton neu anschlagen.",
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. I, S. 24, Students’ Work · einstimmige instrumentale Melodieübung",
+          "text": "Piston rät, unmittelbare Wiederholungen sparsam einzusetzen. Auch ein einzelner Ton soll nicht unverhältnismäßig viel Gewicht bekommen. Die Übung gilt der durchgehenden Kontur einer längeren Phrase.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -2513,7 +2725,8 @@ const ATLAS = {
       "related": [
         "fuge-exposition",
         "fuge-themenende",
-        "fuge-zwischenspiel"
+        "fuge-zwischenspiel",
+        "doppelter-kontrapunkt"
       ],
       "authors": [
         {
@@ -2553,6 +2766,18 @@ const ATLAS = {
           "examples": [
             "bach-wtk1-847-kontrasubjekt"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. IX, S. 169 und 176, Bsp. 258 und 270 · vertauschbarer Kontrapunkt",
+          "text": "Piston erklärt den Nutzen des Oktavtauschs für Thema und Kontrasubjekt. Beide Linien bleiben in engem Raum vertauschbar. Als weitergehenden Fall nennt er Bachs g-Moll-Fuge BWV 885, deren Sechzehntel-Gegenstimme auch in der Dezime oder Duodezime verwendet werden kann.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-bach-bwv885-kontrasubjekt"
+          ],
+          "comparison": "Gédalge fordert in der Schulfuge die Vertauschbarkeit in der Oktave oder Doppeloktave. Prouts Analyse von BWV 885 lokalisiert auch die von Piston genannten anderen Vertauschungen. Die Stellen sind über die Frage zum doppelten Kontrapunkt verlinkt."
         }
       ]
     },
@@ -2712,6 +2937,14 @@ const ATLAS = {
           "examples": [
             "bach-wtk1-847-episode"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. VIII, S. 155, Bsp. 247 · paarweise Imitation",
+          "text": "Piston beschreibt paarweise Imitation als mögliche Satzweise eines Fugenzwischenspiels. Beispiel 247 veranschaulicht die Stimmenverteilung an einem Konzert von Bach. Hier imitieren sich Bass und Tenor sowie Alt und Sopran.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
         }
       ]
     },
@@ -2733,7 +2966,8 @@ const ATLAS = {
       "related": [
         "fuge-themenende",
         "fuge-exposition",
-        "fuge-gegenexposition"
+        "fuge-gegenexposition",
+        "imitation-und-kanon"
       ],
       "authors": [
         {
@@ -2773,6 +3007,182 @@ const ATLAS = {
           "examples": [
             "bach-wtk1-846-engfuehrung"
           ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. X, S. 190, Bsp. 284 · Kanon als Technik der Fuge",
+          "text": "Piston beschreibt die Engführung als einen Kanon, in dem das Fugenthema sich selbst imitiert. Seine Definition erklärt das Verfahren. Ob jede Fuge es enthalten soll, entscheidet diese Stelle nicht.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "harmonischer-rhythmus",
+      "title": "Wann wechselt die Harmonie unter einer bewegten Melodie?",
+      "group": "Satzmodelle",
+      "tags": [
+        "harmonischer Rhythmus",
+        "Grundtonwechsel",
+        "Harmoniewechsel",
+        "Synkope",
+        "Metrum"
+      ],
+      "reading": "Klopfe die Taktanfänge, singe die Melodie und markiere anschließend nur die Wechsel des Akkordgrundtons. Wo fallen die drei Impulse zusammen? Vergleiche Schumanns Klavierstück mit Prouts Vorgabe für zwei Halbe gegen eine Ganze.",
+      "comparisons": [],
+      "related": [
+        "harmonik",
+        "rhythmische-selbststaendigkeit",
+        "betonte-dissonanz"
+      ],
+      "authors": [
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. IV, S. 60–66, bes. Bsp. 96–97 · Schumann, Kinderszenen op. 15 Nr. 10",
+          "text": "Piston verfolgt die Grundtonwechsel und die Akzente der Melodie getrennt. Bei Schumann verdeutlicht der harmonische Rhythmus die Taktgrenzen. Gerade dadurch tritt die Verschiebung der Melodie hervor.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-schumann-fast-zu-ernst"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "locator": "Kap. V, § 172, S. 76 · zweite Spezies",
+          "text": "Prout bevorzugt in seiner Übung einen Akkord pro Cantus-firmus-Ton. Beide Halben können derselben Harmonie angehören. Zwei Akkorde lässt er zu, etwa für eine Kadenz oder um eine fehlerhafte Akkordfolge zu vermeiden.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=80"
+        }
+      ]
+    },
+    {
+      "id": "rhythmische-selbststaendigkeit",
+      "title": "Woran höre ich, dass zwei Stimmen rhythmisch selbstständig sind?",
+      "group": "Stimmführung",
+      "tags": [
+        "rhythmische Unabhängigkeit",
+        "Rhythmus",
+        "Akzent",
+        "Augmentation",
+        "Vergrößerung",
+        "Umkehrung",
+        "Gegenstimme"
+      ],
+      "reading": "Klopfe beide Stimmen auf getrennten Händen. Achte darauf, wann die Bewegung die Hand wechselt. Prüfe bei Bach außerdem, wie der Themenkopf in Umkehrung und mit längeren Notenwerten wiederkehrt.",
+      "comparisons": [],
+      "related": [
+        "harmonischer-rhythmus",
+        "fuge-kontrasubjekt",
+        "imitation-und-kanon"
+      ],
+      "authors": [
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. V, S. 79–81, Bsp. 117–120 · rhythmische Eigenständigkeit zweier Linien",
+          "text": "Bei Beethoven verfolgt Piston, wie sich die Bewegung zwischen zwei Stimmen abwechselt. Bei Bach können sogar zwei Fassungen desselben Themas verschiedene Zeitebenen bilden. In Beispiel 120 erklingt die obere Fassung in Umkehrung und mit doppelten Notenwerten.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-bach-contrapunctus-vii"
+          ]
+        },
+        {
+          "name": "André Gédalge",
+          "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
+          "locator": "Titel IV, §§ 105–106, S. 59–60 · Entwurf für die Schulfuge",
+          "text": "Gédalge gewinnt die rhythmische Gegenstimme aus den Freiräumen des Themas. Singe im Notenbeispiel nur die Einsätze, die in eine Pause der anderen Stimme fallen.",
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=71",
+          "examples": [
+            "fuge-gedalge-bach-contresujet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doppelter-kontrapunkt",
+      "title": "Was ändert sich, wenn Ober- und Unterstimme die Lage tauschen?",
+      "group": "Stimmführung",
+      "tags": [
+        "doppelter Kontrapunkt",
+        "umkehrbarer Kontrapunkt",
+        "vertauschbarer Kontrapunkt",
+        "Oktave",
+        "Dezime",
+        "Duodezime",
+        "Lagentausch",
+        "inversion"
+      ],
+      "reading": "Singe zuerst die Gegenstimme in Bachs g-Moll-Fuge BWV 885. Suche sie nach dem Lagentausch wieder. Aus einer Terz wird beim Tausch in der Oktave eine Sexte. Prüfe, welche Zusammenklänge bei einem anderen Versetzungsintervall entstehen.",
+      "comparisons": [],
+      "related": [
+        "fuge-kontrasubjekt",
+        "stimmabstand",
+        "stimmkreuzung"
+      ],
+      "authors": [
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. IX, S. 167–169 und 176, Bsp. 256–258 und 270 · Lagentausch",
+          "text": "Die Stimmen behalten beim Tausch ihre melodische Richtung. Piston lässt Ausgangslage und Vertauschung gleichzeitig erarbeiten und spielen. Eine Quinte wird beim Oktavtausch zur Quarte. In der zweistimmigen Übung muss der Satz auch diese Dissonanz tragen.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-bach-bwv885-kontrasubjekt"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
+          "locator": "Fuge Nr. 40, S. 75–76 · BWV 885, T. 20, 28 und 32–40",
+          "text": "Prout bestimmt den Lagentausch am Verlauf einer Fuge. Bei Takt 20 betrachtet er den doppelten Kontrapunkt in der Oktave, in Takt 28 in der Duodezime und bei den folgenden beiden Einsätzen in der Dezime.",
+          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=80",
+          "examples": [
+            "piston-bach-bwv885-duodezime"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imitation-und-kanon",
+      "title": "Wann wird aus der Nachahmung eines Motivs ein Kanon?",
+      "group": "Satzmodelle",
+      "tags": [
+        "motivische Imitation",
+        "Kanon",
+        "Canon",
+        "Einsatzabstand",
+        "Nachahmung",
+        "Oktavkanon"
+      ],
+      "reading": "Merke dir den Themenbeginn. Verfolge dann die zweite Stimme über die ersten Töne hinaus. Wie lange bleibt ihr Verlauf aus der ersten Stimme ableitbar? Ab welcher Stelle gehen die Stimmen gegebenenfalls eigene Wege?",
+      "comparisons": [],
+      "related": [
+        "fuge-engfuehrung",
+        "fuge-reale-tonale-antwort",
+        "rhythmische-selbststaendigkeit"
+      ],
+      "authors": [
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. VI, S. 111, Bsp. 184, und Kap. X, S. 188–189, Bsp. 281 · motivische Imitation und zweistimmiger Kanon",
+          "text": "Bei Mozart erkennt Piston ein Motiv am gleichen Rhythmus trotz geänderter Intervalle. Im zweistimmigen Kanon folgt eine Stimme der Melodie der anderen mit zeitlichem Abstand. Zusätzliche freie Stimmen dürfen den Kanon begleiten.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-bach-oktavkanon"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. I, §§ 4–5, S. 1–2 · Fuge im Vergleich mit Kanon",
+          "text": "Prout verfolgt die Stimmen nach ihrem Einsatz. In der Fuge dürfen sie nach dem Thema frei weitergehen. Für den Kanon verlangt er fortgesetzte Nachahmung. Dabei kann beispielsweise eine große Sekunde zur kleinen werden.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=18"
         }
       ]
     }
@@ -3409,6 +3819,62 @@ const ATLAS = {
       "caption": "Singe im Sopran c–d–e und setze im Tenor mit g–a–h ein. Das g des Tenors erklingt bereits zum e des Soprans.",
       "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
       "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=4"
+    },
+    "piston-beethoven-op18-1-adagio": {
+      "image": "quellen/noten/piston-beethoven-op18-1-adagio.webp",
+      "title": "Beethovens erste Violine · vom a zum b und zurück ins tiefere Register",
+      "alt": "Der Beginn des Adagio aus dem Streichquartett op. 18 Nr. 1. Nach einem Takt Pause beginnt die erste Violine auf a. Gegen Ende der ersten Zeile fällt sie vom hohen b zum cis.",
+      "caption": "Spiele die erste Violine ab Takt 2. Der höchste Ton b fällt in Takt 6, den fünften Takt der klingenden Phrase. Von dort fällt die Linie unmittelbar zum cis. Piston bespricht diese Stelle in Beispiel 1.",
+      "credit": "Ludwig van Beethoven, Streichquartett op. 18 Nr. 1, II, T. 1–9 (bis zum ersten Ton von T. 9). Violino I, Mainz, Schott, zwischen 1835 und 1850, S. 4. Sibley Music Library, University of Rochester, gemeinfreies Digitalisat. Zwei Ausschnitte derselben Seite.",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=36634&itemId=15798#page=4"
+    },
+    "piston-bach-bwv971-andante": {
+      "image": "quellen/noten/piston-bach-bwv971-andante.webp",
+      "title": "Die Oberstimme setzt über einer bereits hörbaren Begleitung ein",
+      "alt": "Anfang des Andante aus dem Italienischen Konzert. Drei Takte erklingt die Begleitung allein. Im vierten Takt kommt die reich verzierte Oberstimme hinzu.",
+      "caption": "Spiele zuerst die linke Hand. Behalte deren Achtelpuls bei und singe ab Takt 4 die rechte Hand dazu. Piston empfiehlt nach Beispiel 88 den ganzen Satz zur Analyse. Der Atlas zeigt dafür den Satzanfang.",
+      "credit": "J. S. Bach, Italienisches Konzert BWV 971, II, T. 1–7. Bach-Gesellschaft, Bd. III, Leipzig, Breitkopf & Härtel, 1853, S. 144. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/23/IMSLP00795-BWV0971.pdf#page=6"
+    },
+    "piston-bach-bwv885-kontrasubjekt": {
+      "image": "quellen/noten/piston-bach-bwv885-kontrasubjekt.webp",
+      "title": "BWV 885 · Antwort und Gegenstimme",
+      "alt": "Die g-Moll-Fuge beginnt im Tenor. An der gedruckten 5 setzt im oberen System die Antwort ein. Darunter beginnt eine Linie mit Sechzehnteln.",
+      "caption": "Singe bei der 5 zunächst die Unterstimme, dann die Stimme darüber. Der Tenor wechselt vom Thema zur Gegenstimme für die Antwort des Alts. Piston bespricht die Vertauschbarkeit dieser Linien in Beispiel 270. Hier ist der Anfang der Fuge in der Bach-Gesellschaft-Ausgabe zu sehen.",
+      "credit": "J. S. Bach, Das Wohltemperirte Clavier II, Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig 1866. Gemeinfreier Druck, Ausschnitt. S. 156, T. 1–10.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf#page=68"
+    },
+    "piston-bach-bwv885-duodezime": {
+      "image": "quellen/noten/piston-bach-bwv885-duodezime.webp",
+      "title": "BWV 885 · dieselben Stimmen in anderer Lage",
+      "alt": "Zweite Notenzeile von Seite 157. Der Themeneinsatz in der Mittelstimme ist von schnelleren Gegenstimmen umgeben. Die Zahl 30 markiert den letzten Takt des Systems.",
+      "caption": "Zähle von der gedruckten 30 zwei Takte zurück. In Takt 28 übernimmt der Alt das Thema. Suche die aus der Exposition vertrauten Sechzehntel und vergleiche die Zusammenklänge mit der ersten Fassung. Prout bestimmt für diese Stelle die Vertauschung in der Duodezime.",
+      "credit": "J. S. Bach, Das Wohltemperirte Clavier II, Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig 1866. Gemeinfreier Druck, Ausschnitt. S. 157, T. 27–30.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf#page=69"
+    },
+    "piston-bach-oktavkanon": {
+      "image": "quellen/noten/piston-bach-oktavkanon.webp",
+      "title": "Bachs Oktavkanon · vier Takte Vorsprung",
+      "alt": "Zwei Systeme des Canon alla Octava. Vier Takte lang spielt die Oberstimme allein. Am Beginn der zweiten Zeile übernimmt die Unterstimme ihre Melodie.",
+      "caption": "Spiele die erste Zeile. Beginne sie dann eine Oktave tiefer, während die Oberstimme in der zweiten Zeile weiterspielt. Diesen Kanon wählt Piston für Beispiel 281. Hier steht sein Beginn im Nägeli-Druck.",
+      "credit": "J. S. Bach, Die Kunst der Fuge, Canon alla Octava, Zürich, Hans Georg Nägeli, [1802], S. 141. Zentralbibliothek Zürich, Mus 839, e-rara, Public Domain Mark, DOI 10.3931/e-rara-23502. Ausschnitt.",
+      "url": "https://www.e-rara.ch/zuz/content/pageview/7282169"
+    },
+    "piston-bach-contrapunctus-vii": {
+      "image": "quellen/noten/piston-bach-contrapunctus-vii.webp",
+      "title": "Bachs Contrapunctus VII · ein Themenkopf in zwei Zeitmaßen",
+      "alt": "Vier Notenzeilen in Partituranordnung. Der Tenor beginnt in Takt 1. Der Sopran setzt in Takt 2 mit längeren Werten ein, der Alt im dritten Takt mit kürzeren. Der Bass pausiert.",
+      "caption": "Vergleichsstelle aus demselben Werk, Takt 1–3. Klopfe im Tenor die ersten drei Töne d–a–g (Viertel, punktierte Achtel, Sechzehntel). Der Sopran antwortet mit a–d–e (Halbe, punktierte Viertel, Achtel). Die erste Quinte fällt nun, und die drei Dauern sind jeweils verdoppelt.",
+      "credit": "J. S. Bach, Die Kunst der Fuge, BWV 1080/7. Notensatz Arnaud Gossart (2006) nach Breitkopf & Härtel (1885), Mutopia-2006/04/13-736. Vom Notensetzer als gemeinfrei gekennzeichnet. Ausschnitt.",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1080/contrapunctusVII/contrapunctusVII-a4.pdf#page=1"
+    },
+    "piston-schumann-fast-zu-ernst": {
+      "image": "quellen/noten/piston-schumann-fast-zu-ernst.webp",
+      "title": "Schumann · Fast zu ernst",
+      "alt": "Beginn von Fast zu ernst im Zweiachteltakt. Die Oberstimme beginnt auftaktig und bindet über die Taktstriche, während die linke Hand auf den Taktanfängen spielt.",
+      "caption": "Spiele zuerst nur die oberste Stimme. Ergänze die linke Hand und klopfe die Eins mit. Wo du den Taktanfang hörst, kann sich durch die zweite Hand ändern. Piston untersucht das Stück in Beispiel 96. Der Atlas zeigt den Anfang in einem separaten historischen Druck.",
+      "credit": "Robert Schumann, Kinderscenen op. 15, Nr. 10, Auftakt und T. 1–5, gedruckte S. 14. Leipzig, Breitkopf & Härtel, Pl.-Nr. 6016. Badische Landesbibliothek Karlsruhe, DonMusDr 3156, Public Domain Mark 1.0. Ausschnitt.",
+      "url": "https://digital.blb-karlsruhe.de/blbihd/content/pageview/6854379"
     }
   }
 };

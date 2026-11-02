@@ -59,7 +59,7 @@
     for (const c of topic.comparisons) fields.push(c.label, "Hindemith zweistimmig");
     if (topic.comparisons.length) fields.push("Artacho Handout Lehrmodelle");
     for (const a of topic.authors || []) {
-      fields.push(a.name, a.work, a.text, a.locator);
+      fields.push(a.name, a.work, a.text, a.locator, a.comparison);
       for (const id of a.examples || []) fields.push(scores[id].title, scores[id].caption);
     }
     return normalize(fields.filter(Boolean).join(" "));
@@ -229,9 +229,20 @@
       if (a.kind === "partitur") card.append(el("span", "eyebrow", "Partiturbeobachtung"));
       card.append(el("h4", "", a.name), el("p", "", a.text));
       const citation = [a.work, a.locator].filter(Boolean).join(", ");
-      card.append(a.url && /^https?:\/\//i.test(a.url)
-        ? link(citation || "Quelle öffnen", a.url, "source-link")
-        : el("small", "ref", citation));
+      if (a.catalogue) {
+        const ref = el("small", "ref", citation + " · ");
+        ref.append(link("Bibliotheksnachweis", a.url, "source-link"));
+        card.append(ref);
+      } else {
+        card.append(a.url && /^https?:\/\//i.test(a.url)
+          ? link(citation || "Quelle öffnen", a.url, "source-link")
+          : el("small", "ref", citation));
+      }
+      if (a.comparison) {
+        const comparison = el("p", "author-comparison");
+        comparison.append(el("strong", "", "Redaktioneller Vergleich · "), a.comparison);
+        card.append(comparison);
+      }
       if (a.examples?.length) {
         card.append(button("Zum Notenbild", "score-jump", () =>
           document.getElementById("bild-" + a.examples[0]).focus()));
