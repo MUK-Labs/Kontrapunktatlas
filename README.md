@@ -33,6 +33,23 @@ Drei Einstiege für den Unterricht
 
 Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
 
+## Walter Piston im Atlas
+
+Im Filter **Quelle oder Lehransatz** führt **Walter Piston** zu den passenden Fragen. Die Seiten und Beispielnummern beziehen sich auf *Counterpoint*, London, Victor Gollancz, sechster Druck 1970. Das Buch erschien zuerst 1947 bei W. W. Norton in New York. Der Bibliothekslink weist die britische Ausgabe nach. [Katalog der britischen Ausgabe](https://ci.nii.ac.jp/ncid/BA86907493?l=en)
+
+Pistons Ausgangspunkt ist das tonale Repertoire. Bei jeder Position steht, ob er eine Übung anleitet oder eine Komposition untersucht. **Redaktioneller Vergleich** kennzeichnet die Einordnung gegenüber den anderen Quellen. Bei der [Cambiata](https://muk-labs.github.io/Kontrapunktatlas/#frage=cambiata) bezeichnet dasselbe Wort zwei verschiedene Bewegungsfiguren. Bei den [verdeckten Quinten und Oktaven](https://muk-labs.github.io/Kontrapunktatlas/#frage=verdeckte-parallelen) geht es um die Reichweite eines Verbots.
+
+Vier zusätzliche Fragen führen von der Analyse zur eigenen Übung.
+
+| Frage | Aufgabe am Notenbild |
+| --- | --- |
+| [Wann wechselt die Harmonie unter einer bewegten Melodie?](https://muk-labs.github.io/Kontrapunktatlas/#frage=harmonischer-rhythmus) | Bei Schumann Taktanfang, Melodieakzent und Harmoniewechsel getrennt verfolgen. |
+| [Woran höre ich rhythmische Selbstständigkeit?](https://muk-labs.github.io/Kontrapunktatlas/#frage=rhythmische-selbststaendigkeit) | Bachs Themenkopf in zwei Zeitmaßen klopfen und mit Gédalges rhythmischer Ergänzung vergleichen. |
+| [Wann wird Imitation zum Kanon?](https://muk-labs.github.io/Kontrapunktatlas/#frage=imitation-und-kanon) | Im Oktavkanon verfolgen, wie lange sich die zweite Stimme aus der ersten ableiten lässt. |
+| [Was ändert sich beim Lagentausch?](https://muk-labs.github.io/Kontrapunktatlas/#frage=doppelter-kontrapunkt) | In BWV 885 die Gegenstimme zuerst unter, dann über dem Thema aufsuchen. |
+
+Die eingebetteten Noten stammen aus eigenständig nachgewiesenen, gemeinfreien Ausgaben von Bach, Beethoven und Schumann. Die Bildtexte unterscheiden die von Piston besprochene Stelle von ergänzend ausgewählten Takten desselben Werks. Unter jedem Notenbild führt ein Link zur verwendeten Ausgabe.
+
 ## Quellen und Bearbeitung
 
 Die ursprünglichen 24 Tabellenzeilen stehen vollständig in **atlas-data.js**. Jede enthält fünf modale und fünf tonale Zellen, in der Reihenfolge S1 bis S5. Die zugrunde liegenden Seiten sind im dreiseitigen PDF-Ausschnitt als S. 6 und 8 paginiert. Die 17 Zeilen auf S. 9 bilden einen eigenen Vergleich. „Hindemith“ bezeichnet dort Artachos Zusammenfassung. Die Zeilen wurden thematisch zugeordnet und bleiben über ihren Originaltitel auffindbar.
@@ -73,6 +90,8 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | `species` | Optional. Die beiden Handout-Zeilen mit dem gemeinsamen Originaltitel und je fünf Zelltexten in `modal` und `tonal`. |
 | `comparisons` | Eine Liste der passenden Zeilen auf S. 9 mit `label`, `modal`, `tonal`, `hindemith` und `comment`. Für eine neue Frage zunächst eine leere Liste einsetzen. |
 | `authors` | Optional. Für jede belegte Position ein Objekt mit `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
+| `authors[].comparison` | Optional. Vergleich der Redaktion mit einer anderen belegten Position. |
+| `authors[].catalogue` | Optional. `true` kennzeichnet die Quellen-URL als Bibliotheksnachweis. Die Seite und das Beispiel stehen im Feld `locator`. |
 | `authors[].kind` | Optional. `partitur` kennzeichnet eine redaktionelle Beobachtung im Notentext eines Komponisten. |
 | `authors[].examples` | Optional. Liste der Kennungen aus dem zentralen Bildverzeichnis `ATLAS.examples`. So kann derselbe Ausschnitt mehrere Fragen belegen. |
 | `reading` | Optional. Kurzer redaktioneller Hinweis auf einen hör- oder lesbaren Unterschied zwischen den Quellen. |
