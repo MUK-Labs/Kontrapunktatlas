@@ -60,6 +60,13 @@ const ATLAS = {
           "locator": "Regeln 8 und 13 · Cantus firmus in Dur",
           "text": "Für seinen Cantus firmus vermeidet Rothgeb zwei gleichgerichtete Sprünge nach Möglichkeit. Drei aufeinanderfolgende Töne dürfen zusammen weder eine Septime noch eine größere Dissonanz umspannen.",
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, § 28 C–D, S. 19 · mehrere aufeinanderfolgende Töne",
+          "text": "Überbrücken drei Töne eine Septime oder None, muss eine der beiden Bewegungen ein Schritt sein. Bei der None zählt auch der Rhythmus. In Ganzen und Synkopen gilt sie als gut, in Halben als möglich. In Vierteln soll man sie möglichst meiden.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=2"
         }
       ],
       "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht."
@@ -146,6 +153,17 @@ const ATLAS = {
           "examples": [
             "cherubini-anfang"
           ]
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil II, Kap. I, S. 59, zu § 57 · zwei Stimmen, erste Spezies",
+          "text": "Der Bass beginnt auf der Tonika. Oben kann die Tonika oder die Dominante stehen. In C-Dur sind so c–c und c–g möglich, jeweils auch in anderer Oktavlage. Der Schluss verlangt in beiden Stimmen die Tonika.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=1",
+          "comparison": "Prout lässt im zweistimmigen Note-gegen-Note-Satz auch die Terz als Anfang zu. Noël-Gallon und Bitsch beschränken dieselbe Aufgabe auf die erste und fünfte Stufe über dem Grundton.",
+          "examples": [
+            "gallon-bitsch-nr-1-2"
+          ]
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht."
@@ -192,6 +210,13 @@ const ATLAS = {
           "text": "Piston erörtert den übergebundenen Leitton als Fall, in dem die Aufwärtsauflösung besonders naheliegt. Dasselbe gilt für chromatisch erhöhte Töne. Bei anderen Vorhaltstönen betrachtet er die Aufwärtsauflösung als Ausnahme.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, § 30, S. 20 · Akkordtöne und melodische Zusatztöne",
+          "text": "Ist der Leitton ein Akkordton, hat er keine vorgeschriebene Fortsetzung. Er kann die Tonika also auch verfehlen. Seine Rolle in einer bestimmten Schlussformel ist davon zu unterscheiden. Für Durchgang, Wechselnote und Vorhalt verlangen die Autoren dagegen schrittweise Stimmführung.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=3"
         }
       ]
     },
@@ -268,6 +293,13 @@ const ATLAS = {
           "text": "Die reine Quarte über dem Bass behandelt Piston als Dissonanz. Zwischen zwei Oberstimmen kann dieselbe Quarte konsonant wirken. Spiele zum Vergleich zuerst e–a und füge darunter ein c hinzu. Der Abstand der beiden oberen Töne bleibt gleich.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. IV, § 54, S. 30 · Quarte und verminderte Quinte im mehrstimmigen Satz",
+          "text": "Eine reine oder übermäßige Quarte und eine verminderte Quinte können zwischen zwei Oberstimmen aus Akkordtönen bestehen. Über dem Bass entstehen sie im Regelfall durch melodische Zusatztöne. Für die verminderte Quinte gibt es ab vier Stimmen eine Ausnahme im vorletzten Takt, wenn der Leitton im Bass durch einen Vorhalt verzögert wird.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=8"
         }
       ]
     },
@@ -353,6 +385,13 @@ const ATLAS = {
             "piston-beethoven-op18-1-adagio"
           ],
           "comparison": "Rothgebs Verbot dissonanter Sprünge gilt dem selbst geschriebenen Cantus firmus. Die Beethoven-Stelle zeigt, welche andere Aufgabe eine instrumentale Phrase dem Intervall stellen kann."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, §§ 25, 27, S. 18–19 · einfacher strenger Kontrapunkt",
+          "text": "Bis zur kleinen Sexte sind große, kleine und reine Intervalle erlaubt, darüber die reine Oktave. In Achteln muss die Stimme schrittweise gehen. Erst ab sechs Stimmen kommt die große Sexte als seltener Sprung hinzu.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=1"
         }
       ]
     },
@@ -427,6 +466,13 @@ const ATLAS = {
           "text": "Nach Septim- und Oktavsprüngen beobachtet Piston fast immer eine Umkehr der Richtung. In Beispiel 14 umrahmt Corelli einen aufsteigenden Oktavsprung durch absteigende Schritte. Beispiel 16 aus Bruckners Vierter Symphonie führt Piston ausdrücklich als Ausnahme an.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, §§ 26, 28 D, S. 18–19 · Taktübergang und Oktavsprung",
+          "text": "Vor einem Sprung über den Taktstrich soll die Stimme ihre Richtung wechseln, besonders bei Vierteln. Für Quarte und Quinte gibt es seltene Ausnahmen. Die Oktave soll möglichst von beiden Seiten durch Gegenbewegung ausgeglichen werden.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=1"
         }
       ]
     },
@@ -478,6 +524,14 @@ const ATLAS = {
           "examples": [
             "goetschius-12-akkorde"
           ]
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, § 25, S. 18 · Sprünge in einer Einzelstimme",
+          "text": "Ein auf- oder absteigendes Arpeggio soll aus der Gesangslinie ausscheiden. Die Notenzeile darunter zeigt, wie sich dieselben Akkordtöne durch eine andere Reihenfolge mit Richtungswechsel verbinden lassen. Diese gebrochene Form dulden die Autoren ausnahmsweise.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=1",
+          "comparison": "Goetschius prüft, ob gleichgerichtete Sprünge einen Akkord umreißen können. Noël-Gallon und Bitsch beanstanden die gewöhnliche Arpeggiofigur gerade wegen ihrer melodischen Gestalt."
         }
       ]
     },
@@ -608,6 +662,13 @@ const ATLAS = {
           "text": "Eine Wechselnote entfernt sich schrittweise vom Bezugston und kehrt zu ihm zurück. Bei einer Échappée geht die Linie schrittweise hinaus und springt zum Ziel. Beide Wege lassen sich am Rhythmus und an der Fortsetzung unterscheiden.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. V, §§ 66–67, S. 35 · Durchgänge und Wechselnoten",
+          "text": "Auf dem leichten Schlag oder der leichten Unterteilung erlauben die Autoren steigende und fallende Durchgänge sowie reguläre obere und untere Wechselnoten. Treffen sie mit bewegten Tönen anderer Stimmen zusammen, bevorzugen die Autoren Gegenbewegung.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=3"
         }
       ]
     },
@@ -697,6 +758,13 @@ const ATLAS = {
           "text": "Eine Appoggiatura hat melodisches Gewicht. Ein Durchgang kann auf die Eins fallen und dennoch unbetont klingen. Piston prüft dafür die hörbare Phrasierung.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. V, § 66, S. 35 · Beispiele unter dem ersten Notensystem",
+          "text": "Dauert dieselbe Harmonie zwei Takte, kann ein Durchgang oder eine Wechselnote auf der Eins des zweiten Takts stehen. In den beiden bezeichneten Beispielen darf ein Durchgang auf schwerer Zeit außerdem einen Vorhalt begleiten. Die beiden betreffenden Linien gehen schrittweise in Gegenbewegung.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=3"
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt."
@@ -766,6 +834,13 @@ const ATLAS = {
           "text": "Die unvorbereitete Appoggiatura wird bei Piston häufig angesprungen. Sie löst sich im Halb- oder Ganztonschritt aufwärts oder abwärts.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, §§ 29–30, S. 20, und Kap. V, § 63 A, S. 33",
+          "text": "Durchgang, Wechselnote und Vorhalt verlangen stufenweise Bewegung. Beim Vorhalt liegt der betreffende Ton bereits vor dem Harmoniewechsel. Für seine Vorbereitung schreiben die Autoren mindestens eine Halbe vor.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1"
         }
       ]
     },
@@ -844,6 +919,13 @@ const ATLAS = {
             "piston-bach-bwv971-andante"
           ],
           "comparison": "Für Prouts strengen Satz ist bei der Aufwärtsauflösung nur die Tonika als Ziel vorgesehen. Piston nennt im tonalen Repertoire auch weitere, seltene Aufwärtsauflösungen."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. V, § 64, S. 34 · Auflösungszeitpunkt und Verzierung",
+          "text": "Im einfachen strengen Satz gehört die Auflösung auf den zweiten Schlag. Der Vorhalt darf vorher einen Akkordton berühren. Auch die Auflösungsnote kann früher erklingen, sofern sie am regulären Platz noch einmal erscheint.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=2"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies."
@@ -930,6 +1012,13 @@ const ATLAS = {
           "text": "Im Zweistimmensatz hört Piston parallele Oktaven als Verdopplung. In Haydns Quartett op. 17 Nr. 6 beobachtet er eine auffällige Folge von Quinten zwischen den Mittelstimmen. Die Quinten lösen Dissonanzen auf und treten gerade dadurch hervor.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. IV, § 42, S. 24 · unmittelbare Folge zweier reiner Quinten oder Oktaven",
+          "text": "Für zwei bis fünf Stimmen sind auch zwei reine Quinten oder Oktaven in Gegenbewegung verboten. Ab sechs Stimmen dulden die Autoren eine solche Gegenbewegung, sofern das Paar nicht beide Außenstimmen umfasst. Ab sieben gilt die Ausnahme für jedes Stimmenpaar. Gleichgerichtete Parallelen bleiben ausgeschlossen.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=2"
         }
       ]
     },
@@ -1019,6 +1108,13 @@ const ATLAS = {
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
           "comparison": "Rothgeb schließt in seiner ersten Spezies jede gerade Bewegung in eine vollkommene Konsonanz aus. Piston bestreitet die Geltung dieses Verbots für das Komponieren allgemein. Dieselbe Fortschreitung erhält so in der Übung und im Repertoire verschiedene Bewertungen."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. IV, §§ 44–45, S. 26–27 · Außen- und Innenstimmen",
+          "text": "Im zweistimmigen Satz ist das Erreichen der Quinte oder Oktave in gleichgerichteter Bewegung verboten. Ab drei Stimmen darf die Oberstimme in der Schlusskadenz mit einem Schritt die Außenoktave erreichen. Beteiligt sich eine Mittelstimme, genügt für Quinte oder Oktave ein Schritt in einer der Stimmen. Zwei Sprünge sind möglich, wenn der Zielklang einen der betreffenden Töne mit der vorigen Harmonie teilt.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=4"
         }
       ]
     },
@@ -1119,6 +1215,14 @@ const ATLAS = {
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
           "comparison": "Die Speziestabelle des Handouts schließt die Kreuzung aus. Fux billigt sie in einer konkreten Aussetzung, und Piston unterscheidet zwischen gewöhnlichem und vertauschbarem zweistimmigem Satz."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. IV, §§ 50–51, S. 28–29 · einfacher Kontrapunkt",
+          "text": "Kurze Kreuzungen zwischen Nachbarstimmen sind erst ab drei Stimmen zugelassen, zunächst nur im Inneren. Ab fünf Stimmen dürfen sich auch im Schlusstakt zwei Stimmen kreuzen. Gegen- und Seitenbewegung werden bevorzugt. Bei gerader Bewegung muss eine Stimme einen Schritt machen.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=6",
+          "comparison": "Fux gestattet im zweistimmigen Note-gegen-Note-Beispiel eine Kreuzung über vier Töne. Im einfachen Kontrapunkt von Noël-Gallon und Bitsch beginnt diese Freiheit erst bei drei Stimmen."
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt."
@@ -1257,11 +1361,20 @@ const ATLAS = {
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
           "comparison": "Bellermanns Dezimengrenze bezieht sich auf benachbarte Singstimmen. Pistons Oktavgrenze ergibt sich aus der verlangten Vertauschung. Die beiden Zahlen beantworten unterschiedliche Fragen."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. IV, § 49, S. 28 · benachbarte Stimmen im einfachen Kontrapunkt",
+          "text": "Am Taktanfang sollen Nachbarstimmen weniger als zwei Oktaven auseinanderliegen. Innerhalb des Taktes kann ihr Abstand kurz auf zwei Oktaven oder darüber anwachsen. Entscheidend ist damit auch, auf welchen Taktteil die weiteste Stelle fällt.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=6",
+          "comparison": "Bellermann zieht für benachbarte Singstimmen schon bei der vorübergehenden Dezime die Grenze. Noël-Gallon und Bitsch gestatten denselben Stimmen einen größeren Abstand."
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
       "related": [
-        "doppelter-kontrapunkt"
+        "doppelter-kontrapunkt",
+        "doppelchor-basslinien"
       ]
     },
     {
@@ -1399,6 +1512,13 @@ const ATLAS = {
           "text": "Piston fragt nach der Funktion des veränderten Tons. Er kann zu einer Zwischendominante oder einem alterierten Akkord gehören, melodischer Nebenton sein oder aus der gleichnamigen Dur- beziehungsweise Molltonart stammen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, §§ 27, 33–36, S. 19, 21–22 · melodisches Moll",
+          "text": "Ein unmittelbarer chromatischer Schritt ist verboten. In a-Moll können fis im Aufstieg und g im Abstieg als Durchgänge oder Wechselnoten auftreten, ausnahmsweise auch als Akkordtöne im entsprechenden Stufengang. Zwischen zwei Formen derselben Stufe wünschen die Autoren in einer Stimme mindestens drei andere Töne.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=4"
         }
       ]
     },
@@ -1483,6 +1603,18 @@ const ATLAS = {
           "locator": "Zweite Gattung, S. 153–154 · zwei halbe Noten gegen eine ganze",
           "text": "Eine Dissonanz auf der zweiten Halben muss bei Bellermann in derselben Richtung schrittweise von Konsonanz zu Konsonanz führen. Er trennt diesen Durchgang von der Nebennote, die umkehrt oder abspringt. Für historische Nebennoten verweist er auf kürzere Notenwerte.",
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=181"
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. V, § 66, S. 35 · Durchgang und Wechselnote",
+          "text": "Die dissonante zweite Halbe kann stufenweise in derselben Richtung weitergehen oder als Wechselnote zum Ausgangston zurückkehren. Die allgemeine Regel lässt Wechselnoten von oben und von unten zu.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=3",
+          "comparison": "Fux und Rothgeb verlangen für eine dissonante zweite Halbe den Durchgang in derselben Richtung. Die Wechselnote wäre in ihren entsprechenden Übungen ausgeschlossen.",
+          "examples": [
+            "gallon-bitsch-durchgang-nebennote",
+            "gallon-bitsch-nr-7-9"
+          ]
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu."
@@ -1579,7 +1711,8 @@ const ATLAS = {
       },
       "related": [
         "unterbrechung-s4",
-        "dissonanzaufloesung"
+        "dissonanzaufloesung",
+        "dauer-der-vorhaltsvorbereitung"
       ],
       "authors": [
         {
@@ -1614,6 +1747,17 @@ const ATLAS = {
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
           "comparison": "Fux und Rothgeb verlangen in der vierten Spezies eine konsonante Vorbereitung. Das von Piston beschriebene Bach-Beispiel führt über die Speziesaufgabe hinaus."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. V, §§ 61–64, S. 33–34 · Richtung und Auflösung",
+          "text": "Den aus der Höhe kommenden Vorhalt behandeln die Autoren als Normalfall. Einen von unten aufgelösten Vorhalt lassen sie zur Tonika in Moll zu. Außerdem zeigen sie diesen Aufwärtsschritt bei einem zum Cantus firmus konsonanten Vorhalt. Die Bezeichnungen oben und unten meinen hier die Lage zum Auflösungston.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1",
+          "comparison": "Rothgeb verlangt für die dissonante Bindung in seiner zweistimmigen vierten Spezies die abwärts gerichtete Auflösung. Die Molltonika bildet bei Noël-Gallon und Bitsch einen ausdrücklichen Sonderfall.",
+          "examples": [
+            "gallon-bitsch-nr-15-16"
+          ]
         }
       ]
     },
@@ -1675,6 +1819,17 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=109",
           "examples": [
             "prout-kette"
+          ]
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. II, § 17, S. 15, und Teil II, Kap. I, S. 62 · vierte Spezies",
+          "text": "In einer schwierigen Stelle erlauben die Autoren eine einzige Unterbrechung der Synkopen pro Übung. Wenn zwei Harmonien innerhalb desselben Takts die Bindung retten, ziehen sie diesen Harmoniewechsel vor.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=4",
+          "comparison": "Rothgeb erlaubt bei unlösbaren Bindungen ein bis zwei Ausnahmen pro Übung. Die zahlenmäßige Grenze fällt hier enger aus.",
+          "examples": [
+            "gallon-bitsch-nr-15-16"
           ]
         }
       ],
@@ -1743,7 +1898,20 @@ const ATLAS = {
           "locator": "Fünfte Gattung, S. 182 und 185, Nr. 4 · Diminution im zweistimmigen Vokalsatz",
           "text": "Eine zahlenmäßige Dissonanzquote gibt Bellermann hier nicht an. Für die Verzierung begrenzt er aber den Bewegungsraum konkret. Zwei Achtel dürfen auf dem zweiten oder vierten Viertel erscheinen. In dieser kurzen Figur lässt er auch die Nebennote zu.",
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=213"
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. II, § 21 C, S. 16, und § 23 A, S. 17 · Floridus",
+          "text": "In einer Stimme dürfen höchstens vier Noten in einem Takt stehen. Achtel sitzen auf der leichten Unterteilung und werden sparsam verwendet. Sie gehen untereinander und zur nächsten Note schrittweise. Diese Höchstzahl begrenzt alle Töne zusammen und zählt damit auch die Konsonanzen.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=2",
+          "examples": [
+            "gallon-bitsch-nr-19-20"
+          ]
         }
+      ],
+      "related": [
+        "speziesmischung"
       ]
     },
     {
@@ -1941,6 +2109,13 @@ const ATLAS = {
           "text": "Piston geht von komponierten Stücken aus. Am zweistimmigen Satz prüft er, wie zwei Linien eine Harmonie tragen und dennoch in Kontur und rhythmischer Betonung unterscheidbar bleiben. Auch eine begleitende Basslinie kann diese Eigenständigkeit besitzen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, §§ 1–5, S. 11–12, und §§ 10–15, S. 13–14 · Anlage der Übungen",
+          "text": "Die Folge beginnt mit kurzen Vokallinien zu einem gegebenen Cantus. Die Lernenden arbeiten vom zwei- bis zum achtstimmigen Satz. In fünf bis acht Stimmen beschränkt sich der einfache Kontrapunkt auf Note gegen Note und den Floridus. Für den achtstimmigen Doppelchor folgt eine eigene Aufgabe.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch1Ppes.pdf#page=3"
         }
       ]
     },
@@ -2045,6 +2220,13 @@ const ATLAS = {
           "locator": "Kap. IV, § 47, S. 20, Bsp. 41 · vollständige zweistimmige Phrase",
           "text": "Beide Stimmen können auf dem Grundton in Oktavlage schließen. Goetschius nennt dies die übliche, aber ausdrücklich fakultative Schlussbildung.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=32"
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil II, Kap. I, S. 59, zu § 57 · zwei Stimmen, erste Spezies in Dur und Moll",
+          "text": "Im Schlusstakt treffen sich beide Stimmen auf der ersten Stufe, im Einklang oder in Oktavlage. Für den vorletzten Takt stehen V oder V⁶ sowie der Sextakkord der VII. Stufe zur Wahl. Bei der letzten Möglichkeit steht in C-Dur ein d im Bass, während die Oberstimme mit h zur Tonika führen kann.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=1"
         }
       ]
     },
@@ -2098,6 +2280,13 @@ const ATLAS = {
           "text": "Pistons römische Ziffer bezeichnet den Grundton der Harmonie. Dieser Ton kann in beiden Stimmen fehlen. Bei einer Terz kommen mehrere Grundtöne infrage. Eine hinzugefügte Begleitung kann deshalb die harmonische Deutung desselben Stimmenpaars verändern.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. IV, §§ 58–60, S. 31–32 · einfacher Kontrapunkt",
+          "text": "Ab drei Stimmen wird auf dem schweren Taktteil der vollständige Akkord angestrebt. Im dreistimmigen Satz dürfen im Inneren höchstens zwei unvollständige Akkorde stehen, nie unmittelbar nacheinander. Der vorletzte muss vollständig sein. Eine einzige vorübergehende Ausweichung in eine nahe Tonart ist zulässig.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10"
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -2170,6 +2359,13 @@ const ATLAS = {
           "text": "Piston prüft zuerst, ob die Musik die gestellte Aufgabe erfüllt. Die Lernenden wählen ein Instrument, dessen Klang und Umfang sie kennen, und legen Tempo und Dynamik fest. So lässt sich die entworfene Linie in der vorgesehenen Ausführung beurteilen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Vorwort, S. 5, und Teil I, § 15, S. 14 · Ziel der Satzarbeit",
+          "text": "Jede Stimme soll beweglich bleiben, sich von den anderen unterscheiden und Abwechslung bieten. Beim Hinzutreten weiterer Stimmen gelten bestimmte Erleichterungen. Ob eine davon an der konkreten Stelle greift, hängt davon ab, wie viele Stimmen dort bereits singen.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch1Ppes.pdf#page=4"
         }
       ],
       "related": [
@@ -2300,6 +2496,16 @@ const ATLAS = {
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
           "comparison": "Der Einklang im Inneren, den Fux für Note gegen Note ausschließt, gehört bei Piston zum Repertoire. Bei Rothgeb ändert sich seine Zulässigkeit bereits zwischen erster und zweiter Spezies."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. IV, § 53, S. 29–30 · metrische Lage und Stimmenzahl",
+          "text": "Im zweistimmigen Satz darf ein Einklang im Inneren auf leichtem Taktteil stehen. Auf schwerem Taktteil ist er Anfang und Ende vorbehalten. Vierstimmig kann er aus melodischen Gründen zwischen den beiden Unterstimmen vorkommen, ab fünf Stimmen auch zwischen anderen Paaren. Gerades Eintreten in den Einklang bleibt verboten.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=7",
+          "examples": [
+            "gallon-bitsch-nr-93-94"
+          ]
         }
       ]
     },
@@ -2318,7 +2524,9 @@ const ATLAS = {
       "related": [
         "hoehepunkt",
         "melodische-intervalle",
-        "tonwiederholung"
+        "tonwiederholung",
+        "doppelchor-basslinien",
+        "speziesmischung"
       ],
       "authors": [
         {
@@ -2336,6 +2544,16 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118094",
           "examples": [
             "fux-cantus-d"
+          ]
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, §§ 3–4 und 14, S. 11 und 14 · gegebene Übungsmelodie",
+          "text": "Die vorgegebene Melodie steht in langen, gleich großen Notenwerten. Dieselbe Aufgabe wird mit dem Cantus firmus in verschiedenen Stimmlagen bearbeitet. Beim Wechsel der Lage darf die Melodie transponiert werden. Für den Doppelchor treten zwei gegebene Basslinien an ihre Stelle.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch1Ppes.pdf#page=1",
+          "examples": [
+            "gallon-bitsch-nr-1-2"
           ]
         }
       ]
@@ -2386,6 +2604,14 @@ const ATLAS = {
           "text": "Piston rät, unmittelbare Wiederholungen sparsam einzusetzen. Auch ein einzelner Ton soll nicht unverhältnismäßig viel Gewicht bekommen. Die Übung gilt der durchgehenden Kontur einer längeren Phrase.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. III, § 31 mit Anm. 1, S. 20 · nach Stimmenzahl",
+          "text": "In zwei Stimmen darf keine Stimme denselben Ton zweimal nacheinander anschlagen. Ab drei Stimmen darf zwischen vorletztem und letztem Takt ausnahmsweise eine Halbe oder Viertel wiederholt werden. Die Wiederholung ganzer Noten in der ersten Spezies erlauben die Autoren erst ab fünf Stimmen und nur sparsam.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=3",
+          "comparison": "In derselben zweistimmigen ersten Spezies lässt Rothgeb den wiederholten Ton der Gegenstimme ausdrücklich zu. Bei Fux billigt Aloysius das zweimal angeschlagene a. Noël-Gallon und Bitsch schließen beides für diese Besetzung aus."
         }
       ]
     },
@@ -2778,6 +3004,13 @@ const ATLAS = {
             "piston-bach-bwv885-kontrasubjekt"
           ],
           "comparison": "Gédalge fordert in der Schulfuge die Vertauschbarkeit in der Oktave oder Doppeloktave. Prouts Analyse von BWV 885 lokalisiert auch die von Piston genannten anderen Vertauschungen. Die Stellen sind über die Frage zum doppelten Kontrapunkt verlinkt."
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, § 104, S. 50 · Kontrasubjekt und Stimmtausch",
+          "text": "Zum Hauptthema der Fuge können ein oder mehrere Nebenthemen als Kontrasubjekte treten. Da Thema und Kontrasubjekte durch die verschiedenen Stimmen wandern, setzen die Autoren ihre Vertauschbarkeit voraus.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2"
         }
       ]
     },
@@ -3015,6 +3248,13 @@ const ATLAS = {
           "text": "Piston beschreibt die Engführung als einen Kanon, in dem das Fugenthema sich selbst imitiert. Seine Definition erklärt das Verfahren. Ob jede Fuge es enthalten soll, entscheidet diese Stelle nicht.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, § 104, S. 50 · kanonische Führung von Thema und Antwort",
+          "text": "Unter einer eigentlichen Engführung verstehen die Autoren einen Kanon zwischen Fugenthema und Antwort. Höre auf den Moment, in dem die Antwort einsetzt, während das Thema noch weiterläuft.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2"
         }
       ]
     },
@@ -3054,6 +3294,13 @@ const ATLAS = {
           "locator": "Kap. V, § 172, S. 76 · zweite Spezies",
           "text": "Prout bevorzugt in seiner Übung einen Akkord pro Cantus-firmus-Ton. Beide Halben können derselben Harmonie angehören. Zwei Akkorde lässt er zu, etwa für eine Kadenz oder um eine fehlerhafte Akkordfolge zu vermeiden.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=80"
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, § 59, S. 32 · einfacher Kontrapunkt, auch vierte Spezies",
+          "text": "Gewöhnlich gilt eine Harmonie pro Takt. Sie kann sich auch über mehrere Takte erstrecken. In der vierten Spezies ziehen die Autoren einen zweiten Klang im selben Takt einer unterbrochenen Synkopenkette vor, besonders bei Synkopen im Bass.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10"
         }
       ]
     },
@@ -3120,7 +3367,8 @@ const ATLAS = {
       "related": [
         "fuge-kontrasubjekt",
         "stimmabstand",
-        "stimmkreuzung"
+        "stimmkreuzung",
+        "kanon-verfahren"
       ],
       "authors": [
         {
@@ -3143,6 +3391,17 @@ const ATLAS = {
           "examples": [
             "piston-bach-bwv885-duodezime"
           ]
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, §§ 81–83, S. 41 · Vertauschung in der Oktave",
+          "text": "Beim Oktavtausch wird die reine Quinte zur reinen Quarte. Darum schließen die Autoren die Quinte zwischen zwei Akkordtönen aus. Als Durchgang, Wechselnote oder Vorhalt darf ein Melodieton eine Quinte bilden. Die Prüfung gilt bei mehr als zwei Stimmen für jedes Stimmenpaar.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch7renvPpes.pdf#page=1",
+          "comparison": "Prout findet bei Bach auch Vertauschungen in Dezime und Duodezime. Noël-Gallon und Bitsch erwähnen weitere Intervalle, beschränken ihre Übungen aber auf den Oktavtausch.",
+          "examples": [
+            "gallon-bitsch-nr-119"
+          ]
         }
       ]
     },
@@ -3163,7 +3422,8 @@ const ATLAS = {
       "related": [
         "fuge-engfuehrung",
         "fuge-reale-tonale-antwort",
-        "rhythmische-selbststaendigkeit"
+        "rhythmische-selbststaendigkeit",
+        "kanon-verfahren"
       ],
       "authors": [
         {
@@ -3183,6 +3443,196 @@ const ATLAS = {
           "locator": "Kap. I, §§ 4–5, S. 1–2 · Fuge im Vergleich mit Kanon",
           "text": "Prout verfolgt die Stimmen nach ihrem Einsatz. In der Fuge dürfen sie nach dem Thema frei weitergehen. Für den Kanon verlangt er fortgesetzte Nachahmung. Dabei kann beispielsweise eine große Sekunde zur kleinen werden.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=18"
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, §§ 101–103, S. 49 · Imitation, Intervalltreue und Kanon",
+          "text": "Beim Kanon setzt die nachahmende Stimme so früh ein, dass beide Linien sich überlagern, und führt die Nachahmung fort. Davon unterscheiden die Autoren die Frage der Intervalltreue. Eine regelmäßige Imitation übernimmt die Intervalle genau, bei einer unregelmäßigen dürfen sie sich ändern, etwa um die Tonart zu erhalten.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=1",
+          "examples": [
+            "gallon-bitsch-nr-135"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speziesmischung",
+      "title": "Dürfen zwei Gegenstimmen dieselbe Spezies führen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Speziesmischung",
+        "kombinierter Kontrapunkt",
+        "grand mélange",
+        "mélanges",
+        "mehrstimmig",
+        "Rhythmus",
+        "Halbenstimmen"
+      ],
+      "reading": "Markiere den Cantus firmus. Klopfe dann die Rhythmen der übrigen Stimmen einzeln. Vergleiche die Anzahl verschiedener Rhythmen bei Prout mit der Besetzung im grand mélange.",
+      "related": [
+        "cantus-firmus",
+        "rhythmische-selbststaendigkeit",
+        "dichte-s5",
+        "grundrahmen"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, §§ 12–13 und 20, S. 13 und 16 · drei und vier Stimmen",
+          "text": "In der Speziesmischung erhält jede Gegenstimme einen eigenen Rhythmus. Im vierstimmigen grand mélange stehen gegen die Ganzen des Cantus firmus eine Halbenstimme, eine Viertelstimme und eine synkopierte Stimme. Eine Fußnote lässt auch eine floride Stimme in der Mischung zu.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=2",
+          "comparison": "Prout beginnt seinen Lehrgang zum kombinierten Kontrapunkt ausdrücklich mit zwei bewegten Stimmen derselben Spezies. Für die französische Mischübung würden diesen beiden Stimmen verschiedene Rhythmen zugeteilt.",
+          "examples": [
+            "gallon-bitsch-grand-melange",
+            "gallon-bitsch-nr-93-94"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "locator": "Kap. XI, §§ 394–396 und 402–403, S. 153 und 155 · kombinierter Kontrapunkt",
+          "text": "Sobald mindestens zwei Stimmen in einer anderen als der ersten Spezies stehen, spricht Prout von kombiniertem Kontrapunkt. Beide dürfen dieselbe Spezies führen. Er lässt zunächst zwei Halbenstimmen gegen die gegebenen Ganzen schreiben und kombiniert erst danach unterschiedliche Spezies.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=157",
+          "examples": [
+            "prout-zwei-halbenstimmen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dauer-der-vorhaltsvorbereitung",
+      "title": "Wie lange muss ich einen Vorhalt vorbereiten?",
+      "group": "Dissonanz",
+      "tags": [
+        "Vorbereitung",
+        "Vorhalt",
+        "Mindestdauer",
+        "Halbe",
+        "Bindung",
+        "retard"
+      ],
+      "reading": "Miss zuerst den Vorbereitungston bis zum Taktstrich und dann den übergebundenen Teil. Welche Dauer nennt das jeweilige Lehrbuch als Maßstab?",
+      "related": [
+        "bindung-s4",
+        "unterbrechung-s4",
+        "dissonanzaufloesung",
+        "sprung-in-dissonanz"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. V, § 63 A, S. 33 · die beiden Notenbeispiele zur Mindestdauer",
+          "text": "Die Vorbereitung eines Vorhalts dauert mindestens eine Halbe. Im Notenpaar zu § 63 A genügt die Halbe, während eine Viertelvorbereitung als zu kurz markiert ist. Bei fünf oder mehr Stimmen erwähnen die Autoren auch eine Ganze als Vorbereitung.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1",
+          "comparison": "Prout formuliert die Dauer im Verhältnis zur gebundenen Note. Noël-Gallon und Bitsch geben für ihre Übungen einen festen Mindestwert an. Beim Halbennoten-Vorhalt führen beide Angaben zu derselben Grenze.",
+          "examples": [
+            "gallon-bitsch-vorhaltsvorbereitung"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "locator": "Kap. VII, §§ 252–253, S. 103 · Bindung und Vorhalt",
+          "text": "Prout vergleicht die Dauern beiderseits des Bindebogens. Der auf leichter Zeit beginnende Ton muss mindestens so lange dauern wie der angebundene Ton auf schwerer Zeit. Für die beiden Halben der vierten Spezies ergeben sich gleiche Dauern.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107"
+        }
+      ]
+    },
+    {
+      "id": "kanon-verfahren",
+      "title": "Wie verändere ich ein Motiv durch Gegenbewegung, Krebs oder Augmentation?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Kanon",
+        "Umkehrung",
+        "Krebs",
+        "Gegenbewegung",
+        "Augmentation",
+        "Diminution",
+        "Vergrößerung",
+        "Verkleinerung",
+        "imitation rétrograde"
+      ],
+      "reading": "Vergleiche Tonrichtung, Reihenfolge und Dauer unabhängig voneinander. Welche Eigenschaft bleibt in jeder Antwort hörbar? Singe anschließend Bachs Themenkopf in der Vergrößerung gegen die schnellere Stimme.",
+      "related": [
+        "imitation-und-kanon",
+        "rhythmische-selbststaendigkeit",
+        "fuge-engfuehrung",
+        "doppelter-kontrapunkt"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, §§ 105–107, S. 50–51 · Gestalt und Dauer der Antwort",
+          "text": "Beim Krebs kehrt sich die Reihenfolge der Töne um, bei der Gegenbewegung die Richtung jedes Intervalls. Beide Verfahren lassen sich verbinden. Unabhängig davon können die Noten der Antwort länger oder kürzer dauern als die der Vorlage. Die Autoren kombinieren auch diese Vergrößerung oder Verkleinerung mit den Richtungswechseln.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2",
+          "examples": [
+            "gallon-bitsch-kanon-verfahren",
+            "gallon-bitsch-nr-151",
+            "gallon-bitsch-nr-154"
+          ]
+        },
+        {
+          "name": "Walter Piston",
+          "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+          "locator": "Kap. V, S. 80–81, Bsp. 120 · Themenvergrößerung in der Fuge",
+          "text": "In Bachs Contrapunctus VII hört Piston zwei Veränderungen zugleich. Die Oberstimme bringt das Thema in Gegenbewegung und mit doppelt so langen Notenwerten. Am Notenbild lässt sich das Richtungsverhältnis getrennt vom Zeitverhältnis prüfen.",
+          "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+          "catalogue": true,
+          "examples": [
+            "piston-bach-contrapunctus-vii"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doppelchor-basslinien",
+      "title": "Wie führen zwei Basslinien den Wechsel und das Zusammensingen im Doppelchor?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Doppelchor",
+        "Doppelchörigkeit",
+        "Mehrchörigkeit",
+        "cori spezzati",
+        "Bass",
+        "achtstimmig",
+        "Basses données",
+        "double chœur"
+      ],
+      "reading": "Verfolge die Pausen und Einsätze beider Basslinien. Höre dann jeden vierstimmigen Chor für sich. Welche Zusammenklänge bilden die Bässe, sobald die Gruppen gleichzeitig singen?",
+      "related": [
+        "cantus-firmus",
+        "kadenz",
+        "stimmabstand",
+        "speziesmischung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, §§ 69–73, S. 37 · zwei vorgegebene Bässe im achtstimmigen Satz",
+          "text": "Der Bass jedes Chors ist vorgegeben. Wenn die Bässe einander antworten, wechseln sich die Chöre ab. Erklingen die Bässe zugleich, singen beide Chöre. Jeder soll dabei eine gewisse harmonische Selbständigkeit behalten. Die Bässe können dabei vorübergehend verschieden beziffert sein. Als weitere Aufgabe lassen die Autoren alle acht Stimmen frei entwerfen.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch6dbleCoeur.pdf#page=1",
+          "examples": [
+            "gallon-bitsch-doppelchor",
+            "gallon-bitsch-nr-117",
+            "gallon-bitsch-nr-118"
+          ]
+        },
+        {
+          "name": "Gioseffo Zarlino",
+          "work": "Le istitutioni harmoniche (Venedig, 1558)",
+          "locator": "Teil III, Kap. 66, S. 268 · mehrchörige Psalmen in Venedig",
+          "text": "Zarlino beschreibt zwei oder drei räumlich getrennte vierstimmige Chöre in der venezianischen Vesper. Sie singen abwechselnd und gelegentlich gemeinsam, besonders zum Schluss. Jeder Chor soll auch für sich konsonant klingen. Bei den gemeinsamen Einsätzen beobachtet Zarlino die Bässe im Einklang oder in der Oktave, bisweilen in der Terz.",
+          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#p268"
         }
       ]
     }
@@ -3875,6 +4325,136 @@ const ATLAS = {
       "caption": "Spiele zuerst nur die oberste Stimme. Ergänze die linke Hand und klopfe die Eins mit. Wo du den Taktanfang hörst, kann sich durch die zweite Hand ändern. Piston untersucht das Stück in Beispiel 96. Der Atlas zeigt den Anfang in einem separaten historischen Druck.",
       "credit": "Robert Schumann, Kinderscenen op. 15, Nr. 10, Auftakt und T. 1–5, gedruckte S. 14. Leipzig, Breitkopf & Härtel, Pl.-Nr. 6016. Badische Landesbibliothek Karlsruhe, DonMusDr 3156, Public Domain Mark 1.0. Ausschnitt.",
       "url": "https://digital.blb-karlsruhe.de/blbihd/content/pageview/6854379"
+    },
+    "gallon-bitsch-nr-1-2": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 1 und 2 · Cantus firmus unten und oben",
+      "caption": "Suche das Kürzel C.F. in beiden Systemen. Lies die vorgegebene Dur-Melodie zuerst in der Unterstimme von Nr. 1, dann in der Oberstimme von Nr. 2. Singe dazu die jeweils neu erfundene Gegenstimme.",
+      "credit": "Marcel Bitsch · Aussetzung in Noël-Gallon und Marcel Bitsch, Traité de contrepoint, Teil II, Nr. 1–2, S. 60. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=2"
+    },
+    "gallon-bitsch-nr-7-9": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 7 und 9 · zwei Halbe, zwei Schlüsse",
+      "caption": "Vergleiche die letzten beiden Takte der Oberstimme. In der Durfassung Nr. 7 bewegt sie sich in Halben. In der Mollfassung Nr. 9 bindet Bitsch den Ton in den vorletzten Takt. Suche die Stelle, an der wieder beide Stimmen einen Ton neu ansetzen.",
+      "credit": "Marcel Bitsch · Aussetzung in Noël-Gallon und Marcel Bitsch, Traité de contrepoint, Teil II, Nr. 7 und 9, S. 61. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=3"
+    },
+    "gallon-bitsch-nr-15-16": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 15 und 16 · Synkopen über und unter dem Cantus",
+      "caption": "Singe nur die gebundene Stimme, zuerst oben in Nr. 15, dann unten in Nr. 16. Halte bei jedem Basswechsel inne. Welche gebundenen Töne bleiben konsonant, welche werden zum Vorhalt?",
+      "credit": "Marcel Bitsch · Aussetzung in Noël-Gallon und Marcel Bitsch, Traité de contrepoint, Teil II, Nr. 15–16, S. 63. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=5"
+    },
+    "gallon-bitsch-nr-19-20": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 19 und 20 · vom gleichmäßigen Puls zum Floridus",
+      "caption": "Suche in Nr. 19 den Wechsel zwischen Bindungen, Vierteln und Halben. Lies anschließend Nr. 20 mit dem Cantus firmus in der Oberstimme. Wo setzt die bewegte Unterstimme ein?",
+      "credit": "Noël-Gallon · Aussetzung in Noël-Gallon und Marcel Bitsch, Traité de contrepoint, Teil II, Nr. 19–20, S. 63. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=5"
+    },
+    "gallon-bitsch-nr-93-94": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 93 und 94 · zwei Besetzungen im grand mélange",
+      "caption": "Bei Sevrette liegen die gegebenen Ganzen im Bass, bei Kelkel im Tenor. Suche zuerst die Viertelstimme und dann die Synkopen. In Nr. 94, Takt 8, erläutert die Fußnote den Einklang von Bass und Tenor auf schwerer Zeit.",
+      "credit": "Danielle Sevrette (Nr. 93) und Manfred Kelkel (Nr. 94) · Aussetzung in Noël-Gallon und Marcel Bitsch, Traité de contrepoint, Teil II, Nr. 93–94, S. 81. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch3simpl4.pdf#page=9"
+    },
+    "gallon-bitsch-durchgang-nebennote": {
+      "image": "quellen/noten/gallon-bitsch-durchgang-nebennote.webp",
+      "title": "Zwei Fortsetzungen für dieselbe leichte Halbe",
+      "alt": "Der Bass wechselt von c zu a. Die obere Stimme geht in A von e über d nach c, in B von e über d zurück nach e.",
+      "caption": "Die Ausschnitte stammen aus der Mitte einer gedachten Übung. In beiden liegt auf der leichten Halben d über c. Erst die nächste Note zeigt, ob d Durchgang oder untere Nebennote war. Beide Figuren entsprechen § 66.",
+      "credit": "Neu komponiertes Notenbeispiel der Atlasredaktion nach der Regel bei Noël-Gallon und Marcel Bitsch, Traité de contrepoint (1964), S. 35, § 66.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=3",
+      "kind": "leseuebung"
+    },
+    "gallon-bitsch-vorhaltsvorbereitung": {
+      "image": "quellen/noten/gallon-bitsch-vorhaltsvorbereitung.webp",
+      "title": "Wie früh muss das f erklingen?",
+      "alt": "Zwei Oberstimmen mit derselben Tonfolge a–g–f über dem Bass f. Das f ist über den Taktstrich gebunden. In A dauert es vor dem Taktstrich eine Halbe, in B nur ein Viertel. Über dem neuen Basston g löst es sich jedes Mal nach e.",
+      "caption": "Das f bildet über dem Basston f eine Oktave. Mit dem Basswechsel nach g wird es zur Septime, die nach e weitergeht. In A dauert die Vorbereitung eine Halbe und erfüllt § 63. In B setzt dasselbe f erst auf dem letzten Viertel ein. Den Unterschied hört man schon vor dem Basswechsel.",
+      "credit": "Neu komponiertes Notenbeispiel der Atlasredaktion nach der Regel bei Noël-Gallon und Marcel Bitsch, Traité de contrepoint (1964), S. 33, § 63 A.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1",
+      "kind": "leseuebung"
+    },
+    "gallon-bitsch-nr-119": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 119 und 120 · Zwei Übungen zum Oktavtausch",
+      "caption": "Nr. 119 und 120 sind zwei eigenständige Sätze. Die zweite Lage fehlt jeweils absichtlich. Vertausche in Nr. 119 die Lagen und prüfe, wie sich die Intervalle verändern.",
+      "credit": "Noël-Gallon · Teil II, Nr. 119 und 120, S. 97. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch9renv2.pdf#page=1"
+    },
+    "gallon-bitsch-nr-135": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 135–136 · Oktavkanon und Kanon in Gegenbewegung",
+      "caption": "Vergleiche die beiden ersten Einsätze in jeder Aufgabe. In Nr. 135 wiederholt die zweite Stimme den Melodieverlauf in der Oktave. In Nr. 136 antwortet sie auf einen Aufwärtsschritt mit einem Abwärtsschritt und umgekehrt.",
+      "credit": "Noël-Gallon · Teil II, Nr. 135–136, S. 111. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch13imit2.pdf#page=1"
+    },
+    "gallon-bitsch-kanon-verfahren": {
+      "image": "quellen/noten/gallon-bitsch-kanon-verfahren.webp",
+      "title": "Vier Lesarten eines Motivs",
+      "alt": "Vorlage d′–e′–f′–a′. In Gegenbewegung ab d′ folgen c′–h–g, im Krebs beginnt die Zeile mit a′. In der Augmentation haben die ursprünglichen Töne den doppelten Wert.",
+      "caption": "Singe jede Zeile. Bei der Gegenbewegung wird der erste Aufwärtsschritt zu einem Abwärtsschritt gleicher Größe. Im Krebs wechselst du die Leserichtung. Für die Augmentation hältst du jeden Ton doppelt so lange.",
+      "credit": "Eigenes Motiv und redaktionelles Schema zu Teil I, §§ 105–107. Die Zeilen isolieren die Verfahren. Die ausgeführten Kanons stehen in den verlinkten Aufgaben.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2",
+      "kind": "leseuebung"
+    },
+    "gallon-bitsch-nr-151": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 151a–d · Ein Kanon in vier Gestalten",
+      "caption": "Vergleiche 151a zunächst mit 151b in Gegenbewegung, dann mit 151c im Krebs. Prüfe in 151d, wie sich rückläufige Tonfolge und umgekehrte Intervallrichtung verbinden. Die vier Fassungen gehören zu derselben dreistimmigen Aufgabe.",
+      "credit": "Alphonse Autran · Teil II, Nr. 151a–d, S. 116. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch14imit3.pdf#page=4"
+    },
+    "gallon-bitsch-nr-154": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 154 · Augmentation im vierstimmigen Kanon",
+      "caption": "Bestimme die Stimme mit den längeren Notenwerten. Lies anschließend die Anmerkung zu Takt 8. Wie begründen die Autoren die zwei aufeinanderfolgenden Quinten zwischen Sopran und Alt?",
+      "credit": "Marcel Bitsch · Teil II, Nr. 154, S. 117. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch15imit4.pdf#page=1"
+    },
+    "gallon-bitsch-doppelchor": {
+      "image": "quellen/noten/gallon-bitsch-doppelchor.webp",
+      "title": "Die Bässe steuern die Einsätze der Chöre",
+      "alt": "Drei Abschnitte. Zuerst singt Chor I, dann Chor II, dann singen beide Chöre entsprechend den gleichzeitig geführten Bässen.",
+      "caption": "Lies jede Reihe für sich und vergleiche dann die Einträge übereinander. Wo beide vorgegebenen Bässe klingen, treffen auch die beiden Chöre zusammen.",
+      "credit": "Redaktionelles Ablaufschema zu Teil I, §§ 69–71. Eigene Einteilung in drei Abschnitte.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch6dbleCoeur.pdf#page=1",
+      "kind": "leseuebung"
+    },
+    "gallon-bitsch-nr-117": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 117 · Doppelchor in Dur",
+      "caption": "Lies zuerst nur die beiden Basssysteme und markiere die Pausen. Lies dann die vier Stimmen jedes Chors zusammen. Wo hörst du einen Wechsel der Gruppen und wo einen gemeinsamen Einsatz?",
+      "credit": "Noël-Gallon · Teil II, Nr. 117, S. 91–92. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch8simplDlbCoeur.pdf#page=1"
+    },
+    "gallon-bitsch-nr-118": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 118 · Doppelchor in Moll",
+      "caption": "Suche die beiden mit B.D. (basse donnée) bezeichneten Stimmen. Verfolge, wann die zweite Basslinie auf die erste antwortet und wann beide zugleich klingen.",
+      "credit": "René Saorgin · Teil II, Nr. 118, S. 93. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch8simplDlbCoeur.pdf#page=3"
+    },
+    "gallon-bitsch-grand-melange": {
+      "kind": "leseanalyse",
+      "title": "Vier Stimmen im grand mélange",
+      "caption": "Die Synkopen wandern vom Sopran in den Bass, die Viertel vom Alt in den Sopran. Lies danach die Originalsysteme von Nr. 93 und 94. Wo setzt die Halbenstimme in jeder Lösung ein?",
+      "alt": "Nr. 93 von oben nach unten: Synkopen, Viertel, Halbe, Cantus. Nr. 94: Viertel, Halbe, Cantus, Synkopen.",
+      "credit": "Redaktionelle Analyse der Aussetzungen von Danielle Sevrette und Manfred Kelkel, Teil II, S. 81, Nr. 93 und 94.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch3simpl4.pdf#page=9",
+      "image": "quellen/noten/gallon-bitsch-grand-melange.webp"
+    },
+    "prout-zwei-halbenstimmen": {
+      "image": "quellen/noten/prout-zwei-halbenstimmen.webp",
+      "title": "Zwei Stimmen in der zweiten Spezies",
+      "alt": "Prouts dreistimmiges Beispiel mit dem gegebenen Thema in Ganzen im Sopran. Die beiden Unterstimmen setzen nach einer halben Pause mit Halben ein.",
+      "caption": "Lies den Anfang von § 403. Im Sopran steht das mit S bezeichnete Thema. Klopfe die Einsätze der beiden Unterstimmen dazu. Nach ihrer gemeinsamen halben Pause bewegen sie sich beide in Halben.",
+      "credit": "Ebenezer Prout, Counterpoint: Strict and Free, 3. Auflage, S. 155, § 403, erstes Beispiel. Cornell University Library / Internet Archive, gemeinfreier Druck. Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=159"
     }
   }
 };

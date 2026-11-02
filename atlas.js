@@ -60,7 +60,7 @@
     if (topic.comparisons.length) fields.push("Artacho Handout Lehrmodelle");
     for (const a of topic.authors || []) {
       fields.push(a.name, a.work, a.text, a.locator, a.comparison);
-      for (const id of a.examples || []) fields.push(scores[id].title, scores[id].caption);
+      for (const id of a.examples || []) fields.push(scores[id].title, scores[id].caption, scores[id].credit);
     }
     return normalize(fields.filter(Boolean).join(" "));
   }
@@ -244,7 +244,7 @@
         card.append(comparison);
       }
       if (a.examples?.length) {
-        card.append(button("Zum Notenbild", "score-jump", () =>
+        card.append(button("Zum Notenbeispiel", "score-jump", () =>
           document.getElementById("bild-" + a.examples[0]).focus()));
       }
       entries.append(card);
@@ -255,27 +255,34 @@
 
   function examplesSection(examples) {
     const section = el("section", "detail-section");
-    const heading = el("h3", "", "Notenbeispiele aus den Quellen");
+    const heading = el("h3", "", "Notenbeispiele");
     heading.id = "notenbeispiele";
     heading.tabIndex = -1;
     section.append(heading);
     for (const { name, id } of examples) {
       const example = scores[id];
-      const figure = el("figure", "score-example");
+      const bookLink = example.kind === "buchbeispiel";
+      const exercise = example.kind === "leseuebung";
+      const analysis = example.kind === "leseanalyse";
+      const figure = el(bookLink ? "article" : "figure", "score-example");
       figure.id = "bild-" + id;
       figure.tabIndex = -1;
-      const enlarge = link("", example.image);
-      enlarge.setAttribute("aria-label", example.title + " · Notenbild vergrößern");
-      const img = el("img");
-      img.src = example.image;
-      img.alt = example.alt;
-      img.loading = "lazy";
-      enlarge.append(img);
-      const caption = el("figcaption");
-      caption.append(el("span", "eyebrow", name), el("h4", "", example.title),
+      if (!bookLink) {
+        const enlarge = link("", example.image);
+        enlarge.setAttribute("aria-label", example.title + " · Notenbild vergrößern");
+        const img = el("img");
+        img.src = example.image;
+        img.alt = example.alt;
+        img.loading = "lazy";
+        enlarge.append(img);
+        figure.append(enlarge);
+      }
+      const caption = el(bookLink ? "div" : "figcaption", "score-caption");
+      const label = analysis ? "Lesehilfe zum Buchbeispiel" : exercise ? "Leseübung der Redaktion" : bookLink ? name + " · Beispiel im Buch" : name;
+      caption.append(el("span", "eyebrow", label), el("h4", "", example.title),
         el("p", "", example.caption), el("small", "ref", example.credit),
-        link("Originalseite öffnen", example.url, "source-link"));
-      figure.append(enlarge, caption);
+        link(bookLink || analysis ? "Notenbeispiel im Buch öffnen (PDF)" : exercise ? "Regel im Buch öffnen (PDF)" : "Originalseite öffnen", example.url, "source-link"));
+      figure.append(caption);
       section.append(figure);
     }
     return section;

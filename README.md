@@ -4,13 +4,13 @@ Ein deutschsprachiger Fragenatlas für den Unterricht im Spezieskontrapunkt und 
 
 ## Lokal öffnen und auf GitHub Pages veröffentlichen
 
-Das Repository herunterladen und `index.html` im Browser öffnen. Suche, Filter, Handout und alle eingebetteten Notenbilder funktionieren auch offline. Zur vollständigen Ausgabe führt bei jedem Ausschnitt **Originalseite öffnen**.
+Das Repository herunterladen und `index.html` im Browser öffnen. Suche, Filter, Handout und alle eingebetteten Notenbilder funktionieren auch offline. Bei einem historischen Ausschnitt führt **Originalseite öffnen** zum Digitalisat. **Notenbeispiel im Buch öffnen (PDF)** führt online zur Seite mit dem nummerierten Beispiel.
 
 GitHub Pages veröffentlicht die Dateien aus der Wurzel dieses Repositorys. Der Atlas läuft ohne Build-Schritt oder Datenbankdienst.
 
 ## Die Auswahl für den Unterricht teilen
 
-Eine Frage im Verzeichnis auswählen, gegebenenfalls auf eine Spezies einschränken und **Link kopieren** verwenden. An die veröffentlichte Adresse wird beispielsweise `#frage=sprungfolge&spezies=4` angehängt. Lokal kopiert der Atlas nur die Sprungmarke. Die Quellenwahl im Verzeichnis schränkt die Fragenliste ein. Beim Öffnen einer Frage bleiben die anderen Perspektiven zum Vergleich sichtbar. **Mit Notenbeispiel** beschränkt die Liste auf illustrierte Fragen. Zusammen mit einem Autorennamen findet der Filter die Fragen mit einem Notenbild dieses Autors.
+Eine Frage im Verzeichnis auswählen, gegebenenfalls auf eine Spezies einschränken und **Link kopieren** verwenden. An die veröffentlichte Adresse wird beispielsweise `#frage=sprungfolge&spezies=4` angehängt. Lokal kopiert der Atlas nur die Sprungmarke. Die Quellenwahl im Verzeichnis schränkt die Fragenliste ein. Beim Öffnen einer Frage bleiben die anderen Perspektiven zum Vergleich sichtbar. **Mit Notenbeispiel** beschränkt die Liste auf illustrierte Fragen. Zusammen mit einem Autorennamen findet der Filter die Fragen mit einem zugeordneten Notenbeispiel dieser Quelle.
 
 Drei Einstiege für den Unterricht
 
@@ -32,6 +32,19 @@ Drei Einstiege für den Unterricht
 | [Was ist eine Engführung, und braucht jede Fuge eine?](https://muk-labs.github.io/Kontrapunktatlas/#frage=fuge-engfuehrung) | Die Überlappung in BWV 846 in Vierteln zählen. Anschließend Cherubinis Forderung mit Prouts ausdrücklichem Einwand vergleichen. |
 
 Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
+
+## Noël-Gallon und Marcel Bitsch im Atlas
+
+Im Quellenfilter sind beide unter **Noël-Gallon und Marcel Bitsch** zusammengefasst. Die Fundstellen beziehen sich auf den *Traité de contrepoint* (Paris, Durand, © 1964, D. & F. 13955). Die Regeltexte nennen Paragraph und gedruckte Seite. Die Beispiele aus Teil II öffnen die passende Seite im Kapitel-PDF. „C.F.“ an einem System bezeichnet die gegebene Stimme. Die Namen der einzelnen Aussetzenden folgen dem gedruckten Autorenregister auf S. 129. [Kapitelübersicht und Digitalisate](https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/index.html) · [Index des exemples](https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/indexEg.pdf)
+
+| Frage | Was sich vergleichen lässt |
+| --- | --- |
+| [Dürfen zwei Gegenstimmen dieselbe Spezies führen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=speziesmischung) | Prout setzt zwei Halbenstimmen unter das Thema. Danielle Sevrette und Manfred Kelkel verteilen im vierstimmigen *grand mélange* Halbe, Viertel und Synkopen unterschiedlich. |
+| [Wie lange muss ich einen Vorhalt vorbereiten?](https://muk-labs.github.io/Kontrapunktatlas/#frage=dauer-der-vorhaltsvorbereitung) | Prout vergleicht die Dauern vor und nach dem Taktstrich. Noël-Gallon und Bitsch nennen eine Halbe als Mindestwert. Zwei eigens notierte Fassungen machen den Unterschied in der Vorbereitung hörbar. |
+| [Wie verändere ich ein Motiv im Kanon?](https://muk-labs.github.io/Kontrapunktatlas/#frage=kanon-verfahren) | In Nr. 151a–d zeigt Alphonse Autran dieselbe Aufgabe in vier Gestalten. Vergleiche seine Umkehrung und seinen Krebs mit der Veränderung der Notenwerte bei Bitsch und in Pistons Bach-Analyse. |
+| [Wie arbeiten die Bässe eines Doppelchors zusammen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=doppelchor-basslinien) | In den Aussetzungen von Noël-Gallon und René Saorgin geben zwei Basslinien die Wechsel der Chöre vor. Zarlino erklärt die Selbstständigkeit der Chöre aus der venezianischen Aufführungspraxis. |
+
+Der Suchbegriff **Sevrette** führt beispielsweise zu ihrer Aussetzung Nr. 93. **Leseübung der Redaktion** kennzeichnet ein neu entworfenes Beispiel. **Lesehilfe zum Buchbeispiel** bezeichnet die Analyse einer bestimmten Aussetzung. Beide sind in der lokalen Fassung enthalten.
 
 ## Walter Piston im Atlas
 
@@ -58,7 +71,7 @@ Die Redaktion hat die Fragenüberschriften formuliert. Die Spezieszellen und die
 
 ### Notenausgaben und Bildnachweise
 
-Die Bilder sind Ausschnitte der historischen Drucke. Unter jedem Bild stehen die Herkunft und ein Link zur vollständigen Scan-Seite. Die gedruckte Seitenzahl und die Blattnummer im PDF-Viewer können voneinander abweichen.
+Die historischen Notenbilder sind Ausschnitte der jeweils genannten Drucke. Unter jedem Bild stehen die Herkunft und ein Link zur vollständigen Scan-Seite. Die gedruckte Seitenzahl und die Blattnummer im PDF-Viewer können voneinander abweichen.
 
 | Autor | Ausgabe und Digitalisat |
 | --- | --- |
@@ -97,7 +110,7 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | `reading` | Optional. Kurzer redaktioneller Hinweis auf einen hör- oder lesbaren Unterschied zwischen den Quellen. |
 | `related` | Optional. Liste der Kennungen verwandter Fragen. |
 
-Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.examples` eine dauerhafte Kennung anlegen, beispielsweise `fux-cambiata`. Jeder Bilddatensatz enthält den relativen Pfad `image`, den Titel `title`, einen Alternativtext `alt`, den Lesehinweis `caption`, den Bildnachweis mit Rechten `credit` und den Link zur Originalseite `url`. In der passenden Autorenposition genügt dann `"examples": ["fux-cambiata"]`.
+Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.examples` eine dauerhafte Kennung anlegen, beispielsweise `fux-cambiata`. Jeder Bilddatensatz enthält den relativen Pfad `image`, den Titel `title`, einen Alternativtext `alt`, den Lesehinweis `caption`, den Bildnachweis mit Rechten `credit` und den Link zur Originalseite `url`. Bei einem verlinkten Buchbeispiel tritt `kind: "buchbeispiel"` an die Stelle von `image` und `alt`. Die URL führt zum Notentext. Lokale Abbildungen zu einer Lehrbuchregel erhalten `kind: "leseuebung"`, redaktionelle Lesehilfen zu einer bestimmten Buchseite `kind: "leseanalyse"`. In der passenden Autorenposition genügt dann `"examples": ["fux-cambiata"]`.
 
 Für ein weiteres Lehrbuch die betreffende Frage suchen, unter `authors` einen Eintrag hinzufügen und nach dem Speichern die Seite neu laden. Die Quelle erscheint automatisch im Filter. Für neue Themen ein Fragenobjekt mit einer neuen Kennung anlegen. Eine Frage mit leerer Vergleichsliste und ohne Beleg wird als offen angezeigt. „Verboten“ und „nicht relevant“ sind fachliche Aussagen und werden nur dort eingetragen, wo die Quelle sie tatsächlich macht.
 
