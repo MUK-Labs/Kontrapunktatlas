@@ -1,12 +1,13 @@
 /* Classic scripts also work when the atlas is opened directly from disk. */
 (() => {
   "use strict";
-  const { topics } = ATLAS;
+  const { topics, examples: scores } = ATLAS;
   const byId = new Map(topics.map(topic => [topic.id, topic]));
   const first = byId.get("sprungfolge") || topics[0];
   const search = document.querySelector("#search");
   const group = document.querySelector("#group");
   const perspective = document.querySelector("#perspective");
+  const illustrated = document.querySelector("#illustrated");
   const list = document.querySelector("#question-list");
   const count = document.querySelector("#result-count");
   const detail = document.querySelector("#detail");
@@ -57,7 +58,10 @@
     if (topic.species) fields.push("Artacho Handout streng modal tonal Speziesvergleich");
     for (const c of topic.comparisons) fields.push(c.label, "Hindemith zweistimmig");
     if (topic.comparisons.length) fields.push("Artacho Handout Lehrmodelle");
-    for (const a of topic.authors || []) fields.push(a.name, a.work);
+    for (const a of topic.authors || []) {
+      fields.push(a.name, a.work, a.text, a.locator);
+      for (const id of a.examples || []) fields.push(scores[id].title, scores[id].caption);
+    }
     return normalize(fields.filter(Boolean).join(" "));
   }
 
@@ -86,6 +90,8 @@
     const matches = topics.filter(topic =>
       (!group.value || topic.group === group.value) &&
       matchesPerspective(topic) &&
+      (!illustrated.checked || topic.authors?.some(a => a.examples?.length &&
+        (!perspective.value.startsWith("author:") || perspective.value === "author:" + a.name))) &&
       terms.every(term => searchIndex.get(topic.id).includes(term))
     );
     count.textContent = matches.length + (matches.length === 1 ? " Frage" : " Fragen") +
@@ -114,6 +120,7 @@
         search.value = "";
         group.value = "";
         perspective.value = "";
+        illustrated.checked = false;
         renderList();
         search.focus();
       }));
@@ -211,7 +218,10 @@
 
   function authorsSection(authors) {
     const section = el("section", "detail-section");
-    section.append(el("h3", "", "Aus den Lehrwerken"));
+    const heading = el("h3", "", "Aus den Lehrwerken");
+    heading.id = "lehrwerke";
+    heading.tabIndex = -1;
+    section.append(heading);
     const entries = authors.length > 1 ? el("div", "tradition-grid authors-grid") : section;
     for (const a of authors) {
       const card = el("div", "tradition-card");
@@ -220,9 +230,41 @@
       card.append(a.url && /^https?:\/\//i.test(a.url)
         ? link(citation || "Quelle öffnen", a.url, "source-link")
         : el("small", "ref", citation));
+      if (a.examples?.length) {
+        card.append(button("Zum Notenbild", "score-jump", () =>
+          document.getElementById("bild-" + a.examples[0]).focus()));
+      }
       entries.append(card);
     }
     if (entries !== section) section.append(entries);
+    return section;
+  }
+
+  function examplesSection(examples) {
+    const section = el("section", "detail-section");
+    const heading = el("h3", "", "Notenbeispiele aus den Quellen");
+    heading.id = "notenbeispiele";
+    heading.tabIndex = -1;
+    section.append(heading);
+    for (const { name, id } of examples) {
+      const example = scores[id];
+      const figure = el("figure", "score-example");
+      figure.id = "bild-" + id;
+      figure.tabIndex = -1;
+      const enlarge = link("", example.image);
+      enlarge.setAttribute("aria-label", example.title + " · Notenbild vergrößern");
+      const img = el("img");
+      img.src = example.image;
+      img.alt = example.alt;
+      img.loading = "lazy";
+      enlarge.append(img);
+      const caption = el("figcaption");
+      caption.append(el("span", "eyebrow", name), el("h4", "", example.title),
+        el("p", "", example.caption), el("small", "ref", example.credit),
+        link("Originalseite öffnen", example.url, "source-link"));
+      figure.append(enlarge, caption);
+      section.append(figure);
+    }
     return section;
   }
 
@@ -246,7 +288,7 @@
     const sync = () => {
       const title = topic ? "Ergänzung: " + topic.title : draft.value.split("\n", 1)[0].trim() || "Neue Frage";
       const params = new URLSearchParams({ title, body: draft.value });
-      issue.href = "https://github.com/AdrianArtacho/Counterpoint/issues/new?" + params;
+      issue.href = "https://github.com/MUK-Labs/Kontrapunktatlas/issues/new?" + params;
     };
     sync();
     const copy = button("Vorschlag kopieren", "source-link", async event => {
@@ -290,16 +332,28 @@
 
   function renderDetail() {
     const topic = selected;
+    const examples = (topic.authors || []).flatMap(a =>
+      (a.examples || []).map(id => ({ name: a.name, id })));
     const head = el("header", "detail-header");
     const title = el("h2", "entry-title", topic.title);
     title.tabIndex = -1;
     const actions = el("div", "entry-actions");
+    if (topic.authors?.length) actions.append(button("Lehrwerke (" + topic.authors.length + ")", "", () =>
+      document.getElementById("lehrwerke").focus()));
+    if (examples.length) actions.append(button("Notenbeispiele (" + examples.length + ")", "", () =>
+      document.getElementById("notenbeispiele").focus()));
     actions.append(share(topic));
     head.append(el("p", "entry-kicker", topic.group), title, actions);
     detail.replaceChildren(head);
+    if (topic.reading) {
+      const note = el("p", "reading");
+      note.append(el("strong", "", "Beim Vergleichen · "), topic.reading);
+      detail.append(note);
+    }
     if (topic.species) detail.append(speciesSection(topic));
     if (topic.comparisons.length) detail.append(comparisonSection(topic));
     if (topic.authors?.length) detail.append(authorsSection(topic.authors));
+    if (examples.length) detail.append(examplesSection(examples));
     if (!topic.species && !topic.comparisons.length && !topic.authors?.length) {
       const empty = el("section", "empty-state");
       empty.append(el("h3", "", "Quellenbeleg gesucht"), el("p", "", "Diese Frage ist im Atlas noch offen. Ein Lehrbuchbeleg mit Ausgabe und Fundstelle kann den Vergleich ergänzen."));
@@ -346,6 +400,14 @@
   search.addEventListener("input", renderList);
   group.addEventListener("change", renderList);
   perspective.addEventListener("change", renderList);
+  illustrated.addEventListener("change", renderList);
+  for (const a of document.querySelectorAll(".case-links a")) {
+    a.addEventListener("click", event => {
+      if (event.button || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      if (a.hash === location.hash) detail.querySelector("h2").focus();
+      else nextFocus = "title";
+    });
+  }
   window.addEventListener("hashchange", () => readRoute());
   readRoute(true);
 })();
