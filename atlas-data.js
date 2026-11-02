@@ -923,9 +923,9 @@ const ATLAS = {
         {
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
-          "locator": "Teil I, Kap. V, § 64, S. 34 · Auflösungszeitpunkt und Verzierung",
-          "text": "Im einfachen strengen Satz gehört die Auflösung auf den zweiten Schlag. Der Vorhalt darf vorher einen Akkordton berühren. Auch die Auflösungsnote kann früher erklingen, sofern sie am regulären Platz noch einmal erscheint.",
-          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=2"
+          "locator": "Teil I, Kap. V, §§ 61–64, S. 33–34 · Auflösungsrichtung und Zeitpunkt",
+          "text": "Der obere Vorhalt löst sich abwärts auf. Den aufwärts aufgelösten unteren Vorhalt gestatten die Autoren vor der Tonika in Moll oder wenn er mit dem Cantus firmus konsoniert. Im einfachen Kontrapunkt fällt die Auflösung auf den zweiten Schlag. Vorher darf ein anderer Akkordton erklingen. Die Auflösung darf vorweggenommen werden, wenn ihr Ton auch am regulären Platz erklingt.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies."
@@ -1016,9 +1016,19 @@ const ATLAS = {
         {
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
-          "locator": "Teil I, Kap. IV, § 42, S. 24 · unmittelbare Folge zweier reiner Quinten oder Oktaven",
-          "text": "Für zwei bis fünf Stimmen sind auch zwei reine Quinten oder Oktaven in Gegenbewegung verboten. Ab sechs Stimmen dulden die Autoren eine solche Gegenbewegung, sofern das Paar nicht beide Außenstimmen umfasst. Ab sieben gilt die Ausnahme für jedes Stimmenpaar. Gleichgerichtete Parallelen bleiben ausgeschlossen.",
+          "locator": "Teil I, Kap. IV, § 42, S. 24 · einfacher Kontrapunkt",
+          "text": "Für zwei bis fünf Stimmen sind auch zwei reine Quinten oder Oktaven in Gegenbewegung verboten. Ab sechs Stimmen dulden die Autoren eine solche Gegenbewegung, sofern das Paar nicht beide Außenstimmen umfasst. Ab sieben gilt die Ausnahme für jedes Stimmenpaar. In dieser Übung bleiben gleichgerichtete Quint- und Oktavparallelen ausgeschlossen.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=2"
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil II, Kap. XV, Nr. 154, T. 8 mit Anmerkung, S. 117 · vierstimmiger Kanon mit Augmentation",
+          "text": "In Bitschs Kanon bilden Sopran und Alt zwei Quinten hintereinander. Die Autoren begründen diese Ausnahme mit der kanonischen Stimmführung. Die zweite Quinte entsteht durch das f im Alt, einen Durchgangston.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch15imit4.pdf#page=1",
+          "examples": [
+            "gallon-bitsch-nr-154"
+          ]
         }
       ]
     },
@@ -1112,9 +1122,19 @@ const ATLAS = {
         {
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
-          "locator": "Teil I, Kap. IV, §§ 44–45, S. 26–27 · Außen- und Innenstimmen",
-          "text": "Im zweistimmigen Satz ist das Erreichen der Quinte oder Oktave in gleichgerichteter Bewegung verboten. Ab drei Stimmen darf die Oberstimme in der Schlusskadenz mit einem Schritt die Außenoktave erreichen. Beteiligt sich eine Mittelstimme, genügt für Quinte oder Oktave ein Schritt in einer der Stimmen. Zwei Sprünge sind möglich, wenn der Zielklang einen der betreffenden Töne mit der vorigen Harmonie teilt.",
-          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=4"
+          "locator": "Teil I, Kap. IV, § 44, S. 26 · Außenstimmen im einfachen Kontrapunkt",
+          "text": "Zwischen Bass und Oberstimme verbieten die Autoren die direkte Quinte und Oktave im zweistimmigen Satz. Ab drei Stimmen darf die Oberstimme in der Schlusskadenz schrittweise in die direkte Oktave gehen. Ab sechs Stimmen ist bei schrittweiser Oberstimme auch die direkte Quinte oder Oktave auf I, IV und V zugelassen.",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=4",
+          "examples": [
+            "gallon-bitsch-nr-152"
+          ]
+        },
+        {
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=4",
+          "locator": "Teil I, Kap. IV, § 45 mit Anm. 2, S. 26–27 · Stimmenpaare mit mindestens einer Mittelstimme",
+          "text": "Ein Schritt in einer der beiden Stimmen erlaubt die direkte Quinte oder Oktave. Geht die tiefere Stimme den Schritt, soll man bis zu fünf Stimmen die direkte Quinte auf II, III oder VI und jede absteigende direkte Oktave möglichst meiden. Springen beide Stimmen, muss ein Ton des Zielintervalls schon zur vorigen Harmonie gehören. Ab sechs Stimmen entfällt diese Bedingung."
         }
       ]
     },
@@ -1902,7 +1922,7 @@ const ATLAS = {
         {
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
-          "locator": "Teil I, Kap. II, § 21 C, S. 16, und § 23 A, S. 17 · Floridus",
+          "locator": "Teil I, Kap. II, § 21 C, S. 16 · Floridus",
           "text": "In einer Stimme dürfen höchstens vier Noten in einem Takt stehen. Achtel sitzen auf der leichten Unterteilung und werden sparsam verwendet. Sie gehen untereinander und zur nächsten Note schrittweise. Diese Höchstzahl begrenzt alle Töne zusammen und zählt damit auch die Konsonanzen.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=2",
           "examples": [
@@ -4343,7 +4363,7 @@ const ATLAS = {
     "gallon-bitsch-nr-15-16": {
       "kind": "buchbeispiel",
       "title": "Nr. 15 und 16 · Synkopen über und unter dem Cantus",
-      "caption": "Singe nur die gebundene Stimme, zuerst oben in Nr. 15, dann unten in Nr. 16. Halte bei jedem Basswechsel inne. Welche gebundenen Töne bleiben konsonant, welche werden zum Vorhalt?",
+      "caption": "Singe nur die gebundene Stimme, zuerst oben in Nr. 15, dann unten in Nr. 16. Halte bei jedem Tonwechsel des Cantus firmus inne. Welche gebundenen Töne bleiben konsonant, welche werden zum Vorhalt?",
       "credit": "Marcel Bitsch · Aussetzung in Noël-Gallon und Marcel Bitsch, Traité de contrepoint, Teil II, Nr. 15–16, S. 63. Zuschreibung im Index des exemples, S. 129.",
       "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=5"
     },
@@ -4455,6 +4475,13 @@ const ATLAS = {
       "caption": "Lies den Anfang von § 403. Im Sopran steht das mit S bezeichnete Thema. Klopfe die Einsätze der beiden Unterstimmen dazu. Nach ihrer gemeinsamen halben Pause bewegen sie sich beide in Halben.",
       "credit": "Ebenezer Prout, Counterpoint: Strict and Free, 3. Auflage, S. 155, § 403, erstes Beispiel. Cornell University Library / Internet Archive, gemeinfreier Druck. Ausschnitt.",
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=159"
+    },
+    "gallon-bitsch-nr-152": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 152 · Direkte Quinte zwischen Sopran und Bass",
+      "caption": "Spiele in Takt 6–7 nur Sopran und Bass und höre auf die Bewegung in die Quinte. Nimm dann die Mittelstimmen hinzu. Im vierstimmigen Kanon begründen die Autoren diese direkte Außenquinte ausdrücklich mit der Schwierigkeit der Aufgabe.",
+      "credit": "Marcel Bitsch · Teil II, Nr. 152, T. 6–7 und Anmerkung, S. 117. Zuschreibung im Index des exemples, S. 129.",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch15imit4.pdf#page=1"
     }
   }
 };
