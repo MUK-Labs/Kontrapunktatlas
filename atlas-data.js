@@ -2176,6 +2176,605 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
         }
       ]
+    },
+    {
+      "id": "fuge-reale-tonale-antwort",
+      "title": "Wann ist die Antwort real, wann tonal?",
+      "group": "Fuge",
+      "tags": [
+        "Dux",
+        "Comes",
+        "reale Antwort",
+        "tonale Antwort",
+        "Beantwortung",
+        "real answer",
+        "tonal answer",
+        "Mutation",
+        "Thema"
+      ],
+      "comparisons": [],
+      "reading": "Der Dux stellt das Thema vor. Der Comes beantwortet es in einer anderen Stimme. Bei einer realen Antwort bleiben Größe und Richtung der melodischen Intervalle erhalten. Eine tonale Antwort passt einzelne Intervalle an das Verhältnis von Tonika und Dominante an. Singe zum Vergleich die ersten vier Töne der C-Dur- und der c-Moll-Fuge aus Bachs erstem Wohltemperierten Klavier.",
+      "related": [
+        "fuge-quintsprung",
+        "fuge-antwortintervall",
+        "fuge-modulierendes-thema"
+      ],
+      "authors": [
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. III, §§ 55–59, S. 18–19 · Vergleich zweier Themeneinsätze",
+          "text": "Bei einer realen Antwort bleibt die Intervallfolge beim Versetzen erhalten. In Mozarts G-Dur-Quartett wird die Anfangsterz g–h in der Antwort zur Sekunde d–e. An Bachs E-Dur-Fuge zeigt Prout außerdem, dass eine längere Schlussnote die Einordnung als reale Antwort zulässt.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=34",
+          "examples": [
+            "fuge-prout-bach-mozart-antwort"
+          ]
+        },
+        {
+          "name": "Luigi Cherubini",
+          "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+          "locator": "Abschnitte On Tonal Fugue und On Real Fugue, S. 66–67, Bsp. 203 · Lehrmodell und Beispiel von Padre Martini",
+          "text": "Cherubini ordnet auch die Fugen selbst nach der Antwort. Für die Realfuge beginnt sein Thema auf der Tonika und wendet sich zunächst einer anderen Harmonie als der Dominante zu. Die Antwort auf der Quinte übernimmt seine melodische Gestalt. Eine tonale Antwort richtet die Intervalle nach dem Wechsel von Tonika und Dominante ein.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=73",
+          "examples": [
+            "fuge-cherubini-martini-real"
+          ]
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
+          "locator": "T. 1–4, Alt und Sopran · Notenbefund, Bach-Gesellschaft, S. 4",
+          "text": "Auf die Altstimme antwortet der Sopran eine reine Quinte höher. Aus c–d–e–f wird g–a–h–c. Auch die Sprünge, die punktierte Achtel und die beiden Zweiunddreißigstel behalten ihre Gestalt.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=4",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-846-antwort"
+          ]
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge II in c-Moll, BWV 847",
+          "locator": "T. 1–4, Alt und Sopran · Notenbefund, Bach-Gesellschaft, S. 8",
+          "text": "Der Alt springt nach c–h–c eine Quarte abwärts zum g. Im Sopran folgt auf g–fis–g ein Quintfall zum c. Eine unveränderte Quinttransposition hätte hier d ergeben. Schon dieser vierte Ton macht die tonale Anpassung hörbar.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-847-tonale-antwort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-antwortintervall",
+      "title": "Muss der Comes eine Quinte höher einsetzen?",
+      "group": "Fuge",
+      "tags": [
+        "Einsatzintervall",
+        "Quinte",
+        "Quarte",
+        "Dominante",
+        "Subdominante",
+        "Tonart",
+        "Register"
+      ],
+      "comparisons": [],
+      "reading": "Vergleiche zwei Abstände getrennt. Der erste liegt zwischen den Anfangstönen von Dux und Comes, der zweite innerhalb des Themas. Eine Quinte aufwärts und eine Quarte abwärts erreichen dieselbe Tonklasse. Für die Tonart der Antwort ist auch der weitere Verlauf wichtig.",
+      "related": [
+        "fuge-reale-tonale-antwort",
+        "fuge-quintsprung"
+      ],
+      "authors": [
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. III, §§ 55–56 und 71–72, S. 18 und 26–27 · Wahl der Antworttonart",
+          "text": "Tonika und Dominante bilden bei Prout das häufigste Paar. Er belegt aber auch Antworten in der Subdominante. In Bachs Kantate „Der Himmel lacht“ hört er das Thema in C-Dur und die Antwort in F-Dur. Hier ist die Tonart der ganzen Linie entscheidend.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=42",
+          "examples": [
+            "fuge-prout-bach-subdominante"
+          ]
+        },
+        {
+          "name": "Luigi Cherubini",
+          "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+          "locator": "On Real Fugue und On Fugue of Imitation, S. 67–68 · Unterscheidung zweier Fugenarten",
+          "text": "Für die Realfuge nennt Cherubini die Quinte als Antwortstufe. Daneben beschreibt er eine eigene Kategorie, die „fugue of imitation“. In diesem freieren Satz können Einsatzabstand und Einsatzzeitpunkt wechseln. Zu den möglichen Intervallen zählt er ausdrücklich auch Terz, Sexte, Sekunde und Septime.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=74"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
+          "locator": "T. 1–4 · Notenbefund, Bach-Gesellschaft, S. 4",
+          "text": "Der Sopran beginnt die Antwort auf g eine Quinte über dem Anfangston c des Alts. Der Tenor übernimmt dieselbe Antwort eine Oktave tiefer als der Sopran. Gegenüber dem ersten c liegt sein g damit eine Quarte tiefer.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=4",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-846-antwort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-quintsprung",
+      "title": "Wird aus dem Quintsprung des Themas in der Antwort eine Quarte?",
+      "group": "Fuge",
+      "tags": [
+        "Mutation",
+        "Mutatio",
+        "Tonika",
+        "Dominante",
+        "Quinte",
+        "Quarte",
+        "Quintfall",
+        "Quintsprung",
+        "Skalenstufe"
+      ],
+      "comparisons": [],
+      "reading": "Spiele den Themenkopf c–g zuerst mit der Antwort g–d, dann mit g–c. Die zweite Lösung führt zur Tonika der Ausgangstonart zurück. Prüfe an Prouts beiden Bach-Beispielen, welche Quinte tatsächlich verändert wird.",
+      "related": [
+        "fuge-reale-tonale-antwort",
+        "fuge-modulierendes-thema",
+        "fuge-wechselnde-antwort"
+      ],
+      "authors": [
+        {
+          "name": "Luigi Cherubini",
+          "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+          "locator": "On Tonal Fugue, S. 66, Bsp. 200–201 · Schemata für den Themenkopf",
+          "text": "Für das Quintthema c–g gibt Cherubini die Quarte g–c als Antwort. Er lässt auch vom Dominantton aus denken. Beginnt das Thema auf der Dominante und bewegt sich zur Tonika, tauschen die beiden Funktionen in der Antwort ebenfalls die Plätze.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=72",
+          "examples": [
+            "fuge-cherubini-quinte-quarte"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. III, §§ 88–91, S. 33–35 · zwei verschiedene Lösungen bei Bach",
+          "text": "Prout vergleicht die tatsächlichen Antworten bei Bach. In der Es-Dur-Fuge aus dem zweiten Teil des Wohltemperierten Klaviers wird nur das erste b des Themas mit es beantwortet. Die späteren b erhalten f. In der g-Moll-Orgelfuge bleibt dagegen schon die erste aufsteigende Quinte als Quinte erhalten.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=49",
+          "examples": [
+            "fuge-prout-bach-es-tonal",
+            "fuge-prout-bach-g-real"
+          ]
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge VIII in dis-Moll, BWV 853",
+          "locator": "T. 1–3, Alt und Sopran · Notenbefund, Bach-Gesellschaft, S. 34",
+          "text": "Der erste Sprung im Alt führt von dis nach ais und verbindet so Tonika und Dominante. Der Sopran beginnt auf ais und springt eine Quarte aufwärts nach dis. Das zweite Ziel ist wieder der Grundton der Fuge.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=34",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-853-quintsprung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-modulierendes-thema",
+      "title": "Wie antworte ich auf ein Thema, das zur Dominante moduliert?",
+      "group": "Fuge",
+      "tags": [
+        "Modulation",
+        "Dominanttonart",
+        "Doppeldominante",
+        "Mutation",
+        "Tonika",
+        "Leitton"
+      ],
+      "comparisons": [],
+      "reading": "Notiere für den Dux die Ausgangs- und die Zieltonart. Transponiere den ganzen Dux probeweise eine Quinte hinauf. Vergleiche das erreichte Ziel mit der gedruckten Antwort und suche den ersten Ton, an dem sich die Wege trennen.",
+      "related": [
+        "fuge-reale-tonale-antwort",
+        "fuge-quintsprung",
+        "fuge-wechselnde-antwort"
+      ],
+      "authors": [
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. IV, §§ 114–119, S. 49–50 · Thema mit Schluss in der Dominanttonart",
+          "text": "Führt das Thema von der Tonika in die Dominanttonart, soll die Antwort in der Dominante beginnen und an der entsprechenden Stelle zur Tonika zurücklenken. Eine durchgehende Quinttransposition würde in der Dominante der Dominante landen. Prout unterscheidet die am neuen Leitton erkennbare Modulation von einer durch die Schlusswendung nahegelegten.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=65",
+          "examples": [
+            "fuge-prout-doppeldominante"
+          ]
+        },
+        {
+          "name": "Luigi Cherubini",
+          "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+          "locator": "On Tonal Fugue, S. 67, rechte Spalte · nach Tonarten gegliederte Phrasen",
+          "text": "Cherubini teilt das Thema in Phrasen und hört, welchem Akkord oder welcher Tonart sie angehören. In seinem Beispiel entsprechen den Abschnitten in C und G die Abschnitte in G und C der Antwort. Der Wechsel des Bezugssystems erklärt, wo sich die Intervalle verändern.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=73",
+          "examples": [
+            "fuge-cherubini-tonarten"
+          ]
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge VII in Es-Dur, BWV 852",
+          "locator": "T. 1–4, Sopran und Alt · Notenbefund, Bach-Gesellschaft, S. 30",
+          "text": "Der Sopran beginnt auf b, der Dominante von Es-Dur. Vor der Achtelpause bleibt der Kopf im Bereich von Es-Dur. Danach erscheint a als Leitton zu b, dem Ziel des Themas in Takt 2. Die Antwort beginnt auf es und führt in Takt 4 nach es zurück. Vergleiche die Anfangsintervalle und die Töne beiderseits der Achtelpause.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=30",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-852-modulation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-wechselnde-antwort",
+      "title": "Kann die Beantwortung innerhalb einer Fuge wechseln?",
+      "group": "Fuge",
+      "tags": [
+        "reale und tonale Antwort",
+        "Mutation",
+        "gemischte Antwort",
+        "wechselnde Antworten"
+      ],
+      "comparisons": [],
+      "reading": "Bei Cherubini ändert sich das Verfahren innerhalb einer Antwort. Prout legt zwei verschiedene Antworten auf dasselbe Thema nebeneinander. Markiere die veränderten Intervalle. Welche Antwort bewahrt die Intervallfolge durchgehend?",
+      "related": [
+        "fuge-reale-tonale-antwort",
+        "fuge-modulierendes-thema",
+        "fuge-exposition"
+      ],
+      "authors": [
+        {
+          "name": "Luigi Cherubini",
+          "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+          "locator": "On Real Fugue, S. 68, Bsp. 204 · Wechsel innerhalb einer Antwort",
+          "text": "Ein Thema kann für Cherubini real beginnen und erst gegen Ende die Merkmale der tonalen Fuge annehmen. Er teilt Beispiel 204 ausdrücklich in zwei Abschnitte. Entsprechend wechselt die Behandlung innerhalb ein und derselben Antwort.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=74",
+          "examples": [
+            "fuge-cherubini-abschnittswechsel"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. III, §§ 108–109, S. 46 · zwei Antworten innerhalb derselben Exposition",
+          "text": "Prout stellt in Bachs A-Dur-Orgelfuge zwei Antworten auf dasselbe Thema gegenüber. Schon innerhalb der Exposition ist die erste tonal und die zweite real. Bei der ersten ist außerdem der Anfangston verkürzt. Das lässt sich getrennt von der Änderung des Tonhöhenverlaufs prüfen.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=62",
+          "examples": [
+            "fuge-prout-zwei-antworten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-themenende",
+      "title": "Wo endet das Fugenthema, wenn die nächste Stimme schon einsetzt?",
+      "group": "Fuge",
+      "tags": [
+        "Themengrenze",
+        "Themenende",
+        "Themenkopf",
+        "Phrasierung",
+        "Themenlänge",
+        "BWV 872"
+      ],
+      "comparisons": [],
+      "reading": "In Bachs Cis-Dur-Fuge BWV 872 schlagen Prout und Keller zwei verschiedene Endtöne vor. Spiele die ersten vier Basstöne und dann die ersten acht. Welche Grenze hörst du am Anfang, und welche Gestalt erkennst du später wieder?",
+      "related": [
+        "fuge-engfuehrung",
+        "fuge-kontrasubjekt",
+        "fuge-exposition"
+      ],
+      "authors": [
+        {
+          "name": "Ebenezer Prout",
+          "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
+          "locator": "Fuge Nr. 27, S. 55–56 · WTK II, Cis-Dur, BWV 872",
+          "text": "Prout grenzt das Thema auf die ersten vier Basstöne ein. Er begründet seine Lesart mit der späteren Verarbeitung. In seiner Analyse druckt er genau die vier Töne als selbstständiges Thema ab.",
+          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=60",
+          "examples": [
+            "fuge-prout-bwv872-vier-toene"
+          ]
+        },
+        {
+          "name": "Hermann Keller",
+          "work": "Das Wohltemperierte Klavier von Johann Sebastian Bach. Werk und Wiedergabe (Kassel, Bärenreiter, 1965)",
+          "locator": "WTK II, Cis-Dur, BWV 872, S. 130 · Deutung der Themenlänge",
+          "text": "Keller hört den achten Ton, cis, als Ende des Themas. Die ersten vier Töne erkennt auch er als Kern der späteren Arbeit. Für die Gliederung des Anfangs fasst er die Basslinie aber länger. Die Vergrößerungen in Takt 25 und 27 beziehen sich nach seiner Lesart auf die ersten vier Töne.",
+          "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf#page=3"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das Wohltemperirte Clavier II, Fuga III in Cis-Dur, BWV 872 (Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig, 1866)",
+          "locator": "S. 102, T. 1–2 · Partiturbeobachtung und redaktionelle Markierung",
+          "text": "Der Bass beginnt nach einer Achtelpause. Wenn die Oberstimme einsetzt, läuft seine Linie weiter. Spiele den Bass zweimal und halte an den beiden markierten Stellen inne. Spiele dann beide Stimmen und höre, wie früh die Imitation einsetzt.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf#page=14",
+          "kind": "partitur",
+          "examples": [
+            "fuge-bach-bwv872-themengrenze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-kontrasubjekt",
+      "title": "Woran erkenne ich ein festes Kontrasubjekt?",
+      "group": "Fuge",
+      "tags": [
+        "Gegensatz",
+        "Kontrasubjekt",
+        "Gegenthema",
+        "Countersubject",
+        "doppelter Kontrapunkt",
+        "vertauschbar",
+        "obligater Kontrapunkt",
+        "freier Kontrapunkt"
+      ],
+      "comparisons": [],
+      "reading": "Verfolge die Gegenstimme über mehrere Themeneinsätze hinweg. Kehrt dieselbe melodisch-rhythmische Gestalt wieder? Kann sie sowohl über als auch unter dem Thema stehen? Vergleiche die Forderung der Schulfuge mit der Verwendung in Bachs c-Moll-Fuge.",
+      "related": [
+        "fuge-exposition",
+        "fuge-themenende",
+        "fuge-zwischenspiel"
+      ],
+      "authors": [
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. V, §§ 159–162 und 176, S. 72–73 und 80 · Definition und Bach-Beispiele",
+          "text": "Ein Kontrasubjekt kehrt als Gegenstimme zum Thema oder zur Antwort wieder. Einzelne Einsätze dürfen ohne es auskommen. Prout sucht einen eigenen Rhythmus und eine Linie, die sich mit dem Thema im doppelten Kontrapunkt vertauschen lässt. Für eine ganze Fuge hält er ein festes Kontrasubjekt für entbehrlich.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=88",
+          "examples": [
+            "fuge-prout-bach-kontrasubjekt"
+          ]
+        },
+        {
+          "name": "André Gédalge",
+          "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
+          "locator": "Titel IV, §§ 105–106, S. 59–60 · Entwurf für die Schulfuge",
+          "text": "Gédalge verlangt für das Kontrasubjekt der Schulfuge eine in der Oktave oder Doppeloktave vertauschbare Gegenstimme, die das Thema bei jedem Einsatz begleitet. Ihr Rhythmus soll den des Themas ergänzen. Freie Stimmen können dagegen bei jedem Einsatz anders geführt werden, wie die Setzmodelle in Titel V zeigen.",
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=71",
+          "examples": [
+            "fuge-gedalge-bach-contresujet"
+          ]
+        },
+        {
+          "name": "Luigi Cherubini",
+          "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+          "locator": "„On Counter-subject“, S. 64–65 · Lehre und Setzbeispiele",
+          "text": "Cherubini lässt einen oder mehrere Gegenkontrapunkte zu und bevorzugt ihre gestaffelte Einführung. Beginnt der Gegenkontrapunkt erst später, dürfen einzelne Töne den Erfordernissen der Stimmen angepasst werden. Der doppelte Kontrapunkt soll den Lagentausch ermöglichen.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=70"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge II in c-Moll, BWV 847",
+          "locator": "T. 3–4 und 7–8 · Notenbefund, Bach-Gesellschaft, S. 8",
+          "text": "Sobald der Sopran in Takt 3 antwortet, führt der Alt eine absteigende Sechzehntelfigur und anschließend eine Achtellinie dagegen. Beim Themeneinsatz des Basses in Takt 7 übernimmt der Sopran diese Gegenstimme. Ihr Wechsel der Lage lässt sie als wiederkehrenden Kontrapunkt erkennen.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-847-kontrasubjekt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-exposition",
+      "title": "Wie viele Einsätze braucht die Exposition und in welcher Reihenfolge?",
+      "group": "Fuge",
+      "tags": [
+        "Erste Durchführung",
+        "Stimmenzahl",
+        "Einsatzfolge",
+        "Exposition",
+        "zusätzlicher Einsatz",
+        "Schulfuge"
+      ],
+      "comparisons": [],
+      "reading": "Zeichne für jede Stimme eine Zeile und trage Dux oder Comes beim jeweiligen Einsatz ein. Prout und Gédalge ziehen bei der zweistimmigen Fuge an verschiedenen Stellen den Schlussstrich. Vergleiche anschließend die Einsatzfolge in Bachs vierstimmiger C-Dur-Fuge.",
+      "related": [
+        "fuge-reale-tonale-antwort",
+        "fuge-gegenexposition",
+        "fuge-zwischenspiel"
+      ],
+      "authors": [
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. VI, §§ 178–186, S. 81–83 · zwei bis vier Stimmen",
+          "text": "Prout verfolgt die ersten Einsätze durch alle Stimmen. Zweistimmig genügt ihm die Folge Thema–Antwort. In der dreistimmigen Fuge kann nach den ersten drei Einsätzen ein weiterer folgen. Für vier Stimmen empfiehlt er als letzten Einsatz möglichst eine Außenstimme, weil das Thema dort besser hörbar ist.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=97"
+        },
+        {
+          "name": "André Gédalge",
+          "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
+          "locator": "Titel V, §§ 126–128 und 133–134, S. 70–71, sowie §§ 140–142, S. 73–74 · Schulfuge",
+          "text": "Gédalge verlangt in der Schulfuge mindestens vier abwechselnde Einsätze, auch bei nur zwei Stimmen. Beide Stimmen tragen dann je einmal Thema und Antwort vor. Passt die sofortige Antwort metrisch oder tonal schlecht, überbrückt eine Coda des Themas den Abstand.",
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=82",
+          "examples": [
+            "fuge-gedalge-exposition-zwei-stimmen",
+            "fuge-gedalge-coda-du-sujet"
+          ]
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
+          "locator": "T. 1–6, erste Einsätze aller vier Stimmen · Notenbefund, Bach-Gesellschaft, S. 4",
+          "text": "Die ersten Einsätze folgen im Alt (c), Sopran (g), Tenor (g) und Bass (c). Der Tenor wiederholt also die Antwort des Soprans in tieferer Lage. Erst der Bass bringt das Thema wieder auf der Tonikastufe.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=4",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-846-antwort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-gegenexposition",
+      "title": "Wann bildet eine zweite Einsatzgruppe eine Gegenexposition?",
+      "group": "Fuge",
+      "tags": [
+        "Gegenexposition",
+        "contre-exposition",
+        "counter-exposition",
+        "Durchführung",
+        "Einsatzgruppe",
+        "Rollenwechsel"
+      ],
+      "comparisons": [],
+      "reading": "Vergleiche die Rollen der Stimmen vor und nach dem Ende der ersten Exposition. Welche Stimme wechselt vom Dux zum Comes? Prüfe dann, wie viele Einsätze die Autoren zur zweiten Gruppe zählen.",
+      "related": [
+        "fuge-exposition",
+        "fuge-zwischenspiel",
+        "fuge-engfuehrung"
+      ],
+      "authors": [
+        {
+          "name": "André Gédalge",
+          "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
+          "locator": "Titel VI, §§ 177–183, S. 108–110 · Gegenexposition der Schulfuge",
+          "text": "Für Gédalge hat die fakultative Gegenexposition genau zwei Einsätze. Zuerst kommt die Antwort in einer Stimme, die zuvor das Thema hatte. Dann folgt das Thema in einer früheren Antwortstimme. Zwischen Exposition und Gegenexposition steht ein kurzes Zwischenspiel.",
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=120",
+          "examples": [
+            "fuge-gedalge-gegenexposition"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. VI, §§ 207–211, S. 89–91 · Begriff anhand des Repertoires",
+          "text": "Prout beschreibt eine zweite Einsatzgruppe in denselben Tonarten. Sie kann unmittelbar folgen oder durch eine Episode abgesetzt sein. Oft tauschen die Stimmen ihre Rollen. Bei einer partiellen Gegenexposition erhält mindestens eine Stimme weder Thema noch Antwort. Eine Gegenexposition ist für Prout fakultativ.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=106"
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
+          "locator": "Fuge Nr. 9, S. 29–30 · WTK I, E-Dur, BWV 854, T. 6–10",
+          "text": "In Bachs E-Dur-Fuge bezeichnet Prout drei Einsätze als Gegenexposition. In der Exposition hatte der Sopran die Antwort, Alt und Bass das Thema. Jetzt wechseln die Rollen. Der Sopran bringt das Thema, danach folgen zwei Antworten in Alt und Bass.",
+          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=34"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge IX in E-Dur, BWV 854",
+          "locator": "T. 5–12 · Notenbefund, Bach-Gesellschaft, S. 37",
+          "text": "Im zweiten gedruckten System wandert der Themenkopf vom Sopran in den Alt. Im dritten übernimmt ihn der Bass. Singe jede Stimme getrennt und bestimme, welche von ihnen auf e und welche auf h einsetzt.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=37",
+          "kind": "partitur",
+          "examples": [
+            "fuge-bach-bwv854-gegenexposition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-zwischenspiel",
+      "title": "Wie unterscheide ich Codetta und Zwischenspiel?",
+      "group": "Fuge",
+      "tags": [
+        "Codetta",
+        "Coda",
+        "Zwischenspiel",
+        "Episode",
+        "Divertissement",
+        "Sequenz",
+        "Themenkopf"
+      ],
+      "comparisons": [],
+      "reading": "Höre in Bachs c-Moll-Fuge BWV 847 zuerst die Überleitung vor dem ersten Basseinsatz, dann die Takte nach diesem Einsatz. Der Themenkopf klingt an beiden Stellen an. Die Stellung innerhalb des Stücks erklärt, warum Prout zwei verschiedene Bezeichnungen wählt.",
+      "related": [
+        "fuge-exposition",
+        "fuge-kontrasubjekt",
+        "fuge-gegenexposition"
+      ],
+      "authors": [
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. VII, §§ 213–216, S. 92–93 · Bach, Wohltemperiertes Klavier I, c-Moll, BWV 847",
+          "text": "In Bachs c-Moll-Fuge gewinnt die Codetta vor dem Basseinsatz ihr Material aus Themenkopf und Kontrasubjekt. Das erste Zwischenspiel nach der Exposition greift beide Gedanken erneut auf und führt nach Es-Dur. Prout unterscheidet die beiden Abschnitte nach ihrer Stellung zwischen den Themeneinsätzen.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=108",
+          "examples": [
+            "fuge-prout-codetta-episode"
+          ]
+        },
+        {
+          "name": "André Gédalge",
+          "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
+          "locator": "Titel VII, §§ 187–193, S. 112–113 · Divertissement der Schulfuge",
+          "text": "Für das Divertissement gewinnt Gédalge Fragmente aus Thema, Kontrasubjekt, Coda oder einer freien Stimme der Exposition. Die Imitationen sollen eine fortlaufende melodische Linie bilden. Eine Sequenz ist willkommen, wenn die Wiederholung des Motivs sie hervorbringt. Das bloße Fortschieben von Akkordverbindungen verwirft er.",
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=124"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge II in c-Moll, BWV 847",
+          "locator": "T. 9–11, zwischen dem ersten Basseinsatz und dem Einsatz im Sopran · Notenbefund, Bach-Gesellschaft, S. 8",
+          "text": "In Takt 9 und 10 erscheint die kurze Wechselnotenfigur des Themenkopfes auf wechselnden Stufen. Der Bass führt dazu durchgehende Sechzehntel. In Takt 11 beginnt der Sopran einen vollständigen Themeneinsatz auf es.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-847-episode"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-engfuehrung",
+      "title": "Was ist eine Engführung, und braucht jede Fuge eine?",
+      "group": "Fuge",
+      "tags": [
+        "Engführung",
+        "Stretto",
+        "Stretta",
+        "Einsatzabstand",
+        "Kanon",
+        "Überlappung",
+        "Überlagerung"
+      ],
+      "comparisons": [],
+      "reading": "Setzt die nächste Stimme ein, bevor die vorherige ihren Themenvortrag beendet, überlappen die Einsätze. Bestimme in Bachs C-Dur-Fuge den zeitlichen Abstand. Ob eine Fuge überhaupt eine solche Passage haben muss, beantworten Cherubini und Prout ausdrücklich verschieden.",
+      "related": [
+        "fuge-themenende",
+        "fuge-exposition",
+        "fuge-gegenexposition"
+      ],
+      "authors": [
+        {
+          "name": "Luigi Cherubini",
+          "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+          "locator": "„On Stretto“, S. 65–66, Bsp. 198 · Lehre und Setzbeispiel",
+          "text": "Cherubini zählt die Engführung zu den wesentlichen Bestandteilen einer Fuge. Die Antwort setzt schon ein, während das Thema noch läuft. Bei wiederholten Engführungen empfiehlt er, die Einsatzabstände nach und nach zu verkürzen.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=71",
+          "examples": [
+            "fuge-cherubini-stretto"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+          "locator": "Kap. VIII, §§ 244–250, S. 109–110 · Prüfung an Bachs 48 Fugen",
+          "text": "Prout widerspricht Cherubinis Forderung ausdrücklich. Nach seiner Zählung hat rund die Hälfte der Fugen des Wohltemperierten Klaviers keine Engführung. Für die eigene Arbeit entscheidet er nach dem Thema. Eine mögliche Überlagerung muss noch keine überzeugende sein.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=125",
+          "examples": [
+            "fuge-prout-stretto-abstaende"
+          ]
+        },
+        {
+          "name": "André Gédalge",
+          "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
+          "locator": "Titel VIII, §§ 261–266, S. 155 · Terminologie der Schulfuge",
+          "text": "Gédalge verwendet Stretto für die einzelne Verbindung mit verkürztem Einsatzabstand und für einen ganzen Schlussabschnitt, in dem die Einsätze einander zunehmend näher rücken. Bleibt das Thema während der überlappenden Antwort vollständig erhalten, beschreibt er eine kanonische Engführung.",
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=167"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
+          "locator": "T. 7–8, Sopran und Tenor · Notenbefund, Bach-Gesellschaft, S. 4",
+          "text": "In Takt 7 setzt der Sopran nach einer Achtelpause mit c–d–e ein. Nur eine Viertelnote später folgt der Tenor mit g–a–h. Die punktierte Wendung des Soprans ist noch zu hören, während der Tenor den Kopf imitiert.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=4",
+          "kind": "partitur",
+          "examples": [
+            "bach-wtk1-846-engfuehrung"
+          ]
+        }
+      ]
     }
   ],
   "examples": {
@@ -2586,6 +3185,230 @@ const ATLAS = {
       "caption": "Singe zunächst die höhere Linie und danach die tiefere. Beide enden auf derselben Tonhöhe. Auf der Folgeseite beschränkt Fux diesen Zusammenklang ausdrücklich auf die Ränder der Übung.",
       "credit": "Johann Joseph Fux, Gradus ad Parnassum (Wien, 1725). Wienbibliothek im Rathaus, B-61291. Ausschnitt, Public Domain Mark 1.0.",
       "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118102"
+    },
+    "fuge-prout-bach-mozart-antwort": {
+      "image": "quellen/noten/fuge-prout-bach-mozart-antwort.webp",
+      "title": "Bach und Mozart bei Prout",
+      "alt": "Zwei einzeilig gedruckte Ausschnitte mit S für das Thema und A für die Antwort. Oben die E-Dur-Fuge aus dem zweiten Teil des Wohltemperierten Klaviers, unten Mozarts G-Dur-Quartett.",
+      "caption": "Singe jeweils die ersten beiden Töne bei S und bei A. In Mozarts Beispiel ändert sich die Intervallgröße. Lies bei Bach auch den gegenüber dem Thema verlängerten Schlusston.",
+      "credit": "Prout, Fugue, S. 18. University of North Carolina at Chapel Hill, Music Library, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=34"
+    },
+    "fuge-cherubini-martini-real": {
+      "image": "quellen/noten/fuge-cherubini-martini-real.webp",
+      "title": "Padre Martini als Modell der Realfuge",
+      "alt": "Das Thema setzt oben ein. In der unteren Notenzeile beginnt die mit Response bezeichnete Antwort, während oben das Kontrasubjekt einsetzt.",
+      "caption": "Prüfe die ersten drei Töne der beiden Einsätze. Die eckigen Klammern im Druck zeigen, wo in der ersten Stimme das Thema endet und der Kontrapunkt zur Antwort beginnt.",
+      "credit": "Cherubini, A Treatise on Counterpoint & Fugue, S. 67. Harvard University / Google Books, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=73"
+    },
+    "fuge-cherubini-quinte-quarte": {
+      "image": "quellen/noten/fuge-cherubini-quinte-quarte.webp",
+      "title": "Zwei Töne für Thema und Antwort",
+      "alt": "Beispiel 200 stellt je zwei Töne als Subject und Response einander gegenüber. Die obere und untere Zeile zeigen verschiedene Lagen.",
+      "caption": "Singe die erste Zeile in ihrer notierten Lage. Vergleiche dann den Abstand der beiden Anfänge in der zweiten Zeile mit dem der ersten.",
+      "credit": "Cherubini, A Treatise on Counterpoint & Fugue, S. 66. Harvard University / Google Books, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=72"
+    },
+    "fuge-prout-bach-es-tonal": {
+      "image": "quellen/noten/fuge-prout-bach-es-tonal.webp",
+      "title": "Es-Dur · Die erste Quinte wird zur Quarte",
+      "alt": "Übereinander gedruckte Themen- und Antwortzeile aus Bachs Es-Dur-Fuge, WTK II/7. Die Schlüssel der beiden Zeilen unterscheiden sich.",
+      "caption": "Spiele es–b im Thema und b–es in der Antwort. Suche anschließend die weiteren b im Thema und prüfe, welcher Ton ihnen in der unteren Zeile entspricht.",
+      "credit": "Prout, Fugue, S. 33. University of North Carolina at Chapel Hill, Music Library, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=49"
+    },
+    "fuge-prout-bach-g-real": {
+      "image": "quellen/noten/fuge-prout-bach-g-real.webp",
+      "title": "g-Moll · Die erste Quinte bleibt erhalten",
+      "alt": "Übereinander gedruckte Themen- und Antwortzeile mit aufsteigenden Quinten aus der g-Moll-Orgelfuge. Beide Zeilen stehen im Violinschlüssel.",
+      "caption": "Lies in der oberen Zeile g–d und unten d–a. Vergleiche diesen realen Beginn mit dem tonalen Beginn der Es-Dur-Fuge.",
+      "credit": "Prout, Fugue, S. 35. University of North Carolina at Chapel Hill, Music Library, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=51"
+    },
+    "fuge-prout-doppeldominante": {
+      "image": "quellen/noten/fuge-prout-doppeldominante.webp",
+      "title": "Prouts Gegenprobe am Mozart-Thema",
+      "alt": "Eine einzelne Zeile mit fünf langen Noten und einem zusätzlichen Kreuz vor dem vorletzten Ton.",
+      "caption": "Prout versetzt hier Mozarts Thema aus § 57 probeweise ohne Anpassung. Singe d–fis–h–gis–a. Die Linie führt nach A. Für die Rückkehr zur Ausgangstonart G gibt Mozart eine andere Antwort.",
+      "credit": "Prout, Fugue, S. 49. University of North Carolina at Chapel Hill, Music Library, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=65"
+    },
+    "fuge-cherubini-tonarten": {
+      "image": "quellen/noten/fuge-cherubini-tonarten.webp",
+      "title": "Die Tonarten über den Phrasen lesen",
+      "alt": "Zwei Ausschnitte mit eckigen Klammern. Über dem Thema stehen In C und In G, über der Antwort In G und In C.",
+      "caption": "Lies die Töne unter den beiden Klammergrenzen. Das d am Ende der ersten melodischen Phrase leitet zum g weiter. Die entsprechende Wendung der Antwort führt von g nach c.",
+      "credit": "Cherubini, A Treatise on Counterpoint & Fugue, S. 67. Harvard University / Google Books, via Internet Archive. Gemeinfreier Notendruck, zwei Ausschnitte derselben Seite in Druckreihenfolge.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=73"
+    },
+    "fuge-prout-bach-subdominante": {
+      "image": "quellen/noten/fuge-prout-bach-subdominante.webp",
+      "title": "Bach · Eine Antwort in der Subdominante",
+      "alt": "Zwei Stimmen aus der von Prout als Der Himmel lacht bezeichneten Kantate. Die zweite Stimme setzt nach einer Pause ein und enthält ein b.",
+      "caption": "Verfolge die mit A bezeichnete untere Stimme bis zu ihrem b. Höre die kantable Linie in F-Dur und vergleiche sie mit dem C-Dur-Thema der oberen Stimme.",
+      "credit": "Prout, Fugue, S. 26. University of North Carolina at Chapel Hill, Music Library, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=42"
+    },
+    "fuge-cherubini-abschnittswechsel": {
+      "image": "quellen/noten/fuge-cherubini-abschnittswechsel.webp",
+      "title": "Zwei Verfahren innerhalb einer Antwort",
+      "alt": "Ein zweizeiliges Notenbeispiel. Über den Abschnitten stehen die Bezeichnungen Real fugue und Tonal fugue.",
+      "caption": "Lies zuerst nur bis zum Ende des als „Real fugue“ bezeichneten Abschnitts. Verfolge anschließend die Tonhöhen des Schlusses in beiden Zeilen.",
+      "credit": "Cherubini, A Treatise on Counterpoint & Fugue, S. 68. Harvard University / Google Books, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=74"
+    },
+    "fuge-prout-zwei-antworten": {
+      "image": "quellen/noten/fuge-prout-zwei-antworten.webp",
+      "title": "Zwei Antworten auf dasselbe Thema",
+      "alt": "Das Thema S über den getrennt gesetzten Anfängen A 1 und A 2 aus Bachs A-Dur-Orgelfuge. Die erste Antwort beginnt nach einer Pause.",
+      "caption": "Singe den Themenkopf erst mit A 1, dann mit A 2 im Wechsel. Prüfe den Abstand zwischen den ersten beiden Tonhöhen und anschließend die Dauer des ersten Tons.",
+      "credit": "Prout, Fugue, S. 46. University of North Carolina at Chapel Hill, Music Library, via Internet Archive. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=62"
+    },
+    "fuge-prout-bach-kontrasubjekt": {
+      "image": "quellen/noten/fuge-prout-bach-kontrasubjekt.webp",
+      "title": "Bachs c-Moll-Fuge · die erste Gegenstimme",
+      "alt": "Zwei Systeme aus BWV 847. Erst trägt die tiefer notierte Stimme das Thema allein vor. Beim Einsatz der höheren Stimme steht über der unteren Linie CS.",
+      "caption": "Spiele im zweiten System die mit CS bezeichnete Stimme allein. Wenn du die Antwort darüber hinzunimmst, hörst du zwei verschiedene Bewegungsmuster.",
+      "credit": "Ebenezer Prout, S. 72. University of North Carolina at Chapel Hill / Internet Archive. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=88"
+    },
+    "fuge-gedalge-bach-contresujet": {
+      "image": "quellen/noten/fuge-gedalge-bach-contresujet.webp",
+      "title": "Eine Stimme füllt die Pausen der anderen",
+      "alt": "Zwei Notenzeilen tragen die Bezeichnungen Sujet und Contresujet. Am Anfang sind Pausen und verschieden lange Noten beider Stimmen gegeneinander versetzt.",
+      "caption": "Lies die ersten beiden Takte senkrecht. Wo die Oberstimme pausiert, führt die Unterstimme den Puls weiter. Gédalge führt die Stelle unter Bachs Namen als Beispiel für die rhythmische Ergänzung an.",
+      "credit": "André Gédalge, S. 60. Sibley Music Library, Eastman School of Music, University of Rochester. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=72"
+    },
+    "fuge-gedalge-exposition-zwei-stimmen": {
+      "image": "quellen/noten/fuge-gedalge-exposition-zwei-stimmen.webp",
+      "title": "Vier Einsätze in zwei Stimmen · Gédalges Schema",
+      "alt": "Zwei beschriftete Schemata. Eingekreiste Zahlen von eins bis vier zeigen Sujet, Réponse, Sujet, Réponse. Im ersten Schema beginnt die obere, im zweiten die untere Stimme.",
+      "caption": "Verfolge in Modell Nr. 1 die eingekreisten Zahlen. Nach der Antwort singt dieselbe untere Stimme das Thema. Erst der vierte Einsatz führt die Antwort in die Oberstimme.",
+      "credit": "André Gédalge, S. 74. Sibley Music Library, Eastman School of Music, University of Rochester. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=86"
+    },
+    "fuge-gedalge-coda-du-sujet": {
+      "image": "quellen/noten/fuge-gedalge-coda-du-sujet.webp",
+      "title": "Die Coda des Themas vor dem Kontrasubjekt",
+      "alt": "Zwei Stimmen. Die obere Zeile ist in fin du Sujet, Coda und Contresujet gegliedert. Die Antwort setzt unten ein, während die Coda oben noch läuft.",
+      "caption": "Markiere den Beginn der Antwort und den Beginn des Kontrasubjekts. Die beiden Einsätze fallen auseinander. Die Coda überbrückt ihren Abstand.",
+      "credit": "André Gédalge, S. 71. Sibley Music Library, Eastman School of Music, University of Rochester. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=83"
+    },
+    "fuge-prout-codetta-episode": {
+      "image": "quellen/noten/fuge-prout-codetta-episode.webp",
+      "title": "Dasselbe Material vor und nach dem Basseinsatz",
+      "alt": "Drei Klaviersysteme aus BWV 847. Oben steht Codetta, in der Mitte erscheint das Thema im Bass, unten steht Episode.",
+      "caption": "Vergleiche die erste und die dritte Zeile. Beide greifen den Themenkopf auf. In der ersten Zeile pausiert der Bass noch, in der dritten verarbeitet er bereits den Beginn des Kontrasubjekts.",
+      "credit": "Ebenezer Prout, S. 93. University of North Carolina at Chapel Hill / Internet Archive. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=109"
+    },
+    "fuge-cherubini-stretto": {
+      "image": "quellen/noten/fuge-cherubini-stretto.webp",
+      "title": "Einsätze nacheinander und ineinander",
+      "alt": "Zwei Fassungen im Violinschlüssel und C-Schlüssel. Die Überschriften Subject und Response kennzeichnen die unterschiedlich weit auseinanderliegenden Einsätze.",
+      "caption": "Suche in beiden Fassungen das erste erklingende Zeichen der Unterstimme. Unten hört man die Antwort bereits, während die Oberstimme noch das Thema singt.",
+      "credit": "Luigi Cherubini, S. 65. Harvard University / Google Books, via Internet Archive. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=71"
+    },
+    "fuge-prout-stretto-abstaende": {
+      "image": "quellen/noten/fuge-prout-stretto-abstaende.webp",
+      "title": "Vier Versuche an demselben Thema",
+      "alt": "Zwei Notensysteme enthalten die Fassungen a bis d. Die Stimmen setzen in verschiedenen Abständen ein. In c bleibt Platz für einen ergänzenden Bass.",
+      "caption": "Zähle die Einsatzabstände. Bei (a) und (b) beträgt der Abstand einen Takt, bei (c) einen halben. In (d) folgen drei Einsätze im Viertelabstand. Prout bezeichnet diese Versuche als Demonstration der Machbarkeit.",
+      "credit": "Ebenezer Prout, S. 110. University of North Carolina at Chapel Hill / Internet Archive. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=126"
+    },
+    "fuge-gedalge-gegenexposition": {
+      "image": "quellen/noten/fuge-gedalge-gegenexposition.webp",
+      "title": "Gédalges dreistimmige Gegenexposition",
+      "alt": "Vier dreistimmige Schemata. Die Ziffer 1 steht jeweils über der Antwort, die Ziffer 2 über dem Thema. Eine der Stimmen führt freien Kontrapunkt.",
+      "caption": "Verfolge in Schema (c) die Mittelstimme und dann den Bass. Die Oberstimme bleibt frei. In (d) ändern sich die Stimmlagen, die Reihenfolge Antwort–Thema bleibt gleich.",
+      "credit": "André Gédalge, Traité de la fugue, S. 109. Sibley Music Library, University of Rochester. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=121"
+    },
+    "fuge-bach-bwv854-gegenexposition": {
+      "image": "quellen/noten/fuge-bach-bwv854-gegenexposition.webp",
+      "title": "BWV 854 · Die zweite Einsatzgruppe",
+      "alt": "Zwei Klaviersysteme mit den Takten 5 bis 12 der dreistimmigen E-Dur-Fuge. Der Themenkopf tritt nacheinander in der Ober-, Mittel- und Unterstimme auf.",
+      "caption": "Zähle ab der gedruckten 5. Verfolge in Takt 6–10 zuerst die Oberstimme, dann den Alt und schließlich den Bass. Vergleiche für jeden Einsatz die Tonstufe mit derjenigen derselben Stimme in der ersten Durchführung.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier I, Bach-Gesellschaft, Bd. XIV, hrsg. Franz Kroll, Leipzig 1866, S. 37. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=37"
+    },
+    "fuge-prout-bwv872-vier-toene": {
+      "image": "quellen/noten/fuge-prout-bwv872-vier-toene.webp",
+      "title": "Das Thema in Prouts Analyse",
+      "alt": "Kurzes Beispiel im Bassschlüssel mit Auftaktpause und vier Tönen in Cis-Dur.",
+      "caption": "Prouts Notenzeile bricht nach dem vierten Ton ab. Singe diese Gestalt und suche sie anschließend in Bachs vollständigem Satz.",
+      "credit": "Prout, Analysis of J. S. Bach’s Forty-Eight Fugues, S. 56. Exemplar der University of Toronto, Faculty of Music Library. Gemeinfreier Druck, Ausschnitt.",
+      "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=60"
+    },
+    "fuge-bach-bwv872-themengrenze": {
+      "image": "quellen/noten/fuge-bach-bwv872-themengrenze.webp",
+      "title": "Zwei mögliche Enden derselben Basslinie",
+      "alt": "Beginn der Cis-Dur-Fuge BWV 872. Unter der Bassstimme stehen zwei redaktionelle Markierungen bei der vierten und bei der achten Note.",
+      "caption": "Die Striche bezeichnen die Tonanfänge der beiden vorgeschlagenen Schlusstöne. Prouts vierter Ton steht noch im ersten Takt, Kellers achter Ton im zweiten.",
+      "credit": "J. S. Bach, Bach-Gesellschaft, Bd. 14, S. 102 (1866), via IMSLP. Gemeinfreier Notendruck. Ausschnitt mit zwei redaktionellen Markierungen.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf#page=14"
+    },
+    "bach-wtk1-846-antwort": {
+      "image": "quellen/noten/bach-wtk1-846-antwort.webp",
+      "title": "BWV 846 · Vier Einsätze in der C-Dur-Fuge",
+      "alt": "Zwei Klaviersysteme mit Takt 1 bis 6. Zuerst setzt die Altstimme ein, danach die Stimmen Sopran, Tenor und Bass.",
+      "caption": "Verfolge die drei steigenden Achtel am Beginn jedes Einsatzes. Die erste und die vierte Stimme beginnen auf c, die beiden mittleren Einsätze auf g in verschiedenen Oktaven.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=4"
+    },
+    "bach-wtk1-847-tonale-antwort": {
+      "image": "quellen/noten/bach-wtk1-847-tonale-antwort.webp",
+      "title": "BWV 847 · Thema im Alt und Antwort im Sopran",
+      "alt": "Die ersten sechs Takte der c-Moll-Fuge. Die zunächst allein spielende Stimme erhält in Takt 3 eine höhere Gegenstimme.",
+      "caption": "Singe die ersten vier Töne im Alt und dann im Sopran. Auf c–h–c folgt unten g, auf g–fis–g oben c. Die Antwort erreicht an dieser Stelle die Tonika der Grundtonart.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8"
+    },
+    "bach-wtk1-853-quintsprung": {
+      "image": "quellen/noten/bach-wtk1-853-quintsprung.webp",
+      "title": "BWV 853 · Quintaufstieg und Quartantwort",
+      "alt": "Erstes System der dis-Moll-Fuge. Der Alt beginnt mit einem Aufwärtssprung. In Takt 3 setzt der Sopran ebenfalls mit einem Aufwärtssprung ein.",
+      "caption": "Lies zunächst die ersten zwei Töne des Alts, dann die ersten zwei mit aufwärts gerichtetem Hals im Sopran. Aus dis–ais wird ais–dis.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=34"
+    },
+    "bach-wtk1-852-modulation": {
+      "image": "quellen/noten/bach-wtk1-852-modulation.webp",
+      "title": "BWV 852 · Zwei verschiedene Wege zum Schluss des Themas",
+      "alt": "Zwei Systeme der Es-Dur-Fuge, Takt 1 bis 6. In der Oberstimme beginnt das Thema auf b. Ab Takt 3 antwortet die Mittelstimme.",
+      "caption": "Lies im Sopran bis zum ersten Sechzehntel auf der dritten Zählzeit von Takt 2 und im Alt bis zur entsprechenden Stelle in Takt 4. Achte auf das Auflösungszeichen vor a im Thema und auf den Schluss jedes Einsatzes.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=30"
+    },
+    "bach-wtk1-847-kontrasubjekt": {
+      "image": "quellen/noten/bach-wtk1-847-kontrasubjekt.webp",
+      "title": "BWV 847 · Dieselbe Gegenstimme unter und über dem Thema",
+      "alt": "Zwei getrennte Ausschnitte, oben Takt 1 bis 3, unten Takt 7 bis 9. Am Ende des ersten Ausschnitts läuft die Altstimme abwärts, zu Beginn des zweiten die Sopranstimme.",
+      "caption": "Vergleiche die absteigende Sechzehntelkette im Alt von Takt 3 mit jener im Sopran von Takt 7. Im ersten Ausschnitt liegt das Thema darüber, im zweiten darunter. Die beiden Ausschnitte stehen im Original in der ersten und dritten Notenzeile.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8"
+    },
+    "bach-wtk1-847-episode": {
+      "image": "quellen/noten/bach-wtk1-847-episode.webp",
+      "title": "BWV 847 · Sequenz zwischen Basseinsatz und Es-Dur-Einsatz",
+      "alt": "Zwei Klaviersysteme mit Takt 7 bis 12 der c-Moll-Fuge. Nach dem Einsatz im Bass folgen kurze Themenkopf-Figuren in den oberen Stimmen und Sechzehntel im Bass.",
+      "caption": "Der letzte Takt des oberen und der erste Takt des unteren Systems bilden den Kern des Zwischenspiels. Vergleiche die Figuren und suche anschließend im Sopran den vollständigen Einsatz auf es.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8"
+    },
+    "bach-wtk1-846-engfuehrung": {
+      "image": "quellen/noten/bach-wtk1-846-engfuehrung.webp",
+      "title": "BWV 846 · Zwei Stimmen im Abstand einer Viertelnote",
+      "alt": "Takte 7 und 8 der C-Dur-Fuge. Im oberen System setzt der Sopran ein. Im unteren System antwortet der Tenor, während der Sopran weiterläuft.",
+      "caption": "Singe im Sopran c–d–e und setze im Tenor mit g–a–h ein. Das g des Tenors erklingt bereits zum e des Soprans.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier, Teil I. Bach-Gesellschaft, Bd. XIV, hrsg. von Franz Kroll, Leipzig 1866. Gemeinfreier Notendruck, Ausschnitt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=4"
     }
   }
 };

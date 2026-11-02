@@ -218,13 +218,15 @@
 
   function authorsSection(authors) {
     const section = el("section", "detail-section");
-    const heading = el("h3", "", "Aus den Lehrwerken");
+    const heading = el("h3", "", authors.some(a => a.kind === "partitur")
+      ? "Lehrwerke, Analysen und Partitur" : "Aus den Lehrwerken");
     heading.id = "lehrwerke";
     heading.tabIndex = -1;
     section.append(heading);
     const entries = authors.length > 1 ? el("div", "tradition-grid authors-grid") : section;
     for (const a of authors) {
       const card = el("div", "tradition-card");
+      if (a.kind === "partitur") card.append(el("span", "eyebrow", "Partiturbeobachtung"));
       card.append(el("h4", "", a.name), el("p", "", a.text));
       const citation = [a.work, a.locator].filter(Boolean).join(", ");
       card.append(a.url && /^https?:\/\//i.test(a.url)
@@ -338,7 +340,7 @@
     const title = el("h2", "entry-title", topic.title);
     title.tabIndex = -1;
     const actions = el("div", "entry-actions");
-    if (topic.authors?.length) actions.append(button("Lehrwerke (" + topic.authors.length + ")", "", () =>
+    if (topic.authors?.length) actions.append(button("Quellenbelege (" + topic.authors.length + ")", "", () =>
       document.getElementById("lehrwerke").focus()));
     if (examples.length) actions.append(button("Notenbeispiele (" + examples.length + ")", "", () =>
       document.getElementById("notenbeispiele").focus()));
@@ -404,6 +406,13 @@
   for (const a of document.querySelectorAll(".case-links a")) {
     a.addEventListener("click", event => {
       if (event.button || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      if (a.dataset.group || group.value) {
+        group.value = a.dataset.group || "";
+        search.value = "";
+        perspective.value = "";
+        illustrated.checked = false;
+        renderList();
+      }
       if (a.hash === location.hash) detail.querySelector("h2").focus();
       else nextFocus = "title";
     });
