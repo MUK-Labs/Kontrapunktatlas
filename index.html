@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6ef">
+  <meta name="description" content="Ein Fragenatlas zum zweistimmigen Kontrapunkt. Vergleiche modale und tonale Spezies und Hindemiths zweistimmigen Satz anhand von Adrián Artachos Unterrichtsmaterial.">
+  <title>Kontrapunktatlas · Regeln im Vergleich</title>
+  <link rel="stylesheet" href="atlas.css">
+</head>
+<body>
+  <a class="skip-link" href="#fragen">Zum Fragenverzeichnis</a>
+  <a class="skip-link" href="#detail">Zum gewählten Eintrag</a>
+  <header class="masthead">
+    <div class="page-width masthead-inner">
+      <a class="brand" href="index.html" aria-label="Kontrapunktatlas – Startseite">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect x=".5" y=".5" width="31" height="31" rx="5" fill="#254c3d"/>
+          <g stroke="#f8f6ef" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6.5 22.5 13 16l5.5 1.5 7-8"/>
+            <path d="m6.5 11 6.5 1.5 5.5 8 7-2.5" opacity=".73"/>
+          </g>
+        </svg>
+        <span>Kontrapunktatlas</span>
+      </a>
+      <nav class="masthead-nav" aria-label="Seitennavigation">
+        <a href="#fragen">Fragen</a>
+        <a href="#quellen">Quellen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-width" id="hauptinhalt">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <div class="eyebrow hero-kicker"><span class="kicker-line" aria-hidden="true"></span> Zweistimmiger Kontrapunkt</div>
+        <h1 id="hero-title">Regeln im Vergleich</h1>
+        <p>Wie verändert sich eine Regel von Spezies zu Spezies? Erkunde Fragen zur Stimmführung im modalen und tonalen Satz sowie bei Hindemith.</p>
+      </div>
+      <figure class="contour">
+        <svg viewBox="0 0 272 105" role="img" aria-labelledby="contour-title">
+          <title id="contour-title">Zwei aufsteigende Terzsprünge von C über E nach G</title>
+          <g fill="none" stroke="#c8ccbd" stroke-width=".8">
+            <path d="M8 20H264M8 44H264M8 68H264"/>
+            <path d="M38 13v63m98-63v63m98-63v63" stroke-dasharray="2 4"/>
+          </g>
+          <path d="m38 68 98-24 98-24" stroke="#42634e" stroke-width="2" fill="none"/>
+          <g fill="#f8f6ef" stroke="#315b45" stroke-width="2">
+            <circle cx="38" cy="68" r="5"/><circle cx="136" cy="44" r="5"/><circle cx="234" cy="20" r="5"/>
+          </g>
+          <g fill="#624734" font-family="Georgia,serif" font-size="15" font-style="italic" text-anchor="middle">
+            <text x="38" y="96">C</text><text x="136" y="96">E</text><text x="234" y="96">G</text>
+          </g>
+        </svg>
+        <figcaption>Beispiel <span aria-hidden="true">·</span> Zwei Sprünge in gleicher Richtung</figcaption>
+      </figure>
+    </section>
+
+    <div class="atlas-layout">
+      <aside class="directory" id="fragen" aria-labelledby="directory-heading" tabindex="-1">
+        <header class="directory-head">
+          <div class="eyebrow">Verzeichnis</div>
+          <h2 id="directory-heading">Fragen erkunden</h2>
+        </header>
+        <div class="directory-tools" role="search" aria-label="Fragen filtern">
+          <div class="filter-field filter-search">
+            <label for="search">Suche</label>
+            <div class="search-wrap">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.3"/><path d="m12.5 12.5 4.3 4.3"/></svg>
+              <input id="search" name="suche" type="search" placeholder="z. B. Leitton" autocomplete="off">
+            </div>
+          </div>
+          <div class="filter-field">
+            <label for="group">Themenbereich</label>
+            <select id="group" name="themenbereich"><option value="">Alle Themenbereiche</option></select>
+          </div>
+          <div class="filter-field">
+            <label for="perspective">Quelle oder Lehransatz</label>
+            <select id="perspective" name="perspektive"><option value="">Alle Perspektiven</option></select>
+          </div>
+        </div>
+        <div class="directory-list-head">
+          <p id="result-count" aria-live="polite" aria-atomic="true"></p>
+          <a href="#detail" class="detail-jump">Zum Eintrag ↓</a>
+        </div>
+        <nav id="question-list" aria-label="Fragenverzeichnis"></nav>
+      </aside>
+
+      <article id="detail" aria-label="Gewählte Frage" tabindex="-1">
+        <noscript><h2>Der interaktive Vergleich benötigt JavaScript.</h2><p>Alle Tabellen findest du im <a href="quellen/handout.pdf">Unterrichtshandout (PDF)</a>.</p></noscript>
+      </article>
+    </div>
+
+    <section id="quellen" class="sources" aria-labelledby="sources-heading" tabindex="-1">
+      <div class="source-heading">
+        <div class="eyebrow">Quellen und Lesart</div>
+        <h2 id="sources-heading">Zum Handout</h2>
+        <a class="pdf-link" href="quellen/handout.pdf">Handout öffnen <span class="file-type">PDF</span></a>
+      </div>
+      <div class="source-copy">
+        <p>Grundlage sind die Vergleichstabellen aus Adrián Artachos Unterrichtshandout für die MUK (Woche&nbsp;1). Die gedruckten Seiten <strong>6 und 8</strong> vergleichen die fünf Spezies im modalen und tonalen Satz.</p>
+        <p>Auf <strong>Seite 9</strong> stellt Artacho beide Lehrmodelle seiner Lesart von Hindemiths zweistimmigem Kontrapunkt gegenüber. Diese Gegenüberstellung gilt für den zweistimmigen Satz insgesamt. Die Handout-Einträge geben Artachos Zusammenfassung wieder. Zusätzliche Autorenpositionen sind mit Lehrwerk und Fundstelle ausgewiesen.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page-width footer">
+    <span>Kontrapunktatlas</span>
+    <span>Unterrichtsmaterial von Adrián Artacho</span>
+  </footer>
+  <div class="sr-only" id="status" role="status" aria-live="polite"></div>
+  <script src="atlas-data.js"></script>
+  <script src="atlas.js"></script>
+</body>
+</html>
