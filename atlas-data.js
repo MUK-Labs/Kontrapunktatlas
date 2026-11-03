@@ -1460,7 +1460,8 @@ const ATLAS = {
         ]
       },
       "related": [
-        "cantus-firmus"
+        "cantus-firmus",
+        "melodische-fortspinnung"
       ],
       "authors": [
         {
@@ -1496,6 +1497,17 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "piston-beethoven-op18-1-adagio"
+          ]
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "III. Abschnitt, I. Teil, Kap. IV, S. 186–189, Nr. 12–13 · Betonung und Metrum",
+          "text": "Der Höhepunkt einer melodischen Phase kann nach dem schweren Taktteil liegen. Kurth setzt in einem Fugenthema aus Bachs Kunst der Fuge zwei sf-Zeichen an die Stellen, auf die die Bewegung zielt. Er hört darin die Spannung des melodischen Verlaufs. Als Gegenprobe stellt er eine bewusst gegen den erwarteten Schlag gesetzte Betonung aus Beethovens Appassionata daneben.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=198",
+          "comparison": "Rothgebs Aufgabe bestimmt, wie oft der höchste Ton des Cantus firmus vorkommen darf. Kurths Zeichen verorten den stärksten Nachdruck beim Vortrag einer melodischen Phase.",
+          "examples": [
+            "kurth-nr12-13"
           ]
         }
       ]
@@ -1589,7 +1601,8 @@ const ATLAS = {
         }
       ],
       "related": [
-        "generalbass-ziffern-stufen"
+        "generalbass-ziffern-stufen",
+        "harmonik-enharmonische-spannung"
       ]
     },
     {
@@ -2186,7 +2199,19 @@ const ATLAS = {
           "locator": "Teil I, §§ 1–5, S. 11–12, und §§ 10–15, S. 13–14 · Anlage der Übungen",
           "text": "Die Folge beginnt mit kurzen Vokallinien zu einem gegebenen Cantus. Die Lernenden arbeiten vom zwei- bis zum achtstimmigen Satz. In fünf bis acht Stimmen beschränkt sich der einfache Kontrapunkt auf Note gegen Note und den Floridus. Für den achtstimmigen Doppelchor folgt eine eigene Aufgabe.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch1Ppes.pdf#page=3"
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "II. Abschnitt, Kap. IV, S. 141–143 · Ausgangspunkt für die Arbeit an Bach",
+          "text": "Kurth beginnt mit einer einzelnen melodischen Linie. Wer zunächst hört, wie ihre Bewegung über mehrere Töne trägt, kann verfolgen, wie eine zweite Linie mit eigener Bewegungsrichtung hinzutritt. Kurth empfiehlt dafür besonders Bachs Instrumentalmusik, für die Einstimmigkeit auch die Solowerke für Violine und Violoncello.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=152",
+          "comparison": "Bei Fux erhält der Schüler zuerst den Cantus firmus und sucht zu dessen Tönen passende Gegenstimmen. Kurth beginnt seine Bach-Studien mit dem Verlauf der Einzelstimme."
         }
+      ],
+      "related": [
+        "linie-scheinpolyphonie",
+        "beurteilung"
       ]
     },
     {
@@ -2208,7 +2233,8 @@ const ATLAS = {
         }
       ],
       "related": [
-        "dissonanzen-s2"
+        "dissonanzen-s2",
+        "harmonik-enharmonische-spannung"
       ],
       "authors": [
         {
@@ -2235,6 +2261,13 @@ const ATLAS = {
           "text": "Eine Akkordseptime bleibt für Piston Akkordbestandteil, auch wenn sie sich schrittweise auflöst. Ein akkordfremder Ton kann dagegen den melodischen Charakter einer Phrase bestimmen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "I. Abschnitt, Kap. VI, S. 91–92 · Quarte im Sextakkord und im Quartsextakkord",
+          "text": "Kurth vergleicht die Lage derselben Quarte in zwei Akkorden. Im Sextakkord kann sie zwischen zwei Oberstimmen liegen, während die Terz den Dreiklang mitträgt. Im Quartsextakkord hört er den Akkordgrundton über dem Quintton im Bass. Aus dieser Lage erklärt er die Spannung, die dort zur Auflösung drängt.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=101"
         }
       ]
     },
@@ -2365,12 +2398,21 @@ const ATLAS = {
           "text": "Im letzten Klang von Takt 10 gehört derselbe Basston f zu zwei Stufenzählungen. Er ist die vierte Stufe von C-Dur und die tiefe sechste Stufe von a-Moll. Beim folgenden h lauten die beiden Zahlen sieben und zwei. Försters Stufen zeigen, wie sich der Tonartbezug eines gespielten Basses verändert.",
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
           "comparison": "Piston bezieht seine römische Ziffer auf den Grundton der Harmonie. Försters Zahl folgt dem gespielten Basston. Bei einem Sextakkord können die beiden Angaben deshalb verschiedene Töne bezeichnen."
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "II. Abschnitt, Kap. I, S. 97–102, und Kap. IV, S. 141–143 · „paralinear“",
+          "text": "Kurth nennt das Nebeneinander eigenständig verlaufender Linien „paralinear“. Ihre Zusammenklänge lassen sich auch als Akkorde benennen. Eine Akkordfolge allein erklärt für ihn jedoch weder den Anfang noch das Ziel jeder einzelnen Bewegung.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=110",
+          "comparison": "Förster setzt in der Generalbassübung beim gegebenen Bass und den geforderten Intervallen an. Kurth fragt beim Hören von Bach, welche Bewegungen der Stimmen zu einem bestimmten Zusammenklang führen."
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
       "related": [
         "harmonischer-rhythmus",
-        "generalbass-ziffern-stufen"
+        "generalbass-ziffern-stufen",
+        "harmonik-enharmonische-spannung"
       ]
     },
     {
@@ -2445,6 +2487,27 @@ const ATLAS = {
           "locator": "Vorwort, S. 5, und Teil I, § 15, S. 14 · Ziel der Satzarbeit",
           "text": "Jede Stimme soll beweglich bleiben, sich von den anderen unterscheiden und Abwechslung bieten. Beim Hinzutreten weiterer Stimmen gelten bestimmte Erleichterungen. Ob eine davon an der konkreten Stelle greift, hängt davon ab, wie viele Stimmen dort bereits singen.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch1Ppes.pdf#page=4"
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "II. Abschnitt, Kap. II, S. 109–113, besonders S. 112, Fußnote · erste Gattung",
+          "text": "Kurth greift eine vierstimmige Musterlösung aus Cherubinis Lehrbuch heraus. Ihm erscheint die Folge weder als besonders überzeugende Akkordfolge noch als hörbarer Zusammenhang von vier Melodien. Er prüft damit, ob die Einzelstimmen über die Folge korrekter Intervalle hinaus einen eigenen Verlauf gewinnen.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=122",
+          "examples": [
+            "kurth-cherubini-buch"
+          ]
+        },
+        {
+          "name": "Luigi Cherubini",
+          "work": "Cours de contrepoint et de fugue / Theorie des Contrapunktes und der Fuge (Leipzig/Paris, deutsch-französische Ausgabe, um 1835)",
+          "locator": "Vierstimmiger Kontrapunkt, sechste Regel, S. 45, und Bsp. 118, S. 46 · Eröffnung",
+          "text": "Cherubini empfiehlt für den ersten Takt den vollständigen Dreiklang. Wenn dadurch die Stimmen zum zweiten oder dritten Takt ungünstig geführt würden, erlaubt er einen unvollständigen Anfangsklang und sogar den Einklang aller Stimmen.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf#page=46",
+          "comparison": "Cherubini urteilt hier über die Wahl des ersten Klangs anhand seiner Fortsetzung. Kurths Fußnote auf S. 112 behandelt die melodische Wirkung einer ganzen Musterlösung.",
+          "examples": [
+            "cherubini-vierstimmige-pruefung"
+          ]
         }
       ],
       "related": [
@@ -2634,6 +2697,13 @@ const ATLAS = {
           "examples": [
             "gallon-bitsch-nr-1-2"
           ]
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "II. Abschnitt, Kap. II, S. 109–113 · Kritik am Gebrauch des Cantus firmus",
+          "text": "Kurth beanstandet, dass ein Cantus firmus beim taktweisen Hinzufügen von Gegenstimmen in einzelne Stütztöne zerfallen kann. Die vorgegebene Stimme steht zwar vollständig vor dem Schüler. Ob ihre Töne als zusammenhängende Bewegung gehört werden, bleibt für Kurth eine eigene Frage.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=120"
         }
       ]
     },
@@ -2649,7 +2719,8 @@ const ATLAS = {
       "comparisons": [],
       "related": [
         "cantus-firmus",
-        "bindung-s4"
+        "bindung-s4",
+        "linie-orgelpunkt"
       ],
       "authors": [
         {
@@ -3219,7 +3290,8 @@ const ATLAS = {
       "related": [
         "fuge-exposition",
         "fuge-kontrasubjekt",
-        "fuge-gegenexposition"
+        "fuge-gegenexposition",
+        "melodische-fortspinnung"
       ],
       "authors": [
         {
@@ -3257,6 +3329,17 @@ const ATLAS = {
           "text": "Piston beschreibt paarweise Imitation als mögliche Satzweise eines Fugenzwischenspiels. Beispiel 247 veranschaulicht die Stimmenverteilung an einem Konzert von Bach. Hier imitieren sich Bass und Tenor sowie Alt und Sopran.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "III. Abschnitt, II. Teil, Kap. VI, S. 230–233, Nr. 37–38 · Sequenz in der Fortspinnung",
+          "text": "In der fis-Moll-Fuge aus dem ersten Teil des Wohltemperierten Klaviers verfolgt Kurth die kleine Bewegung vom Themenende ins Zwischenspiel (Nr. 37). An einer a-Moll-Orgelfuge zeigt er eine andere Fortsetzung (Nr. 38). Sie beginnt frei, erst danach wandert die Figur in deutlich abgegrenzten Sequenzgliedern weiter.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=242",
+          "comparison": "Prout grenzt Codetta und Zwischenspiel nach ihrem Platz zwischen den Einsätzen ab. Kurth verfolgt an diesem Zwischenspiel, welches Material die Fortsetzung trägt.",
+          "examples": [
+            "kurth-nr38"
+          ]
         }
       ]
     },
@@ -3412,7 +3495,9 @@ const ATLAS = {
       "related": [
         "harmonischer-rhythmus",
         "fuge-kontrasubjekt",
-        "imitation-und-kanon"
+        "imitation-und-kanon",
+        "linie-scheinpolyphonie",
+        "linie-orgelpunkt"
       ],
       "authors": [
         {
@@ -3434,6 +3519,16 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=71",
           "examples": [
             "fuge-gedalge-bach-contresujet"
+          ]
+        },
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "III. Abschnitt, Kap. VIII, S. 273–274, Nr. 152 · rhythmische Gliederung in einer Solostimme",
+          "text": "Auch innerhalb einer gleichmäßig bewegten Figur können die hörbaren Teilstimmen verschiedene Rhythmen haben. In der Allemande setzt Kurth die tiefsten Töne nach vier betont liegenden Basstönen zu einem eigenen Bassgang zusammen. Den obersten Tönen schreibt er einen anderen Rhythmus zu. Die beiden Züge greifen ineinander.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=283",
+          "examples": [
+            "kurth-nr152"
           ]
         }
       ]
@@ -3908,6 +4003,144 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
           "examples": [
             "foerster-transponieren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linie-scheinpolyphonie",
+      "title": "Wie höre ich mehrere Stimmen in einer einzigen Melodie?",
+      "group": "Stimmführung",
+      "tags": [
+        "Scheinpolyphonie",
+        "Scheinstimme",
+        "zusammengesetzte Melodie",
+        "Register",
+        "Spitzentöne",
+        "Bach",
+        "Solovioline"
+      ],
+      "reading": "Spiele die ganze Linie und singe beim zweiten Durchgang nur die Töne derselben Lage mit.",
+      "comparisons": [],
+      "related": [
+        "rhythmische-selbststaendigkeit",
+        "linie-orgelpunkt",
+        "melodische-intervalle"
+      ],
+      "authors": [
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "III. Abschnitt, Kap. VIII, S. 272–275, Nr. 153 · Solovioline",
+          "text": "Kurth hört innerhalb einer einzigen Tonfolge mehrere Bewegungszüge. Weit auseinanderliegende Töne können verschiedene Lagen markieren. Kehrt die Linie in dieselbe Lage zurück, kann das Ohr den dort begonnenen Zug fortsetzen. In der C-Dur-Fuge bündelt Kurth die Spitzentöne zweier kurzer Anstiege zu einem länger ansteigenden Zug.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=284",
+          "examples": [
+            "kurth-nr153",
+            "kurth-zwei-lagen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linie-orgelpunkt",
+      "title": "Wie kann ein Orgelpunkt in einer einstimmigen Linie weiterklingen?",
+      "group": "Stimmführung",
+      "tags": [
+        "Orgelpunkt",
+        "Scheinstimme",
+        "Register",
+        "Mittellage",
+        "Tonkontinuität",
+        "Bach",
+        "Solovioline"
+      ],
+      "reading": "Halte beim Hören einen wiederkehrenden Ton innerlich fest und prüfe, welche Töne sich um ihn herum bewegen.",
+      "comparisons": [],
+      "related": [
+        "linie-scheinpolyphonie",
+        "tonwiederholung",
+        "harmonischer-rhythmus"
+      ],
+      "authors": [
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "III. Abschnitt, Kap. VIII, S. 294–295, Nr. 169 · Orgelpunkt in der einstimmigen Linie",
+          "text": "Ein Ton kann als Orgelpunkt fortwirken, wenn ihn die Figur immer wieder anspielt. In der g-Moll-Fuge hört Kurth unter der bewegten Oberlinie zunächst ein tiefes g, später ein tiefes d. In den mittleren Figuren tritt ein weiteres d in der Mittellage hinzu. Die wiederkehrenden Töne lassen sich beim Hören als liegende Stimmen verfolgen.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=305",
+          "examples": [
+            "kurth-nr169"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "melodische-fortspinnung",
+      "title": "Wie spinnt Bach eine melodische Bewegung weiter?",
+      "group": "Melodieführung",
+      "tags": [
+        "Fortspinnung",
+        "Sequenz",
+        "Bewegungsphase",
+        "Linienzug",
+        "Invention",
+        "BWV 784",
+        "Motiv",
+        "Kurth"
+      ],
+      "reading": "Singe die Anfangsfigur. Verfolge dann, wie die Endtöne mehrerer Figuren zusammen eine längere Bewegung ergeben. Wo endet die Ähnlichkeit der Einzelfiguren, und wohin führt die Linie weiter?",
+      "comparisons": [],
+      "related": [
+        "hoehepunkt",
+        "fuge-zwischenspiel",
+        "fuge-themenende"
+      ],
+      "authors": [
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "III. Abschnitt, II. Teil, Kap. VI, S. 224–226, Nr. 33a–b, und S. 230–231 · melodische Fortspinnung",
+          "text": "Kurth verfolgt in Bachs a-Moll-Invention, wie sich die Bewegung einer kurzen Anfangsfigur zur weit gespannten Linie entwickelt. Eine Sequenz kann den Weg hörbar machen. Für die Fortspinnung ist entscheidend, wie die aufeinanderfolgenden Figuren gemeinsam aufsteigen, nachgeben oder einen Gipfel erreichen. Die Abstände und die Gestalt der Figuren dürfen sich dabei ändern.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=235",
+          "examples": [
+            "kurth-bach-fortspinnung",
+            "kurth-nr33"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harmonik-enharmonische-spannung",
+      "title": "Warum können dieselben Klaviertasten zwei verschiedene Auflösungen nahelegen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Enharmonik",
+        "Spannung",
+        "Alteration",
+        "Halbton",
+        "Harmonik",
+        "gleichstufiges Klavier",
+        "übermäßiger Dreiklang",
+        "as",
+        "gis"
+      ],
+      "reading": "Spiele den ersten Griff zweimal auf einem gleichstufig gestimmten Klavier. Ändere jeweils nur die Anschlussnote. Welche Stimme hörst du beim zweiten Versuch anders?",
+      "comparisons": [],
+      "related": [
+        "harmonik",
+        "chromatik",
+        "dissonanzbehandlung",
+        "melodische-fortspinnung"
+      ],
+      "authors": [
+        {
+          "name": "Ernst Kurth",
+          "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+          "locator": "I. Abschnitt, Kap. VI, S. 69 · zwei enharmonische Lesarten",
+          "text": "Kurth gibt für dieselben drei Tasten zwei Schreibweisen und zwei Fortsetzungen an. In c–e–as führt e aufwärts nach f. In c–e–gis geht c abwärts nach h. Der erste Griff klingt am Klavier beide Male gleich. Wohin eine Stimme zu drängen scheint, hängt für Kurth auch davon ab, wie die Töne in der Linie weitergeführt werden.",
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=79",
+          "examples": [
+            "kurth-enharmonische-spannung"
           ]
         }
       ]
@@ -4815,6 +5048,89 @@ const ATLAS = {
       "caption": "Halte den Bass in Takt 3 und spiele beide von Förster erläuterten Lösungen der Folge 6–5. Verfolge, wie die Verdopplung im ersten Griff die Stimmen im zweiten verändert.",
       "credit": "Emanuel Aloys Förster, Nr. 26, T. 3 und Anmerkung zum ersten Pluszeichen, Artaria 1818, I. Abteilung, S. 14.",
       "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=16"
+    },
+    "kurth-nr153": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 153 · Eine Melodie aus den Spitzentönen",
+      "caption": "Spiele Bachs einstimmige Passage. Singe dann nur die von Kurth aufwärts gehalsten Töne der beiden Teilanstiege. Vergleiche das Ergebnis mit der kurzen Notenzeile, die Kurth unter den zweiten Anstieg setzt.",
+      "credit": "J. S. Bach, Sonate für Violine solo in C-Dur, BWV 1005, Fuga. Auswahl, Halsung und Reduktion bei Ernst Kurth, 1917, S. 274, Nr. 153.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=284"
+    },
+    "kurth-nr169": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 169 · Orgelpunkte in drei Registern",
+      "caption": "Spiele die zweite der beiden Anfangsfiguren. Halte das tiefe g beim Weiterspielen im Ohr. Verfolge anschließend das wiederkehrende d in der Mittellage. Wie lange bleibt jeder der beiden Töne als eigene Schicht hörbar?",
+      "credit": "J. S. Bach, Sonate für Violine solo in g-Moll, BWV 1001, Fuga. Auszug und Halsung bei Ernst Kurth, 1917, S. 295, Nr. 169.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=305"
+    },
+    "kurth-nr152": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 152 · Bass und Oberlinie mit unterschiedlichem Rhythmus",
+      "caption": "Verfolge nach den vier ausgehaltenen Basstönen nur die tiefen Töne des zweiten Systems. Klopfe anschließend die höchsten Töne mit. Der Bass und die Oberlinie setzen an verschiedenen Stellen der Figur ein.",
+      "credit": "J. S. Bach, Allemande der ersten Suite für Violine, nach Kurths Quellenbezeichnung. Ernst Kurth, 1917, S. 273, Nr. 152, und Erläuterung auf S. 274.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=283"
+    },
+    "kurth-zwei-lagen": {
+      "kind": "leseuebung",
+      "image": "quellen/noten/kurth-zwei-lagen.webp",
+      "title": "Zwei Lagen in einer Viertelfolge",
+      "alt": "Acht Viertel wechseln zwischen zwei Lagen. Unten steigen c, d, e, f, oben e, f, g, a. Es erklingt jeweils nur ein Ton.",
+      "caption": "Spiele alle acht Viertel. Singe beim Wiederholen erst nur das erste, dritte, fünfte und siebte Viertel, dann die vier dazwischenliegenden Töne. Beide Teilmelodien steigen schrittweise.",
+      "credit": "Redaktionelle Hörübung nach dem von Kurth auf S. 272–275 beschriebenen Verfahren. Eigenes Notenbeispiel.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=282"
+    },
+    "kurth-nr33": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 33a–b · Anfangsbewegung und Schlussbogen",
+      "caption": "Singe in a den Beginn der a-Moll-Invention BWV 784. Verfolge in b den Bogen der durchgehenden Sechzehntel gegen Ende des Stücks. Wo kehrt die Bewegungsrichtung um?",
+      "credit": "Ernst Kurth, Grundlagen des linearen Kontrapunkts (1917), S. 225. Beispiel und Analyse im Originaldruck.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=235"
+    },
+    "kurth-bach-fortspinnung": {
+      "title": "Drei steigende Gruppen und ein Abstieg",
+      "caption": "Lies in Takt 23 jeweils die letzte Note der ersten drei Sechzehntelgruppen. Sie steigen von e über f nach g. Spiele dann die vierte Gruppe f–e–d–c als fortlaufenden Abstieg. Vergleiche den Bogen über den ganzen Takt mit den kleinen Bewegungen innerhalb der Gruppen.",
+      "alt": "Violinzeile in a-Moll mit sechzehn Sechzehnteln. Die ersten drei Gruppen haben jeweils die Gestalt Terz abwärts, Terz aufwärts, Terz aufwärts. Die vierte Gruppe steigt schrittweise ab.",
+      "credit": "Johann Sebastian Bach, Invention in a-Moll BWV 784, Oberstimme, T. 23. Neu notierter Ausschnitt nach Allen Garvins gemeinfreier Mutopia-Ausgabe auf Grundlage der Bach-Gesellschaft. Vergleich zu Kurth, S. 225, Nr. 33.",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=59",
+      "image": "quellen/noten/kurth-bach-fortspinnung.webp"
+    },
+    "kurth-nr12-13": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 12 und 13 · Wo liegt die Betonung?",
+      "caption": "Klopfe den Takt zu Kurths Nr. 12 und singe die Stimme mit den beiden markierten Betonungen. Höre auf den Abstand zum schweren Taktteil. Probiere denselben Versuch mit dem anschließenden Beethoven-Beispiel.",
+      "credit": "Ernst Kurth, Grundlagen des linearen Kontrapunkts (1917), S. 188. Beispiel und Analyse im Originaldruck.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=198"
+    },
+    "kurth-nr38": {
+      "kind": "buchbeispiel",
+      "title": "Nr. 38a–c · vom freien Anschluss zur Sequenz",
+      "caption": "Vergleiche den Schluss der Themenlinie in a mit dem Anschluss in b. In c lassen sich die gegeneinander versetzten Wiederholungen leichter abgrenzen. Markiere, wo jeweils ein neues Glied beginnt.",
+      "credit": "Ernst Kurth, Grundlagen des linearen Kontrapunkts (1917), S. 233. Beispiel und Analyse im Originaldruck.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=243"
+    },
+    "kurth-enharmonische-spannung": {
+      "kind": "leseuebung",
+      "title": "Zwei Anschlüsse für denselben Klaviergriff",
+      "alt": "Zwei Akkordpaare im Violinschlüssel. Erst c–e–as nach c–f–as. Dann c–e–gis nach h–e–gis.",
+      "caption": "Halte bei A die Außentöne fest und singe den Halbtonschritt der Mittelstimme. Halte bei B die oberen Töne fest und singe den Schritt im Bass. Spiele anschließend nur den ersten Akkord. Lässt sich seine Fortsetzung aus seinem Klang allein bestimmen?",
+      "credit": "Tonfolgen aus Kurths Erläuterung auf S. 69. Register und Notenwerte für diese Hörübung von der Atlasredaktion gewählt.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=79",
+      "image": "quellen/noten/kurth-enharmonische-spannung.webp"
+    },
+    "kurth-cherubini-buch": {
+      "kind": "buchbeispiel",
+      "title": "Vier Stimmen Note gegen Note in Kurths Fußnote",
+      "caption": "Spiele das Beispiel einmal als Folge von Griffen. Singe dann eine der Mittelstimmen allein. Wo hörst du einen zusammenhängenden Bogen? Prüfe an dieser Stimme, ob du Kurths Urteil über das Beispiel teilst.",
+      "credit": "Luigi Cherubini, bei Ernst Kurth (1917), S. 112, Fußnote mit unnummeriertem Notenbeispiel. Kurth bezeichnet den Bass als Cantus firmus.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=122"
+    },
+    "cherubini-vierstimmige-pruefung": {
+      "title": "Cherubinis Nr. 118 · die ersten beiden Takte im Vergleich",
+      "alt": "Vierstimmige Aufgabe mit vorgegebenem Bass. Zwischen dem ersten und zweiten Takt wechselt der Bass, während die drei Oberstimmen ihre Töne wiederholen.",
+      "caption": "Spiele die ersten beiden Takte. Nur der Bass wechselt von c nach e. Singe beim Anschluss an Takt 3 jeweils eine andere Oberstimme mit. Wo setzt ihre melodische Bewegung ein?",
+      "credit": "Luigi Cherubini, Cours de contrepoint et de fugue, deutsch-französische Ausgabe, S. 46, Bsp. 118. Eigenständig ausgewähltes Vergleichsbeispiel aus dem gemeinfreien Druck.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf#page=47",
+      "image": "quellen/noten/cherubini-vierstimmige-pruefung.webp"
     }
   }
 };
