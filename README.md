@@ -21,7 +21,7 @@ Im [Quellenverzeichnis](https://muk-labs.github.io/Kontrapunktatlas/quellen.html
 
 Die Werkkennungen stehen im Quellenverzeichnis. Im URL-Parameter `?quellen=` trennt ein Komma die IDs. `?quellen=none` bezeichnet eine leere Auswahl. Auch frühere Links wie `#frage=sprungfolge&spezies=4` funktionieren weiterhin. Beim lokalen Öffnen kopiert **Link kopieren** für eine eingeschränkte Auswahl die Adresse der veröffentlichten Fassung. Sind alle Quellen gewählt, steht lokal weiterhin **Sprungmarke kopieren** bereit.
 
-**Fragen nach Autor oder Lehransatz**, Themenbereich, Suche und **Mit Notenbeispiel** filtern das Verzeichnis innerhalb der gewählten Werke. In der Fragenansicht bleiben alle passenden ausgewählten Werke zum Vergleich nebeneinander sichtbar.
+**Fragen nach Autor oder Lehransatz**, Themenbereich, Suche, **Mit Notenbeispiel** und **Mit verknüpften Positionen** filtern das Verzeichnis innerhalb der gewählten Werke. In der Fragenansicht bleiben alle passenden ausgewählten Werke zum Vergleich nebeneinander sichtbar.
 
 Drei Einstiege für den Unterricht
 
@@ -30,6 +30,22 @@ Drei Einstiege für den Unterricht
 | [Darf ich mit einer Quinte oder Oktave beginnen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=anfangsintervall) | Fux setzt den Kontrapunkt über und unter denselben Cantus. Bei Zarlino setzt die zweite Stimme verspätet ein. Prout eröffnet mit einer Dezime. |
 | [Darf eine Dissonanz auf eine betonte Zeit fallen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=betonte-dissonanz) | Cherubini markiert den betonten Durchgang in seiner Lösung mit einem Stern. Prout greift dieselben Takte auf. |
 | [Wie verlässt die Nota cambiata ihre Dissonanz?](https://muk-labs.github.io/Kontrapunktatlas/#frage=cambiata) | Cherubinis Korrektur und Bellermanns Palestrina-Beleg machen zwei verschiedene Bewertungen des Terzsprungs hör- und lesbar. |
+
+## Zwischen unterschiedlichen Antworten wechseln
+
+Unter **Andere Positionen** führen beschriftete Links direkt zu einer anderen Antwort auf dieselbe Frage. Die kurze Erläuterung nennt den Unterschied zwischen genau diesen beiden Belegen. Jede Verbindung erscheint an beiden Antworten; die Zielantwort wird hervorgehoben und erhält den Tastaturfokus. Die Fundstellen bleiben bei den jeweiligen Antworten sichtbar.
+
+| Kennzeichnung | Bedeutung |
+| --- | --- |
+| **Widerspruch** | Unvereinbare Regeln für eine vergleichbare Aufgabe. Beispielsweise erlaubt Fux eine unmittelbare Tonwiederholung in seiner zweistimmigen ersten Spezies, während Noël-Gallon und Bitsch sie dort ausschließen. |
+| **Nuance** | Eine Erlaubnis oder Einschränkung fällt unterschiedlich aus, etwa die Zahl zulässiger Unterbrechungen einer Synkopenübung. |
+| **Anderer Kontext** | Stil, Aufgabe, Stimmenzahl oder Begriffsgebrauch unterscheiden sich. Die Erläuterung benennt den Unterschied, etwa Kennans und Prouts verschiedene Speziesnummer für Drei-gegen-eins. |
+
+Die Einordnung stammt von der Redaktion und stützt sich auf die beiden zitierten Antworten. Eine solche Verbindung behauptet nicht, dass die Autoren unmittelbar aufeinander reagierten. Fehlende Verbindungen bedeuten keine festgestellte Übereinstimmung. Bereits vorhandene ausführlichere Vergleiche bleiben erhalten; bei Antworten mit verknüpften Positionen lassen sie sich zusätzlich aufklappen.
+
+Die Markierung **↔** im Fragenverzeichnis zählt die verfügbaren Vergleichspaare. **Mit verknüpften Positionen** zeigt nur Fragen, bei denen beide Werke eines Vergleichs ausgewählt sind. Die Links verändern die Quellenauswahl nicht. Gehört die Zielantwort zu einer anderen Spezies, trägt der Link beispielsweise den Zusatz **S3 öffnen**. Beiträge ohne passende Spezieszuordnung öffnen **Alle**. Im Drei-gegen-eins führt so die Antwort von Kennan in S2 gezielt zu Prout in S3 und wieder zurück.
+
+**Antwortlink** an einer Karte öffnet ihre dauerhafte Adresse. Anschließend übernimmt **Antwortlink kopieren** im Fragenkopf genau diese Antwort, die Spezies und die Quellenauswahl. Beim lokalen Öffnen mit allen Quellen heißt die Kopierfunktion weiterhin **Sprungmarke kopieren**. Beispiel: [Fux zur Tonwiederholung](https://muk-labs.github.io/Kontrapunktatlas/#frage=tonwiederholung&spezies=1&antwort=fux1725-1). Führt ein geteilter Link zu einer abgewählten Quelle, zeigt der Atlas einen Hinweis mit Zugang zur Quellenauswahl. Nach dem Auswählen bleibt die Zielantwort erhalten.
 
 ## Fuge im Unterricht
 
@@ -222,14 +238,29 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | --- | --- |
 | `species` | Optional. Die beiden Handout-Zeilen mit dem gemeinsamen Originaltitel und je fünf Zelltexten in `modal` und `tonal`. |
 | `comparisons` | Eine Liste der passenden Zeilen auf S. 9 mit `label`, `modal`, `tonal`, `hindemith` und `comment`. Für eine neue Frage zunächst eine leere Liste einsetzen. |
-| `authors` | Optional. Für jede belegte Position ein Objekt mit der Werk-ID in `source`, den Feldern `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
+| `authors` | Optional. Für jede belegte Position ein Objekt mit einer dauerhaften `id`, der Werk-ID in `source`, den Feldern `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
+| `authors[].id` | Innerhalb der Frage eindeutige Antwortkennung, etwa `prout1890-1`. Bestehende IDs bleiben beim Umstellen, Korrigieren oder Ergänzen der Antworten unverändert. Neue Antworten erhalten neue, unbenutzte Kennungen. |
 | `authors[].speciesScope` | Klassifikation dieser konkreten Aussage nach der zitierten Quelle. `[2]` oder `[2,3]` nennt die belegten Spezies. Bei unterschiedlichen Regeln getrennte Beiträge anlegen. `[]` kennzeichnet ausdrücklich speziesunabhängige Aussagen. Ohne Feld bleibt die Zuordnung offen. |
 | `authors[].comparison` und `comparisonSources` | Für einen redaktionellen Vergleich die zusätzlich benötigten Werk-IDs in `comparisonSources` angeben. Bei einem Kommentar allein zur gewählten Quelle genügt `[]`. |
 | `authors[].catalogue` | Optional. `true` kennzeichnet die Quellen-URL als Bibliotheksnachweis. Die Seite und das Beispiel stehen im Feld `locator`. |
 | `authors[].kind` | Optional. `partitur` kennzeichnet eine redaktionelle Beobachtung im Notentext eines Komponisten. |
 | `authors[].examples` | Optional. Liste der Kennungen aus dem zentralen Bildverzeichnis `ATLAS.examples`. So kann derselbe Ausschnitt mehrere Fragen belegen. |
+| `relations` | Optionale Liste paarweiser Vergleiche innerhalb dieser Frage. `from` und `to` nennen zwei Antwort-IDs, `type` ist `contradiction`, `nuance` oder `context`, `note` erläutert den Unterschied. Jedes Paar nur einmal eintragen; beide Richtungen entstehen automatisch. |
 | `reading` und `readingSources` | Optionaler Lesehinweis. `readingSources` enthält die dafür nötigen Werk-IDs. Eine quellenunabhängige Höraufgabe erhält `[]`. |
 | `related` | Optional. Liste der Kennungen verwandter Fragen. |
+
+Für eine neue Verbindung beide Belege mit ihrem Geltungsbereich prüfen. Die Erläuterung muss allein aus den beiden Antworten hervorgehen und in beiden Leserichtungen verständlich bleiben. Unterschiedliche Notenbeispiele oder zusätzliche Einzelheiten allein begründen keinen Widerspruch. Unterschiede zwischen Spezies, Stimmenzahlen oder Stilen ausdrücklich benennen. `from` und `to` identifizieren die konkreten Antworten verschiedener Autoren, nicht nur deren Namen oder Werke. So bleiben auch mehrere Beiträge desselben Lehrwerks zur selben Frage unterscheidbar.
+
+```json
+"relations": [
+  {
+    "from": "fux1725-1",
+    "to": "gallon-bitsch1964-1",
+    "type": "contradiction",
+    "note": "Fux billigt das zweimal angeschlagene a in der Gegenstimme seiner zweistimmigen ersten Spezies. Noël-Gallon und Bitsch schließen genau diese unmittelbare Wiederholung für die zweistimmige Besetzung aus."
+  }
+]
+```
 
 Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.examples` eine dauerhafte Kennung anlegen, beispielsweise `fux-cambiata`. Jeder Bilddatensatz enthält den relativen Pfad `image`, den Titel `title`, einen Alternativtext `alt`, den Lesehinweis `caption`, den Bildnachweis mit Rechten `credit` und den Link zur Originalseite `url`. Bei einem verlinkten Buchbeispiel tritt `kind: "buchbeispiel"` an die Stelle von `image` und `alt`. Die URL führt zum Notentext. Lokale Abbildungen zu einer Lehrbuchregel erhalten `kind: "leseuebung"`, redaktionelle Lesehilfen zu einer bestimmten Buchseite `kind: "leseanalyse"`. Für eine eigene Leseübung kann `catalogue: true` die URL als Bibliotheksnachweis zum zitierten Lehrwerk kennzeichnen. In der passenden Autorenposition genügt dann `"examples": ["fux-cambiata"]`.
 
@@ -237,7 +268,7 @@ Für ein weiteres Lehrbuch zuerst in `ATLAS.sources` einen Eintrag mit `id`, `na
 
 Die Wikipedia-Ziele stehen ebenfalls in `atlas-data.js`, unter `ATLAS.people`. Pro Person gibt es `name`, `aliases` (etwa den Nachnamen) und `wikipedia` mit einer geprüften Biografie-URL. Ohne verifizierten Artikel bleibt `wikipedia: null`; insbesondere wird Peter Schubert nicht mit Franz Schubert verwechselt. Vollständige Namen haben Vorrang vor Nachnamen, damit etwa Louis B. Prout sein eigenes Ziel behält. `exclude` nimmt feste Begriffe wie „Bach-Gesellschaft“ von der Verlinkung aus. Neue Nennungen in den Texten erhalten ihren Link automatisch; HTML-Markup in den Daten ist nicht nötig. Deutschsprachige Artikel sind bevorzugt, bei Bedarf führt der Link zu einer anderen Sprachfassung. Die Zuordnung liegt lokal und erfordert beim Öffnen oder Filtern des Atlas keine Netzwerkabfrage. Fragenlinks und Bedienelemente behalten ihre eigene Funktion.
 
-Mit `node --test tests/*.test.cjs` lassen sich Werkkennungen, Quellenverweise, teilbare URLs, Spezieszuordnungen und die Auflösung von Autorennamen prüfen.
+Mit `node --test tests/*.test.cjs` lassen sich Werkkennungen, Quellenverweise, teilbare Fragen- und Antwortlinks, Spezieszuordnungen, gültige und beidseitige Vergleichspaare sowie die Auflösung von Autorennamen prüfen.
 
 ## Redaktionelle Beiträge
 
@@ -250,6 +281,7 @@ Leserinnen und Leser können zu einer Frage **Ergänzung oder Korrektur vorschla
 - `quellen.html` und `quellen.js` enthalten das Quellenverzeichnis mit der Werkauswahl.
 - `source-selection.js` liest und schreibt die gemeinsamen URL-Parameter für Quellen.
 - `author-links.js` verlinkt registrierte Personennamen in der angezeigten Ansicht.
+- `answer-relations.js` löst paarweise Vergleiche auf und berücksichtigt Quellen sowie die Spezies des Linkziels.
 - `atlas-data.js` enthält Fragen, Antworten und Quellen.
 - `quellen/noten/` enthält die im Atlas verwendeten Notenbilder.
 - `quellen/handout.pdf` enthält die drei Originalseiten des Unterrichtshandouts.

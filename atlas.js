@@ -37,6 +37,7 @@
   const perspective = document.querySelector("#perspective");
   const biographies = document.querySelector("#author-biographies");
   const illustrated = document.querySelector("#illustrated");
+  const contrasted = document.querySelector("#contrasted");
   const list = document.querySelector("#question-list");
   const count = document.querySelector("#result-count");
   const detail = document.querySelector("#detail");
@@ -48,6 +49,10 @@
   if (!allSources) summary.title = [...sourceIds].join(", ");
   let selected = first;
   let species = 0;
+  let answerId = "";
+  let focusedAnswerId = "";
+  let answerNotice = "";
+  let answerExcluded = false;
   let nextFocus = "";
   const pageTitle = document.title;
 
@@ -76,16 +81,15 @@
     return b;
   }
 
-  function fragment(topic, n) {
-    const params = new URLSearchParams({ frage: topic.id });
-    if (speciesTopics.has(topic.id) && n) params.set("spezies", String(n));
-    return "#" + params;
+  function fragment(topic, n, answer = "") {
+    // Use the full question to keep its species route even with a narrow source selection.
+    return AtlasRelations.fragment(allById.get(topic.id) || topic, n, answer);
   }
 
   function sourcesPage(topic) {
     const url = new URL("quellen.html", location.href);
     url.search = location.search;
-    url.hash = topic ? fragment(topic, species) : "";
+    url.hash = topic ? fragment(topic, species, answerId) : "";
     return AtlasSources.write(url, sourceIds).href;
   }
 
@@ -102,6 +106,7 @@
       fields.push(a.name, a.work, a.text, a.locator, a.comparison);
       for (const id of a.examples || []) fields.push(scores[id].title, scores[id].caption, scores[id].credit);
     }
+    for (const { relation } of AtlasRelations.pairs(topic, sourceIds)) fields.push(relation.note);
     return normalize(fields.filter(Boolean).join(" "));
   }
 
@@ -137,6 +142,7 @@
     const matches = topics.filter(topic =>
       (!group.value || topic.group === group.value) &&
       matchesPerspective(topic) &&
+      (!contrasted.checked || AtlasRelations.pairs(topic, sourceIds).length) &&
       (!illustrated.checked || topic.authors?.some(a => a.examples?.length &&
         (!perspective.value.startsWith("author:") || perspective.value === "author:" + a.name))) &&
       terms.every(term => searchIndex.get(topic.id).includes(term))
@@ -145,7 +151,14 @@
       (matches.length !== topics.length ? " von " + topics.length : "");
     list.replaceChildren();
     for (const topic of matches) {
-      const a = link(topic.title, fragment(topic, species), "question-item");
+      const a = link("", fragment(topic, species), "question-item");
+      a.append(el("span", "question-label", topic.title));
+      const comparisons = AtlasRelations.pairs(topic, sourceIds).length;
+      if (comparisons) {
+        const badge = el("span", "relation-count", "↔ " + comparisons);
+        badge.setAttribute("aria-label", comparisons + " verknüpfte Vergleiche");
+        a.append(badge);
+      }
       if (topic === selected) {
         a.classList.add("is-active");
         a.setAttribute("aria-current", "page");
@@ -170,6 +183,7 @@
         group.value = "";
         perspective.value = "";
         illustrated.checked = false;
+        contrasted.checked = false;
         renderList();
         search.focus();
       }));
@@ -288,13 +302,29 @@
     heading.id = "lehrwerke";
     heading.tabIndex = -1;
     section.append(heading);
+    const visibleIds = new Set(authors.map(a => a.id));
+    const relations = AtlasRelations.pairs(topic, sourceIds)
+      .filter(p => visibleIds.has(p.from.id) || visibleIds.has(p.to.id));
+    if (relations.length) section.append(relationsKey(relations.length));
     const entries = authors.length > 1 ? el("div", "tradition-grid authors-grid") : section;
     const visibleSources = new Set(authors.map(a => a.source));
     if (topic.species) visibleSources.add("artacho-handout");
     for (const a of authors) {
-      const card = el("div", "tradition-card");
+      const connections = AtlasRelations.connections(topic, a.id, sourceIds);
+      const card = el("article", "tradition-card author-answer");
+      card.id = "antwort-" + a.id;
+      card.tabIndex = -1;
+      card.setAttribute("aria-labelledby", card.id + "-titel");
+      card.classList.toggle("is-focused-answer", a.id === focusedAnswerId);
       if (a.kind === "partitur") card.append(el("span", "eyebrow", "Partiturbeobachtung"));
-      card.append(el("h4", "", a.name));
+      const header = el("div", "answer-heading");
+      const title = el("h4", "", a.name);
+      title.id = card.id + "-titel";
+      const permalink = answerLink("Antwortlink", topic, species, a, "answer-permalink");
+      permalink.setAttribute("aria-label", "Direktlink zur Antwort von " + a.name + ": " + a.locator);
+      if (a.id === focusedAnswerId) permalink.setAttribute("aria-current", "location");
+      header.append(title, permalink);
+      card.append(header);
       if (speciesTopics.has(topic.id)) {
         const label = a.speciesScope?.length ? a.speciesScope.map(n => "S" + n).join(" · ") :
           a.speciesScope ? "Speziesunabhängiger Ansatz" : "Ohne Spezieszuordnung";
@@ -310,18 +340,87 @@
       }
       card.append(ref);
       if (a.comparison && (!species || a.comparisonSources?.every(id => visibleSources.has(id)))) {
-        const comparison = el("p", "author-comparison");
-        comparison.append(el("strong", "", "Redaktioneller Vergleich · "), a.comparison);
+        const comparison = el(connections.length ? "details" : "p", "author-comparison");
+        if (connections.length) {
+          comparison.append(el("summary", "", "Ausführlicher redaktioneller Vergleich"), el("p", "", a.comparison));
+        } else {
+          comparison.append(el("strong", "", "Redaktioneller Vergleich · "), a.comparison);
+        }
         card.append(comparison);
       }
       if (a.examples?.length) {
         card.append(button("Zum Notenbeispiel", "score-jump", () =>
           document.getElementById("bild-" + a.examples[0]).focus()));
       }
+      if (connections.length) card.append(answerRelations(connections, topic, a));
       entries.append(card);
     }
     if (entries !== section) section.append(entries);
     return section;
+  }
+
+  function focusAnswer(id) {
+    const card = document.getElementById("antwort-" + id);
+    card?.focus({ preventScroll: true });
+    card?.scrollIntoView({ block: "start" });
+  }
+
+  function answerLink(label, topic, n, answer, className) {
+    const a = link(label, fragment(topic, n, answer.id), className);
+    a.addEventListener("click", event => {
+      if (event.button || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      if (a.hash === location.hash) {
+        event.preventDefault();
+        focusAnswer(answer.id);
+      }
+    });
+    return a;
+  }
+
+  function relationsKey(count) {
+    const key = el("details", "relations-key");
+    key.id = "positionenvergleich";
+    key.tabIndex = -1;
+    const summary = el("summary", "", "Positionen vergleichen · " + count +
+      (count === 1 ? " verknüpfter Vergleich" : " verknüpfte Vergleiche"));
+    key.append(summary, el("p", "", "Die Links unter einer Antwort führen zur jeweils anderen Position. Die Einordnung und Erläuterung stammen von der Redaktion."));
+    const labels = el("ul", "relation-legend");
+    for (const [type, info] of Object.entries(AtlasRelations.types)) {
+      const item = el("li");
+      item.append(el("span", "relation-badge relation-" + type, info.label), " ", info.description);
+      labels.append(item);
+    }
+    key.append(labels);
+    return key;
+  }
+
+  function answerRelations(connections, topic, answer) {
+    const nav = el("nav", "answer-relations");
+    nav.setAttribute("aria-label", "Andere Positionen zur Antwort von " + answer.name);
+    nav.append(el("h5", "", "Andere Positionen"));
+    const list = el("ul", "relation-list");
+    const nameCounts = new Map();
+    for (const { target } of connections) nameCounts.set(target.name, (nameCounts.get(target.name) || 0) + 1);
+    for (const relation of connections) {
+      const target = relation.target;
+      const n = AtlasRelations.targetSpecies(target, species);
+      const item = el("li", "answer-relation relation-" + relation.type);
+      const targetLine = el("div", "relation-target");
+      const badge = el("span", "relation-badge relation-" + relation.type, AtlasRelations.types[relation.type].label);
+      const label = target.name + (n !== species ? (n ? " · S" + n + " öffnen" : " · Alle öffnen") : "");
+      const a = answerLink(label, topic, n, target, "relation-link");
+      a.title = [target.work, target.locator].filter(Boolean).join(", ");
+      a.setAttribute("aria-label", AtlasRelations.types[relation.type].label + " · " + label + ". " + target.locator);
+      const note = el("p", "relation-note", relation.note);
+      note.id = "vergleich-" + answer.id + "-" + target.id;
+      a.setAttribute("aria-describedby", note.id);
+      targetLine.append(badge, a);
+      if (nameCounts.get(target.name) > 1) targetLine.append(el("small", "relation-locator", target.locator));
+      item.append(targetLine, note);
+      list.append(item);
+    }
+    nav.append(list);
+    return nav;
   }
 
   function examplesSection(examples) {
@@ -411,15 +510,16 @@
   function share(topic) {
     const offline = location.protocol === "file:";
     const hashOnly = offline && allSources;
-    return button(hashOnly ? "Sprungmarke kopieren" : "Link kopieren", "source-link", async event => {
+    const label = hashOnly ? "Sprungmarke" : focusedAnswerId ? "Antwortlink" : "Link";
+    return button(label + " kopieren", "source-link", async event => {
       const control = event.currentTarget;
-      const hash = fragment(topic, species);
+      const hash = fragment(topic, species, focusedAnswerId);
       const base = offline ? "https://muk-labs.github.io/Kontrapunktatlas/" : location.href;
       const value = hashOnly ? hash : AtlasSources.write(new URL(hash, base), sourceIds).href;
       try {
         await navigator.clipboard.writeText(value);
         status.textContent = hashOnly ? "Sprungmarke für den Atlas kopiert." : "Link zur aktuellen Ansicht kopiert.";
-        control.textContent = hashOnly ? "Sprungmarke kopiert" : "Link kopiert";
+        control.textContent = label + " kopiert";
       } catch {
         window.prompt(hashOnly ? "Sprungmarke für den Atlas kopieren" : "Link zur aktuellen Ansicht kopieren", value);
       }
@@ -444,6 +544,7 @@
     actions.append(share(topic));
     head.append(el("p", "entry-kicker", topic.group), title, actions);
     detail.replaceChildren(head);
+    if (answerNotice) detail.append(answerMessage(topic));
     if (speciesTopics.has(topic.id)) detail.append(speciesPicker(topic, authors));
     if (topic.reading && !species) {
       const note = el("p", "reading");
@@ -492,8 +593,15 @@
     actions.append(link("Quellenauswahl ändern", sourcesPage(requested), "source-link"));
     empty.append(actions);
     detail.replaceChildren(header, empty);
+    if (answerNotice) detail.append(answerMessage(requested));
     AtlasAuthors.linkify(detail);
     document.title = title.textContent + " · " + pageTitle;
+  }
+
+  function answerMessage(topic) {
+    const message = el("p", "answer-notice", answerNotice);
+    if (answerExcluded) message.append(" ", link("Quellenauswahl ändern", sourcesPage(topic), "source-link"));
+    return message;
   }
 
   function readRoute(initial = false) {
@@ -507,15 +615,40 @@
     selected = requested ? byId.get(id) : first;
     const n = params.get("spezies") || "";
     species = speciesTopics.has((requested || selected)?.id) && /^[1-5]$/.test(n) ? Number(n) : 0;
+    answerId = requested ? params.get("antwort") || "" : "";
+    focusedAnswerId = "";
+    answerNotice = "";
+    answerExcluded = false;
+    if (answerId && requested) {
+      const answer = (requested.authors || []).find(a => a.id === answerId);
+      if (!answer) answerNotice = "Die verlinkte Antwort ist zu dieser Frage nicht vorhanden.";
+      else if (!sourceIds.has(answer.source)) {
+        answerExcluded = true;
+        answerNotice = "Die verlinkte Antwort von " + answer.name + " ist durch deine Quellenauswahl ausgeblendet.";
+      } else {
+        focusedAnswerId = answer.id;
+        const targetSpecies = AtlasRelations.targetSpecies(answer, species);
+        if (targetSpecies !== species) {
+          answerNotice = "Die verlinkte Antwort ist unter S" + species + " nicht zugeordnet. Geöffnet wurde " +
+            (targetSpecies ? "S" + targetSpecies : "die Ansicht „Alle“") + ".";
+          species = targetSpecies;
+        }
+      }
+    }
+    if (id && !requested) {
+      answerNotice = "Die angefragte Frage wurde nicht gefunden. Angezeigt wird " +
+        (selected ? "„" + selected.title + "“." : "die Quellenauswahl.");
+    }
     const target = sourcesPage(requested || selected);
     for (const a of document.querySelectorAll("[data-quellen]")) a.href = target;
     renderList();
     if (selected) renderDetail();
     else renderUnavailable(requested);
-    if (nextFocus === "title") detail.querySelector("h2").focus();
-    if (initial && requested) detail.scrollIntoView({block: "start"});
-    if (nextFocus === "species") detail.querySelector('[aria-pressed="true"]')?.focus({preventScroll:true});
-    status.textContent = id && !requested ? "Unbekannte Frage." : "";
+    if (focusedAnswerId) focusAnswer(focusedAnswerId);
+    else if (nextFocus === "species") detail.querySelector('[aria-pressed="true"]')?.focus({preventScroll:true});
+    else if (!initial || nextFocus === "title") detail.querySelector("h2").focus();
+    else if (requested) detail.scrollIntoView({block: "start"});
+    status.textContent = id && !requested ? "Unbekannte Frage." : answerNotice;
     nextFocus = "";
   }
 
@@ -523,6 +656,7 @@
   group.addEventListener("change", renderList);
   perspective.addEventListener("change", renderList);
   illustrated.addEventListener("change", renderList);
+  contrasted.addEventListener("change", renderList);
   const home = new URL("index.html", location.href);
   home.search = location.search;
   document.querySelector(".brand").href = AtlasSources.write(home, sourceIds).href;
@@ -539,6 +673,7 @@
         search.value = "";
         perspective.value = "";
         illustrated.checked = false;
+        contrasted.checked = false;
         renderList();
       }
       if (a.hash === location.hash) detail.querySelector("h2").focus();

@@ -108,6 +108,8 @@ a.author-link:is(:hover, :focus-visible) { text-decoration-style: solid; text-de
   border-left-color: var(--forest); background: var(--green-light); color: var(--green-deep); font-weight: 690;
 }
 .qnum { flex-shrink: 0; color: #607363; font: 500 .69rem/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; font-variant-numeric: tabular-nums; }
+.question-label { flex: 1; }
+.relation-count { flex: 0 0 auto; padding: .06rem .33rem; border-radius: .25rem; background: var(--green-light); color: var(--forest); font-size: .67rem; font-weight: 700; white-space: nowrap; }
 
 #detail { min-width: 0; }
 .detail-header { padding-bottom: 1.2rem; border-bottom: 1px solid var(--rule); }
@@ -168,6 +170,30 @@ a.author-link:is(:hover, :focus-visible) { text-decoration-style: solid; text-de
 .tradition-card h5, .tradition-card h4, .tradition-card h3 { margin: 0 0 .5rem; font: 640 .88rem/1.35 var(--sans); color: var(--forest); }
 .tradition-card p { font-size: .95rem; }
 #detail .tradition-card p:last-child { margin-bottom: 0; }
+.author-answer { scroll-margin-block: 1rem; }
+.answer-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: .15rem .65rem; margin-bottom: .5rem; }
+.answer-heading h4 { flex: 1 1 10rem; margin: 0; }
+.answer-permalink { flex: 0 0 auto; padding-block: .2rem; color: var(--muted); font-size: .72rem; }
+.answer-permalink[aria-current="location"] { color: var(--forest); font-weight: 700; }
+.author-answer.is-focused-answer { border-color: var(--forest); box-shadow: 0 0 0 2px var(--forest); }
+.author-answer:focus { outline: 3px solid #a7552b; outline-offset: 4px; }
+.relations-key { margin: .75rem 0 1rem; padding: .65rem .8rem; border: 1px solid var(--rule); border-radius: .3rem; background: #eeefe6; font-size: .82rem; }
+.relations-key summary { color: var(--forest); cursor: pointer; font-weight: 650; }
+.relations-key summary:hover { text-decoration: underline; }
+.relation-legend { display: grid; gap: .45rem; list-style: none; margin: .6rem 0 .15rem; padding: 0; }
+.answer-relations { margin-top: .9rem; padding-top: .7rem; border-top: 1px solid var(--rule); }
+.answer-relations h5 { margin: 0 0 .6rem; color: var(--muted); font-size: .73rem; }
+.relation-list { display: grid; gap: .65rem; list-style: none; margin: 0; padding: 0; }
+.relation-contradiction { --relation-ink: #843e2d; --relation-paper: #f6e6dc; }
+.relation-nuance { --relation-ink: #735316; --relation-paper: #f5edcf; }
+.relation-context { --relation-ink: #365c70; --relation-paper: #e7eff2; }
+.answer-relation { padding-left: .65rem; border-left: 3px solid var(--relation-ink); }
+.relation-target { display: flex; align-items: baseline; flex-wrap: wrap; gap: .25rem .5rem; }
+.relation-badge { display: inline-block; padding: .1rem .4rem; border-radius: .2rem; background: var(--relation-paper); color: var(--relation-ink); font-size: .68rem; font-weight: 750; line-height: 1.5; }
+.relation-link { padding-block: .15rem; color: var(--forest); font-size: .82rem; font-weight: 650; }
+.relation-locator { flex-basis: 100%; color: var(--muted); font-size: .72rem; line-height: 1.4; }
+#detail .relation-note { margin: .3rem 0 0; color: var(--muted); font-size: .8rem; line-height: 1.5; }
+#detail .answer-notice { margin: 1rem 0; padding: .7rem .9rem; border-left: 3px solid var(--rust); background: var(--rust-light); font-size: .88rem; }
 .comment {
   margin-top: .72rem; padding: .7rem .95rem; border-left: 3px solid #ad7856; 
   background: var(--rust-light); color: #4d3e32; font-size: .92rem;
@@ -175,6 +201,9 @@ a.author-link:is(:hover, :focus-visible) { text-decoration-style: solid; text-de
 #detail .comment p { margin: 0; }
 .ref { color: var(--muted); font-size: .82rem; }
 #detail .author-comparison { margin-top: .75rem; padding-top: .65rem; border-top: 1px solid var(--rule); font-size: .87rem; }
+.author-comparison summary { cursor: pointer; color: var(--forest); font-size: .78rem; font-weight: 600; }
+.author-comparison summary:hover { text-decoration: underline; }
+#detail .author-comparison p { font-size: .87rem; }
 #detail .reading { margin-top: 1rem; padding: .75rem 1rem; border-left: 3px solid var(--forest); background: var(--green-light); }
 .score-example { border: 1px solid var(--rule); border-radius: .35rem; background: var(--surface); overflow: hidden; margin-block: .75rem 1.25rem; }
 .score-example > a { display: grid; place-items: center; padding: 1rem; background: #eeede5; cursor: zoom-in; }
