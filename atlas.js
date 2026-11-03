@@ -7,6 +7,10 @@
   const withHandout = sourceIds.has("artacho-handout");
   const allById = new Map(allTopics.map(topic => [topic.id, topic]));
 
+  const speciesTopics = new Set(allTopics.filter(topic =>
+    topic.species || topic.authors?.some(a => a.speciesScope?.length)
+  ).map(topic => topic.id));
+
   // Filter before building the index or rendering any part of a question.
   function scopeTopic(topic) {
     const originalAuthors = topic.authors || [];
@@ -73,7 +77,7 @@
 
   function fragment(topic, n) {
     const params = new URLSearchParams({ frage: topic.id });
-    if (allById.get(topic.id)?.species && n) params.set("spezies", String(n));
+    if (speciesTopics.has(topic.id) && n) params.set("spezies", String(n));
     return "#" + params;
   }
 
@@ -192,13 +196,13 @@
     return td;
   }
 
-  function speciesSection(topic) {
+  function speciesPicker(topic, matchingAuthors) {
     const section = el("section", "detail-section");
-    section.append(scopeHeading("Speziesvergleich", [sourceLink(6), sourceLink(8)]));
-    section.append(el("p", "ref", "Tabellenzeile „" + topic.species.label + "“"));
+    section.append(el("h3", "", "Nach Spezies vergleichen"));
     const controls = el("div", "species-controls");
     controls.setAttribute("role", "group");
     controls.setAttribute("aria-label", "Spezies auswählen");
+    controls.setAttribute("aria-describedby", "species-hint");
     for (let n = 0; n <= 5; n++) {
       const b = button(n ? "S" + n : "Alle", "species-btn", () => {
         if (n !== species) {
@@ -206,12 +210,28 @@
           location.hash = fragment(topic, n);
         }
       });
-      b.setAttribute("aria-label", n ? "Spezies " + n : "Alle fünf Spezies");
+      b.setAttribute("aria-label", n ? "Spezies " + n : "Alle Beiträge anzeigen");
       b.setAttribute("aria-pressed", String(n === species));
       b.classList.toggle("is-active", n === species);
       controls.append(b);
     }
     section.append(controls);
+    let hint = "Wähle eine Spezies, um die dafür belegten Aussagen und Notenbeispiele zu sehen. Die Nummer folgt der Einteilung des jeweiligen Lehrwerks.";
+    if (species) {
+      hint = topic.species || matchingAuthors.length
+        ? "„Alle“ öffnet die vollständige Frage mit den übrigen Beiträgen deiner Quellenauswahl."
+        : "Für S" + species + " ist in deiner Quellenauswahl bisher kein Beleg zu dieser Frage zugeordnet. Mit „Alle“ siehst du die übrigen Beiträge.";
+    }
+    const description = el("p", "ref", hint);
+    description.id = "species-hint";
+    section.append(description);
+    return section;
+  }
+
+  function speciesSection(topic) {
+    const section = el("section", "detail-section");
+    section.append(scopeHeading("Speziesvergleich im Handout", [sourceLink(6), sourceLink(8)]));
+    section.append(el("p", "ref", "Tabellenzeile „" + topic.species.label + "“"));
     const wrap = el("div", "table-scroll");
     const table = el("table", "comparison-table");
     table.setAttribute("aria-label", "Modaler und tonaler Kontrapunkt nach Spezies");
@@ -255,7 +275,7 @@
     return section;
   }
 
-  function authorsSection(authors) {
+  function authorsSection(authors, topic) {
     const section = el("section", "detail-section");
     const heading = el("h3", "", authors.some(a => a.kind === "partitur")
       ? "Lehrwerke, Analysen und Partitur" : "Aus den Lehrwerken");
@@ -263,21 +283,28 @@
     heading.tabIndex = -1;
     section.append(heading);
     const entries = authors.length > 1 ? el("div", "tradition-grid authors-grid") : section;
+    const visibleSources = new Set(authors.map(a => a.source));
+    if (topic.species) visibleSources.add("artacho-handout");
     for (const a of authors) {
       const card = el("div", "tradition-card");
       if (a.kind === "partitur") card.append(el("span", "eyebrow", "Partiturbeobachtung"));
-      card.append(el("h4", "", a.name), el("p", "", a.text));
-      const citation = [a.work, a.locator].filter(Boolean).join(", ");
-      if (a.catalogue) {
-        const ref = el("small", "ref", citation + " · ");
-        ref.append(link("Bibliotheksnachweis", a.url, "source-link"));
-        card.append(ref);
-      } else {
-        card.append(a.url && /^https?:\/\//i.test(a.url)
-          ? link(citation || "Quelle öffnen", a.url, "source-link")
-          : el("small", "ref", citation));
+      card.append(el("h4", "", a.name));
+      if (speciesTopics.has(topic.id)) {
+        const label = a.speciesScope?.length ? a.speciesScope.map(n => "S" + n).join(" · ") :
+          a.speciesScope ? "Speziesunabhängiger Ansatz" : "Ohne Spezieszuordnung";
+        card.append(el("small", "species-scope", label));
       }
-      if (a.comparison) {
+      card.append(el("p", "", a.text));
+      const citation = [a.work, a.locator].filter(Boolean).join(", ");
+      const ref = !a.catalogue && a.url && /^https?:\/\//i.test(a.url)
+        ? link(citation || "Quelle öffnen", a.url, "source-link")
+        : el("small", "ref", citation);
+      if (a.work && AtlasSources.isBook(a.source)) ref.classList.add("book-title");
+      if (a.catalogue) {
+        ref.append(" · ", link("Bibliotheksnachweis", a.url, "source-link"));
+      }
+      card.append(ref);
+      if (a.comparison && (!species || a.comparisonSources?.every(id => visibleSources.has(id)))) {
         const comparison = el("p", "author-comparison");
         comparison.append(el("strong", "", "Redaktioneller Vergleich · "), a.comparison);
         card.append(comparison);
@@ -298,7 +325,7 @@
     heading.id = "notenbeispiele";
     heading.tabIndex = -1;
     section.append(heading);
-    for (const { name, id } of examples) {
+    for (const [id, name] of examples) {
       const example = scores[id];
       const bookLink = example.kind === "buchbeispiel";
       const exercise = example.kind === "leseuebung";
@@ -343,7 +370,7 @@
     draft.rows = 7;
     draft.value = (topic
       ? "Frage: " + topic.title + "\nKennung: " + topic.id +
-        (topic.species && species ? "\nSpezies: S" + species : "") + "\n\nVorschlag oder Korrektur:"
+        (species ? "\nSpezies: S" + species : "") + "\n\nVorschlag oder Korrektur:"
       : "Neue Frage: " + idea + "\n\nVergleich oder Übungssituation:") +
       "\n\nAutor/in, Werk, Ausgabe und Fundstelle:\n";
     const issue = link("Vorschlag auf GitHub öffnen", "", "source-link");
@@ -396,28 +423,32 @@
 
   function renderDetail() {
     const topic = selected;
-    const examples = (topic.authors || []).flatMap(a =>
-      (a.examples || []).map(id => ({ name: a.name, id })));
+    const authors = (topic.authors || []).filter(a => !species || a.speciesScope?.includes(species));
+    const examples = new Map();
+    for (const a of authors) {
+      for (const id of a.examples || []) examples.set(id, a.name);
+    }
     const head = el("header", "detail-header");
     const title = el("h2", "entry-title", topic.title);
     title.tabIndex = -1;
     const actions = el("div", "entry-actions");
-    if (topic.authors?.length) actions.append(button("Quellenbelege (" + topic.authors.length + ")", "", () =>
+    if (authors.length) actions.append(button("Quellenbelege (" + authors.length + ")", "", () =>
       document.getElementById("lehrwerke").focus()));
-    if (examples.length) actions.append(button("Notenbeispiele (" + examples.length + ")", "", () =>
+    if (examples.size) actions.append(button("Notenbeispiele (" + examples.size + ")", "", () =>
       document.getElementById("notenbeispiele").focus()));
     actions.append(share(topic));
     head.append(el("p", "entry-kicker", topic.group), title, actions);
     detail.replaceChildren(head);
-    if (topic.reading) {
+    if (speciesTopics.has(topic.id)) detail.append(speciesPicker(topic, authors));
+    if (topic.reading && !species) {
       const note = el("p", "reading");
       note.append(el("strong", "", "Beim Vergleichen · "), topic.reading);
       detail.append(note);
     }
     if (topic.species) detail.append(speciesSection(topic));
-    if (topic.comparisons.length) detail.append(comparisonSection(topic));
-    if (topic.authors?.length) detail.append(authorsSection(topic.authors));
-    if (examples.length) detail.append(examplesSection(examples));
+    if (topic.comparisons.length && !species) detail.append(comparisonSection(topic));
+    if (authors.length) detail.append(authorsSection(authors, topic));
+    if (examples.size) detail.append(examplesSection(examples));
     if (!topic.species && !topic.comparisons.length && !topic.authors?.length) {
       const empty = el("section", "empty-state");
       empty.append(el("h3", "", "Quellenbeleg gesucht"), el("p", "", "Diese Frage ist im Atlas noch offen. Ein Lehrbuchbeleg mit Ausgabe und Fundstelle kann den Vergleich ergänzen."));
@@ -468,7 +499,7 @@
     const requested = allById.get(id);
     selected = requested ? byId.get(id) : first;
     const n = params.get("spezies") || "";
-    species = (requested || selected)?.species && /^[1-5]$/.test(n) ? Number(n) : 0;
+    species = speciesTopics.has((requested || selected)?.id) && /^[1-5]$/.test(n) ? Number(n) : 0;
     const target = sourcesPage(requested || selected);
     for (const a of document.querySelectorAll("[data-quellen]")) a.href = target;
     renderList();

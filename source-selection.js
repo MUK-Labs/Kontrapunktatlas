@@ -2,6 +2,7 @@
 const AtlasSources = (() => {
   "use strict";
   const ids = ATLAS.sources.map(source => source.id);
+  const bookIds = new Set(ATLAS.sources.filter(source => source.group === "Lehrwerke").map(source => source.id));
 
   function read(url) {
     const params = new URL(url).searchParams;
@@ -21,5 +22,5 @@ const AtlasSources = (() => {
     return target;
   }
 
-  return { read, write };
+  return { read, write, isBook: id => bookIds.has(id) };
 })();

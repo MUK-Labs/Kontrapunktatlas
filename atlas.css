@@ -136,6 +136,10 @@ a:hover { text-decoration-thickness: 2px; }
   background: var(--surface); color: var(--forest); font-size: .84rem; font-weight: 650; line-height: 1.5;
 }
 .species-btn:hover { background: var(--green-light); }
+.species-scope {
+  display: inline-block; padding: .12rem .48rem; border-radius: .25rem;
+  background: var(--green-light); color: var(--green-deep); font-size: .75rem; font-weight: 650;
+}
 .species-btn:is(.is-active, [aria-pressed="true"]) { border-color: var(--forest); background: var(--forest); color: white; }
 .table-scroll { max-width: 100%; overflow-x: auto; border: 1px solid var(--rule); border-radius: .44rem; background: var(--surface); scrollbar-width: thin; }
 .comparison-table { border-collapse: collapse; width: 100%; font-size: .92rem; line-height: 1.45; }
@@ -241,6 +245,11 @@ details.suggest textarea { display: block; width: 100%; margin: .25rem 0 .8rem; 
   .species-btn { min-height: 2.7rem; }
 }
 
+.book-title::before {
+  content: ""; display: inline-block; width: .82em; height: .94em;
+  margin-inline-end: .32em; vertical-align: -.08em;
+  background: url("assets/fa-book.svg") center / contain no-repeat; opacity: .78;
+}
 .bibliography .hero { display: block; }
 .bibliography .hero p { max-width: 58ch; }
 .bibliography-current { padding: .65rem .12rem; font-size: .86rem; font-weight: 700; color: var(--forest); text-decoration: underline; text-underline-offset: .35em; }

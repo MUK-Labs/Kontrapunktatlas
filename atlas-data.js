@@ -16,6 +16,13 @@ const ATLAS = {
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248"
     },
     {
+      "id": "benjamin1986",
+      "name": "Thomas Benjamin",
+      "title": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+      "group": "Lehrwerke",
+      "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach"
+    },
+    {
       "id": "cherubini1835",
       "name": "Luigi Cherubini",
       "title": "Cours de contrepoint et de fugue / Theorie des Contrapunktes und der Fuge (Leipzig/Paris, deutsch-französische Ausgabe, um 1835)",
@@ -299,7 +306,7 @@ const ATLAS = {
     },
     {
       "id": "anfangsintervall",
-      "title": "Darf ich mit einer Quinte oder Oktave beginnen?",
+      "title": "Mit welchem Intervall und auf welchem Taktteil darf die Gegenstimme beginnen?",
       "group": "Beginn und Kadenz",
       "tags": [
         "Anfangsintervall",
@@ -310,7 +317,13 @@ const ATLAS = {
         "cantus",
         "firmus",
         "oben",
-        "unten"
+        "unten",
+        "Einsatz",
+        "Anfangston",
+        "Anfangspause",
+        "Auftakt",
+        "Quinte",
+        "Oktave"
       ],
       "comparisons": [],
       "related": [
@@ -328,6 +341,9 @@ const ATLAS = {
           "examples": [
             "fux-anfang-oberstimme",
             "fux-anfang-unterstimme"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -336,7 +352,10 @@ const ATLAS = {
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Beginning, Regel 1 · zweistimmig, erste Spezies",
           "text": "Über dem Cantus firmus stehen zu Beginn Einklang, reine Quinte und Oktave zur Wahl. Unter dem Cantus firmus lässt Rothgeb nur Einklang und Oktave zu.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "zarlino1558",
@@ -347,7 +366,8 @@ const ATLAS = {
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch328",
           "examples": [
             "zarlino-anfang"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1890",
@@ -358,6 +378,59 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=66",
           "examples": [
             "prout-beginn"
+          ],
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "source": "prout1890",
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "speciesScope": [
+            2
+          ],
+          "locator": "Kap. V, §§ 162 und 182, S. 73 und 79 · zweistimmig, zweite Spezies",
+          "text": "Beide Stimmen dürfen zusammen beginnen. Prout bevorzugt eine Pause bis zur zweiten Hälfte des ersten Cantustons, weil man das Zwei-gegen-eins so schon am Einsatz erkennt. Auch auf dieser leichten Zeit muss der erste Ton der Gegenstimme zum Akkord gehören. Für den ersten Zusammenklang fordert er die Tonika in Grundstellung, sofern der Cantus nicht auf der Dominante beginnt.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=77"
+        },
+        {
+          "source": "prout1890",
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "speciesScope": [
+            3
+          ],
+          "locator": "Kap. VI, § 229, S. 93–94 · zweistimmig, dritte Spezies",
+          "text": "Im Vier-gegen-eins empfiehlt Prout eine Anfangspause vom Wert der folgenden Note. Über einer Ganzen im Cantus setzt die Gegenstimme also nach einer Viertelpause ein. Ihr erster Ton muss mit dem Cantus konsonieren. Wie in der zweiten Spezies soll die Tonika in Grundstellung erklingen, außer bei einem Cantusbeginn auf der Dominante.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=98"
+        },
+        {
+          "source": "prout1890",
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "speciesScope": [
+            4
+          ],
+          "locator": "Kap. VII, §§ 266–267, S. 107 · zweistimmig, vierte Spezies",
+          "text": "Die Gegenstimme setzt auf der zweiten Hälfte des ersten Cantustons ein. Welcher Ton des Anfangsakkords taugt, entscheidet die folgende Bindung. Beim gegebenen c–f in der Oberstimme eröffnet die Unterstimme in Beispiel 267b auf e. Prout zieht hier die Tonika in erster Umkehrung der Grundstellung vor, weil das e über den Taktstrich liegen bleiben kann.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=111",
+          "examples": [
+            "prout-anfang-s4"
+          ]
+        },
+        {
+          "source": "prout1890",
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "speciesScope": [
+            5
+          ],
+          "locator": "Kap. VIII, § 308, S. 119 · zweistimmig, fünfte Spezies",
+          "text": "Im floriden Satz kann die erste Note der Gegenstimme eine Halbe oder eine Viertel sein. Prout empfiehlt eine Pause vom Wert dieser ersten Note. Am deutlichsten bevorzugt er die Folge Viertelpause, Viertelnote, Halbe. Die Halbe auf der zweiten Takthälfte wird in den nächsten Takt gebunden.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=123",
+          "examples": [
+            "prout-anfang-s5"
           ]
         },
         {
@@ -366,7 +439,8 @@ const ATLAS = {
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. IV, § 47, S. 20, Bsp. 41 · vollständige zweistimmige Phrase",
           "text": "Für eine ganze Phrase empfiehlt Goetschius verschiedene Einsatzzeitpunkte, damit beide Linien selbstständiger wirken. Beim ersten Ton der Phrase kann also zunächst eine Stimme allein stehen.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=32"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=32",
+          "speciesScope": []
         },
         {
           "source": "bellermann1901",
@@ -374,7 +448,10 @@ const ATLAS = {
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Erste Gattung, S. 145–146 · zweistimmig, Lage des Cantus firmus",
           "text": "Bellermann bevorzugt Einklang oder Oktave. Steht der Cantus firmus unten, kann die Gegenstimme auch auf der Oberquinte beginnen. Unter einem oben liegenden Cantus firmus bleiben Einklang und Oktave.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=174"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=174",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "cherubini1854",
@@ -385,6 +462,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=12",
           "examples": [
             "cherubini-anfang"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -400,6 +480,57 @@ const ATLAS = {
           ],
           "comparisonSources": [
             "prout1890"
+          ],
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "source": "gallon-bitsch1964",
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. II, §§ 17–18, S. 15 · zwei Halbe gegen die Ganze",
+          "text": "Die Gegenstimme beginnt mit einer halben Pause. Der Cantus erklingt auf der Eins zuerst allein, die erste Halbe der Gegenstimme erst in der zweiten Takthälfte.",
+          "speciesScope": [
+            2
+          ],
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=1"
+        },
+        {
+          "source": "gallon-bitsch1964",
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. II, §§ 17–18, S. 15 · vier Viertel gegen die Ganze",
+          "text": "Eine Viertelpause geht den drei Vierteln der Gegenstimme voraus. Der erste Zusammenklang mit dem Cantus fällt auf das zweite Viertel.",
+          "speciesScope": [
+            3
+          ],
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=1"
+        },
+        {
+          "source": "gallon-bitsch1964",
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. II, §§ 17–18, S. 15 · synkopierte Halbe",
+          "text": "Nach einer halben Pause setzt die Gegenstimme in der zweiten Takthälfte ein. Sie bindet die Halbe über den Taktstrich.",
+          "speciesScope": [
+            4
+          ],
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=1"
+        },
+        {
+          "source": "gallon-bitsch1964",
+          "name": "Noël-Gallon und Marcel Bitsch",
+          "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+          "locator": "Teil I, Kap. II, §§ 17–18 und 22 A–B, S. 15 und 17 · Floridus",
+          "text": "Gallon und Bitsch verlangen auch im Floridus eine Anfangspause. Die Stimmen sollen möglichst dicht nacheinander einsetzen. Zu den Eröffnungsmustern gehören eine halbe Pause mit anschließender Halben sowie eine Viertelpause, eine Viertelnote und eine Halbe mit Bindung über den Taktstrich.",
+          "speciesScope": [
+            5
+          ],
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=3",
+          "comparison": "Bei Schubert beginnen in den ersten beiden Rhythmusmodellen auf S. 95 beide Stimmen zugleich. Bei Gallon und Bitsch muss im Floridus eine Stimme den Anfang allein machen.",
+          "comparisonSources": [
+            "schubert1999"
           ]
         },
         {
@@ -413,7 +544,76 @@ const ATLAS = {
           "comparison": "Bei Schubert kann die Gegenstimme eine Quinte unter dem Cantus einsetzen. Fux korrigiert genau diesen Beginn in Josephus’ dorischer Übung zur Unteroktave.",
           "comparisonSources": [
             "fux1725"
+          ],
+          "speciesScope": [
+            1
           ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "locator": "Kap. 4, S. 42, Regel 4 · zweistimmig, zweite Spezies",
+          "text": "Die Gegenstimme darf eine halbe Pause abwarten. Ihr erster klingender Ton muss auch dann eine vollkommene Konsonanz zum Cantus firmus bilden.",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "speciesScope": [
+            2
+          ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "locator": "Kap. 5, S. 56, übernommene Regel 4 · zweistimmig, dritte Spezies",
+          "text": "Auch im Vier-gegen-eins darf der Einsatz erst nach einer halben Pause kommen. Schubert übernimmt aus der zweiten Spezies die Forderung nach einer vollkommenen Konsonanz für den ersten klingenden Ton.",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "speciesScope": [
+            3
+          ],
+          "comparison": "Prout bevorzugt eine Anfangspause von der Länge der ersten Note. Vor einer Viertel ist seine Pause deshalb kürzer als die halbe Pause, die Schubert erlaubt.",
+          "comparisonSources": [
+            "prout1890"
+          ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "locator": "Kap. 6, S. 73 und 80, Übungsreihe 6-C · vgl. Kap. 4, S. 42, Regel 4",
+          "text": "In der Synkopenübung 6-C beginnt die Gegenstimme nach einer halben Pause. Ihr erster Ton ist eine vollkommene Konsonanz zum Cantus und wird über den Taktstrich gebunden. Erst die Bewegung des Cantus kann aus diesem gehaltenen Ton eine Dissonanz machen.",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "speciesScope": [
+            4
+          ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "locator": "Kap. 7, S. 89, Empfehlungen 3–4, S. 91, Bsp. 7-4a/b, und S. 95, Rhythmusmodelle 1–3 · florider Satz",
+          "text": "Schubert empfiehlt lange Anfangswerte und eine allmähliche Beschleunigung. In den ersten beiden Rhythmusmodellen setzt die Gegenstimme mit einer Ganzen zugleich mit dem Cantus ein. Im dritten beginnt sie nach einer halben Pause. In den zwei Fassungen Zarlinos über g (Bsp. 7-4a/b) ist der erste Zusammenklang jeweils vollkommen konsonant.",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "speciesScope": [
+            5
+          ],
+          "comparison": "Prout bevorzugt für den floriden Beginn die kürzere Folge aus Viertelpause, Viertelnote und angebundener Halben.",
+          "comparisonSources": [
+            "prout1890"
+          ]
+        },
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 2, S. 59–60, Besprechung von Bsp. 2-18, und S. 75, Punkt 3 · nichtimitativer tonaler Zweistimmensatz",
+          "text": "Benjamin hört vollkommene Konsonanzen besonders an Anfängen und Kadenzen, im Verlauf auch auf leichten Zeiten. Das ist ein Befund zu Bachs Zweistimmigkeit. Eine bestimmte Tonhöhe oder Einsatzpause für den Anfang einer Speziesübung schreibt er hier nicht vor.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -459,7 +659,10 @@ const ATLAS = {
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Ending, Regel 7 · zweistimmig, erste Spezies, Kadenz",
           "text": "Endet der Cantus firmus mit der zweiten und ersten Stufe, führt Rothgeb die Gegenstimme über die siebte zur ersten Stufe. Das beschreibt die beiden letzten Töne der Übung.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "piston1947",
@@ -468,7 +671,8 @@ const ATLAS = {
           "locator": "Kap. III, S. 51–52, Bsp. 73–74 · aufwärts aufgelöster Vorhalt",
           "text": "Piston erörtert den übergebundenen Leitton als Fall, in dem die Aufwärtsauflösung besonders naheliegt. Dasselbe gilt für chromatisch erhöhte Töne. Bei anderen Vorhaltstönen betrachtet er die Aufwärtsauflösung als Ausnahme.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -537,7 +741,10 @@ const ATLAS = {
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regeln 3–4 · erste Spezies, zwei Stimmen",
           "text": "Die reine Quarte zählt im zweistimmigen Zusammenklang als Dissonanz. Unter den erlaubten Intervallen bevorzugt Rothgeb im Verlauf die unvollkommenen Konsonanzen wegen ihrer Beweglichkeit.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "fux1725",
@@ -545,7 +752,10 @@ const ATLAS = {
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber I, Caput postremum, S. 41, und Liber II, Exercitium I, Lectio I, S. 45–46 · erste Spezies",
           "text": "Note gegen Note erklingen ausschließlich Konsonanzen. Einklang, reine Quinte und Oktave gelten als vollkommen, Terzen und Sexten als unvollkommen. Im Inneren der zweistimmigen Übung wünscht Fux mehr unvollkommene als vollkommene Konsonanzen, damit der Satz klanglich ausgefüllt bleibt.",
-          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118094"
+          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118094",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "goetschius1910",
@@ -565,7 +775,8 @@ const ATLAS = {
           "locator": "Kap. VII, S. 124–125 · Quarte in zwei und drei Stimmen",
           "text": "Die reine Quarte über dem Bass behandelt Piston als Dissonanz. Zwischen zwei Oberstimmen kann dieselbe Quarte konsonant wirken. Spiele zum Vergleich zuerst e–a und füge darunter ein c hinzu. Der Abstand der beiden oberen Töne bleibt gleich.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -628,7 +839,11 @@ const ATLAS = {
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 51–53, und Lectio II, S. 59–60 · gesungener Zweistimmensatz",
           "text": "Aloysius beanstandet den melodischen Tritonus und den Sprung einer großen Sexte mit Blick auf die Singbarkeit. Eine kleine Sexte oder eine Oktave nennt er später ausdrücklich als Ausweg, wenn die Stimmen in der zweiten Spezies so nahe liegen, dass Gegenbewegung schwer fällt.",
-          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118102"
+          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118102",
+          "speciesScope": [
+            1,
+            2
+          ]
         },
         {
           "source": "prout1890",
@@ -666,7 +881,8 @@ const ATLAS = {
           "comparison": "Rothgebs Verbot dissonanter Sprünge gilt dem selbst geschriebenen Cantus firmus. Die Beethoven-Stelle zeigt, welche andere Aufgabe eine instrumentale Phrase dem Intervall stellen kann.",
           "comparisonSources": [
             "rothgeb1998-cf"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -685,7 +901,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=4",
           "examples": [
             "foerster-vermindert"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "related": [
@@ -766,7 +983,8 @@ const ATLAS = {
           "locator": "Kap. I, S. 19–20, Bsp. 13–16 · instrumentale Melodie",
           "text": "Nach Septim- und Oktavsprüngen beobachtet Piston fast immer eine Umkehr der Richtung. In Beispiel 14 umrahmt Corelli einen aufsteigenden Oktavsprung durch absteigende Schritte. Beispiel 16 aus Bruckners Vierter Symphonie führt Piston ausdrücklich als Ausnahme an.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -816,7 +1034,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VI, §§ 203–205, S. 86–87 · zweistimmig, dritte Spezies",
           "text": "Im Vier-gegen-eins können die drei Noten nach dem Taktbeginn Akkord- oder Durchgangstöne sein. Eine bloße Dreiklangsbrechung hält Prout meist für melodisch schwach. Er empfiehlt eine Mischung aus Akkordtönen und schrittweiser Verbindung.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=90"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=90",
+          "speciesScope": [
+            3
+          ]
         },
         {
           "source": "goetschius1910",
@@ -937,7 +1158,10 @@ const ATLAS = {
           "work": "The Third Species of Counterpoint (Music 103, 1995)",
           "locator": "Regeln 4–6 · dritte Spezies, zwei Stimmen",
           "text": "Nach der ersten, konsonanten Viertelnote kommen Durchgänge und Wechselnoten infrage. Zwei eigens beschriebene Figuren erweitern den Vorrat um die doppelte Wechselnote und die Nota cambiata.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html",
+          "speciesScope": [
+            3
+          ]
         },
         {
           "source": "fux1725",
@@ -945,7 +1169,10 @@ const ATLAS = {
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio II, S. 56 · zweite Spezies",
           "text": "Im Zweierschlag darf die leichtere Hälfte als Durchgang dissonieren. Dazu müssen beide Schritte zusammen eine Terz ausfüllen. Ein schrittweiser Weg vom Ausgangston weg und wieder zu ihm zurück erfüllt diese Bedingung nicht.",
-          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118105"
+          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118105",
+          "speciesScope": [
+            2
+          ]
         },
         {
           "source": "goetschius1910",
@@ -967,6 +1194,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=16",
           "examples": [
             "cherubini-durchgang"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -976,7 +1206,8 @@ const ATLAS = {
           "locator": "Kap. III, S. 55–56, Bsp. 80–81 · Verzierung einer melodischen Linie",
           "text": "Eine Wechselnote entfernt sich schrittweise vom Bezugston und kehrt zu ihm zurück. Bei einer Échappée geht die Linie schrittweise hinaus und springt zum Ziel. Beide Wege lassen sich am Rhythmus und an der Fortsetzung unterscheiden.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1032,6 +1263,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118119",
           "examples": [
             "fux-vorhalt"
+          ],
+          "speciesScope": [
+            4
           ]
         },
         {
@@ -1043,6 +1277,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=21",
           "examples": [
             "cherubini-akzent"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -1054,6 +1291,10 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=79",
           "examples": [
             "prout-betonter-durchgang"
+          ],
+          "speciesScope": [
+            2,
+            3
           ]
         },
         {
@@ -1062,7 +1303,10 @@ const ATLAS = {
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Dritte Gattung, S. 161, zweites Notenbeispiel · vier Viertel gegen eine Ganze",
           "text": "Zunächst sollen das erste und das dritte Viertel konsonieren. Nach Übung dieser strengeren Form darf für einen flüssigen Verlauf auch das dritte Viertel eine Durchgangsdissonanz sein, sofern das zweite und das vierte konsonieren.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=189"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=189",
+          "speciesScope": [
+            3
+          ]
         },
         {
           "source": "goetschius1910",
@@ -1079,7 +1323,8 @@ const ATLAS = {
           "locator": "Kap. III, S. 46–49, Bsp. 62–69 · Appoggiatura und Durchgang",
           "text": "Eine Appoggiatura hat melodisches Gewicht. Ein Durchgang kann auf die Eins fallen und dennoch unbetont klingen. Piston prüft dafür die hörbare Phrasierung.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1100,6 +1345,9 @@ const ATLAS = {
           "comparison": "Prout bindet den betonten Durchgang in seiner zweiten Spezies an die Qualität der Linie. Kennan erklärt zusätzlich, wie viel Zeit die zugrunde liegende Harmonie der Auflösung lässt.",
           "comparisonSources": [
             "prout1890"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -1113,6 +1361,10 @@ const ATLAS = {
           "comparison": "Bellermann erlaubt den dissonanten Durchgang auf dem dritten Viertel nach einiger Übung auch im reinen Vier-gegen-eins. Schubert bindet die hier beschriebene Ausnahme an den Wechsel der Notenwerte.",
           "comparisonSources": [
             "bellermann1901"
+          ],
+          "speciesScope": [
+            3,
+            5
           ]
         }
       ],
@@ -1170,6 +1422,10 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118105",
           "examples": [
             "fux-cambiata"
+          ],
+          "speciesScope": [
+            2,
+            3
           ]
         },
         {
@@ -1190,7 +1446,8 @@ const ATLAS = {
           "locator": "Kap. III, S. 46, Bsp. 62 · Appoggiatura im tonalen Repertoire",
           "text": "Die unvorbereitete Appoggiatura wird bei Piston häufig angesprungen. Sie löst sich im Halb- oder Ganztonschritt aufwärts oder abwärts.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1207,7 +1464,10 @@ const ATLAS = {
           "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
           "catalogue": true,
           "locator": "Kap. 6, S. 73–75, Erläuterung und Notentafel auf S. 74 · vierte Spezies",
-          "text": "Beim Vorhalt unterscheidet Schubert mit Artusi zwei Rollen. Der Cantus firmus kann durch Schritt oder Sprung die Dissonanz herstellen (»agent«). Die gebundene Stimme (»patient«) hat ihren Ton auf der leichten Halben konsonant vorbereitet. Sie bleibt liegen und löst sich abwärts in eine imperfekte Konsonanz."
+          "text": "Beim Vorhalt unterscheidet Schubert mit Artusi zwei Rollen. Der Cantus firmus kann durch Schritt oder Sprung die Dissonanz herstellen (»agent«). Die gebundene Stimme (»patient«) hat ihren Ton auf der leichten Halben konsonant vorbereitet. Sie bleibt liegen und löst sich abwärts in eine imperfekte Konsonanz.",
+          "speciesScope": [
+            4
+          ]
         }
       ]
     },
@@ -1255,6 +1515,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118114",
           "examples": [
             "fux-cambiata"
+          ],
+          "speciesScope": [
+            3
           ]
         },
         {
@@ -1266,6 +1529,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107",
           "examples": [
             "prout-vorhalt"
+          ],
+          "speciesScope": [
+            4
           ]
         },
         {
@@ -1277,6 +1543,9 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=210",
           "examples": [
             "bellermann-182-aufloesung"
+          ],
+          "speciesScope": [
+            5
           ]
         },
         {
@@ -1293,7 +1562,8 @@ const ATLAS = {
           "comparison": "Für Prouts strengen Satz ist bei der Aufwärtsauflösung nur die Tonika als Ziel vorgesehen. Piston nennt im tonalen Repertoire auch weitere, seltene Aufwärtsauflösungen.",
           "comparisonSources": [
             "prout1890"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1316,7 +1586,8 @@ const ATLAS = {
           "comparison": "Prouts Aufwärtsauflösung zum Grundton betrifft einen von unten vorbereiteten Vorhalt im strengen Satz. Hier geht es um die Septime eines Akkords im Generalbass.",
           "comparisonSources": [
             "prout1890"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -1377,7 +1648,8 @@ const ATLAS = {
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch329",
           "examples": [
             "zarlino-parallelen"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "fux1725",
@@ -1388,6 +1660,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118107",
           "examples": [
             "fux-oktaven"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -1396,7 +1671,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VI, § 222, S. 91 · zweistimmig, dritte Spezies",
           "text": "Im Vier-gegen-eins prüft Prout auch die ersten Noten benachbarter Takte auf Quint- und Oktavparallelen. Bei anderen Taktpositionen fragt er, ob beide Quinten bzw. Oktaven Randtöne der zugrunde liegenden Harmonie sind.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=95"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=95",
+          "speciesScope": [
+            3
+          ]
         },
         {
           "source": "goetschius1910",
@@ -1413,7 +1691,8 @@ const ATLAS = {
           "locator": "Kap. V, S. 83–85, Bsp. 124–130, und Kap. VIII, S. 146–147, Bsp. 232–233 · zwei Stimmen und Quartett",
           "text": "Im Zweistimmensatz hört Piston parallele Oktaven als Verdopplung. In Haydns Quartett op. 17 Nr. 6 beobachtet er eine auffällige Folge von Quinten zwischen den Mittelstimmen. Die Quinten lösen Dissonanzen auf und treten gerade dadurch hervor.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1443,7 +1722,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=16",
           "examples": [
             "foerster-nr26-t11"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -1452,7 +1732,21 @@ const ATLAS = {
           "locator": "Kap. 6, S. 62 und 64–65, Bsp. 4 und 9 · 3:1 und 4:1",
           "text": "Im 3:1 prüft Kennan jeden Teil eines Schlags auf Quint- und Oktavparallelen zur ersten Note des nächsten. Im 4:1 unterscheidet er die Positionen genauer. Von der zweiten Note einer Vierergruppe zum folgenden Schlag empfindet er solche Parallelen als am wenigsten störend. Auch diese Verbindung bleibt für ihn fraglich.",
           "url": "https://iucat.iu.edu/iub/4609610",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 2, S. 54–55, Bsp. 2-12 und 2-15 · metrische Lage zweier Quinten",
+          "text": "Benjamin unterscheidet im zweistimmigen Satz Quinten auf aufeinanderfolgenden betonten Zeiten von solchen auf aufeinanderfolgenden leichten Zeiten. Auf leichten Zeiten können zwei Quinten vorkommen, wenn andere Töne dazwischenliegen. Durchgangsnoten verdecken umgekehrt keine fehlerhaften Quinten des Gerüsts.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ]
     },
@@ -1502,7 +1796,8 @@ const ATLAS = {
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 36, S. 184–185 · Fortschreitung zwischen verschiedenen vollkommenen Konsonanzen",
           "text": "Von der Oktave zur Quinte und umgekehrt gestattet Zarlino gleichgerichtete Bewegung, wenn eine Stimme springt und die andere einen Schritt macht. Im zweistimmigen Satz rät er zum sparsamen Gebrauch.",
-          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch336"
+          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch336",
+          "speciesScope": []
         },
         {
           "source": "rothgeb1998-s1",
@@ -1510,7 +1805,10 @@ const ATLAS = {
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regel 5 · erste Spezies, zwei Stimmen",
           "text": "Eine vollkommene Konsonanz erreicht man durch Gegen- oder Seitenbewegung. Für gleichgerichtete Bewegung sieht diese Aufgabe auch bei schrittweiser Oberstimme keine Ausnahme vor.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "fux1725",
@@ -1518,7 +1816,10 @@ const ATLAS = {
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber I, Caput postremum, S. 42, und Liber II, Exercitium I, Lectio I, S. 48–50 · erste Spezies",
           "text": "Josephus gelangt von einer Terz in gerader Bewegung zu einer Quinte. Aloysius verwirft den Übergang und macht durch Ausfüllen des Sprungs die verborgene Quinte hörbar. Seine allgemeine Regel für den Schritt von einer unvollkommenen zu einer vollkommenen Konsonanz lässt Gegen- und Seitenbewegung zu.",
-          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118098"
+          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118098",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "prout1890",
@@ -1526,7 +1827,11 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, § 119, S. 60 und Kap. V, § 178, S. 78 · zweistimmig, erste und zweite Spezies",
           "text": "Im Note-gegen-Note-Satz rät Prout dazu, verdeckte Quinten und Oktaven auch an der Kadenz zu meiden. In der zweiten Spezies darf die bewegte Stimme über ihren nächsten Harmonieton hinaus springen und in Gegenbewegung zu ihm zurückkehren.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=64"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=64",
+          "speciesScope": [
+            1,
+            2
+          ]
         },
         {
           "source": "bellermann1901",
@@ -1537,6 +1842,9 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=183",
           "examples": [
             "bellermann-155-verdeckte"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -1550,7 +1858,8 @@ const ATLAS = {
           "comparison": "Rothgeb schließt in seiner ersten Spezies jede gerade Bewegung in eine vollkommene Konsonanz aus. Piston bestreitet die Geltung dieses Verbots für das Komponieren allgemein. Dieselbe Fortschreitung erhält so in der Übung und im Repertoire verschiedene Bewertungen.",
           "comparisonSources": [
             "rothgeb1998-s1"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1582,6 +1891,9 @@ const ATLAS = {
           "comparison": "Zarlino gestattet den Wechsel zwischen Oktave und Quinte in gleicher Richtung, wenn eine Stimme schreitet und die andere springt. Schuberts Beschränkung für die erste Aufgabe ist hier strenger.",
           "comparisonSources": [
             "zarlino1558"
+          ],
+          "speciesScope": [
+            1
           ]
         }
       ]
@@ -1634,7 +1946,8 @@ const ATLAS = {
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch332",
           "examples": [
             "zarlino-stimmtausch"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "fux1725",
@@ -1645,6 +1958,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118101",
           "examples": [
             "fux-stimmkreuzung"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -1656,6 +1972,10 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=82",
           "examples": [
             "prout-kreuzung"
+          ],
+          "speciesScope": [
+            2,
+            3
           ]
         },
         {
@@ -1667,6 +1987,9 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=176",
           "examples": [
             "bellermann-148-kreuzung"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -1678,6 +2001,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=12",
           "examples": [
             "cherubini-kreuzung"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -1692,7 +2018,8 @@ const ATLAS = {
           "comparisonSources": [
             "artacho-handout",
             "fux1725"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1772,7 +2099,10 @@ const ATLAS = {
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Independence of the lines · erste Spezies, zwei Stimmen",
           "text": "Vergleiche die neue Bassnote mit der letzten Oberstimmennote. Stand oben E4, soll unten im nächsten Takt kein F4 folgen. Die Stimmen können also übergreifen, auch wenn sie sich auf keiner Zählzeit kreuzen.",
-          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "prout1890",
@@ -1783,6 +2113,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=82",
           "examples": [
             "prout-uebergreifen"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -1792,7 +2125,8 @@ const ATLAS = {
           "locator": "Kap. V, S. 82, Bsp. 123 · Stimmen ohne Kreuzung",
           "text": "In Pistons Beispiel übersteigt das neue c der Unterstimme das vorige a der Oberstimme. Das Ohr kann so Töne verschiedener Stimmen verbinden.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         }
       ]
     },
@@ -1831,7 +2165,10 @@ const ATLAS = {
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Intervals and motion · erste Spezies, zwei Stimmen",
           "text": "Die Duodezime ist die äußerste Grenze. Wenn möglich bleiben die Stimmen innerhalb einer Oktave. Mehr als eine Dezime empfiehlt Shaffer nur kurzzeitig, für ein oder zwei Töne.",
-          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "prout1890",
@@ -1839,7 +2176,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. I, §§ 12–14, S. 18–19 und Kap. IV, § 135, S. 65 · Stimmlage im zweistimmigen Satz",
           "text": "Prout beurteilt die tatsächliche Lage jeder Einzelstimme. Eine für Alt geschriebene Gegenstimme könnte dem Tonumfang nach auch im Tenor liegen. Er schreibt dafür trotzdem eine andere Linie, weil die ursprüngliche zu lange im hohen Tenorregister läge.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=69"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=69",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "goetschius1910",
@@ -1858,7 +2198,10 @@ const ATLAS = {
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Erste Gattung, S. 146–148 · zwei benachbarte Singstimmen",
           "text": "Bellermann kombiniert für die Übung benachbarte Stimmlagen. Die Dezime ist der größte zugelassene Abstand und hat ihren Platz nur vorübergehend im Inneren des Satzes. Als Gründe nennt er die Intonation ohne Instrumente und die leere Klangwirkung bei weitem Abstand.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=175"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=175",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "piston1947",
@@ -1871,7 +2214,8 @@ const ATLAS = {
           "comparison": "Bellermanns Dezimengrenze bezieht sich auf benachbarte Singstimmen. Pistons Oktavgrenze ergibt sich aus der verlangten Vertauschung. Die beiden Zahlen beantworten unterschiedliche Fragen.",
           "comparisonSources": [
             "bellermann1901"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -1884,6 +2228,16 @@ const ATLAS = {
           "comparisonSources": [
             "bellermann1901"
           ]
+        },
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 2, S. 57–58, „Range and Spacing“, mit Bsp. 2-3 und 2-5 · zweistimmiger Klaviersatz",
+          "text": "Benjamins Stimmen können zwei bis drei Oktaven auseinanderliegen. Große Abstände bleiben meist nur ein oder zwei Takte bestehen. Gegenbewegung führt die Stimmen wieder in mittlere Lagen. Darin hört er einen Wechsel von Spannung und Entspannung.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
@@ -1943,7 +2297,10 @@ const ATLAS = {
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Independence of the lines · erste Spezies, zwei Stimmen",
           "text": "Beide Linien erhalten jeweils einen Höhepunkt. Liegen diese an verschiedenen Stellen, bleibt der Verlauf jeder Stimme leichter zu hören.",
-          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "fux1725",
@@ -1966,7 +2323,8 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "piston-beethoven-op18-1-adagio"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kurth1917",
@@ -1981,7 +2339,8 @@ const ATLAS = {
           ],
           "comparisonSources": [
             "rothgeb1998-cf"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "schubert1999",
@@ -2037,7 +2396,10 @@ const ATLAS = {
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio III, S. 68–69 · dritte Spezies",
           "text": "Josephus begründet die b-Vorzeichen seiner Beispiele mit dem Vermeiden einer rauen mi-contra-fa-Beziehung. Aloysius billigt das und lässt aus vergleichbaren Gründen gelegentlich auch Erhöhungen zu. Für die Entscheidung verlangt er eine Prüfung der jeweiligen Stelle.",
-          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118118"
+          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118118",
+          "speciesScope": [
+            3
+          ]
         },
         {
           "source": "prout1890",
@@ -2045,7 +2407,11 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. V, § 186, S. 80–81 und Kap. VI, § 220, S. 90–91 · Moll, zweistimmig",
           "text": "Im Zwei-gegen-eins vermeidet Prout die übermäßige Sekunde der harmonischen Mollskala. Zwischen Dominante und Leitton dient die große sechste Stufe als Durchgang, zwischen kleiner Sexte und Tonika die kleine siebte. Für eine durchlaufende Viertelkette von der Dominante zur Tonika empfiehlt er aufwärts große Sexte und Leitton, abwärts kleine Septime und kleine Sexte.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=84"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=84",
+          "speciesScope": [
+            2,
+            3
+          ]
         },
         {
           "source": "bellermann1901",
@@ -2065,7 +2431,8 @@ const ATLAS = {
           "locator": "Kap. III, S. 43–44 · chromatische Töne in der dur-moll-tonalen Melodie",
           "text": "Piston fragt nach der Funktion des veränderten Tons. Er kann zu einer Zwischendominante oder einem alterierten Akkord gehören, melodischer Nebenton sein oder aus der gleichnamigen Dur- beziehungsweise Molltonart stammen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -2088,7 +2455,8 @@ const ATLAS = {
           "comparison": "Auch Prout verwendet im aufsteigenden Moll die große sechste Stufe vor dem Leitton. Försters Generalbass zeigt diesen Schritt an einer Stelle, an der sich zugleich die tonale Bedeutung des Basses ändert.",
           "comparisonSources": [
             "prout1890"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "related": [
@@ -2144,7 +2512,10 @@ const ATLAS = {
           "work": "The Second Species of Counterpoint (Music 103, 1993)",
           "locator": "Regeln 4–5 · zweite Spezies, zwei Stimmen",
           "text": "Die erste Halbe ist konsonant. Eine dissonante zweite Halbe muss schrittweise in derselben Richtung erreicht und verlassen werden. Damit scheidet hier auch die dissonante Wechselnote aus.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html",
+          "speciesScope": [
+            2
+          ]
         },
         {
           "source": "fux1725",
@@ -2155,6 +2526,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118105",
           "examples": [
             "fux-durchgang"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -2166,6 +2540,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=78",
           "examples": [
             "prout-terzabgang"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -2182,7 +2559,10 @@ const ATLAS = {
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Zweite Gattung, S. 153–154 · zwei halbe Noten gegen eine ganze",
           "text": "Eine Dissonanz auf der zweiten Halben muss bei Bellermann in derselben Richtung schrittweise von Konsonanz zu Konsonanz führen. Er trennt diesen Durchgang von der Nebennote, die umkehrt oder abspringt. Für historische Nebennoten verweist er auf kürzere Notenwerte.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=181"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=181",
+          "speciesScope": [
+            2
+          ]
         },
         {
           "source": "gallon-bitsch1964",
@@ -2215,6 +2595,10 @@ const ATLAS = {
           "comparison": "Prout lässt eine dissonante Wechselnote bereits im Zwei-gegen-eins zu. Bei Schubert entscheidet für dieselbe Wendung auch der Notenwert.",
           "comparisonSources": [
             "prout1890"
+          ],
+          "speciesScope": [
+            2,
+            3
           ]
         }
       ],
@@ -2265,6 +2649,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118113",
           "examples": [
             "fux-drittes-viertel"
+          ],
+          "speciesScope": [
+            3
           ]
         },
         {
@@ -2276,6 +2663,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=92",
           "examples": [
             "prout-wechselnoten"
+          ],
+          "speciesScope": [
+            3
           ]
         }
       ]
@@ -2329,7 +2719,10 @@ const ATLAS = {
           "work": "The Fourth Species of Counterpoint (Music 103, 1995)",
           "locator": "Regeln 4–6 · vierte Spezies, zwei Stimmen",
           "text": "Die zweite Halbe bereitet die Bindung konsonant vor. Entsteht über dem Taktstrich ein Vorhalt, löst sich die gebundene Stimme abwärts. Bleibt die Bindung konsonant, hat die Stimme andere melodische Möglichkeiten.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html",
+          "speciesScope": [
+            4
+          ]
         },
         {
           "source": "fux1725",
@@ -2340,6 +2733,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118118",
           "examples": [
             "fux-konsonante-bindung"
+          ],
+          "speciesScope": [
+            4
           ]
         },
         {
@@ -2348,7 +2744,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VII, §§ 252–254, S. 103 · zweistimmig, vierte Spezies",
           "text": "Eine Bindung über die Taktgrenze kann einen gemeinsamen Akkordton festhalten. Zum Vorhalt wird sie, wenn der gehaltene Ton dem neuen Akkord fremd ist und schrittweise in einen seiner Töne weitergeht. Die Vorbereitung muss mindestens so lang dauern wie die angebundene Note.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107",
+          "speciesScope": [
+            4
+          ]
         },
         {
           "source": "piston1947",
@@ -2362,7 +2761,8 @@ const ATLAS = {
           "comparisonSources": [
             "fux1725",
             "rothgeb1995-s4"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -2389,6 +2789,9 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "kennan-vorhalt-unterstimme"
+          ],
+          "speciesScope": [
+            4
           ]
         }
       ]
@@ -2432,7 +2835,10 @@ const ATLAS = {
           "work": "The Fourth Species of Counterpoint (Music 103, 1995)",
           "locator": "Regel 8 · vierte Spezies, zwei Stimmen",
           "text": "Die Bindung darf ausfallen, wenn sie zu einer unzulässigen Auflösung oder Folge vollkommener Konsonanzen führen würde. Der neu angeschlagene Ton auf der Eins muss konsonant sein. Rothgeb beschränkt die Ausnahme auf ein bis zwei Stellen je Übung.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html",
+          "speciesScope": [
+            4
+          ]
         },
         {
           "source": "fux1725",
@@ -2443,6 +2849,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118123",
           "examples": [
             "fux-unterbrechung"
+          ],
+          "speciesScope": [
+            4
           ]
         },
         {
@@ -2454,6 +2863,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=109",
           "examples": [
             "prout-kette"
+          ],
+          "speciesScope": [
+            4
           ]
         },
         {
@@ -2469,6 +2881,9 @@ const ATLAS = {
           ],
           "comparisonSources": [
             "rothgeb1995-s4"
+          ],
+          "speciesScope": [
+            4
           ]
         },
         {
@@ -2482,6 +2897,9 @@ const ATLAS = {
           "comparison": "Gallon und Bitsch gestatten eine einzige Unterbrechung pro Übung. Schubert gibt einen ungefähren Abstand an und begrenzt zusätzlich die Wiederholung derselben Wendung.",
           "comparisonSources": [
             "gallon-bitsch1964"
+          ],
+          "speciesScope": [
+            4
           ]
         }
       ],
@@ -2528,7 +2946,10 @@ const ATLAS = {
           "work": "Fifth-Species Counterpoint (Open Music Theory)",
           "locator": "Embellishing Suspensions, Bsp. 1 · fünfte Spezies",
           "text": "Die Autoren verzieren eine Kette von 7–6-Vorhalten. Halte zum Vergleich auf der Eins jeden Vorhalt eine Halbe lang aus. Die darunterliegende Kette wird hörbar. Paarweise Achtel fallen hier auf das zweite oder vierte Viertel.",
-          "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/"
+          "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/",
+          "speciesScope": [
+            5
+          ]
         },
         {
           "source": "fux1725",
@@ -2539,6 +2960,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118126",
           "examples": [
             "fux-floridus"
+          ],
+          "speciesScope": [
+            5
           ]
         },
         {
@@ -2550,6 +2974,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=122",
           "examples": [
             "prout-achtel"
+          ],
+          "speciesScope": [
+            5
           ]
         },
         {
@@ -2558,7 +2985,10 @@ const ATLAS = {
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Fünfte Gattung, S. 182 und 185, Nr. 4 · Diminution im zweistimmigen Vokalsatz",
           "text": "Eine zahlenmäßige Dissonanzquote gibt Bellermann hier nicht an. Für die Verzierung begrenzt er aber den Bewegungsraum konkret. Zwei Achtel dürfen auf dem zweiten oder vierten Viertel erscheinen. In dieser kurzen Figur lässt er auch die Nebennote zu.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=213"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=213",
+          "speciesScope": [
+            5
+          ]
         },
         {
           "source": "gallon-bitsch1964",
@@ -2569,6 +2999,9 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch2rythm.pdf#page=2",
           "examples": [
             "gallon-bitsch-nr-19-20"
+          ],
+          "speciesScope": [
+            5
           ]
         }
       ],
@@ -2617,7 +3050,10 @@ const ATLAS = {
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Ending a first-species counterpoint · erste Spezies, zwei Stimmen",
           "text": "Schließt der Cantus mit 2–1, führt die Gegenstimme 7–1. Gibt der Cantus 7–1 vor, übernimmt die Gegenstimme 2–1. Welche Stimme steigt, hängt somit vom gegebenen Schluss ab.",
-          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "fux1725",
@@ -2625,7 +3061,10 @@ const ATLAS = {
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 46–48 · erste Spezies über dem D-Cantus",
           "text": "In der ersten D-Übung sinkt der Cantus firmus am Ende von e nach d. Die Oberstimme steigt von cis nach d. So öffnet sich die große Sexte der vorletzten Note in Gegenbewegung zur Oktave.",
-          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118096"
+          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118096",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "prout1890",
@@ -2633,7 +3072,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, §§ 121–122, S. 61–62 · zweistimmig, erste Spezies, Thema unten",
           "text": "Fällt das Thema im Bass von der zweiten zur ersten Stufe, setzt Prout den Leitton darüber. Steigt der Bass dagegen vom Leitton zur Tonika, nimmt die Oberstimme die zweite Stufe und fällt zur Tonika. Beide Klauseln enden auf demselben Ton oder in der Oktave.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=65"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=65",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "cherubini1854",
@@ -2644,6 +3086,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=20",
           "examples": [
             "cherubini-kadenz"
+          ],
+          "speciesScope": [
+            2
           ]
         }
       ]
@@ -2687,7 +3132,10 @@ const ATLAS = {
           "work": "The Fourth Species of Counterpoint (Music 103, 1995)",
           "locator": "Regel 11 · vierte Spezies, Gegenstimme unten",
           "text": "Liegt die synkopierte Stimme unten, fordert Rothgeb im vorletzten Takt einen 2–3-Vorhalt. Der Bass geht dabei abwärts in den Leitton und schließt anschließend mit dem Schritt zur Tonika.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html",
+          "speciesScope": [
+            4
+          ]
         },
         {
           "source": "fux1725",
@@ -2695,7 +3143,10 @@ const ATLAS = {
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 46 und 48–49 · erste Spezies unter dem D-Cantus",
           "text": "Bleibt derselbe e–d-Schluss im oberen Cantus firmus, nimmt die frei geschriebene Unterstimme cis–d. Aus der kleinen Terz wird ein Einklang. Die Unterstimme übernimmt hier den aufsteigenden Halbtonschritt.",
-          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118097"
+          "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118097",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "prout1890",
@@ -2706,6 +3157,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=64",
           "examples": [
             "prout-schlussbass"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -2714,7 +3168,10 @@ const ATLAS = {
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Erste Gattung, S. 147–148, letztes Notenbeispiel · Cantus firmus in der Oberstimme",
           "text": "Liegt der Cantus firmus oben, schließt Bellermann gewöhnlich im Einklang. Eine Unterstimme, die mit ihm von der Dezime in die Oktave schließt, erscheint in seinem Beispiel als ungünstige Lösung für die Übung.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=176"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=176",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "cherubini1854",
@@ -2722,7 +3179,10 @@ const ATLAS = {
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Regel XVI, Bsp. 47, S. 14 · zweistimmig, zweite Spezies, Thema oben",
           "text": "Liegt der absteigende Schluss des Themas oben, empfiehlt Cherubini im vorletzten Takt zuerst die Unterquinte und dann die Unterterz. Die Lage des Themas entscheidet also darüber, welche Intervallfolge er vor dem Schluss empfiehlt.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=20"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=20",
+          "speciesScope": [
+            2
+          ]
         }
       ]
     },
@@ -2783,7 +3243,8 @@ const ATLAS = {
           "locator": "Einleitung, S. 9–12, und Kap. V, S. 72–74 · tonaler Kontrapunkt im Repertoire",
           "text": "Piston geht von komponierten Stücken aus. Am zweistimmigen Satz prüft er, wie zwei Linien eine Harmonie tragen und dennoch in Kontur und rhythmischer Betonung unterscheidbar bleiben. Auch eine begleitende Basslinie kann diese Eigenständigkeit besitzen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -2803,7 +3264,8 @@ const ATLAS = {
           "comparison": "Bei Fux erhält der Schüler zuerst den Cantus firmus und sucht zu dessen Tönen passende Gegenstimmen. Kurth beginnt seine Bach-Studien mit dem Verlauf der Einzelstimme.",
           "comparisonSources": [
             "fux1725"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -2813,6 +3275,16 @@ const ATLAS = {
           "text": "Kennan verwendet die Zahlenverhältnisse der Spezies als Schreibübungen für den tonalen Instrumentalsatz. Beide Stimmen sollen ein erkennbares Metrum und gemeinsam eine plausible Harmoniefolge ergeben. Beim Ausarbeiten zählt also auch, auf welchem Schlag ein Zusammenklang eintritt.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
+        },
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "„Notes to the Teacher“, S. xi–xii, und Kap. 2, S. 56–57 · Unterrichtsmethode und rhythmische Verhältnisse",
+          "text": "Benjamin lässt zweistimmige Sätze im Stil von Bachs Instrumentalmusik hören, spielen, untersuchen und schreiben. Er verzichtet ausdrücklich auf die strenge Speziesfolge. Ein Verhältnis wie zwei Noten gegen eine beschreibt bei ihm die rhythmische Arbeitsteilung der Stimmen in einem konkreten Stück.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "related": [
@@ -2849,7 +3321,8 @@ const ATLAS = {
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 27, S. 172–173 · Komposition",
           "text": "Dissonanzen verbinden Konsonanzen und verändern, wie die nachfolgende Konsonanz gehört wird. Zarlino beschreibt den Genuss der Auflösung als Wirkung des vorausgehenden Gegensatzes.",
-          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch327"
+          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch327",
+          "speciesScope": []
         },
         {
           "source": "fux1725",
@@ -2860,6 +3333,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118119",
           "examples": [
             "fux-vorhalt"
+          ],
+          "speciesScope": [
+            4
           ]
         },
         {
@@ -2869,7 +3345,8 @@ const ATLAS = {
           "locator": "Kap. III, S. 44–45, Bsp. 59–60 · harmonische und kontrapunktische Dissonanz",
           "text": "Eine Akkordseptime bleibt für Piston Akkordbestandteil, auch wenn sie sich schrittweise auflöst. Ein akkordfremder Ton kann dagegen den melodischen Charakter einer Phrase bestimmen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "kurth1917",
@@ -2877,7 +3354,8 @@ const ATLAS = {
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "I. Abschnitt, Kap. VI, S. 91–92 · Quarte im Sextakkord und im Quartsextakkord",
           "text": "Kurth vergleicht die Lage derselben Quarte in zwei Akkorden. Im Sextakkord kann sie zwischen zwei Oberstimmen liegen, während die Terz den Dreiklang mitträgt. Im Quartsextakkord hört er den Akkordgrundton über dem Quintton im Bass. Aus dieser Lage erklärt er die Spannung, die dort zur Auflösung drängt.",
-          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=101"
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=101",
+          "speciesScope": []
         }
       ]
     },
@@ -2918,7 +3396,8 @@ const ATLAS = {
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch353",
           "examples": [
             "zarlino-kadenz"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "fux1725",
@@ -2929,6 +3408,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118106",
           "examples": [
             "fux-kadenz"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -2945,7 +3427,10 @@ const ATLAS = {
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil II, Kap. I, S. 59, zu § 57 · zwei Stimmen, erste Spezies in Dur und Moll",
           "text": "Im Schlusstakt treffen sich beide Stimmen auf der ersten Stufe, im Einklang oder in Oktavlage. Für den vorletzten Takt stehen V oder V⁶ sowie der Sextakkord der VII. Stufe zur Wahl. Bei der letzten Möglichkeit steht in C-Dur ein d im Bass, während die Oberstimme mit h zur Tonika führen kann.",
-          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=1"
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=1",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "schubert1999",
@@ -2997,6 +3482,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=63",
           "examples": [
             "prout-zweiklang"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -3014,7 +3502,8 @@ const ATLAS = {
           "locator": "Kap. III, S. 40–42, und Kap. V, S. 75–76 · harmonische Deutung einer Linie und eines Zweiklangs",
           "text": "Pistons römische Ziffer bezeichnet den Grundton der Harmonie. Dieser Ton kann in beiden Stimmen fehlen. Bei einer Terz kommen mehrere Grundtöne infrage. Eine hinzugefügte Begleitung kann deshalb die harmonische Deutung desselben Stimmenpaars verändern.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -3034,7 +3523,8 @@ const ATLAS = {
           "comparison": "Piston bezieht seine römische Ziffer auf den Grundton der Harmonie. Försters Zahl folgt dem gespielten Basston. Bei einem Sextakkord können die beiden Angaben deshalb verschiedene Töne bezeichnen.",
           "comparisonSources": [
             "piston1947"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kurth1917",
@@ -3046,7 +3536,8 @@ const ATLAS = {
           "comparison": "Förster setzt in der Generalbassübung beim gegebenen Bass und den geforderten Intervallen an. Kurth fragt beim Hören von Bach, welche Bewegungen der Stimmen zu einem bestimmten Zusammenklang führen.",
           "comparisonSources": [
             "foerster1818"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -3086,7 +3577,10 @@ const ATLAS = {
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Einleitung und Independence of the lines · erste Spezies, zwei Stimmen",
           "text": "Singe jede Linie einzeln und prüfe ihren Verlauf. Höre sie anschließend zusammen und achte auf die Intervalle und darauf, ob beide Stimmen erkennbar bleiben. Diese Hörprobe folgt Shaffers Unterscheidung zwischen melodischer Gestalt und Zusammenklang.",
-          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+          "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "hindemith-tonsatz1",
@@ -3105,6 +3599,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118096",
           "examples": [
             "fux-anfang-oberstimme"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -3113,7 +3610,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, §§ 131, 133 und 146, S. 64, 68 · zweistimmig, erste Spezies",
           "text": "Prout lässt dasselbe Thema nacheinander in verschiedenen Stimmlagen und Besetzungen bearbeiten. Beim Vergleichen der Lösungen prüft man die melodischen Fortschreitungen, die hörbare Tonart und die Akkordfolge, die zwei Stimmen andeuten.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=68"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=68",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "goetschius1910",
@@ -3130,7 +3630,8 @@ const ATLAS = {
           "locator": "Kap. I, S. 23–24, Students’ Work · Ausführung der Melodieaufgaben",
           "text": "Piston prüft zuerst, ob die Musik die gestellte Aufgabe erfüllt. Die Lernenden wählen ein Instrument, dessen Klang und Umfang sie kennen, und legen Tempo und Dynamik fest. So lässt sich die entworfene Linie in der vorgesehenen Ausführung beurteilen.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -3149,7 +3650,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=122",
           "examples": [
             "kurth-cherubini-buch"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "cherubini1835",
@@ -3209,6 +3711,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118114",
           "examples": [
             "fux-cambiata"
+          ],
+          "speciesScope": [
+            3
           ]
         },
         {
@@ -3220,6 +3725,9 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf#page=20",
           "examples": [
             "cherubini-52-53-cambiata"
+          ],
+          "speciesScope": [
+            3
           ]
         },
         {
@@ -3231,6 +3739,9 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=192",
           "examples": [
             "bellermann-164-palestrina"
+          ],
+          "speciesScope": [
+            3
           ]
         },
         {
@@ -3239,7 +3750,10 @@ const ATLAS = {
           "work": "The Third Species of Counterpoint (Music 103, 1995)",
           "locator": "Regel 6 · dritte Spezies, zwei Stimmen",
           "text": "Die Figur beginnt auf dem ersten oder dritten Viertel. Ihr zweiter Ton ist eine schrittweise erreichte Dissonanz. Eine gleichgerichtete Terz führt zur Konsonanz, dann folgen zwei Schritte in Gegenrichtung. Auch der fünfte Ton muss konsonant sein.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html",
+          "speciesScope": [
+            3
+          ]
         },
         {
           "source": "piston1947",
@@ -3253,7 +3767,8 @@ const ATLAS = {
           "comparisonSources": [
             "fux1725",
             "rothgeb1995-s3"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "schubert1999",
@@ -3269,6 +3784,9 @@ const ATLAS = {
           "comparison": "Rothgeb lässt die Figur auch auf dem dritten Viertel beginnen. Schubert schließt diese Verschiebung für seine Übung aus.",
           "comparisonSources": [
             "rothgeb1995-s3"
+          ],
+          "speciesScope": [
+            3
           ]
         }
       ],
@@ -3302,7 +3820,8 @@ const ATLAS = {
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 41, S. 194–195 · Gebrauch im Verlauf",
           "text": "Zarlino rät zu sparsamem Gebrauch. Er gestattet Einklänge, wenn die melodische Führung sie nahelegt, und empfiehlt dazwischen andere Konsonanzen.",
-          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch341"
+          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch341",
+          "speciesScope": []
         },
         {
           "source": "rothgeb1998-s1",
@@ -3310,7 +3829,10 @@ const ATLAS = {
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regel 6 · erste Spezies, zwei Stimmen",
           "text": "Der Einklang ist auf den ersten und den letzten Takt beschränkt.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "fux1725",
@@ -3321,6 +3843,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118102",
           "examples": [
             "fux-einklang"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -3329,7 +3854,10 @@ const ATLAS = {
           "work": "The Second Species of Counterpoint (Music 103, 1993)",
           "locator": "Regel 7 · zweite Spezies, Inneres der Übung",
           "text": "In der Übung mit zwei Halben pro Takt lässt Rothgeb den Einklang im Taktinneren auf der leichten Halben zu.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html",
+          "speciesScope": [
+            2
+          ]
         },
         {
           "source": "piston1947",
@@ -3344,7 +3872,8 @@ const ATLAS = {
             "fux1725",
             "rothgeb1998-s1",
             "rothgeb1993-s2"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -3364,7 +3893,13 @@ const ATLAS = {
           "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
           "catalogue": true,
           "locator": "Kap. 3, S. 31, Kap. 4, S. 45, Kap. 5, S. 60, und Kap. 6, S. 76 · stilistische Empfehlungen zum Einklang",
-          "text": "Im Note-gegen-Note-Satz empfiehlt Schubert den Einklang nur an den Rändern. Im Zwei-gegen-eins ist er auf der leichten Halben möglich, im Vier-gegen-eins auf dem zweiten, dritten oder vierten Viertel. Im Synkopensatz darf er auch auf die Eins fallen. Wenn eine Stimme schon liegt, verschwindet beim Eintritt des Einklangs keine Linie durch gleichzeitige Bewegung beider Stimmen."
+          "text": "Im Note-gegen-Note-Satz empfiehlt Schubert den Einklang nur an den Rändern. Im Zwei-gegen-eins ist er auf der leichten Halben möglich, im Vier-gegen-eins auf dem zweiten, dritten oder vierten Viertel. Im Synkopensatz darf er auch auf die Eins fallen. Wenn eine Stimme schon liegt, verschwindet beim Eintritt des Einklangs keine Linie durch gleichzeitige Bewegung beider Stimmen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4
+          ]
         }
       ]
     },
@@ -3387,7 +3922,8 @@ const ATLAS = {
         "doppelchor-basslinien",
         "speziesmischung",
         "modaler-ambitus",
-        "motiv-ueber-cantus"
+        "motiv-ueber-cantus",
+        "choral-vorimitation"
       ],
       "authors": [
         {
@@ -3426,7 +3962,8 @@ const ATLAS = {
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "II. Abschnitt, Kap. II, S. 109–113 · Kritik am Gebrauch des Cantus firmus",
           "text": "Kurth beanstandet, dass ein Cantus firmus beim taktweisen Hinzufügen von Gegenstimmen in einzelne Stütztöne zerfallen kann. Die vorgegebene Stimme steht zwar vollständig vor dem Schüler. Ob ihre Töne als zusammenhängende Bewegung gehört werden, bleibt für Kurth eine eigene Frage.",
-          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=120"
+          "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=120",
+          "speciesScope": []
         }
       ]
     },
@@ -3452,7 +3989,10 @@ const ATLAS = {
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regel 2 · erste Spezies, hinzugefügte Stimme",
           "text": "Im Cantus firmus schließt Rothgeb unmittelbare Tonwiederholung aus. Für die hinzugefügte Stimme in der ersten Spezies erlaubt er sie ausdrücklich.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
+          "speciesScope": [
+            1
+          ]
         },
         {
           "source": "fux1725",
@@ -3463,6 +4003,9 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118096",
           "examples": [
             "fux-anfang-oberstimme"
+          ],
+          "speciesScope": [
+            1
           ]
         },
         {
@@ -3471,7 +4014,10 @@ const ATLAS = {
           "work": "The Second Species of Counterpoint (Music 103, 1993)",
           "locator": "Regel 8 · zweite Spezies, Halbenstimme",
           "text": "Sobald zwei Halbe gegen eine Ganze stehen, darf die Halbenstimme weder im Takt noch über den Taktstrich hinweg denselben Ton neu anschlagen.",
-          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+          "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html",
+          "speciesScope": [
+            2
+          ]
         },
         {
           "source": "piston1947",
@@ -3480,7 +4026,8 @@ const ATLAS = {
           "locator": "Kap. I, S. 24, Students’ Work · einstimmige instrumentale Melodieübung",
           "text": "Piston rät, unmittelbare Wiederholungen sparsam einzusetzen. Auch ein einzelner Ton soll nicht unverhältnismäßig viel Gewicht bekommen. Die Übung gilt der durchgehenden Kontur einer längeren Phrase.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -3502,7 +4049,10 @@ const ATLAS = {
           "locator": "Kap. 4, S. 38 und 46–47, Bsp. 15–16 · rhythmische Proportion der Übung",
           "text": "Unmittelbare Wiederholung desselben Tons vermeidet Kennan bei den Übungen mit festem Zahlenverhältnis. Im 2:1 darf dieselbe Tonhöhe auf zwei aufeinanderfolgenden Schlägen stehen, wenn dazwischen ein anderer Ton erklingt. In Beispiel 16 übernimmt eine untere Wechselnote diese Bewegung.",
           "url": "https://iucat.iu.edu/iub/4609610",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": [
+            2
+          ]
         }
       ]
     },
@@ -3538,7 +4088,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=34",
           "examples": [
             "fuge-prout-bach-mozart-antwort"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "cherubini1854",
@@ -3549,7 +4100,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=73",
           "examples": [
             "fuge-cherubini-martini-real"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -3561,7 +4113,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-846-antwort"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -3573,7 +4126,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-847-tonale-antwort"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -3582,7 +4136,18 @@ const ATLAS = {
           "locator": "Kap. 13, S. 179–181, Bsp. 15–17 · g-Moll-Orgelfuge und Musikalisches Opfer",
           "text": "In Bachs kleiner g-Moll-Orgelfuge BWV 578 hört Kennan am Anfang den Umriss des Tonikadreiklangs. Eine reale Antwort bewahrt diese Gestalt trotz der auffälligen Dominante auf dem zweiten Schlag. Gegenüber stellt er den ähnlichen Themenbeginn aus dem Musikalischen Opfer, den Bach tonal beantwortet. Die Stellung der Dominante allein entscheidet den Fall also nicht.",
           "url": "https://iucat.iu.edu/iub/4609610",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 10, S. 224–226, Bsp. 10-2 bis 10-5 · Fugenexposition",
+          "text": "Ein kurzer, unbetonter Dominantton im Inneren des Themas erzwingt für Benjamin keine tonale Antwort. Entscheidend ist, ob die Dominante schon am Themenkopf hervortritt oder das Thema moduliert. Einen hervorgehobenen Dominantton am Kopf beantwortet er mit der Tonika. Sobald das möglich ist, setzt er die Antwort intervallgetreu fort.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -3619,7 +4184,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=42",
           "examples": [
             "fuge-prout-bach-subdominante"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "cherubini1854",
@@ -3627,7 +4193,8 @@ const ATLAS = {
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "On Real Fugue und On Fugue of Imitation, S. 67–68 · Unterscheidung zweier Fugenarten",
           "text": "Für die Realfuge nennt Cherubini die Quinte als Antwortstufe. Daneben beschreibt er eine eigene Kategorie, die „fugue of imitation“. In diesem freieren Satz können Einsatzabstand und Einsatzzeitpunkt wechseln. Zu den möglichen Intervallen zählt er ausdrücklich auch Terz, Sexte, Sekunde und Septime.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=74"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=74",
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -3639,7 +4206,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-846-antwort"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -3676,7 +4244,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=72",
           "examples": [
             "fuge-cherubini-quinte-quarte"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1891",
@@ -3688,7 +4257,8 @@ const ATLAS = {
           "examples": [
             "fuge-prout-bach-es-tonal",
             "fuge-prout-bach-g-real"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -3700,7 +4270,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-853-quintsprung"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -3736,7 +4307,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=65",
           "examples": [
             "fuge-prout-doppeldominante"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "cherubini1854",
@@ -3747,7 +4319,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=73",
           "examples": [
             "fuge-cherubini-tonarten"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -3759,7 +4332,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-852-modulation"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -3791,7 +4365,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=74",
           "examples": [
             "fuge-cherubini-abschnittswechsel"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1891",
@@ -3802,7 +4377,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=62",
           "examples": [
             "fuge-prout-zwei-antworten"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -3839,7 +4415,8 @@ const ATLAS = {
           "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=60",
           "examples": [
             "fuge-prout-bwv872-vier-toene"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "keller1965",
@@ -3847,7 +4424,8 @@ const ATLAS = {
           "work": "Das Wohltemperierte Klavier von Johann Sebastian Bach. Werk und Wiedergabe (Kassel, Bärenreiter, 1965)",
           "locator": "WTK II, Cis-Dur, BWV 872, S. 130 · Deutung der Themenlänge",
           "text": "Keller hört den achten Ton, cis, als Ende des Themas. Die ersten vier Töne erkennt auch er als Kern der späteren Arbeit. Für die Gliederung des Anfangs fasst er die Basslinie aber länger. Die Vergrößerungen in Takt 25 und 27 beziehen sich nach seiner Lesart auf die ersten vier Töne.",
-          "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf#page=3"
+          "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf#page=3",
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk2",
@@ -3859,7 +4437,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "fuge-bach-bwv872-themengrenze"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -3902,7 +4481,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=88",
           "examples": [
             "fuge-prout-bach-kontrasubjekt"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gedalge1901",
@@ -3913,7 +4493,8 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=71",
           "examples": [
             "fuge-gedalge-bach-contresujet"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "cherubini1854",
@@ -3921,7 +4502,8 @@ const ATLAS = {
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "„On Counter-subject“, S. 64–65 · Lehre und Setzbeispiele",
           "text": "Cherubini lässt einen oder mehrere Gegenkontrapunkte zu und bevorzugt ihre gestaffelte Einführung. Beginnt der Gegenkontrapunkt erst später, dürfen einzelne Töne den Erfordernissen der Stimmen angepasst werden. Der doppelte Kontrapunkt soll den Lagentausch ermöglichen.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=70"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=70",
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -3933,7 +4515,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-847-kontrasubjekt"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "piston1947",
@@ -3950,7 +4533,8 @@ const ATLAS = {
           "comparisonSources": [
             "gedalge1901",
             "prout1910"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -3958,7 +4542,8 @@ const ATLAS = {
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, § 104, S. 50 · Kontrasubjekt und Stimmtausch",
           "text": "Zum Hauptthema der Fuge können ein oder mehrere Nebenthemen als Kontrasubjekte treten. Da Thema und Kontrasubjekte durch die verschiedenen Stimmen wandern, setzen die Autoren ihre Vertauschbarkeit voraus.",
-          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2"
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2",
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -3970,7 +4555,22 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "kennan-bach-bruecke"
-          ]
+          ],
+          "speciesScope": []
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 10, S. 234–236, Bsp. 10-15 und 10-16 · F-Dur- und c-Moll-Fuge, WTK I",
+          "text": "Ob die erste Gegenstimme ein Kontrasubjekt ist, zeigt ihre spätere Verwendung. Begleitet sie Thema oder Antwort wieder, ist ihre Identität hörbar. Bleibt sie einmalig, zählt Benjamin sie als freien Kontrapunkt. Dasselbe prüft er für eine zweite Gegenstimme beim dritten Themeneinsatz.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "comparison": "Gédalge verlangt für das Kontrasubjekt seiner Schulfuge die Begleitung jedes Themeneinsatzes. Benjamin zieht für die Analyse eines Bach-Satzes die spätere Wiederkehr als Erkennungsmerkmal heran.",
+          "comparisonSources": [
+            "gedalge1901"
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -3997,7 +4597,8 @@ const ATLAS = {
         "fuge-gegenexposition",
         "fuge-zwischenspiel",
         "fuge-doppelfuge",
-        "invention-einsatzplan"
+        "invention-einsatzplan",
+        "fuge-schlussrueckkehr"
       ],
       "authors": [
         {
@@ -4006,7 +4607,8 @@ const ATLAS = {
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. VI, §§ 178–186, S. 81–83 · zwei bis vier Stimmen",
           "text": "Prout verfolgt die ersten Einsätze durch alle Stimmen. Zweistimmig genügt ihm die Folge Thema–Antwort. In der dreistimmigen Fuge kann nach den ersten drei Einsätzen ein weiterer folgen. Für vier Stimmen empfiehlt er als letzten Einsatz möglichst eine Außenstimme, weil das Thema dort besser hörbar ist.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=97"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=97",
+          "speciesScope": []
         },
         {
           "source": "gedalge1901",
@@ -4018,7 +4620,8 @@ const ATLAS = {
           "examples": [
             "fuge-gedalge-exposition-zwei-stimmen",
             "fuge-gedalge-coda-du-sujet"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -4030,7 +4633,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-846-antwort"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -4046,7 +4650,18 @@ const ATLAS = {
           ],
           "comparisonSources": [
             "gedalge1901"
-          ]
+          ],
+          "speciesScope": []
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 10, S. 233–235, Bsp. 10-15 · dreistimmige Exposition",
+          "text": "Beim Modell für drei Stimmen folgen Thema, Antwort und wieder Thema. Der dritte Einsatz liegt meist eine Oktave vom ersten entfernt. Benjamin achtet auch auf die metrische Lage. Im Vierertakt kann ein Einsatz auf eins durch einen Einsatz auf drei beantwortet werden. Am Ende ist ein zusätzlicher Einsatz möglich.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -4084,7 +4699,8 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=120",
           "examples": [
             "fuge-gedalge-gegenexposition"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1891",
@@ -4092,7 +4708,8 @@ const ATLAS = {
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. VI, §§ 207–211, S. 89–91 · Begriff anhand des Repertoires",
           "text": "Prout beschreibt eine zweite Einsatzgruppe in denselben Tonarten. Sie kann unmittelbar folgen oder durch eine Episode abgesetzt sein. Oft tauschen die Stimmen ihre Rollen. Bei einer partiellen Gegenexposition erhält mindestens eine Stimme weder Thema noch Antwort. Eine Gegenexposition ist für Prout fakultativ.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=106"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=106",
+          "speciesScope": []
         },
         {
           "source": "prout1910",
@@ -4100,7 +4717,8 @@ const ATLAS = {
           "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
           "locator": "Fuge Nr. 9, S. 29–30 · WTK I, E-Dur, BWV 854, T. 6–10",
           "text": "In Bachs E-Dur-Fuge bezeichnet Prout drei Einsätze als Gegenexposition. In der Exposition hatte der Sopran die Antwort, Alt und Bass das Thema. Jetzt wechseln die Rollen. Der Sopran bringt das Thema, danach folgen zwei Antworten in Alt und Bass.",
-          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=34"
+          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=34",
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -4112,7 +4730,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "fuge-bach-bwv854-gegenexposition"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -4125,7 +4744,22 @@ const ATLAS = {
           "comparison": "Gédalge gibt für die Schulfuge zwei Einsätze mit vertauschten Rollen vor. Kennan richtet seine Begriffsgrenze nach der ganzen Einsatzgruppe und ihrem Tonartenplan.",
           "comparisonSources": [
             "gedalge1901"
-          ]
+          ],
+          "speciesScope": []
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 11, S. 252–253, Bsp. 11-8 · F-Dur-Fuge BWV 856, T. 17–29",
+          "text": "In Bachs F-Dur-Fuge zählt Benjamin die Einsätze der ersten Exposition von oben her als 2–1–3. In der Gegenexposition folgt auf die Oberstimme die Mittelstimme und dann der Bass. Tonika und Dominante sowie das vertraute Gegenmaterial lassen die neue Einsatzgruppe auf die erste zurückverweisen.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "comparison": "Gédalges fakultative Gegenexposition der Schulfuge umfasst zwei Einsätze. Benjamin bezeichnet hier einen Abschnitt mit Einsätzen in allen drei Stimmen als Gegenexposition.",
+          "comparisonSources": [
+            "gedalge1901"
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -4164,7 +4798,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=108",
           "examples": [
             "fuge-prout-codetta-episode"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gedalge1901",
@@ -4172,7 +4807,8 @@ const ATLAS = {
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel VII, §§ 187–193, S. 112–113 · Divertissement der Schulfuge",
           "text": "Für das Divertissement gewinnt Gédalge Fragmente aus Thema, Kontrasubjekt, Coda oder einer freien Stimme der Exposition. Die Imitationen sollen eine fortlaufende melodische Linie bilden. Eine Sequenz ist willkommen, wenn die Wiederholung des Motivs sie hervorbringt. Das bloße Fortschieben von Akkordverbindungen verwirft er.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=124"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=124",
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -4184,7 +4820,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-847-episode"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "piston1947",
@@ -4193,7 +4830,8 @@ const ATLAS = {
           "locator": "Kap. VIII, S. 155, Bsp. 247 · paarweise Imitation",
           "text": "Piston beschreibt paarweise Imitation als mögliche Satzweise eines Fugenzwischenspiels. Beispiel 247 veranschaulicht die Stimmenverteilung an einem Konzert von Bach. Hier imitieren sich Bass und Tenor sowie Alt und Sopran.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "kurth1917",
@@ -4208,7 +4846,8 @@ const ATLAS = {
           ],
           "comparisonSources": [
             "prout1891"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -4220,7 +4859,18 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "kennan-bach-bruecke"
-          ]
+          ],
+          "speciesScope": []
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 10, S. 234–237, Bsp. 10-15 und 10-16 · Kap. 11, S. 244–245 und 250–251",
+          "text": "In der c-Moll-Fuge BWV 847 überbrückt eine zweistimmige Codetta die Takte 5–6 vor dem Basseinsatz. Als link bezeichnet Benjamin dagegen die kurze melodische Verbindung vom Themenende zum Kontrasubjekt innerhalb einer Stimme. Nach der Exposition hört er auf die Vollständigkeit des Themas. Eine Episode verarbeitet oft Bruchstücke, ein neuer Themeneinsatz bringt die vollständige Gestalt.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -4259,7 +4909,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=71",
           "examples": [
             "fuge-cherubini-stretto"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1891",
@@ -4270,7 +4921,8 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=125",
           "examples": [
             "fuge-prout-stretto-abstaende"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gedalge1901",
@@ -4278,7 +4930,8 @@ const ATLAS = {
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel VIII, §§ 261–266, S. 155 · Terminologie der Schulfuge",
           "text": "Gédalge verwendet Stretto für die einzelne Verbindung mit verkürztem Einsatzabstand und für einen ganzen Schlussabschnitt, in dem die Einsätze einander zunehmend näher rücken. Bleibt das Thema während der überlappenden Antwort vollständig erhalten, beschreibt er eine kanonische Engführung.",
-          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=167"
+          "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=167",
+          "speciesScope": []
         },
         {
           "source": "bach1866-wtk1",
@@ -4290,7 +4943,8 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-846-engfuehrung"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "piston1947",
@@ -4299,7 +4953,8 @@ const ATLAS = {
           "locator": "Kap. X, S. 190, Bsp. 284 · Kanon als Technik der Fuge",
           "text": "Piston beschreibt die Engführung als einen Kanon, in dem das Fugenthema sich selbst imitiert. Seine Definition erklärt das Verfahren. Ob jede Fuge es enthalten soll, entscheidet diese Stelle nicht.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
-          "catalogue": true
+          "catalogue": true,
+          "speciesScope": []
         },
         {
           "source": "gallon-bitsch1964",
@@ -4307,7 +4962,18 @@ const ATLAS = {
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, § 104, S. 50 · kanonische Führung von Thema und Antwort",
           "text": "Unter einer eigentlichen Engführung verstehen die Autoren einen Kanon zwischen Fugenthema und Antwort. Höre auf den Moment, in dem die Antwort einsetzt, während das Thema noch weiterläuft.",
-          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2"
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2",
+          "speciesScope": []
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 11, S. 257–258 und 263, Bsp. 11-13 sowie Schreibübungen 1–3 · Engführung",
+          "text": "Benjamin lässt Einsatzabstand, Einsatzintervall und die Länge jeder Themenfassung getrennt bestimmen. Eine Stimme kann nach wenigen Tönen abbrechen, wenn weitere Einsätze die Verkürzung auffangen. Für die Schreibübung probiert er denselben Themenkopf mit verschiedenen Abständen aus und erlaubt kleine Anpassungen nach dem Kopf.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -4334,7 +5000,8 @@ const ATLAS = {
         "rhythmische-selbststaendigkeit",
         "betonte-dissonanz",
         "generalbass-sextakkord",
-        "drei-gegen-eins"
+        "drei-gegen-eins",
+        "passacaglia-chaconne"
       ],
       "authors": [
         {
@@ -4347,7 +5014,8 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "piston-schumann-fast-zu-ernst"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1890",
@@ -4355,7 +5023,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. V, § 172, S. 76 · zweite Spezies",
           "text": "Prout bevorzugt in seiner Übung einen Akkord pro Cantus-firmus-Ton. Beide Halben können derselben Harmonie angehören. Zwei Akkorde lässt er zu, etwa für eine Kadenz oder um eine fehlerhafte Akkordfolge zu vermeiden.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=80"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=80",
+          "speciesScope": [
+            2
+          ]
         },
         {
           "source": "gallon-bitsch1964",
@@ -4363,7 +5034,10 @@ const ATLAS = {
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, § 59, S. 32 · einfacher Kontrapunkt, auch vierte Spezies",
           "text": "Gewöhnlich gilt eine Harmonie pro Takt. Sie kann sich auch über mehrere Takte erstrecken. In der vierten Spezies ziehen die Autoren einen zweiten Klang im selben Takt einer unterbrochenen Synkopenkette vor, besonders bei Synkopen im Bass.",
-          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10"
+          "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10",
+          "speciesScope": [
+            4
+          ]
         },
         {
           "source": "foerster1818",
@@ -4374,7 +5048,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=16",
           "examples": [
             "foerster-nr26-t3"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -4387,6 +5062,9 @@ const ATLAS = {
           "comparison": "Förster zeigt in Nr. 26 ausdrücklich zwei Griffe über demselben Bass. Bei Kennan prüft man zunächst, wie viele der vier Töne sich als Bewegung innerhalb eines einzigen Klangs hören lassen.",
           "comparisonSources": [
             "foerster1818"
+          ],
+          "speciesScope": [
+            3
           ]
         }
       ],
@@ -4428,7 +5106,8 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "piston-bach-contrapunctus-vii"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "gedalge1901",
@@ -4450,7 +5129,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=283",
           "examples": [
             "kurth-nr152"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -4460,6 +5140,16 @@ const ATLAS = {
           "text": "Kennan unterscheidet verschiedene Verteilungen der Bewegung. In Bachs 13. Goldberg-Variation bilden Mittelstimme und Bass gemeinsam einen ruhigen Hintergrund für die verzierte Oberstimme. Im Largo der Triosonate aus dem Musikalischen Opfer verfolgt er dagegen drei verschiedene rhythmische Muster.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
+        },
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 2, S. 56–57 · rhythmischer Wechsel zwischen den Stimmen, mit Bsp. 2-1, 2-4 und 2-5",
+          "text": "Spielt eine Stimme die Unterteilung des Schlags, kann die andere den Schlag selbst übernehmen. Wechseln die Rollen, bleibt die gemeinsame Bewegung hörbar. Kurz vor einer Kadenz können beide zugleich in den kleineren Werten gehen und dadurch die rhythmische Spannung erhöhen.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -4501,7 +5191,8 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "piston-bach-bwv885-kontrasubjekt"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1910",
@@ -4545,7 +5236,10 @@ const ATLAS = {
           "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
           "catalogue": true,
           "locator": "Kap. 13, S. 165–167, Bsp. 13-1 bis 13-3 · zweistimmiger Lagentausch in der Oktave",
-          "text": "Beim Lagentausch in der Oktave wird eine Quinte zur Quarte. Schubert lässt die Quinte deshalb dort zu, wo die entstehende Quarte korrekt als Dissonanz geführt werden kann, etwa bei einem Durchgang in der zweiten Spezies. Für die Übung müssen beide Lagen jeweils die Regeln derselben Spezies erfüllen."
+          "text": "Beim Lagentausch in der Oktave wird eine Quinte zur Quarte. Schubert lässt die Quinte deshalb dort zu, wo die entstehende Quarte korrekt als Dissonanz geführt werden kann, etwa bei einem Durchgang in der zweiten Spezies. Für die Übung müssen beide Lagen jeweils die Regeln derselben Spezies erfüllen.",
+          "speciesScope": [
+            2
+          ]
         }
       ],
       "readingSources": [
@@ -4575,7 +5269,8 @@ const ATLAS = {
         "kanon-verfahren",
         "kanon-spiralkanon",
         "imitierendes-duo-kadenz",
-        "kanon-stimmtausch"
+        "kanon-stimmtausch",
+        "choral-vorimitation"
       ],
       "authors": [
         {
@@ -4588,7 +5283,8 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "piston-bach-oktavkanon"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "prout1891",
@@ -4730,7 +5426,10 @@ const ATLAS = {
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VII, §§ 252–253, S. 103 · Bindung und Vorhalt",
           "text": "Prout vergleicht die Dauern beiderseits des Bindebogens. Der auf leichter Zeit beginnende Ton muss mindestens so lange dauern wie der angebundene Ton auf schwerer Zeit. Für die beiden Halben der vierten Spezies ergeben sich gleiche Dauern.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107",
+          "speciesScope": [
+            4
+          ]
         },
         {
           "source": "schubert1999",
@@ -4792,7 +5491,8 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "piston-bach-contrapunctus-vii"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -4841,7 +5541,8 @@ const ATLAS = {
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 66, S. 268 · mehrchörige Psalmen in Venedig",
           "text": "Zarlino beschreibt zwei oder drei räumlich getrennte vierstimmige Chöre in der venezianischen Vesper. Sie singen abwechselnd und gelegentlich gemeinsam, besonders zum Schluss. Jeder Chor soll auch für sich konsonant klingen. Bei den gemeinsamen Einsätzen beobachtet Zarlino die Bässe im Einklang oder in der Oktave, bisweilen in der Terz.",
-          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#p268"
+          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#p268",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -4879,7 +5580,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=6",
           "examples": [
             "foerster-sextakkord"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -4915,7 +5617,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=6",
           "examples": [
             "foerster-nr8-t7"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -4954,7 +5657,8 @@ const ATLAS = {
             "foerster-septimenvergleich"
           ],
           "comparison": "Förster berichtet, Vogler und Knecht unterschieden nach der Stufe. Auf II in Moll sei Vorbereitung erforderlich, auf VII in Dur entbehrlich. Sein Einwand betrifft den zweiten Fall. Auch auf VII in Dur gibt es für ihn Verbindungen, die eine Vorbereitung verlangen.",
-          "comparisonSources": []
+          "comparisonSources": [],
+          "speciesScope": []
         },
         {
           "source": "foerster1804",
@@ -4962,7 +5666,8 @@ const ATLAS = {
           "work": "Anleitung zum General-Bass (Leipzig, Breitkopf & Härtel)",
           "locator": "§ 69, S. 23, mit Verweisen auf Nr. 91–93 · Försters Kriterium",
           "text": "Folgt auf den Septimenakkord der siebten Durstufe der Tonikadreiklang, kann die Septime frei eintreten. Für die erste und zweite Umkehrung nennt Förster als Ziel den Sextakkord auf der dritten Bassstufe. Bei diesen Umkehrungen verlangt er die Dissonanz in der Oberstimme. Nimmt der Bass eine andere Wendung, verlangt er Vorbereitung.",
-          "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf#page=25"
+          "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf#page=25",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -5002,7 +5707,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
           "examples": [
             "foerster-dreiklang"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "tuerk1791",
@@ -5010,7 +5716,8 @@ const ATLAS = {
           "work": "Kurze Anweisung zum Generalbaßspielen (Halle und Leipzig, 1791)",
           "locator": "Zweites Kapitel, § 61 und Anmerkungen, S. 74–75 · Begleitung am Tasteninstrument",
           "text": "Türk lässt Anfänger zunächst vierstimmig üben. Beim Begleiten entscheidet auch die Besetzung. Im Piano oder bei kleiner Besetzung genügen oft drei Stimmen. Im Pianissimo oder unter einer solistischen Singstimme können zwei reichen. Für einen großen Chor oder ein Fortissimo kommen fünf oder mehr in Betracht.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf#page=82"
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf#page=82",
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -5044,7 +5751,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
           "examples": [
             "foerster-transponieren"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -5080,7 +5788,8 @@ const ATLAS = {
           "examples": [
             "kurth-nr153",
             "kurth-zwei-lagen"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -5093,6 +5802,19 @@ const ATLAS = {
           "comparison": "Kurth verfolgt in der C-Dur-Solofuge den länger aufsteigenden Zug der Spitzentöne. Kennans Reduktion der Chaconne macht drei abwechselnd angespielte Linien und ihren harmonischen Zusammenhang kenntlich.",
           "comparisonSources": [
             "kurth1917"
+          ]
+        },
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 1, S. 38–39, Bsp. 1-48 und Reduktionen A/B · Bach, Bourrée I aus der dritten Cellosuite BWV 1009",
+          "text": "Benjamin hört in der Cellostimme zwei Linien und zeigt daneben eine Lesart mit einer dritten, mittleren Stimme. In T. 1–4 sinken die beiden Hauptlinien stufenweise. In T. 5–6 trifft unten eine Sequenz auf einen oben wiederkehrenden Ton. Welche Stimme einen einzelnen Ton übernimmt, kann beim Hören offenbleiben.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": [],
+          "examples": [
+            "benjamin-bach-bourree"
           ]
         }
       ],
@@ -5128,6 +5850,20 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=305",
           "examples": [
             "kurth-nr169"
+          ],
+          "speciesScope": []
+        },
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 1, S. 38–39, Bsp. 1-48, T. 5–6 · höher liegender Orgelpunkt in BWV 1009",
+          "text": "In der Bourrée wechselt das Cello zwischen dem wiederkehrenden oberen Ton und der unteren, sequenzierenden Linie. Benjamin nennt diese Aufteilung „Type II“. Spiele erst nur die wiederkehrenden Töne, dann die tieferen Töne zwischen ihnen.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": [],
+          "examples": [
+            "benjamin-bach-bourree"
           ]
         }
       ],
@@ -5166,7 +5902,8 @@ const ATLAS = {
           "examples": [
             "kurth-bach-fortspinnung",
             "kurth-nr33"
-          ]
+          ],
+          "speciesScope": []
         },
         {
           "source": "kennan1999",
@@ -5213,7 +5950,8 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=79",
           "examples": [
             "kurth-enharmonische-spannung"
-          ]
+          ],
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -5252,6 +5990,9 @@ const ATLAS = {
           "catalogue": true,
           "examples": [
             "kennan-drei-gegen-eins"
+          ],
+          "speciesScope": [
+            2
           ]
         },
         {
@@ -5267,6 +6008,9 @@ const ATLAS = {
           ],
           "comparisonSources": [
             "kennan1999"
+          ],
+          "speciesScope": [
+            3
           ]
         }
       ],
@@ -5305,6 +6049,16 @@ const ATLAS = {
           "examples": [
             "kennan-bach-gegenmotiv"
           ]
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 7, S. 145–147, Bsp. 7-7 · Invention d-Moll BWV 775, T. 1–6",
+          "text": "In der d-Moll-Invention ist der Zielton der Oberstimme auf dem ersten Schlag von T. 3 zugleich der Beginn ihres Gegenmotivs. Während unten das Thema einsetzt, zeichnet oben ein Dreiklangsaufstieg eine andere rhythmische Gestalt. Das Gegenmotiv darf sich bei der Wiederkehr stärker verändern als das Thema.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -5329,7 +6083,8 @@ const ATLAS = {
         "invention-gegenmotiv",
         "fuge-antwortintervall",
         "fuge-exposition",
-        "imitation-und-kanon"
+        "imitation-und-kanon",
+        "invention-episode"
       ],
       "authors": [
         {
@@ -5343,6 +6098,16 @@ const ATLAS = {
           "examples": [
             "kennan-bach-invention-c"
           ]
+        },
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 7, S. 143–146, Bsp. 7-1 bis 7-6 · Modelle des zweiten Einsatzes",
+          "text": "Für seine Schreibübung wählt Benjamin das Modell der Inventionen Nr. 1, 3 und 4. Die Oberstimme beginnt, die Unterstimme imitiert sie eine Oktave tiefer. Eine andere Lösung hört er in der G-Dur-Invention BWV 781. Dort setzt die Unterstimme eine Undezime tiefer auf der Dominante ein.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -5381,7 +6146,8 @@ const ATLAS = {
           "examples": [
             "kennan-bach-doppelfuge"
           ],
-          "comparisonSources": []
+          "comparisonSources": [],
+          "speciesScope": []
         },
         {
           "source": "prout1910",
@@ -5389,7 +6155,8 @@ const ATLAS = {
           "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
           "locator": "Fuge Nr. 42, S. 78–79 · WTK II/18, BWV 887, T. 61 und 97",
           "text": "Prout lässt für das neu auftretende Thema auch die Bezeichnung Kontrasubjekt gelten. Er hebt hervor, dass es ab Takt 61 eine eigene Exposition erhält. In Takt 97 verfolgt er das erste Thema im Bass und das zweite im Alt.",
-          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=83"
+          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=83",
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -5609,7 +6376,8 @@ const ATLAS = {
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 55, S. 227–229 · wiederkehrender passaggio, erstes und zweites Notenbeispiel",
           "text": "Zarlino zeigt zunächst eine Wiederholung mit denselben Zusammenklängen, Bewegungen und Tonstufen. Obwohl die Stelle konsonant ist, wird sie für ihn eintönig. Dieselbe melodische Wendung darf mehrfach wiederkehren, wenn die andere Stimme den gemeinsamen Satz verändert.",
-          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch355"
+          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch355",
+          "speciesScope": []
         }
       ],
       "reading": "Singe zuerst die wiederkehrende Oberstimme, dann den Bass dazu. Haben sich Tonlage, Rhythmus oder die Intervalle zwischen beiden Stimmen verändert?",
@@ -5642,6 +6410,135 @@ const ATLAS = {
           "catalogue": true,
           "locator": "Kap. 20, S. 295–296, „Text and Form“ und „Countersubject as Soggetto“, Bsp. 20-1 (Zarlino)",
           "text": "Eine neue Textzeile erhält häufig einen neuen melodischen Gedanken, ein Soggetto. Schubert nennt auch französische Chansons, in denen neuer Text auf bereits gehörte Musik trifft. Ein Mittelweg lässt sich in Zarlinos Beispiel verfolgen. Die Gegenstimme eines Abschnitts wird zum Soggetto des folgenden."
+        }
+      ]
+    },
+    {
+      "id": "choral-vorimitation",
+      "title": "Wie kann eine Choralzeile schon vor ihrem Einsatz hörbar werden?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Vorimitation",
+        "Choralvorspiel",
+        "Cantus firmus",
+        "Choralmotette",
+        "Bach"
+      ],
+      "comparisons": [],
+      "related": [
+        "imitation-und-kanon",
+        "cantus-firmus",
+        "invention-gegenmotiv"
+      ],
+      "authors": [
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 14, S. 318–320, Bsp. 14-9 · Wer nur den lieben Gott lässt walten",
+          "text": "Bei der Vorimitation greifen die Begleitstimmen eine Choralzeile oder ihren Anfang auf, bevor sie in langen Werten einsetzt. In Bsp. 14-9 imitieren sich die Oberstimmen im Abstand von sechs Schlägen in der Quinte. Sie verzieren die Choralweise, die im Pedal in langen Werten erklingt. In längeren Sätzen kann jede neue Zeile durch ihr eigenes Motiv vorbereitet werden.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "passacaglia-chaconne",
+      "title": "Was bleibt bei einer Passacaglia oder Chaconne von Variation zu Variation gleich?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Passacaglia",
+        "Chaconne",
+        "Ostinato",
+        "Tetrachord",
+        "Variationen",
+        "Bassmodell"
+      ],
+      "comparisons": [],
+      "related": [
+        "harmonischer-rhythmus",
+        "linie-scheinpolyphonie",
+        "motiv-ueber-cantus"
+      ],
+      "authors": [
+        {
+          "name": "Thomas Benjamin",
+          "source": "benjamin1986",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 13, S. 300–307, Bsp. 13-1 bis 13-4 · Passacaglia c-Moll und Chaconne für Violine solo",
+          "text": "Ein wiederkehrender Bass kann seine Lage wechseln. In Bachs c-Moll-Passacaglia wird er verziert und wandert in die Oberstimmen. Bei der Chaconne für Violine verfolgt Benjamin ein viertaktiges harmonisches Muster. Die Varianten entfernen sich so weit davon, dass stellenweise nur der Weg von der Tonika zur Dominante erkennbar bleibt. Eine feste Gattungsgrenze zwischen Bass- und Harmonievariation zieht er deshalb nicht.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "invention-episode",
+      "title": "Wie entsteht aus dem Thema einer Invention eine modulierende Episode?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Invention",
+        "Episode",
+        "Sequenz",
+        "Umkehrung",
+        "Vergrößerung",
+        "BWV 772"
+      ],
+      "comparisons": [],
+      "related": [
+        "invention-einsatzplan",
+        "invention-gegenmotiv",
+        "fuge-zwischenspiel"
+      ],
+      "authors": [
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 7, S. 149–150, Bsp. 7-8 · Invention C-Dur BWV 772, T. 1–6",
+          "text": "In T. 3 kehrt Bach das Thema oben melodisch um. Unten erklingen seine ersten vier Töne in längeren Werten. Beide Stimmen versetzen ihre Figuren in Zweischlaggruppen terzweise abwärts. So führt vertrautes Material aus der Exposition heraus und auf eine neue Kadenz zu.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "examples": [
+            "benjamin-bach-invention-episode"
+          ],
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "fuge-schlussrueckkehr",
+      "title": "Kehrt mit der Tonika am Ende einer Fuge auch die Exposition zurück?",
+      "group": "Fuge",
+      "tags": [
+        "Reprise",
+        "Tonika",
+        "Wiederkehr",
+        "Kontrasubjekt",
+        "Schlussteil",
+        "BWV 847"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-exposition",
+        "fuge-gegenexposition",
+        "fuge-kontrasubjekt"
+      ],
+      "authors": [
+        {
+          "source": "benjamin1986",
+          "name": "Thomas Benjamin",
+          "work": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
+          "locator": "Kap. 11, S. 266–267, Bsp. 11-22 · c-Moll-Fuge BWV 847, T. 20–22",
+          "text": "Benjamin hört eine Reprise, wenn mit der Tonika auch das Thema und gegebenenfalls sein Gegenmaterial zurückkehren. In BWV 847 übernimmt jetzt die Oberstimme das Thema. Beide Kontrasubjekte stehen darunter in einer zuvor ungehörten Anordnung. Andere Fugen erreichen die Tonika ohne deutlich erkennbaren letzten Themeneinsatz.",
+          "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+          "catalogue": true,
+          "examples": [
+            "benjamin-bach-fugenrueckkehr"
+          ],
+          "speciesScope": []
         }
       ]
     }
@@ -6762,6 +7659,46 @@ const ATLAS = {
       "credit": "Gioseffo Zarlino, Le istitutioni harmoniche (1558), Teil III, Kap. 55, S. 227, erstes Beispiel. Zwei Ausschnitte neu notiert nach dem Notentext des Thesaurus musicarum italicarum. Takteinteilung wie bei Schubert, Kap. 8, Bsp. 8-1, S. 102. Das über der Note stehende Kreuz ist hier vorangestellt.",
       "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch355",
       "image": "quellen/noten/schubert-zarlino-wiederholung.webp"
+    },
+    "prout-anfang-s4": {
+      "image": "quellen/noten/prout-anfang-s4.webp",
+      "title": "Vierte Spezies · Grundstellung oder sofortige Bindung?",
+      "alt": "Zwei Anfänge über derselben Oberstimme c–f. In a beginnt die Unterstimme nach der Pause auf c. In b beginnt sie auf e und bindet diesen Ton über den Taktstrich.",
+      "caption": "Singe die beiden Unterstimmen zur selben Oberstimme. In (a) wechselt der Basston am Taktstrich. In (b) bereitet das e der ersten Umkehrung die Bindung vor und sinkt danach zum d.",
+      "credit": "Ebenezer Prout, Counterpoint: Strict and Free, 3. Aufl., Kap. VII, § 267, S. 107. Ausschnitt aus dem gemeinfreien Druck. Cornell University Library / Internet Archive.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=111"
+    },
+    "prout-anfang-s5": {
+      "image": "quellen/noten/prout-anfang-s5.webp",
+      "title": "Fünfte Spezies · was nach der ersten Pause erklingt",
+      "alt": "Fünf Eröffnungstakte. In a bis d spielt die Gegenstimme nach einer Viertelpause eine Viertel und eine angebundene Halbe. In e folgt auf die halbe Pause eine Halbe.",
+      "caption": "Lies in (a) und (c) jeweils die bewegte Stimme. In beiden Fällen eröffnet dieselbe rhythmische Folge, einmal oben und einmal unten. Vergleiche den späteren Eintritt in (e), den Prout für weniger günstig hält.",
+      "credit": "Ebenezer Prout, Counterpoint: Strict and Free, 3. Aufl., Kap. VIII, § 308, S. 119. Ausschnitt aus dem gemeinfreien Druck. Cornell University Library / Internet Archive.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=123"
+    },
+    "benjamin-bach-bourree": {
+      "title": "Bach · zwei mögliche Hörweisen in einer Cellostimme",
+      "alt": "Auftakt und erster Teil der Bourrée I in C-Dur, BWV 1009. In Takt 5 und 6 kehrt ein oberer Ton zwischen bewegten tieferen Tönen wieder.",
+      "caption": "Singe zuerst die höchste Linie der Takte 1–4 mit. Halte beim zweiten Spielen in T. 5–6 den oberen Ton im Ohr und höre darunter auf die versetzte Figur. Benjamin stellt für diesen Abschnitt eine zwei- und eine dreistimmige Lesart nebeneinander.",
+      "credit": "J. S. Bach, Suite für Violoncello solo Nr. 3, BWV 1009, Bourrée I, Auftakt und T. 1–8. Gemeinfreier Notensatz von Stelios Samelis nach der Bach-Gesellschaft, Mutopia 2006, S. 6, Ausschnitt. Benjamin bespricht die Passage in Kap. 1, Bsp. 1-48.",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV1009/cellosuite3/cellosuite3-let.pdf#page=6",
+      "image": "quellen/noten/benjamin-bach-bourree.webp"
+    },
+    "benjamin-bach-invention-episode": {
+      "image": "quellen/noten/benjamin-bach-invention-episode.webp",
+      "title": "Bach · Takt 3 verwandelt den Anfang der C-Dur-Invention",
+      "alt": "Zwei Systeme aus BWV 772. In Takt 3 setzt rechts die Umkehrung des Anfangsmotivs ein, während die linke Hand die ersten vier Töne in Achteln spielt.",
+      "caption": "Spiele die ersten vier Sechzehntel der rechten Hand in T. 1. Verfolge in T. 3 dieselbe aufsteigende Gestalt in der linken Hand. Oben beginnt gleichzeitig die umgekehrte Gestalt. Benjamin untersucht die Stelle in Bsp. 7-8 auf S. 150.",
+      "credit": "J. S. Bach, Invention Nr. 1 C-Dur BWV 772, T. 1–7. Bach-Gesellschaft, Bd. III, hg. von Carl Ferdinand Becker, Leipzig, Breitkopf & Härtel, 1853, S. 1. Ausschnitte aus dem gemeinfreien Druck. Markierung der Atlasredaktion.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/6/6b/IMSLP396133-PMLP03267-Bach%2C_Johann_Sebastian-Werke_Breitkopf_Band_3_01_BWV_772-786.pdf#page=1"
+    },
+    "benjamin-bach-fugenrueckkehr": {
+      "image": "quellen/noten/benjamin-bach-fugenrueckkehr.webp",
+      "title": "Bach · dasselbe c-Moll-Thema am Anfang und bei der Rückkehr",
+      "alt": "Zwei Ausschnitte aus BWV 847. Das Thema erklingt in Takt 1 allein, in Takt 20 setzt es in der Oberstimme zu zwei Gegenstimmen ein. Die Pfeile zeigen die beiden Einsätze.",
+      "caption": "Singe die ersten Töne der Mittelstimme in T. 1, dann den markierten Einsatz der Oberstimme in T. 20. Spiele beim zweiten Durchgang nur die zwei begleitenden Stimmen. Benjamin zeigt die Rückkehr bis zum Beginn von T. 22 in Bsp. 11-22 auf S. 267.",
+      "credit": "J. S. Bach, Das Wohltemperierte Klavier I, Fuge Nr. 2 c-Moll BWV 847, T. 1–3 und 19–21. Bach-Gesellschaft, Bd. XIV, hg. von Franz Kroll, Leipzig, Breitkopf & Härtel, 1866, S. 8–9. Ausschnitte aus dem gemeinfreien Druck. Markierungen der Atlasredaktion.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=9"
     }
   }
 };

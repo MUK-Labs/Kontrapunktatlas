@@ -44,6 +44,24 @@ Drei Einstiege für den Unterricht
 
 Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
 
+## Welche Spezies meint die Antwort?
+
+Bei Fragen mit Speziesbelegen stehen **Alle** und **S1–S5** über den Antworten. Die Nummer folgt der Einteilung des jeweiligen Lehrwerks. So zählt Kennan das Drei-gegen-eins zur zweiten, Prout zur dritten Spezies. Eine gewählte Spezies zeigt ihre belegten Aussagen und Notenbeispiele sowie, wo vorhanden und ausgewählt, die entsprechende Zeile in Artachos Handout. **Alle** zeigt zusätzlich Beiträge aus freiem Satz und Aussagen, für die keine bestimmte Spezies belegt ist.
+
+Beim Beginn einer Übung lohnt es sich, zwei Dinge getrennt zu hören. Wann setzt die Gegenstimme ein? Welches Intervall bildet ihr erster klingender Ton mit dem Cantus? In der dritten Spezies gestattet Schubert eine halbe Anfangspause. Prout empfiehlt vor einer Viertel eine Viertelpause. Gallon und Bitsch schreiben sie vor. Wähle danach **S5**, um die Eröffnungsmöglichkeiten im Floridus derselben drei Lehrwerke zu vergleichen. [Anfang der Gegenstimme in der dritten Spezies](https://muk-labs.github.io/Kontrapunktatlas/?quellen=gallon-bitsch1964,prout1890,schubert1999#frage=anfangsintervall&spezies=3)
+
+Das Buchsymbol vor dem Werktitel kennzeichnet Lehrbücher und Traktate im Quellenverzeichnis und an den Belegen einer Frage. Das lokal gespeicherte Symbol *book* stammt aus Font Awesome Free 6.7.2 von Fonticons und steht unter CC BY 4.0. [Symbol](https://fontawesome.com/icons/book?f=classic&s=solid) · [Lizenz](https://creativecommons.org/licenses/by/4.0/)
+
+## Tonalen Kontrapunkt mit Thomas Benjamin lesen
+
+Die Werkkennung `benjamin1986` erschließt *Counterpoint in the Style of J. S. Bach* (New York, Schirmer Books, 1986, ISBN 0-02-870280-8). Benjamin erläutert in seinen Hinweisen für Lehrende (S. xi–xii), weshalb seine Übungen von Bachs Instrumentalsätzen ausgehen. Die Quellenbelege verbinden die Aufgaben mit den bei ihm analysierten Takten. [Bibliotheksnachweis](https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach)
+
+| Frage für den Unterricht | Arbeit am Notentext |
+| --- | --- |
+| [Wie viele Stimmen höre ich in einer Cellostimme?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=benjamin1986#frage=linie-scheinpolyphonie) | In der Bourrée I aus BWV 1009 erst die obere, dann die untere Linie mitsingen. Benjamin hält auch eine Lesart mit einer Mittelstimme für möglich. |
+| [Wie wird ein Motiv zur Episode?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=benjamin1986#frage=invention-episode) | In T. 3 der C-Dur-Invention BWV 772 die Umkehrung im Diskant gegen die vergrößerten Anfangstöne im Bass spielen. |
+| [Wie kehrt die Tonika am Fugenschluss zurück?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=benjamin1986#frage=fuge-schlussrueckkehr) | In der c-Moll-Fuge BWV 847 den Schlussabschnitt mit der ersten Einsatzgruppe vergleichen. |
+
 ## Modalen Kontrapunkt mit Peter Schubert lesen
 
 Die Werkkennung `schubert1999` erschließt 21 Fragen zu *Modal Counterpoint, Renaissance Style*, Oxford University Press, 1999 (ISBN 0-19-510912-0). Seiten und Beispielnummern folgen der ersten Auflage. Schubert trennt die Regeln einer bestimmten Aufgabe von den Freiheiten, die er in historischen Sätzen findet. Die Einträge nennen daher die Spezies oder das besprochene Stück. [Bibliotheksnachweis zur Ausgabe](https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285)
@@ -168,6 +186,7 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | `species` | Optional. Die beiden Handout-Zeilen mit dem gemeinsamen Originaltitel und je fünf Zelltexten in `modal` und `tonal`. |
 | `comparisons` | Eine Liste der passenden Zeilen auf S. 9 mit `label`, `modal`, `tonal`, `hindemith` und `comment`. Für eine neue Frage zunächst eine leere Liste einsetzen. |
 | `authors` | Optional. Für jede belegte Position ein Objekt mit der Werk-ID in `source`, den Feldern `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
+| `authors[].speciesScope` | Klassifikation dieser konkreten Aussage nach der zitierten Quelle. `[2]` oder `[2,3]` nennt die belegten Spezies. Bei unterschiedlichen Regeln getrennte Beiträge anlegen. `[]` kennzeichnet ausdrücklich speziesunabhängige Aussagen. Ohne Feld bleibt die Zuordnung offen. |
 | `authors[].comparison` und `comparisonSources` | Für einen redaktionellen Vergleich die zusätzlich benötigten Werk-IDs in `comparisonSources` angeben. Bei einem Kommentar allein zur gewählten Quelle genügt `[]`. |
 | `authors[].catalogue` | Optional. `true` kennzeichnet die Quellen-URL als Bibliotheksnachweis. Die Seite und das Beispiel stehen im Feld `locator`. |
 | `authors[].kind` | Optional. `partitur` kennzeichnet eine redaktionelle Beobachtung im Notentext eines Komponisten. |
