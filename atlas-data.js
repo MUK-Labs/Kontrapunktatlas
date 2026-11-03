@@ -135,6 +135,13 @@ const ATLAS = {
       "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf"
     },
     {
+      "id": "schubert1999",
+      "name": "Peter Schubert",
+      "title": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+      "group": "Lehrwerke",
+      "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285"
+    },
+    {
       "id": "tuerk1791",
       "name": "Daniel Gottlob Türk",
       "title": "Kurze Anweisung zum Generalbaßspielen (Halle und Leipzig, 1791)",
@@ -394,6 +401,19 @@ const ATLAS = {
           "comparisonSources": [
             "prout1890"
           ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 2, S. 22, Regel 4 · zweistimmiger Beginn",
+          "text": "Für den ersten Zusammenklang nennt Schubert Einklang, Quinte, Oktave und als seltene Möglichkeit die Duodezime. Die Gegenstimme darf das Intervall oberhalb oder unterhalb des Cantus firmus bilden.",
+          "comparison": "Bei Schubert kann die Gegenstimme eine Quinte unter dem Cantus einsetzen. Fux korrigiert genau diesen Beginn in Josephus’ dorischer Übung zur Unteroktave.",
+          "comparisonSources": [
+            "fux1725"
+          ]
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -418,7 +438,8 @@ const ATLAS = {
       "comparisons": [],
       "related": [
         "sprung-zum-leitton",
-        "kadenz-oberstimme"
+        "kadenz-oberstimme",
+        "kadenzausweichung"
       ],
       "authors": [
         {
@@ -456,6 +477,15 @@ const ATLAS = {
           "locator": "Teil I, Kap. III, § 30, S. 20 · Akkordtöne und melodische Zusatztöne",
           "text": "Ist der Leitton ein Akkordton, hat er keine vorgeschriebene Fortsetzung. Er kann die Tonika also auch verfehlen. Seine Rolle in einer bestimmten Schlussformel ist davon zu unterscheiden. Für Durchgang, Wechselnote und Vorhalt verlangen die Autoren dagegen schrittweise Stimmführung.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=3"
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 10, S. 131–133, „Proper Cadences“ und „Evaded Cadences“, Nr. 2 · zweistimmige Binnenkadenz",
+          "text": "Schubert zählt die 7 vom erwarteten Kadenzziel aus. Erreicht die andere Stimme dieses Ziel, kann die Leittonstimme bei einer Kadenzflucht auf 6 weiter absteigen oder von 7 zu 3 abspringen. Die Ziffern beschreiben dabei die Schritte und Sprünge an dieser konkreten Stelle."
         }
       ]
     },
@@ -1071,6 +1101,19 @@ const ATLAS = {
           "comparisonSources": [
             "prout1890"
           ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 5, S. 56–57, Regeln 1–2 · Kap. 7, S. 86–87, Regel 1",
+          "text": "Im Vier-gegen-eins müssen das erste und das dritte Viertel konsonieren. Im Satz mit gemischten Werten darf auf eine konsonante Halbe auf der Eins ein Paar stufenweise absteigender Viertel folgen. Jetzt darf das erste dieser Viertel dissonieren, gelegentlich sogar auch das zweite.",
+          "comparison": "Bellermann erlaubt den dissonanten Durchgang auf dem dritten Viertel nach einiger Übung auch im reinen Vier-gegen-eins. Schubert bindet die hier beschriebene Ausnahme an den Wechsel der Notenwerte.",
+          "comparisonSources": [
+            "bellermann1901"
+          ]
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -1156,6 +1199,15 @@ const ATLAS = {
           "locator": "Teil I, Kap. III, §§ 29–30, S. 20, und Kap. V, § 63 A, S. 33",
           "text": "Durchgang, Wechselnote und Vorhalt verlangen stufenweise Bewegung. Beim Vorhalt liegt der betreffende Ton bereits vor dem Harmoniewechsel. Für seine Vorbereitung schreiben die Autoren mindestens eine Halbe vor.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1"
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 6, S. 73–75, Erläuterung und Notentafel auf S. 74 · vierte Spezies",
+          "text": "Beim Vorhalt unterscheidet Schubert mit Artusi zwei Rollen. Der Cantus firmus kann durch Schritt oder Sprung die Dissonanz herstellen (»agent«). Die gebundene Stimme (»patient«) hat ihren Ton auf der leichten Halben konsonant vorbereitet. Sie bleibt liegen und löst sich abwärts in eine imperfekte Konsonanz."
         }
       ]
     },
@@ -1518,6 +1570,19 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=4",
           "locator": "Teil I, Kap. IV, § 45 mit Anm. 2, S. 26–27 · Stimmenpaare mit mindestens einer Mittelstimme",
           "text": "Ein Schritt in einer der beiden Stimmen erlaubt die direkte Quinte oder Oktave. Geht die tiefere Stimme den Schritt, soll man bis zu fünf Stimmen die direkte Quinte auf II, III oder VI und jede absteigende direkte Oktave möglichst meiden. Springen beide Stimmen, muss ein Ton des Zielintervalls schon zur vorigen Harmonie gehören. Ab sechs Stimmen entfällt diese Bedingung."
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "„Note to the Instructor“, S. x–xi, Abschnitt „Whose Style?“ · Rückverweis auf Kap. 3",
+          "text": "Beim Hinzufügen einer Stimme zum Cantus firmus schließt Schubert anfangs die gleichgerichtete Bewegung in eine vollkommene Konsonanz aus. Später lockert er die Vorgabe. Ein Beispiel Zarlinos mit einer solchen Fortschreitung bleibt im Lehrbuch stehen, damit sich die Übungsregel am historischen Satz prüfen lässt.",
+          "comparison": "Zarlino gestattet den Wechsel zwischen Oktave und Quinte in gleicher Richtung, wenn eine Stimme schreitet und die andere springt. Schuberts Beschränkung für die erste Aufgabe ist hier strenger.",
+          "comparisonSources": [
+            "zarlino1558"
+          ]
         }
       ]
     },
@@ -1860,7 +1925,8 @@ const ATLAS = {
       },
       "related": [
         "cantus-firmus",
-        "melodische-fortspinnung"
+        "melodische-fortspinnung",
+        "motiv-ueber-cantus"
       ],
       "authors": [
         {
@@ -1916,6 +1982,15 @@ const ATLAS = {
           "comparisonSources": [
             "rothgeb1998-cf"
           ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 107, Bsp. 8-7 (Zarlino) · Transposition zweier Motive",
+          "text": "Schubert lässt die jeweils höchsten Töne in Zarlinos Oberstimme markieren. Die Einsätze zweier Motive in verschiedenen Tonlagen und ihre freien Verbindungen ergeben einen langen Anstieg, einen einzigen Gipfel und einen kurzen Abstieg. Der Bogen wird hörbar, wenn man die ganze Stimme singt."
         }
       ]
     },
@@ -2124,6 +2199,22 @@ const ATLAS = {
           "comparisonSources": [
             "fux1725",
             "rothgeb1993-s2"
+          ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 4, S. 42–44, Regel 1 und Bsp. 4-1a/b · Vergleich mit Kap. 5, S. 56, Regel 2",
+          "text": "Die erste Halbe muss konsonieren. Eine dissonante zweite Halbe verbindet zwei Töne im Sekundgang in derselben Richtung. Kehrt sie zum Ausgangston zurück, scheidet sie als Wechselnote aus. Im Vier-gegen-eins lässt Schubert auf dem zweiten oder vierten Viertel eine dissonante untere Wechselnote zu.",
+          "examples": [
+            "schubert-wechselnote"
+          ],
+          "comparison": "Prout lässt eine dissonante Wechselnote bereits im Zwei-gegen-eins zu. Bei Schubert entscheidet für dieselbe Wendung auch der Notenwert.",
+          "comparisonSources": [
+            "prout1890"
           ]
         }
       ],
@@ -2378,6 +2469,19 @@ const ATLAS = {
           ],
           "comparisonSources": [
             "rothgeb1995-s4"
+          ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 6, S. 75, Regeln 2–3, und S. 76, stilistische Empfehlung 1",
+          "text": "Bei fallendem Cantus kann jede Auflösung zur nächsten Vorbereitung werden. Nach höchstens zwei sequenziellen Wiederholungen wechselt Schubert in die zweite Spezies. Zuvor muss der letzte dissonante Vorhalt auf der leichten Halben aufgelöst sein. Als Richtwert nennt er eine Unterbrechung auf vier bis sechs Cantustöne.",
+          "comparison": "Gallon und Bitsch gestatten eine einzige Unterbrechung pro Übung. Schubert gibt einen ungefähren Abstand an und begrenzt zusätzlich die Wiederholung derselben Wendung.",
+          "comparisonSources": [
+            "gallon-bitsch1964"
           ]
         }
       ],
@@ -2800,7 +2904,9 @@ const ATLAS = {
       "related": [
         "anfangsintervall",
         "kadenz-oberstimme",
-        "kadenz-unterstimme"
+        "kadenz-unterstimme",
+        "kadenzausweichung",
+        "imitierendes-duo-kadenz"
       ],
       "authors": [
         {
@@ -2840,6 +2946,18 @@ const ATLAS = {
           "locator": "Teil II, Kap. I, S. 59, zu § 57 · zwei Stimmen, erste Spezies in Dur und Moll",
           "text": "Im Schlusstakt treffen sich beide Stimmen auf der ersten Stufe, im Einklang oder in Oktavlage. Für den vorletzten Takt stehen V oder V⁶ sowie der Sextakkord der VII. Stufe zur Wahl. Bei der letzten Möglichkeit steht in C-Dur ein d im Bass, während die Oberstimme mit h zur Tonika führen kann.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p2/ch1simpl2.pdf#page=1"
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 10, S. 131–132, „Illustration of Proper Cadences“, a, b und e · zweistimmige Kadenz",
+          "text": "Schubert bezieht die Stufen auf den jeweiligen Zielton. In der einfachen Form treffen sich 7–8 und 2–1 in Gegenbewegung im Einklang oder in der Oktave. In der diminuierten Form kündigt ein synkopierter Vorhalt den Schluss an. Über der Unterstimme löst er sich als 7–6, unter der Oberstimme als 2–3. Erst danach erreichen beide Stimmen den Zielton.",
+          "examples": [
+            "schubert-kadenzausweichung"
+          ]
         }
       ]
     },
@@ -3047,10 +3165,20 @@ const ATLAS = {
           "comparisonSources": [
             "kurth1917"
           ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Vorwort, S. v, und „Note to the Student“, S. viii, Abschnitte „Hard Rules“, „Soft Rules“ und „Renaissance Style“ · Bewertung einer Stilübung",
+          "text": "Schubert kennzeichnet verbindliche Satzregeln als „hard rules“. Bei den „soft rules“ geht es um stilistische Vorlieben, die sich von Komponist zu Komponist unterscheiden. Verstöße gegen diese Empfehlungen wiegen in der Bewertung weniger. Für die ersten Übungen schränkt er den Spielraum bewusst ein und nennt historische Beispiele, die über ihre Vorgaben hinausgehen."
         }
       ],
       "related": [
-        "rhythmische-selbststaendigkeit"
+        "rhythmische-selbststaendigkeit",
+        "verdeckte-parallelen"
       ]
     },
     {
@@ -3124,6 +3252,22 @@ const ATLAS = {
           "comparison": "Bei Fux und Rothgeb wird die Dissonanz schrittweise erreicht und im Terzsprung verlassen. Pistons Grundform kehrt die Reihenfolge um. Singe zum Vergleich h–d–c aus seinem Beispiel 86 und die mit 8–7–5 bezeichnete Stelle bei Fux.",
           "comparisonSources": [
             "fux1725",
+            "rothgeb1995-s3"
+          ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 5, S. 61, Bsp. 5-4 (Orazio Tigrini) · dritte Spezies",
+          "text": "Die Dissonanz steht auf dem zweiten Viertel. Ein Schritt abwärts führt hinein, ein Terzsprung abwärts zu einer Konsonanz. Mindestens zwei aufsteigende Schritte schließen die Figur ab. In Tigrinis Oberstimme lässt sich der ganze Weg über fünf Töne verfolgen.",
+          "examples": [
+            "schubert-tigrini-cambiata"
+          ],
+          "comparison": "Rothgeb lässt die Figur auch auf dem dritten Viertel beginnen. Schubert schließt diese Verschiebung für seine Übung aus.",
+          "comparisonSources": [
             "rothgeb1995-s3"
           ]
         }
@@ -3212,6 +3356,15 @@ const ATLAS = {
           "examples": [
             "gallon-bitsch-nr-93-94"
           ]
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 3, S. 31, Kap. 4, S. 45, Kap. 5, S. 60, und Kap. 6, S. 76 · stilistische Empfehlungen zum Einklang",
+          "text": "Im Note-gegen-Note-Satz empfiehlt Schubert den Einklang nur an den Rändern. Im Zwei-gegen-eins ist er auf der leichten Halben möglich, im Vier-gegen-eins auf dem zweiten, dritten oder vierten Viertel. Im Synkopensatz darf er auch auf die Eins fallen. Wenn eine Stimme schon liegt, verschwindet beim Eintritt des Einklangs keine Linie durch gleichzeitige Bewegung beider Stimmen."
         }
       ]
     },
@@ -3232,7 +3385,9 @@ const ATLAS = {
         "melodische-intervalle",
         "tonwiederholung",
         "doppelchor-basslinien",
-        "speziesmischung"
+        "speziesmischung",
+        "modaler-ambitus",
+        "motiv-ueber-cantus"
       ],
       "authors": [
         {
@@ -4332,7 +4487,8 @@ const ATLAS = {
         "stimmabstand",
         "stimmkreuzung",
         "kanon-verfahren",
-        "fuge-doppelfuge"
+        "fuge-doppelfuge",
+        "kanon-stimmtausch"
       ],
       "authors": [
         {
@@ -4381,6 +4537,15 @@ const ATLAS = {
           "text": "Zum Vergleich transponiert Kennan die vertauschten Stimmen aus Bachs g-Moll-Fuge zunächst in die Ausgangstonart zurück. Nun lässt sich ablesen, wie weit jede Stimme versetzt wurde. Veränderte Einzeltöne nimmt er von der Messung aus. So unterscheidet er die Vertauschung in der Dezime von der in der Duodezime.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 13, S. 165–167, Bsp. 13-1 bis 13-3 · zweistimmiger Lagentausch in der Oktave",
+          "text": "Beim Lagentausch in der Oktave wird eine Quinte zur Quarte. Schubert lässt die Quinte deshalb dort zu, wo die entstehende Quarte korrekt als Dissonanz geführt werden kann, etwa bei einem Durchgang in der zweiten Spezies. Für die Übung müssen beide Lagen jeweils die Regeln derselben Spezies erfüllen."
         }
       ],
       "readingSources": [
@@ -4408,7 +4573,9 @@ const ATLAS = {
         "fuge-reale-tonale-antwort",
         "rhythmische-selbststaendigkeit",
         "kanon-verfahren",
-        "kanon-spiralkanon"
+        "kanon-spiralkanon",
+        "imitierendes-duo-kadenz",
+        "kanon-stimmtausch"
       ],
       "authors": [
         {
@@ -4450,6 +4617,18 @@ const ATLAS = {
           "text": "Kennan unterscheidet beim Kanon den zeitlichen Einsatzabstand und das Tonintervall zwischen den beiden Anfangstönen. In Bachs A-Dur-Sonate BWV 1015 imitiert die rechte Hand des Cembalos die Violine im Einklang mit einem Takt Abstand. Die linke Hand führt dazu eine freie Bassstimme.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 12, S. 150–151, Bsp. 12-1 und 12-2 · Beginn eines imitierenden Duos",
+          "text": "Am Phrasenanfang ähnelt die Imitation einem kurzen Kanon. Bei Morley setzt die zweite Stimme nach einer ganzen Note eine Quarte tiefer ein und übernimmt sechs Töne. Bei Lassus folgt sie nach drei ganzen Noten eine Quinte tiefer und übernimmt neun Töne. Anschließend führt freier Kontrapunkt zur Kadenz.",
+          "examples": [
+            "schubert-morley-imitierendes-duo"
+          ]
         }
       ],
       "readingSources": []
@@ -4552,6 +4731,15 @@ const ATLAS = {
           "locator": "Kap. VII, §§ 252–253, S. 103 · Bindung und Vorhalt",
           "text": "Prout vergleicht die Dauern beiderseits des Bindebogens. Der auf leichter Zeit beginnende Ton muss mindestens so lange dauern wie der angebundene Ton auf schwerer Zeit. Für die beiden Halben der vierten Spezies ergeben sich gleiche Dauern.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107"
+        },
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 9, S. 112 · Bsp. 9-2, T. 7, und Rückverweis auf Bsp. 8-8",
+          "text": "Schubert überträgt die vierte Spezies auf andere Notenwerte. In der diminuierten Form dauern Vorbereitung, Dissonanz und Auflösung jeweils halb so lang wie in seiner gewöhnlichen Synkopenübung. Dadurch kann in einer rhythmisch bewegten Stimme ein Vorhalt auf einer kleineren Zeitebene hörbar werden."
         }
       ],
       "readingSources": []
@@ -5242,6 +5430,220 @@ const ATLAS = {
         }
       ],
       "readingSources": []
+    },
+    {
+      "id": "modaler-ambitus",
+      "title": "Können zwei Stimmen dieselbe Finalis und verschiedene modale Tonumfänge haben?",
+      "group": "Melodieführung",
+      "tags": [
+        "Modus",
+        "Modalität",
+        "Finalis",
+        "Ambitus",
+        "authentisch",
+        "plagal",
+        "dorisch",
+        "hypodorisch",
+        "Tigrini"
+      ],
+      "comparisons": [],
+      "related": [
+        "cantus-firmus",
+        "melodische-intervalle",
+        "kadenz"
+      ],
+      "authors": [
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 1, S. 9–11, Bsp. 1-1a und 1-2 (Tigrini) · zwölf Modi und zweistimmiger Satz",
+          "text": "Im Zwölfmodussystem, das Schubert für seine Übungen wählt, entscheidet die Finalis allein noch nicht zwischen authentischer und plagaler Lage. Bei Tigrini enden Tenor und Bass auf d im Oktavabstand. Die Oberstimme durchmisst die dorische Oktave ab d. In der hypodorischen Unterstimme liegt das d im Inneren des Umfangs. Schubert deutet die Lage jeder Stimme einzeln.",
+          "examples": [
+            "schubert-tigrini-ambitus"
+          ]
+        }
+      ],
+      "reading": "Singe jede Stimme für sich. Wo liegt ihr Schlusston im Verhältnis zu ihrem tiefsten und ihrem höchsten Ton?",
+      "readingSources": []
+    },
+    {
+      "id": "kadenzausweichung",
+      "title": "Wie kann eine zweistimmige Kadenz angekündigt werden und dennoch ausbleiben?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "ausgewichene Kadenz",
+        "Kadenzflucht",
+        "evaded cadence",
+        "Vorhalt",
+        "Synkope",
+        "Textgliederung"
+      ],
+      "comparisons": [],
+      "related": [
+        "kadenz",
+        "leittonaufloesung",
+        "bindung-s4"
+      ],
+      "authors": [
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 10, S. 132–134, „Evaded Cadences“ und „Finding Cadence Opportunities in a CF“ · zweistimmige Binnenkadenz",
+          "text": "Ein Vorhalt kann einen gemeinsamen Zielton erwarten lassen. Steigt die Oberstimme von 7 zu 8, kann die Unterstimme von 2 zu 3 ausweichen oder auf dem erwarteten Ziel pausieren. Bei einer fortgesetzten Kette von 7–6-Vorhalten bleibt mitunter offen, ob eine Kadenz beabsichtigt war. Für diese Deutung zieht Schubert auch die Gliederung des gesungenen Textes heran.",
+          "examples": [
+            "schubert-kadenzausweichung"
+          ]
+        }
+      ],
+      "reading": "Singe zuerst die Oberstimme über beiden Bassfassungen. An welcher Stelle hörst du, ob der Abschnitt schließt oder weitergehen kann?",
+      "readingSources": [
+        "schubert1999"
+      ]
+    },
+    {
+      "id": "imitierendes-duo-kadenz",
+      "title": "Wie beginnt im imitierenden Duo die nächste Phrase, während die vorige schließt?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Elision",
+        "Binnenkadenz",
+        "Überlappung",
+        "Phrasenverschränkung",
+        "Morley",
+        "Lassus"
+      ],
+      "comparisons": [],
+      "related": [
+        "kadenz",
+        "imitation-und-kanon",
+        "soggetto-und-text"
+      ],
+      "authors": [
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 12, S. 150–151, Bsp. 12-1, T. 5, und Bsp. 12-2, T. 6 · Binnenkadenzen",
+          "text": "Bei Morley erreichen beide Stimmen das Kadenzziel. Der Cantus hält seinen Zielton, während der Tenor die neuen Worte „I should“ anstimmt. Bei Lassus spart eine Stimme den erwarteten Zielton durch eine Pause aus und setzt danach mit dem nächsten Text ein. In beiden Fällen hört man den Phrasenschluss, während das Duo weitergeht.",
+          "examples": [
+            "schubert-morley-imitierendes-duo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanon-stimmtausch",
+      "title": "Wie bildet ein dreistimmiger Kanon zweimal dasselbe Stimmenpaar in vertauschter Lage?",
+      "group": "Satzmodelle",
+      "tags": [
+        "umkehrbarer Kanon",
+        "Modul",
+        "Duodezime",
+        "Einsatzabstand",
+        "Benedictus",
+        "Palestrina"
+      ],
+      "comparisons": [],
+      "related": [
+        "doppelter-kontrapunkt",
+        "imitation-und-kanon",
+        "kanon-verfahren"
+      ],
+      "authors": [
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 16, S. 216–218, Bsp. 16-1 und 16-2a/b · dreistimmiger umkehrbarer Kanon",
+          "text": "Beim dreistimmigen umkehrbaren Kanon bleiben die zeitlichen Einsatzabstände gleich. Folgt der zweite Einsatz unter dem ersten, liegt der dritte über dem zweiten, oder umgekehrt. In Palestrinas Benedictus erklingt das Paar aus Tenor und Bass der Takte 3–4 in den Takten 5–6 erneut. Der frühere Bass liegt nun eine Oktave höher im Alt, der frühere Tenor eine Quinte tiefer im Bass. So tauscht das Paar die Lage in der Duodezime.",
+          "examples": [
+            "schubert-palestrina-benedictus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motiv-ueber-cantus",
+      "title": "Wie lässt sich ein Motiv über dem Cantus firmus wiederholen und dabei der Satz verändern?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Motiv",
+        "Wiederholung",
+        "Transposition",
+        "Obligo",
+        "Artusi",
+        "Zarlino"
+      ],
+      "comparisons": [],
+      "related": [
+        "cantus-firmus",
+        "hoehepunkt",
+        "imitation-und-kanon"
+      ],
+      "authors": [
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 102–106, Bsp. 8-1 (Zarlino), 8-4 (Artusi) und 8-5 (Cerreto) · Wiederholung über einem Cantus firmus",
+          "text": "Ein kurzes Motiv lässt sich an Rhythmus und Intervallfolge wiedererkennen. Schubert unterscheidet nach Zarlino drei Möglichkeiten, eine Wiederholung zu verändern. Man kann sie auf eine andere Tonstufe setzen, den Rhythmus abwandeln oder die Intervalle zum Cantus wechseln. In Bsp. 8-1 kehrt dagegen eine ganze zweistimmige Passage unverändert wieder. Schubert lässt nach genau solchen Stellen suchen.",
+          "examples": [
+            "schubert-zarlino-wiederholung"
+          ]
+        },
+        {
+          "source": "zarlino1558",
+          "name": "Gioseffo Zarlino",
+          "work": "Le istitutioni harmoniche (Venedig, 1558)",
+          "locator": "Teil III, Kap. 55, S. 227–229 · wiederkehrender passaggio, erstes und zweites Notenbeispiel",
+          "text": "Zarlino zeigt zunächst eine Wiederholung mit denselben Zusammenklängen, Bewegungen und Tonstufen. Obwohl die Stelle konsonant ist, wird sie für ihn eintönig. Dieselbe melodische Wendung darf mehrfach wiederkehren, wenn die andere Stimme den gemeinsamen Satz verändert.",
+          "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch355"
+        }
+      ],
+      "reading": "Singe zuerst die wiederkehrende Oberstimme, dann den Bass dazu. Haben sich Tonlage, Rhythmus oder die Intervalle zwischen beiden Stimmen verändert?",
+      "readingSources": []
+    },
+    {
+      "id": "soggetto-und-text",
+      "title": "Braucht jede neue Textzeile ein neues Soggetto?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Soggetto",
+        "Textzeile",
+        "Motette",
+        "Chanson",
+        "Gegenstimme",
+        "Renaissance"
+      ],
+      "comparisons": [],
+      "related": [
+        "imitierendes-duo-kadenz",
+        "motiv-ueber-cantus",
+        "kadenz"
+      ],
+      "authors": [
+        {
+          "source": "schubert1999",
+          "name": "Peter Schubert",
+          "work": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
+          "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+          "catalogue": true,
+          "locator": "Kap. 20, S. 295–296, „Text and Form“ und „Countersubject as Soggetto“, Bsp. 20-1 (Zarlino)",
+          "text": "Eine neue Textzeile erhält häufig einen neuen melodischen Gedanken, ein Soggetto. Schubert nennt auch französische Chansons, in denen neuer Text auf bereits gehörte Musik trifft. Ein Mittelweg lässt sich in Zarlinos Beispiel verfolgen. Die Gegenstimme eines Abschnitts wird zum Soggetto des folgenden."
+        }
+      ]
     }
   ],
   "examples": {
@@ -6297,6 +6699,69 @@ const ATLAS = {
       "credit": "Ebenezer Prout, Counterpoint: Strict and Free, 3. Auflage, S. 97, Notenpaar zu § 237. Cornell University Library / Internet Archive, gemeinfreier Druck.",
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=101",
       "image": "quellen/noten/prout-drei-gegen-eins.webp"
+    },
+    "schubert-tigrini-cambiata": {
+      "kind": "leseanalyse",
+      "catalogue": true,
+      "title": "Tigrinis Oberstimme verlässt die Septime im Terzsprung",
+      "alt": "Über G3 im Bass singt die Oberstimme die Viertel G4–F4–D4–E4. Über F3 erreicht sie F4. Die Intervalle sind 8–7–5–6–8.",
+      "caption": "Singe zunächst g–f–d über dem gehaltenen Basston. Nimm e und f hinzu und wechsle erst beim letzten Ton auch im Bass von g nach f. Die beiden Schritte nach dem Terzsprung vervollständigen die Cambiata.",
+      "credit": "Orazio Tigrini (16. Jahrhundert), gemeinfreier Notentext. Eigene Neunotation der fünf Töne bei Peter Schubert, Kap. 5, S. 61, Bsp. 5-4. Intervallziffern und Hervorhebung der Septime von der Atlasredaktion.",
+      "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+      "image": "quellen/noten/schubert-tigrini-cambiata.webp"
+    },
+    "schubert-wechselnote": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Darf das d zu seinem Ausgangston zurückkehren?",
+      "alt": "Zwei Ausschnitte im Satzinneren über dem Cantus C4–G3. Links bildet e–d–e eine dissonante untere Wechselnote in Halben. Rechts beginnt dieselbe Figur in Vierteln und geht über f nach g weiter.",
+      "caption": "Beide Ausschnitte beginnen im Satzinneren. Singe e–d–e über dem c und vergleiche den Notenwert des dissonanten d. Im zweiten Beispiel füllt f außerdem den Weg von e nach g aus.",
+      "credit": "Eigene zweistimmige Leseübung der Atlasredaktion nach Peter Schubert, Kap. 4, S. 42, Regel 1, und Kap. 5, S. 56, Regel 2. Eigene Tonfolgen.",
+      "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+      "image": "quellen/noten/schubert-wechselnote.webp"
+    },
+    "schubert-kadenzausweichung": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Dieselbe Oberstimme, zwei Ausgänge der Kadenz",
+      "alt": "In beiden Fassungen steigt die Oberstimme nach einem 7–6-Vorhalt von fis nach g. Der Bass fällt in A von a zu g, in B steigt er von a zu h.",
+      "caption": "Spiele zuerst beide Stimmen der Fassung A. Singe dieselbe Oberstimme noch einmal und wechsle zu Bass B. Der Vorhalt löst sich beide Male auf. Beim letzten Zusammenklang hört man in A eine Oktave, in B eine Sexte.",
+      "credit": "Eigene zweistimmige Leseübung der Atlasredaktion zu Peter Schuberts Gegenüberstellung geschlossener und ausgewichener Kadenzen, Kap. 10, S. 131–133. Eigene Tonfolge in G.",
+      "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+      "image": "quellen/noten/schubert-kadenzausweichung.webp"
+    },
+    "schubert-tigrini-ambitus": {
+      "kind": "leseanalyse",
+      "title": "Tigrini · Zwei Stimmen mit derselben Finalis",
+      "alt": "Historischer Notendruck. Die untere der beiden auf d schließenden Stimmen setzt später ein und springt durch ihren plagalen Tonumfang.",
+      "caption": "Suche in jeder Stimme den Schlusston. Vergleiche dann jeweils den Anfang, die äußeren Töne und die Rolle der Sprünge. Bei welcher Stimme liegt das d am Rand, bei welcher innerhalb des durchmessenen Tonraums?",
+      "credit": "Orazio Tigrini, Il compendio della musica, Venedig, Ricciardo Amadino, 1588, Buch III, Kap. VI, S. 60. Ausschnitt aus dem gemeinfreien Notendruck. Dieselbe zweistimmige Stelle bespricht Peter Schubert in Kap. 1, S. 11, Bsp. 1-2.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/d/d5/IMSLP128575-PMLP251545-il_compendio_della_musica.pdf#page=72",
+      "image": "quellen/noten/schubert-tigrini-ambitus.webp"
+    },
+    "schubert-morley-imitierendes-duo": {
+      "image": "quellen/noten/schubert-morley-imitierendes-duo.webp",
+      "title": "Morley · I should for grief and anguish",
+      "alt": "Die zweite Stimme setzt unter dem Cantus ein. Auf der Silbe „-less“ erreichen beide ihr Kadenzziel. Während der obere Zielton noch klingt, setzt unten „I should“ ein.",
+      "caption": "Lies im ersten System die Einsätze von „I should“ zuerst links, dann ganz rechts. Der erste Einsatz im Tenor ahmt den Cantus nach. Am Ende des Systems beginnt der Tenor die nächste Phrase, während der Cantus noch „-less“ hält. Schubert bespricht die Stelle in Bsp. 12-1, S. 150–151.",
+      "credit": "Thomas Morley, First Book of Canzonets to Two Voices (1595), Nr. 12. The English Madrigal School, Bd. I, hg. von Edmund H. Fellowes, London, Stainer & Bell, 1913, S. 26. Ausschnitt der beiden Singstimmen aus dem gemeinfreien Druck.",
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/6/69/IMSLP992782-PMLP131419-E980687_15-44-TEMS-I.pdf#page=28"
+    },
+    "schubert-palestrina-benedictus": {
+      "image": "quellen/noten/schubert-palestrina-benedictus.webp",
+      "title": "Palestrina · Benedictus der Missa Già fu chi m’hebbe cara",
+      "alt": "Drei Systeme für Alt, Tenor und Bass. Der Tenor beginnt allein. Der Bass antwortet in Takt 3, der Alt in Takt 5. Mit dem dritten Einsatz erklingen die beiden zuvor gehörten Linien in vertauschter Lage.",
+      "caption": "Singe Bass und Tenor in T. 3–4. Ihre Melodien kehren in T. 5–6 im Alt und im Bass wieder. Halte beim zweiten Lesen den Blick auf die beiden Außenstimmen. Schubert isoliert dieses Paar in Bsp. 16-2a/b, S. 217–218.",
+      "credit": "Giovanni Pierluigi da Palestrina, Missa Già fu chi m’hebbe cara, Benedictus. Opera omnia, Bd. XIX, hg. von Franz Xaver Haberl, Leipzig, Breitkopf & Härtel, 1888, S. 34. Ausschnitt aus dem gemeinfreien Druck.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Missarum_-_Liber_Decimus_%28IA_imslp--liber-decimus-palestrina-giovanni-pierluigi-da%29.pdf#page=50"
+    },
+    "schubert-zarlino-wiederholung": {
+      "title": "Zarlino · eine Wiederholung lässt sich am Taktstrich übersehen",
+      "alt": "In Takt 2 wie ab der zweiten Hälfte von Takt 4 erklingt oben c–a–d–cis über f–e. Das lange d ist rechts in zwei Halbe gebunden.",
+      "caption": "Spiele T. 2 und dann die Stelle von der zweiten Hälfte des vierten bis zur Mitte des fünften Taktes. Trotz des Taktstrichs im zweiten Ausschnitt stimmen beide Stimmen in Tonhöhen und klingenden Dauern überein.",
+      "credit": "Gioseffo Zarlino, Le istitutioni harmoniche (1558), Teil III, Kap. 55, S. 227, erstes Beispiel. Zwei Ausschnitte neu notiert nach dem Notentext des Thesaurus musicarum italicarum. Takteinteilung wie bei Schubert, Kap. 8, Bsp. 8-1, S. 102. Das über der Note stehende Kreuz ist hier vorangestellt.",
+      "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch355",
+      "image": "quellen/noten/schubert-zarlino-wiederholung.webp"
     }
   }
 };

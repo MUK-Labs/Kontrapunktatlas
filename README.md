@@ -44,6 +44,19 @@ Drei Einstiege für den Unterricht
 
 Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
 
+## Modalen Kontrapunkt mit Peter Schubert lesen
+
+Die Werkkennung `schubert1999` erschließt 21 Fragen zu *Modal Counterpoint, Renaissance Style*, Oxford University Press, 1999 (ISBN 0-19-510912-0). Seiten und Beispielnummern folgen der ersten Auflage. Schubert trennt die Regeln einer bestimmten Aufgabe von den Freiheiten, die er in historischen Sätzen findet. Die Einträge nennen daher die Spezies oder das besprochene Stück. [Bibliotheksnachweis zur Ausgabe](https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285)
+
+| Frage für den Unterricht | Arbeit am Notentext |
+| --- | --- |
+| [Was bleibt bei einer Motivwiederholung gleich?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=schubert1999,zarlino1558#frage=motiv-ueber-cantus) | Die beiden Zarlino-Ausschnitte spielen. Das lange d wird beim zweiten Mal am Taktstrich gebunden. Hat sich damit etwas am klingenden Satz geändert? |
+| [Wo darf die Cambiata stehen?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=schubert1999,rothgeb1995-s3#frage=cambiata) | Tigrinis fünf Töne über dem Bass singen. Dann die Figur um zwei Viertel verschieben und bei beiden Autoren prüfen, ob diese Platzierung zur Übung passt. |
+| [Wie weicht eine Kadenz aus?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=schubert1999#frage=kadenzausweichung) | Dieselbe Oberstimme zweimal singen. Der letzte Bassschritt entscheidet, ob die Stimmen eine Oktave oder eine Sexte erreichen. |
+| [Was kehrt im dreistimmigen Kanon wieder?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=schubert1999#frage=kanon-stimmtausch) | In Palestrinas *Benedictus* Tenor und Bass der Takte 3–4 markieren. Beide Linien in den Takten 5–6 im Alt und im Bass wiederfinden. |
+
+Sieben Notenbilder stehen offline zur Verfügung. Drei sind Ausschnitte historischer Drucke von Tigrini, Morley und Palestrina. Zwei geben kurze historische Passagen in neuer Notation wieder. Die beiden übrigen sind eigens für den Atlas geschriebene Übungen zur unteren Wechselnote und zur Kadenzflucht.
+
 ## Von der Zweistimmigkeit zur Fuge mit Kent Kennan
 
 Der Autorenfilter **Kent Kennan** erschließt 22 Fragen. Die Seiten- und Beispielnummern beziehen sich auf *Counterpoint: Based on Eighteenth-Century Practice*, 4. Auflage, Prentice Hall, 1999 (ISBN 0-13-080746-X). Kennans Beobachtungen lassen sich an Bachs Notentext und an zwei eigens notierten Satzübungen überprüfen. [Bibliotheksnachweis der vierten Auflage](https://iucat.iu.edu/iub/4609610)
