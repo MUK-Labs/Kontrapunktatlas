@@ -2,7 +2,11 @@
   "use strict";
   const list = document.getElementById("source-list");
   const count = document.getElementById("source-count");
-  const links = document.querySelectorAll(".atlas-return");
+  const atlasLinks = document.querySelectorAll(".atlas-return:not([data-selection-return])");
+  const selectionLinks = document.querySelectorAll("[data-selection-return]");
+  const differencesLinks = document.querySelectorAll("[data-unterschiede]");
+  const returnHint = document.getElementById("source-return-hint");
+  const atlasHint = returnHint.textContent;
   const checkboxes = [];
   const groups = new Map();
   const sources = ATLAS.sources;
@@ -63,10 +67,31 @@
   function render(selected, url) {
     for (const checkbox of checkboxes) checkbox.checked = selected.has(checkbox.value);
     count.textContent = selected.size + " von " + sources.length + " Quellen ausgewählt";
-    const target = new URL("index.html", url);
+    const fromDifferences = url.searchParams.get("von") === "unterschiede";
+    const atlas = new URL("index.html", url);
+    atlas.search = url.search;
+    atlas.searchParams.delete("von");
+    atlas.hash = fromDifferences ? "" : url.hash;
+    for (const link of atlasLinks) link.href = atlas.href;
+
+    // Ordinary page navigation opens the overview; the selection CTAs restore its state.
+    const differences = AtlasSources.write(new URL("unterschiede.html", url), selected);
+    for (const link of differencesLinks) link.href = differences.href;
+
+    const target = new URL(fromDifferences ? "unterschiede.html" : "index.html", url);
     target.search = url.search;
+    target.searchParams.delete("von");
     target.hash = url.hash;
-    for (const link of links) link.href = target.href;
+    const label = fromDifferences ? "Mit dieser Auswahl zu den Unterschieden" : "Mit dieser Auswahl zum Atlas";
+    for (const link of selectionLinks) {
+      link.href = target.href;
+      const arrow = element("span", "", "→");
+      arrow.setAttribute("aria-hidden", "true");
+      link.replaceChildren(document.createTextNode(label + " "), arrow);
+    }
+    returnHint.textContent = fromDifferences
+      ? "Ein Vergleich erscheint, wenn beide beteiligten Werke ausgewählt sind. Beim Zurückkehren bleiben deine Filter und der gewählte Vergleich in der Adresse erhalten."
+      : atlasHint;
   }
 
   function update(selected) {

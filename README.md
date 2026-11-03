@@ -47,6 +47,24 @@ Die Markierung **↔** im Fragenverzeichnis zählt die verfügbaren Vergleichspa
 
 **Antwortlink** an einer Karte öffnet ihre dauerhafte Adresse. Anschließend übernimmt **Antwortlink kopieren** im Fragenkopf genau diese Antwort, die Spezies und die Quellenauswahl. Beim lokalen Öffnen mit allen Quellen heißt die Kopierfunktion weiterhin **Sprungmarke kopieren**. Beispiel: [Fux zur Tonwiederholung](https://muk-labs.github.io/Kontrapunktatlas/#frage=tonwiederholung&spezies=1&antwort=fux1725-1). Führt ein geteilter Link zu einer abgewählten Quelle, zeigt der Atlas einen Hinweis mit Zugang zur Quellenauswahl. Nach dem Auswählen bleibt die Zielantwort erhalten.
 
+## Widersprüche und Nuancen als Verzeichnis
+
+Die Seite [Unterschiede](https://muk-labs.github.io/Kontrapunktatlas/unterschiede.html) sammelt die belegten Vergleiche nach Frage. Zunächst sind **Widerspruch** und **Nuance** ausgewählt; **Anderer Kontext** lässt sich zusätzlich oder allein einblenden. Die Erläuterung des Unterschieds steht jeweils vor den beiden Autoren und ihren Fundstellen. **Beide Antworten lesen** öffnet die vollständigen deutschen Paraphrasen nebeneinander, auf kleinen Bildschirmen untereinander. **Antwort im Atlas** führt zur genauen Antwort einschließlich ihrer Notenbeispiele.
+
+Suche, Themenbereich, beteiligter Autor und Spezies lassen sich kombinieren. Ein Autorenfilter trifft auf eine der beiden Positionen zu; die andere bleibt zum Vergleich sichtbar. Dasselbe gilt für die Spezies. So bleibt ein Vergleich zwischen Kennans S2 und Prouts S3 auffindbar, wenn S2 gewählt ist. Die Antwortlinks berücksichtigen die Zuordnung des jeweiligen Lehrwerks.
+
+| Einstieg | Ansicht |
+| --- | --- |
+| [Prout und Salzer–Schachter: Widersprüche](https://muk-labs.github.io/Kontrapunktatlas/unterschiede.html?quellen=prout1890,salzer-schachter1989#art=contradiction) | Direkte Regelgegensätze innerhalb dieser Quellenauswahl. |
+| [Nuancen erkunden](https://muk-labs.github.io/Kontrapunktatlas/unterschiede.html#art=nuance) | Unterschiede in Erlaubnissen und Einschränkungen über alle Werke. |
+| [Zwei Erklärungen der Quartvorbereitung](https://muk-labs.github.io/Kontrapunktatlas/unterschiede.html?quellen=green-jones2011,salzer-schachter1989#art=context&vergleich=bindung-s4~green-jones2011-2~salzer-schachter1989-2) | Der konkrete Vergleich von Green–Jones und Salzer–Schachter wird hervorgehoben; beide Antworten sind geöffnet. |
+
+**Ansicht kopieren** teilt Quellen und Filter. Der **Vergleichslink** an einem Eintrag öffnet genau dieses Paar; anschließend kopiert **Vergleich kopieren** dessen Adresse. Eine Vergleichskennung enthält die Frage und beide Antwortkennungen, sodass verschiedene Aussagen derselben Autoren getrennt verlinkbar bleiben. Die Reihenfolge der Antworten in der Datendatei verändert diese Kennung nicht.
+
+**Quellen wählen** öffnet die gemeinsame Werkauswahl. Beide Werke müssen ausgewählt sein, damit ihr Vergleich erscheint. Von dort führt **Mit dieser Auswahl zu den Unterschieden** zurück zu den bisherigen Filtern und zum gewählten Vergleich. **Filter zurücksetzen** behält die Quellenauswahl bei. Alle Funktionen stehen auch beim lokalen Öffnen der HTML-Dateien zur Verfügung; kopierte Links verweisen dann auf die veröffentlichte Adresse.
+
+Das Verzeichnis liest dieselben `relations` aus `atlas-data.js` wie die einzelnen Fragen. Jeder geprüfte Vergleich erscheint einmal; neue Verbindungen stehen automatisch auf beiden Seiten bereit.
+
 ## Fuge im Unterricht
 
 Über **Fuge · Thema und Antwort** auf der Startseite oder den Themenfilter **Fuge** erreicht man die Fugenfragen. Jede Frage lässt sich wie die Speziesfragen als eigener Link teilen. Die Autorenpositionen nennen die jeweilige Aufgabe und Ausgabe. Die zusätzlich ausgewiesenen Partiturbeobachtungen sind redaktionelle Lesehinweise zu Bachs Notentext.
@@ -297,6 +315,8 @@ Leserinnen und Leser können zu einer Frage **Ergänzung oder Korrektur vorschla
 - `index.html` und `atlas.css` enthalten Seitenstruktur und Gestaltung.
 - `atlas.js` stellt Suche, Filter und verlinkbare Fragenansichten bereit.
 - `quellen.html` und `quellen.js` enthalten das Quellenverzeichnis mit der Werkauswahl.
+- `unterschiede.html` und `unterschiede.js` zeigen das filterbare Verzeichnis der paarweisen Unterschiede.
+- `disagreements-model.js` bildet eindeutige Vergleichskennungen und liest die Filter aus der Adresse.
 - `source-selection.js` liest und schreibt die gemeinsamen URL-Parameter für Quellen.
 - `author-links.js` verlinkt registrierte Personennamen in der angezeigten Ansicht.
 - `answer-relations.js` löst paarweise Vergleiche auf und berücksichtigt Quellen sowie die Spezies des Linkziels.

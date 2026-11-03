@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6ef">
+  <meta name="description" content="Widersprüche, Nuancen und Kontextunterschiede zwischen den Lehrwerken des Kontrapunktatlas. Vergleiche beide Antworten mit ihren genauen Fundstellen.">
+  <title>Widersprüche und Nuancen · Kontrapunktatlas</title>
+  <link rel="stylesheet" href="atlas.css">
+</head>
+<body class="disagreements">
+  <a class="skip-link" href="#vergleichsliste">Zu den Vergleichen</a>
+  <header class="masthead">
+    <div class="page-width masthead-inner">
+      <a class="brand" href="index.html" data-atlas aria-label="Kontrapunktatlas – Startseite">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect x=".5" y=".5" width="31" height="31" rx="5" fill="#254c3d"/>
+          <g stroke="#f8f6ef" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6.5 22.5 13 16l5.5 1.5 7-8"/>
+            <path d="m6.5 11 6.5 1.5 5.5 8 7-2.5" opacity=".73"/>
+          </g>
+        </svg>
+        <span>Kontrapunktatlas</span>
+      </a>
+      <nav class="masthead-nav" aria-label="Seitennavigation">
+        <a href="index.html" data-atlas>Fragen</a>
+        <span class="bibliography-current" aria-current="page">Unterschiede</span>
+        <a href="quellen.html" data-quellen>Quellen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-width">
+    <header class="hero">
+      <div class="eyebrow hero-kicker"><span class="kicker-line" aria-hidden="true"></span> Positionen im Vergleich</div>
+      <h1>Widersprüche und Nuancen</h1>
+      <p>Dieselbe Frage, unterschiedliche Antworten. Erkunde, wo die Lehrwerke verschiedene Regeln setzen, Ausnahmen zulassen oder einen musikalischen Vorgang anders erklären.</p>
+      <p class="comparison-method">Die Einordnung und die Erläuterungen stammen von der Redaktion. Jeder Vergleich verweist auf zwei konkrete Antworten mit ihren Fundstellen.</p>
+    </header>
+
+    <section class="comparison-controls" id="filter" aria-labelledby="filter-title">
+      <h2 id="filter-title" class="sr-only">Vergleiche filtern</h2>
+      <fieldset class="comparison-types">
+        <legend>Art des Vergleichs</legend>
+        <div class="comparison-type-options">
+        <label class="comparison-type relation-contradiction">
+          <input type="checkbox" name="art" value="contradiction" checked>
+          <span><strong>Widerspruch <span class="type-count" id="count-contradiction"></span></strong><small>Unvereinbare Regeln für eine vergleichbare Aufgabe.</small></span>
+        </label>
+        <label class="comparison-type relation-nuance">
+          <input type="checkbox" name="art" value="nuance" checked>
+          <span><strong>Nuance <span class="type-count" id="count-nuance"></span></strong><small>Eine Erlaubnis oder Einschränkung fällt unterschiedlich aus.</small></span>
+        </label>
+        <label class="comparison-type relation-context">
+          <input type="checkbox" name="art" value="context">
+          <span><strong>Anderer Kontext <span class="type-count" id="count-context"></span></strong><small>Stil, Aufgabe, Stimmenzahl oder Begriffsgebrauch unterscheiden sich.</small></span>
+        </label>
+        </div>
+      </fieldset>
+
+      <div class="comparison-fields" role="search" aria-label="Vergleiche durchsuchen">
+        <div class="filter-field">
+          <label for="comparison-search">Suche</label>
+          <input id="comparison-search" type="search" placeholder="z. B. Quarte, Anfangspause, Cherubini" autocomplete="off">
+        </div>
+        <div class="filter-field">
+          <label for="comparison-group">Themenbereich</label>
+          <select id="comparison-group"><option value="">Alle Themenbereiche</option></select>
+        </div>
+        <div class="filter-field">
+          <label for="comparison-author">Beteiligter Autor</label>
+          <select id="comparison-author"><option value="">Alle Autoren</option></select>
+        </div>
+        <div class="filter-field">
+          <label for="comparison-species">Spezies einer Antwort</label>
+          <select id="comparison-species">
+            <option value="">Alle Zuordnungen</option>
+            <option value="1">S1 · Note gegen Note</option>
+            <option value="2">S2</option>
+            <option value="3">S3</option>
+            <option value="4">S4</option>
+            <option value="5">S5 · Floridus</option>
+            <option value="free">Speziesunabhängig</option>
+          </select>
+        </div>
+      </div>
+      <p class="comparison-scope-hint" id="comparison-scope-hint" hidden>Eine entsprechend zugeordnete Antwort genügt für den Speziesfilter. Beide Positionen und ihre jeweilige Zuordnung bleiben sichtbar.</p>
+      <div class="comparison-toolbar">
+        <p class="comparison-sources"><span id="comparison-source-summary"></span> · <a href="quellen.html" data-quellen>Quellen wählen</a></p>
+        <div class="entry-actions">
+          <button id="comparison-reset" type="button">Filter zurücksetzen</button>
+          <button id="comparison-share" type="button">Ansicht kopieren</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="comparison-result-head">
+      <h2>Vergleiche nach Frage</h2>
+      <p id="comparison-count" role="status" aria-live="polite" aria-atomic="true"></p>
+    </div>
+    <div id="comparison-notice" class="comparison-notice" role="status" hidden></div>
+    <div id="vergleichsliste" tabindex="-1">
+      <noscript><p>Das Vergleichsverzeichnis benötigt JavaScript. Die Lehrwerke und Fundstellen stehen auch in der Datendatei des <a href="https://github.com/MUK-Labs/Kontrapunktatlas/blob/main/atlas-data.js">Kontrapunktatlas auf GitHub</a>.</p></noscript>
+    </div>
+    <p class="comparison-back"><a href="#filter">Zurück zu den Filtern ↑</a></p>
+  </main>
+  <footer class="page-width footer">
+    <span>Kontrapunktatlas</span>
+    <span>Unterrichtsmaterial von Adrián Artacho</span>
+  </footer>
+  <div class="sr-only" id="comparison-status" role="status" aria-live="polite"></div>
+  <div class="comparison-copy-fallback" id="comparison-copy-fallback" hidden>
+    <label for="comparison-copy-value">Link zur Ansicht · zum Kopieren markieren</label>
+    <input id="comparison-copy-value" type="text" readonly>
+    <button type="button" id="comparison-copy-close">Schließen</button>
+  </div>
+  <script src="atlas-data.js"></script>
+  <script src="author-links.js"></script>
+  <script src="source-selection.js"></script>
+  <script src="answer-relations.js"></script>
+  <script src="disagreements-model.js"></script>
+  <script src="unterschiede.js"></script>
+</body>
+</html>
