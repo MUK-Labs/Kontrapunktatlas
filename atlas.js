@@ -35,6 +35,7 @@
   const search = document.querySelector("#search");
   const group = document.querySelector("#group");
   const perspective = document.querySelector("#perspective");
+  const biographies = document.querySelector("#author-biographies");
   const illustrated = document.querySelector("#illustrated");
   const list = document.querySelector("#question-list");
   const count = document.querySelector("#result-count");
@@ -127,6 +128,11 @@
   }
 
   function renderList() {
+    const authorName = perspective.value.startsWith("author:") ? perspective.value.slice(7) :
+      perspective.value === "comparisons" ? "Paul Hindemith" : "";
+    biographies.hidden = !AtlasAuthors.mentions(authorName).length;
+    biographies.textContent = biographies.hidden ? "" : "Wikipedia: " + authorName;
+    AtlasAuthors.linkify(biographies);
     const terms = normalize(search.value).trim().split(/\s+/).filter(Boolean);
     const matches = topics.filter(topic =>
       (!group.value || topic.group === group.value) &&
@@ -296,12 +302,11 @@
       }
       card.append(el("p", "", a.text));
       const citation = [a.work, a.locator].filter(Boolean).join(", ");
-      const ref = !a.catalogue && a.url && /^https?:\/\//i.test(a.url)
-        ? link(citation || "Quelle öffnen", a.url, "source-link")
-        : el("small", "ref", citation);
+      // Keep biography links independent of the link to the cited book/page.
+      const ref = el("small", "ref", citation);
       if (a.work && AtlasSources.isBook(a.source)) ref.classList.add("book-title");
-      if (a.catalogue) {
-        ref.append(" · ", link("Bibliotheksnachweis", a.url, "source-link"));
+      if (a.url && /^https?:\/\//i.test(a.url)) {
+        ref.append(" · ", link(a.catalogue ? "Bibliotheksnachweis" : "Fundstelle öffnen", a.url, "source-link"));
       }
       card.append(ref);
       if (a.comparison && (!species || a.comparisonSources?.every(id => visibleSources.has(id)))) {
@@ -469,6 +474,7 @@
       detail.append(nav);
     }
     detail.append(proposal(topic));
+    AtlasAuthors.linkify(detail);
     document.title = topic.title + " · " + pageTitle;
   }
 
@@ -486,6 +492,7 @@
     actions.append(link("Quellenauswahl ändern", sourcesPage(requested), "source-link"));
     empty.append(actions);
     detail.replaceChildren(header, empty);
+    AtlasAuthors.linkify(detail);
     document.title = title.textContent + " · " + pageTitle;
   }
 
@@ -540,4 +547,5 @@
   }
   window.addEventListener("hashchange", () => readRoute());
   readRoute(true);
+  AtlasAuthors.linkify(document.body);
 })();

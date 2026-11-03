@@ -28,16 +28,25 @@
     }
 
     const item = element("li", "bibliography-work");
-    const label = element("label", "bibliography-label");
+    const row = element("div", "bibliography-label");
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.id = "source-" + source.id;
     checkbox.value = source.id;
     checkboxes.push(checkbox);
     const citation = element("span", "bibliography-citation");
+    const author = element("strong", "", source.name);
+    author.id = checkbox.id + "-author";
     const title = element("span", AtlasSources.isBook(source.id) ? "book-title" : "", source.title);
-    citation.append(element("strong", "", source.name), title);
-    label.append(checkbox, citation);
+    title.id = checkbox.id + "-title";
+    checkbox.setAttribute("aria-labelledby", author.id + " " + title.id);
+    citation.append(author, title);
+    // Keep the citation selectable without putting biography links inside a label.
+    citation.addEventListener("click", event => {
+      if (event.defaultPrevented || event.target.closest("a, button, input")) return;
+      checkbox.click();
+    });
+    row.append(checkbox, citation);
     const meta = element("div", "bibliography-meta");
     meta.append(element("code", "", source.id));
     if (source.url) {
@@ -46,9 +55,10 @@
       link.setAttribute("aria-label", "Nachweis zu " + source.name + ", " + source.title);
       meta.append(link);
     }
-    item.append(label, meta);
+    item.append(row, meta);
     groups.get(source.group).append(item);
   }
+  AtlasAuthors.linkify(list);
 
   function render(selected, url) {
     for (const checkbox of checkboxes) checkbox.checked = selected.has(checkbox.value);
