@@ -33,6 +33,19 @@ Drei Einstiege für den Unterricht
 
 Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
 
+## Linearen Kontrapunkt mit Ernst Kurth hören
+
+Im Autorenfilter **Ernst Kurth** führen zwölf Fragen zu den *Grundlagen des linearen Kontrapunkts* (Bern, Max Drechsel, 1917). Zu hören ist zum Beispiel, wie in einer einzigen Violinlinie ein Bass fortwirkt oder wie ein melodischer Höhepunkt erst nach dem schweren Taktteil erreicht wird. Alle Seitenzahlen beziehen sich auf den Druck von 1917. [Digitalisat der Erstausgabe](https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf)
+
+| Frage | Aufgabe am Notenbild |
+| --- | --- |
+| [Wie höre ich mehrere Stimmen in einer einzigen Melodie?](https://muk-labs.github.io/Kontrapunktatlas/#frage=linie-scheinpolyphonie) | In Bachs C-Dur-Fuge für Violine zuerst alle Töne, dann nur die von Kurth markierten Spitzentöne singen (Nr. 153). |
+| [Wie kann ein Orgelpunkt in einer einstimmigen Linie weiterklingen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=linie-orgelpunkt) | In der g-Moll-Fuge die Rückkehr zum tiefen g und zum d in der Mittellage verfolgen (Nr. 169). |
+| [Wie spinnt Bach eine melodische Bewegung weiter?](https://muk-labs.github.io/Kontrapunktatlas/#frage=melodische-fortspinnung) | In Takt 23 der a-Moll-Invention BWV 784 jeweils den letzten Ton der ersten drei Sechzehntelgruppen spielen und den Weg der Oberstimme hören. |
+| [Warum können dieselben Klaviertasten zwei Auflösungen nahelegen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=harmonik-enharmonische-spannung) | Kurths Tonfolgen auf S. 69 spielen. Beim ersten Mal steigt die Mittelstimme von e nach f, beim zweiten Mal fällt der Bass von c nach h. |
+
+Bei der [Beurteilung einer fertigen Übung](https://muk-labs.github.io/Kontrapunktatlas/#frage=beurteilung) steht Kurths Kritik an Cherubinis vierstimmigem Lehrbeispiel neben Cherubinis eigener sechster Regel. Die Fußnote auf S. 112 öffnet Kurths Beispiel. Der eingebettete Ausschnitt aus Cherubinis Nr. 118 zeigt eine weitere Lösung aus dem Lehrbuch.
+
 ## Generalbass bei Emanuel Aloys Förster
 
 Der Themenfilter **Generalbass** führt zu fünf eigenen Fragen. Unter **Quelle oder Lehransatz → Emanuel Aloys Förster** erscheinen zusätzlich seine Beispiele zu Melodieführung, Harmonik, harmonischem Rhythmus, Chromatik, Dissonanzauflösung und Quintparallelen.
