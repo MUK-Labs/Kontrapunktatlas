@@ -70,6 +70,24 @@ Das Buchsymbol vor dem Werktitel kennzeichnet Lehrbücher und Traktate im Quelle
 
 Autorennamen mit verifiziertem Wikipedia-Artikel sind in den Fragen, Erläuterungen, Quellenangaben und Bildunterschriften verlinkt. Die Biografie öffnet sich in einem neuen Tab. Das gilt auch für Nachnamen und Formen wie „Cherubinis“ oder „Hindemiths“. Im Quellenverzeichnis öffnet der Name die Biografie; das Kästchen oder der übrige Titel wählt das Werk. Der Beleg zur Buchseite bleibt über **Fundstelle öffnen** erreichbar. Unter dem Autorenfilter erscheint für die gewählte Person zusätzlich ein Wikipedia-Link. Namen ohne verifizierte Biografie bleiben als Text stehen.
 
+## Von den Spezies zur Komposition mit Salzer und Schachter
+
+Die Werkkennung `salzer-schachter1989` erschließt *Counterpoint in Composition: The Study of Voice Leading* von Felix Salzer und Carl Schachter (New York, Columbia University Press, Morningside Edition mit neuem Vorwort, 1989; Erstausgabe 1969, ISBN 978-0-231-07039-3). Die 66 Beiträge zu 35 Fragen verbinden die Speziesübungen mit der Analyse komponierter Musik. Fünf Fragen und vier Notenbilder kommen hinzu. Die Fundstellen nennen die gedruckten Seiten und gegebenenfalls die Beispielnummer; das neue Vorwort wird Carl Schachter zugeschrieben. [Verlagsnachweis](https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/)
+
+| Frage für den Unterricht | Arbeit am Notentext |
+| --- | --- |
+| [Wie kann eine dissonante Quarte einen Vorhalt vorbereiten?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=salzer-schachter1989,green-jones2011#frage=bindung-s4&spezies=4&antwort=salzer-schachter1989-2) | Den Bass halten und die obere Stimme von e nach d führen. Salzer und Schachter hören eine übergebundene Wechselnote; Green und Jones nennen die mildere Vorbereitung „consonant fourth“. |
+| [Wie kann ein Akkord weiterwirken, während andere Klänge erklingen?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=salzer-schachter1989#frage=akkordprolongation) | Im eigenen G-Dur-Modell die beiden unteren Wechselnoten singen und Akkordnamen von Stimmführungsfunktion unterscheiden. |
+| [Dürfen drei Viertelpositionen hintereinander dissonieren?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=salzer-schachter1989#frage=dissonanzbehandlung&antwort=salzer-schachter1989-2) | In der Kombination aus zweiter und dritter Spezies auf jedem Viertel alle Stimmenpaare prüfen. Die Durchgänge greifen ineinander. |
+| [Beendet jede Fermate im Choral einen musikalischen Gedanken?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=salzer-schachter1989#frage=choral-fermate) | Die Textzeilengrenze von der harmonischen Richtung unterscheiden: Ein Klang unter der Fermate kann in die folgende Phrase weiterdrängen. |
+| [Behält ein Motiv bei der Imitation dieselbe Funktion?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=salzer-schachter1989#frage=imitation-funktionswechsel) | Bei Ockeghem verfolgen, wie ein neuer Bass und zusätzliche Stimmen die Funktion eines wiederkehrenden Tons verändern. |
+
+31 zusätzliche Antwortverbindungen erschließen Unterschiede gegenüber den bereits bearbeiteten Lehrwerken. Ein unmittelbarer Regelgegensatz betrifft beispielsweise den betonten Durchgang in der zweiten Spezies: Prout lässt ihn unter bestimmten Bedingungen zu, Salzer und Schachter verlangen eine konsonante erste Halbe. Andere Verbindungen betreffen verschiedene Aufgaben oder Deutungen. Die Erlaubnis einer Figur und ihre theoretische Erklärung werden dabei getrennt beurteilt.
+
+Weitere neue Fragen behandeln den Wechsel zwischen Vierteln und Halben im Floridus sowie chromatische Oktavteilung ohne vorausgesetztes diatonisches Gerüst. Die Speziesfilter folgen der jeweils belegten Aufgabe; ausdrücklich kombinierte Spezies erscheinen unter ihren beteiligten Nummern. Analysen aus dem Repertoire und das als optionale Zusatzübung behandelte Drei-gegen-eins erhalten keine nachträglich vergebene Speziesnummer.
+
+Die Notenbilder bestehen aus drei eigenen Unterrichtsmodellen und einer transponierten, verkürzten Lesehilfe zum Verfahren von Bsp. 4-46. Sie erläutern Akkordfunktion, ineinandergreifende Dissonanzen, die Quartvorbereitung und den Unterschied zwischen gebundenem und neu angeschlagenem Vorhalt. Alle vier sind offline verfügbar. Ihre Bildnachweise unterscheiden die redaktionelle Darstellung vom Notentext des Buchs.
+
 ## Barocken Kontrapunkt mit Neidhöfer und Schubert lesen
 
 Die Werkkennung `neidhoefer-schubert2023` erschließt *Baroque Counterpoint: Revised and Expanded Edition* von Christoph Neidhöfer und Peter Schubert (Albany, State University of New York Press, 2023, ISBN 978-1-4384-9325-1). Die 48 Beiträge zu 37 Fragen folgen den gedruckten Seiten dieser überarbeiteten Ausgabe. Sieben Fragen und sechs Notenbilder kommen hinzu; zwei vorhandene Bach-Ausschnitte werden ebenfalls verwendet. [Verlagsnachweis](https://sunypress.edu/Books/B/Baroque-Counterpoint)

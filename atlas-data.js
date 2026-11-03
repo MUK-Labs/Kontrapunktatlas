@@ -555,6 +555,76 @@ const ATLAS = {
         "Gasparini"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Francesco_Gasparini"
+    },
+    {
+      "name": "Felix Salzer",
+      "aliases": [
+        "Salzer"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Felix_Salzer"
+    },
+    {
+      "name": "Carl Schachter",
+      "aliases": [
+        "Schachter"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Carl_Schachter"
+    },
+    {
+      "name": "Samuel Scheidt",
+      "aliases": [
+        "Scheidt"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Samuel_Scheidt"
+    },
+    {
+      "name": "Ralph Kirkpatrick",
+      "aliases": [
+        "Kirkpatrick"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Ralph_Kirkpatrick"
+    },
+    {
+      "name": "Henry Purcell",
+      "aliases": [
+        "Purcell"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Henry_Purcell"
+    },
+    {
+      "name": "Johannes Brahms",
+      "aliases": [
+        "Brahms"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Brahms"
+    },
+    {
+      "name": "Domenico Scarlatti",
+      "aliases": [
+        "Scarlatti"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Domenico_Scarlatti"
+    },
+    {
+      "name": "Albert Riemenschneider",
+      "aliases": [
+        "Riemenschneider"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Albert_Riemenschneider"
+    },
+    {
+      "name": "Franz Schubert",
+      "aliases": [
+        "Franz Peter Schubert"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Franz_Schubert"
+    },
+    {
+      "name": "Richard Wagner",
+      "aliases": [
+        "Wagner"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Richard_Wagner"
     }
   ],
   "sources": [
@@ -795,6 +865,13 @@ const ATLAS = {
       "title": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
       "group": "Lehrwerke",
       "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint"
+    },
+    {
+      "id": "salzer-schachter1989",
+      "name": "Felix Salzer und Carl Schachter",
+      "title": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+      "group": "Lehrwerke",
+      "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/"
     }
   ],
   "topics": [
@@ -881,6 +958,32 @@ const ATLAS = {
           "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
           "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
           "catalogue": true
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 2.1, S. 44, Bsp. 2-12 · zweite Spezies, zwei Stimmen",
+          "text": "Zwischen zwei aufeinanderfolgenden schweren Zeiten darf die Halbenstimme einen größeren Sprung in zwei kleinere, gleichgerichtete Sprünge zerlegen. Der insgesamt überspannte Abstand muss konsonant bleiben und darf die Oktave nicht überschreiten. Nach dem Zielton folgt Gegenbewegung, möglichst schrittweise. Die Zwischennote glättet hier den Registerwechsel, statt eine beliebige Sprungkette zu bilden.",
+          "speciesScope": [
+            2
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 65–66, Bsp. 3-33a/b · dritte Spezies, zwei Stimmen",
+          "text": "In der Viertelbewegung sollen zwei kleine Sprünge nicht dieselbe Richtung fortsetzen. Die Stimme durchmisst sonst zu viel Raum in zu kurzer Zeit und wirkt ruckartig. Zwei unmittelbar benachbarte Sprünge dürfen dagegen die Richtung wechseln. Bsp. 3-33 stellt die gleichgerichtete Unterteilung eines größeren Sprungs einer beweglicheren Folge mit Umkehr gegenüber.",
+          "speciesScope": [
+            3
+          ]
         }
       ],
       "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht.",
@@ -927,7 +1030,8 @@ const ATLAS = {
       "comparisons": [],
       "related": [
         "kadenz",
-        "einklang"
+        "einklang",
+        "rhythmuswechsel-s5"
       ],
       "authors": [
         {
@@ -1322,6 +1426,84 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 6, S. 102, Hinweis 5 und Bsp. 6.7 · Eintritt nach einer Pause im strengen barocken Satz",
           "text": "Eine Stimme soll nach einer Pause mit einem Ton der gerade geltenden Harmonie einsetzen. Eine andere Stimme darf gleichzeitig noch einen Vorhalt halten. Beim Einsatz muss also nicht jeder hörbare Abstand konsonant sein: Entscheidend ist, dass der neue Ton zur Harmonie gehört und die Dissonanz durch die bereits klingende Vorhaltsstimme entsteht."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.2, S. 19–20, Bsp. 1-43 und 1-44 · erste Spezies, zwei Stimmen",
+          "text": "Über dem Cantus firmus beginnt die Gegenstimme mit Quinte oder Oktave; auch der Einklang ist als Anfangsintervall gültig, sofern daraus weder Übergreifen noch Kreuzung entsteht. Unter dem Cantus stehen Einklang und Oktave zur Wahl. Die Unterquinte wird ausgeschlossen, weil sie den Tonartbezug des auf der Tonika beginnenden Cantus verändert.",
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.3, S. 32, Bsp. 1-77 · erste Spezies, drei Stimmen",
+          "text": "Im dreistimmigen Anfang muss die Tonika im Bass liegen. Die beiden Oberstimmen dürfen Tonika, Terz oder Quinte bringen; verdoppelt wird nur die Tonika. Liegt der Cantus im Bass, kann der Anfangsdreiklang vollständig sein. Liegt er oben oder in der Mitte, wird seine Tonika im Bass verdoppelt und der erste Klang bleibt unvollständig. Die Terz darf nun auch in der höchsten Stimme stehen.",
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-3",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 2.1, S. 39 und 42 · zweite Spezies, zwei Stimmen",
+          "text": "Die Halbenstimme darf gleichzeitig mit dem Cantus oder nach einer halben Pause einsetzen. Die Pause wird bevorzugt, weil sie die Stimmen rhythmisch selbstständiger macht. Am ersten klingenden Ton bleibt die Intervallwahl dieselbe: oben Quinte oder Oktave, unten Einklang oder Oktave. Die leichte Einsatzzeit gibt hier keine zusätzliche Freiheit für den Anfangston.",
+          "speciesScope": [
+            2
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-4",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 56, „Rhythmic Organization“ · dritte Spezies, zwei Stimmen",
+          "text": "Der erste Takt darf vier Viertel oder eine Viertelpause mit drei folgenden Vierteln enthalten. Die Fassung mit Pause wird bevorzugt. Die Viertel sollen doppelt so schnell wie die Halben der zweiten Spezies gedacht werden, während der Cantus ungefähr sein bisheriges Tempo behält. So bleibt die Eröffnung Teil einer bewegten Verzierungslinie.",
+          "speciesScope": [
+            3
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-5",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 4.1, S. 78 und 87 · vierte Spezies, zwei Stimmen",
+          "text": "Die Gegenstimme beginnt immer mit einer halben Pause und setzt auf der zweiten Takthälfte ein. Dieser Anfang macht das Gewicht der übergebundenen Halben von Beginn an hörbar. Über dem Cantus kommt als erster Ton die Quinte oder Oktave infrage, darunter Einklang oder Oktave. Die folgende Synkope ändert diese Vorgabe für den ersten klingenden Zusammenklang nicht.",
+          "speciesScope": [
+            4
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-6",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 5.1, S. 101 und 107 · fünfte Spezies, zwei Stimmen",
+          "text": "Für den Anfang empfehlen Salzer und Schachter Halbe und Synkopen, möglichst nach einer Pause. Auch eine Viertelpause mit drei Vierteln kommt infrage. Die Bewegung soll sich zunächst mit längeren Werten entwickeln und später beschleunigen können. Eine ganze Note schließen sie am Anfang ausdrücklich aus; dieser Wert bleibt in ihrer floriden Übung dem Schlusstakt vorbehalten.",
+          "speciesScope": [
+            5
+          ]
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -1396,6 +1578,36 @@ const ATLAS = {
           "to": "schubert1999-4",
           "type": "contradiction",
           "note": "Prout wählt in seinem Beispiel zur vierten Spezies das e unter dem Cantusbeginn c und damit einen unvollkommen konsonanten Anfang. Schubert verlangt für den ersten klingenden Ton seiner Synkopenübung eine vollkommene Konsonanz."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout erlaubt im zweistimmigen Note-gegen-Note-Satz auch einen Terzbeginn. Salzer und Schachter begrenzen den Anfang auf vollkommene Konsonanzen; eine Terz gehört in dieser zweistimmigen Aufgabe nicht dazu."
+        },
+        {
+          "from": "salzer-schachter1989-3",
+          "to": "gallon-bitsch1964-2",
+          "type": "nuance",
+          "note": "Gallon und Bitsch schreiben zu Beginn der zweiten Spezies eine halbe Pause vor. Salzer und Schachter bevorzugen dieselbe Pause, erlauben aber auch den gemeinsamen Beginn mit dem Cantus."
+        },
+        {
+          "from": "salzer-schachter1989-5",
+          "to": "green-jones2011-3",
+          "type": "contradiction",
+          "note": "Salzer und Schachter verlangen in der zweistimmigen vierten Spezies stets eine halbe Anfangspause. Green und Jones lassen die Unterstimme in ihrem Sonderfall bereits auf der Eins beginnen, damit die folgende Bindung möglich wird."
+        },
+        {
+          "from": "salzer-schachter1989-5",
+          "to": "prout1890-4",
+          "type": "contradiction",
+          "note": "Prout lässt im beschriebenen zweistimmigen Anfang die Unterstimme auf der Terz der Tonika einsetzen, um die Bindung zu ermöglichen. Salzer und Schachter beschränken den ersten Ton unter dem Cantus auf Einklang oder Oktave."
+        },
+        {
+          "from": "salzer-schachter1989-6",
+          "to": "schubert1999-5",
+          "type": "contradiction",
+          "note": "Schubert eröffnet zwei seiner floriden Rhythmusmodelle mit einer ganzen Note zugleich mit dem Cantus. Salzer und Schachter schließen die Ganze als Anfangswert aus und reservieren sie für den Schluss."
         }
       ]
     },
@@ -1472,6 +1684,17 @@ const ATLAS = {
           "catalogue": true,
           "locator": "Kap. 10, S. 131–133, „Proper Cadences“ und „Evaded Cadences“, Nr. 2 · zweistimmige Binnenkadenz",
           "text": "Schubert zählt die 7 vom erwarteten Kadenzziel aus. Erreicht die andere Stimme dieses Ziel, kann die Leittonstimme bei einer Kadenzflucht auf 6 weiter absteigen oder von 7 zu 3 abspringen. Die Ziffern beschreiben dabei die Schritte und Sprünge an dieser konkreten Stelle."
+        },
+        {
+          "id": "salzer-schachter1989-5",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 270–271, Bsp. 8-54a/b; Kadenz mit 4–3-Vorhalt im vierstimmigen Bach-Choral.",
+          "text": "In einer Innenstimme eines vierstimmigen Chorals kann der Leitton bei der Schlussverbindung zur Quinte des Tonikadreiklangs springen. In Bsp. 8-54a geht der Tenor nach dem 4–3-Vorhalt diesen Weg. Liegt derselbe Leitton im Sopran, beobachten die Autoren dagegen fast immer die gewöhnliche schrittweise Auflösung zum Grundton. Stimmenlage und Satzdichte verändern somit die verfügbaren Schlussführungen.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -1480,6 +1703,12 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "context",
           "note": "Rothgebs 7–1 beschreibt die beiden letzten Töne der ersten Spezies. Schuberts 7–6 oder 7–3 gehört dagegen zur Flucht vor einer Binnenkadenz, während die andere Stimme das erwartete Kadenzziel erreicht."
+        },
+        {
+          "to": "rothgeb1998-s1-1",
+          "type": "context",
+          "note": "Rothgeb verbindet in der zweistimmigen Schlussform 2–1 mit 7–1. In Salzer und Schachters vierstimmigen Chorälen kann der Leitton in einer Innenstimme zur Tonikaquinte abspringen; liegt er dagegen im Sopran, löst er sich gewöhnlich aufwärts auf.",
+          "from": "salzer-schachter1989-5"
         }
       ]
     },
@@ -1594,6 +1823,30 @@ const ATLAS = {
           "examples": [
             "neidhoefer-schubert-bach-vorhalt"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.3, S. 27–28, Bsp. 1-58 bis 1-62 · erste Spezies, drei Stimmen",
+          "text": "Der verminderte Dreiklang in erster Umkehrung darf wie ein konsonanter Klang verwendet werden. Seine verminderte Quinte oder übermäßige Quarte liegt zwischen den Oberstimmen; beide konsonieren mit dem Bass. Die Autoren nennen den Klang dennoch nicht uneingeschränkt konsonant. Sekunden oder Septimen zwischen Oberstimmen werden durch einen konsonierenden Bass nicht entsprechend zulässig. Auch der verminderte Dreiklang in Grundstellung bleibt in der ersten Spezies ausgeschlossen.",
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.3, S. 185–186, Bsp. 7-42 · Scarlatti, Sonate Nr. 37 in Kirkpatricks Ausgabe, Band II",
+          "text": "Eine kurz erklingende Konsonanz muss einen dissonanten Zusammenhang nicht beenden. Im Scarlatti-Beispiel hören Salzer und Schachter das konsonante h als Nebennote zum dissonanten Basston a. Dieser bleibt für den größeren Zusammenhang der Bezugston der Verzierung. Die Autoren unterscheiden deshalb den augenblicklichen Zusammenklang von der Frage, welcher Ton durch einen anderen verlängert wird: Auch eine Konsonanz kann eine Dissonanz verzieren.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -1739,6 +1992,34 @@ const ATLAS = {
             "foerster-vermindert"
           ],
           "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.1, S. 3–4, „Tonal Materials; Melodic Range“ · vokal gedachte Übungslinien als Grundlage der fünf Spezies",
+          "text": "Zu den verfügbaren melodischen Intervallen zählen ausdrücklich auch die große und die kleine Sexte sowie die reine Oktave. Sprünge über die Oktave, Septimen sowie übermäßige und verminderte Sprungintervalle scheiden aus. Größere Sprünge verlangen mehr Vorsicht als kleinere. Diese im Cantus firmus eingeführten Grundlagen gelten auch für die Gegenstimmen der Speziesübungen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 6.1, S. 124, Bsp. 6-12 · Bach, Wohltemperiertes Klavier I, Präludium XI, BWV 856",
+          "text": "Im F-Dur-Präludium hören Salzer und Schachter hinter der Figuration die Linie f–es–d. Bach versetzt das erste f um eine Oktave nach unten; von dort führt eine aufsteigende Septime zum es. Der große Sprung erweitert damit einen schrittweisen Zusammenhang durch den Wechsel der Lage. Für diese Stelle erklären die Autoren den Septimsprung aus der Prolongation des Durchgangs, statt ihn als Ausnahme von einer unverändert angewandten Speziesregel zu behandeln.",
+          "speciesScope": []
         }
       ],
       "related": [
@@ -1756,6 +2037,18 @@ const ATLAS = {
           "to": "rothgeb1998-cf-1",
           "type": "context",
           "note": "Rothgebs Verbot dissonanter Sprünge gilt dem selbst geschriebenen Cantus firmus. Pistons fallende verminderte Septime stammt aus einer instrumentalen Phrase Beethovens und beantwortet damit eine andere stilistische Aufgabe."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "fux1725-1",
+          "type": "contradiction",
+          "note": "Fux beanstandet die große Sexte im gesungenen Zweistimmensatz. Salzer und Schachter nehmen sie ausdrücklich unter die verfügbaren Intervalle ihrer ebenfalls vokal gedachten Übungslinien auf."
+        },
+        {
+          "from": "salzer-schachter1989-2",
+          "to": "rothgeb1998-cf-1",
+          "type": "context",
+          "note": "Rothgeb schließt dissonante Sprünge in seinem Cantus firmus aus. Salzer und Schachter untersuchen dagegen eine instrumentale Figuration, deren Septimsprung durch Oktavversetzung eines schrittweisen Zusammenhangs entsteht."
         }
       ]
     },
@@ -2320,6 +2613,32 @@ const ATLAS = {
           "examples": [
             "neidhoefer-schubert-bach-hemiole"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 2.1, S. 39–40, Bsp. 2-1 · zweite Spezies, zwei Stimmen",
+          "text": "Die erste Halbe jedes Takts muss konsonieren. Der dissonante Durchgang gehört ausschließlich auf die zweite, leichte Halbe. Fehlt dort eine brauchbare Durchgangsmöglichkeit oder würde sie der Linie schaden, wird auch diese zweite Halbe konsonant gesetzt. Die bessere Melodieführung führt in dieser Aufgabe also zu einer Konsonanz auf leichter Zeit, nicht zu einer Durchgangsdissonanz auf der Eins.",
+          "speciesScope": [
+            2
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 56–59, Bsp. 3-3 und 3-9 · dritte Spezies, zwei Stimmen",
+          "text": "Das erste Viertel bleibt konsonant; das relativ betonte dritte darf dagegen einen Durchgang tragen. Dort bewegt sich der Cantus nicht zu einem neuen Ton, sodass die Dissonanz weniger Gewicht erhält als auf der Eins. Auch eine dissonante Wechselnote ist auf dem dritten Viertel gelegentlich möglich. Sie wird sparsamer eingesetzt als der Durchgang, weil sie die Linie verziert, ohne sie zum nächsten Ton weiterzuführen.",
+          "speciesScope": [
+            3
+          ]
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -2340,6 +2659,18 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "nuance",
           "note": "Prout begründet den betonten Durchgang im Zwei-gegen-eins mit der besseren Linie und setzt den Akkordton auf die zweite Takthälfte. Kennan macht zusätzlich die Dauer der Harmonie zum Kriterium: Bei zwei Schlägen unveränderter Harmonie darf die Auflösung bis zum zweiten Schlag warten."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout gestattet in der zweiten Spezies ausnahmsweise einen betonten Durchgang zugunsten der Melodie. Salzer und Schachter verlangen hier auch dann eine konsonante erste Halbe."
+        },
+        {
+          "from": "salzer-schachter1989-2",
+          "to": "schubert1999-1",
+          "type": "contradiction",
+          "note": "Schubert verlangt im Vier-gegen-eins auf dem ersten und dritten Viertel Konsonanzen. Salzer und Schachter erlauben auf dem dritten Viertel Durchgänge und gelegentlich sogar dissonante Wechselnoten."
         }
       ]
     },
@@ -2441,6 +2772,33 @@ const ATLAS = {
           "speciesScope": [
             4
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 59–62, Bsp. 3-12, 3-13 und 3-19 bis 3-21 · dritte Spezies, zwei Stimmen",
+          "text": "Bei der Doppelwechselnote dürfen die obere und die untere Nebennote eines konsonanten Haupttons im Terzabstand ineinanderspringen, auch wenn beide dissonieren. Die Figur beginnt auf der Eins und kehrt auf dem vierten Viertel zum Hauptton zurück. Der Sprung verbindet hier zwei Verzierungen desselben Tons; die stufenweise Beziehung zum Hauptton bleibt hörbar. Am flüssigsten folgt anschließend ein Schritt in der zuletzt eingeschlagenen Richtung.",
+          "speciesScope": [
+            3
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [
+            2,
+            3
+          ],
+          "locator": "Kap. 9, S. 335 und 337, Bsp. 9-12 und 9-17 bis 9-18 · zweite und dritte Spezies kombiniert",
+          "text": "Im kombinierten Satz muss zuerst feststehen, welche Stimme die Dissonanz erzeugt. In Bsp. 9-17 scheint die Halbenstimme aus einer None zu springen. Der dissonante Ton gehört hier jedoch zur schnelleren Viertelstimme, die ihn schrittweise weiterführt. Gegenüber dem Cantus bleibt auch die Halbenstimme an ihre eigene Durchgangsregel gebunden. Ein dissonantes Intervall zwischen zwei Stimmen bedeutet daher nicht, dass beide Stimmen einen dissonanten Ton aufzulösen haben."
         }
       ],
       "relations": [
@@ -2490,7 +2848,8 @@ const ATLAS = {
         "bindung-s4",
         "unterbrechung-s4",
         "cambiata",
-        "generalbass-zweideutiger-septakkord"
+        "generalbass-zweideutiger-septakkord",
+        "rhythmuswechsel-s5"
       ],
       "authors": [
         {
@@ -2617,6 +2976,43 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 14, S. 329–331, Bsp. 14.19–14.21 · Kirnbergers übertragene Auflösung, freier Stil",
           "text": "Bei der übertragenen Auflösung übernimmt eine andere Stimme die Akkordseptime und führt sie schrittweise abwärts. Die ursprüngliche Stimme kann inzwischen zu einem anderen Akkordton springen. In Kirnbergers Fassungen bleibt so die harmonische Auflösung erhalten, obwohl sie nicht mehr in derselben Linie liegt. Die zuletzt erklingende Septime wird unmittelbar aufgelöst; nötige Leittonauflösungen können in einer ergänzten Continuostimme liegen."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 4.2, S. 97–98, Bsp. 4-45 · vierte Spezies, drei Stimmen, vorletzter Takt",
+          "text": "Am Schluss kann ein Vorhalt in der Unterstimme ausnahmsweise in einen verminderten Dreiklang in Grundstellung führen. Salzer und Schachter nennen dies eine Quasi-Auflösung: Die schärfere Vorhaltsdissonanz geht in die mildere Dissonanz des Dreiklangs über. Die Verbindung ist für sie gerechtfertigt, wenn ihr Charakter als Erweiterung der elementaren Konsonanzauflösung verstanden wird. In enger Lage ermöglicht sie der Oberstimme einen Schritt zum Schlusston.",
+          "speciesScope": [
+            4
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-3",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 5.1, S. 104–105, Bsp. 5-9 bis 5-11 · fünfte Spezies, zwei Stimmen",
+          "text": "Beim verzierten Vorhalt bleibt die Vorbereitung eine Halbe und der eigentliche Auflösungston fällt auf die zweite Takthälfte. Der dissonante Ton auf der Eins darf auf eine Viertel verkürzt werden; vor der Auflösung steht dann eine verzierende Viertel oder ein Achtelpaar. Eine eingeschobene Viertel muss konsonieren, darf aber durch einen Sprung aus dem Vorhalt erreicht werden. Die Auflösung bereits auf dem zweiten Viertel halten die Autoren für möglich, empfehlen sie in dieser Übung jedoch nicht, weil sie den Halbenpuls abschwächt.",
+          "speciesScope": [
+            5
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.3, S. 189, Bsp. 7-44 und 7-45 · Heinichen und Purcells vierstimmige Fantasia Nr. 7",
+          "text": "Eine Auflösung kann in einer anderen Stimme hörbar werden. In Heinichens Beispiel setzt sich das b der Oberstimme zum a im Bass fort. Bei Purcell springt das vorgehaltene f der Oberstimme eine Quinte abwärts zum c; die beiden Mittelstimmen liefern das erwartete es in tieferer Lage. Die Auflösung ist damit vorhanden, obwohl sie sich nicht aus dem nächsten Ton derselben notierten Stimme ergibt.",
+          "speciesScope": []
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -2860,6 +3256,56 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 3, S. 21 und 24–25, Methode 1 zu Übung 3-B · Fundamentalbass als Harmonieplan",
           "text": "Im ersten Harmonisierungsentwurf dürfen zwischen Melodie und notiertem Fundamentalbass ausdrücklich parallele Quinten entstehen. Diese Bassnoten verzeichnen zunächst nur die Akkordgrundtöne. Erst anschließend wird eine wirkliche Basslinie mit geeigneten Umkehrungen geschrieben. Die erlaubten Parallelen betreffen also einen Zwischenschritt der Planung; für den ausgearbeiteten Satz gelten die Stimmführungsregeln."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 2.1, S. 41–42, Bsp. 2-6 bis 2-8 · zweite Spezies, zwei Stimmen",
+          "text": "Quinten oder Oktaven auf zwei aufeinanderfolgenden schweren Zeiten werden gewöhnlich vermieden. Ausnahmsweise können sie stehen, wenn das zweite vollkommene Intervall unmittelbar in Gegenbewegung erreicht wird und die Halbenstimme dabei schrittweise in derselben Richtung hinein- und weitergeht. Für Oktaven verlangen die Autoren zusätzlich einen besonderen melodischen Gewinn und wenige weitere betonte Oktaven. Quinten und Oktaven auf benachbarten leichten Zeiten sind freier möglich, solange daraus keine Sequenz entsteht.",
+          "speciesScope": [
+            2
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 64–65, Bsp. 3-29 bis 3-32 · dritte Spezies, zwei Stimmen",
+          "text": "Zwischen zwei Quinten oder Oktaven kann die Zahl der Zwischentöne entscheidend sein. Eine einzelne Viertel trennt sie nicht ausreichend; bei zwei Zwischentönen sollen Sprünge die vollkommenen Intervalle nicht hervorheben. Auf zwei aufeinanderfolgenden Einsen sind sie mit drei dazwischenliegenden Vierteln möglich, jedoch höchstens zweimal in Folge und ohne besondere Betonung durch große Sprünge oder Sequenzen. Liegen beide Intervalle außerhalb der Eins, können auch weniger Zwischentöne genügen.",
+          "speciesScope": [
+            3
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-3",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 4.2, S. 94–95, Bsp. 4-33 und 4-34 · vierte Spezies, drei Stimmen",
+          "text": "Eine 7–6-Kette zwischen Mittelstimme und Bass kann von einer Oberstimme in Dezimen zum Bass begleitet werden. Zwischen den beiden oberen Stimmen entstehen dabei wiederholt 4–5-Vorhalte und Quinten auf den Auflösungen. Diese Folge wird ausdrücklich akzeptiert: Für die Autoren bleibt die 7–6-Kette das hauptsächliche Ereignis, während die 4–5-Beziehung in den Hintergrund tritt. Die Regel für eine isolierte zweistimmige 4–5-Kette lässt sich hier deshalb nicht unverändert anwenden.",
+          "speciesScope": [
+            4
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-5",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.7, S. 222–223, Bsp. 7-76 und 7-78 · Mozart, Klaviersonate KV 576, Finale, und Rondo KV 494",
+          "text": "Salzer und Schachter unterscheiden verschiedene Ursachen scheinbar regelwidriger Folgen. Im Finale von KV 576 erzeugen chromatische Durchgänge und rhythmische Verschiebungen Quintfolgen über einem Gerüst aus 5–6-Synkopen. Im Rondo KV 494 beruhen die vermeintlichen Oktavparallelen dagegen auf einer anderen Zuordnung: Die Töne f–es der linken Hand gehören zu wechselnden gedachten Stimmen eines gebrochenen Akkords. Nicht jedes Nacheinander gespielter Töne bildet daher auch eine durchgehende kontrapunktische Stimme.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -2880,6 +3326,18 @@ const ATLAS = {
           "to": "green-jones2011-4",
           "type": "context",
           "note": "Fux beurteilt im zweistimmigen Zwei-gegen-eins den dazwischentretenden Sprung und akzeptiert im Oktavbeispiel eine Quarte. Green und Jones behandeln drei Stimmen: Ihre Ausnahme verlangt einen konsonanten Zwischenton, die Beteiligung einer Mittelstimme und Gegenbewegung der Halbenstimme."
+        },
+        {
+          "from": "salzer-schachter1989-2",
+          "to": "kennan1999-1",
+          "type": "nuance",
+          "note": "Kennan hält Quinten oder Oktaven von der zweiten Note einer Vierergruppe zum nächsten Schlag weiterhin für fraglich. Salzer und Schachter lassen diese Verbindung mit zwei Zwischentönen zu, sofern ein Sprung die vollkommenen Intervalle nicht besonders hervorhebt."
+        },
+        {
+          "from": "salzer-schachter1989-5",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch schließen gleichgerichtete Quint- und Oktavparallelen in der beschriebenen Übung aus. Salzer und Schachter untersuchen dagegen Mozarts ausgearbeiteten Klaviersatz: Sie unterscheiden durch Prolongation entstandene Quintfolgen von Oktaven, die nur bei einer unzutreffenden Zuordnung der gedachten Stimmen parallel erscheinen."
         }
       ]
     },
@@ -3069,6 +3527,43 @@ const ATLAS = {
           "comparisonSources": [
             "schubert1999"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.2, S. 17, Bsp. 1-35 und 1-36 · erste Spezies, zwei Stimmen",
+          "text": "In den zweistimmigen Übungen wird eine vollkommene Konsonanz nicht in gleichgerichteter Bewegung erreicht. Die Autoren unterscheiden dies von unmittelbar parallelen Quinten oder Oktaven: Der direkte Eintritt ist weniger problematisch, soll in der besonders durchsichtigen Zweistimmigkeit aber ebenfalls vermieden werden. Eine Ausnahme für die schrittweise Oberstimme führen sie hier nicht ein.",
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.3, S. 32 und 34, Bsp. 1-74, 1-75 und 1-80 · erste Spezies, drei Stimmen",
+          "text": "Zwischen Mittelstimme und einer Außenstimme ist der direkte Eintritt in Quinte oder Oktave möglich, wenn die andere Außenstimme in Gegenrichtung geht. Sind die beiden oberen Stimmen beteiligt, muss außerdem die oberste schrittweise gehen. Für die Außenstimmen bleibt das Vermeiden direkter vollkommener Konsonanzen bestehen. Eine besondere Ausnahme bildet die Schlusskadenz mit Basssprung von der Dominante zur Tonika: Hier darf auch zwischen den Außenstimmen eine direkte Oktave entstehen.",
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-3",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.4, S. 190–191, Bsp. 7-46 · Franz Schubert, neunte Sinfonie, zweiter Satz; T. 2–3 des Ausschnitts",
+          "text": "In Franz Schuberts Phrase gelangen Bass und Mittelstimme auf den Taktanfängen in gerader Bewegung in Quinten. Salzer und Schachter erklären ihre Wirkung aus der größeren Gliederung: Die wiederkehrende 5–6-Bewegung der unteren Stimmen verbindet sich mit einer absteigenden Dezimenfolge der Außenstimmen. Das Muster arbeitet den F-Dur-Klang aus und schwächt die Wirkung der einzelnen Quinteneintritte. Die Verdichtung von Vierteln zu Achteln und Sechzehnteln verstärkt zugleich den Zug zum Ziel.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -3107,6 +3602,24 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "contradiction",
           "note": "Fux lässt den Übergang von einer unvollkommenen zu einer vollkommenen Konsonanz nur in Gegen- oder Seitenbewegung zu. Green und Jones erlauben in der ersten Spezies als Hornquinte bestimmte gleichgerichtete Übergänge von Terz oder Sexte zur Quinte."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "green-jones2011-1",
+          "type": "contradiction",
+          "note": "Green und Jones erlauben in der zweistimmigen ersten Spezies die Hornquinte bei schrittweiser Oberstimme. Salzer und Schachter lassen in dieser Aufgabe keine entsprechende Ausnahme vom Vermeiden gleichgerichteter Bewegung in eine vollkommene Konsonanz zu."
+        },
+        {
+          "from": "salzer-schachter1989-2",
+          "to": "gallon-bitsch1964-2",
+          "type": "nuance",
+          "note": "Bei einem inneren Stimmenpaar genügt Gallon und Bitsch unter ihren angegebenen Bedingungen ein Schritt einer beteiligten Stimme. Salzer und Schachter verlangen zusätzlich Gegenbewegung der übrigen Außenstimme; bei den beiden Oberstimmen muss der Schritt oben liegen."
+        },
+        {
+          "from": "salzer-schachter1989-3",
+          "to": "rothgeb1998-s1-1",
+          "type": "context",
+          "note": "Rothgeb fordert in der zweistimmigen ersten Spezies Gegen- oder Seitenbewegung in eine vollkommene Konsonanz. Salzer und Schachter beurteilen Franz Schuberts mehrstimmige Orchesterphrase im Zusammenhang ihrer Sequenz, Klangausarbeitung und rhythmischen Gliederung."
         }
       ]
     },
@@ -3278,6 +3791,65 @@ const ATLAS = {
           "speciesScope": [
             1
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.2, S. 19, „Voice Crossing“ · erste Spezies, zwei Stimmen",
+          "text": "In den ersten zweistimmigen Übungen sollen die Stimmen ihre obere beziehungsweise untere Lage durchgehend behalten. Die Autoren begründen dies mit der Lernfolge: Zunächst werden einfachere Beziehungen beherrscht, bevor komplexere Stimmführungen hinzukommen. Stimmkreuzung wird deshalb vorläufig aus der Aufgabe genommen, obwohl sie in Kompositionen als brauchbares Verfahren anerkannt bleibt.",
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.2, S. 71, Bsp. 3-42 · dritte Spezies, drei Stimmen, Viertellinie in der Mitte",
+          "text": "Eine bewegte Mittelstimme braucht in der dritten Spezies oft mehr Raum, als die normale Lage zwischen zwei Ganzenstimmen bietet. Hier führen die Autoren die Stimmkreuzung ein. Kreuzt die Mittelstimme unter die bisher tiefste Stimme, übernimmt sie für diese Strecke die Bassfunktion. Die Zusammenklänge müssen dann von der tatsächlich tiefsten Stimme aus beurteilt werden.",
+          "speciesScope": [
+            3
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-3",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.1, S. 165, Bsp. 7-17 · Corelli, Sonata da camera op. 4 Nr. 1, Allemanda",
+          "text": "Bei Corelli überholen sich die beiden Violinen wiederholt. Nach der Auflösung eines Vorhalts springt die bisher tiefere Stimme über die andere. Aus ihren wechselnden Spitzentönen entsteht der zusammenhängende Anstieg c–d–e–f–g–a. Diese größere Linie liegt somit in keiner Violinstimme allein, sondern wird durch ihr Zusammenwirken hörbar. Die Kreuzungen bilden hier ein Mittel der melodischen Entwicklung im Triosonatensatz.",
+          "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-4",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 9, S. 373–376, Bsp. 9-75 bis 9-77 · überlappende Vorhalte bei Mozart und Bach",
+          "text": "Überlappende Vorhalte können gerade durch wiederholte Stimmkreuzung entstehen. In ihrem 2–3-Modell löst sich die jeweils tiefere Stimme abwärts auf und steigt anschließend über die andere; dann wechseln die Rollen. Salzer und Schachter zeigen dieses Verfahren im Beginn des Recordare aus Mozarts Requiem. In Bachs sechster Goldberg-Variation führt eine Verlagerung der Töne in andere Oktaven dagegen zum Wechsel von 2–3 und 7–6, ohne dass sich die Stimmen kreuzen."
+        },
+        {
+          "id": "salzer-schachter1989-5",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 266–267, Bsp. 8-45 und 8-46; Kreuzung benachbarter Stimmen im vierstimmigen Bach-Choral.",
+          "text": "Eine kurze Kreuzung von Tenor und Alt kann ein Motiv zu Ende führen oder Oktavparallelen vermeiden. Salzer und Schachter beziehen dabei die Ausführung ein: Getrennte Sängergruppen lassen die Wege der Stimmen auch beim Kreuzen erkennen. Auf einem Tasteninstrument kann dagegen leichter der Eindruck von Oktavparallelen entstehen. Die Kreuzung wird deshalb nach ihrem hörbaren Verlauf beurteilt.",
+          "speciesScope": []
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -3304,6 +3876,30 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "context",
           "note": "Bei Fux wechselt im Zweistimmensatz die tatsächliche Bassfunktion zum Cantus. Green und Jones erlauben in der dreistimmigen ersten Spezies dagegen nur die Kreuzung oberhalb der Stimme, die den Bass bildet."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "fux1725-1",
+          "type": "nuance",
+          "note": "Fux billigt bereits in einer Übung der ersten Spezies den zeitweiligen Wechsel der Stimmlagen. Salzer und Schachter sparen die Kreuzung in ihren ersten zweistimmigen Aufgaben aus pädagogischen Gründen zunächst aus."
+        },
+        {
+          "from": "salzer-schachter1989-3",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Kennan hält in den ersten zweistimmigen Übungen die Ober- und Unterstimme durch den vorläufigen Ausschluss von Kreuzungen auseinander. Salzer und Schachter zeigen im Triosonatensatz, wie gerade das wiederholte Überholen zweier Violinen eine gemeinsame größere Melodielinie hervorbringt."
+        },
+        {
+          "from": "salzer-schachter1989-4",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Kennan schließt Kreuzungen für seine ersten zweistimmigen Aufgaben vorläufig aus. Salzer und Schachter zeigen am mehrstimmigen Mozart-Beispiel dagegen, wie wiederholte Kreuzungen eine Kette überlappender Vorhalte tragen; Aufgabe und Besetzung sind verschieden."
+        },
+        {
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Kennan schließt Kreuzungen in den ersten zweistimmigen Aufgaben vorläufig aus, um die Linien erkennbar zu halten. Salzer und Schachter untersuchen vierstimmige Choräle und unterscheiden, wie deutlich eine Kreuzung im Chor und auf dem Tasteninstrument hörbar bleibt.",
+          "from": "salzer-schachter1989-5"
         }
       ]
     },
@@ -3665,6 +4261,41 @@ const ATLAS = {
           "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
           "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
           "catalogue": true
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 66–67, Bsp. 3-37 · dritte Spezies, zwei Stimmen",
+          "text": "Der Hauptgipfel wirkt auf dem ersten oder dritten Viertel besonders deutlich. Ein oder zwei kleinere Gipfel helfen, die lange Viertellinie zu gliedern; sie dürfen den Ton des Hauptgipfels nicht vorwegnehmen oder wiederholen. Eine Wechselnotenverzierung am Hauptgipfel zählt jedoch nicht als verbotene Wiederholung: Die beiden Einsätze desselben Tons werden als ein ausgehaltener, verzierter Höhepunkt gehört.",
+          "speciesScope": [
+            3
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-3",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 6.1, S. 127–129, Bsp. 6-18 · Brahms, Trio op. 114, dritter Satz; stufenweise Reduktion",
+          "text": "Der höchste Ton fis in Brahms’ Phrase gehört für Salzer und Schachter zur abhängigen Figuration. Er verschwindet deshalb bei der weiteren Reduktion. Welche Töne das größere Stimmführungsgerüst tragen, entscheidet sich nicht allein an ihrer Höhe oder ihrer Auffälligkeit im klingenden Satz. Die Reduktion soll die weitreichenden Verbindungen zeigen; sie wird schrittweise aus den jeweils engeren Zusammenhängen gewonnen.",
+          "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-4",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 10, S. 419–421, Bsp. 10-6a · Victoria, O vos omnes, Beginn und T. 34 ff.",
+          "text": "Den Höhepunkt von Victorias O vos omnes erklären Salzer und Schachter aus dem Wiederkehren einer Idee in neuer Lage. Der Tenor stellt sie am Anfang vor; ab Takt 34 übernimmt sie der Sopran mit dem charakteristischen Sprung zum f. Die höhere Lage fällt mit dem Text Attendite universi populi zusammen. Der Gipfel entsteht hier durch das Zusammenwirken von Motiv, Register, Text und Form und eröffnet den anschließenden großen Abstieg."
         }
       ]
     },
@@ -3807,13 +4438,25 @@ const ATLAS = {
           "comparisonSources": [
             "gallon-bitsch1964"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.6, S. 210–211, Bsp. 7-64 · chromatische Veränderung und Mozart, Streichquartett KV 428, zweiter Satz",
+          "text": "Die Autoren unterscheiden eine chromatische Veränderung neben der diatonischen Form eines Tons, etwa g–gis–a, von dessen Ersetzung: In G-Dur kann h–cis–d an die Stelle von h–c–d treten. Beide Verfahren können Durchgänge oder Nebennoten bilden. In Mozarts Quartett erscheint das ces der Bratsche zunächst als Septime eines verminderten Septakkords. Seine spätere Fortsetzung zum b in T. 17 lässt die Autoren darin eine chromatische obere Nebennote hören.",
+          "speciesScope": []
         }
       ],
       "related": [
         "generalbass-ziffern-stufen",
         "harmonik-enharmonische-spannung",
         "rezitationston-und-finalis",
-        "fuge-chromatische-antwort"
+        "fuge-chromatische-antwort",
+        "chromatik-ohne-diatonisches-geruest"
       ],
       "relations": [
         {
@@ -3984,6 +4627,19 @@ const ATLAS = {
           "comparisonSources": [
             "prout1890"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 2.1, S. 39–40 und 46–47 · zweite Spezies, zwei Stimmen",
+          "text": "Als Dissonanz gehört nur der schrittweise Durchgang auf die leichte Halbe zur zweiten Spezies. Er verbindet zwei konsonante Töne im Terzabstand und setzt die Richtung fort. Die dissonante Wechselnote wird für die dritte Spezies aufgespart. Eine konsonante Wechselnote kann dagegen schon in Halben vorkommen; die Autoren verwenden sie zur melodischen Abwechslung, warnen aber vor einem dadurch zu statischen Verlauf.",
+          "speciesScope": [
+            2
+          ]
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
@@ -4016,6 +4672,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "contradiction",
           "note": "Prout erlaubt im Zwei-gegen-eins eine dissonante Wechselnote. Bei Green und Jones darf die leichte Halbe nur dann zum Ausgangston zurückkehren, wenn sie selbst konsoniert."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout erlaubt auf der leichten Halben auch eine dissonante Wechselnote. Salzer und Schachter beschränken die Dissonanz der zweiten Spezies auf den Durchgang; eine Wechselnote muss hier konsonieren."
         }
       ]
     },
@@ -4076,6 +4738,19 @@ const ATLAS = {
           "examples": [
             "prout-wechselnoten"
           ],
+          "speciesScope": [
+            3
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 57–58, Bsp. 3-4 · dritte Spezies, zwei Stimmen",
+          "text": "Zwei aufeinanderfolgende Durchgangsdissonanzen sind möglich, wenn im diatonischen Durchgang die verminderte Quinte unmittelbar neben die reine Quarte tritt. Die beiden Zwischentöne füllen zusammen den Abstand einer Quarte zwischen den konsonanten Rahmentönen. Trotz der Dissonanzfolge bleibt damit die schrittweise Verbindung klar. Gemeint ist diese konkrete Durchgangsbildung, nicht eine beliebige Kette dissonanter Viertel.",
           "speciesScope": [
             3
           ]
@@ -4254,6 +4929,49 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 4, S. 41–42, Bsp. 4.5 · „fake suspension“ über einem Dominantbass",
           "text": "Über einem länger gehaltenen Dominantbass kann die Quarte eines Quartsextklangs einen weiteren Vorhalt vorbereiten. Weil die Vorbereitung selbst keine gewöhnliche Konsonanz ist, nennen die Autoren die Figur „fake suspension“, auch „consonant fourth“. Im Beispiel geht ihr eine Dominante in Grundstellung voraus. Die Bezeichnung erklärt einen bestimmten harmonischen Zusammenhang, keine allgemeine Freigabe der Quarte."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 4.1, S. 82, Bsp. 4-9 · vierte Spezies, zwei Stimmen, Vorhalt in der Unterstimme",
+          "text": "In der Unterstimme sind 2–3 und 9–10 die bevorzugten Vorhalte, weil sie in eine unvollkommene Konsonanz führen. Ein einzelner 4–5-Vorhalt kann aus melodischen Gründen vorkommen; eine Kette daraus erzeugt verbotene Quinten. Die Verbindung 7–8 schließen Salzer und Schachter hier ganz aus. Der Auflösungston erklingt bereits in der Oberstimme und nimmt der Auflösung dadurch ihre Wirkung.",
+          "speciesScope": [
+            4
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 4.2, S. 97–100, Bsp. 4-46 · vierte Spezies, drei Stimmen, zwei Takte liegender Bass",
+          "text": "Eine zunächst mild dissonante Quarte über einem zwei Takte gehaltenen Bass kann selbst übergebunden werden. In Bsp. 4-46 geht die Mittelstimme auf der zweiten Halben von der Terz zur Quarte; zugleich liegt oben die Sexte. Beim nächsten Takt wechselt die Oberstimme zur Quinte. Die gehaltene Quarte bildet nun zusätzlich eine schärfere Sekunde zu ihr und kehrt auf der zweiten Halben zur Terz zurück. Salzer und Schachter hören eine übergebundene obere Wechselnote und verwerfen dafür ausdrücklich die Bezeichnung „konsonante Quarte“.",
+          "speciesScope": [
+            4
+          ],
+          "examples": [
+            "salzer-schachter-quartvorbereitung"
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-9",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 253, „The suspension dissonance“; vierstimmiger Bach-Choral, außerhalb der Speziesübung.",
+          "text": "Im Bach-Choral kann ein Vorhaltston beim Wechsel des Zusammenklangs neu angeschlagen werden. Für Salzer und Schachter unterscheidet sich diese Wiederholung von der Überbindung durch ihre Artikulation, nicht durch ihre kontrapunktische Bedeutung. Die Vorbereitung und die anschließende Auflösung bleiben für das Hören des Vorhalts maßgeblich.",
+          "speciesScope": [],
+          "examples": [
+            "salzer-schachter-vorhalt-artikulation"
+          ]
         }
       ],
       "relations": [
@@ -4274,6 +4992,24 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "context",
           "note": "Kennan lässt den Unterstimmenvorhalt 7–8 als Unterrichtslösung nach Vorbildern des 18. Jahrhunderts zu. Green und Jones beschränken ihre modale zweistimmige Speziesaufgabe hier auf 2–3 und 9–10."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Salzer und Schachter schließen 7–8 aus ihrer zweistimmigen vierten Spezies aus. Kennan lässt dieselbe Verbindung als Unterrichtslösung nach Vorbildern des 18. Jahrhunderts zu und nennt dabei das herkömmliche Verbot im strengen Kontrapunkt ausdrücklich."
+        },
+        {
+          "from": "salzer-schachter1989-2",
+          "to": "green-jones2011-2",
+          "type": "context",
+          "note": "Green und Jones nennen die mildere Vorbereitung über dem gehaltenen Bass „consonant fourth“. Salzer und Schachter deuten dieselbe Grundfigur als übergebundene obere Wechselnote und betonen, dass bereits die vorbereitende Quarte dissoniert; der Unterschied betrifft die Erklärung der Figur."
+        },
+        {
+          "to": "rothgeb1995-s4-1",
+          "type": "context",
+          "note": "Rothgebs vierte Spezies übt die Überbindung einer konsonant vorbereiteten Halben. Salzer und Schachter beschreiben den ausgearbeiteten Choral, in dem auch ein neu angeschlagener Ton dieselbe Vorhaltsfunktion übernehmen kann.",
+          "from": "salzer-schachter1989-9"
         }
       ]
     },
@@ -4403,6 +5139,19 @@ const ATLAS = {
           "examples": [
             "green-jones-fux-vorhaltskette"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 4.1, S. 86, Bsp. 4-13 und 4-14 · vierte Spezies, zwei Stimmen",
+          "text": "Die Bindung darf aussetzen, um eine Vorhaltsfolge mit mehr als drei gleichartigen Gliedern zu verkürzen, eine ständig absteigende Linie melodisch zu beleben oder sonst unvermeidliche Fehler zu verhindern. Dann gelten vorübergehend die Regeln der zweiten Spezies. Die Unterbrechungen sollen möglichst knapp bleiben; eine feste Zahl je Übung geben die Autoren nicht vor, weil ihre Notwendigkeit vom Verlauf der einzelnen Aufgabe abhängt.",
+          "speciesScope": [
+            4
+          ]
         }
       ],
       "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden.",
@@ -4435,6 +5184,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "nuance",
           "note": "Prout lässt die Bindung nur bei fehlender brauchbarer Fortsetzung ausfallen. Green und Jones gestatten die Unterbrechung auch zugunsten einer singbareren oder melodisch selbstständigeren Gegenstimme."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "prout1890-1",
+          "type": "nuance",
+          "note": "Prout lässt die Bindung nur ausfallen, wenn keine brauchbare Fortsetzung möglich ist. Salzer und Schachter nennen zusätzlich die Abwechslung einer ständig fallenden Linie und die Begrenzung langer gleichartiger Vorhaltsketten als Gründe."
         }
       ]
     },
@@ -4539,7 +5294,8 @@ const ATLAS = {
         }
       ],
       "related": [
-        "speziesmischung"
+        "speziesmischung",
+        "rhythmuswechsel-s5"
       ],
       "relations": [
         {
@@ -4892,6 +5648,28 @@ const ATLAS = {
           "comparisonSources": [
             "kurth1917"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 6.1, S. 117 und 119–120, Bsp. 6-5 · Analyse von Händels Chaconne in G-Dur, Variation 6",
+          "text": "In Händels Variation stehen zehn Melodietöne nur vier Basstönen gegenüber. Salzer und Schachter verfolgen darin die tragende Oberstimmenbewegung d–e–fis und reduzieren den Außenstimmensatz auf die Intervallfolge 5–6–8–10. Ihr Bezug auf die erste Spezies meint hier das freigelegte Gerüst. Er setzt nicht voraus, dass die gespielte Musik durchgehend Note gegen Note verläuft. Die vereinheitlichten Notenwerte der Reduktion erklären die Stimmführung, nicht den ursprünglichen Rhythmus.",
+          "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Einleitung, S. xvi–xix; Speziesübungen als Vorbereitung auf die Analyse und Komposition tonaler Musik.",
+          "text": "Salzer und Schachter beginnen mit Speziesübungen, um grundlegende Stimmführung hörbar zu machen. Die Übungen sind Ausgangspunkt für die Ausarbeitung längerer musikalischer Verläufe. Ihr Ziel ist keine möglichst genaue Nachahmung eines einzelnen historischen Stils. Im weiteren Buch verfolgen sie, wie die zunächst einfachen Beziehungen in Musik des Zeitraums ungefähr 1450–1900 erweitert werden.",
+          "speciesScope": []
         }
       ],
       "related": [
@@ -4916,6 +5694,18 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "context",
           "note": "Benjamin übt den Stil von Bachs Instrumentalmusik ohne strenge Speziesfolge. Green und Jones verbinden modale Repertoireanalyse mit einer bewusst geordneten Folge von Cantus-firmus-Aufgaben."
+        },
+        {
+          "from": "salzer-schachter1989-2",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin beschreibt mit den Zahlenverhältnissen die rhythmische Arbeitsteilung im komponierten Satz. Salzer und Schachter beziehen „erste Spezies“ hier auf ein reduziertes Stimmführungsgerüst, obwohl die klingenden Stimmen verschieden viele Töne enthalten."
+        },
+        {
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin führt unmittelbar in den zweistimmigen Instrumentalsatz nach Bach ein und verzichtet auf eine strenge Speziesfolge. Salzer und Schachter verwenden Speziesübungen ausdrücklich als Ausgangspunkt für das spätere Studium komponierter Musik.",
+          "from": "salzer-schachter1989-1"
         }
       ]
     },
@@ -5020,6 +5810,34 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 14, S. 325, Bsp. 14.14 · Bach, h-Moll-Fuge BWV 869, T. 5, verglichen mit T. 10",
           "text": "Die Quinte a–e am Anfang von Takt 5 der h-Moll-Fuge beweist für Neidhöfer und Schubert keinen A-Dur-Akkord. Sie vergleichen die Stelle mit der späteren dreistimmigen Wiederkehr in Takt 10. Dort wird der entsprechende Basston e als Appoggiatura über dem Grundton h hörbar. So lässt sich auch das frühere a als akkordfremder Ton auffassen, obwohl der zweistimmige Zusammenklang konsoniert."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.2–3, S. 178–179, Bsp. 7-30 · Bach, Partita I, BWV 825, Sarabande, T. 9–12",
+          "text": "Im zweiten Takt des Bach-Ausschnitts springt die Oberstimme von c nach f, während im Bass d erklingt. Salzer und Schachter weisen die entstehende Dissonanz dem Durchgangston d zu. Das c bleibt Teil der arpeggierten, übergeordneten Harmonie und muss deshalb nicht selbst schrittweise aufgelöst werden. Die Beurteilung fragt also, welche Stimme den dissonanten Zusammenklang hervorbringt und wie die beteiligten Töne im größeren Verlauf wirken.",
+          "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [
+            2,
+            3
+          ],
+          "locator": "Kap. 9, S. 338–340, Bsp. 9-21 bis 9-24 · zweite und dritte Spezies kombiniert, drei Stimmen",
+          "text": "In der Kombination aus Halben- und Viertelstimme darf auf dem zweiten, dritten und vierten Viertel jeweils eine Dissonanz erklingen. Der halbe Durchgang dissoniert zum Cantus; die Viertel können zusätzlich gegen diese bewegte Stimme dissonieren. Entscheidend ist für Salzer und Schachter, dass die Durchgangsfunktion jeder Linie hörbar bleibt. Eine ebenso dichte Folge mit unklarer Wechselnotenfunktion beurteilen sie zurückhaltender. Die bloße Zahl der Dissonanzen entscheidet also nicht.",
+          "examples": [
+            "salzer-schachter-gemischte-dissonanzen"
+          ]
         }
       ],
       "relations": [
@@ -5057,7 +5875,8 @@ const ATLAS = {
         "kadenz-unterstimme",
         "kadenzausweichung",
         "imitierendes-duo-kadenz",
-        "kadenz-schlussdehnung"
+        "kadenz-schlussdehnung",
+        "choral-fermate"
       ],
       "authors": [
         {
@@ -5275,6 +6094,44 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 6, S. 100–101, Bsp. 6.5a–c · vollständige Akkorde im dreistimmigen Satz",
           "text": "In drei Stimmen sollen möglichst alle Dreiklangstöne vorkommen; die Terz hat Vorrang vor der Quinte. Das Buch stellt diesem Ziel aber Matthesons Vergleich dreier Fassungen gegenüber. Die Fassung mit erzwungen vollständigen Akkorden hat eine schlechte Mittelstimme. Am besten gefällt ihm die melodisch überzeugende Fassung, obwohl nur ein Akkord vollständig ist."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 1.3, S. 28, „Vertical Consonances: Incomplete Chords“ · erste Spezies, drei Stimmen",
+          "text": "Vollständige Dreiklänge werden bevorzugt, doch die melodische Qualität der einzelnen Stimmen hat Vorrang vor der Klangfülle. Für eine überzeugende Linienführung dürfen deshalb unvollständige Akkorde stehen. Als Faustregel sollen nicht mehr als zwei unmittelbar aufeinanderfolgen. Die Beschränkung betrifft die Folge benachbarter Klänge, nicht eine Höchstzahl von zwei unvollständigen Akkorden für die gesamte Übung.",
+          "speciesScope": [
+            1
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 6.2, S. 148–152, bes. Bsp. 6-50; Kap. 7.5, S. 200 · Akkordbenennung und Funktion im Zusammenhang",
+          "text": "Salzer und Schachter unterscheiden die Benennung eines Zusammenklangs von seiner Funktion im Verlauf. In ihrem engeren Harmoniebegriff ist I–V–I ein Grundmodell; ein Dominantklang in Umkehrung kann dagegen als Durchgangs- oder Nebennotenakkord eine Tonika ausarbeiten. Maßgeblich sind besonders der Bassgang und der größere Zusammenhang. Die Funktionen schließen sich nicht immer aus: Eine Zwischendominante kann zugleich einen Durchgangston stützen und dadurch auch als Durchgangsakkord wirken.",
+          "speciesScope": [],
+          "examples": [
+            "salzer-schachter-akkordfunktion"
+          ]
+        },
+        {
+          "id": "salzer-schachter1989-3",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 10, S. 413–417, Bsp. 10-5a/b · Palestrina, Missa Veni sponsa Christi, Agnus I",
+          "text": "Salzer und Schachter lesen Palestrinas Agnus I als großräumige Folge I–IV–V–I. Die vierte Stufe wird in Takt 14–31 ausgedehnt, während die strukturelle Dominante nur einen Takt beansprucht. Imitierende Stimmen entfalten die jeweiligen Klänge nach und nach. In dieser Analyse wirken Harmonie und Kontrapunkt auf verschiedenen Ebenen zusammen: Die römischen Ziffern benennen den weiten Verlauf, die einzelnen Linien erklären seine Ausgestaltung."
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -5283,7 +6140,10 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "harmonik-enharmonische-spannung",
         "generalbass-oktavregel",
-        "fugenthema-und-kontrasubjekt-erfinden"
+        "fugenthema-und-kontrasubjekt-erfinden",
+        "akkordprolongation",
+        "chromatik-ohne-diatonisches-geruest",
+        "imitation-funktionswechsel"
       ],
       "readingSources": [
         "prout1890",
@@ -5301,6 +6161,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-2",
           "type": "context",
           "note": "Gallon und Bitsch geben für die dreistimmige Übung eine feste Höchstzahl unvollständiger Akkorde vor. Neidhöfer und Schubert erörtern im barocken Modellvergleich, wann eine bessere Mittelstimme den Vorrang vor vollständigen Dreiklängen erhält."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "gallon-bitsch1964-1",
+          "type": "contradiction",
+          "note": "Gallon und Bitsch erlauben im Inneren der dreistimmigen Übung höchstens zwei unvollständige Akkorde und nie zwei unmittelbar nacheinander. Salzer und Schachter lassen aus melodischen Gründen auch zwei benachbarte unvollständige Klänge zu."
         }
       ]
     },
@@ -5439,6 +6305,28 @@ const ATLAS = {
           "catalogue": true,
           "locator": "Vorwort, S. v, und „Note to the Student“, S. viii, Abschnitte „Hard Rules“, „Soft Rules“ und „Renaissance Style“ · Bewertung einer Stilübung",
           "text": "Schubert kennzeichnet verbindliche Satzregeln als „hard rules“. Bei den „soft rules“ geht es um stilistische Vorlieben, die sich von Komponist zu Komponist unterscheiden. Verstöße gegen diese Empfehlungen wiegen in der Bewertung weniger. Für die ersten Übungen schränkt er den Spielraum bewusst ein und nennt historische Beispiele, die über ihre Vorgaben hinausgehen."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Neues Vorwort von Carl Schachter zur Morningside Edition, S. v–vi; Singen und Improvisieren im Speziesunterricht.",
+          "text": "Im neuen Vorwort empfiehlt Carl Schachter, die ausgearbeiteten Übungen zu singen und am Instrument zu hören. Hinzu kommt eine mündliche Probe: Zu einem kurzen Cantus von zunächst vier oder fünf Tönen wird nach einer knappen stillen Vorbereitung eine Gegenstimme gesungen, ohne sie vorher aufzuschreiben. Erst danach verlängert man den Cantus. So zeigt sich, ob die Stimmführung innerlich gehört wird und nicht nur auf dem Papier gelingt.",
+          "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 275–276, Bsp. 8-62–8-64; mehrere Aussetzungen derselben Choralphrase.",
+          "text": "Für eine Choralphrase sollen mehrere deutlich verschiedene Aussetzungen entstehen. Zuerst werden die größeren harmonischen Zusammenhänge und die Ausdehnung einzelner Akkorde skizziert. Schon in dieser Planung erhalten auch Mittelstimmen Aufmerksamkeit, obwohl der Bass zunächst im Vordergrund stehen darf. Am Vergleich der Fassungen wird geprüft, wie dieselbe Melodie verschiedene schlüssige Verläufe tragen kann.",
+          "speciesScope": []
         }
       ],
       "related": [
@@ -5568,6 +6456,19 @@ const ATLAS = {
           "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.1, S. 62–63, Bsp. 3-22 bis 3-24 · dritte Spezies, zwei Stimmen",
+          "text": "Die Cambiata darf abwärts oder aufwärts gerichtet sein. Der zweite, schrittweise erreichte Ton darf dissonieren; von ihm führt eine Terz in derselben Richtung zu einer Konsonanz. Die anschließenden Schritte holen die zunächst übersprungene Fortsetzung nach. Auch der fünfte Ton muss konsonant sein. Die Figur beginnt auf einer betonten Zeit, vorzugsweise auf dem ersten Viertel. Ein Beginn auf dem dritten verändert das Gewicht des Tons nach dem Sprung und macht die Figur weniger eindeutig.",
+          "speciesScope": [
+            3
+          ]
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -5600,6 +6501,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "context",
           "note": "Schuberts dritte Spezies führt die Figur in gleichmäßigen Vierteln. Green und Jones untersuchen im modalen Vokalsatz die rhythmisch ungleiche Form mit punktierter Viertel und Achtel; deren zweiter Ton kann auch konsonieren."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "cherubini1835-1",
+          "type": "contradiction",
+          "note": "Cherubini lehnt das Verlassen der Dissonanz durch den Cambiata-Terzsprung als Muster für den strengen Satz ab. Salzer und Schachter verwenden diese Figur in der dritten Spezies und gestatten sie sogar in beiden Richtungen."
         }
       ]
     },
@@ -5903,6 +6810,17 @@ const ATLAS = {
           "speciesScope": [
             2
           ]
+        },
+        {
+          "id": "salzer-schachter1989-5",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 265–266, Bsp. 8-44; Tonwiederholung und silbischer Textvortrag im vierstimmigen Bach-Choral.",
+          "text": "Wiederholte Töne können im Choral einen länger gehaltenen Ton in mehrere Textsilben aufteilen. In Bsp. 8-44 entsprechen die fünf aufeinanderfolgenden d des Alts einem einzigen übergebundenen Ton. Der liegende Ton verbindet den Satz, während andere Stimmen sich bewegen. Bei Basswiederholungen achten die Autoren zusätzlich auf das Metrum: Eine Wiederholung von schwacher zu starker Zeit kann den metrischen Akzent verwischen; die umgekehrte Folge bestätigt ihn.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -7142,7 +8060,9 @@ const ATLAS = {
         "drei-gegen-eins",
         "passacaglia-chaconne",
         "generalbass-oktavregel",
-        "sequenzmodell"
+        "sequenzmodell",
+        "akkordprolongation",
+        "choral-fermate"
       ],
       "authors": [
         {
@@ -7261,7 +8181,8 @@ const ATLAS = {
         "fuge-kontrasubjekt",
         "imitation-und-kanon",
         "linie-scheinpolyphonie",
-        "linie-orgelpunkt"
+        "linie-orgelpunkt",
+        "rhythmuswechsel-s5"
       ],
       "authors": [
         {
@@ -7356,6 +8277,30 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 6, S. 101–102, Hinweise 3–4 und Bsp. 6.5d/6.6 · drei Stimmen und metrische Orientierung",
           "text": "Wenn eine Stimme durch Bindungen den Puls verdeckt, muss eine andere ihn hörbar machen. Bei einem Vorhalt sollen deshalb nicht auch beide übrigen Stimmen zugleich synkopieren. Mit Mattheson unterscheiden die Autoren außerdem die Rollen der Stimmen: Gemeinsamer Rhythmus der beiden Oberstimmen lässt den Bass eher als Begleitung wirken; rhythmische Gemeinsamkeit der unteren Stimmen kann sein Gegengewicht zur Oberstimme stärken."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [
+            5
+          ],
+          "locator": "Kap. 9, S. 350–351, Bsp. 9-53 bis 9-55 · zwei floride Gegenstimmen über einem Cantus firmus",
+          "text": "Zwei floride Stimmen müssen nicht beide so dicht bewegt sein wie eine einzelne Gegenstimme. Lange Werte in der einen können kurze Werte in der anderen beantworten. Deshalb erlauben Salzer und Schachter jetzt auch eine punktierte Halbe innerhalb des Takts, wenn die andere Stimme den Halbenpuls weiter hörbar macht. Auf dem dritten Viertel muss dieser lange Ton zu beiden übrigen Stimmen konsonieren; sonst entstünde eine unregelmäßige Synkopendissonanz."
+        },
+        {
+          "id": "salzer-schachter1989-2",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 9, S. 360, Bsp. 9-64 · Bach, Partita V, Sarabande, T. 12 bis Anfang T. 13",
+          "text": "In Bachs Sarabande der fünften Partita hat die Oberstimme zwar die kürzeren Notenwerte, doch ihre Sechzehntel umspielen nach Salzer und Schachter nur die tragenden Töne a und g. Nach Wegnahme dieser Verzierungen bewegt sich die Oberstimme langsamer als der Bass. Das Paar vergleichen sie deshalb mit zweiter gegen dritte Spezies, obwohl die sichtbaren Notenwerte zunächst das umgekehrte Verhältnis nahelegen."
         }
       ],
       "readingSources": [
@@ -7516,7 +8461,8 @@ const ATLAS = {
         "imitierendes-duo-kadenz",
         "kanon-stimmtausch",
         "choral-vorimitation",
-        "imitation-stimmenpaare"
+        "imitation-stimmenpaare",
+        "imitation-funktionswechsel"
       ],
       "authors": [
         {
@@ -7631,6 +8577,20 @@ const ATLAS = {
           "examples": [
             "prout-zwei-halbenstimmen"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [
+            2,
+            4
+          ],
+          "locator": "Kap. 9, S. 329–332 und 351, Bsp. 9-1 bis 9-4 · zwei bewegte Stimmen über einem Cantus firmus",
+          "text": "Salzer und Schachter beginnen den kombinierten Kontrapunkt mit zwei Halbenstimmen. Gegenüber dem Cantus folgen beide der zweiten Spezies; untereinander müssen ihre gleichzeitig bewegten Töne konsonieren. Zwei durchgehend synkopierte Stimmen lassen sie dagegen als Übung aus: Die gemeinsame Abwärtsauflösung würde zu viel Parallelbewegung erzwingen. Das ist eine Grenze ihrer Übungsanlage; Doppelvorhalte in Kompositionen erkennen sie ausdrücklich an."
         }
       ],
       "readingSources": [
@@ -7643,6 +8603,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "context",
           "note": "Die Lehrgänge fassen die Mischaufgabe verschieden: Im grand mélange von Noël-Gallon und Bitsch erhält jede Gegenstimme einen anderen Rhythmus. Prouts kombinierter Kontrapunkt umfasst auch zwei bewegte Stimmen derselben Spezies, mit denen er seinen Lehrgang beginnt."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Im grand mélange von Noël-Gallon und Bitsch erhalten die Gegenstimmen verschiedene Rhythmen. Salzer und Schachter beginnen ihren Lehrgang zum kombinierten Kontrapunkt dagegen mit zwei Stimmen derselben zweiten Spezies."
         }
       ]
     },
@@ -8161,6 +9127,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 4, S. 55–56, Bsp. 4.24a–c · „compound melody“ und Arpeggierung",
           "text": "Bei einer Arpeggierung springt die Linie zwischen Tönen derselben Harmonie. In einer „compound melody“ kann sie dagegen über einen Harmoniewechsel hinweg von einer gedachten Stimme in eine andere wechseln. So entstehen auch große Sprünge, etwa Septimen. Schreibt man die gedachten Stimmen getrennt auf, muss ihre Stimmführung weiterhin schlüssig sein."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.1, S. 153–155, Bsp. 7-2 · Mendelssohn, Lied ohne Worte op. 85 Nr. 4",
+          "text": "Die verminderte Quinte g–cis in Mendelssohns Melodie verbindet nach dieser Analyse Töne zweier gedachter Stimmen. Oben verläuft a–g–fis; die untere Linie beginnt auf fis, springt zum cis und steigt von dort schrittweise wieder zum fis. Erst ihre zeitliche Auffaltung erzeugt den auffälligen Sprung in der gespielten Melodie. Mit dem tatsächlich klingenden Bass ergibt sich ein gedachter dreistimmiger Satz, der den D-Dur-Klang ausarbeitet.",
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -8183,7 +9160,8 @@ const ATLAS = {
       "related": [
         "linie-scheinpolyphonie",
         "tonwiederholung",
-        "harmonischer-rhythmus"
+        "harmonischer-rhythmus",
+        "akkordprolongation"
       ],
       "authors": [
         {
@@ -8288,7 +9266,8 @@ const ATLAS = {
         "harmonik",
         "chromatik",
         "dissonanzbehandlung",
-        "melodische-fortspinnung"
+        "melodische-fortspinnung",
+        "chromatik-ohne-diatonisches-geruest"
       ],
       "authors": [
         {
@@ -8303,10 +9282,29 @@ const ATLAS = {
             "kurth-enharmonische-spannung"
           ],
           "speciesScope": []
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 10, S. 448–449, Bsp. 10-15a–c · Wagner, Tristan und Isolde, Vorspiel zum dritten Aufzug, T. 10–15",
+          "text": "Eine enharmonische Umschreibung muss nach Salzer und Schachter nicht die musikalische Funktion ändern. Im besprochenen Tristan-Ausschnitt erklären sie die Kreuzschreibung in Takt 13–14 als Leseerleichterung. Ihre Analyse schreibt die betreffenden Töne wieder mit Be-Zeichen, damit die chromatisch veränderte 7–6-Vorhaltskette erkennbar wird. Der Wechsel der Schreibweise bildet für sie hier keinen neuen harmonischen Wendepunkt."
         }
       ],
       "readingSources": [
         "kurth1917"
+      ],
+      "relations": [
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "kurth1917-1",
+          "type": "context",
+          "note": "Kurth verbindet seine beiden Schreibweisen mit verschiedenen melodischen Fortsetzungen. Im Tristan-Ausschnitt von Salzer und Schachter dient der Wechsel zu Kreuznamen dagegen nur der Lesbarkeit; die analysierte Vorhaltsfunktion bleibt dabei gleich."
+        }
       ]
     },
     {
@@ -8365,6 +9363,17 @@ const ATLAS = {
           "speciesScope": [
             3
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 3.3, S. 73 und 77, Bsp. 3-46 bis 3-49 · optionale Zusatzübung nach zweiter oder dritter Spezies, zwei und drei Stimmen",
+          "text": "Das Drei-gegen-eins ist für Salzer und Schachter eine mögliche Ergänzung, keine notwendige zusätzliche Stufe. Wird es nach der zweiten Spezies eingeführt, bleiben seine Dissonanzen auf Durchgänge beschränkt; nach der dritten können auch Wechselnoten hinzukommen. Die Eins muss konsonieren, die beiden folgenden Taktteile sind leicht. Cambiata und Doppelwechselnote werden hier nicht verwendet, weil ihre Viertonfiguren nicht in das gewählte Dreiermaß passen.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -8376,6 +9385,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "context",
           "note": "Kennan ordnet die Aufgabe drei gegen eins der zweiten Spezies zu, Prout der dritten. Die unterschiedliche Nummerierung betrifft dasselbe Verhältnis 3:1; Prout begründet seine Einteilung mit den zwei möglichen aufeinanderfolgenden Durchgangstönen."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prout ordnet das Drei-gegen-eins der dritten Spezies zu. Salzer und Schachter bieten es wahlweise nach der zweiten oder dritten an; je nach Lernstand ändert sich dabei, ob neben Durchgängen auch dissonante Wechselnoten vorkommen."
         }
       ]
     },
@@ -8922,6 +9937,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 5, S. 65–69, Bsp. 5.1/5.2 · wiederkehrende harmonische Perioden",
           "text": "Die wiederkehrende Bass- oder Harmoniefolge bildet gleich lange Perioden. Darüber kann die Melodie über die Grenze einer Periode hinwegführen, sodass der regelmäßige Neubeginn beim Hören zurücktritt. Akkordumkehrungen und einzelne Ersatzakkorde verändern zusätzlich den Klang, während die Grundfolge erkennbar bleibt. Bei Händel und Campra verfolgen die Autoren deshalb harmonische Perioden und melodische Phrasen getrennt."
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 10, S. 430–431, Bsp. 10-8a · Purcell, Dido’s Lament, fünftaktiger Ground und Phrasenende in T. 13",
+          "text": "Im Lamento der Dido wiederholt sich ein fünftaktiger Bassgang, doch die Oberstimmen müssen ihre Phrasen nicht an seinen Grenzen beenden. Salzer und Schachter weisen auf Takt 13 hin: Die Gesangslinie schließt dort mitten im laufenden Bassmodell. Der gleichbleibende Ground hält den Satz zusammen, während die übergreifenden Phrasen eine starre Folge gleich langer Abschnitte verhindern."
         }
       ]
     },
@@ -9043,6 +10069,20 @@ const ATLAS = {
           "examples": [
             "green-jones-vorhalt-bewegter-bass"
           ]
+        },
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [
+            2,
+            4
+          ],
+          "locator": "Kap. 9, S. 342–343, Bsp. 9-31a–c · zweite Spezies im Bass, vierte Spezies in der Oberstimme",
+          "text": "Aus einem gewöhnlichen 9–8-Vorhalt gewinnen Salzer und Schachter zwei Fassungen mit bewegtem Bass. Die Oberstimme löst sich jedes Mal einen Schritt abwärts auf; durch den zusätzlichen Bassgang erscheint die Folge jedoch als 9–10 oder 9–6. Die Zahlen allein verraten die melodische Auflösung also nicht. In ihrer kombinierten Übung soll auf der zweiten Takthälfte ein konsonanter Zusammenklang aller drei Stimmen erreicht werden."
         }
       ]
     },
@@ -9134,7 +10174,8 @@ const ATLAS = {
         "soggetto-und-text",
         "kanon-stimmtausch",
         "doppelter-kontrapunkt",
-        "spiegelumkehr-stimmenpaar"
+        "spiegelumkehr-stimmenpaar",
+        "imitation-funktionswechsel"
       ],
       "authors": [
         {
@@ -9169,7 +10210,8 @@ const ATLAS = {
       "related": [
         "kadenz",
         "kadenzausweichung",
-        "kadenz-unterstimme"
+        "kadenz-unterstimme",
+        "choral-fermate"
       ],
       "authors": [
         {
@@ -9551,6 +10593,172 @@ const ATLAS = {
           "examples": [
             "neidhoefer-schubert-bach-formmitte"
           ]
+        }
+      ]
+    },
+    {
+      "id": "rhythmuswechsel-s5",
+      "title": "Wie wechsle ich im floriden Satz zwischen Vierteln und Halben?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Floridus",
+        "fünfte Spezies",
+        "Rhythmus",
+        "Halbe",
+        "Viertel",
+        "Synkope"
+      ],
+      "related": [
+        "dichte-s5",
+        "anfangsintervall",
+        "dissonanzaufloesung",
+        "rhythmische-selbststaendigkeit"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 5.1, S. 102–104 und 107–110, Bsp. 5-2 bis 5-5, 5-8 und 5-20 · fünfte Spezies, zwei Stimmen",
+          "text": "Eine Halbe mit zwei folgenden Vierteln lässt die Bewegung zunehmen. Die umgekehrte Folge aus zwei Vierteln und einer Halben soll dagegen nur stehen, wenn die Halbe über den nächsten Taktstrich gebunden wird: So trägt sie den Bewegungsimpuls weiter. Die Folge Viertel–Halbe–Viertel schließen die Autoren aus, weil sie den Halbenpuls durch eine Synkope innerhalb des Takts verschiebt. Eine besondere Ausnahme gilt an der Schlusskadenz: Der zur Tonika drängende Leitton darf als ungebundene Halbe auf die kürzere Vorhaltsverzierung folgen.",
+          "speciesScope": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "akkordprolongation",
+      "title": "Wie kann ein Akkord weiterwirken, während andere Zusammenklänge erklingen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Prolongation",
+        "Auskomponierung",
+        "Akkord",
+        "Durchgangsakkord",
+        "Nebennotenakkord",
+        "Stimmtausch"
+      ],
+      "related": [
+        "harmonik",
+        "harmonischer-rhythmus",
+        "linie-orgelpunkt"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 6.2, S. 144–147, Bsp. 6-37 und 6-38 · Auskomponierung eines Klanges, Beispiel von Scheidt",
+          "text": "Ein Akkord kann den Bezug eines Abschnitts bilden, während andere Zusammenklänge erklingen. Salzer und Schachter nennen dies Akkordprolongation. In Scheidts Beispiel bewegen sich die Außenstimmen zwischen Tönen des C-Dur-Dreiklangs: oben von c nach e, unten von e nach c. Der dazwischenliegende Klang entsteht aus den Durchgängen beider Stimmen. Er gehört damit zur Ausarbeitung des übergeordneten Dreiklangs. Dieser muss nicht während der ganzen Bewegung als unveränderter Zusammenklang hörbar bleiben.",
+          "speciesScope": [],
+          "examples": [
+            "salzer-schachter-akkordfunktion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chromatik-ohne-diatonisches-geruest",
+      "title": "Muss jede chromatische Fortschreitung auf ein diatonisches Gerüst zurückgeführt werden?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Chromatik",
+        "Oktavteilung",
+        "große Terzen",
+        "Enharmonik",
+        "Prolongation",
+        "Franz Schubert"
+      ],
+      "related": [
+        "chromatik",
+        "harmonik",
+        "harmonik-enharmonische-spannung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 7.6, S. 215 und 217–218, Bsp. 7-71 · Franz Schubert, Messe in Es-Dur, Sanctus",
+          "text": "Im Sanctus von Franz Schuberts Es-Dur-Messe hören Salzer und Schachter eine Oktavteilung in drei große Terzen: es–ces (enharmonisch h)–g–es. Die tatsächlichen Lagenwechsel verdecken diesen Zusammenhang teilweise. Das ces erklären die Autoren hier ausdrücklich nicht als bloßen Ersatz eines vorausgesetzten c. Maßgeblich ist die gleichmäßige Teilung der Oktave. Innerhalb dieser Passage tritt dadurch der diatonische Bezugsrahmen zurück, während die größere Bewegung die Es-Sonorität ausarbeitet.",
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "imitation-funktionswechsel",
+      "title": "Behält ein Motiv bei der Imitation dieselbe musikalische Funktion?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Imitation",
+        "Kanon",
+        "Wiederkehr",
+        "Stimmführung",
+        "Bass",
+        "Ockeghem"
+      ],
+      "related": [
+        "imitation-und-kanon",
+        "imitation-stimmenpaare",
+        "harmonik"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 10, S. 399–401, Bsp. 10-2a · Ockeghem, Missa Prolationum, Sanctus, T. 4 und 16–19",
+          "text": "In Ockeghems Sanctus werden zwei Stimmen ab Takt 13 kanonisch in der Obersexte beantwortet, nun aber von zwei weiteren Stimmen begleitet. Das e des Contratenors in Takt 4 hören Salzer und Schachter als Verzierung. Das entsprechende c in Takt 16 erhält durch den neuen Bass und die folgende Klangverlängerung größeres strukturelles Gewicht. Kanonische Nachahmung kann daher die melodische Gestalt übernehmen, ohne die Funktion jedes Tons mitzunehmen."
+        }
+      ]
+    },
+    {
+      "id": "choral-fermate",
+      "title": "Beendet jede Fermate im Choral auch einen musikalischen Gedanken?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Choral",
+        "Fermate",
+        "Textzeile",
+        "Phrase",
+        "Kadenz",
+        "Prolongation"
+      ],
+      "related": [
+        "kadenz",
+        "harmonischer-rhythmus",
+        "kadenz-schlussdehnung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "salzer-schachter1989-1",
+          "source": "salzer-schachter1989",
+          "name": "Felix Salzer und Carl Schachter",
+          "work": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
+          "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 269 und 302–305, besonders Bsp. 8-109 (Bach-Choräle 61 und 83 nach der Riemenschneider-Zählung).",
+          "text": "Eine Fermate bezeichnet im Choral zunächst das Ende einer Textzeile. Daraus folgt noch nicht das Ende eines musikalischen Gedankens. In Bsp. 8-109 stehen unter den Fermaten Klänge mit Zwischendominantwirkung, die in die nächste Phrase weiterdrängen und beide Zeilen verbinden. Die Autoren unterscheiden deshalb zwischen Fermaten an wirklichen Abschlüssen und Stellen, an denen ein starkes Anhalten den fortlaufenden Zusammenhang unterbrechen würde.",
+          "speciesScope": []
         }
       ]
     }
@@ -10843,6 +12051,46 @@ const ATLAS = {
       "caption": "Verfolge den Tenoreinsatz in T. 3 und den Alteinsatz in T. 6 zusammen mit dem Generalbass. Neidhöfer und Schubert unterscheiden die melodische Zuordnung zur Tonika- oder Dominantskala von den Harmonien, die beim jeweiligen Einsatz erklingen. Die historischen C-Schlüssel sind beibehalten.",
       "credit": "Carl Heinrich Graun, Der Tod Jesu, Partiturdruck von 1760, S. 55, „Christus hat uns ein Vorbild gelassen“, T. 1–8. Ausschnitt aus dem gemeinfreien Druck; Originalnotation und Generalbassziffern beibehalten. Digitalisat über IMSLP. Entspricht dem Beginn von Bsp. 10.20 bei Neidhöfer und Schubert, S. 209.",
       "url": "https://s9.imslp.org/files/imglnks/usimg/e/e2/IMSLP86649-PMLP177290-graun_tod_jesu.pdf#page=56"
+    },
+    "salzer-schachter-vorhalt-artikulation": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Salzer und Schachter · Ein Vorhalt in zwei Artikulationen",
+      "alt": "Zwei zweistimmige Fassungen. Oben steht f als Ganze, danach f und e als Halbe; unten d und c als Ganze. In Fassung A sind beide f verbunden, in Fassung B wird das zweite f neu angeschlagen. Die Intervalle sind 3–4–3.",
+      "caption": "Spiele beide Fassungen und singe das zweite f einmal gebunden, einmal neu an. Vorbereitung, Dissonanz und absteigende Auflösung bleiben gleich. Die Übung veranschaulicht die Bemerkung zum Choral; sie erweitert nicht die Rhythmusvorgabe einer Aufgabe der vierten Spezies.",
+      "credit": "Eigene schematische Hörübung der Redaktion nach Salzer und Schachter, Counterpoint in Composition, Morningside Edition 1989, Kap. 8, S. 253. Neu notiert; keine Abschrift eines Buchbeispiels.",
+      "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+      "image": "quellen/noten/salzer-schachter-vorhalt-artikulation.webp"
+    },
+    "salzer-schachter-gemischte-dissonanzen": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Salzer und Schachter · Drei dissonante Viertelpositionen im gemischten Satz",
+      "alt": "Dreistimmiger Ausschnitt in D-Dur. Cantus: D3 und Fis3 als Ganze. Halbenstimme: Fis4, E4, danach D4 als Ganze. Viertelstimme: D5, E5, Fis5, G5, danach A5 als Ganze. Die Durchgangstöne E5, E4 und G5 sind farbig markiert.",
+      "caption": "Prüfe auf den Vierteln 2, 3 und 4 jeweils alle Stimmenpaare. Die Dissonanzen greifen ineinander. Jede einzelne Linie führt ihre Durchgänge schrittweise weiter; auf dem folgenden Taktanfang erklingen wieder nur Konsonanzen. Der Ausschnitt ist ein Modell für die Verbindung zweiter und dritter Spezies, kein vollständiger Übungssatz.",
+      "credit": "Eigene Leseübung der Redaktion nach Salzer und Schachter, Kap. 9, S. 338–340. Der neue Ausschnitt erläutert das dort beschriebene Verfahren; keine Abschrift von Bsp. 9-24.",
+      "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+      "image": "quellen/noten/salzer-schachter-gemischte-dissonanzen.webp"
+    },
+    "salzer-schachter-quartvorbereitung": {
+      "kind": "leseanalyse",
+      "catalogue": true,
+      "title": "Salzer und Schachter · Die dissonante Quarte als Vorbereitung",
+      "alt": "Drei Stimmen in zwei Takten: oben E4 und D4 als Ganze, in der Mitte H3–C4 und übergebunden C4–H3 als Halbe, unten ein über beide Takte gehaltenes G2. Die C-Töne sind farbig markiert.",
+      "caption": "Halte das tiefe g über beide Takte. Singe h–c–c–h und höre dazu die obere Stimme e–d. Beim zweiten c entsteht zur Oberstimme eine Sekunde. Salzer und Schachter deuten das c als übergebundene obere Wechselnote des h; die vorbereitende Quarte über dem Bass ist für sie eine mildere Dissonanz.",
+      "credit": "Redaktionelle Lesehilfe nach Salzer und Schachter, Kap. 4, S. 97–100, besonders Bsp. 4-46. Das konventionelle Verfahren ist transponiert und auf seine beiden entscheidenden Takte verkürzt; keine Reproduktion der Buchseite.",
+      "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+      "image": "quellen/noten/salzer-schachter-quartvorbereitung.webp"
+    },
+    "salzer-schachter-akkordfunktion": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Salzer und Schachter · Akkordnamen und Stimmführungsfunktion",
+      "alt": "Drei Takte in G-Dur mit punktierten Halben: oberes D5 durchgehend gebunden, mittlere Stimme H4–A4–H4, Bass G3–Fis3–G3. Unter den Akkorden steht I–V6–I; eine Klammer bezeichnet die mögliche Ausarbeitung von G-Dur.",
+      "caption": "Spiele die drei Klänge und singe die beiden unteren Wechselnoten dazu. Obwohl sich die Dreiklangsnamen ändern, kann der mittlere Klang hier als gemeinsame Nachbarbewegung innerhalb von G-Dur gehört werden. Die Grafik zeigt eine mögliche Lesart; über die selbstständige harmonische Funktion entscheidet der weitere musikalische Zusammenhang.",
+      "credit": "Eigenes schematisches Modell der Redaktion nach Salzer und Schachter, Kap. 6.2, S. 144–149 und 152. Neu notiert; keine Abschrift eines Buchbeispiels.",
+      "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+      "image": "quellen/noten/salzer-schachter-akkordfunktion.webp"
     }
   }
 };
