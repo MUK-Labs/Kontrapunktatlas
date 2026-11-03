@@ -54,6 +54,25 @@ Das Buchsymbol vor dem Werktitel kennzeichnet Lehrbücher und Traktate im Quelle
 
 Autorennamen mit verifiziertem Wikipedia-Artikel sind in den Fragen, Erläuterungen, Quellenangaben und Bildunterschriften verlinkt. Die Biografie öffnet sich in einem neuen Tab. Das gilt auch für Nachnamen und Formen wie „Cherubinis“ oder „Hindemiths“. Im Quellenverzeichnis öffnet der Name die Biografie; das Kästchen oder der übrige Titel wählt das Werk. Der Beleg zur Buchseite bleibt über **Fundstelle öffnen** erreichbar. Unter dem Autorenfilter erscheint für die gewählte Person zusätzlich ein Wikipedia-Link. Namen ohne verifizierte Biografie bleiben als Text stehen.
 
+## Barocken Kontrapunkt mit Neidhöfer und Schubert lesen
+
+Die Werkkennung `neidhoefer-schubert2023` erschließt *Baroque Counterpoint: Revised and Expanded Edition* von Christoph Neidhöfer und Peter Schubert (Albany, State University of New York Press, 2023, ISBN 978-1-4384-9325-1). Die 48 Beiträge zu 37 Fragen folgen den gedruckten Seiten dieser überarbeiteten Ausgabe. Sieben Fragen und sechs Notenbilder kommen hinzu; zwei vorhandene Bach-Ausschnitte werden ebenfalls verwendet. [Verlagsnachweis](https://sunypress.edu/Books/B/Baroque-Counterpoint)
+
+| Frage für den Unterricht | Arbeit am Notentext |
+| --- | --- |
+| [Kann ein konsonanter Zweiklang einen Vorhalt enthalten?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=neidhoefer-schubert2023#frage=konsonanz) | Das fis in T. 5 von Bachs Fis-Dur-Fuge BWV 882 mit der vollständigeren Harmonie in T. 9 vergleichen. |
+| [Kann die notierte Eins schwach sein?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=neidhoefer-schubert2023#frage=betonte-dissonanz) | T. 2–3 der Sinfonia Nr. 13 als drei Viertelschläge zählen und das c auf der notierten Eins von T. 3 einordnen. |
+| [Was sagt eine tonale Antwort über die wirkliche Tonart aus?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=neidhoefer-schubert2023#frage=fuge-reale-tonale-antwort) | In Grauns *Christus hat uns ein Vorbild gelassen* die Einsatzstufen mit der jeweils klingenden Harmonie vergleichen. |
+| [Wie erfinde ich Thema und Kontrasubjekt gemeinsam?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=neidhoefer-schubert2023#frage=fugenthema-und-kontrasubjekt-erfinden) | Im eigenen Notenbeispiel Grundtöne und Terzen verteilen, verzieren und anschließend die Stimmenlage tauschen. |
+| [Warum lässt sich dieselbe Fuge zwei- oder dreiteilig hören?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=neidhoefer-schubert2023#frage=fuge-formanalyse) | Bei BWV 847 Tonartabschnitte, wiederkehrende Motive und den Registerverlauf als verschiedene Gliederungskriterien prüfen. |
+| [Warum wird die vierte Bassstufe aufwärts anders harmonisiert als abwärts?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=neidhoefer-schubert2023#frage=generalbass-oktavregel) | Die Bassfolgen 3–4–5 und 5–4–3 mit ihren jeweiligen Harmonien spielen. |
+
+Weitere neue Fragen behandeln das diatonische Gerüst einer chromatischen Antwort, die Länge eines Sequenzmodells, Scheineinsätze und die Spiegelumkehr eines ganzen Stimmenpaars. Die Vergleiche benennen die jeweilige Aufgabe und den historischen Zusammenhang. So betreffen erlaubte Quinten im notierten Fundamentalbass einen Zwischenschritt der Harmonieplanung. Die Regeln des ausgearbeiteten Satzes bleiben gesondert zu prüfen.
+
+„Strenger“ und „freier“ Stil bezeichnen hier die Lernstufen des barocken Lehrgangs. Die Beiträge erscheinen daher unter **Alle**, ohne nachträgliche Zuordnung zu einer nummerierten Spezies. Die Einträge zur Dissonanz unterscheiden klingenden Abstand, harmonische Funktion und metrische Stellung. Beim Formvergleich werden Ratz und Czaczkes ausdrücklich nach der Darstellung von Neidhöfer und Schubert wiedergegeben.
+
+Die sechs neuen Abbildungen bestehen aus vier Ausschnitten historischer Drucke von Bach und Graun sowie zwei eigens komponierten Leseübungen. Sie illustrieren Hemiola, implizite Vorhaltsfunktion, Formmitte, tonale Antwort, scheinpolyphone Vorhaltsauflösung und die gemeinsame Erfindung zweier Stimmen. Die Herkunft und gegebenenfalls der redaktionelle Charakter stehen bei jedem Bild. Die moderne Buchausgabe wird nicht als PDF oder Bildausschnitt veröffentlicht.
+
 ## Mit Green und Jones vom Choral zur mehrstimmigen Musik
 
 Die Werkkennung `green-jones2011` erschließt *The Principles and Practice of Modal Counterpoint* von Douglass M. Green und Evan Jones (Routledge, 2011, ISBN 978-0-415-98865-0). Die 42 Beiträge zu 31 Fragen verbinden Speziesaufgaben mit Choral, mittelalterlicher Mehrstimmigkeit, Renaissancepolyphonie und dem Übergang zur Tonalität. Sieben Fragen und neun Notenbilder kommen hinzu. Die Fundstellen folgen den gedruckten Seiten der vorliegenden Ausgabe. [Verlagsnachweis](https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650)
