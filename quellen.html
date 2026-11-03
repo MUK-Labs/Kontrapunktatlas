@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6ef">
+  <meta name="description" content="Quellen für den Kontrapunktatlas auswählen und Fragen mit einer bestimmten Auswahl von Lehrwerken und Partituren teilen.">
+  <title>Quellen · Kontrapunktatlas</title>
+  <link rel="stylesheet" href="atlas.css">
+</head>
+<body class="bibliography">
+  <a class="skip-link" id="skip-sources" href="#source-list">Zur Quellenauswahl</a>
+  <header class="masthead">
+    <div class="page-width masthead-inner">
+      <a class="brand atlas-return" href="index.html" aria-label="Kontrapunktatlas – zurück zum Atlas">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect x=".5" y=".5" width="31" height="31" rx="5" fill="#254c3d"/>
+          <g stroke="#f8f6ef" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6.5 22.5 13 16l5.5 1.5 7-8"/>
+            <path d="m6.5 11 6.5 1.5 5.5 8 7-2.5" opacity=".73"/>
+          </g>
+        </svg>
+        <span>Kontrapunktatlas</span>
+      </a>
+      <nav class="masthead-nav" aria-label="Seitennavigation">
+        <a class="atlas-return" href="index.html">Fragen</a>
+        <span class="bibliography-current" aria-current="page">Quellen</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-width">
+    <header class="hero">
+      <div class="eyebrow hero-kicker"><span class="kicker-line" aria-hidden="true"></span> Quellenverzeichnis</div>
+      <h1>Quellen auswählen</h1>
+      <p>Wähle die Werke, die du im Atlas vergleichen möchtest. Im Fragenverzeichnis erscheinen die passenden Fragen mit den Beiträgen und Beispielen deiner Auswahl.</p>
+    </header>
+
+    <div class="bibliography-tools">
+      <div class="bibliography-summary">
+        <p id="source-count" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div class="entry-actions">
+          <button id="source-all" type="button">Alle auswählen</button>
+          <button id="source-none" type="button">Alle abwählen</button>
+        </div>
+      </div>
+      <a class="bibliography-return atlas-return" id="source-return" href="index.html">Mit dieser Auswahl zum Atlas <span aria-hidden="true">→</span></a>
+    </div>
+    <p class="bibliography-hint">Über „Link kopieren“ im Atlas teilst du eine Frage zusammen mit den gewählten Werken. Notenbeispiele gehören jeweils zum Beitrag, den sie erläutern.</p>
+    <div id="source-list" tabindex="-1">
+      <noscript>Die Quellenauswahl benötigt JavaScript.</noscript>
+    </div>
+    <a class="bibliography-return atlas-return" href="index.html">Mit dieser Auswahl zum Atlas <span aria-hidden="true">→</span></a>
+  </main>
+  <footer class="page-width footer">
+    <span>Kontrapunktatlas</span>
+    <span>Unterrichtsmaterial von Adrián Artacho</span>
+  </footer>
+  <script src="atlas-data.js"></script>
+  <script src="source-selection.js"></script>
+  <script src="quellen.js"></script>
+</body>
+</html>

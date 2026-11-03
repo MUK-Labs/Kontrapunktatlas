@@ -25,7 +25,7 @@
       </a>
       <nav class="masthead-nav" aria-label="Seitennavigation">
         <a href="#fragen">Fragen</a>
-        <a href="#quellen">Quellen</a>
+        <a href="quellen.html" data-quellen>Quellen</a>
       </nav>
     </div>
   </header>
@@ -70,6 +70,7 @@
           <div class="eyebrow">Verzeichnis</div>
           <h2 id="directory-heading">Fragen erkunden</h2>
         </header>
+        <p class="directory-sources"><span id="source-summary"></span> <a href="quellen.html" data-quellen>Quellen wählen</a></p>
         <div class="directory-tools" role="search" aria-label="Fragen filtern">
           <div class="filter-field filter-search">
             <label for="search">Suche</label>
@@ -83,7 +84,7 @@
             <select id="group" name="themenbereich"><option value="">Alle Themenbereiche</option></select>
           </div>
           <div class="filter-field">
-            <label for="perspective">Quelle oder Lehransatz</label>
+            <label for="perspective">Fragen nach Autor oder Lehransatz</label>
             <select id="perspective" name="perspektive"><option value="">Alle Perspektiven</option></select>
           </div>
           <label class="image-filter"><input id="illustrated" type="checkbox"> Mit Notenbeispiel</label>
@@ -102,17 +103,10 @@
 
     <section id="quellen" class="sources" aria-labelledby="sources-heading" tabindex="-1">
       <div class="source-heading">
-        <div class="eyebrow">Quellen und Lesart</div>
-        <h2 id="sources-heading">Handout und Werke</h2>
-        <a class="pdf-link" href="quellen/handout.pdf">Handout öffnen <span class="file-type">PDF</span></a>
+        <h2 id="sources-heading">Quellenauswahl</h2>
+        <a href="quellen.html" data-quellen class="source-link">Zum Quellenverzeichnis</a>
       </div>
-      <div class="source-copy">
-        <p>Grundlage sind die Vergleichstabellen aus Adrián Artachos Unterrichtshandout für die MUK (Woche&nbsp;1). Die gedruckten Seiten <strong>6 und 8</strong> vergleichen die fünf Spezies im modalen und tonalen Satz.</p>
-        <p>Auf <strong>Seite 9</strong> stellt Artacho beide Lehrmodelle seiner Lesart von Hindemiths zweistimmigem Kontrapunkt gegenüber. Diese Gegenüberstellung gilt für den zweistimmigen Satz insgesamt. Die Handout-Einträge geben Artachos Zusammenfassung wieder. Zusätzliche Autorenpositionen sind mit Lehrwerk und Fundstelle ausgewiesen.</p>
-        <p>Der Themenbereich <strong>Fuge</strong> führt von Dux und Comes bis zur Engführung. Die Beiträge nennen jeweils die konkrete Aufgabe. Unter „Partiturbeobachtung“ stehen Lesehinweise zum Werk. Wo Autoren dieselbe Stelle unterschiedlich deuten, sind ihre Lesarten einzeln belegt.</p>
-        <p>Im <strong>Generalbass</strong> gibt die Bassstimme das Fundament vor. Beim Spielen ergänzt man die übrigen Stimmen. Försters Wiener Übungen unterscheiden die Intervalle über dem Bass von der Stufe des Basstons in der Tonart. Die Notenbeispiele führen in den Artaria-Druck von 1818.</p>
-        <p>Ein Klick auf ein Notenbild öffnet die Vergrößerung. Der Quellenlink führt zur vollständigen Seite. <strong>Notenbeispiel im Buch öffnen</strong> führt zur betreffenden Druckseite, etwa zu einer Aussetzung bei Noël-Gallon und Marcel Bitsch oder zu Kurths Analyse einer Bach-Fuge. Eigene Leseübungen sind als solche gekennzeichnet und lassen sich auch offline öffnen.</p>
-      </div>
+      <p>Wähle die Werke für deinen Vergleich. Ein kopierter Fragenlink enthält die gewählte Auswahl.</p>
     </section>
   </main>
   <footer class="page-width footer">
@@ -121,6 +115,7 @@
   </footer>
   <div class="sr-only" id="status" role="status" aria-live="polite"></div>
   <script src="atlas-data.js"></script>
+  <script src="source-selection.js"></script>
   <script src="atlas.js"></script>
 </body>
 </html>
