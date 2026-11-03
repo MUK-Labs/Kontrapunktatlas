@@ -778,6 +778,15 @@ const ATLAS = {
           "locator": "Teil I, Kap. V, § 66, S. 35 · Beispiele unter dem ersten Notensystem",
           "text": "Dauert dieselbe Harmonie zwei Takte, kann ein Durchgang oder eine Wechselnote auf der Eins des zweiten Takts stehen. In den beiden bezeichneten Beispielen darf ein Durchgang auf schwerer Zeit außerdem einen Vorhalt begleiten. Die beiden betreffenden Linien gehen schrittweise in Gegenbewegung.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=3"
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 4, S. 44–45, Bsp. 10–12 · harmoniefremder Ton im 2:1",
+          "text": "Im 2:1 darf der akkordfremde Ton auch auf den Schlag fallen und sich auf der zweiten Hälfte auflösen. Bleibt die Harmonie zwei Schläge lang bestehen, kann die Auflösung sogar bis zum zweiten Schlag warten. In Beispiel 12 hält Kennan dafür das c der Oberstimme über den ganzen ersten Schlag des zweiten Takts.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "comparison": "Prout bindet den betonten Durchgang in seiner zweiten Spezies an die Qualität der Linie. Kennan erklärt zusätzlich, wie viel Zeit die zugrunde liegende Harmonie der Auflösung lässt."
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt."
@@ -1065,6 +1074,14 @@ const ATLAS = {
           "examples": [
             "foerster-nr26-t11"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 6, S. 62 und 64–65, Bsp. 4 und 9 · 3:1 und 4:1",
+          "text": "Im 3:1 prüft Kennan jeden Teil eines Schlags auf Quint- und Oktavparallelen zur ersten Note des nächsten. Im 4:1 unterscheidet er die Positionen genauer. Von der zweiten Note einer Vierergruppe zum folgenden Schlag empfindet er solche Parallelen als am wenigsten störend. Auch diese Verbindung bleibt für ihn fraglich.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ]
     },
@@ -1279,6 +1296,15 @@ const ATLAS = {
           "text": "Kurze Kreuzungen zwischen Nachbarstimmen sind erst ab drei Stimmen zugelassen, zunächst nur im Inneren. Ab fünf Stimmen dürfen sich auch im Schlusstakt zwei Stimmen kreuzen. Gegen- und Seitenbewegung werden bevorzugt. Bei gerader Bewegung muss eine Stimme einen Schritt machen.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=6",
           "comparison": "Fux gestattet im zweistimmigen Note-gegen-Note-Beispiel eine Kreuzung über vier Töne. Im einfachen Kontrapunkt von Noël-Gallon und Bitsch beginnt diese Freiheit erst bei drei Stimmen."
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 4, S. 38, Anweisung 2 · erste zweistimmige Übungen",
+          "text": "Für seine ersten zweistimmigen Aufgaben schließt Kennan Stimmkreuzungen vorläufig aus. Beim Lesen lässt sich so jede der beiden Linien als Ober- oder Unterstimme verfolgen.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "comparison": "Cherubini gestattet im Note-gegen-Note-Satz eine kurze Kreuzung, wenn sie die Melodie verbessert. Kennans Einstiegsaufgabe setzt hier die engere Grenze."
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt."
@@ -1643,7 +1669,8 @@ const ATLAS = {
         ]
       },
       "related": [
-        "dissonanzbehandlung"
+        "dissonanzbehandlung",
+        "drei-gegen-eins"
       ],
       "authors": [
         {
@@ -1840,6 +1867,17 @@ const ATLAS = {
           "comparison": "Rothgeb verlangt für die dissonante Bindung in seiner zweistimmigen vierten Spezies die abwärts gerichtete Auflösung. Die Molltonika bildet bei Noël-Gallon und Bitsch einen ausdrücklichen Sonderfall.",
           "examples": [
             "gallon-bitsch-nr-15-16"
+          ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 6, S. 66–69, Bsp. 13 und 18 · Vorhalt in der Unterstimme",
+          "text": "Bei der Folge 7–8 bleibt die Oberstimme liegen und die vorgehaltene Unterstimme löst sich um eine Stufe abwärts zur Oktave. Kennan lässt die Verbindung als Unterrichtslösung zu. Er begründet diese Entscheidung mit ihrem Gebrauch im 18. Jahrhundert und nennt das herkömmliche Verbot im strengen Kontrapunkt ausdrücklich.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "examples": [
+            "kennan-vorhalt-unterstimme"
           ]
         }
       ]
@@ -2207,6 +2245,14 @@ const ATLAS = {
           "text": "Kurth beginnt mit einer einzelnen melodischen Linie. Wer zunächst hört, wie ihre Bewegung über mehrere Töne trägt, kann verfolgen, wie eine zweite Linie mit eigener Bewegungsrichtung hinzutritt. Kurth empfiehlt dafür besonders Bachs Instrumentalmusik, für die Einstimmigkeit auch die Solowerke für Violine und Violoncello.",
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=152",
           "comparison": "Bei Fux erhält der Schüler zuerst den Cantus firmus und sucht zu dessen Tönen passende Gegenstimmen. Kurth beginnt seine Bach-Studien mit dem Verlauf der Einzelstimme."
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 1, S. 2–4 und Kap. 4, S. 35 · tonale Zweistimmigkeit",
+          "text": "Kennan verwendet die Zahlenverhältnisse der Spezies als Schreibübungen für den tonalen Instrumentalsatz. Beide Stimmen sollen ein erkennbares Metrum und gemeinsam eine plausible Harmoniefolge ergeben. Beim Ausarbeiten zählt also auch, auf welchem Schlag ein Zusammenklang eintritt.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ],
       "related": [
@@ -2762,6 +2808,14 @@ const ATLAS = {
           "text": "In zwei Stimmen darf keine Stimme denselben Ton zweimal nacheinander anschlagen. Ab drei Stimmen darf zwischen vorletztem und letztem Takt ausnahmsweise eine Halbe oder Viertel wiederholt werden. Die Wiederholung ganzer Noten in der ersten Spezies erlauben die Autoren erst ab fünf Stimmen und nur sparsam.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=3",
           "comparison": "In derselben zweistimmigen ersten Spezies lässt Rothgeb den wiederholten Ton der Gegenstimme ausdrücklich zu. Bei Fux billigt Aloysius das zweimal angeschlagene a. Noël-Gallon und Bitsch schließen beides für diese Besetzung aus."
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 4, S. 38 und 46–47, Bsp. 15–16 · rhythmische Proportion der Übung",
+          "text": "Unmittelbare Wiederholung desselben Tons vermeidet Kennan bei den Übungen mit festem Zahlenverhältnis. Im 2:1 darf dieselbe Tonhöhe auf zwei aufeinanderfolgenden Schlägen stehen, wenn dazwischen ein anderer Ton erklingt. In Beispiel 16 übernimmt eine untere Wechselnote diese Bewegung.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ]
     },
@@ -2829,6 +2883,14 @@ const ATLAS = {
           "examples": [
             "bach-wtk1-847-tonale-antwort"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 13, S. 179–181, Bsp. 15–17 · g-Moll-Orgelfuge und Musikalisches Opfer",
+          "text": "In Bachs kleiner g-Moll-Orgelfuge BWV 578 hört Kennan am Anfang den Umriss des Tonikadreiklangs. Eine reale Antwort bewahrt diese Gestalt trotz der auffälligen Dominante auf dem zweiten Schlag. Gegenüber stellt er den ähnlichen Themenbeginn aus dem Musikalischen Opfer, den Bach tonal beantwortet. Die Stellung der Dominante allein entscheidet den Fall also nicht.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ]
     },
@@ -2849,7 +2911,8 @@ const ATLAS = {
       "reading": "Vergleiche zwei Abstände getrennt. Der erste liegt zwischen den Anfangstönen von Dux und Comes, der zweite innerhalb des Themas. Eine Quinte aufwärts und eine Quarte abwärts erreichen dieselbe Tonklasse. Für die Tonart der Antwort ist auch der weitere Verlauf wichtig.",
       "related": [
         "fuge-reale-tonale-antwort",
-        "fuge-quintsprung"
+        "fuge-quintsprung",
+        "invention-einsatzplan"
       ],
       "authors": [
         {
@@ -3102,7 +3165,9 @@ const ATLAS = {
         "fuge-exposition",
         "fuge-themenende",
         "fuge-zwischenspiel",
-        "doppelter-kontrapunkt"
+        "doppelter-kontrapunkt",
+        "fuge-doppelfuge",
+        "invention-gegenmotiv"
       ],
       "authors": [
         {
@@ -3161,6 +3226,17 @@ const ATLAS = {
           "locator": "Teil I, § 104, S. 50 · Kontrasubjekt und Stimmtausch",
           "text": "Zum Hauptthema der Fuge können ein oder mehrere Nebenthemen als Kontrasubjekte treten. Da Thema und Kontrasubjekte durch die verschiedenen Stimmen wandern, setzen die Autoren ihre Vertauschbarkeit voraus.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2"
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 15, S. 206–208, Bsp. 3 · WTK I/2, BWV 847, T. 7–8",
+          "text": "Mit dem Basseinsatz übernimmt der Sopran das erste Kontrasubjekt. Der Alt setzt etwas später ein und läuft zunächst in Terzen mit dem Sopran. Kennan nennt die Altfigur ein zweites Kontrasubjekt, weil sie erkennbar wiederkehrt. Eine ähnlich profilierte Figur, die nur einmal auftritt, wäre dafür kein hinreichender Beleg.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "examples": [
+            "kennan-bach-bruecke"
+          ]
         }
       ]
     },
@@ -3181,7 +3257,9 @@ const ATLAS = {
       "related": [
         "fuge-reale-tonale-antwort",
         "fuge-gegenexposition",
-        "fuge-zwischenspiel"
+        "fuge-zwischenspiel",
+        "fuge-doppelfuge",
+        "invention-einsatzplan"
       ],
       "authors": [
         {
@@ -3211,6 +3289,18 @@ const ATLAS = {
           "kind": "partitur",
           "examples": [
             "bach-wtk1-846-antwort"
+          ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 15, S. 206–209, Bsp. 3–4 · dreistimmige Exposition und zusätzlicher Einsatz",
+          "text": "In Bachs dreistimmiger c-Moll-Fuge BWV 847 endet die Exposition mit dem dritten Einsatz (T. 7–8). In anderen dreistimmigen Fugen bringt eine der Stimmen einen vierten Einsatz auf der Dominante. Kennan nennt im ersten WTK-Band die Fugen Nr. 6, 8, 19 und 21.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "comparison": "Gédalge schreibt für seine Schulfuge auch bei kleiner Besetzung mindestens vier Einsätze vor. Bei Kennan ist der vierte Einsatz im dreistimmigen Repertoire eine Möglichkeit.",
+          "examples": [
+            "kennan-bach-bruecke"
           ]
         }
       ]
@@ -3269,6 +3359,15 @@ const ATLAS = {
           "examples": [
             "fuge-bach-bwv854-gegenexposition"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 15, S. 218 · Begriff und Beispiele aus beiden Teilen des WTK",
+          "text": "Kennan reserviert den Begriff für eine neue Einsatzgruppe, die gewöhnlich wieder Tonika und Dominante durchläuft. Die Stimmen treten oft in anderer Reihenfolge ein. Einen einzelnen Tonikaeinsatz im Mittelteil zählt er ausdrücklich nicht dazu. In der H-Dur-Fuge des zweiten WTK-Bandes hört er eine partielle Gegenexposition.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "comparison": "Gédalge gibt für die Schulfuge zwei Einsätze mit vertauschten Rollen vor. Kennan richtet seine Begriffsgrenze nach der ganzen Einsatzgruppe und ihrem Tonartenplan."
         }
       ]
     },
@@ -3339,6 +3438,17 @@ const ATLAS = {
           "comparison": "Prout grenzt Codetta und Zwischenspiel nach ihrem Platz zwischen den Einsätzen ab. Kurth verfolgt an diesem Zwischenspiel, welches Material die Fortsetzung trägt.",
           "examples": [
             "kurth-nr38"
+          ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 15, S. 207, Bsp. 3, und Kap. 16, S. 220–222, Bsp. 1a–c · WTK I/2, BWV 847",
+          "text": "Die Fortspinnung in Takt 5–6 überbrückt innerhalb der Exposition den Weg vom Dominanteinsatz zurück zum Basseinsatz in c-Moll. Das Zwischenspiel in Takt 9–10 führt dagegen nach Es-Dur. Hier wandert der Themenkopf zwischen den Oberstimmen, während der Bass Material des ersten Kontrasubjekts verarbeitet.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "examples": [
+            "kennan-bach-bruecke"
           ]
         }
       ]
@@ -3437,7 +3547,8 @@ const ATLAS = {
         "harmonik",
         "rhythmische-selbststaendigkeit",
         "betonte-dissonanz",
-        "generalbass-sextakkord"
+        "generalbass-sextakkord",
+        "drei-gegen-eins"
       ],
       "authors": [
         {
@@ -3474,6 +3585,15 @@ const ATLAS = {
           "examples": [
             "foerster-nr26-t3"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 6, S. 63–64, Bsp. 6–8 · vier Noten gegen eine",
+          "text": "Die vier bewegten Töne gehören bei Kennan gewöhnlich zu einer Harmonie pro Schlag. Die erste und dritte Note haben mehr metrisches Gewicht und sind häufig Akkordtöne. Ein Harmoniewechsel innerhalb des Schlags ist gelegentlich möglich.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "comparison": "Förster zeigt in Nr. 26 ausdrücklich zwei Griffe über demselben Bass. Bei Kennan prüft man zunächst, wie viele der vier Töne sich als Bewegung innerhalb eines einzigen Klangs hören lassen."
         }
       ]
     },
@@ -3530,6 +3650,14 @@ const ATLAS = {
           "examples": [
             "kurth-nr152"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 11, S. 147–149, Bsp. 4–5 · drei Stimmen",
+          "text": "Kennan unterscheidet verschiedene Verteilungen der Bewegung. In Bachs 13. Goldberg-Variation bilden Mittelstimme und Bass gemeinsam einen ruhigen Hintergrund für die verzierte Oberstimme. Im Largo der Triosonate aus dem Musikalischen Opfer verfolgt er dagegen drei verschiedene rhythmische Muster.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ]
     },
@@ -3553,7 +3681,8 @@ const ATLAS = {
         "fuge-kontrasubjekt",
         "stimmabstand",
         "stimmkreuzung",
-        "kanon-verfahren"
+        "kanon-verfahren",
+        "fuge-doppelfuge"
       ],
       "authors": [
         {
@@ -3587,6 +3716,14 @@ const ATLAS = {
           "examples": [
             "gallon-bitsch-nr-119"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 9, S. 118–121, Bsp. 5–6 · WTK II/16, BWV 885",
+          "text": "Zum Vergleich transponiert Kennan die vertauschten Stimmen aus Bachs g-Moll-Fuge zunächst in die Ausgangstonart zurück. Nun lässt sich ablesen, wie weit jede Stimme versetzt wurde. Veränderte Einzeltöne nimmt er von der Messung aus. So unterscheidet er die Vertauschung in der Dezime von der in der Duodezime.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ]
     },
@@ -3608,7 +3745,8 @@ const ATLAS = {
         "fuge-engfuehrung",
         "fuge-reale-tonale-antwort",
         "rhythmische-selbststaendigkeit",
-        "kanon-verfahren"
+        "kanon-verfahren",
+        "kanon-spiralkanon"
       ],
       "authors": [
         {
@@ -3638,6 +3776,14 @@ const ATLAS = {
           "examples": [
             "gallon-bitsch-nr-135"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 8, S. 91–94, Bsp. 1–4 · Einsatzabstände und freie Begleitstimme",
+          "text": "Kennan unterscheidet beim Kanon den zeitlichen Einsatzabstand und das Tonintervall zwischen den beiden Anfangstönen. In Bachs A-Dur-Sonate BWV 1015 imitiert die rechte Hand des Cembalos die Violine im Einklang mit einem Takt Abstand. Die linke Hand führt dazu eine freie Bassstimme.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ]
     },
@@ -3748,7 +3894,8 @@ const ATLAS = {
         "imitation-und-kanon",
         "rhythmische-selbststaendigkeit",
         "fuge-engfuehrung",
-        "doppelter-kontrapunkt"
+        "doppelter-kontrapunkt",
+        "kanon-spiralkanon"
       ],
       "comparisons": [],
       "authors": [
@@ -4038,6 +4185,15 @@ const ATLAS = {
             "kurth-nr153",
             "kurth-zwei-lagen"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 2, S. 10–11, Bsp. 10–11 · compound line in Bachs Chaconne",
+          "text": "Kennan trennt die Töne einer Passage aus Bachs Chaconne für Solovioline in drei gedachte Stimmen. Beim Spielen wechseln sie sich ab. Schreibt man ihren Verlauf auf mehrere Systeme, wird auch hörbar, wie eine einzelne Violine eine Harmonie andeuten kann.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "comparison": "Kurth verfolgt in der C-Dur-Solofuge den länger aufsteigenden Zug der Spitzentöne. Kennans Reduktion der Chaconne macht drei abwechselnd angespielte Linien und ihren harmonischen Zusammenhang kenntlich."
         }
       ]
     },
@@ -4093,7 +4249,8 @@ const ATLAS = {
       "related": [
         "hoehepunkt",
         "fuge-zwischenspiel",
-        "fuge-themenende"
+        "fuge-themenende",
+        "invention-gegenmotiv"
       ],
       "authors": [
         {
@@ -4106,6 +4263,14 @@ const ATLAS = {
             "kurth-bach-fortspinnung",
             "kurth-nr33"
           ]
+        },
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 10, S. 135–136, Bsp. 8 · Episode der Es-Dur-Invention BWV 776",
+          "text": "Das Hauptmotiv der Es-Dur-Invention enthält selbst schon eine kleine Sequenz. Seine Anfangsfigur kehrt einen Schritt höher wieder. In der Episode fügt Bach ein drittes Glied hinzu und gibt der Folge einen anderen harmonischen Zusammenhang. So lässt sich aus einem Teil des Motivs eine längere Fortsetzung gewinnen.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true
         }
       ]
     },
@@ -4141,6 +4306,199 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=79",
           "examples": [
             "kurth-enharmonische-spannung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drei-gegen-eins",
+      "title": "Wie schreibe ich drei Töne gegen einen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Drei gegen eins",
+        "3:1",
+        "Triolen",
+        "zweite Spezies",
+        "Gerüstsatz",
+        "Quarte",
+        "Durchgang",
+        "Kennan"
+      ],
+      "reading": "Spiele zuerst nur die beiden Gerüsttöne, dann alle drei Unterteilungen bis zum Zielton. Welche hinzugekommenen Töne gehören zur angenommenen Harmonie?",
+      "comparisons": [],
+      "related": [
+        "dissonanzen-s2",
+        "harmonischer-rhythmus",
+        "parallelen"
+      ],
+      "authors": [
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 4, S. 35, und Kap. 6, S. 60–62, Bsp. 2 und 5 · drei Töne gegen einen",
+          "text": "Kennan rechnet das 3:1 zur zweiten Spezies. Eine Quarte zwischen zwei Gerüsttönen lässt sich durch zwei zusätzliche Töne schrittweise ausfüllen. Welche davon akkordfremd sind, entscheidet die zugrunde liegende Harmonie. Man kann die bewegte Stimme auch unmittelbar erfinden.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "examples": [
+            "kennan-drei-gegen-eins"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+          "locator": "Kap. IV, § 110 mit Fußnote, S. 58, und Kap. VI, §§ 236–237, S. 96–97 · drei Noten gegen eine",
+          "text": "Prout zählt das 3:1 zur dritten Spezies. Seine Begründung betrifft die beiden Zwischentöne. Sie können zwei aufeinanderfolgende Durchgangstöne bilden. In diesem Fall verlangt er, dass ihr Zielton auch zum folgenden Akkord gehört.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=62",
+          "comparison": "Prout und Kennan benennen dieselbe rhythmische Aufgabe verschieden. An beiden Beispielen lässt sich unabhängig von der Speziesnummer hören, welche Töne zwischen den Gerüsttönen zur Harmonie gehören.",
+          "examples": [
+            "prout-drei-gegen-eins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invention-gegenmotiv",
+      "title": "Wann wird die Begleitstimme einer Invention zum Gegenmotiv?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Invention",
+        "Gegenmotiv",
+        "Begleitstimme",
+        "Wiederkehr",
+        "Kontrasubjekt",
+        "BWV 776"
+      ],
+      "reading": "Merke dir beim ersten Hören eine kurze Figur der Begleitstimme. Wo taucht sie noch einmal auf, und welche Stimme spielt dann das Hauptmotiv?",
+      "comparisons": [],
+      "related": [
+        "invention-einsatzplan",
+        "fuge-kontrasubjekt",
+        "doppelter-kontrapunkt"
+      ],
+      "authors": [
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 10, S. 127–129, Bsp. 1b · Gegenmotiv in der zweistimmigen Invention",
+          "text": "Ein Gegenmotiv kehrt als melodisch erkennbare Linie zum Hauptmotiv wieder und ergänzt dessen Rhythmus. In Bachs Es-Dur-Invention zählt Kennan die ersten beiden Basstöne zur freien Begleitung. Die anschließende Sechzehntelfigur identifiziert er als Gegenmotiv. Sie erklingt in der zweiten Hälfte von Takt 5 in der Oberstimme.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "examples": [
+            "kennan-bach-gegenmotiv"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invention-einsatzplan",
+      "title": "Muss der zweite Einsatz einer Invention in der Dominanttonart stehen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Invention",
+        "Imitation",
+        "Einsatzplan",
+        "Oktave",
+        "Dominantstufe",
+        "Dominanttonart",
+        "Modulation",
+        "BWV 772"
+      ],
+      "reading": "Singe die Anfangstöne der Motiveinsätze und prüfe dann, ob auch die begleitenden Stimmen die Tonart wechseln.",
+      "comparisons": [],
+      "related": [
+        "invention-gegenmotiv",
+        "fuge-antwortintervall",
+        "fuge-exposition",
+        "imitation-und-kanon"
+      ],
+      "authors": [
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 10, S. 127–131, Bsp. 1a und Einsatzpläne · zweistimmige Invention",
+          "text": "Bach lässt in der C-Dur-Invention zunächst beide Stimmen auf c, danach beide auf g einsetzen. Kennan unterscheidet die Tonhöhe des Einsatzes von der Tonart. Die Einsätze auf g stehen hier weiter in C-Dur. In anderen Inventionen kann auf zwei Tonikaeinsätze unmittelbar ein Zwischenspiel folgen.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "examples": [
+            "kennan-bach-invention-c"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuge-doppelfuge",
+      "title": "Wann ist eine Fuge mit zwei Themen eine Doppelfuge?",
+      "group": "Fuge",
+      "tags": [
+        "Doppelfuge",
+        "zwei Themen",
+        "zweites Thema",
+        "Kontrasubjekt",
+        "Themenkombination",
+        "BWV 887",
+        "gis-Moll",
+        "Doppelthema"
+      ],
+      "reading": "Lerne beide Themenköpfe einzeln. Spiele die Stelle, an der sie zusammenkommen, und singe abwechselnd den einen und den anderen mit.",
+      "comparisons": [],
+      "related": [
+        "fuge-kontrasubjekt",
+        "doppelter-kontrapunkt",
+        "fuge-exposition"
+      ],
+      "authors": [
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 17, S. 240–244 · drei Anlageformen der Doppelfuge, WTK II/18 als Beispiel zu Typ 2b auf S. 243",
+          "text": "Kennan verlangt eine Stelle, an der beide Themen gleichzeitig erklingen. Sie können schon am Anfang als Paar auftreten oder zunächst getrennt vorgestellt werden. In Bachs gis-Moll-Fuge erscheint das zweite Thema in Takt 61. Ab Takt 97 begegnet es dem ersten. Ein oft wiederkehrendes Kontrasubjekt kann bei Kennan ebenfalls das Gewicht eines zweiten Themas gewinnen.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "comparison": "Kennan erwähnt auch den weiteren Sprachgebrauch, bei dem zwei Themen schon für die Bezeichnung Doppelfuge ausreichen.",
+          "examples": [
+            "kennan-bach-doppelfuge"
+          ]
+        },
+        {
+          "name": "Ebenezer Prout",
+          "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
+          "locator": "Fuge Nr. 42, S. 78–79 · WTK II/18, BWV 887, T. 61 und 97",
+          "text": "Prout lässt für das neu auftretende Thema auch die Bezeichnung Kontrasubjekt gelten. Er hebt hervor, dass es ab Takt 61 eine eigene Exposition erhält. In Takt 97 verfolgt er das erste Thema im Bass und das zweite im Alt.",
+          "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=83"
+        }
+      ]
+    },
+    {
+      "id": "kanon-spiralkanon",
+      "title": "Wie kehrt ein Kanon in einer anderen Tonart wieder?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Spiralkanon",
+        "Modulationskanon",
+        "Canon per tonos",
+        "BWV 1079",
+        "Musikalisches Opfer",
+        "Ganzton",
+        "Tonartwechsel"
+      ],
+      "reading": "Spiele die ersten Töne der Durchgänge nacheinander. Verfolge dann im vollständigen Satz, wie der Schluss eines Durchgangs den nächsten Anfang vorbereitet.",
+      "comparisons": [],
+      "related": [
+        "imitation-und-kanon",
+        "kanon-verfahren",
+        "invention-einsatzplan",
+        "fuge-modulierendes-thema"
+      ],
+      "authors": [
+        {
+          "name": "Kent Kennan",
+          "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+          "locator": "Kap. 8, S. 114 · Spiralkanon, Bachs Musikalisches Opfer",
+          "text": "Beim Spiralkanon erreicht ein Durchgang eine andere Tonart. Dort kann der nächste beginnen. In Bachs Canon a 2 per tonos steigt die Tonika jeweils um einen Ganzton. Nach sechs Durchgängen ist c wieder erreicht, eine Oktave über dem ersten c.",
+          "url": "https://iucat.iu.edu/iub/4609610",
+          "catalogue": true,
+          "examples": [
+            "kennan-bach-spiralkanon"
           ]
         }
       ]
@@ -5131,6 +5489,74 @@ const ATLAS = {
       "credit": "Luigi Cherubini, Cours de contrepoint et de fugue, deutsch-französische Ausgabe, S. 46, Bsp. 118. Eigenständig ausgewähltes Vergleichsbeispiel aus dem gemeinfreien Druck.",
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf#page=47",
       "image": "quellen/noten/cherubini-vierstimmige-pruefung.webp"
+    },
+    "kennan-drei-gegen-eins": {
+      "title": "Vom Gerüst zur Dreiergruppe",
+      "kind": "leseuebung",
+      "caption": "Spiele die Oberstimme erst als c–f und dann als c–d–e–f. Über dem ersten Bass bildet das d eine Quarte. Das folgende e gehört schon wieder zum a-Moll-Dreiklang. Die drei Viertel führen gemeinsam zum f über dem neuen Bass.",
+      "alt": "Zwei Ausschnitte im Dreivierteltakt. Links führt die Oberstimme mit punktierten Halben von c nach f über den Basstönen A und d. Rechts steigt sie über dem A zunächst in Vierteln c–d–e, ehe sie das f über d erreicht.",
+      "credit": "Eigenes Notenbeispiel der Atlasredaktion zum Ausarbeiten einer Quarte in 3:1 nach Kent Kennan, Kap. 6, S. 60–62. Eigene Tonfolge und Harmonisierung.",
+      "url": "https://iucat.iu.edu/iub/4609610",
+      "catalogue": true,
+      "image": "quellen/noten/kennan-drei-gegen-eins.webp"
+    },
+    "kennan-bach-gegenmotiv": {
+      "title": "BWV 776 · Dieselbe Figur wechselt die Stimme",
+      "alt": "Die letzten sieben Sechzehntel von Takt 1 in der Unterstimme und von Takt 5 in der Oberstimme. Die zweite Folge wiederholt die Gestalt der ersten auf anderer Tonhöhe.",
+      "caption": "Singe zuerst es–d–es–c–d–b–c. Die entsprechende Figur beginnt in Takt 5 auf b. Höre in der vollständigen Partitur, was die jeweils andere Stimme gleichzeitig spielt.",
+      "credit": "J. S. Bach, Invention in Es-Dur BWV 776, T. 1 und 5. Notenvergleich zu Kennans Bsp. 1b. Redaktioneller Neusatz nach der gemeinfreien Mutopia-Ausgabe von Allen Garvin auf Grundlage der Bach-Gesellschaft.",
+      "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV776/bach-invention-05/bach-invention-05-a4.pdf#page=1",
+      "image": "quellen/noten/kennan-bach-gegenmotiv.webp"
+    },
+    "kennan-bach-invention-c": {
+      "title": "BWV 772 · Vier Einsätze über zwei Takte",
+      "alt": "Zwei Takte in C-Dur. Der grün markierte Motivkopf setzt im ersten Takt oben und unten auf c, im zweiten Takt oben und unten auf g ein.",
+      "caption": "Verfolge die sieben Sechzehntel ab jedem grün markierten Anfang. Prüfe besonders das f in der Oberstimme am Ende von Takt 2. Wie verändert ein versuchsweise gespieltes fis den Höreindruck?",
+      "credit": "J. S. Bach, Invention in C-Dur BWV 772, T. 1–2. Redaktioneller Neusatz nach jeff coveys Mutopia-Ausgabe (Bach-Gesellschaft). Farbmarkierung ergänzt, Verzierungen ausgelassen. Grafik unter CC BY-SA 3.0 wie die Vorlage.",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=40",
+      "image": "quellen/noten/kennan-bach-invention-c.webp"
+    },
+    "kennan-bach-doppelfuge": {
+      "title": "BWV 887 · Das zweite Thema allein und zusammen mit dem ersten",
+      "caption": "Die Marken zeigen die Taktanfänge. Singe oben den ersten Themenkopf, in der mittleren Zeile den zweiten ab Takt 61 im Sopran. In Takt 97 beginnt im Bass wieder das erste Thema, im Alt das zweite. Versuche, deine Aufmerksamkeit zwischen den beiden zu wechseln.",
+      "alt": "Drei Ausschnitte aus der gis-Moll-Fuge mit Markierungen für Takt 1, 61 und 97. Der erste und der zweite Themenkopf erscheinen zuerst getrennt, zuletzt zusammen im Bass und im Alt.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier II, BWV 887. Bach-Gesellschaft, Bd. XIV, hg. Franz Kroll (Leipzig, 1866), S. 168–170. Drei Ausschnitte aus dem gemeinfreien Druck. Markierungen der Atlasredaktion. Kennan, Kap. 17, S. 243.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf#page=82",
+      "image": "quellen/noten/kennan-bach-doppelfuge.webp"
+    },
+    "kennan-bach-bruecke": {
+      "title": "BWV 847 · Die Brücke und der dritte Themeneinsatz",
+      "caption": "Die erste Zeile umfasst Takt 4–6. Verfolge die kurzen Themenköpfe in Takt 5–6 und höre auf den harmonischen Wechsel vor dem Eintritt des Basses. Ab Takt 7 in der zweiten Zeile lassen sich drei Funktionen unterscheiden. Singe das Thema im Bass, das erste Kontrasubjekt im Sopran und dann den später einsetzenden Alt.",
+      "alt": "Zwei Klaviersysteme mit Takt 4–9 aus der c-Moll-Fuge. In der ersten Zeile schweigt der Bass. Zu Beginn der zweiten Zeile erscheint das Thema im Bass gegen zwei verschiedene Gegenstimmen.",
+      "credit": "J. S. Bach, Das wohltemperirte Clavier I, BWV 847. Bach-Gesellschaft, Bd. XIV, hg. Franz Kroll (Leipzig, 1866), S. 8. Ausschnitt aus dem gemeinfreien Druck. Vergleich zu Kennan, Kap. 15, Bsp. 3.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8",
+      "image": "quellen/noten/kennan-bach-bruecke.webp"
+    },
+    "kennan-bach-spiralkanon": {
+      "title": "BWV 1079 · drei Anfänge im Ganztonabstand",
+      "alt": "Die Oberstimme beginnt in Takt 1 auf c, in Takt 9 auf d, in Takt 17 auf e. Der Rhythmus aus einer Halben und vier Achteln bleibt erhalten.",
+      "caption": "Singe jeweils die fünf Töne eines Ausschnitts. Beim nächsten Durchgang bleibt die Gestalt erhalten und der Anfang liegt einen Ganzton höher. Spiele darunter die Folge der Toniken bis zum erneuten c. Die letzten Stufen sind enharmonisch vereinfacht geschrieben.",
+      "credit": "J. S. Bach, Musikalisches Opfer BWV 1079, Canon a 2 per tonos. Oberstimme nach der Auflösung in der Neuen Bach-Ausgabe VIII/1, Anhang II, S. 72–74, T. 1, 9 und 17. Kurze Ausschnitte neu notiert, Vorzeichen einzeln gesetzt. Kennan beschreibt den Tonartenweg auf S. 114.",
+      "url": "https://imslp.eu/files/imglnks/euimg/8/8e/IMSLP459603-PMLP04550-bachNBAVIII%2C1musikalischesopferBWV1079anhangIIaufl%C3%B6sungenderkanonischens%C3%A4tze.pdf#page=3",
+      "image": "quellen/noten/kennan-bach-spiralkanon.webp"
+    },
+    "kennan-vorhalt-unterstimme": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Die Unterstimme löst eine Septime zur Oktave auf",
+      "alt": "Die Oberstimme geht von h nach c und hält c. In der Unterstimme wird d über den Taktstrich gebunden und fällt dann auf c. Die Intervalle lauten 6–7–8.",
+      "caption": "Halte das d über den Taktstrich, während die Oberstimme von h nach c steigt. Löse erst auf dem zweiten Schlag nach c auf. Singe die Unterstimme und höre, wie durch ihren Abwärtsschritt der Abstand von der Septime zur Oktave wächst.",
+      "credit": "Eigenes zweistimmiges Notenbeispiel der Atlasredaktion zu Kennans Besprechung des 7–8-Vorhalts, Kap. 6, S. 68–69. Eigene Tonfolge.",
+      "url": "https://iucat.iu.edu/iub/4609610",
+      "image": "quellen/noten/kennan-vorhalt-unterstimme.webp"
+    },
+    "prout-drei-gegen-eins": {
+      "title": "Prout · dieselben drei Viertel, zwei verschiedene Zielklänge",
+      "alt": "Zwei zweistimmige Beispiele mit g–a–h–c in der Oberstimme. Links endet der Bass auf a, rechts auf g.",
+      "caption": "Spiele g–a–h–c zu beiden Basslinien. Bei „Good“ erreicht das c eine Terz über a. Bei „Bad“ steht es als Quarte über g. Wie ändert der zweite Basston den Eindruck der vorausgehenden Durchgänge?",
+      "credit": "Ebenezer Prout, Counterpoint: Strict and Free, 3. Auflage, S. 97, Notenpaar zu § 237. Cornell University Library / Internet Archive, gemeinfreier Druck.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=101",
+      "image": "quellen/noten/prout-drei-gegen-eins.webp"
     }
   }
 };

@@ -279,9 +279,12 @@
       }
       const caption = el(bookLink ? "div" : "figcaption", "score-caption");
       const label = analysis ? "Lesehilfe zum Buchbeispiel" : exercise ? "Leseübung der Redaktion" : bookLink ? name + " · Beispiel im Buch" : name;
+      const sourceLabel = example.catalogue ? "Bibliotheksnachweis zum Lehrwerk" :
+        bookLink || analysis ? "Notenbeispiel im Buch öffnen (PDF)" :
+        exercise ? "Regel im Buch öffnen (PDF)" : "Originalseite öffnen";
       caption.append(el("span", "eyebrow", label), el("h4", "", example.title),
         el("p", "", example.caption), el("small", "ref", example.credit),
-        link(bookLink || analysis ? "Notenbeispiel im Buch öffnen (PDF)" : exercise ? "Regel im Buch öffnen (PDF)" : "Originalseite öffnen", example.url, "source-link"));
+        link(sourceLabel, example.url, "source-link"));
       figure.append(caption);
       section.append(figure);
     }
