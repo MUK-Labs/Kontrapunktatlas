@@ -54,6 +54,22 @@ Das Buchsymbol vor dem Werktitel kennzeichnet Lehrbücher und Traktate im Quelle
 
 Autorennamen mit verifiziertem Wikipedia-Artikel sind in den Fragen, Erläuterungen, Quellenangaben und Bildunterschriften verlinkt. Die Biografie öffnet sich in einem neuen Tab. Das gilt auch für Nachnamen und Formen wie „Cherubinis“ oder „Hindemiths“. Im Quellenverzeichnis öffnet der Name die Biografie; das Kästchen oder der übrige Titel wählt das Werk. Der Beleg zur Buchseite bleibt über **Fundstelle öffnen** erreichbar. Unter dem Autorenfilter erscheint für die gewählte Person zusätzlich ein Wikipedia-Link. Namen ohne verifizierte Biografie bleiben als Text stehen.
 
+## Mit Green und Jones vom Choral zur mehrstimmigen Musik
+
+Die Werkkennung `green-jones2011` erschließt *The Principles and Practice of Modal Counterpoint* von Douglass M. Green und Evan Jones (Routledge, 2011, ISBN 978-0-415-98865-0). Die 42 Beiträge zu 31 Fragen verbinden Speziesaufgaben mit Choral, mittelalterlicher Mehrstimmigkeit, Renaissancepolyphonie und dem Übergang zur Tonalität. Sieben Fragen und neun Notenbilder kommen hinzu. Die Fundstellen folgen den gedruckten Seiten der vorliegenden Ausgabe. [Verlagsnachweis](https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650)
+
+| Frage für den Unterricht | Was sich vergleichen lässt |
+| --- | --- |
+| [Muss die vierte Spezies mit einer Pause beginnen?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=green-jones2011,gallon-bitsch1964#frage=anfangsintervall&spezies=4) | Green und Jones zeigen einen Beginn auf der Eins, damit der zweite Ton gebunden werden kann. Das eigene Notenbeispiel stellt beide Anfänge gegenüber. |
+| [Dürfen Quinten auf schweren Zeiten wiederkehren?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=green-jones2011#frage=parallelen&spezies=2) | Im Zweistimmensatz prüfen die Autoren Fux’ Quintenfolge. Im Dreistimmensatz erlauben sie bestimmte Folgen unter drei ausdrücklich genannten Bedingungen. |
+| [Wie kann ein abwärts aufgelöster Vorhalt zur Dezime werden?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=green-jones2011#frage=vorhalt-bewegte-begleitstimme) | Dieselbe Oberstimme mit liegendem und mit bewegtem Bass spielen: Aus 9–8 wird 9–10. |
+| [Was bewirken zwei Leittöne in einer Ars-nova-Kadenz?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=green-jones2011#frage=doppelleitton-kadenz) | In Machauts Kadenz auf c die parallelen Quinten des steigenden Stimmenpaars gegen den fallenden Tenor hören. |
+| [Wie lässt sich ein Stimmenpaar imitieren?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=green-jones2011#frage=imitation-stimmenpaare) | Im Beginn von Lassus’ *Resonet in laudibus* beide Linien und ihren Einsatzabstand beim Wechsel zum zweiten Paar verfolgen. |
+
+Der Lehrgang behandelt die erste, zweite und vierte Spezies ausdrücklich. Die späteren Kapitel zum frei geführten modalen Vokalsatz erhalten deshalb keine nachträgliche Zuordnung zu S3 oder S5. Historische Beobachtungen erscheinen unter **Alle**. Unterschiede zwischen zwei und drei Stimmen sowie zwischen einer Schreibaufgabe und einem historischen Satz stehen jeweils im Beleg. Auch die als „consonant fourth“ beschriebene Vorbereitung eines Vorhalts ist an die genannten Bedingungen des mehrstimmigen Satzes gebunden.
+
+Die Abbildungen umfassen Ausschnitte gemeinfreier Drucke von Fux, Lassus, Palestrina und des *Graduale Romanum* von 1908, eine gekennzeichnete Reduktion der Machaut-Kadenz und drei eigene Leseübungen. Der Ausschnitt aus *Alle psallite cum luya* verwendet Monique Rios Notensatz unter CC BY 4.0; Urheberschaft, Bearbeitung und Lizenz stehen beim Bild. Die vollständige moderne Buchausgabe wird nicht mitveröffentlicht.
+
 ## Tonalen Kontrapunkt mit Thomas Benjamin lesen
 
 Die Werkkennung `benjamin1986` erschließt *Counterpoint in the Style of J. S. Bach* (New York, Schirmer Books, 1986, ISBN 0-02-870280-8). Benjamin erläutert in seinen Hinweisen für Lehrende (S. xi–xii), weshalb seine Übungen von Bachs Instrumentalsätzen ausgehen. Die Quellenbelege verbinden die Aufgaben mit den bei ihm analysierten Takten. [Bibliotheksnachweis](https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach)
