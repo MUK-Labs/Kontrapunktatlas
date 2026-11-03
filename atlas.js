@@ -89,6 +89,7 @@
   function sourcesPage(topic) {
     const url = new URL("quellen.html", location.href);
     url.search = location.search;
+    url.searchParams.delete("von");
     url.hash = topic ? fragment(topic, species, answerId) : "";
     return AtlasSources.write(url, sourceIds).href;
   }
@@ -659,7 +660,10 @@
   contrasted.addEventListener("change", renderList);
   const home = new URL("index.html", location.href);
   home.search = location.search;
+  home.searchParams.delete("von");
   document.querySelector(".brand").href = AtlasSources.write(home, sourceIds).href;
+  const differences = AtlasSources.write(new URL("unterschiede.html", location.href), sourceIds).href;
+  for (const a of document.querySelectorAll("[data-unterschiede]")) a.href = differences;
   for (const a of document.querySelectorAll(".case-links a")) {
     const id = new URLSearchParams(a.getAttribute("href").slice(1)).get("frage");
     if (!byId.has(id)) {

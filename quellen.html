@@ -24,6 +24,7 @@
       </a>
       <nav class="masthead-nav" aria-label="Seitennavigation">
         <a class="atlas-return" href="index.html">Fragen</a>
+        <a href="unterschiede.html" data-unterschiede>Unterschiede</a>
         <span class="bibliography-current" aria-current="page">Quellen</span>
       </nav>
     </div>
@@ -33,7 +34,7 @@
     <header class="hero">
       <div class="eyebrow hero-kicker"><span class="kicker-line" aria-hidden="true"></span> Quellenverzeichnis</div>
       <h1>Quellen auswählen</h1>
-      <p>Wähle die Werke, die du im Atlas vergleichen möchtest. Im Fragenverzeichnis erscheinen die passenden Fragen mit den Beiträgen und Beispielen deiner Auswahl.</p>
+      <p>Wähle die Werke, die du im Atlas vergleichen möchtest. Im Fragenverzeichnis erscheinen ihre Beiträge und Beispiele. Unter „Unterschiede“ erscheinen die Vergleiche, für die beide beteiligten Werke ausgewählt sind.</p>
     </header>
 
     <div class="bibliography-tools">
@@ -44,13 +45,13 @@
           <button id="source-none" type="button">Alle abwählen</button>
         </div>
       </div>
-      <a class="bibliography-return atlas-return" id="source-return" href="index.html">Mit dieser Auswahl zum Atlas <span aria-hidden="true">→</span></a>
+      <a class="bibliography-return atlas-return" id="source-return" data-selection-return href="index.html">Mit dieser Auswahl zum Atlas <span aria-hidden="true">→</span></a>
     </div>
-    <p class="bibliography-hint">Über „Link kopieren“ im Atlas teilst du eine Frage zusammen mit den gewählten Werken. Notenbeispiele gehören jeweils zum Beitrag, den sie erläutern.</p>
+    <p class="bibliography-hint" id="source-return-hint">Über „Link kopieren“ im Atlas teilst du eine Frage zusammen mit den gewählten Werken. Notenbeispiele gehören jeweils zum Beitrag, den sie erläutern.</p>
     <div id="source-list" tabindex="-1">
       <noscript>Die Quellenauswahl benötigt JavaScript.</noscript>
     </div>
-    <a class="bibliography-return atlas-return" href="index.html">Mit dieser Auswahl zum Atlas <span aria-hidden="true">→</span></a>
+    <a class="bibliography-return atlas-return" data-selection-return href="index.html">Mit dieser Auswahl zum Atlas <span aria-hidden="true">→</span></a>
   </main>
   <footer class="page-width footer">
     <span>Kontrapunktatlas</span>

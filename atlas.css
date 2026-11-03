@@ -313,3 +313,86 @@ details.suggest textarea { display: block; width: 100%; margin: .25rem 0 .8rem; 
 
 .directory-sources { margin-top: .5rem; color: var(--muted); font-size: .82rem; }
 .directory-sources a { margin-inline-start: .45rem; font-weight: 650; }
+
+/* A directory of the same cited answer pairs used on the question pages. */
+.disagreements .hero { display: block; }
+.disagreements .hero h1 { font-size: clamp(2.6rem, 5.2vw, 4.8rem); }
+.disagreements .hero p { max-width: 68ch; }
+.disagreements .hero .comparison-method { margin-top: .75rem; max-width: 85ch; color: var(--muted); font-size: .84rem; }
+.comparison-controls { padding-block: 1.5rem 1.1rem; border-bottom: 1px solid var(--rule); }
+.comparison-types { min-width: 0; padding: 0; margin: 0; border: 0; }
+.comparison-types legend { padding: 0 0 .55rem; color: var(--muted); font-size: .79rem; font-weight: 650; }
+.comparison-type-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .65rem; }
+.comparison-type { display: flex; gap: .6rem; align-items: start; padding: .75rem .85rem; border: 1px solid var(--rule); border-left: 3px solid var(--relation-ink); border-radius: .35rem; background: var(--surface); cursor: pointer; }
+.comparison-type.is-active { border-color: var(--relation-ink); background: var(--relation-paper); }
+.comparison-type input { flex: 0 0 auto; width: 1.1rem; height: 1.1rem; margin: .15rem 0 0; accent-color: var(--relation-ink); }
+.comparison-type strong { display: block; color: var(--relation-ink); font-size: .86rem; line-height: 1.5; }
+.comparison-type small { display: block; margin-top: .22rem; color: var(--muted); font-size: .77rem; line-height: 1.45; }
+.type-count { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.comparison-fields { display: grid; grid-template-columns: minmax(14rem, 1.7fr) minmax(10rem, 1fr) minmax(13rem, 1.4fr) minmax(10rem, 1fr); gap: .8rem; margin-top: 1rem; }
+.comparison-fields label { display: block; margin: 0 0 .3rem; color: var(--muted); font-size: .78rem; font-weight: 650; }
+.comparison-fields :is(input, select) { display: block; width: 100%; min-width: 0; min-height: 2.7rem; padding: .5rem .65rem; border: 1px solid #b9bdaf; border-radius: .35rem; background: var(--surface); color: var(--ink); font-size: .9rem; line-height: 1.4; }
+.comparison-fields input::placeholder { color: #60695e; }
+.comparison-toolbar { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; justify-content: space-between; align-items: center; margin-top: .95rem; }
+.comparison-sources { color: var(--muted); font-size: .83rem; }
+.comparison-sources a { font-weight: 650; }
+.comparison-scope-hint { margin-top: .6rem; color: var(--muted); font-size: .79rem; }
+.comparison-result-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: .5rem 1.5rem; justify-content: space-between; margin-top: 1.7rem; }
+.comparison-result-head h2 { color: var(--green-deep); font: 500 1.6rem/1.2 var(--serif); }
+#comparison-count { color: var(--muted); font-size: .84rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.comparison-question { margin: 1.9rem 0 2.6rem; }
+.comparison-question-head { margin-bottom: .85rem; }
+.comparison-question-head h2 { max-width: 58ch; margin-top: .3rem; color: var(--green-deep); font: 500 clamp(1.4rem, 2.1vw, 1.85rem)/1.25 var(--serif); letter-spacing: -.025em; }
+.comparison-question-head h2 a { color: inherit; text-decoration: none; }
+.comparison-question-head h2 a:hover { text-decoration: underline; }
+.comparison-card { padding: 1rem 1.15rem; margin: .75rem 0; border: 1px solid var(--rule); border-left: 3px solid var(--relation-ink); border-radius: .35rem; background: var(--surface); scroll-margin-top: 1.2rem; overflow-wrap: anywhere; }
+.comparison-card.is-focused-comparison { box-shadow: 0 0 0 2px var(--relation-ink); }
+.comparison-card:focus { outline: 3px solid #a7552b; outline-offset: 4px; }
+.comparison-card-head { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem 1rem; }
+.comparison-card-title { margin: 0; font-size: 1rem; line-height: 1.2; }
+.comparison-card-title .relation-badge { font-size: .72rem; }
+.comparison-permalink { flex: 0 0 auto; color: var(--muted); font-size: .75rem; padding-block: .15rem; }
+.comparison-permalink[aria-current="location"] { color: var(--forest); font-weight: 700; }
+.comparison-explanation { max-width: 94ch; margin: .6rem 0 1rem; font-size: 1rem; line-height: 1.6; }
+.comparison-positions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.3rem; }
+.comparison-position, .comparison-full-answer { min-width: 0; }
+.comparison-positions > section + section { border-left: 1px solid var(--rule); padding-left: 1.3rem; }
+.comparison-position h4, .comparison-full-answer h5 { margin: 0 0 .4rem; color: var(--forest); font: 650 .91rem/1.4 var(--sans); }
+.comparison-position .species-scope { font-size: .7rem; }
+.comparison-locator { margin: .45rem 0 .55rem; color: var(--muted); font-size: .78rem; line-height: 1.5; }
+.comparison-answer-link { display: inline-block; padding-block: .2rem; }
+.comparison-texts { margin-top: .85rem; padding-top: .6rem; border-top: 1px solid var(--rule); }
+.comparison-texts summary { padding-block: .15rem; color: var(--forest); font-size: .82rem; font-weight: 650; cursor: pointer; }
+.comparison-texts summary:hover { text-decoration: underline; }
+.comparison-texts[open] summary { margin-bottom: .8rem; }
+.comparison-full-answer p { margin: .4rem 0 .75rem; font-size: .94rem; }
+.comparison-full-answer .ref { margin-bottom: 0; font-size: .78rem; }
+.comparison-empty { margin: 1.25rem 0 2rem; padding: 1.3rem; border: 1px solid var(--rule); border-radius: .35rem; background: var(--green-light); }
+.comparison-empty h3 { color: var(--green-deep); font: 550 1.35rem/1.3 var(--serif); }
+.comparison-empty p { max-width: 72ch; margin: .6rem 0 .9rem; font-size: .92rem; }
+.comparison-notice { margin-top: 1.1rem; padding: .8rem 1rem; border-left: 3px solid var(--rust); background: var(--rust-light); font-size: .88rem; }
+.comparison-notice p { margin-bottom: .45rem; }
+.comparison-back { margin: 1rem 0 2rem; font-size: .85rem; font-weight: 650; }
+.comparison-copy-fallback { position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%); z-index: 10; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem; width: min(48rem, calc(100% - 2rem)); padding: 1rem; border: 1px solid var(--forest); border-radius: .35rem; background: var(--paper); box-shadow: 0 .3rem 1.5rem #203f3433; }
+.comparison-copy-fallback[hidden] { display: none; }
+.comparison-copy-fallback label { grid-column: 1 / -1; color: var(--forest); font-size: .82rem; font-weight: 650; }
+.comparison-copy-fallback input { min-width: 0; width: 100%; padding: .45rem; border: 1px solid #aebaaa; background: var(--surface); color: var(--ink); font-size: .9rem; }
+.comparison-copy-fallback button { padding: .45rem .65rem; border: 1px solid #aebaaa; border-radius: .25rem; background: var(--green-light); color: var(--forest); font-size: .82rem; }
+@media (max-width: 1080px) {
+  .comparison-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 660px) {
+  .comparison-type-options { grid-template-columns: minmax(0, 1fr); gap: .5rem; }
+  .comparison-type { padding-block: .6rem; }
+  .comparison-fields { grid-template-columns: minmax(0, 1fr); }
+  .comparison-fields :is(input, select) { font-size: 1rem; }
+  .comparison-positions { grid-template-columns: minmax(0, 1fr); gap: .85rem; }
+  .comparison-positions > section + section { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: .85rem; }
+  .comparison-card { padding: .85rem; }
+  .comparison-explanation { font-size: .94rem; }
+}
+@media (max-width: 600px) {
+  .masthead-inner { flex-wrap: wrap; padding-block: .55rem .25rem; row-gap: .15rem; }
+  .masthead-nav { width: 100%; gap: 1.25rem; justify-content: flex-start; }
+  .masthead-nav :is(a, .bibliography-current) { font-size: .8rem; }
+}
