@@ -35,7 +35,8 @@
     checkbox.value = source.id;
     checkboxes.push(checkbox);
     const citation = element("span", "bibliography-citation");
-    citation.append(element("strong", "", source.name), element("span", "", source.title));
+    const title = element("span", AtlasSources.isBook(source.id) ? "book-title" : "", source.title);
+    citation.append(element("strong", "", source.name), title);
     label.append(checkbox, citation);
     const meta = element("div", "bibliography-meta");
     meta.append(element("code", "", source.id));
