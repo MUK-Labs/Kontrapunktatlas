@@ -33,6 +33,20 @@ Drei Einstiege für den Unterricht
 
 Weitere Fragen behandeln die Antwortstufe, die Beantwortung eines Quintsprungs und eines modulierenden Themas, wechselnde Antworten, Kontrasubjekt, Gegenexposition, Codetta und Zwischenspiel.
 
+## Von der Zweistimmigkeit zur Fuge mit Kent Kennan
+
+Der Autorenfilter **Kent Kennan** erschließt 22 Fragen. Die Seiten- und Beispielnummern beziehen sich auf *Counterpoint: Based on Eighteenth-Century Practice*, 4. Auflage, Prentice Hall, 1999 (ISBN 0-13-080746-X). Kennans Beobachtungen lassen sich an Bachs Notentext und an zwei eigens notierten Satzübungen überprüfen. [Bibliotheksnachweis der vierten Auflage](https://iucat.iu.edu/iub/4609610)
+
+| Frage | Aufgabe am Notenbild |
+| --- | --- |
+| [Wie schreibe ich drei Töne gegen einen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=drei-gegen-eins) | Die Dreiergruppe spielen. Kennan behandelt sie als zweite Spezies. Prout zählt sie zur dritten und zeigt dieselbe Oberstimme mit zwei verschiedenen Bassfortsetzungen. |
+| [Wann wird die Begleitstimme einer Invention zum Gegenmotiv?](https://muk-labs.github.io/Kontrapunktatlas/#frage=invention-gegenmotiv) | Die Sechzehntel aus der Unterstimme von BWV 776 in der Oberstimme wiederfinden. |
+| [Muss der zweite Einsatz einer Invention in der Dominanttonart stehen?](https://muk-labs.github.io/Kontrapunktatlas/#frage=invention-einsatzplan) | Die vier Motiveinsätze am Anfang von BWV 772 zählen. Nach den ersten beiden beginnt das Motiv auf g. In welcher Tonart bleibt die Passage? |
+| [Wann ist eine Fuge mit zwei Themen eine Doppelfuge?](https://muk-labs.github.io/Kontrapunktatlas/#frage=fuge-doppelfuge) | In BWV 887 das erste Thema in Takt 1, das zweite in Takt 61 und beide zusammen in Takt 97 lesen. |
+| [Wie kehrt ein Kanon in einer anderen Tonart wieder?](https://muk-labs.github.io/Kontrapunktatlas/#frage=kanon-spiralkanon) | Beim *Canon a 2 per tonos* die Anfänge der drei Durchgänge auf c, d und e vergleichen und die Folge am Klavier fortsetzen. [Einspielung der Nederlandse Bachvereniging](https://www.bachvereniging.nl/en/bwv/bwv-1079-8) |
+
+Die Notenbeispiele sind offline verfügbar. Die Bildnachweise unterscheiden Ausschnitte historischer Drucke, neu notierte Bach-Passagen und Unterrichtsbeispiele der Redaktion. Die Grafik zu BWV 772 enthält eine bearbeitete Mutopia-Ausgabe von jeff covey und steht unter derselben Lizenz. [Quelle und Editionsangaben](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=40) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+
 ## Linearen Kontrapunkt mit Ernst Kurth hören
 
 Im Autorenfilter **Ernst Kurth** führen zwölf Fragen zu den *Grundlagen des linearen Kontrapunkts* (Bern, Max Drechsel, 1917). Zu hören ist zum Beispiel, wie in einer einzigen Violinlinie ein Bass fortwirkt oder wie ein melodischer Höhepunkt erst nach dem schweren Taktteil erreicht wird. Alle Seitenzahlen beziehen sich auf den Druck von 1917. [Digitalisat der Erstausgabe](https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf)
@@ -137,7 +151,7 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | `reading` | Optional. Kurzer redaktioneller Hinweis auf einen hör- oder lesbaren Unterschied zwischen den Quellen. |
 | `related` | Optional. Liste der Kennungen verwandter Fragen. |
 
-Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.examples` eine dauerhafte Kennung anlegen, beispielsweise `fux-cambiata`. Jeder Bilddatensatz enthält den relativen Pfad `image`, den Titel `title`, einen Alternativtext `alt`, den Lesehinweis `caption`, den Bildnachweis mit Rechten `credit` und den Link zur Originalseite `url`. Bei einem verlinkten Buchbeispiel tritt `kind: "buchbeispiel"` an die Stelle von `image` und `alt`. Die URL führt zum Notentext. Lokale Abbildungen zu einer Lehrbuchregel erhalten `kind: "leseuebung"`, redaktionelle Lesehilfen zu einer bestimmten Buchseite `kind: "leseanalyse"`. In der passenden Autorenposition genügt dann `"examples": ["fux-cambiata"]`.
+Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.examples` eine dauerhafte Kennung anlegen, beispielsweise `fux-cambiata`. Jeder Bilddatensatz enthält den relativen Pfad `image`, den Titel `title`, einen Alternativtext `alt`, den Lesehinweis `caption`, den Bildnachweis mit Rechten `credit` und den Link zur Originalseite `url`. Bei einem verlinkten Buchbeispiel tritt `kind: "buchbeispiel"` an die Stelle von `image` und `alt`. Die URL führt zum Notentext. Lokale Abbildungen zu einer Lehrbuchregel erhalten `kind: "leseuebung"`, redaktionelle Lesehilfen zu einer bestimmten Buchseite `kind: "leseanalyse"`. Für eine eigene Leseübung kann `catalogue: true` die URL als Bibliotheksnachweis zum zitierten Lehrwerk kennzeichnen. In der passenden Autorenposition genügt dann `"examples": ["fux-cambiata"]`.
 
 Für ein weiteres Lehrbuch die betreffende Frage suchen, unter `authors` einen Eintrag hinzufügen und nach dem Speichern die Seite neu laden. Die Quelle erscheint automatisch im Filter. Für neue Themen ein Fragenobjekt mit einer neuen Kennung anlegen. Eine Frage mit leerer Vergleichsliste und ohne Beleg wird als offen angezeigt. „Verboten“ und „nicht relevant“ sind fachliche Aussagen und werden nur dort eingetragen, wo die Quelle sie tatsächlich macht.
 
