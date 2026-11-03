@@ -4,13 +4,24 @@ Ein deutschsprachiger Fragenatlas für den Unterricht in Spezieskontrapunkt, Fug
 
 ## Lokal öffnen und auf GitHub Pages veröffentlichen
 
-Das Repository herunterladen und `index.html` im Browser öffnen. Suche, Filter, Handout und alle eingebetteten Notenbilder funktionieren auch offline. Bei einem historischen Ausschnitt führt **Originalseite öffnen** zum Digitalisat. **Notenbeispiel im Buch öffnen (PDF)** führt online zur Seite mit dem nummerierten Beispiel.
+Das Repository herunterladen und `index.html` im Browser öffnen. Quellenverzeichnis, Suche, Filter, Handout und alle eingebetteten Notenbilder funktionieren auch offline. Bei einem historischen Ausschnitt führt **Originalseite öffnen** zum Digitalisat. **Notenbeispiel im Buch öffnen (PDF)** führt online zur Seite mit dem nummerierten Beispiel.
 
 GitHub Pages veröffentlicht die Dateien aus der Wurzel dieses Repositorys. Der Atlas läuft ohne Build-Schritt oder Datenbankdienst.
 
-## Die Auswahl für den Unterricht teilen
+## Quellen für den Unterricht auswählen und teilen
 
-Eine Frage im Verzeichnis auswählen, gegebenenfalls auf eine Spezies einschränken und **Link kopieren** verwenden. An die veröffentlichte Adresse wird beispielsweise `#frage=sprungfolge&spezies=4` angehängt. Lokal kopiert der Atlas nur die Sprungmarke. Die Quellenwahl im Verzeichnis schränkt die Fragenliste ein. Beim Öffnen einer Frage bleiben die anderen Perspektiven zum Vergleich sichtbar. **Mit Notenbeispiel** beschränkt die Liste auf illustrierte Fragen. Zusammen mit einem Autorennamen findet der Filter die Fragen mit einem zugeordneten Notenbeispiel dieser Quelle.
+Im [Quellenverzeichnis](https://muk-labs.github.io/Kontrapunktatlas/quellen.html) ist zunächst jedes Werk angehakt. Für einen Vergleich **Alle abwählen**, die gewünschten Werke anhaken und **Mit dieser Auswahl zum Atlas** wählen. Das Verzeichnis zeigt die Fragen, zu denen mindestens eine gewählte Quelle beiträgt. Beim Öffnen einer Frage erscheinen deren ausgewählte Beiträge und zugehörige Notenbeispiele. Für Artachos Speziestabellen und seinen Hindemith-Vergleich gibt es das gemeinsame Kästchen **Unterrichtshandout**.
+
+**Link kopieren** teilt die aktuelle Frage, die Quellenauswahl und eine gegebenenfalls gewählte Spezies. Ein Link ohne den Parameter `quellen` öffnet den vollständigen Atlas. Weitere Fragen übernehmen die Auswahl. Sie bleibt beim Neuladen erhalten und gilt für alle, die den Link öffnen.
+
+| Beispiel | Was sich öffnet |
+| --- | --- |
+| [Drei gegen eins bei Kennan und Prout](https://muk-labs.github.io/Kontrapunktatlas/?quellen=kennan1999,prout1890#frage=drei-gegen-eins) | Zwei Antworten mit ihren Notenbeispielen und dem redaktionellen Vergleich der Spezieszuordnung. |
+| [Vierte Spezies mit Artacho und Fux](https://muk-labs.github.io/Kontrapunktatlas/?quellen=artacho-handout,fux1725#frage=bindung-s4&spezies=4) | Die Tabellenzeile für S4 und Fux’ Behandlung der Bindung. |
+
+Die Werkkennungen stehen im Quellenverzeichnis. Im URL-Parameter `?quellen=` trennt ein Komma die IDs. `?quellen=none` bezeichnet eine leere Auswahl. Auch frühere Links wie `#frage=sprungfolge&spezies=4` funktionieren weiterhin. Beim lokalen Öffnen kopiert **Link kopieren** für eine eingeschränkte Auswahl die Adresse der veröffentlichten Fassung. Sind alle Quellen gewählt, steht lokal weiterhin **Sprungmarke kopieren** bereit.
+
+**Fragen nach Autor oder Lehransatz**, Themenbereich, Suche und **Mit Notenbeispiel** filtern das Verzeichnis innerhalb der gewählten Werke. In der Fragenansicht bleiben alle passenden ausgewählten Werke zum Vergleich nebeneinander sichtbar.
 
 Drei Einstiege für den Unterricht
 
@@ -62,7 +73,7 @@ Bei der [Beurteilung einer fertigen Übung](https://muk-labs.github.io/Kontrapun
 
 ## Generalbass bei Emanuel Aloys Förster
 
-Der Themenfilter **Generalbass** führt zu fünf eigenen Fragen. Unter **Quelle oder Lehransatz → Emanuel Aloys Förster** erscheinen zusätzlich seine Beispiele zu Melodieführung, Harmonik, harmonischem Rhythmus, Chromatik, Dissonanzauflösung und Quintparallelen.
+Der Themenfilter **Generalbass** führt zu fünf eigenen Fragen. Unter **Fragen nach Autor oder Lehransatz → Emanuel Aloys Förster** erscheinen zusätzlich seine Beispiele zu Melodieführung, Harmonik, harmonischem Rhythmus, Chromatik, Dissonanzauflösung und Quintparallelen.
 
 | Frage | Aufgabe am Instrument |
 | --- | --- |
@@ -89,7 +100,7 @@ Der Suchbegriff **Sevrette** führt beispielsweise zu ihrer Aussetzung Nr. 93. *
 
 ## Walter Piston im Atlas
 
-Im Filter **Quelle oder Lehransatz** führt **Walter Piston** zu den passenden Fragen. Die Seiten und Beispielnummern beziehen sich auf *Counterpoint*, London, Victor Gollancz, sechster Druck 1970. Das Buch erschien zuerst 1947 bei W. W. Norton in New York. Der Bibliothekslink weist die britische Ausgabe nach. [Katalog der britischen Ausgabe](https://ci.nii.ac.jp/ncid/BA86907493?l=en)
+Im Filter **Fragen nach Autor oder Lehransatz** führt **Walter Piston** zu den passenden Fragen. Die Seiten und Beispielnummern beziehen sich auf *Counterpoint*, London, Victor Gollancz, sechster Druck 1970. Das Buch erschien zuerst 1947 bei W. W. Norton in New York. Der Bibliothekslink weist die britische Ausgabe nach. [Katalog der britischen Ausgabe](https://ci.nii.ac.jp/ncid/BA86907493?l=en)
 
 Pistons Ausgangspunkt ist das tonale Repertoire. Bei jeder Position steht, ob er eine Übung anleitet oder eine Komposition untersucht. **Redaktioneller Vergleich** kennzeichnet die Einordnung gegenüber den anderen Quellen. Bei der [Cambiata](https://muk-labs.github.io/Kontrapunktatlas/#frage=cambiata) bezeichnet dasselbe Wort zwei verschiedene Bewegungsfiguren. Bei den [verdeckten Quinten und Oktaven](https://muk-labs.github.io/Kontrapunktatlas/#frage=verdeckte-parallelen) geht es um die Reichweite eines Verbots.
 
@@ -143,17 +154,19 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | --- | --- |
 | `species` | Optional. Die beiden Handout-Zeilen mit dem gemeinsamen Originaltitel und je fünf Zelltexten in `modal` und `tonal`. |
 | `comparisons` | Eine Liste der passenden Zeilen auf S. 9 mit `label`, `modal`, `tonal`, `hindemith` und `comment`. Für eine neue Frage zunächst eine leere Liste einsetzen. |
-| `authors` | Optional. Für jede belegte Position ein Objekt mit `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
-| `authors[].comparison` | Optional. Vergleich der Redaktion mit einer anderen belegten Position. |
+| `authors` | Optional. Für jede belegte Position ein Objekt mit der Werk-ID in `source`, den Feldern `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
+| `authors[].comparison` und `comparisonSources` | Für einen redaktionellen Vergleich die zusätzlich benötigten Werk-IDs in `comparisonSources` angeben. Bei einem Kommentar allein zur gewählten Quelle genügt `[]`. |
 | `authors[].catalogue` | Optional. `true` kennzeichnet die Quellen-URL als Bibliotheksnachweis. Die Seite und das Beispiel stehen im Feld `locator`. |
 | `authors[].kind` | Optional. `partitur` kennzeichnet eine redaktionelle Beobachtung im Notentext eines Komponisten. |
 | `authors[].examples` | Optional. Liste der Kennungen aus dem zentralen Bildverzeichnis `ATLAS.examples`. So kann derselbe Ausschnitt mehrere Fragen belegen. |
-| `reading` | Optional. Kurzer redaktioneller Hinweis auf einen hör- oder lesbaren Unterschied zwischen den Quellen. |
+| `reading` und `readingSources` | Optionaler Lesehinweis. `readingSources` enthält die dafür nötigen Werk-IDs. Eine quellenunabhängige Höraufgabe erhält `[]`. |
 | `related` | Optional. Liste der Kennungen verwandter Fragen. |
 
 Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.examples` eine dauerhafte Kennung anlegen, beispielsweise `fux-cambiata`. Jeder Bilddatensatz enthält den relativen Pfad `image`, den Titel `title`, einen Alternativtext `alt`, den Lesehinweis `caption`, den Bildnachweis mit Rechten `credit` und den Link zur Originalseite `url`. Bei einem verlinkten Buchbeispiel tritt `kind: "buchbeispiel"` an die Stelle von `image` und `alt`. Die URL führt zum Notentext. Lokale Abbildungen zu einer Lehrbuchregel erhalten `kind: "leseuebung"`, redaktionelle Lesehilfen zu einer bestimmten Buchseite `kind: "leseanalyse"`. Für eine eigene Leseübung kann `catalogue: true` die URL als Bibliotheksnachweis zum zitierten Lehrwerk kennzeichnen. In der passenden Autorenposition genügt dann `"examples": ["fux-cambiata"]`.
 
-Für ein weiteres Lehrbuch die betreffende Frage suchen, unter `authors` einen Eintrag hinzufügen und nach dem Speichern die Seite neu laden. Die Quelle erscheint automatisch im Filter. Für neue Themen ein Fragenobjekt mit einer neuen Kennung anlegen. Eine Frage mit leerer Vergleichsliste und ohne Beleg wird als offen angezeigt. „Verboten“ und „nicht relevant“ sind fachliche Aussagen und werden nur dort eingetragen, wo die Quelle sie tatsächlich macht.
+Für ein weiteres Lehrbuch zuerst in `ATLAS.sources` einen Eintrag mit `id`, `name`, `title`, `group` und `url` anlegen. Eine kurze Kennung aus Kleinbuchstaben, Ziffern und Bindestrichen verwenden, etwa `kennan1999`. Bei mehreren Werken desselben Jahres ergänzt ein Titel- oder Bandkürzel die Kennung. Veröffentlichte IDs bleiben beim Korrigieren einer bibliografischen Angabe erhalten. Die Positionen unter `authors` verweisen über `source` auf dieselbe ID. So erscheint das Werk automatisch im Quellenverzeichnis. Für neue Themen ein Fragenobjekt mit einer neuen Kennung anlegen. Eine Frage mit leerer Vergleichsliste und ohne Beleg wird als offen angezeigt. „Verboten“ und „nicht relevant“ sind fachliche Aussagen und werden nur dort eingetragen, wo die Quelle sie tatsächlich macht.
+
+Mit `node --test tests/source-selection.test.cjs` lassen sich Werkkennungen, Quellenverweise und teilbare URLs prüfen.
 
 ## Redaktionelle Beiträge
 
@@ -162,7 +175,9 @@ Leserinnen und Leser können zu einer Frage **Ergänzung oder Korrektur vorschla
 ## Dateien
 
 - `index.html` und `atlas.css` enthalten Seitenstruktur und Gestaltung.
-- `atlas.js` stellt Suche, Filter und verlinkbare Ansichten bereit.
+- `atlas.js` stellt Suche, Filter und verlinkbare Fragenansichten bereit.
+- `quellen.html` und `quellen.js` enthalten das Quellenverzeichnis mit der Werkauswahl.
+- `source-selection.js` liest und schreibt die gemeinsamen URL-Parameter für Quellen.
 - `atlas-data.js` enthält Fragen, Antworten und Quellen.
 - `quellen/noten/` enthält die im Atlas verwendeten Notenbilder.
 - `quellen/handout.pdf` enthält die drei Originalseiten des Unterrichtshandouts.

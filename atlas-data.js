@@ -1,5 +1,217 @@
 // Redaktion: Ein Eintrag pro Frage. Die fünf Werte jeder Reihe stehen für die Spezies I bis V.
 const ATLAS = {
+  "sources": [
+    {
+      "id": "artacho-handout",
+      "name": "Adrián Artacho",
+      "title": "MUK · Woche 1. Unterrichtshandout, Auszug mit den gedruckten Seiten 6, 8 und 9",
+      "group": "Unterrichtshandout",
+      "url": "quellen/handout.pdf"
+    },
+    {
+      "id": "bellermann1901",
+      "name": "Heinrich Bellermann",
+      "title": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
+      "group": "Lehrwerke",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248"
+    },
+    {
+      "id": "cherubini1835",
+      "name": "Luigi Cherubini",
+      "title": "Cours de contrepoint et de fugue / Theorie des Contrapunktes und der Fuge (Leipzig/Paris, deutsch-französische Ausgabe, um 1835)",
+      "group": "Lehrwerke",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf"
+    },
+    {
+      "id": "cherubini1854",
+      "name": "Luigi Cherubini",
+      "title": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
+      "group": "Lehrwerke",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf"
+    },
+    {
+      "id": "foerster1804",
+      "name": "Emanuel Aloys Förster",
+      "title": "Anleitung zum General-Bass (Leipzig, Breitkopf & Härtel, 1804)",
+      "group": "Lehrwerke",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf"
+    },
+    {
+      "id": "foerster1818",
+      "name": "Emanuel Aloys Förster",
+      "title": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
+      "group": "Lehrwerke",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf"
+    },
+    {
+      "id": "fux1725",
+      "name": "Johann Joseph Fux",
+      "title": "Gradus ad Parnassum (Wien, 1725)",
+      "group": "Lehrwerke",
+      "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/4118035"
+    },
+    {
+      "id": "gallon-bitsch1964",
+      "name": "Noël-Gallon und Marcel Bitsch",
+      "title": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
+      "group": "Lehrwerke",
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/index.html"
+    },
+    {
+      "id": "gedalge1901",
+      "name": "André Gédalge",
+      "title": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
+      "group": "Lehrwerke",
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136"
+    },
+    {
+      "id": "goetschius1910",
+      "name": "Percy Goetschius",
+      "title": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
+      "group": "Lehrwerke",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf"
+    },
+    {
+      "id": "hindemith-tonsatz1",
+      "name": "Paul Hindemith",
+      "title": "Unterweisung im Tonsatz I. Theoretischer Teil (Schott, ED 3600)",
+      "group": "Lehrwerke",
+      "url": "https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/33620/dl/ED3600_Unterweisung_im_Tonsatz_Einleger.pdf"
+    },
+    {
+      "id": "hindemith-tonsatz2",
+      "name": "Paul Hindemith",
+      "title": "Unterweisung im Tonsatz II. Übungsbuch für den zweistimmigen Satz (Schott, ED 3601)",
+      "group": "Lehrwerke",
+      "url": "https://www.schott-music.com/de/unterweisung-im-tonsatz-no33622.html"
+    },
+    {
+      "id": "keller1965",
+      "name": "Hermann Keller",
+      "title": "Das Wohltemperierte Klavier von Johann Sebastian Bach. Werk und Wiedergabe (Kassel, Bärenreiter, 1965)",
+      "group": "Lehrwerke",
+      "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf"
+    },
+    {
+      "id": "kennan1999",
+      "name": "Kent Kennan",
+      "title": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
+      "group": "Lehrwerke",
+      "url": "https://iucat.iu.edu/iub/4609610"
+    },
+    {
+      "id": "kurth1917",
+      "name": "Ernst Kurth",
+      "title": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
+      "group": "Lehrwerke",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf"
+    },
+    {
+      "id": "piston1947",
+      "name": "Walter Piston",
+      "title": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
+      "group": "Lehrwerke",
+      "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en"
+    },
+    {
+      "id": "prout1890",
+      "name": "Ebenezer Prout",
+      "title": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
+      "group": "Lehrwerke",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf"
+    },
+    {
+      "id": "prout1891",
+      "name": "Ebenezer Prout",
+      "title": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
+      "group": "Lehrwerke",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf"
+    },
+    {
+      "id": "prout1910",
+      "name": "Ebenezer Prout",
+      "title": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
+      "group": "Lehrwerke",
+      "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf"
+    },
+    {
+      "id": "tuerk1791",
+      "name": "Daniel Gottlob Türk",
+      "title": "Kurze Anweisung zum Generalbaßspielen (Halle und Leipzig, 1791)",
+      "group": "Lehrwerke",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf"
+    },
+    {
+      "id": "zarlino1558",
+      "name": "Gioseffo Zarlino",
+      "title": "Le istitutioni harmoniche (Venedig, 1558)",
+      "group": "Lehrwerke",
+      "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html"
+    },
+    {
+      "id": "gotham-shaffer-s5",
+      "name": "Mark Gotham und Kris Shaffer",
+      "title": "Fifth-Species Counterpoint (Open Music Theory)",
+      "group": "Online-Lehrtexte",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/"
+    },
+    {
+      "id": "rothgeb1998-cf",
+      "name": "John Rothgeb",
+      "title": "The Cantus Firmus (Music 103, 1998)",
+      "group": "Online-Lehrtexte",
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
+    },
+    {
+      "id": "rothgeb1998-s1",
+      "name": "John Rothgeb",
+      "title": "The First Species of Counterpoint (Music 103, 1998)",
+      "group": "Online-Lehrtexte",
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+    },
+    {
+      "id": "rothgeb1993-s2",
+      "name": "John Rothgeb",
+      "title": "The Second Species of Counterpoint (Music 103, 1993)",
+      "group": "Online-Lehrtexte",
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+    },
+    {
+      "id": "rothgeb1995-s3",
+      "name": "John Rothgeb",
+      "title": "The Third Species of Counterpoint (Music 103, 1995)",
+      "group": "Online-Lehrtexte",
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
+    },
+    {
+      "id": "rothgeb1995-s4",
+      "name": "John Rothgeb",
+      "title": "The Fourth Species of Counterpoint (Music 103, 1995)",
+      "group": "Online-Lehrtexte",
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
+    },
+    {
+      "id": "shaffer2012",
+      "name": "Kris Shaffer",
+      "title": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
+      "group": "Online-Lehrtexte",
+      "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+    },
+    {
+      "id": "bach1866-wtk1",
+      "name": "Johann Sebastian Bach",
+      "title": "Das wohltemperierte Klavier, Teil I (Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig, 1866)",
+      "group": "Partituren",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf"
+    },
+    {
+      "id": "bach1866-wtk2",
+      "name": "Johann Sebastian Bach",
+      "title": "Das wohltemperierte Klavier, Teil II (Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig, 1866)",
+      "group": "Partituren",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf"
+    }
+  ],
   "topics": [
     {
       "id": "sprungfolge",
@@ -44,6 +256,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. II, §§ 11–15, S. 8–9, Bsp. 15–17 · einzelne Melodie in Dur",
@@ -55,6 +268,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "rothgeb1998-cf",
           "name": "John Rothgeb",
           "work": "The Cantus Firmus (Music 103, 1998)",
           "locator": "Regeln 8 und 13 · Cantus firmus in Dur",
@@ -62,6 +276,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, § 28 C–D, S. 19 · mehrere aufeinanderfolgende Töne",
@@ -69,7 +284,11 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=2"
         }
       ],
-      "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht."
+      "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht.",
+      "readingSources": [
+        "goetschius1910",
+        "artacho-handout"
+      ]
     },
     {
       "id": "anfangsintervall",
@@ -93,6 +312,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 46–49 · zweistimmig, erste Spezies",
@@ -104,6 +324,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "rothgeb1998-s1",
           "name": "John Rothgeb",
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Beginning, Regel 1 · zweistimmig, erste Spezies",
@@ -111,6 +332,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
         },
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 28, S. 173–174, viertes Beispiel · imitatorischer Einsatz",
@@ -121,6 +343,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, § 123, S. 62 und §§ 140–141, S. 66–67 · zweistimmig, erste Spezies",
@@ -131,6 +354,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. IV, § 47, S. 20, Bsp. 41 · vollständige zweistimmige Phrase",
@@ -138,6 +362,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=32"
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Erste Gattung, S. 145–146 · zweistimmig, Lage des Cantus firmus",
@@ -145,6 +370,7 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=174"
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Regel I, Bsp. 9, S. 8 · zweistimmig, erste Spezies",
@@ -155,6 +381,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil II, Kap. I, S. 59, zu § 57 · zwei Stimmen, erste Spezies",
@@ -163,10 +390,18 @@ const ATLAS = {
           "comparison": "Prout lässt im zweistimmigen Note-gegen-Note-Satz auch die Terz als Anfang zu. Noël-Gallon und Bitsch beschränken dieselbe Aufgabe auf die erste und fünfte Stufe über dem Grundton.",
           "examples": [
             "gallon-bitsch-nr-1-2"
+          ],
+          "comparisonSources": [
+            "prout1890"
           ]
         }
       ],
-      "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht."
+      "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
+      "readingSources": [
+        "fux1725",
+        "zarlino1558",
+        "prout1890"
+      ]
     },
     {
       "id": "leittonaufloesung",
@@ -187,6 +422,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. I, §§ 6–9, S. 5–6, Bsp. 7–9 · einzelne Melodie in Dur",
@@ -197,6 +433,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "rothgeb1998-s1",
           "name": "John Rothgeb",
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Ending, Regel 7 · zweistimmig, erste Spezies, Kadenz",
@@ -204,6 +441,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 51–52, Bsp. 73–74 · aufwärts aufgelöster Vorhalt",
@@ -212,6 +450,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, § 30, S. 20 · Akkordtöne und melodische Zusatztöne",
@@ -263,6 +502,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1998-s1",
           "name": "John Rothgeb",
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regeln 3–4 · erste Spezies, zwei Stimmen",
@@ -270,6 +510,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber I, Caput postremum, S. 41, und Liber II, Exercitium I, Lectio I, S. 45–46 · erste Spezies",
@@ -277,6 +518,7 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118094"
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. IV, §§ 36–40, S. 16–17 und Kap. VI, §§ 51–55, S. 24–25 · zwei gleich rhythmisierte Stimmen",
@@ -287,6 +529,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. VII, S. 124–125 · Quarte in zwei und drei Stimmen",
@@ -295,6 +538,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. IV, § 54, S. 30 · Quarte und verminderte Quinte im mehrstimmigen Satz",
@@ -341,6 +585,7 @@ const ATLAS = {
       },
       "authors": [
         {
+          "source": "rothgeb1998-cf",
           "name": "John Rothgeb",
           "work": "The Cantus Firmus (Music 103, 1998)",
           "locator": "Regeln 6–8 · Cantus firmus in Dur",
@@ -348,6 +593,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 51–53, und Lectio II, S. 59–60 · gesungener Zweistimmensatz",
@@ -355,6 +601,7 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118102"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. II, §§ 17–20, S. 20–21 · Melodieführung im strengen Satz",
@@ -365,6 +612,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Kap. VIII, S. 108–110 · Melodie im strengen Vokalsatz und Repertoirevergleich",
@@ -375,6 +623,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. I, S. 14 und 19, Bsp. 1 · instrumentale Melodie",
@@ -384,9 +633,13 @@ const ATLAS = {
           "examples": [
             "piston-beethoven-op18-1-adagio"
           ],
-          "comparison": "Rothgebs Verbot dissonanter Sprünge gilt dem selbst geschriebenen Cantus firmus. Die Beethoven-Stelle zeigt, welche andere Aufgabe eine instrumentale Phrase dem Intervall stellen kann."
+          "comparison": "Rothgebs Verbot dissonanter Sprünge gilt dem selbst geschriebenen Cantus firmus. Die Beethoven-Stelle zeigt, welche andere Aufgabe eine instrumentale Phrase dem Intervall stellen kann.",
+          "comparisonSources": [
+            "rothgeb1998-cf"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, §§ 25, 27, S. 18–19 · einfacher strenger Kontrapunkt",
@@ -394,6 +647,7 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=1"
         },
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Nr. 2, Anmerkung S. 1 und Varianten a/b auf S. 2 (Remeš 2021, S. 2)",
@@ -449,6 +703,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (G. Schirmer, 1910)",
           "locator": "Kap. II, §§ 16–17, S. 9–10 · einzelne Melodie",
@@ -456,6 +711,7 @@ const ATLAS = {
           "url": "https://s9.imslp.org/files/imglnks/usimg/c/c7/IMSLP454481-PMLP738672-G-Exercises_in_elementary_counterpoint.pdf"
         },
         {
+          "source": "rothgeb1998-cf",
           "name": "John Rothgeb",
           "work": "The Cantus Firmus (Music 103, 1998)",
           "locator": "Regel 14 · Cantus firmus in Dur",
@@ -463,6 +719,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. II, § 22, S. 22 · Melodieführung im strengen Satz",
@@ -473,6 +730,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. I, S. 19–20, Bsp. 13–16 · instrumentale Melodie",
@@ -481,6 +739,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, §§ 26, 28 D, S. 18–19 · Taktübergang und Oktavsprung",
@@ -522,6 +781,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VI, §§ 203–205, S. 86–87 · zweistimmig, dritte Spezies",
@@ -529,6 +789,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=90"
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. II, §§ 11–14, S. 8, Bsp. 12–15 · einzelne Melodie in Dur",
@@ -539,12 +800,16 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, § 25, S. 18 · Sprünge in einer Einzelstimme",
           "text": "Ein auf- oder absteigendes Arpeggio soll aus der Gesangslinie ausscheiden. Die Notenzeile darunter zeigt, wie sich dieselben Akkordtöne durch eine andere Reihenfolge mit Richtungswechsel verbinden lassen. Diese gebrochene Form dulden die Autoren ausnahmsweise.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=1",
-          "comparison": "Goetschius prüft, ob gleichgerichtete Sprünge einen Akkord umreißen können. Noël-Gallon und Bitsch beanstanden die gewöhnliche Arpeggiofigur gerade wegen ihrer melodischen Gestalt."
+          "comparison": "Goetschius prüft, ob gleichgerichtete Sprünge einen Akkord umreißen können. Noël-Gallon und Bitsch beanstanden die gewöhnliche Arpeggiofigur gerade wegen ihrer melodischen Gestalt.",
+          "comparisonSources": [
+            "goetschius1910"
+          ]
         }
       ]
     },
@@ -582,6 +847,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. II, §§ 18–19, S. 10, Bsp. 19–20 · einzelne Melodie in Dur",
@@ -592,6 +858,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Kap. IX, S. 124–125 · siebte Stufe unmittelbar vor dem modalen Schluss",
@@ -635,6 +902,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1995-s3",
           "name": "John Rothgeb",
           "work": "The Third Species of Counterpoint (Music 103, 1995)",
           "locator": "Regeln 4–6 · dritte Spezies, zwei Stimmen",
@@ -642,6 +910,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio II, S. 56 · zweite Spezies",
@@ -649,6 +918,7 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118105"
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. VII, §§ 71–72, S. 32–33, Bsp. 59–60 · tonale Diminution zu zwei oder drei Noten je Schlag",
@@ -659,6 +929,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Regel X, Bsp. 32, S. 12 · zweistimmig, zweite Spezies",
@@ -669,6 +940,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 55–56, Bsp. 80–81 · Verzierung einer melodischen Linie",
@@ -677,6 +949,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. V, §§ 66–67, S. 35 · Durchgänge und Wechselnoten",
@@ -721,6 +994,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio IV, S. 69–71 · vierte Spezies, Cantus firmus unten",
@@ -731,6 +1005,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Regel X, S. 12 und Bsp. 48 mit Erläuterung, S. 15 · zweistimmig, zweite Spezies",
@@ -741,6 +1016,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. V, §§ 168–169, S. 75 und Kap. VI, § 203, S. 86 · zweistimmig, zweite und dritte Spezies",
@@ -751,6 +1027,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Dritte Gattung, S. 161, zweites Notenbeispiel · vier Viertel gegen eine Ganze",
@@ -758,6 +1035,7 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=189"
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. VII, §§ 64–67, S. 30–31, Bsp. 54–56 · zweistimmige tonale Diminution",
@@ -765,6 +1043,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=42"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 46–49, Bsp. 62–69 · Appoggiatura und Durchgang",
@@ -773,6 +1052,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. V, § 66, S. 35 · Beispiele unter dem ersten Notensystem",
@@ -780,16 +1060,25 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=3"
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 4, S. 44–45, Bsp. 10–12 · harmoniefremder Ton im 2:1",
           "text": "Im 2:1 darf der akkordfremde Ton auch auf den Schlag fallen und sich auf der zweiten Hälfte auflösen. Bleibt die Harmonie zwei Schläge lang bestehen, kann die Auflösung sogar bis zum zweiten Schlag warten. In Beispiel 12 hält Kennan dafür das c der Oberstimme über den ganzen ersten Schlag des zweiten Takts.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true,
-          "comparison": "Prout bindet den betonten Durchgang in seiner zweiten Spezies an die Qualität der Linie. Kennan erklärt zusätzlich, wie viel Zeit die zugrunde liegende Harmonie der Auflösung lässt."
+          "comparison": "Prout bindet den betonten Durchgang in seiner zweiten Spezies an die Qualität der Linie. Kennan erklärt zusätzlich, wie viel Zeit die zugrunde liegende Harmonie der Auflösung lässt.",
+          "comparisonSources": [
+            "prout1890"
+          ]
         }
       ],
-      "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt."
+      "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
+      "readingSources": [
+        "cherubini1854",
+        "prout1890",
+        "fux1725"
+      ]
     },
     {
       "id": "sprung-in-dissonanz",
@@ -830,6 +1119,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio II, S. 56 und Lectio III, S. 64–65 · zweite und dritte Spezies",
@@ -840,6 +1130,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. VII, §§ 71–72, S. 32–33, Bsp. 59–60 · tonale Diminution zu zwei oder drei Noten je Schlag",
@@ -850,6 +1141,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 46, Bsp. 62 · Appoggiatura im tonalen Repertoire",
@@ -858,6 +1150,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, §§ 29–30, S. 20, und Kap. V, § 63 A, S. 33",
@@ -902,6 +1195,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio III, S. 64–65 · Cambiata der dritten Spezies",
@@ -912,6 +1206,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VII, §§ 255–257, S. 103–104 · vierte Spezies, mit dreistimmigen Erläuterungen",
@@ -922,6 +1217,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Fünfte Gattung, S. 182, oberes Notenbeispiel · verzierte Vorhaltsauflösung",
@@ -932,6 +1228,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 52 und 58, Bsp. 74 und 86–88 · Richtung und Verzierung der Auflösung",
@@ -941,9 +1238,13 @@ const ATLAS = {
           "examples": [
             "piston-bach-bwv971-andante"
           ],
-          "comparison": "Für Prouts strengen Satz ist bei der Aufwärtsauflösung nur die Tonika als Ziel vorgesehen. Piston nennt im tonalen Repertoire auch weitere, seltene Aufwärtsauflösungen."
+          "comparison": "Für Prouts strengen Satz ist bei der Aufwärtsauflösung nur die Tonika als Ziel vorgesehen. Piston nennt im tonalen Repertoire auch weitere, seltene Aufwärtsauflösungen.",
+          "comparisonSources": [
+            "prout1890"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. V, §§ 61–64, S. 33–34 · Auflösungsrichtung und Zeitpunkt",
@@ -951,6 +1252,7 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=1"
         },
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Nr. 19, T. 5, S. 9, Anmerkung S. 10 (Remeš 2021, S. 26)",
@@ -959,10 +1261,18 @@ const ATLAS = {
           "examples": [
             "foerster-aufwaerts"
           ],
-          "comparison": "Prouts Aufwärtsauflösung zum Grundton betrifft einen von unten vorbereiteten Vorhalt im strengen Satz. Hier geht es um die Septime eines Akkords im Generalbass."
+          "comparison": "Prouts Aufwärtsauflösung zum Grundton betrifft einen von unten vorbereiteten Vorhalt im strengen Satz. Hier geht es um die Septime eines Akkords im Generalbass.",
+          "comparisonSources": [
+            "prout1890"
+          ]
         }
       ],
-      "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies."
+      "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
+      "readingSources": [
+        "fux1725",
+        "prout1890",
+        "rothgeb1995-s4"
+      ]
     },
     {
       "id": "parallelen",
@@ -1007,6 +1317,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 29, S. 176 · gleichgerichtete Bewegung",
@@ -1017,6 +1328,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio II, S. 57–58 · zwei gegen eins, betonte Taktteile",
@@ -1027,6 +1339,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VI, § 222, S. 91 · zweistimmig, dritte Spezies",
@@ -1034,6 +1347,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=95"
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. IV, § 43, S. 18 und Kap. VII, §§ 73–74, S. 33–35, Bsp. 61 und 63 · gleichmäßiger und bewegter Satz",
@@ -1041,6 +1355,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=45"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. V, S. 83–85, Bsp. 124–130, und Kap. VIII, S. 146–147, Bsp. 232–233 · zwei Stimmen und Quartett",
@@ -1049,6 +1364,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. IV, § 42, S. 24 · einfacher Kontrapunkt",
@@ -1056,6 +1372,7 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=2"
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil II, Kap. XV, Nr. 154, T. 8 mit Anmerkung, S. 117 · vierstimmiger Kanon mit Augmentation",
@@ -1066,6 +1383,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Nr. 26, T. 11, und Anmerkung, S. 14 (Remeš 2021, S. 37–38)",
@@ -1076,6 +1394,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 6, S. 62 und 64–65, Bsp. 4 und 9 · 3:1 und 4:1",
@@ -1126,6 +1445,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 36, S. 184–185 · Fortschreitung zwischen verschiedenen vollkommenen Konsonanzen",
@@ -1133,6 +1453,7 @@ const ATLAS = {
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch336"
         },
         {
+          "source": "rothgeb1998-s1",
           "name": "John Rothgeb",
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regel 5 · erste Spezies, zwei Stimmen",
@@ -1140,6 +1461,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber I, Caput postremum, S. 42, und Liber II, Exercitium I, Lectio I, S. 48–50 · erste Spezies",
@@ -1147,6 +1469,7 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118098"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, § 119, S. 60 und Kap. V, § 178, S. 78 · zweistimmig, erste und zweite Spezies",
@@ -1154,6 +1477,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=64"
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Zweite Gattung, S. 154–155, mittleres Notenbeispiel · verdeckte Quinten",
@@ -1164,15 +1488,20 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. V, S. 86–87, Bsp. 133–135 · Repertoireanalyse im zweistimmigen Satz",
           "text": "Für direkte Quinten und Oktaven bestreitet Piston eine allgemeingültige Verbotsregel. An zwei Bach-Fugen beurteilt er, wie stark die Rhythmen beider Stimmen das Zielintervall hervorheben.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
-          "comparison": "Rothgeb schließt in seiner ersten Spezies jede gerade Bewegung in eine vollkommene Konsonanz aus. Piston bestreitet die Geltung dieses Verbots für das Komponieren allgemein. Dieselbe Fortschreitung erhält so in der Übung und im Repertoire verschiedene Bewertungen."
+          "comparison": "Rothgeb schließt in seiner ersten Spezies jede gerade Bewegung in eine vollkommene Konsonanz aus. Piston bestreitet die Geltung dieses Verbots für das Komponieren allgemein. Dieselbe Fortschreitung erhält so in der Übung und im Repertoire verschiedene Bewertungen.",
+          "comparisonSources": [
+            "rothgeb1998-s1"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. IV, § 44, S. 26 · Außenstimmen im einfachen Kontrapunkt",
@@ -1183,6 +1512,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=4",
@@ -1231,6 +1561,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 32, S. 182 · Stimmtausch",
@@ -1241,6 +1572,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 52, zweites Beispiel, Töne 4–7 · erste Spezies im F-Modus",
@@ -1251,6 +1583,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. V, § 179, S. 78 und Kap. VI, § 227, S. 93 · zweistimmig, zweite und dritte Spezies",
@@ -1261,6 +1594,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Erste Gattung, S. 147–148 · Kreuzung im Inneren und an der Kadenz",
@@ -1271,6 +1605,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Regel III, Bsp. 10, S. 8 · zweistimmig, erste Spezies",
@@ -1281,33 +1616,51 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. V, S. 81–82, Bsp. 122, und Kap. IX, S. 170, Bsp. 260 · zweistimmiger Satz und doppelter Kontrapunkt",
           "text": "Im freien Zweistimmensatz erlaubt Piston Kreuzungen, solange jede Linie in ihrem Register erkennbar bleibt. Für doppelten Kontrapunkt empfiehlt er sie nur selten. Eine Kreuzung kann die geplante Vertauschung an dieser Stelle verhindern.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
-          "comparison": "Die Speziestabelle des Handouts schließt die Kreuzung aus. Fux billigt sie in einer konkreten Aussetzung, und Piston unterscheidet zwischen gewöhnlichem und vertauschbarem zweistimmigem Satz."
+          "comparison": "Die Speziestabelle des Handouts schließt die Kreuzung aus. Fux billigt sie in einer konkreten Aussetzung, und Piston unterscheidet zwischen gewöhnlichem und vertauschbarem zweistimmigem Satz.",
+          "comparisonSources": [
+            "artacho-handout",
+            "fux1725"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. IV, §§ 50–51, S. 28–29 · einfacher Kontrapunkt",
           "text": "Kurze Kreuzungen zwischen Nachbarstimmen sind erst ab drei Stimmen zugelassen, zunächst nur im Inneren. Ab fünf Stimmen dürfen sich auch im Schlusstakt zwei Stimmen kreuzen. Gegen- und Seitenbewegung werden bevorzugt. Bei gerader Bewegung muss eine Stimme einen Schritt machen.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=6",
-          "comparison": "Fux gestattet im zweistimmigen Note-gegen-Note-Beispiel eine Kreuzung über vier Töne. Im einfachen Kontrapunkt von Noël-Gallon und Bitsch beginnt diese Freiheit erst bei drei Stimmen."
+          "comparison": "Fux gestattet im zweistimmigen Note-gegen-Note-Beispiel eine Kreuzung über vier Töne. Im einfachen Kontrapunkt von Noël-Gallon und Bitsch beginnt diese Freiheit erst bei drei Stimmen.",
+          "comparisonSources": [
+            "fux1725"
+          ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 4, S. 38, Anweisung 2 · erste zweistimmige Übungen",
           "text": "Für seine ersten zweistimmigen Aufgaben schließt Kennan Stimmkreuzungen vorläufig aus. Beim Lesen lässt sich so jede der beiden Linien als Ober- oder Unterstimme verfolgen.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true,
-          "comparison": "Cherubini gestattet im Note-gegen-Note-Satz eine kurze Kreuzung, wenn sie die Melodie verbessert. Kennans Einstiegsaufgabe setzt hier die engere Grenze."
+          "comparison": "Cherubini gestattet im Note-gegen-Note-Satz eine kurze Kreuzung, wenn sie die Melodie verbessert. Kennans Einstiegsaufgabe setzt hier die engere Grenze.",
+          "comparisonSources": [
+            "cherubini1854"
+          ]
         }
       ],
-      "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt."
+      "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
+      "readingSources": [
+        "artacho-handout",
+        "fux1725",
+        "prout1890"
+      ]
     },
     {
       "id": "stimmuebergreifen",
@@ -1349,6 +1702,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "shaffer2012",
           "name": "Kris Shaffer",
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Independence of the lines · erste Spezies, zwei Stimmen",
@@ -1356,6 +1710,7 @@ const ATLAS = {
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. II, § 31, S. 24 und Kap. V, § 178, S. 78 · allgemeine Regel und zweite Spezies",
@@ -1366,6 +1721,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. V, S. 82, Bsp. 123 · Stimmen ohne Kreuzung",
@@ -1405,6 +1761,7 @@ const ATLAS = {
       },
       "authors": [
         {
+          "source": "shaffer2012",
           "name": "Kris Shaffer",
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Intervals and motion · erste Spezies, zwei Stimmen",
@@ -1412,6 +1769,7 @@ const ATLAS = {
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. I, §§ 12–14, S. 18–19 und Kap. IV, § 135, S. 65 · Stimmlage im zweistimmigen Satz",
@@ -1419,6 +1777,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=69"
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. V, § 50, S. 22–23, Bsp. 43c · zweistimmiger Satz in Moll",
@@ -1429,6 +1788,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Erste Gattung, S. 146–148 · zwei benachbarte Singstimmen",
@@ -1436,27 +1796,40 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=175"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. VII, S. 132–134, Bsp. 218–221, und Kap. IX, S. 169–171 · Instrumentalsatz und Lagentausch",
           "text": "Beim dreistimmigen Instrumentalsatz beurteilt Piston den Abstand nach Besetzung, Register und Verlauf der Linien. Für einen geplanten Lagentausch mit nur einer Oktavversetzung setzt er eine konkrete Grenze. Ein größerer Abstand ließe die Stimmen in ihrer bisherigen Reihenfolge.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
-          "comparison": "Bellermanns Dezimengrenze bezieht sich auf benachbarte Singstimmen. Pistons Oktavgrenze ergibt sich aus der verlangten Vertauschung. Die beiden Zahlen beantworten unterschiedliche Fragen."
+          "comparison": "Bellermanns Dezimengrenze bezieht sich auf benachbarte Singstimmen. Pistons Oktavgrenze ergibt sich aus der verlangten Vertauschung. Die beiden Zahlen beantworten unterschiedliche Fragen.",
+          "comparisonSources": [
+            "bellermann1901"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. IV, § 49, S. 28 · benachbarte Stimmen im einfachen Kontrapunkt",
           "text": "Am Taktanfang sollen Nachbarstimmen weniger als zwei Oktaven auseinanderliegen. Innerhalb des Taktes kann ihr Abstand kurz auf zwei Oktaven oder darüber anwachsen. Entscheidend ist damit auch, auf welchen Taktteil die weiteste Stelle fällt.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=6",
-          "comparison": "Bellermann zieht für benachbarte Singstimmen schon bei der vorübergehenden Dezime die Grenze. Noël-Gallon und Bitsch gestatten denselben Stimmen einen größeren Abstand."
+          "comparison": "Bellermann zieht für benachbarte Singstimmen schon bei der vorübergehenden Dezime die Grenze. Noël-Gallon und Bitsch gestatten denselben Stimmen einen größeren Abstand.",
+          "comparisonSources": [
+            "bellermann1901"
+          ]
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
       "related": [
         "doppelter-kontrapunkt",
         "doppelchor-basslinien"
+      ],
+      "readingSources": [
+        "bellermann1901",
+        "shaffer2012",
+        "goetschius1910"
       ]
     },
     {
@@ -1491,6 +1864,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1998-cf",
           "name": "John Rothgeb",
           "work": "The Cantus Firmus (Music 103, 1998)",
           "locator": "Regeln 10–11 · Cantus firmus in Dur",
@@ -1498,6 +1872,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
         },
         {
+          "source": "shaffer2012",
           "name": "Kris Shaffer",
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Independence of the lines · erste Spezies, zwei Stimmen",
@@ -1505,6 +1880,7 @@ const ATLAS = {
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 45 · Beobachtung am ersten Cantus firmus in D",
@@ -1515,6 +1891,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. I, S. 13–16, Bsp. 1, 4 und 7 · Melodiekontur im Repertoire",
@@ -1526,6 +1903,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "III. Abschnitt, I. Teil, Kap. IV, S. 186–189, Nr. 12–13 · Betonung und Metrum",
@@ -1534,6 +1912,9 @@ const ATLAS = {
           "comparison": "Rothgebs Aufgabe bestimmt, wie oft der höchste Ton des Cantus firmus vorkommen darf. Kurths Zeichen verorten den stärksten Nachdruck beim Vortrag einer melodischen Phase.",
           "examples": [
             "kurth-nr12-13"
+          ],
+          "comparisonSources": [
+            "rothgeb1998-cf"
           ]
         }
       ]
@@ -1576,6 +1957,7 @@ const ATLAS = {
       },
       "authors": [
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio III, S. 68–69 · dritte Spezies",
@@ -1583,6 +1965,7 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118118"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. V, § 186, S. 80–81 und Kap. VI, § 220, S. 90–91 · Moll, zweistimmig",
@@ -1590,6 +1973,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=84"
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Kap. IX, S. 124–125 · aufwärts geführte Schlussstimme in den Modi",
@@ -1600,6 +1984,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 43–44 · chromatische Töne in der dur-moll-tonalen Melodie",
@@ -1608,6 +1993,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, §§ 27, 33–36, S. 19, 21–22 · melodisches Moll",
@@ -1615,6 +2001,7 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=4"
         },
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Nr. 11, T. 13–14, und Anmerkung, S. 6 (Remeš 2021, S. 14)",
@@ -1623,7 +2010,10 @@ const ATLAS = {
           "examples": [
             "foerster-nr11"
           ],
-          "comparison": "Auch Prout verwendet im aufsteigenden Moll die große sechste Stufe vor dem Leitton. Försters Generalbass zeigt diesen Schritt an einer Stelle, an der sich zugleich die tonale Bedeutung des Basses ändert."
+          "comparison": "Auch Prout verwendet im aufsteigenden Moll die große sechste Stufe vor dem Leitton. Försters Generalbass zeigt diesen Schritt an einer Stelle, an der sich zugleich die tonale Bedeutung des Basses ändert.",
+          "comparisonSources": [
+            "prout1890"
+          ]
         }
       ],
       "related": [
@@ -1674,6 +2064,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1993-s2",
           "name": "John Rothgeb",
           "work": "The Second Species of Counterpoint (Music 103, 1993)",
           "locator": "Regeln 4–5 · zweite Spezies, zwei Stimmen",
@@ -1681,6 +2072,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio II, S. 56 · zwei Halbe gegen eine Ganze",
@@ -1691,6 +2083,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. V, §§ 163–166 und 171, S. 73–76 · zweistimmig, zweite Spezies",
@@ -1701,6 +2094,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. VII, §§ 68–72, S. 31–33, Bsp. 58–60 · zwei Noten gegen eine in tonaler Übung",
@@ -1708,6 +2102,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=44"
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Zweite Gattung, S. 153–154 · zwei halbe Noten gegen eine ganze",
@@ -1715,6 +2110,7 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=181"
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. V, § 66, S. 35 · Durchgang und Wechselnote",
@@ -1724,10 +2120,19 @@ const ATLAS = {
           "examples": [
             "gallon-bitsch-durchgang-nebennote",
             "gallon-bitsch-nr-7-9"
+          ],
+          "comparisonSources": [
+            "fux1725",
+            "rothgeb1993-s2"
           ]
         }
       ],
-      "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu."
+      "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
+      "readingSources": [
+        "fux1725",
+        "rothgeb1993-s2",
+        "prout1890"
+      ]
     },
     {
       "id": "dissonanzfolgen-s3",
@@ -1761,6 +2166,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio III, S. 63–64 · vier Viertel gegen eine Ganze",
@@ -1771,6 +2177,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VI, §§ 206 und 208–210, S. 87–88 · zweistimmig, vier gegen eins",
@@ -1826,6 +2233,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1995-s4",
           "name": "John Rothgeb",
           "work": "The Fourth Species of Counterpoint (Music 103, 1995)",
           "locator": "Regeln 4–6 · vierte Spezies, zwei Stimmen",
@@ -1833,6 +2241,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio IV, S. 69–70 · zwei gebundene Halbe",
@@ -1843,6 +2252,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VII, §§ 252–254, S. 103 · zweistimmig, vierte Spezies",
@@ -1850,15 +2260,21 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 50–53, Bsp. 71–76 · Vorhalt im tonalen Repertoire",
           "text": "Der gehaltene Ton wird beim Harmoniewechsel akkordfremd. In Bachs Contrapunctus I bespricht Piston sogar ein c, das bereits als Durchgangston vorbereitet wird.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
-          "comparison": "Fux und Rothgeb verlangen in der vierten Spezies eine konsonante Vorbereitung. Das von Piston beschriebene Bach-Beispiel führt über die Speziesaufgabe hinaus."
+          "comparison": "Fux und Rothgeb verlangen in der vierten Spezies eine konsonante Vorbereitung. Das von Piston beschriebene Bach-Beispiel führt über die Speziesaufgabe hinaus.",
+          "comparisonSources": [
+            "fux1725",
+            "rothgeb1995-s4"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. V, §§ 61–64, S. 33–34 · Richtung und Auflösung",
@@ -1867,9 +2283,13 @@ const ATLAS = {
           "comparison": "Rothgeb verlangt für die dissonante Bindung in seiner zweistimmigen vierten Spezies die abwärts gerichtete Auflösung. Die Molltonika bildet bei Noël-Gallon und Bitsch einen ausdrücklichen Sonderfall.",
           "examples": [
             "gallon-bitsch-nr-15-16"
+          ],
+          "comparisonSources": [
+            "rothgeb1995-s4"
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 6, S. 66–69, Bsp. 13 und 18 · Vorhalt in der Unterstimme",
@@ -1916,6 +2336,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1995-s4",
           "name": "John Rothgeb",
           "work": "The Fourth Species of Counterpoint (Music 103, 1995)",
           "locator": "Regel 8 · vierte Spezies, zwei Stimmen",
@@ -1923,6 +2344,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio IV, S. 74, erstes Beispiel · vierte Spezies",
@@ -1933,6 +2355,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VII, §§ 261–263, S. 105 · zweistimmig, vierte Spezies, zwei gegen eins",
@@ -1943,6 +2366,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. II, § 17, S. 15, und Teil II, Kap. I, S. 62 · vierte Spezies",
@@ -1951,10 +2375,18 @@ const ATLAS = {
           "comparison": "Rothgeb erlaubt bei unlösbaren Bindungen ein bis zwei Ausnahmen pro Übung. Die zahlenmäßige Grenze fällt hier enger aus.",
           "examples": [
             "gallon-bitsch-nr-15-16"
+          ],
+          "comparisonSources": [
+            "rothgeb1995-s4"
           ]
         }
       ],
-      "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden."
+      "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden.",
+      "readingSources": [
+        "fux1725",
+        "rothgeb1995-s4",
+        "prout1890"
+      ]
     },
     {
       "id": "dichte-s5",
@@ -1987,6 +2419,7 @@ const ATLAS = {
       },
       "authors": [
         {
+          "source": "gotham-shaffer-s5",
           "name": "Mark Gotham und Kris Shaffer",
           "work": "Fifth-Species Counterpoint (Open Music Theory)",
           "locator": "Embellishing Suspensions, Bsp. 1 · fünfte Spezies",
@@ -1994,6 +2427,7 @@ const ATLAS = {
           "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio IV–V, S. 76–79 · zweistimmiger Contrapunctus floridus",
@@ -2004,6 +2438,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VIII, §§ 297–301, S. 116–118 · zweistimmig, fünfte Spezies, gerader Takt",
@@ -2014,6 +2449,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Fünfte Gattung, S. 182 und 185, Nr. 4 · Diminution im zweistimmigen Vokalsatz",
@@ -2021,6 +2457,7 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=213"
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. II, § 21 C, S. 16 · Floridus",
@@ -2071,6 +2508,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "shaffer2012",
           "name": "Kris Shaffer",
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Ending a first-species counterpoint · erste Spezies, zwei Stimmen",
@@ -2078,6 +2516,7 @@ const ATLAS = {
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 46–48 · erste Spezies über dem D-Cantus",
@@ -2085,6 +2524,7 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118096"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, §§ 121–122, S. 61–62 · zweistimmig, erste Spezies, Thema unten",
@@ -2092,6 +2532,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=65"
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Regel XVI, Bsp. 46, S. 14 · zweistimmig, zweite Spezies, Thema unten",
@@ -2137,6 +2578,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1995-s4",
           "name": "John Rothgeb",
           "work": "The Fourth Species of Counterpoint (Music 103, 1995)",
           "locator": "Regel 11 · vierte Spezies, Gegenstimme unten",
@@ -2144,6 +2586,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 46 und 48–49 · erste Spezies unter dem D-Cantus",
@@ -2151,6 +2594,7 @@ const ATLAS = {
           "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118097"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, §§ 119–120, S. 60–61 · zweistimmig, erste Spezies, Thema oben",
@@ -2161,6 +2605,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Erste Gattung, S. 147–148, letztes Notenbeispiel · Cantus firmus in der Oberstimme",
@@ -2168,6 +2613,7 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=176"
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Regel XVI, Bsp. 47, S. 14 · zweistimmig, zweite Spezies, Thema oben",
@@ -2197,6 +2643,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "hindemith-tonsatz2",
           "name": "Paul Hindemith",
           "work": "Unterweisung im Tonsatz II. Übungsbuch für den zweistimmigen Satz (Schott, ED 3601)",
           "locator": "Kapitelabfolge im Inhaltsverzeichnis der deutschen Ausgabe",
@@ -2204,6 +2651,7 @@ const ATLAS = {
           "url": "https://www.schott-music.com/de/unterweisung-im-tonsatz-no33622.html"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Vorwort, S. iii–v · Zweck des strengen Kontrapunkts",
@@ -2214,6 +2662,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 45 · erste zweistimmige Aufgabe, Cantus firmus allein",
@@ -2224,6 +2673,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Einleitung, S. 9–12, und Kap. V, S. 72–74 · tonaler Kontrapunkt im Repertoire",
@@ -2232,6 +2682,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, §§ 1–5, S. 11–12, und §§ 10–15, S. 13–14 · Anlage der Übungen",
@@ -2239,14 +2690,19 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch1Ppes.pdf#page=3"
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "II. Abschnitt, Kap. IV, S. 141–143 · Ausgangspunkt für die Arbeit an Bach",
           "text": "Kurth beginnt mit einer einzelnen melodischen Linie. Wer zunächst hört, wie ihre Bewegung über mehrere Töne trägt, kann verfolgen, wie eine zweite Linie mit eigener Bewegungsrichtung hinzutritt. Kurth empfiehlt dafür besonders Bachs Instrumentalmusik, für die Einstimmigkeit auch die Solowerke für Violine und Violoncello.",
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=152",
-          "comparison": "Bei Fux erhält der Schüler zuerst den Cantus firmus und sucht zu dessen Tönen passende Gegenstimmen. Kurth beginnt seine Bach-Studien mit dem Verlauf der Einzelstimme."
+          "comparison": "Bei Fux erhält der Schüler zuerst den Cantus firmus und sucht zu dessen Tönen passende Gegenstimmen. Kurth beginnt seine Bach-Studien mit dem Verlauf der Einzelstimme.",
+          "comparisonSources": [
+            "fux1725"
+          ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 1, S. 2–4 und Kap. 4, S. 35 · tonale Zweistimmigkeit",
@@ -2284,6 +2740,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 27, S. 172–173 · Komposition",
@@ -2291,6 +2748,7 @@ const ATLAS = {
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch327"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio IV, S. 70–72 · gebundene Dissonanz",
@@ -2301,6 +2759,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 44–45, Bsp. 59–60 · harmonische und kontrapunktische Dissonanz",
@@ -2309,6 +2768,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "I. Abschnitt, Kap. VI, S. 91–92 · Quarte im Sextakkord und im Quartsextakkord",
@@ -2344,6 +2804,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 53, S. 221–222 · zweistimmige Klausel zum Einklang",
@@ -2354,6 +2815,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio II, S. 56–57 · Schluss der zweiten Spezies",
@@ -2364,6 +2826,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. IV, § 47, S. 20, Bsp. 41 · vollständige zweistimmige Phrase",
@@ -2371,6 +2834,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=32"
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil II, Kap. I, S. 59, zu § 57 · zwei Stimmen, erste Spezies in Dur und Moll",
@@ -2399,6 +2863,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "hindemith-tonsatz1",
           "name": "Paul Hindemith",
           "work": "Unterweisung im Tonsatz I. Theoretischer Teil (Schott, ED 3600)",
           "locator": "Einlegeblatt · Tabelle zur Akkordbestimmung, erste Seite",
@@ -2406,6 +2871,7 @@ const ATLAS = {
           "url": "https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/33620/dl/ED3600_Unterweisung_im_Tonsatz_Einleger.pdf#page=1"
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, §§ 112–115, S. 58–59 · zweistimmig, erste Spezies",
@@ -2416,6 +2882,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Einleitung, S. 1–3, Bsp. 1–3 · Grundgedanke der Harmonielehre",
@@ -2423,6 +2890,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=13"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 40–42, und Kap. V, S. 75–76 · harmonische Deutung einer Linie und eines Zweiklangs",
@@ -2431,6 +2899,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. IV, §§ 58–60, S. 31–32 · einfacher Kontrapunkt",
@@ -2438,20 +2907,28 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10"
         },
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Nr. 1, T. 10–11, S. 1 (Remeš 2021, S. 1)",
           "text": "Im letzten Klang von Takt 10 gehört derselbe Basston f zu zwei Stufenzählungen. Er ist die vierte Stufe von C-Dur und die tiefe sechste Stufe von a-Moll. Beim folgenden h lauten die beiden Zahlen sieben und zwei. Försters Stufen zeigen, wie sich der Tonartbezug eines gespielten Basses verändert.",
           "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf#page=3",
-          "comparison": "Piston bezieht seine römische Ziffer auf den Grundton der Harmonie. Försters Zahl folgt dem gespielten Basston. Bei einem Sextakkord können die beiden Angaben deshalb verschiedene Töne bezeichnen."
+          "comparison": "Piston bezieht seine römische Ziffer auf den Grundton der Harmonie. Försters Zahl folgt dem gespielten Basston. Bei einem Sextakkord können die beiden Angaben deshalb verschiedene Töne bezeichnen.",
+          "comparisonSources": [
+            "piston1947"
+          ]
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "II. Abschnitt, Kap. I, S. 97–102, und Kap. IV, S. 141–143 · „paralinear“",
           "text": "Kurth nennt das Nebeneinander eigenständig verlaufender Linien „paralinear“. Ihre Zusammenklänge lassen sich auch als Akkorde benennen. Eine Akkordfolge allein erklärt für ihn jedoch weder den Anfang noch das Ziel jeder einzelnen Bewegung.",
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=110",
-          "comparison": "Förster setzt in der Generalbassübung beim gegebenen Bass und den geforderten Intervallen an. Kurth fragt beim Hören von Bach, welche Bewegungen der Stimmen zu einem bestimmten Zusammenklang führen."
+          "comparison": "Förster setzt in der Generalbassübung beim gegebenen Bass und den geforderten Intervallen an. Kurth fragt beim Hören von Bach, welche Bewegungen der Stimmen zu einem bestimmten Zusammenklang führen.",
+          "comparisonSources": [
+            "foerster1818"
+          ]
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -2459,6 +2936,10 @@ const ATLAS = {
         "harmonischer-rhythmus",
         "generalbass-ziffern-stufen",
         "harmonik-enharmonische-spannung"
+      ],
+      "readingSources": [
+        "prout1890",
+        "hindemith-tonsatz1"
       ]
     },
     {
@@ -2482,6 +2963,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "shaffer2012",
           "name": "Kris Shaffer",
           "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
           "locator": "Einleitung und Independence of the lines · erste Spezies, zwei Stimmen",
@@ -2489,6 +2971,7 @@ const ATLAS = {
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
         },
         {
+          "source": "hindemith-tonsatz1",
           "name": "Paul Hindemith",
           "work": "Unterweisung im Tonsatz I. Theoretischer Teil (Schott, ED 3600)",
           "locator": "Einlegeblatt · Analyse von Bachs dreistimmiger Invention in f-Moll, BWV 795, zweite Seite",
@@ -2496,6 +2979,7 @@ const ATLAS = {
           "url": "https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/33620/dl/ED3600_Unterweisung_im_Tonsatz_Einleger.pdf#page=2"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 47–48 · Besprechung der ersten Lösung",
@@ -2506,6 +2990,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, §§ 131, 133 und 146, S. 64, 68 · zweistimmig, erste Spezies",
@@ -2513,6 +2998,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=68"
         },
         {
+          "source": "goetschius1910",
           "name": "Percy Goetschius",
           "work": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
           "locator": "Kap. IV, §§ 44–46, S. 18–20, Bsp. 37–40 · zweistimmige Übung",
@@ -2520,6 +3006,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf#page=30"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. I, S. 23–24, Students’ Work · Ausführung der Melodieaufgaben",
@@ -2528,6 +3015,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Vorwort, S. 5, und Teil I, § 15, S. 14 · Ziel der Satzarbeit",
@@ -2535,6 +3023,7 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch1Ppes.pdf#page=4"
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "II. Abschnitt, Kap. II, S. 109–113, besonders S. 112, Fußnote · erste Gattung",
@@ -2545,6 +3034,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1835",
           "name": "Luigi Cherubini",
           "work": "Cours de contrepoint et de fugue / Theorie des Contrapunktes und der Fuge (Leipzig/Paris, deutsch-französische Ausgabe, um 1835)",
           "locator": "Vierstimmiger Kontrapunkt, sechste Regel, S. 45, und Bsp. 118, S. 46 · Eröffnung",
@@ -2553,6 +3043,9 @@ const ATLAS = {
           "comparison": "Cherubini urteilt hier über die Wahl des ersten Klangs anhand seiner Fortsetzung. Kurths Fußnote auf S. 112 behandelt die melodische Wirkung einer ganzen Musterlösung.",
           "examples": [
             "cherubini-vierstimmige-pruefung"
+          ],
+          "comparisonSources": [
+            "kurth1917"
           ]
         }
       ],
@@ -2580,6 +3073,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio III, S. 64–65 · Cambiata der dritten Spezies",
@@ -2590,6 +3084,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1835",
           "name": "Luigi Cherubini",
           "work": "Cours de contrepoint et de fugue / Theorie des Contrapunktes und der Fuge (Leipzig/Paris, deutsch-französische Ausgabe, um 1835)",
           "locator": "Dritte Gattung, S. 19, Bsp. 51–55 · vier Viertel gegen eine ganze Note",
@@ -2600,6 +3095,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bellermann1901",
           "name": "Heinrich Bellermann",
           "work": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
           "locator": "Dritte Gattung, S. 161–164 · zweistimmige Übung und vierstimmige Motette",
@@ -2610,6 +3106,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "rothgeb1995-s3",
           "name": "John Rothgeb",
           "work": "The Third Species of Counterpoint (Music 103, 1995)",
           "locator": "Regel 6 · dritte Spezies, zwei Stimmen",
@@ -2617,16 +3114,26 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. III, S. 55–58, Bsp. 81 und 86 · Terminologie der tonalen Verzierung",
           "text": "Pistons Grundform verziert einen Sekundschritt. Die rhythmisch leichte Zwischennote wird durch einen Terzsprung erreicht und schrittweise verlassen. Für die Figur mit Schritt hinein und Terzsprung zurück zum Ziel verwendet er den Namen Échappée.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
-          "comparison": "Bei Fux und Rothgeb wird die Dissonanz schrittweise erreicht und im Terzsprung verlassen. Pistons Grundform kehrt die Reihenfolge um. Singe zum Vergleich h–d–c aus seinem Beispiel 86 und die mit 8–7–5 bezeichnete Stelle bei Fux."
+          "comparison": "Bei Fux und Rothgeb wird die Dissonanz schrittweise erreicht und im Terzsprung verlassen. Pistons Grundform kehrt die Reihenfolge um. Singe zum Vergleich h–d–c aus seinem Beispiel 86 und die mit 8–7–5 bezeichnete Stelle bei Fux.",
+          "comparisonSources": [
+            "fux1725",
+            "rothgeb1995-s3"
+          ]
         }
       ],
-      "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt."
+      "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
+      "readingSources": [
+        "fux1725",
+        "cherubini1835",
+        "bellermann1901"
+      ]
     },
     {
       "id": "einklang",
@@ -2646,6 +3153,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 41, S. 194–195 · Gebrauch im Verlauf",
@@ -2653,6 +3161,7 @@ const ATLAS = {
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch341"
         },
         {
+          "source": "rothgeb1998-s1",
           "name": "John Rothgeb",
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regel 6 · erste Spezies, zwei Stimmen",
@@ -2660,6 +3169,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 53–54 · erste Spezies, Zusammenklang",
@@ -2670,6 +3180,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "rothgeb1993-s2",
           "name": "John Rothgeb",
           "work": "The Second Species of Counterpoint (Music 103, 1993)",
           "locator": "Regel 7 · zweite Spezies, Inneres der Übung",
@@ -2677,15 +3188,22 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. V, S. 81–82, Bsp. 121–122 · Zweistimmigkeit im Repertoire",
           "text": "Kurze Einklänge im Inneren kommen häufig vor. Piston vermeidet besonders die schrittweise Annäherung an einen Liegeton. Das Verlassen des Einklangs im Schritt ist gebräuchlich.",
           "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
           "catalogue": true,
-          "comparison": "Der Einklang im Inneren, den Fux für Note gegen Note ausschließt, gehört bei Piston zum Repertoire. Bei Rothgeb ändert sich seine Zulässigkeit bereits zwischen erster und zweiter Spezies."
+          "comparison": "Der Einklang im Inneren, den Fux für Note gegen Note ausschließt, gehört bei Piston zum Repertoire. Bei Rothgeb ändert sich seine Zulässigkeit bereits zwischen erster und zweiter Spezies.",
+          "comparisonSources": [
+            "fux1725",
+            "rothgeb1998-s1",
+            "rothgeb1993-s2"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. IV, § 53, S. 29–30 · metrische Lage und Stimmenzahl",
@@ -2718,6 +3236,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1998-cf",
           "name": "John Rothgeb",
           "work": "The Cantus Firmus (Music 103, 1998)",
           "locator": "Regeln 1–5, 9 und 17 · Cantus firmus in Dur",
@@ -2725,6 +3244,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 45 · erste zweistimmige Aufgabe, Cantus firmus allein",
@@ -2735,6 +3255,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, §§ 3–4 und 14, S. 11 und 14 · gegebene Übungsmelodie",
@@ -2745,6 +3266,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "II. Abschnitt, Kap. II, S. 109–113 · Kritik am Gebrauch des Cantus firmus",
@@ -2770,6 +3292,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "rothgeb1998-s1",
           "name": "John Rothgeb",
           "work": "The First Species of Counterpoint (Music 103, 1998)",
           "locator": "Regel 2 · erste Spezies, hinzugefügte Stimme",
@@ -2777,6 +3300,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
         },
         {
+          "source": "fux1725",
           "name": "Johann Joseph Fux",
           "work": "Gradus ad Parnassum (Wien, 1725)",
           "locator": "Liber II, Exercitium I, Lectio I, S. 47–48 · erste Spezies, erste D-Aussetzung",
@@ -2787,6 +3311,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "rothgeb1993-s2",
           "name": "John Rothgeb",
           "work": "The Second Species of Counterpoint (Music 103, 1993)",
           "locator": "Regel 8 · zweite Spezies, Halbenstimme",
@@ -2794,6 +3319,7 @@ const ATLAS = {
           "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. I, S. 24, Students’ Work · einstimmige instrumentale Melodieübung",
@@ -2802,14 +3328,20 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. III, § 31 mit Anm. 1, S. 20 · nach Stimmenzahl",
           "text": "In zwei Stimmen darf keine Stimme denselben Ton zweimal nacheinander anschlagen. Ab drei Stimmen darf zwischen vorletztem und letztem Takt ausnahmsweise eine Halbe oder Viertel wiederholt werden. Die Wiederholung ganzer Noten in der ersten Spezies erlauben die Autoren erst ab fünf Stimmen und nur sparsam.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=3",
-          "comparison": "In derselben zweistimmigen ersten Spezies lässt Rothgeb den wiederholten Ton der Gegenstimme ausdrücklich zu. Bei Fux billigt Aloysius das zweimal angeschlagene a. Noël-Gallon und Bitsch schließen beides für diese Besetzung aus."
+          "comparison": "In derselben zweistimmigen ersten Spezies lässt Rothgeb den wiederholten Ton der Gegenstimme ausdrücklich zu. Bei Fux billigt Aloysius das zweimal angeschlagene a. Noël-Gallon und Bitsch schließen beides für diese Besetzung aus.",
+          "comparisonSources": [
+            "rothgeb1998-s1",
+            "fux1725"
+          ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 4, S. 38 und 46–47, Bsp. 15–16 · rhythmische Proportion der Übung",
@@ -2843,6 +3375,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. III, §§ 55–59, S. 18–19 · Vergleich zweier Themeneinsätze",
@@ -2853,6 +3386,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "Abschnitte On Tonal Fugue und On Real Fugue, S. 66–67, Bsp. 203 · Lehrmodell und Beispiel von Padre Martini",
@@ -2863,6 +3397,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
           "locator": "T. 1–4, Alt und Sopran · Notenbefund, Bach-Gesellschaft, S. 4",
@@ -2874,6 +3409,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge II in c-Moll, BWV 847",
           "locator": "T. 1–4, Alt und Sopran · Notenbefund, Bach-Gesellschaft, S. 8",
@@ -2885,6 +3421,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 13, S. 179–181, Bsp. 15–17 · g-Moll-Orgelfuge und Musikalisches Opfer",
@@ -2892,6 +3429,9 @@ const ATLAS = {
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
         }
+      ],
+      "readingSources": [
+        "bach1866-wtk1"
       ]
     },
     {
@@ -2916,6 +3456,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. III, §§ 55–56 und 71–72, S. 18 und 26–27 · Wahl der Antworttonart",
@@ -2926,6 +3467,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "On Real Fugue und On Fugue of Imitation, S. 67–68 · Unterscheidung zweier Fugenarten",
@@ -2933,6 +3475,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=74"
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
           "locator": "T. 1–4 · Notenbefund, Bach-Gesellschaft, S. 4",
@@ -2943,7 +3486,8 @@ const ATLAS = {
             "bach-wtk1-846-antwort"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "fuge-quintsprung",
@@ -2969,6 +3513,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "On Tonal Fugue, S. 66, Bsp. 200–201 · Schemata für den Themenkopf",
@@ -2979,6 +3524,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. III, §§ 88–91, S. 33–35 · zwei verschiedene Lösungen bei Bach",
@@ -2990,6 +3536,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge VIII in dis-Moll, BWV 853",
           "locator": "T. 1–3, Alt und Sopran · Notenbefund, Bach-Gesellschaft, S. 34",
@@ -3000,6 +3547,9 @@ const ATLAS = {
             "bach-wtk1-853-quintsprung"
           ]
         }
+      ],
+      "readingSources": [
+        "prout1891"
       ]
     },
     {
@@ -3023,6 +3573,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. IV, §§ 114–119, S. 49–50 · Thema mit Schluss in der Dominanttonart",
@@ -3033,6 +3584,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "On Tonal Fugue, S. 67, rechte Spalte · nach Tonarten gegliederte Phrasen",
@@ -3043,6 +3595,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge VII in Es-Dur, BWV 852",
           "locator": "T. 1–4, Sopran und Alt · Notenbefund, Bach-Gesellschaft, S. 30",
@@ -3053,7 +3606,8 @@ const ATLAS = {
             "bach-wtk1-852-modulation"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "fuge-wechselnde-antwort",
@@ -3074,6 +3628,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "On Real Fugue, S. 68, Bsp. 204 · Wechsel innerhalb einer Antwort",
@@ -3084,6 +3639,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. III, §§ 108–109, S. 46 · zwei Antworten innerhalb derselben Exposition",
@@ -3093,6 +3649,10 @@ const ATLAS = {
             "fuge-prout-zwei-antworten"
           ]
         }
+      ],
+      "readingSources": [
+        "cherubini1854",
+        "prout1891"
       ]
     },
     {
@@ -3116,6 +3676,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1910",
           "name": "Ebenezer Prout",
           "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
           "locator": "Fuge Nr. 27, S. 55–56 · WTK II, Cis-Dur, BWV 872",
@@ -3126,6 +3687,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "keller1965",
           "name": "Hermann Keller",
           "work": "Das Wohltemperierte Klavier von Johann Sebastian Bach. Werk und Wiedergabe (Kassel, Bärenreiter, 1965)",
           "locator": "WTK II, Cis-Dur, BWV 872, S. 130 · Deutung der Themenlänge",
@@ -3133,6 +3695,7 @@ const ATLAS = {
           "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf#page=3"
         },
         {
+          "source": "bach1866-wtk2",
           "name": "Johann Sebastian Bach",
           "work": "Das Wohltemperirte Clavier II, Fuga III in Cis-Dur, BWV 872 (Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig, 1866)",
           "locator": "S. 102, T. 1–2 · Partiturbeobachtung und redaktionelle Markierung",
@@ -3143,6 +3706,11 @@ const ATLAS = {
             "fuge-bach-bwv872-themengrenze"
           ]
         }
+      ],
+      "readingSources": [
+        "bach1866-wtk2",
+        "prout1910",
+        "keller1965"
       ]
     },
     {
@@ -3171,6 +3739,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. V, §§ 159–162 und 176, S. 72–73 und 80 · Definition und Bach-Beispiele",
@@ -3181,6 +3750,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gedalge1901",
           "name": "André Gédalge",
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel IV, §§ 105–106, S. 59–60 · Entwurf für die Schulfuge",
@@ -3191,6 +3761,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "„On Counter-subject“, S. 64–65 · Lehre und Setzbeispiele",
@@ -3198,6 +3769,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf#page=70"
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge II in c-Moll, BWV 847",
           "locator": "T. 3–4 und 7–8 · Notenbefund, Bach-Gesellschaft, S. 8",
@@ -3209,6 +3781,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. IX, S. 169 und 176, Bsp. 258 und 270 · vertauschbarer Kontrapunkt",
@@ -3218,9 +3791,14 @@ const ATLAS = {
           "examples": [
             "piston-bach-bwv885-kontrasubjekt"
           ],
-          "comparison": "Gédalge fordert in der Schulfuge die Vertauschbarkeit in der Oktave oder Doppeloktave. Prouts Analyse von BWV 885 lokalisiert auch die von Piston genannten anderen Vertauschungen. Die Stellen sind über die Frage zum doppelten Kontrapunkt verlinkt."
+          "comparison": "Gédalge fordert in der Schulfuge die Vertauschbarkeit in der Oktave oder Doppeloktave. Prouts Analyse von BWV 885 lokalisiert auch die von Piston genannten anderen Vertauschungen. Die Stellen sind über die Frage zum doppelten Kontrapunkt verlinkt.",
+          "comparisonSources": [
+            "gedalge1901",
+            "prout1910"
+          ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, § 104, S. 50 · Kontrasubjekt und Stimmtausch",
@@ -3228,6 +3806,7 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2"
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 15, S. 206–208, Bsp. 3 · WTK I/2, BWV 847, T. 7–8",
@@ -3238,6 +3817,10 @@ const ATLAS = {
             "kennan-bach-bruecke"
           ]
         }
+      ],
+      "readingSources": [
+        "gedalge1901",
+        "bach1866-wtk1"
       ]
     },
     {
@@ -3263,6 +3846,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. VI, §§ 178–186, S. 81–83 · zwei bis vier Stimmen",
@@ -3270,6 +3854,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=97"
         },
         {
+          "source": "gedalge1901",
           "name": "André Gédalge",
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel V, §§ 126–128 und 133–134, S. 70–71, sowie §§ 140–142, S. 73–74 · Schulfuge",
@@ -3281,6 +3866,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
           "locator": "T. 1–6, erste Einsätze aller vier Stimmen · Notenbefund, Bach-Gesellschaft, S. 4",
@@ -3292,6 +3878,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 15, S. 206–209, Bsp. 3–4 · dreistimmige Exposition und zusätzlicher Einsatz",
@@ -3301,8 +3888,16 @@ const ATLAS = {
           "comparison": "Gédalge schreibt für seine Schulfuge auch bei kleiner Besetzung mindestens vier Einsätze vor. Bei Kennan ist der vierte Einsatz im dreistimmigen Repertoire eine Möglichkeit.",
           "examples": [
             "kennan-bach-bruecke"
+          ],
+          "comparisonSources": [
+            "gedalge1901"
           ]
         }
+      ],
+      "readingSources": [
+        "prout1891",
+        "gedalge1901",
+        "bach1866-wtk1"
       ]
     },
     {
@@ -3326,6 +3921,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "gedalge1901",
           "name": "André Gédalge",
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel VI, §§ 177–183, S. 108–110 · Gegenexposition der Schulfuge",
@@ -3336,6 +3932,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. VI, §§ 207–211, S. 89–91 · Begriff anhand des Repertoires",
@@ -3343,6 +3940,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=106"
         },
         {
+          "source": "prout1910",
           "name": "Ebenezer Prout",
           "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
           "locator": "Fuge Nr. 9, S. 29–30 · WTK I, E-Dur, BWV 854, T. 6–10",
@@ -3350,6 +3948,7 @@ const ATLAS = {
           "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=34"
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge IX in E-Dur, BWV 854",
           "locator": "T. 5–12 · Notenbefund, Bach-Gesellschaft, S. 37",
@@ -3361,14 +3960,22 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 15, S. 218 · Begriff und Beispiele aus beiden Teilen des WTK",
           "text": "Kennan reserviert den Begriff für eine neue Einsatzgruppe, die gewöhnlich wieder Tonika und Dominante durchläuft. Die Stimmen treten oft in anderer Reihenfolge ein. Einen einzelnen Tonikaeinsatz im Mittelteil zählt er ausdrücklich nicht dazu. In der H-Dur-Fuge des zweiten WTK-Bandes hört er eine partielle Gegenexposition.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true,
-          "comparison": "Gédalge gibt für die Schulfuge zwei Einsätze mit vertauschten Rollen vor. Kennan richtet seine Begriffsgrenze nach der ganzen Einsatzgruppe und ihrem Tonartenplan."
+          "comparison": "Gédalge gibt für die Schulfuge zwei Einsätze mit vertauschten Rollen vor. Kennan richtet seine Begriffsgrenze nach der ganzen Einsatzgruppe und ihrem Tonartenplan.",
+          "comparisonSources": [
+            "gedalge1901"
+          ]
         }
+      ],
+      "readingSources": [
+        "gedalge1901",
+        "prout1891"
       ]
     },
     {
@@ -3394,6 +4001,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. VII, §§ 213–216, S. 92–93 · Bach, Wohltemperiertes Klavier I, c-Moll, BWV 847",
@@ -3404,6 +4012,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gedalge1901",
           "name": "André Gédalge",
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel VII, §§ 187–193, S. 112–113 · Divertissement der Schulfuge",
@@ -3411,6 +4020,7 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=124"
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge II in c-Moll, BWV 847",
           "locator": "T. 9–11, zwischen dem ersten Basseinsatz und dem Einsatz im Sopran · Notenbefund, Bach-Gesellschaft, S. 8",
@@ -3422,6 +4032,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. VIII, S. 155, Bsp. 247 · paarweise Imitation",
@@ -3430,6 +4041,7 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "III. Abschnitt, II. Teil, Kap. VI, S. 230–233, Nr. 37–38 · Sequenz in der Fortspinnung",
@@ -3438,9 +4050,13 @@ const ATLAS = {
           "comparison": "Prout grenzt Codetta und Zwischenspiel nach ihrem Platz zwischen den Einsätzen ab. Kurth verfolgt an diesem Zwischenspiel, welches Material die Fortsetzung trägt.",
           "examples": [
             "kurth-nr38"
+          ],
+          "comparisonSources": [
+            "prout1891"
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 15, S. 207, Bsp. 3, und Kap. 16, S. 220–222, Bsp. 1a–c · WTK I/2, BWV 847",
@@ -3451,6 +4067,10 @@ const ATLAS = {
             "kennan-bach-bruecke"
           ]
         }
+      ],
+      "readingSources": [
+        "bach1866-wtk1",
+        "prout1891"
       ]
     },
     {
@@ -3476,6 +4096,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "cherubini1854",
           "name": "Luigi Cherubini",
           "work": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
           "locator": "„On Stretto“, S. 65–66, Bsp. 198 · Lehre und Setzbeispiel",
@@ -3486,6 +4107,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. VIII, §§ 244–250, S. 109–110 · Prüfung an Bachs 48 Fugen",
@@ -3496,6 +4118,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gedalge1901",
           "name": "André Gédalge",
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel VIII, §§ 261–266, S. 155 · Terminologie der Schulfuge",
@@ -3503,6 +4126,7 @@ const ATLAS = {
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136#page=167"
         },
         {
+          "source": "bach1866-wtk1",
           "name": "Johann Sebastian Bach",
           "work": "Das wohltemperierte Klavier I, Fuge I in C-Dur, BWV 846",
           "locator": "T. 7–8, Sopran und Tenor · Notenbefund, Bach-Gesellschaft, S. 4",
@@ -3514,6 +4138,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. X, S. 190, Bsp. 284 · Kanon als Technik der Fuge",
@@ -3522,12 +4147,18 @@ const ATLAS = {
           "catalogue": true
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, § 104, S. 50 · kanonische Führung von Thema und Antwort",
           "text": "Unter einer eigentlichen Engführung verstehen die Autoren einen Kanon zwischen Fugenthema und Antwort. Höre auf den Moment, in dem die Antwort einsetzt, während das Thema noch weiterläuft.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch9imitPpes.pdf#page=2"
         }
+      ],
+      "readingSources": [
+        "bach1866-wtk1",
+        "cherubini1854",
+        "prout1891"
       ]
     },
     {
@@ -3552,6 +4183,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. IV, S. 60–66, bes. Bsp. 96–97 · Schumann, Kinderszenen op. 15 Nr. 10",
@@ -3563,6 +4195,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. V, § 172, S. 76 · zweite Spezies",
@@ -3570,6 +4203,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=80"
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, § 59, S. 32 · einfacher Kontrapunkt, auch vierte Spezies",
@@ -3577,6 +4211,7 @@ const ATLAS = {
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=10"
         },
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Nr. 26, T. 3 und Anmerkung, S. 14 (Remeš 2021, S. 37–38) · Ziffernwechsel über einem Basston",
@@ -3587,14 +4222,22 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 6, S. 63–64, Bsp. 6–8 · vier Noten gegen eine",
           "text": "Die vier bewegten Töne gehören bei Kennan gewöhnlich zu einer Harmonie pro Schlag. Die erste und dritte Note haben mehr metrisches Gewicht und sind häufig Akkordtöne. Ein Harmoniewechsel innerhalb des Schlags ist gelegentlich möglich.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true,
-          "comparison": "Förster zeigt in Nr. 26 ausdrücklich zwei Griffe über demselben Bass. Bei Kennan prüft man zunächst, wie viele der vier Töne sich als Bewegung innerhalb eines einzigen Klangs hören lassen."
+          "comparison": "Förster zeigt in Nr. 26 ausdrücklich zwei Griffe über demselben Bass. Bei Kennan prüft man zunächst, wie viele der vier Töne sich als Bewegung innerhalb eines einzigen Klangs hören lassen.",
+          "comparisonSources": [
+            "foerster1818"
+          ]
         }
+      ],
+      "readingSources": [
+        "piston1947",
+        "prout1890"
       ]
     },
     {
@@ -3621,6 +4264,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. V, S. 79–81, Bsp. 117–120 · rhythmische Eigenständigkeit zweier Linien",
@@ -3632,6 +4276,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gedalge1901",
           "name": "André Gédalge",
           "work": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
           "locator": "Titel IV, §§ 105–106, S. 59–60 · Entwurf für die Schulfuge",
@@ -3642,6 +4287,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "III. Abschnitt, Kap. VIII, S. 273–274, Nr. 152 · rhythmische Gliederung in einer Solostimme",
@@ -3652,6 +4298,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 11, S. 147–149, Bsp. 4–5 · drei Stimmen",
@@ -3659,6 +4306,9 @@ const ATLAS = {
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
         }
+      ],
+      "readingSources": [
+        "piston1947"
       ]
     },
     {
@@ -3686,6 +4336,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. IX, S. 167–169 und 176, Bsp. 256–258 und 270 · Lagentausch",
@@ -3697,6 +4348,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1910",
           "name": "Ebenezer Prout",
           "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
           "locator": "Fuge Nr. 40, S. 75–76 · BWV 885, T. 20, 28 und 32–40",
@@ -3707,6 +4359,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, §§ 81–83, S. 41 · Vertauschung in der Oktave",
@@ -3715,9 +4368,13 @@ const ATLAS = {
           "comparison": "Prout findet bei Bach auch Vertauschungen in Dezime und Duodezime. Noël-Gallon und Bitsch erwähnen weitere Intervalle, beschränken ihre Übungen aber auf den Oktavtausch.",
           "examples": [
             "gallon-bitsch-nr-119"
+          ],
+          "comparisonSources": [
+            "prout1910"
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 9, S. 118–121, Bsp. 5–6 · WTK II/16, BWV 885",
@@ -3725,6 +4382,11 @@ const ATLAS = {
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
         }
+      ],
+      "readingSources": [
+        "bach1866-wtk2",
+        "piston1947",
+        "prout1910"
       ]
     },
     {
@@ -3750,6 +4412,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. VI, S. 111, Bsp. 184, und Kap. X, S. 188–189, Bsp. 281 · motivische Imitation und zweistimmiger Kanon",
@@ -3761,6 +4424,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1891",
           "name": "Ebenezer Prout",
           "work": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
           "locator": "Kap. I, §§ 4–5, S. 1–2 · Fuge im Vergleich mit Kanon",
@@ -3768,6 +4432,7 @@ const ATLAS = {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf#page=18"
         },
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, §§ 101–103, S. 49 · Imitation, Intervalltreue und Kanon",
@@ -3778,6 +4443,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 8, S. 91–94, Bsp. 1–4 · Einsatzabstände und freie Begleitstimme",
@@ -3785,7 +4451,8 @@ const ATLAS = {
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "speziesmischung",
@@ -3810,6 +4477,7 @@ const ATLAS = {
       "comparisons": [],
       "authors": [
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, §§ 12–13 und 20, S. 13 und 16 · drei und vier Stimmen",
@@ -3819,9 +4487,13 @@ const ATLAS = {
           "examples": [
             "gallon-bitsch-grand-melange",
             "gallon-bitsch-nr-93-94"
+          ],
+          "comparisonSources": [
+            "prout1890"
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. XI, §§ 394–396 und 402–403, S. 153 und 155 · kombinierter Kontrapunkt",
@@ -3831,6 +4503,10 @@ const ATLAS = {
             "prout-zwei-halbenstimmen"
           ]
         }
+      ],
+      "readingSources": [
+        "prout1890",
+        "gallon-bitsch1964"
       ]
     },
     {
@@ -3855,6 +4531,7 @@ const ATLAS = {
       "comparisons": [],
       "authors": [
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, Kap. V, § 63 A, S. 33 · die beiden Notenbeispiele zur Mindestdauer",
@@ -3863,16 +4540,21 @@ const ATLAS = {
           "comparison": "Prout formuliert die Dauer im Verhältnis zur gebundenen Note. Noël-Gallon und Bitsch geben für ihre Übungen einen festen Mindestwert an. Beim Halbennoten-Vorhalt führen beide Angaben zu derselben Grenze.",
           "examples": [
             "gallon-bitsch-vorhaltsvorbereitung"
+          ],
+          "comparisonSources": [
+            "prout1890"
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. VII, §§ 252–253, S. 103 · Bindung und Vorhalt",
           "text": "Prout vergleicht die Dauern beiderseits des Bindebogens. Der auf leichter Zeit beginnende Ton muss mindestens so lange dauern wie der angebundene Ton auf schwerer Zeit. Für die beiden Halben der vierten Spezies ergeben sich gleiche Dauern.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf#page=107"
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "kanon-verfahren",
@@ -3900,6 +4582,7 @@ const ATLAS = {
       "comparisons": [],
       "authors": [
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, §§ 105–107, S. 50–51 · Gestalt und Dauer der Antwort",
@@ -3912,6 +4595,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "piston1947",
           "name": "Walter Piston",
           "work": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
           "locator": "Kap. V, S. 80–81, Bsp. 120 · Themenvergrößerung in der Fuge",
@@ -3922,6 +4606,9 @@ const ATLAS = {
             "piston-bach-contrapunctus-vii"
           ]
         }
+      ],
+      "readingSources": [
+        "piston1947"
       ]
     },
     {
@@ -3948,6 +4635,7 @@ const ATLAS = {
       "comparisons": [],
       "authors": [
         {
+          "source": "gallon-bitsch1964",
           "name": "Noël-Gallon und Marcel Bitsch",
           "work": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
           "locator": "Teil I, §§ 69–73, S. 37 · zwei vorgegebene Bässe im achtstimmigen Satz",
@@ -3960,12 +4648,16 @@ const ATLAS = {
           ]
         },
         {
+          "source": "zarlino1558",
           "name": "Gioseffo Zarlino",
           "work": "Le istitutioni harmoniche (Venedig, 1558)",
           "locator": "Teil III, Kap. 66, S. 268 · mehrchörige Psalmen in Venedig",
           "text": "Zarlino beschreibt zwei oder drei räumlich getrennte vierstimmige Chöre in der venezianischen Vesper. Sie singen abwechselnd und gelegentlich gemeinsam, besonders zum Schluss. Jeder Chor soll auch für sich konsonant klingen. Bei den gemeinsamen Einsätzen beobachtet Zarlino die Bässe im Einklang oder in der Oktave, bisweilen in der Terz.",
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#p268"
         }
+      ],
+      "readingSources": [
+        "gallon-bitsch1964"
       ]
     },
     {
@@ -3991,6 +4683,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Vorwort und Nr. 8, T. 1, S. 4 (Remeš 2021, S. 8)",
@@ -4000,7 +4693,8 @@ const ATLAS = {
             "foerster-sextakkord"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "generalbass-sextakkord",
@@ -4025,6 +4719,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Vorbemerkung zu Nr. 8 und T. 7, S. 4 (Remeš 2021, S. 8)",
@@ -4034,7 +4729,8 @@ const ATLAS = {
             "foerster-nr8-t7"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "generalbass-zweideutiger-septakkord",
@@ -4060,6 +4756,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "„Zweydeutige Accorde“, S. 13, vor Nr. 25 (Remeš 2021, S. 34)",
@@ -4068,15 +4765,20 @@ const ATLAS = {
           "examples": [
             "foerster-septimenvergleich"
           ],
-          "comparison": "Förster berichtet, Vogler und Knecht unterschieden nach der Stufe. Auf II in Moll sei Vorbereitung erforderlich, auf VII in Dur entbehrlich. Sein Einwand betrifft den zweiten Fall. Auch auf VII in Dur gibt es für ihn Verbindungen, die eine Vorbereitung verlangen."
+          "comparison": "Förster berichtet, Vogler und Knecht unterschieden nach der Stufe. Auf II in Moll sei Vorbereitung erforderlich, auf VII in Dur entbehrlich. Sein Einwand betrifft den zweiten Fall. Auch auf VII in Dur gibt es für ihn Verbindungen, die eine Vorbereitung verlangen.",
+          "comparisonSources": []
         },
         {
+          "source": "foerster1804",
           "name": "Emanuel Aloys Förster",
           "work": "Anleitung zum General-Bass (Leipzig, Breitkopf & Härtel)",
           "locator": "§ 69, S. 23, mit Verweisen auf Nr. 91–93 · Försters Kriterium",
           "text": "Folgt auf den Septimenakkord der siebten Durstufe der Tonikadreiklang, kann die Septime frei eintreten. Für die erste und zweite Umkehrung nennt Förster als Ziel den Sextakkord auf der dritten Bassstufe. Bei diesen Umkehrungen verlangt er die Dissonanz in der Oberstimme. Nimmt der Bass eine andere Wendung, verlangt er Vorbereitung.",
           "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf#page=25"
         }
+      ],
+      "readingSources": [
+        "foerster1818"
       ]
     },
     {
@@ -4104,6 +4806,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Vorwort und Nr. 1, T. 1–4, S. 1 (Remeš 2021, Vorwort und S. 1)",
@@ -4114,13 +4817,15 @@ const ATLAS = {
           ]
         },
         {
+          "source": "tuerk1791",
           "name": "Daniel Gottlob Türk",
           "work": "Kurze Anweisung zum Generalbaßspielen (Halle und Leipzig, 1791)",
           "locator": "Zweites Kapitel, § 61 und Anmerkungen, S. 74–75 · Begleitung am Tasteninstrument",
           "text": "Türk lässt Anfänger zunächst vierstimmig üben. Beim Begleiten entscheidet auch die Besetzung. Im Piano oder bei kleiner Besetzung genügen oft drei Stimmen. Im Pianissimo oder unter einer solistischen Singstimme können zwei reichen. Für einen großen Chor oder ein Fortissimo kommen fünf oder mehr in Betracht.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf#page=82"
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "generalbass-transponieren",
@@ -4143,6 +4848,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "foerster1818",
           "name": "Emanuel Aloys Förster",
           "work": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
           "locator": "Vorwort zur I. Abteilung · Transponierübung für Organisten",
@@ -4152,7 +4858,8 @@ const ATLAS = {
             "foerster-transponieren"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "linie-scheinpolyphonie",
@@ -4176,6 +4883,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "III. Abschnitt, Kap. VIII, S. 272–275, Nr. 153 · Solovioline",
@@ -4187,15 +4895,20 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 2, S. 10–11, Bsp. 10–11 · compound line in Bachs Chaconne",
           "text": "Kennan trennt die Töne einer Passage aus Bachs Chaconne für Solovioline in drei gedachte Stimmen. Beim Spielen wechseln sie sich ab. Schreibt man ihren Verlauf auf mehrere Systeme, wird auch hörbar, wie eine einzelne Violine eine Harmonie andeuten kann.",
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true,
-          "comparison": "Kurth verfolgt in der C-Dur-Solofuge den länger aufsteigenden Zug der Spitzentöne. Kennans Reduktion der Chaconne macht drei abwechselnd angespielte Linien und ihren harmonischen Zusammenhang kenntlich."
+          "comparison": "Kurth verfolgt in der C-Dur-Solofuge den länger aufsteigenden Zug der Spitzentöne. Kennans Reduktion der Chaconne macht drei abwechselnd angespielte Linien und ihren harmonischen Zusammenhang kenntlich.",
+          "comparisonSources": [
+            "kurth1917"
+          ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "linie-orgelpunkt",
@@ -4219,6 +4932,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "III. Abschnitt, Kap. VIII, S. 294–295, Nr. 169 · Orgelpunkt in der einstimmigen Linie",
@@ -4228,7 +4942,8 @@ const ATLAS = {
             "kurth-nr169"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "melodische-fortspinnung",
@@ -4254,6 +4969,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "III. Abschnitt, II. Teil, Kap. VI, S. 224–226, Nr. 33a–b, und S. 230–231 · melodische Fortspinnung",
@@ -4265,6 +4981,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 10, S. 135–136, Bsp. 8 · Episode der Es-Dur-Invention BWV 776",
@@ -4272,7 +4989,8 @@ const ATLAS = {
           "url": "https://iucat.iu.edu/iub/4609610",
           "catalogue": true
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "harmonik-enharmonische-spannung",
@@ -4299,6 +5017,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kurth1917",
           "name": "Ernst Kurth",
           "work": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
           "locator": "I. Abschnitt, Kap. VI, S. 69 · zwei enharmonische Lesarten",
@@ -4308,6 +5027,9 @@ const ATLAS = {
             "kurth-enharmonische-spannung"
           ]
         }
+      ],
+      "readingSources": [
+        "kurth1917"
       ]
     },
     {
@@ -4333,6 +5055,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 4, S. 35, und Kap. 6, S. 60–62, Bsp. 2 und 5 · drei Töne gegen einen",
@@ -4344,6 +5067,7 @@ const ATLAS = {
           ]
         },
         {
+          "source": "prout1890",
           "name": "Ebenezer Prout",
           "work": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
           "locator": "Kap. IV, § 110 mit Fußnote, S. 58, und Kap. VI, §§ 236–237, S. 96–97 · drei Noten gegen eine",
@@ -4352,8 +5076,14 @@ const ATLAS = {
           "comparison": "Prout und Kennan benennen dieselbe rhythmische Aufgabe verschieden. An beiden Beispielen lässt sich unabhängig von der Speziesnummer hören, welche Töne zwischen den Gerüsttönen zur Harmonie gehören.",
           "examples": [
             "prout-drei-gegen-eins"
+          ],
+          "comparisonSources": [
+            "kennan1999"
           ]
         }
+      ],
+      "readingSources": [
+        "kennan1999"
       ]
     },
     {
@@ -4377,6 +5107,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 10, S. 127–129, Bsp. 1b · Gegenmotiv in der zweistimmigen Invention",
@@ -4387,7 +5118,8 @@ const ATLAS = {
             "kennan-bach-gegenmotiv"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "invention-einsatzplan",
@@ -4413,6 +5145,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 10, S. 127–131, Bsp. 1a und Einsatzpläne · zweistimmige Invention",
@@ -4423,7 +5156,8 @@ const ATLAS = {
             "kennan-bach-invention-c"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "fuge-doppelfuge",
@@ -4448,6 +5182,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 17, S. 240–244 · drei Anlageformen der Doppelfuge, WTK II/18 als Beispiel zu Typ 2b auf S. 243",
@@ -4457,16 +5192,19 @@ const ATLAS = {
           "comparison": "Kennan erwähnt auch den weiteren Sprachgebrauch, bei dem zwei Themen schon für die Bezeichnung Doppelfuge ausreichen.",
           "examples": [
             "kennan-bach-doppelfuge"
-          ]
+          ],
+          "comparisonSources": []
         },
         {
+          "source": "prout1910",
           "name": "Ebenezer Prout",
           "work": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
           "locator": "Fuge Nr. 42, S. 78–79 · WTK II/18, BWV 887, T. 61 und 97",
           "text": "Prout lässt für das neu auftretende Thema auch die Bezeichnung Kontrasubjekt gelten. Er hebt hervor, dass es ab Takt 61 eine eigene Exposition erhält. In Takt 97 verfolgt er das erste Thema im Bass und das zweite im Alt.",
           "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=83"
         }
-      ]
+      ],
+      "readingSources": []
     },
     {
       "id": "kanon-spiralkanon",
@@ -4491,6 +5229,7 @@ const ATLAS = {
       ],
       "authors": [
         {
+          "source": "kennan1999",
           "name": "Kent Kennan",
           "work": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
           "locator": "Kap. 8, S. 114 · Spiralkanon, Bachs Musikalisches Opfer",
@@ -4501,7 +5240,8 @@ const ATLAS = {
             "kennan-bach-spiralkanon"
           ]
         }
-      ]
+      ],
+      "readingSources": []
     }
   ],
   "examples": {

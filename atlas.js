@@ -1,7 +1,31 @@
 /* Classic scripts also work when the atlas is opened directly from disk. */
 (() => {
   "use strict";
-  const { topics, examples: scores } = ATLAS;
+  const { topics: allTopics, examples: scores, sources } = ATLAS;
+  const sourceIds = AtlasSources.read(location.href);
+  const allSources = sourceIds.size === sources.length;
+  const withHandout = sourceIds.has("artacho-handout");
+  const allById = new Map(allTopics.map(topic => [topic.id, topic]));
+
+  // Filter before building the index or rendering any part of a question.
+  function scopeTopic(topic) {
+    const originalAuthors = topic.authors || [];
+    const authors = originalAuthors.filter(a => sourceIds.has(a.source)).map(a => {
+      if (!a.comparison || a.comparisonSources?.every(id => sourceIds.has(id))) return a;
+      return { ...a, comparison: undefined };
+    });
+    const species = withHandout ? topic.species : undefined;
+    const comparisons = withHandout ? topic.comparisons : [];
+    if (!authors.length && !species && !comparisons.length) return null;
+    const complete = authors.length === originalAuthors.length &&
+      (withHandout || (!topic.species && !topic.comparisons.length));
+    const showReading = topic.readingSources
+      ? topic.readingSources.every(id => sourceIds.has(id)) : complete;
+    return { ...topic, species, comparisons, authors,
+      reading: showReading ? topic.reading : undefined, tags: complete ? topic.tags : [] };
+  }
+
+  const topics = allSources ? allTopics : allTopics.map(scopeTopic).filter(Boolean);
   const byId = new Map(topics.map(topic => [topic.id, topic]));
   const first = byId.get("sprungfolge") || topics[0];
   const search = document.querySelector("#search");
@@ -12,7 +36,11 @@
   const count = document.querySelector("#result-count");
   const detail = document.querySelector("#detail");
   const status = document.querySelector("#status");
-  const handout = document.querySelector(".pdf-link").href;
+  const handout = sources.find(source => source.id === "artacho-handout").url;
+  const summary = document.getElementById("source-summary");
+  summary.textContent = allSources ? "Alle " + sources.length + " Quellen" :
+    sourceIds.size + " von " + sources.length + " Quellen";
+  if (!allSources) summary.title = [...sourceIds].join(", ");
   let selected = first;
   let species = 0;
   let nextFocus = "";
@@ -45,8 +73,15 @@
 
   function fragment(topic, n) {
     const params = new URLSearchParams({ frage: topic.id });
-    if (topic.species && n) params.set("spezies", String(n));
+    if (allById.get(topic.id)?.species && n) params.set("spezies", String(n));
     return "#" + params;
+  }
+
+  function sourcesPage(topic) {
+    const url = new URL("quellen.html", location.href);
+    url.search = location.search;
+    url.hash = topic ? fragment(topic, species) : "";
+    return AtlasSources.write(url, sourceIds).href;
   }
 
   function normalize(value) {
@@ -71,8 +106,10 @@
     group.add(new Option(name, name));
   }
   perspective.replaceChildren(new Option("Alle Quellen und Modelle", ""));
-  perspective.add(new Option("Artacho · Speziestabellen", "species"));
-  perspective.add(new Option("Hindemith · nach Artacho", "comparisons"));
+  if (withHandout) {
+    perspective.add(new Option("Artacho · Speziestabellen", "species"));
+    perspective.add(new Option("Hindemith · nach Artacho", "comparisons"));
+  }
   const authors = topics.flatMap(topic => (topic.authors || []).map(author => author.name));
   for (const name of [...new Set(authors)].sort((a,b) => a.localeCompare(b, "de"))) {
     perspective.add(new Option(name, "author:" + name));
@@ -114,7 +151,9 @@
       });
       list.append(a);
     }
-    if (!matches.length) {
+    if (!topics.length) {
+      list.append(el("p", "empty-state", "Keine Quelle ausgewählt."));
+    } else if (!matches.length) {
       list.append(el("p", "empty-state", "Keine passende Frage gefunden."));
       list.append(button("Filter zurücksetzen", "source-link", () => {
         search.value = "";
@@ -339,16 +378,18 @@
 
   function share(topic) {
     const offline = location.protocol === "file:";
-    return button(offline ? "Sprungmarke kopieren" : "Link kopieren", "source-link", async event => {
+    const hashOnly = offline && allSources;
+    return button(hashOnly ? "Sprungmarke kopieren" : "Link kopieren", "source-link", async event => {
       const control = event.currentTarget;
       const hash = fragment(topic, species);
-      const value = offline ? hash : new URL(hash, location.href).href;
+      const base = offline ? "https://muk-labs.github.io/Kontrapunktatlas/" : location.href;
+      const value = hashOnly ? hash : AtlasSources.write(new URL(hash, base), sourceIds).href;
       try {
         await navigator.clipboard.writeText(value);
-        status.textContent = offline ? "Sprungmarke für den Atlas kopiert." : "Link zur aktuellen Ansicht kopiert.";
-        control.textContent = offline ? "Sprungmarke kopiert" : "Link kopiert";
+        status.textContent = hashOnly ? "Sprungmarke für den Atlas kopiert." : "Link zur aktuellen Ansicht kopiert.";
+        control.textContent = hashOnly ? "Sprungmarke kopiert" : "Link kopiert";
       } catch {
-        window.prompt(offline ? "Sprungmarke für den Atlas kopieren" : "Link zur aktuellen Ansicht kopieren", value);
+        window.prompt(hashOnly ? "Sprungmarke für den Atlas kopieren" : "Link zur aktuellen Ansicht kopieren", value);
       }
     });
   }
@@ -400,6 +441,23 @@
     document.title = topic.title + " · " + pageTitle;
   }
 
+  function renderUnavailable(requested) {
+    const header = el("header", "detail-header");
+    const title = el("h2", "entry-title", requested?.title || "Quellen für den Atlas wählen");
+    title.tabIndex = -1;
+    header.append(el("p", "entry-kicker", requested?.group || "Quellenauswahl"), title);
+    const empty = el("section", "detail-section");
+    empty.append(el("p", "", sourceIds.size
+      ? "Zu dieser Frage gibt es in den ausgewählten Werken keinen Beitrag."
+      : "Wähle mindestens eine Quelle, um Fragen und Notenbeispiele zu sehen."));
+    const actions = el("div", "entry-actions");
+    if (first) actions.append(link("Erste passende Frage öffnen", fragment(first, 0), "source-link"));
+    actions.append(link("Quellenauswahl ändern", sourcesPage(requested), "source-link"));
+    empty.append(actions);
+    detail.replaceChildren(header, empty);
+    document.title = title.textContent + " · " + pageTitle;
+  }
+
   function readRoute(initial = false) {
     const params = new URLSearchParams(location.hash.slice(1));
     if (!params.has("frage") && location.hash && !initial) {
@@ -407,16 +465,19 @@
       return;
     }
     const id = params.get("frage");
-    const known = byId.get(id);
-    selected = known || first;
+    const requested = allById.get(id);
+    selected = requested ? byId.get(id) : first;
     const n = params.get("spezies") || "";
-    species = selected.species && /^[1-5]$/.test(n) ? Number(n) : 0;
+    species = (requested || selected)?.species && /^[1-5]$/.test(n) ? Number(n) : 0;
+    const target = sourcesPage(requested || selected);
+    for (const a of document.querySelectorAll("[data-quellen]")) a.href = target;
     renderList();
-    renderDetail();
+    if (selected) renderDetail();
+    else renderUnavailable(requested);
     if (nextFocus === "title") detail.querySelector("h2").focus();
-    if (initial && known) detail.scrollIntoView({block: "start"});
+    if (initial && requested) detail.scrollIntoView({block: "start"});
     if (nextFocus === "species") detail.querySelector('[aria-pressed="true"]')?.focus({preventScroll:true});
-    status.textContent = id && !known ? "Unbekannte Frage. Der erste Eintrag wird angezeigt." : "";
+    status.textContent = id && !requested ? "Unbekannte Frage." : "";
     nextFocus = "";
   }
 
@@ -424,7 +485,15 @@
   group.addEventListener("change", renderList);
   perspective.addEventListener("change", renderList);
   illustrated.addEventListener("change", renderList);
+  const home = new URL("index.html", location.href);
+  home.search = location.search;
+  document.querySelector(".brand").href = AtlasSources.write(home, sourceIds).href;
   for (const a of document.querySelectorAll(".case-links a")) {
+    const id = new URLSearchParams(a.getAttribute("href").slice(1)).get("frage");
+    if (!byId.has(id)) {
+      a.hidden = true;
+      continue;
+    }
     a.addEventListener("click", event => {
       if (event.button || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
       if (a.dataset.group || group.value) {
