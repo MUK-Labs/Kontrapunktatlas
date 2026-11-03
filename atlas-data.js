@@ -1,5 +1,360 @@
 // Redaktion: Ein Eintrag pro Frage. Die fünf Werte jeder Reihe stehen für die Spezies I bis V.
 const ATLAS = {
+  "people": [
+    {
+      "name": "Adrián Artacho",
+      "aliases": [
+        "Adrian Artacho",
+        "Artacho"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Heinrich Bellermann",
+      "aliases": [
+        "Bellermann"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Bellermann"
+    },
+    {
+      "name": "Thomas Benjamin",
+      "aliases": [
+        "Benjamin"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Luigi Cherubini",
+      "aliases": [
+        "Cherubini"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Luigi_Cherubini"
+    },
+    {
+      "name": "Emanuel Aloys Förster",
+      "aliases": [
+        "Förster",
+        "Foerster"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Emanuel_Aloys_F%C3%B6rster"
+    },
+    {
+      "name": "Johann Joseph Fux",
+      "aliases": [
+        "Fux"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Joseph_Fux"
+    },
+    {
+      "name": "Noël-Gallon",
+      "aliases": [
+        "Noël Gallon",
+        "Noel-Gallon",
+        "Noel Gallon",
+        "Gallon"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/No%C3%ABl_Gallon"
+    },
+    {
+      "name": "Jean Gallon",
+      "aliases": [],
+      "wikipedia": "https://de.wikipedia.org/wiki/Jean_Gallon"
+    },
+    {
+      "name": "Marcel Bitsch",
+      "aliases": [
+        "Bitsch"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Marcel_Bitsch"
+    },
+    {
+      "name": "André Gédalge",
+      "aliases": [
+        "André Gedalge",
+        "Gédalge",
+        "Gedalge"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9_Gedalge"
+    },
+    {
+      "name": "Percy Goetschius",
+      "aliases": [
+        "Goetschius"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Percy_Goetschius"
+    },
+    {
+      "name": "Paul Hindemith",
+      "aliases": [
+        "Hindemith"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Paul_Hindemith"
+    },
+    {
+      "name": "Hermann Keller",
+      "aliases": [
+        "Keller"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Keller_(Musikwissenschaftler)"
+    },
+    {
+      "name": "Kent Kennan",
+      "aliases": [
+        "Kennan"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Kent_Kennan"
+    },
+    {
+      "name": "Ernst Kurth",
+      "aliases": [
+        "Kurth"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Kurth_(Musikwissenschaftler)"
+    },
+    {
+      "name": "Walter Piston",
+      "aliases": [
+        "Piston"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Walter_Piston"
+    },
+    {
+      "name": "Ebenezer Prout",
+      "aliases": [
+        "Prout"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Ebenezer_Prout"
+    },
+    {
+      "name": "Louis Beethoven Prout",
+      "aliases": [
+        "Louis B. Prout",
+        "Louis Prout"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Louis_Beethoven_Prout"
+    },
+    {
+      "name": "Peter Schubert",
+      "aliases": [
+        "Schubert"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Daniel Gottlob Türk",
+      "aliases": [
+        "Türk"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Daniel_Gottlob_T%C3%BCrk"
+    },
+    {
+      "name": "Gioseffo Zarlino",
+      "aliases": [
+        "Zarlino"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Gioseffo_Zarlino"
+    },
+    {
+      "name": "Mark Gotham",
+      "aliases": [
+        "Gotham"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Kris Shaffer",
+      "aliases": [
+        "Shaffer"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "John Rothgeb",
+      "aliases": [
+        "Rothgeb"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Johann Sebastian Bach",
+      "aliases": [
+        "J. S. Bach",
+        "J.S. Bach",
+        "Bach"
+      ],
+      "exclude": [
+        "Bach-Gesellschaft"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Sebastian_Bach"
+    },
+    {
+      "name": "Giovanni Pierluigi da Palestrina",
+      "aliases": [
+        "Palestrina"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Giovanni_Pierluigi_da_Palestrina"
+    },
+    {
+      "name": "Thomas Morley",
+      "aliases": [
+        "Morley"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Morley"
+    },
+    {
+      "name": "Wolfgang Amadeus Mozart",
+      "aliases": [
+        "Mozart"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+    },
+    {
+      "name": "Joseph Haydn",
+      "aliases": [
+        "Haydn"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Joseph_Haydn"
+    },
+    {
+      "name": "Ludwig van Beethoven",
+      "aliases": [
+        "Beethoven"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven"
+    },
+    {
+      "name": "Arcangelo Corelli",
+      "aliases": [
+        "Corelli"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Arcangelo_Corelli"
+    },
+    {
+      "name": "Anton Bruckner",
+      "aliases": [
+        "Bruckner"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Anton_Bruckner"
+    },
+    {
+      "name": "Felix Mendelssohn Bartholdy",
+      "aliases": [
+        "Felix Mendelssohn",
+        "Mendelssohn"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"
+    },
+    {
+      "name": "Robert Schumann",
+      "aliases": [
+        "Schumann"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Robert_Schumann"
+    },
+    {
+      "name": "Giovanni Maria Artusi",
+      "aliases": [
+        "Artusi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Giovanni_Maria_Artusi"
+    },
+    {
+      "name": "Scipione Cerreto",
+      "aliases": [
+        "Cerreto"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Scipione_Cerreto"
+    },
+    {
+      "name": "Giovanni Battista Martini",
+      "aliases": [
+        "Padre Martini",
+        "Martini"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Giovanni_Battista_Martini"
+    },
+    {
+      "name": "Georg Joseph Vogler",
+      "aliases": [
+        "Vogler"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Georg_Joseph_Vogler"
+    },
+    {
+      "name": "Justin Heinrich Knecht",
+      "aliases": [
+        "Knecht"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Justin_Heinrich_Knecht"
+    },
+    {
+      "name": "Orazio Tigrini",
+      "aliases": [
+        "Tigrini"
+      ],
+      "wikipedia": "https://it.wikipedia.org/wiki/Orazio_Tigrini"
+    },
+    {
+      "name": "Mary Cowden Clarke",
+      "aliases": [],
+      "wikipedia": "https://de.wikipedia.org/wiki/Mary_Cowden_Clarke"
+    },
+    {
+      "name": "Josiah Pittman",
+      "aliases": [
+        "Pittman"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Josiah_Pittman"
+    },
+    {
+      "name": "Franz Kroll",
+      "aliases": [
+        "Kroll"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Franz_Kroll"
+    },
+    {
+      "name": "Franz Xaver Haberl",
+      "aliases": [
+        "Haberl"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Franz_Xaver_Haberl"
+    },
+    {
+      "name": "Carl Ferdinand Becker",
+      "aliases": [],
+      "wikipedia": "https://de.wikipedia.org/wiki/Carl_Ferdinand_Becker_(Musikschriftsteller)"
+    },
+    {
+      "name": "Hans Georg Nägeli",
+      "aliases": [
+        "Nägeli"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Hans_Georg_N%C3%A4geli"
+    },
+    {
+      "name": "Edmund H. Fellowes",
+      "aliases": [
+        "Edmund Fellowes",
+        "Fellowes"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Edmund_Fellowes"
+    },
+    {
+      "name": "Manfred Kelkel",
+      "aliases": [
+        "Kelkel"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Manfred_Kelkel"
+    },
+    {
+      "name": "René Saorgin",
+      "aliases": [
+        "Saorgin"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Ren%C3%A9_Saorgin"
+    }
+  ],
   "sources": [
     {
       "id": "artacho-handout",

@@ -52,6 +52,8 @@ Beim Beginn einer Übung lohnt es sich, zwei Dinge getrennt zu hören. Wann setz
 
 Das Buchsymbol vor dem Werktitel kennzeichnet Lehrbücher und Traktate im Quellenverzeichnis und an den Belegen einer Frage. Das lokal gespeicherte Symbol *book* stammt aus Font Awesome Free 6.7.2 von Fonticons und steht unter CC BY 4.0. [Symbol](https://fontawesome.com/icons/book?f=classic&s=solid) · [Lizenz](https://creativecommons.org/licenses/by/4.0/)
 
+Autorennamen mit verifiziertem Wikipedia-Artikel sind in den Fragen, Erläuterungen, Quellenangaben und Bildunterschriften verlinkt. Die Biografie öffnet sich in einem neuen Tab. Das gilt auch für Nachnamen und Formen wie „Cherubinis“ oder „Hindemiths“. Im Quellenverzeichnis öffnet der Name die Biografie; das Kästchen oder der übrige Titel wählt das Werk. Der Beleg zur Buchseite bleibt über **Fundstelle öffnen** erreichbar. Unter dem Autorenfilter erscheint für die gewählte Person zusätzlich ein Wikipedia-Link. Namen ohne verifizierte Biografie bleiben als Text stehen.
+
 ## Tonalen Kontrapunkt mit Thomas Benjamin lesen
 
 Die Werkkennung `benjamin1986` erschließt *Counterpoint in the Style of J. S. Bach* (New York, Schirmer Books, 1986, ISBN 0-02-870280-8). Benjamin erläutert in seinen Hinweisen für Lehrende (S. xi–xii), weshalb seine Übungen von Bachs Instrumentalsätzen ausgehen. Die Quellenbelege verbinden die Aufgaben mit den bei ihm analysierten Takten. [Bibliotheksnachweis](https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach)
@@ -198,7 +200,9 @@ Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.exa
 
 Für ein weiteres Lehrbuch zuerst in `ATLAS.sources` einen Eintrag mit `id`, `name`, `title`, `group` und `url` anlegen. Eine kurze Kennung aus Kleinbuchstaben, Ziffern und Bindestrichen verwenden, etwa `kennan1999`. Bei mehreren Werken desselben Jahres ergänzt ein Titel- oder Bandkürzel die Kennung. Veröffentlichte IDs bleiben beim Korrigieren einer bibliografischen Angabe erhalten. Die Positionen unter `authors` verweisen über `source` auf dieselbe ID. So erscheint das Werk automatisch im Quellenverzeichnis. Für neue Themen ein Fragenobjekt mit einer neuen Kennung anlegen. Eine Frage mit leerer Vergleichsliste und ohne Beleg wird als offen angezeigt. „Verboten“ und „nicht relevant“ sind fachliche Aussagen und werden nur dort eingetragen, wo die Quelle sie tatsächlich macht.
 
-Mit `node --test tests/source-selection.test.cjs` lassen sich Werkkennungen, Quellenverweise und teilbare URLs prüfen.
+Die Wikipedia-Ziele stehen ebenfalls in `atlas-data.js`, unter `ATLAS.people`. Pro Person gibt es `name`, `aliases` (etwa den Nachnamen) und `wikipedia` mit einer geprüften Biografie-URL. Ohne verifizierten Artikel bleibt `wikipedia: null`; insbesondere wird Peter Schubert nicht mit Franz Schubert verwechselt. Vollständige Namen haben Vorrang vor Nachnamen, damit etwa Louis B. Prout sein eigenes Ziel behält. `exclude` nimmt feste Begriffe wie „Bach-Gesellschaft“ von der Verlinkung aus. Neue Nennungen in den Texten erhalten ihren Link automatisch; HTML-Markup in den Daten ist nicht nötig. Deutschsprachige Artikel sind bevorzugt, bei Bedarf führt der Link zu einer anderen Sprachfassung. Die Zuordnung liegt lokal und erfordert beim Öffnen oder Filtern des Atlas keine Netzwerkabfrage. Fragenlinks und Bedienelemente behalten ihre eigene Funktion.
+
+Mit `node --test tests/*.test.cjs` lassen sich Werkkennungen, Quellenverweise, teilbare URLs, Spezieszuordnungen und die Auflösung von Autorennamen prüfen.
 
 ## Redaktionelle Beiträge
 
@@ -210,6 +214,7 @@ Leserinnen und Leser können zu einer Frage **Ergänzung oder Korrektur vorschla
 - `atlas.js` stellt Suche, Filter und verlinkbare Fragenansichten bereit.
 - `quellen.html` und `quellen.js` enthalten das Quellenverzeichnis mit der Werkauswahl.
 - `source-selection.js` liest und schreibt die gemeinsamen URL-Parameter für Quellen.
+- `author-links.js` verlinkt registrierte Personennamen in der angezeigten Ansicht.
 - `atlas-data.js` enthält Fragen, Antworten und Quellen.
 - `quellen/noten/` enthält die im Atlas verwendeten Notenbilder.
 - `quellen/handout.pdf` enthält die drei Originalseiten des Unterrichtshandouts.
