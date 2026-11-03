@@ -625,6 +625,13 @@ const ATLAS = {
         "Wagner"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Richard_Wagner"
+    },
+    {
+      "name": "Knud Jeppesen",
+      "aliases": [
+        "Jeppesen"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Knud_Jeppesen"
     }
   ],
   "sources": [
@@ -872,6 +879,13 @@ const ATLAS = {
       "title": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
       "group": "Lehrwerke",
       "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/"
+    },
+    {
+      "id": "jeppesen1964",
+      "name": "Knud Jeppesen",
+      "title": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+      "group": "Lehrwerke",
+      "url": "https://www.breitkopf.com/work/3447/kontrapunkt"
     }
   ],
   "topics": [
@@ -914,7 +928,8 @@ const ATLAS = {
       },
       "related": [
         "dreiklang",
-        "sprungausgleich"
+        "sprungausgleich",
+        "sprung-und-taktgewicht"
       ],
       "authors": [
         {
@@ -984,6 +999,17 @@ const ATLAS = {
           "speciesScope": [
             3
           ]
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.4, S. 66–70 · Sprungfolgen und Notenwerte",
+          "text": "Zwei gleichgerichtete Sprünge sind für Jeppesen nicht grundsätzlich verboten. Im Aufstieg stehen größere Intervalle vorzugsweise vor kleineren, im Abstieg kleinere vor größeren. Bei Ganzen und Halben sind dies Tendenzen, die anderen musikalischen Rücksichten weichen können. In Vierteln, also halben Taktzeiten, gilt dagegen eine strengere Grenze: Zwei aufeinanderfolgende Sprünge in derselben Richtung scheiden aus. Zwei Sprünge mit Richtungswechsel bleiben auch dort möglich.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht.",
@@ -1504,6 +1530,43 @@ const ATLAS = {
           "speciesScope": [
             5
           ]
+        },
+        {
+          "id": "jeppesen1964-38",
+          "locator": "II.1, dritte Art, S. 93, Vorübung, und S. 101, Regel 3 · zwei Stimmen",
+          "text": "Die Viertelstimme darf mit einem Auftakt einsetzen. Jeppesen nennt dafür eine Viertelpause, bisweilen auch eine Pause von zwei oder drei Vierteln. Beim gemeinsamen Beginn bleibt die vollkommene Konsonanz maßgebend; nach dem Auftakt darf jedoch gelegentlich auch eine unvollkommene Konsonanz den ersten Zusammenklang bilden. Die verzögerte Einsatzzeit kann hier also nicht nur den Rhythmus, sondern auch die Intervallwahl verändern.",
+          "speciesScope": [
+            3
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-53",
+          "locator": "II.2, Dreistimmiger Satz, 1. Art, S. 142, Regel 5 · drei Stimmen",
+          "text": "Ein vollständiger Tonikadreiklang darf den dreistimmigen Satz eröffnen. Setzen alle Stimmen zugleich ein, verlangt Jeppesen dafür die große Terz. Tritt die Terz erst nach dem Cantus firmus hinzu, darf sie auch klein sein. Daneben ist ein terzloser Anfangsklang möglich. Im Schlussklang ist eine vorhandene Terz stets groß; dort darf statt der Terz auch die Quinte fehlen.",
+          "speciesScope": [
+            1
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-58",
+          "locator": "II.2, Dreistimmige Imitation, S. 159; Anhang, Die Vokal-Fuge, S. 212 · Eintritt der dritten Stimme",
+          "text": "Beim Eintritt der dritten Stimme hört Jeppesen auf die neue Wirkung des ganzen Zusammenklangs. Besonders günstig ergänzt sie das bisherige Stimmenpaar zum vollständigen Dreiklang. Ebenso wirkungsvoll kann ihr Eintritt eine bereits gebundene Note zur dissonanten Synkope machen. Als Beispiel nennt er den Beginn des Benedictus aus Palestrinas Missa brevis. Der Einsatzabstand des Themas allein entscheidet also noch nicht über die Qualität dieses Moments.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -1608,6 +1671,12 @@ const ATLAS = {
           "to": "schubert1999-5",
           "type": "contradiction",
           "note": "Schubert eröffnet zwei seiner floriden Rhythmusmodelle mit einer ganzen Note zugleich mit dem Cantus. Salzer und Schachter schließen die Ganze als Anfangswert aus und reservieren sie für den Schluss."
+        },
+        {
+          "to": "schubert1999-3",
+          "type": "contradiction",
+          "note": "Schubert übernimmt für den ersten klingenden Ton der dritten Spezies die Forderung nach einer vollkommenen Konsonanz auch nach einer Anfangspause. Jeppesen erlaubt beim auftaktigen Beginn derselben zweistimmigen Art gelegentlich eine unvollkommene Konsonanz.",
+          "from": "jeppesen1964-38"
         }
       ]
     },
@@ -1847,6 +1916,19 @@ const ATLAS = {
           "locator": "Kap. 7.3, S. 185–186, Bsp. 7-42 · Scarlatti, Sonate Nr. 37 in Kirkpatricks Ausgabe, Band II",
           "text": "Eine kurz erklingende Konsonanz muss einen dissonanten Zusammenhang nicht beenden. Im Scarlatti-Beispiel hören Salzer und Schachter das konsonante h als Nebennote zum dissonanten Basston a. Dieser bleibt für den größeren Zusammenhang der Bezugston der Verzierung. Die Autoren unterscheiden deshalb den augenblicklichen Zusammenklang von der Frage, welcher Ton durch einen anderen verlängert wird: Auch eine Konsonanz kann eine Dissonanz verzieren.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-50",
+          "locator": "II.2, Dreistimmiger Satz, 1. Art, S. 141–142 · drei Stimmen",
+          "text": "Im dreistimmigen Satz dürfen reine und übermäßige Quarten sowie verminderte Quinten zwischen den oberen Stimmen konsonant behandelt werden; ausnahmsweise nennt Jeppesen auch die verminderte Quarte. Zum Bass bleiben diese Intervalle dissonant. Deshalb sind Dreiklänge in Grundstellung und als Sextakkord möglich, während der Quartsextakkord eine Dissonanzbehandlung verlangt. Den verminderten Dreiklang lässt er nur als Sextakkord zu. Vollständige Dreiklänge sind erwünscht, gute Stimmführung hat aber Vorrang.",
+          "speciesScope": [
+            1
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -2020,10 +2102,33 @@ const ATLAS = {
           "locator": "Kap. 6.1, S. 124, Bsp. 6-12 · Bach, Wohltemperiertes Klavier I, Präludium XI, BWV 856",
           "text": "Im F-Dur-Präludium hören Salzer und Schachter hinter der Figuration die Linie f–es–d. Bach versetzt das erste f um eine Oktave nach unten; von dort führt eine aufsteigende Septime zum es. Der große Sprung erweitert damit einen schrittweisen Zusammenhang durch den Wechsel der Lage. Für diese Stelle erklären die Autoren den Septimsprung aus der Prolongation des Durchgangs, statt ihn als Ausnahme von einer unverändert angewandten Speziesregel zu behandeln.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.4, S. 66; Regelübersicht, S. 225 · melodische Intervalle im Palestrina-Stil",
+          "text": "Große und kleine Sekunden und Terzen sowie reine Quarten, Quinten und Oktaven sind in beiden Richtungen verfügbar. Nur die kleine Sexte beschränkt Jeppesen auf den Aufstieg. Die große Sexte wird in der Regel vermieden; Septimen, übermäßige und verminderte Intervalle sowie Sprünge über die Oktave gehören nicht zum verwendeten Material. Auch den unmittelbaren chromatischen Schritt c–cis oder h–b schließt er aus. Diese Auswahl beschreibt seine Grundlage für den Palestrina-Stil.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-39",
+          "locator": "II.1, freier zweistimmiger Satz, S. 129–130 · Phrasengrenze und Palestrinas Marcellus-Messe",
+          "text": "Zwischen dem Ende eines musikalischen Zusammenhangs und dem Anfang des nächsten beurteilt Jeppesen die Distanz anders als einen Sprung innerhalb derselben Linie. Solche von ihm „tot“ genannten Intervalle dürfen bisweilen eine absteigende Sexte, eine große Sexte oder eine Septime sein. Eine entsprechende Textgliederung soll die Trennung nach Möglichkeit verdeutlichen. Die Freiheit an der Phrasengrenze hebt das Verbot dieser Sprünge innerhalb der fortlaufenden Melodie nicht auf.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "related": [
-        "generalbass-sextakkord"
+        "generalbass-sextakkord",
+        "sprung-und-taktgewicht"
       ],
       "relations": [
         {
@@ -2049,6 +2154,18 @@ const ATLAS = {
           "to": "rothgeb1998-cf-1",
           "type": "context",
           "note": "Rothgeb schließt dissonante Sprünge in seinem Cantus firmus aus. Salzer und Schachter untersuchen dagegen eine instrumentale Figuration, deren Septimsprung durch Oktavversetzung eines schrittweisen Zusammenhangs entsteht."
+        },
+        {
+          "to": "bellermann1901-1",
+          "type": "nuance",
+          "note": "Beide Tabellen begrenzen die kleine Sexte auf den Aufstieg. Bei der Oktave unterscheiden sie sich: Bellermann lässt sie in seiner Tabelle ebenfalls nur aufwärts zu, Jeppesen ausdrücklich in beiden Richtungen.",
+          "from": "jeppesen1964-1"
+        },
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Jeppesens Auswahl ist auf den Palestrina-Stil zugeschnitten und vermeidet die große Sexte. Salzer und Schachter nehmen sie in ihre vokal gedachten Übungslinien auf; ihr Spezieslehrgang bereitet die Arbeit an einem breiteren tonalen Repertoire vor.",
+          "from": "jeppesen1964-1"
         }
       ]
     },
@@ -2089,7 +2206,8 @@ const ATLAS = {
       },
       "related": [
         "sprungfolge",
-        "dreiklang"
+        "dreiklang",
+        "sprung-und-taktgewicht"
       ],
       "authors": [
         {
@@ -2152,6 +2270,17 @@ const ATLAS = {
           "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
           "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
           "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.4, S. 66–67 und 70–71 · Ausgleich auf- und absteigender Sprünge",
+          "text": "Ein Sprung wird gewöhnlich durch schrittweise Bewegung oder durch einen Sprung in Gegenrichtung ausgeglichen. Dabei behandelt Jeppesen die beiden Richtungen ungleich: Nach einem großen Aufwärtssprung bevorzugt er Schritte abwärts, weil der angesprungene Hochton besonders hervortritt. Einen Abwärtssprung darf häufiger ein weiterer Sprung in Gegenrichtung beantworten. Im Ave Maria auf S. 65 wird ein übersprungener Raum teilweise erst später ausgefüllt; der Ausgleich muss also nicht vollständig im unmittelbaren Anschluss erfolgen.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -2160,6 +2289,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "nuance",
           "note": "Prout fordert Gegenbewegung vor und nach Sprüngen über eine Sexte hinaus; bei der Sexte hält er sie oft für ratsam. Green und Jones verlangen den beidseitigen Ausgleich bereits für die aufsteigende kleine Sexte."
+        },
+        {
+          "to": "green-jones2011-1",
+          "type": "nuance",
+          "note": "Beide lassen einen über mehrere Töne verteilten Ausgleich zu. Jeppesen begründet zusätzlich eine Asymmetrie zwischen auf- und absteigenden Sprüngen: Der auffällige Hochton verlangt eher einen schrittweisen Rückweg, nach einem Tiefpunkt ist ein Gegensprung häufiger brauchbar.",
+          "from": "jeppesen1964-1"
         }
       ]
     },
@@ -2337,7 +2472,8 @@ const ATLAS = {
       },
       "related": [
         "betonte-dissonanz",
-        "konsonanz"
+        "konsonanz",
+        "obere-untere-wechselnote"
       ],
       "authors": [
         {
@@ -2421,6 +2557,20 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 4, S. 49, Bsp. 4.14 · doppelte Wechselnote im strengen barocken Stil",
           "text": "Bei der doppelten Wechselnote wird der Bezugston zwischen oberer und unterer Wechselnote ausgespart. Dadurch können zwei Dissonanzen unmittelbar aufeinanderfolgen und durch einen Sprung verbunden sein. Die Figur muss als zusammenhängende Verzierung ihrer zugrunde liegenden Harmonie gehört werden; sie erlaubt nicht beliebige Sprünge zwischen akkordfremden Tönen."
+        },
+        {
+          "id": "jeppesen1964-25",
+          "locator": "II.1, dritte Art, S. 97–98, Regel 2; fünfte Art, S. 116 · dissonante Drehnote",
+          "text": "In gleichmäßigen Vierteln darf eine leichte Dissonanz auch als untere Wechselnote zum Ausgangston zurückkehren. Jeppesen belegt ihre Häufigkeit an Palestrinas Magnum haereditatis mysterium. Die obere Wechselnote schließt er in dieser durchgehend viertelbewegten Übung dagegen aus. Bei gemischten Werten der fünften Art wird sie möglich, vorzugsweise vor einer unbetonten Halben oder einer synkopierten Ganzen. Richtung und Rhythmus entscheiden gemeinsam über die Zulässigkeit.",
+          "speciesScope": [
+            3,
+            5
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -2464,7 +2614,8 @@ const ATLAS = {
       "related": [
         "konsonanz",
         "unbetonte-dissonanz",
-        "harmonischer-rhythmus"
+        "harmonischer-rhythmus",
+        "viertel-gegen-viertel"
       ],
       "authors": [
         {
@@ -2639,6 +2790,73 @@ const ATLAS = {
           "speciesScope": [
             3
           ]
+        },
+        {
+          "id": "jeppesen1964-23",
+          "locator": "II.1, dritte Art, S. 97, Regel 1 · vier Viertel gegen eine Ganze; Halbe als Zählzeit",
+          "text": "Im reinen Vier-gegen-eins müssen das erste und das dritte Viertel konsonieren. Jeppesen weist die von Fux überlieferte Erlaubnis einer Dissonanz auf dem dritten Viertel ausdrücklich zurück, auch wenn das zweite und vierte konsonieren. Für den von ihm gelehrten Palestrina-Stil hält er diese Ausnahme bei einem ausschließlich in Ganzen fortschreitenden Cantus für unbelegt. Freie Bewegung beider Stimmen ist eine andere Aufgabe.",
+          "speciesScope": [
+            3
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true,
+          "examples": [
+            "jeppesen-betonter-durchgang"
+          ]
+        },
+        {
+          "id": "jeppesen1964-27",
+          "locator": "II.1, vierte Art, S. 105–106, Regeln 1–2 · Vorhalt in der Oberstimme, zwei Stimmen",
+          "text": "Die betonte Synkopendissonanz wird auf der vorhergehenden leichten Halben konsonant vorbereitet und löst sich einen Schritt abwärts auf. Jeppesen verlangt in der zweistimmigen Übung eine unvollkommene Konsonanz als Ziel. Deshalb stehen der Oberstimme die Verbindungen 7–6 und 4–3 zur Verfügung; 9–8 und 2–1 schließt er hier aus. Die Vorbereitung allein macht eine Bindung also noch nicht brauchbar.",
+          "speciesScope": [
+            4
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-32",
+          "locator": "II.1, fünfte Art, S. 116 · absteigende Halbe mit zwei folgenden Vierteln",
+          "text": "Folgen auf eine konsonante betonte Halbe zwei schrittweise absteigende Viertel, darf bereits das erste dieser Viertel dissonieren. Dieselbe Position bleibt in einer lückenlosen Vierergruppe von Vierteln gesperrt. Geht die Figur aufwärts, darf nach Jeppesen nur das zweite der beiden Viertel dissonant sein. Die Ausnahme der fünften Art hängt damit zugleich von der längeren Anfangsnote und von der Bewegungsrichtung ab.",
+          "speciesScope": [
+            5
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true,
+          "examples": [
+            "jeppesen-betonter-durchgang"
+          ]
+        },
+        {
+          "id": "jeppesen1964-43",
+          "locator": "II.1, freier zweistimmiger Satz, S. 123–124, Regel 2 · vier absteigende Viertel gegen eine Vorhaltsstimme",
+          "text": "Im freien Satz können vier schrittweise absteigende Viertel auch auf ihrem dritten Ton dissonieren. Dafür muss die Gruppe auf einer voll betonten Zeit beginnen; auf den vierten Ton folgt ein Schritt aufwärts, und die Gegenstimme bildet eine korrekt behandelte Vorhaltsdissonanz zur Viertellinie. Jeppesen verbindet diese Ausnahme mit einer häufigen Kadenzfigur. Sie lässt sich nicht in seine dritte Art übertragen, deren Cantus ausschließlich in Ganzen fortschreitet.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-62",
+          "locator": "II.6, Die Motette, S. 193 und 196 · Palestrina, Dies sanctificatus, T. 71–72 und 82–83",
+          "text": "Scheinbar regelwidrige Dissonanzen auf der dritten Halben erklärt Jeppesen durch einen Wechsel des gehörten Metrums. Die Taktpaare 71–72 und 82–83 von Dies sanctificatus fasst er jeweils als einen größeren 3/1-Takt auf, obwohl dieser Wechsel in der Notation nicht bezeichnet ist. In dieser Gruppierung werden die fraglichen Stellen zu regelrechten Bindungsdissonanzen. Für ihre Beurteilung genügt deshalb das Abzählen innerhalb der gedruckten Taktstriche nicht.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -2671,6 +2889,18 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "contradiction",
           "note": "Schubert verlangt im Vier-gegen-eins auf dem ersten und dritten Viertel Konsonanzen. Salzer und Schachter erlauben auf dem dritten Viertel Durchgänge und gelegentlich sogar dissonante Wechselnoten."
+        },
+        {
+          "to": "bellermann1901-1",
+          "type": "contradiction",
+          "note": "Bellermann lässt nach Übung der strengeren Form eine Durchgangsdissonanz auf dem dritten Viertel zu, sofern das zweite und vierte konsonieren. Jeppesen fordert im selben Vier-gegen-eins durchgehend Konsonanz auf dem dritten Viertel und verwirft die überlieferte Ausnahme für seine Palestrina-Übung.",
+          "from": "jeppesen1964-23"
+        },
+        {
+          "to": "fux1725-1",
+          "type": "contradiction",
+          "note": "Fux zählt den 9–8-Vorhalt zu den verwendbaren Oberstimmenbindungen der zweistimmigen vierten Spezies. Jeppesen schließt ihn in derselben Besetzung aus, weil seine Auflösung eine vollkommene statt einer unvollkommenen Konsonanz ergibt.",
+          "from": "jeppesen1964-27"
         }
       ]
     },
@@ -2799,6 +3029,20 @@ const ATLAS = {
           ],
           "locator": "Kap. 9, S. 335 und 337, Bsp. 9-12 und 9-17 bis 9-18 · zweite und dritte Spezies kombiniert",
           "text": "Im kombinierten Satz muss zuerst feststehen, welche Stimme die Dissonanz erzeugt. In Bsp. 9-17 scheint die Halbenstimme aus einer None zu springen. Der dissonante Ton gehört hier jedoch zur schnelleren Viertelstimme, die ihn schrittweise weiterführt. Gegenüber dem Cantus bleibt auch die Halbenstimme an ihre eigene Durchgangsregel gebunden. Ein dissonantes Intervall zwischen zwei Stimmen bedeutet daher nicht, dass beide Stimmen einen dissonanten Ton aufzulösen haben."
+        },
+        {
+          "id": "jeppesen1964-55",
+          "locator": "II.2, Dreistimmiger Satz, 3. Art, S. 148–149 · gemischte Spezies und Palestrinas Nunc dimittis",
+          "text": "Jeppesen beschreibt eine Ausnahme als „Parasit-Dissonanz“: Eine sonst regelwidrig springende Stimme trifft auf Töne, die gleichzeitig in einer anderen, korrekt geführten Stimme erklingen. In seinem dreistimmigen Schlussbeispiel springt die Oberstimme zum dissonanten Synkopenton der Mittelstimme und sofort zurück. Der gehörte Vorhaltsgang kann den Sprung dadurch decken. Das ist eine begrenzte Erklärung aus dem mehrstimmigen Zusammenhang, keine allgemeine Erlaubnis zum Anspringen von Dissonanzen.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -3306,6 +3550,17 @@ const ATLAS = {
           "locator": "Kap. 7.7, S. 222–223, Bsp. 7-76 und 7-78 · Mozart, Klaviersonate KV 576, Finale, und Rondo KV 494",
           "text": "Salzer und Schachter unterscheiden verschiedene Ursachen scheinbar regelwidriger Folgen. Im Finale von KV 576 erzeugen chromatische Durchgänge und rhythmische Verschiebungen Quintfolgen über einem Gerüst aus 5–6-Synkopen. Im Rondo KV 494 beruhen die vermeintlichen Oktavparallelen dagegen auf einer anderen Zuordnung: Die Töne f–es der linken Hand gehören zu wechselnden gedachten Stimmen eines gebrochenen Akkords. Nicht jedes Nacheinander gespielter Töne bildet daher auch eine durchgehende kontrapunktische Stimme.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.5, S. 78–79 · Palestrina, Missa In te Domine speravi, Credo",
+          "text": "Ob eine Quintparallele vorliegt, entscheidet Jeppesen nach den tatsächlichen Stimmenwegen. In seinem Credo-Beispiel ergibt ein bloßes Sortieren der gleichzeitig klingenden Töne scheinbare Parallelquinten. In der Partitur kreuzen sich jedoch die beiden oberen Stimmen; kein festes Stimmenpaar führt diese Quinten parallel weiter. Für Jeppesen ist das kein bloßer Schreibtrick: Die verschiedenen Stimmfarben helfen, die gekreuzten Melodien als eigene Linien zu hören.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -3564,6 +3819,32 @@ const ATLAS = {
           "locator": "Kap. 7.4, S. 190–191, Bsp. 7-46 · Franz Schubert, neunte Sinfonie, zweiter Satz; T. 2–3 des Ausschnitts",
           "text": "In Franz Schuberts Phrase gelangen Bass und Mittelstimme auf den Taktanfängen in gerader Bewegung in Quinten. Salzer und Schachter erklären ihre Wirkung aus der größeren Gliederung: Die wiederkehrende 5–6-Bewegung der unteren Stimmen verbindet sich mit einer absteigenden Dezimenfolge der Außenstimmen. Das Muster arbeitet den F-Dur-Klang aus und schwächt die Wirkung der einzelnen Quinteneintritte. Die Verdichtung von Vierteln zu Achteln und Sechzehnteln verstärkt zugleich den Zug zum Ziel.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-42",
+          "locator": "II.1, erste Art, S. 87, Regel 4 · zwei Stimmen",
+          "text": "Jeppesen verbietet in der ersten zweistimmigen Art sowohl offene als auch verdeckte Quinten und Oktaven. Eine Quinte oder Oktave darf demnach nicht durch gleichgerichtete Bewegung erreicht werden. Auch für eine schrittweise Oberstimme formuliert diese Regel keine Ausnahme. Ihr Geltungsbereich ist die hier behandelte Note-gegen-Note-Übung; spätere Freiheiten im mehrstimmigen oder imitierenden Satz müssen gesondert geprüft werden.",
+          "speciesScope": [
+            1
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-51",
+          "locator": "II.2, Dreistimmiger Satz, 1. Art, S. 142, Regel 3; II.3, Vierstimmiger Satz, 1. Art, S. 161",
+          "text": "In drei Stimmen erlaubt Jeppesen verdeckte Quinten zwischen den Außenstimmen; die Oberstimme soll dabei möglichst schrittweise gehen. Verdeckte Oktaven empfiehlt er außerhalb der Schlusswendung zu vermeiden. Sobald eine Mittelstimme beteiligt ist, lässt er beide Intervalle zu. In der vierstimmigen ersten Art werden auch verdeckte Oktaven zugelassen, wiederum vorzugsweise mit schrittweiser Oberstimme. Die Stimmenzahl verändert damit ausdrücklich die Regel.",
+          "speciesScope": [
+            1
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -3620,6 +3901,18 @@ const ATLAS = {
           "to": "rothgeb1998-s1-1",
           "type": "context",
           "note": "Rothgeb fordert in der zweistimmigen ersten Spezies Gegen- oder Seitenbewegung in eine vollkommene Konsonanz. Salzer und Schachter beurteilen Franz Schuberts mehrstimmige Orchesterphrase im Zusammenhang ihrer Sequenz, Klangausarbeitung und rhythmischen Gliederung."
+        },
+        {
+          "to": "green-jones2011-1",
+          "type": "contradiction",
+          "note": "Green und Jones erlauben die Hornquinte als genau begrenzte Ausnahme in der zweistimmigen ersten Spezies. Jeppesens Regel derselben Art schließt jeden gleichgerichteten Eintritt in eine Quinte oder Oktave aus und enthält keine entsprechende Ausnahme.",
+          "from": "jeppesen1964-42"
+        },
+        {
+          "to": "salzer-schachter1989-2",
+          "type": "contradiction",
+          "note": "In der dreistimmigen ersten Spezies erlaubt Jeppesen die direkte Quinte zwischen den Außenstimmen und bevorzugt dabei eine schrittweise Oberstimme. Salzer und Schachter behalten für dieses Stimmenpaar die Regel gegen den direkten Eintritt in vollkommene Konsonanzen bei; ihre besondere Schlussausnahme betrifft die Oktave.",
+          "from": "jeppesen1964-51"
         }
       ]
     },
@@ -3850,6 +4143,19 @@ const ATLAS = {
           "locator": "Kap. 8, S. 266–267, Bsp. 8-45 und 8-46; Kreuzung benachbarter Stimmen im vierstimmigen Bach-Choral.",
           "text": "Eine kurze Kreuzung von Tenor und Alt kann ein Motiv zu Ende führen oder Oktavparallelen vermeiden. Salzer und Schachter beziehen dabei die Ausführung ein: Getrennte Sängergruppen lassen die Wege der Stimmen auch beim Kreuzen erkennen. Auf einem Tasteninstrument kann dagegen leichter der Eindruck von Oktavparallelen entstehen. Die Kreuzung wird deshalb nach ihrem hörbaren Verlauf beurteilt.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-20",
+          "locator": "II.1, erste Art, S. 88, Anm. 1 · zweistimmige Cantus-firmus-Übung",
+          "text": "Jeppesen empfiehlt das gelegentliche Kreuzen ausdrücklich schon bei den Beispielen der ersten Art. Die Unterstimme darf zeitweise über die bisherige Oberstimme steigen und umgekehrt. Er behandelt diese Technik als grundlegendes Mittel polyphoner Stimmführung und legt den Lernenden ihren Gebrauch besonders nahe. Das ist eine positive Übungsempfehlung, keine bloß geduldete Notlösung.",
+          "speciesScope": [
+            1
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -3900,6 +4206,12 @@ const ATLAS = {
           "type": "context",
           "note": "Kennan schließt Kreuzungen in den ersten zweistimmigen Aufgaben vorläufig aus, um die Linien erkennbar zu halten. Salzer und Schachter untersuchen vierstimmige Choräle und unterscheiden, wie deutlich eine Kreuzung im Chor und auf dem Tasteninstrument hörbar bleibt.",
           "from": "salzer-schachter1989-5"
+        },
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "nuance",
+          "note": "Jeppesen empfiehlt Stimmkreuzung schon bei der ersten zweistimmigen Art ausdrücklich. Salzer und Schachter sparen dasselbe Verfahren in ihren ersten zweistimmigen Aufgaben aus pädagogischen Gründen zunächst aus. Der Unterschied betrifft die Lernfolge, nicht die grundsätzliche Brauchbarkeit der Kreuzung in Musik.",
+          "from": "jeppesen1964-20"
         }
       ]
     },
@@ -4097,6 +4409,19 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-21",
+          "locator": "II.1, erste Art, S. 87, Regel 5 · zwei Stimmen",
+          "text": "Cantus firmus und Gegenstimme sollen im Note-gegen-Note-Satz grundsätzlich nicht weiter als eine Dezime auseinanderliegen. Jeppesen macht daraus jedoch keine ausnahmslose Grenze: Wenn eine besonders schöne Stimmführung den größeren Abstand verlangt, darf die Dezime überschritten werden. Die melodische Begründung gehört zur Ausnahme; eine beliebig weite Lage wird dadurch nicht allgemein freigegeben.",
+          "speciesScope": [
+            1
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
@@ -4134,6 +4459,12 @@ const ATLAS = {
           "to": "benjamin1986-1",
           "type": "context",
           "note": "Shaffer begrenzt die zweistimmige erste Spezies auf eine Duodezime. Benjamin beschreibt im zweistimmigen Klaviersatz vorübergehende Abstände von zwei bis drei Oktaven als Teil eines Spannungsverlaufs."
+        },
+        {
+          "to": "bellermann1901-1",
+          "type": "nuance",
+          "note": "Bellermann setzt die nur vorübergehend erlaubte Dezime als äußerste Grenze für seine benachbarten Singstimmen. Jeppesen verwendet dieselbe Dezime als Richtwert, erlaubt aber bei besonders schöner Stimmführung ausdrücklich einen größeren Abstand.",
+          "from": "jeppesen1964-21"
         }
       ]
     },
@@ -4296,6 +4627,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 10, S. 419–421, Bsp. 10-6a · Victoria, O vos omnes, Beginn und T. 34 ff.",
           "text": "Den Höhepunkt von Victorias O vos omnes erklären Salzer und Schachter aus dem Wiederkehren einer Idee in neuer Lage. Der Tenor stellt sie am Anfang vor; ab Takt 34 übernimmt sie der Sopran mit dem charakteristischen Sprung zum f. Die höhere Lage fällt mit dem Text Attendite universi populi zusammen. Der Gipfel entsteht hier durch das Zusammenwirken von Motiv, Register, Text und Form und eröffnet den anschließenden großen Abstieg."
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.4, S. 65 und 75–76 · Palestrina, Ave Maria, und Fux, Ad te Domine levavi",
+          "text": "Ein Höhepunkt soll nicht durch das kurz vorherige Auftreten desselben Tons entkräftet werden. In Palestrinas Ave Maria erscheint das höchste g erst in Takt 11 und bleibt einmalig. Jeppesen warnt aber ebenso vor einer übermäßigen Hervorhebung: In Fux’ Motettenthema treffen hohe Lage, ein nachdrücklicher Rhythmus und die Wiederholung des Motivs zusammen. Er ändert deshalb den Rhythmus bei weitgehend gleicher Tonfolge. Für sein Stilideal entscheidet die Verbindung von Tonhöhe und rhythmischem Gewicht, nicht die Tonhöhe allein.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ]
     },
@@ -4640,6 +4982,19 @@ const ATLAS = {
           "speciesScope": [
             2
           ]
+        },
+        {
+          "id": "jeppesen1964-22",
+          "locator": "II.1, zweite Art, S. 90–91, Regeln 1–2 · zwei Halbe gegen eine Ganze; Halbe als Zählzeit",
+          "text": "Die erste Halbe muss konsonieren. Die zweite darf dissonieren, wenn sie schrittweise erreicht und in derselben Richtung schrittweise verlassen wird; die drei Melodietöne füllen also eine Terz. Eine dissonante Wechselnote scheidet aus, obwohl auch sie auf beiden Seiten einen Sekundschritt hätte. Jeppesen stellt dieser Umkehr der Richtung ausdrücklich den zulässigen Durchgang gegenüber.",
+          "speciesScope": [
+            2
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
@@ -4678,6 +5033,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "contradiction",
           "note": "Prout erlaubt auf der leichten Halben auch eine dissonante Wechselnote. Salzer und Schachter beschränken die Dissonanz der zweiten Spezies auf den Durchgang; eine Wechselnote muss hier konsonieren."
+        },
+        {
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout erlaubt in der zweistimmigen zweiten Spezies auch dissonante Wechselnoten auf der leichten Hälfte. Jeppesen schließt genau diese Rückkehr zum Ausgangston aus und verlangt für die dissonante Halbe die Fortsetzung in derselben Richtung.",
+          "from": "jeppesen1964-22"
         }
       ]
     },
@@ -4709,7 +5070,8 @@ const ATLAS = {
         ]
       },
       "related": [
-        "cambiata"
+        "cambiata",
+        "obere-untere-wechselnote"
       ],
       "authors": [
         {
@@ -4754,6 +5116,33 @@ const ATLAS = {
           "speciesScope": [
             3
           ]
+        },
+        {
+          "id": "jeppesen1964-24",
+          "locator": "II.1, dritte Art, S. 97, Regeln 1–2 · vier Viertel gegen eine Ganze",
+          "text": "Jeppesens dritte Art trennt mögliche Dissonanzen durch konsonante Viertel: Das erste und dritte Viertel müssen konsonieren, das zweite und vierte dürfen unter den jeweiligen melodischen Bedingungen dissonieren. Damit ist eine unmittelbare Folge zweier dissonanter Viertel innerhalb dieser Übung ausgeschlossen. Auch die von Fux zugelassene einzelne Dissonanz auf dem dritten Viertel übernimmt Jeppesen hier nicht.",
+          "speciesScope": [
+            3
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "to": "fux1725-1",
+          "type": "contradiction",
+          "note": "Fux zeigt neben dem Grundmodell auch einen einzelnen Durchgang auf dem dritten Viertel zwischen konsonantem zweiten und vierten Viertel. Jeppesen verwirft ausdrücklich diese Variante und verlangt im Vier-gegen-eins stets ein konsonantes drittes Viertel.",
+          "from": "jeppesen1964-24"
+        },
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "contradiction",
+          "note": "Salzer und Schachter erlauben in der dritten Spezies zwei benachbarte Durchgangsdissonanzen, wenn verminderte Quinte und reine Quarte aufeinanderfolgen. Jeppesens Pflicht zur Konsonanz auf jedem ersten und dritten Viertel schließt eine solche unmittelbare Dissonanzfolge in seiner dritten Art aus.",
+          "from": "jeppesen1964-24"
         }
       ]
     },
@@ -4972,6 +5361,45 @@ const ATLAS = {
           "examples": [
             "salzer-schachter-vorhalt-artikulation"
           ]
+        },
+        {
+          "id": "jeppesen1964-28",
+          "locator": "II.1, vierte Art, S. 105–107, Regeln 1–3 · synkopierte Unterstimme, zwei Stimmen",
+          "text": "Unter einem liegenden Cantus firmus verwendet Jeppesen die Bindungen 2–3 und 9–10. Der gebundene Ton geht jeweils einen Schritt abwärts, der Abstand zur Oberstimme wird dabei größer. Die Unterstimmenbindungen 4–5 und 7–8 scheiden aus, weil sie in vollkommene Konsonanzen führen. Bleibt eine Synkope selbst konsonant, ist ihre melodische Fortsetzung frei; die Pflicht zum absteigenden Sekundschritt gilt nur für die dissonante Bindung.",
+          "speciesScope": [
+            4
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-56",
+          "locator": "II.2, Dreistimmiger Satz, 4. Art, S. 151 · „konsonierende Quarte“ über liegendem Bass",
+          "text": "Eine auf leichtem Taktteil schrittweise erreichte Quarte über liegendem Bass kann in die schwere Zeit gebunden werden. Dort verbindet sie sich mit einer schärferen Dissonanz und löst sich anschließend regelrecht auf. Jeppesen nennt die Figur „konsonierende Quarte“, bezeichnet ihre Vorbereitung aber ausdrücklich als Dissonanz: Die Quarte wirke so mild, dass sie gegenüber der folgenden Sekunde oder Septime beinahe als Konsonanz empfunden werde.",
+          "speciesScope": [
+            4
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-57",
+          "locator": "II.2, Dreistimmiger Satz, 4. Art, S. 150–151, Beispiele a–d · drei Stimmen",
+          "text": "Eine gebundene Note kann in drei Stimmen zugleich ein ungünstiges und ein günstiges Vorhaltsintervall bilden. Deshalb lässt Jeppesen hier auch gebundene Quarten und Septimen in der Unterstimme sowie Sekunden und Nonen in der Oberstimme zu, sofern zugleich eine gute Bindung entsteht. In Beispiel a bildet der gehaltene Basston zur Oberstimme eine Quarte, zur Mittelstimme aber den gebräuchlichen Sekundvorhalt. Man muss den Synkopenton zu beiden anderen Stimmen prüfen.",
+          "speciesScope": [
+            4
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -5010,6 +5438,18 @@ const ATLAS = {
           "type": "context",
           "note": "Rothgebs vierte Spezies übt die Überbindung einer konsonant vorbereiteten Halben. Salzer und Schachter beschreiben den ausgearbeiteten Choral, in dem auch ein neu angeschlagener Ton dieselbe Vorhaltsfunktion übernehmen kann.",
           "from": "salzer-schachter1989-9"
+        },
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "contradiction",
+          "note": "Salzer und Schachter erlauben aus melodischen Gründen einen einzelnen 4–5-Vorhalt in der Unterstimme, obwohl sie Ketten daraus ausschließen. Jeppesen verwirft auch die einzelne Verbindung in der zweistimmigen vierten Art, weil ihre Auflösung vollkommen konsonant ist.",
+          "from": "jeppesen1964-28"
+        },
+        {
+          "to": "salzer-schachter1989-2",
+          "type": "context",
+          "note": "Beide Darstellungen erlauben die zunächst mildere Quarte über gehaltenem Bass als Vorbereitung. Jeppesen verwendet dafür „konsonierende Quarte“, obwohl er ihre Dissonanz ausdrücklich anerkennt. Salzer und Schachter verwerfen die Bezeichnung „konsonante Quarte“ und erklären die Figur als übergebundene obere Wechselnote. Der Unterschied betrifft die Deutung und Benennung, nicht die Zulassung der Figur.",
+          "from": "jeppesen1964-56"
         }
       ]
     },
@@ -5152,6 +5592,19 @@ const ATLAS = {
           "speciesScope": [
             4
           ]
+        },
+        {
+          "id": "jeppesen1964-29",
+          "locator": "II.1, vierte Art, S. 107, Regeln 4–5 · Unterbrechung der Synkopenkette",
+          "text": "Eine gelegentlich notwendige Unterbrechung der Bindungskette bildet für Jeppesen eine kurze Episode der zweiten Art. Deshalb müssen auch deren Dissonanzregeln wieder gelten: Die schwere Halbe konsoniert, eine dissonante leichte Halbe führt schrittweise durch. Auch beim Einklang wechselt die Regel mit der Schreibweise. Seine freie metrische Verwendung im Synkopensatz gilt während dieser ungebundenen Episode nicht weiter.",
+          "speciesScope": [
+            4
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden.",
@@ -5295,7 +5748,9 @@ const ATLAS = {
       ],
       "related": [
         "speziesmischung",
-        "rhythmuswechsel-s5"
+        "rhythmuswechsel-s5",
+        "sprung-und-taktgewicht",
+        "obere-untere-wechselnote"
       ],
       "relations": [
         {
@@ -5670,6 +6125,17 @@ const ATLAS = {
           "locator": "Einleitung, S. xvi–xix; Speziesübungen als Vorbereitung auf die Analyse und Komposition tonaler Musik.",
           "text": "Salzer und Schachter beginnen mit Speziesübungen, um grundlegende Stimmführung hörbar zu machen. Die Übungen sind Ausgangspunkt für die Ausarbeitung längerer musikalischer Verläufe. Ihr Ziel ist keine möglichst genaue Nachahmung eines einzelnen historischen Stils. Im weiteren Buch verfolgen sie, wie die zunächst einfachen Beziehungen in Musik des Zeitraums ungefähr 1450–1900 erweitert werden.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "Vorwort, S. VII–XIII; Anhang, S. 223–224 · Ziel und Aufbau des Lehrgangs",
+          "text": "Jeppesen beginnt mit der einzelnen Melodie und behält die fünf Spezies bei. Die festen Notenwerte sollen zunächst die Aufmerksamkeit auf den Verlauf der Linien lenken; dem freien Rhythmus und der fünften Art will er anschließend mehr Raum geben. Als Grundlage wählt er Palestrina, weil die Stimmen dort seiner Auffassung nach weniger durch eine vorgegebene harmonische und modulatorische Anlage gebunden sind als bei Bach. Das Lernziel ist die selbstständige Stimmführung; die historische Stilkopie allein genügt ihm nicht.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "related": [
@@ -5706,6 +6172,18 @@ const ATLAS = {
           "type": "context",
           "note": "Benjamin führt unmittelbar in den zweistimmigen Instrumentalsatz nach Bach ein und verzichtet auf eine strenge Speziesfolge. Salzer und Schachter verwenden Speziesübungen ausdrücklich als Ausgangspunkt für das spätere Studium komponierter Musik.",
           "from": "salzer-schachter1989-1"
+        },
+        {
+          "to": "kurth1917-1",
+          "type": "context",
+          "note": "Beide beginnen bei der einzelnen Linie. Kurth empfiehlt besonders Bachs Instrumentalmusik; Jeppesen entscheidet sich ausdrücklich gegen Kurths Bevorzugung dieser Grundlage und für Palestrina. Der Unterschied betrifft das pädagogische Vorbild, nicht den Wert der Musik beider Komponisten.",
+          "from": "jeppesen1964-1"
+        },
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Beide behalten Speziesübungen bei. Jeppesen verlangt dabei eine engere Orientierung an Palestrinas Praxis als bei Fux; Salzer und Schachter lösen die Grundlagen bewusst von der Nachahmung eines einzelnen historischen Stils und führen zur Analyse tonaler Musik.",
+          "from": "jeppesen1964-1"
         }
       ]
     },
@@ -5729,7 +6207,8 @@ const ATLAS = {
       ],
       "related": [
         "dissonanzen-s2",
-        "harmonik-enharmonische-spannung"
+        "harmonik-enharmonische-spannung",
+        "viertel-gegen-viertel"
       ],
       "authors": [
         {
@@ -5838,6 +6317,23 @@ const ATLAS = {
           "examples": [
             "salzer-schachter-gemischte-dissonanzen"
           ]
+        },
+        {
+          "id": "jeppesen1964-54",
+          "locator": "II.2, Dreistimmiger Satz, 3. Art, S. 148 · zweite und dritte Spezies kombiniert",
+          "text": "Wird eine Halbenstimme mit einer Viertelstimme über dem Cantus firmus verbunden, darf die zweite Halbe nicht dissonieren. Jeppesen begründet das mit dem veränderten Hören des Taktes: Durch die Viertelbewegung erhält die dritte Viertelposition, auf der diese Halbe beginnt, Gewicht. Besonders eng wird dadurch der Spielraum einer Halbenstimme im Bass. In den oberen Stimmen bleiben durch einen tieferen Ton gestützte Quarten verfügbar.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true,
+          "examples": [
+            "jeppesen-gemischte-dissonanz-vergleich"
+          ]
         }
       ],
       "relations": [
@@ -5846,6 +6342,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "context",
           "note": "Zarlino erklärt die Dissonanz über ihre Wirkung auf die folgende Konsonanz. Die von Green und Jones besprochene neuere Vokalmusik nutzt die hörbare Härte zusätzlich als Mittel des Textausdrucks."
+        },
+        {
+          "to": "salzer-schachter1989-2",
+          "type": "context",
+          "note": "Jeppesen schließt die dissonante zweite Halbe aus der Verbindung von zweiter und dritter Spezies aus. Salzer und Schachter lassen sie in derselben Besetzung zu. Sie erkennen die Beschränkung für eine Nachahmung des Palestrinastils ausdrücklich an, öffnen ihre Übungen aber für weitere Stilbereiche. Der praktische Regelunterschied folgt hier aus verschiedenen Lehrzielen.",
+          "from": "jeppesen1964-54"
         }
       ]
     },
@@ -6132,6 +6634,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 10, S. 413–417, Bsp. 10-5a/b · Palestrina, Missa Veni sponsa Christi, Agnus I",
           "text": "Salzer und Schachter lesen Palestrinas Agnus I als großräumige Folge I–IV–V–I. Die vierte Stufe wird in Takt 14–31 ausgedehnt, während die strukturelle Dominante nur einen Takt beansprucht. Imitierende Stimmen entfalten die jeweiligen Klänge nach und nach. In dieser Analyse wirken Harmonie und Kontrapunkt auf verschiedenen Ebenen zusammen: Die römischen Ziffern benennen den weiten Verlauf, die einzelnen Linien erklären seine Ausgestaltung."
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "Vorwort, S. IX–X; I.5, S. 77–81 · Zusammenklang und melodische Selbstständigkeit",
+          "text": "Jeppesen schreibt Palestrinas Musik durchaus ein Interesse an vollen, klaren Zusammenklängen zu. Deren Aufgabe sieht er jedoch vor allem darin, den gleichzeitigen Verlauf der Melodien hörbar zu machen. Die Harmonie wirkt für ihn hier eher durch die Beschaffenheit der einzelnen Klänge als durch einen vorab entworfenen Modulationsplan. Im Vorwort stellt er diesem Weg von den Linien zu den Akkorden Bachs Musik gegenüber, deren Stimmen er aus einem ideellen harmonischen Hintergrund hervorgehen hört.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -6167,6 +6680,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "contradiction",
           "note": "Gallon und Bitsch erlauben im Inneren der dreistimmigen Übung höchstens zwei unvollständige Akkorde und nie zwei unmittelbar nacheinander. Salzer und Schachter lassen aus melodischen Gründen auch zwei benachbarte unvollständige Klänge zu."
+        },
+        {
+          "to": "salzer-schachter1989-3",
+          "type": "context",
+          "note": "Beide beziehen sich auf Palestrina, erklären das Verhältnis aber auf verschiedenen Ebenen. Jeppesen betont die aus Linien entstehenden Klänge und die geringe Rolle modulatorischer Planung. Salzer und Schachter deuten ein Agnus ausdrücklich als großräumiges I–IV–V–I. Ihre Analyse eines bestimmten Satzes ist keine Widerlegung von Jeppesens Regeln für Einzelklänge.",
+          "from": "jeppesen1964-1"
         }
       ]
     },
@@ -6469,6 +6988,20 @@ const ATLAS = {
           "speciesScope": [
             3
           ]
+        },
+        {
+          "id": "jeppesen1964-26",
+          "locator": "II.1, dritte Art, S. 98–101, besonders S. 101, Anm. 2; fünfte Art, S. 116–117",
+          "text": "Für die Übungen übernimmt Jeppesen die abwärts gerichtete klassische Cambiata: Schritt in die leichte Dissonanz, Terzsprung abwärts, dann ein Schritt aufwärts zur verspäteten Auflösung. Die aufsteigende Umkehrung ordnet er einer früheren Praxis zu. Eine unveränderliche Fünftonfigur lehnt er ebenfalls ab: Ist der vierte Ton noch eine Viertel, muss der nächste Schritt aufwärts folgen; bei längerem vierten Ton ist die Fortsetzung freier. Das erläutert die fünfte Art mit gemischten Werten.",
+          "speciesScope": [
+            3,
+            5
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -6507,6 +7040,12 @@ const ATLAS = {
           "to": "cherubini1835-1",
           "type": "contradiction",
           "note": "Cherubini lehnt das Verlassen der Dissonanz durch den Cambiata-Terzsprung als Muster für den strengen Satz ab. Salzer und Schachter verwenden diese Figur in der dritten Spezies und gestatten sie sogar in beiden Richtungen."
+        },
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "contradiction",
+          "note": "Salzer und Schachter erlauben die Cambiata in ihrer dritten Spezies sowohl abwärts als auch aufwärts. Jeppesen beschränkt seine Palestrina-Übungen auf die abwärts gerichtete klassische Form; die aufsteigende Umkehrung behandelt er als ältere historische Praxis.",
+          "from": "jeppesen1964-26"
         }
       ]
     },
@@ -6633,6 +7172,35 @@ const ATLAS = {
           "speciesScope": [
             1
           ]
+        },
+        {
+          "id": "jeppesen1964-30",
+          "locator": "II.1, S. 87, Regel 3; S. 91, Regel 3; S. 101, Regel 4; S. 107, Regel 5 · zwei Stimmen",
+          "text": "Der Einklang gehört in der ersten Art nur an Anfang und Ende. In der zweiten darf er im Inneren auf der leichten Halben stehen; wird er angesprungen, empfiehlt Jeppesen einen anschließenden Schritt in Gegenrichtung. In der dritten Art bleibt nur das erste Viertel für innere Einklänge gesperrt. In der vierten dürfen sie auch auf betonte Zeit fallen. Bei einer Unterbrechung der Synkopenkette gelten vorübergehend wieder die Einschränkungen der zweiten Art.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-52",
+          "locator": "II.2, Dreistimmiger Satz, 1. Art, S. 142, Regel 4 · drei Stimmen",
+          "text": "Zwei der drei Stimmen dürfen auch im Inneren der Übung einen Einklang bilden. Treffen dagegen sämtliche Stimmen im Einklang zusammen, beschränkt Jeppesen das auf den ersten und letzten Takt. Entscheidend ist also, ob nur ein Stimmenpaar oder der ganze Satz in denselben Ton fällt.",
+          "speciesScope": [
+            1
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -6731,7 +7299,8 @@ const ATLAS = {
       "related": [
         "cantus-firmus",
         "bindung-s4",
-        "linie-orgelpunkt"
+        "linie-orgelpunkt",
+        "textunterlegung"
       ],
       "authors": [
         {
@@ -6821,6 +7390,34 @@ const ATLAS = {
           "locator": "Kap. 8, S. 265–266, Bsp. 8-44; Tonwiederholung und silbischer Textvortrag im vierstimmigen Bach-Choral.",
           "text": "Wiederholte Töne können im Choral einen länger gehaltenen Ton in mehrere Textsilben aufteilen. In Bsp. 8-44 entsprechen die fünf aufeinanderfolgenden d des Alts einem einzigen übergebundenen Ton. Der liegende Ton verbindet den Satz, während andere Stimmen sich bewegen. Bei Basswiederholungen achten die Autoren zusätzlich auf das Metrum: Eine Wiederholung von schwacher zu starker Zeit kann den metrischen Akzent verwischen; die umgekehrte Folge bestätigt ihn.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.4, S. 74–75 · Textunterlegung in Palestrinas Vokalmelodien",
+          "text": "Tonwiederholungen sind in Palestrinas Melodien bei Breven, Ganzen und Halben alltäglich: Mehrere Silben teilen einen länger gedachten Ton. Für benachbarte Viertel gilt diese Freiheit nicht, weil sie normalerweise keine neuen Silben tragen. Als gebräuchliche Viertelwiederholung nennt Jeppesen das absteigende Portament: Das wiederholte Viertel steht auf leichter Viertelzeit vor einer unbetonten Halben und führt schrittweise abwärts. Häufig folgt eine synkopierte Note, zwingend ist sie jedoch nicht.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-37",
+          "locator": "II.1, erste Art, S. 87 · unmittelbare Wiederholung in den Cantus-firmus-Übungen",
+          "text": "In der ersten Art darf die Gegenstimme denselben Ton unmittelbar wiederholen. Jeppesen empfiehlt, diese Freiheit nur ausnahmsweise zu nutzen, und beschränkt sie ausdrücklich auf diese Art. Mit der Zulässigkeit einer gelegentlichen Wiederholung ist daher keine freie Repetition in den bewegteren Spezies gemeint. Die spätere Behandlung textbedingter Wiederholungen im freien Vokalsatz hat einen anderen Rahmen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -6835,6 +7432,18 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "contradiction",
           "note": "Fux billigt das zweimal angeschlagene a in der Gegenstimme seiner zweistimmigen ersten Spezies. Noël-Gallon und Bitsch schließen genau diese unmittelbare Wiederholung für die zweistimmige Besetzung aus."
+        },
+        {
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Jeppesen beschreibt hier textierte Vokalmelodien und erklärt Wiederholungen längerer Werte aus dem Silbenwechsel. Noël-Gallon und Bitsch begrenzen sie in ihren untextierten Kontrapunktübungen nach Stimmenzahl. Die Aussagen betreffen unterschiedliche Aufgaben.",
+          "from": "jeppesen1964-1"
+        },
+        {
+          "to": "gallon-bitsch1964-1",
+          "type": "contradiction",
+          "note": "Jeppesen erlaubt eine gelegentliche unmittelbare Tonwiederholung bereits in der zweistimmigen ersten Art. Gallon und Bitsch schließen sie für zwei Stimmen aus und gestatten wiederholte Ganze erst ab fünf Stimmen.",
+          "from": "jeppesen1964-37"
         }
       ]
     },
@@ -6962,6 +7571,28 @@ const ATLAS = {
           "examples": [
             "neidhoefer-schubert-graun-tonale-antwort"
           ]
+        },
+        {
+          "id": "jeppesen1964-40",
+          "locator": "II.1, Imitation, S. 132–133 · Palestrina, Hodie beata und Surge, propera; Renaissance-Imitation",
+          "text": "Jeppesen erklärt reale und tonale Beantwortung bereits an der Renaissance-Motette. In Hodie beata wird der Sprung g–d mit d–a beantwortet; eine tonale Antwort hätte d–g verlangt. Für den Palestrina-Stil beschreibt er die reale Form als gewöhnlicher, zeigt mit Surge, propera aber auch eine tonale Beantwortung. Ein hervortretender Sprung von der ersten zur fünften Stufe erzwingt in diesem historischen Zusammenhang also noch keine tonale Änderung der Antwort.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-65",
+          "locator": "Anhang, Die Vokal-Fuge, S. 207–209 · Hexachorde und tonale Veränderung",
+          "text": "Für eine genaue Quintantwort ohne neue Vorzeichen prüft Jeppesen zunächst den Tonvorrat des Themas. Überschreitet ein auf der Tonika beginnendes Thema den Tonikahexachord, setzt seine modellhafte Antwort auf der Dominante ein, wird danach aber gegenüber der Quinttransposition um eine Sekunde abgesenkt. Bei Tonwiederholung oder Oktavsprung am Kopf verschiebt er die Veränderung, damit das Thema erkennbar bleibt. Dieses Schema gilt nach seiner ausdrücklichen Einschränkung nicht verbindlich für die Praxis des 16. Jahrhunderts.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -6973,6 +7604,12 @@ const ATLAS = {
           "to": "kennan1999-1",
           "type": "nuance",
           "note": "Benjamin beantwortet einen hervorgehobenen Dominantton am Themenkopf mit der Tonika. Kennans Vergleich zweier Bach-Themen zeigt, dass die auffällige Dominante für sich allein die Wahl zwischen realer und tonaler Antwort noch nicht entscheidet."
+        },
+        {
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin empfiehlt für die tonale Fugenexposition, eine hervorgehobene Dominante am Themenkopf mit der Tonika zu beantworten. Jeppesens Motettenbeispiel behält beim Sprung g–d die reale Antwort d–a bei. Die unterschiedliche Entscheidung gehört hier zu Renaissance-Imitation und späterer tonaler Fugenlehre.",
+          "from": "jeppesen1964-40"
         }
       ]
     },
@@ -7620,6 +8257,17 @@ const ATLAS = {
           "examples": [
             "bach-wtk1-846-antwort"
           ]
+        },
+        {
+          "id": "jeppesen1964-66",
+          "locator": "Anhang, Die Vokal-Fuge, S. 206, 210–212 · zwei- und dreistimmige Übungsfugen",
+          "text": "Die erste Durchführung ist beendet, sobald alle Stimmen das Thema vorgetragen haben. Entsprechend zeigen Jeppesens zweistimmige Übungsfugen zunächst zwei Einsätze. Bei drei Stimmen wechseln Tonika und Dominante gewöhnlich ab; besonders bei einem Beginn in der Mittelstimme können die zweite und dritte Stimme aber auch auf demselben Ton einsetzen. Für den dritten Einsatz zählt außerdem, wie er die beiden bereits klingenden Stimmen harmonisch ergänzt.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -7645,6 +8293,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-1",
           "type": "context",
           "note": "Gédalges Mindestzahl von vier Einsätzen gehört zur Anlage seiner Schulfuge. Neidhöfer und Schubert verwenden für ihre Analyse den Begriff Themengruppe, deren Umfang weder durch eine feste Einsatzzahl noch durch die Stimmenzahl bestimmt ist."
+        },
+        {
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Jeppesen beendet die erste Durchführung seiner zweistimmigen Vokalübungen nach den Einsätzen beider Stimmen. Gédalge verlangt in seiner Schulfuge auch bei zwei Stimmen mindestens vier abwechselnde Einsätze. Die verschieden angelegten Lehrmodelle ergeben unterschiedliche Längen der Eröffnung.",
+          "from": "jeppesen1964-66"
         }
       ]
     },
@@ -8023,6 +8677,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 18, S. 428–432, Bsp. 18.1–18.2, und S. 435–436 · Mattheson, Einsatzabstände und harmonische Prüfung",
           "text": "Für ein gegebenes Thema prüfen die Autoren Einsatzabstand und Einsatzhöhe getrennt. Eine Verbindung kann richtige Stimmführung haben und dennoch eine wenig überzeugende Harmoniefolge nahelegen. Auch reine Quarten zwischen zwei Themenstimmen können erst durch einen ergänzten Bass verständlich werden. Mattheson verändert in einer Fassung den Themaschluss, damit beim engeren Einsatz keine parallelen Oktaven entstehen."
+        },
+        {
+          "id": "jeppesen1964-67",
+          "locator": "Anhang, Die Vokal-Fuge, S. 207 und 210 · Engführung in der Vokalübungsfuge",
+          "text": "Für seine Übungsfugen empfiehlt Jeppesen, die Eignung des Themas zur Engführung vorab zu prüfen. Kleine rhythmische oder melodische Anpassungen dürfen dessen wesentlichen Charakter nicht beschädigen. Die Antwort kann dabei auch auf anderen Stufen als Tonika und Dominante einsetzen. Sie muss nur so viel vom Thema übernehmen, wie die vorausgehende Stimme bei ihrem Eintritt bereits gesungen hat. Eine bis zum Ende vollständige kanonische Überlagerung verlangt er damit nicht für jeden Einsatz.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -8036,6 +8701,12 @@ const ATLAS = {
           "to": "prout1891-1",
           "type": "contradiction",
           "note": "Cherubini zählt die Engführung zu den wesentlichen Bestandteilen einer Fuge. Prout widerspricht dieser allgemeinen Forderung ausdrücklich und verweist darauf, dass nach seiner Zählung rund die Hälfte der WTK-Fugen keine Engführung hat."
+        },
+        {
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Gallon und Bitsch bestimmen die eigentliche Engführung als Kanon zwischen Thema und Antwort. Jeppesen lässt in seiner Vokalübung eine kürzere Übernahme genügen: Die folgende Stimme muss nur den vor ihrem Einsatz bereits erklungenen Teil wiedergeben. Die Anforderungen an die Fortsetzung der Nachahmung sind unterschiedlich eng.",
+          "from": "jeppesen1964-67"
         }
       ]
     },
@@ -8182,7 +8853,8 @@ const ATLAS = {
         "imitation-und-kanon",
         "linie-scheinpolyphonie",
         "linie-orgelpunkt",
-        "rhythmuswechsel-s5"
+        "rhythmuswechsel-s5",
+        "viertel-gegen-viertel"
       ],
       "authors": [
         {
@@ -8301,6 +8973,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 9, S. 360, Bsp. 9-64 · Bach, Partita V, Sarabande, T. 12 bis Anfang T. 13",
           "text": "In Bachs Sarabande der fünften Partita hat die Oberstimme zwar die kürzeren Notenwerte, doch ihre Sechzehntel umspielen nach Salzer und Schachter nur die tragenden Töne a und g. Nach Wegnahme dieser Verzierungen bewegt sich die Oberstimme langsamer als der Bass. Das Paar vergleichen sie deshalb mit zweiter gegen dritte Spezies, obwohl die sichtbaren Notenwerte zunächst das umgekehrte Verhältnis nahelegen."
+        },
+        {
+          "id": "jeppesen1964-36",
+          "locator": "II.1, freier zweistimmiger Satz, S. 127, mit Palestrina, Spem in alium · zwei freie Stimmen",
+          "text": "Breite Bewegungen der einen Stimme sollen durch lebhaftere der anderen beantwortet werden und umgekehrt. Diese Ergänzung verlangt zugleich einen erkennbaren gemeinsamen Puls. Synkopieren beide Stimmen gleichzeitig, entsteht für Jeppesen ein unklarer rhythmischer Eindruck. Wenn eine Stimme überbindet, soll deshalb die andere die schwere Zeit markieren, am besten so, dass der gehaltene Ton zum dissonanten Vorhalt wird. Eigenständigkeit und metrische Orientierung gehören hier zusammen.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -8422,6 +9105,28 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 16, S. 364–368, besonders Bsp. 16.2a–c · Vertauschung in der Dezime und Harmonie",
           "text": "Bei der Oktavvertauschung bleiben die Tonklassen erhalten. Bei einer Vertauschung in der Dezime kann dagegen eine neue Harmoniefolge entstehen. In Marpurgs Bsp. 16.2 werden Quarten zu Septimen; die ergänzte Stimme macht aus denselben Linien eine andere Folge von Akkordgrundtönen. Die Autoren prüfen deshalb auch nach dem Lagentausch, welche Harmonie die neue Kombination trägt."
+        },
+        {
+          "id": "jeppesen1964-68",
+          "locator": "Anhang, Doppelter und mehrfacher Kontrapunkt, S. 218–219 und 223 · Vertauschung in der Oktave",
+          "text": "Beim Oktavtausch wird die Quinte zur Quarte und muss deshalb schon in der Ausgangslage wie eine Dissonanz behandelt werden. Soll der Tausch ohne Stimmkreuzung erfolgen, darf der Abstand der beiden Stimmen eine Oktave nicht überschreiten. Bei drei oder mehr vertauschbaren Stimmen gilt die Prüfung für jedes Stimmenpaar. Eine Quarte zwischen Oberstimmen lässt sich dann nicht mehr allein durch den darunterliegenden Bass rechtfertigen, weil sich dessen Lage ebenfalls ändern kann.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-69",
+          "locator": "Anhang, Doppelter und mehrfacher Kontrapunkt, S. 220–222 · Vertauschung in Dezime und Duodezime",
+          "text": "Bei der Vertauschung in der Dezime werden unvollkommene Konsonanzen zu vollkommenen. Jeppesen schließt deshalb parallele Terzen und Sexten aus und verlangt Vorsicht beim gleichgerichteten Eintritt in diese Intervalle. Dissonanzbindungen lässt er in dieser strengen Übung ebenfalls nicht zu, weil ihre Auflösung nach dem Tausch problematisch wird. Bei der Duodezime verschiebt sich die Hauptschwierigkeit: Die Sexte wird zur Septime und muss daher bereits in der Ausgangslage dissonanzgerecht geführt werden.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -8462,7 +9167,9 @@ const ATLAS = {
         "kanon-stimmtausch",
         "choral-vorimitation",
         "imitation-stimmenpaare",
-        "imitation-funktionswechsel"
+        "imitation-funktionswechsel",
+        "textunterlegung",
+        "motette-satzwechsel"
       ],
       "authors": [
         {
@@ -8522,6 +9229,17 @@ const ATLAS = {
           "examples": [
             "schubert-morley-imitierendes-duo"
           ]
+        },
+        {
+          "id": "jeppesen1964-59",
+          "locator": "II.5, Der Kanon, S. 183–185 · vollständige Nachahmung und freie Begleitstimmen",
+          "text": "In der Imitation wird nur der Themenanfang übernommen; im Kanon folgt die nachahmende Stimme dem ganzen melodischen Verlauf. Damit beide gemeinsam schließen, kann die fortgesetzte Nachahmung vor der Schlussbildung abgebrochen werden. Ein Kanon muss zudem nicht sämtliche Stimmen eines Stücks binden: Im Kyrie aus Palestrinas fünfstimmiger Messe Repleatur os meum laude bilden nur Sopran II und Tenor ein kanonisches Paar, während die anderen Stimmen frei imitieren.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "readingSources": []
@@ -8545,7 +9263,8 @@ const ATLAS = {
         "rhythmische-selbststaendigkeit",
         "dichte-s5",
         "grundrahmen",
-        "vorhalt-bewegte-begleitstimme"
+        "vorhalt-bewegte-begleitstimme",
+        "viertel-gegen-viertel"
       ],
       "comparisons": [],
       "authors": [
@@ -9374,6 +10093,17 @@ const ATLAS = {
           "locator": "Kap. 3.3, S. 73 und 77, Bsp. 3-46 bis 3-49 · optionale Zusatzübung nach zweiter oder dritter Spezies, zwei und drei Stimmen",
           "text": "Das Drei-gegen-eins ist für Salzer und Schachter eine mögliche Ergänzung, keine notwendige zusätzliche Stufe. Wird es nach der zweiten Spezies eingeführt, bleiben seine Dissonanzen auf Durchgänge beschränkt; nach der dritten können auch Wechselnoten hinzukommen. Die Eins muss konsonieren, die beiden folgenden Taktteile sind leicht. Cambiata und Doppelwechselnote werden hier nicht verwendet, weil ihre Viertonfiguren nicht in das gewählte Dreiermaß passen.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-41",
+          "locator": "II.1, zweite Art, S. 92, Schlussabsatz · Dreiertakt und Wert der Zählzeit",
+          "text": "Im Dreiertakt mit der Halben als Zählzeit verlangt Jeppesen Konsonanz auf allen drei Halben. Dissonieren darf jeweils erst die zweite Hälfte einer Zählzeit. Er erläutert den Maßstab durch die Notierung: Im 3/1 betrifft das jede zweite Halbe, im 3/2 jedes zweite Viertel. Die Zahl drei allein sagt deshalb noch nicht, welche der drei Noten als leichte Durchgangsdissonanz behandelt werden darf; entscheidend ist ihre Stellung zur gewählten Zählzeit.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -9391,6 +10121,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "context",
           "note": "Prout ordnet das Drei-gegen-eins der dritten Spezies zu. Salzer und Schachter bieten es wahlweise nach der zweiten oder dritten an; je nach Lernstand ändert sich dabei, ob neben Durchgängen auch dissonante Wechselnoten vorkommen."
+        },
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Salzer und Schachter behandeln in ihrer Zusatzübung die beiden Positionen nach der Eins als leichte Zeiten. Jeppesen setzt für seine Aussage über drei Halbe ausdrücklich die Halbe als Zählzeit voraus und fordert auf jeder dieser Zählzeiten Konsonanz. Der Vergleich muss deshalb den metrischen Maßstab mit einbeziehen.",
+          "from": "jeppesen1964-41"
         }
       ]
     },
@@ -9641,6 +10377,17 @@ const ATLAS = {
           "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
           "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
           "catalogue": true
+        },
+        {
+          "id": "jeppesen1964-1",
+          "locator": "II, S. 83 · Auswahl und Transposition der Cantus firmi",
+          "text": "Für seine mehrstimmigen Übungen lässt Jeppesen die Unterscheidung zwischen authentischen und plagalen Cantus firmi ausdrücklich außer Betracht. Die gegebenen Melodien dürfen je nach Stimmenlage in eine andere Oktave versetzt werden; auch die Transposition um eine Quarte aufwärts oder Quinte abwärts mit vorgezeichnetem b ist vorgesehen. Diese Entscheidung betrifft den Einsatz eines Cantus in der Mehrstimmigkeit. Sie hebt die zuvor erklärte Unterscheidung der einstimmigen Kirchentöne nicht auf.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ],
       "reading": "Singe jede Stimme für sich. Wo liegt ihr Schlusston im Verhältnis zu ihrem tiefsten und ihrem höchsten Ton?",
@@ -9825,7 +10572,10 @@ const ATLAS = {
       "related": [
         "imitierendes-duo-kadenz",
         "motiv-ueber-cantus",
-        "kadenz"
+        "kadenz",
+        "textunterlegung",
+        "motette-satzwechsel",
+        "messe-vorlage"
       ],
       "authors": [
         {
@@ -9848,6 +10598,17 @@ const ATLAS = {
           "locator": "Kap. 16.3, S. 225–226, mit den Benedictus-Sätzen von Lassus und Palestrina, S. 214–218 · Text und Imitation",
           "text": "In Palestrinas Benedictus aus der Missa de feria bindet schon ein kurzer Textabschnitt mehrere Motive. „Benedictus“ hat seine wiederkehrende Gestalt, die Silben „qui ve-“ erhalten regelmäßig eine eigene. Wer in jeder Stimme denselben Text aufsucht, kann die motivischen Einsätze auch innerhalb einer Textzeile erkennen.",
           "speciesScope": []
+        },
+        {
+          "id": "jeppesen1964-61",
+          "locator": "II.6, Die Motette, S. 188 und 194–195 · Palestrina, Dies sanctificatus, „et adorate Dominum“",
+          "text": "Jeppesen beschreibt zunächst den üblichen Zusammenhang von neuem Textglied und eigenem Thema. Seine Analyse von Dies sanctificatus zeigt aber einen fließenden Übergang: Das Thema zu „et adorate Dominum“ entwickelt sich aus dem unmittelbar vorhergehenden Kontrapunkt des Alts. Es wird nur einmal genau imitiert; anschließend hält vor allem der Rhythmus die Stimmen zusammen. Ein neuer Textabschnitt verlangt hier also keinen völlig unabhängigen melodischen Einfall.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ]
     },
@@ -10083,6 +10844,25 @@ const ATLAS = {
           ],
           "locator": "Kap. 9, S. 342–343, Bsp. 9-31a–c · zweite Spezies im Bass, vierte Spezies in der Oberstimme",
           "text": "Aus einem gewöhnlichen 9–8-Vorhalt gewinnen Salzer und Schachter zwei Fassungen mit bewegtem Bass. Die Oberstimme löst sich jedes Mal einen Schritt abwärts auf; durch den zusätzlichen Bassgang erscheint die Folge jedoch als 9–10 oder 9–6. Die Zahlen allein verraten die melodische Auflösung also nicht. In ihrer kombinierten Übung soll auf der zweiten Takthälfte ein konsonanter Zusammenklang aller drei Stimmen erreicht werden."
+        },
+        {
+          "id": "jeppesen1964-33",
+          "locator": "II.1, freier zweistimmiger Satz, S. 124–125, Regel 3 · bewegte Gegenstimme bei der Vorhaltsauflösung",
+          "text": "Im freien Satz darf die Gegenstimme ihren Ton gleichzeitig mit der absteigenden Auflösung des Vorhalts wechseln. So können selbst eine Sekunde oder None in der Oberstimme brauchbar werden, die bei liegenbleibendem Cantus in eine unerwünschte vollkommene Konsonanz führen würden. Die gemeinsame Bewegung kann stattdessen eine unvollkommene Konsonanz erreichen. Jeppesen beobachtet diese Freiheit besonders zwischen Ober- und Mittelstimmen; liegt die Gegenstimme im Bass, geht sie nach seiner Beobachtung am häufigsten schrittweise weiter.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Beide Erklärungen trennen die absteigende Auflösung der Vorhaltsstimme vom wechselnden Intervallabstand. Jeppesen beschreibt die Freiheit im freien Vokalsatz; Salzer und Schachter gewinnen ihre Beispiele aus der Kombination von zweiter und vierter Spezies in einer dreistimmigen Aufgabe.",
+          "from": "jeppesen1964-33"
         }
       ]
     },
@@ -10175,7 +10955,8 @@ const ATLAS = {
         "kanon-stimmtausch",
         "doppelter-kontrapunkt",
         "spiegelumkehr-stimmenpaar",
-        "imitation-funktionswechsel"
+        "imitation-funktionswechsel",
+        "motette-satzwechsel"
       ],
       "authors": [
         {
@@ -10191,6 +10972,17 @@ const ATLAS = {
           "examples": [
             "green-jones-lassus-paare"
           ]
+        },
+        {
+          "id": "jeppesen1964-60",
+          "locator": "II.6, Die Motette, S. 188–190 und 194 · Palestrina, Dies sanctificatus, T. 1–17",
+          "text": "Palestrina beginnt Dies sanctificatus mit einem kanonischen Duett von Sopran und Alt. In Takt 8 übernimmt der Tenor den Anfang; einen Takt später folgt der Bass. Die tiefen Stimmen wiederholen das Duett der oberen eine Oktave tiefer, während Sopran und Alt frei kontrapunktieren. Jeppesen verfolgt damit die Wiederkehr einer ganzen zweistimmigen Kombination samt ihrem Einsatzabstand, nicht nur einzelne Themeneinsätze.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ]
     },
@@ -10612,7 +11404,8 @@ const ATLAS = {
         "dichte-s5",
         "anfangsintervall",
         "dissonanzaufloesung",
-        "rhythmische-selbststaendigkeit"
+        "rhythmische-selbststaendigkeit",
+        "textunterlegung"
       ],
       "comparisons": [],
       "authors": [
@@ -10628,6 +11421,19 @@ const ATLAS = {
           "speciesScope": [
             5
           ]
+        },
+        {
+          "id": "jeppesen1964-31",
+          "locator": "II.1, fünfte Art, S. 112–114, Regeln 3a–d · Halbe als Zählzeit",
+          "text": "Eine Viertelbewegung läuft für Jeppesen vorzugsweise bis zu einer betonten Halben. Endet sie schon vor einer unbetonten Halben, wird diese häufig übergebunden; er kennt aber auch ungebundene Repertoirefälle. Zwei isolierte Viertel anstelle einer betonten Halben wirken ihm zu kurzatmig. Ein drittes benachbartes Viertel, die Bindung zur folgenden Halben oder die Anbindung des ersten Viertels können den Zusammenhang herstellen. Die Richtung der Linie beeinflusst außerdem, wo die Viertelbewegung günstig beginnt.",
+          "speciesScope": [
+            5
+          ],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ]
     },
@@ -10713,7 +11519,8 @@ const ATLAS = {
       "related": [
         "imitation-und-kanon",
         "imitation-stimmenpaare",
-        "harmonik"
+        "harmonik",
+        "messe-vorlage"
       ],
       "comparisons": [],
       "authors": [
@@ -10759,6 +11566,230 @@ const ATLAS = {
           "locator": "Kap. 8, S. 269 und 302–305, besonders Bsp. 8-109 (Bach-Choräle 61 und 83 nach der Riemenschneider-Zählung).",
           "text": "Eine Fermate bezeichnet im Choral zunächst das Ende einer Textzeile. Daraus folgt noch nicht das Ende eines musikalischen Gedankens. In Bsp. 8-109 stehen unter den Fermaten Klänge mit Zwischendominantwirkung, die in die nächste Phrase weiterdrängen und beide Zeilen verbinden. Die Autoren unterscheiden deshalb zwischen Fermaten an wirklichen Abschlüssen und Stellen, an denen ein starkes Anhalten den fortlaufenden Zusammenhang unterbrechen würde.",
           "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "sprung-und-taktgewicht",
+      "title": "Hängt ein melodischer Sprung von Notenwert und Taktgewicht ab?",
+      "group": "Melodieführung",
+      "tags": [
+        "Sprunggesetz",
+        "Viertel",
+        "Betonung",
+        "Palestrina",
+        "Jeppesen"
+      ],
+      "related": [
+        "sprungfolge",
+        "sprungausgleich",
+        "melodische-intervalle",
+        "dichte-s5",
+        "obere-untere-wechselnote"
+      ],
+      "reading": "Spiele dieselbe Tonfolge erst in Halben, dann in Vierteln und behalte die Halbe als Zählzeit bei. Bestimme die metrische Position des Ausgangstons jedes Sprungs. Die Grafik isoliert diese eine melodische Bedingung; sie ist keine vollständige Satzprüfung.",
+      "readingSources": [
+        "jeppesen1964"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.4, S. 67–70; Regelübersicht, S. 225 · melodischer Sprung bei Halben als Zählzeit",
+          "text": "Bei Vierteln darf die Melodie von einer betonten Position aus nicht aufwärts springen. Ein Abwärtssprung von derselben Position ist grundsätzlich möglich. Vom unbetonten Viertel darf sie aufwärts springen; abwärts ist dort nur die Terz möglich, auf die ein Sekundschritt aufwärts folgt. Diese Unterschiede erklärt Jeppesen aus dem Gewicht der Töne innerhalb der Linie. Für ganze Noten gilt das Verbot des Aufwärtssprungs vom betonten Ton nicht, bei Halben beschreibt es lediglich eine häufig durchbrochene Tendenz. Die Halbe bildet dabei die Zählzeit.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true,
+          "examples": [
+            "jeppesen-sprung-und-taktgewicht"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obere-untere-wechselnote",
+      "title": "Sind obere und untere Wechselnoten gleich verwendbar?",
+      "group": "Melodieführung",
+      "tags": [
+        "Wechselnote",
+        "Drehung",
+        "Obersekunde",
+        "Untersekunde",
+        "Palestrina"
+      ],
+      "related": [
+        "unbetonte-dissonanz",
+        "dissonanzfolgen-s3",
+        "dichte-s5",
+        "sprung-und-taktgewicht"
+      ],
+      "reading": "Vergleiche die untere und obere Drehung. Verlängere danach nur den Rückkehrton zur Halben. Jeppesens Unterscheidung betrifft Richtung und Rhythmus; die drei einstimmigen Figuren enthalten noch keine Aussage über ihre vertikale Konsonanz oder Dissonanz.",
+      "readingSources": [
+        "jeppesen1964"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "jeppesen1964-1",
+          "locator": "I.4, S. 71–74 · melodische Drehungen in Vierteln und Achteln",
+          "text": "Eine Viertelfigur, die über die Untersekunde zum Ausgangston zurückkehrt, ist für Jeppesen im Palestrina-Stil gebräuchlich. Die Drehung über die Obersekunde ist dagegen ausgesprochen selten, wenn auch der zurückkehrende Ton ein Viertel bleibt. Wird dieser Ton zur Halben oder länger, sind beide Richtungen möglich. Bei zwei Achteln auf unbetonter Viertelzeit erlaubt er ebenfalls die untere Drehung; führt das zweite Achtel aufwärts, muss der Schrittgang weiter aufwärts gehen. Die Einschränkungen gelten bereits für die Melodie; ob die Nebennote dissoniert, hängt zusätzlich von den anderen Stimmen ab.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true,
+          "examples": [
+            "jeppesen-wechselnoten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viertel-gegen-viertel",
+      "title": "Dürfen zwei gleichzeitig bewegte Viertel miteinander dissonieren?",
+      "group": "Dissonanz",
+      "tags": [
+        "Viertel gegen Viertel",
+        "gleichzeitige Dissonanzen",
+        "liegende Stimme",
+        "Palestrina",
+        "Durchgang"
+      ],
+      "related": [
+        "dissonanzbehandlung",
+        "betonte-dissonanz",
+        "speziesmischung",
+        "rhythmische-selbststaendigkeit"
+      ],
+      "reading": "Prüfe zuerst, welche Stimmen gleichzeitig kurze Noten haben und welche liegen bleiben. Beurteile dann jede bewegte Stimme gegen jede liegende. Ändert sich das Urteil, wenn du nur auf den Bass hörst?",
+      "readingSources": [
+        "jeppesen1964"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "jeppesen1964-34",
+          "locator": "II.1, freier zweistimmiger Satz, S. 121–123, Regel 1 und Anm. 2 · Halbe als Zählzeit",
+          "text": "Dissonieren im Zweistimmensatz zwei gleichzeitig bewegte Viertel, muss jede Stimme für sich die Dissonanz regelgerecht behandeln, etwa als Durchgang oder Cambiata. Das gilt auch, wenn sämtliche Stimmen eines mehrstimmigen Satzes in Vierteln gehen. Liegen dagegen andere Stimmen in längeren Werten, dürfen die Viertelstimmen untereinander freier zusammenstoßen. Jede muss dabei gegenüber allen liegenden Stimmen korrekt bleiben. Ein korrektes Verhältnis allein zum Bass genügt Jeppesen ausdrücklich nicht.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "textunterlegung",
+      "title": "Wann darf im Vokalkontrapunkt eine neue Textsilbe beginnen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Textunterlegung",
+        "Silbenwechsel",
+        "Vokalpolyphonie",
+        "Wortakzent",
+        "Melisma",
+        "Palestrina"
+      ],
+      "related": [
+        "soggetto-und-text",
+        "tonwiederholung",
+        "imitation-und-kanon",
+        "rhythmuswechsel-s5"
+      ],
+      "reading": "Singe dieselbe Linie zunächst auf einer Silbe und dann mit Text. Prüfe die betonten Wörter, die Silben in Viertelgruppen und die letzte Silbe jeder Phrase. Verfolge bei imitierenden Einsätzen, ob die Textverteilung gleich bleibt.",
+      "readingSources": [
+        "jeppesen1964"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "jeppesen1964-35",
+          "locator": "II.1, freier zweistimmiger Satz, S. 128–129, Regeln 1–9 · Textunterlegung bei Halben als Zählzeit",
+          "text": "Neue Silben stehen gewöhnlich auf Notenwerten über einer Viertel. Eine einzelne Viertel kann nach einer punktierten Halben eine Silbe tragen, wenn mindestens eine Halbe folgt; eine Viertelkette trägt dagegen gemeinsam eine Silbe. Achtel erhalten keine eigene. Wortbetonung und musikalischer Akzent sollen übereinstimmen. Nach kurzen Werten vermeidet Jeppesen den Silbenwechsel, lässt aber an der Schlussnote der Phrase Ausnahmen zu. Bei Imitationen bleibt die Textverteilung des Themas erhalten; eine nicht ornamentale Tonwiederholung verlangt eine neue Silbe.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "motette-satzwechsel",
+      "title": "Muss eine Motette durchgehend imitieren?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Motette",
+        "Imitation",
+        "Homophonie",
+        "Text",
+        "Palestrina"
+      ],
+      "related": [
+        "soggetto-und-text",
+        "imitation-stimmenpaare",
+        "imitation-und-kanon",
+        "messe-vorlage"
+      ],
+      "reading": "Markiere die Textabschnitte der Motette. Höre dann, wo eine Stimme vorausgeht, wo mehrere Stimmen gemeinsam sprechen und wie der nächste Abschnitt aus dem vorherigen entsteht.",
+      "readingSources": [
+        "jeppesen1964"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "jeppesen1964-63",
+          "locator": "II.6, Die Motette, S. 188 und 194–196 · Palestrina, Dies sanctificatus",
+          "text": "Eine Motette muss nicht ununterbrochen imitieren. In Dies sanctificatus unterscheidet Jeppesen streng imitierende, freier polyphone und homophone Abschnitte. Bei „et adorate“ überwiegen absteigende Sextakkorde, „quia hodie“ beginnt akkordisch, „haec dies“ kehrt zum kanonischen Duett zurück. Den jubelnden Schluss hört er fast durchgehend homophon. Gerade der Wechsel dieser Satzweisen verbindet für ihn die Textglieder zu einer abwechslungsreichen größeren Form.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "messe-vorlage",
+      "title": "Was übernimmt eine Messe aus ihrer mehrstimmigen Vorlage?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Messe",
+        "Motette",
+        "Vorlage",
+        "Parodiemesse",
+        "Transkription",
+        "Palestrina"
+      ],
+      "related": [
+        "motette-satzwechsel",
+        "soggetto-und-text",
+        "imitation-funktionswechsel"
+      ],
+      "reading": "Vergleiche denselben Themenkopf in der Motette sowie in Kyrie, Gloria und Sanctus. Unterscheide, welche Töne wiederkehren und welche Satzweise oder Gegenstimme neu hinzukommt.",
+      "readingSources": [
+        "jeppesen1964"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "jeppesen1964-64",
+          "locator": "II.7, Die Messe, S. 198–203 und 206 · Palestrina, Missa Dies sanctificatus und gleichnamige Motette",
+          "text": "Eine Messe kann eine mehrstimmige Vorlage umarbeiten. Jeppesen bevorzugt dafür „Transkriptionsmesse“ gegenüber „Parodiemesse“. Bei Palestrinas Dies sanctificatus übernimmt das erste Kyrie den Anfang der Motette, während das Gloria denselben Gedanken syllabisch und akkordisch behandelt. Im Sanctus steht ihm ein neues, seinerseits imitiertes Gegenthema gegenüber. Übernommen werden somit Themen und Satzverbindungen, deren Behandlung sich mit dem neuen Text und der liturgischen Aufgabe verändert.",
+          "speciesScope": [],
+          "source": "jeppesen1964",
+          "name": "Knud Jeppesen",
+          "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
+          "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+          "catalogue": true
         }
       ]
     }
@@ -12091,6 +13122,46 @@ const ATLAS = {
       "credit": "Eigenes schematisches Modell der Redaktion nach Salzer und Schachter, Kap. 6.2, S. 144–149 und 152. Neu notiert; keine Abschrift eines Buchbeispiels.",
       "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
       "image": "quellen/noten/salzer-schachter-akkordfunktion.webp"
+    },
+    "jeppesen-sprung-und-taktgewicht": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Jeppesen · Derselbe Sprung, andere Notenwerte",
+      "alt": "Zwei einstimmige Figuren mit g4–c5–d5–e5. A notiert vier Halbe im Vierhalbetakt; B notiert vier Viertel im Zweihalbetakt. In B ist der Aufwärtssprung g–c vom ersten, betonten Viertel farbig markiert.",
+      "caption": "Behalte die Halbe als Zählzeit bei. Spiele beide Fassungen und bestimme das Gewicht des Tons, von dem die Quarte aufwärts springt. Bei Halben beschreibt Jeppesen eine Tendenz mit Ausnahmen, bei betonten Vierteln ein Verbot. Die Ausschnitte vergleichen diese eine Bedingung und sind keine vollständigen Melodien.",
+      "credit": "Eigene Leseübung der Redaktion nach Jeppesen, Kontrapunkt, 3. Aufl. 1964, S. 67–70. Neu notiert; keine Abschrift eines Buchbeispiels.",
+      "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+      "image": "quellen/noten/jeppesen-sprung-und-taktgewicht.webp"
+    },
+    "jeppesen-wechselnoten": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Jeppesen · Untere und obere Drehung",
+      "alt": "Drei einstimmige Figuren im Zweihalbetakt. A: g4–f4–g4–a4 als Viertel. B: g4–a4–g4–f4 als Viertel. C: g4 und a4 als Viertel, danach g4 als Halbe. Nebennote und Rückkehrton sind farbig markiert.",
+      "caption": "Singe die untere und die obere Drehung. Verlängere danach den Rückkehrton der oberen Drehung zur Halben. Jeppesen unterscheidet diese Fälle bereits auf der Ebene der Melodie. Ob der mittlere Ton zusätzlich dissoniert, muss im mehrstimmigen Satz gesondert geprüft werden.",
+      "credit": "Eigene Vergleichsfiguren der Redaktion nach Jeppesen, Kontrapunkt, 3. Aufl. 1964, S. 71–74. Neu notiert; keine Abschrift eines Buchbeispiels.",
+      "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+      "image": "quellen/noten/jeppesen-wechselnoten.webp"
+    },
+    "jeppesen-betonter-durchgang": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Jeppesen · Die betonte Quarte in der dritten und fünften Art",
+      "alt": "Zwei zweistimmige Ausschnitte im Zweihalbetakt über einem c4 als Ganzer. A: a4–g4–f4–e4 als vier Viertel, Intervalle 6–5–4–3. B: g4 als Halbe, f4 und e4 als Viertel, Intervalle 5–4–3. Das f am Beginn der zweiten Halben ist jeweils markiert.",
+      "caption": "Prüfe in beiden Fassungen das f auf der zweiten Halben. In der dritten Art verlangt Jeppesen hier eine Konsonanz. In der fünften Art erlaubt er den absteigenden Vierteldurchgang nach einer Halben. Die Länge des vorausgehenden Tons verändert die Regel; die beiden Takte sind isolierte innere Ausschnitte, keine vollständigen Übungen.",
+      "credit": "Eigene Satzmodelle der Redaktion nach Jeppesen, Kontrapunkt, 3. Aufl. 1964, S. 96–97 und 116. Neu notiert; keine Abschrift eines Buchbeispiels.",
+      "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+      "image": "quellen/noten/jeppesen-betonter-durchgang.webp"
+    },
+    "jeppesen-gemischte-dissonanz-vergleich": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Jeppesen und Salzer–Schachter · Dieselbe Halbe, zwei Lehrziele",
+      "alt": "Dreistimmiger Ausschnitt in D-Dur. Cantus D3 und Fis3 als Ganze; Halbenstimme Fis4–E4, danach D4 als Ganze; Viertelstimme D5–E5–Fis5–G5, danach A5 als Ganze. Das E4 auf der zweiten Halben dissoniert mit D3 und Fis5.",
+      "caption": "Lies das vorhandene Salzer–Schachter-Modell nun mit Jeppesens Regel auf S. 148. Die Viertelbewegung macht die zweite Halbe zu einer betonten Zeit; das dissonante e der Halbenstimme ist bei ihm deshalb ausgeschlossen. Salzer und Schachter lassen es für ihr weiter gefasstes Stilziel zu und erwähnen ausdrücklich die strengere Palestrina-Aufgabe. Vergleiche also auch die Lernziele, nicht nur das Urteil über denselben Klang.",
+      "credit": "Wiederverwendung der eigenen Atlas-Leseübung nach Salzer und Schachter, Kap. 9, S. 338–340, mit neuer Vergleichsfrage zu Jeppesen, 3. Aufl. 1964, S. 148. Keine Reproduktion einer Buchseite.",
+      "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+      "image": "quellen/noten/salzer-schachter-gemischte-dissonanzen.webp"
     }
   }
 };

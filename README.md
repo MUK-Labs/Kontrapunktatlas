@@ -88,6 +88,24 @@ Das Buchsymbol vor dem Werktitel kennzeichnet Lehrbücher und Traktate im Quelle
 
 Autorennamen mit verifiziertem Wikipedia-Artikel sind in den Fragen, Erläuterungen, Quellenangaben und Bildunterschriften verlinkt. Die Biografie öffnet sich in einem neuen Tab. Das gilt auch für Nachnamen und Formen wie „Cherubinis“ oder „Hindemiths“. Im Quellenverzeichnis öffnet der Name die Biografie; das Kästchen oder der übrige Titel wählt das Werk. Der Beleg zur Buchseite bleibt über **Fundstelle öffnen** erreichbar. Unter dem Autorenfilter erscheint für die gewählte Person zusätzlich ein Wikipedia-Link. Namen ohne verifizierte Biografie bleiben als Text stehen.
 
+## Palestrinas Vokalpolyphonie mit Knud Jeppesen lesen
+
+Die Werkkennung `jeppesen1964` erschließt **55 Antworten zu 41 Fragen** aus *Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie*, übersetzt von Julie Schulz, 3. Auflage (Leipzig, VEB Breitkopf & Härtel, 1964). Die Fundstellen nennen die gedruckten Seiten dieser Ausgabe. Der [Verlagsnachweis](https://www.breitkopf.com/work/3447/kontrapunkt) führt zum heutigen Nachdruck des Werks; er ist kein Seitenlink zum verwendeten Exemplar.
+
+Jeppesen behält die fünf Spezies bei, richtet ihre Regeln aber ausdrücklich an seiner Untersuchung des Palestrina-Stils aus. Die Beiträge verfolgen den Weg von der einzelnen Melodie über zwei- und mehrstimmige Übungen zu freier Vokalpolyphonie, Kanon, Motette, Messe und Vokalübungsfuge. Sechs neue Fragen betreffen das Gewicht melodischer Sprünge, obere und untere Wechselnoten, gleichzeitige Vierteldissonanzen, Textunterlegung, den Wechsel der Satzweise in einer Motette und die Umarbeitung einer mehrstimmigen Vorlage zur Messe.
+
+| Frage | Aufgabe am Notenbild oder Text |
+| --- | --- |
+| [Hängt ein melodischer Sprung von Notenwert und Taktgewicht ab?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=jeppesen1964#frage=sprung-und-taktgewicht) | Dieselbe Tonfolge in Halben und Vierteln spielen; die Halbe bleibt Zählzeit. |
+| [Sind obere und untere Wechselnoten gleich verwendbar?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=jeppesen1964#frage=obere-untere-wechselnote) | Die Richtung der Drehung ändern, danach den Rückkehrton zur Halben verlängern. |
+| [Darf eine Dissonanz auf eine betonte Zeit fallen?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=jeppesen1964#frage=betonte-dissonanz) | Die Quarte auf dem dritten Viertel in der dritten Art mit dem absteigenden Durchgang nach einer Halben in der fünften Art vergleichen. |
+| [Wie behandle ich Dissonanzen?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=jeppesen1964,salzer-schachter1989#frage=dissonanzbehandlung) | Dasselbe Modell mit Halben- und Viertelstimme nach Jeppesen und nach Salzer–Schachter prüfen. Die zweite Halbe erhält unterschiedliche Freiheiten. |
+| [Muss eine Motette durchgehend imitieren?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=jeppesen1964#frage=motette-satzwechsel) | In *Dies sanctificatus* die wechselnden Satzweisen mit den Textabschnitten verbinden. |
+
+**27 neue Vergleichspaare** verknüpfen Jeppesen mit den bereits erschlossenen Lehrwerken: elf Widersprüche, fünf Nuancen und elf Unterschiede des Kontexts. Unter [Unterschiede → Knud Jeppesen](https://muk-labs.github.io/Kontrapunktatlas/unterschiede.html#autor=Knud+Jeppesen) sind die Widersprüche und Nuancen unmittelbar erreichbar; **Anderer Kontext** ergänzt die übrigen Paare. Dazu gehört die gemischte zweite und dritte Spezies: Salzer und Schachter erkennen die strengere Regel für eine Palestrina-Nachahmung ausdrücklich an, erweitern aber das Stilziel ihrer Übungen. Die Erläuterung macht diesen Unterschied sichtbar. Jeppesens Zurückweisung der von Fux zugelassenen dritten Vierteldissonanz ist dagegen als direkter Regelgegensatz erfasst.
+
+Drei neue Notengrafiken sind eigene, eng begrenzte Vergleichsfiguren der Redaktion. Ein vierter Beispieleintrag verwendet die bereits vorhandene Salzer–Schachter-Leseübung mit einer zusätzlichen Frage zu Jeppesen. Bildunterschriften und Nachweise unterscheiden die eigenen Modelle von den Buchbelegen.
+
 ## Von den Spezies zur Komposition mit Salzer und Schachter
 
 Die Werkkennung `salzer-schachter1989` erschließt *Counterpoint in Composition: The Study of Voice Leading* von Felix Salzer und Carl Schachter (New York, Columbia University Press, Morningside Edition mit neuem Vorwort, 1989; Erstausgabe 1969, ISBN 978-0-231-07039-3). Die 66 Beiträge zu 35 Fragen verbinden die Speziesübungen mit der Analyse komponierter Musik. Fünf Fragen und vier Notenbilder kommen hinzu. Die Fundstellen nennen die gedruckten Seiten und gegebenenfalls die Beispielnummer; das neue Vorwort wird Carl Schachter zugeschrieben. [Verlagsnachweis](https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/)
