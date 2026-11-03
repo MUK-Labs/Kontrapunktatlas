@@ -353,6 +353,208 @@ const ATLAS = {
         "Saorgin"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Ren%C3%A9_Saorgin"
+    },
+    {
+      "name": "Douglass M. Green",
+      "aliases": [
+        "Douglass Green",
+        "Green"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Evan Jones",
+      "aliases": [
+        "Jones"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Guillaume de Machaut",
+      "aliases": [
+        "Machaut"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Guillaume_de_Machaut"
+    },
+    {
+      "name": "Orlando di Lasso",
+      "aliases": [
+        "Orlando di Lassus",
+        "Lassus",
+        "Lasso"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Orlando_di_Lasso"
+    },
+    {
+      "name": "Léonin",
+      "aliases": [
+        "Leonin"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A9onin"
+    },
+    {
+      "name": "Vincenzo Galilei",
+      "aliases": [
+        "Galilei"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Vincenzo_Galilei"
+    },
+    {
+      "name": "Tomás Luis de Victoria",
+      "aliases": [
+        "Victoria"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Tom%C3%A1s_Luis_de_Victoria"
+    },
+    {
+      "name": "Francesco Landini",
+      "aliases": [
+        "Landini"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Francesco_Landini"
+    },
+    {
+      "name": "Carl Proske",
+      "aliases": [
+        "Proske"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Carl_Proske"
+    },
+    {
+      "name": "Johannes Ockeghem",
+      "aliases": [
+        "Ockeghem"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Ockeghem"
+    },
+    {
+      "name": "Christoph Neidhöfer",
+      "aliases": [
+        "Christoph Neidhoefer",
+        "Neidhöfer",
+        "Neidhoefer"
+      ],
+      "wikipedia": null
+    },
+    {
+      "name": "Johann Philipp Kirnberger",
+      "aliases": [
+        "Kirnberger"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Philipp_Kirnberger"
+    },
+    {
+      "name": "Johann Mattheson",
+      "aliases": [
+        "Mattheson"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Mattheson"
+    },
+    {
+      "name": "Friedrich Wilhelm Marpurg",
+      "aliases": [
+        "Marpurg"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Marpurg"
+    },
+    {
+      "name": "Georg Friedrich Händel",
+      "aliases": [
+        "George Frideric Handel",
+        "George Friderich Handel",
+        "Händel",
+        "Haendel",
+        "Handel"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Georg_Friedrich_H%C3%A4ndel"
+    },
+    {
+      "name": "Erwin Ratz",
+      "aliases": [
+        "Ratz"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Ratz"
+    },
+    {
+      "name": "Ludwig Czaczkes",
+      "aliases": [
+        "Czaczkes"
+      ],
+      "wikipedia": "https://en.wikipedia.org/wiki/Ludwig_Czaczkes"
+    },
+    {
+      "name": "Carl Heinrich Graun",
+      "aliases": [
+        "Karl Heinrich Graun",
+        "Graun"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Carl_Heinrich_Graun"
+    },
+    {
+      "name": "Jean-Philippe Rameau",
+      "aliases": [
+        "Rameau"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Jean-Philippe_Rameau"
+    },
+    {
+      "name": "Johann Pachelbel",
+      "aliases": [
+        "Pachelbel"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Pachelbel"
+    },
+    {
+      "name": "André Campra",
+      "aliases": [
+        "Andre Campra",
+        "Campra"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9_Campra"
+    },
+    {
+      "name": "Johann Caspar Ferdinand Fischer",
+      "aliases": [
+        "Johann Caspar Fischer",
+        "Fischer"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Caspar_Ferdinand_Fischer"
+    },
+    {
+      "name": "Bernardo Pasquini",
+      "aliases": [
+        "Pasquini"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Bernardo_Pasquini"
+    },
+    {
+      "name": "François Campion",
+      "aliases": [
+        "Francois Campion",
+        "Campion"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Fran%C3%A7ois_Campion"
+    },
+    {
+      "name": "Fedele Fenaroli",
+      "aliases": [
+        "Fenaroli"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Fedele_Fenaroli"
+    },
+    {
+      "name": "Johann David Heinichen",
+      "aliases": [
+        "Heinichen"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_David_Heinichen"
+    },
+    {
+      "name": "Francesco Gasparini",
+      "aliases": [
+        "Gasparini"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Francesco_Gasparini"
     }
   ],
   "sources": [
@@ -432,6 +634,13 @@ const ATLAS = {
       "title": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
       "group": "Lehrwerke",
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf"
+    },
+    {
+      "id": "green-jones2011",
+      "name": "Douglass M. Green und Evan Jones",
+      "title": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+      "group": "Lehrwerke",
+      "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650"
     },
     {
       "id": "hindemith-tonsatz1",
@@ -579,6 +788,13 @@ const ATLAS = {
       "title": "Das wohltemperierte Klavier, Teil II (Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig, 1866)",
       "group": "Partituren",
       "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf"
+    },
+    {
+      "id": "neidhoefer-schubert2023",
+      "name": "Christoph Neidhöfer und Peter Schubert",
+      "title": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+      "group": "Lehrwerke",
+      "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint"
     }
   ],
   "topics": [
@@ -651,6 +867,16 @@ const ATLAS = {
           "locator": "Teil I, Kap. III, § 28 C–D, S. 19 · mehrere aufeinanderfolgende Töne",
           "text": "Überbrücken drei Töne eine Septime oder None, muss eine der beiden Bewegungen ein Schritt sein. Bei der None zählt auch der Rhythmus. In Ganzen und Synkopen gilt sie als gut, in Halben als möglich. In Vierteln soll man sie möglichst meiden.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=2"
+        },
+        {
+          "locator": "Kap. 2.3, S. 20–21, Bsp. 2-5a und d, Beobachtung 8 · zwei Sprünge in derselben Richtung",
+          "text": "Zwei aufeinanderfolgende Sprünge in derselben Richtung dürfen einen Dur- oder Molldreiklang umreißen. Eine zweite Möglichkeit ist die Oktave mit der Quinte unten und der Quarte oben. Der kleinere der beiden Sprünge darf nicht der tiefer liegende sein. Vor und nach dem Doppelsprung soll die Melodie in Gegenrichtung gehen.",
+          "speciesScope": [],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
         }
       ],
       "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht.",
@@ -969,6 +1195,87 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 4.3, S. 40–42, Bsp. 4-9 bis 4-12 · erste Spezies, zweistimmig",
+          "text": "Setzen beide Stimmen zugleich ein, kommen Einklang, reine Quinte und Oktave in Betracht. Beginnt der oben liegende Cantus auf der Finalis, muss die Gegenstimme darunter ebenfalls die erste Stufe nehmen. Die fünfte Stufe ergäbe darunter eine Quarte. Nach einer Anfangspause kann dagegen auch die fünfte Stufe passen.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            1
+          ],
+          "comparison": "Schuberts Regel 4 lässt die Gegenstimme auch im Quintabstand unter dem Cantus beginnen. Green und Jones beschränken beim gemeinsamen Anfang außerdem den Stufenvorrat der beiden Stimmen.",
+          "comparisonSources": [
+            "schubert1999"
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 7, S. 75–77, Bsp. 7-1 bis 7-5 · zweite Spezies, zweistimmig",
+          "text": "Die Halbenstimme darf auf der Eins oder nach einer halben Pause einsetzen. Ihr erster klingender Ton ist die erste oder fünfte Stufe des Modus. Bei der Wahl der Lage sind die Konsonanzregeln des Zweistimmensatzes zu beachten.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            2
+          ],
+          "comparison": "Gallon und Bitsch verlangen im Zwei-gegen-eins die Anfangspause. Green und Jones lassen den gleichzeitigen Beginn ausdrücklich zu.",
+          "comparisonSources": [
+            "gallon-bitsch1964"
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 10.5, S. 124–125, Bsp. 10-12 und 10-13 · vierte Spezies, Cantus oben",
+          "text": "Im Beispiel müsste die Unterstimme auf der ersten Stufe einsetzen. Würde sie nach einer halben Pause diesen Ton gleich überbinden, entstünde beim nächsten Cantuston eine unbrauchbare Quarte. Deshalb beginnt sie auf der Eins, wechselt auf der zweiten Halben den Ton und bindet diesen neuen Ton über den Taktstrich.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            4
+          ],
+          "comparison": "Gallon und Bitsch schreiben für die synkopierte Halbenstimme die Anfangspause vor. Green und Jones zeigen hier einen Beginn auf der Eins, um die anschließende Bindung zu ermöglichen.",
+          "comparisonSources": [
+            "gallon-bitsch1964"
+          ],
+          "examples": [
+            "green-jones-einsatz-s4"
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 3.1, S. 25–26, Kommentar zu Bsp. 3-3 · Phrasenbeginn in Léonins Gaude Maria",
+          "text": "Im Organum Léonins kann bereits der erste Zusammenklang einer Phrase dissonieren. Für die beiden ersten Phrasen von Gaude Maria nennen Green und Jones eine kleine Septime und eine große None. Beide gehen unmittelbar in die Oktave. Der gedruckte Ausschnitt beginnt später im Stück.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "locator": "Kap. 17.5, S. 259–260 · Einsatzstufen in vier- und mehrstimmiger Imitation, Palestrina",
+          "text": "Bei imitierenden Einsätzen achten Green und Jones auf den Anfangston jeder einzelnen Stimme. Oft wechseln sich die Stufen 1 und 5 des Modus ab. In Palestrinas ionischer Missa Papae Marcelli beginnen die Stimmen dagegen auf d und g, den Stufen 2 und 5. Der Abstand der Einsatztöne allein sagt noch nicht, welches Intervall beim Eintritt der nächsten Stimme erklingt.",
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 6, S. 102, Hinweis 5 und Bsp. 6.7 · Eintritt nach einer Pause im strengen barocken Satz",
+          "text": "Eine Stimme soll nach einer Pause mit einem Ton der gerade geltenden Harmonie einsetzen. Eine andere Stimme darf gleichzeitig noch einen Vorhalt halten. Beim Einsatz muss also nicht jeder hörbare Abstand konsonant sein: Entscheidend ist, dass der neue Ton zur Harmonie gehört und die Dissonanz durch die bereits klingende Vorhaltsstimme entsteht."
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -994,7 +1301,8 @@ const ATLAS = {
       "related": [
         "sprung-zum-leitton",
         "kadenz-oberstimme",
-        "kadenzausweichung"
+        "kadenzausweichung",
+        "doppelleitton-kadenz"
       ],
       "authors": [
         {
@@ -1140,6 +1448,19 @@ const ATLAS = {
           "locator": "Teil I, Kap. IV, § 54, S. 30 · Quarte und verminderte Quinte im mehrstimmigen Satz",
           "text": "Eine reine oder übermäßige Quarte und eine verminderte Quinte können zwischen zwei Oberstimmen aus Akkordtönen bestehen. Über dem Bass entstehen sie im Regelfall durch melodische Zusatztöne. Für die verminderte Quinte gibt es ab vier Stimmen eine Ausnahme im vorletzten Takt, wenn der Leitton im Bass durch einen Vorhalt verzögert wird.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch4harmon.pdf#page=8"
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 41, Bsp. 4.4 · Bach, Fis-Dur-Fuge aus dem zweiten Wohltemperierten Klavier, T. 1–10",
+          "text": "In einem dünnen Satz kann ein scheinbar konsonanter Zweiklang einen Vorhalt enthalten. Das fis auf der Eins von T. 5 deutet das Buch nicht als Grundton einer Fis-Dur-Harmonie, sondern als vorbereiteten Vorhalt über einer mitgedachten Cis-Harmonie. Die Fortsetzung und die spätere vollständigere Fassung in T. 9 helfen, den Zweiklang zu verstehen.",
+          "examples": [
+            "neidhoefer-schubert-bach-vorhalt"
+          ]
         }
       ]
     },
@@ -1348,6 +1669,16 @@ const ATLAS = {
           "locator": "Teil I, Kap. III, §§ 26, 28 D, S. 18–19 · Taktübergang und Oktavsprung",
           "text": "Vor einem Sprung über den Taktstrich soll die Stimme ihre Richtung wechseln, besonders bei Vierteln. Für Quarte und Quinte gibt es seltene Ausnahmen. Die Oktave soll möglichst von beiden Seiten durch Gegenbewegung ausgeglichen werden.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch3melod.pdf#page=1"
+        },
+        {
+          "locator": "Kap. 2.2–2.3, S. 19–21, Bsp. 2-3 und 2-5, Beobachtungen 6–7 · einzelne Übungslinie",
+          "text": "Bei einer Terz, Quarte oder Quinte kann die Gegenbewegung den Sprung vorbereiten oder ihm folgen. Der Ausgleich darf auf mehrere Töne verteilt sein. Bei der aufsteigenden kleinen Sexte und bei Oktavsprüngen fordern die Autoren auf beiden Seiten Gegenbewegung. Die Töne unmittelbar vor und nach dem Sprung liegen dann innerhalb des übersprungenen Raums.",
+          "speciesScope": [],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
         }
       ]
     },
@@ -1571,6 +1902,16 @@ const ATLAS = {
           "locator": "Teil I, Kap. V, §§ 66–67, S. 35 · Durchgänge und Wechselnoten",
           "text": "Auf dem leichten Schlag oder der leichten Unterteilung erlauben die Autoren steigende und fallende Durchgänge sowie reguläre obere und untere Wechselnoten. Treffen sie mit bewegten Tönen anderer Stimmen zusammen, bevorzugen die Autoren Gegenbewegung.",
           "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/p1/ch5notEtrang.pdf#page=3"
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 49, Bsp. 4.14 · doppelte Wechselnote im strengen barocken Stil",
+          "text": "Bei der doppelten Wechselnote wird der Bezugston zwischen oberer und unterer Wechselnote ausgespart. Dadurch können zwei Dissonanzen unmittelbar aufeinanderfolgen und durch einen Sprung verbunden sein. Die Figur muss als zusammenhängende Verzierung ihrer zugrunde liegenden Harmonie gehört werden; sie erlaubt nicht beliebige Sprünge zwischen akkordfremden Tönen."
         }
       ]
     },
@@ -1720,6 +2061,29 @@ const ATLAS = {
           "speciesScope": [
             3,
             5
+          ]
+        },
+        {
+          "locator": "Kap. 18.4, S. 271–272, Bsp. 18-5 bis 18-7 · Durchgang und Appoggiatura im 17. Jahrhundert",
+          "text": "Ein Ton, der sich schrittweise auflöst, kann auch schrittweise erreicht worden sein. Ob man ihn als betonten Durchgang oder als Appoggiatura hört, hängt für Green und Jones von Betonung, Phrasierung und den benachbarten Figuren ab. In Bsp. 18-7 legen die Bögen und die Ähnlichkeit zweier Schläge das Hören als Appoggiatura nahe.",
+          "speciesScope": [],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 52, Bsp. 4.19 · Bach, Sinfonia Nr. 13, T. 1–4",
+          "text": "Eine notierte Eins muss nicht als schwerer Schlag gehört werden. In T. 2–3 von Bachs Sinfonia Nr. 13 bündeln die Autoren zwei Dreiachteltakte zu einer Hemiola mit drei Viertelschlägen. Das c im Sopran auf der notierten Eins von T. 3 liegt dadurch auf einer schwachen Unterteilung und ist ein Durchgang. Auch die unveränderte Harmonie über dem Taktstrich gehört noch zu demselben Viertelschlag.",
+          "examples": [
+            "neidhoefer-schubert-bach-hemiole"
           ]
         }
       ],
@@ -1943,6 +2307,39 @@ const ATLAS = {
             "prout1890"
           ],
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 55–57, bes. Bsp. 4.25 und 4.26 · Vorhaltsauflösung in einer „compound melody“",
+          "text": "In einer scheinpolyphonen Linie kann die tatsächlich gespielte Stimme vom Vorhalt in eine andere gedachte Stimme springen. Die eigentliche Vorhaltsstimme bleibt im Hören verbunden: Ihre korrekte Auflösung muss unmittelbar nach dem eingeschobenen Ton erscheinen. So ist ein Sprung im Vordergrund möglich, ohne die schrittweise Auflösung des Vorhalts aufzugeben.",
+          "examples": [
+            "neidhoefer-schubert-vorhalt-scheinpolyphonie"
+          ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 38–39, Bsp. 4.1/4.2 · Vorhalt und vorbereitete Akkordseptime",
+          "text": "Die Autoren unterscheiden Vorhalte, die sich über derselben Harmonie auflösen, von vorbereiteten Akkordseptimen, deren Auflösung mit einem Harmoniewechsel zusammenfällt. Fällt der Akkordgrundton eine Quinte, wird die abwärts geführte Septime zur Terz des nächsten Akkords. Steigt der Grundton eine Stufe, wird sie zu dessen Quinte. Die melodische Richtung bleibt in beiden Fällen dieselbe."
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 14, S. 329–331, Bsp. 14.19–14.21 · Kirnbergers übertragene Auflösung, freier Stil",
+          "text": "Bei der übertragenen Auflösung übernimmt eine andere Stimme die Akkordseptime und führt sie schrittweise abwärts. Die ursprüngliche Stimme kann inzwischen zu einem anderen Akkordton springen. In Kirnbergers Fassungen bleibt so die harmonische Auflösung erhalten, obwohl sie nicht mehr in derselben Linie liegt. Die zuletzt erklingende Septime wird unmittelbar aufgelöst; nötige Leittonauflösungen können in einer ergänzten Continuostimme liegen."
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -1991,7 +2388,8 @@ const ATLAS = {
       },
       "related": [
         "verdeckte-parallelen",
-        "generalbass-sextakkord"
+        "generalbass-sextakkord",
+        "doppelleitton-kadenz"
       ],
       "authors": [
         {
@@ -2102,6 +2500,66 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 7, S. 75–76, Bsp. 7-2 bis 7-4 · zweite Spezies, zwei Stimmen",
+          "text": "In Fux’ erster Lösung zu diesem Cantus fallen in T. 8–10 drei reine Quinten auf aufeinanderfolgende schwere Zeiten. Die dazwischenliegenden Halben verhindern den Eindruck der Parallelführung nicht. In der korrigierten Lösung beginnen T. 8 und 9 mit Sexten. Zugleich gewinnt die Oberstimme einen deutlicheren Gipfel.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            2
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 10.1, S. 118–119, Bsp. 10-3 bis 10-6 · vierte Spezies, zwei Stimmen",
+          "text": "Bei einer Kette dissonanter Vorhalte legen Green und Jones die Auflösungen frei. Ergeben sich dabei parallele Oktaven, ist die Kette fehlerhaft. Bei konsonanten Synkopen prüfen sie dagegen jeden Zusammenklang. Zwei Oktaven auf aufeinanderfolgenden schweren Zeiten sind möglich, wenn dazwischen eine Konsonanz steht. Auch reine Quinten können so auf schweren Zeiten wiederkehren.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            4
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 3.1, S. 24–25, Bsp. 3-1 (Musica enchiriadis), und Kap. 3.3, S. 29, Bsp. 3-7 (Orientis partibus) · mittelalterliche Mehrstimmigkeit",
+          "text": "Im frühen Organum kann die Zusatzstimme den Choral in parallelen Quarten oder Quinten begleiten. Auch im dreistimmigen Orientis partibus hören die Autoren parallele Quinten, Oktaven und Einklänge. Dort trägt die Quinte zudem die Anfänge und Schlüsse der Phrasen.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [],
+          "comparison": "Zarlino verwirft unmittelbar aufeinanderfolgende Einklänge, Quinten und Oktaven in gleichgerichteter Bewegung. Die Beispiele von Green und Jones zeigen, wie dieselbe Fortschreitung in einem mehrere Jahrhunderte älteren Satz eine tragende Rolle spielt.",
+          "comparisonSources": [
+            "zarlino1558"
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 8.2, S. 82, Bsp. 8-3 · zweite Spezies, drei Stimmen",
+          "text": "Im dreistimmigen Zwei-gegen-eins dürfen Quinten und Oktaven auf aufeinanderfolgenden schweren Zeiten stehen, wenn drei Bedingungen zusammenkommen: Der Zwischenton konsoniert; eine Mittelstimme ist an den Parallelen beteiligt; und die Halbenstimme geht in Gegenbewegung zu den Stimmen in ganzen Noten. Ein dissonanter Durchgang zwischen den schweren Zeiten genügt nicht.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            2
+          ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 3, S. 21 und 24–25, Methode 1 zu Übung 3-B · Fundamentalbass als Harmonieplan",
+          "text": "Im ersten Harmonisierungsentwurf dürfen zwischen Melodie und notiertem Fundamentalbass ausdrücklich parallele Quinten entstehen. Diese Bassnoten verzeichnen zunächst nur die Akkordgrundtöne. Erst anschließend wird eine wirkliche Basslinie mit geeigneten Umkehrungen geschrieben. Die erlaubten Parallelen betreffen also einen Zwischenschritt der Planung; für den ausgearbeiteten Satz gelten die Stimmführungsregeln."
         }
       ]
     },
@@ -2249,6 +2707,36 @@ const ATLAS = {
           ],
           "speciesScope": [
             1
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 4.2, S. 38–39, Bsp. 4-8 · erste Spezies, zweistimmig",
+          "text": "Die Hornquinte bildet eine Ausnahme von der Regel gegen gleichgerichtete Bewegung in eine reine Quinte. Beide Stimmen können aus einer Terz abwärts in die Quinte gehen, wenn die Oberstimme einen Schritt macht. Seltener gehen beide aus einer Sexte aufwärts in die Quinte, wiederum mit einem Schritt oben. Für Oktave und Einklang gilt diese Ausnahme nicht.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            1
+          ],
+          "comparison": "Schuberts erste Cantusaufgabe schließt gleichgerichtete Bewegung in eine vollkommene Konsonanz zunächst aus. Bei Green und Jones steht die Hornquinte bereits im Kapitel zur ersten Spezies.",
+          "comparisonSources": [
+            "schubert1999"
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "locator": "Kap. 17.8, S. 267, Bsp. 17-23 · fünfstimmiger Motettensatz bei Lassus",
+          "text": "In Lassus’ fünfstimmigem Resonet in laudibus weisen die Autoren auf direkte Quinten und Oktaven zwischen den Außenstimmen hin. Solche Zusammenklänge können auch entstehen, wenn beide Außenstimmen aufwärtsgehen. Maßgeblich für diesen Beleg ist die fünfstimmige Besetzung.",
+          "speciesScope": [],
+          "comparison": "Schubert schließt die gleichgerichtete Bewegung in eine vollkommene Konsonanz beim ersten Hinzufügen einer Stimme zum Cantus aus. Bei Green und Jones betrifft das Gegenbeispiel die Außenstimmen einer fünfstimmigen Motette.",
+          "comparisonSources": [
+            "schubert1999"
           ]
         }
       ]
@@ -2399,6 +2887,18 @@ const ATLAS = {
           "comparison": "Cherubini gestattet im Note-gegen-Note-Satz eine kurze Kreuzung, wenn sie die Melodie verbessert. Kennans Einstiegsaufgabe setzt hier die engere Grenze.",
           "comparisonSources": [
             "cherubini1854"
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 5.2, S. 49, Abschnitt „Spacing“, B · erste Spezies, dreistimmig",
+          "text": "In der dreistimmigen ersten Spezies dürfen sich die oberen Stimmen kreuzen. Dabei darf keine Stimme unter die Stimme geraten, die in dieser Phrase den Bass bildet. Mit „Bass“ meinen Green und Jones hier die Funktion der tiefsten Stimme, nicht zwingend die vokale Stimmlage Bass.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            1
           ]
         }
       ],
@@ -2598,7 +3098,8 @@ const ATLAS = {
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
       "related": [
         "doppelter-kontrapunkt",
-        "doppelchor-basslinien"
+        "doppelchor-basslinien",
+        "fuge-formanalyse"
       ],
       "readingSources": [
         "bellermann1901",
@@ -2635,7 +3136,8 @@ const ATLAS = {
       "related": [
         "cantus-firmus",
         "melodische-fortspinnung",
-        "motiv-ueber-cantus"
+        "motiv-ueber-cantus",
+        "fuge-formanalyse"
       ],
       "authors": [
         {
@@ -2705,6 +3207,23 @@ const ATLAS = {
           "catalogue": true,
           "locator": "Kap. 8, S. 107, Bsp. 8-7 (Zarlino) · Transposition zweier Motive",
           "text": "Schubert lässt die jeweils höchsten Töne in Zarlinos Oberstimme markieren. Die Einsätze zweier Motive in verschiedenen Tonlagen und ihre freien Verbindungen ergeben einen langen Anstieg, einen einzigen Gipfel und einen kurzen Abstieg. Der Bogen wird hörbar, wenn man die ganze Stimme singt."
+        },
+        {
+          "locator": "Kap. 2.2, S. 18–20, Bsp. 2-1 bis 2-3 · Fux’ Cantus firmus in d und Gegenbeispiele",
+          "text": "Im Cantus von Fux bereiten das f an zweiter und das g an fünfter Stelle den Anstieg zum a an siebter Stelle vor. Der anschließende schrittweise Abstieg macht den Gipfel auch im Rückblick hörbar. In Bsp. 2-3b hören Green und Jones den Schwerpunkt dagegen am tiefsten Ton d. Der früh erreichte Hochton gehört dort zu einer kreisenden Bewegung.",
+          "speciesScope": [],
+          "examples": [
+            "fux-cantus-d"
+          ],
+          "comparison": "Rothgeb verlangt für seine Cantusübung einen einmaligen Hochton. Green und Jones zeigen zusätzlich einen Cantus, dessen Tiefpunkt die Melodie gliedert.",
+          "comparisonSources": [
+            "rothgeb1998-cf"
+          ],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
         }
       ]
     },
@@ -2812,11 +3331,40 @@ const ATLAS = {
             "prout1890"
           ],
           "speciesScope": []
+        },
+        {
+          "locator": "Kap. 2.1, S. 17–18 · Akzidentien in der modalen Übung, mit Bsp. 1-8, S. 8",
+          "text": "Für eine Kadenz auf d, g oder a erhöhen Green und Jones die siebte Stufe, wenn sie als Leitton zur Finalis führt. Für den auf e notierten phrygischen Modus bleibt beim Schluss von unten das d unverändert. Diesen Ganztonschritt hört man am Ende der ersten Strophe von Pange lingua.",
+          "speciesScope": [],
+          "examples": [
+            "green-jones-pange-lingua"
+          ],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 15, S. 337–341, Bsp. 15.1–15.3 · aufsteigende und absteigende Chromatik nach Kirnberger",
+          "text": "Aufsteigende Chromatik ist im strengen Stil dieses Buchs möglich, wenn die hinzugefügten Leittöne aufgelöst werden. In Kirnbergers absteigender Folge wird ein solcher Leitton dagegen um einen chromatischen Halbton gesenkt und zur Septime des nächsten Akkords. Die erwartete Auflösung entfällt. Neidhöfer und Schubert ordnen dieses Verfahren deshalb dem freien Stil zu.",
+          "comparison": "Noël-Gallon und Bitsch verbieten in ihrer Kontrapunktübung den unmittelbaren chromatischen Schritt. Die Unterscheidung von strengem und freiem Stil bezeichnet bei Neidhöfer und Schubert eine andere, auf barocke Harmonik bezogene Aufgabe.",
+          "comparisonSources": [
+            "gallon-bitsch1964"
+          ]
         }
       ],
       "related": [
         "generalbass-ziffern-stufen",
-        "harmonik-enharmonische-spannung"
+        "harmonik-enharmonische-spannung",
+        "rezitationston-und-finalis",
+        "fuge-chromatische-antwort"
       ]
     },
     {
@@ -2955,6 +3503,22 @@ const ATLAS = {
             2,
             3
           ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 7, S. 75–77, Bsp. 7-1 und 7-7 · zweite Spezies, zweistimmig",
+          "text": "Eine dissonante leichte Halbe ist nur als Durchgang möglich. Sie wird von einer Konsonanz aus schrittweise erreicht und in derselben Richtung zur nächsten Konsonanz verlassen. Eine Wechselnote, die zum Ausgangston zurückführt, ist in dieser Aufgabe nur erlaubt, wenn sie selbst konsoniert.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            2
+          ],
+          "comparison": "Prout erlaubt auch die dissonante Wechselnote in der zweiten Spezies.",
+          "comparisonSources": [
+            "prout1890"
+          ]
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
@@ -3065,7 +3629,9 @@ const ATLAS = {
       "related": [
         "unterbrechung-s4",
         "dissonanzaufloesung",
-        "dauer-der-vorhaltsvorbereitung"
+        "dauer-der-vorhaltsvorbereitung",
+        "vorhalt-bewegte-begleitstimme",
+        "vorausnahme-und-vorhalt"
       ],
       "authors": [
         {
@@ -3148,6 +3714,44 @@ const ATLAS = {
           "speciesScope": [
             4
           ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 10.2–10.3, S. 120–121, Bsp. 10-7 und 10-8 · zweistimmige Vorhalte",
+          "text": "Liegt der Cantus oben, verwenden Green und Jones als dissonanten Vorhalt in der Unterstimme die Sekunde mit Auflösung in die Terz oder die oktavversetzte Form 9–10. Die in der Oberstimme brauchbaren Vorhalte ergeben bei vertauschten Stimmen also kein vollständiges Gegenstück.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            4
+          ],
+          "comparison": "Kennan lässt im tonalen Zweistimmensatz auch den Unterstimmenvorhalt 7–8 zu. Green und Jones schließen ihn aus ihrer Speziesaufgabe aus.",
+          "comparisonSources": [
+            "kennan1999"
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 11.3, S. 136–137, Bsp. 11-7 und 11-8 · vierte Spezies in drei oder mehr Stimmen",
+          "text": "Im dreistimmigen Satz kann die reine Quarte eines Sextquartklangs einen 4–3-Vorhalt vorbereiten. Der Bass beginnt vor der Quarte und hält über sie hinaus zwei ganze Takte. Die Quarte wird schrittweise erreicht und verlassen; die dritte Stimme geht unmittelbar nach ihrer Vorbereitung von der Sexte zur Quinte über dem Bass. Green und Jones nennen die zunächst mildere Quarte „consonant fourth“ (Con4). Eine übermäßige Quarte ist dafür zu scharf. In der Sonderform von Bsp. 11-8b fehlt die Sexte. Auch diese Quarte muss unmittelbar zum 4–3-Vorhalt mit begleitender Quinte werden.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            4
+          ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 41–42, Bsp. 4.5 · „fake suspension“ über einem Dominantbass",
+          "text": "Über einem länger gehaltenen Dominantbass kann die Quarte eines Quartsextklangs einen weiteren Vorhalt vorbereiten. Weil die Vorbereitung selbst keine gewöhnliche Konsonanz ist, nennen die Autoren die Figur „fake suspension“, auch „consonant fourth“. Im Beispiel geht ihr eine Dominante in Grundstellung voraus. Die Bezeichnung erklärt einen bestimmten harmonischen Zusammenhang, keine allgemeine Freigabe der Quarte."
         }
       ]
     },
@@ -3255,6 +3859,21 @@ const ATLAS = {
           ],
           "speciesScope": [
             4
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 10.3–10.4, S. 121–124, Bsp. 10-9a, 10-10 und 10-11b · zweistimmige Synkopenkette",
+          "text": "Für eine singbarere oder selbstständigere Linie darf die Bindung zugunsten ein oder zweier freier Halben aussetzen. Green und Jones prüfen Josephus’ Unterstimme auch ohne die Verzögerungen. In der Kette von 2–3-Vorhalten verfolgt sie den Cantus weitgehend in parallelen Terzen. Gerade eine regelgerechte Vorhaltsfolge kann also eine melodisch abhängige Gegenstimme verdecken.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            4
+          ],
+          "examples": [
+            "green-jones-fux-vorhaltskette"
           ]
         }
       ],
@@ -3445,6 +4064,16 @@ const ATLAS = {
           "speciesScope": [
             2
           ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 6.3, S. 62–63, Bsp. 6-8d · Unterterzkadenz und Vergleich mit Bsp. 3-7, S. 29",
+          "text": "Bei der Unterterzkadenz schiebt die Schlussstimme zwischen die siebte Stufe und den Zielton die sechste Stufe ein. Von dort springt sie eine Terz aufwärts zum Ziel. Der Name „Landini-Sexte“ greift für Green und Jones historisch zu kurz. Sie finden die Wendung schon am Ende des älteren Orientis partibus.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": []
         }
       ]
     },
@@ -3640,6 +4269,34 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "locator": "Vorwort, S. x–xi, und Kap. 2.1, S. 17 · Lehrgang und Reihenfolge der Übungen",
+          "text": "Green und Jones wechseln zwischen Schreibaufgaben am Cantus firmus und der Analyse ganzer Stücke. Nach Note gegen Note und Zwei-gegen-eins folgt die vierte Spezies mit ihren Bindungen. Das Vier-gegen-eins stellen sie zurück, bis die kleineren Notenwerte in der Musik von Palestrina, Lassus und Victoria untersucht werden.",
+          "speciesScope": [],
+          "comparison": "Benjamin übt die Zweistimmigkeit an Bachs Instrumentalmusik ohne strenge Speziesfolge. Green und Jones setzen die Spezies gezielt zur Vorbereitung auf das modale Repertoire ein.",
+          "comparisonSources": [
+            "benjamin1986"
+          ],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 1, S. 5, und Kap. 2, S. 9–10 · harmonischer Ausgangspunkt des Lehrgangs",
+          "text": "Neidhöfer und Schubert beginnen mit einer Harmoniefolge, deren Stimmen später melodisch ausgearbeitet werden. Den unmittelbaren Einstieg in die Zweistimmigkeit halten sie für Anfänger für zu schwierig. In den ersten dreizehn Kapiteln soll die zugrunde liegende Fortschreitung jederzeit benennbar bleiben. Erst im zweiten Teil des Buchs lockern sie diese Vorgabe.",
+          "comparison": "Kurth lässt zunächst die Bewegung einer einzelnen Linie hören. Neidhöfer und Schubert wählen für ihre Anfängerübungen den umgekehrten Ausgangspunkt: eine bereits geklärte Harmoniefolge.",
+          "comparisonSources": [
+            "kurth1917"
+          ]
         }
       ],
       "related": [
@@ -3711,6 +4368,36 @@ const ATLAS = {
           "text": "Kurth vergleicht die Lage derselben Quarte in zwei Akkorden. Im Sextakkord kann sie zwischen zwei Oberstimmen liegen, während die Terz den Dreiklang mitträgt. Im Quartsextakkord hört er den Akkordgrundton über dem Quintton im Bass. Aus dieser Lage erklärt er die Spannung, die dort zur Auflösung drängt.",
           "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf#page=101",
           "speciesScope": []
+        },
+        {
+          "locator": "Kap. 18.1, S. 268 · Textausdruck am Übergang zur Seconda pratica",
+          "text": "Green und Jones stellen zwei Vorstellungen vom Klang einer Dissonanz gegenüber. Bei Zarlino steigert ihre Rauheit den Reiz der folgenden Konsonanz. In Vincenzo Galileis Darstellung der neueren Vokalmusik kann gerade die hörbare Härte ein Wort ausdeuten. Damit ändert sich auch die metrische Platzierung, die für die gewünschte Wirkung in Frage kommt.",
+          "speciesScope": [],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 5, S. 74–76, Bsp. 5.9 · Bach, Kantate 21, erster Chor, T. 39–44",
+          "text": "Bei mehr als zwei Stimmen dürfen korrekt geführte Verzierungen zwischen den metrischen Grundschlägen deutlich aneinanderreiben. In der hier gestellten Aufgabe soll der Klang am Beginn des „step“ konsonieren, Vorhalte ausgenommen. Dazwischen trägt die nachvollziehbare Richtung jeder einzelnen Linie auch mehrere gleichzeitige Dissonanzen. Parallele Sekunden sollen wegen ihrer schlechten Singbarkeit dennoch vermieden werden."
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 14, S. 325, Bsp. 14.14 · Bach, h-Moll-Fuge BWV 869, T. 5, verglichen mit T. 10",
+          "text": "Die Quinte a–e am Anfang von Takt 5 der h-Moll-Fuge beweist für Neidhöfer und Schubert keinen A-Dur-Akkord. Sie vergleichen die Stelle mit der späteren dreistimmigen Wiederkehr in Takt 10. Dort wird der entsprechende Basston e als Appoggiatura über dem Grundton h hörbar. So lässt sich auch das frühere a als akkordfremder Ton auffassen, obwohl der zweistimmige Zusammenklang konsoniert."
         }
       ]
     },
@@ -3739,7 +4426,8 @@ const ATLAS = {
         "kadenz-oberstimme",
         "kadenz-unterstimme",
         "kadenzausweichung",
-        "imitierendes-duo-kadenz"
+        "imitierendes-duo-kadenz",
+        "kadenz-schlussdehnung"
       ],
       "authors": [
         {
@@ -3798,6 +4486,26 @@ const ATLAS = {
           "examples": [
             "schubert-kadenzausweichung"
           ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "locator": "Kap. 16.2, S. 221–223, Bsp. 16-2c–e und 16-3e · dreistimmige Binnenkadenzen",
+          "text": "An einer Binnenkadenz kann eine Stimme pausieren, während die anderen den Zielklang erreichen. Green und Jones nennen das eine „hocket cadence“. Davon unterscheiden sie die vollklingende Variante, in der die zweite Stufe zur dritten weitergeht. Palestrinas Bsp. 16-3e verbindet beides. Der Bass setzt aus, die Oberstimme geht zur Terz.",
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 13, S. 291–295, Bsp. 13.2 und 13.5 · Bach, b-Moll-Fuge WTK I, T. 23–26 und 51–56",
+          "text": "Die Autoren unterscheiden formale und untergeordnete authentische Kadenzen nach ihrem Zusammenhang mit den Motiven. Eine formale Kadenz unterbricht deren Fortgang und gliedert den Satz. Eine untergeordnete Kadenz liegt innerhalb eines weiterlaufenden Themas oder einer Sequenz. In Bachs b-Moll-Fuge vergleichen sie eine Kadenz vor dem neuen Themeneinsatz mit einer, in die bereits ein vollständiger Themeneinsatz hineinragt.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": []
         }
       ]
     },
@@ -3893,13 +4601,35 @@ const ATLAS = {
             "foerster1818"
           ],
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 2, S. 9–10 · Mattheson, Kirnberger, Marpurg und Rameau im Vergleich",
+          "text": "Die Autoren stellen einen historischen Streit gegenüber: Mattheson gibt der erfundenen Melodie den Vorrang; Kirnberger betrachtet die Akkordfolge als Grundlage der einzelnen Stimmen. Mit Marpurg und Rameau bevorzugen Neidhöfer und Schubert schließlich ein gleichzeitiges Denken beider Seiten. Auch wenn eine Stimme zuerst notiert wird, soll ihre Fortsetzung die Möglichkeiten der anderen bereits berücksichtigen."
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 6, S. 100–101, Bsp. 6.5a–c · vollständige Akkorde im dreistimmigen Satz",
+          "text": "In drei Stimmen sollen möglichst alle Dreiklangstöne vorkommen; die Terz hat Vorrang vor der Quinte. Das Buch stellt diesem Ziel aber Matthesons Vergleich dreier Fassungen gegenüber. Die Fassung mit erzwungen vollständigen Akkorden hat eine schlechte Mittelstimme. Am besten gefällt ihm die melodisch überzeugende Fassung, obwohl nur ein Akkord vollständig ist."
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
       "related": [
         "harmonischer-rhythmus",
         "generalbass-ziffern-stufen",
-        "harmonik-enharmonische-spannung"
+        "harmonik-enharmonische-spannung",
+        "generalbass-oktavregel",
+        "fugenthema-und-kontrasubjekt-erfinden"
       ],
       "readingSources": [
         "prout1890",
@@ -4143,6 +4873,16 @@ const ATLAS = {
           "speciesScope": [
             3
           ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 15.1, S. 198–199, Bsp. 15-10 und 15-11 · zweistimmiger modaler Vokalsatz des späten 16. Jahrhunderts",
+          "text": "In der rhythmisch ungleichen Cambiata folgt auf die punktierte Viertel eine Achtel, die im Terzsprung abwärts verlassen wird. Diese Achtel kann konsonieren oder dissonieren. Der erste und der dritte Ton der Figur müssen konsonieren. Bei der punktierten Viertel ist auch der zweite Zusammenklang während ihrer Dauer zu prüfen. Andernfalls hört man einen 7–6-Vorhalt in verkürzten Werten.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -4254,6 +4994,18 @@ const ATLAS = {
             2,
             3,
             4
+          ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 5.2, S. 48, Abschnitt „Vertical Sonorities“, B · erste Spezies, dreistimmig",
+          "text": "In der dreistimmigen ersten Spezies dürfen zwei Stimmen auch innerhalb der Phrase einen Einklang bilden. Die dritte Stimme ermöglicht weiterhin einen volleren Zusammenklang. Alle drei Stimmen dürfen jedoch nur am Anfang oder Ende einer Phrase dieselbe Tonklasse singen, auch wenn sie auf verschiedene Oktaven verteilt ist.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            1
           ]
         }
       ]
@@ -4431,7 +5183,8 @@ const ATLAS = {
       "related": [
         "fuge-quintsprung",
         "fuge-antwortintervall",
-        "fuge-modulierendes-thema"
+        "fuge-modulierendes-thema",
+        "fuge-chromatische-antwort"
       ],
       "authors": [
         {
@@ -4503,6 +5256,29 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 10, S. 200–201, Abschnitte „Writing Tonal Answers“ und „When to Use Real Answer“ · Wahl der Antwort",
+          "text": "Die Autoren betonen, dass grundsätzlich jedes Thema real beantwortet werden kann. Für ihre Übungen zur tonalen Antwort wählen sie Themen mit einem deutlichen Gegensatz zwischen Tonika und Dominante im Themenkopf. Erscheint die fünfte Stufe erst später, empfiehlt sich häufig eine reale Antwort. Auch bei den Übungsaufgaben kann mehr als eine Lösung sinnvoll sein.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 10, S. 208–210, Bsp. 10.20 · Graun, Christus hat uns ein Vorbild gelassen",
+          "text": "Die Zuordnung zur Tonika- oder Dominantskala erklärt zunächst die melodische Veränderung der Antwort. Die klingenden Harmonien prüfen Neidhöfer und Schubert gesondert. In Grauns Christus hat uns ein Vorbild gelassen tritt die Antwort noch innerhalb einer Fortschreitung in der Tonikatonart ein. Der dritte Einsatz beginnt dagegen mit der ersten Stufe der Tonikaskala in einem Sextakkord der VII. Stufe der Dominanttonart.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "examples": [
+            "neidhoefer-schubert-graun-tonale-antwort"
+          ]
         }
       ],
       "readingSources": [
@@ -4562,6 +5338,16 @@ const ATLAS = {
           "examples": [
             "bach-wtk1-846-antwort"
           ],
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 10, S. 211, Bsp. 10.23 · Pasquini, Partimento mit tonaler Antwort in der Subdominante",
+          "text": "Pasquinis Partimento beantwortet das Thema in der Subdominante. Auch dabei wird die Melodie tonal angepasst: Eine schrittweise ausgefüllte Quarte im Thema entspricht einer ausgefüllten Quinte in der Antwort. Die Wahl der Antworttonart und die Veränderung einzelner melodischer Intervalle müssen deshalb getrennt geprüft werden.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
           "speciesScope": []
         }
       ],
@@ -4650,7 +5436,8 @@ const ATLAS = {
       "related": [
         "fuge-reale-tonale-antwort",
         "fuge-quintsprung",
-        "fuge-wechselnde-antwort"
+        "fuge-wechselnde-antwort",
+        "fuge-chromatische-antwort"
       ],
       "authors": [
         {
@@ -4734,6 +5521,16 @@ const ATLAS = {
             "fuge-prout-zwei-antworten"
           ],
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 17, S. 413–414, Bsp. 17.28a–b · Bach, dis-Moll-Fuge BWV 853, T. 1–4 und 52–53",
+          "text": "Spätere Themeneinsätze müssen nicht vollständig der ersten Themen- oder Antwortfassung entsprechen. In Bachs dis-Moll-Fuge nennen die Autoren die Engführungsfassungen in Takt 52–53 hybrid: Den ersten Wechsel zwischen Tonika- und Dominantskala übernehmen sie aus der Antwort, den zweiten aus dem Thema. Die einzelne Fassung verbindet also Merkmale beider Ausgangsformen."
         }
       ],
       "readingSources": [
@@ -4758,7 +5555,8 @@ const ATLAS = {
       "related": [
         "fuge-engfuehrung",
         "fuge-kontrasubjekt",
-        "fuge-exposition"
+        "fuge-exposition",
+        "fuge-scheineinsatz"
       ],
       "authors": [
         {
@@ -4824,7 +5622,8 @@ const ATLAS = {
         "fuge-zwischenspiel",
         "doppelter-kontrapunkt",
         "fuge-doppelfuge",
-        "invention-gegenmotiv"
+        "invention-gegenmotiv",
+        "fugenthema-und-kontrasubjekt-erfinden"
       ],
       "authors": [
         {
@@ -4926,6 +5725,26 @@ const ATLAS = {
             "gedalge1901"
           ],
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 10, S. 202–204, Bsp. 10.14–10.16 · Bach, C-Dur-Ouvertüre, Beginn der Fuge",
+          "text": "Bei einer tonalen Antwort kann auch das wiederkehrende Kontrasubjekt eine veränderte Antwortform benötigen. Beide Veränderungen müssen nicht gleichzeitig geschehen. Am Beginn von Bachs C-Dur-Ouvertürenfuge liegt die Anpassung in der Gegenstimme drei Sechzehntel vor derjenigen in der Antwort. Dadurch bleibt ihre Bewegung flüssig. Beginnt eine Gegenstimme erst nach der veränderten Stelle des Themas, kann eine bloße Transposition genügen.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 18, S. 436–438, Bsp. 18.8c–d und 18.9 · Bach, As-Dur-Fuge BWV 886, T. 6–8 und 37–39",
+          "text": "In der As-Dur-Fuge verschiebt Bach das Thema in Takt 37 um eine Viertelnote gegenüber der chromatischen Gegenstimme. Nun entsteht eine klarere Quintfallfolge; dafür fällt die tonale Ankunft auf eine leichte Zeit. Die frühere, auch im Detail abweichende Fassung in Takt 6–8 erreicht ihr Ziel auf schwerer Zeit und erhält ihre harmonische Klarheit erst durch die dritte Stimme. Auch der zeitliche Abstand gehört damit zur Gestalt eines Themenpaars."
         }
       ],
       "readingSources": [
@@ -4953,7 +5772,8 @@ const ATLAS = {
         "fuge-zwischenspiel",
         "fuge-doppelfuge",
         "invention-einsatzplan",
-        "fuge-schlussrueckkehr"
+        "fuge-schlussrueckkehr",
+        "fuge-scheineinsatz"
       ],
       "authors": [
         {
@@ -5017,6 +5837,33 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 11, S. 214–215, Abschnitt „The Exposition“ · Themengruppen und Stimmenzahl",
+          "text": "Für ihre Analyse sprechen Neidhöfer und Schubert von Themengruppen, die einen oder beliebig viele Einsätze enthalten können. Die Stimmenzahl legt deren Ende nicht fest. Manche Fugen bestehen fast vollständig aus solchen thematischen Abschnitten. An Fischers Ariadne-Musica-Fuge Nr. 20 zeigen sie, wie fortlaufende Einsätze auch ohne Episoden einen ganzen Satz tragen.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "comparison": "Gédalges Mindestzahl von vier Einsätzen gilt für seine Schulfuge. Neidhöfer und Schubert wählen für die Analyse vorhandener Musik einen Gruppenbegriff, dessen Umfang nicht an eine feste Zahl gebunden ist.",
+          "comparisonSources": [
+            "gedalge1901"
+          ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 9, S. 175–177, Bsp. 9.15 · Bach, C-Dur-Fuge WTK I, T. 1–6, Stimmenfolge ASTB",
+          "text": "Die Einsatzfolge hängt auch mit den Tonumfängen zusammen. In Bachs C-Dur-Fuge folgen auf den Alt der Sopran und der Tenor mit derselben Antwort auf g. So liegt die Melodie in beiden Stimmen an einer vergleichbaren Stelle ihres Registers. Das g hat dabei verschiedene harmonische Funktionen: Beim Sopraneinsatz ist es Quinte eines Tonikadreiklangs, beim Tenoreinsatz Grundton. Erst der Bass bringt wieder die Themenform auf c.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "examples": [
+            "bach-wtk1-846-antwort"
+          ]
         }
       ],
       "readingSources": [
@@ -5141,7 +5988,10 @@ const ATLAS = {
         "fuge-exposition",
         "fuge-kontrasubjekt",
         "fuge-gegenexposition",
-        "melodische-fortspinnung"
+        "melodische-fortspinnung",
+        "sequenzmodell",
+        "fuge-scheineinsatz",
+        "fuge-formanalyse"
       ],
       "authors": [
         {
@@ -5226,6 +6076,33 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 11, S. 224–225, Bsp. 11.2a–b · Händel, And with His Stripes, Verbindung zwischen den Einsätzen",
+          "text": "Eine kurze Verbindung kann den nächsten Themeneinsatz verzögern, obwohl die Harmonie ihn schon früher zuließe. Für solche Stellen verwenden die Autoren den Ausdruck „unnecessary transition“. Bei Händel würde das Weglassen dieser Verbindungen regelmäßigere Einsatzabstände erzeugen. Die Verbindung hat also eine rhythmische, motivische oder registrale Aufgabe. Ob sie harmonisch nötig ist, prüfen die Autoren am tatsächlich folgenden Einsatz.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "comparison": "Prout unterscheidet Codetta und Episode nach ihrer Stellung im Fugenverlauf. Neidhöfer und Schubert untersuchen hier zusätzlich, ob die Verbindung den folgenden Einsatz harmonisch erst ermöglicht oder dessen Zeitpunkt verändert.",
+          "comparisonSources": [
+            "prout1891"
+          ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 13, S. 299, Abschnitt „Sequence to theme group“ · Bach, c-Moll-Fuge WTK I, T. 9–12",
+          "text": "Das letzte Glied einer Sequenz kann zugleich den nächsten vollständigen Themeneinsatz eröffnen. In Bachs c-Moll-Fuge wandert der Themenkopf im Zwischenspiel zwischen den Oberstimmen. In T. 11 wächst die zunächst vertraute Figur im Sopran zu einem vollständigen Einsatz in Es-Dur weiter. Beim Hören erkennt man erst durch die Fortsetzung, dass das Sequenzglied zugleich ein Themenanfang war.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "examples": [
+            "bach-wtk1-847-episode"
+          ]
         }
       ],
       "readingSources": [
@@ -5329,6 +6206,16 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 18, S. 428–432, Bsp. 18.1–18.2, und S. 435–436 · Mattheson, Einsatzabstände und harmonische Prüfung",
+          "text": "Für ein gegebenes Thema prüfen die Autoren Einsatzabstand und Einsatzhöhe getrennt. Eine Verbindung kann richtige Stimmführung haben und dennoch eine wenig überzeugende Harmoniefolge nahelegen. Auch reine Quarten zwischen zwei Themenstimmen können erst durch einen ergänzten Bass verständlich werden. Mattheson verändert in einer Fassung den Themaschluss, damit beim engeren Einsatz keine parallelen Oktaven entstehen."
         }
       ],
       "readingSources": [
@@ -5356,7 +6243,9 @@ const ATLAS = {
         "betonte-dissonanz",
         "generalbass-sextakkord",
         "drei-gegen-eins",
-        "passacaglia-chaconne"
+        "passacaglia-chaconne",
+        "generalbass-oktavregel",
+        "sequenzmodell"
       ],
       "authors": [
         {
@@ -5421,6 +6310,26 @@ const ATLAS = {
           "speciesScope": [
             3
           ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 3, S. 21–22, und Kap. 4, S. 37 · „step“ und schwache Unterteilungen",
+          "text": "Als „step“ bezeichnen die Autoren den kleinsten Zeitwert, auf dem die Harmonie wechseln darf. Das kann je nach Aufgabe eine Halbe, eine Viertel oder eine punktierte Viertel sein. Eine Harmonie kann mehrere solcher Schritte dauern. Dissonante Verzierungen werden relativ zu diesem Puls beurteilt. Für die frühen Harmonisierungsübungen verlangen sie außerdem einen Harmoniewechsel vom schwachen Schlag zur folgenden Eins; am Phrasenanfang ist eine Wiederholung derselben Harmonie möglich."
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 12, S. 270–272, besonders Bsp. 12.28 · Bach, Invention a-Moll, T. 1–6",
+          "text": "Zwei aufeinanderfolgende Sequenzen können die harmonische Bewegung beschleunigen. In Bachs a-Moll-Invention wechselt die Harmonie in T. 3–4 in Halben, in T. 5–6 dagegen in Vierteln. Die zweite Sequenz führt zur Kadenz in der Paralleltonart. Für die Beschleunigung zählen die Autoren die Harmoniewechsel; die bewegten Notenfiguren allein zeigen deren Tempo nicht zuverlässig.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -5505,6 +6414,36 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 6.2, S. 58–59 und 61–62, Bsp. 6-4 und 6-7 · Hoquetus in der Rota und in der Chace",
+          "text": "Beim Hoquetus wechseln kurze Tongruppen und Pausen zwischen den Stimmen. In der dreistimmigen Rota Talens m’est pris füllen Kuckucksrufe einer Stimme die Pausen einer anderen. In der Chace Se je chant’ mains macht dieselbe Technik die einander zugerufenen Jagdrufe hörbar.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "locator": "Kap. 16.1, S. 219–220, Bsp. 16-1 · dreistimmiges Benedictus aus Lassus’ Missa pro defunctis",
+          "text": "Wo eine Stimme hält oder pausiert, kann eine andere die Bewegung übernehmen. In den markierten Abschnitten des Benedictus bewegen sich Außenstimmen im gleichen Rhythmus in Terzen. Obwohl drei Stimmen singen, hört man dort zwei rhythmisch selbstständige Schichten. Dem Außenstimmenpaar steht die Mittelstimme gegenüber.",
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 6, S. 101–102, Hinweise 3–4 und Bsp. 6.5d/6.6 · drei Stimmen und metrische Orientierung",
+          "text": "Wenn eine Stimme durch Bindungen den Puls verdeckt, muss eine andere ihn hörbar machen. Bei einem Vorhalt sollen deshalb nicht auch beide übrigen Stimmen zugleich synkopieren. Mit Mattheson unterscheiden die Autoren außerdem die Rollen der Stimmen: Gemeinsamer Rhythmus der beiden Oberstimmen lässt den Bass eher als Begleitung wirken; rhythmische Gemeinsamkeit der unteren Stimmen kann sein Gegengewicht zur Oberstimme stärken."
         }
       ],
       "readingSources": [
@@ -5533,7 +6472,11 @@ const ATLAS = {
         "stimmkreuzung",
         "kanon-verfahren",
         "fuge-doppelfuge",
-        "kanon-stimmtausch"
+        "kanon-stimmtausch",
+        "stimmtausch-motette",
+        "imitation-stimmenpaare",
+        "fugenthema-und-kontrasubjekt-erfinden",
+        "spiegelumkehr-stimmenpaar"
       ],
       "authors": [
         {
@@ -5595,6 +6538,26 @@ const ATLAS = {
           "speciesScope": [
             2
           ]
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 17.6, S. 263, Bsp. 17-19 · Lassus, Confortamini et jam; Vergleich mit Kap. 3.2, S. 26–28",
+          "text": "In Lassus’ Confortamini et jam erscheinen die beiden Gedanken zunächst in Tenor und Altus, danach in Sopran und Bass mit vertauschter Höhenlage. Entscheidend ist für Green und Jones, dass eine zuvor obere Linie nun als Bass funktionieren kann. Beim zuvor behandelten Stimmtausch in Alle, psallite bleiben die getauschten Linien dagegen Oberstimmen über einem weiteren Bass.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 16, S. 364–368, besonders Bsp. 16.2a–c · Vertauschung in der Dezime und Harmonie",
+          "text": "Bei der Oktavvertauschung bleiben die Tonklassen erhalten. Bei einer Vertauschung in der Dezime kann dagegen eine neue Harmoniefolge entstehen. In Marpurgs Bsp. 16.2 werden Quarten zu Septimen; die ergänzte Stimme macht aus denselben Linien eine andere Folge von Akkordgrundtönen. Die Autoren prüfen deshalb auch nach dem Lagentausch, welche Harmonie die neue Kombination trägt."
         }
       ],
       "readingSources": [
@@ -5625,7 +6588,8 @@ const ATLAS = {
         "kanon-spiralkanon",
         "imitierendes-duo-kadenz",
         "kanon-stimmtausch",
-        "choral-vorimitation"
+        "choral-vorimitation",
+        "imitation-stimmenpaare"
       ],
       "authors": [
         {
@@ -5702,7 +6666,8 @@ const ATLAS = {
         "cantus-firmus",
         "rhythmische-selbststaendigkeit",
         "dichte-s5",
-        "grundrahmen"
+        "grundrahmen",
+        "vorhalt-bewegte-begleitstimme"
       ],
       "comparisons": [],
       "authors": [
@@ -5819,7 +6784,8 @@ const ATLAS = {
         "rhythmische-selbststaendigkeit",
         "fuge-engfuehrung",
         "doppelter-kontrapunkt",
-        "kanon-spiralkanon"
+        "kanon-spiralkanon",
+        "spiegelumkehr-stimmenpaar"
       ],
       "comparisons": [],
       "authors": [
@@ -5848,6 +6814,46 @@ const ATLAS = {
             "piston-bach-contrapunctus-vii"
           ],
           "speciesScope": []
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 6.2, S. 60–61, Bsp. 6-6 · Nahtstelle der Teile A und B in Machauts Rondeau Ma fin est mon commencement",
+          "text": "Machaut gewinnt Teil B aus Teil A. Die beiden Oberstimmen tauschen ihr Material und lesen es rückwärts. Der Contratenor durchläuft seine eigene Linie im Krebs. Green und Jones nennen das einen Kanon, weil eine Lesevorschrift die Stimmen bestimmt. Ein späterer Einsatz mit demselben Themenkopf ist dafür nicht erforderlich.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 9.6, S. 113–116, besonders S. 114, Bsp. 9-13 · Ockeghem, Missa Prolationum, Osanna",
+          "text": "Im Osanna aus Ockeghems Missa Prolationum beginnen die Stimmen gemeinsam. Unterschiedliche Mensuren lassen die langen Anfangsnoten eines Stimmenpaars verschieden lange dauern; so entsteht erst im Verlauf ein zeitlicher Abstand. Mit kleineren und kolorierten, also geschwärzten Notenwerten gehen die Stimmen danach zu gleichen Dauern über. Der gewonnene Abstand ermöglicht nun das Verhältnis von führender und folgender Stimme.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 2, S. 10–16, Bsp. 2.1–2.3 · Kanon aus einer Harmoniefolge",
+          "text": "Nach Rameaus und Marpurgs Verfahren lässt sich zuerst eine kurze mehrstimmige Harmoniefolge schreiben. Ihre einzelnen Stimmen werden dann nacheinander zu einer langen Melodie verbunden. Setzen mehrere Sänger mit dem Abstand einer solchen Teilstrecke ein, erklingt die ursprüngliche Folge als Kanon. Die schwierigste Arbeit bleibt, die Enden der Teilstrecken zu einer überzeugenden Melodie zu verbinden."
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 19, S. 444–445, Bsp. 19.3 · Handel, Messiah, „Let all the angels of God worship Him“, T. 1–8",
+          "text": "Vergrößerung und Verkleinerung beschreiben ein Verhältnis zweier Fassungen. In Händels Messias erklingt derselbe Gedanke gleichzeitig mit verschiedenen Dauern. Die Autoren fragen ausdrücklich, welche Fassung als Thema und welche als Kontrasubjekt gelten soll. Wer die langsamere Linie als Ausgangspunkt nimmt, hört Diminution; wer die schnellere wählt, hört Augmentation."
         }
       ],
       "readingSources": [
@@ -5923,7 +6929,8 @@ const ATLAS = {
       "related": [
         "generalbass-sextakkord",
         "generalbass-transponieren",
-        "harmonik"
+        "harmonik",
+        "generalbass-oktavregel"
       ],
       "authors": [
         {
@@ -6094,7 +7101,8 @@ const ATLAS = {
       "related": [
         "generalbass-ziffern-stufen",
         "generalbass-stimmenzahl",
-        "chromatik"
+        "chromatik",
+        "generalbass-oktavregel"
       ],
       "authors": [
         {
@@ -6171,6 +7179,16 @@ const ATLAS = {
           "examples": [
             "benjamin-bach-bourree"
           ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 55–56, Bsp. 4.24a–c · „compound melody“ und Arpeggierung",
+          "text": "Bei einer Arpeggierung springt die Linie zwischen Tönen derselben Harmonie. In einer „compound melody“ kann sie dagegen über einen Harmoniewechsel hinweg von einer gedachten Stimme in eine andere wechseln. So entstehen auch große Sprünge, etwa Septimen. Schreibt man die gedachten Stimmen getrennt auf, muss ihre Stimmführung weiterhin schlüssig sein."
         }
       ],
       "readingSources": []
@@ -6244,7 +7262,8 @@ const ATLAS = {
         "hoehepunkt",
         "fuge-zwischenspiel",
         "fuge-themenende",
-        "invention-gegenmotiv"
+        "invention-gegenmotiv",
+        "sequenzmodell"
       ],
       "authors": [
         {
@@ -6512,6 +7531,16 @@ const ATLAS = {
           "text": "Prout lässt für das neu auftretende Thema auch die Bezeichnung Kontrasubjekt gelten. Er hebt hervor, dass es ab Takt 61 eine eigene Exposition erhält. In Takt 97 verfolgt er das erste Thema im Bass und das zweite im Alt.",
           "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf#page=83",
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 11, S. 216–218, Bsp. 11.2a, S. 219–223 · drei Präsentationsweisen, Händel, And with His Stripes",
+          "text": "Die Autoren unterscheiden drei Verwendungen von „Doppelfuge“: eine Fuge mit wiederkehrendem Kontrasubjekt, ein von Anfang an gemeinsam vorgestelltes Themenpaar und eine Fuge mit einem später hinzutretenden Thema, das schließlich mit dem ersten kombiniert wird. Händels And with His Stripes gehört bei ihnen zum ersten Typ. Die wiederkehrende Gegenstimme erhält dort ein dem Thema vergleichbares Gewicht.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -6572,7 +7601,8 @@ const ATLAS = {
       "related": [
         "cantus-firmus",
         "melodische-intervalle",
-        "kadenz"
+        "kadenz",
+        "rezitationston-und-finalis"
       ],
       "authors": [
         {
@@ -6586,6 +7616,19 @@ const ATLAS = {
           "examples": [
             "schubert-tigrini-ambitus"
           ]
+        },
+        {
+          "locator": "Kap. 1.1 und 1.3, S. 1–2 und 4–8, Bsp. 1-1, 1-8 und 1-9 · einstimmige Melodien",
+          "text": "Der Hymnus Pange lingua und die Antiphon Laus Deo Patri schließen beide auf e. Green und Jones ordnen den Hymnus dem authentischen dritten Modus zu, die Antiphon dem plagalen vierten. In der plagalen Lage umfasst die Melodie auch den Raum unter der Finalis. Zum Vergleich singen die Lernenden beide Melodien von derselben Finalis aus.",
+          "speciesScope": [],
+          "examples": [
+            "green-jones-pange-lingua"
+          ],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
         }
       ],
       "reading": "Singe jede Stimme für sich. Wo liegt ihr Schlusston im Verhältnis zu ihrem tiefsten und ihrem höchsten Ton?",
@@ -6733,6 +7776,16 @@ const ATLAS = {
           "text": "Zarlino zeigt zunächst eine Wiederholung mit denselben Zusammenklängen, Bewegungen und Tonstufen. Obwohl die Stelle konsonant ist, wird sie für ihn eintönig. Dieselbe melodische Wendung darf mehrfach wiederkehren, wenn die andere Stimme den gemeinsamen Satz verändert.",
           "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html#ch355",
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 5, S. 78–79, Bsp. 5.13/5.14, und S. 82–83, Bsp. 5.21/5.22 · Motive im Choralvorspiel",
+          "text": "Ein wiederkehrendes Motiv muss nicht jedes Mal mit denselben Randtönen erscheinen. Bei Bach bleibt sein Kern erkennbar, während Anfangs- oder Schlusstöne an die Harmonie angepasst werden. Wird der Choral in längere Werte gedehnt, passen mehrere Motive unter einen Cantuston. In Pachelbels Durch Adams Fall ist sogar ein Begleitmotiv vergrößert; während dieses Motivs wechselt die Harmonie."
         }
       ],
       "reading": "Singe zuerst die wiederkehrende Oberstimme, dann den Bass dazu. Haben sich Tonlage, Rhythmus oder die Intervalle zwischen beiden Stimmen verändert?",
@@ -6765,6 +7818,16 @@ const ATLAS = {
           "catalogue": true,
           "locator": "Kap. 20, S. 295–296, „Text and Form“ und „Countersubject as Soggetto“, Bsp. 20-1 (Zarlino)",
           "text": "Eine neue Textzeile erhält häufig einen neuen melodischen Gedanken, ein Soggetto. Schubert nennt auch französische Chansons, in denen neuer Text auf bereits gehörte Musik trifft. Ein Mittelweg lässt sich in Zarlinos Beispiel verfolgen. Die Gegenstimme eines Abschnitts wird zum Soggetto des folgenden."
+        },
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "locator": "Kap. 16.3, S. 225–226, mit den Benedictus-Sätzen von Lassus und Palestrina, S. 214–218 · Text und Imitation",
+          "text": "In Palestrinas Benedictus aus der Missa de feria bindet schon ein kurzer Textabschnitt mehrere Motive. „Benedictus“ hat seine wiederkehrende Gestalt, die Silben „qui ve-“ erhalten regelmäßig eine eigene. Wer in jeder Stimme denselben Text aufsucht, kann die motivischen Einsätze auch innerhalb einer Textzeile erkennen.",
+          "speciesScope": []
         }
       ]
     },
@@ -6826,6 +7889,30 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "locator": "Kap. 18.6, S. 279–280, Übung 18.1, Aufgaben 2–7 · kontinuierliche Variationen für Instrumente",
+          "text": "Die Kompositionsaufgabe beginnt mit einem viertaktigen bis achttaktigen Bass im Dreiertakt. Auch wenn dessen Töne später wechseln, kann seine Harmoniefolge die Variationen zusammenhalten. Für die Chaconne soll in den Oberstimmen häufig der Rhythmus Viertel, punktiertes Viertel, Achtel zu hören sein. Bei der Passacaglia geben die Autoren keinen entsprechenden Rhythmus vor.",
+          "speciesScope": [],
+          "comparison": "Benjamin untersucht an Bachs Werken, wie durchlässig die Grenze zwischen Bass- und Harmonievariation ist. Green und Jones machen den Rhythmus der Chaconne für ihre eigene Schreibaufgabe zum Unterscheidungsmerkmal.",
+          "comparisonSources": [
+            "benjamin1986"
+          ],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 5, S. 65–69, Bsp. 5.1/5.2 · wiederkehrende harmonische Perioden",
+          "text": "Die wiederkehrende Bass- oder Harmoniefolge bildet gleich lange Perioden. Darüber kann die Melodie über die Grenze einer Periode hinwegführen, sodass der regelmäßige Neubeginn beim Hören zurücktritt. Akkordumkehrungen und einzelne Ersatzakkorde verändern zusätzlich den Klang, während die Grundfolge erkennbar bleibt. Bei Händel und Campra verfolgen die Autoren deshalb harmonische Perioden und melodische Phrasen getrennt."
         }
       ]
     },
@@ -6845,7 +7932,8 @@ const ATLAS = {
       "related": [
         "invention-einsatzplan",
         "invention-gegenmotiv",
-        "fuge-zwischenspiel"
+        "fuge-zwischenspiel",
+        "sequenzmodell"
       ],
       "authors": [
         {
@@ -6860,6 +7948,16 @@ const ATLAS = {
             "benjamin-bach-invention-episode"
           ],
           "speciesScope": []
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 8, S. 146–147, Bsp. 8.12 · Bach, Sinfonia Nr. 13, Rückleitung zur Tonika",
+          "text": "Eine Rückleitung kann weitergehen, obwohl die Tonika bereits wieder erreicht ist. In Bachs Sinfonia Nr. 13 könnte der neue Themeneinsatz nach der harmonischen Rückkehr schon in T. 12 beginnen. Bach wartet noch einen Takt. Die Autoren erwägen dafür die Gliederung in Viertaktgruppen, den Registerwechsel der Oberstimmen und die versetzte Wiederholung einer zuvor gehörten Skala."
         }
       ]
     },
@@ -6879,7 +7977,8 @@ const ATLAS = {
       "related": [
         "fuge-exposition",
         "fuge-gegenexposition",
-        "fuge-kontrasubjekt"
+        "fuge-kontrasubjekt",
+        "fuge-formanalyse"
       ],
       "authors": [
         {
@@ -6894,6 +7993,527 @@ const ATLAS = {
             "benjamin-bach-fugenrueckkehr"
           ],
           "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "vorhalt-bewegte-begleitstimme",
+      "title": "Kann ein Vorhalt sich abwärts auflösen, obwohl das Intervall zum Bass größer wird?",
+      "group": "Dissonanz",
+      "tags": [
+        "Vorhalt",
+        "Auflösung",
+        "bewegter Bass",
+        "9–10",
+        "Speziesmischung",
+        "Begleitstimme"
+      ],
+      "related": [
+        "bindung-s4",
+        "dissonanzaufloesung",
+        "speziesmischung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 13.1, S. 164–165, Bsp. 13-1, T. 7–8, und 13-2 · zweite und vierte Spezies in verschiedenen Stimmen gegen einen Cantus",
+          "text": "Die vorgehaltene Stimme geht wie gewöhnlich einen Schritt abwärts. Bewegt sich gleichzeitig der Bass, kann aus der None aber eine Dezime werden. In Bsp. 13-1 folgt auf die None in T. 7 eine Dezime, in T. 8 eine Quinte. Die dritte Stimme soll bereits beim Eintritt des Vorhalts eine konsonante Auflösung erwarten lassen, selbst wenn man sich den Bass probeweise liegend denkt.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [
+            2,
+            4
+          ],
+          "examples": [
+            "green-jones-vorhalt-bewegter-bass"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stimmtausch-motette",
+      "title": "Was wechselt beim Stimmtausch einer mittelalterlichen Motette?",
+      "group": "Stimmführung",
+      "tags": [
+        "Stimmtausch",
+        "Motette",
+        "Ars antiqua",
+        "Triplum",
+        "Duplum",
+        "Tenor",
+        "Alle psallite"
+      ],
+      "comparisons": [],
+      "related": [
+        "doppelter-kontrapunkt",
+        "kanon-stimmtausch",
+        "rhythmische-selbststaendigkeit"
+      ],
+      "authors": [
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 3.2, S. 26–28, Bsp. 3-4 · Alle, psallite, erste sechs Takte",
+          "text": "Die beiden oberen Sänger tauschen ihre Melodien bei der Wiederholung auf derselben Tonhöhe. In Alle, psallite wiederholt der Tenor zunächst eine dreitaktige Phrase. Die bewegtere Linie aus dem Triplum erscheint nun im Duplum. Bei den nächsten Textabschnitten wächst die zu wiederholende Phrase auf vier und dann auf fünf Takte.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [],
+          "examples": [
+            "green-jones-alle-psallite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doppelleitton-kadenz",
+      "title": "Wie führen zwei Leittöne in eine Kadenz der Ars nova?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Doppelleittonkadenz",
+        "Ars nova",
+        "Machaut",
+        "Ficta",
+        "Quintparallelen"
+      ],
+      "comparisons": [],
+      "related": [
+        "kadenz-oberstimme",
+        "parallelen",
+        "leittonaufloesung"
+      ],
+      "authors": [
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "locator": "Kap. 6.1, S. 55 und 57, Bsp. 6-1, T. 9–10, und Kap. 6.3, S. 63, Bsp. 6-8d · Machaut, Rose, lis, printemps, verdure",
+          "text": "In Machauts Kadenz auf c steigt der Cantus von h nach c, das Triplum zugleich von fis nach g. Der eine Halbtonschritt zielt auf den Schlusston, der andere auf dessen Quinte. Weil das fis über dem h liegt, steigen beide Stimmen in parallelen reinen Quinten. Der Tenor sinkt von d nach c.",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "speciesScope": [],
+          "examples": [
+            "green-jones-machaut-kadenz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imitation-stimmenpaare",
+      "title": "Wie lässt sich ein Stimmenpaar als Ganzes imitieren?",
+      "group": "Satzmodelle",
+      "tags": [
+        "paarweise Imitation",
+        "Stimmenpaar",
+        "Imitation",
+        "Lassus",
+        "Motette",
+        "Resonet in laudibus"
+      ],
+      "comparisons": [],
+      "related": [
+        "imitation-und-kanon",
+        "soggetto-und-text",
+        "kanon-stimmtausch",
+        "doppelter-kontrapunkt",
+        "spiegelumkehr-stimmenpaar"
+      ],
+      "authors": [
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "locator": "Kap. 17.6, S. 260–261, Bsp. 17-16 · paarweise Einsätze in Lassus’ Resonet in laudibus",
+          "text": "Zuerst wird ein zweistimmiger Anfang entworfen. Das nächste Stimmenpaar übernimmt beide Linien mit ihrem Einsatzabstand auf geeigneter Tonhöhe. Die ersten Stimmen können inzwischen frei weitergehen. Bei Lassus greifen der zweite Tenor und der Bass den Beginn von Cantus und Altus auf.",
+          "speciesScope": [],
+          "examples": [
+            "green-jones-lassus-paare"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kadenz-schlussdehnung",
+      "title": "Wie kann der Satz nach der Schlusskadenz weiterklingen?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Schlussdehnung",
+        "Kadenzverlängerung",
+        "plagaler Schluss",
+        "Palestrina",
+        "Halteton",
+        "Missa Gabriel archangelus"
+      ],
+      "comparisons": [],
+      "related": [
+        "kadenz",
+        "kadenzausweichung",
+        "kadenz-unterstimme"
+      ],
+      "authors": [
+        {
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true,
+          "locator": "Kap. 17.4, S. 256–258, Bsp. 17-11 · Schluss des Hosanna der Missa Gabriel archangelus",
+          "text": "Eine Kadenzstimme kann ihren Zielton mehrere Takte halten, während die übrigen Stimmen den Schluss verlängern. In Palestrinas Hosanna weicht der Bass am Kadenzziel zunächst aus. Der Tenor hält sein d vier Takte lang. Erst darunter entsteht die plagale Schlusswendung.",
+          "speciesScope": [],
+          "examples": [
+            "green-jones-palestrina-schluss"
+          ]
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 13, S. 295, Abschnitt „Final Plagal Cadences“, mit Bsp. 11.6, S. 229–230 · Händel, Anthem VII, T. 26–29",
+          "text": "Im besprochenen Satz aus Händels Anthem VII liegt der eigentliche Schluss für Neidhöfer und Schubert in der authentischen Kadenz von T. 26. Die plagale Wendung in T. 27–29 folgt als Nachsatz. Sie deuten die IV als Ausschmückung der bereits erreichten Tonika. So kann der Satz nach dem strukturellen Schluss noch weiterklingen.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "comparison": "Bei Palestrinas Hosanna beschreiben Green und Jones einen am Kadenzziel zunächst ausweichenden Bass. In diesem Händel-Beispiel ist die authentische Kadenz bereits vollzogen, bevor der plagale Nachsatz beginnt.",
+          "comparisonSources": [
+            "green-jones2011"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rezitationston-und-finalis",
+      "title": "Was unterscheidet den Rezitationston von der Finalis eines Chorals?",
+      "group": "Melodieführung",
+      "tags": [
+        "Psalmodie",
+        "Rezitationston",
+        "Repercussa",
+        "Finalis",
+        "Choral",
+        "Modus",
+        "Kirchenton"
+      ],
+      "comparisons": [],
+      "related": [
+        "modaler-ambitus",
+        "cantus-firmus",
+        "chromatik"
+      ],
+      "authors": [
+        {
+          "locator": "Kap. 1.3, S. 4–5, Modustabelle und Übung 1.2, sowie S. 8, Bsp. 1-9 · Antiphon und Psalmvers",
+          "text": "Auf dem Rezitationston können viele Silben eines Psalmverses gesungen werden. Die Finalis bezeichnet den modalen Schlusston. Bei den beiden Modi auf e gibt die Tabelle für den dritten Modus c, für den vierten a als Rezitationston an. Im vierten Modus lässt sich das a am Psalmvers zu Laus Deo Patri nachsingen. Bei einer frei geführten Choralmelodie muss der melodische Schwerpunkt nicht mit dem Rezitationston ihres Modus übereinstimmen.",
+          "speciesScope": [],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "vorausnahme-und-vorhalt",
+      "title": "Was höre ich anders, wenn ein Ton zu früh kommt oder zu lange liegen bleibt?",
+      "group": "Dissonanz",
+      "tags": [
+        "Vorausnahme",
+        "Antizipation",
+        "Vorhalt",
+        "Dissonanz",
+        "Synkope",
+        "Auflösung"
+      ],
+      "comparisons": [],
+      "related": [
+        "bindung-s4",
+        "dissonanzaufloesung",
+        "dissonanzbehandlung"
+      ],
+      "authors": [
+        {
+          "locator": "Kap. 18.5, S. 273–274, Bsp. 18-10a–c · Dissonanz und Zeitpunkt des Harmoniewechsels",
+          "text": "Die Vorausnahme nimmt einen Ton des nächsten Klangs vorweg. Der Vorhalt hält einen Ton des vorigen Klangs über den Wechsel hinweg fest. Green und Jones lassen beide Fassungen aus derselben konsonanten Fortschreitung entstehen. Spiele in der Leseübung den Bass unverändert und vergleiche den Augenblick, in dem die Oberstimme das d erreicht.",
+          "speciesScope": [],
+          "examples": [
+            "green-jones-vorausnahme-vorhalt"
+          ],
+          "source": "green-jones2011",
+          "name": "Douglass M. Green und Evan Jones",
+          "work": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
+          "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+          "catalogue": true
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 4, S. 50, Bsp. 4.16a/b · kurze und motivisch wiederkehrende Vorausnahmen",
+          "text": "Die Vorausnahme erklingt auf schwacher Zeit und nimmt den konsonanten Ton des nächsten Grundschlags vorweg. Sie dauert meist höchstens einen halben „step“. Bevorzugt wird sie schrittweise erreicht, doch das Corelli-Beispiel zeigt auch eine seltene angesprungene Vorausnahme. Im Inneren einer längeren Linie empfehlen die Autoren, die Figur als wiederkehrendes Motiv hörbar zu machen."
+        },
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 14, S. 320–321, Bsp. 14.10 · Bach, B-Dur-Fuge BWV 890, T. 20–21, freier Stil",
+          "text": "Im strengen Stil nimmt die Vorausnahme einen konsonanten Akkordton vorweg. Im freien Stil kann sie auch eine betonte Dissonanz vorwegnehmen. Für die B-Dur-Fuge hören die Autoren den ganzen Takt 20 als Dominantharmonie. Eine früh erreichte Note ist hier daher noch kein Beweis, dass schon der nächste Akkord begonnen hat.",
+          "comparison": "Green und Jones gewinnen ihre Gegenüberstellung aus einer konsonanten Fortschreitung. Das Beispiel aus dem freien barocken Satz erweitert den Fall: Auch eine kommende Dissonanz kann vorweggenommen werden.",
+          "comparisonSources": [
+            "green-jones2011"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generalbass-oktavregel",
+      "title": "Warum bekommt dieselbe Bassstufe aufwärts und abwärts verschiedene Harmonien?",
+      "group": "Generalbass",
+      "tags": [
+        "Oktavregel",
+        "Regola dell’ottava",
+        "Bassstufe",
+        "Skala",
+        "Generalbass",
+        "Dominantseptakkord",
+        "Neidhöfer",
+        "Schubert"
+      ],
+      "reading": "Spiele die Bassstufen 3–4–5 und danach 5–4–3. Vergleiche, welche Harmonie die vierte Stufe in jeder Richtung trägt und wohin sie weiterführt.",
+      "readingSources": [
+        "neidhoefer-schubert2023"
+      ],
+      "comparisons": [],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "generalbass-transponieren",
+        "harmonischer-rhythmus",
+        "harmonik"
+      ],
+      "authors": [
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 5, S. 88–90, Bsp. 5.28/5.29 · Oktavregeln von Campion, Fenaroli, Heinichen und Gasparini",
+          "text": "Die Oktavregel verbindet Bassstufe und Bewegungsrichtung. Aufwärts bereitet die vierte Bassstufe die Dominante vor und trägt etwa einen Subdominantakkord oder einen Sextakkord der zweiten Stufe. Abwärts folgt sie bereits auf die Dominante: Nun wird sie als Septime des Dominantseptakkords harmonisiert und führt zur dritten Bassstufe mit einem Tonikasextakkord. Derselbe Basston erfüllt also je nach Richtung eine andere Aufgabe."
+        }
+      ]
+    },
+    {
+      "id": "sequenzmodell",
+      "title": "Was gehört zu einem Sequenzglied?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Sequenz",
+        "Modell",
+        "Motiv",
+        "Harmonie",
+        "Kanon",
+        "Stimmführung"
+      ],
+      "reading": "Verfolge in Bachs Sicut locutus est die beiden Motive getrennt. Wann kehrt dieselbe Figur in derselben Stimme wieder? Zähle anschließend die Harmonien und die Schläge innerhalb dieses Abschnitts.",
+      "readingSources": [
+        "neidhoefer-schubert2023"
+      ],
+      "comparisons": [],
+      "related": [
+        "harmonischer-rhythmus",
+        "melodische-fortspinnung",
+        "fuge-zwischenspiel",
+        "invention-episode"
+      ],
+      "authors": [
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 12, S. 261–263, besonders Bsp. 12.16a–b · Bach, Magnificat, Sicut locutus est, T. 1–8 und 37–41",
+          "text": "Die Länge des Sequenzmodells ergibt sich auch aus der Wiederkehr der Stimmführung. In Bachs Sicut locutus est zerlegen Neidhöfer und Schubert die Gegenstimme zur Antwort in zwei Motive. In der späteren Sequenz wandern diese kanonisch durch die Stimmen. Das Modell umfasst vier Akkorde und acht Schläge: Erst dann kehrt dieselbe Figur in derselben Stimme wieder.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "fuge-scheineinsatz",
+      "title": "Wann bleibt ein Themeneinsatz nur ein Anfang?",
+      "group": "Fuge",
+      "tags": [
+        "Scheineinsatz",
+        "falscher Einsatz",
+        "Fragment",
+        "Themenkopf",
+        "Fortsetzung",
+        "Dramaturgie"
+      ],
+      "reading": "Spiele in Händels Satz zunächst T. 9–10 und suche denselben Anfang in T. 11. Verfolge danach, wo die zuerst begonnene Linie ab T. 15 ihr fehlendes Ende erhält.",
+      "readingSources": [
+        "neidhoefer-schubert2023"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-themenende",
+        "fuge-zwischenspiel",
+        "fuge-exposition"
+      ],
+      "authors": [
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "locator": "Kap. 13, S. 301–302, Bsp. 13.9 · Händel, Concerto grosso op. 6 Nr. 4, II, T. 9–18",
+          "text": "Ein Scheineinsatz bringt den erkennbaren Themenkopf, setzt ihn aber zunächst nicht vollständig fort. Händel beginnt das Thema in T. 9 in Bratsche und Violoncello, bricht ab und startet in T. 11 einen vollständigen Einsatz in Violoncello und Bass. Ab T. 15 liefern die zuerst beteiligten Stimmen noch den fehlenden zweiten Teil. Diese nachträgliche Ergänzung ist für einen Scheineinsatz nicht erforderlich.",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "fuge-chromatische-antwort",
+      "title": "Wie finde ich die tonale Antwort auf ein chromatisches Fugenthema?",
+      "group": "Fuge",
+      "tags": [
+        "Chromatik",
+        "tonale Antwort",
+        "Dux",
+        "Comes",
+        "Marpurg",
+        "diatonisches Gerüst"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-reale-tonale-antwort",
+        "fuge-modulierendes-thema",
+        "chromatik"
+      ],
+      "authors": [
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 15, S. 353–355, Tabelle 15.2 und Bsp. 15.21 · Marpurgs Verfahren und Händels a-Moll-Fuge Nr. 5",
+          "text": "Nach Marpurg entfernen die Autoren zuerst die chromatischen Zwischentöne und beantworten das diatonische Gerüst. Aus a–c–d–e wird e–f–g–a. Erst danach übertragen sie die chromatischen Schritte auf die entsprechenden Stufen: a–c–cis–d–dis–e erhält die Antwort e–f–fis–g–gis–a. Die Chromatik wird damit auf die bereits bestimmte tonale Antwort bezogen."
+        }
+      ]
+    },
+    {
+      "id": "fugenthema-und-kontrasubjekt-erfinden",
+      "title": "Wie erfinde ich Fugenthema und Kontrasubjekt gemeinsam?",
+      "group": "Fuge",
+      "tags": [
+        "Fugenthema",
+        "Kontrasubjekt",
+        "Grundton",
+        "Terz",
+        "Harmoniefolge",
+        "Erfinden",
+        "Oktavvertauschung"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-kontrasubjekt",
+        "doppelter-kontrapunkt",
+        "harmonik"
+      ],
+      "authors": [
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 17, S. 409–410, Bsp. 17.24a–e · Thema und Gegenstimme aus einer Harmoniefolge",
+          "text": "Die Autoren beginnen mit einer Harmoniefolge. Aus ihren Grundtönen und Terzen bilden sie das Gerüst des Themas. Die jeweils andere Funktion wird zum Gerüst des Kontrasubjekts: Übernimmt das Thema den Grundton, erhält die Gegenstimme die Terz, und umgekehrt. Erst dann werden beide Linien melodisch verziert. So lässt sich die Kombination schon vor der Ausarbeitung auf ihre Oktavvertauschung prüfen.",
+          "examples": [
+            "neidhoefer-schubert-grundton-terz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spiegelumkehr-stimmenpaar",
+      "title": "Was bleibt erhalten, wenn ich ein ganzes Stimmenpaar spiegle?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Spiegelumkehr",
+        "Gegenbewegung",
+        "Stimmenpaar",
+        "Umkehrung",
+        "Intervallfolge",
+        "Marpurg"
+      ],
+      "comparisons": [],
+      "related": [
+        "kanon-verfahren",
+        "doppelter-kontrapunkt",
+        "imitation-stimmenpaare"
+      ],
+      "authors": [
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 19, S. 447, Bsp. 19.6a–b · Spiegelumkehr eines Stimmenpaars nach Marpurg",
+          "text": "Bei der Spiegelumkehr werden beide Melodien in Gegenbewegung geführt und ihre Lagen vertauscht. Werden sie um dieselbe Achse gespiegelt, bleibt die Folge der vertikalen Intervalle erhalten. In Marpurgs Beispiel bilden die beiden Stimmen beim Eintritt der zweiten Stimme in beiden Fassungen zunächst eine Terz. Das unterscheidet dieses Verfahren von der bloßen melodischen Umkehrung einer einzigen Stimme."
+        }
+      ]
+    },
+    {
+      "id": "fuge-formanalyse",
+      "title": "Warum lässt sich dieselbe Fuge zwei- oder dreiteilig hören?",
+      "group": "Fuge",
+      "tags": [
+        "Formanalyse",
+        "Reprise",
+        "Zweiteiligkeit",
+        "Dreiteiligkeit",
+        "Bogenform",
+        "Register",
+        "BWV 847"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-schlussrueckkehr",
+        "fuge-zwischenspiel",
+        "hoehepunkt",
+        "stimmabstand"
+      ],
+      "authors": [
+        {
+          "source": "neidhoefer-schubert2023",
+          "name": "Christoph Neidhöfer und Peter Schubert",
+          "work": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
+          "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+          "catalogue": true,
+          "speciesScope": [],
+          "locator": "Kap. 20, S. 471–474, besonders S. 472, Bsp. 20.6; Partitur in Bsp. 16.18, S. 379–380 · Bach, c-Moll-Fuge BWV 847",
+          "text": "An Bachs c-Moll-Fuge zeigen die Autoren, wie die gewählten Kriterien den Formverlauf ändern. In ihrer Darstellung hört Ratz drei Tonartabschnitte, zugleich aber zwei Hälften mit wiederkehrendem Material. Czaczkes betont diese Zweiteiligkeit. Neidhöfer und Schubert ergänzen eine mögliche Bogenlesart: Die besondere Sequenz und die weite Lage in Takt 13–14 führen zum Registergipfel in Takt 15. Die Rückkehr der Tonika allein bestimmt also noch keine einzige verbindliche Formgrenze.",
+          "examples": [
+            "neidhoefer-schubert-bach-formmitte"
+          ]
         }
       ]
     }
@@ -8054,6 +9674,138 @@ const ATLAS = {
       "caption": "Singe die ersten Töne der Mittelstimme in T. 1, dann den markierten Einsatz der Oberstimme in T. 20. Spiele beim zweiten Durchgang nur die zwei begleitenden Stimmen. Benjamin zeigt die Rückkehr bis zum Beginn von T. 22 in Bsp. 11-22 auf S. 267.",
       "credit": "J. S. Bach, Das Wohltemperierte Klavier I, Fuge Nr. 2 c-Moll BWV 847, T. 1–3 und 19–21. Bach-Gesellschaft, Bd. XIV, hg. von Franz Kroll, Leipzig, Breitkopf & Härtel, 1866, S. 8–9. Ausschnitte aus dem gemeinfreien Druck. Markierungen der Atlasredaktion.",
       "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=9"
+    },
+    "green-jones-fux-vorhaltskette": {
+      "title": "Fux · die Kette von 2–3-Vorhalten unter dem Cantus",
+      "alt": "Über einer gebundenen Unterstimme verläuft der dorische Cantus firmus von d wieder zu d. Nach dem Beginn kehrt in der Unterstimme die schrittweise Auflösung der Sekunde in die Terz mehrfach wieder.",
+      "caption": "Singe die untere Stimme zunächst mit den Bindungen. Nimm dann im Inneren des Beispiels jeden Auflösungston eine halbe Note vorweg. Wie selbstständig verläuft die Unterstimme jetzt gegenüber dem Cantus?",
+      "credit": "Johann Joseph Fux, Gradus ad Parnassum (Wien, 1725), Liber II, Exercitium I, Lectio IV, S. 74, unteres Beispiel. Wienbibliothek im Rathaus, B-61291, Public Domain Mark 1.0. Ausschnitt. Green und Jones besprechen denselben Satz in Bsp. 10-9a, S. 122–123.",
+      "url": "https://www.digital.wienbibliothek.at/wbrobv/content/pageview/4118123",
+      "image": "quellen/noten/green-jones-fux-vorhaltskette.webp"
+    },
+    "green-jones-vorhalt-bewegter-bass": {
+      "title": "Ein 9–8- und ein 9–10-Vorhalt mit derselben Oberstimme",
+      "alt": "Zwei dreistimmige Ausschnitte. In beiden löst sich im Sopran ein gebundenes a zum g. Im zweiten Takt hält der Bass links sein g. Rechts sinkt er beim Auflösungston vom g zum e.",
+      "caption": "Halte beim ersten Durchgang den Basston g bis zum Ende. Spiele beim zweiten Durchgang beim Auflösungston ein e im Bass. Der Sopran macht beide Male denselben Schritt. Bestimme jeweils das neue Intervall zwischen den Außenstimmen.",
+      "credit": "Eigene dreistimmige Leseübung der Atlasredaktion nach dem Verfahren bei Green und Jones, Kap. 13.1, S. 164–165. Der Cantus liegt in der Mittelstimme. Die Tonfolgen sind für den Atlas geschrieben.",
+      "kind": "leseuebung",
+      "catalogue": true,
+      "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+      "image": "quellen/noten/green-jones-vorhalt-bewegter-bass.webp"
+    },
+    "green-jones-alle-psallite": {
+      "image": "quellen/noten/green-jones-alle-psallite.webp",
+      "title": "Alle psallite cum luya · zwei Sänger tauschen eine Melodie",
+      "alt": "Die bewegte Textzeile der oberen Stimme in T. 1–3 kehrt in der mittleren Stimme in T. 4–6 wieder. Der Tenor wiederholt seine drei Takte.",
+      "caption": "Singe die bewegte Melodie oben und wechsle zu Beginn von T. 4 in die Mitte. Lass eine zweite Person den Tenor singen. Sie kann ihre Phrase bei der Wiederholung unverändert lassen.",
+      "credit": "Anonyme Motette, Montpellier, Faculté de Médecine, H 196, fol. 392r–v. Notensatz © Monique Rio, 13. August 2016 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). Ausschnitt und Taktgruppenbeschriftung der Atlasredaktion. Dasselbe Stück bei Green und Jones, Bsp. 3-4.",
+      "url": "https://stcpress.org/miscellaneous/alle_psallite/alle_psallite.pdf#page=1"
+    },
+    "green-jones-machaut-kadenz": {
+      "image": "quellen/noten/green-jones-machaut-kadenz.webp",
+      "kind": "leseanalyse",
+      "catalogue": true,
+      "title": "Machaut · zwei Halbtonschritte an der Kadenz auf c",
+      "alt": "Reduktion des Übergangs aus T. 9 nach T. 10. Das Triplum steigt von fis nach g, der Cantus von h nach c. Der Tenor darunter fällt von d nach c.",
+      "caption": "Spiele zuerst nur das steigende Stimmenpaar. Füge dann den fallenden Tenor hinzu. Das c des Cantus erreicht die Oktave über dem Tenor, das g des Triplum die Duodezime.",
+      "credit": "Guillaume de Machaut, Rose, lis, printemps, verdure. Eigene Reduktion nach den drei bezeichneten Stimmen in Green und Jones, Bsp. 6-1, S. 55, T. 9–10. Die zwei Zusammenklänge stehen in ihrer klingenden Lage mit vereinheitlichten Notenwerten. Das fis folgt der Ausgabe des Lehrbuchs.",
+      "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650"
+    },
+    "green-jones-lassus-paare": {
+      "title": "Lassus · ein oberes und ein unteres Stimmenpaar",
+      "alt": "Fünf Notenzeilen. Cantus und Altus beginnen nacheinander mit „Resonet“. In Takt 3 übernehmen Tenor II und Bassus die zwei Einsätze. Tenor I pausiert noch.",
+      "caption": "Spiele die ersten beiden Zeilen bis zum Beginn von T. 3, anschließend Tenor II und Bassus ab T. 3. Verfolge insbesondere die Pause zwischen den Einsätzen innerhalb jedes Paares. Der Druck zeigt auch den späteren Eintritt von Tenor I. Green und Jones untersuchen den Beginn in Bsp. 17-16.",
+      "credit": "Orlando di Lasso, Resonet in laudibus, LV 363, prima pars. Sämtliche Werke, Bd. III, hg. von Franz Xaver Haberl unter Verwendung der Spartierungen Carl Proskes, Leipzig, Breitkopf & Härtel, 1895, S. 148. Ausschnitt aus dem gemeinfreien Druck.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/7/76/IMSLP811509-PMLP369704-LAS_03_159.pdf#page=1",
+      "image": "quellen/noten/green-jones-lassus-paare.webp"
+    },
+    "green-jones-palestrina-schluss": {
+      "title": "Palestrina · vier Takte auf dem d des Tenors",
+      "alt": "Schluss des vierstimmigen Hosanna. In der dritten Notenzeile erreicht der Tenor das d auf „-sis“ und hält es bis zum Ende. Die anderen Stimmen bewegen sich weiter.",
+      "caption": "Suche in der dritten Zeile das lange „-sis“. Singe den Halteton bis zum Ende und spiele dazu den Bass. Der Zielton des Tenors ist schon erreicht, wenn sich die letzte Basswendung erst bildet. Vergleiche Bsp. 17-11 bei Green und Jones.",
+      "credit": "G. P. da Palestrina, Missa Gabriel archangelus, Hosanna. Opera omnia, Bd. X, hg. von Franz Xaver Haberl, Leipzig, Breitkopf & Härtel, 1880, S. 98. Letztes System des Hosanna aus dem gemeinfreien Druck.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/f/f0/IMSLP823628-PMLP1296374-PAL_10_4.pdf#page=19",
+      "image": "quellen/noten/green-jones-palestrina-schluss.webp"
+    },
+    "green-jones-pange-lingua": {
+      "title": "Pange lingua · ein Ganzton führt zur phrygischen Finalis",
+      "alt": "Erste Strophe des Hymnus in Quadratnotation. Am Ende der dritten Notenzeile steigt die Melodie von d auf die Finalis e. Neben dem ersten System steht die Modusangabe III.",
+      "caption": "Singe die letzte Zeile ab „ró-si“. Achte bei den letzten beiden Silben von „géntium“ auf den Ganzton d–e. Singe zum Vergleich dieselben Silben mit dis–e und höre, wie sich der Schluss verändert.",
+      "credit": "Graduale Romanum, Editio Vaticana (Rom, Typis Vaticanis, 1908), S. 123*, „In festo Corporis Christi, ad processionem“. Ausschnitt aus dem gemeinfreien Druck. Green und Jones geben dieselbe Hymnenmelodie in Bsp. 1-8, S. 8, in moderner Notation wieder.",
+      "url": "https://cdn.restorethe54.com/media/pdf/graduale-romanum-1908.pdf#page=915",
+      "image": "quellen/noten/green-jones-pange-lingua.webp"
+    },
+    "green-jones-vorausnahme-vorhalt": {
+      "kind": "leseuebung",
+      "title": "Vorausnahme und Vorhalt über derselben Bassbewegung",
+      "alt": "Zwei zweistimmige Fassungen mit c–f im Bass und e–d in der Oberstimme. Links wird d noch über c als None erreicht und ins f gehalten. Rechts bleibt e über f als Septime liegen und löst sich ins d.",
+      "caption": "Spiele beide Fassungen im gleichen Tempo. Links endet die Dissonanz durch den Wechsel des Basstons. Rechts hat der Bass schon gewechselt, und die Dissonanz endet erst, wenn sich die Oberstimme bewegt.",
+      "credit": "Eigene zweistimmige Leseübung der Atlasredaktion zu Green und Jones, Kap. 18.5, S. 273–274. Tonfolge, Rhythmus und Intervallziffern für diese Gegenüberstellung neu gesetzt.",
+      "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+      "catalogue": true,
+      "image": "quellen/noten/green-jones-vorausnahme-vorhalt.webp"
+    },
+    "green-jones-einsatz-s4": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Vierte Spezies · ein Beginn auf der Eins ermöglicht die Bindung",
+      "alt": "Zwei Fassungen über einem Cantus g–c. Links beginnt der Bass nach einer halben Pause mit g und hält es unter dem c. Rechts setzt er sofort auf g ein, wechselt zu e und bindet dieses e unter das c.",
+      "caption": "Links beginnt die Unterstimme nach einer halben Pause auf g. Beim Cantuswechsel nach c entsteht über dem gebundenen g eine Quarte. Rechts beginnt der Bass auf der Eins und wechselt vorher nach e: Die Bindung führt nun von einer Dezime in eine konsonante Sexte.",
+      "credit": "Eigenes Notenbeispiel der Atlasredaktion nach dem Verfahren bei Green und Jones, Kap. 10.5, S. 124–125, Bsp. 10-12 und 10-13. Eigene verkürzte Tonfolge; keine Wiedergabe der Buchabbildung.",
+      "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+      "image": "quellen/noten/green-jones-einsatz-s4.webp"
+    },
+    "neidhoefer-schubert-vorhalt-scheinpolyphonie": {
+      "title": "Ein Vorhalt mit einem eingeschobenen Akkordton",
+      "alt": "Zwei zweistimmige Ausschnitte. Der Bass geht von B zu c. Oben wird in beiden ein f übergebunden und nach e aufgelöst. Rechts springt die Oberstimme vorher kurz zum tieferen c. Die tatsächlichen Intervalle lauten links 12–11–10, rechts 12–11–8–10.",
+      "caption": "Singe in beiden Fassungen zuerst nur das gebundene f und seine Auflösung e zum Bass. Spiele danach rechts auch das eingeschobene c. Der Sprung lässt eine andere gedachte Stimme erklingen; unmittelbar danach hört man die Auflösung f–e.",
+      "credit": "Eigenes Notenbeispiel der Atlasredaktion zum Verfahren der „compound melody“ bei Christoph Neidhöfer und Peter Schubert, Baroque Counterpoint, 2023, Kap. 4, S. 56–57. Für den Atlas komponierte Tonfolge und Rhythmen; keine Wiedergabe einer Buchabbildung.",
+      "kind": "leseuebung",
+      "catalogue": true,
+      "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+      "image": "quellen/noten/neidhoefer-schubert-vorhalt-scheinpolyphonie.webp"
+    },
+    "neidhoefer-schubert-grundton-terz": {
+      "kind": "leseuebung",
+      "title": "Thema und Gegenstimme aus Grundtönen und Terzen",
+      "alt": "Drei zweistimmige Fassungen in G-Dur. Zuerst werden Grundtöne und Terzen der Akkorde G, e-Moll, a-Moll, D und G auf zwei Linien verteilt. Danach werden Durchgangs- und Wechselnoten ergänzt. Zuletzt steht die grüne Themenlinie eine Oktave tiefer unter der braunen Gegenstimme.",
+      "caption": "Singe die grüne Linie zuerst oben und danach unten. Die Gerüsttöne bleiben dieselben, doch die Basslage der Akkorde ändert sich. Vergleiche anschließend den Durchgang im ersten Takt und die Wechselnoten: Ihre Zusammenklänge verändern sich ebenfalls beim Lagentausch.",
+      "credit": "Eigene zweistimmige Leseübung der Atlasredaktion nach dem Verfahren bei Neidhöfer und Schubert, Kap. 17, S. 409–410. Harmoniefolge, Tonhöhen, Verzierung und Vergleich der Oktavvertauschung für diese Darstellung neu komponiert; keine Wiedergabe von Bsp. 17.24.",
+      "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+      "catalogue": true,
+      "image": "quellen/noten/neidhoefer-schubert-grundton-terz.webp"
+    },
+    "neidhoefer-schubert-bach-vorhalt": {
+      "title": "Bach · ein Vorhalt im scheinbar konsonanten Zweiklang",
+      "alt": "Anfang der Fis-Dur-Fuge BWV 882 in zwei Systemen. Takt 5 steht am Ende der ersten Zeile; die verwandte dreistimmige Stelle in Takt 9 steht in der zweiten Zeile.",
+      "caption": "Suche den mit 5 bezeichneten Takt am Ende der ersten Zeile. Höre das fis als Vorhalt zur mitgedachten Cis-Harmonie. Vergleiche die Fortsetzung und den entsprechenden Vorgang in T. 9: Die zusätzliche Stimme macht die harmonische Deutung deutlicher. Die Autoren besprechen hier die Vorhalte; andere Einzelheiten dieser Passage gehören bereits zum freien Stil.",
+      "credit": "J. S. Bach, Das Wohltemperirte Clavier II, Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig 1866, S. 144. Gemeinfreier Druck, Ausschnitt: Auftakt und T. 1–11 nach der gedruckten Taktzählung. Bezug: Neidhöfer und Schubert, Kap. 4, S. 41, Bsp. 4.4.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf#page=56",
+      "image": "quellen/noten/neidhoefer-schubert-bach-vorhalt.webp"
+    },
+    "neidhoefer-schubert-bach-hemiole": {
+      "title": "Bach · eine schwache Eins in der Sinfonia Nr. 13",
+      "alt": "Die ersten vier Takte der Sinfonia Nr. 13 a-Moll BWV 799. Auf der notierten Eins des dritten Dreiachteltakts steht ein c im Sopran.",
+      "caption": "Fasse T. 2–3 zu drei Viertelschlägen zusammen. Das c auf der notierten Eins von T. 3 liegt dann zwischen zwei dieser Schläge. Singe den Durchgang und höre, wie die Hemiola die Betonung über den Taktstrich verschiebt.",
+      "credit": "J. S. Bach, Sinfonia Nr. 13 a-Moll BWV 799, Bach-Gesellschaft, Bd. 3, hg. Carl Ferdinand Becker, Leipzig 1853, S. 38. Gemeinfreier Druck, Ausschnitt T. 1–4. Bezug: Neidhöfer und Schubert, Kap. 4, S. 52, Bsp. 4.19.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/1/13/IMSLP00773-BWV0799.pdf#page=1",
+      "image": "quellen/noten/neidhoefer-schubert-bach-hemiole.webp"
+    },
+    "neidhoefer-schubert-bach-formmitte": {
+      "title": "Bach · Sequenz und Registerhöhe in der Mitte der c-Moll-Fuge",
+      "alt": "Takte 13 bis 15 der c-Moll-Fuge BWV 847. In den ersten beiden Takten steigen die Sechzehntel des Soprans, während die Unterstimmen in weiter Lage geführt werden. Der dritte Takt ist im Druck mit 15 bezeichnet.",
+      "caption": "Spiele T. 13–15 und verfolge den Abstand zwischen Sopran und Bass. Neidhöfer und Schubert beziehen die besondere Sequenz, die weite Lage und den Registergipfel auf eine mögliche Bogenform. Dieselbe Passage lässt sich bei einer Gliederung nach Tonarten oder wiederkehrenden Motiven anders gewichten.",
+      "credit": "J. S. Bach, Das Wohltemperirte Clavier I, Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig 1866, S. 8, T. 13–15. Gemeinfreier Druck, Ausschnitt. Bezug: Neidhöfer und Schubert, Kap. 20, S. 472; die Abbildung zeigt die historische Partitur, nicht das Formdiagramm der Buchausgabe.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf#page=8",
+      "image": "quellen/noten/neidhoefer-schubert-bach-formmitte.webp"
+    },
+    "neidhoefer-schubert-graun-tonale-antwort": {
+      "image": "quellen/noten/neidhoefer-schubert-graun-tonale-antwort.webp",
+      "title": "Graun · Antwort und dritter Einsatz über dem Generalbass",
+      "alt": "Zwei Systeme mit den ersten acht Takten von Christus hat uns ein Vorbild gelassen. Vier Singstimmen und Generalbass stehen in den Originalschlüsseln. Nach dem Bass setzen Tenor, Alt und Sopran ein. Über dem ersten System stehen Tutti, Alla breve und die Anweisung, dass die Instrumente mit den Stimmen spielen.",
+      "caption": "Verfolge den Tenoreinsatz in T. 3 und den Alteinsatz in T. 6 zusammen mit dem Generalbass. Neidhöfer und Schubert unterscheiden die melodische Zuordnung zur Tonika- oder Dominantskala von den Harmonien, die beim jeweiligen Einsatz erklingen. Die historischen C-Schlüssel sind beibehalten.",
+      "credit": "Carl Heinrich Graun, Der Tod Jesu, Partiturdruck von 1760, S. 55, „Christus hat uns ein Vorbild gelassen“, T. 1–8. Ausschnitt aus dem gemeinfreien Druck; Originalnotation und Generalbassziffern beibehalten. Digitalisat über IMSLP. Entspricht dem Beginn von Bsp. 10.20 bei Neidhöfer und Schubert, S. 209.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/e/e2/IMSLP86649-PMLP177290-graun_tod_jesu.pdf#page=56"
     }
   }
 };
