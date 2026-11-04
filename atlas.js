@@ -307,6 +307,7 @@
     const relations = AtlasRelations.pairs(topic, sourceIds)
       .filter(p => visibleIds.has(p.from.id) || visibleIds.has(p.to.id));
     if (relations.length) section.append(relationsKey(relations.length));
+    section.append(AtlasContexts.legend());
     const entries = authors.length > 1 ? el("div", "tradition-grid authors-grid") : section;
     const visibleSources = new Set(authors.map(a => a.source));
     if (topic.species) visibleSources.add("artacho-handout");
@@ -331,6 +332,7 @@
           a.speciesScope ? "Speziesunabhängiger Ansatz" : "Ohne Spezieszuordnung";
         card.append(el("small", "species-scope", label));
       }
+      card.append(AtlasContexts.render(a));
       card.append(el("p", "", a.text));
       const citation = [a.work, a.locator].filter(Boolean).join(", ");
       // Keep biography links independent of the link to the cited book/page.

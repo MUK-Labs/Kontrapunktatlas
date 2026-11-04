@@ -65,6 +65,30 @@ Suche, Themenbereich, beteiligter Autor und Spezies lassen sich kombinieren. Ein
 
 Das Verzeichnis liest dieselben `relations` aus `atlas-data.js` wie die einzelnen Fragen. Jeder geprüfte Vergleich erscheint einmal; neue Verbindungen stehen automatisch auf beiden Seiten bereit.
 
+## Stilbezug und Aufgabenrahmen einer Antwort
+
+Die Antwortkarten im Atlas und die beiden Positionen auf **Unterschiede** zeigen den **Stilbezug** einer geprüften Aussage als beschriftete Farbmarke. Daneben steht ihr **Aufgabenrahmen**, etwa *Strenger Stil*, *Freier Stil*, *Palestrina-orientierte Speziesübung*, *Schulfuge* oder *Repertoireanalyse*. Die Spezieszuordnung bleibt davon getrennt.
+
+Die Markierung bezeichnet den Kontext der zitierten Aussage. Sie behauptet keine ausschließliche Gültigkeit einer Regel für eine Epoche. Das Erscheinungsjahr eines Buchs bestimmt den Stilbezug nicht. Auch innerhalb desselben Lehrwerks können verschiedene Markierungen oder Aufgabenrahmen vorkommen.
+
+**Einordnung und Beleg** öffnet die genaue Fundstelle und eine kurze Begründung. Dabei wird unterschieden, ob die Einordnung aus der konkreten Passage, aus dem ausdrücklich erklärten Lehrbuchrahmen oder aus dem untersuchten Repertoire folgt. Jede Zuordnung wird an der einzelnen Antwort gespeichert; es gibt keine automatische Übertragung von einer Quelle auf alle ihre Beiträge.
+
+| Kennzeichnung | Bedeutung |
+| --- | --- |
+| **Mittelalter**, **Renaissance**, **Barock**, **Klassik / Romantik**, **20./21. Jahrhundert** | Historischer oder stilistischer Bezug der konkreten Aussage. Bei einem belegten Vergleich können mehrere Bezüge erscheinen. Engere Angaben stehen im Aufgabenrahmen und in der Begründung. |
+| **Stilübergreifend** | Die Quelle verfolgt hier ausdrücklich einen Ansatz über einzelne Stile hinaus. Das ist keine Behauptung über sämtliche Musik. |
+| **Noch nicht eingeordnet** | Der historische Stilbezug ist noch nicht belegt oder redaktionell zugeordnet. Ein bereits gesicherter Aufgabenrahmen kann trotzdem angezeigt werden. Fehlende Einordnung bedeutet keine allgemeine Gültigkeit. |
+
+Die erste Durchsicht erschließt insbesondere bereits belegte Kontextvergleiche und konkrete Repertoireanalysen. Weitere Antworten lassen sich schrittweise ergänzen. Die Farbmarken werden durch Text ergänzt und bleiben dadurch auch im Ausdruck verständlich.
+
+| Beispiel | Was die zusätzliche Einordnung sichtbar macht |
+| --- | --- |
+| [Jeppesen und Menke zum Dezimtausch](https://muk-labs.github.io/Kontrapunktatlas/?quellen=jeppesen1964,menke2017#frage=doppelter-kontrapunkt) | Palestrina-orientierter Lehrbuchrahmen und strenge Übung gegenüber barocker Satzlehre an Bachs Aufzeichnungen. |
+| [Strenge und freie Vorausnahmen](https://muk-labs.github.io/Kontrapunktatlas/?quellen=neidhoefer-schubert2023#frage=vorausnahme-und-vorhalt) | Derselbe Barockbezug bei Neidhöfer und Schubert, aber ausdrücklich verschiedene Bedingungen im strengen und freien Stil. |
+| [Jeppesen und Salzer–Schachter zur gemischten Spezies](https://muk-labs.github.io/Kontrapunktatlas/?quellen=jeppesen1964,salzer-schachter1989#frage=dissonanzbehandlung) | Unterschiedliche Lehrziele innerhalb derselben Kombination aus zweiter und dritter Spezies. |
+
+Die Farben des Stilbezugs ändern die redaktionellen Beziehungen **Widerspruch**, **Nuance** und **Anderer Kontext** nicht. Vergleichspartner und ihre Fundstellen bleiben nebeneinander sichtbar. In dieser ersten Ausbaustufe dienen die Markierungen der Einordnung; es gibt keinen zusätzlichen Stilfilter, der noch nicht eingeordnete Antworten ausblendet.
+
 ## Fuge im Unterricht
 
 Über **Fuge · Thema und Antwort** auf der Startseite oder den Themenfilter **Fuge** erreicht man die Fugenfragen. Jede Frage lässt sich wie die Speziesfragen als eigener Link teilen. Die Autorenpositionen nennen die jeweilige Aufgabe und Ausgabe. Die zusätzlich ausgewiesenen Partiturbeobachtungen sind redaktionelle Lesehinweise zu Bachs Notentext.
@@ -313,6 +337,7 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | `authors` | Optional. Für jede belegte Position ein Objekt mit einer dauerhaften `id`, der Werk-ID in `source`, den Feldern `name`, `work`, `locator`, `text` und optionaler `url`. In `locator` stehen der genaue Fundort und der Geltungsbereich, etwa „zweistimmig, erste Spezies“. |
 | `authors[].id` | Innerhalb der Frage eindeutige Antwortkennung, etwa `prout1890-1`. Bestehende IDs bleiben beim Umstellen, Korrigieren oder Ergänzen der Antworten unverändert. Neue Antworten erhalten neue, unbenutzte Kennungen. |
 | `authors[].speciesScope` | Klassifikation dieser konkreten Aussage nach der zitierten Quelle. `[2]` oder `[2,3]` nennt die belegten Spezies. Bei unterschiedlichen Regeln getrennte Beiträge anlegen. `[]` kennzeichnet ausdrücklich speziesunabhängige Aussagen. Ohne Feld bleibt die Zuordnung offen. |
+| `authors[].context` | Optionale, einzeln belegte Einordnung von Stilbezug und Aufgabenrahmen. `styles` enthält registrierte Stilkennungen, `reach` unterscheidet konkreten, ausdrücklich stilübergreifenden und noch nicht eingeordneten Stilbezug; `frame` benennt die Aufgabe. `evidence` enthält Grundlage, Fundstelle und Begründung. |
 | `authors[].comparison` und `comparisonSources` | Für einen redaktionellen Vergleich die zusätzlich benötigten Werk-IDs in `comparisonSources` angeben. Bei einem Kommentar allein zur gewählten Quelle genügt `[]`. |
 | `authors[].catalogue` | Optional. `true` kennzeichnet die Quellen-URL als Bibliotheksnachweis. Die Seite und das Beispiel stehen im Feld `locator`. |
 | `authors[].kind` | Optional. `partitur` kennzeichnet eine redaktionelle Beobachtung im Notentext eines Komponisten. |
@@ -320,6 +345,23 @@ Für Hindemith führen die gesonderten Werkbelege zum Schott-Inhaltsverzeichnis 
 | `relations` | Optionale Liste paarweiser Vergleiche innerhalb dieser Frage. `from` und `to` nennen zwei Antwort-IDs, `type` ist `contradiction`, `nuance` oder `context`, `note` erläutert den Unterschied. Jedes Paar nur einmal eintragen; beide Richtungen entstehen automatisch. |
 | `reading` und `readingSources` | Optionaler Lesehinweis. `readingSources` enthält die dafür nötigen Werk-IDs. Eine quellenunabhängige Höraufgabe erhält `[]`. |
 | `related` | Optional. Liste der Kennungen verwandter Fragen. |
+
+Für eine Kontexteinordnung `styles`, `reach`, `frame` und `evidence` vollständig angeben. Die registrierten Stilkennungen sind `medieval`, `renaissance`, `baroque`, `classical-romantic` und `modern`. `reach: "specific"` braucht mindestens einen belegten Stilbezug, ohne damit eine ausschließliche Gültigkeit zu behaupten. `reach: "cross-style"` bezeichnet einen ausdrücklich stilübergreifenden Ansatz; die Liste `styles` kann leer bleiben oder belegte Bezugstraditionen nennen. `reach: "unclassified"` mit `styles: []` hält einen bereits gesicherten Aufgabenrahmen fest, während der Stilbezug noch offenbleibt.
+
+`evidence.basis` ist `passage` für die konkrete Passage, `book` für den erklärten Lehrbuchrahmen oder `repertoire` für die redaktionelle Zuordnung anhand des untersuchten Repertoires. `evidence.locator` nennt die dafür maßgeblichen Seiten; `evidence.note` erklärt kurz, was die Zuordnung trägt. Bei einer Einordnung aus dem Buchrahmen sowohl dessen Fundstelle als auch die konkrete Passage berücksichtigen. Eine neue Ausgabe, ein neuer Autor oder ein leeres `speciesScope` rechtfertigen für sich keine Stilzuordnung. Ohne ausreichenden Beleg das Feld weglassen oder nur den belegten Aufgabenrahmen mit `reach: "unclassified"` festhalten.
+
+```json
+"context": {
+  "styles": ["baroque"],
+  "reach": "specific",
+  "frame": "Freier Stil",
+  "evidence": {
+    "basis": "passage",
+    "locator": "Kap. 14, S. 320–321, Bsp. 14.10",
+    "note": "Neidhöfer und Schubert unterscheiden die Vorausnahme im freien Stil ausdrücklich vom strengen Stil und erläutern sie an Bachs Fuge BWV 890."
+  }
+}
+```
 
 Für eine neue Verbindung beide Belege mit ihrem Geltungsbereich prüfen. Die Erläuterung muss allein aus den beiden Antworten hervorgehen und in beiden Leserichtungen verständlich bleiben. Unterschiedliche Notenbeispiele oder zusätzliche Einzelheiten allein begründen keinen Widerspruch. Unterschiede zwischen Spezies, Stimmenzahlen oder Stilen ausdrücklich benennen. `from` und `to` identifizieren die konkreten Antworten verschiedener Autoren, nicht nur deren Namen oder Werke. So bleiben auch mehrere Beiträge desselben Lehrwerks zur selben Frage unterscheidbar.
 
@@ -340,7 +382,7 @@ Für ein weiteres Lehrbuch zuerst in `ATLAS.sources` einen Eintrag mit `id`, `na
 
 Die Wikipedia-Ziele stehen ebenfalls in `atlas-data.js`, unter `ATLAS.people`. Pro Person gibt es `name`, `aliases` (etwa den Nachnamen) und `wikipedia` mit einer geprüften Biografie-URL. Ohne verifizierten Artikel bleibt `wikipedia: null`; insbesondere wird Peter Schubert nicht mit Franz Schubert verwechselt. Vollständige Namen haben Vorrang vor Nachnamen, damit etwa Louis B. Prout sein eigenes Ziel behält. `exclude` nimmt feste Begriffe wie „Bach-Gesellschaft“ von der Verlinkung aus. Neue Nennungen in den Texten erhalten ihren Link automatisch; HTML-Markup in den Daten ist nicht nötig. Deutschsprachige Artikel sind bevorzugt, bei Bedarf führt der Link zu einer anderen Sprachfassung. Die Zuordnung liegt lokal und erfordert beim Öffnen oder Filtern des Atlas keine Netzwerkabfrage. Fragenlinks und Bedienelemente behalten ihre eigene Funktion.
 
-Mit `node --test tests/*.test.cjs` lassen sich Werkkennungen, Quellenverweise, teilbare Fragen- und Antwortlinks, Spezieszuordnungen, gültige und beidseitige Vergleichspaare sowie die Auflösung von Autorennamen prüfen.
+Mit `node --test tests/*.test.cjs` lassen sich Werkkennungen, Quellenverweise, teilbare Fragen- und Antwortlinks, Spezies- und Kontextzuordnungen, gültige und beidseitige Vergleichspaare sowie die Auflösung von Autorennamen prüfen.
 
 ## Redaktionelle Beiträge
 
@@ -356,6 +398,7 @@ Leserinnen und Leser können zu einer Frage **Ergänzung oder Korrektur vorschla
 - `source-selection.js` liest und schreibt die gemeinsamen URL-Parameter für Quellen.
 - `author-links.js` verlinkt registrierte Personennamen in der angezeigten Ansicht.
 - `answer-relations.js` löst paarweise Vergleiche auf und berücksichtigt Quellen sowie die Spezies des Linkziels.
+- `answer-context.js` prüft die Kontextangaben und stellt Stilbezug, Aufgabenrahmen und Begründung auf beiden Vergleichsseiten dar.
 - `atlas-data.js` enthält Fragen, Antworten und Quellen.
 - `quellen/noten/` enthält die im Atlas verwendeten Notenbilder.
 - `quellen/handout.pdf` enthält die drei Originalseiten des Unterrichtshandouts.
