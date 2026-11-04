@@ -1,4 +1,3 @@
-// Redaktion: Ein Eintrag pro Frage. Die fünf Werte jeder Reihe stehen für die Spezies I bis V.
 const ATLAS = {
   "people": [
     {
@@ -789,6 +788,145 @@ const ATLAS = {
         "Schütz"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Schütz"
+    },
+    {
+      "name": "Diether de la Motte",
+      "aliases": [
+        "de la Motte",
+        "De la Motte"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Diether_de_la_Motte"
+    },
+    {
+      "name": "Josquin Desprez",
+      "aliases": [
+        "Josquin",
+        "Josquin des Prez",
+        "Josquin des Prés"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Josquin_Desprez"
+    },
+    {
+      "name": "Pérotin",
+      "aliases": [
+        "Perotin",
+        "Perotinus"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Pérotin"
+    },
+    {
+      "name": "Guillaume Dufay",
+      "aliases": [
+        "Dufay",
+        "Guillaume Du Fay",
+        "Du Fay"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Guillaume_Dufay"
+    },
+    {
+      "name": "Gilles Binchois",
+      "aliases": [
+        "Binchois"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Gilles_Binchois"
+    },
+    {
+      "name": "Heinrich Isaac",
+      "aliases": [
+        "Isaac"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Isaac"
+    },
+    {
+      "name": "Friedrich Blume",
+      "aliases": [
+        "Blume"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Blume_(Musikwissenschaftler)"
+    },
+    {
+      "name": "Igor Strawinsky",
+      "aliases": [
+        "Strawinsky",
+        "Igor Stravinsky",
+        "Stravinsky"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Igor_Strawinsky"
+    },
+    {
+      "name": "Arnold Schönberg",
+      "aliases": [
+        "Schönberg",
+        "Schoenberg"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Arnold_Schönberg"
+    },
+    {
+      "name": "Anton Webern",
+      "aliases": [
+        "Webern"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Anton_Webern"
+    },
+    {
+      "name": "Alban Berg",
+      "aliases": [
+        "Berg"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Alban_Berg"
+    },
+    {
+      "name": "Wolfgang Fortner",
+      "aliases": [
+        "Fortner"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Fortner"
+    },
+    {
+      "name": "Claude Debussy",
+      "aliases": [
+        "Debussy"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Claude_Debussy"
+    },
+    {
+      "name": "Béla Bartók",
+      "aliases": [
+        "Bartók",
+        "Bartok"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Béla_Bartók"
+    },
+    {
+      "name": "Olivier Messiaen",
+      "aliases": [
+        "Messiaen"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Olivier_Messiaen"
+    },
+    {
+      "name": "György Ligeti",
+      "aliases": [
+        "Ligeti"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/György_Ligeti"
+    },
+    {
+      "name": "Witold Lutosławski",
+      "aliases": [
+        "Lutosławski",
+        "Lutoslawski"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Witold_Lutosławski"
+    },
+    {
+      "name": "Bernd Alois Zimmermann",
+      "aliases": [
+        "B. A. Zimmermann",
+        "B.A. Zimmermann",
+        "Zimmermann"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Bernd_Alois_Zimmermann"
     }
   ],
   "sources": [
@@ -1130,6 +1268,16 @@ const ATLAS = {
       "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
       "sortAuthor": "Menke, Johannes",
       "publicationYear": 2017
+    },
+    {
+      "id": "motte1995",
+      "name": "Diether de la Motte",
+      "title": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+      "group": "Lehrwerke",
+      "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+      "sortAuthor": "Motte, Diether de la",
+      "publicationYear": 1995,
+      "publicationNote": "Jahr der verwendeten zweiten spanischen Auflage. Das deutsche Original erschien 1981; die Fundstellen folgen der spanischen Ausgabe."
     }
   ],
   "topics": [
@@ -1326,6 +1474,29 @@ const ATLAS = {
               "note": "Die Unterscheidung nach Notenwerten gehört zu Jeppesens Palestrina-orientierter Melodielehre. Sie ist keine allgemeine Sprungregel für jede Art von Kontrapunkt."
             }
           }
+        },
+        {
+          "id": "motte1995-j04",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Tratamiento de los saltos“, S. 61–63 · gleichgerichtete Sprünge und Phrasengrenzen",
+          "text": "Bei gleichgerichteter Bewegung mit Quarten, Quinten und Terzen liegt das größere Intervall nach de la Mottes Josquin-Beobachtung gewöhnlich tiefer: Im Aufstieg kommt es zuerst, im Abstieg zuletzt. Er beschreibt damit eine bevorzugte Kurve. Bevor man eine scheinbar ungewöhnliche Sprungfolge verwirft, soll man außerdem die Textgliederung prüfen. Zwischen zwei Sinnabschnitten kann eine große Distanz den Schluss der alten und den Anfang der neuen Phrase verbinden. Diese von ihm als „tot“ bezeichneten Intervalle behandelt er anders als Sprünge innerhalb einer zusammenhängend gesungenen Linie.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Vokalsatz um 1500",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Tratamiento de los saltos“, S. 61–63 · gleichgerichtete Sprünge und Phrasengrenzen",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht.",
@@ -1345,6 +1516,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Rothgeb schließt den Septim- oder größeren Dissonanzumfang dreier Töne im Cantus firmus aus. Gallon und Bitsch behandeln rhythmisch verschiedene Linien und lassen solche Umfänge unter Bedingungen zu: Eine Bewegung muss ein Schritt sein; bei der None entscheidet zusätzlich der Notenwert."
+        },
+        {
+          "from": "motte1995-j04",
+          "to": "green-jones2011-1",
+          "type": "nuance",
+          "note": "Beide Beschreibungen legen das größere Intervall der Sprungfolge nach unten. Green und Jones formulieren dies für die Übung verbindlich; de la Motte nennt es den gewöhnlichen Verlauf und verlangt zusätzlich, scheinbare Ausnahmen anhand der Phrasen- und Textgrenzen zu prüfen."
         }
       ]
     },
@@ -2381,6 +2558,29 @@ const ATLAS = {
               "note": "Die unterbrochene Auflösung gehört hier zur rhetorischen Abruptio beziehungsweise Aposiopesis bei Spiess. Ihr Zweck ist der Ausdruck einer offenen Textfrage."
             }
           }
+        },
+        {
+          "id": "motte1995-e07",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 154–157 · Palestrina: Emanzipation der erhöhten Töne",
+          "text": "Ein erhöhtes fis oder cis muss in Palestrinas Satz für de la Motte nicht stets als aufwärts zu führender Leitton verstanden werden. Zunächst zeigt er längere Leittöne und eine auf eine andere Stimme übertragene Fortsetzung. Danach folgen Beispiele, in denen die erwartete Leittonfortsetzung ganz fehlt: Die erhöhte Note bildet eine große Terz und trägt zur Klangfarbe bei. Bevor eine fehlende Auflösung beanstandet wird, muss somit geklärt sein, ob der Ton an dieser Stelle überhaupt Leittonfunktion hat.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Leittonfunktion und Klangfarbe bei Palestrina",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 154–157 · Palestrina: Emanzipation der erhöhten Töne",
+              "note": "S. 154–155 führt länger dauernde und zwischen Stimmen übertragene Leittöne vor; S. 155–156 nennt ausdrücklich fis und cis ohne Leittonfortsetzung als große Terzen zur Klangwirkung. Die Notenbeispiele und Erläuterung auf S. 155 sind visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -2401,6 +2601,12 @@ const ATLAS = {
           "to": "rothgeb1998-s1-1",
           "type": "context",
           "note": "Rothgeb verlangt die Leittonauflösung für den vollständigen Schluss seiner zweistimmigen Übung. Menke behandelt eine rhetorische Unterbrechung, bei der gerade das Ausbleiben des erwarteten Tons die Textfrage offenhält. Schlussbildung und bewusstes Abbrechen erfüllen unterschiedliche Aufgaben."
+        },
+        {
+          "from": "motte1995-e07",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Piston beschreibt die Aufwärtsauflösung eines als Vorhalt wirksamen Leittons beziehungsweise erhöhten Tons. De la Motte betrachtet bei Palestrina auch erhöhte Töne, die als konsonante große Terzen ohne Leittonfortsetzung erklingen. Vor der Anwendung einer Auflösungsregel muss deshalb die jeweilige Funktion des Tons feststehen."
         }
       ]
     },
@@ -2988,11 +3194,81 @@ const ATLAS = {
               "note": "Die Einordnung folgt der besprochenen Violinstimme aus Corellis Sonate op. 3 Nr. 5. Instrument, Mollmelodik und Kadenzfunktion bestimmen diesen Fall."
             }
           }
+        },
+        {
+          "id": "motte1995-r10",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 259–260 · Akkordsprünge und gerichtete Zieltöne",
+          "text": "Für die Bach-Linie unterscheidet de la Motte mehrere Gründe für große oder veränderte Intervalle. Ein Sprung kann verschiedene gedachte Stimmen verbinden oder innerhalb eines Akkords liegen; so erklärt er etwa die große None im Dominantseptakkord. Übermäßige und verminderte Sprünge lässt er außerdem zu, wenn sie auf einen gerichteten Ton führen, der unmittelbar weiterstrebt. Der Sprung wird damit durch seine harmonische und lineare Aufgabe beurteilt. Die Freigabe gilt nicht als isolierte Intervallliste für einen Cantus firmus oder eine Vokalübung im älteren Stil.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 259–260 · Akkordsprünge und gerichtete Zieltöne",
+              "note": "Die nummerierten Punkte auf S. 259–260 unterscheiden gedachte Mehrstimmigkeit, Sprünge innerhalb einer Harmonie und Sprünge zu gerichteten Tönen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e24",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 232–235, besonders S. 235 · Schütz, Was hast du verwirket, T. 1–2",
+          "text": "Nicht jeder Abstand zweier nacheinander gesungener Töne gehört für de la Motte zu einer fortlaufenden melodischen Bewegung. Im geistlichen Konzert Was hast du verwirket deutet er die verminderte Quarte cis–f an der Grenze zwischen Takt 1 und 2 als totes Intervall: Der zweite Takt setzt mit derselben Frage neu an. Der Abstand trägt hier deshalb nicht automatisch den besonderen Affekt eines dissonanten Sprungs. Die Gliederung des Textes hilft zu entscheiden, ob überhaupt eine melodische Fortsetzung vorliegt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Phrasengrenze in Schütz' Generalbassmonodie",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 232–235, besonders S. 235 · Schütz, Was hast du verwirket, T. 1–2",
+              "note": "S. 235 unterscheidet den Neuansatz mit identischem Text zwischen T. 1 und 2 ausdrücklich von der musikalisch-textlichen Fortsetzung zwischen T. 2 und 3 und nennt cis–f ein totes Intervall. Die Interpretation ist eng auf diese Stelle beschränkt."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j02",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Intervalos posibles“, S. 49; „Josquin como músico de expresión moderna“, S. 121–122 · gewöhnliche und außergewöhnliche Sprünge",
+          "text": "Für den Josquin-orientierten Satz nennt de la Motte Sekunden, Terzen, reine Quarten, Quinten und Oktaven in beiden Richtungen. Die kleine Sexte erscheint maßvoll und aufwärts; eine aufsteigende große Sexte ist bereits sehr selten. Selbst Dezimsprünge belegt er, später auch als auffällige Textausdeutung. Damit werden die Ausnahmen nicht zum normalen Material einer Übung. Wer sie verwendet, soll ihre besondere Wirkung bewusst kennzeichnen und sie nicht beiläufig häufen. Übermäßige und verminderte Sprünge gehören dagegen nicht zu seiner anfänglichen Intervallauswahl.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Vokalsatz um 1500",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Intervalos posibles“, S. 49; „Josquin como músico de expresión moderna“, S. 121–122 · gewöhnliche und außergewöhnliche Sprünge",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "related": [
         "generalbass-sextakkord",
-        "sprung-und-taktgewicht"
+        "sprung-und-taktgewicht",
+        "tritonus-melodiebogen"
       ],
       "relations": [
         {
@@ -3036,6 +3312,12 @@ const ATLAS = {
           "to": "jeppesen1964-1",
           "type": "context",
           "note": "Jeppesen schließt verminderte Sprungintervalle aus dem melodischen Material seines Palestrina-Stils aus. Menke beschreibt verminderte Terz und Septime als charakteristisch für Corellis Mollmelodik. Der Unterschied liegt in den historischen Stilen und Besetzungen, nicht in einer unbemerkten Ausnahme von derselben Übungsregel."
+        },
+        {
+          "from": "motte1995-j02",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Jeppesen schließt Sprünge über die Oktave aus seiner Grundlage des Palestrina-Stils aus. De la Motte belegt bei Josquin sogar Dezimen, behandelt sie aber als ausdrücklich außergewöhnliche Ausdrucksmittel. Repertoire und Stellung der Ausnahme im Unterricht sind verschieden."
         }
       ]
     },
@@ -3186,6 +3468,29 @@ const ATLAS = {
               "note": "Der Ausgleich wird innerhalb der Palestrina-orientierten Melodielehre behandelt. Das Ave-Maria-Beispiel zeigt, dass er auch über einen längeren Verlauf erfolgen kann."
             }
           }
+        },
+        {
+          "id": "motte1995-j03",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Tratamiento de los saltos“, S. 60–61 · Ausgleich großer Sprünge bei Josquin",
+          "text": "Bei Oktave und kleiner Sexte verlangt de la Motte Gegenbewegung vor oder nach dem Sprung. Der Richtungswechsel kann schrittweise oder selbst springend erfolgen. Auch Quarten und Quinten findet er häufig auf diese Weise eingebettet, macht daraus aber keine ausnahmslose Vorschrift: Bei diesen kleineren Sprüngen kann die Richtung vor und nach dem Sprung erhalten bleiben. Die Regel fordert deshalb nicht nach jedem großen Sprung sofort eine vollständig ausgefüllte Gegenbewegung; auch der vorausgehende Verlauf zählt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Vokalsatz um 1500",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Tratamiento de los saltos“, S. 60–61 · Ausgleich großer Sprünge bei Josquin",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -3200,6 +3505,12 @@ const ATLAS = {
           "type": "nuance",
           "note": "Beide lassen einen über mehrere Töne verteilten Ausgleich zu. Jeppesen begründet zusätzlich eine Asymmetrie zwischen auf- und absteigenden Sprüngen: Der auffällige Hochton verlangt eher einen schrittweisen Rückweg, nach einem Tiefpunkt ist ein Gegensprung häufiger brauchbar.",
           "from": "jeppesen1964-1"
+        },
+        {
+          "from": "motte1995-j03",
+          "to": "green-jones2011-1",
+          "type": "nuance",
+          "note": "Bei Oktave und aufsteigender kleiner Sexte verlangen Green und Jones Gegenbewegung auf beiden Seiten. De la Motte formuliert für seine Josquin-orientierte Arbeit Gegenbewegung vor oder nach dem Sprung. Die beidseitige Einfassung ist damit die engere Übungsvorgabe."
         }
       ]
     },
@@ -3593,6 +3904,55 @@ const ATLAS = {
               "note": "Die untere Wechselnote wird mit Palestrinas Magnum haereditatis mysterium belegt. Jeppesen unterscheidet dabei ausdrücklich die gleichmäßige dritte Art von gemischten Werten."
             }
           }
+        },
+        {
+          "id": "motte1995-e10",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 164–166 · Palestrina: Durchgangsdissonanzen, Typ 3",
+          "text": "Einen dissonanten Durchgang in gleichmäßigen Halben hält de la Motte für Palestrina keineswegs für den normalen Ausgangsfall. Abgesehen von Ausnahmen findet er ihn vor allem dort, wo keine Viertel vorkommen und die Halbe selbst der schnellste Wert ist, etwa in einem rasch ausgeführten Dreiertakt. In bewegteren Sätzen treten andere Durchgangsrhythmen in den Vordergrund. Für die Zulässigkeit genügt daher nicht die Angabe einer leichten Halben: Ihr Verhältnis zur Bewegung des übrigen Satzes gehört zur Beurteilung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Durchgangsrhythmus in Palestrinas Vokalpolyphonie",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 164–166 · Palestrina: Durchgangsdissonanzen, Typ 3",
+              "note": "S. 165 erklärt den Durchgang in gleichmäßigen Halben als nahezu verdrängten Typ 3 und beschränkt den Regelfall auf Passagen ohne Viertel, in denen die Halbe der schnellste Wert ist. S. 165–166 mit Notenbeispielen visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j11",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Disonancia de paso“, S. 68–75 · drei rhythmische Formen des Durchgangs",
+          "text": "Eine Durchgangsdissonanz wird bei de la Motte schrittweise erreicht und in derselben Richtung schrittweise verlassen. Für Josquin ist damit aber noch nicht ihre stilistische Wirkung bestimmt. Am häufigsten beschreibt er das leichte einzelne Viertel nach einer punktierten Halben, danach die dissonante Halbe nach einem längeren Ton. Die leichte Halbe unmittelbar nach einer betonten Halben, also das vertraute Zwei-gegen-eins-Muster, erscheint in seinem Vergleich am seltensten. Er kritisiert dessen Vorrang im üblichen Lehrgang ausdrücklich. Eigene Stücke sollen diese unterschiedlichen Häufigkeiten widerspiegeln und auch genügend rein konsonante Strecken enthalten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierte freie Zweistimmigkeit; historische Häufigkeit verschiedener Durchgangsrhythmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Disonancia de paso“, S. 68–75 · drei rhythmische Formen des Durchgangs",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true,
+          "examples": [
+            "motte-durchgangsrhythmen"
+          ]
         }
       ],
       "relations": [
@@ -3601,6 +3961,18 @@ const ATLAS = {
           "to": "rothgeb1995-s3-1",
           "type": "context",
           "note": "Fux beschränkt die dissonante leichte Halbe der zweiten Spezies auf den Durchgang durch eine Terz. Rothgeb lässt Wechselnoten, doppelte Wechselnote und Cambiata in der dritten Spezies zu; der unterschiedliche Figurenvorrat gehört zu verschiedenen rhythmischen Aufgaben."
+        },
+        {
+          "from": "motte1995-e10",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux führt den dissonanten Durchgang auf der leichten Halben als elementare Möglichkeit des Zwei-gegen-eins ein. De la Motte beschreibt für Palestrinas Repertoire einen engeren Normalfall: Gleichmäßige halbe Durchgänge treten vor allem auf, wenn keine schnellere Viertelbewegung vorhanden ist. Übungsschema und stilistische Häufigkeit beantworten verschiedene Fragen."
+        },
+        {
+          "from": "motte1995-j11",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux führt den dissonanten Durchgang in der zweiten Spezies auf der leichten Halben des Zweierschlags ein. De la Motte stellt im Josquin-Repertoire gerade die Halbe nach einer betonten Halben hinter weniger auffällige Rhythmen zurück. Er bestreitet nicht ihre Möglichkeit, sondern ihre Eignung als häufigstes stilistisches Grundmodell."
         }
       ]
     },
@@ -4038,6 +4410,75 @@ const ATLAS = {
               "note": "Menke verortet die betonten Durchgänge und Wechselnoten ausdrücklich in französischer Musik des späten 17. Jahrhunderts und bei Bach."
             }
           }
+        },
+        {
+          "id": "motte1995-r07",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 246–248 · betonte Durchgänge",
+          "text": "Betonte Durchgänge gehören für de la Motte zum untersuchten Bach-Stil. Bei sechs seiner acht angeführten Beispiele setzt der betonte Durchgang erst ein, nachdem die betreffende Harmonie deutlich erkennbar geworden ist. Genau diese Abfolge empfiehlt er als Leitidee für eigene Aufgaben: zuerst den harmonischen Bezug herstellen, dann einen betonten akkordfremden Ton dagegen hörbar machen. Die Beobachtung begründet eine hilfreiche Unterrichtsreihenfolge; schon die beiden übrigen Beispiele verhindern, daraus eine ausnahmslose Bedingung für Bachs Musik zu machen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 246–248 · betonte Durchgänge",
+              "note": "S. 247–248 zählt sechs von acht Beispielen und leitet daraus eine Leitidee für eigene Übungen ab."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j12",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „La disonancia en tiempo fuerte“, S. 76–77 und 82–84 · Grundformen der Synkopendissonanz",
+          "text": "De la Mottes Grundmodell für Josquin bindet einen konsonant vorbereiteten Ton in die Dissonanz hinein. Die Gegenstimme erreicht den dissonanten Zusammenklang normalerweise schrittweise und hält ihren Ton bis zur Auflösung. Die gebundene Stimme geht eine Sekunde abwärts: oben ergeben sich 7–6 und 4–3, unten 2–3. Das Ziel ist eine unvollkommene Konsonanz. Entscheidend für das metrische Verhältnis ist, dass die Auflösung leichter liegt als die Dissonanz; ein starres Abzählen der gedruckten Halben genügt nicht immer. Seltene Abweichungen behandelt de la Motte anschließend gesondert als Analysefälle, nicht als gleich häufige Übungsmodelle.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter Zweistimmensatz: normale vorbereitete Synkopendissonanz und gesonderte Ausnahmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „La disonancia en tiempo fuerte“, S. 76–77 und 82–84 · Grundformen der Synkopendissonanz",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j28",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Disonancias de paso en negras“, S. 95–97 · unterschiedlich stark empfundene Halbenpositionen",
+          "text": "Die nominell betonte erste Viertel einer Halben kann in de la Mottes Josquin-Beispielen dissonieren, wenn die ganze Halbenposition durch einen vorausgehenden langen Ton besonders leicht wirkt. Typisch sind dort zwei absteigende Durchgangsviertel; die aufsteigende Fassung behandelt er nicht gleich. Selbst beide Stimmen können gleichzeitig in den dissonanten Zusammenklang eintreten. In den gezeigten Fällen besitzt aber nur eine Stimme diese besonders leichte rhythmische Einbettung. De la Motte erklärt die Wirkung deshalb aus den einzelnen Linien und ihren vorausgehenden Notenwerten, nicht allein aus einer für beide Stimmen einheitlichen Rangordnung der Taktpositionen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Zweistimmensatz: absteigende Viertel nach rhythmisch verlängertem Ton",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Disonancias de paso en negras“, S. 95–97 · unterschiedlich stark empfundene Halbenpositionen",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -4082,6 +4523,18 @@ const ATLAS = {
           "type": "contradiction",
           "note": "Fux zählt den 9–8-Vorhalt zu den verwendbaren Oberstimmenbindungen der zweistimmigen vierten Spezies. Jeppesen schließt ihn in derselben Besetzung aus, weil seine Auflösung eine vollkommene statt einer unvollkommenen Konsonanz ergibt.",
           "from": "jeppesen1964-27"
+        },
+        {
+          "from": "motte1995-r07",
+          "to": "menke2017-8",
+          "type": "nuance",
+          "note": "Menke ordnet den betonten Durchgang als Transitus irregularis ein und nimmt auch betonte Wechselnoten hinzu. De la Motte fragt innerhalb der Bach-Beispiele zusätzlich, wann die Harmonie vor der Dissonanz schon erkennbar ist. Seine Empfehlung schränkt die Übungsplanung ein, ohne Menkes Dissonanztyp grundsätzlich auszuschließen."
+        },
+        {
+          "from": "motte1995-j12",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux nimmt den Oberstimmenvorhalt 9–8 in die vierte Spezies auf. De la Mottes Josquin-Grundmodell verlangt dagegen die unvollkommene Konsonanz als Auflösungsziel und beschränkt die gewöhnlichen Oberstimmenformen auf 7–6 und 4–3. Die spätere Besprechung seltener Ausnahmen macht daraus kein allgemeines Verbot für jedes Werk."
         }
       ]
     },
@@ -4344,6 +4797,75 @@ const ATLAS = {
               "note": "Der moderne Stil bezeichnet hier Heinichens historische Gegenwart. Die Lizenz und ihre Auflösungsbedingungen gehören zur theatralischen Dissonanzbehandlung."
             }
           }
+        },
+        {
+          "id": "motte1995-e11",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 167–168 · Palestrina: Erweiterung der Vorhaltsbildung",
+          "text": "Bei einem vorbereiteten Vorhalt kann die Gegenstimme nach de la Motte die Dissonanz auch durch einen Sprung herstellen. Die vorhaltende Stimme selbst bleibt dabei auf ihrem zuvor konsonanten Ton liegen. Palestrinas mehrstimmige Beispiele erlauben deshalb keine pauschale Aussage, jede an einem dissonanten Zusammenklang beteiligte Stimme müsse schrittweise hineingehen. Zugleich schränkt de la Motte ein: Meist bewegt sich noch eine weitere Stimme schrittweise wie in einer Kadenz, sodass die Dissonanz nicht ausschließlich durch den Sprung entsteht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Vorhalt und springende Gegenstimme bei Palestrina",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 167–168 · Palestrina: Erweiterung der Vorhaltsbildung",
+              "note": "S. 167 zeigt ausdrücklich Schritt- und Sprungvarianten der Gegenstimme bei unverändert gebundener Vorhaltsstimme und qualifiziert die reine Sprungbildung wegen der weiteren Stimmen als selten. Notenbeispiele visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e25",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 234 und 236 · Schütz, Was hast du verwirket, T. 16",
+          "text": "Das angesprungene fis in Takt 16 von Schütz’ Was hast du verwirket erklärt de la Motte nicht erschöpfend durch die Benennung einer Satzlizenz. Der Ton komme zu früh: Die Erregung treibe den Sänger voraus. Für diese konkrete Stelle verbindet er die Dissonanzbehandlung daher mit Vortrag und Textausdruck. Die satztechnische Beschreibung bleibt möglich, erklärt aber allein noch nicht, warum der auffällige Eintritt hier überzeugend wirkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Angesprungene Dissonanz als Textausdruck bei Schütz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 234 und 236 · Schütz, Was hast du verwirket, T. 16",
+              "note": "Der Schlusskommentar auf S. 236 bezeichnet die bloße Diagnose einer angesprungenen Dissonanz als zu trocken und deutet fis in T. 16 als verfrühten, von Erregung getriebenen Eintritt. Das markierte fis auf S. 234 wurde visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j13",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „La disonancia en tiempo fuerte“, S. 76 und 84 · welche Stimme die Vorhaltsdissonanz herstellt",
+          "text": "Bei einer vorbereiteten Synkopendissonanz sind zwei Vorgänge auseinanderzuhalten: Eine Stimme bleibt auf ihrem bereits konsonant eingeführten Ton liegen; die andere erzeugt den dissonanten Zusammenklang. Diese bewegte Stimme geht in de la Mottes Josquin-Grundmodell schrittweise. Er findet auch wenige Beispiele, in denen sie stattdessen springt. Für die eigene Stilübung empfiehlt er den Schritt und verlangt, einen dennoch verwendeten Sprung als ungewöhnlichen Fall zu kennzeichnen. Damit ist nicht das unvorbereitete Anspringen des vorgehaltenen Tons gemeint: Die Bindung der anderen Stimme bleibt erhalten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter Zweistimmensatz: bewegte Gegenstimme einer vorbereiteten Synkope",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „La disonancia en tiempo fuerte“, S. 76 und 84 · welche Stimme die Vorhaltsdissonanz herstellt",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -4370,6 +4892,12 @@ const ATLAS = {
           "to": "jeppesen1964-55",
           "type": "context",
           "note": "Jeppesens Parasit-Dissonanz wird durch gleichzeitig erklingende Töne einer anderen, korrekt geführten Stimme gedeckt. Bei Menkes Darstellung von Heinichen kann schon eine gedachte Stimme den Eintritt erklären; der Auflösungston muss dennoch tatsächlich in der Harmonie vorkommen. Die Verwandtschaft der Erklärung hebt den Unterschied zwischen Palestrina-Beispiel und theatralischem Barockstil nicht auf."
+        },
+        {
+          "from": "motte1995-j13",
+          "to": "schubert1999-1",
+          "type": "nuance",
+          "note": "Beide Autoren unterscheiden die gebundene Vorhaltsstimme von der Stimme, die die Dissonanz herstellt. Schubert lässt diese bewegte Stimme durch Schritt oder Sprung eintreten. De la Motte behandelt den Sprung in seinem Josquin-Repertoire als selten und für die eigene Übung eigens zu kennzeichnend."
         }
       ]
     },
@@ -4763,6 +5291,101 @@ const ATLAS = {
               "note": "Gegenstand ist die zeitlich verzögerte Septimenauflösung in der zweiten Violine von Corellis Sonate op. 3 Nr. 5."
             }
           }
+        },
+        {
+          "id": "motte1995-r05",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 241–242 · charakteristische Dissonanzen in einer einzelnen Linie",
+          "text": "In der einstimmigen Bach-Übung soll die Septime der Dominante ihren Auflösungston in derselben Oktavlage erreichen. Dass der passende Ton irgendwann in einem anderen Register vorkommt, genügt de la Motte nicht: Die Dissonanz wird als Bestandteil einer weiterzuführenden gedachten Stimme gehört. Die Linie darf dazwischen andere Akkordtöne spielen. Davon unterscheidet er ausdrücklich den Leitton als Terz der Dominante; dessen Zielton kann in seinen Bach-Beispielen auch in einer anderen Oktavlage stehen. Die Lagebindung dieser Übung darf deshalb nicht unterschiedslos auf jeden gerichteten Ton übertragen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Einstimmige Übung und gedachte Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 241–242 · charakteristische Dissonanzen in einer einzelnen Linie",
+              "note": "Die gedruckten S. 241–242 unterscheiden die registergebundene Dissonanzauflösung von der möglichen Oktavversetzung des Leittonziels; die Notenbeispiele wurden visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true,
+          "examples": [
+            "motte-aufloesung-register"
+          ]
+        },
+        {
+          "id": "motte1995-r12",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 269–273 · Vorhalt zur verdoppelten Terz und Gegenbeispiel",
+          "text": "Als Übungsnorm lässt de la Motte einen Vorhalt vor einem bereits in der anderen Stimme klingenden Ton nur dann zu, wenn dieser Ton Akkordgrundton ist. Einen Nonenvorhalt vor einer verdoppelten Terz bezeichnet er zunächst als stilwidrig. Kurz darauf führt er im ersten Duett aus der Clavier-Übung III ausdrücklich ein Gegenbeispiel aus Bachs Musik an. Auch verschobene oder nur in einer anderen Stimme ergänzbare Auflösungen werden dort diskutiert. Die pauschale Verbotsformel wäre deshalb eine unvollständige Wiedergabe seines Kapitels: Er stellt der überschaubaren Unterrichtsnorm eine Analyse gegenüber, die deren Grenzen sichtbar macht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Übungsnorm und Duettanalyse",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 269–273 · Vorhalt zur verdoppelten Terz und Gegenbeispiel",
+              "note": "S. 269–270 formuliert die Einschränkung; S. 273 nennt den Nonenvorhalt im Duett ausdrücklich als Gegenbeweis zur zuvor erklärten Regel."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e19",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 218–220 · Schütz: abspringende Verzierungsnoten",
+          "text": "In den Schütz-Beispielen kann ein geplanter Sekundschritt zunächst durch einen kurzen Gegenschritt verziert werden. Von diesem eingeschobenen Ton führt dann eine Terz zum Ziel der ursprünglichen Bewegung. Die Figur ist aufwärts wie abwärts möglich und kann sogar einen Sprung von einer Dissonanz in eine andere ergeben. De la Motte erläutert sie mit Bernhards Beschreibung und belegt sie anschließend in den Kleinen geistlichen Konzerten. Die Fortsetzung wird somit aus der gesamten Ornamentfigur verständlich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Verzierung im Stylus luxurians bei Schütz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 218–220 · Schütz: abspringende Verzierungsnoten",
+              "note": "S. 218 definiert den Gegenschritt vor einer Sekundbewegung und die mögliche Terz zwischen zwei Dissonanzen; S. 219–220 bietet Schütz-Beispiele, darunter einen größeren Absprung. Definition und Bernhard-Beispiele auf S. 218 visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j14",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, S. 104–105 · leichte abspringende Vierteldissonanz",
+          "text": "Nicht jede leichte Dissonanz wird in de la Mottes Josquin-Beispielen unmittelbar schrittweise aufgelöst. Er beschreibt eine häufige Figur, in der ein unbetontes dissonantes Viertel von oben schrittweise erreicht und anschließend durch einen Sprung nach oben oder unten verlassen wird. Mit Blick auf spätere Terminologie nennt er dies eine Escapada. Erst einen besonderen Fall erklärt er als unterbrochenen Durchgang: Wird die übersprungene Fortsetzung später nachgeholt, entsteht die Cambiata. Der allgemeine Befund der abspringenden Vierteldissonanz ist bei ihm daher weiter gefasst als dieses einzelne Modell.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Satz: leichte abspringende Vierteldissonanz, getrennt vom gebundenen Vorhalt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 104–105 · leichte abspringende Vierteldissonanz",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -4789,6 +5412,12 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "context",
           "note": "Fux lässt in der Cambiata seiner dritten Spezies den Terzsprung abwärts aus der Dissonanz zu. Menkes barocke Ornamentfiguren können die Dissonanz auch mit einem Terzsprung aufwärts verlassen. Subsumtio und Superjectio sind eigene Figuren in einem anderen Stilrahmen, keine austauschbaren Varianten derselben Cambiata-Regel."
+        },
+        {
+          "from": "motte1995-r05",
+          "to": "menke2017-93",
+          "type": "context",
+          "note": "De la Motte bindet die Dissonanzauflösung in seiner einstimmigen Bach-Aufgabe an dieselbe gedachte Stimme und Oktavlage. Menkes theatralischer Satz erlaubt nach Heinichen auch eine Umschichtung des dissonanten Klangs und des Auflösungsklangs. Die größere Freiheit betrifft einen anderen Satz- und Stilrahmen, nicht bloß eine abweichende Schreibweise derselben Übung."
         }
       ]
     },
@@ -5297,6 +5926,52 @@ const ATLAS = {
               "note": "Die Erklärung bezieht sich auf Caldaras Crucifixus a 16. Die große Besetzung und die zeitlich versetzten Auflösungen sind Bedingungen des Befunds."
             }
           }
+        },
+        {
+          "id": "motte1995-e01",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 3, 7, 15–16 · Pérotin, Sederunt",
+          "text": "Im vierstimmigen Sederunt behandelt de la Motte parallele Einklänge und Oktaven als bewusst verwendete Gestaltungsmittel. Die Stimmen bewegen sich zwischen den klanglichen Stützpunkten freier, als spätere Satzregeln erwarten lassen. Seine Analyseaufgabe verlangt deshalb, die auffällig gehäuften Parallelen zu markieren und ihre Wirkung im Zusammenhang zu hören. Daraus folgt eine Aussage über Pérotins Organum, keine Erlaubnis für eine spätere Speziesübung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "medieval"
+            ],
+            "reach": "specific",
+            "frame": "Pérotins vierstimmiges Organum",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 3, 7, 15–16 · Pérotin, Sederunt",
+              "note": "Die Seiten 3 und 7 nennen Einklangs- und Oktavparallelen; die Aufgabe auf S. 15–16 bezeichnet sie ausdrücklich als bewusstes künstlerisches Mittel, das erst später als Fehler behandelt wird."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j07",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Paralelas“, S. 57–58 · versetzte Quinten und Oktaven; Unterschied der Stimmenzahl",
+          "text": "Im zweistimmigen Satz unterscheidet de la Motte zeitlich versetzte Quint- und Oktavfolgen. Wiederkehrende Quinten auf betonten Positionen können durch den versetzten Eintritt der Stimmen entstehen; er zeigt dies an O bone et dulcissime Jesu. Entsprechend versetzte Oktaven schließt er für das Duett aus. In dichterem mehrstimmigem Satz beobachtet er dagegen auch Oktaven auf aufeinanderfolgenden betonten Zeiten, sofern andere Töne dazwischenliegen. Offene parallele Oktaven bleiben ausgeschlossen. Einzelne offene Quintparallelen in mehr als zwei Stimmen sind für ihn historische Belege, keine allgemeine Freigabe für die zweistimmige Übung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter Satz: Zweistimmigkeit und dichterer mehrstimmiger Satz ausdrücklich unterschieden",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Paralelas“, S. 57–58 · versetzte Quinten und Oktaven; Unterschied der Stimmenzahl",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -5341,6 +6016,18 @@ const ATLAS = {
           "to": "green-jones2011-2",
           "type": "context",
           "note": "Green und Jones prüfen ihre zweistimmige Kette dissonanter Vorhalte durch Freilegen der Auflösungen und verwerfen dabei entstehende Oktavparallelen. Menke erläutert einen sechzehnstimmigen Satz, in dem eine Dissonanz bewusst verdoppelt und zeitlich versetzt aufgelöst wird. Die Reduktionsregel der Übung darf nicht ohne Prüfung der konkreten Stimmenwege auf diesen Ensemblesatz übertragen werden."
+        },
+        {
+          "from": "motte1995-e01",
+          "to": "zarlino1558-1",
+          "type": "context",
+          "note": "Zarlino verwirft gleichgerichtete Folgen vollkommener Intervalle; de la Motte untersucht dagegen Pérotins älteres Organum, in dem gerade Einklangs- und Oktavparallelen bewusst gestalten. Der Unterschied betrifft die historische Satzweise, nicht zwei widersprechende Urteile über dieselbe Aufgabe."
+        },
+        {
+          "from": "motte1995-j07",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux prüft in der zweiten Spezies, ob Zwischentöne die Quinten oder Oktaven auf schweren Zeiten tatsächlich verdecken. De la Motte unterscheidet im freien Josquin-Duett stärker zwischen den Intervallarten: Seine versetzten Quinten sind gebräuchlich, die entsprechenden Oktaven ausgeschlossen. Die freiere Rhythmik der Werkbeispiele gehört zu diesem Vergleich."
         }
       ]
     },
@@ -5715,6 +6402,29 @@ const ATLAS = {
               "note": "Die Ausnahmen betreffen die drei- und vierstimmige erste Art innerhalb des Palestrina-orientierten Lehrgangs. Die jeweilige Stimmenzahl bleibt entscheidend."
             }
           }
+        },
+        {
+          "id": "motte1995-j06",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Paralelas“, S. 56–57 · verdeckte Quinten und Oktaven im Zweistimmensatz",
+          "text": "Auch im zweistimmigen Josquin-Satz findet de la Motte verdeckte Quinten und Oktaven. In den angeführten Fällen erreicht mindestens eine Stimme das vollkommene Intervall schrittweise, fast immer die obere. Er lehnt deshalb ein pauschales Verbot ebenso ab wie einen häufigen, unbedachten Gebrauch. Die Lernenden sollen jede solche Stelle markieren und damit sichtbar machen, dass sie eine seltenere Wendung einsetzen. Die schrittweise Stimme erklärt die Belege; sie ist keine Einladung, jede gleichgerichtete Annäherung an Quinte oder Oktave unterschiedslos zu verwenden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Zweistimmensatz; seltene verdeckte Parallelen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Paralelas“, S. 56–57 · verdeckte Quinten und Oktaven im Zweistimmensatz",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -5783,6 +6493,12 @@ const ATLAS = {
           "type": "contradiction",
           "note": "In der dreistimmigen ersten Spezies erlaubt Jeppesen die direkte Quinte zwischen den Außenstimmen und bevorzugt dabei eine schrittweise Oberstimme. Salzer und Schachter behalten für dieses Stimmenpaar die Regel gegen den direkten Eintritt in vollkommene Konsonanzen bei; ihre besondere Schlussausnahme betrifft die Oktave.",
           "from": "jeppesen1964-51"
+        },
+        {
+          "from": "motte1995-j06",
+          "to": "jeppesen1964-42",
+          "type": "context",
+          "note": "Jeppesen verbietet verdeckte Quinten und Oktaven in der zweistimmigen ersten Art auch bei schrittweiser Oberstimme. De la Motte nimmt seltene entsprechende Werkstellen in seine Josquin-orientierte freie Satzarbeit auf. Der Gegensatz betrifft eine eng definierte Speziesaufgabe und einen anderen historischen Stilrahmen."
         }
       ]
     },
@@ -6201,6 +6917,52 @@ const ATLAS = {
               "note": "Die Aussage untersucht Vorhaltsketten und Kadenzrollen der beiden Violinen in Corellis Sonate op. 3 Nr. 5."
             }
           }
+        },
+        {
+          "id": "motte1995-e05",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 33–36 · Binchois, Adieu, adieu",
+          "text": "In Binchois’ Adieu, adieu deutet de la Motte die häufigen Kreuzungen der beiden begleitenden Stimmen als Mittel der Klangverschmelzung. Ihr eng begrenzter gemeinsamer Tonraum lässt sie weniger als zwei getrennte Linien hervortreten; dadurch hebt sich die beweglichere Gesangsstimme umso deutlicher ab. Die Kreuzungen haben hier eine positive Aufgabe bei der Unterscheidung von Melodie und Begleitung. Sie werden nicht bloß als gelegentlicher Ausweg aus einer ungünstigen Lage beschrieben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Gesang und Begleitstimmen in Binchois’ Chanson",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 33–36 · Binchois, Adieu, adieu",
+              "note": "S. 35 beschreibt häufige Kreuzungen innerhalb begrenzten Ambitus ausdrücklich als Abschwächung des Eindrucks zweier selbstständiger Begleitstimmen; S. 36 hebt die Beweglichkeit und Vorrangstellung des Gesangs hervor. Besetzung und Wirkung werden als de la Mottes Lesart wiedergegeben."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j08",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Paralelas“, S. 59; Analyse von Ave Christe, immolate, S. 140–141 · Kreuzung im imitierenden Duett",
+          "text": "Stimmkreuzungen und Einklänge gehören für de la Motte auch zum zweistimmigen Josquin-Satz. Im Ausschnitt aus Ave Christe, immolate beschreibt er einen besonders deutlichen Wechsel: Auf einen engen Quintkanon ohne Kreuzung folgt ein Einklangskanon mit ausgeprägter Überkreuzung. Die Stimmen übernehmen dabei nacheinander die führende Rolle im Aufstieg. Die Kreuzung ist hier ein hörbarer Teil der Imitation und der gemeinsamen Steigerung; sie lässt sich nicht allein als Störung einer festen Ober- und Unterstimme beurteilen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter imitierender Zweistimmensatz; Ave Christe, immolate",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, „Paralelas“, S. 59; Analyse von Ave Christe, immolate, S. 140–141 · Kreuzung im imitierenden Duett",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -6269,6 +7031,12 @@ const ATLAS = {
           "to": "bellermann1901-1",
           "type": "context",
           "note": "Bellermann möchte Stimmkreuzung an der Kadenz vermeiden. Menke zeigt dagegen im barocken Triosonatensatz, wie Corelli gerade durch Kreuzung und Rollentausch die Kadenz dehnt. Die gegensätzlichen praktischen Empfehlungen betreffen verschiedene Satzstile und Aufgaben."
+        },
+        {
+          "from": "motte1995-e05",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Piston bindet die Kreuzung im freien Zweistimmensatz an die Erkennbarkeit beider Linien. In de la Mottes Binchois-Analyse sollen die begleitenden Stimmen durch häufige Kreuzungen gerade stärker verschmelzen. Die unterschiedlichen Aufgaben der Stimmen verändern das Bewertungskriterium."
         }
       ]
     },
@@ -6543,6 +7311,29 @@ const ATLAS = {
               "note": "Die Abstandsgrenze und ihre melodisch begründete Ausnahme gehören zur ersten zweistimmigen Art. Ihr historischer Bezug folgt dem Lehrbuchrahmen."
             }
           }
+        },
+        {
+          "id": "motte1995-j05",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Distancias“, S. 50–54 · zwei benachbarte Stimmlagen",
+          "text": "De la Motte legt dem zweistimmigen Josquin-Satz benachbarte Stimmlagen zugrunde. Wegen der damaligen Überlappung der mittleren Lagen können dazu auch Sopran und Tenor oder Alt und Bass gehören. In seinen Beispielen bleiben die Stimmen meist innerhalb der Oktave; zeitweilig kommen weitere Abstände vor. Wechselt eine Stimme deutlich das Register, folgt die andere bald nach. Für die erste eigene Aufgabe sollen kurze Überschreitungen der Oktave eigens markiert werden. Die Oktave beschreibt hier also den bevorzugten Zusammenhalt zweier Linien, keine unverletzliche Höchstgrenze.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter Zweistimmensatz in benachbarten Stimmlagen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Distancias“, S. 50–54 · zwei benachbarte Stimmlagen",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
@@ -6586,6 +7377,12 @@ const ATLAS = {
           "type": "nuance",
           "note": "Bellermann setzt die nur vorübergehend erlaubte Dezime als äußerste Grenze für seine benachbarten Singstimmen. Jeppesen verwendet dieselbe Dezime als Richtwert, erlaubt aber bei besonders schöner Stimmführung ausdrücklich einen größeren Abstand.",
           "from": "jeppesen1964-21"
+        },
+        {
+          "from": "motte1995-j05",
+          "to": "jeppesen1964-21",
+          "type": "context",
+          "note": "Jeppesen nennt für die erste Art die Dezime als grundsätzlich einzuhaltenden Abstand und gestattet melodisch begründete Überschreitungen. De la Motte orientiert seine freien Josquin-Duette stärker an der Oktave, lässt aber ebenfalls zeitweilige Erweiterungen zu. Bevorzugte Lage und Übungsrahmen unterscheiden sich; beide Grenzen sind keine absoluten Verbote."
         }
       ]
     },
@@ -6852,6 +7649,66 @@ const ATLAS = {
               "note": "Palestrinas Ave Maria steht für das gewählte Stilideal; Fux’ Motettenthema dient als Gegenprobe. Fux’ Lebenszeit macht diese Bewertung nicht zu einer allgemeinen Barockregel."
             }
           }
+        },
+        {
+          "id": "motte1995-j22",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Josquin como músico de expresión moderna“, S. 132–133; Analyse des Agnus Dei II der Missa De beata Virgine, S. 139–140 · Steigerung im größeren Verlauf",
+          "text": "Ein Höhepunkt kann bei de la Motte aus der Verbindung von allmählich erweitertem Tonraum und zunehmend dichter Bewegung entstehen. In seiner Analyse von De profundis wird der höchste Sopranton erst am Ende erreicht; zugleich häufen sich dort Viertel in vorher nicht gehörter Dichte. Solche Steigerungen weist er ausdrücklich gegen ein zu enges Bild gleichmäßig ruhigen Renaissancekontrapunkts aus. Im Agnus Dei II der Missa De beata Virgine verfolgt er außerdem größer werdende Entwicklungsbögen und einen spät erreichten Gipfel. Der einzelne Hochton wirkt durch die Vorbereitung des ganzen Abschnitts.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin: großräumige Steigerung in De profundis und Missa De beata Virgine",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, „Josquin como músico de expresión moderna“, S. 132–133; Analyse des Agnus Dei II der Missa De beata Virgine, S. 139–140 · Steigerung im größeren Verlauf",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l14",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 364–366 · Berg, Wozzeck; zwei expressive Melodiekonturen",
+          "text": "In Wozzeck unterscheidet de la Motte zwei Arten, einen Spitzenton in die Linie einzubinden. Ein großer Anstieg mit anschließend zunächst kleinen, dann größeren Abwärtsintervallen gehört in seinen Beispielen zum Ausdruck der Klage. Eine Zickzacklinie, die den Spitzenton anspringt und sofort wieder abspringt, lässt ihn dagegen isoliert und scharf hervortreten; dies verbindet er mit Spott und Aggression. Die Gestaltung des Gipfels richtet sich hier nach dem dramatischen Ausdruck der konkreten Stelle, nicht nach einem einheitlichen Ideal möglichst geglätteter Melodik.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Expressive Vokalkonturen · Bergs Wozzeck",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 364–366 · Berg, Wozzeck; zwei expressive Melodiekonturen",
+              "note": "Die Ausdrucksdeutung bezieht sich auf die von de la Motte ausgewählten Opernstellen; sie ist keine allgemeine psychologische Bedeutung bestimmter Intervalle."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "motte1995-j22",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Jeppesen warnt für sein Stilideal davor, hohe Lage, rhythmischen Nachdruck und motivische Wiederholung zu stark zu bündeln. De la Motte hebt an Josquin gerade die Verbindung von spät erweitertem Tonraum und verdichteter Viertelbewegung als Ausdruck einer großen Steigerung hervor. Die unterschiedlichen Repertoirebezüge erklären, weshalb dieselben Mittel verschieden gewichtet werden."
+        },
+        {
+          "from": "motte1995-l14",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Jeppesen warnt im Palestrina-orientierten Stilideal davor, einen Gipfel durch das Zusammenwirken von Höhe, Rhythmus und Wiederholung übermäßig zu betonen. In Bergs dramatischen Zickzackkonturen deutet de la Motte die Isolation und Schärfe eines Spitzentons als gewollten Ausdruck. Der gewünschte Affekt verändert den Bewertungsmaßstab."
         }
       ]
     },
@@ -7105,6 +7962,75 @@ const ATLAS = {
               "note": "Menke entwickelt diese Chromatisierungen aus den zuvor eingeführten Stimmenmodellen seines barocken Lehrgangs."
             }
           }
+        },
+        {
+          "id": "motte1995-r08",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 254–258 · charakteristische Töne der Zwischendominanten",
+          "text": "In einer einzelnen Bach-Linie kann schon ein charakteristischer Ton eine Zwischendominante erkennen lassen. Entscheidend ist, ob der Ton das neue Ziel von anderen möglichen Zielen unterscheidet; nicht jede neue Alteration ist schon eindeutig. De la Motte empfiehlt deshalb, vor der melodischen Ausarbeitung die dafür nötigen Töne zu planen. Bei der Rückkehr muss ein zuvor eingeführter erhöhter Ton gegebenenfalls durch seine natürliche Form hörbar zurückgenommen werden. Chromatik wirkt hier im zeitlichen Gedächtnis der Harmonie: Ein Vorzeichenwechsel gewinnt Bedeutung durch den vorbereiteten und anschließend bestätigten Zusammenhang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 254–258 · charakteristische Töne der Zwischendominanten",
+              "note": "S. 254–258 erklärt charakteristische Töne von Zwischendominanten und deren ausdrückliche Rücknahme bei der Rückkehr."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e21",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 223–224 · Schütz: chromatische Linien und Ausdruck",
+          "text": "Chromatische Bewegung hat bei Schütz nach de la Mottes Analyse nicht nur eine harte oder klagende Wirkung. Er stellt Bernhards Bezeichnung passus duriusculus Beispielen gegenüber, die sowohl Schmerz als auch süßen oder zärtlichen Ausdruck tragen. Die wertende Benennung der Figur sagt damit noch nicht, welche Wirkung sie an einer bestimmten Textstelle besitzt. Maßgeblich sind die konkrete Wendung und der vertonte Ausdruck, nicht eine feste Gleichsetzung von Chromatik mit Härte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Chromatische Ausdrucksfiguren bei Schütz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 223–224 · Schütz: chromatische Linien und Ausdruck",
+              "note": "S. 223 kontrastiert die Härtebezeichnung des Theoretikers ausdrücklich mit zwei Ausdrucksbereichen der Kompositionspraxis; S. 224 setzt die Belegreihe fort. Die Aussage wird als de la Mottes Interpretation von Schütz wiedergegeben, nicht als allgemeine Affektenregel."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j01",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Material sonoro“, S. 43–46 · Tonvorrat und Kadenzleittöne bei Josquin",
+          "text": "De la Motte unterscheidet zwei diatonische Tonfelder, eines mit h und eines mit b. Diese Töne stehen als Alternativen zur Verfügung; die chromatische Folge b–h gehört nicht zum Modell. Davon unterscheidet er erhöhte Kadenzleittöne, etwa cis vor d, fis vor g und gis vor a im vorzeichenlosen Tonfeld. Solche Alterationen wurden nach seiner Darstellung häufig von den Ausführenden ergänzt. Für den Schluss auf e setzt er keinen künstlichen Leitton dis an. Seine Beschränkung der eigenen Übungen auf das vorzeichenlose Tonfeld vereinfacht somit den Ausgangsvorrat; sie beseitigt die beschriebenen Kadenzalterationen nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierte Übung: diatonische Tonfelder und lokal ergänzte Kadenzleittöne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Material sonoro“, S. 43–46 · Tonvorrat und Kadenzleittöne bei Josquin",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "related": [
@@ -7113,7 +8039,8 @@ const ATLAS = {
         "rezitationston-und-finalis",
         "fuge-chromatische-antwort",
         "chromatik-ohne-diatonisches-geruest",
-        "lamento-bass"
+        "lamento-bass",
+        "tritonus-melodiebogen"
       ],
       "relations": [
         {
@@ -7127,6 +8054,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Noël-Gallon und Bitsch verbieten im einfachen Kontrapunkt den unmittelbaren chromatischen Schritt. Menke zeigt ihn als konstruktives Mittel barocker Sequenzmodelle. Der Gegensatz ist deutlich, betrifft aber unterschiedliche stilistische und didaktische Bereiche; er hebt die französische Übungsregel nicht innerhalb ihrer eigenen Aufgabe auf."
+        },
+        {
+          "from": "motte1995-e21",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Das unmittelbare chromatische Fortschreiten ist im strengen Übungsrahmen von Noël-Gallon und Bitsch verboten. In de la Mottes Schütz-Beispielen gehört es dagegen zu den verfügbaren Ausdrucksmitteln und kann außer Klage auch Zärtlichkeit tragen. Die Regeln beziehen sich auf verschiedene Satzweisen."
         }
       ]
     },
@@ -8482,6 +9415,29 @@ const ATLAS = {
               "note": "Der Rückverweis auf Orientis partibus und das Kapitel zum 14. Jahrhundert begründen den mittelalterlichen Bezug dieser Kadenzbeobachtung."
             }
           }
+        },
+        {
+          "id": "motte1995-j19",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Formación de las cadencias“, S. 108–112 · sechs melodische Schlusszeichen",
+          "text": "Die Schlussstimme ist bei de la Motte nicht auf eine unveränderte Vorhaltsformel beschränkt. Für Josquin unterscheidet er sechs wiedererkennbare Kadenzzeichen: den Vorhalt vor dem Leitton, eine Vorausnahme der Finalis sowie mehrere Auszierungen durch untere oder obere Nachbartöne. Dazu gehört auch die schon ältere Unterterzkadenz. Die meisten Formen lassen sich auf die zunächst geübte Vorhaltskadenz beziehen, verändern aber ihren melodischen Verlauf. De la Motte lässt die Lernenden bereits geschriebene Abschnitte mit anderen Schlussformeln versehen. Die Auswahl soll das Hören und Gestalten von Phrasenenden differenzieren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Satz: melodische Kadenzzeichen in zweistimmigen Abschnitten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Formación de las cadencias“, S. 108–112 · sechs melodische Schlusszeichen",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -8939,6 +9895,54 @@ const ATLAS = {
               "note": "Menke erklärt den Zeitraum 1600–1750 zum Schwerpunkt und betont die verschiedenen Aufgaben und Wirkungsabsichten innerhalb barocker Satzpraxis."
             }
           }
+        },
+        {
+          "id": "motte1995-r01",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Vorwort, S. VII–VIII und XI–XIII · getrennte Lehrgänge und Kritik der Speziesfolge",
+          "text": "De la Motte baut den Unterricht auf drei eigenständigen Bereichen auf: Josquin, Bach und Neue Musik. Ihre Reihenfolge kann wechseln; für den Bach-Lehrgang setzt er Harmoniekenntnisse voraus. Eine für alle Bereiche verbindliche Speziesfolge lehnt er ab. Bei Josquin sollen einzelne Techniken aus dem Repertoire erschlossen werden, bei Bach führt der Weg über harmonische Funktionen und deren melodische Ausarbeitung. Lieber lässt er zwei verschiedene musikalische Sprachen zweistimmig erlernen, als denselben Stil nur durch zusätzliche Stimmen zu erweitern. Das ist eine Entscheidung über den Lehrgang, kein Verbot mehrstimmiger Arbeit.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque",
+              "modern"
+            ],
+            "reach": "cross-style",
+            "frame": "Lehrkonzept · drei musikalische Sprachen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. VII–VIII und XI–XIII · getrennte Lehrgänge und Kritik der Speziesfolge",
+              "note": "Das Vorwort nennt Josquin, Bach und Neue Musik ausdrücklich als selbstständige Lehrbereiche und kritisiert eine überall gleiche Speziesfolge."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e13",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 171–173 · Palestrina: Grenzen des zweistimmigen Modells",
+          "text": "Palestrinas kurze zweistimmige Stellen sind für de la Motte kein verlässliches Modell seines gesamten Stils. Die Musik geht häufig rasch in drei oder mehr Stimmen über. Wo sie zweistimmig bleibt, bevorzugt Palestrina nach dieser Analyse oft Terzen und Sexten sowie gemeinsame Textführung, also klangliche Verschmelzung. Gerade diese Stellen unterscheiden sich vom Unterrichtsideal möglichst selbstständiger Linien. Wer Palestrina als Ausgangspunkt einer zweistimmigen Lehre wählt, muss deshalb zwischen pädagogischer Aufgabe und repräsentativem Repertoire unterscheiden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Palestrinas Zweistimmigkeit als Unterrichtsmodell",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 171–173 · Palestrina: Grenzen des zweistimmigen Modells",
+              "note": "S. 171 stellt die Repräsentativität zweistimmiger Palestrina-Stellen ausdrücklich infrage und beschreibt Terzen-Sexten-Führung mit gleichem Text. Die Seite samt Motettenbeispiel ist visuell geprüft; PDF96 enthält Bildseiten ohne brauchbare Texterkennung."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "related": [
@@ -8994,6 +9998,24 @@ const ATLAS = {
           "to": "benjamin1986-1",
           "type": "context",
           "note": "Benjamin richtet seine Übungen auf Bachs Instrumentalstil aus. Menke untersucht verschiedene Satzweisen zwischen 1600 und 1750 und verschiebt das Gewicht ausdrücklich auch zu Monteverdi, Lully und Corelli. Die unterschiedlichen Ausgangspunkte betreffen das gewählte Repertoire und Lehrziel."
+        },
+        {
+          "from": "motte1995-r01",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Jeppesen behält die fünf Spezies als Weg zur selbstständigen Stimmführung bei und wählt Palestrina als Grundlage. De la Motte kritisiert diesen einheitlichen Lehrweg ausdrücklich und entwickelt getrennte Zugänge für Josquin, Bach und Neue Musik. Der Gegensatz betrifft die Unterrichtskonzeption; er macht eine Satzregel aus dem einen Lehrgang nicht automatisch im anderen falsch."
+        },
+        {
+          "from": "motte1995-r01",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Salzer und Schachter verwenden Speziesübungen als gemeinsame Vorbereitung auf die Analyse und Komposition tonaler Musik. De la Motte setzt auf verschiedene, aus einzelnen musikalischen Sprachen entwickelte Lehrgänge. Beide reichen über eine historische Stilkopie hinaus, organisieren das Lernen aber unterschiedlich."
+        },
+        {
+          "from": "motte1995-e13",
+          "to": "jeppesen1964-1",
+          "type": "nuance",
+          "note": "Jeppesen wählt Palestrina als Grundlage für das Lernen selbstständiger Stimmführung. De la Motte fragt, wie repräsentativ ausgerechnet Palestrinas kurze Zweistimmigkeit dafür ist: Häufig bevorzugt sie gemeinsame Textführung und Terzen-Sexten-Klang. Die Differenz betrifft die Auswahl und Deutung des Unterrichtsmodells, nicht die Existenz von Palestrinas Polyphonie."
         }
       ]
     },
@@ -9291,6 +10313,167 @@ const ATLAS = {
               "note": "Heinichens Unterscheidung vorbereiteter und durchgehender Dissonanzen bestimmt hier, welche ergänzenden Stimmen möglich sind."
             }
           }
+        },
+        {
+          "id": "motte1995-r11",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 268–269 · tatsächliches Intervall und harmonische Deutung",
+          "text": "De la Motte unterscheidet die wirklich klingenden Intervalle zwischen zwei Stimmen von den Zahlen einer Funktionsbezeichnung, die sich auf einen gedachten Akkordgrundton beziehen. Eine reale Sekunde kann so funktional als 4–3-Vorhalt gehört werden; selbst eine klingende Quinte kann auflösungsbedürftig sein. Welche Lesart trägt, zeigt mitunter erst die Fortsetzung. Anders als im zuvor behandelten Josquin-Satz reicht deshalb die Benennung des aktuellen Zweiklangs für diese Bach-Beispiele nicht aus. Die Analyse muss Intervallabstand, harmonischen Bezug und zeitlichen Zusammenhang auseinanderhalten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 268–269 · tatsächliches Intervall und harmonische Deutung",
+              "note": "Die beiden Arten der Bezifferung auf S. 268 und die veränderten Fortsetzungen auf S. 269 wurden am gedruckten Beispiel geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e09",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 162–164 · Palestrina: isolierte Viertel und abspringende Dissonanzen",
+          "text": "Dass Palestrina die bei Josquin vorkommende abspringende Dissonanz nach einer punktierten Halben meidet, erklärt de la Motte nicht allein aus einer strengeren Dissonanzregel. Auch konsonante isolierte Viertel mit auffälliger Zickzackbewegung treten zurück. Dagegen sind Viertel gebräuchlich, die den vorausgehenden langen Ton wiederholen. Für die Beurteilung zählt deshalb der fließende melodische Verlauf ebenso wie die Frage, ob der kurze Ton zum übrigen Satz konsoniert.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Melodische Glätte bei Palestrinas isolierten Vierteln",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 162–164 · Palestrina: isolierte Viertel und abspringende Dissonanzen",
+              "note": "Die Darstellung vergleicht die bei Josquin verfügbare isolierte abspringende Dissonanz mit Palestrina und bezieht ausdrücklich auch konsonante Zickzacksprünge ein. Die Begründung betrifft melodische Bewegungsart, nicht eine pauschale Gleichsetzung von Konsonanz und Zulässigkeit."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e18",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 216–218, 226–228, 230–235 · Schütz: Stylus gravis und Stylus luxurians",
+          "text": "Bei Schütz unterscheidet de la Motte verschiedene gleichzeitig verfügbare Satzweisen. Die betrachteten zweistimmigen Passionsstellen bleiben als Stylus gravis der älteren Vokalpolyphonie nahe. In den mit Generalbass begleiteten Beispielen des Stylus luxurians treten dagegen zusätzliche Dissonanzfiguren und weitergehende Freiheiten hinzu. Deren Gebrauch verbindet de la Motte mit der Ausdrucksaufgabe des Textes. Ein gemeinsames Entstehungsjahr oder die Bezeichnung Barock legt deshalb noch nicht fest, welche Dissonanzbehandlung eine konkrete Stelle verlangt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Schütz: Vokalpolyphonie und Generalbassmonodie",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 216–218, 226–228, 230–235 · Schütz: Stylus gravis und Stylus luxurians",
+              "note": "S. 228 ordnet die Passionsduette dem Stylus gravis zu; S. 230–235 vergleicht Weihnachtsgeschichte und geistliches Konzert und bindet den Stylus luxurians in Schütz' hier untersuchten Werken an Generalbassmusik. S. 226–227 verbindet neue Ausdrucksmittel mit Textausdeutung."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j25",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Josquin como músico de expresión moderna“, S. 122 · erwartete Auflösung in De profundis",
+          "text": "Eine Intervallliste erschöpft für de la Motte nicht die gehörte Spannung. In De profundis deutet er die gehäuften Vorhalte als musikalisches Warten, das den Text vom Hoffen auf den Herrn auslegt. Innerhalb dieser Folge erhält sogar eine konsonante Sexte vor der Quinte etwas vom Charakter eines Vorhalts: Der Zusammenhang lässt ihre Fortsetzung erwarten. De la Motte bezeichnet sie deshalb als kontextuell dissonant. Er erklärt damit eine Wirkung dieses Abschnitts; die Sexte wird nicht allgemein aus der Klasse der Konsonanzen gestrichen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin: De profundis, ausdrucksbezogene Analyse einer Vorhaltsfolge",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, „Josquin como músico de expresión moderna“, S. 122 · erwartete Auflösung in De profundis",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l07",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 9, S. 324–326 · Schumann, Klavierlieder; zeitlich verschobenes Unisono",
+          "text": "Bei mehreren Liedstellen Schumanns verlaufen Singstimme und Klavieroberstimme beinahe als dieselbe Melodie, treffen ihre Töne aber nicht genau gleichzeitig. De la Motte nennt dies ein ungenaues Unisono. Die dabei entstehenden Reibungen hört er im Zusammenhang als zeitliche Verschleierung einer gemeinsamen Linie. An einer weiteren Stelle ergänzen sich sogar eine Terzenfolge der Singstimme und die schrittweise Klavierfassung. Die isolierte Prüfung jedes Zusammenklangs erfasst diese beabsichtigte Verschmelzung nur unvollständig.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Singstimme und Klavier · Schumanns Liedsatz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 9, S. 324–326 · Schumann, Klavierlieder; zeitlich verschobenes Unisono",
+              "note": "Die Aussage betrifft konkret analysierte Liedstellen, vor allem aus Dichterliebe; sie ist keine allgemeine Freigabe unbehandelter Dissonanzen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l15",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 369–374 · Hindemith, Klaviermusik op. 37; zwei verschiedene Klangsprachen",
+          "text": "De la Motte stellt innerhalb von Hindemiths op. 37 bewusst gegensätzliche Verfahren nebeneinander. In einem Stück teilen die Stimmen ein diatonisches Tonfeld und bevorzugen Konsonanzen sowie mildere Reibungen. Im robusten Abschnitt der Übung in drei Stücken treffen dagegen chromatisch benachbarte, gegeneinander gesetzte Töne direkt aufeinander. Jede Stimme gewinnt dort Halt durch ihre eigene einfache Intervallbewegung. Die Härte ist beabsichtigt und wird gerade durch den Gegensatz zur sanfteren Sprache erfahrbar. Die Regel des ersten Beispiels darf deshalb nicht ungeprüft auf das zweite übertragen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Kontrastierende Zweistimmigkeit · Hindemiths op. 37",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 369–374 · Hindemith, Klaviermusik op. 37; zwei verschiedene Klangsprachen",
+              "note": "Die Passage vergleicht zwei Schreibweisen innerhalb desselben Werkkomplexes und bindet deren Klangbehandlung an den gewünschten Charakter."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l19",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 385–388 · Webern, Schönberg und Fortner; verschiedene Intervallsprachen",
+          "text": "Eine große Septime ist für de la Motte nicht in jedem modernen Zusammenhang eine auf Konsonanz bezogene Dissonanz. Wenn sie wie im untersuchten Webern-Beispiel zur durchgängigen Grundlage von Linie und Zusammenklang wird, soll sie zunächst als Element dieser eigenen Klangsprache gehört werden. Daneben stellt er Schreibweisen mit bewusst wechselnden harten und weichen Intervallen sowie solche, die Terzen und Dreiklänge als Material beibehalten. Vor einer Übung muss daher entschieden werden, welche dieser verschiedenen Sprachen erprobt wird. Zwölftontechnik allein legt den Dissonanzbegriff nicht fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Unterschiedliche Klangsprachen innerhalb der Zwölftontechnik",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 385–388 · Webern, Schönberg und Fortner; verschiedene Intervallsprachen",
+              "note": "De la Motte unterscheidet ausdrücklich drei Arbeitsrichtungen. Die Aussage wird nicht als einheitlicher Dissonanzbegriff der gesamten Moderne ausgegeben."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -9311,6 +10494,24 @@ const ATLAS = {
           "to": "piston1947-1",
           "type": "nuance",
           "note": "Piston unterscheidet hier Akkordseptime und akkordfremden Ton. Menke setzt bei der Entstehung eines Mehrklangs aus einem Stimmenpaar an und zeigt, dass dieselbe Ziffer unterschiedliche Vorgänge verdecken kann. Das ist eine andere Reihenfolge der Analyse; Menke erkennt die Berechtigung der harmonischen Unterscheidung auf S. 94 ausdrücklich an."
+        },
+        {
+          "from": "motte1995-r11",
+          "to": "menke2017-10",
+          "type": "nuance",
+          "note": "Beide Autoren lassen einen an sich konsonanten Zweiklang dissonant wirken. De la Motte erklärt dies hier über den funktionalen Bezug und die erst später geklärte Bedeutung; Menke hebt das rhythmisch-lineare Verfahren der Syncopatio hervor. Die Begründungen setzen verschiedene Schwerpunkte, statt Konsonanz allein aus dem Intervallnamen abzuleiten."
+        },
+        {
+          "from": "motte1995-l15",
+          "to": "zarlino1558-1",
+          "type": "nuance",
+          "note": "Beide Erklärungen benötigen einen hörbaren Gegensatz. Bei Zarlino steigert die Dissonanz den Reiz der nachfolgenden Konsonanz. De la Motte bezieht die Wirkung von Hindemiths scharfen Intervallen auch auf den Gegensatz ganzer sanfter und robuster Schreibweisen. Die Vergleichseinheit erweitert sich von der unmittelbaren Fortschreitung zum Klangcharakter."
+        },
+        {
+          "from": "motte1995-l19",
+          "to": "zarlino1558-1",
+          "type": "context",
+          "note": "Zarlino erklärt die Dissonanz durch ihre Beziehung zur folgenden Konsonanz. De la Motte setzt bei der untersuchten Webern-Klangsprache diese Polarität nicht voraus: Die große Septime kann deren selbstverständliches Grundmaterial sein. Der Unterschied betrifft den Klangbegriff und seine stilistische Reichweite, nicht allein eine andere Auflösungsregel."
         }
       ]
     },
@@ -9508,6 +10709,52 @@ const ATLAS = {
               "note": "Die Aussage gehört zu Menkes barocker Kadenzlehre. Sie verbindet Bassklauseln, charakteristische Dissonanzen und zeitliche Dehnung."
             }
           }
+        },
+        {
+          "id": "motte1995-e12",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 167–170, 197 · Palestrina: Klauselmerkmale außerhalb des Schlusses",
+          "text": "Ein vertrauter Klauselzug muss bei Palestrina nicht mehr das Ende eines Abschnitts anzeigen. De la Motte verfolgt, wie Vorhalte und andere zuvor als Kadenzmerkmale erklärte Figuren in den laufenden Satz und sogar in Themenanfänge eingehen. Im Beginn von Alleluja! tulerunt Dominum meum wird ein solcher Melodiezug zum Material einer neuen Idee. Für die Schlusswirkung reicht es deshalb nicht, eine einzelne bekannte Kadenzfigur wiederzuerkennen; ihre Aufgabe im größeren Verlauf muss hinzukommen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Klauselfiguren im laufenden Palestrina-Satz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 167–170, 197 · Palestrina: Klauselmerkmale außerhalb des Schlusses",
+              "note": "S. 169 nennt die Verwendung früherer Kadenzmerkmale außerhalb von Phrasenenden und besonders den Anfang von Alleluja! tulerunt Dominum meum; S. 197 belegt Vorhalte im Verlauf der verglichenen Crucifixus-Abschnitte."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j21",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Formación de las cadencias“, S. 112–116 · Klanggestalt mehrstimmiger Schlüsse",
+          "text": "Im mehrstimmigen Josquin-Repertoire beschreibt de la Motte sehr unterschiedliche Schlussklänge: leere Oktave, Quinte mit Oktave, Durklänge mit verschiedenen Oberstimmantönen und zahlreiche Mollschlüsse. Die Kadenzwirkung lässt sich daher nicht auf einen einzigen obligatorischen Schlussakkord reduzieren. Einige Mollschlüsse verbindet er mit klagenden Worten. Er warnt jedoch ausdrücklich vor der Gleichsetzung von Moll und Trauer, weil entsprechende Schlüsse auch bei Marienlob und anderen nicht klagenden Texten vorkommen. Klanggestalt, vorausgehender Stimmenweg und Text müssen jeweils gemeinsam betrachtet werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter mehrstimmiger Satz: verschiedene Schlussklänge und jeweilige Textfunktion",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, „Formación de las cadencias“, S. 112–116 · Klanggestalt mehrstimmiger Schlüsse",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -9890,6 +11137,75 @@ const ATLAS = {
               "note": "Die Passage benennt die Monodie als Aufgabe: Solostimme und Bass bilden den Kern, die Ausführenden ergänzen häufig die Mittelstimmen."
             }
           }
+        },
+        {
+          "id": "motte1995-r04",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 238–240 und 261–262 · funktionaler Zugang und seine Grenzen",
+          "text": "De la Motte erschließt Bachs einstimmige Instrumentallinien zunächst durch die Harmonien, die sie andeuten. Dafür verwendet er ausdrücklich die später entwickelte Funktionstheorie; die zeitgenössische Generalbasslehre ist für ihn nicht die einzig zulässige Analysesprache. Diesen Zugang begrenzt er am Ende des einstimmigen Lehrgangs selbst: Ein stark chromatischer Verlauf kann harmonisch mehrdeutig bleiben, während ein schlichter, an ältere Vokalpolyphonie erinnernder Themenanfang keine dichte funktionale Ausdeutung verlangt. Die Funktionsbezeichnung ist ein gewähltes Erklärungswerkzeug und keine Forderung, jedem Ton zwingend eine eindeutige Harmonie zuzuteilen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 238–240 und 261–262 · funktionaler Zugang und seine Grenzen",
+              "note": "S. 240 verteidigt den funktionstheoretischen Zugang; S. 261–262 nennt ausdrücklich Grenzen bei chromatisch komplexen und besonders schlichten Bach-Themen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e17",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 157, 204–206 · Palestrinas sakrale Musik und Madrigale",
+          "text": "Auch innerhalb von Palestrinas Werk unterscheidet de la Motte den harmonischen Spielraum nach der Gattung. Die sakrale Musik beschreibt er weder als unverändert kirchentonal noch als bereits funktionales Dur-Moll-System. In Madrigalen findet er darüber hinaus Klangfolgen, die den Rahmen der Motetten und Messen überschreiten, etwa a-Moll–E-Dur–A-Dur–E-Dur–a-Moll. Für eine Stilübung genügt deshalb die Angabe Palestrina oder Renaissance allein nicht; sakrale und weltliche Vorbilder können unterschiedliche Möglichkeiten nahelegen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Sakrale und weltliche Harmonik bei Palestrina",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 157, 204–206 · Palestrinas sakrale Musik und Madrigale",
+              "note": "S. 157 beschreibt eine Tonalität zwischen kirchentonaler Grundlage und späterer funktionaler Dur-Moll-Tonalität. S. 204–205 kontrastiert bestimmte Madrigalwendungen mit dem engeren Rahmen der sakralen Werke; die angeführte Akkordfolge und ihre Noten sind auf S. 205 visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l10",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 343–344 · Strawinsky, Jeu de cartes und Klaviersonate von 1924",
+          "text": "An Strawinsky hört de la Motte gleichzeitig ablaufende Schichten, die jeweils verständliche tonale Wendungen besitzen, einander im Gesamtklang jedoch widersprechen. Der Zusammenhang verliert damit nicht jede harmonische Funktion. Vielmehr treffen mehrere für sich vertraute Funktionen aufeinander. Die eingetragenen Funktionen versteht er dabei als eine mögliche Hörweise, nicht als einzig zulässige Deutung. Die Aufgabe besteht darin, die eigenen Wege der Schichten und ihre gemeinsame Reibung zu hören. Eine einzige Akkordbezeichnung für jeden Augenblick kann diesen doppelten Eindruck verdecken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Überlagerung tonaler Verläufe · Strawinsky",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 343–344 · Strawinsky, Jeu de cartes und Klaviersonate von 1924",
+              "note": "De la Motte untersucht konkrete mehrschichtige Passagen in Strawinskys Musik; er formuliert keine allgemeine Harmonik des 20. Jahrhunderts."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -9932,6 +11248,30 @@ const ATLAS = {
           "type": "context",
           "note": "Beide beziehen sich auf Palestrina, erklären das Verhältnis aber auf verschiedenen Ebenen. Jeppesen betont die aus Linien entstehenden Klänge und die geringe Rolle modulatorischer Planung. Salzer und Schachter deuten ein Agnus ausdrücklich als großräumiges I–IV–V–I. Ihre Analyse eines bestimmten Satzes ist keine Widerlegung von Jeppesens Regeln für Einzelklänge.",
           "from": "jeppesen1964-1"
+        },
+        {
+          "from": "motte1995-r04",
+          "to": "kurth1917-1",
+          "type": "nuance",
+          "note": "De la Motte beginnt den Bach-Lehrgang mit harmonischen Funktionen, begrenzt deren Erklärungskraft aber ausdrücklich. Kurth setzt bei den Bewegungszügen der Linien an und hält eine Akkordfolge allein für unzureichend. Der unterschiedliche Ausgangspunkt bleibt bestehen, ohne dass de la Motte jede Linie auf eine eindeutige Akkordfolge festlegt."
+        },
+        {
+          "from": "motte1995-r04",
+          "to": "menke2017-2",
+          "type": "nuance",
+          "note": "De la Motte wählt für Bachs Einstimmigkeit bewusst eine funktionstheoretische Erklärung. Menke zeigt im barocken Satz, wie ein Stimmenpaar den Zusammenhang organisieren kann, während Bass und Bezifferung wechseln. Die Ansätze gewichten verschiedene Ausgangspunkte; de la Mottes eigene Einschränkung verhindert, daraus einen uneingeschränkten Vorrang der Harmonie abzuleiten."
+        },
+        {
+          "from": "motte1995-e17",
+          "to": "salzer-schachter1989-3",
+          "type": "nuance",
+          "note": "Salzer und Schachter lesen einen konkreten Palestrina-Satz als großräumiges I–IV–V–I. De la Motte beschreibt Palestrinas Tonsprache an anderen Beispielen dagegen als noch nicht funktionales Dur-Moll-System und unterscheidet zusätzlich sakrale und weltliche Gattungen. Eine spätere strukturelle Lesart und eine stilgeschichtliche Beschreibung müssen dadurch nicht zum gleichen Harmoniebegriff führen."
+        },
+        {
+          "from": "motte1995-l10",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prout sucht hinter einem Stimmenpaar die durch seine Fortschreitung bestimmte gemeinsame Harmonie. In den untersuchten Strawinsky-Passagen hört de la Motte mehrere jeweils verständliche, aber gegeneinander gesetzte tonale Verläufe zugleich. Die Voraussetzung einer einzigen gemeinsamen Funktionsfolge ist dort nicht derselbe Ausgangspunkt."
         }
       ]
     },
@@ -10146,11 +11486,89 @@ const ATLAS = {
               "note": "Kapitel 8 erklärt auf S. 245 die vierstimmigen Bach-Choräle zum Modell. Die Aufgabe mehrerer Aussetzungen derselben Phrase steht in diesem engeren Kapitelrahmen."
             }
           }
+        },
+        {
+          "id": "motte1995-r03",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Vorwort, S. XIII–XIV; Bach, S. 294–296 · Stilfrage und Grenzen des Übungsmodells",
+          "text": "De la Motte fragt bei einer Lösung, ob sie in der jeweils untersuchten musikalischen Sprache überzeugen könnte und woran sich das erkennen lässt. Ein bloß fehlerfreier Satz genügt ihm nicht. Zugleich ist nicht jedes Werk ein geeignetes Modell für die eigenen Übungen: Die Gavotte aus Bachs Französischer Suite in Es-Dur analysiert er gerade wegen ihrer auffälligen Dissonanzen, überlagerten Absichten und unregelmäßigen Schlussgliederung. Er warnt davor, solche Musik nur als Bestätigung von Lehrregeln vorzuführen. Eine brauchbare Unterrichtsbeschränkung und die Beschreibung eines konkreten Werkes erfüllen verschiedene Aufgaben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque"
+            ],
+            "reach": "cross-style",
+            "frame": "Unterricht und Repertoireanalyse",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. XIII–XIV; Bach, S. 294–296 · Stilfrage und Grenzen des Übungsmodells",
+              "note": "Die allgemeine Stilfrage im Vorwort wird mit der ausdrücklich als ungeeignete Vorlage für die eigenen Übungen bezeichneten Bach-Gavotte auf S. 295–296 verbunden."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e03",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 18–23 · Dufay, Missa Se la face ay pale: Varietas und Hörübungen",
+          "text": "Für eine rhythmische Übung nach Dufay soll das Ohr bemerken, wenn eine auffällige Figur zu bald wiederkehrt. De la Motte lässt die Vorlage zunächst auf einem einzigen Ton sprechen und bei absichtlich eingefügten Wiederholungen reagieren. Beim eigenen Entwurf empfiehlt er, das bereits Geschriebene wiederholt zu singen. Seltene Wendungen aus der Messe werden dabei nicht zu gleichberechtigten Standardmitteln der Übung: Entscheidend ist auch ihre Häufigkeit im gewählten Stil.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Varietas-Übungen nach Dufay",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 18–23 · Dufay, Missa Se la face ay pale: Varietas und Hörübungen",
+              "note": "S. 19–20 beschreibt das Sprechen auf einer Tonhöhe und das hörende Erkennen eingefügter Wiederholungen; S. 22–23 verlangt eigenes Erfinden und Singen statt bloßer Kontrolllisten. Seltene Viertelgruppen sollen im Übungsmodell zurücktreten."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l21",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 403–407 · Messiaen, Cantéyodjayâ; Ordnung von Tonhöhe, Dauer und Dynamik",
+          "text": "In dem untersuchten dreistimmigen Abschnitt von Messiaens Cantéyodjayâ sind Tonhöhe, Lage, Dauer und Lautstärke durch eine besondere Ordnung miteinander verbunden. De la Motte beurteilt eine Stelle deshalb danach, ob sie dieser Ordnung entspricht. Eine vorkommende Oktave oder ein Dreiklang ist hier nicht schon wegen einer früheren Zwölftonvorgabe falsch. Dagegen beanstandet er eine Note, deren Höhe und Dauer nicht zur festgelegten Zuordnung passen. Der Maßstab ergibt sich aus der Konstruktion dieses Abschnitts; die verwendeten Tonhöhen allein reichen zur Prüfung nicht aus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Prüfung eines geordneten Abschnitts · Messiaens Cantéyodjayâ",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 403–407 · Messiaen, Cantéyodjayâ; Ordnung von Tonhöhe, Dauer und Dynamik",
+              "note": "Die konkrete Zuordnung von Eigenschaften gilt für den analysierten Abschnitt. De la Motte stellt damit keine allgemeine Fehlerliste für serielle Musik auf."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "related": [
         "rhythmische-selbststaendigkeit",
         "verdeckte-parallelen"
+      ],
+      "relations": [
+        {
+          "from": "motte1995-r03",
+          "to": "schubert1999-1",
+          "type": "nuance",
+          "note": "Schubert trennt verbindliche Regeln, stilistische Empfehlungen und zusätzliche Beschränkungen der ersten Aufgaben. De la Motte betont dieselbe nötige Trennung von Lehrübung und Repertoire, zeigt aber an einer bewusst ungeeigneten Bach-Vorlage, wie wenig ein Werk auf die Bestätigung des Regelwerks zu reduzieren ist."
+        }
       ]
     },
     {
@@ -10380,6 +11798,29 @@ const ATLAS = {
               "note": "Jeppesen wählt für seine Übungen die absteigende klassische Cambiata. Seine Bemerkung zu früherer Praxis erweitert nicht automatisch das zugelassene Übungsmaterial."
             }
           }
+        },
+        {
+          "id": "motte1995-j15",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, S. 105–107 · Cambiata mit sofort oder später nachgeholter Auflösung",
+          "text": "Die Cambiata versteht de la Motte als unterbrochenen Durchgang. Nach dem Schritt in die Dissonanz folgt eine absteigende Terz zur Konsonanz; der übersprungene Ton wird danach sofort oder verspätet erreicht. Er zeigt sowohl 8–7–5–6 in der Oberstimme als auch 3–4–6–5 in der Unterstimme und lässt die rhythmische Ausdehnung der Figur variieren. Eine unveränderliche Folge gleich langer Noten ist damit nicht gemeint. Die Cambiata gehört zu den Mitteln der eigenen Josquin-orientierten Übungen; andere, nur durch besonderen Textausdruck begründete Sprünge in Viertelgruppen behandelt er zurückhaltender.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter freier Zweistimmensatz: Cambiata in wechselnden Notenwerten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 105–107 · Cambiata mit sofort oder später nachgeholter Auflösung",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -10424,6 +11865,18 @@ const ATLAS = {
           "type": "contradiction",
           "note": "Salzer und Schachter erlauben die Cambiata in ihrer dritten Spezies sowohl abwärts als auch aufwärts. Jeppesen beschränkt seine Palestrina-Übungen auf die abwärts gerichtete klassische Form; die aufsteigende Umkehrung behandelt er als ältere historische Praxis.",
           "from": "jeppesen1964-26"
+        },
+        {
+          "from": "motte1995-j15",
+          "to": "cherubini1835-1",
+          "type": "context",
+          "note": "Cherubini kennt die ältere Cambiata, verwirft sie aber als Muster für seinen strengen Satz. De la Motte erklärt sie aus Josquins Musik und nimmt sie ausdrücklich in die eigenen Stilübungen auf. Die Bewertung derselben Grundfigur folgt hier unterschiedlichen Unterrichtszielen."
+        },
+        {
+          "from": "motte1995-j15",
+          "to": "schubert1999-1",
+          "type": "nuance",
+          "note": "Schuberts Darstellung der dritten Spezies verlangt nach dem absteigenden Terzsprung mindestens zwei aufsteigende Schritte. De la Motte zeigt im freien Josquin-Satz auch eine verspätete Rückkehr zum übersprungenen Ton. Die rhythmische und zeitliche Bindung der Fortsetzung ist dort weniger eng als in der beschriebenen Fünftonübung."
         }
       ]
     },
@@ -10441,7 +11894,8 @@ const ATLAS = {
       "related": [
         "anfangsintervall",
         "stimmkreuzung",
-        "konsonanz"
+        "konsonanz",
+        "reihen-und-stimmen"
       ],
       "authors": [
         {
@@ -10645,6 +12099,52 @@ const ATLAS = {
               "note": "Die Aussage unterscheidet ein einzelnes Stimmenpaar vom ganzen dreistimmigen Satz. Sie gehört zur ersten Art des Palestrina-orientierten Lehrgangs."
             }
           }
+        },
+        {
+          "id": "motte1995-l09",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 9, S. 336–341, besonders S. 339 · Wagner, Die Meistersinger von Nürnberg und Lohengrin",
+          "text": "In Wagners Orchestersatz können längere Unisonostrecken das Material eines verzweigten Stimmengeflechts bilden. De la Motte zeigt im Monolog des Hans Sachs, wie Instrumentalpartien zunächst zusammengehen, sich trennen und mit anderen Linien wieder zusammentreffen. Seine Darstellung enthält zwölf melodische Stränge, benötigt für die jeweils verschiedenen gleichzeitigen Verläufe aber höchstens drei Farben. Der Einklang ist hier ein Mittel der Verknüpfung und klanglichen Vervielfachung; die Instrumentenzahl ist nicht mit ebenso vielen unabhängigen Melodien gleichzusetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Orchestrales Stimmengeflecht · Wagner",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 9, S. 336–341, besonders S. 339 · Wagner, Die Meistersinger von Nürnberg und Lohengrin",
+              "note": "Die Beobachtung betrifft Wagners konkret dargestellte Orchesterpassagen und deren wechselnde Unisonoverbindungen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l18",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 384–385 · Kombination mehrerer Reihenformen in Schönbergs Klaviersuite",
+          "text": "Beim Kombinieren mehrerer Reihenformen verlangt de la Motte, dass derselbe Ton nicht gleichzeitig in beiden Stimmen erscheint; er formuliert dies als Oktavverbot. Gemeint ist damit auch die Vermeidung einer gleichzeitigen Tonklassenverdopplung, nicht bloß einer Folge paralleler Oktaven. Im untersuchten Kanon dürfen entsprechende Töne unmittelbar nacheinander erklingen. Ein weiteres Beispiel zeigt, wie der spätere Beginn einer Stimme die Gleichzeitigkeit vermeidet. Diese Vorgabe gehört zum hier erläuterten Zwölftonverfahren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Vermeidung von Tonklassenverdopplung · Zwölftonübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 384–385 · Kombination mehrerer Reihenformen in Schönbergs Klaviersuite",
+              "note": "De la Motte formuliert das Verbot in der Diskussion gleichzeitig ablaufender Reihenformen. Die Kontextmarkierung verhindert seine Übertragung auf alle moderne Musik."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -10659,6 +12159,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "context",
           "note": "Fux behandelt die zweistimmige erste Spezies, in der beide Stimmen im Einklang zusammenfallen würden. Bei Green und Jones dürfen in der dreistimmigen ersten Spezies zwei Stimmen einen inneren Einklang bilden, während die dritte den Klang ergänzt."
+        },
+        {
+          "from": "motte1995-l09",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux beschränkt den inneren Einklang in der zweistimmigen ersten Spezies, weil zwei Linien darin zusammenfallen. In Wagners Orchestersatz beschreibt de la Motte gerade das längere Zusammengehen und erneute Verzweigen als Gestaltungsverfahren. Die gegensätzliche Bewertung gehört zu verschiedenen Satzaufgaben."
         }
       ]
     },
@@ -10683,7 +12189,9 @@ const ATLAS = {
         "modaler-ambitus",
         "motiv-ueber-cantus",
         "choral-vorimitation",
-        "obligo-kontrapunkt"
+        "obligo-kontrapunkt",
+        "choral-gegenstimme",
+        "gregorianische-vorlage"
       ],
       "authors": [
         {
@@ -10738,6 +12246,38 @@ const ATLAS = {
               "note": "Gegenstand ist die Lehrmethode des taktweisen Hinzufügens von Gegenstimmen; die Kritik wird in dieser Passage keinem einzelnen historischen Stil zugeordnet."
             }
           }
+        },
+        {
+          "id": "motte1995-r02",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Vorwort, S. XIII–XIV; Bach, S. 275–278 · beide Stimmen gemeinsam erfinden und besondere Cantus-firmus-Aufgabe",
+          "text": "Für seine Übungen nach Josquin und Bach macht de la Motte einen vorgegebenen Cantus firmus nicht zum allgemeinen Ausgangspunkt. Die Lernenden sollen beide Stimmen im Wechselspiel erfinden. Begrenzungen können stattdessen durch ein Anfangsmotiv, eine Textvorlage, die Zahl der Phrasen oder bestimmte Kadenzziele entstehen. Diese Kritik richtet sich gegen die stets vorgegebene Aufgabenstimme; die tatsächliche Komposition über einen Cantus firmus bleibt ein eigener Gegenstand, den er im Bach-Kapitel wieder aufnimmt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque"
+            ],
+            "reach": "cross-style",
+            "frame": "Lehrkonzept · freie Erfindung der Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. XIII–XIV; Bach, S. 275–278 · beide Stimmen gemeinsam erfinden und besondere Cantus-firmus-Aufgabe",
+              "note": "Das Vorwort bezieht die Kritik am vorgegebenen Cantus auf die Josquin- und Bach-Aufgaben; S. 275–278 behandelt den Cantus-firmus-Satz ausdrücklich als eigene Bach-Aufgabe."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "motte1995-r02",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux lässt den Cantus erfinden oder einem Choralbuch entnehmen und gibt ihn in der ersten Aufgabe fest vor. De la Motte möchte für seine Josquin- und Bach-Übungen beide Stimmen gemeinsam erfinden lassen. Die Differenz betrifft die Aufgabenanlage, nicht die historische Berechtigung einer Komposition über einen gegebenen Choral."
         }
       ]
     },
@@ -10962,6 +12502,29 @@ const ATLAS = {
               "note": "Die Wiederholung ist hier Bernhards benannte Verzierung eines Durchgangs oder einer Synkopendissonanz im beweglicheren barocken Stil."
             }
           }
+        },
+        {
+          "id": "motte1995-e20",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 222–223 · Schütz: wiederholte Durchgangs- und Vorhaltsdissonanzen",
+          "text": "Eine Tonwiederholung kann bei Schütz auch auf einem dissonanten Ton liegen. De la Motte führt dafür Beispiele sowohl bei Durchgängen als auch bei Vorhalten vor. Der wiederholte Anschlag gehört zur Ausgestaltung einer erkennbaren Dissonanzfigur und beendet ihre Spannung nicht automatisch. Diese Freiheit steht im Kapitel über den Stylus luxurians; sie ist deshalb als konkrete Möglichkeit dieses beweglicheren Vokalsatzes zu lesen und nicht als allgemeine Aufhebung der Wiederholungsregeln anderer Übungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Dissonante Tonwiederholung im Stylus luxurians",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 222–223 · Schütz: wiederholte Durchgangs- und Vorhaltsdissonanzen",
+              "note": "Abschnitt 4 nennt ausdrücklich Dissonanzen mit Tonwiederholung bei Durchgängen oder Vorhalten und führt Beispiele aus den Kleinen geistlichen Konzerten und Symphoniae sacrae an. S. 222 mit wiederholten dissonanten Tönen visuell geprüft. PDF122–123 duplizieren diese Druckseiten, werden hier nicht als zusätzliche Belege gezählt."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -10994,6 +12557,12 @@ const ATLAS = {
           "to": "kennan1999-1",
           "type": "context",
           "note": "Kennan vermeidet unmittelbare Tonwiederholung in seinen Übungen mit festem Zahlenverhältnis. Menke beschreibt mit Bernhards Multiplicatio eine benannte barocke Lizenz, die sogar Dissonanzen wiederholt. Die elementare Übungsregel und die ornamentale Ausarbeitung haben verschiedene Lernziele."
+        },
+        {
+          "from": "motte1995-e20",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch schließen direkte Tonwiederholung in ihrer zweistimmigen Übung aus. De la Motte führt sie bei Schütz sogar auf Durchgangs- und Vorhaltsdissonanzen vor. Die barocke Verzierung einer konkreten Figur hat einen anderen Zweck als die Repetitionsbegrenzung der Übung."
         }
       ]
     },
@@ -11853,6 +13422,29 @@ const ATLAS = {
               "note": "Die Themengrenze wird an barocken Fugen von Bach und Händel aus der Altklausel erklärt."
             }
           }
+        },
+        {
+          "id": "motte1995-l06",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 8, S. 316–318 · Beethoven, Hammerklaviersonate op. 106, Fuge",
+          "text": "In der Fuge der Hammerklaviersonate lässt sich die Themenlänge für de la Motte nicht durch eine einzige feste Grenze erledigen. Die Eröffnung wird erst im Weiterhören als Themenkopf erkennbar; bis zum zweiten Einsatz ergeben sich zunächst zehn Takte. Spätere Fassungen sind jedoch sieben, sechs, fünf oder nur dreieinhalb Takte lang. Er versteht das Thema deshalb als beweglichen Materialvorrat. Die kürzeren Fassungen sind in dieser Deutung Teil der Konstruktion und nicht bloß beschädigte Wiederholungen eines unveränderlichen Themas.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Veränderliche Themengestalt · Beethovens op. 106",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 316–318 · Beethoven, Hammerklaviersonate op. 106, Fuge",
+              "note": "Die schwankende Themenlänge ist eine konkrete Analyse der Hammerklavierfuge; sie wird nicht auf sämtliche Fugen übertragen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -11866,6 +13458,12 @@ const ATLAS = {
           "to": "keller1965-1",
           "type": "contradiction",
           "note": "In derselben Fuge BWV 872 endet das Thema für Prout nach dem vierten Basston, für Keller nach dem achten. Keller unterscheidet dabei den längeren Anfangsbogen vom viertönigen Kern der späteren Verarbeitung."
+        },
+        {
+          "from": "motte1995-l06",
+          "to": "menke2017-50",
+          "type": "context",
+          "note": "Menke grenzt konkrete barocke Themen anhand ihrer Schlussklausel gegen den folgenden Kontrapunkt ab. In der Hammerklavierfuge verfolgt de la Motte dagegen ein Material, dessen Länge bei späteren Einsätzen wechselt. Eine erste Themengrenze und die spätere Beweglichkeit des Materials sind deshalb gesondert zu untersuchen."
         }
       ]
     },
@@ -12401,6 +13999,29 @@ const ATLAS = {
               "note": "Die beschriebenen Einsatzfolgen und zusätzlichen Einsätze werden an Bachs Fugen BWV 846 und BWV 871 untersucht."
             }
           }
+        },
+        {
+          "id": "motte1995-l04",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 8, S. 311–314 · Haydn, Fugenfinali der Quartette op. 20 Nr. 2, 5 und 6",
+          "text": "Die ersten Themeneinsätze in Haydns Fugenfinali op. 20 Nr. 2, 5 und 6 beginnen nach de la Motte bereits mit einer Gegenstimme. Für den dargestellten Verlauf ergibt sich dadurch die Zahl gleichzeitig klingender Stimmen 2–3–3–4 statt des als Vergleich gezeigten Aufbaus 1–2–3–4. Beim dritten Themeneinsatz wächst die Stimmenzahl also nicht. Die Zahl der Einsätze und die jeweils hörbare Satzdichte sind getrennt zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Fugenexposition · Haydns Quartette op. 20",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 311–314 · Haydn, Fugenfinali der Quartette op. 20 Nr. 2, 5 und 6",
+              "note": "Die Dichtefolge ist aus Haydns konkreten Quartettfugen gewonnen und keine generelle Anweisung für jede klassische Fuge."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -13145,7 +14766,8 @@ const ATLAS = {
         "sequenzmodell",
         "akkordprolongation",
         "choral-fermate",
-        "romanesca-satzgeruest"
+        "romanesca-satzgeruest",
+        "choral-gegenstimme"
       ],
       "authors": [
         {
@@ -13316,6 +14938,75 @@ const ATLAS = {
               "note": "Die Aussage untersucht Gerüstsatz, Verzierung und harmonische Beschleunigung in Corellis Violinsonate op. 5 Nr. 3."
             }
           }
+        },
+        {
+          "id": "motte1995-r06",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 243 und 279–280 · Wechseltempo der Harmonie",
+          "text": "Ein regelmäßiger Wechsel der Funktionen pro Takt ist bei de la Motte zunächst ein Übungsgerüst. Danach soll das harmonische Geschehen gezielt verlangsamt oder beschleunigt werden. Im zweistimmigen Satz kann ein ruhiger Bass längere harmonische Felder tragen, über denen die Melodie rasch fließt; ein anderes Beispiel gibt bereits jedem Achtel eine neue harmonische Bedeutung. Auch die vielen Noten einer verzierten Sarabandenmelodie bestimmen das Wechseltempo nicht allein. Zu prüfen ist, wie die Stimmen gemeinsam eine Harmonie bestätigen oder zur nächsten übergehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 243 und 279–280 · Wechseltempo der Harmonie",
+              "note": "S. 243 erweitert den anfänglichen Wechsel pro Takt; S. 279–280 vergleicht unterschiedlich rasche harmonische Abläufe und eine verzierte Sarabande."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e02",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 3–5 · Pérotin, Sederunt: Klangbereiche und Diskant",
+          "text": "In Pérotins Sederunt bestimmen lang ausgehaltene Tenortöne ausgedehnte Klangbereiche. Die Oberstimmen verändern innerhalb dieser Bereiche ihre Lage und Bewegung, während der Tenor als Bezug bestehen bleibt. Erst im abschließenden Diskantabschnitt wechselt der Cantus in der Übertragung von Takt zu Takt. De la Motte erklärt die große Form deshalb auch aus dem Wechsel zwischen langsam veränderten Klangbereichen und rascherem Fortschreiten des Tenors.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "medieval"
+            ],
+            "reach": "specific",
+            "frame": "Klanggliederung in Pérotins Organum",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 3–5 · Pérotin, Sederunt: Klangbereiche und Diskant",
+              "note": "S. 3 erläutert lange Tenortöne und wechselnde Akkordlagen; S. 4 beschreibt die große Form und den von Takt zu Takt fortschreitenden Diskanttenor. Keine Gleichsetzung dieser Klangbereiche mit funktionaler Harmonik."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j26",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Josquin como músico de expresión moderna“, S. 123–124 · Klangwechsel in Plaine de dueil",
+          "text": "In Plaine de dueil hört de la Motte zunächst ein fast unmerkliches Wandeln des Klangs: Einzelne Töne treten hinzu, andere verschwinden, während gemeinsame Töne liegen bleiben. Erst später entstehen deutlichere Wechsel zu einer neuen Tonkonstellation, und deren Abstände werden kürzer. Er beschreibt diesen Verlauf als Steigerung der akkordischen Bewegung. Für die Analyse reicht es daher nicht, jeden neuen Toneinsatz als neuen harmonischen Abschnitt zu zählen. Zu verfolgen ist, wann die neue Konstellation die alte tatsächlich ablöst und wie sich das Tempo dieser Ablösungen verändert.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierte Chansonanalyse: Plaine de dueil, allmähliche und deutlichere Klangwechsel",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, „Josquin como músico de expresión moderna“, S. 123–124 · Klangwechsel in Plaine de dueil",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -13353,7 +15044,8 @@ const ATLAS = {
         "linie-scheinpolyphonie",
         "linie-orgelpunkt",
         "rhythmuswechsel-s5",
-        "viertel-gegen-viertel"
+        "viertel-gegen-viertel",
+        "stimme-und-satzstruktur"
       ],
       "authors": [
         {
@@ -13635,10 +15327,64 @@ const ATLAS = {
               "note": "Die zeitlich-räumliche Verschränkung wird an Schütz’ Saul, Saul, was verfolgst du mich? untersucht, nicht an einer Speziesübung."
             }
           }
+        },
+        {
+          "id": "motte1995-r13",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 279–281, 287 und 295–296 · Führung, Begleitung und komplementäre Bewegung",
+          "text": "De la Motte unterscheidet einen Satz mit führender und begleitender Stimme vom imitierenden Satz gleichberechtigter Stimmen. Auch dort, wo sich schnelle und langsame Bewegung meist ergänzen, verlangt er keine lückenlose Gegenläufigkeit des Rhythmus. Gemeinsame Ruhepunkte oder vorübergehend gleich schnelle Bewegung können die Form gliedern und steigern. In der Gavotte der Französischen Suite in Es-Dur hebt er gerade das zeitweilige gemeinsame Achtelgehen beider Stimmen im Schlussabschnitt hervor. Selbstständigkeit ist damit eine hörbare Beziehung im Verlauf, keine Verpflichtung, jeden gleichzeitigen Einsatz oder gemeinsamen Notenwert zu vermeiden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 279–281, 287 und 295–296 · Führung, Begleitung und komplementäre Bewegung",
+              "note": "S. 279–281 unterscheidet Führung/Begleitung und imitierende Gleichheit; S. 287 relativiert die Pflicht zum komplementären Rhythmus, S. 296 beschreibt gemeinsames Achtelgehen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l23",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 417–420, besonders S. 418 · Lutosławski, Livre pour orchestre, Intermezzo",
+          "text": "Im analysierten zwanzigsekündigen Intermezzo von Lutosławskis Livre pour orchestre beginnen zwei Klarinetten und Harfe auf ein gemeinsames Zeichen. Danach wiederholt jeder Spieler seinen notierten Abschnitt in einem selbst gewählten Ausführungstempo, bis das Schlusszeichen erfolgt. Als ungefähren Rahmen nennt die Anweisung zehn Sechzehntel pro Sekunde. Ein gemeinsames metrisches Raster wird in dieser Passage gerade nicht verlangt. De la Motte fragt, ob man noch drei getrennte Stimmen oder eher einen beweglichen Gesamtklang hört. Die rhythmische Eigenständigkeit dient hier einer fortwährend wechselnden Klangbildung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Unabhängige Ausführungstempi · Lutosławski",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 417–420, besonders S. 418 · Lutosławski, Livre pour orchestre, Intermezzo",
+              "note": "Die fehlende metrische Synchronisation ist ausdrücklich auf das Intermezzo bezogen. Andere Stellen desselben Werkes sind nach de la Motte präzise rhythmisch koordiniert."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "readingSources": [
         "piston1947"
+      ],
+      "relations": [
+        {
+          "from": "motte1995-l23",
+          "to": "jeppesen1964-36",
+          "type": "context",
+          "note": "Jeppesen verbindet die Eigenständigkeit zweier freier Stimmen mit einem erkennbaren gemeinsamen Puls. Im beschriebenen Lutosławski-Intermezzo wählen die Spieler dagegen innerhalb einer ungefähren Geschwindigkeitsvorgabe eigene Tempi zwischen gemeinsamen Start- und Schlusszeichen. Der fehlende gemeinsame Puls ist dort Teil des gewünschten Verfahrens."
+        }
       ]
     },
     {
@@ -13979,6 +15725,29 @@ const ATLAS = {
               "note": "Die Aufgabe im barocken Lehrgang verlangt, dass jede der drei Linien als Bass funktioniert; sie geht über einen bloßen Oberstimmentausch hinaus."
             }
           }
+        },
+        {
+          "id": "motte1995-r16",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 286–287 · Oktavtausch und Quinten als Durchgänge",
+          "text": "Beim Oktavtausch werden Terzen und Sexten wieder zu unvollkommenen Konsonanzen, eine Quinte dagegen zur Quarte. De la Motte vermeidet deshalb leere Quinten möglichst oder führt sie so, dass auch ihre vertauschte Quarte als Dissonanz verständlich bleibt. Seine Beispiele erlauben dabei ausdrücklich auch betonte Durchgänge. Eine auf starken Zeiten meist in Terzen und Sexten gehaltene Kombination lässt sich später als Ganzes in vertauschter Lage wiederbringen. Entscheidend ist die Behandlung der entstehenden Quarte, nicht ein ausnahmsloses Verbot jeder Quinte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 286–287 · Oktavtausch und Quinten als Durchgänge",
+              "note": "S. 286–287 zeigt den Oktavtausch, durchgehende Quinten und die nach dem Tausch als betonte Durchgänge legitimierten Quarten."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -13998,6 +15767,12 @@ const ATLAS = {
           "to": "jeppesen1964-69",
           "type": "context",
           "note": "Jeppesen schließt Dissonanzbindungen in seiner strengen Dezimtausch-Übung aus. Menke zeigt für den barocken Satz konkrete Synkopationen, die auch in der Dezime vertauschbar sind. Die abweichende Erlaubnis betrifft unterschiedliche Stil- und Übungsrahmen; beide verlangen eine Prüfung der neuen Lage."
+        },
+        {
+          "from": "motte1995-r16",
+          "to": "schubert1999-1",
+          "type": "context",
+          "note": "Beide verlangen, dass die aus einer Quinte entstehende Quarte korrekt geführt ist. Schubert prüft beide Lagen innerhalb derselben Spezies; de la Mottes Bach-Beispiel gestattet auch betonte Durchgänge. Die unterschiedliche metrische Freiheit stammt aus dem jeweiligen Stil- und Übungsrahmen."
         }
       ]
     },
@@ -14027,7 +15802,9 @@ const ATLAS = {
         "imitation-stimmenpaare",
         "imitation-funktionswechsel",
         "textunterlegung",
-        "motette-satzwechsel"
+        "motette-satzwechsel",
+        "motivische-polyphonie",
+        "reihen-und-stimmen"
       ],
       "authors": [
         {
@@ -14178,6 +15955,78 @@ const ATLAS = {
               "note": "Die Aussage verbindet den Fuga-Sprachgebrauch des 16. und 17. Jahrhunderts mit Pachelbels Verbindung von Violinkanon und Ostinatobass."
             }
           }
+        },
+        {
+          "id": "motte1995-e06",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 38–40 · Isaac, Missa Carminum, zweites Christe",
+          "text": "Im zweiten Christe der Missa Carminum erkennt de la Motte einen Kanon zwischen erster und dritter Stimme über Isaacs Innsbruck-Melodie. Der Einsatzabstand wechselt jedoch zwischen einem und anderthalb Takten. Kleine melodische Abweichungen vermeiden unter anderem parallele Einklänge; einmal passt sich die eine, einmal die andere Stimme an. Beide tragen daher gemeinsam die Vorlage. Die Vermutung, Isaac wolle die starre Mechanik des Kanons lockern, kennzeichnet de la Motte als Deutung, nicht als nachgewiesene Absicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Kanonische Bearbeitung einer Liedvorlage bei Isaac",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 38–40 · Isaac, Missa Carminum, zweites Christe",
+              "note": "S. 39 nennt den wechselnden Abstand; S. 40 unterscheidet die vermutete ästhetische Absicht von den satztechnisch begründbaren Tonänderungen und der gemeinsamen Trägerschaft des Cantus."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j09",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, S. 59–60 · Imitation und Übergang in freie Zweistimmigkeit",
+          "text": "Eine Imitation muss bei de la Motte nicht zur durchgehenden kanonischen Bindung werden. In der Josquin-orientierten Aufgabe wird zunächst ein kurzer Anfang in die Folgestimme übertragen; danach entstehen die Stimmen abschnittsweise im Wechsel. Der nächste Teil der führenden Stimme muss bereits zu der vorhandenen Folgestimme passen. Die Nachahmung darf schließlich in freie Zweistimmigkeit übergehen, etwa wenn der Stimmenabstand sonst zu groß würde. Er beschreibt dies als häufigen Verlauf der besprochenen Musik. Ein späterer Eintritt erleichtert zunächst das Entwerfen der miteinander verträglichen Linien.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierte Kompositionsübung: imitierender Anfang mit freier Fortsetzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 59–60 · Imitation und Übergang in freie Zweistimmigkeit",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l22",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 413–418 · Ligeti, Lux aeterna; Mikropolyphonie",
+          "text": "In Lux aeterna beschreibt de la Motte viele Stimmen mit derselben Tonfolge, aber verschieden langen und wechselnden Zeitabständen. Dadurch überlagern sich unterschiedliche Positionen dieser Folge. Aus der kanonischen Verwandtschaft entsteht ein sich wandelnder Gesamtklang, in dem einzelne Linien nicht mehr deutlich hervortreten müssen. Die daran anschließende Übung lässt die Stimmen zeitweise auseinanderfließen und wieder in einem Einklang zusammentreffen. Kanonische Bindung kann hier also zur Verschmelzung der Stimmen beitragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Kanonische Verwandtschaft und Gesamtklang · Ligeti",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 413–418 · Ligeti, Lux aeterna; Mikropolyphonie",
+              "note": "Die Beobachtung betrifft Ligetis Mikropolyphonie und de la Mottes daraus abgeleitete Übung. Sie setzt deren flexible Zeitgestaltung nicht mit einem schulmäßigen Kanon gleich."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true,
+          "examples": [
+            "motte-tonfolge-gesamtklang"
+          ]
         }
       ],
       "readingSources": [],
@@ -14187,6 +16036,12 @@ const ATLAS = {
           "to": "prout1891-1",
           "type": "context",
           "note": "Prout unterscheidet Fuge und Kanon nach der Fortsetzung der Nachahmung. Menke macht zusätzlich den historischen Bedeutungswechsel sichtbar: Unter dem älteren Oberbegriff Fuga konnten sowohl strenger Kanon als auch freiere Themenkopfimitation stehen. Die abweichenden Bezeichnungen bedeuten hier keinen Widerspruch in der beschriebenen Technik."
+        },
+        {
+          "from": "motte1995-l22",
+          "to": "prout1891-1",
+          "type": "context",
+          "note": "Prout bestimmt den Kanon über die fortgesetzte Nachahmung einer Linie. De la Motte zeigt bei Ligeti, wie die gemeinsame Tonfolge bei wechselnden Zeitabständen zu einem Gesamtklang verschmilzt. Die kanonische Herkunft des Materials und die Hörbarkeit getrennter Stimmen sind hier verschiedene Fragen."
         }
       ]
     },
@@ -14421,7 +16276,9 @@ const ATLAS = {
         "fuge-engfuehrung",
         "doppelter-kontrapunkt",
         "kanon-spiralkanon",
-        "spiegelumkehr-stimmenpaar"
+        "spiegelumkehr-stimmenpaar",
+        "motivische-polyphonie",
+        "tonfolge-und-rhythmus"
       ],
       "comparisons": [],
       "authors": [
@@ -14556,6 +16413,52 @@ const ATLAS = {
               "note": "Die relationale Benennung von Augmentation und Diminution wird an gleichzeitig erklingenden Fassungen im Messias gezeigt."
             }
           }
+        },
+        {
+          "id": "motte1995-e04",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 26–31 · Ockeghem, Missa Prolationum, Credo",
+          "text": "Im Credo aus Ockeghems Missa Prolationum entstehen aus zwei notierten Linien vier Stimmen durch verschiedene Schlüssel und Mensuren. Bestimmte lange Notenwerte dauern in den zusammengehörigen Stimmen unterschiedlich lang; kurze Werte behalten dagegen die gleiche Dauer. So wächst der zeitliche Abstand zunächst an. Sobald er ausreicht, verwendet Ockeghem die abstandserweiternden Werte nicht mehr und führt die Stimmen mit festem Abstand weiter. Das Verfahren ist daher keine durchgehend proportionale Vergrößerung sämtlicher Notenwerte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Mensurkanon bei Ockeghem",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 26–31 · Ockeghem, Missa Prolationum, Credo",
+              "note": "Die Erklärung auf S. 30–31 unterscheidet die Dauer bestimmter langer Einheiten von der unveränderten Dauer kurzer Noten und beschreibt den Übergang zum festen Kanonabstand. S. 31 visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l02",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 8, S. 307–311 · Beethoven, Streichquartett op. 132, motivische Umkehrung und Krebs",
+          "text": "In Beethovens Quartett op. 132 verfolgt de la Motte die Arbeit mit sehr kleinen Motiven bis zu den vier Formen Original, Umkehrung, Krebs und Krebsumkehrung. Im Finale gewinnt ein dreitöniger Ausschnitt aus dem Thema Eigenständigkeit und wird später in diesen verschiedenen Richtungen miteinander verflochten. Die Verfahren bestimmen hier die Konstruktion aus kurzen Bausteinen; sie verlangen keinen durchgehend kanonischen Verlauf einer vollständigen Melodie.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Motivische Konstruktion · Beethovens Quartett op. 132",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 307–311 · Beethoven, Streichquartett op. 132, motivische Umkehrung und Krebs",
+              "note": "De la Motte zeigt die vier Formen an einem dreitönigen Motiv im späten Beethoven, nicht als Speziesvorgabe."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -14916,7 +16819,8 @@ const ATLAS = {
       "related": [
         "rhythmische-selbststaendigkeit",
         "linie-orgelpunkt",
-        "melodische-intervalle"
+        "melodische-intervalle",
+        "stimme-und-satzstruktur"
       ],
       "authors": [
         {
@@ -15088,6 +16992,52 @@ const ATLAS = {
               "note": "Händels Flötensonate op. 1 Nr. 1 und Bachs BWV 1030b liefern die konkreten Beispiele für zusätzliche gedachte Stimmen."
             }
           }
+        },
+        {
+          "id": "motte1995-r09",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 258–259 · wechselnde Zahl gedachter Stimmen",
+          "text": "Viele weite Sprünge in Bachs Sololinien entstehen für de la Motte dadurch, dass zwei oder drei an sich ruhig verlaufende Stimmen ihre Töne nacheinander spielen müssen. Deshalb prüft er zuerst die Fortsetzung innerhalb jeder gedachten Lage. Die äußerlich springende Linie darf dabei ihre gedachte Stimmenzahl verändern: Aus einer Linie entstehen mehrere, anschließend kann sich der Verlauf wieder auf eine einzige zusammenziehen. Eine solche Passage verlangt sorgfältige Führung der inneren Stimmen, aber keine durchgehend festgehaltene Zahl virtueller Stimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 258–259 · wechselnde Zahl gedachter Stimmen",
+              "note": "S. 259 erlaubt große Sprünge im Wechsel gedachter Linien und beschreibt ausdrücklich deren Entstehen und erneute Reduktion."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l12",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 357–359 · Hindemith, Sonate für Violoncello und Klavier op. 11 Nr. 3",
+          "text": "Bei Hindemith sucht de la Motte Halbtonverbindungen auch zwischen Tönen, die durch andere Töne voneinander getrennt sind. Das Ohr kann eine begonnene Bewegung im Gedächtnis behalten und nach der Unterbrechung fortsetzen. In einer einzigen gespielten Linie entstehen so mehrere ineinandergreifende Züge. Er vergleicht diese Hörleistung ausdrücklich mit Bachs latenter Mehrstimmigkeit; in der untersuchten modernen Melodik liefert die Nähe der Tonhöhen selbst einen Zusammenhang, auch ohne gemeinsame Durtonleiter.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Chromatische Verbindungen in einer Instrumentalstimme · Hindemith",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 357–359 · Hindemith, Sonate für Violoncello und Klavier op. 11 Nr. 3",
+              "note": "Die Analyse und die abgeleiteten Übungen gewinnen Zusammenhang aus unterbrochenen Halbtonzügen in Hindemiths Melodik."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "readingSources": []
@@ -15513,7 +17463,8 @@ const ATLAS = {
       "related": [
         "invention-einsatzplan",
         "fuge-kontrasubjekt",
-        "doppelter-kontrapunkt"
+        "doppelter-kontrapunkt",
+        "invention-form"
       ],
       "authors": [
         {
@@ -15588,7 +17539,8 @@ const ATLAS = {
         "fuge-antwortintervall",
         "fuge-exposition",
         "imitation-und-kanon",
-        "invention-episode"
+        "invention-episode",
+        "invention-form"
       ],
       "authors": [
         {
@@ -15638,9 +17590,40 @@ const ATLAS = {
               "note": "Benjamin wählt ausdrücklich den Einsatzplan bestimmter Bach-Inventionen als Schreibmodell und stellt ihm eine andere Lösung bei Bach gegenüber."
             }
           }
+        },
+        {
+          "id": "motte1995-r14",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 281–282 und 285 · Oktav- oder Quintantwort und Beginn im Bass",
+          "text": "Für Bachs imitierende Zweistimmigkeit nennt de la Motte sowohl die Oktav- als auch die Quintbeantwortung als mögliche Anfänge. Eine einzige Invention soll nicht zum verbindlichen Plan für alle anderen werden. Für eigene Entwürfe empfiehlt er zunächst den Beginn in der tieferen Stimme: So muss das Thema seine Eignung als Bass von Anfang an beweisen. Diese Empfehlung legt weder für jede Invention eine feste Einsatzreihenfolge noch eine obligatorische Modulation beim zweiten Einsatz fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 281–282 und 285 · Oktav- oder Quintantwort und Beginn im Bass",
+              "note": "S. 281–282 nennt Oktav- oder Quintantwort; S. 285 empfiehlt den Beginn in der tiefsten Stimme als Kompositionshilfe."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "motte1995-r14",
+          "to": "benjamin1986-1",
+          "type": "nuance",
+          "note": "Benjamin wählt für seine Schreibübung den Oberstimmenbeginn mit Oktavantwort im Bass, benennt aber ein abweichendes Bach-Beispiel. De la Motte empfiehlt umgekehrt zunächst den Beginn im Bass, um die Basstauglichkeit des Themas zu prüfen. Die Empfehlungen unterscheiden sich in der Reihenfolge des Erfindens; beide lassen mehrere historische Einsatzmodelle zu."
+        }
+      ]
     },
     {
       "id": "fuge-doppelfuge",
@@ -16074,7 +18057,9 @@ const ATLAS = {
         "cantus-firmus",
         "hoehepunkt",
         "imitation-und-kanon",
-        "obligo-kontrapunkt"
+        "obligo-kontrapunkt",
+        "choral-gegenstimme",
+        "gregorianische-vorlage"
       ],
       "authors": [
         {
@@ -16274,6 +18259,37 @@ const ATLAS = {
               "note": "Die motivische und textliche Anlage wird an Caldaras sechzehnstimmigem Crucifixus untersucht."
             }
           }
+        },
+        {
+          "id": "motte1995-j23",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, Analyse von Domine Dominus noster, S. 128–131 · gleiche Motive über mehrere Textglieder",
+          "text": "Neue Textglieder führen nach de la Motte in der Motettentechnik häufig zu neuen Motiven. Domine Dominus noster zeigt ihm aber eine wichtige Erweiterung: Der ausgedehnte Cantus firmus gibt einen zeitlichen Rahmen vor, während die übrigen Stimmen viel Text bewältigen müssen. Josquin behält deshalb mehrere zunächst aus einzelnen Worten gewonnene Motive auch für neue Textabschnitte bei. So entstehen größere motivisch einheitliche Flächen, ohne dass der Text langsamer voranschreiten müsste. Die Verbindung von Wort und Motiv bleibt wirksam, verlangt aber keinen motivischen Neubeginn bei jedem neuen Wortglied.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin: Domine Dominus noster, Motiventwicklung über einem formbestimmenden Cantus firmus",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, Analyse von Domine Dominus noster, S. 128–131 · gleiche Motive über mehrere Textglieder",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "motte1995-j23",
+          "to": "jeppesen1964-61",
+          "type": "nuance",
+          "note": "Jeppesen zeigt, wie ein neues Textthema aus einem vorherigen Kontrapunkt hervorgehen kann. De la Motte beschreibt an Josquin eine weitergehende Kontinuität: Bereits vorhandene Motive bleiben über mehrere neue Textglieder hinweg bestehen. Beide relativieren die einfache Zuordnung eines ganz neuen Motivs zu jedem neuen Textabschnitt, aber auf verschiedenen formalen Ebenen."
         }
       ]
     },
@@ -16292,7 +18308,8 @@ const ATLAS = {
       "related": [
         "imitation-und-kanon",
         "cantus-firmus",
-        "invention-gegenmotiv"
+        "invention-gegenmotiv",
+        "choral-gegenstimme"
       ],
       "authors": [
         {
@@ -16502,7 +18519,8 @@ const ATLAS = {
         "invention-einsatzplan",
         "invention-gegenmotiv",
         "fuge-zwischenspiel",
-        "sequenzmodell"
+        "sequenzmodell",
+        "invention-form"
       ],
       "authors": [
         {
@@ -16553,6 +18571,29 @@ const ATLAS = {
               "note": "Die verzögerte Rückkehr des Themas wird an Bachs Sinfonia Nr. 13 im Verhältnis zu Harmonie, Taktgruppen und Register untersucht."
             }
           }
+        },
+        {
+          "id": "motte1995-r17",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 287–293 · verschiedene Sequenzen aus dem Anfangsmaterial",
+          "text": "Eine Episode gewinnt de la Motte aus kurzen Teilen des Anfangsmaterials, die sich in verschiedenen Intervallen versetzen lassen. Er unterscheidet steigende und fallende Sekunden- sowie Quintsequenzen und verlangt zusätzlich einen überzeugenden melodischen und rhythmischen Anschluss der Glieder. Bloßes Transponieren reicht nicht. Das Modell kann innerhalb einer Tonart bleiben oder durch charakteristische Alterationen zu einer anderen führen. In einer eigenen Invention sollen verschiedene Sequenztypen zusammenwirken; immer dasselbe Modell zu wiederholen würde die Möglichkeiten des Bach-Stils unnötig verengen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 287–293 · verschiedene Sequenzen aus dem Anfangsmaterial",
+              "note": "S. 287–292 entwickelt Sequenztypen, Anschluss der Glieder und Modulation aus dem Themenmaterial; S. 293 bindet sie in die Inventionsaufgabe ein."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ]
     },
@@ -16602,6 +18643,37 @@ const ATLAS = {
               "note": "Die Rückkehr von Tonika und Themenmaterial wird an Bachs c-Moll-Fuge BWV 847 untersucht."
             }
           }
+        },
+        {
+          "id": "motte1995-l05",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 8, S. 314–316 · Beethoven, Streichquartett op. 131, erster Satz",
+          "text": "Für Beethovens späte Fugen beschreibt de la Motte eine Entwicklung, in der das vollständige Thema zunehmend in kleinere Bestandteile übergeht. Im ersten Satz von op. 131 trägt nach der Exposition besonders eine absteigende Sekundfigur die weitere Arbeit. Zwischenspiele gewinnen damit das Gewicht eines gerichteten Entwicklungsprozesses. Eine Schlussbetrachtung, die vor allem nach der Wiederherstellung der anfänglichen Themengestalt sucht, trifft nach dieser Lesart den Verlauf nicht: Das Material hat sich unterwegs verändert.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Fugenentwicklung · Beethovens Quartett op. 131",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 314–316 · Beethoven, Streichquartett op. 131, erster Satz",
+              "note": "Die Aussage betrifft de la Mottes Deutung später Beethoven-Fugen und das ausgeführte Beispiel op. 131."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "motte1995-l05",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin beschreibt an BWV 847 eine Rückkehr von Tonika, Thema und Gegenmaterial in neuer Anordnung und räumt andere Schlussverläufe ein. De la Motte stellt am späten Beethoven die fortgesetzte Veränderung und Zerlegung des Themas in den Vordergrund. Die Gegenüberstellung markiert unterschiedliche Formverläufe; sie behauptet keinen Streit über dieselbe Fuge."
         }
       ]
     },
@@ -17001,6 +19073,29 @@ const ATLAS = {
               "note": "Die Quiescenza wird als Satzmodell innerhalb von Menkes barocker Kadenzlehre behandelt; ihre Position im Stück wird gesondert bestimmt."
             }
           }
+        },
+        {
+          "id": "motte1995-j20",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Formación de las cadencias“, S. 112–116 · mehrstimmige Schlüsse mit versetztem Stillstand",
+          "text": "Ein Schluss muss in de la Mottes Josquin-Beispielen nicht als ein einziger gemeinsamer Schlussakkord aller Stimmen eintreten. Häufig kommen die Linien nach und nach zur Ruhe; zuletzt bleibt noch eine kleine melodische Bewegung in einer Stimme übrig. Der Schluss wird dadurch zeitlich ausgebreitet und erhält eine eigene Gestalt. Diese Beobachtung gehört zu seinem Exkurs über mehrstimmige Kadenzen. Sie erweitert die zuvor geübten zweistimmigen Schlussformeln, ohne jede verbleibende Bewegung automatisch als Ausweichen vor der Kadenz zu deuten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter mehrstimmiger Satz: zeitliche Ausgestaltung des Schlusses",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, „Formación de las cadencias“, S. 112–116 · mehrstimmige Schlüsse mit versetztem Stillstand",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -17354,6 +19449,29 @@ const ATLAS = {
               "note": "Die Unterscheidung harmonischer, struktureller und motivischer Einheiten wird an Menkes barocken Sequenzmodellen entwickelt."
             }
           }
+        },
+        {
+          "id": "motte1995-r18",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 252–254 und 287–291 · ein- oder zweiakkordiges Modell",
+          "text": "In einer Quintfallsequenz kann das melodische Modell nur einen Akkord umfassen oder bereits zwei durch einen Quintfall verbundene Harmonien. Im ersten Fall wandert es über jeden harmonischen Schritt; im zweiten rückt die Wiederholung um eine Sekunde abwärts, weil sie zwei Quintschritte zusammenfasst. Für die zweistimmige Ausarbeitung kommt der Anschluss der Bewegungsfiguren hinzu. De la Motte hält außerdem die Stufenbezeichnung innerhalb der fortlaufenden Quintfälle für hilfreicher als eine erzwungene Folge selbstständiger Funktionsdeutungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 252–254 und 287–291 · ein- oder zweiakkordiges Modell",
+              "note": "S. 252 empfiehlt Stufenziffern innerhalb der Quintfallsequenz; S. 254 unterscheidet Modelle mit einem und zwei harmonischen Gliedern."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -17362,6 +19480,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-1",
           "type": "nuance",
           "note": "Neidhöfer und Schubert bestimmen im Bach-Beispiel ein vierakkordiges Modell durch die Rückkehr derselben Figur in derselben Stimme. Menke trennt ausdrücklich drei Ebenen: Klangwechsel, kürzeres Gerüstglied und längeres motivisches Glied. Die unterschiedliche Gliedlänge muss daher keine unterschiedliche Deutung derselben Ebene bedeuten."
+        },
+        {
+          "from": "motte1995-r18",
+          "to": "menke2017-35",
+          "type": "nuance",
+          "note": "De la Motte unterscheidet an der Quintfallsequenz ein- und zweiakkordige melodische Modelle. Menke trennt zusätzlich Klangwechsel, Gerüstglied und motivisches Glied. Beide warnen damit auf unterschiedliche Weise davor, jeden Harmoniewechsel schon für den Beginn eines vollständigen neuen Sequenzmodells zu halten."
         }
       ]
     },
@@ -17782,6 +19906,29 @@ const ATLAS = {
               "note": "Die diatonische Reduktion betrifft Monteverdis Crucifixus aus Selva morale e spirituale und die hier untersuchte barocke Chromatik."
             }
           }
+        },
+        {
+          "id": "motte1995-l13",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 360–363 · Schönberg, George-Lieder; wechselnde und wiederkehrende Tonhöhen",
+          "text": "In Schönbergs George-Liedern richtet de la Motte das Ohr auf den Wechsel zwischen neu hinzutretenden Tonhöhen und Ruhe durch Wiederkehr. Ruhe bedeutet hier nicht notwendig die Rückkehr zu einem Dur-Tonfeld: Auch ein wiederkehrender Einzelton oder eine kleine Tongruppe kann sie erzeugen. Dagegen verändert die chromatische Erneuerung den bereits gehörten Tonraum. Diese Unterscheidung erklärt den Verlauf ohne ein vorausgesetztes diatonisches Gerüst. De la Motte betont zugleich, dass die Beispiele noch nicht nach einer strengen Zwölftonregel funktionieren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Freie Atonalität · Schönbergs George-Lieder",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 360–363 · Schönberg, George-Lieder; wechselnde und wiederkehrende Tonhöhen",
+              "note": "Die Kategorien Ruhe und Erneuerung werden aus Schönbergs frühen Liedern gewonnen und nicht als feste Vorschrift für alle atonale Musik gesetzt."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -17790,6 +19937,12 @@ const ATLAS = {
           "to": "salzer-schachter1989-1",
           "type": "context",
           "note": "Menke erschließt Monteverdis Crucifixus durch das Entfernen der Akzidentien aus einem konsonanten Gerüst. Salzer und Schachter lesen im Sanctus von Franz Schuberts Es-Dur-Messe dagegen eine symmetrische Großterzteilung, deren ces kein bloßer Ersatz für c ist. Die Gegenüberstellung markiert verschiedene Repertoirefälle und die Reichweite der jeweiligen Reduktion, keinen Streit über dasselbe Werk."
+        },
+        {
+          "from": "motte1995-l13",
+          "to": "menke2017-40",
+          "type": "context",
+          "note": "Menke gewinnt aus Monteverdis Crucifixus durch das Entfernen der Akzidentien ein diatonisches Gerüst. De la Motte erschließt Schönbergs George-Lieder stattdessen aus Tonhöhenwechsel und wiederkehrenden Ruhepunkten. Beide Verfahren beziehen sich auf ihr jeweiliges Repertoire und sind keine konkurrierenden Reduktionen desselben Stücks."
         }
       ]
     },
@@ -17835,6 +19988,29 @@ const ATLAS = {
               "note": "Ockeghems Missa Prolationum ist der Gegenstand der Analyse. Die unterschiedliche Funktion entsprechender Töne entsteht im dort untersuchten mehrstimmigen Zusammenhang."
             }
           }
+        },
+        {
+          "id": "motte1995-r15",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 284–285 · C-Dur-Invention und Basstauglichkeit des Themas",
+          "text": "Das Thema der C-Dur-Invention lässt sich in der Oberstimme als Ausarbeitung der Tonika hören, endet aber auf ihrer betonten Quinte. Beim Eintritt als Bass kann dieser Ton nicht ohne Weiteres dieselbe harmonische Rolle behalten: De la Motte erklärt ihn dort durch einen Wechsel zur Dominante. Die imitierte Gestalt bleibt erkennbar, während sich ihr harmonischer Gebrauch ändert. Für eigene Themen soll deshalb schon beim Erfinden geprüft werden, was aus betonten Quinten wird, sobald die Melodie die Bassrolle übernimmt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · Instrumentalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 284–285 · C-Dur-Invention und Basstauglichkeit des Themas",
+              "note": "S. 284–285 erklärt den Funktionswechsel beim Bassauftritt des Themas der ersten Invention; der Notenausschnitt wurde visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ]
     },
@@ -17898,7 +20074,8 @@ const ATLAS = {
         "sprungausgleich",
         "melodische-intervalle",
         "dichte-s5",
-        "obere-untere-wechselnote"
+        "obere-untere-wechselnote",
+        "tritonus-melodiebogen"
       ],
       "reading": "Spiele dieselbe Tonfolge erst in Halben, dann in Vierteln und behalte die Halbe als Zählzeit bei. Bestimme die metrische Position des Ausgangstons jedes Sprungs. Die Grafik isoliert diese eine melodische Bedingung; sie ist keine vollständige Satzprüfung.",
       "readingSources": [
@@ -17931,6 +20108,83 @@ const ATLAS = {
               "note": "Die Sprungregeln beziehen sich auf Jeppesens Palestrina-orientierte Melodielehre. Notenwert und Position zur Halben als Zählzeit gehören zur Reichweite der Aussage."
             }
           }
+        },
+        {
+          "id": "motte1995-e08",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 157–161, besonders S. 158 · Palestrinas Viertelbewegung",
+          "text": "Bei Palestrinas Viertelbewegung verbindet de la Motte Sprungrichtung und Gewicht des Ausgangstons. Von einer betonten Viertel aus bleibt der Aufwärtssprung ausgeschlossen. Als abwärts gerichtete Kombination beschreibt er Sekundschritte mit anschließendem Terzsprung und danach eine aufwärts gerichtete Fortsetzung. Aufwärts steht nach einem Richtungswechsel zuerst die Terz, danach folgen Schritte. Das sind Regeln für die bewegten kleinen Werte dieses Vokalstils; sie dürfen nicht unverändert auf jede rhythmische Gestalt übertragen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Viertelbewegung im Palestrina-Stil",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 157–161, besonders S. 158 · Palestrinas Viertelbewegung",
+              "note": "S. 158 formuliert die beiden Schritt-Sprung-Kombinationen und schließt Aufwärtssprünge von betonten Vierteln ausdrücklich aus. Notenformen und Beispiele auf S. 157–159 visuell geprüft. Die widersprüchliche Nachbarton-Terminologie dieser Seiten wird hier nicht übernommen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e23",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 228–229 · Schütz: zweistimmige Passionsstellen im Stylus gravis",
+          "text": "In den zweistimmigen Passionsstellen von Schütz sieht de la Motte eine begrenzte Erweiterung gegenüber der älteren Vokaltechnik: Auch von einer betonten Achtel kann ein Sprung aufwärts führen. Die Notenwerte sind gegenüber dem zuvor behandelten Repertoire verkleinert; ansonsten beschreibt er diese Stellen als dem Palestrina-Stil sehr nahe. Die Erlaubnis betrifft damit gerade diese Satzweise und rhythmische Ebene, nicht eine voraussetzungslose Freigabe beliebiger Aufwärtssprünge im gesamten Barock.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Aufwärtssprünge im Stylus gravis bei Schütz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 228–229 · Schütz: zweistimmige Passionsstellen im Stylus gravis",
+              "note": "S. 228 benennt Aufwärtssprünge von betonten Achteln ausdrücklich als Neuerung der besprochenen Passionsduette; Text und erstes Notenbeispiel visuell geprüft. Vergleichsbezug Palestrina bleibt im Wortlaut erhalten, ohne Schütz' tatsächliche Werke als Renaissance zu etikettieren."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j17",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Negras consonantes“ und „Saltos“, S. 90–94 und 103–107 · Sprünge in Viertelbewegung",
+          "text": "De la Motte unterscheidet den Sprung zu einer Viertelgruppe vom Sprung innerhalb der laufenden Gruppe. Ein auf betonter Position beginnender Viertelgang kann durch Sprung erreicht werden. Beginnt er dagegen leicht nach einer verlängerten Halben, erwartet sein Josquin-Modell einen Schritt. Innerhalb zusammenhängender Viertelgänge sind Sprünge viel enger begrenzt als bei langen Werten; ein betontes Viertel springt in seiner Darstellung nicht aufwärts. Häufige abspringende Dissonanzen und die Cambiata bilden eigens behandelte Figuren. Andere ungewöhnliche Sprünge erklärt er an konkreter Textausdeutung und übernimmt sie nicht beiläufig in die Übung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierte Melodie: Viertelgruppen bei vorherrschender Halbenbewegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Negras consonantes“ und „Saltos“, S. 90–94 und 103–107 · Sprünge in Viertelbewegung",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "motte1995-e23",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Jeppesen schließt im Palestrina-Modell Aufwärtssprünge von betonten Vierteln aus. De la Motte kennzeichnet den Aufwärtssprung von der betonten Achtel ausdrücklich als Erweiterung in Schütz’ rhythmisch verkleinerten Passionsduetten. Die jeweils vergleichbare Bewegungsstufe, nicht allein der Notenname, macht den Stilunterschied verständlich."
         }
       ]
     },
@@ -17982,6 +20236,29 @@ const ATLAS = {
               "note": "Der Palestrina-Stil wird in der Passage ausdrücklich benannt. Die Aussage betrifft zunächst die Melodie, während die Dissonanzbeurteilung weitere Stimmen voraussetzt."
             }
           }
+        },
+        {
+          "id": "motte1995-j16",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Bordaduras“, S. 98–101 · untere und obere Viertelwechselnote",
+          "text": "Für Josquin beschreibt de la Motte die untere Wechselnote als gebräuchlich, die obere als sehr selten, aber belegbar. Die behandelten Wechselnoten stehen in Vierteln, nicht in Halben. Eine kurze selbstständige Zweiergruppe gehört auf eine leichte Halbenposition; als Anfang oder Ende einer längeren Viertelbewegung kann die Figur anders im Takt stehen. Die untere Wechselnote kann beispielsweise einen aufsteigenden Lauf eröffnen oder einen absteigenden abschließen. Die seltenen oberen Nachbartöne werden durch Werkbeispiele ergänzt. Die Unterscheidung betrifft damit Richtung, Einbettung und Häufigkeit zugleich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter Zweistimmensatz: kurze Wechselnotenfiguren und längere Viertelgruppen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Bordaduras“, S. 98–101 · untere und obere Viertelwechselnote",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ]
     },
@@ -18030,6 +20307,60 @@ const ATLAS = {
               "note": "Die gleichzeitige Viertelbewegung wird im freien Satz des Palestrina-orientierten Lehrgangs behandelt. Das Hinzutreten liegender Stimmen verändert die Bedingungen."
             }
           }
+        },
+        {
+          "id": "motte1995-e16",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 194 und 198 · Missa Sanctorum meritis, Crucifixus, T. 29",
+          "text": "Zwei gleichzeitig bewegte Viertel dürfen bei Palestrina nach de la Mottes Analyse miteinander dissonieren, wenn ihre Linienführung dies trägt. In Takt 29 des Crucifixus der Missa Sanctorum meritis bewegt sich die obere der beiden aktiven Stimmen als Durchgang, die untere in einer cambiatartigen Figur. De la Motte betont zugleich die Seltenheit des Falls: An anderen verglichenen Stellen konsonieren die bewegten Stimmen auch untereinander. Die einzelne vertikale Reibung wird aus den konkreten Stimmenwegen beurteilt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Gleichzeitig bewegte Stimmen in Palestrinas Crucifixus",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 194 und 198 · Missa Sanctorum meritis, Crucifixus, T. 29",
+              "note": "S. 198 kommentiert T. 29 ausdrücklich als Durchgang gegen Quasicambiata und als seltenen erlaubten Zusammenstoß. Partitur T. 29 auf S. 194 sowie Kommentar auf S. 198 visuell geprüft; in diesem Takt pausiert die oberste der drei notierten Stimmen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j18",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, Analyse des Benedictus aus der Missa Pange lingua, S. 136–137, T. 181 · gleichzeitig bewegte Viertel",
+          "text": "Im Benedictus der Missa Pange lingua weist de la Motte auf einen dissonanten Zusammenklang hin, der bei gleichzeitiger Viertelbewegung beider Stimmen entsteht. Jede Linie ist für sich korrekt geführt; dennoch treffen in Takt 181 f und h aufeinander. Er hält dieses Zusammentreffen deshalb nicht für einen einfachen Fehler. Zugleich betont er die Seltenheit solcher gleichzeitigen Viertelgänge in den untersuchten Josquin-Duetten und erklärt damit, warum er sie zuvor nicht systematisch üben ließ. Ein historischer Beleg und der gewöhnliche Vorrat einer Anfängeraufgabe haben hier ausdrücklich verschiedenen Umfang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin: Benedictus der Missa Pange lingua; seltene gleichzeitige Viertelbewegung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, Analyse des Benedictus aus der Missa Pange lingua, S. 136–137, T. 181 · gleichzeitig bewegte Viertel",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "motte1995-j18",
+          "to": "jeppesen1964-34",
+          "type": "nuance",
+          "note": "Jeppesen formuliert für gleichzeitig bewegte Viertel eine Regel der korrekten Dissonanzbehandlung jeder einzelnen Stimme. De la Motte bestätigt an Pange lingua die Möglichkeit eines solchen Zusammenstoßes, betont aber seine Seltenheit und lässt ihn aus den vorausgehenden Anfängerübungen heraus. Zulässigkeit und historische Häufigkeit sind verschiedene Aussagen."
         }
       ]
     },
@@ -18079,6 +20410,89 @@ const ATLAS = {
               "note": "Die Silbenregeln gehören zum freien Vokalsatz des Palestrina-orientierten Lehrgangs und setzen die Halbe als Zählzeit voraus."
             }
           }
+        },
+        {
+          "id": "motte1995-e14",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 174–181, besonders S. 175 und 181 · Palestrina: Text und Musik",
+          "text": "In de la Mottes Palestrina-Modell erhält eine neue Silbe grundsätzlich einen Wert, der länger als eine Viertel ist; einzelne Viertel tragen nur ausnahmsweise eigenen Text. Mehrere kleine Werte entfalten eine Silbe zu einem Melisma, häufig gegen das Ende einer Wortgruppe. Die musikalische Phrase führt dabei typischerweise von Ruhe zu Bewegung und wieder zur Ruhe. Für die eigene Übung sollen zuerst geeignete Melismensilben bestimmt werden; die Wahl ist Teil des Entwurfs der Melodie.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Silben und Melismen bei Palestrina",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 174–181, besonders S. 175 und 181 · Palestrina: Text und Musik",
+              "note": "S. 175 formuliert die Grundzuordnung von Silbe und Notenwert, nennt die Ausnahme isolierter Viertel und erläutert den Bogen Ruhe–Bewegung–Beruhigung; S. 181 empfiehlt die vorherige Wahl der Melismensilben. Keine ausnahmslose Silbenregel für alle Vokalmusik."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-e22",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 227–229 · Schütz: kleinere Notenwerte und Text",
+          "text": "Bei Schütz tragen auch wesentlich kürzere Noten eigene Silben als im zuvor behandelten Palestrina-Stil. De la Motte nennt im beweglicheren Satz nicht nur Achtel, sondern häufig auch Sechzehntel mit Text. Selbst die Passionsduette, die er sonst dem älteren Stylus gravis zuordnet, verwenden syllabische Achtel. Die erlaubte Silbenverteilung kann daher nicht allein aus dem gedruckten Notenwert abgeleitet werden; die zeitliche Ebene und die jeweilige Satzweise müssen mitgelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Deklamation in Schütz' verschiedenen Satzweisen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 227–229 · Schütz: kleinere Notenwerte und Text",
+              "note": "S. 227 nennt Achtel, häufig textierte Sechzehntel und Zweiunddreißigstel; S. 228 erklärt die syllabischen Achtel der Passionsduette durch die verkleinerten Werte. S. 228 mit dem ersten textierten Duett visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-j27",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, S. 108 · einzelne Viertelnote als Silbenträger und editorische Unterlegung",
+          "text": "Eine einzelne Viertelnote trägt nach de la Mottes Darstellung bei Josquin nur selten eine neue Silbe. Er zeigt zwar eine entsprechende Unterlegung Friedrich Blumes in der Missa Pange lingua, empfiehlt sie für eigene Arbeiten aber nur als Ausnahme. Zugleich erinnert er daran, dass die historische Textverteilung oft unvollständig überliefert ist und die gedruckte Zuordnung vielfach vom Herausgeber stammt. Bei einer scheinbaren Ausnahme muss deshalb auch geprüft werden, ob man eine belegte originale Unterlegung oder einen modernen Editionsvorschlag vor sich hat.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierter Vokalsatz: Silbenbeginn und editorisch ergänzte Textunterlegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 108 · einzelne Viertelnote als Silbenträger und editorische Unterlegung",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "motte1995-e22",
+          "to": "jeppesen1964-35",
+          "type": "context",
+          "note": "Jeppesens Palestrina-Modell gibt Achteln keine eigene Silbe. De la Motte zeigt bei Schütz syllabische Achtel auch im Stylus gravis und noch kleinere textierte Werte im beweglicheren Satz. Die Verkürzung der rhythmischen Werte verändert somit die praktische Grenze der Silbenverteilung."
+        },
+        {
+          "from": "motte1995-j27",
+          "to": "jeppesen1964-35",
+          "type": "nuance",
+          "note": "Jeppesen gibt für die einzelne Viertel nach punktierter Halber eine konkrete Möglichkeit des Silbenwechsels an. De la Motte betont bei Josquin die Seltenheit syllabischer Viertel und die mögliche Herkunft aus einem Editionsvorschlag. Die metrische Erlaubnis allein beantwortet damit noch nicht die Frage nach Häufigkeit und Überlieferung."
         }
       ]
     },
@@ -18127,6 +20541,29 @@ const ATLAS = {
               "note": "Die Satzwechsel werden an Palestrinas Dies sanctificatus und dessen Textgliederung beschrieben."
             }
           }
+        },
+        {
+          "id": "motte1995-j24",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, Analyse von Domine Dominus noster, S. 128–129 · Imitation und gemeinsame Deklamation",
+          "text": "De la Motte beschreibt die Motettentechnik bei Josquin als Wechsel zwischen imitierender Polyphonie und deklamatorischer Homophonie. In Domine Dominus noster werden einige Abschnitte aus der gemeinsamen Wortbetonung geformt; andernorts wandern aus dem Text gewonnene Motive durch die Stimmen. Die Satzarten erfüllen damit verschiedene Aufgaben bei der Gliederung und Ausbreitung des Textes. Eine Motette, die vorübergehend gemeinsam deklamiert, gibt ihre kontrapunktische Anlage nicht auf. Für die größere Form zählt das Zusammenwirken dieser unterschiedlichen Verläufe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin: Domine Dominus noster, Wechsel der Satzweise nach Text und Form",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 3, Analyse von Domine Dominus noster, S. 128–129 · Imitation und gemeinsame Deklamation",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ]
     },
@@ -18145,7 +20582,8 @@ const ATLAS = {
       "related": [
         "motette-satzwechsel",
         "soggetto-und-text",
-        "imitation-funktionswechsel"
+        "imitation-funktionswechsel",
+        "gregorianische-vorlage"
       ],
       "reading": "Vergleiche denselben Themenkopf in der Motette sowie in Kyrie, Gloria und Sanctus. Unterscheide, welche Töne wiederkehren und welche Satzweise oder Gegenstimme neu hinzukommt.",
       "readingSources": [
@@ -18409,7 +20847,8 @@ const ATLAS = {
         "motiv-ueber-cantus",
         "cantus-firmus",
         "doppelter-kontrapunkt",
-        "fuge-kontrasubjekt"
+        "fuge-kontrasubjekt",
+        "tonfolge-und-rhythmus"
       ],
       "reading": "Wähle einen kurzen Cantus firmus. Entwirf dazu zunächst eine Gegenstimme nur aus Schritten, dann eine mit festem rhythmischem Muster. Welche Wendungen erzwingt die jeweilige Beschränkung? Suche anschließend in einem längeren Satz Stellen, an denen das Konzept wechselt.",
       "readingSources": [
@@ -18439,6 +20878,52 @@ const ATLAS = {
               "note": "Berardi und Mattheson liefern die historischen Aufgaben mit selbst gewählten Beschränkungen. Diese Übungsprinzipien stehen neben der Speziesfolge."
             }
           }
+        },
+        {
+          "id": "motte1995-l20",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 390–397 · Debussy, Les tierces alternées, und Bartók, Chromatische Invention",
+          "text": "De la Motte versteht eine enge Materialbeschränkung als Anstoß zur Erfindung. Bei Debussys Les tierces alternées verfolgt er, wie wechselnde Rhythmen, Lagen und Handverteilungen aus dem nahezu durchgehenden Terzmaterial verschiedene Gestalten gewinnen. In Bartóks Chromatischer Invention wird die Halbtonbindung zeitweise gelockert und anschließend auf neue Weise hergestellt: Eine Stimme knüpft an einen Ton der anderen an, oder eine einzelne Partie verzweigt sich in zwei Halbtonzüge. Die Beschränkung kann somit auch den Verlauf und seine überraschenden Lösungen bestimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Materialbeschränkung und Erfindung · Debussy und Bartók",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 390–397 · Debussy, Les tierces alternées, und Bartók, Chromatische Invention",
+              "note": "Die Aussage stützt sich auf zwei konkrete moderne Stücke und die daraus abgeleiteten Übungen, nicht auf ein universelles Intervallverbot."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l24",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 412–413 · B. A. Zimmermann, tempus loquendi; begrenzte Freiheit der Ausführung",
+          "text": "Bei Zimmermanns tempus loquendi beschreibt de la Motte eine Beschränkung, die auch den Ausführenden zum Gestalten auffordert. Vorgegebene Elemente können nach bestimmten Regeln neu angeordnet werden; verschiedene gedruckte Fassungen machen den Spielraum sichtbar. Die vorgeschlagene Analyse soll aus diesen Fassungen die Regeln ableiten und weitere mögliche Verläufe entwerfen. Festgelegt wird damit nicht nur eine fertige Stimme, sondern auch Material und Bedingungen, aus denen eine Stimme jeweils entstehen kann.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Material und Ausführungsregeln · Zimmermanns tempus loquendi",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 412–413 · B. A. Zimmermann, tempus loquendi; begrenzte Freiheit der Ausführung",
+              "note": "Die Aussage behandelt ausgewählte offene Abschnitte eines bestimmten Werkes. Die Freiheiten sind an gegebenes Material und Regeln gebunden."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ]
     },
@@ -18459,7 +20944,8 @@ const ATLAS = {
         "fuge-zwischenspiel",
         "fuge-formanalyse",
         "fuge-schlussrueckkehr",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "invention-form"
       ],
       "reading": "Vergleiche eine kurze Versettenfuge mit einer längeren Tasten- oder Chorfuge. Zeichne nur Themeneinsätze, Tonartstationen und Zwischenspiele ein. Welche Entscheidungen erklären sich aus Besetzung, Text oder liturgischer Aufgabe?",
       "readingSources": [
@@ -18588,6 +21074,397 @@ const ATLAS = {
               "note": "Menke bezeichnet die historische Romanesca ausdrücklich und verfolgt ihr Stimmen- und Metrumsmodell in Frescobaldis Dunque dovrò."
             }
           }
+        }
+      ]
+    },
+    {
+      "id": "choral-gegenstimme",
+      "title": "Wie erfinde ich eine Gegenstimme zu einer gegebenen Choralmelodie?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Choral",
+        "Bach",
+        "Gegenstimme",
+        "Text"
+      ],
+      "comparisons": [],
+      "related": [
+        "cantus-firmus",
+        "motiv-ueber-cantus",
+        "choral-vorimitation",
+        "harmonischer-rhythmus"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-r19",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 275–278 · Cantus-firmus-Satz als Schlussaufgabe",
+          "text": "Für die zweistimmige Choralaufgabe lässt de la Motte mehrere Gegenstimmen zu derselben Melodie erfinden. Ihre Bewegung kann aus dem gewählten harmonischen Verlauf entstehen oder von einem vorher festgelegten Motiv getragen werden. Verschiedene Fassungen brauchen dabei nicht um jeden Preis verschiedene Harmoniefolgen. Der Text soll die Ausdrucksweise mitbestimmen; die Atem- und Zeilenschlüsse der Vorlage geben tonale Ziele vor. Als Hörübung schlägt er vor, den Choral am Klavier zu spielen und die Gegenstimme dazu zu singen. Hier steht die gegebene Melodie als tatsächlicher Kompositionsgegenstand im Mittelpunkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · zweistimmige Choralaufgabe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 275–278 · Cantus-firmus-Satz als Schlussaufgabe",
+              "note": "S. 275–278 behandelt die Komposition mit Cantus firmus, mehrere Gegenstimmen, Textausdruck, Zeilenziele und gesungene Improvisation."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "invention-form",
+      "title": "Braucht jede Invention denselben Formplan?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Bach",
+        "Invention",
+        "Form",
+        "Sequenz"
+      ],
+      "comparisons": [],
+      "related": [
+        "invention-einsatzplan",
+        "invention-episode",
+        "invention-gegenmotiv",
+        "fuge-form-und-gattung"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-r20",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Bach, S. 281–282 und 293–294 · gemeinsame Merkmale und offener Übungsplan",
+          "text": "De la Motte nennt für Bachs imitierende Zweistimmigkeit nur wenige gemeinsame Merkmale: einen imitierenden Anfang, weitgehenden Bezug auf dessen motivisches Material und mindestens eine später erkennbare Wiederkehr des Anfangs. Die einzelnen Inventionen sollen deshalb nicht einem einzigen verbindlichen Schema unterstellt werden. Für eine erste eigene Arbeit bietet er dennoch einen möglichen Plan an: zur Dominante führen, dort ähnlich neu beginnen, mit Sequenzen weiterarbeiten und zur Tonika zurückkehren; ein längerer Entwurf kann eine zusätzliche Zwischenkadenz einschalten. Der angebotene Formplan ist eine Schreibaufgabe, keine Definition aller Inventionen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach · imitierende Zweistimmigkeit und Formaufgabe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Bach, S. 281–282 und 293–294 · gemeinsame Merkmale und offener Übungsplan",
+              "note": "S. 281–282 grenzt die gemeinsame Beschreibung ausdrücklich ein; S. 293–294 bietet einen möglichen Plan für die eigene Invention."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "gregorianische-vorlage",
+      "title": "Wie wird eine gregorianische Melodie zur Vorlage eines polyphonen Satzes?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Gregorianik",
+        "Choral",
+        "Vorlage",
+        "Messe",
+        "Paraphrase",
+        "Palestrina"
+      ],
+      "comparisons": [],
+      "related": [
+        "cantus-firmus",
+        "messe-vorlage",
+        "motiv-ueber-cantus"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-e15",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "S. 182–189 · Palestrina, Missa Sanctorum meritis: Bearbeitung des Hymnus",
+          "text": "Palestrina übernimmt in der Missa Sanctorum meritis nach de la Mottes Analyse nicht alle Motive des zugrunde liegenden Hymnus unverändert. Ein Motiv passt unmittelbar in seinen Stil; einen großen Aufschwung mäßigt er, einen auffälligen Tritonus entschärft er durch rhythmische Umgestaltung und, wo möglich, veränderte Tonhöhe, und ein anderes Motiv bleibt ungenutzt. Die Vorlage liefert damit Material für eine neue melodische Gestaltung. Die anschließende Übung verlangt entsprechend, aus einem Choral stilgerechte Themen zu gewinnen, statt jeden seiner Töne als unveränderliches Gerüst festzuhalten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Gregorianische Vorlage in Palestrinas Messe",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "S. 182–189 · Palestrina, Missa Sanctorum meritis: Bearbeitung des Hymnus",
+              "note": "S. 183–186 verfolgt vier Motive des Hymnus: eines wird direkt verwendet, eines in seiner Aufwärtsbewegung gemildert, eines wegen des auffälligen Tritonus verändert, eines ausgelassen. S. 187–189 überträgt dies auf eigene Übungen. Zusammenfassung und Notenbeispiel auf S. 186 visuell geprüft."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "tritonus-melodiebogen",
+      "title": "Wie vermeide ich einen auffälligen Tritonus innerhalb eines Melodiebogens?",
+      "group": "Melodieführung",
+      "tags": [
+        "Tritonus",
+        "verminderte Quinte",
+        "Melodiebogen",
+        "Akzent",
+        "Richtungswechsel"
+      ],
+      "comparisons": [],
+      "related": [
+        "melodische-intervalle",
+        "sprung-und-taktgewicht",
+        "chromatik"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-j10",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 3, „Trítono“, S. 64–67 · übermäßige Quarte und verminderte Quinte innerhalb einer Linie",
+          "text": "Das Vermeiden eines Tritonussprungs bedeutet für de la Motte nicht, dass die beiden betreffenden Töne niemals in derselben Melodielinie vorkommen dürften. Schrittweise ausgefüllte übermäßige Quarten und verminderte Quinten sind im diatonischen Material enthalten. Entscheidend ist, ob ihre Endpunkte auffällig hervortreten. Richtungswechsel, eine nur kurz berührte Grenznote oder weniger hervorgehobene Wendepunkte können die Wirkung mildern. Die verminderte Quinte findet er weniger empfindlich als die übermäßige Quarte. Seine Übung verlangt, allzu deutliche Tritonuswirkungen zu korrigieren; bei einzelnen auffälligen Werkstellen erwägt er dagegen eine besondere Ausdrucksabsicht, ohne sie als gesichert auszugeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Josquin-orientierte Melodiebildung: diatonische Spannen innerhalb einer Phrase",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, „Trítono“, S. 64–67 · übermäßige Quarte und verminderte Quinte innerhalb einer Linie",
+              "note": "Die Aussage steht im Josquin-Kapitel und betrifft den dort untersuchten Vokalsatz, nicht sämtliche Renaissancepraxis."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "motivische-polyphonie",
+      "title": "Wie entsteht Mehrstimmigkeit aus der Arbeit mit kleinen Motiven?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Motiv",
+        "thematische Arbeit",
+        "Haydn",
+        "Beethoven",
+        "Instrumentalsatz"
+      ],
+      "comparisons": [],
+      "related": [
+        "imitation-und-kanon",
+        "kanon-verfahren",
+        "stimme-und-satzstruktur"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-l01",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 8, S. 297–300 · Haydn, Sinfonie Nr. 103, Finale; motivisch-thematische Arbeit",
+          "text": "Im Finale von Haydns Sinfonie Nr. 103 zerlegt de la Motte das achttaktige Thema in vier eintaktige Motive. Diese werden aus der ursprünglichen Melodie gelöst, auf verschiedene Stimmen verteilt und mit ihren Varianten kombiniert. Eine zunächst untergeordnete Gestalt kann dabei zum eigenen Motiv werden; auch Umkehrungen treten hinzu. Die Mehrstimmigkeit entsteht somit aus dem beweglichen Zusammenspiel kleiner Teile. Die einzelnen Instrumentalpartien müssen dabei nicht durchgehend dem Ideal einer ausgeglichenen strengen Kontrapunktmelodie entsprechen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Motivische Arbeit · Haydns Sinfonie Nr. 103",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 297–300 · Haydn, Sinfonie Nr. 103, Finale; motivisch-thematische Arbeit",
+              "note": "Die Aussage betrifft de la Mottes Analyse eines bestimmten Haydn-Finales und dessen verteilte Motive."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "stimme-und-satzstruktur",
+      "title": "Entspricht jede notierte Stimme einer in sich verständlichen Melodie?",
+      "group": "Stimmführung",
+      "tags": [
+        "Einzelstimme",
+        "Gesamtstruktur",
+        "Notation",
+        "Klaviersatz",
+        "Instrumentalsatz"
+      ],
+      "comparisons": [],
+      "related": [
+        "linie-scheinpolyphonie",
+        "rhythmische-selbststaendigkeit",
+        "motivische-polyphonie"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-l03",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 8, S. 308–311, besonders S. 311 · Beethoven, Streichquartett op. 132, Finale",
+          "text": "An der motivischen Verdichtung im Finale von Beethovens op. 132 bezweifelt de la Motte, dass die einzelne Instrumentalpartie noch als selbstgenügsame Gesangslinie verstanden werden sollte. Wer etwa nur die Bratschenstimme singt, kann den Zusammenhang verfehlen. Verständlich wird die Musik durch das Zusammenfügen und Weiterreichen kleiner Elemente im ganzen Ensemble. Für diese Passage ist daher die isolierte melodische Geschlossenheit jeder Partie kein ausreichender Maßstab.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Einzelpartie und Gesamtstruktur · später Beethoven",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 308–311, besonders S. 311 · Beethoven, Streichquartett op. 132, Finale",
+              "note": "Die zugespitzte Gegenüberstellung von Einzelstimme und Gesamtstruktur bezieht sich auf die zuvor analysierten motivischen Beethoven-Passagen."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l08",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 9, S. 328–332, besonders S. 331–332 · Brahms, Klavierstücke op. 76 Nr. 8 und Nr. 4",
+          "text": "De la Motte trennt bei Brahms die notierte Stimmenaufteilung von den tatsächlich gehörten Verläufen. Im Capriccio op. 76 Nr. 8 lässt der Wechsel der Halsrichtung die Stelle als Stimmengewirr lesen, obwohl de la Motte einen einzigen aufsteigenden Vorgang hört. Gerade diese Spannung zwischen Schrift und Klang kann den Pianisten zu einem intensiveren Crescendo anregen. Den dreistimmig notierten Anfang des Intermezzos Nr. 4 stellt er daneben in einer zwei- und einer fünfstimmigen Lesart dar. Solche Umschriften sind nicht beliebig austauschbar: Sie verändern, welche Verbindungen ein Pianist hervorhebt. Die Zahl der notierten Stimmen allein bestimmt deshalb das Hören noch nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Notierte Stimmen und pianistische Darstellung · Brahms op. 76",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 9, S. 328–332, besonders S. 331–332 · Brahms, Klavierstücke op. 76 Nr. 8 und Nr. 4",
+              "note": "Die alternativen Stimmenzahlen gehören zu zwei konkreten Klavieranalysen; daraus wird keine allgemeine Beliebigkeit der Stimmführung gefolgert."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "tonfolge-und-rhythmus",
+      "title": "Legt eine geordnete Tonfolge schon eine bestimmte Melodie fest?",
+      "group": "Melodieführung",
+      "tags": [
+        "Tonfolge",
+        "Rhythmus",
+        "Reihe",
+        "Variation",
+        "Register"
+      ],
+      "comparisons": [],
+      "related": [
+        "kanon-verfahren",
+        "reihen-und-stimmen",
+        "obligo-kontrapunkt"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-l11",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 344–348 · Strawinsky, Sonate für zwei Klaviere, Thema und Variationen",
+          "text": "In den Variationen der Sonate für zwei Klaviere verfolgt de la Motte eine Folge von 29 Tönen. Die Folge wird transponiert und mit wenigen Abweichungen in ihrer Reihenfolge beibehalten, während Rhythmus, Gewichtung und Oktavlage neue melodische Gestalten hervorbringen. Dadurch können die Variationen wie selbstständige Erfindungen wirken. Der Vergleich mit einer Zwölftonreihe betrifft die Behandlung geordneten Tonmaterials: Das zugrunde liegende Thema steht hier ausdrücklich in G-Dur. Dieselbe Tonfolge legt weder dieselben Schwerpunkte noch dieselbe Phrasierung fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Tonfolge und rhythmische Gestalt · Strawinskys Klaviervariationen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 344–348 · Strawinsky, Sonate für zwei Klaviere, Thema und Variationen",
+              "note": "Die geordnete Folge gehört zu einem tonalen Variationswerk; sie wird nicht fälschlich als Zwölftonreihe eingeordnet."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "motte1995-l16",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 376–379 · Webern, Klavierstück im Menuetttempo, und de la Mottes Gegenfassung",
+          "text": "De la Motte stellt einer Webern-Passage eine eigene Fassung derselben Reihenabläufe gegenüber. Weberns weit auseinanderliegende Töne und scharfe Zusammenklänge werden in der Gegenfassung zu schrittigerer Melodik und überwiegend weicheren Intervallen. Die Reihe begrenzt somit die Tonfolge, entscheidet aber noch nicht über den musikalischen Charakter. Für die anschließende Übung sollen wiederholte Reihendurchläufe durch andere Zielpunkte, Dauern, Pausen und Lagen verschiedene Verläufe ergeben. Eine korrekt verwendete Reihe garantiert für ihn noch keine überzeugende Musik.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Reihe und kompositorische Gestalt · Webern-Vergleich und Übung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 376–379 · Webern, Klavierstück im Menuetttempo, und de la Mottes Gegenfassung",
+              "note": "Die Gegenfassung ist ausdrücklich de la Mottes eigene Demonstration; sie wird nicht Webern zugeschrieben."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "reihen-und-stimmen",
+      "title": "Wie lässt sich eine Zwölftonreihe auf mehrere Stimmen verteilen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Zwölftontechnik",
+        "Reihe",
+        "Schönberg",
+        "Stimmenverteilung",
+        "Kanon"
+      ],
+      "comparisons": [],
+      "related": [
+        "tonfolge-und-rhythmus",
+        "imitation-und-kanon",
+        "einklang"
+      ],
+      "authors": [
+        {
+          "id": "motte1995-l17",
+          "source": "motte1995",
+          "name": "Diether de la Motte",
+          "locator": "Kap. 10, S. 381–384 · polyphone Reihenverwendung in Schönbergs Klaviersuite",
+          "text": "De la Motte unterscheidet zwei Möglichkeiten. Entweder teilen mehrere Stimmen die Töne eines einzigen laufenden Reihendurchgangs untereinander auf, oder mehrere Reihenformen verlaufen gleichzeitig. Bei der ersten Möglichkeit muss die einzelne Melodie nicht alle Reihentöne nacheinander spielen: Andere Stimmen können die dazwischenliegenden Positionen übernehmen. Bei der zweiten wird die Kombination vollständiger Reihenformen selbst zur Aufgabe; das Trio des Menuetts zeigt dafür einen Umkehrungskanon. Die Entscheidung für eine bestimmte Melodiefortsetzung oder einen bestimmten Zusammenklang soll die Verteilung leiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "modern"
+            ],
+            "reach": "specific",
+            "frame": "Polyphone Zwölftontechnik · Schönbergs Klaviersuite",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 10, S. 381–384 · polyphone Reihenverwendung in Schönbergs Klaviersuite",
+              "note": "Die beiden Verfahren sind ausdrücklich unterschiedene Arbeitsweisen des Zwölftonabschnitts, keine Gleichsetzung von Reihe und Einzelstimme."
+            }
+          },
+          "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
+          "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
         }
       ]
     }
@@ -19990,6 +22867,36 @@ const ATLAS = {
       "credit": "Eigene redaktionelle Modelle nach Johannes Menke, Kontrapunkt II, 1. Aufl. 2017, S. 190–191, zur dortigen Erklärung von Monteverdis Figuren mit Bernhards Begriffen. Keine Übernahme von Monteverdis Notentext oder einer Buchseite.",
       "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
       "image": "quellen/noten/menke-subsumtio-superjectio.webp"
+    },
+    "motte-durchgangsrhythmen": {
+      "kind": "leseuebung",
+      "title": "De la Motte · Drei Rhythmen desselben Durchgangs",
+      "alt": "Drei notierte Linien C5–D5–E5, jeweils über einem gedachten gehaltenen C4. Typ 1: punktierte Halbe, Viertel, Ganze. Typ 2: punktierte Ganze, Halbe, Ganze. Typ 3: Halbe, Halbe, Ganze. D5 ist jeweils als Durchgangsnone markiert; C5 und E5 bilden Oktave und Dezime.",
+      "caption": "Halte oder denke das untere c und spiele die drei oberen Linien. Der Durchgang bleibt schrittweise; durch die Notenwerte verändert sich sein Gewicht. De la Motte beschreibt die einzelne leichte Viertel nach punktierter Halber als häufigstes der drei Josquin-Muster und die leichte Halbe nach einer betonten Halben als seltenstes. Das Schema übernimmt diese qualitative Reihenfolge, keine statistischen Zahlen. Die kurzen Figuren sind Ausschnitte und keine vollständigen Stilübungen.",
+      "credit": "Eigene redaktionelle Leseübung zu Diether de la Motte, Contrapunto, spanische 2. Aufl. 1995, S. 68–75. Tonhöhen und Anordnung des Schemas sind neu; kein Buchbeispiel wird reproduziert.",
+      "image": "quellen/noten/motte-durchgangsrhythmen.webp",
+      "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+      "catalogue": true
+    },
+    "motte-aufloesung-register": {
+      "kind": "leseuebung",
+      "title": "De la Motte · Auflösung in derselben gedachten Stimme",
+      "alt": "Zwei einstimmige Viertelfiguren in 4/4. Beide beginnen G4–H4–D5–F5 und deuten G7 an. A setzt mit G4–E5–C5–G4 fort; B mit G4–E4–C5–G4. Markiert sind das F5 der Dominantseptime und sein E5-Ziel in A beziehungsweise das eine Oktave tiefere E4 in B.",
+      "caption": "Singe den oberen Weg f″–e″, während du die gespielte Figur verfolgst. In A setzt der spätere Ton die gedachte obere Stimme im selben Register fort. B enthält zwar ebenfalls die Tonklasse e, führt den oberen Zug aber nicht auf diese Weise weiter. Beide Figuren bestehen aus Tönen von G7 und C-Dur. Untersucht wird die zusätzliche Stimmführungsbedingung von de la Mottes einstimmiger Bach-Aufgabe; seine gesonderte Behandlung des Leittons bleibt davon zu unterscheiden.",
+      "credit": "Eigene redaktionelle Hörübung nach Diether de la Motte, Contrapunto, spanische 2. Aufl. 1995, S. 241–242. Neu erfundene Tonfolge; keine Abschrift seiner Beispiele.",
+      "image": "quellen/noten/motte-aufloesung-register.webp",
+      "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+      "catalogue": true
+    },
+    "motte-tonfolge-gesamtklang": {
+      "kind": "leseuebung",
+      "title": "De la Motte · Gemeinsame Tonfolge und wechselnder Gesamtklang",
+      "alt": "Drei Zeitachsen durchlaufen C4–D4–E4–F4–G4–A4. A verwendet die Dauern 2,2,2,2,2,2; B 1,1,1,3,3,3; C 3,3,3,1,1,1. Alle beginnen bei 0 und enden bei 12. Eine senkrechte Linie bei 5,5 schneidet E4 in A, F4 in B und D4 in C. Anfangs und von 11 bis 12 erklingt jeweils ein gemeinsamer Ton.",
+      "caption": "Verfolge zunächst eine Zeile, dann lies senkrecht durch alle drei. Die Stimmen behalten dieselbe Tonfolge, erreichen deren Positionen aber zu verschiedenen Zeiten. Bei 5½ entstehen d′, e′ und f′ als gemeinsamer Klang; gegen Ende treffen sich alle im a′. Das eigene Schema macht einen Aspekt von de la Mottes Ligeti-Analyse und der anschließenden Übung sichtbar. Seine Zeiten sind genau festgelegt. Es bildet keine Mikropolyphonie im vollen Umfang und keine freien Ausführungstempi nach Lutosławski ab.",
+      "credit": "Eigenes redaktionelles Zeitschema zu Diether de la Motte, Contrapunto, spanische 2. Aufl. 1995, S. 413–418. Tonfolge, Dauern und Anordnung sind neu; keine Reproduktion aus Lux aeterna.",
+      "image": "quellen/noten/motte-tonfolge-gesamtklang.webp",
+      "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+      "catalogue": true
     }
   }
 };
