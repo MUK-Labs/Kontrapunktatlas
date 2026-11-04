@@ -632,6 +632,163 @@ const ATLAS = {
         "Jeppesen"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Knud_Jeppesen"
+    },
+    {
+      "name": "Johannes Menke",
+      "aliases": [
+        "Menke"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Menke"
+    },
+    {
+      "name": "Angelo Berardi",
+      "aliases": [
+        "Berardi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Angelo_Berardi"
+    },
+    {
+      "name": "Guillaume-Gabriel Nivers",
+      "aliases": [
+        "Nivers"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Guillaume-Gabriel_Nivers"
+    },
+    {
+      "name": "Claudio Monteverdi",
+      "aliases": [
+        "Monteverdi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Claudio_Monteverdi"
+    },
+    {
+      "name": "Christoph Bernhard",
+      "aliases": [
+        "Bernhard"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Christoph_Bernhard_(Komponist)"
+    },
+    {
+      "name": "Meinrad Spieß",
+      "aliases": [
+        "Meinrad Spiess",
+        "Spieß",
+        "Spiess"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Meinrad_Spieß"
+    },
+    {
+      "name": "Jan Pieterszoon Sweelinck",
+      "aliases": [
+        "Sweelinck"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Jan_Pieterszoon_Sweelinck"
+    },
+    {
+      "name": "Jean-Baptiste Lully",
+      "aliases": [
+        "Lully"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Jean-Baptiste_Lully"
+    },
+    {
+      "name": "Alessandro Scarlatti",
+      "aliases": [
+        "A. Scarlatti"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Alessandro_Scarlatti"
+    },
+    {
+      "name": "Girolamo Frescobaldi",
+      "aliases": [
+        "Frescobaldi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Girolamo_Frescobaldi"
+    },
+    {
+      "name": "Georg Muffat",
+      "aliases": [
+        "Muffat"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Georg_Muffat"
+    },
+    {
+      "name": "Johann Gottfried Walther",
+      "aliases": [
+        "Walther"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Gottfried_Walther"
+    },
+    {
+      "name": "Marc-Antoine Charpentier",
+      "aliases": [
+        "Charpentier"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Marc-Antoine_Charpentier"
+    },
+    {
+      "name": "Antonio Vivaldi",
+      "aliases": [
+        "Vivaldi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Antonio_Vivaldi"
+    },
+    {
+      "name": "Giovanni Battista Pergolesi",
+      "aliases": [
+        "Pergolesi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Giovanni_Battista_Pergolesi"
+    },
+    {
+      "name": "Johann Jakob Froberger",
+      "aliases": [
+        "Froberger"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Jakob_Froberger"
+    },
+    {
+      "name": "Nicolas Lebègue",
+      "aliases": [
+        "Lebègue"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Nicolas_Lebègue"
+    },
+    {
+      "name": "Romanus Weichlein",
+      "aliases": [
+        "Weichlein"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Romanus_Weichlein"
+    },
+    {
+      "name": "Dieterich Buxtehude",
+      "aliases": [
+        "Dietrich Buxtehude",
+        "Buxtehude"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Buxtehude"
+    },
+    {
+      "name": "Friedrich Erhard Niedt",
+      "aliases": [
+        "Niedt"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Erhard_Niedt"
+    },
+    {
+      "name": "Antonio Caldara",
+      "aliases": [
+        "Caldara"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Antonio_Caldara"
+    },
+    {
+      "name": "Heinrich Schütz",
+      "aliases": [
+        "Schütz"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Schütz"
     }
   ],
   "sources": [
@@ -886,6 +1043,13 @@ const ATLAS = {
       "title": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
       "group": "Lehrwerke",
       "url": "https://www.breitkopf.com/work/3447/kontrapunkt"
+    },
+    {
+      "id": "menke2017",
+      "name": "Johannes Menke",
+      "title": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+      "group": "Lehrwerke",
+      "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f"
     }
   ],
   "topics": [
@@ -1764,6 +1928,17 @@ const ATLAS = {
           "locator": "Kap. 8, S. 270–271, Bsp. 8-54a/b; Kadenz mit 4–3-Vorhalt im vierstimmigen Bach-Choral.",
           "text": "In einer Innenstimme eines vierstimmigen Chorals kann der Leitton bei der Schlussverbindung zur Quinte des Tonikadreiklangs springen. In Bsp. 8-54a geht der Tenor nach dem 4–3-Vorhalt diesen Weg. Liegt derselbe Leitton im Sopran, beobachten die Autoren dagegen fast immer die gewöhnliche schrittweise Auflösung zum Grundton. Stimmenlage und Satzdichte verändern somit die verfügbaren Schlussführungen.",
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-88",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Figuren, Lizenzen und Figurationen, S. 197, Bsp. 11.11 · Abruptio/Aposiopesis im Textvortrag",
+          "text": "Eine ausbleibende Auflösung kann im theatralischen Stil selbst Ausdrucksmittel sein. Menke erläutert die Abruptio beziehungsweise Aposiopesis anhand eines von Meinrad Spiess überlieferten Beispiels: Pausen ersetzen sowohl die erwartete Leittonauflösung als auch die Auflösung einer Septime. Die offenen Fragen des Textes erhalten damit eine hörbare Unterbrechung. Hier wird der Leitton nicht einfach als richtungslos behandelt. Gerade die Erwartung seiner Fortsetzung macht das Abbrechen verständlich. Dieses rhetorische Verfahren hat einen anderen Zweck als die Herstellung eines vollständigen Schlusses in einer elementaren Kontrapunktübung.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -1778,6 +1953,12 @@ const ATLAS = {
           "type": "context",
           "note": "Rothgeb verbindet in der zweistimmigen Schlussform 2–1 mit 7–1. In Salzer und Schachters vierstimmigen Chorälen kann der Leitton in einer Innenstimme zur Tonikaquinte abspringen; liegt er dagegen im Sopran, löst er sich gewöhnlich aufwärts auf.",
           "from": "salzer-schachter1989-5"
+        },
+        {
+          "from": "menke2017-88",
+          "to": "rothgeb1998-s1-1",
+          "type": "context",
+          "note": "Rothgeb verlangt die Leittonauflösung für den vollständigen Schluss seiner zweistimmigen Übung. Menke behandelt eine rhetorische Unterbrechung, bei der gerade das Ausbleiben des erwarteten Tons die Textfrage offenhält. Schlussbildung und bewusstes Abbrechen erfüllen unterschiedliche Aufgaben."
         }
       ]
     },
@@ -1929,6 +2110,28 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-5",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Elementare Voraussetzungen, S. 30–31 und 39 · Quarte, verminderte Quinte und übermäßige Quarte",
+          "text": "Die reine Quarte ist bei Menke nach Nivers ein gemischtes Intervall: Zwischen den Oberstimmen eines Grund- oder Sextakkords kann sie konsonieren, für sich oder gegen den Bass ist sie dissonant. Einen anderen Zwischenstatus hat die verminderte Quinte. Als Semikonsonanz kann sie unvorbereitet eintreten und sogar eine andere Dissonanz auflösen. Im zweistimmigen beziehungsweise Außenstimmensatz zieht sie sich anschließend in Gegenbewegung zur Terz zusammen. Die übermäßige Quarte tritt im 18. Jahrhundert ebenfalls oft frei ein, öffnet sich bei ihrer Auflösung aber zur Sexte.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-28",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 4, „Quartsextakkorde, verminderte und übermäßige Akkorde“, S. 84–85, Bsp. 4.13–4.14 · Charpentiers französischer Stil des späten 17. Jahrhunderts",
+          "text": "In Charpentiers Élévation H 264 behandelt Menke auch verminderte und übermäßige Dreiklänge in Grundstellung innerhalb eines konsonanten Zusammenhangs. Die Generalbassbezifferung verlangt diese dreitönigen Klänge; eine Ergänzung zu den dissonanten Vierklängen des späteren 18. Jahrhunderts würde ihre besondere Gestalt verändern. Die Stimmführung bleibt dennoch gerichtet: Die verminderte Quinte geht schrittweise abwärts, die übermäßige aufwärts. Der französische Zusammenhang erweitert somit den konsonanten Klangvorrat, ohne die einzelnen Intervalle beliebig fortzuführen. Bei den ebenfalls gezeigten Quartsextklängen zählt besonders die schrittweise erreichte Quarte, die in Gegenbewegung zur Sexte weitergeht.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -1949,6 +2152,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-1",
           "type": "context",
           "note": "Fux beschreibt die konsonanten Zusammenklänge einer Note-gegen-Note-Übung. Neidhöfer und Schubert deuten dagegen einen Zweiklang aus Bachs Repertoire mithilfe der mitgedachten Harmonie und der Fortsetzung als Vorhalt, obwohl das klingende Intervall allein konsonant erscheint."
+        },
+        {
+          "from": "menke2017-28",
+          "to": "jeppesen1964-50",
+          "type": "context",
+          "note": "Jeppesen lässt im dreistimmigen Palestrina-Lehrsatz den verminderten Dreiklang nur als Sextakkord zu. Menke beschreibt ausdrücklich französische Musik des späten 17. Jahrhunderts, in der Charpentiers Bezifferung auch verminderte und übermäßige Grundstellungen verlangt. Der Unterschied betrifft Stil und Klangbehandlung, keine gegenseitige Korrektur desselben Übungssatzes."
         }
       ]
     },
@@ -2124,6 +2333,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-63",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Triosatz, S. 291, Bsp. 16.6 · Corelli, op. 3 Nr. 5, erster Satz",
+          "text": "In Corellis d-Moll-Sonate op. 3 Nr. 5 zeigt Menke eine verminderte Terz es–cis und eine fallende verminderte Septime b–cis in der ersten Violine. Beide stehen in Kadenzzusammenhängen. Er versteht diese schroffe Melodik nicht als vereinzelten Regelverstoß, sondern als charakteristischen Bestandteil solcher Mollstücke. Für die Bewertung des Sprungs zählen damit Stil, Instrument und satztechnischer Zusammenhang. Die Intervallauswahl einer vokal gedachten Anfängerübung lässt sich auf diese Violinstimme nicht unverändert übertragen.",
+          "speciesScope": []
         }
       ],
       "related": [
@@ -2166,6 +2386,12 @@ const ATLAS = {
           "type": "context",
           "note": "Jeppesens Auswahl ist auf den Palestrina-Stil zugeschnitten und vermeidet die große Sexte. Salzer und Schachter nehmen sie in ihre vokal gedachten Übungslinien auf; ihr Spezieslehrgang bereitet die Arbeit an einem breiteren tonalen Repertoire vor.",
           "from": "jeppesen1964-1"
+        },
+        {
+          "from": "menke2017-63",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Jeppesen schließt verminderte Sprungintervalle aus dem melodischen Material seines Palestrina-Stils aus. Menke beschreibt verminderte Terz und Septime als charakteristisch für Corellis Mollmelodik. Der Unterschied liegt in den historischen Stilen und Besetzungen, nicht in einer unbemerkten Ausnahme von derselben Übungsregel."
         }
       ]
     },
@@ -2430,6 +2656,17 @@ const ATLAS = {
           "locator": "Kap. IX, S. 124–125 · siebte Stufe unmittelbar vor dem modalen Schluss",
           "text": "Den Aufwärtssprung auf die siebte Stufe vor dem Schluss verwirft Bellermann, besonders bei erhöhter Stufe. Von oben lässt er einen Terzsprung auf die siebte Stufe zu. Größere Sprünge sollen auch aus dieser Richtung unterbleiben.",
           "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248#page=152"
+        },
+        {
+          "id": "menke2017-7",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Elementare Voraussetzungen, Konsonante Intervallfortschreitungen, S. 39–40 · melodische Verwendung verminderter und übermäßiger Intervalle",
+          "text": "Menke verbindet die melodische Verwendung verminderter und übermäßiger Intervalle mit dem darin enthaltenen Leitton. Dieser muss nicht die siebte Stufe der herrschenden Tonart sein. Als Richtungsprinzip beschreibt er den Abwärtssprung in den Leitton. Bei übermäßiger Sekunde, Quarte und Quinte liegt der Leitton jedoch oben; deshalb werden gerade diese Intervalle als Sprünge wesentlich seltener und vorsichtiger eingesetzt. Die Frage nach der Sprungrichtung hängt hier also auch von der konkreten Intervallart und ihrem Zielton ab.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -2857,6 +3094,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-8",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Elementare Voraussetzungen, Transitus und Syncopatio, S. 40–42, Bsp. 2.13–2.15 · betonter Durchgang und betonte Wechselnote",
+          "text": "Unter Transitus fasst Menke sowohl Durchgänge als auch Wechselnoten zusammen, sofern die Dissonanz schrittweise erreicht und verlassen wird. Auf leichter Zeit heißt die Behandlung regularis, auf betonter Zeit irregularis. Der betonte Fall umfasst ausdrücklich auch Wechselnoten. Menke beschreibt seine zunehmende Verwendung in der französischen Musik des späten 17. Jahrhunderts und bei Bach; die Bezeichnung irregularis bedeutet daher keine durchweg seltene Ausnahme. Die Syncopatio bleibt daneben ein eigenes Verfahren mit vorbereiteter, festgehaltener oder wiederholter Dissonanz.",
+          "speciesScope": []
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -3043,6 +3291,28 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-25",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 3, „Preparamento alla cadenza“, S. 68–69, Bsp. 3.28–3.29 · freie Septime vor der Dominante",
+          "text": "Vor der Dominante ist im barocken Repertoire eine unvorbereitete Septime über der vierten Bassstufe möglich, auch wenn diese Stufe erhöht ist. Die Septime kann schrittweise eintreten oder angesprungen werden. Menke belegt die Wendung bei Monteverdi, Frescobaldi und Bach. Zugleich trägt der Septakkord eine Quinte, die den folgenden dominanten Quartvorhalt vorbereitet. Gerade diese Verbindung ist aufschlussreich: Die freie Subdominantseptime und die regelgerecht vorbereitete Dominantquarte gehören zu derselben idiomatischen Kadenz. Die Ausnahme betrifft somit eine bestimmte Funktion und ihre Fortsetzung, nicht beliebige angesprungene Dissonanzen.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-92",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Theatralische Dissonanzauflösung, S. 210–211, Bsp. 12.2–12.4 · Heinichen und Heterolepsis",
+          "text": "Menke unterscheidet bei Heinichen zwei Begründungen. Verminderte Quinte, Tritonus und verminderte Septime dürfen im modernen Stil unvorbereitet eintreten, müssen aber weiter aufgelöst werden. Bei anderen angesprungenen Dissonanzen kann eine gedachte zweite Stimme die fehlende Verbindung erklären: Der Ton wäre in ihr als Synkope vorbereitet oder schrittweise als Durchgang erreicht. Dies entspricht der Heterolepsis. Selbst wenn die notierte Melodie auch aus der Dissonanz springt, verlangt Heinichen einen tatsächlich in der Harmonie vorhandenen Auflösungston. Eine bloß behauptete, nirgends hörbare Auflösung genügt ihm nicht.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -3057,6 +3327,18 @@ const ATLAS = {
           "to": "goetschius1910-1",
           "type": "context",
           "note": "Fux prüft beim angesprungenen Ton den Zusammenklang der beiden Speziesstimmen. Goetschius bestimmt seine Nebennoten dagegen von der Akkordzugehörigkeit her; „akkordfremd“ und „dissonant zur zweiten Stimme“ bezeichnen hier unterschiedliche Kriterien."
+        },
+        {
+          "from": "menke2017-25",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux verlangt im zweistimmigen Zwei-gegen-eins eine Konsonanz auf der angesprungenen leichten Halben. Menkes freie Septime gehört dagegen zu einer mehrstimmigen barocken Kadenzwendung; ihre funktionale Bindung an den folgenden vorbereiteten Quartvorhalt erklärt den anderen Geltungsbereich."
+        },
+        {
+          "from": "menke2017-92",
+          "to": "jeppesen1964-55",
+          "type": "context",
+          "note": "Jeppesens Parasit-Dissonanz wird durch gleichzeitig erklingende Töne einer anderen, korrekt geführten Stimme gedeckt. Bei Menkes Darstellung von Heinichen kann schon eine gedachte Stimme den Eintritt erklären; der Auflösungston muss dennoch tatsächlich in der Harmonie vorkommen. Die Verwandtschaft der Erklärung hebt den Unterschied zwischen Palestrina-Beispiel und theatralischem Barockstil nicht auf."
         }
       ]
     },
@@ -3257,6 +3539,53 @@ const ATLAS = {
           "locator": "Kap. 7.3, S. 189, Bsp. 7-44 und 7-45 · Heinichen und Purcells vierstimmige Fantasia Nr. 7",
           "text": "Eine Auflösung kann in einer anderen Stimme hörbar werden. In Heinichens Beispiel setzt sich das b der Oberstimme zum a im Bass fort. Bei Purcell springt das vorgehaltene f der Oberstimme eine Quinte abwärts zum c; die beiden Mittelstimmen liefern das erwartete es in tieferer Lage. Die Auflösung ist damit vorhanden, obwohl sie sich nicht aus dem nächsten Ton derselben notierten Stimme ergibt.",
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-30",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 5, „Dissonante Klänge aus Syncopatio und Transitus“, S. 93–94, Bsp. 5.4–5.6 · Auflösung in einen weiteren dissonanten Klang",
+          "text": "Eine aufgelöste Dissonanz muss bei Menke nicht sofort einen durchweg konsonanten Akkord hinterlassen. Am Quintsextklang zeigt er Verbindungen zu einem weiteren Quintsext- oder Sekundakkord. Außerdem können wesentliche Dissonanzen, die keine Vorbereitung verlangen, zum Ziel anderer Dissonanzauflösungen werden. Der einzelne Stimmenweg und die Gesamtsonorität sind deshalb getrennt zu prüfen. Menke hält Kirnbergers Unterscheidung zwischen wesentlichen und zufälligen Dissonanzen gerade hierfür für sachlich begründet, auch wenn sie die kontrapunktische Entstehung der Klänge nicht vollständig erklärt.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-87",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Figuren, Lizenzen und Figurationen, S. 190–191, Bsp. 11.1–11.2 · Subsumtio und Superjectio bei Monteverdi, erklärt mit Bernhards Figuren",
+          "text": "Bei diesen beiden Verzierungen wird eine schrittweise Hauptbewegung durch einen kurzen Gegenschritt erweitert. In der Subsumtio führt der Gegenschritt zunächst abwärts; die dabei erreichte Dissonanz springt anschließend eine Terz aufwärts zum Zielton. Die Superjectio kehrt das Verfahren um: Vor einem absteigenden Hauptschritt steht eine obere Nebennote, die dissoniert und mit einem Terzsprung abwärts verlassen wird. Menke zeigt beide Möglichkeiten an Monteverdi. Die Richtung folgt der jeweiligen Ornamentfigur; sie lässt sich nicht aus einer allgemeinen Forderung nach absteigender Dissonanzauflösung ableiten.",
+          "speciesScope": [],
+          "examples": [
+            "menke-subsumtio-superjectio"
+          ]
+        },
+        {
+          "id": "menke2017-93",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Theatralische Dissonanzauflösung, S. 209–214 und 217, Bsp. 12.4–12.8 · Heinichens Fundamental-Noten und Verwechslungen",
+          "text": "Heinichens Fundamental-Noten bezeichnet Menke als korrektes Stimmführungsgerüst, nicht als Akkordgrundtonfolge im Sinne Rameaus. Das Gerüst kann durch Verzierungen und Stimmtausch verdeckt sein. Ein dissonanter Klang lässt sich vor seiner Auflösung umschichten; auch der erwartete Auflösungsklang selbst kann in anderer Lage eintreten oder mit einer neuen Dissonanz angereichert werden. Deshalb muss die Auflösung weder als nächster Ton derselben Melodiestimme noch als vollständig konsonanter Klang erscheinen. Entscheidend bleibt ihre nachvollziehbare Präsenz im Satz. Zu stark versteckte oder tatsächlich ausbleibende Auflösungstöne bewertet Heinichen weiterhin kritisch.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-64",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Triosatz, S. 294–295, Bsp. 16.10 · Corelli, op. 3 Nr. 5, dritter Satz, Violine II, T. 7–8",
+          "text": "Eine aufwärts weitergeführte Note muss noch keine aufwärts aufgelöste Dissonanz sein. Im dritten Satz von Corellis Sonate op. 3 Nr. 5 scheint die Septime der zweiten Violine in Takt 7 zunächst aufwärts zu gehen. Menke verfolgt sie aber bis zum folgenden Takt: Dort erscheint ihre reguläre Abwärtsauflösung. Der eingeschobene melodische Weg verzögert somit die Auflösung, statt deren Richtung zu ändern. Zur Prüfung genügt der unmittelbar nächste gespielte Ton nicht; man muss den Zusammenhang über die Taktgrenze hören.",
+          "speciesScope": []
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -3271,6 +3600,18 @@ const ATLAS = {
           "to": "piston1947-1",
           "type": "context",
           "note": "Prout sieht im strengen Satz für die Aufwärtsauflösung nur den übergebundenen Leitton zur Tonika vor. Piston untersucht das tonale Repertoire und nennt darüber hinaus seltene Aufwärtsauflösungen, besonders bei chromatisch erhöhten Tönen."
+        },
+        {
+          "from": "menke2017-30",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Salzer und Schachter erläutern als begrenzten Fall der vierten Spezies eine Quasi-Auflösung in den verminderten Dreiklang vor dem Schluss. Menkes barocke Klangfolgen erweitern den Vergleich auf Quintsext- und Sekundakkorde sowie wesentliche Dissonanzen als Auflösungsziele. Die Gemeinsamkeit liegt im Unterschied zwischen gelöster Einzelstimme und weiter dissonantem Gesamtklang."
+        },
+        {
+          "from": "menke2017-87",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux lässt in der Cambiata seiner dritten Spezies den Terzsprung abwärts aus der Dissonanz zu. Menkes barocke Ornamentfiguren können die Dissonanz auch mit einem Terzsprung aufwärts verlassen. Subsumtio und Superjectio sind eigene Figuren in einem anderen Stilrahmen, keine austauschbaren Varianten derselben Cambiata-Regel."
         }
       ]
     },
@@ -3561,6 +3902,28 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-6",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Elementare Voraussetzungen, S. 38–39; Kontrapunktische Aspekte der Oktavregel, S. 101–103, Bsp. 6.1–6.2 · Außenstimmen und obere Stimmenpaare",
+          "text": "Direkte reine Quint- und Oktavparallelen sind bei Menke im kontrapunktischen Satz ungebräuchlich. Die Gegenbewegung von der Quinte zur Duodezime findet er dagegen besonders in der Monodie um 1600 beliebt. Bei der Verbindung von reiner und verminderter Quinte kommt es auf das Stimmenpaar an: Die Warnung vor vermindert–rein gilt ausdrücklich nur für die Außenstimmen. Zwischen Mittel- und Oberstimme wird eine verminderte Quinte häufig schrittweise aufwärts in eine reine Quinte geführt. Eine Regel für die Außenstimmen darf deshalb nicht unverändert auf jedes Stimmenpaar übertragen werden. Konkrete Oberstimmenbeispiele findet Menke etwa in Corellis Weihnachtskonzert op. 6 Nr. 8.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-68",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Ensembles, S. 316–318, Bsp. 18.5 · Caldara, Crucifixus a 16, T. 9–13",
+          "text": "In Caldaras sechzehnstimmigem Crucifixus findet Menke einen Vorhalt, der in Sopran II und Tenor IV oktaviert verdoppelt wird: Beide Stimmen halten d über c. Eine gleichzeitige Auflösung würde parallele Oktaven erzeugen. Caldara lässt die beiden Vorhalte jedoch zu verschiedenen Zeitpunkten abwärtsgehen. Menke erklärt die Dissonanzverdopplung hier aus der großen Stimmenzahl und der Klangwirkung am Ende der Sequenz. Entscheidend ist die tatsächlich versetzte Bewegung, nicht allein das aus den Auflösungstönen gebildete abstrakte Gerüst.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -3593,6 +3956,18 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Noël-Gallon und Bitsch schließen gleichgerichtete Quint- und Oktavparallelen in der beschriebenen Übung aus. Salzer und Schachter untersuchen dagegen Mozarts ausgearbeiteten Klaviersatz: Sie unterscheiden durch Prolongation entstandene Quintfolgen von Oktaven, die nur bei einer unzutreffenden Zuordnung der gedachten Stimmen parallel erscheinen."
+        },
+        {
+          "from": "menke2017-6",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch verbieten in ihrer zwei- bis fünfstimmigen Übung auch reine Quinten in Gegenbewegung. Menke nennt die Gegenbewegung von Quinte zu Duodezime als beliebte Möglichkeit der Monodie um 1600. Die unterschiedliche Bewertung betrifft eine historische Satzpraxis und eine anders abgegrenzte Lehrübung."
+        },
+        {
+          "from": "menke2017-68",
+          "to": "green-jones2011-2",
+          "type": "context",
+          "note": "Green und Jones prüfen ihre zweistimmige Kette dissonanter Vorhalte durch Freilegen der Auflösungen und verwerfen dabei entstehende Oktavparallelen. Menke erläutert einen sechzehnstimmigen Satz, in dem eine Dissonanz bewusst verdoppelt und zeitlich versetzt aufgelöst wird. Die Reduktionsregel der Übung darf nicht ohne Prüfung der konkreten Stimmenwege auf diesen Ensemblesatz übertragen werden."
         }
       ]
     },
@@ -4156,6 +4531,28 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-38",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 7, „Sequenzen“, S. 127–129, Bsp. 7.20–7.21 · Metabasis und aufsteigende Dissonanzenketten",
+          "text": "Ständige Kreuzungen können ein vollständiges Sequenzmodell tragen. Bei der Metabasis überholen sich zwei Oberstimmen wiederholt; ihre abwärts gerichteten Dissonanzauflösungen werden dadurch aufwärts versetzt. Menke kombiniert diese Oberstimmen mit unterschiedlichen Bässen. Über einem schrittweise steigenden Bass entsteht beispielsweise eine 9–8-Kette, die sich zu Septnonvorhalten erweitern lässt. Er verweist auf solche Verfahren bei Corelli, Pergolesi und in Bachs Arie „Von den Stricken meiner Sünden“. Die Kreuzung ist hier nicht nur ein örtlicher Ausweg aus enger Lage: Sie ermöglicht die Bewegungsrichtung und die charakteristische Verschränkung des ganzen Modells.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-62",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Triosatz, S. 289–291, Bsp. 16.2 und 16.4–16.6 · Corelli, op. 3 Nr. 5, erster Satz",
+          "text": "Bei Corelli ist die Stimmkreuzung für Menke ein Mittel, Vorhaltsketten und Kadenzen weiterzuentwickeln. Im Andante der Sonate op. 3 Nr. 5 wechseln die Violinen zwischen 2–3- und 7–6-Verbindungen; eine Kreuzung führt die Kette wieder in eine andere Lage. Später vertauschen die Violinen während der Kadenzvorbereitung ihre Rollen. Die erwartete Schlusswendung tritt dadurch einen halben Takt später ein, nun mit der Sopranklausel in Violine I und der Tenorklausel in Violine II. Kreuzung gestaltet hier den Verlauf der Kadenz selbst.",
+          "speciesScope": []
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -4212,6 +4609,18 @@ const ATLAS = {
           "type": "nuance",
           "note": "Jeppesen empfiehlt Stimmkreuzung schon bei der ersten zweistimmigen Art ausdrücklich. Salzer und Schachter sparen dasselbe Verfahren in ihren ersten zweistimmigen Aufgaben aus pädagogischen Gründen zunächst aus. Der Unterschied betrifft die Lernfolge, nicht die grundsätzliche Brauchbarkeit der Kreuzung in Musik.",
           "from": "jeppesen1964-20"
+        },
+        {
+          "from": "menke2017-38",
+          "to": "cherubini1854-1",
+          "type": "context",
+          "note": "Cherubini erlaubt in seiner zweistimmigen ersten Übung kurze, konsonante Kreuzungen und warnt vor ihrer Ausdehnung. Menkes Metabasis gehört zum mehrstimmigen barocken Sequenzsatz: Wiederholte Kreuzung ist dort gerade das Konstruktionsprinzip einer Dissonanzenkette. Die unterschiedlichen Aufgaben erklären die entgegengesetzte praktische Empfehlung."
+        },
+        {
+          "from": "menke2017-62",
+          "to": "bellermann1901-1",
+          "type": "context",
+          "note": "Bellermann möchte Stimmkreuzung an der Kadenz vermeiden. Menke zeigt dagegen im barocken Triosonatensatz, wie Corelli gerade durch Kreuzung und Rollentausch die Kadenz dehnt. Die gegensätzlichen praktischen Empfehlungen betreffen verschiedene Satzstile und Aufgaben."
         }
       ]
     },
@@ -4791,6 +5200,28 @@ const ATLAS = {
           "locator": "Kap. 7.6, S. 210–211, Bsp. 7-64 · chromatische Veränderung und Mozart, Streichquartett KV 428, zweiter Satz",
           "text": "Die Autoren unterscheiden eine chromatische Veränderung neben der diatonischen Form eines Tons, etwa g–gis–a, von dessen Ersetzung: In G-Dur kann h–cis–d an die Stelle von h–c–d treten. Beide Verfahren können Durchgänge oder Nebennoten bilden. In Mozarts Quartett erscheint das ces der Bratsche zunächst als Septime eines verminderten Septakkords. Seine spätere Fortsetzung zum b in T. 17 lässt die Autoren darin eine chromatische obere Nebennote hören.",
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-4",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Elementare Voraussetzungen, Modus und Tonart, S. 24 und 26–27, Bsp. 2.3–2.4 · veränderliche sechste und siebte Stufe in Moll",
+          "text": "Menke beschreibt das barocke Moll als eine Skala mit veränderlicher sechster und siebter Stufe, die zugleich das Material für die Harmoniebildung liefert. Im Aufstieg gelten große Sexte und Leitton, im Abstieg kleine Septime und kleine Sexte als natürliche Formen; die jeweils andere Form der sechsten und siebten Stufe wird bei Mattheson den elegantes zugeordnet. In d-Moll gehören daher b und h sowie c und cis zum verfügbaren Tonvorrat. Ein Versetzungszeichen allein zeigt noch keine besondere chromatische Ausnahme an. Dazu passt die lange übliche Notation von d-Moll ohne b-Vorzeichnung.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-39",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 8, „Chromatik / Chromatische Sequenzen“, S. 140–142, Bsp. 8.3–8.8 · Chromatisierung bestehender Sequenzmodelle",
+          "text": "Chromatische Schritte können vertraute barocke Sequenzmodelle ausgestalten. Menke zeigt über einem steigenden Sekundbass eine chromatische 5–6-Folge und über einem fallenden eine 7–6-Folge; auch eine Mittelstimme kann chromatisiert werden. Bei Terzstieg oder Terzfall kann eine Oberstimme den chromatischen Gang tragen, bei Quartstieg oder Quartfall können es zwei sein. Besonders geeignet sind Stellen, an denen das Gerüst Tonwiederholungen enthält. Die Änderung wird daher aus dem konkreten Stimmenmodell entwickelt. Zugleich zeigt eine Variante, dass eine chromatische Linie mit zwei anderen, kanonisch geführten Stimmen verbunden werden kann.",
+          "speciesScope": []
         }
       ],
       "related": [
@@ -4798,7 +5229,8 @@ const ATLAS = {
         "harmonik-enharmonische-spannung",
         "rezitationston-und-finalis",
         "fuge-chromatische-antwort",
-        "chromatik-ohne-diatonisches-geruest"
+        "chromatik-ohne-diatonisches-geruest",
+        "lamento-bass"
       ],
       "relations": [
         {
@@ -4806,6 +5238,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-1",
           "type": "context",
           "note": "Noël-Gallon und Bitsch verbieten den unmittelbaren chromatischen Schritt in ihrer Kontrapunktübung. Neidhöfer und Schubert unterscheiden innerhalb der barocken Harmonik zwischen aufsteigender Chromatik mit Leittonauflösung und freier absteigender Chromatik."
+        },
+        {
+          "from": "menke2017-39",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch verbieten im einfachen Kontrapunkt den unmittelbaren chromatischen Schritt. Menke zeigt ihn als konstruktives Mittel barocker Sequenzmodelle. Der Gegensatz ist deutlich, betrifft aber unterschiedliche stilistische und didaktische Bereiche; er hebt die französische Übungsregel nicht innerhalb ihrer eigenen Aufgabe auf."
         }
       ]
     },
@@ -5898,7 +6336,9 @@ const ATLAS = {
       },
       "related": [
         "kadenz",
-        "kadenz-oberstimme"
+        "kadenz-oberstimme",
+        "cadenza-doppia",
+        "trugschluss-klauseln"
       ],
       "authors": [
         {
@@ -5963,6 +6403,17 @@ const ATLAS = {
           "speciesScope": [
             2
           ]
+        },
+        {
+          "id": "menke2017-20",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 3, „Kadenzen“, S. 54–57, Bsp. 3.1–3.6 · vier barocke Kadenztypen nach der Bassklausel",
+          "text": "Menke ordnet die Kadenzen nach dem wirklichen Bassgang. Beim ersten Typ fällt der Bass eine Quinte oder steigt eine Quarte; beim zweiten fällt er eine Quarte oder steigt eine Quinte. Die beiden übrigen Typen legen eine schrittweise Tenor- beziehungsweise Sopranklausel in den Bass. Mit Muffats Bezeichnungen heißen sie Cadentia major, minor, minima ordinaria und minima ascendens. Diese Reihe bildet zugleich eine Abstufung der Schlusswirkung: Der erste Typ schließt am stärksten, der vierte am schwächsten. Die Klauseln der übrigen Stimmen können untereinander die Lage tauschen.",
+          "speciesScope": []
         }
       ]
     },
@@ -6136,11 +6587,23 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-1",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Vorwort, S. 9–10; Kontrapunkt im Barock, S. 17–18 · Lehrziel und historische Stilvielfalt",
+          "text": "Menke bezieht seine Lehre auf das Komponieren zwischen etwa 1600 und 1750. Er gibt dem 17. Jahrhundert mit Monteverdi, Lully und Corelli besonderes Gewicht und nimmt auch Tanzsatz und Ostinato auf. Welche Technik angemessen ist, hängt für ihn von der beabsichtigten Wirkung und dem Verwendungszusammenhang ab; die barocken Stilbegriffe bezeichnen verschiedene Aufgaben. Die praktische Arbeit umfasst neben dem Schreiben auch Spielen, Singen, Analysieren und Improvisieren. Das Buch versteht sich dabei als Lese- und Lehrbuch mit Arbeitsvorschlägen.",
+          "speciesScope": []
         }
       ],
       "related": [
         "linie-scheinpolyphonie",
-        "beurteilung"
+        "beurteilung",
+        "romanesca-satzgeruest"
       ],
       "relations": [
         {
@@ -6184,6 +6647,12 @@ const ATLAS = {
           "type": "context",
           "note": "Beide behalten Speziesübungen bei. Jeppesen verlangt dabei eine engere Orientierung an Palestrinas Praxis als bei Fux; Salzer und Schachter lösen die Grundlagen bewusst von der Nachahmung eines einzelnen historischen Stils und führen zur Analyse tonaler Musik.",
           "from": "jeppesen1964-1"
+        },
+        {
+          "from": "menke2017-1",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin richtet seine Übungen auf Bachs Instrumentalstil aus. Menke untersucht verschiedene Satzweisen zwischen 1600 und 1750 und verschiebt das Gewicht ausdrücklich auch zu Monteverdi, Lully und Corelli. Die unterschiedlichen Ausgangspunkte betreffen das gewählte Repertoire und Lehrziel."
         }
       ]
     },
@@ -6334,6 +6803,28 @@ const ATLAS = {
           "examples": [
             "jeppesen-gemischte-dissonanz-vergleich"
           ]
+        },
+        {
+          "id": "menke2017-10",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Elementare Voraussetzungen, Transitus und Syncopatio, S. 42 und 50, Bsp. 2.25 · rhythmisch-lineare Wirkung der Syncopatio",
+          "text": "Menke unterscheidet die Syncopatio als allgemeines Verfahren vom Vorhalt, der sich in einen Akkord oder ein Intervall auflöst. Durch Syncopatio können auch dissonante Akkordfortschreitungen entstehen. Für die Beurteilung ist die rhythmische und lineare Gestalt so prägend, dass selbst eigentlich konsonante Intervalle als Dissonanzen wirken können. Bsp. 2.25 führt dies zunächst zweistimmig vor; eine ergänzte dritte Stimme kann den Dissonanzcharakter verstärken. Eine Liste konsonanter Intervalle reicht deshalb zur Deutung dieser Fortschreitungen nicht aus.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-29",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 5, „Dissonante Klänge aus Syncopatio und Transitus“, S. 88–92, Bsp. 5.2–5.3 · Primärdissonanz und ergänzende Stimmen",
+          "text": "Menke erschließt einen dissonanten Mehrklang zunächst aus dem Paar von Stimmen, das seine Primärdissonanz bildet. Weitere Töne ergänzen diesen Kern. Derselbe bezifferte Akkord kann aus unterschiedlichen Stimmenwegen entstehen; selbst ein Sekundakkord ist als Synkopendissonanz anders gebildet als durch einen Bassdurchgang. Bei Heinichen erlaubt die vorbereitete Sekunde mehrere Ergänzungen, während die durchgehende Sekunde enger gebunden bleibt, weil die übrigen Stimmen liegen bleiben. Akkordname und Ziffer beschreiben daher nur einen Teil des Befunds. Entscheidend sind die Vorbereitung, die bewegte Stimme und der konkrete Weg zur Fortsetzung.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -6348,6 +6839,12 @@ const ATLAS = {
           "type": "context",
           "note": "Jeppesen schließt die dissonante zweite Halbe aus der Verbindung von zweiter und dritter Spezies aus. Salzer und Schachter lassen sie in derselben Besetzung zu. Sie erkennen die Beschränkung für eine Nachahmung des Palestrinastils ausdrücklich an, öffnen ihre Übungen aber für weitere Stilbereiche. Der praktische Regelunterschied folgt hier aus verschiedenen Lehrzielen.",
           "from": "jeppesen1964-54"
+        },
+        {
+          "from": "menke2017-29",
+          "to": "piston1947-1",
+          "type": "nuance",
+          "note": "Piston unterscheidet hier Akkordseptime und akkordfremden Ton. Menke setzt bei der Entstehung eines Mehrklangs aus einem Stimmenpaar an und zeigt, dass dieselbe Ziffer unterschiedliche Vorgänge verdecken kann. Das ist eine andere Reihenfolge der Analyse; Menke erkennt die Berechtigung der harmonischen Unterscheidung auf S. 94 ausdrücklich an."
         }
       ]
     },
@@ -6378,7 +6875,9 @@ const ATLAS = {
         "kadenzausweichung",
         "imitierendes-duo-kadenz",
         "kadenz-schlussdehnung",
-        "choral-fermate"
+        "choral-fermate",
+        "cadenza-doppia",
+        "trugschluss-klauseln"
       ],
       "authors": [
         {
@@ -6463,6 +6962,17 @@ const ATLAS = {
           "text": "Die Autoren unterscheiden formale und untergeordnete authentische Kadenzen nach ihrem Zusammenhang mit den Motiven. Eine formale Kadenz unterbricht deren Fortgang und gliedert den Satz. Eine untergeordnete Kadenz liegt innerhalb eines weiterlaufenden Themas oder einer Sequenz. In Bachs b-Moll-Fuge vergleichen sie eine Kadenz vor dem neuen Themeneinsatz mit einer, in die bereits ein vollständiger Themeneinsatz hineinragt.",
           "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
           "catalogue": true,
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-21",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 3, „Kadenzen“, S. 55–57, Bsp. 3.3–3.6 · charakteristische Durchgänge, Vorhalte und Kadenzgewicht",
+          "text": "Zum Kadenzgang gehören charakteristische Dissonanzen. Menke verbindet etwa den ersten Kadenztyp mit dem Septimendurchgang und dem Quartvorhalt, den zweiten mit einem Sextdurchgang. Ein solcher Klang kann die entsprechende Kadenz bereits erwarten lassen; daraus ergibt sich ein Weg, eine Sequenz in einen Schluss zu überführen. Der Zusammenklang allein bestimmt aber noch nicht dessen Gewicht. Zusätzlich zum Basstyp lässt sich die Wirkung verstärken, indem der drittletzte, vorletzte oder letzte Kadenzklang zeitlich ausgedehnt wird. Diese drei Positionen heißen Antepenultima, Penultima und Ultima.",
           "speciesScope": []
         }
       ],
@@ -6645,6 +7155,50 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-2",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kontrapunkt im Barock, S. 14–16, Bsp. 1.1–1.3 · Generalbass und Ausgangspunkt des Satzes",
+          "text": "Für Menke ist der Generalbass eine bestimmte kontrapunktische Perspektive: Die Bassbewegung legt mögliche Klangverbindungen und Führungen der Oberstimmen nahe. Ein Satz kann aber auch von einer anderen Stimme oder einem Stimmenpaar ausgehen. In Bsp. 1.3 bilden die Oberstimmen eine 2–3-Vorhaltskette, zu der unterschiedliche Bassbewegungen treten. Die Kette bleibt der organisierende Zusammenhang, obwohl die Bezifferung über dem Bass wechselt. Deshalb soll man die einzelnen Stimmenpaare untersuchen und nicht voraussetzen, dass jede Klangfolge zuerst vom Bass aus erfunden wurde.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-27",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 4, „Konsonanter Satz“, S. 74–76, Bsp. 4.1–4.4 · 3–5-Satz und 8–3-Satz",
+          "text": "Im 3–5-Satz laufen die beiden oberen Stimmen in Terzparallelen, während die Außenstimmen abwechselnd Terzen und Quinten bilden. Eine vierte Stimme kann Quinte und Oktave über dem Bass ergänzen. Tauschen die beiden oberen Linien ihre Lage, entstehen Sextparallelen und außen die Folge Oktave–Terz: der 8–3-Satz. Menke führt Pachelbels Kanon und die Romanesca auf das erste, die Folia auf das zweite Prinzip zurück. Der harmonische Zusammenhang entsteht aus einem geregelten Zusammenwirken der Stimmen. Erzeugt die Skala dabei eine verminderte Außenstimmenquinte, muss das Modell angepasst oder kurz verlassen werden.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-36",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 7, „Sequenzen“, S. 115–116, Bsp. 7.3–7.6 · gleiches Sequenzgerüst mit wechselnder harmonischer Füllung",
+          "text": "Ein festes Außenstimmengerüst kann nach Menke mehrere Harmoniefolgen tragen. In seiner Terzfallsequenz verändert die Wahl zwischen Grund- und Sextakkorden die harmonische Füllung, während die kontrapunktischen Beziehungen erhalten bleiben. Vivaldis Herbst-Konzert liefert dafür eine Quintfallsequenz, deren Sextakkorde aus einer bloßen Grundtonfolge heraus unerwartet erscheinen. Umgekehrt macht dieselbe Akkordfolge einen Satz noch nicht zur erkennbaren Sequenz, wenn die Stimmen ihren wiederkehrenden Weg verlieren. Bei Vivaldi trägt zudem die Diminution zum Gelingen bei: Das auf Tonwiederholungen reduzierte Gerüst allein wirkt weniger überzeugend als seine ausgearbeitete Gestalt.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-67",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Monodischer Satz, S. 298–299 · Außenstimmensatz und Generalbass",
+          "text": "Die hervorgehobene Solostimme einer Monodie bleibt für Menke auf ihren Bass bezogen. Beide bilden einen zweistimmigen Außenstimmensatz, der für sich bestehen kann und zugleich harmonische Möglichkeiten enthält. Die Mittelstimmen werden häufig erst von den Ausführenden ergänzt. Deshalb lässt sich die Beziehung der Außenstimmen weiterhin kontrapunktisch untersuchen; die Generalbassziffern beschreiben ergänzend die Intervallverhältnisse vom Bass aus. Auch eine scheinbar akkordisch begleitete Melodie besitzt in dieser Sicht einen eigenständigen kontrapunktischen Kern.",
+          "speciesScope": []
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -6656,7 +7210,8 @@ const ATLAS = {
         "fugenthema-und-kontrasubjekt-erfinden",
         "akkordprolongation",
         "chromatik-ohne-diatonisches-geruest",
-        "imitation-funktionswechsel"
+        "imitation-funktionswechsel",
+        "generalbass-bezifferung-stimmfuehrung"
       ],
       "readingSources": [
         "prout1890",
@@ -7238,7 +7793,8 @@ const ATLAS = {
         "speziesmischung",
         "modaler-ambitus",
         "motiv-ueber-cantus",
-        "choral-vorimitation"
+        "choral-vorimitation",
+        "obligo-kontrapunkt"
       ],
       "authors": [
         {
@@ -7418,6 +7974,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-89",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Figuren, Lizenzen und Figurationen, S. 192–193, Bsp. 11.3–11.4 · Bernhards Multiplicatio",
+          "text": "Bei der Multiplicatio wird ausdrücklich ein dissonanter Ton wiederholt. Menke stellt Bernhards Beispiele sowohl für einen Durchgang als auch für eine Synkopendissonanz vor. Nimmt man die wiederholten Anschläge zurück, erscheint wieder der einfachere Satz, den Bernhard als natürliche Grundlage bezeichnet. Die Wiederholung verändert damit die zeitliche Ausgestaltung einer verständlichen Dissonanzfigur. Sie ist eine benannte Lizenz des beweglicheren barocken Stils und keine pauschale Aufhebung aller Wiederholungsregeln. Entscheidend bleibt, welche Grundbewegung unter den zusätzlichen Anschlägen erkennbar ist.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -7444,6 +8011,12 @@ const ATLAS = {
           "type": "contradiction",
           "note": "Jeppesen erlaubt eine gelegentliche unmittelbare Tonwiederholung bereits in der zweistimmigen ersten Art. Gallon und Bitsch schließen sie für zwei Stimmen aus und gestatten wiederholte Ganze erst ab fünf Stimmen.",
           "from": "jeppesen1964-37"
+        },
+        {
+          "from": "menke2017-89",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Kennan vermeidet unmittelbare Tonwiederholung in seinen Übungen mit festem Zahlenverhältnis. Menke beschreibt mit Bernhards Multiplicatio eine benannte barocke Lizenz, die sogar Dissonanzen wiederholt. Die elementare Übungsregel und die ornamentale Ausarbeitung haben verschiedene Lernziele."
         }
       ]
     },
@@ -7681,6 +8254,17 @@ const ATLAS = {
           "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-51",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 225 und 231–233 · Oberquinte, Unterquarte und benachbarte Einsatzstimme",
+          "text": "Für die erste Beantwortung nennt Menke die Oberquinte oder Unterquarte und versteht diese Abstände zunächst wörtlich, ohne zusätzliche Oktavversetzung. Damit setzt der Comes in einer Nachbarstimme ein. Seine spätere Betrachtung der Einsatzfolgen nennt allerdings auch seltenere Fälle mit weiter auseinanderliegenden Stimmen. Die Regel beschreibt daher den bevorzugten Aufbau der Eröffnung. Zusätzlich muss der Einsatz das Verhältnis betonter und unbetonter Zeiten bewahren; eine Verschiebung innerhalb des Taktes ist dabei möglich.",
+          "speciesScope": []
         }
       ],
       "readingSources": [],
@@ -7756,6 +8340,17 @@ const ATLAS = {
             "bach-wtk1-853-quintsprung"
           ],
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-52",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 226–229, Bsp. 13.4 und 13.8–13.9 · harmonische Funktion des Quinttons",
+          "text": "Für Menke entscheidet vor allem die hervorgehobene fünfte Stufe am Themenanfang, nicht das bloße Vorhandensein eines Quintsprungs. Bachs F-Dur-Fuge BWV 856 wird tonal beantwortet, obwohl ihr Themenkopf weder einen Quint- noch einen Quartsprung enthält: Der Anfangston auf der fünften Stufe muss angepasst werden. Umgekehrt behält die D-Dur-Fuge BWV 874 ihren anfänglichen Quintsprung bei, weil dieser die vierte Stufe hervorhebt. Die reale Antwort klärt dort zugleich den zunächst mehrdeutigen Tonartbezug.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -7829,6 +8424,17 @@ const ATLAS = {
           "examples": [
             "bach-wtk1-852-modulation"
           ],
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-53",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 229–230, Bsp. 13.10 · modulierende Themen bei Froberger, Pachelbel und Bach",
+          "text": "Moduliert der Dux zur Dominante, würde seine vollständige Quinttransposition noch eine Quinte weiterführen. Menke beschreibt deshalb eine Gegenbewegung der tonalen Ziele: Der Dux führt von der ersten zur fünften Stufe, der Comes von der fünften zurück zur ersten. In seinen Beispielen wird die Antwort meist schon nach dem ersten Ton angepasst; die folgenden Töne liegen gegenüber der zunächst erwarteten Quinttransposition eine Sekunde tiefer. Die tonale Beantwortung betrifft hier das Gerüst des ganzen Themenverlaufs.",
           "speciesScope": []
         }
       ],
@@ -7952,6 +8558,17 @@ const ATLAS = {
             "fuge-bach-bwv872-themengrenze"
           ],
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-50",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 224–225, Bsp. 13.1–13.2 · Themenende als Altklausel in BWV 846 und HWV 609",
+          "text": "Menke sucht die Grenze eines barocken Fugenthemas auch in dessen Schlussklausel. Bei Bach und Händel zeigt er Themen, die mit der Altklausel von der fünften zur dritten Stufe enden. Der offene Schluss auf der Terz lässt den Satz weiterfließen. In Bachs C-Dur-Fuge BWV 846 fügt sich der Beginn des Comes in diese Klausel des Dux; dessen Stimme führt anschließend einen neuen Kontrapunkt weiter. Die Klausel markiert die Themengrenze, obwohl die erste Stimme im gemeinsamen Satz weiterläuft.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -7991,7 +8608,9 @@ const ATLAS = {
         "doppelter-kontrapunkt",
         "fuge-doppelfuge",
         "invention-gegenmotiv",
-        "fugenthema-und-kontrasubjekt-erfinden"
+        "fugenthema-und-kontrasubjekt-erfinden",
+        "obligo-kontrapunkt",
+        "generalbass-fuge"
       ],
       "authors": [
         {
@@ -8123,6 +8742,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 18, S. 436–438, Bsp. 18.8c–d und 18.9 · Bach, As-Dur-Fuge BWV 886, T. 6–8 und 37–39",
           "text": "In der As-Dur-Fuge verschiebt Bach das Thema in Takt 37 um eine Viertelnote gegenüber der chromatischen Gegenstimme. Nun entsteht eine klarere Quintfallfolge; dafür fällt die tonale Ankunft auf eine leichte Zeit. Die frühere, auch im Detail abweichende Fassung in Takt 6–8 erreicht ihr Ziel auf schwerer Zeit und erhält ihre harmonische Klarheit erst durch die dritte Stimme. Auch der zeitliche Abstand gehört damit zur Gestalt eines Themenpaars."
+        },
+        {
+          "id": "menke2017-86",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Contrapunti artificiosi und Cantus firmus-Satz, S. 186 · Kontrasubjekt und profiliertes Gegenstimmenkonzept",
+          "text": "Menke verbindet das Kontrasubjekt mit der bewussten Gestaltung eines wiedererkennbaren Gegenstimmenprofils. Ein Contrapunto artificioso eignet sich dafür besonders gut, ist aber keine notwendige Voraussetzung. Im zweiten Teil des Wohltemperierten Klaviers nennt er die schrittweise Gegenstimme der c-Moll-Fuge BWV 871, die sequenzierte Lauffigur der g-Moll-Fuge BWV 885 und die Synkopen der H-Dur-Fuge BWV 892. Solche Merkmale helfen, eine Gegenstimme bei ihrem weiteren Auftreten wiederzuerkennen. Zugleich überwiegen für Menke die Mischformen gegenüber einer lückenlosen Durchführung nur eines historischen Typs.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -8159,7 +8789,9 @@ const ATLAS = {
         "fuge-doppelfuge",
         "invention-einsatzplan",
         "fuge-schlussrueckkehr",
-        "fuge-scheineinsatz"
+        "fuge-scheineinsatz",
+        "fuge-form-und-gattung",
+        "generalbass-fuge"
       ],
       "authors": [
         {
@@ -8268,6 +8900,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-54",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 231–234 · vertikale Disposition, zeitliche Einsatzfolge und überzähliger Einsatz",
+          "text": "Menke trennt die Anordnung von Dux und Comes in den Stimmlagen von der zeitlichen Reihenfolge ihrer Einsätze. In BWV 846 ist die vertikale Anordnung Sopran–Alt–Tenor–Bass regelmäßig als Comes–Dux–Comes–Dux besetzt. Da aber Alt, Sopran, Tenor und Bass nacheinander einsetzen, hört man Dux–Comes–Comes–Dux. Ein weiterer Einsatz nach dem Eintritt aller Stimmen kann die Eröffnung verlängern und den Klangraum erweitern; er bedeutet keine zusätzliche wirkliche Stimme. Als Beispiel nennt Menke den weiteren Dux in Takt 8 von BWV 871.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -8299,6 +8942,12 @@ const ATLAS = {
           "type": "context",
           "note": "Jeppesen beendet die erste Durchführung seiner zweistimmigen Vokalübungen nach den Einsätzen beider Stimmen. Gédalge verlangt in seiner Schulfuge auch bei zwei Stimmen mindestens vier abwechselnde Einsätze. Die verschieden angelegten Lehrmodelle ergeben unterschiedliche Längen der Eröffnung.",
           "from": "jeppesen1964-66"
+        },
+        {
+          "from": "menke2017-54",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalge verlangt in seiner Schulfuge mindestens vier abwechselnde Einsätze. Menke erklärt am historischen Repertoire auch Dux–Comes–Comes–Dux: Eine regelmäßige Verteilung auf die Stimmlagen muss keine regelmäßig abwechselnde zeitliche Folge ergeben. Übungsvorgabe und Repertoirebeschreibung haben hier verschiedene Reichweiten."
         }
       ]
     },
@@ -8435,7 +9084,8 @@ const ATLAS = {
         "melodische-fortspinnung",
         "sequenzmodell",
         "fuge-scheineinsatz",
-        "fuge-formanalyse"
+        "fuge-formanalyse",
+        "fuge-form-und-gattung"
       ],
       "authors": [
         {
@@ -8688,6 +9338,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-56",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 237, Abschnitt „Artifizielle Fugen“ · Engführung und formale Zuspitzung",
+          "text": "Bei einer Engführung wird nach Menke der zeitliche Abstand zwischen den Themeneinsätzen verkürzt. Dabei können auch die Themen selbst etwas kürzer oder verändert auftreten. Die engere Folge steigert die polyphone Dichte und kann einen formalen Höhepunkt herstellen, beispielsweise kurz vor Schluss. Menke beschreibt damit ein Verfahren der Zuspitzung; sein Absatz macht daraus keine feste Schlussform für sämtliche Fugen. Für die Analyse sind Einsatzabstand und die tatsächlich beibehaltene Themengestalt getrennt zu verfolgen.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -8707,6 +9368,12 @@ const ATLAS = {
           "type": "nuance",
           "note": "Gallon und Bitsch bestimmen die eigentliche Engführung als Kanon zwischen Thema und Antwort. Jeppesen lässt in seiner Vokalübung eine kürzere Übernahme genügen: Die folgende Stimme muss nur den vor ihrem Einsatz bereits erklungenen Teil wiedergeben. Die Anforderungen an die Fortsetzung der Nachahmung sind unterschiedlich eng.",
           "from": "jeppesen1964-67"
+        },
+        {
+          "from": "menke2017-56",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Gallon und Bitsch bestimmen die eigentliche Engführung als Kanon von Thema und Antwort. Menke beschreibt auch Engführungen mit verkürzten oder variierten Themen. Seine Darstellung lässt damit eine freiere Behandlung des Themenverlaufs innerhalb der verkürzten Einsatzfolge erkennen."
         }
       ]
     },
@@ -8733,7 +9400,8 @@ const ATLAS = {
         "generalbass-oktavregel",
         "sequenzmodell",
         "akkordprolongation",
-        "choral-fermate"
+        "choral-fermate",
+        "romanesca-satzgeruest"
       ],
       "authors": [
         {
@@ -8825,11 +9493,30 @@ const ATLAS = {
           "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-66",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Monodischer Satz, S. 304–305, Bsp. 17.4–17.5 · Corelli, op. 5 Nr. 3, erster Satz",
+          "text": "Menke legt unter Corellis verzierte Oberfläche zunächst einen schlichten Satz aus Initialkadenz und absteigendem Tetrachord frei. In der Ausarbeitung wird ein verbindender Ton verlängert und der folgende Abschnitt zusammengedrängt. Dadurch beschleunigt sich der harmonische Rhythmus von Halben über Viertel zu Achteln. In der fertigen Fassung ist diese Veränderung durch die laufenden Bassfiguren weniger deutlich sichtbar, bleibt aber wirksam. Die Geschwindigkeit der Figuration ist deshalb von der Geschwindigkeit der zugrunde liegenden Klangwechsel zu unterscheiden.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
         "piston1947",
         "prout1890"
+      ],
+      "relations": [
+        {
+          "from": "menke2017-66",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prout bevorzugt in der zweiten Spezies eine Harmonie je Cantus-firmus-Ton. Menke verfolgt in einer ausgearbeiteten Solosonate eine Beschleunigung innerhalb derselben Phrase. Der weitgehend feste harmonische Puls der Übung ist von der gezielten Veränderung des harmonischen Rhythmus in der Komposition zu unterscheiden."
+        }
       ]
     },
     {
@@ -8984,6 +9671,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-69",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Ensembles, S. 310–311, Bsp. 18.1 · Schütz, Saul, Saul, was verfolgst du mich?, SWV 415, T. 9–12",
+          "text": "Rhythmische Polyphonie kann bei Menke auch zwischen räumlich getrennten Gruppen entstehen. In Schütz’ Saul, Saul, was verfolgst du mich? wechseln die Rufe in Takt 9 dicht zwischen den beiden Chören und innerhalb des Solistenensembles. Danach bündelt sich die Bewegung zu einem annähernden Unisono; ein ausgedünntes, dynamisch abgestuftes Echo folgt. Die Selbstständigkeit liegt hier im zeitlich und räumlich versetzten Ansprechen der Gruppen. Ein durchgehendes Fugenthema oder ein Cantus firmus ist für diese mehrschichtige Wirkung nicht erforderlich.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -9016,7 +9714,8 @@ const ATLAS = {
         "stimmtausch-motette",
         "imitation-stimmenpaare",
         "fugenthema-und-kontrasubjekt-erfinden",
-        "spiegelumkehr-stimmenpaar"
+        "spiegelumkehr-stimmenpaar",
+        "obligo-kontrapunkt"
       ],
       "authors": [
         {
@@ -9127,6 +9826,53 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-37",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 7, „Sequenzen“, S. 123, Bsp. 7.13 · Vertauschbarkeit der Oberstimmen über einem weiterlaufenden Bass",
+          "text": "Die beiden Oberstimmen eines einfachen Fauxbourdons lassen sich nicht ohne Weiteres vertauschen. Seine parallelen Sextakkorde enthalten oben Quartparallelen; nach dem Lagentausch würden daraus Quintparallelen. Anders verhält es sich mit den verwandten 5–6-Ketten über steigendem und 7–6-Ketten über fallendem Bass: Hier ist der Tausch der Oberstimmen möglich. Beide können sogar als enger Kanon im Abstand einer Viertel geführt werden. Menkes Beispiel zeigt, dass die rhythmische Einrichtung des Modells seine Vertauschbarkeit verändern kann. Geprüft wird hier ein oberes Stimmenpaar über einem weiteren Bass, nicht die freie Vertauschbarkeit sämtlicher Stimmen.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-80",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Mehrfacher Kontrapunkt, S. 150–152, Bsp. 9.1–9.3 · konsonante Modelle für Oktave, Dezime und Duodezime",
+          "text": "Das Versetzungsintervall entscheidet, welche Zusammenklänge und Bewegungen erhalten bleiben. Beim Oktavtausch wird die Quinte zur dissonanten Quarte; Terzen und Sexten bleiben dagegen imperfekte Konsonanzen. Beim Dezimtausch sind zwar alle Konsonanzarten verfügbar, doch aus parallelen Terzen werden Oktaven und aus parallelen Sexten Quinten. Menke vermeidet deshalb in diesem konsonanten Modell die gleichgerichtete Führung. Beim Duodezimtausch fällt eine andere Einschränkung ins Gewicht: Die Sexte wird zur Septime und steht daher als frei verwendbare Konsonanz nicht zur Verfügung. Jede neue Lage braucht ihre eigene Prüfung.",
+          "speciesScope": [],
+          "examples": [
+            "menke-inversion-terzen"
+          ]
+        },
+        {
+          "id": "menke2017-81",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Mehrfacher Kontrapunkt, S. 154–156, Bsp. 9.6–9.9 · Synkopendissonanzen nach Bach und Fux",
+          "text": "Menke beschränkt vertauschbaren Kontrapunkt nicht auf konsonante Modelle. An Bachs satztechnischen Aufzeichnungen zeigt er Synkopendissonanzen auch beim Dezimtausch: Sekunden werden zu Nonen, Quarten zu Septimen; Vorbereitung und Fortführung müssen in beiden Lagen funktionieren. Beim Duodezimtausch kann sich sogar die Rolle eines Tons ändern. In seinem Fux-Beispiel wird eine gebundene konsonante Sexte nach dem Tausch zur dissonanten Septime. Was zuvor als betonter Durchgang auf die Sexte folgte, wirkt nun als Auflösung des Vorhalts. Dieselbe Melodie übernimmt damit eine andere kontrapunktische Funktion.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-82",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Mehrfacher Kontrapunkt, S. 157–159, Bsp. 9.11–9.12 · dreifacher Kontrapunkt und Bassfunktion",
+          "text": "Beim dreifachen Kontrapunkt muss jede Linie als Bass verwendbar sein. Zwei Oberstimmen über einem unveränderten Bass zu vertauschen reicht dafür nicht. Menke kombiniert eine Synkopenkette, eine Terzfall- und eine Quintfallsequenz so, dass jede der drei Linien unten stehen kann. Ohne zusätzliche Transposition lassen sich die Fassungen auf dieselbe Akkordgrundtonfolge beziehen. Wird eine Stimme jedoch statt um zwei Oktaven um eine Duodezime nach unten versetzt, kann eine andere Harmoniefolge entstehen. Lagentausch und harmonische Gleichheit sind deshalb getrennt zu überprüfen.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -9140,6 +9886,12 @@ const ATLAS = {
           "to": "prout1910-1",
           "type": "context",
           "note": "Noël-Gallon und Bitsch beschränken die hier behandelten Übungen auf die Oktavvertauschung. Prout analysiert in Bachs g-Moll-Fuge BWV 885 Vertauschungen in der Oktave, Dezime und Duodezime."
+        },
+        {
+          "from": "menke2017-81",
+          "to": "jeppesen1964-69",
+          "type": "context",
+          "note": "Jeppesen schließt Dissonanzbindungen in seiner strengen Dezimtausch-Übung aus. Menke zeigt für den barocken Satz konkrete Synkopationen, die auch in der Dezime vertauschbar sind. Die abweichende Erlaubnis betrifft unterschiedliche Stil- und Übungsrahmen; beide verlangen eine Prüfung der neuen Lage."
         }
       ]
     },
@@ -9240,9 +9992,28 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-71",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 220; Ostinato und Variation, S. 252–253, Bsp. 14.7 · fuga legata und Pachelbels Kanon",
+          "text": "Menke erinnert an den älteren Sprachgebrauch: Die Theoretiker des 16. und 17. Jahrhunderts unterscheiden fuga legata für den strengen Kanon und fuga sciolta für die Nachahmung eines Themenkopfs. Das Wort Fuga bezeichnet damit zunächst eine Setzweise, nicht ausschließlich die spätere selbstständige Gattung. Pachelbels Kanon veranschaulicht außerdem, dass ein Kanon nicht sämtliche Stimmen auf gleiche Weise bindet: Drei Violinen imitieren einander fortlaufend, während darunter ein zweitaktiges Bassmodell wiederkehrt. Kanonische Bindung und Ostinato bestehen zugleich.",
+          "speciesScope": []
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "menke2017-71",
+          "to": "prout1891-1",
+          "type": "context",
+          "note": "Prout unterscheidet Fuge und Kanon nach der Fortsetzung der Nachahmung. Menke macht zusätzlich den historischen Bedeutungswechsel sichtbar: Unter dem älteren Oberbegriff Fuga konnten sowohl strenger Kanon als auch freiere Themenkopfimitation stehen. Die abweichenden Bezeichnungen bedeuten hier keinen Widerspruch in der beschriebenen Technik."
+        }
+      ]
     },
     {
       "id": "speziesmischung",
@@ -9576,7 +10347,9 @@ const ATLAS = {
         "generalbass-sextakkord",
         "generalbass-transponieren",
         "harmonik",
-        "generalbass-oktavregel"
+        "generalbass-oktavregel",
+        "generalbass-bezifferung-stimmfuehrung",
+        "generalbass-fuge"
       ],
       "authors": [
         {
@@ -9590,6 +10363,17 @@ const ATLAS = {
           "examples": [
             "foerster-sextakkord"
           ],
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-33",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 6, S. 99 und 104–105, Bsp. 6.5 · wirklicher Bass und wechselnder Tonartbezug bei Corelli",
+          "text": "Eine Bassstufe bezeichnet bei Menke die Stellung des klingenden Basstons innerhalb der jeweiligen Skala. Sie darf deshalb nicht mit dem Akkordgrundton verwechselt werden. Auch ihr Tonartbezug kann sich im Verlauf ändern: In Corellis Violinsonate op. 5 Nr. 10 ist f zunächst erste Stufe. Auf dem letzten Schlag des zweiten Takts fügt Corelli darüber einen Tritonus als Durchgang ein; dadurch erhält dasselbe f die Funktion der absteigenden vierten Stufe von C-Dur. Das charakteristische Intervall hilft, den neuen Stufenbezug aus der Stimmführung zu erkennen.",
           "speciesScope": []
         }
       ],
@@ -9707,7 +10491,8 @@ const ATLAS = {
       "related": [
         "generalbass-sextakkord",
         "stimmabstand",
-        "speziesmischung"
+        "speziesmischung",
+        "generalbass-fuge"
       ],
       "authors": [
         {
@@ -9732,9 +10517,28 @@ const ATLAS = {
           "text": "Türk lässt Anfänger zunächst vierstimmig üben. Beim Begleiten entscheidet auch die Besetzung. Im Piano oder bei kleiner Besetzung genügen oft drei Stimmen. Im Pianissimo oder unter einer solistischen Singstimme können zwei reichen. Für einen großen Chor oder ein Fortissimo kommen fünf oder mehr in Betracht.",
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf#page=82",
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-61",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Tanzsätze, S. 274–275, Bsp. 15.3–15.4 · Niedts Ausarbeitung eines Allemandenbasses",
+          "text": "An Niedts Allemande zeigt Menke eine Generalbassausarbeitung mit wechselnder Stimmenzahl. Der Bass bleibt nahezu unverändert, während die Oberstimmen diminuiert werden. Der Satz ist im Kern dreistimmig; zusätzliche Stimmen füllen einzelne Stellen, besonders Kadenzen. Menke verbindet diese Beweglichkeit ausdrücklich mit dem Tasteninstrument. In einer Trio- oder Solosonate stehen dagegen die fest besetzten, melodisch profilierten Oberstimmen und der tragende Bass stärker im Vordergrund. Aus einer Bezifferung folgt daher nicht von selbst eine durchgehend vierstimmige Textur.",
+          "speciesScope": []
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "menke2017-61",
+          "to": "foerster1818-1",
+          "type": "context",
+          "note": "Försters vier Stimmen bilden eine Übungsvorgabe für angehende Komponisten; für das Begleiten lässt auch er Reduktionen zu. Menke erläutert dagegen einen ausgearbeiteten Tanzsatz, dessen dreistimmiger Kern nur stellenweise erweitert wird. Die feste Zahl der Lernaufgabe ist damit von der variablen Textur der Komposition zu unterscheiden."
+        }
+      ]
     },
     {
       "id": "generalbass-transponieren",
@@ -9856,6 +10660,28 @@ const ATLAS = {
           "catalogue": true,
           "locator": "Kap. 7.1, S. 153–155, Bsp. 7-2 · Mendelssohn, Lied ohne Worte op. 85 Nr. 4",
           "text": "Die verminderte Quinte g–cis in Mendelssohns Melodie verbindet nach dieser Analyse Töne zweier gedachter Stimmen. Oben verläuft a–g–fis; die untere Linie beginnt auf fis, springt zum cis und steigt von dort schrittweise wieder zum fis. Erst ihre zeitliche Auffaltung erzeugt den auffälligen Sprung in der gespielten Melodie. Mit dem tatsächlich klingenden Bass ergibt sich ein gedachter dreistimmiger Satz, der den D-Dur-Klang ausarbeitet.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-91",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Figuren, Lizenzen und Figurationen, S. 204–206, Bsp. 11.19–11.22 · latente Mehrstimmigkeit und Tenue-Noten",
+          "text": "Eine einzelne Linie kann nicht nur zwischen mehreren Lagen wechseln, sondern sogar einen Vorhalt hörbar machen, dessen dissonanter Zusammenklang gar nicht gleichzeitig erklingt. Bei den Tenue-Noten denkt das Ohr den zuvor gehörten Ton weiter, während die Linie den dissonanzerzeugenden Ton der anderen gedachten Stimme spielt. Der Auflösungston erscheint danach an seinem vorgesehenen Platz. Menke stellt solchen einstimmigen Fassungen ihren zweistimmigen Gerüstsatz gegenüber. Die entscheidende Hörleistung besteht im Verbinden unterbrochener Stimmenzüge; bloßes Zerlegen eines Akkords erklärt diese virtuelle Dissonanz noch nicht.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-65",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Monodischer Satz, S. 306–308, Bsp. 17.8–17.10 · Händel op. 1 Nr. 1 und Bach BWV 1030b",
+          "text": "Menke schreibt die gedachten Stimmen einer Sololinie getrennt auf. In Händels Flötensonate op. 1 Nr. 1 entstehen so zwei virtuelle Oberstimmen; in Takt 2 kommt zusammen mit dem Bass zeitweise eine vierte Stimme ins Spiel. Auch ein notierter dreistimmiger Satz kann mehr gedachte Stimmen enthalten: Beim gezeigten Anfang von Bachs BWV 1030b springt die Cembalooberstimme beständig zwischen zwei Linien. Die Reduktion ergibt deshalb einen vierstimmigen Zusammenhang. Die Zahl der notierten Linien und die Zahl der hörbaren Stimmverläufe sind auseinanderzuhalten.",
           "speciesScope": []
         }
       ],
@@ -10012,6 +10838,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 10, S. 448–449, Bsp. 10-15a–c · Wagner, Tristan und Isolde, Vorspiel zum dritten Aufzug, T. 10–15",
           "text": "Eine enharmonische Umschreibung muss nach Salzer und Schachter nicht die musikalische Funktion ändern. Im besprochenen Tristan-Ausschnitt erklären sie die Kreuzschreibung in Takt 13–14 als Leseerleichterung. Ihre Analyse schreibt die betreffenden Töne wieder mit Be-Zeichen, damit die chromatisch veränderte 7–6-Vorhaltskette erkennbar wird. Der Wechsel der Schreibweise bildet für sie hier keinen neuen harmonischen Wendepunkt."
+        },
+        {
+          "id": "menke2017-94",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Theatralische Dissonanzauflösung, S. 215–217, Bsp. 12.9–12.11 · enharmonische Resolutionen bei Heinichen, Alessandro Scarlatti und Bach",
+          "text": "Bei Heinichens enharmonischen Resolutionen kann sich die tonale Bezugsordnung sehr rasch ändern. Menke verfolgt etwa in Alessandro Scarlattis Kantate Lascia di tormentarmi amor tiranno den Weg von c-Moll über g-Moll und e-Moll nach cis-Moll. Solche Verbindungen gehören zur expressiven Harmonik, treten aber auch außerhalb des Rezitativs auf. Zugleich erinnert Menke daran, dass etwa as und gis in historischen Stimmungssystemen nicht selbstverständlich dieselbe Tonhöhe waren. Die Gleichsetzung auf heutigen Klaviertasten darf deshalb weder die beabsichtigte Stimmführung noch die historischen Unterschiede der Stimmung verdecken.",
+          "speciesScope": []
         }
       ],
       "readingSources": [
@@ -10286,6 +11123,17 @@ const ATLAS = {
           "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-55",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 236–237, Bsp. 13.11 · Händel, Fuge g-Moll HWV 605",
+          "text": "Wenn zwei melodische Gestalten von Anfang an gemeinsam auftreten, hält Menke die Grenze zwischen simultaner Doppelfuge und einer Fuge mit Kontrasubjekt für eine Frage der Deutung. Händels g-Moll-Fuge HWV 605 führt er ausdrücklich unter beiden möglichen Beschreibungen vor. Eindeutiger ist für ihn die sukzessive Doppelfuge: Zuerst wird ein Thema exponiert, dann das andere, schließlich werden beide verbunden. Bei mehreren Themen muss ihre spätere kontrapunktische Kombinierbarkeit bereits im Entwurf bedacht werden.",
+          "speciesScope": []
         }
       ],
       "readingSources": []
@@ -10409,7 +11257,8 @@ const ATLAS = {
       "related": [
         "kadenz",
         "leittonaufloesung",
-        "bindung-s4"
+        "bindung-s4",
+        "trugschluss-klauseln"
       ],
       "authors": [
         {
@@ -10515,7 +11364,8 @@ const ATLAS = {
       "related": [
         "cantus-firmus",
         "hoehepunkt",
-        "imitation-und-kanon"
+        "imitation-und-kanon",
+        "obligo-kontrapunkt"
       ],
       "authors": [
         {
@@ -10551,6 +11401,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 5, S. 78–79, Bsp. 5.13/5.14, und S. 82–83, Bsp. 5.21/5.22 · Motive im Choralvorspiel",
           "text": "Ein wiederkehrendes Motiv muss nicht jedes Mal mit denselben Randtönen erscheinen. Bei Bach bleibt sein Kern erkennbar, während Anfangs- oder Schlusstöne an die Harmonie angepasst werden. Wird der Choral in längere Werte gedehnt, passen mehrere Motive unter einen Cantuston. In Pachelbels Durch Adams Fall ist sogar ein Begleitmotiv vergrößert; während dieses Motivs wechselt die Harmonie."
+        },
+        {
+          "id": "menke2017-84",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Contrapunti artificiosi und Cantus firmus-Satz, S. 176–180, Bsp. 10.10–10.13 · fugato, d’un sol passo und ostinato",
+          "text": "Menke unterscheidet mehrere Arten motivischer Beharrlichkeit. Im Contrapunto fugato kann eine einzige Gegenstimme durch versetzte Motivwiederholungen den Eindruck von Imitation oder zusätzlicher Mehrstimmigkeit erzeugen. Der Contrapunto d’un sol passo behandelt das Motiv freier. Beim Contrapunto ostinato bleibt dagegen gerade die Tonhöhenfolge fest; ihr Rhythmus wird so verändert, dass sie zum Cantus firmus passt. Ostinato bedeutet hier also keine unveränderte Wiederholung der ganzen Figur. Das mitunter gezwungene Ergebnis gehört zum gewählten Charakter der Aufgabe und ist für Menke nicht einfach ein misslungener Versuch müheloser Melodik.",
+          "speciesScope": []
         }
       ],
       "reading": "Singe zuerst die wiederkehrende Oberstimme, dann den Bass dazu. Haben sich Tonlage, Rhythmus oder die Intervalle zwischen beiden Stimmen verändert?",
@@ -10609,6 +11470,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-70",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Ensembles, S. 316–318, Bsp. 18.5 · vier Textteile in Caldaras Crucifixus a 16",
+          "text": "Caldaras Crucifixus zeigt bei Menke, dass die motivische Gliederung innerhalb eines einzigen Satzes des Textes ansetzen kann. Die Abschnitte Crucifixus, etiam pro nobis, sub Pontio Pilato passus und et sepultus est erhalten jeweils ein eigenes Soggetto. Daraus entsteht eine Quadrupelfuge. Die Themen folgen der Deklamation und können zugleich Bilder des Textes tragen: Beim Crucifixus-Motiv hebt Menke die fallende verminderte Septime und die kreuzähnliche Bewegungsfigur hervor. Die Wortgruppen liefern unterscheidbare Motive, die später gleichzeitig miteinander verbunden werden.",
+          "speciesScope": []
         }
       ]
     },
@@ -10640,6 +11512,17 @@ const ATLAS = {
           "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-85",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Contrapunti artificiosi und Cantus firmus-Satz, S. 182–183, Bsp. 10.17 · Sweelinck, Ach Gott, vom Himmel sieh darein",
+          "text": "An Sweelincks Choralbearbeitung zeigt Menke, wie die Vorimitation in ein wechselndes Begleitkonzept eingebettet ist. Zunächst wird der Themenkopf des Chorals in der Oktave vorweggenommen. Nach dem Cantus-Einsatz führt der Bass eine schrittweise Gegenstimme. In T. 5–6 folgen aufsteigende Viertongruppen, danach eine Kette von Synkopendissonanzen; ab T. 12 wird eine längere Passage aus einer Achtel und sechs Sechzehnteln entwickelt. Die Vorimitation bereitet somit die Choralzeile vor, während die weitere Begleitung zwischen verschiedenen rhythmischen und motivischen Konzepten wechselt.",
+          "speciesScope": []
         }
       ]
     },
@@ -10659,7 +11542,9 @@ const ATLAS = {
       "related": [
         "harmonischer-rhythmus",
         "linie-scheinpolyphonie",
-        "motiv-ueber-cantus"
+        "motiv-ueber-cantus",
+        "lamento-bass",
+        "romanesca-satzgeruest"
       ],
       "authors": [
         {
@@ -10709,6 +11594,17 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 10, S. 430–431, Bsp. 10-8a · Purcell, Dido’s Lament, fünftaktiger Ground und Phrasenende in T. 13",
           "text": "Im Lamento der Dido wiederholt sich ein fünftaktiger Bassgang, doch die Oberstimmen müssen ihre Phrasen nicht an seinen Grenzen beenden. Salzer und Schachter weisen auf Takt 13 hin: Die Gesangslinie schließt dort mitten im laufenden Bassmodell. Der gleichbleibende Ground hält den Satz zusammen, während die übergreifenden Phrasen eine starre Folge gleich langer Abschnitte verhindern."
+        },
+        {
+          "id": "menke2017-59",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Ostinato und Variation, S. 257–259 und 263, Bsp. 14.15 · Kadenzmodell und individuelle Bassformen",
+          "text": "Menke beschreibt die Passacaglia zunächst als wiederkehrendes Kadenzmodell im Dreiermetrum. Ihr Bassschema darf dabei selbst verändert werden; ein stets identischer Ostinatobass ist keine allgemeine Bedingung. Auch die Länge und der Tonartenverlauf unterscheiden sich: Romanus Weichleins Modell umfasst sechs Takte, Buxtehudes viertaktiger Bass wandert durch d-Moll, F-Dur und a-Moll zurück nach d-Moll. Bachs achttaktiger Bass in BWV 582 wird dagegen nicht transponiert, wohl aber diminuiert und zeitweise in die Oberstimme verlegt. Gemeinsamkeit und Veränderung müssen somit am jeweiligen Stück bestimmt werden.",
+          "speciesScope": []
         }
       ]
     },
@@ -10776,7 +11672,8 @@ const ATLAS = {
         "fuge-exposition",
         "fuge-gegenexposition",
         "fuge-kontrasubjekt",
-        "fuge-formanalyse"
+        "fuge-formanalyse",
+        "fuge-form-und-gattung"
       ],
       "authors": [
         {
@@ -10810,7 +11707,8 @@ const ATLAS = {
       "related": [
         "bindung-s4",
         "dissonanzaufloesung",
-        "speziesmischung"
+        "speziesmischung",
+        "generalbass-bezifferung-stimmfuehrung"
       ],
       "comparisons": [],
       "authors": [
@@ -10855,6 +11753,17 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        },
+        {
+          "id": "menke2017-9",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Elementare Voraussetzungen, Transitus und Syncopatio, S. 42–48, besonders Bsp. 2.16, 2.21 und 2.23 · Stimmenrollen und Berardis Auflösungsregeln",
+          "text": "Menke unterscheidet nach Artusi die vorbereitete, aufzulösende Stimme als Patiente von der frei beweglichen Gegenstimme, dem Agente. Der Patiente geht im Grundmodell einen Schritt abwärts; bewegt sich der Agente gleichzeitig, kann die None zur Sexte oder Dezime werden. An Berardi zeigt Menke außerdem, dass die Zahlenfolge 9–10 auch durch einen Vorhalt in der unteren Stimme entstehen kann. Die Intervallzahlen allein benennen daher weder die aufzulösende Stimme noch ihre Bewegungsrichtung. Bei der Auflösung einer Sekunde in die verminderte Quinte hält Menke eine Spannung zwischen Regel und Praxis fest: Berardi beschränkt sie auf vorsichtigen Gebrauch zur Wortausdeutung in nichtlateinischen Gesängen. Menke beobachtet diese Auflösung dagegen in allen Gattungen.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -10863,6 +11772,12 @@ const ATLAS = {
           "type": "context",
           "note": "Beide Erklärungen trennen die absteigende Auflösung der Vorhaltsstimme vom wechselnden Intervallabstand. Jeppesen beschreibt die Freiheit im freien Vokalsatz; Salzer und Schachter gewinnen ihre Beispiele aus der Kombination von zweiter und vierter Spezies in einer dreistimmigen Aufgabe.",
           "from": "jeppesen1964-33"
+        },
+        {
+          "from": "menke2017-9",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Salzer und Schachter gewinnen 9–10 und 9–6 aus einem abwärts aufgelösten Oberstimmenvorhalt mit bewegtem Bass. Menkes Berardi-Beispiele ergänzen den Fall eines Vorhalts in der Unterstimme: Auch daraus kann die Zahlenfolge 9–10 entstehen. Die gleiche Intervallfolge lässt deshalb verschiedene Verteilungen der Stimmenrollen zu."
         }
       ]
     },
@@ -11034,6 +11949,17 @@ const ATLAS = {
           "comparisonSources": [
             "green-jones2011"
           ]
+        },
+        {
+          "id": "menke2017-24",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 3, „Orgelpunkt“, S. 65–66, Bsp. 3.24 · Quiescenza über der Tonika",
+          "text": "Über einer festgehaltenen Tonika kann die Quiescenza den erreichten Ruhepunkt weiter ausformen. Die charakteristische Oberstimme führt 8–kleine 7–6–große 7–8: Zunächst wird der Leitton durch die kleine Septime ersetzt, später kehrt er zurück. Die kleine Septime führt dabei zum Quartsextklang über dem liegenden Bass. Menke beschreibt die Wirkung als entspannt und bestätigend; der Wechsel der Septimen erhält dennoch eine chromatische Spannung. Dasselbe Modell kann auch einen Satz eröffnen. Sein Auftreten beweist deshalb für sich genommen noch keine nachträgliche Schlussdehnung.",
+          "speciesScope": []
         }
       ],
       "relations": [
@@ -11136,6 +12062,17 @@ const ATLAS = {
           "comparisonSources": [
             "green-jones2011"
           ]
+        },
+        {
+          "id": "menke2017-90",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Figuren, Lizenzen und Figurationen, S. 203–204, Bsp. 11.18–11.19; Theatralische Dissonanzauflösung, S. 215 · synkopierte Verschiebung",
+          "text": "Menke erweitert die Betrachtung einzelner Vorhalte und Vorausnahmen auf die zeitliche Verschiebung einer ganzen Stimme. Bei Spiess heißt die vorgezogene Fassung Syncopirte Anticipation, die verspätete Retardatio. Als Vergleich steht jeweils ein einfacherer Satz ohne Verschiebung daneben. Menke nennt Bachs E-Dur-Invention BWV 777 als Beispiel einer Retardatio und den Beginn der Aria aus der D-Dur-Partita BWV 828 für die Antizipation. Für die Analyse lässt sich deshalb fragen, ob eine Folge auffälliger Zusammenklänge aus einem durchgehend versetzten, sonst regulären Stimmenpaar entsteht.",
+          "speciesScope": []
         }
       ]
     },
@@ -11175,6 +12112,36 @@ const ATLAS = {
           "speciesScope": [],
           "locator": "Kap. 5, S. 88–90, Bsp. 5.28/5.29 · Oktavregeln von Campion, Fenaroli, Heinichen und Gasparini",
           "text": "Die Oktavregel verbindet Bassstufe und Bewegungsrichtung. Aufwärts bereitet die vierte Bassstufe die Dominante vor und trägt etwa einen Subdominantakkord oder einen Sextakkord der zweiten Stufe. Abwärts folgt sie bereits auf die Dominante: Nun wird sie als Septime des Dominantseptakkords harmonisiert und führt zur dritten Bassstufe mit einem Tonikasextakkord. Derselbe Basston erfüllt also je nach Richtung eine andere Aufgabe."
+        },
+        {
+          "id": "menke2017-31",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 6, „Kontrapunktische Aspekte der Oktavregel“, S. 99–101 und 110–111, Bsp. 6.11 · Bewegungsrichtung und Klauselkombination",
+          "text": "Die Oktavregel ordnet Klänge den tatsächlich gespielten Bassstufen zu. Die vierte Stufe kann aufwärts einen Grund- oder Quintsextakkord tragen, abwärts dagegen einen Sekundakkord mit Tritonus. Für Menke hängen solche Unterschiede mit den Stimmführungen zu Tonika und Dominante zusammen: Nebentöne erhalten ihre Bedeutung durch die Richtung ihrer Fortsetzung. Am Ende des Kapitels verbindet er die Sopranklausel einer Cadenza doppia mit einer Tenorklausel. Werden beide auf Tonika und Dominante bezogen und ineinander verschränkt, entsteht eine Oktavregel. Ihre Harmonien lassen sich somit auch als Zusammenspiel von Kadenzklauseln verstehen.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-32",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 5, S. 95–96, Bsp. 5.7–5.10; Kap. 6, S. 100–101 und 110 · Reichweite der Oktavregel",
+          "text": "Die Oktavregel bietet nach Menke Orientierung beim Musizieren und beim Aussetzen unbezifferter Bässe; sie erfasst nicht jede mögliche Harmonie einer Bassstufe. Er demonstriert, dass Sekund-, Terzquart-, Quintsext- und Septakkorde auf sämtlichen Stufen auftreten können, wenn sie durch Syncopatio sinnvoll eingebunden sind. Seine Beispiele bleiben jeweils in einer Tonart und verzichten eigens auf Sequenzen. Eine ungewohnte Verbindung beweist deshalb weder automatisch eine Modulation noch einen Fehler. Die gewohnte Oktavregel und die weiter reichenden Möglichkeiten der kontrapunktischen Klangbildung müssen gemeinsam betrachtet werden.",
+          "speciesScope": []
+        }
+      ],
+      "relations": [
+        {
+          "from": "menke2017-32",
+          "to": "neidhoefer-schubert2023-1",
+          "type": "nuance",
+          "note": "Neidhöfer und Schubert erklären die unterschiedlichen üblichen Harmonisierungen der auf- und absteigenden vierten Bassstufe. Menke ergänzt dazu ausdrücklich die Reichweitengrenze: Diese Zuordnungen bilden kein vollständiges Verzeichnis zulässiger Klänge; korrekt eingebundene Synkopendissonanzen können auch andere Stufenbesetzungen hervorbringen."
         }
       ]
     },
@@ -11199,7 +12166,10 @@ const ATLAS = {
         "harmonischer-rhythmus",
         "melodische-fortspinnung",
         "fuge-zwischenspiel",
-        "invention-episode"
+        "invention-episode",
+        "cadenza-doppia",
+        "lamento-bass",
+        "romanesca-satzgeruest"
       ],
       "authors": [
         {
@@ -11212,6 +12182,25 @@ const ATLAS = {
           "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
           "catalogue": true,
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-35",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 7, „Sequenzen“, S. 113–115, Bsp. 7.1–7.4 · harmonischer Puls, Gerüstglied und motivisches Glied",
+          "text": "Ein Sequenzglied besitzt je nach betrachteter Ebene unterschiedliche Länge. In Menkes Beispiel wechseln die Klänge viertelweise; die versetzte Fortschreitung des Gerüsts umfasst zwei Viertel. Werden zwei verschiedene Diminutionsfiguren miteinander verbunden, wiederholt sich das vollständige melodische Muster erst nach vier Vierteln. Eine motivische Grenze muss deshalb nicht mit jedem Harmoniewechsel oder jedem strukturellen Sequenzschritt zusammenfallen. Für Menke trägt vor allem das Gerüst der tatsächlichen Stimmen den sequentiellen Zusammenhang. Es kann bei wechselnden Verzierungen erhalten bleiben, während eine bloß beibehaltene Akkordfolge allein diesen Zusammenhang nicht sichert.",
+          "speciesScope": []
+        }
+      ],
+      "relations": [
+        {
+          "from": "menke2017-35",
+          "to": "neidhoefer-schubert2023-1",
+          "type": "nuance",
+          "note": "Neidhöfer und Schubert bestimmen im Bach-Beispiel ein vierakkordiges Modell durch die Rückkehr derselben Figur in derselben Stimme. Menke trennt ausdrücklich drei Ebenen: Klangwechsel, kürzeres Gerüstglied und längeres motivisches Glied. Die unterschiedliche Gliedlänge muss daher keine unterschiedliche Deutung derselben Ebene bedeuten."
         }
       ]
     },
@@ -11369,7 +12358,8 @@ const ATLAS = {
         "fuge-schlussrueckkehr",
         "fuge-zwischenspiel",
         "hoehepunkt",
-        "stimmabstand"
+        "stimmabstand",
+        "fuge-form-und-gattung"
       ],
       "authors": [
         {
@@ -11487,7 +12477,8 @@ const ATLAS = {
       "related": [
         "chromatik",
         "harmonik",
-        "harmonik-enharmonische-spannung"
+        "harmonik-enharmonische-spannung",
+        "lamento-bass"
       ],
       "comparisons": [],
       "authors": [
@@ -11501,6 +12492,25 @@ const ATLAS = {
           "locator": "Kap. 7.6, S. 215 und 217–218, Bsp. 7-71 · Franz Schubert, Messe in Es-Dur, Sanctus",
           "text": "Im Sanctus von Franz Schuberts Es-Dur-Messe hören Salzer und Schachter eine Oktavteilung in drei große Terzen: es–ces (enharmonisch h)–g–es. Die tatsächlichen Lagenwechsel verdecken diesen Zusammenhang teilweise. Das ces erklären die Autoren hier ausdrücklich nicht als bloßen Ersatz eines vorausgesetzten c. Maßgeblich ist die gleichmäßige Teilung der Oktave. Innerhalb dieser Passage tritt dadurch der diatonische Bezugsrahmen zurück, während die größere Bewegung die Es-Sonorität ausarbeitet.",
           "speciesScope": []
+        },
+        {
+          "id": "menke2017-40",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 138–140, Bsp. 8.1–8.2 · Monteverdi, Crucifixus aus Selva morale e spirituale",
+          "text": "Für die hier behandelte barocke Chromatik setzt Menke beim diatonischen Kontrapunkt an. Am Crucifixus aus Monteverdis Selva morale e spirituale schlägt er vor, die Akzidentien probeweise wegzulassen. Zurück bleibt ein einfacher konsonanter Satz. Viele chromatische Schritte verändern in seiner Analyse die Größe einer Terz oder Sexte, ohne die grundlegende kontrapunktische Beziehung auszutauschen. Die Ausdruckskraft entsteht durch diese Färbung und durch die motivische Verflechtung der Stimmen. Das ist eine konkrete Lesart dieses Repertoires; daraus folgt noch keine Aussage, dass jede chromatische Passage jeder Epoche auf dieselbe Weise erklärt werden muss.",
+          "speciesScope": []
+        }
+      ],
+      "relations": [
+        {
+          "from": "menke2017-40",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Menke erschließt Monteverdis Crucifixus durch das Entfernen der Akzidentien aus einem konsonanten Gerüst. Salzer und Schachter lesen im Sanctus von Franz Schuberts Es-Dur-Messe dagegen eine symmetrische Großterzteilung, deren ces kein bloßer Ersatz für c ist. Die Gegenüberstellung markiert verschiedene Repertoirefälle und die Reichweite der jeweiligen Reduktion, keinen Streit über dasselbe Werk."
         }
       ]
     },
@@ -11790,6 +12800,311 @@ const ATLAS = {
           "work": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
           "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
           "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "generalbass-bezifferung-stimmfuehrung",
+      "title": "Was verrät die Generalbassbezifferung über die einzelnen Stimmen?",
+      "group": "Generalbass",
+      "tags": [
+        "Bezifferung",
+        "Stimmführung",
+        "Tabellatura",
+        "Syncopatio",
+        "Sekunde",
+        "None"
+      ],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "harmonik",
+        "vorhalt-bewegte-begleitstimme"
+      ],
+      "reading": "Vergleiche verschiedene Bezifferungen derselben Fortschreitung. Prüfe, ob die Zahlen tatsächliche Stimmenlagen, nur die Außenstimmen oder eine abgekürzte Klangangabe festhalten, und welche Stimme eine bezeichnete Dissonanz auflösen muss.",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-3",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kontrapunkt im Barock, S. 14–15, Bsp. 1.1–1.2; Elementare Voraussetzungen, S. 47–48 · Bezifferung und Stimmenfunktion",
+          "text": "Menke zeigt dieselbe Fortschreitung mit drei Bezifferungen: vollständig mit den tatsächlichen Intervallabständen aller Stimmen, nur für die Oberstimme und auf eine Oktave verkürzt, oder als Akkordangabe, die lediglich Abweichungen vom Terz-Quintklang verzeichnet. Der Umfang der notierten Stimmführungsinformation verändert sich entsprechend. Auch eine einzelne Ziffer kann eine Stimmenfunktion bezeichnen: Im Generalbass steht die 2 normalerweise für eine Syncopatio in der unteren Stimme, die 9 für eine in der oberen. Dieser Unterschied betrifft die aufzulösende Stimme und nicht den tatsächlichen Abstand von Sekunde oder None.",
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "cadenza-doppia",
+      "title": "Wie verlängert die Cadenza doppia eine Kadenz?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Kadenz",
+        "Cadenza doppia",
+        "Vorhalt",
+        "Barock"
+      ],
+      "related": [
+        "kadenz",
+        "kadenz-unterstimme",
+        "trugschluss-klauseln",
+        "sequenzmodell"
+      ],
+      "reading": "Spiele über einer gehaltenen Dominante die Oberstimmenfolge 3–4–4–3. Unterscheide die vorbereitende Quarte von der Vorhaltsquarte; verändere danach den Bass, während die Oberstimmen gleich bleiben.",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-22",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 3, „Cadenza doppia“, S. 58–59, Bsp. 3.7–3.8 · Dehnung der Penultima",
+          "text": "Die Cadenza doppia dehnt den vorletzten Kadenzklang auf vier Positionen. Ihre Sopranklausel bildet über der fünften Bassstufe die Intervallfolge 3–4–4–3, bevor der Schluss erreicht wird. Die erste Quarte steht auf leichter Zeit und bereitet die folgende, dissonant behandelte Quarte vor. Verschiedene Tenorklauseln lassen sich darunterlegen. Für Menke bleibt diese wiedererkennbare Stimmführung der Kern des Modells, auch wenn seine akkordische Ausgestaltung wechselt. Die Formel kann zudem einen Satz eröffnen oder sequenziert werden; sie ist also nicht auf das endgültige Ende beschränkt.",
+          "speciesScope": []
+        },
+        {
+          "id": "menke2017-23",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 3, „Cadenza doppia“, S. 60–62, Bsp. 3.10–3.16 · Bassdiminution und scheinbar irreguläre Dissonanzfolgen",
+          "text": "Bleiben die Oberstimmenklauseln gleich, kann der Bass der Cadenza doppia stark verändert werden. Menke zeigt etwa 5–4–5–5 und 5–6–5–5 anstelle der ausgehaltenen fünften Stufe. Dabei können aufeinanderfolgende Septimen oder ein unvorbereiteter Terzquartakkord auf der sechsten Stufe entstehen. Die bekannten Oberstimmen machen verständlich, weshalb solche Wendungen um 1700 idiomatisch sind. Eine bloße Folge isolierter Akkordnamen verdeckt diesen Zusammenhang. Für die Beurteilung ist daher zuerst zu prüfen, ob eine Bassdiminution ein vertrautes Klauselmodell ausgestaltet; daraus folgt keine allgemeine Freigabe dieser Dissonanzfolgen.",
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "trugschluss-klauseln",
+      "title": "Welche Stimme lenkt eine Kadenz zum Trugschluss um?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Trugschluss",
+        "Kadenz",
+        "Klauseln",
+        "Barock"
+      ],
+      "related": [
+        "kadenz",
+        "kadenz-unterstimme",
+        "kadenzausweichung",
+        "cadenza-doppia"
+      ],
+      "reading": "Halte Sopran- und Tenorklausel fest und vergleiche darunter die Bassgänge 5–1 und 5–6. Suche danach eine Kadenz, deren Bass regulär schließt, während eine Oberstimme das erwartete Ziel verhindert.",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-26",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 3, „Trugschluss“, S. 69–71, Bsp. 3.30–3.31 · abweichender Bass oder abweichende Oberstimmen",
+          "text": "Beim häufigen 5–6-Trugschluss können Sopran- und Tenorklausel ihr reguläres Ziel erreichen. Abweichend verhält sich der Bass: Er geht zur sechsten statt zur ersten Stufe. Dadurch wird der gemeinsame Zielton der oberen Klauseln zur verdoppelten Terz des neuen Bassklangs. Menke erläutert daneben anhand Walthers den umgekehrten Fall: Der Bass führt den gewöhnlichen Kadenzsprung aus, während die Oberstimmen den erwarteten Schluss verhindern, etwa durch eine veränderte Terz oder eine abspringende Sopranklausel. Ein Trugschluss lässt sich deshalb genauer beschreiben, wenn man die tatsächlich ausweichende Stimme benennt.",
+          "speciesScope": [],
+          "examples": [
+            "menke-trugschluss-klauseln"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamento-bass",
+      "title": "Wie lässt sich ein chromatischer Lamentobass kontrapunktisch aussetzen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Lamento",
+        "Chromatik",
+        "Ostinato",
+        "Barock"
+      ],
+      "related": [
+        "chromatik",
+        "chromatik-ohne-diatonisches-geruest",
+        "passacaglia-chaconne",
+        "sequenzmodell"
+      ],
+      "reading": "Spiele zunächst den fallenden Mollbass von 1 nach 5. Ergänze eine Oberstimme mit Tritonus über der tiefen siebten Stufe und vergleiche danach eine Fortsetzung mit übermäßiger Sexte sowie eine Variante mit dominantischem Quartvorhalt.",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-41",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Kap. 8, S. 147–149, Bsp. 8.15–8.17 · chromatisches Tetrachord, Bach BWV 795 und BWV 232, Purcell",
+          "text": "Der chromatische Lamentobass durchschreitet das fallende Molltetrachord von der ersten zur fünften Stufe. Menkes Modell erhält über der tiefen siebten Stufe einen Tritonus; auf der sechsten kann eine übermäßige Sexte folgen. Eine Variante ergänzt den Quartvorhalt über der Dominante. Er verbindet das Gerüst mit dem Anfang von Bachs f-Moll-Sinfonia BWV 795, Purcells Schlussarie aus Dido and Aeneas und dem Crucifixus der h-Moll-Messe. Die Beispiele sind zum Vergleich nach a-Moll übertragen. Beim Aussetzen zählen deshalb neben dem Bassgang besonders die charakteristischen Intervalle und ihre gerichtete Fortsetzung.",
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "obligo-kontrapunkt",
+      "title": "Was gewinnt ein Kontrapunkt durch eine selbst auferlegte Beschränkung?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Obligo",
+        "Contrapunti artificiosi",
+        "Berardi",
+        "Mattheson",
+        "Cantus firmus",
+        "Gestaltung"
+      ],
+      "related": [
+        "motiv-ueber-cantus",
+        "cantus-firmus",
+        "doppelter-kontrapunkt",
+        "fuge-kontrasubjekt"
+      ],
+      "reading": "Wähle einen kurzen Cantus firmus. Entwirf dazu zunächst eine Gegenstimme nur aus Schritten, dann eine mit festem rhythmischem Muster. Welche Wendungen erzwingt die jeweilige Beschränkung? Suche anschließend in einem längeren Satz Stellen, an denen das Konzept wechselt.",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-83",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Contrapunti artificiosi und Cantus firmus-Satz, S. 169–180, besonders Bsp. 10.1–10.4 und 10.13 · Obligo bei Berardi und Mattheson",
+          "text": "Ein Obligo legt ein wiedererkennbares Gestaltungsprinzip fest: etwa nur Schritte, nur Sprünge oder einen bestimmten Synkopenrhythmus. Menke erschließt diese Tradition anhand von Berardi und Mattheson. Die Beschränkung kann bewusst eigensinnige Ergebnisse erzeugen; im ausschließlich springenden Beispiel entfällt sogar die gewöhnliche schrittweise Schlussklausel. Solche Aufgaben stehen neben den üblichen Zahlenverhältnissen der Spezies. Für ganze Kompositionen behandelt Menke den Katalog als Anregung: Konzepte können wechseln oder gleichzeitig auf verschiedene Stimmen verteilt werden. Ein konsequentes Profil muss daher nicht den gesamten Satz unverändert beherrschen.",
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "fuge-form-und-gattung",
+      "title": "Hat jede Fuge dieselbe Form?",
+      "group": "Fuge",
+      "tags": [
+        "Fugenform",
+        "Versettenfuge",
+        "Clavierfuge",
+        "Chorfuge",
+        "Disposition",
+        "Gattung"
+      ],
+      "related": [
+        "fuge-exposition",
+        "fuge-zwischenspiel",
+        "fuge-formanalyse",
+        "fuge-schlussrueckkehr",
+        "generalbass-fuge"
+      ],
+      "reading": "Vergleiche eine kurze Versettenfuge mit einer längeren Tasten- oder Chorfuge. Zeichne nur Themeneinsätze, Tonartstationen und Zwischenspiele ein. Welche Entscheidungen erklären sich aus Besetzung, Text oder liturgischer Aufgabe?",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-57",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 234–235 und 243–245, Bsp. 13.16–13.17 · Versettenfuge, Clavierfuge und Chorfuge",
+          "text": "Eine kurze Versettenfuge kann nach der Exposition enden; längere Fugen verbinden mehrere Themendurchführungen und mögliche Zwischenspiele. Für Menke richtet sich die Form nach der konkreten Aufgabe. Tasteninstrumente verlangen spielbare Texturen, bei Chorfugen prägen Textdeklamation und dramatischer Zusammenhang den Entwurf. Wer selbst schreibt, soll zunächst Einsatzfolge, harmonischen Plan und den Wechsel thematischer Abschnitte und Zwischenspiele festlegen. Lebègues Fugue du 3e zeigt, wie aus einem knappen Gerüst ein individueller Satz entsteht. Ein einheitliches Schema für alle Fugen lehnt Menke ab.",
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "generalbass-fuge",
+      "title": "Wie wird aus einem Generalbass eine Fuge?",
+      "group": "Generalbass",
+      "tags": [
+        "Partimento",
+        "Partimentofuge",
+        "Generalbassfuge",
+        "Pasquini",
+        "Disposition",
+        "Improvisation"
+      ],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "generalbass-stimmenzahl",
+        "fuge-exposition",
+        "fuge-kontrasubjekt",
+        "fuge-form-und-gattung"
+      ],
+      "reading": "Markiere zunächst die ausgeschriebenen Themeneinsätze im Partimento. Verfolge danach, welche Stimmen weitergeführt werden können und wo sie pausieren. Suche im späteren Bassverlauf eine Stelle für einen zusätzlichen Themeneinsatz in einer Oberstimme.",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-58",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Fuga, S. 240–243, Bsp. 13.14–13.16 · Pasquinis Partimentofuge und ihre Ausarbeitung",
+          "text": "In einer Partimentofuge sind Thema, Einsatzdisposition und Form bereits im Generalbass angelegt. In Pasquinis absteigender Eröffnung beginnt jeder neue Themeneinsatz in der jeweils tiefsten Stimme; darüber werden Gegenstimmen ergänzt. Ziffern wie 7–6 helfen, Klauseln und Vorhaltsketten zu erkennen. Spätere Themeneinsätze in den Oberstimmen muss der Spieler teilweise selbst finden. Menke ergänzt beispielsweise einen Tenoreinsatz in Takt 10. Die Bezifferung legt die motivische Arbeit also nicht vollständig fest: Ihr pädagogischer Nutzen besteht gerade darin, eine vorgegebene Anlage polyphon auszugestalten.",
+          "speciesScope": []
+        }
+      ]
+    },
+    {
+      "id": "romanesca-satzgeruest",
+      "title": "Wie ist das Satzgerüst der Romanesca aufgebaut?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Romanesca",
+        "Außenstimmensatz",
+        "Terz-Quint-Modell",
+        "Dreiermetrum",
+        "Variation",
+        "Frescobaldi"
+      ],
+      "related": [
+        "sequenzmodell",
+        "grundrahmen",
+        "passacaglia-chaconne",
+        "harmonischer-rhythmus"
+      ],
+      "reading": "Singe zunächst die fallenden Gerüsttöne der Oberstimme und ergänze den Bass. Markiere dann dieselben Stationen in einer ausgearbeiteten Romanesca. Bleibt das zugrunde liegende Dreiermetrum hörbar, auch wenn der Notentext Vierertakte zeigt?",
+      "readingSources": [
+        "menke2017"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "menke2017-60",
+          "source": "menke2017",
+          "name": "Johannes Menke",
+          "work": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
+          "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+          "catalogue": true,
+          "locator": "Ostinato und Variation, S. 250–252, Bsp. 14.5–14.6 · Romanesca und Frescobaldis Dunque dovrò",
+          "text": "Menke erklärt die Romanesca des frühen 17. Jahrhunderts vom Außenstimmensatz her. Die Oberstimme sinkt zweimal: zunächst 5–4–3–2, dann 5–4–3–2–1. Eine Mittelstimme ergänzt Terzen; der Bass bildet abwechselnd Terzen und Quinten zur Oberstimme. Zum Modell gehört ein Dreiermetrum, das in der Ausarbeitung häufig durch Vierertaktnotation und zusätzliche Bassnoten verdeckt wird. In Frescobaldis Dunque dovrò lassen sich diese Stationen trotz der reichen Verzierung verfolgen. Eine bloße Akkordfolge gibt deshalb wesentliche melodische und metrische Eigenschaften dieser Romanesca noch nicht wieder.",
+          "speciesScope": []
         }
       ]
     }
@@ -13162,6 +14477,36 @@ const ATLAS = {
       "credit": "Wiederverwendung der eigenen Atlas-Leseübung nach Salzer und Schachter, Kap. 9, S. 338–340, mit neuer Vergleichsfrage zu Jeppesen, 3. Aufl. 1964, S. 148. Keine Reproduktion einer Buchseite.",
       "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
       "image": "quellen/noten/salzer-schachter-gemischte-dissonanzen.webp"
+    },
+    "menke-trugschluss-klauseln": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Menke · Gleiche Klauseln, anderer Schluss",
+      "alt": "Zwei dreistimmige Klauselgerüste in C-Dur: oben H4–C5, in der Mitte D4–C4, jeweils in Halben. Der Bass führt links G2–C3, rechts G2–A2. Rechts verdoppeln C4 und C5 die Terz über A2.",
+      "caption": "Spiele die unveränderten Oberstimmen zuerst mit dem Bassgang g–c, dann mit g–a. Im zweiten Fall behalten Sopran- und Tenorklausel ihr Ziel, während der Bass den Trugschluss herstellt. Die beiden c bilden nun die verdoppelte Terz über a. Das reduzierte Gerüst zeigt nur die dafür benötigten Töne; es ist keine vollständige Akkordaussetzung.",
+      "credit": "Eigene redaktionelle Leseübung zum Verfahren bei Johannes Menke, Kontrapunkt II, 1. Aufl. 2017, S. 69–71, Bsp. 3.30–3.31. Keine Übernahme eines Buchbeispiels.",
+      "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+      "image": "quellen/noten/menke-trugschluss-klauseln.webp"
+    },
+    "menke-inversion-terzen": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Menke · Oktavtausch und Dezimtausch im Vergleich",
+      "alt": "Drei kurze zweistimmige Modelle in Dreivierteltakten. A: E5–F5–G5 über C5–D5–E5 ergibt Terzen. B: C5–D5–E5 über E4–F4–G4 ergibt Sexten. C: C5–D5–E5 über C4–D4–E4 ergibt Oktaven. Alle Töne sind Viertel.",
+      "caption": "Verfolge die grüne Stimme: Um eine Oktave nach unten versetzt, bildet sie mit der unveränderten dunklen Stimme parallele Sexten. Bei diatonischer Versetzung um eine Dezime nach unten entstehen parallele Oktaven. Eine in der Ausgangslage zulässige Bewegung muss deshalb nach jedem Lagentausch neu beurteilt werden.",
+      "credit": "Eigenes redaktionelles Modell nach Johannes Menke, Kontrapunkt II, 1. Aufl. 2017, S. 150–152. Drei schematische Ausschnitte zur Intervallverwandlung; keine Buchabschrift.",
+      "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+      "image": "quellen/noten/menke-inversion-terzen.webp"
+    },
+    "menke-subsumtio-superjectio": {
+      "kind": "leseuebung",
+      "catalogue": true,
+      "title": "Menke · Subsumtio und Superjectio",
+      "alt": "Zwei Modelle in Viervierteltakten über C4 als ganzer Note. A: G4 als punktierte Viertel, F4 als Achtel, A4 als Halbe; Intervalle 5–4–6. B: A4 als punktierte Viertel, H4 als Achtel, G4 als Halbe; Intervalle 6–7–5. Die dissonanten Achtel verlassen ihre Tonhöhe mit einem Terzsprung.",
+      "caption": "Singe zunächst g–a und a–g über dem gehaltenen c. Füge dann jeweils den kurzen Gegenschritt ein. In der Subsumtio führt die untere Dissonanz f mit einer Terz aufwärts nach a; in der Superjectio führt die obere Dissonanz h mit einer Terz abwärts nach g. Die Richtung ergibt sich aus der konkreten Ornamentfigur und ihrem Hauptschritt.",
+      "credit": "Eigene redaktionelle Modelle nach Johannes Menke, Kontrapunkt II, 1. Aufl. 2017, S. 190–191, zur dortigen Erklärung von Monteverdis Figuren mit Bernhards Begriffen. Keine Übernahme von Monteverdis Notentext oder einer Buchseite.",
+      "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+      "image": "quellen/noten/menke-subsumtio-superjectio.webp"
     }
   }
 };
