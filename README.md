@@ -12,6 +12,12 @@ GitHub Pages veröffentlicht die Dateien aus der Wurzel dieses Repositorys. Der 
 
 Im [Quellenverzeichnis](https://muk-labs.github.io/Kontrapunktatlas/quellen.html) ist zunächst jedes Werk angehakt. Für einen Vergleich **Alle abwählen**, die gewünschten Werke anhaken und **Mit dieser Auswahl zum Atlas** wählen. Das Verzeichnis zeigt die Fragen, zu denen mindestens eine gewählte Quelle beiträgt. Beim Öffnen einer Frage erscheinen deren ausgewählte Beiträge und zugehörige Notenbeispiele. Für Artachos Speziestabellen und seinen Hindemith-Vergleich gibt es das gemeinsame Kästchen **Unterrichtshandout**.
 
+Das Menü **Quellen anordnen** bietet drei Ansichten: **Nach Quellenart** erhält die bisherige Gruppierung, **Nach Autor (A–Z)** ordnet alle Quellen nach dem Nachnamen der zuerst genannten Person, und **Nach Erscheinungsjahr** zeigt die datierten Quellen von der ältesten zur neuesten. Gemeinsam verfasste Werke bleiben ein Eintrag. Die gewählten Kästchen bleiben beim Wechsel der Ansicht erhalten.
+
+Für die Chronologie zählt das belegte Jahr der verwendeten Ausgabe bzw. Veröffentlichung. So steht Pistons hier verwendeter Druck unter 1970 und Salzer–Schachters Ausgabe unter 1989. Ungefähre Angaben wie **um 1835** bleiben sichtbar. Quellen ohne gesichertes Erscheinungsjahr stehen am Ende; ein datiertes Vorwort oder ein Copyrightvermerk wird nicht automatisch zum Druckjahr. Die Quellenart bleibt in den alphabetischen und chronologischen Ansichten an jedem Eintrag erkennbar.
+
+Die Anordnung wird in der Adresse des Quellenverzeichnisses gespeichert: [alphabetische Ansicht](https://muk-labs.github.io/Kontrapunktatlas/quellen.html?sortierung=autor) und [chronologische Ansicht](https://muk-labs.github.io/Kontrapunktatlas/quellen.html?sortierung=jahr). Diese Links lassen sich mit `quellen` und einer bereits gewählten Frage oder einem Vergleich kombinieren. Beim Neuladen bleibt die Ansicht erhalten. Die Rückkehr zum Atlas oder zu **Unterschiede** übernimmt die Quellenauswahl und das bisherige Ziel; die Anordnung gilt allein für das Quellenverzeichnis.
+
 **Link kopieren** teilt die aktuelle Frage, die Quellenauswahl und eine gegebenenfalls gewählte Spezies. Ein Link ohne den Parameter `quellen` öffnet den vollständigen Atlas. Weitere Fragen übernehmen die Auswahl. Sie bleibt beim Neuladen erhalten und gilt für alle, die den Link öffnen.
 
 | Beispiel | Was sich öffnet |
@@ -380,9 +386,11 @@ Für ein neues Notenbild die Datei in `quellen/noten/` ablegen. Unter `ATLAS.exa
 
 Für ein weiteres Lehrbuch zuerst in `ATLAS.sources` einen Eintrag mit `id`, `name`, `title`, `group` und `url` anlegen. Eine kurze Kennung aus Kleinbuchstaben, Ziffern und Bindestrichen verwenden, etwa `kennan1999`. Bei mehreren Werken desselben Jahres ergänzt ein Titel- oder Bandkürzel die Kennung. Veröffentlichte IDs bleiben beim Korrigieren einer bibliografischen Angabe erhalten. Die Positionen unter `authors` verweisen über `source` auf dieselbe ID. So erscheint das Werk automatisch im Quellenverzeichnis. Für neue Themen ein Fragenobjekt mit einer neuen Kennung anlegen. Eine Frage mit leerer Vergleichsliste und ohne Beleg wird als offen angezeigt. „Verboten“ und „nicht relevant“ sind fachliche Aussagen und werden nur dort eingetragen, wo die Quelle sie tatsächlich macht.
 
+Für die Quellenanordnung ergänzt `sortAuthor` einen expliziten Schlüssel mit dem Nachnamen zuerst, beispielsweise `Neidhöfer, Christoph; Schubert, Peter`. Die Reihenfolge der Mitautoren folgt der Quellenangabe. `publicationYear` enthält das belegte Jahr der zitierten Ausgabe als Zahl oder `null`, wenn es offenbleibt. Eine ungefähre Datierung erhält zusätzlich `publicationLabel`, etwa `um 1835`; `publicationNote` kann eine Datierungsunsicherheit kurz erklären. Die Sortierung liest keine Jahreszahlen aus Werkkennungen, Titeln oder URLs. Die vorhandenen Titel, Kennungen und die Reihenfolge in der Inhaltsdatei bleiben unabhängig von der gewählten Ansicht erhalten.
+
 Die Wikipedia-Ziele stehen ebenfalls in `atlas-data.js`, unter `ATLAS.people`. Pro Person gibt es `name`, `aliases` (etwa den Nachnamen) und `wikipedia` mit einer geprüften Biografie-URL. Ohne verifizierten Artikel bleibt `wikipedia: null`; insbesondere wird Peter Schubert nicht mit Franz Schubert verwechselt. Vollständige Namen haben Vorrang vor Nachnamen, damit etwa Louis B. Prout sein eigenes Ziel behält. `exclude` nimmt feste Begriffe wie „Bach-Gesellschaft“ von der Verlinkung aus. Neue Nennungen in den Texten erhalten ihren Link automatisch; HTML-Markup in den Daten ist nicht nötig. Deutschsprachige Artikel sind bevorzugt, bei Bedarf führt der Link zu einer anderen Sprachfassung. Die Zuordnung liegt lokal und erfordert beim Öffnen oder Filtern des Atlas keine Netzwerkabfrage. Fragenlinks und Bedienelemente behalten ihre eigene Funktion.
 
-Mit `node --test tests/*.test.cjs` lassen sich Werkkennungen, Quellenverweise, teilbare Fragen- und Antwortlinks, Spezies- und Kontextzuordnungen, gültige und beidseitige Vergleichspaare sowie die Auflösung von Autorennamen prüfen.
+Mit `node --test tests/*.test.cjs` lassen sich Werkkennungen, Quellenverweise, bibliografische Sortierschlüssel, teilbare Fragen- und Antwortlinks, Spezies- und Kontextzuordnungen, gültige und beidseitige Vergleichspaare sowie die Auflösung von Autorennamen prüfen.
 
 ## Redaktionelle Beiträge
 
@@ -393,6 +401,7 @@ Leserinnen und Leser können zu einer Frage **Ergänzung oder Korrektur vorschla
 - `index.html` und `atlas.css` enthalten Seitenstruktur und Gestaltung.
 - `atlas.js` stellt Suche, Filter und verlinkbare Fragenansichten bereit.
 - `quellen.html` und `quellen.js` enthalten das Quellenverzeichnis mit der Werkauswahl.
+- `source-order.js` ordnet das Quellenverzeichnis nach Quellenart, Autor oder belegtem Erscheinungsjahr und liest dessen Ansichtsparameter.
 - `unterschiede.html` und `unterschiede.js` zeigen das filterbare Verzeichnis der paarweisen Unterschiede.
 - `disagreements-model.js` bildet eindeutige Vergleichskennungen und liest die Filter aus der Adresse.
 - `source-selection.js` liest und schreibt die gemeinsamen URL-Parameter für Quellen.

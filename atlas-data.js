@@ -797,259 +797,339 @@ const ATLAS = {
       "name": "Adrián Artacho",
       "title": "MUK · Woche 1. Unterrichtshandout, Auszug mit den gedruckten Seiten 6, 8 und 9",
       "group": "Unterrichtshandout",
-      "url": "quellen/handout.pdf"
+      "url": "quellen/handout.pdf",
+      "sortAuthor": "Artacho, Adrián",
+      "publicationYear": null
     },
     {
       "id": "bellermann1901",
       "name": "Heinrich Bellermann",
       "title": "Der Contrapunkt (Berlin, Julius Springer, 4. Aufl., 1901)",
       "group": "Lehrwerke",
-      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248"
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248",
+      "sortAuthor": "Bellermann, Heinrich",
+      "publicationYear": 1901
     },
     {
       "id": "benjamin1986",
       "name": "Thomas Benjamin",
       "title": "Counterpoint in the Style of J.S. Bach (New York, Schirmer Books, 1986)",
       "group": "Lehrwerke",
-      "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach"
+      "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
+      "sortAuthor": "Benjamin, Thomas",
+      "publicationYear": 1986
     },
     {
       "id": "cherubini1835",
       "name": "Luigi Cherubini",
       "title": "Cours de contrepoint et de fugue / Theorie des Contrapunktes und der Fuge (Leipzig/Paris, deutsch-französische Ausgabe, um 1835)",
       "group": "Lehrwerke",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf",
+      "sortAuthor": "Cherubini, Luigi",
+      "publicationYear": 1835,
+      "publicationLabel": "um 1835"
     },
     {
       "id": "cherubini1854",
       "name": "Luigi Cherubini",
       "title": "A Treatise on Counterpoint & Fugue (übers. Mary Cowden Clarke, hg. Josiah Pittman, London, Novello, 1854)",
       "group": "Lehrwerke",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf",
+      "sortAuthor": "Cherubini, Luigi",
+      "publicationYear": 1854
     },
     {
       "id": "foerster1804",
       "name": "Emanuel Aloys Förster",
       "title": "Anleitung zum General-Bass (Leipzig, Breitkopf & Härtel, 1804)",
       "group": "Lehrwerke",
-      "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf"
+      "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf",
+      "sortAuthor": "Förster, Emanuel Aloys",
+      "publicationYear": 1804
     },
     {
       "id": "foerster1818",
       "name": "Emanuel Aloys Förster",
       "title": "Practische Beyspiele als Fortsetzung zu seiner Anleitung des Generalbasses (Wien, Artaria, 1818), I. Abteilung",
       "group": "Lehrwerke",
-      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf"
+      "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf",
+      "sortAuthor": "Förster, Emanuel Aloys",
+      "publicationYear": 1818
     },
     {
       "id": "fux1725",
       "name": "Johann Joseph Fux",
       "title": "Gradus ad Parnassum (Wien, 1725)",
       "group": "Lehrwerke",
-      "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/4118035"
+      "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/4118035",
+      "sortAuthor": "Fux, Johann Joseph",
+      "publicationYear": 1725
     },
     {
       "id": "gallon-bitsch1964",
       "name": "Noël-Gallon und Marcel Bitsch",
       "title": "Traité de contrepoint (Paris, Durand, 1964, D. & F. 13955)",
       "group": "Lehrwerke",
-      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/index.html"
+      "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/index.html",
+      "sortAuthor": "Gallon, Noël; Bitsch, Marcel",
+      "publicationYear": 1964
     },
     {
       "id": "gedalge1901",
       "name": "André Gédalge",
       "title": "Traité de la fugue. De la fugue d’école (Paris, Enoch, 1901)",
       "group": "Lehrwerke",
-      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136"
+      "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136",
+      "sortAuthor": "Gédalge, André",
+      "publicationYear": 1901
     },
     {
       "id": "goetschius1910",
       "name": "Percy Goetschius",
       "title": "Exercises in Elementary Counterpoint (New York, G. Schirmer, 5. Aufl., © 1910)",
       "group": "Lehrwerke",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf",
+      "sortAuthor": "Goetschius, Percy",
+      "publicationYear": null,
+      "publicationNote": "Die Quellenangabe nennt © 1910; das Erscheinungsjahr der verwendeten 5. Auflage ist nicht belegt."
     },
     {
       "id": "green-jones2011",
       "name": "Douglass M. Green und Evan Jones",
       "title": "The Principles and Practice of Modal Counterpoint (New York und Abingdon, Routledge, 2011)",
       "group": "Lehrwerke",
-      "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650"
+      "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
+      "sortAuthor": "Green, Douglass M.; Jones, Evan",
+      "publicationYear": 2011
     },
     {
       "id": "hindemith-tonsatz1",
       "name": "Paul Hindemith",
       "title": "Unterweisung im Tonsatz I. Theoretischer Teil (Schott, ED 3600)",
       "group": "Lehrwerke",
-      "url": "https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/33620/dl/ED3600_Unterweisung_im_Tonsatz_Einleger.pdf"
+      "url": "https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/33620/dl/ED3600_Unterweisung_im_Tonsatz_Einleger.pdf",
+      "sortAuthor": "Hindemith, Paul",
+      "publicationYear": null,
+      "publicationNote": "Die verwendete Ausgabe ist in der Quellenangabe nicht datiert."
     },
     {
       "id": "hindemith-tonsatz2",
       "name": "Paul Hindemith",
       "title": "Unterweisung im Tonsatz II. Übungsbuch für den zweistimmigen Satz (Schott, ED 3601)",
       "group": "Lehrwerke",
-      "url": "https://www.schott-music.com/de/unterweisung-im-tonsatz-no33622.html"
+      "url": "https://www.schott-music.com/de/unterweisung-im-tonsatz-no33622.html",
+      "sortAuthor": "Hindemith, Paul",
+      "publicationYear": null,
+      "publicationNote": "Die verwendete Ausgabe ist in der Quellenangabe nicht datiert."
     },
     {
       "id": "keller1965",
       "name": "Hermann Keller",
       "title": "Das Wohltemperierte Klavier von Johann Sebastian Bach. Werk und Wiedergabe (Kassel, Bärenreiter, 1965)",
       "group": "Lehrwerke",
-      "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf"
+      "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf",
+      "sortAuthor": "Keller, Hermann",
+      "publicationYear": 1965
     },
     {
       "id": "kennan1999",
       "name": "Kent Kennan",
       "title": "Counterpoint: Based on Eighteenth-Century Practice (4. Aufl., Upper Saddle River, Prentice Hall, 1999)",
       "group": "Lehrwerke",
-      "url": "https://iucat.iu.edu/iub/4609610"
+      "url": "https://iucat.iu.edu/iub/4609610",
+      "sortAuthor": "Kennan, Kent",
+      "publicationYear": 1999
     },
     {
       "id": "kurth1917",
       "name": "Ernst Kurth",
       "title": "Grundlagen des linearen Kontrapunkts. Einführung in Stil und Technik von Bach’s melodischer Polyphonie (Bern, Max Drechsel, 1917)",
       "group": "Lehrwerke",
-      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf"
+      "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf",
+      "sortAuthor": "Kurth, Ernst",
+      "publicationYear": 1917
     },
     {
       "id": "piston1947",
       "name": "Walter Piston",
       "title": "Counterpoint (London, Victor Gollancz, 6. Druck 1970, zuerst New York 1947)",
       "group": "Lehrwerke",
-      "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en"
+      "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
+      "sortAuthor": "Piston, Walter",
+      "publicationYear": 1970
     },
     {
       "id": "prout1890",
       "name": "Ebenezer Prout",
       "title": "Counterpoint: Strict and Free (3. Aufl., London, Augener & Co., Vorwort 1890)",
       "group": "Lehrwerke",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf",
+      "sortAuthor": "Prout, Ebenezer",
+      "publicationYear": null,
+      "publicationNote": "Das Vorwort ist auf 1890 datiert; das Erscheinungsjahr der verwendeten 3. Auflage ist nicht eindeutig belegt."
     },
     {
       "id": "prout1891",
       "name": "Ebenezer Prout",
       "title": "Fugue (London, Augener, 9. Druck, Vorwort 1891)",
       "group": "Lehrwerke",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf",
+      "sortAuthor": "Prout, Ebenezer",
+      "publicationYear": null,
+      "publicationNote": "Das Vorwort ist auf 1891 datiert; das Erscheinungsjahr des verwendeten 9. Drucks ist nicht belegt."
     },
     {
       "id": "prout1910",
       "name": "Ebenezer Prout",
       "title": "Analysis of J. S. Bach’s Forty-Eight Fugues (hg. Louis B. Prout, London, Edwin Ashdown, 1910)",
       "group": "Lehrwerke",
-      "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf"
+      "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf",
+      "sortAuthor": "Prout, Ebenezer",
+      "publicationYear": 1910
     },
     {
       "id": "schubert1999",
       "name": "Peter Schubert",
       "title": "Modal Counterpoint, Renaissance Style (New York und Oxford, Oxford University Press, 1999)",
       "group": "Lehrwerke",
-      "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285"
+      "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
+      "sortAuthor": "Schubert, Peter",
+      "publicationYear": 1999
     },
     {
       "id": "tuerk1791",
       "name": "Daniel Gottlob Türk",
       "title": "Kurze Anweisung zum Generalbaßspielen (Halle und Leipzig, 1791)",
       "group": "Lehrwerke",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf",
+      "sortAuthor": "Türk, Daniel Gottlob",
+      "publicationYear": 1791
     },
     {
       "id": "zarlino1558",
       "name": "Gioseffo Zarlino",
       "title": "Le istitutioni harmoniche (Venedig, 1558)",
       "group": "Lehrwerke",
-      "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html"
+      "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html",
+      "sortAuthor": "Zarlino, Gioseffo",
+      "publicationYear": 1558
     },
     {
       "id": "gotham-shaffer-s5",
       "name": "Mark Gotham und Kris Shaffer",
       "title": "Fifth-Species Counterpoint (Open Music Theory)",
       "group": "Online-Lehrtexte",
-      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/"
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/",
+      "sortAuthor": "Gotham, Mark; Shaffer, Kris",
+      "publicationYear": null
     },
     {
       "id": "rothgeb1998-cf",
       "name": "John Rothgeb",
       "title": "The Cantus Firmus (Music 103, 1998)",
       "group": "Online-Lehrtexte",
-      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html",
+      "sortAuthor": "Rothgeb, John",
+      "publicationYear": 1998
     },
     {
       "id": "rothgeb1998-s1",
       "name": "John Rothgeb",
       "title": "The First Species of Counterpoint (Music 103, 1998)",
       "group": "Online-Lehrtexte",
-      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
+      "sortAuthor": "Rothgeb, John",
+      "publicationYear": 1998
     },
     {
       "id": "rothgeb1993-s2",
       "name": "John Rothgeb",
       "title": "The Second Species of Counterpoint (Music 103, 1993)",
       "group": "Online-Lehrtexte",
-      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html",
+      "sortAuthor": "Rothgeb, John",
+      "publicationYear": 1993
     },
     {
       "id": "rothgeb1995-s3",
       "name": "John Rothgeb",
       "title": "The Third Species of Counterpoint (Music 103, 1995)",
       "group": "Online-Lehrtexte",
-      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html",
+      "sortAuthor": "Rothgeb, John",
+      "publicationYear": 1995
     },
     {
       "id": "rothgeb1995-s4",
       "name": "John Rothgeb",
       "title": "The Fourth Species of Counterpoint (Music 103, 1995)",
       "group": "Online-Lehrtexte",
-      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
+      "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html",
+      "sortAuthor": "Rothgeb, John",
+      "publicationYear": 1995
     },
     {
       "id": "shaffer2012",
       "name": "Kris Shaffer",
       "title": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
       "group": "Online-Lehrtexte",
-      "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+      "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
+      "sortAuthor": "Shaffer, Kris",
+      "publicationYear": 2012
     },
     {
       "id": "bach1866-wtk1",
       "name": "Johann Sebastian Bach",
       "title": "Das wohltemperierte Klavier, Teil I (Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig, 1866)",
       "group": "Partituren",
-      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf"
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf",
+      "sortAuthor": "Bach, Johann Sebastian",
+      "publicationYear": 1866
     },
     {
       "id": "bach1866-wtk2",
       "name": "Johann Sebastian Bach",
       "title": "Das wohltemperierte Klavier, Teil II (Bach-Gesellschaft, Bd. 14, hg. Franz Kroll, Leipzig, 1866)",
       "group": "Partituren",
-      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf"
+      "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf",
+      "sortAuthor": "Bach, Johann Sebastian",
+      "publicationYear": 1866
     },
     {
       "id": "neidhoefer-schubert2023",
       "name": "Christoph Neidhöfer und Peter Schubert",
       "title": "Baroque Counterpoint: Revised and Expanded Edition (Albany, State University of New York Press, 2023)",
       "group": "Lehrwerke",
-      "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint"
+      "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
+      "sortAuthor": "Neidhöfer, Christoph; Schubert, Peter",
+      "publicationYear": 2023
     },
     {
       "id": "salzer-schachter1989",
       "name": "Felix Salzer und Carl Schachter",
       "title": "Counterpoint in Composition: The Study of Voice Leading (New York, Columbia University Press, Morningside Edition, 1989; Erstausgabe 1969)",
       "group": "Lehrwerke",
-      "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/"
+      "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
+      "sortAuthor": "Salzer, Felix; Schachter, Carl",
+      "publicationYear": 1989
     },
     {
       "id": "jeppesen1964",
       "name": "Knud Jeppesen",
       "title": "Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie (übersetzt von Julie Schulz, 3. Aufl., Leipzig, VEB Breitkopf & Härtel, 1964)",
       "group": "Lehrwerke",
-      "url": "https://www.breitkopf.com/work/3447/kontrapunkt"
+      "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
+      "sortAuthor": "Jeppesen, Knud",
+      "publicationYear": 1964
     },
     {
       "id": "menke2017",
       "name": "Johannes Menke",
       "title": "Kontrapunkt II: Die Musik des Barock (1. Aufl., Laaber, Laaber-Verlag, 2017; Grundlagen der Musik, Bd. 3)",
       "group": "Lehrwerke",
-      "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f"
+      "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
+      "sortAuthor": "Menke, Johannes",
+      "publicationYear": 2017
     }
   ],
   "topics": [
