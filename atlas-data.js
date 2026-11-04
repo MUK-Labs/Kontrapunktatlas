@@ -948,6 +948,15 @@ const ATLAS = {
         "Heimann"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Walter_Heimann_(Musikp%C3%A4dagoge)"
+    },
+    {
+      "name": "Zsolt Gárdonyi",
+      "aliases": [
+        "Zsolt Gardonyi",
+        "Gárdonyi",
+        "Gardonyi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Zsolt_G%C3%A1rdonyi"
     }
   ],
   "sources": [
@@ -1320,6 +1329,17 @@ const ATLAS = {
       "publicationYear": 2004,
       "publicationLabel": "2004 (zugeordnet)",
       "publicationNote": "Arbeitszuordnung zur 2., durchgesehenen Auflage: S. 10 nennt die zweite Auflage; der Bibliotheksnachweis belegt dafür Köln: Dohr, 2004. Das Impressum fehlt im Teilscan, deshalb ist die genaue Druckausgabe des Exemplars nicht abschließend gesichert. Erstveröffentlichung 2000. Erschlossen sind die gedruckten S. 9–201; der Scan bricht auf S. 201 ab. Wiederholte Aufnahmen werden nicht als zusätzliche Seiten gezählt."
+    },
+    {
+      "id": "gardonyi1996",
+      "name": "Zsolt Gárdonyi",
+      "title": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+      "group": "Lehrwerke",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "sortAuthor": "Gárdonyi, Zsolt",
+      "publicationYear": 1996,
+      "publicationLabel": "1996 (zugeordnet)",
+      "publicationNote": "Bibliografische Zuordnung zur italienischen Übersetzung von Antonio Giacometti (Milano: Ricordi, 1996; ISBN 8875924708). Der Bibliothekskatalog belegt diese Ausgabe; Titelblatt und Impressum fehlen im bereitgestellten Scan, deshalb ist dessen genaue Druckausgabe nicht abschließend gesichert. Erschlossen sind das Vorwort S. 8–10 und alle acht Kapitel S. 11–97; das Register reicht bis S. 102. Die gedruckten Buchseiten, nicht die Blattnummern des zweiseitig aufgenommenen PDFs, bilden die Fundstellen."
     }
   ],
   "topics": [
@@ -5039,6 +5059,29 @@ const ATLAS = {
           },
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-chromatische-septime",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 26, Bsp. 24 · Chromatische Fuge BWV 903, Beginn",
+          "text": "Am Beginn der Chromatischen Fuge hebt Gárdonyi eine betonte, unvorbereitete Septime als ersten Zusammenklang beim Comes hervor. Ihre Auflösung erfolgt auf dem Durchgangssechzehntel e im Themenkopf des Comes. Dieser Schritt hebt zugleich die tonale Veränderung des Anfangstons wieder auf und erhält die charakteristische Schrittbewegung. Die Erklärung verbindet hier Dissonanzverlauf, Figuration und Einrichtung der tonalen Antwort; sie ist keine allgemeine Erlaubnis unvorbereiteter Septimen in Speziesübungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 26, Bsp. 24 · Chromatische Fuge BWV 903, Beginn",
+              "note": "Die Aussage ist eine Analyse eines genau bezeichneten Satzbeginns von Bach, keine Regel für den strengen Übungssatz."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
         }
       ],
@@ -9103,7 +9146,8 @@ const ATLAS = {
         "cantus-firmus",
         "melodische-fortspinnung",
         "motiv-ueber-cantus",
-        "fuge-formanalyse"
+        "fuge-formanalyse",
+        "fugenthema-umfang"
       ],
       "authors": [
         {
@@ -14031,7 +14075,8 @@ const ATLAS = {
         "tonart-und-region",
         "akkordton-verdopplung",
         "stimmen-ergaenzen",
-        "akkordvollstaendigkeit"
+        "akkordvollstaendigkeit",
+        "fugenthema-harmonik"
       ],
       "readingSources": [
         "prout1890",
@@ -15185,7 +15230,8 @@ const ATLAS = {
         "obligo-kontrapunkt",
         "choral-gegenstimme",
         "gregorianische-vorlage",
-        "choral-modaler-tonartbezug"
+        "choral-modaler-tonartbezug",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -15666,7 +15712,8 @@ const ATLAS = {
         "fuge-quintsprung",
         "fuge-antwortintervall",
         "fuge-modulierendes-thema",
-        "fuge-chromatische-antwort"
+        "fuge-chromatische-antwort",
+        "fugenthema-beginn"
       ],
       "authors": [
         {
@@ -15898,6 +15945,56 @@ const ATLAS = {
               "note": "Das Hexachordmodell ist eine Vorgabe für die Vokalübungsfuge. Jeppesen erklärt ausdrücklich, dass es für die Praxis des 16. Jahrhunderts nicht verbindlich ist; eine engere Stileinordnung dieser Übungsregel bleibt offen."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-grundlagen",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 17–18, Bsp. 11–12 · zweite Themenphase",
+          "text": "Eine reale Antwort überträgt die melodische Intervallfolge des Dux genau. Eine tonale Antwort verändert einzelne Intervalle, um den Tonartenverlauf einzurichten. Gárdonyi trennt dabei die Transpositionsstufe vom Zeitpunkt der Modulation: Ohne vorbereitende Codetta muss die Dominanttonart nicht schon mit dem ersten Ton des Comes erreicht sein. Der Übergang kann erst während der Antwort stattfinden; die zusätzliche Gegenstimme macht dessen harmonischen Verlauf deutlicher. Eine tonale Veränderung kann diesen Übergang verzögern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 17–18, Bsp. 11–12 · zweite Themenphase",
+              "note": "Die Passage erklärt die zweite Themenphase an Bach-Beispielen, insbesondere WTK I C-Dur und WTK II c-Moll."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-tonale-antwort",
+            "bach-wtk1-846-antwort"
+          ]
+        },
+        {
+          "id": "gardonyi1996-open-antwort-typologie",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 19, Anm. 20 · Geltungsanspruch der Antwortmodelle",
+          "text": "Gárdonyi warnt ausdrücklich davor, seine Beschreibungen tonaler Antworten als unveränderliche Vorschriften zu lesen. Es handelt sich um Typen, die aus rückblickender Analyse gewonnen werden. Bach selbst findet auch andere Lösungen. Eine Abweichung von einem nachträglich formulierten Antwortmodell ist daher noch kein Fehler der Komposition. Diese Einschränkung betrifft den Status der vorgeführten Regeln und muss bei ihrer Übertragung auf den Unterricht mitgelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Rückblickende Analyse statt verbindlicher Antwortnorm",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 19, Anm. 20 · Geltungsanspruch der Antwortmodelle",
+              "note": "Die Fußnote erklärt den beschreibenden Status der unmittelbar zuvor analysierten Antworten Bachs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -15936,7 +16033,10 @@ const ATLAS = {
       "related": [
         "fuge-reale-tonale-antwort",
         "fuge-quintsprung",
-        "invention-einsatzplan"
+        "invention-einsatzplan",
+        "fugenthema-beginn",
+        "fuge-gegenbewegung-spiegel",
+        "fuge-fughetta-fugato"
       ],
       "authors": [
         {
@@ -16055,6 +16155,75 @@ const ATLAS = {
               "note": "Die Aussage beschreibt innerhalb von Menkes barocker Fugenlehre den bevorzugten ersten Einsatz in einer Nachbarstimme und berücksichtigt spätere Ausnahmen."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-intervall",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 17 · Stimmennachbarschaft und Oktavlage des Comes",
+          "text": "Gárdonyi beschreibt als üblichen ersten Comes eine Nachbarstimme in der Oberquinte oder Unterquarte. Die Cis-Dur- und cis-Moll-Fugen aus WTK II nennt er als Ausnahmen, bei denen nicht die Nachbarstimme antwortet und eine Duodezime entsteht. Für die weitere Darstellung fasst er Oberquinte und Unterquarte unter derselben Bezeichnung zusammen; entsprechend gehören Unterquinte und Oberquarte zusammen. Beim Lesen seiner Analysen ist deshalb zwischen der verwendeten Kurzbezeichnung und dem tatsächlich notierten Abstand zu unterscheiden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 17 · Stimmennachbarschaft und Oktavlage des Comes",
+              "note": "Die Aussagen beziehen sich auf erste Beantwortungen in Bachs Fugen und nennen zwei genaue Repertoireausnahmen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-antwort-unterquinte",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 21–22, Bsp. 19 · vollständige Antworten in der Unterquinte",
+          "text": "Eine vollständige Antwort in der Unterquinte oder Oberquarte kann die Gestalt eines dominantisch beginnenden Themas besser bewahren. Bei BWV 539 und BWV 565 würde die gewöhnliche einzelne Anpassung des Themenkopfs einen Sekundschritt zum Einklang zusammenziehen. Gárdonyi erklärt die Transposition des ganzen Themas in Gegenrichtung als Möglichkeit, diese Verformung zu vermeiden. Daneben können solche Antworten aus dem Tonartenplan einer größeren Komposition hervorgehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 21–22, Bsp. 19 · vollständige Antworten in der Unterquinte",
+              "note": "Die melodische Begründung gilt den ausdrücklich angeführten d-Moll-Fugen BWV 539 und BWV 565; weitere Antworten werden mit dem Tonartenplan verbunden."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-04",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69 · Beantwortung des zweiten Themas einer Doppelfuge",
+          "text": "Bei der Einführung des zweiten Themas einer Doppelfuge verfolgt Gárdonyi mehrere Antwortabstände. In BWV 540 sowie den cis-Moll- und gis-Moll-Fugen des zweiten WTK-Bands findet er die Unterquinte beziehungsweise Oberquarte. Andere Beispiele beantworten das zweite Thema in der Oberquinte. Besonders hebt er die Oktavantwort in der c-Moll-Orgelfuge BWV 546 hervor. Diese Beobachtungen betreffen einen später eingeführten thematischen Komplex; sie dürfen nicht stillschweigend in eine einheitliche Vorschrift für die erste Antwort jeder Fuge verwandelt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 6, S. 69 · Beantwortung des zweiten Themas einer Doppelfuge",
+              "note": "Der Abschnitt behandelt ausdrücklich die zweite thematische Exposition in Bachs Doppelfugen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [],
@@ -16064,6 +16233,12 @@ const ATLAS = {
           "to": "prout1891-1",
           "type": "context",
           "note": "Cherubinis Quintvorgabe bezieht sich auf seine Realfuge; andere Imitationsintervalle ordnet er einer weiteren Fugenart zu. Prout beschreibt Tonika und Dominante als häufigstes Tonartenpaar im Repertoire und belegt auch eine Antwort in der Subdominante."
+        },
+        {
+          "from": "gardonyi1996-forms-04",
+          "to": "menke2017-51",
+          "type": "context",
+          "note": "Menke beschreibt Oberquinte beziehungsweise Unterquarte als bevorzugten Abstand der ersten Beantwortung in einer benachbarten Stimme. Gárdonyi untersucht hier die Einführung des zweiten Themas einer Doppelfuge und nennt dafür auch Unterquinte und Oktave. Die unterschiedlichen Intervalle gehören zu verschiedenen Stellen des Formverlaufs und bilden daher keinen unmittelbaren Widerspruch über dieselbe erste Antwort."
         }
       ]
     },
@@ -16187,6 +16362,32 @@ const ATLAS = {
               "note": "Die unterschiedliche Beantwortung wird an Bachs F-Dur-Fuge BWV 856 und D-Dur-Fuge BWV 874 erklärt."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-tonale-mutation",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 18–19, Bsp. 12–14 · hervorgehobene fünfte Stufe und Intervalländerung",
+          "text": "Bei der beschriebenen tonalen Anpassung wird die fünfte Stufe des Themenkopfs mit der ursprünglichen Tonika beantwortet, während die übrigen Töne zunächst der gewöhnlichen Quinttransposition folgen. Liegt der angepasste Ton ganz am Anfang, ändert sich dadurch ein melodisches Intervall; liegt er innerhalb des Kopfes, können sich das vorausgehende und das folgende Intervall ändern. Gárdonyi zeigt außerdem Anpassungen weiterer Dominanttöne und Veränderungen ohne fünfte Stufe im Kopf. Entscheidend bleibt die tonale und motivische Einrichtung der Antwort, nicht allein ein anfänglicher Quintsprung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 18–19, Bsp. 12–14 · hervorgehobene fünfte Stufe und Intervalländerung",
+              "note": "Die Erläuterung vergleicht Antworten unter anderem in WTK II c-Moll, BWV 537, BWV 552 und WTK I A-Dur."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-tonale-antwort"
+          ]
         }
       ],
       "readingSources": [
@@ -16219,7 +16420,8 @@ const ATLAS = {
         "fuge-reale-tonale-antwort",
         "fuge-quintsprung",
         "fuge-wechselnde-antwort",
-        "fuge-chromatische-antwort"
+        "fuge-chromatische-antwort",
+        "fugenthema-harmonik"
       ],
       "authors": [
         {
@@ -16296,6 +16498,32 @@ const ATLAS = {
               "note": "Froberger, Pachelbel und Bach bilden die historischen Bezugspunkte der beschriebenen tonalen Rückführung des Comes."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-modulation",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 20–21, Bsp. 15–18 · Dux zur Dominante und Comes zurück zur Tonika",
+          "text": "Moduliert schon der Dux zur Dominante, würde eine durchgehende reale Quintantwort noch eine Stufe im Quintenzirkel weiterführen. Gárdonyi erklärt deshalb die Rückmodulation des Comes durch einen Wechsel der Transposition. In den WTK-I-Themen in Es-Dur und h-Moll kann der Comes nach einer Anpassung des Kopfes zunächst in der Oberquinttransposition bleiben und erst später zur Unterquinttransposition wechseln. In gis-Moll folgt dieser Wechsel dagegen schon unmittelbar nach dem Anfangston. Die notwendige Rückleitung bestimmt also nicht für jedes Thema dieselbe Mutationsstelle.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 20–21, Bsp. 15–18 · Dux zur Dominante und Comes zurück zur Tonika",
+              "note": "Die unterschiedlichen Stellen des Transpositionswechsels werden an Bachs Es-Dur-, h-Moll- und gis-Moll-Fugen aus WTK I gezeigt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "bach-wtk1-852-modulation"
+          ]
         }
       ],
       "readingSources": []
@@ -16378,11 +16606,42 @@ const ATLAS = {
               "note": "Die hybride Themenfassung wird in Bachs dis-Moll-Fuge mit den ursprünglichen Themen- und Antwortformen verglichen."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-wechsel",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 35 · vierte Themenphase, BWV 541 und BWV 536",
+          "text": "In der vierten Phase einer vierstimmigen Exposition kann die zunächst tonal eingerichtete Antwort nun real erscheinen. Gárdonyi erklärt dies damit, dass der anfängliche Aufschub der Modulation zu diesem späteren Zeitpunkt seine besondere Aufgabe verloren hat. Als Beispiele nennt er die Orgelfugen BWV 541 und BWV 536. Daneben können einzelne Intervalle zwischen erster und zweiter Antwort variieren. Die Antwortform ist deshalb im zeitlichen Verlauf der Exposition zu beurteilen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 35 · vierte Themenphase, BWV 541 und BWV 536",
+              "note": "Die Erklärung betrifft zwei genau benannte Bach-Orgelfugen und die vierte Phase ihrer Exposition."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
         "cherubini1854",
         "prout1891"
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-open-antwort-wechsel",
+          "to": "cherubini1854-1",
+          "type": "context",
+          "note": "Cherubini beschreibt einen Wechsel der Behandlung innerhalb derselben Antwort. Gárdonyi untersucht dagegen zwei zeitlich getrennte Comes-Einsätze innerhalb einer Exposition, von denen der erste tonal und der spätere real sein kann. Beide Beiträge betreffen wechselnde Beantwortung, aber auf unterschiedlicher zeitlicher Ebene."
+        }
       ]
     },
     {
@@ -16403,7 +16662,8 @@ const ATLAS = {
         "fuge-engfuehrung",
         "fuge-kontrasubjekt",
         "fuge-exposition",
-        "fuge-scheineinsatz"
+        "fuge-scheineinsatz",
+        "fuge-themenverwandlung"
       ],
       "authors": [
         {
@@ -16524,6 +16784,29 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-themenende",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 13–15, Bsp. 9–10 · Schlusswendung, Codetta und spätere Einsätze",
+          "text": "Das Ende eines Bach-Themas liegt nach Gárdonyi häufig auf einem betonten oder relativ betonten Grundton oder Terzton der Tonika. Eine bereits laufende Figur kann diese Grenze jedoch verwischen. Der erste Ton der Antwort kann mit dem Schlusston des Themas oder seiner Verlängerung zusammentreffen; vereinzelt beginnt die Antwort schon davor. Wo sich Thema, Codetta und Gegenstimme nicht klar trennen lassen, hilft der Vergleich mit den später wiederkehrenden Themengestalten. Der Einsatz der nächsten Stimme bestimmt die Grenze deshalb nicht allein.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 13–15, Bsp. 9–10 · Schlusswendung, Codetta und spätere Einsätze",
+              "note": "Gárdonyi prüft unterschiedliche Überlappungen und Themengrenzen an Bachs WTK-, Orgel- und Inventionsrepertoire."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -16571,7 +16854,13 @@ const ATLAS = {
         "invention-gegenmotiv",
         "fugenthema-und-kontrasubjekt-erfinden",
         "obligo-kontrapunkt",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "dreifacher-kontrapunkt",
+        "fuge-themenverwandlung",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge",
+        "fuge-und-tanzform"
       ],
       "authors": [
         {
@@ -16818,6 +17107,121 @@ const ATLAS = {
               "note": "Die Beispiele aus dem zweiten Wohltemperierten Klavier dienen dazu, wiedererkennbare Profile und Mischformen von Gegenstimmen zu unterscheiden."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-kontrasubjekt",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 27 · wiederkehrende Gegenstimme und Vertauschbarkeit",
+          "text": "Zur Identifikation eines Kontrasubjekts verlangt Gárdonyi, dass sein Material das Thema an mehr als einer Stelle der Fuge begleitet. Ein einmaliges Gegenstimmenprofil reicht nicht. Davon unterscheidet er den Nachweis doppelten Kontrapunkts: In mindestens zwei Themenphasen erscheinen Thema und Gegenmaterial in vertauschter Ober- und Unterlage. Die Bezeichnung der wiederkehrenden Gegenstimme und die Frage ihres Lagentauschs sind somit getrennt zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 27 · wiederkehrende Gegenstimme und Vertauschbarkeit",
+              "note": "Die Passage definiert die Begriffe für die anschließende Analyse bachischer Themenphasen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-kontrasubjekt-zeitpunkt",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 27; Kap. 3, S. 30–31 · frühester Nachweis und Einsatzordnung",
+          "text": "Beginnt das Stück einstimmig, kann ein Kontrasubjekt nach Gárdonyis Wiederholungskriterium frühestens in der dritten Themenphase feststehen: Erst dann kehrt eine bereits gehörte Gegenstimme wieder. Beginnen Thema und Gegenstimme gemeinsam, ist dies schon in der zweiten Phase möglich. Auch die Einsatzordnung zählt: Bei einer dreistimmigen Exposition von oben nach unten kann das Kontrasubjekt bereits wiederkehren, obwohl sein Lagentausch mit dem Thema erst später im Stück hörbar wird.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 27; Kap. 3, S. 30–31 · frühester Nachweis und Einsatzordnung",
+              "note": "Gárdonyi vergleicht einstimmige Eröffnungen mit zweistimmigen Inventionsanfängen und verschiedenen dreistimmigen Fugenexpositionen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-kontrasubjekt-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 52 · freie Behandlung bereits eingeführter Kontrasubjekte",
+          "text": "Ein bereits erkennbares Kontrasubjekt muss bei Bach nach Gárdonyis Analyse nicht jeden Themeneinsatz begleiten. In der c-Moll-Fuge WTK I und der a-Moll-Fuge WTK II werden zwei Kontrasubjekte früh etabliert; die jeweils achte und letzte Themenphase führt das Thema dennoch mit freien Stimmen weiter. Auch die gis-Moll-Fuge WTK I setzt ihre Gegenkontrapunkte nur in ausgewählten Phasen ein. Das zeitweilige Weglassen hebt ihre Identität als wiederkehrendes Material nicht auf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 52 · freie Behandlung bereits eingeführter Kontrasubjekte",
+              "note": "Gárdonyi bezeichnet das Weglassen eingeführter Kontrasubjekte ausdrücklich als Teil ihrer freien Behandlung und nennt die letzte Phase der beiden dreistimmigen Fugen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-kontrasubjekt-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 53–54 · neue Kontrasubjekte und Formgliederung",
+          "text": "Ein neues Kontrasubjekt kann eine Formgrenze markieren. In der h-Moll-Orgelfuge BWV 544 unterscheidet Gárdonyi zunächst das Thema mit dem ersten Kontrasubjekt, danach mit freien Gegenstimmen, dann mit einem zweiten Kontrasubjekt und schließlich mit dem zurückkehrenden ersten sowie einem neuen dritten. Die Schlussgruppe arbeitet dadurch im dreifachen Kontrapunkt. Die Einführung neuen Gegenmaterials steigert also nicht nur die thematische Dichte; sie kann den Verlauf in unterschiedlich besetzte Abschnitte gliedern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 53–54 · neue Kontrasubjekte und Formgliederung",
+              "note": "Das Schema auf S. 54 unterscheidet vier Abschnitte von BWV 544 anhand des Gegenmaterials und der wechselnden Art des Kontrapunkts."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-kontrasubjekt-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 55–56 · Fugen mit zweistimmigem Thema",
+          "text": "Ein Thema kann bereits bei seinem ersten Auftreten mit einer Gegenstimme verbunden sein. Kehrt diese Verbindung in den folgenden Themenphasen wieder, beschreibt Gárdonyi die Gegenstimme als Kontrasubjekt und das Ganze als zweistimmiges Thema. Eine der beiden Linien kann etwas früher beginnen, wie in BWV 579 und im Thema fugatum von BWV 582. Häufig erhält die erste Gestalt wegen ihres Gewichts, ihrer Formfunktion oder ihres Cantus-firmus-Charakters den Vorrang als Thema; die wiederkehrende andere Linie bleibt der Gegenkontrapunkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 55–56 · Fugen mit zweistimmigem Thema",
+              "note": "Der Abschnitt erklärt die Wiederkehr der anfänglichen Zweistimmigkeit und nennt ausdrücklich leicht versetzte Anfänge sowie verschiedene Gründe für den Vorrang einer Linie."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -16830,6 +17234,18 @@ const ATLAS = {
           "to": "gedalge1901-1",
           "type": "context",
           "note": "Gédalges Schulfugemodell verlangt das Kontrasubjekt bei jedem Themeneinsatz. Prout lässt einzelne Einsätze ohne diese Gegenstimme zu und hält ein festes Kontrasubjekt für die Fuge insgesamt für entbehrlich."
+        },
+        {
+          "from": "gardonyi1996-open-kontrasubjekt",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gárdonyi identifiziert das Kontrasubjekt analytisch an der Wiederkehr seiner Gegenstimme und prüft den Lagentausch gesondert. Gédalge verlangt für den Entwurf der Schulfuge eine von vornherein vertauschbare Begleitung bei jedem Themeneinsatz. Wiedererkennen im Repertoire und verbindliche Anlage einer Übungsfuge sind unterschiedliche Aufgaben."
+        },
+        {
+          "from": "gardonyi1996-dev-fuge-kontrasubjekt-1",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalges Kontrasubjekt der Schulfuge soll jeden Themeneinsatz begleiten. Gárdonyi zeigt in den beiden dreistimmigen Bach-Fugen gerade eine letzte Themenphase ohne die zuvor etablierten Kontrasubjekte. Die durchgehende Begleitung ist hier eine Vorgabe der Schulaufgabe, während der Werkbefund eine freie Auswahl und zeitweiliges Weglassen zeigt."
         }
       ]
     },
@@ -16856,7 +17272,12 @@ const ATLAS = {
         "fuge-schlussrueckkehr",
         "fuge-scheineinsatz",
         "fuge-form-und-gattung",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "fugenthema-umfang",
+        "dreifacher-kontrapunkt",
+        "fuge-tonartenplan",
+        "fuge-permutationsfuge",
+        "fuge-fughetta-fugato"
       ],
       "authors": [
         {
@@ -17101,6 +17522,101 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-exposition-dreistimmig",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 30–31 · dreistimmige Exposition",
+          "text": "Die Exposition ist für Gárdonyi der erste Durchgang des Themas durch alle Stimmen. Dreistimmig umfasst sie deshalb zunächst drei Themenphasen. Am häufigsten nennt er die Einsatzfolgen Oberstimme–Mittelstimme–Bass und Mittelstimme–Oberstimme–Bass; ein Beginn im Bass ist seltener. Der dritte Einsatz bringt gewöhnlich den Dux in anderer Oktavlage. Eine Codetta zwischen zweitem und drittem Einsatz kann die Haupttonart wiederherstellen, ist aber nicht in jedem Stück erforderlich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 30–31 · dreistimmige Exposition",
+              "note": "Die Aussage beschreibt Expositionen dreistimmiger Bach-Fugen und Sinfonien."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-exposition-vierstimmig",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 34–35 · vierstimmige Expositionen in Bachs Tastenmusik",
+          "text": "Gárdonyi unterscheidet die theoretisch 24 Einsatzreihenfolgen von den neun, die er in der hier betrachteten vierstimmigen Tastenmusik Bachs findet. Der zweite Einsatz liegt in dieser Werkgruppe stets in einer Nachbarstimme, der letzte meistens im Bass oder Sopran. Die vertraute Folge Dux–Comes–Dux–Comes ist häufig, aber nicht ausnahmslos: WTK I C-Dur bringt Dux–Comes–Comes–Dux, WTK I f-Moll und fis-Moll Dux–Comes–Dux–Dux. Einsatzfolge und vertikale Stimmlage sind daher gesondert zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 34–35 · vierstimmige Expositionen in Bachs Tastenmusik",
+              "note": "Die Häufigkeiten gelten der auf S. 34 ausdrücklich eingegrenzten Gruppe vierstimmiger Orgel- und Cembalofugen Bachs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "bach-wtk1-846-antwort"
+          ]
+        },
+        {
+          "id": "gardonyi1996-open-exposition-pause",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 35 · Satzdichte beim vierten Themeneinsatz",
+          "text": "Der vierte Einsatz einer vierstimmigen Exposition muss nicht von allen drei bereits eingeführten Stimmen zugleich begleitet werden. Gárdonyi nennt mehrere Bach-Fugen, in denen während dieser Phase eine Stimme pausiert, darunter WTK I g-Moll und WTK II c-Moll, As-Dur und H-Dur. Vier Themenstimmen im Aufbau der Fuge und vier gleichzeitig klingende Linien an jeder Stelle sind also verschiedene Sachverhalte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 35 · Satzdichte beim vierten Themeneinsatz",
+              "note": "Die Aussage ist durch ausdrücklich genannte vierstimmige Bach-Fugen belegt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-exposition-fuenf-sechs",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 37–38 · fünfstimmige Fugen und Ricercar a 6",
+          "text": "Auch für fünf Stimmen setzt Gárdonyi nicht alle rechnerisch möglichen Einsatzfolgen mit musikalisch sinnvollen gleich. Er beobachtet geordnete Eintrittsregister innerhalb zweier Oktaven und antwortende Nachbarstimmen. In BWV 546 ersetzt beim fünften Einsatz ein Comes den erwarteten tieferen Dux, weil dessen Lage den Pedalumfang überschritte. Das sechsstimmige Ricercar aus dem Musikalischen Opfer zeigt dagegen die abwechselnde Folge von Dux und Comes. Instrumentaler Tonraum und Themenform erklären damit konkrete Abweichungen vom regelmäßigen Wechsel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 37–38 · fünfstimmige Fugen und Ricercar a 6",
+              "note": "Die Beobachtungen betreffen ausdrücklich benannte fünfstimmige Orgelfugen und Bachs Ricercar a 6."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -17138,6 +17654,12 @@ const ATLAS = {
           "to": "gedalge1901-1",
           "type": "context",
           "note": "Gédalge verlangt in seiner Schulfuge mindestens vier abwechselnde Einsätze. Menke erklärt am historischen Repertoire auch Dux–Comes–Comes–Dux: Eine regelmäßige Verteilung auf die Stimmlagen muss keine regelmäßig abwechselnde zeitliche Folge ergeben. Übungsvorgabe und Repertoirebeschreibung haben hier verschiedene Reichweiten."
+        },
+        {
+          "from": "gardonyi1996-open-exposition-dreistimmig",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gárdonyi beendet den ersten Durchgang seiner dreistimmigen Repertoireexposition nach drei Themenphasen. Gédalge fordert für die Schulfuge unabhängig von einer geringen Stimmenzahl mindestens vier abwechselnde Einsätze. Die abweichenden Zahlen stammen aus unterschiedlichen Definitionen und Unterrichtsaufgaben."
         }
       ]
     },
@@ -17295,6 +17817,81 @@ const ATLAS = {
               "note": "Gegenstand ist die neue Einsatzgruppe in Bachs F-Dur-Fuge BWV 856."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-gegenexposition-rolle",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 31–32 · Gegenexposition als Technik",
+          "text": "Bei Gárdonyi beginnt eine Stimme gegenzuexponieren, wenn sie im Tonika-Dominant-Bereich nun diejenige Themenform übernimmt, die sie vorher noch nicht hatte: nach dem Dux den Comes oder umgekehrt. Diese Beschreibung betrifft zunächst einen einzelnen Stimmverlauf. Gegenexposition ist für ihn deshalb eine Technik und nicht schon von sich aus ein eigener Formabschnitt. Sie kann sich auf eine Stimme beschränken oder auf mehrere Stimmen ausdehnen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 31–32 · Gegenexposition als Technik",
+              "note": "Gárdonyi entwickelt den Begriff anhand der Rollen einzelner Stimmen in Bachs Fugenexpositionen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-gegenexposition"
+          ]
+        },
+        {
+          "id": "gardonyi1996-open-doppelexposition",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 32–33 · WTK I E-Dur, WTK II cis-Moll und gis-Moll",
+          "text": "Wechseln alle drei Stimmen nach ihrer ersten Vorstellung von Dux zu Comes oder umgekehrt, erhält Gárdonyi sechs Themenphasen und spricht von einer Doppelexposition. Dafür dient ihm WTK I E-Dur als Beispiel. WTK II cis-Moll lässt nur zwei Stimmen gegenzuexponieren. In WTK II gis-Moll verfolgt er sieben Phasen, zwischen denen auch Zwischenspiele stehen. Die Ausweitung des Tonika-Dominant-Bereichs und der Register muss daher nicht in eine gleich lange, unmittelbar anschließende zweite Runde passen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 32–33 · WTK I E-Dur, WTK II cis-Moll und gis-Moll",
+              "note": "Die unterschiedlichen Umfänge werden an drei benannten Bach-Fugen und ihren Einsatzschemata verglichen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-zusatzeinsatz",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 33–34, Anm. 26 · Zusatzeinsatz und WTK II H-Dur",
+          "text": "Wiederholt eine Stimme nach der Exposition im selben Tonartenbereich nochmals dieselbe Dux- oder Comes-Gestalt, nennt Gárdonyi dies einen Zusatzeinsatz. Für WTK II H-Dur verneint er deshalb ausdrücklich eine Gegenexposition: Obwohl die ersten acht Themenphasen regelmäßig zwischen Dux und Comes wechseln, wiederholt jede Stimme ihre eigene bisherige Rolle. Die Zäsur in Takt 27 und ein neues Kontrasubjekt gliedern diese Phasen zwar in zwei Abschnitte, erfüllen aber nicht sein Gegenexpositionskriterium. „Überzählig“ vermeidet er wegen des darin anklingenden normativen Urteils.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 33–34, Anm. 26 · Zusatzeinsatz und WTK II H-Dur",
+              "note": "Die Begriffsentscheidung wird ausdrücklich an Bachs H-Dur-Fuge aus WTK II getroffen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-gegenexposition"
+          ]
         }
       ],
       "readingSources": [
@@ -17307,6 +17904,24 @@ const ATLAS = {
           "to": "prout1910-1",
           "type": "context",
           "note": "Gédalges fakultative Gegenexposition der Schulfuge umfasst genau zwei Einsätze. Prout bezeichnet in Bachs E-Dur-Fuge BWV 854 eine Gruppe von drei Einsätzen mit vertauschten Rollen als Gegenexposition."
+        },
+        {
+          "from": "gardonyi1996-open-gegenexposition-rolle",
+          "to": "prout1891-1",
+          "type": "nuance",
+          "note": "Prout bezeichnet eine zweite Einsatzgruppe im gleichen Tonartenbereich als Gegenexposition und beschreibt den Rollentausch als häufig. Gárdonyi macht dagegen gerade den Wechsel von Dux und Comes in derselben Stimme zum Kriterium und versteht ihn zunächst als Technik einzelner Einsätze. Die Begriffe erfassen deshalb nicht automatisch dieselbe Abschnittsgrenze."
+        },
+        {
+          "from": "gardonyi1996-open-gegenexposition-rolle",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalge legt für die fakultative Gegenexposition der Schulfuge genau zwei aufeinanderfolgende Einsätze fest. Gárdonyi bestimmt an Bach eine Technik des Rollenwechsels, die schon eine einzelne Stimme betreffen und sich auf weitere ausdehnen kann. Ein vorgeschriebener Abschnitt und eine analytische Eigenschaft einzelner Einsätze sind hier zu unterscheiden."
+        },
+        {
+          "from": "gardonyi1996-open-zusatzeinsatz",
+          "to": "kennan1999-1",
+          "type": "contradiction",
+          "note": "Für dasselbe Werk, Bachs H-Dur-Fuge aus WTK II, unterscheiden sich die Bezeichnungen ausdrücklich: Kennan hört eine partielle Gegenexposition; Gárdonyi schließt sie aus, weil die einzelnen Stimmen ihre Dux- bzw. Comes-Rolle wiederholen statt zu wechseln. Der Widerspruch betrifft das analytische Kriterium für „Gegenexposition“, nicht die Richtigkeit von Bachs Satz."
         }
       ]
     },
@@ -17333,7 +17948,8 @@ const ATLAS = {
         "sequenzmodell",
         "fuge-scheineinsatz",
         "fuge-formanalyse",
-        "fuge-form-und-gattung"
+        "fuge-form-und-gattung",
+        "fuge-tonartenplan"
       ],
       "authors": [
         {
@@ -17560,11 +18176,157 @@ const ATLAS = {
               "note": "Die Überlappung von Sequenzglied und Themenbeginn wird an Bachs c-Moll-Fuge WTK I beobachtet."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-codetta",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 14–16, Bsp. 7–10 · Verbindung zwischen den ersten Themeneinsätzen",
+          "text": "Die Codetta schließt sich bei Gárdonyi an ein rhythmisch und harmonisch schon bestätigtes Themenende an. Sie kann den Bewegungsimpuls bis zum nächsten Einsatz erhalten und dessen harmonischen Boden vorbereiten. Ihr Material lässt sich nach der Antwort erneut zur Rückleitung in die Haupttonart verwenden und kann spätere Zwischenspiele vorwegnehmen. Thema, Codetta und Gegenstimme müssen im tatsächlichen Verlauf dabei nicht durch deutliche Einschnitte getrennt sein.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 14–16, Bsp. 7–10 · Verbindung zwischen den ersten Themeneinsätzen",
+              "note": "Die Erklärung folgt auf konkrete Beispiele aus Bachs WTK, Sinfonien und Orgelfugen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 59 · Lage, Umfang und Übergangsfunktion",
+          "text": "Gárdonyi nennt Verbindungen zwischen Themenphasen innerhalb der Exposition Codetten; entsprechende Abschnitte außerhalb der Exposition heißen Zwischenspiele. Die Unterscheidung betrifft auch ihre üblichen Ausmaße: Eine Codetta ist nur selten länger als das Thema, während Zwischenspiele erheblich verschieden lang sein können. Beide verbinden benachbarte Themenphasen, häufig auf unterschiedlichen Tonartenebenen. Gemeinsame Motive machen die beiden Abschnittstypen also noch nicht gleich; für ihre Benennung bleibt die Stellung im Verlauf entscheidend.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 59 · Lage, Umfang und Übergangsfunktion",
+              "note": "Der Beginn des Kapitels unterscheidet die beiden Bezeichnungen ausdrücklich nach Stellung und typischer Länge, bei gemeinsamer Übergangsfunktion."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 60 · thematisch abgeleitetes und neu eingeführtes Material",
+          "text": "In einem Zwischenspiel fehlt das vollständige Thema. Das Material kann aus Thema, Kontrasubjekt oder Codetta gewonnen werden; Gárdonyi beschreibt daneben konzertante Abschnitte, deren Figuren nicht auf das Material der Exposition zurückgehen, etwa in Bachs Soloviolinfugen und mehreren Orgelfugen. Neu eingeführtes Material kann später selbst zum Kontrasubjekt werden, wie in der h-Moll- und der Fis-Dur-Fuge WTK I. Die Herkunft eines Motivs und seine spätere thematische Funktion müssen deshalb getrennt verfolgt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 60 · thematisch abgeleitetes und neu eingeführtes Material",
+              "note": "Die Passage unterscheidet ausdrücklich thematisch abgeleitete Zwischenspiele von konzertanten Abschnitten mit anderem Material und nennt dessen spätere Verwendung als Kontrasubjekt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 59–60 · aussetzende Stimmen und nächster Themeneinsatz",
+          "text": "Der nächste Themeneinsatz liegt häufig in einer Stimme, die am vorausgehenden Zwischenspiel nicht beteiligt war. Gárdonyi deutet das Aussetzen oder Unterbrechen ihrer Linie als Vorbereitung des erneuten Auftritts. Dazu passen die von ihm als besonders häufig beschriebenen zweistimmigen Zwischenspiele innerhalb dreistimmiger Fugen und dreistimmigen Zwischenspiele innerhalb vier- oder fünfstimmiger Fugen. Die vorübergehend verringerte Stimmenzahl hat damit eine Funktion im Wechsel von Zwischenabschnitt und Themenphase.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 59–60 · aussetzende Stimmen und nächster Themeneinsatz",
+              "note": "Der Text verbindet die Pause vor dem neuen Themeneinsatz mit den häufigen Besetzungsreduktionen der Zwischenspiele."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-4",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 60–61, Bsp. 48–49 · B-Dur-Fuge WTK I",
+          "text": "Motive, die im Thema nacheinander erscheinen, können im Zwischenspiel gleichzeitig erklingen. In der B-Dur-Fuge WTK I verbindet Gárdonyi den eher springenden Themenkopf in Achteln mit der enger bewegten Fortsetzung in Sechzehnteln: Der ursprüngliche Kontrast innerhalb einer Stimme wird zu einem Kontrast zwischen Stimmen. Im folgenden Zwischenspiel kehrt das Material mit vertauschten Lagen wieder. Motivische Ableitung, Sequenz und doppelter Kontrapunkt wirken hier gemeinsam an der Fortsetzung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 60–61, Bsp. 48–49 · B-Dur-Fuge WTK I",
+              "note": "Die Beispiele 48 und 49 zeigen den Übergang vom horizontalen Kontrast des Themas zur vertikalen Verbindung und deren späterer Vertauschung."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-5",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 66–67 · Schlussabschnitt und Zwischenspielmaterial",
+          "text": "Am Ende einer Fuge wird die Bezeichnung Zwischenspiel problematisch, obwohl das verwendete Material dessen Kriterien erfüllen kann. Einige Fugen schließen mit der letzten Themenphase; andere fügen ihr noch eine Coda an, deren motivische Herkunft derjenigen von Zwischenspielen entspricht. Gárdonyi nennt dafür die Schlussabschnitte von BWV 542 und BWV 564. Ob das vollständige Thema fehlt, reicht zur Benennung allein nicht aus: Der Abschnitt kann dieselbe Materialarbeit an einer abschließenden statt einer verbindenden Stelle übernehmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 66–67 · Schlussabschnitt und Zwischenspielmaterial",
+              "note": "Die beiden Seiten benennen ausdrücklich das terminologische Problem abschließender Abschnitte ohne vollständiges Thema und führen die Coda als formale Funktion an."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
         "bach1866-wtk1",
         "prout1891"
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-dev-fuge-zwischenspiel-2",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalge gewinnt das Divertissement seiner Schulfuge aus Material der Exposition. Gárdonyi erfasst neben solchen Ableitungen auch Bach-Abschnitte mit neuem konzertantem Material, das später zum Kontrasubjekt werden kann. Die Herkunftsbeschränkung der Schulaufgabe deckt damit nicht alle von Gárdonyi beschriebenen Zwischenspieltypen ab."
+        }
       ]
     },
     {
@@ -17586,7 +18348,9 @@ const ATLAS = {
         "fuge-themenende",
         "fuge-exposition",
         "fuge-gegenexposition",
-        "imitation-und-kanon"
+        "imitation-und-kanon",
+        "fuge-themenverwandlung",
+        "fuge-kanonische-fuge"
       ],
       "authors": [
         {
@@ -17793,6 +18557,75 @@ const ATLAS = {
               "note": "Im barocken Fugenrahmen beschreibt Menke Engführung als Möglichkeit der Verdichtung, ohne eine feste Schlussform für jede Fuge zu fordern."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-engfuehrung-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 45 · Einsatzüberlappung und Stellung im Verlauf",
+          "text": "Eine Engführung entsteht bei Gárdonyi, wenn eine neue Themenphase einsetzt, während die vorherige noch läuft, und der Einsatzabstand damit gegenüber der Exposition verkürzt ist. Sie verdichtet die Imitation, weil verschiedene Teile des Themas zugleich erklingen und einander kontrapunktieren. Meist beobachtet er dieses Verfahren nach der Exposition; die A-Dur-Fuge WTK I und die Cis-Dur-Fuge WTK II nennt er ausdrücklich als seltene Ausnahmen. Die Stellung einer Engführung ist deshalb jeweils am konkreten Verlauf zu bestimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 45 · Einsatzüberlappung und Stellung im Verlauf",
+              "note": "Die Definition und die Ausnahmen beziehen sich auf die Stellung der Engführung in den untersuchten Bach-Fugen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-engfuehrung-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 45–46 · veränderte und unvollständige Themenformen",
+          "text": "In einer Engführung können die Themenformen durch Modulation stark von der Exposition abweichen. Da die Einsätze nicht nur im Quintverhältnis stehen, spricht Gárdonyi allgemein vom führenden Einsatz (Proposta) und nachfolgenden Antworten. Frühere Einsätze brechen oft zugunsten neuer Themenköpfe ab und gehen in freie Fortsetzungen über; die letzte Antwort bringt das Thema meist vollständig. Für die Analyse sind deshalb der Einsatz des Kopfes, die tatsächlich erhaltene Themenstrecke und ihre freie Fortsetzung auseinanderzuhalten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 45–46 · veränderte und unvollständige Themenformen",
+              "note": "Der Abschnitt beschreibt ausdrücklich unvollständige Themenformen, freie Fortsetzungen und eine meist vollständige letzte Antwort innerhalb von Bachs Engführungen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-engfuehrung-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 50 · Engführung mit Vergrößerung und Umkehrung",
+          "text": "Auch verschiedene Zeitgestalten desselben Themas können in einer Engführung zusammentreffen. In BWV 547 verbindet Bach nach Gárdonyis Analyse ab Takt 48 die ursprüngliche Form mit ihrer Vergrößerung und mit einer vergrößerten Umkehrung. Der rhythmische Gegensatz wird dadurch besonders deutlich. Ab Takt 56 ändern sich in einer Manualstimme zudem einzelne melodische Verhältnisse durch starke Modulation, obwohl ihr thematischer Rhythmus erhalten bleibt. Zeitgestalt, Bewegungsrichtung und harmonische Anpassung sind hier getrennt zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 50 · Engführung mit Vergrößerung und Umkehrung",
+              "note": "Die Passage benennt die drei Themenformen in BWV 547 und erklärt die späteren melodischen Änderungen aus der Modulation innerhalb eines unveränderten Rhythmus."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -17818,6 +18651,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "nuance",
           "note": "Gallon und Bitsch bestimmen die eigentliche Engführung als Kanon von Thema und Antwort. Menke beschreibt auch Engführungen mit verkürzten oder variierten Themen. Seine Darstellung lässt damit eine freiere Behandlung des Themenverlaufs innerhalb der verkürzten Einsatzfolge erkennen."
+        },
+        {
+          "from": "gardonyi1996-dev-fuge-engfuehrung-1",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalge verwendet Stretto in der Schulfuge sowohl für die einzelne Überlagerung als auch für einen Schlussabschnitt mit zunehmend engeren Einsätzen. Gárdonyi ordnet die Überlagerung in Bachs Verlauf meist nach der Exposition ein und nennt bereits dort mögliche Ausnahmen. Seine Ortsbestimmung ist damit weiter als Gédalges besondere Verwendung des Wortes für den formalen Schlussabschnitt; dessen Definition der einzelnen Engführung bleibt davon unberührt."
         }
       ]
     },
@@ -18579,6 +19418,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-gegenstimmen-kontrast",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 24–26, Bsp. 22–24 · Gegenstimme zur Antwort",
+          "text": "Gárdonyi sucht zwischen Antwort und Gegenstimme mehrere mögliche Gegensätze: Schritte gegen Sprünge, Aufwärts- gegen Abwärtsbewegung, chromatische gegen diatonische Wendungen sowie lange gegen kurze Werte. Rhythmische Ergänzung kann dadurch entstehen, dass die Bewegung zwischen den Stimmen wechselt oder eine durchgehende Linie den Pausen der anderen gegenübersteht. Diese Gegensätze erzeugen keine völlige Unabhängigkeit. Gemeinsames Metrum und gemeinsamer harmonischer Verlauf verbinden sie zu einem übergeordneten Zusammenhang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 24–26, Bsp. 22–24 · Gegenstimme zur Antwort",
+              "note": "Die konkreten Kontrastarten werden an den Anfängen bachischer Fugen, einschließlich BWV 903, erläutert."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-rhythmische-selbststaendigkeit-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 55–56, Bsp. 42 · Thema fugatum aus der Passacaglia BWV 582",
+          "text": "Im Thema fugatum von BWV 582 unterscheidet Gárdonyi drei rhythmische Profile. Die erste Hälfte des Passacaglia-Themas bewegt sich in regelmäßigen Vierteln und Halben. Ihr erster Gegenkontrapunkt setzt dem eine unterbrochene Achtelbewegung entgegen; der anschließend hinzutretende zweite führt die Achtel dagegen kontinuierlich weiter. Zwei Stimmen können somit denselben kleinen Notenwert verwenden und doch verschieden wirken, weil seine Bewegung unterschiedlich gegliedert ist. Die wiederkehrenden Profile bleiben auch beim Wechsel ihrer Lage erkennbar.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Rhythmische Profile in Bachs Thema fugatum",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 55–56, Bsp. 42 · Thema fugatum aus der Passacaglia BWV 582",
+              "note": "Gárdonyi beschreibt den dreifachen melodisch-rhythmischen Gegensatz ausdrücklich anhand der drei Materialien des Thema fugatum."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -18590,6 +19475,12 @@ const ATLAS = {
           "to": "jeppesen1964-36",
           "type": "context",
           "note": "Jeppesen verbindet die Eigenständigkeit zweier freier Stimmen mit einem erkennbaren gemeinsamen Puls. Im beschriebenen Lutosławski-Intermezzo wählen die Spieler dagegen innerhalb einer ungefähren Geschwindigkeitsvorgabe eigene Tempi zwischen gemeinsamen Start- und Schlusszeichen. Der fehlende gemeinsame Puls ist dort Teil des gewünschten Verfahrens."
+        },
+        {
+          "from": "gardonyi1996-dev-rhythmische-selbststaendigkeit-1",
+          "to": "schoenberg1970-e18",
+          "type": "context",
+          "note": "Schönberg trennt die rhythmische Selbstständigkeit seiner Speziesübungen ausdrücklich von einer bereits motivisch bestimmten Selbstständigkeit des Inhalts. Gárdonyis drei wiederkehrende Profile in BWV 582 besitzen beides: unterschiedliche Bewegung und eine erkennbare thematische Identität, sogar bei gleichem Achtelwert in zwei Stimmen. Die Autoren betrachten damit verschiedene Arbeitsstufen."
         }
       ]
     },
@@ -18620,7 +19511,12 @@ const ATLAS = {
         "imitation-stimmenpaare",
         "fugenthema-und-kontrasubjekt-erfinden",
         "spiegelumkehr-stimmenpaar",
-        "obligo-kontrapunkt"
+        "obligo-kontrapunkt",
+        "dreifacher-kontrapunkt",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge",
+        "fuge-kanonische-fuge"
       ],
       "authors": [
         {
@@ -18954,6 +19850,147 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-oktavtausch",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 27–29, Bsp. 25–26 · Inventionen E-Dur und f-Moll",
+          "text": "Beim doppelten Kontrapunkt in der Oktave werden Thema und Gegenstimme durch Oktavversetzung so angeordnet, dass die zuvor untere Linie nun oberhalb der anderen steht. Ihre melodischen Richtungen bleiben dabei erhalten. Auf die Oktave reduzierte Zusammenklänge ergänzen sich vor und nach dem Tausch zu neun: Terz und Sexte, Sekunde und Septime sowie Quinte und Quarte entsprechen einander. Gárdonyi zeigt diese Beziehungen an aufeinanderfolgenden Themenphasen der E-Dur- und f-Moll-Invention.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 27–29, Bsp. 25–26 · Inventionen E-Dur und f-Moll",
+              "note": "Die Intervallbeziehungen werden an zwei ausdrücklich genannten Inventionen Bachs erläutert."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-quarte-bass",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 29, Bsp. 26 und Verweis auf Bsp. 55 · Quinte, Quarte und Bassfunktion",
+          "text": "Beim Oktavtausch ist für Gárdonyi vor allem der Wechsel zwischen konsonanter Quinte und dissonanter Quarte zu prüfen. Die Quinte wird deshalb gewöhnlich schon so geführt, dass ihre vertauschte Quarte stilgerecht behandelt wäre; in der f-Moll-Invention wird eine erwartete Quarte auch durch Veränderung eines Tons ersetzt. Er begrenzt das Problem jedoch ausdrücklich auf den zweistimmigen Satz oder eine Quarte über der tiefsten Stimme. Zwischen Oberstimmen eines größeren Satzes kann dieselbe Quarte tragfähig sein. Das erlaubt den Tausch dieses Paars über einem weiteren Bass, ohne dadurch jede beliebige Vertauschung aller Stimmen zu rechtfertigen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 29, Bsp. 26 und Verweis auf Bsp. 55 · Quinte, Quarte und Bassfunktion",
+              "note": "Die Bassabhängigkeit wird an Bachs f-Moll-Invention und WTK II cis-Moll erläutert. Die Passage unterscheidet die Quarte über der tiefsten Stimme von der Quarte zwischen Oberstimmen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-oktavtausch-quarte"
+          ]
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 46 und 49 · gleichbleibender Einsatzabstand in Engführungen",
+          "text": "Doppelter Kontrapunkt kann zwei Engführungen miteinander verbinden. Bleibt der zeitliche Abstand der Themenstimmen gleich, kann die zuvor obere Themenfassung später unter der anderen liegen. In der dorischen Orgelfuge BWV 538 beträgt der Abstand innerhalb der untersuchten zweistimmigen Engführungen jeweils einen Takt und eine Oktave; die Folge von oberem und unterem Einsatz wechselt. Gárdonyi erkennt dadurch eine Beziehung im doppelten Oktavkontrapunkt zwischen den verschiedenen Engführungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 46 und 49 · gleichbleibender Einsatzabstand in Engführungen",
+              "note": "Gárdonyi benennt die konstante Zeitdistanz als Voraussetzung des Vergleichs und führt in BWV 538 die verschiedenen Stimmenpaare und Einsatzrichtungen einzeln auf."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-05",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69–72, Bsp. 55–57 · mehrere Vertauschungsintervalle in Bachs Doppelfugen",
+          "text": "Die Themen einer Doppelfuge können in mehr als einem Intervall vertauschbar sein. Gárdonyi weist in der cis-Moll-Fuge WTK II Oktav- und Duodezimtausch nach, im Contrapunctus IX den Duodezimtausch. Im Contrapunctus X unterscheidet er innerhalb desselben Satzes Vertauschungen in Oktave, Dezime und Duodezime. Für die dort gezeigten Verbindungen ist auch die geeignete Führung zusätzlicher Stimmen in Terzen und Sexten zu den Themen bedeutsam. Das Vertauschungsintervall muss deshalb für die konkrete Stimmenverbindung bestimmt werden; die Bezeichnung Doppelfuge entscheidet es noch nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 69–72, Bsp. 55–57 · mehrere Vertauschungsintervalle in Bachs Doppelfugen",
+              "note": "Die drei Arten des Lagentauschs werden an den angegebenen Bach-Sätzen und Intervalltabellen belegt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-16",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 79–81 · vier- und fünffacher Kontrapunkt in vokalen Permutationsfugen",
+          "text": "Die Bezeichnung mehrfacher Kontrapunkt zählt die zugleich vertauschbaren Linien, nicht sämtliche daraus entstehenden Stimmenpaare. Vier Linien enthalten sechs paarweise Beziehungen; dennoch heißt ihr gemeinsamer Lagentausch vierfacher Kontrapunkt. Für die Motivgruppe 1–4 aus Lasset uns den nicht zerteilen zeigt Gárdonyi nur drei der theoretisch 24 vertikalen Anordnungen. In der Kantate BWV 21 findet er fünf tatsächlich verwendete Anordnungen eines Vorrats von fünf Linien: fünffacher Kontrapunkt mit zehn paarweisen Beziehungen und 120 theoretischen Anordnungen. Ein Satz muss also nicht alle denkbaren Permutationen ausschöpfen, um das Verfahren zu verwirklichen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 79–81 · vier- und fünffacher Kontrapunkt in vokalen Permutationsfugen",
+              "note": "Die Zählweise wird an zwei Permutationsfugen Bachs erklärt und durch Tabellen der verwendeten Anordnungen belegt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-33",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 93–94, Bsp. 65–66 · motivischer Rollentausch in Komm, heiliger Geist, BWV 651",
+          "text": "In BWV 651 werden die Synkopenfigur und die durchlaufende Sechzehntelbewegung immer wieder auf andere Stimmen verteilt. Gárdonyi unterscheidet diese Wirkung ausdrücklich von einem in Intervallen und Rhythmus genau entsprechenden doppelten Kontrapunkt. Der Satz erreicht eine verwandte Geschlossenheit durch den fortgesetzten Austausch der Bewegungsprofile. Für die Analyse heißt das: Wiedererkennbare Rollenverteilung kann einen ähnlichen Zusammenhang stiften, ohne dass dieselben vollständigen Linien als exakter Lagentausch nachweisbar wären.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 93–94, Bsp. 65–66 · motivischer Rollentausch in Komm, heiliger Geist, BWV 651",
+              "note": "Gárdonyi nennt die Grenzen der exakten Vertauschbarkeit ausdrücklich bei der Analyse von Bachs BWV 651."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -18979,6 +20016,24 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "context",
           "note": "Beide verlangen, dass die aus einer Quinte entstehende Quarte korrekt geführt ist. Schubert prüft beide Lagen innerhalb derselben Spezies; de la Mottes Bach-Beispiel gestattet auch betonte Durchgänge. Die unterschiedliche metrische Freiheit stammt aus dem jeweiligen Stil- und Übungsrahmen."
+        },
+        {
+          "from": "gardonyi1996-open-quarte-bass",
+          "to": "jeppesen1964-68",
+          "type": "context",
+          "note": "Gárdonyi betrachtet auch ein vertauschtes Oberstimmenpaar, dessen Quarte über einem weiteren Bass steht. Jeppesen prüft dagegen bei drei oder mehr frei vertauschbaren Stimmen jedes Paar, weil auch der bisher stützende Bass seine Lage wechseln kann. Die zusätzliche Bassstimme beseitigt die Quartfrage daher nur innerhalb des engeren, nicht für jeden möglichen Lagentausch freigegebenen Satzmodells."
+        },
+        {
+          "from": "gardonyi1996-open-quarte-bass",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch sichern den Oktavtausch ihres Übungsmodells durch die Prüfung jedes Stimmenpaars. Gárdonyi beschreibt an Bach daneben den begrenzten Tausch eines Oberstimmenpaars über einer weiteren Bassstimme. Die Quartbehandlung hängt daran, ob der Bass mit vertauschbar sein soll oder dieses bestimmte Stimmenpaar weiterhin trägt."
+        },
+        {
+          "from": "gardonyi1996-forms-33",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch formulieren die Bedingungen eines wirklichen Oktavtauschs und prüfen seine Intervalle für jedes beteiligte Stimmenpaar. Gárdonyi beschreibt in BWV 651 dagegen einen motivischen Rollentausch, den er ausdrücklich nicht als in Intervallen und Rhythmus genauen doppelten Kontrapunkt einstuft. Die ähnliche Satzwirkung ist keine Ausnahme von der Regel für exakte Vertauschbarkeit."
         }
       ]
     },
@@ -19011,7 +20066,9 @@ const ATLAS = {
         "motette-satzwechsel",
         "motivische-polyphonie",
         "reihen-und-stimmen",
-        "kontrapunkt-in-homophonie"
+        "kontrapunkt-in-homophonie",
+        "fuge-kanonische-fuge",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -19299,6 +20356,30 @@ const ATLAS = {
           },
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-kanon-geschichte",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Vorwort, S. 9 · gebundene und freie Imitation",
+          "text": "Gárdonyi unterscheidet, wie viel Material der eröffneten Stimme nachgeahmt wird: Im Kanon wird ihr ganzer Verlauf zum Gegenstand fortgesetzter Imitation; freie Imitation kann auf den Anfangsgedanken beschränkt bleiben. Für die Renaissance-Motette beschreibt er neue Imitationsgedanken zu neuen Textabschnitten. In seiner Darstellung der späteren Fuge wird dagegen ein thematischer Bezugspunkt für den Aufbau eines ganzen Stücks maßgeblich. Diese historische Unterscheidung erklärt seine Verwendung von „Thema“; sie ersetzt nicht die spätere Untersuchung mehrthemiger Fugen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historischer Vergleich von Kanon, Motette und Fuge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. 9 · gebundene und freie Imitation",
+              "note": "Die Passage vergleicht ausdrücklich textbezogene Imitation der Renaissance-Motette mit der späteren Fugentechnik."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
         }
       ],
@@ -19750,7 +20831,11 @@ const ATLAS = {
         "kanon-spiralkanon",
         "spiegelumkehr-stimmenpaar",
         "motivische-polyphonie",
-        "tonfolge-und-rhythmus"
+        "tonfolge-und-rhythmus",
+        "fuge-gegenbewegung-spiegel",
+        "fuge-themenverwandlung",
+        "fuge-kanonische-fuge",
+        "fuge-und-tanzform"
       ],
       "comparisons": [],
       "authors": [
@@ -19952,6 +21037,121 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-krebskanon",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 24, Anm. 22 · rückläufige Kanons im Musikalischen Opfer und BWV 1087",
+          "text": "Für den Krebskanon erläutert Gárdonyi nicht nur die rückläufige Tonfolge, sondern auch ihre Wiederholung: Die eine Stimme liest vom Anfang zum Ende, die andere gleichzeitig vom Ende zum Anfang; anschließend kehren beide die Leserichtung um. So vertauschen sie bei der Wiederholung ihre Rollen. Diese von ihm mit Marpurg begründete Ausführung macht aus der zunächst gleichzeitigen Gegenüberstellung einen fortgesetzten Austausch. Seine Kritik an abweichenden modernen Aussetzungen ist als eigene Interpretation der Ausführungspraxis zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse und Ausführungsdeutung rückläufiger Bach-Kanons",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 24, Anm. 22 · rückläufige Kanons im Musikalischen Opfer und BWV 1087",
+              "note": "Gárdonyi bezieht seine Ausführungsdeutung ausdrücklich auf rückläufige Kanons Bachs und eine historische Erläuterung Marpurgs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-kanon-verfahren-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44 · Umkehrung und Krebs in Bachs Fugen und Kanons",
+          "text": "Bei der Umkehrung wird für Gárdonyi die Richtung des ganzen Fugenthemas gewendet. Die genaue Intervallqualität kann sich dabei nach Tonart und Harmonie verändern: Aus der Richtungsumkehr folgt nicht, dass jede Größe in Halbtönen unverändert bleiben muss. Für den Krebs grenzt er den Anwendungsbereich besonders ein. Er schreibt ihm keine Rolle in Bachs Fugentechnik zu und ordnet ihn vielmehr den Kunstgriffen des Kanons zu. Diese historische Einordnung beschreibt den von ihm untersuchten Werkbereich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Fugentechnik und kanonische Verfahren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44 · Umkehrung und Krebs in Bachs Fugen und Kanons",
+              "note": "Die Seite behandelt Umkehrung im tonalen Zusammenhang und unterscheidet ausdrücklich zwischen Fugentechnik und kanonischer Verwendung des Krebses bei Bach."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-kanon-verfahren-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44–45, Bsp. 35–36 · proportionale und partielle Vergrößerung",
+          "text": "Die Augmentation verdoppelt in Gárdonyis Bach-Beispielen gewöhnlich die Dauern, die Diminution halbiert sie. Er beschreibt aber auch eine partielle Vergrößerung: In der dis-Moll-Fuge WTK I werden in Takt 24 und 77 nicht sämtliche Notenwerte verlängert; es entstehen punktierte Werte. In Takt 48–50 verbindet sich eine ebenfalls nur teilweise Vergrößerung mit Umkehrung und weiteren Änderungen. Die Analyse muss daher prüfen, ob der gleiche Faktor das ganze Thema erfasst oder nur ausgewählte Notenwerte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Themenvergrößerung in Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44–45, Bsp. 35–36 · proportionale und partielle Vergrößerung",
+              "note": "Die Seite nennt die allgemeine Verdoppelung und Halbierung sowie ausdrücklich als partiell bezeichnete Vergrößerungen im Bach-Repertoire."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-20",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 82–83 · augmentierter Spiegelkanon der Kunst der Fuge, Graeser-Zählung XV",
+          "text": "Bei einer doppelt so langsamen, umgekehrten Antwort kann bis zum gemeinsamen Ende nur ein Teil der führenden Linie vollständig nachgeahmt werden. Gárdonyi zeigt am augmentierten Spiegelkanon der Kunst der Fuge, dass die weitere Führung der schnellen Stimme deshalb frei werden kann. Diese freie Fortsetzung ist dennoch Bestandteil des größeren kontrapunktischen Plans: In der folgenden Kanonabteilung kehrt auch sie mit vertauschten Rollen wieder und trägt den doppelten Kontrapunkt. Lokal freie Fortsetzung und bindende Anlage des ganzen Satzes schließen einander damit nicht aus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse eines augmentierten Bach-Kanons",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 82–83 · augmentierter Spiegelkanon der Kunst der Fuge, Graeser-Zählung XV",
+              "note": "Die Passage verfolgt die freie Fortsetzung und ihren erneuten Einsatz in Bachs augmentiertem Spiegelkanon."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-21",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 83 · Canon per augmentationem, contrario motu aus dem Musikalischen Opfer",
+          "text": "Im dreistimmigen Augmentationskanon des Musikalischen Opfers liegen führende Kanonstimme und eine Fassung des Thema regium neben der doppelt so langen, umgekehrten Antwort. Die beiden kürzeren Linien können während dieser Antwort zweimal erklingen. Beide müssen sowohl zur ersten als auch zur zweiten Hälfte der vergrößerten und umgekehrten Antwort passen. Gárdonyi bevorzugt ausdrücklich diese vollständige Lösung gegenüber einer Ausführung, die nur die erste Hälfte des Gesamtverlaufs wiederholt. Seine Bemerkung betrifft die konkrete Auflösung dieses Kanons, nicht eine allgemeine Wiederholungsregel für Augmentationskanons.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse und Ausführung eines Bach-Kanons",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 83 · Canon per augmentationem, contrario motu aus dem Musikalischen Opfer",
+              "note": "Gárdonyi erläutert an diesem Bach-Kanon die Dauerverhältnisse und bewertet zwei konkrete Arten seiner Ausführung."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -19963,6 +21163,36 @@ const ATLAS = {
           "to": "motte1995-e04",
           "type": "context",
           "note": "Schönbergs Augmentationsaufgabe verändert jede Note und Pause mit demselben Faktor. De la Motte erklärt bei Ockeghem dagegen ein Mensurverfahren, in dem nur bestimmte lange Werte den Abstand vergrößern und die späteren kurzen Werte gleich lang bleiben. Eine proportionale Lehrformel beschreibt dieses historische Verfahren nicht vollständig."
+        },
+        {
+          "from": "gardonyi1996-dev-kanon-verfahren-1",
+          "to": "schoenberg1970-a08",
+          "type": "context",
+          "note": "Schönberg prüft in seiner strengen Umkehrungsübung auch die Erhaltung der Intervallgrößen. Gárdonyi beschreibt an Bachs Fugenthemen, wie die Bewegungsrichtung umgekehrt bleibt, während die Intervallqualität dem aktuellen tonalen und harmonischen Zusammenhang folgt. Eine strenge Ableitungsaufgabe und die Analyse tonaler Anpassung stellen verschiedene Anforderungen."
+        },
+        {
+          "from": "gardonyi1996-dev-kanon-verfahren-1",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch erläutern Krebs, Gegenbewegung und ihre Verbindungen als verfügbare kanonische Verfahren. Gárdonyi grenzt innerhalb des Bach-Repertoires den Krebs gerade von der Fugentechnik ab und weist ihn der Kanontechnik zu. Die allgemeine Verfügbarkeit eines Verfahrens wird hier von seiner Verwendung in einem bestimmten Werkbereich unterschieden."
+        },
+        {
+          "from": "gardonyi1996-dev-kanon-verfahren-2",
+          "to": "schoenberg1970-a08",
+          "type": "context",
+          "note": "Schönbergs Augmentationsübung verlangt denselben Faktor für jede Note und Pause. Gárdonyi nennt in Bachs dis-Moll-Fuge ausdrücklich auch partielle Vergrößerungen, bei denen nur einzelne Werte verlängert werden. Die ungleichmäßige Veränderung gehört zum beschriebenen Werkbefund, erfüllt aber nicht die Bedingung der proportionalen Übung."
+        },
+        {
+          "from": "gardonyi1996-forms-20",
+          "to": "schoenberg1970-a08",
+          "type": "context",
+          "note": "Schönbergs Übung definiert Augmentation als proportionale Verlängerung der nachgeahmten Noten und Pausen. Gárdonyi verfolgt bei Bach zusätzlich, wie weit die langsamere Antwort innerhalb eines endlichen Satzabschnitts überhaupt gelangen kann: Die von der langsameren Antwort nicht mehr erreichte Fortsetzung der schnellen Stimme wird frei und kehrt später im doppelten Kontrapunkt wieder. Dauerproportion der tatsächlich imitierten Töne und Reichweite der kanonischen Bindung sind getrennte Aufgaben."
+        },
+        {
+          "from": "gardonyi1996-forms-21",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch beschreiben die kombinierbaren Veränderungen von Tonrichtung und Notenwerten. Gárdonyi behandelt die konkrete Ausführung eines dreistimmigen Bach-Kanons: Die beiden kürzeren Linien müssen mit beiden Hälften der doppelt so langen Antwort zusammenpassen. Die abstrakte Vergrößerungsvorschrift allein entscheidet diese Frage der vollständigen Aufführung noch nicht."
         }
       ]
     },
@@ -20585,6 +21815,29 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-linie-scheinpolyphonie-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 57–58, Bsp. 43–46 · Prélude der fünften Cellosuite BWV 1011",
+          "text": "Im 3/8-Teil des Préludes der fünften Cellosuite liest Gárdonyi ein Thema aus zwei latenten Stimmen. Er macht die beiden Linien durch entgegengesetzte Notenhälse sichtbar und kennzeichnet diese Schreibweise ausdrücklich als analytische Änderung der Vorlage. Beim dritten Themeneinsatz tauschen die beiden Materialien ihre Höhenlage; daraus entsteht doppelter Kontrapunkt in der Oktave innerhalb der Sololinie. Im weiteren Verlauf vergrößert sich der Abstand zwischen beiden Linien; Gárdonyi verbindet damit eine Steigerung der klanglichen Spannung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Latente Zweistimmigkeit in Bachs Solocello-Satz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 57–58, Bsp. 43–46 · Prélude der fünften Cellosuite BWV 1011",
+              "note": "Der Text und die Beispiele weisen die analytische Umnotation, den Oktavtausch in der dritten Phase und die zunehmende Entfernung der gedachten Stimmen nach."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
         }
       ],
@@ -21227,7 +22480,10 @@ const ATLAS = {
       "related": [
         "fuge-kontrasubjekt",
         "doppelter-kontrapunkt",
-        "fuge-exposition"
+        "fuge-exposition",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -21325,9 +22581,124 @@ const ATLAS = {
               "note": "Händels g-Moll-Fuge HWV 605 bildet den konkreten Grenzfall zwischen simultaner Doppelfuge und Fuge mit Kontrasubjekt."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-doppelfuge-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 54–55 · Kontrasubjekte, selbstständige Themenabschnitte und simultaner Beginn",
+          "text": "Neu hinzukommende Kontrasubjekte erzeugen für Gárdonyi noch keine Doppel- oder Tripelfuge: In BWV 544 und der cis-Moll-Fuge WTK I erscheinen sie nur mit dem schon bekannten Thema. Für die sukzessive Mehrfachfuge unterscheidet er dagegen eigene Abschnitte der neuen Themen, während das erste aussetzt, und ihre spätere Verbindung. Zugleich verzeichnet er die Bezeichnung simultane Doppelfuge für ein von Anfang an zweistimmiges Thema, obwohl dessen Formablauf dem einer einfachen Fuge entspricht. Mehrfacher Kontrapunkt und mehrteilige Themenanlage sind deshalb getrennt zu benennen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 54–55 · Kontrasubjekte, selbstständige Themenabschnitte und simultaner Beginn",
+              "note": "Gárdonyi grenzt die formale Anlage ausdrücklich vom zusätzlichen Kontrasubjekt ab und führt daneben die abweichende Bezeichnung für den simultanen Typ an."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-01",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 68–69 · progressive Doppelfuge in Bachs Instrumentalmusik",
+          "text": "Die progressive Doppelfuge entfaltet die beiden Themen zunächst getrennt und führt sie danach zusammen. Gárdonyi unterscheidet dafür drei große Aufgaben: das erste Thema etablieren, das zweite entfalten und beide synthetisieren. Weil sie in der Vereinigung als gegenseitige Kontrasubjekte wirken, muss ihre kontrapunktische Verträglichkeit bereits in ihrer Gestalt angelegt sein. Diese Dreiteiligkeit bezeichnet den Umgang mit dem Material; sie legt weder für jede Grenze dieselbe Kadenz noch für jeden Abschnitt dieselbe Zahl von Einsätzen fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 6, S. 68–69 · progressive Doppelfuge in Bachs Instrumentalmusik",
+              "note": "Gárdonyi entwickelt das Modell ausdrücklich aus unterschiedlichen Doppelfugen Johann Sebastian Bachs."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-02",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69 · Contrapunctus IX, zweites Thema ohne eigene Exposition im Einzelsatz",
+          "text": "Im Contrapunctus IX folgt auf die erste Abteilung unmittelbar die Verbindung der beiden Themen. Eine selbstständige Exposition des zweiten Themas fehlt innerhalb dieses Satzes. Gárdonyi erklärt die Besonderheit aus dem Zyklus: Dieses zweite Thema ist das Hauptthema der Kunst der Fuge und wurde in vorausgehenden Stücken schon mehrfach allein vorgestellt. Die Vorgeschichte eines Themas im Zyklus kann daher eine Aufgabe übernehmen, die sonst eine eigene Exposition innerhalb der Doppelfuge erfüllt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 69 · Contrapunctus IX, zweites Thema ohne eigene Exposition im Einzelsatz",
+              "note": "Die Ausnahme wird an Bachs Contrapunctus IX und seiner Stellung im Zyklus erläutert."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-03",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69–70 · Beginn der Synthese, BWV 540 und gis-Moll-Fuge WTK II",
+          "text": "Der erste gemeinsame Auftritt beider Themen muss keine scharf abgesetzte, durch eine vollkommene Kadenz eröffnete Abteilung bilden. Meist verbindet Gárdonyi die Synthese mit der Rückkehr der Grundtonart. In der F-Dur-Orgelfuge BWV 540 kehrt jedoch zunächst nur das erste Thema in der Tonika wieder; beide Themen treffen erst in der folgenden Phase auf der Dominantstufe zusammen. Seine Übersicht zur gis-Moll-Fuge des zweiten WTK-Bands zeigt dagegen die Folge erstes Thema, zweites Thema ab Takt 61 und Vereinigung ab Takt 97 als eine konkrete Lösung unter mehreren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 69–70 · Beginn der Synthese, BWV 540 und gis-Moll-Fuge WTK II",
+              "note": "Die Passage vergleicht formale und tonale Grenzbildungen in mehreren Doppelfugen Bachs."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "kennan-bach-doppelfuge"
+          ]
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "gardonyi1996-dev-fuge-doppelfuge-1",
+          "to": "kennan1999-1",
+          "type": "nuance",
+          "note": "Kennan kann einem häufig wiederkehrenden Kontrasubjekt das Gewicht eines zweiten Themas geben. Gárdonyi trennt davon die formale Anlage mit eigenen Abschnitten neuer Themen und warnt davor, neu hinzutretende Kontrasubjekte bereits als solchen Formtyp zu zählen. Zugleich kennt er die Bezeichnung simultane Doppelfuge; es handelt sich um unterschiedliche Gewichtungen innerhalb einer mehrdeutigen Terminologie, nicht um ein pauschales Verbot des gemeinsamen Themenbeginns."
+        },
+        {
+          "from": "gardonyi1996-dev-fuge-doppelfuge-1",
+          "to": "neidhoefer-schubert2023-1",
+          "type": "nuance",
+          "note": "Neidhöfer und Schubert führen die Fuge mit wiederkehrendem Kontrasubjekt ausdrücklich als eine von drei Verwendungen des Wortes Doppelfuge. Gárdonyi unterscheidet mehrfachen Kontrapunkt von einer Form mit selbstständigen Themenabschnitten, verzeichnet aber ebenfalls das Etikett simultane Doppelfuge. Die gleiche Bezeichnung kann daher eine Materialkonstellation oder einen eigenen mehrteiligen Formverlauf meinen."
+        },
+        {
+          "from": "gardonyi1996-forms-02",
+          "to": "menke2017-55",
+          "type": "nuance",
+          "note": "Menke kennzeichnet die sukzessive Doppelfuge durch die Folge der beiden Themenexpositionen und ihrer Verbindung. Gárdonyis Contrapunctus-IX-Analyse zeigt eine besondere Verkürzung dieses Modells: Das zweite Thema wird innerhalb des Satzes nicht nochmals allein exponiert, weil es im Zyklus bereits bekannt ist. Der Unterschied betrifft den Umfang der selbstständigen Vorstellung, nicht die Notwendigkeit einer späteren Themenverbindung."
+        }
+      ]
     },
     {
       "id": "kanon-spiralkanon",
@@ -21893,7 +23264,8 @@ const ATLAS = {
         "imitation-und-kanon",
         "cantus-firmus",
         "invention-gegenmotiv",
-        "choral-gegenstimme"
+        "choral-gegenstimme",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -21941,6 +23313,29 @@ const ATLAS = {
               "note": "Menke behandelt Sweelincks Choralbearbeitung innerhalb seines barocken Lehrgangs; die Aussage betrifft deren wechselnde Begleitkonzepte."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-forms-34",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 95–97, Bsp. 67–70 · Wenn wir in höchsten Nöten sein, BWV 668",
+          "text": "In BWV 668 bereitet ein verkleinertes Motiv der Choralzeile deren späteren Vortrag im Sopran vor. Gerade Gestalt und Umkehrung wirken auch nach dem Einsatz des ornamentierten Cantus firmus weiter. Mit dem Ende der ersten Zeile schließt diese Motivbearbeitung; nach einer Zwischenkadenz kündigt ein neues Imitationsfeld die zweite Zeile an. Bei der letzten Zeile verbindet Gárdonyi außerdem ursprüngliche Notenwerte, Diminution und Umkehrung mit einem späteren Wechsel der Stimmenrollen. Die Vorimitation betrifft somit nicht nur einen Themenkopf am Anfang des ganzen Stücks, sondern kann den Ablauf der einzelnen Choralzeilen tragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 95–97, Bsp. 67–70 · Wenn wir in höchsten Nöten sein, BWV 668",
+              "note": "Die Beschreibung verfolgt vier konkrete Ausschnitte aus Bachs BWV 668 und ihre Beziehung zu den Choralzeilen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ]
     },
@@ -22199,7 +23594,9 @@ const ATLAS = {
         "fuge-gegenexposition",
         "fuge-kontrasubjekt",
         "fuge-formanalyse",
-        "fuge-form-und-gattung"
+        "fuge-form-und-gattung",
+        "fuge-tonartenplan",
+        "fuge-und-tanzform"
       ],
       "authors": [
         {
@@ -22250,6 +23647,52 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-schlussrueckkehr-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 40 · Rückkehr der Grundtonart",
+          "text": "Die Rückkehr der Grundtonart liegt für Gárdonyi gewöhnlich gegen Ende und wird oft durch zwei oder mehr aufeinanderfolgende Themenphasen verstärkt. Nachbartonarten tragen dagegen vielfach nur einzelne Phasen. Zusammen mit den Tonikaeinsätzen der Exposition und gegebenenfalls der Gegenexposition entsteht so ein deutliches Übergewicht der Grundtonart. Sein Kriterium ist an dieser Stelle die Häufung thematischer Auftritte in derselben Tonart innerhalb des gesamten Verlaufs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 40 · Rückkehr der Grundtonart",
+              "note": "Gárdonyi erklärt das Übergewicht der Grundtonart aus Anfang und Schluss der thematischen Tonartenfolge, nicht aus einem festgelegten Reprisenschema."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-27",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 87–88 · Duetto F-Dur BWV 803, Da-capo-Rückkehr ab Takt 113",
+          "text": "Das F-Dur-Duett BWV 803 verbindet nach Gárdonyi dichte Fugentechnik mit einer Da-capo-Anlage, die er für die selbstständige Fuge nicht als typisch ansieht. Nach dem weit ausgebauten Mittelteil kehrt ab Takt 113 der Hauptteil wieder. Der Dux liegt erneut oben; die untere Gegenstimme nimmt Sechzehntelmaterial auf, das zuvor in Takt 5 in der Oberstimme stand. Hier bezeichnet die Rückkehr also einen ganzen formalen Hauptteil mit neu eingerichteter Begleitung, nicht lediglich die Ankunft der Tonika oder einen letzten Themeneinsatz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 87–88 · Duetto F-Dur BWV 803, Da-capo-Rückkehr ab Takt 113",
+              "note": "Die Gliederung des Bach-Duetts benennt ausdrücklich den Da-capo-Charakter und die veränderte Gegenstimme."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -22258,6 +23701,12 @@ const ATLAS = {
           "to": "benjamin1986-1",
           "type": "context",
           "note": "Benjamin beschreibt an BWV 847 eine Rückkehr von Tonika, Thema und Gegenmaterial in neuer Anordnung und räumt andere Schlussverläufe ein. De la Motte stellt am späten Beethoven die fortgesetzte Veränderung und Zerlegung des Themas in den Vordergrund. Die Gegenüberstellung markiert unterschiedliche Formverläufe; sie behauptet keinen Streit über dieselbe Fuge."
+        },
+        {
+          "from": "gardonyi1996-forms-27",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin beschreibt die Schlussrückkehr einer Fuge als Wiederkehr von Tonika und Thema, gegebenenfalls mit neu angeordneten Kontrasubjekten. Gárdonyi untersucht mit BWV 803 einen fugierten Satz in Da-capo-Form, in dem ein ganzer Hauptteil wiederaufgenommen wird. Die beiden Beschreibungen betreffen unterschiedliche Reichweiten der Rückkehr und unterschiedliche Formtypen."
         }
       ]
     },
@@ -23349,7 +24798,8 @@ const ATLAS = {
       "related": [
         "fuge-kontrasubjekt",
         "doppelter-kontrapunkt",
-        "harmonik"
+        "harmonik",
+        "fugenthema-harmonik"
       ],
       "authors": [
         {
@@ -23396,7 +24846,8 @@ const ATLAS = {
       "related": [
         "kanon-verfahren",
         "doppelter-kontrapunkt",
-        "imitation-stimmenpaare"
+        "imitation-stimmenpaare",
+        "fuge-gegenbewegung-spiegel"
       ],
       "authors": [
         {
@@ -24896,7 +26347,11 @@ const ATLAS = {
         "fuge-formanalyse",
         "fuge-schlussrueckkehr",
         "generalbass-fuge",
-        "invention-form"
+        "invention-form",
+        "fuge-tripelfuge",
+        "fuge-permutationsfuge",
+        "fuge-fughetta-fugato",
+        "fuge-und-tanzform"
       ],
       "reading": "Vergleiche eine kurze Versettenfuge mit einer längeren Tasten- oder Chorfuge. Zeichne nur Themeneinsätze, Tonartstationen und Zwischenspiele ein. Welche Entscheidungen erklären sich aus Besetzung, Text oder liturgischer Aufgabe?",
       "readingSources": [
@@ -24926,6 +26381,52 @@ const ATLAS = {
               "note": "Die barocken Aufgaben Versetten-, Clavier- und Chorfuge begründen unterschiedliche Formanlagen; Lebègue liefert das ausgearbeitete Beispiel."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-form-und-gattung-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 39 · Themenphasen nach der Exposition",
+          "text": "Nach der Exposition verfolgt Gárdonyi vor allem den Wechsel einzelner Themenphasen und Zwischenspiele. Den Begriff Durchführung hält er dort für irreführend, wo er einen erneuten vollständigen Durchgang durch alle Stimmen nahelegt: Solche Gruppen seien außerhalb der Exposition gerade nicht der Normalfall. Die Bezeichnung einer kürzeren Gruppe als unvollständige Durchführung kehre damit das Verhältnis von Regel und Ausnahme um. Die besondere Anlage von Permutations- und Engführungsfugen nimmt er ausdrücklich aus dieser Argumentation aus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 39 · Themenphasen nach der Exposition",
+              "note": "Gárdonyi begründet seine Terminologie mit den nach der Exposition beobachteten Verläufen der Bach-Fuge und grenzt besondere Fugentypen ausdrücklich aus."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-28",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 88–89, Bsp. 60 · A-Dur-Präludium WTK I, Thema mit zwei Gegenstimmen",
+          "text": "Fugentypische Materialordnung ist für Gárdonyi nicht an die Überschrift Fuge gebunden. Im A-Dur-Präludium des ersten WTK-Bands beginnt das Thema bereits mit zwei Gegenstimmen, die sich im weiteren Verlauf als Kontrasubjekte erweisen. In den ersten drei Themenphasen erscheint jedes der drei Materialien einmal in jeder Stimme; die Tonartenfolge ist A-Dur, E-Dur, A-Dur. Gárdonyi hält deshalb die strukturelle Beschreibung als Fuge mit dreistimmigem Thema für möglich. Diese Lesart beschreibt den Aufbau des Präludiums, ohne seinen Werktitel durch eine neue Gattungsbezeichnung zu ersetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 88–89, Bsp. 60 · A-Dur-Präludium WTK I, Thema mit zwei Gegenstimmen",
+              "note": "Die alternative strukturelle Lesart wird an Bachs A-Dur-Präludium und dessen dreifachem Kontrapunkt entwickelt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ]
     },
@@ -25044,7 +26545,8 @@ const ATLAS = {
         "motiv-ueber-cantus",
         "choral-vorimitation",
         "harmonischer-rhythmus",
-        "choral-stimmumfang"
+        "choral-stimmumfang",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -25069,6 +26571,37 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-32",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 92–95, Bsp. 64–66 · Komm, heiliger Geist BWV 651 und Nun komm, der Heiden Heiland BWV 661",
+          "text": "In Bachs Choralbearbeitungen richtet Gárdonyi die fugierte Stimmenarbeit auf die Harmonie der vorgegebenen Melodie. Schon in der Eröffnung von BWV 651 stabilisieren tonale Anpassungen den Grundtonbereich, statt den üblichen Wechsel zur Dominante auszuspielen. Mit dem Cantus firmus im Pedal passen sich Einsatzhöhen und melodische Varianten der Manualstimmen dessen harmonischem Feld an. Auch Engführung und Umkehrung in BWV 661 bleiben diesem Zusammenhang untergeordnet. Der Tonartplan einer freien Fuge lässt sich deshalb nicht ohne Weiteres auf einen Satz mit gebundener Choralvorlage übertragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 92–95, Bsp. 64–66 · Komm, heiliger Geist BWV 651 und Nun komm, der Heiden Heiland BWV 661",
+              "note": "Die Passage benennt die Priorität der Choralharmonisierung gegenüber dem Formzusammenhang einer freien Fuge an BWV 651 und 661."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-forms-32",
+          "to": "motte1995-r19",
+          "type": "context",
+          "note": "De la Mottes zweistimmige Schreibaufgabe lässt Gegenstimmen aus einer gewählten Harmoniefolge oder einem vorher bestimmten Motiv entstehen. Gárdonyi analysiert mehrstimmige Bach-Choralbearbeitungen, in denen vorhandene Fugengestalten melodisch und tonal an die Choralharmonie angepasst werden. Beide beziehen sich auf eine gegebene Melodie, unterscheiden aber den Entwurf einer Gegenstimme von der Umformung eines bereits etablierten fugierten Materials."
         }
       ]
     },
@@ -25545,6 +27078,41 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-homophonie",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Vorwort, S. 8–10 · Verhältnis von Kontrapunkt, Harmonik und Satzart",
+          "text": "Kontrapunktisches Zusammenwirken findet für Gárdonyi sowohl im polyphonen als auch im homophonen Satz statt. Die Arbeit über einem Cantus firmus ist deshalb ein besonderer Fall, aus dem sich keine vollständige Trennung von Harmonie- und Kontrapunktlehre ableiten lässt. Auch rhythmisch und melodisch gegensätzliche Stimmen bleiben Teile eines gemeinsamen harmonischen Gefüges. Am Ende des Vorworts überträgt er diesen Gedanken auf miteinander verbundene Klangschichten eines Orchesterstücks, die sich nicht notwendig in einzelne melodische Stimmen zerlegen lassen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "cross-style",
+            "frame": "Kontrapunkt als Zusammenwirken von Rhythmus, Melodik und Harmonik",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. 8–10 · Verhältnis von Kontrapunkt, Harmonik und Satzart",
+              "note": "Das Vorwort spricht ausdrücklich über verschiedene Stile, homophone und polyphone Strukturen sowie orchestrale Klangschichten; der allgemeine Gedanke reicht über die folgenden Bach-Analysen hinaus."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-open-homophonie",
+          "to": "schoenberg1970-r05",
+          "type": "context",
+          "note": "Gárdonyi entwickelt eine allgemeine Begründung für das Zusammenwirken von Harmonik und Kontrapunkt und bezieht auch orchestrale Klangschichten ein. Schönbergs Entwurfsnotizen benennen dagegen konkrete Arbeitsweisen und Repertoirebezüge für einen geplanten Band über Kontrapunkt in homophoner Musik. Ausgeführtes Grundverständnis und skizzierter Lehrgang haben hier verschiedene Aufgaben."
+        },
+        {
+          "from": "gardonyi1996-open-homophonie",
+          "to": "daniel2004-r02",
+          "type": "context",
+          "note": "Gárdonyi begründet die Verbindung von Harmonik und Kontrapunkt ausdrücklich über verschiedene Satzarten und Stile hinweg. Daniel prüft die Eigenständigkeit der Linien an einer bestimmten historischen Aufgabe, dem vierstimmigen Bach-Choral. Der allgemeine Begriff und die konkrete Chorallehre haben daher unterschiedliche Reichweiten."
         }
       ]
     },
@@ -25616,7 +27184,8 @@ const ATLAS = {
         "chromatik",
         "moll-neutralisierung",
         "choral-modaler-tonartbezug",
-        "choral-kadenzplanung"
+        "choral-kadenzplanung",
+        "fuge-tonartenplan"
       ],
       "authors": [
         {
@@ -26487,6 +28056,1333 @@ const ATLAS = {
           "catalogue": true
         }
       ]
+    },
+    {
+      "id": "fugenthema-harmonik",
+      "title": "Welche Harmonie steckt schon in einem einstimmigen Fugenthema?",
+      "group": "Fuge",
+      "tags": [
+        "Thema",
+        "Harmonik",
+        "Figuration",
+        "Invention",
+        "Soggetto",
+        "Gárdonyi"
+      ],
+      "comparisons": [],
+      "related": [
+        "harmonik",
+        "fugenthema-und-kontrasubjekt-erfinden",
+        "fuge-modulierendes-thema"
+      ],
+      "reading": "Spiele das Thema zunächst einstimmig. Markiere Akkordtöne, Durchgänge und mögliche Harmoniewechsel. Prüfe anschließend, welche Lesart die hinzutretenden Stimmen bestätigen.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-thema-harmonik",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 11–12, Bsp. 1–3 · Inventionen, Sinfonie G-Dur und Orgelfuge BWV 542",
+          "text": "Auch ein zunächst allein erklingendes Fugenthema lässt sich für Gárdonyi als melodische Ausformung einer Harmonie oder einer Harmoniefolge verstehen. An Bachs Inventionen in F-Dur und d-Moll unterscheidet er die Entfaltung eines einzelnen Klangs von einer harmonischen Pendelbewegung. Komplexere Themen können Kadenzbewegungen und Sequenzen verbinden. Die Analyse fragt deshalb zugleich nach der melodisch-rhythmischen Gestalt und nach dem harmonischen Verlauf, den sie hörbar macht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 11–12, Bsp. 1–3 · Inventionen, Sinfonie G-Dur und Orgelfuge BWV 542",
+              "note": "Die Aussage wird an ausdrücklich bezeichneten Inventionen, einer Sinfonie und einer Orgelfuge Bachs entwickelt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-thema-motive",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 12, Bsp. 4–5 · Themen aus WTK I E-Dur und WTK II d-Moll",
+          "text": "Ein Fugenthema muss für Gárdonyi nicht aus einem einzigen gleichförmigen Motiv bestehen. Mehrere unmittelbar aufeinanderfolgende Gedanken können sich durch lange und kurze Werte, Schritte und Sprünge ergänzen. Pausen, Wiederholungen, Haltetöne und Sequenzen wirken ebenfalls an seiner Gliederung mit. Die gegensätzlichen Teilgestalten bleiben dabei in den harmonischen Zusammenhang des ganzen Themas eingebunden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 12, Bsp. 4–5 · Themen aus WTK I E-Dur und WTK II d-Moll",
+              "note": "Gárdonyi beschreibt unterschiedliche thematische Gestalten anhand konkret genannter Fugen Bachs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fugenthema-beginn",
+      "title": "Auf welcher Stufe und Taktzeit beginnt ein Fugenthema?",
+      "group": "Fuge",
+      "tags": [
+        "Anfangston",
+        "Tonika",
+        "Dominante",
+        "Auftakt",
+        "Akzent",
+        "Themenkopf"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-antwortintervall",
+        "fuge-reale-tonale-antwort",
+        "fugenthema-umfang"
+      ],
+      "reading": "Vergleiche Anfangston und metrische Stellung mehrerer Themen. Untersuche bei späteren Einsätzen, ob Bach den ersten Notenwert verkürzt und wie das Thema an die vorausgehende Stimme anschließt.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-thema-anfang",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 13 · Anfangston und metrische Stellung bachischer Fugenthemen",
+          "text": "Bei den untersuchten Bach-Themen liegt der Anfang meist auf der ersten oder fünften Stufe; Gárdonyi nennt aber auch benachbarte Anfangstöne als Ausnahmen. Sowohl betonte als auch unbetonte Anfänge kommen vor. Ein unbetonter Beginn lässt sich im weiteren Verlauf leichter an vorausgehendes Material anschließen. Deshalb kann Bach bei einem ursprünglich betonten Thema den ersten Notenwert später verkürzen. Aus dieser Beschreibung folgt keine allgemeine Pflicht zu einem bestimmten Anfangston oder Auftakt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 13 · Anfangston und metrische Stellung bachischer Fugenthemen",
+              "note": "Die Seite behandelt Typen bachischer Fugenthemen und nennt unter anderem BWV 574 sowie Beispiele aus beiden WTK-Bänden."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fugenthema-umfang",
+      "title": "Wie weit reicht ein Fugenthema und wo liegt sein Höhepunkt?",
+      "group": "Fuge",
+      "tags": [
+        "Ambitus",
+        "Tonumfang",
+        "Höhepunkt",
+        "Fugenthema",
+        "Stimmenzahl"
+      ],
+      "comparisons": [],
+      "related": [
+        "fugenthema-beginn",
+        "hoehepunkt",
+        "fuge-exposition"
+      ],
+      "reading": "Markiere höchsten und tiefsten Ton sowie den Anfangston. Vergleiche den Ambitus mit Stimmenzahl, Bewegungsart und verfügbarer Lage; behandle die Repertoirebeobachtung nicht als Entwurfsverbot.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-thema-umfang",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 13 · Tonumfang, Stimmenzahl und melodische Grenzen",
+          "text": "Die von Gárdonyi angeführten Themen reichen von einer verminderten oder reinen Quarte bis zur Undezime; das Choraltrio BWV 688 erreicht sogar eine Tredezime. Engere Themen mit längeren Werten findet er häufiger in vier- und fünfstimmigen Sätzen, weitere und bewegtere Themen überwiegend in Sätzen mit höchstens drei Stimmen. Als häufige obere Grenze nennt er die sechste Stufe, als untere den Leitton. Das sind Beobachtungen am Bach-Repertoire, keine verbindliche Ambitusnorm für jede Fuge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 13 · Tonumfang, Stimmenzahl und melodische Grenzen",
+              "note": "Die Spannweiten und Häufigkeitsaussagen beziehen sich auf ausdrücklich genannte Fugen und das Choraltrio BWV 688."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-gegenbewegung-spiegel",
+      "title": "Was unterscheidet eine Gegenfuge von einer Spiegelfuge?",
+      "group": "Fuge",
+      "tags": [
+        "Gegenfuge",
+        "Spiegelfuge",
+        "Umkehrung",
+        "rectus",
+        "inversus",
+        "Kunst der Fuge"
+      ],
+      "comparisons": [],
+      "related": [
+        "kanon-verfahren",
+        "spiegelumkehr-stimmenpaar",
+        "fuge-antwortintervall"
+      ],
+      "reading": "Prüfe zuerst, ob nur die Antwort oder ein ganzer Satz gespiegelt wird. Vergleiche danach Tonhöhenrichtung, rhythmische Gestalt und die harmonische Einrichtung der umgekehrten Fassung.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-gegenfuge",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 22–23, Bsp. 20 · Gegenfuge, Contrapunctus V–VII",
+          "text": "Bei der Gegenfuge betrifft die Umkehrung zunächst die Antwort: Der Comes kehrt die Intervallrichtungen des Dux um, und beide Themenformen bleiben im weiteren Satz verwendbar. In Contrapunctus V zeigt Gárdonyi eine Achse auf der Terz zwischen Grundton und Quinte; dadurch werden erste und fünfte Stufe aufeinander bezogen. In Contrapunctus VI und VII kommen rhythmische Veränderungen hinzu. Für VII unterscheidet er insgesamt sechs Formen: Grundgestalt und Umkehrung jeweils in ursprünglichen, vergrößerten und verkleinerten Werten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 22–23, Bsp. 20 · Gegenfuge, Contrapunctus V–VII",
+              "note": "Die Erklärung stützt sich auf die Gegenfugen V–VII aus Bachs Kunst der Fuge."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-spiegelfuge",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 23 · vollständige Spiegelpaare in der Kunst der Fuge",
+          "text": "Eine Spiegelfuge bezeichnet bei Gárdonyi dagegen ein Paar vollständiger Sätze: Der Inversus kehrt den gesamten Intervallverlauf des Rectus um. Eine Gegenfuge und eine Spiegelfuge können zusammenfallen, sind aber verschiedene Begriffe. Das Spiegeln betrifft auch die harmonische Richtung: Eine Dominanttendenz kann zur Subdominanttendenz werden. Gárdonyi erläutert deshalb zugleich, wie einzelne chromatische Veränderungen die umgekehrte Fassung tonal einrichten. Seine Nummern XVI–XVIII folgen der im Band verwendeten Graeser-Zählung und sind nicht ungeprüft auf andere Ausgaben zu übertragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 23 · vollständige Spiegelpaare in der Kunst der Fuge",
+              "note": "Die Passage untersucht drei Spiegelpaare der Kunst der Fuge und deren harmonische Konsequenzen; die Editionszählung wird im Buch auf S. 82 ausdrücklich ausgewiesen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "dreifacher-kontrapunkt",
+      "title": "Was setzt dreifacher Kontrapunkt voraus, und wie viele Anordnungen braucht er?",
+      "group": "Stimmführung",
+      "tags": [
+        "dreifacher Kontrapunkt",
+        "Permutationen",
+        "Stimmtausch",
+        "Kontrasubjekt"
+      ],
+      "comparisons": [],
+      "related": [
+        "doppelter-kontrapunkt",
+        "fuge-kontrasubjekt",
+        "fuge-exposition",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge"
+      ],
+      "reading": "Bezeichne die drei Linien mit A, B und C. Notiere ihre vertikale Reihenfolge bei jedem Wiedererscheinen. Prüfe für jedes Paar den Lagentausch und unterscheide ihn von der Zahl tatsächlich verwendeter Gesamtanordnungen.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-dreifacher-kontrapunkt",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 36–37 · WTK I f-Moll und Orgelfuge BWV 538",
+          "text": "Für dreifachen Kontrapunkt muss jede der drei beteiligten Linien zu jeder anderen in doppeltem Kontrapunkt stehen. Aus drei Materialien ergeben sich sechs mögliche vertikale Anordnungen, doch Gárdonyi verlangt nicht, dass sie im Stück sämtlich erklingen. Zwei passend gewählte Phasen können bereits den Lagentausch aller drei Paare zeigen. An BWV 538 verfolgt er vier unterschiedliche Anordnungen von Thema und zwei Kontrasubjekten. Die Zahl verwendeter Anordnungen und die paarweise Vertauschbarkeit sind getrennt zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 36–37 · WTK I f-Moll und Orgelfuge BWV 538",
+              "note": "Die Prüfung der Vertauschbarkeit wird an konkreten Themenphasen zweier Bach-Fugen entwickelt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 50–51 · dreifacher Kontrapunkt in der Sinfonia D-Dur",
+          "text": "Stehen Thema und zwei Kontrasubjekte jeweils paarweise im doppelten Kontrapunkt, ergibt sich dreifacher Kontrapunkt. Gárdonyi verfolgt in Bachs Sinfonia D-Dur alle sechs möglichen vertikalen Anordnungen dieser drei Gestalten. Zuerst wechseln alle drei ihre Position im Kreis; später werden gegenüber der ersten vollständigen Kombination jeweils nur zwei vertauscht. Die Zahl von drei gleichzeitig vorhandenen Gestalten und die konkrete Folge ihrer Anordnungen sind damit zwei verschiedene analytische Aufgaben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Mehrfacher Kontrapunkt in Bachs Sinfonien",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 50–51 · dreifacher Kontrapunkt in der Sinfonia D-Dur",
+              "note": "Die Seite erklärt den dreifachen Kontrapunkt aus den drei Paarbeziehungen und zeigt die sechs Anordnungen im Materialplan der Sinfonia D-Dur."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 52–53 · Fis-Dur-Fuge WTK I",
+          "text": "Zwei Kontrasubjekte bedeuten für Gárdonyi noch keinen dreifachen Kontrapunkt. In der Fis-Dur-Fuge WTK I ist das erste Kontrasubjekt mit dem Thema in der Oktave und in der Duodezime vertauschbar. Das zweite entsteht aus Material des ersten Zwischenspiels und begleitet nur bestimmte spätere Themeneinsätze. Weil die beiden Kontrasubjekte untereinander keine Beziehung im doppelten Kontrapunkt eingehen, beschreibt Gárdonyi hier keinen dreifachen Kontrapunkt. Zu prüfen sind alle Paarbeziehungen, nicht nur die Zahl der wiederkehrenden Gegenstimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 52–53 · Fis-Dur-Fuge WTK I",
+              "note": "Gárdonyi begründet die fehlende Beziehung im dreifachen Kontrapunkt ausdrücklich mit der nicht vorliegenden Vertauschung zwischen den beiden Kontrasubjekten."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-4",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 51 und 56 · wiederkehrende Anordnungen und wechselnde Tonarten",
+          "text": "Nicht jede neue Themenphase braucht eine neue vertikale Anordnung. Für die neun dreistimmigen Phasen der Sinfonia f-Moll zählt Gárdonyi nur vier verschiedene Anordnungen. Wiederholt sich eine Kombination, wird ihr häufig eine andere Tonart zugewiesen. Auch im Thema fugatum der Passacaglia BWV 582 wechseln Tonart und Stimmenverteilung gegeneinander: Gleiche Anordnungen erscheinen in unterschiedlichen Tonarten, gleiche Tonarten mit anders verteiltem Material. Der Stimmtausch trägt so zusammen mit der Tonartenfolge zur Gestaltung des Verlaufs bei.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonartenplan und Stimmtausch bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 51 und 56 · wiederkehrende Anordnungen und wechselnde Tonarten",
+              "note": "Die Materialpläne der Sinfonia f-Moll und des Thema fugatum setzen wiederholte Stimmenanordnungen ausdrücklich zur Tonartenfolge in Beziehung."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-5",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 61–63, Bsp. 50–52 · As-Dur-Fuge WTK II",
+          "text": "Mehrfacher Kontrapunkt kann schon innerhalb eines kurzen Zwischenspiels entstehen. In der As-Dur-Fuge WTK II tauschen zunächst zwei Oberstimmen ihre Motive, während der Bass eine eigene Bewegung trägt. Ein weiteres Zwischenspiel kombiniert drei Motive so, dass sie im Abstand von anderthalb Takten durch die drei Stimmen wandern. Jedes Motiv erscheint einmal oben, in der Mitte und unten. Gárdonyi erkennt daran drei paarweise Beziehungen im doppelten Kontrapunkt und damit einen dreifachen Kontrapunkt innerhalb weniger Takte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 61–63, Bsp. 50–52 · As-Dur-Fuge WTK II",
+              "note": "Die Seite unterscheidet den Tausch zweier Oberstimmen in Bsp. 50–51 vom dreistimmigen Wechsel aller Materialien in Bsp. 52 und gibt dessen Abstand an."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-tonartenplan",
+      "title": "Welche Tonarten erreichen die späteren Themeneinsätze einer Fuge?",
+      "group": "Fuge",
+      "tags": [
+        "Tonartenplan",
+        "Modulation",
+        "Themenphase",
+        "Dominante",
+        "Subdominante",
+        "Paralleltonart",
+        "Gárdonyi",
+        "piani tonali"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-exposition",
+        "fuge-schlussrueckkehr",
+        "fuge-zwischenspiel",
+        "tonart-und-region",
+        "fuge-themenverwandlung"
+      ],
+      "reading": "Trage die Tonart jeder vollständigen Themenphase ein. Bestimme sie aus dem ganzen Verlauf und seinen Gegenstimmen. Notiere Tonartberührungen in Zwischenspielen gesondert, damit der Plan der Themeneinsätze erkennbar bleibt.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-dev-fuge-tonartenplan-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 39–40, Anm. 29 · Grundtonart und fünf Nachbartonarten",
+          "text": "Für die Tonarten der Themeneinsätze beschreibt Gárdonyi eine häufige Richtung: Zunächst dominieren Grundtonart und Dominante mit ihren Paralleltonarten; Subdominante und deren Parallele treten eher in der zweiten Hälfte oder im letzten Drittel hervor. Längere Verläufe können den subdominantischen Bereich schon um die Mitte erreichen. Kürzere Sätze durchlaufen nicht notwendig den ganzen Bereich aus Grundtonart und fünf Nachbartonarten. Der Plan beschreibt wiederkehrende Dispositionen bei Bach, ohne jede verfügbare Tonart zur Pflichtstation zu machen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonarten der Themeneinsätze bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 39–40, Anm. 29 · Grundtonart und fünf Nachbartonarten",
+              "note": "Die Passage bezeichnet die Tonartenfolge als stilistisch charakteristisch und erläutert an Bachs Sinfonia D-Dur, dass nicht alle verfügbaren Bereiche erreicht werden."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-tonartenplan-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 40, Anm. 31 · Tonart eines Themeneinsatzes",
+          "text": "Der Anfangston eines späteren Themeneinsatzes bestimmt dessen Tonart nicht allein. Auch wenn der erste Dux auf der Tonika begonnen hat, muss der Anfangston späterer Fassungen nicht jeweils die neue Tonika sein. Gárdonyi verlangt, die Harmonisierung des Einsatztons und mögliche Modulationen innerhalb der Themenphase gemeinsam zu betrachten. Erst dieser Zusammenhang zeigt die tonale Richtung des Einsatzes. Eine Tonartenkarte, die nur die ersten Thementöne verzeichnet, kann deshalb irreführen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonarten der Themeneinsätze bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 40, Anm. 31 · Tonart eines Themeneinsatzes",
+              "note": "Die Anmerkung warnt ausdrücklich davor, Tonart und Anfangston gleichzusetzen, und verweist auf Harmonisierung und Modulation im Verlauf der Themenphase."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-tonartenplan-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 41 · abweichende Dispositionen der Themeneinsätze",
+          "text": "Gárdonyis Tonartenplan lässt unterschiedliche Reichweiten zu. Die Themeneinsätze in BWV 533 und BWV 564 bleiben im Bereich von Tonika und Dominante. In BWV 565 führt schon die Beantwortung eine Quinte tiefer nach g-Moll; später kommt c-Moll hinzu, während ein Einsatz auf der Dominante ausbleibt. Umgekehrt überschreiten einzelne Fugen den gewöhnlichen Nachbartonartenbereich nach oben: BWV 532 erreicht cis-Moll ab Takt 80, BWV 903 h-Moll ab Takt 66. Gemeint sind hier die Tonarten der Themenphasen, nicht sämtliche harmonischen Stationen der Zwischenspiele.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonarten der Themeneinsätze bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 41 · abweichende Dispositionen der Themeneinsätze",
+              "note": "Der Abschnitt nennt diese Werke als begrenzte, subdominantisch ausgerichtete beziehungsweise erweiterte Fälle innerhalb seiner Untersuchung der thematischen Tonartenfolge."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-themenverwandlung",
+      "title": "Wie kann sich ein Fugenthema im weiteren Verlauf verändern?",
+      "group": "Fuge",
+      "tags": [
+        "Themenverwandlung",
+        "Transformation",
+        "Dux",
+        "Comes",
+        "Transposition",
+        "Pedal",
+        "Anschluss",
+        "Gárdonyi",
+        "trasformazioni"
+      ],
+      "comparisons": [],
+      "related": [
+        "kanon-verfahren",
+        "fuge-engfuehrung",
+        "fuge-themenende",
+        "fuge-tonartenplan",
+        "fuge-kontrasubjekt"
+      ],
+      "reading": "Lege die erste Themengestalt neben spätere Einsätze. Markiere veränderte Töne, Notenwerte, Anfangs- und Schlussstellen. Prüfe, welche Veränderungen aus Harmonik, Engführung oder Instrumentallage hervorgehen.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 41 · Benennung späterer Themenformen",
+          "text": "Auch nach Exposition und Gegenexposition unterscheidet Gárdonyi die Gestalten des Themas genau. Dux und Comes heißen spätere Fassungen dann, wenn Tonart und Intervallgestalt mit einer entsprechenden Form der Exposition übereinstimmen. Andernfalls bezeichnet er das Thema als transponiert oder verändert. Damit benennt ein späterer Einsatz nicht schon deshalb wieder einen Comes, weil er als nächster auf einen anderen Einsatz folgt; maßgeblich bleibt der Vergleich mit den anfänglichen Themenformen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 41 · Benennung späterer Themenformen",
+              "note": "Die Passage legt die Begriffe ausdrücklich für spätere Phasen von Bachs Fugen fest und trennt Übereinstimmung, Transposition und Veränderung."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 42–43, Bsp. 31–33 · melodische Anpassungen an Tonart und Harmonie",
+          "text": "Beim Wechsel zwischen Dur- und Mollbereichen können sich die Intervallweiten eines Fugenthemas ändern. Weitere Varianten entstehen, wenn Dux- und Comesgestalt miteinander verbunden werden oder einzelne Töne an die aktuelle Harmonie angepasst werden. Gárdonyi erläutert dies an der g-Moll-Fuge des ersten Wohltemperierten Klaviers, am Contrapunctus I und an den Engführungen der C-Dur-Fuge WTK I. Die veränderte Themenlinie soll jeweils zusammen mit den übrigen Stimmen gelesen werden: Ihr harmonischer Zusammenhang erklärt die Abweichung von der ersten Gestalt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 42–43, Bsp. 31–33 · melodische Anpassungen an Tonart und Harmonie",
+              "note": "Die gedruckten Beispiele verfolgen ausdrücklich das Verhältnis veränderter Themenformen zu Harmonik, Tonart und Engführung in den genannten Bach-Werken."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44, Bsp. 34 · Pedalfassungen in BWV 542 und BWV 552",
+          "text": "Eine veränderte Themen- oder Kontrasubjektgestalt kann auch durch die Spieltechnik entstehen. Der zweite Gegenkontrapunkt der g-Moll-Orgelfuge BWV 542 erhält im Pedal eine andere Intervallanordnung als zuvor im Manual. Im Es-Dur-Präludium BWV 552 werden bei Pedaleinsätzen des dritten Themas aufsteigende Sechzehntelschritte durch eingeschobene Sprungtöne in eine gestufte Linie verwandelt. Gárdonyi behandelt solche Fassungen als instrumentengerechte Arbeit am wiedererkennbaren Material.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Instrumentengerechte Themenführung bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44, Bsp. 34 · Pedalfassungen in BWV 542 und BWV 552",
+              "note": "Die Passage nennt die Pedaltechnik ausdrücklich als Anlass der Veränderungen und unterscheidet die Orgelfuge BWV 542 vom fugierten Material des Präludiums BWV 552."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-4",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44–45 · Anfang und Ende des Themas im Anschluss",
+          "text": "Anfang und Ende eines Themas können sich leicht ändern, damit die Linie an vorausgehende und folgende Motive derselben Stimme anschließt. Häufig wird dafür ein ursprünglich betonter Anfangston verkürzt. Die umgekehrte Veränderung ist ebenfalls möglich: In der C-Dur-Fuge WTK I gewinnt ein unbetonter Anfangston durch Verdoppelung seiner Dauer eine betonte metrische Stellung, wie Gárdonyi für Takt 17 festhält. Der Themenvergleich muss deshalb auch den Anschluss und die metrische Lage einbeziehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44–45 · Anfang und Ende des Themas im Anschluss",
+              "note": "Gárdonyi verbindet kleine melodische und rhythmische Änderungen ausdrücklich mit dem Anschluss innerhalb derselben Stimme und nennt den metrischen Gegenfall."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-tripelfuge",
+      "title": "Wie werden drei Themen zu einer Tripelfuge verbunden?",
+      "group": "Fuge",
+      "tags": [
+        "Tripelfuge",
+        "drei Themen",
+        "dreifacher Kontrapunkt",
+        "Synthese",
+        "fis-Moll",
+        "BWV 552",
+        "Contrapunctus VIII",
+        "Contrapunctus XI"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-doppelfuge",
+        "fuge-quadrupelfuge",
+        "doppelter-kontrapunkt",
+        "fuge-kontrasubjekt",
+        "fuge-form-und-gattung",
+        "dreifacher-kontrapunkt"
+      ],
+      "reading": "Markiere jedes Thema mit einer eigenen Farbe. Trenne seine selbstständigen Einsätze, Paarverbindungen und die Vereinigung aller drei. Prüfe erst danach, ob dieselben Linien auch in vertauschten Lagen erhalten bleiben.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-06",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 71 · Tripelfuge und abschließende Synthese",
+          "text": "In der mehrteiligen Tripelfuge werden drei Themen häufig zunächst einzeln, dann paarweise und schließlich gemeinsam verarbeitet. Das erste Thema besitzt bei Gárdonyi besonderes Gewicht: Es eröffnet den Satz und verbindet sich später mit den anderen. Für den dreifachen Kontrapunkt der abschließenden Synthese muss jedes der drei Themen mit jedem der beiden anderen im doppelten Kontrapunkt stehen. Die Zahl der Themen beschreibt dabei eine formale Aufgabe; die freie Vertauschbarkeit ihrer konkreten Fassungen ist zusätzlich am Notentext zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 6, S. 71 · Tripelfuge und abschließende Synthese",
+              "note": "Gárdonyi erläutert das Modell innerhalb seiner Analyse von Bachs mehrthematischen Fugen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-07",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 71–73 · fis-Moll-Fuge WTK II, Materialplan mit sechs Abschnitten",
+          "text": "Die fis-Moll-Fuge des zweiten WTK-Bands gliedert Gárdonyi nach sechs Materialkonstellationen: A ab Takt 1, B ab Takt 20, A mit B ab Takt 29, C ab Takt 36, A mit C ab Takt 52 und schließlich A mit B und C ab Takt 55. Die letzte Vereinigung beginnt mit der Rückkehr der Grundtonart. Die dortigen drei Themenphasen stehen in dreifachem Kontrapunkt. Eine solche Materialgliederung zählt weder automatisch alle Zwischenspiele als eigene Formteile noch setzt sie für jedes neue Thema dieselbe Länge voraus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 71–73 · fis-Moll-Fuge WTK II, Materialplan mit sechs Abschnitten",
+              "note": "Die Tabelle auf S. 73 unterscheidet ausdrücklich Materialabschnitte von Zwischenspielen in Bachs fis-Moll-Fuge."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-08",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 74–75 · Es-Dur-Orgelfuge BWV 552",
+          "text": "In BWV 552 wechseln mit den thematischen Abteilungen auch die Taktarten 4/2, 6/4 und 12/8. Das erste Thema passt seine rhythmische Gestalt an den neuen Rahmen an. Am Ende hört Gárdonyi eine Synthese dreier Themen, obwohl vom zweiten vor allem dessen bewegter Rhythmus im Manualsatz erhalten bleibt. Wegen dieser Varianten spricht er ausdrücklich nicht von einem vollständig verwirklichten dreifachen Kontrapunkt. Eine hörbare Vereinigung dreier Charaktere und ein genauer Lagentausch dreier unverändert erhaltener Linien sind damit verschiedene Prüffragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 74–75 · Es-Dur-Orgelfuge BWV 552",
+              "note": "Der Text benennt an Bachs BWV 552 sowohl die thematische Synthese als auch die Grenze ihrer exakten kontrapunktischen Vertauschbarkeit."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-09",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 75–76 · Contrapunctus VIII und XI der Kunst der Fuge",
+          "text": "Die Tripelfugen Contrapunctus VIII und XI folgen bei Gárdonyi verschiedenen Materialplänen. Im VIII. Satz erscheinen erstes und zweites Thema bereits gemeinsam, bevor das dritte selbstständig exponiert wird; die Vereinigung aller drei setzt erst ab Takt 148 ein. Der XI. Satz arbeitet dagegen früh mit Themenumkehrungen und erreicht seine dreifache Synthese ab Takt 101. Außerdem sind die Themen beider Sätze zyklisch aufeinander bezogen: Die umgekehrten Themen 1 und 2 des VIII. Satzes werden zu den Themen 2 und 3 des XI., sein umgekehrtes drittes Thema zum ersten. Tripelfuge bezeichnet hier kein unveränderliches Abfolgeformular.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 75–76 · Contrapunctus VIII und XI der Kunst der Fuge",
+              "note": "Die beiden Formtabellen und der anschließende Vergleich beziehen sich auf Bachs dreistimmigen Contrapunctus VIII und vierstimmigen Contrapunctus XI."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-12",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 76 · Confiteor der h-Moll-Messe",
+          "text": "Auch ein Cantus firmus kann innerhalb einer dreithematischen Anlage eine eigene Themenrolle übernehmen. Gárdonyi beschreibt das Confiteor der h-Moll-Messe als fünfstimmige Fugenstruktur mit drei Themen, von denen das letzte ein augmentierter Cantus firmus ist. Er nennt daneben Engführungen des ersten Themas und einen Quintkanon zwischen Bass und Alt beim dritten Material. Stimmenzahl, Themenzahl und kanonisch gebundene Stimmen müssen deshalb getrennt erfasst werden: Fünfstimmiger Satz bedeutet hier weder fünf Themen noch einen Kanon aller fünf Stimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 76 · Confiteor der h-Moll-Messe",
+              "note": "Der Absatz behandelt die Verbindung von Cantus firmus, Kanon und dreithematischer Anlage in Bachs Confiteor."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-quadrupelfuge",
+      "title": "Wann ist eine Fuge mit vier thematischen Gestalten eine Quadrupelfuge?",
+      "group": "Fuge",
+      "tags": [
+        "Quadrupelfuge",
+        "vier Themen",
+        "vierfacher Kontrapunkt",
+        "Kunst der Fuge",
+        "unvollendete Fuge",
+        "BACH",
+        "Contrapunctus XIX"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-tripelfuge",
+        "fuge-doppelfuge",
+        "fuge-kontrasubjekt",
+        "doppelter-kontrapunkt",
+        "fuge-permutationsfuge",
+        "dreifacher-kontrapunkt"
+      ],
+      "reading": "Zähle profilierte Motive und formtragende Themen getrennt. Suche die Stellen, an denen die Themen zusammentreffen, und kennzeichne bei unvollendeten Werken, was im Notentext steht und was eine Rekonstruktion voraussetzt.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-10",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 75 · chromatisches Kontrasubjekt in Contrapunctus XI",
+          "text": "Ein zusätzliches profiliertes Kontrasubjekt macht eine Tripelfuge noch nicht zur Quadrupelfuge. Gárdonyi zählt das chromatische Gegenmaterial ab Takt 28 des Contrapunctus XI nicht als viertes Thema, weil es kein Bestandteil der späteren Synthesephasen wird. Entscheidend ist hier die Rolle im formalen Zusammenhang und in der Vereinigung der Themen. Die bloße Zahl unterscheidbarer melodischer Gestalten reicht für diese Gattungsbezeichnung nicht aus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 75 · chromatisches Kontrasubjekt in Contrapunctus XI",
+              "note": "Die Abgrenzung wird ausdrücklich am formalen Verhalten des chromatischen Gegenmaterials in Bachs Contrapunctus XI getroffen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-11",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 76 · unvollendete Fuge der Kunst der Fuge, bei Gárdonyi „Contrapunctus XIX“",
+          "text": "Gárdonyi vermutet für die unvollendete Schlussfuge eine geplante vierte Themenvereinigung. Im erhaltenen Satz verfolgt er zunächst drei Themen, darunter B–A–C–H, und zuletzt ihre gemeinsame Verbindung. Als möglichen weiteren Schritt nimmt er das Hinzutreten des Hauptthemas des ganzen Zyklus an. Erst wenn alle vier Themen dabei paarweise vertauschbar wären, ergäbe sich vierfacher Kontrapunkt. Der vierte Themenkomplex ist hier eine Annahme über die nicht erhaltene Fortsetzung, kein bereits ausgeführter Abschnitt des überlieferten Satzes. Die Nummer XIX folgt der im Buch benutzten Graeser-Ausgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 76 · unvollendete Fuge der Kunst der Fuge, bei Gárdonyi „Contrapunctus XIX“",
+              "note": "Gárdonyi formuliert die vierte Vereinigung bei diesem Bach-Fragment selbst hypothetisch; der Werkbezug trägt die Stilzuordnung."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-permutationsfuge",
+      "title": "Wie verbindet eine Permutationsfuge feste Motivfolgen mit wechselnden Stimmlagen?",
+      "group": "Fuge",
+      "tags": [
+        "Permutationsfuge",
+        "Chorfuge",
+        "Vokalfuge",
+        "Motivfolge",
+        "Permutation",
+        "Johannes-Passion",
+        "BWV 21",
+        "Werner Neumann"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-kanonische-fuge",
+        "fuge-exposition",
+        "fuge-kontrasubjekt",
+        "doppelter-kontrapunkt",
+        "fuge-form-und-gattung",
+        "dreifacher-kontrapunkt",
+        "fuge-quadrupelfuge"
+      ],
+      "reading": "Nummeriere die aufeinanderfolgenden Motive einer Stimme. Lies anschließend dieselben Nummern senkrecht durch den Satz. Welche Anordnungen kehren wieder, und wie viele verschiedene Motive erklingen jeweils gleichzeitig?",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-13",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 77 · Definition der Permutationsfuge in Bachs Vokalmusik",
+          "text": "Die Permutationsfuge verbindet bei Gárdonyi eine kanonisch festgehaltene Folge mehrerer Motive mit dem für die Fuge charakteristischen Wechsel von Dux- und Comesgestalt. Die nachfolgenden Stimmen übernehmen die ganze zunächst vorgestellte Materialfolge; Codetten und Zwischenspiele lösen sie nicht in frei umgebildete Abschnitte auf. Durch die versetzten Einsätze stehen die Motive nacheinander in einer Stimme und gleichzeitig in verschiedenen Stimmlagen. Der Name beschreibt somit die wechselnde vertikale Kombination eines zusammengehörigen Vorrats, nicht beliebige Umstellungen der Motivfolge innerhalb jeder Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 7, S. 77 · Definition der Permutationsfuge in Bachs Vokalmusik",
+              "note": "Die Begriffsbestimmung steht im Abschnitt über Bachs vokale Permutationsfugen und deren Verbindung von Kanon- und Fugentechnik."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-14",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 77 · Textbindung, Tonumfang und formale Anlage der Vokalfuge",
+          "text": "Gárdonyi erklärt die besondere Anlage der Vokalfuge auch aus der Textvertonung. Eine instrumentale Motivabspaltung lässt sich nicht bedenkenlos auf gesungene Wörter übertragen: Der entsprechende sprachliche Ausschnitt könnte seinen Sinn verlieren. Außerdem begrenzen die Stimmlagen den Tonartweg anders als bei Instrumenten, und die Gliederung des Textes steht in Beziehung zur Zahl der Themen. Diese Überlegungen erläutern den Rahmen seiner Permutationsanalysen; sie sind kein allgemeines Verbot motivischer Arbeit in jeder Chorfuge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 7, S. 77 · Textbindung, Tonumfang und formale Anlage der Vokalfuge",
+              "note": "Die Passage stellt ausdrücklich kompositionstechnische Bedingungen von Bachs Vokalfugen denen instrumentaler Fugen gegenüber."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-15",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 77–79 · „Lasset uns den nicht zerteilen“, Johannes-Passion",
+          "text": "Gárdonyi zerlegt die fortlaufende Vokallinie in fünf rhythmisch kontrastierende Motive: Tonwiederholungen in Achteln, Synkopen, schrittweise Achtelbewegung, Sechzehntel und Viertel. Die vier Chorstimmen imitieren einander im Abstand eines Taktes, sodass höchstens vier dieser fünf Motive gleichzeitig erklingen. Würde man die ganze sechstaktige Folge als einziges Thema zählen, erschiene der Satz als fortgesetzte Engführung. Für Gárdonyis Analyse macht die getrennte Nummerierung deutlicher, wie kanonische Folge und wechselnde kontrapunktische Kombination zusammenwirken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 77–79 · „Lasset uns den nicht zerteilen“, Johannes-Passion",
+              "note": "Die fünf Motive und ihre Überlagerung werden an einer konkreten Chorfuge aus Bachs Johannes-Passion untersucht."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-17",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 80–81 · Kantate BWV 21, „dass er meines Angesichtes Hülfe und mein Gott ist“",
+          "text": "Die Permutationsanlage kann zugleich einen Wechsel der Besetzung organisieren. In Gárdonyis Analyse von BWV 21 folgen auf die Phasen des Solistenquartetts ein instrumentaler Durchgang und danach die gemeinsame Beteiligung von Chor und Orchester. Die fünfte Phase verbindet die ersten beiden Gruppen; die neunte verbindet die zweite und die dritte. Motiv 1 tritt besonders häufig auf, während die anderen Motive nur im Zusammenhang mit ihm erscheinen. Dadurch erhält es trotz der dichten Kombination verschiedener Materialien das Gewicht eines Hauptthemas.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 80–81 · Kantate BWV 21, „dass er meines Angesichtes Hülfe und mein Gott ist“",
+              "note": "Die drei Besetzungsgruppen und überlappenden Phasen sind in den Tabellen zu Bachs Kantate BWV 21 verzeichnet."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-kanonische-fuge",
+      "title": "Wann lässt sich ein Kanon zugleich als Fuge gliedern?",
+      "group": "Fuge",
+      "tags": [
+        "kanonische Fuge",
+        "Fuga canonica",
+        "Kanon",
+        "Stimmtausch",
+        "Dux",
+        "Comes",
+        "Kunst der Fuge",
+        "Musikalisches Opfer",
+        "epidiapente"
+      ],
+      "comparisons": [],
+      "related": [
+        "imitation-und-kanon",
+        "kanon-verfahren",
+        "doppelter-kontrapunkt",
+        "fuge-permutationsfuge",
+        "fuge-engfuehrung"
+      ],
+      "reading": "Verfolge führende und folgende Stimme getrennt von den Themeneinsätzen. Wo beginnt das Anfangsmaterial erneut, wo tauschen die Stimmen ihre Rollen, und wann nimmt eine zunächst freie Stimme am Thema teil?",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-18",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 81 · kanonische Fuge und c-Moll-Invention",
+          "text": "Eine kanonische Bindung kann mit einer fugenartigen Gliederung zusammenfallen, wenn sich Thema und Antwort zugleich als führende und folgende Kanonstimme lesen lassen. Neue Themenphasen entstehen bei Gárdonyi, wenn die führende Stimme zum Anfangsmaterial zurückkehrt oder ein bisheriger Kanon unterbrochen und neu begonnen wird. Häufig tauschen dabei die Stimmen ihre Rollen. Seine Übersicht zur c-Moll-Invention zeigt das Verfahren im kleinen Rahmen. Für die Formanalyse genügt deshalb weder die Feststellung, dass ein Kanon vorliegt, noch das bloße Zählen ähnlich beginnender Motive.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 7, S. 81 · kanonische Fuge und c-Moll-Invention",
+              "note": "Die Definition wird an Bachs c-Moll-Invention und den Kanons der Kunst der Fuge erläutert."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-19",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 82 · Duodezim- und Dezimkanon der Kunst der Fuge, Graeser-Zählung XIII und XIV",
+          "text": "Bei den Kanons in Duodezime und Dezime unterscheidet Gárdonyi das aktuelle Imitationsintervall vom Lagentausch zwischen größeren Abschnitten. Der Duodezimkanon beginnt mit einer Antwort in der Oberduodezime; nach dem Rollenwechsel ab Takt 34 antwortet die andere Stimme in der Unteroktave. Im Vergleich korrespondierender Abschnitte entsteht dennoch doppelter Kontrapunkt in der Duodezime. Entsprechend führt der spätere Rollenwechsel des Dezimkanons zur Oktavantwort, während der Abschnittsvergleich den Dezimtausch erkennen lässt. Ein geändertes Kanonintervall widerlegt also nicht automatisch die Vertauschungsbeziehung des Materials.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 82 · Duodezim- und Dezimkanon der Kunst der Fuge, Graeser-Zählung XIII und XIV",
+              "note": "Die Analyse vergleicht Abschnitte zweier Bach-Kanons und benennt deren unterschiedliche Imitations- und Vertauschungsintervalle."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-22",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 83 · Fuga canonica in epidiapente aus dem Musikalischen Opfer",
+          "text": "In der Fuga canonica in epidiapente führen die beiden Oberstimmen einen Kanon in der Oberquinte. Die Unterstimme trägt zunächst den Generalbass und übernimmt erst ab Takt 59 selbst das Thema regium. Von dort an beschreibt Gárdonyi den Verlauf als dreistimmige Fugenstruktur. Der Bass muss deshalb nicht schon vom Beginn an kanonisch gebunden sein, damit das ganze Stück die Verbindung von Kanon und Fuge verwirklicht. Gerade sein späterer Funktionswechsel macht diese Verbindung hörbar.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 83 · Fuga canonica in epidiapente aus dem Musikalischen Opfer",
+              "note": "Die unterschiedliche Rolle von Oberstimmen und Bass ist an der Fuga canonica des Musikalischen Opfers belegt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-fughetta-fugato",
+      "title": "Worin unterscheiden sich Fuge, Fughetta und Fugato?",
+      "group": "Fuge",
+      "tags": [
+        "Fughetta",
+        "Fugato",
+        "kleine Fuge",
+        "geschlossene Form",
+        "Formabschnitt",
+        "Modulationsumfang",
+        "Quintbeantwortung"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-form-und-gattung",
+        "fuge-exposition",
+        "fuge-antwortintervall",
+        "fuge-und-tanzform",
+        "choral-fugentechnik"
+      ],
+      "reading": "Prüfe zunächst die Grenzen des ganzen Satzes: Ist der fugierte Abschnitt selbstständig abgeschlossen oder Teil eines größeren Verlaufs? Vergleiche danach Zahl der Themeneinsätze, Tonartwege und Art der Beantwortung.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-23",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 84 · Fughetta als abgeschlossene kleine Fugenanlage",
+          "text": "Eine Fughetta bildet für Gárdonyi eine in sich abgeschlossene Form mit Fugentechnik. Das Wort klein bezeichnet dabei nicht unmittelbar eine bestimmte Dauer oder Stimmenzahl. Ausschlaggebend sind vor allem die Zahl der Themenphasen und die Reichweite der Modulationen. Auch ein solcher begrenzter Rahmen kann mehrere Themen verbinden: Die Choralfughetta BWV 677 besitzt für ihn Züge einer kleinen Doppelfuge. Geringer Umfang bedeutet daher weder zwingend nur ein Thema noch Verzicht auf anspruchsvolle kontrapunktische Kombinationen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 84 · Fughetta als abgeschlossene kleine Fugenanlage",
+              "note": "Die Begriffsbestimmung wird unmittelbar an Bachs Orgelfughetten erläutert."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-24",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 84 · Fugato als Abschnitt einer größeren Form",
+          "text": "Ein Fugato ist in Gárdonyis Abgrenzung ein fugierter Abschnitt innerhalb einer größeren, insgesamt anders gebauten Form. Anders als die Fughetta muss er keinen selbstständigen, abgeschlossenen Satz bilden. Nicht jeden imitierenden Abschnitt nennt er deshalb Fugato: Als Erkennungsmerkmal hebt er die Quintbeantwortung hervor. Den Tonartverlauf der von ihm angeführten Präludien-, Ouvertüren- und Toccatenabschnitte erklärt man aus ihrer übergeordneten Form; er kann vom Verlauf einer selbstständigen Fuge abweichen. Diese Kriterien gehören zu Gárdonyis analytischem Sprachgebrauch.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 84 · Fugato als Abschnitt einer größeren Form",
+              "note": "Gárdonyi grenzt den Begriff anhand fugierter Abschnitte in mehreren Gattungen Bachs ein."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-und-tanzform",
+      "title": "Wie verbindet eine Gigue fugierte Arbeit mit ihrer Tanzform?",
+      "group": "Fuge",
+      "tags": [
+        "Gigue",
+        "Suite",
+        "Partita",
+        "Tanzform",
+        "Zweiteiligkeit",
+        "Wiederholungen",
+        "Umkehrung",
+        "BWV 827",
+        "BWV 808"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-form-und-gattung",
+        "fuge-fughetta-fugato",
+        "kanon-verfahren",
+        "fuge-kontrasubjekt",
+        "fuge-schlussrueckkehr"
+      ],
+      "reading": "Markiere die beiden wiederholten Teile und ihre Kadenzziele. Vergleiche dann die Themenanfänge und die Reihenfolge der Stimmen: Was kehrt als Gegenbewegung wieder, und was wird harmonisch oder motivisch neu eingerichtet?",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-25",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 84–85, Bsp. 58–59 · fugierte Gigue, zweiteilige Tanzform und Themenumkehrung",
+          "text": "Eine Gigue kann mit einer fugentypischen Exposition beginnen und dennoch ihre eigene zweiteilige Tanzform mit Wiederholung beider Hälften bewahren. Die Kadenz am Ende des ersten Teils trennt die Abschnitte deutlich. Der zweite Teil verwendet häufig eine Umkehrung des Anfangsthemas; dabei wird nach Gárdonyi vor allem die melodische Geste gewendet, nicht mechanisch jedes Intervall gespiegelt. Die einzelnen Töne richten sich nach dem neuen tonalen und harmonischen Zusammenhang. Fugierte Technik erklärt hier die Stimmenarbeit, während die wiederholte Zweiteiligkeit eine andere Formaufgabe erfüllt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 84–85, Bsp. 58–59 · fugierte Gigue, zweiteilige Tanzform und Themenumkehrung",
+              "note": "Die Passage behandelt Bachs Giguen, insbesondere die Beispiele aus BWV 827 und BWV 808."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-26",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 86 · Einsatzfolge und neues Material im zweiten Giguenabschnitt",
+          "text": "In vielen Giguen beobachtet Gárdonyi außer der melodischen Umkehrung eine spiegelbildliche Reihenfolge der eintretenden Stimmen im zweiten Teil. Doch auch ein anderes Verfahren ist möglich: Die Gigue der D-Dur-Partita für Cembalo beginnt ihre zweite Hälfte mit der Imitation neuen Materials, während das Thema des ersten Teils als Kontrasubjekt dagegengeführt wird. Die Beziehung der beiden Teile lässt sich daher nicht allein an einem umgekehrten Themenkopf ablesen; sie kann auch aus dem Funktionswechsel des früheren Themas entstehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 86 · Einsatzfolge und neues Material im zweiten Giguenabschnitt",
+              "note": "Die Gegenüberstellung nennt ausdrücklich Bachs Giguen und als besonderen Fall die D-Dur-Partita."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "choral-fugentechnik",
+      "title": "Wie verbindet Bach eine Choralmelodie mit fugierter Arbeit?",
+      "group": "Fuge",
+      "tags": [
+        "Choralfuge",
+        "Choralfughetta",
+        "Choralbearbeitung",
+        "Cantus firmus",
+        "Ostinato",
+        "BWV 677",
+        "BWV 680",
+        "BWV 651",
+        "BWV 769"
+      ],
+      "comparisons": [],
+      "related": [
+        "choral-vorimitation",
+        "choral-gegenstimme",
+        "cantus-firmus",
+        "fuge-fughetta-fugato",
+        "fuge-doppelfuge",
+        "imitation-und-kanon"
+      ],
+      "reading": "Suche zuerst die erkennbare Choralmelodie. Wird sie als ganze Linie vorgetragen, oder liefert sie kurze Fugenthemen? Untersuche anschließend, wie sich ihre einzelnen Zeilen, die begleitenden Motive und die Harmoniewechsel zueinander verhalten.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-29",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 90–91 · zwei Grundmodelle der Choralbearbeitung",
+          "text": "Gárdonyi unterscheidet zwei Ausgangslagen: Entweder liefern Teile der Choralmelodie das Thema einer fugierten Komposition, oder die erkennbare Melodie wird als vollständiger Cantus firmus durch einen imitierenden Satz begleitet. Im ersten Fall muss nicht die ganze Chorallinie als eigene Stimme erscheinen. Im zweiten bleibt sie als zusammenhängende Vorlage erhalten, auch wenn ihre Notenwerte verändert oder ihre Zeilen voneinander getrennt werden. Vor jeder Detailanalyse ist deshalb zu klären, ob der Choral hier Themenmaterial oder zugleich eine tatsächlich vorgetragene vollständige Stimme ist.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 90–91 · zwei Grundmodelle der Choralbearbeitung",
+              "note": "Die beiden Modelle werden als Grundtypen von Bachs Choralbearbeitungen eingeführt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-30",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 90–91, Bsp. 61–63 · Allein Gott in der Höh sei Ehr, BWV 677",
+          "text": "In BWV 677 gewinnen unterschiedliche Choralzeilen zunächst eigene thematische Gestalten. Die Spitzentöne des ersten Themas beziehen sich auf die erste Zeile. Der Beginn der zweiten Zeile wird anschließend als zweistimmiger Themenkomplex eingerichtet; seine bewegte Gegenstimme greift bereits vorhandenes Sechzehntelmaterial auf. Ab Takt 16 überlagern sich die beiden choraleigenen Themen. Der kurze Satz erreicht dadurch für Gárdonyi Züge einer kleinen Doppelfuge, deren Synthese außerdem die frühere Sechzehntelgegenstimme in gerader und umgekehrter Gestalt einbezieht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 90–91, Bsp. 61–63 · Allein Gott in der Höh sei Ehr, BWV 677",
+              "note": "Die Ausführungen und drei Notenbeispiele verfolgen Bachs Choralfughetta BWV 677."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-31",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 91–92 · vollständiger Cantus firmus und Gliederung seiner Zeilen",
+          "text": "Bei einer vollständigen Choralvorlage kann die Melodie in einer Stimme bleiben, auf mehrere Stimmen verteilt oder in einem kanonischen Stimmenpaar geführt werden. Auch ihr zeitlicher Zusammenhang ist variabel: Die Zeilen können unmittelbar aufeinanderfolgen oder durch imitierende Felder und Ritornelle getrennt sein. Das umgebende fugierte Material kann während des ganzen Satzes erhalten bleiben oder mit jeder neuen Choralzeile wechseln. Die Lage des Cantus firmus, die Abstände zwischen seinen Zeilen und der Wechsel der Gegenmotive sind daher drei getrennte Entscheidungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 91–92 · vollständiger Cantus firmus und Gliederung seiner Zeilen",
+              "note": "Gárdonyi beschreibt die Disposition an Bachs Orgelchorälen und vokalen Choralbearbeitungen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-35",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 97 · Canonische Veränderungen über Vom Himmel hoch, BWV 769",
+          "text": "In BWV 769 können Choralvorlage und Kanon auf unterschiedliche Weise zusammenwirken. Einerseits wird ein Cantus firmus, auch vergrößert oder verziert, durch kanonisch geführte Gegenstimmen begleitet. Andererseits liefert die Choralmelodie selbst das Material unterschiedlicher Kanons, zu denen freie Stimmen hinzutreten. Gárdonyi fasst damit mehrere zuvor besprochene Choralmodelle zusammen. Ob die gegebene Weise außerhalb des Kanonpaars liegt oder selbst dessen Ausgangsmelodie ist, muss bei jeder Variation neu bestimmt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 97 · Canonische Veränderungen über Vom Himmel hoch, BWV 769",
+              "note": "Der Schlussabsatz behandelt ausschließlich Bachs kanonische Choralvariationen BWV 769."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
     }
   ],
   "examples": {
@@ -27987,6 +30883,36 @@ const ATLAS = {
       "image": "quellen/noten/daniel-sekunde-none.webp",
       "url": "https://katalog.slub-dresden.de/id/0-377774707",
       "catalogue": true
+    },
+    "gardonyi-tonale-antwort": {
+      "kind": "leseuebung",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "catalogue": true,
+      "image": "quellen/noten/gardonyi-tonale-antwort.webp",
+      "title": "Tonale Antwort: ein veränderter Ton im Themenkopf",
+      "alt": "Drei selbst entworfene Notenzeilen im Violinschlüssel mit einem Kreuz und je vier Vierteln. A, Themenkopf in G-Dur: d′–g′–a′–g′ (D4–G4–A4–G4). B, genaue Transposition um eine Quinte: a′–d″–e″–d″ (A4–D5–E5–D5). C, mögliche tonale Antwort: g′–d″–e″–d″ (G4–D5–E5–D5). Nur der erste Ton von C ist hervorgehoben. Aus dem anfänglichen Quartschritt des Themenkopfs wird ein Quintschritt; die übrigen Töne bleiben gegenüber B unverändert.",
+      "caption": "Spiele den Themenkopf und beide Antwortmodelle. Das eröffnende d′ ist die Dominante der Bezugstonart G-Dur. Die reale Quinte führt nach a′; die tonale Variante antwortet stattdessen mit der Ausgangstonika g′. Die übrigen drei Töne sind jeweils eine Quinte höher als im Themenkopf. Das Beispiel isoliert die Veränderung am Kopf und legt keinen vollständigen harmonischen Verlauf fest. Gárdonyi behandelt solche Antworten als analytisch gewonnene Typen und warnt auf S. 19, Anm. 20, vor ihrer Verabsolutierung.",
+      "credit": "Eigene redaktionelle Leseübung nach Zsolt Gárdonyi, La struttura della fuga in Johann Sebastian Bach (Ricordi 1996, bibliografisch zugeordnet), S. 17–19. Neu erfundenes Viernotenmodell; weder Bach-Zitat noch Abschrift eines Buchbeispiels und keine obligatorische Antwortlösung."
+    },
+    "gardonyi-oktavtausch-quarte": {
+      "kind": "leseuebung",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "catalogue": true,
+      "image": "quellen/noten/gardonyi-oktavtausch-quarte.webp",
+      "title": "Oktavtausch und die Rolle des Basses",
+      "alt": "Drei isolierte Zusammenklänge. A enthält c′ unten und g′ oben (C4 und G4), eine reine Quinte. B hält g′ fest und versetzt c′ nach c″ (G4 und C5); die entstandene reine Quarte steht nun über dem tiefsten Ton g′. C enthält dasselbe Oberstimmenpaar g′–c″ und zusätzlich e im Bass (E3). Die Quarte liegt jetzt zwischen den Oberstimmen. Vom e aus entstehen zu g′ eine Dezime und zu c″ eine Tredezime; nach Oktavreduktion sind dies eine Terz und eine Sexte. Die Farben verfolgen das c und das g durch die drei Modelle.",
+      "caption": "Spiele A und B, dann ergänze unter B den Basston e wie in C. Die aus der Quinte entstandene Quarte ist im zweistimmigen Modell ein Bassintervall. Über einem weiteren, passenden Bass kann dieselbe Quarte zwischen den Oberstimmen stehen, während beide Töne mit dem Bass konsonieren. Die Angabe Terz/Sexte bezieht sich auf die Oktavreduktion der tatsächlich notierten Dezime und Tredezime. Diese Einzelklänge erklären die Bassrolle, keine vollständige kontrapunktische Führung und keine beliebige Vertauschbarkeit aller drei Stimmen.",
+      "credit": "Eigene redaktionelle Leseübung nach Zsolt Gárdonyi, La struttura della fuga in Johann Sebastian Bach (Ricordi 1996, bibliografisch zugeordnet), S. 28–29. Neu entworfene Einzelklänge; keine Abschrift eines Bach- oder Buchbeispiels."
+    },
+    "gardonyi-gegenexposition": {
+      "kind": "leseuebung",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "catalogue": true,
+      "image": "quellen/noten/gardonyi-gegenexposition.webp",
+      "title": "Gegenexposition oder zusätzlicher Einsatz?",
+      "alt": "Zwei selbst entworfene Tabellen mit den Zeilen Oberstimme, Mittelstimme und Unterstimme sowie den Spalten Themenphase 1 bis 4. Beide beginnen mit Dux in der Oberstimme, Comes in der Mittelstimme und Dux in der Unterstimme. In A folgt in Phase 4 ein Comes der Oberstimme: Die Stimme wechselt die Themenform und gegenexponiert. In B folgt an derselben Stelle nochmals der Dux der Oberstimme: Dies ist ein zusätzlicher Einsatz. Beide Alternativen verbleiben im Bereich von Tonika und Dominante. Leere Felder enthalten keine Aussage über Pausen oder nichtthematisches Material.",
+      "caption": "Verfolge die Oberstimme horizontal. Entscheidend ist, welche Themenform gerade diese Stimme schon hatte. Ihr Wechsel von Dux zu Comes begründet hier eine gegenexponierende Phase; eine Wiederholung des Dux heißt zusätzlicher Einsatz. Gárdonyis Technik setzt keine zweite vollständige Runde aller Stimmen voraus. Andere Stimmen können später ebenfalls die Form wechseln. Das Diagramm zeigt nur zwei erfundene Fortsetzungen im Tonika-Dominant-Bereich und enthält weder einen Zeitmaßstab noch ein verpflichtendes Fugenschema.",
+      "credit": "Eigene redaktionelle Leseübung nach Zsolt Gárdonyi, La struttura della fuga in Johann Sebastian Bach (Ricordi 1996, bibliografisch zugeordnet), S. 31–34. Eigenes Schema von Themeneintritten; keine Abschrift eines Bach- oder Buchbeispiels."
     }
   }
 };
