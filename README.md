@@ -88,6 +88,24 @@ Das Buchsymbol vor dem Werktitel kennzeichnet Lehrbücher und Traktate im Quelle
 
 Autorennamen mit verifiziertem Wikipedia-Artikel sind in den Fragen, Erläuterungen, Quellenangaben und Bildunterschriften verlinkt. Die Biografie öffnet sich in einem neuen Tab. Das gilt auch für Nachnamen und Formen wie „Cherubinis“ oder „Hindemiths“. Im Quellenverzeichnis öffnet der Name die Biografie; das Kästchen oder der übrige Titel wählt das Werk. Der Beleg zur Buchseite bleibt über **Fundstelle öffnen** erreichbar. Unter dem Autorenfilter erscheint für die gewählte Person zusätzlich ein Wikipedia-Link. Namen ohne verifizierte Biografie bleiben als Text stehen.
 
+## Barocke Satzpraxis mit Johannes Menke erschließen
+
+Die Werkkennung `menke2017` erschließt **68 Antworten zu 50 Fragen** aus *Kontrapunkt II: Die Musik des Barock* (1. Auflage, Laaber: Laaber-Verlag, 2017; *Grundlagen der Musik*, Bd. 3, ISBN 978-3-89007-826-7). Grundlage ist das bereitgestellte vollständige Exemplar. Die Fundstellen nennen seine gedruckten Seiten und gegebenenfalls die Beispielnummern. Der [Publikationsnachweis der FHNW](https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f) bestätigt genau diese Ausgabe; er führt zu den bibliografischen Angaben, nicht zu einer freigegebenen PDF-Buchseite.
+
+Menke erweitert den Atlas um verschiedene Satzpraktiken zwischen etwa 1600 und 1750: Generalbass und Kadenzklauseln, konsonante und dissonante Sequenzen, Chromatik, mehrfachen Kontrapunkt, *contrapunti artificiosi*, theatralische Dissonanzbehandlung, Fuge, Variation, Tanz, Trio, Monodie und große Ensembles. Die Beiträge lassen diese Aufgaben und Besetzungen sichtbar. Sie werden keiner bestimmten Spezies zugeordnet und erscheinen unter **Alle**.
+
+| Frage | Was sich am Text oder Notenmodell untersuchen lässt |
+| --- | --- |
+| [Welche Stimme lenkt eine Kadenz zum Trugschluss um?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=menke2017#frage=trugschluss-klauseln) | Identische Sopran- und Tenorklauseln über den Bassgängen 5–1 und 5–6 vergleichen; beim Trugschluss wird die Terz verdoppelt. |
+| [Was ändert sich beim Lagentausch?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=menke2017,jeppesen1964#frage=doppelter-kontrapunkt&antwort=menke2017-81) | Parallele Terzen in Oktav- und Dezimvertauschung prüfen; Menkes barocke Synkopationen mit Jeppesens strenger Übung vergleichen. |
+| [In welche Richtung löst sich eine Dissonanz auf?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=menke2017#frage=dissonanzaufloesung&antwort=menke2017-87) | Subsumtio und Superjectio singen: Der dissonante Gegenschritt springt einmal aufwärts, einmal abwärts zum Zielton. |
+| [Was gewinnt ein Kontrapunkt durch eine selbst auferlegte Beschränkung?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=menke2017#frage=obligo-kontrapunkt) | Schritt-, Sprung- und Rhythmusvorgaben als Gestaltungsentscheidungen erproben; im Repertoire den Wechsel der Konzepte verfolgen. |
+| [Wie wird aus einem Generalbass eine Fuge?](https://muk-labs.github.io/Kontrapunktatlas/?quellen=menke2017#frage=generalbass-fuge) | In Pasquinis Partimento die vorgegebene Anlage von den selbst zu ergänzenden Gegenstimmen und späteren Themeneinsätzen unterscheiden. |
+
+**8 neue Fragen** behandeln außerdem die Information der Generalbassbezifferung, die Cadenza doppia, den chromatischen Lamentobass, die Romanesca und die Abhängigkeit der Fugenform von ihrer Aufgabe. **25 neue Vergleichspaare** verbinden Menke mit vorhandenen Antworten: 4 Nuancen und 21 Unterschiede des Kontexts. [Unterschiede mit Johannes Menke](https://muk-labs.github.io/Kontrapunktatlas/unterschiede.html#autor=Johannes+Menke&art=nuance,context) zeigt beide Arten. Ein bloß anderes Repertoire wird nicht als unmittelbarer Regelwiderspruch eingeordnet. Innerhalb der Antwort zu bewegten Vorhaltspartnern bleibt auch Menkes ausdrückliche Beobachtung erhalten, dass die von Berardi eingeschränkte Auflösung 2–verminderte 5 in der Praxis über die genannten Gesangsgattungen hinaus vorkommt (S. 48).
+
+Die drei neuen Notengrafiken sind eigene schematische Leseübungen. Bildunterschriften nennen das Verfahren und die genaue Fundstelle; Scans des bereitgestellten Buches werden nicht veröffentlicht. Verifizierte Wikipedia-Verweise ergänzen Johannes Menke sowie die neu erwähnten historischen Autoren und Komponisten. Die vorhandenen Antworten, Beispiele und Vergleichspaare bleiben erhalten.
+
 ## Palestrinas Vokalpolyphonie mit Knud Jeppesen lesen
 
 Die Werkkennung `jeppesen1964` erschließt **55 Antworten zu 41 Fragen** aus *Kontrapunkt. Lehrbuch der klassischen Vokalpolyphonie*, übersetzt von Julie Schulz, 3. Auflage (Leipzig, VEB Breitkopf & Härtel, 1964). Die Fundstellen nennen die gedruckten Seiten dieser Ausgabe. Der [Verlagsnachweis](https://www.breitkopf.com/work/3447/kontrapunkt) führt zum heutigen Nachdruck des Werks; er ist kein Seitenlink zum verwendeten Exemplar.
