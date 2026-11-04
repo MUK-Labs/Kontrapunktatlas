@@ -106,6 +106,7 @@
     const section = el("section", "comparison-position");
     section.append(el("h4", "", answer.name));
     section.append(el("small", "species-scope", scopeLabel(answer)));
+    section.append(AtlasContexts.render(answer));
     section.append(el("p", "comparison-locator", answer.locator));
     const destination = link("Antwort im Atlas →", answerURL(entry, answer), "source-link comparison-answer-link");
     destination.setAttribute("aria-label", "Antwort von " + answer.name + " im Atlas öffnen. " + answer.locator);
@@ -203,7 +204,7 @@
 
   function render(focus = false) {
     const expanded = new Set([...list.querySelectorAll(".comparison-card")]
-      .filter(row => row.querySelector("details")?.open).map(row => row.id));
+      .filter(row => row.querySelector(".comparison-texts")?.open).map(row => row.id));
     const visible = AtlasDisagreements.filter(entries, state);
     const topicGroups = new Map();
     for (const entry of visible) {
@@ -316,5 +317,6 @@
   window.addEventListener("hashchange", () => restore());
   window.addEventListener("popstate", () => restore());
   window.addEventListener("pageshow", () => restore(true));
+  document.getElementById("comparison-context-key").append(AtlasContexts.legend());
   restore(true);
 })();
