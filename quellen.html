@@ -37,6 +37,15 @@
       <p>Wähle die Werke, die du im Atlas vergleichen möchtest. Im Fragenverzeichnis erscheinen ihre Beiträge und Beispiele. Unter „Unterschiede“ erscheinen die Vergleiche, für die beide beteiligten Werke ausgewählt sind.</p>
     </header>
 
+    <div class="bibliography-order">
+      <label for="source-order">Quellen anordnen</label>
+      <select id="source-order" aria-describedby="source-order-hint">
+        <option value="typ">Nach Quellenart</option>
+        <option value="autor">Nach Autor (A–Z)</option>
+        <option value="jahr">Nach Erscheinungsjahr</option>
+      </select>
+      <p class="bibliography-hint" id="source-order-hint" aria-live="polite">Nach Quellenart gruppiert. Die Auswahl bleibt beim Umsortieren erhalten.</p>
+    </div>
     <div class="bibliography-tools">
       <div class="bibliography-summary">
         <p id="source-count" role="status" aria-live="polite" aria-atomic="true"></p>
@@ -60,6 +69,7 @@
   <script src="atlas-data.js"></script>
   <script src="author-links.js"></script>
   <script src="source-selection.js"></script>
+  <script src="source-order.js"></script>
   <script src="quellen.js"></script>
 </body>
 </html>

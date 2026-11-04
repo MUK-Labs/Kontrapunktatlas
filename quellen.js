@@ -8,8 +8,12 @@
   const returnHint = document.getElementById("source-return-hint");
   const atlasHint = returnHint.textContent;
   const checkboxes = [];
-  const groups = new Map();
+  const items = new Map();
   const sources = ATLAS.sources;
+  const order = document.getElementById("source-order");
+  const orderHint = document.getElementById("source-order-hint");
+  const handoutHint = "Auf den gedruckten Seiten 6 und 8 vergleicht Artacho die fünf Spezies im modalen und tonalen Satz. Seite 9 stellt seine Lesart von Hindemiths zweistimmigem Kontrapunkt daneben.";
+  let displayedOrder;
 
   function element(tag, className, text) {
     const node = document.createElement(tag);
@@ -19,18 +23,6 @@
   }
 
   for (const source of sources) {
-    if (!groups.has(source.group)) {
-      const section = element("fieldset", "bibliography-group");
-      const works = element("ul", "bibliography-works");
-      section.append(element("legend", "", source.group));
-      if (source.group === "Unterrichtshandout") {
-        section.append(element("p", "bibliography-hint", "Auf den gedruckten Seiten 6 und 8 vergleicht Artacho die fünf Spezies im modalen und tonalen Satz. Seite 9 stellt seine Lesart von Hindemiths zweistimmigem Kontrapunkt daneben."));
-      }
-      section.append(works);
-      list.append(section);
-      groups.set(source.group, works);
-    }
-
     const item = element("li", "bibliography-work");
     const row = element("div", "bibliography-label");
     const checkbox = document.createElement("input");
@@ -53,6 +45,9 @@
     row.append(checkbox, citation);
     const meta = element("div", "bibliography-meta");
     meta.append(element("code", "", source.id));
+    const kind = element("span", "bibliography-kind", source.group);
+    const year = element("span", "bibliography-year", AtlasSourceOrder.yearLabel(source));
+    meta.append(kind, year);
     if (source.url) {
       const link = element("a", "", "Zum Nachweis");
       link.href = source.url;
@@ -60,17 +55,53 @@
       meta.append(link);
     }
     item.append(row, meta);
-    groups.get(source.group).append(item);
+    const dateNote = source.publicationNote ? element("p", "bibliography-note", source.publicationNote) : null;
+    if (dateNote) item.append(dateNote);
+    const handoutNote = source.id === "artacho-handout" ? element("p", "bibliography-note", handoutHint) : null;
+    if (handoutNote) item.append(handoutNote);
+    items.set(source.id, { item, kind, year, dateNote, handoutNote });
   }
-  AtlasAuthors.linkify(list);
+
+  function arrange(mode) {
+    order.value = mode;
+    if (displayedOrder === mode) return;
+    displayedOrder = mode;
+    orderHint.textContent = mode === "autor"
+      ? "Nach dem Nachnamen der zuerst genannten Person. Gemeinsam verfasste Werke bleiben zusammen."
+      : mode === "jahr"
+        ? "Erscheinungsjahr der verwendeten Ausgabe, älteste zuerst. Quellen ohne belegtes Jahr stehen am Ende."
+        : "Nach Quellenart gruppiert. Die Auswahl bleibt beim Umsortieren erhalten.";
+    list.replaceChildren();
+    for (const group of AtlasSourceOrder.sections(sources, mode)) {
+      const section = element("fieldset", "bibliography-group");
+      const works = element("ul", "bibliography-works");
+      section.append(element("legend", "", group.label));
+      if (mode === "typ" && group.key === "Unterrichtshandout") {
+        section.append(element("p", "bibliography-hint", handoutHint));
+      }
+      for (const source of group.sources) {
+        const entry = items.get(source.id);
+        entry.kind.hidden = mode === "typ";
+        entry.year.hidden = mode !== "jahr";
+        if (entry.dateNote) entry.dateNote.hidden = mode !== "jahr";
+        if (entry.handoutNote) entry.handoutNote.hidden = mode === "typ";
+        works.append(entry.item);
+      }
+      section.append(works);
+      list.append(section);
+    }
+    AtlasAuthors.linkify(list);
+  }
 
   function render(selected, url) {
+    arrange(AtlasSourceOrder.read(url));
     for (const checkbox of checkboxes) checkbox.checked = selected.has(checkbox.value);
     count.textContent = selected.size + " von " + sources.length + " Quellen ausgewählt";
     const fromDifferences = url.searchParams.get("von") === "unterschiede";
     const atlas = new URL("index.html", url);
     atlas.search = url.search;
     atlas.searchParams.delete("von");
+    atlas.searchParams.delete("sortierung");
     atlas.hash = fromDifferences ? "" : url.hash;
     for (const link of atlasLinks) link.href = atlas.href;
 
@@ -81,6 +112,7 @@
     const target = new URL(fromDifferences ? "unterschiede.html" : "index.html", url);
     target.search = url.search;
     target.searchParams.delete("von");
+    target.searchParams.delete("sortierung");
     target.hash = url.hash;
     const label = fromDifferences ? "Mit dieser Auswahl zu den Unterschieden" : "Mit dieser Auswahl zum Atlas";
     for (const link of selectionLinks) {
@@ -94,8 +126,8 @@
       : atlasHint;
   }
 
-  function update(selected) {
-    const url = AtlasSources.write(new URL(location.href), selected);
+  function update(selected, mode = AtlasSourceOrder.read(location.href)) {
+    const url = AtlasSourceOrder.write(AtlasSources.write(new URL(location.href), selected), mode);
     if (url.href !== location.href) {
       try {
         history.replaceState(history.state, "", url.href);
@@ -119,6 +151,7 @@
       update(new Set(checkboxes.filter(box => box.checked).map(box => box.value)));
     }
   });
+  order.addEventListener("change", () => update(new Set(checkboxes.filter(box => box.checked).map(box => box.value)), order.value));
   document.getElementById("source-all").addEventListener("click", () => update(new Set(sources.map(s => s.id))));
   document.getElementById("source-none").addEventListener("click", () => update(new Set()));
   document.getElementById("skip-sources").addEventListener("click", event => {
