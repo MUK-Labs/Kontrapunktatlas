@@ -934,6 +934,20 @@ const ATLAS = {
         "Stein"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Leonard_Stein"
+    },
+    {
+      "name": "Thomas Daniel",
+      "aliases": [
+        "Daniel"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Daniel_(Musiktheoretiker)"
+    },
+    {
+      "name": "Walter Heimann",
+      "aliases": [
+        "Heimann"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Walter_Heimann_(Musikp%C3%A4dagoge)"
     }
   ],
   "sources": [
@@ -1295,6 +1309,17 @@ const ATLAS = {
       "sortAuthor": "Schönberg, Arnold",
       "publicationYear": 1970,
       "publicationNote": "Jahr der bereitgestellten ersten Taschenbuchausgabe. Das Werk erschien zuerst 1963. Fundstellen folgen den gedruckten Seiten; im bereitgestellten Scan fehlen S. 110–111 und 180–181. Von Leonard Stein ergänzte Texte werden gesondert zugeschrieben."
+    },
+    {
+      "id": "daniel2004",
+      "name": "Thomas Daniel",
+      "title": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+      "group": "Lehrwerke",
+      "url": "https://katalog.slub-dresden.de/id/0-377774707",
+      "sortAuthor": "Daniel, Thomas",
+      "publicationYear": 2004,
+      "publicationLabel": "2004 (zugeordnet)",
+      "publicationNote": "Arbeitszuordnung zur 2., durchgesehenen Auflage: S. 10 nennt die zweite Auflage; der Bibliotheksnachweis belegt dafür Köln: Dohr, 2004. Das Impressum fehlt im Teilscan, deshalb ist die genaue Druckausgabe des Exemplars nicht abschließend gesichert. Erstveröffentlichung 2000. Erschlossen sind die gedruckten S. 9–201; der Scan bricht auf S. 201 ab. Wiederholte Aufnahmen werden nicht als zusätzliche Seiten gezählt."
     }
   ],
   "topics": [
@@ -2708,6 +2733,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-c05",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Perfekte Kadenzen, S. 164–165 · abspringende Diskantklausel in den Mittelstimmen",
+          "text": "Den Leittonabsprung behandelt Daniel als regulär verfügbare Variante der Diskantklausel in einer Mittelstimme. Meist führt der Sprung abwärts zur Quinte des Schlussklangs und ermöglicht einen vollständigen Dreiklang. Bei Bach ist dies im Alt besonders häufig; im Tenor kommt es seltener vor. Gelegentlich springt der Tenor stattdessen aufwärts zur Terz. Das gezeigte Mollbeispiel Telemanns enthält sogar eine verminderte Quarte. Ein fallender Durchgang vom Leitton aus ist damit nicht allgemein freigegeben: Daniel hält ihn am Kadenzende für untypisch und verweist nur auf vereinzelte Fälle innerhalb eines bereits angelegten Bewegungszugs. Bach, Telemann und Händel nutzen den Absprung zudem unterschiedlich häufig.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Vierstimmiger Choral · Leitton in Alt oder Tenor",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Perfekte Kadenzen, S. 164–165 · abspringende Diskantklausel in den Mittelstimmen",
+              "note": "Die Aussage betrifft Varianten der Diskantklausel in den Mittelstimmen konkreter spätbarocker Choräle. Sie unterscheidet Sprung, Durchgang und komponistenspezifische Häufigkeit."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c06",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Perfekte Kadenzen, S. 174 · Leittonabsprung bei vorgegebener Choralmelodie",
+          "text": "Auch ein Leittonabsprung im Sopran ist für Daniel nicht unter allen Umständen ausgeschlossen. Gibt die Choralmelodie einen fallenden großen Terzsprung vor, kann dieser als Absprung der Diskantklausel in einer perfekten Kadenz verstanden werden. Die Alternative ist die Altklausel, deren Terzfall einen Mollklang erreicht. Daniel zeigt beide Möglichkeiten am gleichen Tonhöhenverlauf. Er behandelt den Sopranabsprung dennoch als eingeschränkte Ausnahme: Die Tonart und die formale Stelle der Zeile entscheiden mit, welche Deutung sinnvoll ist. Seine Erlaubnis gilt damit der Aussetzung einer vorhandenen Melodie und macht den freien Sopranabsprung nicht zur allgemeinen Kadenzregel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Vierstimmiger Choral · vorgegebener Terzfall im Sopran",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Perfekte Kadenzen, S. 174 · Leittonabsprung bei vorgegebener Choralmelodie",
+              "note": "Daniel begründet die Ausnahme durch die gegebene Choralmelodie und vergleicht zwei konkrete Bach-Aussetzungen. Die Passage beschreibt ausdrücklich Grenzen dieser Wahl."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -2746,6 +2817,18 @@ const ATLAS = {
           "to": "motte1995-e07",
           "type": "context",
           "note": "De la Motte zeigt erhöhte Töne bei Palestrina, deren erwartete Leittonfortsetzung ganz entfällt und deren Funktion klanglich ist. Schönbergs Mollregel setzt die erhöhte siebte Stufe gerade wegen ihres Zugs zur Tonika ein. Aus dem historischen Farbton und dem pädagogisch definierten Wendepunkt folgt deshalb nicht dieselbe Fortsetzungspflicht."
+        },
+        {
+          "from": "daniel2004-c05",
+          "to": "schoenberg1970-m02",
+          "type": "context",
+          "note": "Schönbergs elementare Mollregel bindet die erhöhte siebte Stufe an die Tonika; auch spätere eingeschobene Töne behalten dieses Ziel bei. Daniels spätbarocke Mittelstimmen können die Diskantklausel dagegen endgültig zur Quinte oder Terz des Schlussklangs verlassen, in Moll sogar mit einem verminderten Quartsprung. Verglichen werden eine pädagogische Vorübung und konkrete Choral-Kadenzen."
+        },
+        {
+          "from": "daniel2004-c06",
+          "to": "salzer-schachter1989-5",
+          "type": "nuance",
+          "note": "Salzer und Schachter stellen dem zulässigen Absprung einer Innenstimme die fast immer schrittweise Leittonauflösung im Sopran gegenüber. Daniel benennt eine eng begrenzte Ausnahme für den Sopran: Ein vorgegebener großer Terzfall der Choralmelodie kann als Leittonabsprung gesetzt werden. Der Unterschied präzisiert die Ausnahme, statt aus der normalen Sopranführung ein absolutes Verbot zu machen."
         }
       ]
     },
@@ -2788,7 +2871,9 @@ const ATLAS = {
       },
       "related": [
         "betonte-dissonanz",
-        "unbetonte-dissonanz"
+        "unbetonte-dissonanz",
+        "akkordvollstaendigkeit",
+        "quartsext-dissonanz"
       ],
       "authors": [
         {
@@ -3075,6 +3160,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-r09",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "„Oktavregel“ und Baßstufen, S. 51–52 · Sextakkord über der zweiten Bassstufe",
+          "text": "Der Sextakkord über der zweiten Bassstufe besteht für Daniel zunächst aus den konsonanten Intervallen Terz und Sexte über dem wirklichen Bass. Ein Tritonus zwischen den oberen Tönen macht diesen Klang in der von ihm dargestellten Generalbassauffassung nicht zur Dissonanz. Er lehnt deshalb ab, ihn zwingend als unvollständigen Dominantseptakkord mit einem hinzugedachten Grundton zu erklären: Daraus würden Dissonanzpflichten folgen, die seine Stimmführung nicht voraussetzt. Auch die Umkehrung eines verminderten Dreiklangs gilt ihm hier nicht als hinreichende Erklärung. Der Sextakkord besitzt in diesem Zusammenhang eine eigene satztechnische Bedeutung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Generalbass · konsonanter Sextakkord mit oberem Tritonus",
+            "evidence": {
+              "basis": "passage",
+              "locator": "„Oktavregel“ und Baßstufen, S. 51–52 · Sextakkord über der zweiten Bassstufe",
+              "note": "S. 51 behandelt ausdrücklich den Sextakkord der zweiten Bassstufe als eigenen Klang. Die Aussage betrifft den Tritonus zwischen Oberstimmen, nicht eine verminderte Quinte über dem Bass."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d14",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Quarten und Quartsextakkorde, S. 127–130 · primäre und sekundäre Quarte",
+          "text": "Bei der Quarte ist für Daniel entscheidend, ob sie zum Bass oder zwischen Oberstimmen entsteht. Die primäre Quarte zum Bass verlangt in der kontrapunktischen Grundform eine Dissonanzbehandlung. Eine sekundäre Quarte zwischen Oberstimmen kann dagegen durch einen tieferen Basston gestützt sein, zu dem ihre beiden Töne als Terz und Sexte oder Quinte und Oktave konsonieren. In diesem Zusammenhang kommen bei Bach auch parallele Oberstimmenquarten vor. Davon unterscheidet Daniel die sogenannte konsonierende Quarte über einem Dominantorgelpunkt: Sie gehört zu den primären Quarten. Dissoniert sie bereits gegen eine gehaltene Quinte und bereitet danach eine Quart-Syncopatio vor, lehnt er ihre ungeprüfte Einstufung als Konsonanz ab. Intervallabstand, Bassbezug und Fortschreitung müssen deshalb getrennt geprüft werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · Quarte im mehrstimmigen Satz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Quarten und Quartsextakkorde, S. 127–130 · primäre und sekundäre Quarte",
+              "note": "S. 127–130 diskutiert die unterschiedliche historische Einstufung, primäre und sekundäre Quarte, Unterstützung durch den Bass und Oberstimmenparallelen. S. 130 betrifft ausdrücklich die primäre, sogenannte konsonierende Quarte über einem Dominantorgelpunkt; sie ist kein Gegenbeispiel zur Fundierung der sekundären Quarte. Diese Antwort ist von der Sextakkord-Deutung auf S. 51–52 zu trennen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -3107,6 +3238,12 @@ const ATLAS = {
           "to": "menke2017-28",
           "type": "context",
           "note": "Schönbergs dreistimmige Vorübung verlangt für verminderte und übermäßige Dreiklänge in Grundstellung eine Dissonanzfigur. In Menkes französischen Beispielen des späten 17. Jahrhunderts gehören dieselben Klangarten dagegen zu einem erweiterten konsonanten Zusammenhang. Die Differenz liegt zwischen dem eingeschränkten Übungsbestand und dem besonderen historischen Repertoire."
+        },
+        {
+          "from": "daniel2004-r09",
+          "to": "schoenberg1970-m10",
+          "type": "context",
+          "note": "Beide Belege lassen den Sextakkord mit Tritonus zwischen den Oberstimmen konsonant zu. Schönberg ordnet ihn in seiner dreistimmigen Übung als erste Umkehrung eines verminderten Dreiklangs ein. Daniel bestreitet für die historische Generalbassauffassung gerade, dass Umkehrung oder ein hinzugedachter Dominantgrundton die satztechnische Eigenart dieses Klangs ausreichend erklären. Verschieden ist hier die Erklärung, nicht die Erlaubnis."
         }
       ]
     },
@@ -4238,6 +4375,29 @@ const ATLAS = {
           "examples": [
             "motte-durchgangsrhythmen"
           ]
+        },
+        {
+          "id": "daniel2004-d10",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Durchgang und Wechselnote, S. 112–118 · Transitus regularis",
+          "text": "Zum Transitus gehören bei Daniel Durchgang und Wechselnote, sofern der betreffende Ton schrittweise erreicht und verlassen wird. Im Bach-Choral ist die Achtel zwischen zwei Viertelpositionen besonders häufig, doch der regelmäßige Durchgang kann auch eine ganze leichte Viertel ausfüllen. Mehrere Stimmen dürfen zugleich durchgehen; Daniel weist sogar eine Stelle mit vier gleichzeitig bewegten Stimmen nach. Dadurch können vollständige, wie Akkorde aussehende Durchgangsklänge entstehen. Die Häufigkeiten sind dennoch ungleich: Wechselnoten begegnen seltener als gerichtete Durchgänge, und Sechzehnteldurchgänge spielen in den authentischen Choralsätzen nur eine geringe Rolle. Aus dem Notenwert allein lässt sich die Art oder Bedeutung der Dissonanz daher nicht bestimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · regelmäßiger Durchgang und Wechselnote",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Durchgang und Wechselnote, S. 112–118 · Transitus regularis",
+              "note": "S. 112–113 definiert den Transitus und die gewöhnliche Achtelposition; S. 115 belegt gleichzeitig durchgehende Stimmen einschließlich WO 28 (C 57), S. 116–117 behandelt seltenere Wechselnoten/Sechzehntel, S. 117–118 den Viertel-Transitus. Kein Species-Scope: Viertel sind hier der reale Choralpuls."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -4294,7 +4454,8 @@ const ATLAS = {
         "konsonanz",
         "unbetonte-dissonanz",
         "harmonischer-rhythmus",
-        "viertel-gegen-viertel"
+        "viertel-gegen-viertel",
+        "kadenz-diminution"
       ],
       "authors": [
         {
@@ -4810,6 +4971,75 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-d02",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 102–104 · dissonante Vorbereitung einer Quarte",
+          "text": "Die vorbereitete Synkopendissonanz gehört bei Daniel zum gewöhnlichen Bestand des spätbarocken Choralsatzes. Vorbereitung bedeutet dabei nicht ausnahmslos Vorbereitung durch eine Konsonanz. In Bachs Wohlan, so will ich mich wird eine Quarte im Sopran durch denselben Ton vorbereitet, der zuvor bereits als verminderte Quinte zum Bass dissoniert. Der Ton bleibt als Stimme verbunden, obwohl sich seine dissonante Beziehung verändert. Auch beim synkopierten Quartsextakkord sind die Aufgaben zu trennen: Die Quarte bedarf der Vorbereitung; die hinzutretende Sexte ist eine konsonante Ergänzung und kann schrittweise oder springend eintreten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · vorbereitete Synkopendissonanz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 102–104 · dissonante Vorbereitung einer Quarte",
+              "note": "S. 103 zeigt K 133/6 (C 88); S. 104 erläutert ausdrücklich die verminderte Quinte als Vorbereitung der Sopranquarte und trennt im synkopierten Quartsextakkord die vorbereitete Quarte von der frei hinzutretenden konsonanten Sexte. Noten und Text auf S. 103–104 visuell geprüft."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d12",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Transitus irregularis, S. 118–127 · halbschwere und schwere Durchgänge",
+          "text": "Daniel unterscheidet beim Bach-Choral fünf Grundfälle des Transitus: die leichte Achtel zwischen Viertelschlägen, die Achtel auf einer halbschweren Viertelposition, die Achtel auf einer schweren Viertelposition sowie leichte und schwere Durchgänge von einer ganzen Viertel Dauer. Nur die beiden leichten Fälle heißen regularis; die drei anderen gehören zum irregularis. Schwere Durchgänge sind damit ausdrücklich möglich, bei Bach überwiegend im Bass und meist abwärts. Daniel widerspricht der Behauptung, sie kämen auf den eigentlichen schweren Taktzeiten nicht vor. Die bloße Zweiteilung in regularis und irregularis hält er für zu grob, weil sie weder die verschiedenen Gewichte noch die kurze und lange Erscheinungsform ausreichend auseinanderhält.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · metrische Abstufung des Transitus",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Transitus irregularis, S. 118–127 · halbschwere und schwere Durchgänge",
+              "note": "S. 124–126 belegt schwere Durchgänge gegen Heimanns pauschale Einschränkung; die fünfteilige Zusammenstellung S. 127 wurde visuell geprüft. S. 125 zeigt einen schweren Durchgang auch im Sopran; überwiegend im Bass ist eine Häufigkeitsaussage, kein Verbot für Oberstimmen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c08",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Perfekte Kadenzen, S. 163 und 167 · Vorbereitung der Diskantklausel und seltene Quartsextfälle",
+          "text": "Die Dissonanz der regulären Diskantklausel wird in Daniels Choral-Kadenz vorbereitet. Daran ändert auch die gewöhnliche Wiederholung des Synkopentons anstelle seiner Bindung nichts. Er nennt jedoch wenige Fälle eines kadenzierenden Quartsextklangs, in denen die Quarte ohne den üblichen vorbereitenden Ton eintritt. Ihre schrittweise Einführung setzt in den angeführten Fällen Achtelbewegung voraus, meist eine durchlaufende. Das einzige besprochene Gegenbeispiel steht im metrisch mehrdeutigen Dreivierteltakt; schon seine Deutung als schwere Dissonanz ist fraglich. Die Ausnahmen betreffen damit genau bestimmte melodische und rhythmische Situationen, keine allgemeine Freiheit, einen Quartvorhalt unvorbereitet einzuführen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Diskantklausel und kadenzierender Quartsextklang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Perfekte Kadenzen, S. 163 und 167 · Vorbereitung der Diskantklausel und seltene Quartsextfälle",
+              "note": "Die Antwort verbindet Daniels ausdrückliche Grundregel auf S. 163 mit den von ihm auf S. 167 erklärten Ausnahmen und deren metrischen Voraussetzungen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -4884,6 +5114,18 @@ const ATLAS = {
           "to": "jeppesen1964-27",
           "type": "contradiction",
           "note": "Jeppesen verlangt für den zweistimmigen Oberstimmenvorhalt eine unvollkommene Zielkonsonanz und schließt 9–8 sowie 2–1 aus. Schönberg erlaubt beide ausdrücklich, warnt jedoch vor leerer Klangwirkung beziehungsweise undeutlicher Stimmführung. Es geht um dieselben Vorhaltsintervalle innerhalb der vierten Spezies."
+        },
+        {
+          "from": "daniel2004-d02",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux führt die vierte zweistimmige Spezies mit konsonanter Vorbereitung ein. Daniels Bach-Beispiel bereitet die folgende Quartdissonanz bereits durch eine dissonante verminderte Quinte vor. Die Abweichung gehört zum mehrstimmigen spätbarocken Choralsatz und ist keine automatische Erweiterung der Fux-Übung."
+        },
+        {
+          "from": "daniel2004-d12",
+          "to": "menke2017-8",
+          "type": "nuance",
+          "note": "Beide Autoren rechnen betonte Durchgänge und Wechselnoten zum Transitus irregularis. Daniel differenziert innerhalb dieser gemeinsamen Einteilung zusätzlich halbschwere und schwere Achtel sowie ganze Viertel und gewinnt so fünf Grundfälle. Der Mehrwert liegt in der metrischen und zeitlichen Abstufung, nicht in einer gegensätzlichen Zulassung des betonten Transitus."
         }
       ]
     },
@@ -5215,6 +5457,75 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-d18",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Subsumtio, S. 141–144 · angesprungene untere Nebennote",
+          "text": "Die untere Nebennote einer Subsumtio kann im Bach-Choral dissonieren und dennoch angesprungen werden. Nach einer Synkopendissonanz ist dafür gewöhnlich der fallende Terzsprung maßgeblich; der Zwischenton steigt anschließend zum eigentlichen Auflösungston. Geht die Verzierung hingegen von einer Konsonanz aus, belegt Daniel auch größere fallende Sprünge in die untere Nebennote, darunter eine verminderte Quinte. Damit sind weder beliebige Sprünge in Dissonanzen noch jede aufwärts weitergeführte Sprungnote erklärt. Entscheidend bleiben die Stellung als unterer Nachbarton des Ziels, die konkrete Ornamentform und der Ausgangspunkt der Bewegung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · angesprungene untere Nebennote in der Subsumtio",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Subsumtio, S. 141–144 · angesprungene untere Nebennote",
+              "note": "S. 143–144 erweitert die Sprungweiten bei aus Konsonanzen hervorgehenden unteren Nebennoten; die aus einer Syncopatio hervorgehende Standardform bleibt der Terzfall. Die seltene Kadenzvariante 9–5–8 auf S. 144 ist keine allgemeine Sprungregel und wird nicht zu einer solchen verallgemeinert."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d20",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Lizenzen, S. 149–152 und 157 · Heterolepsis",
+          "text": "Ein Sprung in die Dissonanz kann sich bei Daniel daraus erklären, dass die Stimme einen Ton einer anderen wirklichen oder mitgedachten Stimme übernimmt. Bei der Heterolepsis wäre die Dissonanz in dieser anderen Linie schrittweise als Durchgang erreicht oder als Synkope vorbereitet worden. Im Bach-Choral betrifft dies besonders die von unten angesprungene dominantische Septime; sogar große Sprünge können so eine verständliche Verbindung besitzen. Die gedachte Stimme ist aber keine beliebige nachträgliche Rechtfertigung. Auf schweren oder halbschweren Positionen beschränkt Daniel die Freiheit auf dominantische Dissonanzen. Andere Dissonanzen können, wenn überhaupt, nur auf leichten Achtelpositionen heteroleptisch eintreten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · heteroleptische Dissonanzeinführung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Lizenzen, S. 149–152 und 157 · Heterolepsis",
+              "note": "S. 149–150 erklärt tatsächliche und virtuelle Stimmen; S. 151 behandelt schwer bzw. halbschwer eintretende dominantische kleine/verminderte Septimen; S. 152 ergänzt vorbereitende Heterolepsis. S. 157 beschränkt nichtdominantische Heterolepsis ausdrücklich auf leichte Achtelpositionen. Keine Gleichsetzung mit einer frei angesprungenen Appoggiatura beliebiger Funktion."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d22",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Lizenzen, S. 155–158 · Ellipsis und ihre Grenze",
+          "text": "Fehlt für den Dissonanzeintritt jede mögliche reguläre Einführung, unterscheidet Daniel die Ellipsis von der Heterolepsis. Der fehlende Schritt wird dann ausgelassen, statt in einer anderen wirklichen oder gedachten Stimme aufgegriffen zu werden. Das kann bereits den ersten Klang eines Chorals betreffen. Auch ein Ton des vorherigen Akkords darf nicht beliebig als gedachte Vorbereitung herangezogen werden, wenn dadurch eine satztechnisch unhaltbare Stimmführung entstünde. Daniel begrenzt die elliptische Einführung ausdrücklich auf dominantische Dissonanzen, insbesondere kleine und verminderte Septimen mit ihren Umkehrungen. Diese Lizenz betrifft die ausgelassene Einführung; sie bedeutet keine allgemeine Freistellung von der weiteren Behandlung der Dissonanz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · elliptischer Dissonanzeintritt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Lizenzen, S. 155–158 · Ellipsis und ihre Grenze",
+              "note": "S. 156 erklärt den voraussetzungslosen Beginn von K 153/5 durch Ellipsis; Anm. 115 verlangt eine strengere Trennung zur Heterolepsis als bei Heinichen/Heimann. S. 157 enthält das ausdrückliche Dominantgebot; S. 157–158 verwirft scheinbare heteroleptische Einführungen, die unhaltbare Quartsextakkorde voraussetzen würden. S. 156–157 visuell geprüft. Die Schlussbeispiele kombinieren mehrere seltene Verfahren."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -5247,6 +5558,24 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "nuance",
           "note": "Beide Autoren unterscheiden die gebundene Vorhaltsstimme von der Stimme, die die Dissonanz herstellt. Schubert lässt diese bewegte Stimme durch Schritt oder Sprung eintreten. De la Motte behandelt den Sprung in seinem Josquin-Repertoire als selten und für die eigene Übung eigens zu kennzeichnend."
+        },
+        {
+          "from": "daniel2004-d18",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Bei Fux wird die Dissonanz der Cambiata schrittweise erreicht, und der besondere Terzsprung führt aus ihr heraus. In Daniels vorangestellter Subsumtio führt der fallende Sprung gerade in eine dissonante untere Nebennote, die anschließend aufwärts zum Ziel schreitet. Die Figuren erfüllen in ihren jeweiligen Satzkontexten verschiedene Aufgaben."
+        },
+        {
+          "from": "daniel2004-d20",
+          "to": "menke2017-92",
+          "type": "context",
+          "note": "Menke erläutert Heinichens Lizenzen im modernen theatralischen Stil und die Erklärung angesprungener Dissonanzen durch gedachte Stimmen. Daniel übernimmt dieses Erklärungsprinzip, zieht für den Choralsatz aber eine zusätzliche Grenze nach Taktgewicht und Funktion: Nichtdominantische Fälle kommen nur auf leichten Achteln in Betracht."
+        },
+        {
+          "from": "daniel2004-d22",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Piston beschreibt die häufig angesprungene Appoggiatura des tonalen Repertoires ohne die hier formulierte Dominantbeschränkung. Daniel trennt heteroleptische und elliptische Einführung und lässt die eigentliche Auslassung des Einführungstons im Choralsatz nur bei dominantischen Dissonanzen gelten."
         }
       ]
     },
@@ -5283,7 +5612,8 @@ const ATLAS = {
         "unterbrechung-s4",
         "cambiata",
         "generalbass-zweideutiger-septakkord",
-        "rhythmuswechsel-s5"
+        "rhythmuswechsel-s5",
+        "dissonanz-aufloesungszeit"
       ],
       "authors": [
         {
@@ -5833,6 +6163,121 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-d06",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 103 und 112; Lizenzen, S. 151 · Abwärtsnorm und Achtelausnahmen",
+          "text": "Für die reguläre Synkopendissonanz des Chorals formuliert Daniel zunächst die schrittweise Abwärtsauflösung als Grundregel und verbindet sie mit dem Stylus gravis. Seine spätere Analyse schränkt die Ausschließlichkeit dieser Formulierung aber ein: In rascher Bewegung kann eine Septime bei liegender Harmonie zur Oktave aufsteigen; unter den Lizenzen benennt er ausdrücklich eine aufwärts aufgelöste Achtel-Syncopatio. An anderer Stelle erwägt er auch eine in eine andere Stimme verlegte Abwärtsauflösung. Die normale Richtung bleibt damit abwärts, doch ein striktes Aufwärtsverbot für sämtliche Dissonanzen und sämtliche Notenwerte des Bach-Chorals wäre durch Daniels eigene Beispiele widerlegt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · reguläre Syncopatio und verkürzte Ausnahme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 103 und 112; Lizenzen, S. 151 · Abwärtsnorm und Achtelausnahmen",
+              "note": "Die kategorische Grundformulierung S. 103 muss mit S. 112 samt Anm. 69 und dem ausdrücklich als aufwärts aufgelöste Achtel-Syncopatio benannten Fall S. 151 zusammen gelesen werden. Dies ist eine innere Qualifikation der Darstellung, kein aus einer anderen Gattung importierter Freibrief. S. 151 visuell geprüft."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d07",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 105–106 · Syncopatio catachrestica",
+          "text": "Eine schrittweise Abwärtsbewegung muss nicht sofort in einen insgesamt konsonanten Klang münden. Daniel zeigt Fälle, in denen eine synkopierte Septime bei aufwärtsgehendem Bass zunächst eine verminderte Quinte erreicht. Durch die Bewegung einer weiteren Stimme wird dieser Ton wiederum als Septime oder Sekunde auflösungsbedürftig. Er ordnet dies mit Bernhards Begriff als Syncopatio catachrestica ein. Die erwartete Richtung der einzelnen Stimme bleibt dabei nachvollziehbar; verändert wird die Forderung, nach jedem Dissonanzschritt müsse bereits eine selbständige Konsonanz stehen. Solche Verbindungen nennt Daniel ausdrücklich vereinzelte Besonderheiten der spätbarocken Satztechnik.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · Dissonanzauflösung in eine weitere Dissonanz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 105–106 · Syncopatio catachrestica",
+              "note": "S. 106 beschreibt die Septime→verminderte Quinte bei ansteigendem Bass und die neue Septim-/Sekundfunktion durch Bewegung einer Oberstimme; Anm. 63 zitiert Bernhards Definition. Die Seltenheit im untersuchten Choralsatz wird im Text genannt."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d13",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Transitus irregularis, S. 121–122 und 125–127 · Richtungen des betonten Durchgangs",
+          "text": "Schrittweise Einführung und Weiterführung machen den betonten Durchgang nicht in beiden Richtungen gleich gewöhnlich. Daniel betont für Bachs Choralsätze das starke Übergewicht fallender Fälle und kritisiert ausdrücklich Heimanns Darstellung, die steigende Form als ebenso geläufig erscheinen lasse. Steigende Durchgänge sind gleichwohl belegt, besonders im Bass und in bestimmten Sekundanschlüssen. Eine einzelne Choralzeile mit auffällig vielen Aufwärtsfällen darf nach Daniel nicht die Häufigkeitsverhältnisse des Repertoires ersetzen. Die zugelassenen Richtungen und die Häufigkeit ihrer Verwendung sind deshalb getrennt zu beurteilen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · Richtung und Häufigkeit des Transitus irregularis",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Transitus irregularis, S. 121–122 und 125–127 · Richtungen des betonten Durchgangs",
+              "note": "S. 121–122 kritisiert Heimanns Gleichstellung der Häufigkeiten und bespricht steigende Standardfälle sowie den auffälligen Sonderfall JP 17 (C 86). S. 125–126 enthält weitere seltene schwere Aufwärtsfälle, S. 127 die absteigenden Viertel-Transitus. Heimanns Position wird nur als von Daniel referierte Aussage wiedergegeben."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d17",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Subsumtio, S. 141–144 · untere Nebennote vor dem Auflösungston",
+          "text": "Bei der im Bach-Choral besonders gebräuchlichen vorangestellten Subsumtio springt die Synkopendissonanz zunächst eine Terz abwärts und erreicht dann ihren eigentlichen Auflösungston von unten. Die Quarte kann so über die Sekunde zur Terz geführt werden: 4–2–3. Daniel lässt auch 9–7–8 zu, verlangt dafür aber eine große None und eine große Septime; die Septime wirkt als Leitton zur Oktave. Der Zwischenton muss also nicht selbst konsonieren. Die historische Ornamentfigur erklärt, warum die unmittelbare Bewegung aus der Dissonanz ein Sprung und der letzte Schritt aufwärts sein kann, obwohl die zugrunde liegende Auflösung des vorbereiteten Tons abwärts gerichtet bleibt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · vorangestellte Subsumtio bei der Synkopenauflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Subsumtio, S. 141–144 · untere Nebennote vor dem Auflösungston",
+              "note": "S. 141–142 erklärt Subsumtio praepositiva und den für Bach typischen Terzfall; S. 142 verlangt bei 9–7–8 ausdrücklich große None und große Septime. S. 142 samt Noten visuell geprüft. Nicht mit der nachgestellten Form (Schritt abwärts, dann Terz aufwärts) gleichsetzen, die Menkes Monteverdi-Beispiel behandelt."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d21",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Lizenzen, S. 152–155 · Heterolepsis der Auflösung",
+          "text": "Auch die Auflösung einer Dissonanz kann eine andere Stimme übernehmen. Daniel zeigt eine Quarta syncopata im Tenor, die abspringt, während der Alt den erwarteten tieferen Auflösungston liefert; in einem weiteren Fall liegt dieser sogar in einer anderen Oktave. Dabei wird nicht notwendigerweise zuerst die Dissonanz an die neue Stimme weitergereicht: Sie kann unmittelbar den Auflösungston übernehmen. Selbst eine vorher in der ursprünglichen Stimme erklingende Sechzehntelnote kann bloße Vorausnahme bleiben, wenn die eigentliche Resolution erst zur passenden Zeit in der anderen Stimme geschieht. Der hörbare Zusammenhang der Stimmen ersetzt hier die vollständig in einer notierten Linie ausgeführte Auflösung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · Auflösung durch eine andere Stimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Lizenzen, S. 152–155 · Heterolepsis der Auflösung",
+              "note": "S. 152 erklärt d′ im Tenor→cis′ im Alt in JP 5¹ (= BWV 416, C 158), daneben oktavversetzte Auflösung in K 144/6. S. 153 unterscheidet eine vorwegnehmende Sechzehntel vom eigentlichen Auflösungsereignis in anderer Stimme; S. 154–155 behandelt weitere Umverteilungen. S. 152–153 visuell geprüft."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -5883,6 +6328,36 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-2",
           "type": "nuance",
           "note": "Neidhöfer und Schubert trennen den Vorhalt über gleicher Harmonie von der vorbereiteten Akkordseptime mit Harmoniewechsel. Schönberg behandelt auch zu einem neuen Akkord führende Septakkordklänge im Vorhaltskapitel. Die abwärts gerichtete Stimmenbewegung ist vergleichbar; die begriffliche Grenze wird unterschiedlich gezogen."
+        },
+        {
+          "from": "daniel2004-d06",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Piston erklärt Aufwärtsauflösungen besonders durch Leittonwirkung und chromatische Erhöhung im tonalen Repertoire. Daniel stellt für die reguläre Choral-Syncopatio die Abwärtsrichtung voran und behandelt die aufsteigende Achtelauflösung als begrenzte Ausnahme. Daniels spätere Beispiele verhindern, daraus ein ausnahmsloses Gegenverbot abzuleiten."
+        },
+        {
+          "from": "daniel2004-d17",
+          "to": "menke2017-87",
+          "type": "context",
+          "note": "Menkes Monteverdi-Beispiel zeigt die nachgestellte untere Nebennote: Schritt abwärts, dann Terzsprung aufwärts. Daniel behandelt als besonders gebräuchliche Bach-Form die vorangestellte Subsumtio: Terzsprung abwärts, dann Schritt aufwärts zum Auflösungston. Das sind verschiedene Platzierungen derselben Ornamentfamilie, keine unvereinbaren Definitionen."
+        },
+        {
+          "from": "daniel2004-d17",
+          "to": "salzer-schachter1989-3",
+          "type": "context",
+          "note": "Salzer und Schachter verlangen für eine eingeschobene Viertel vor der Vorhaltsauflösung Konsonanz. Daniels kürzere Subsumtio kann dagegen selbst dissonieren; für 9–7–8 nennt er genaue Intervallbedingungen. Die Abweichung betrifft die ausgeschmückte Choralpraxis gegenüber der zweistimmigen fünften Spezies."
+        },
+        {
+          "from": "daniel2004-d21",
+          "to": "motte1995-r05",
+          "type": "context",
+          "note": "De la Motte fordert in der einstimmigen Bach-Übung die Septimenauflösung in derselben gedachten Stimme und Oktavlage. Daniel zeigt dagegen im mehrstimmigen Choral eine tatsächliche andere Stimme, die den Auflösungston übernimmt, auch oktavversetzt. Ein beliebig später Zielton in einer einzelnen Linie wäre damit weiterhin nicht erklärt."
+        },
+        {
+          "from": "daniel2004-d21",
+          "to": "neidhoefer-schubert2023-3",
+          "type": "nuance",
+          "note": "Bei Neidhöfer und Schubert übernimmt die andere Stimme zunächst die Septime und führt diese dann abwärts. Daniels Heterolepsis der Auflösung kann unmittelbar den erwarteten Zielton einer anderen Stimme übertragen. Beide erhalten den Auflösungszusammenhang, verteilen seine beiden Töne aber verschieden auf die notierten Stimmen."
         }
       ]
     },
@@ -6508,6 +6983,147 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-v13",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Offene Parallelen“, S. 79–81 · Einklänge, Oktaven und Zeilenübergänge",
+          "text": "Daniel begründet die Ablehnung offener Einklangs- und Oktavparallelen damit, dass eine Stimme zur Verdopplung einer anderen wird und ihre eigene Rolle aufgibt. Für den Choralsatz formuliert er daraus ein grundsätzliches Verbot, grenzt es aber selbst ein: Seltene ausgeschriebene Verzierungen sowie einzelne Übergänge bei Stollenwiederholungen müssen gesondert betrachtet werden. Auch eine Zeilengrenze bildet somit keine allgemeine Erlaubnis für Parallelen. Zugleich trennt er die Oktaven ausdrücklich von den Quinten, für die er im diminuierten Satz eigene Ausnahmen behandelt. Seine Aussage ist eine nach Intervall und Situation gegliederte Lehrregel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · unmittelbar folgende Einklänge und Oktaven",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Offene Parallelen“, S. 79–81 · Einklänge, Oktaven und Zeilenübergänge",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v17",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Rein-vermindert ungehindert?“, S. 88–91 und Anm. 40–41 · gemischte Quinten",
+          "text": "Die Merkregel, eine reine Quinte dürfe in eine verminderte übergehen, die umgekehrte Folge aber nicht, beschreibt Daniels Bach-Befund unzureichend. Er findet gerade die aufsteigende Folge vermindert–rein häufig, meist zwischen Sopran und Alt. Entscheidend ist, dass die Töne der verminderten Quinte zum Bass konsonieren und daher keiner erzwungenen Abwärtsauflösung unterliegen. Der Bass selbst darf an dieser Folge ausdrücklich nicht beteiligt sein: Die verminderte Quinte über ihm verlangt die Verengung zur Terz. Rein–vermindert erscheint bei Daniel dagegen gewöhnlich abwärts und als Durchgangsbildung. Die seltenen Gegenrichtungen führt er in den Fußnoten als Ausnahmen an; aus den bevorzugten Richtungen wird somit kein lückenloses Verbot.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · reine und verminderte Quinte in Folge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Rein-vermindert ungehindert?“, S. 88–91 und Anm. 40–41 · gemischte Quinten",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true,
+          "examples": [
+            "daniel-gemischte-quinten"
+          ]
+        },
+        {
+          "id": "daniel2004-v18",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Indirekte Parallelen“, S. 92–95 · zeitlich getrennte Quinten und Oktaven",
+          "text": "Daniel nennt durch Zwischentöne getrennte vollkommene Intervalle „indirekte Parallelen“, weil sie auch auf leichten Zeiten auftreten können. Bei einem Abstand von zwei Zählzeiten genügen Gegenbewegung dazwischen oder Seitenbewegung in das Zielintervall. Beträgt der Abstand nur eine Zählzeit, verlangt er für Oktaven eingeschaltete Gegenbewegung; für Quinten gilt diese strengere Bedingung nur zwischen den Außenstimmen. Bloße Durchgänge bei unverändert gleicher Bewegungsrichtung reichen dagegen im Allgemeinen nicht. Häufen sich solche Folgen auf engem Raum, setzt Daniel eine entsprechend bewegte, harmonisch dichte Faktur voraus. Die Regel hängt deshalb an Zeitabstand, Bewegungsart und Stimmenpaar, nicht allein an der schweren oder leichten Position.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · indirekte Parallelen und Bewegungsart",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Indirekte Parallelen“, S. 92–95 · zeitlich getrennte Quinten und Oktaven",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v19",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Antiparallelen“, S. 96–99 · gegenläufige vollkommene Intervalle",
+          "text": "Eine reine Quinte und ihre Oktaverweiterung können bei Daniel unmittelbar in Gegenbewegung aufeinanderfolgen. Solche Antiquinten sind im Bach-Choral nicht auf Zeilenübergänge beschränkt; im Zeileninneren bevorzugt er die Verengung von der Duodezime zur Quinte zwischen Sopran und Tenor. Zwischen den Außenstimmen schließt seine Regel die Antiquinte innerhalb einer Zeile dagegen aus. Antioktaven beurteilt er erheblich strenger und zeigt sie im Verlauf nur als seltene Sonderfälle der unteren Stimmen; Antiprimen mit dem Einklang als Ziel verwirft er. Ein gemeinsames Verbot aller Antiparallelen würde ebenso wenig passen wie ihre unterschiedslose Freigabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Antiquinten, Antioktaven und Antiprimen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Antiparallelen“, S. 96–99 · gegenläufige vollkommene Intervalle",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v20",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Kreuzungsparallelen“, S. 99–101, vor „Dissonanzen“ · vokale Linien und Klavierdarstellung",
+          "text": "Parallelen müssen für Daniel an den tatsächlichen Stimmenwegen geprüft werden. Bei einer Kreuzung kann ein Klang, der am Klavier als Folge von Quinten oder Oktaven hervortritt, in den verschieden gefärbten Chorstimmen anders erscheinen: Nicht mehr dasselbe Stimmenpaar führt beide Intervalle. Daniel zeigt diesen Kunstgriff für Quinten und auch für Oktaven. In besonders enger Lage können sogar scheinbare Einklangsparallelen entstehen. Die bloße Sortierung der Töne nach ihrer Höhe ersetzt deshalb keine Partituranalyse. Zugleich behält er die dichten, mehrfach gekreuzten Beispiele erfahrenen Choralsetzern vor; sie sind keine allgemeine Anleitung, eine fehlerhafte Folge durch Umbenennen der Stimmen zu kaschieren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · durch Kreuzung veränderte Stimmenzuordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Kreuzungsparallelen“, S. 99–101, vor „Dissonanzen“ · vokale Linien und Klavierdarstellung",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d19",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Quintparallelen, S. 145–148 · begrenzte Ausnahmen im vierstimmigen Bach-Choral",
+          "text": "Daniel lehnt ein ausnahmsloses Verbot offener Quinten im Bach-Choral ab, begrenzt die repräsentativen Fälle aber sehr eng. Sie gehören in Achtelfigurationen der drei Oberstimmen und benötigen wenigstens einen dissonanten Ton; auch eine in die nächste Viertelposition führende Quinte ist dabei möglich. Diese Bedingungen allein genügen jedoch nicht. Daniel nennt zwei typische Formen: die Verbindung einer Sopran-Anticipatio nach einem punktierten Wert mit dem 8–7-Durchgang des Tenors am Kadenzende sowie eine leichte None als Transitus außerhalb gewöhnlicher Kadenz- oder Sequenzmuster. Ein einfacher Sept- oder Sextdurchgang, der in Stufenfolgen wie IV–V oder I–II die parallele Akkordverschiebung nur oberflächlich verdeckt, bleibt ausgeschlossen. Andere belegte Fälle behandelt er als nicht repräsentative Ausnahmen, nicht als zusätzliche allgemeine Erlaubnis.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Vierstimmiger Bach-Choral · figurative Quintparallelen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Quintparallelen, S. 145–148 · begrenzte Ausnahmen im vierstimmigen Bach-Choral",
+              "note": "Alle vier Seiten und Notenbeispiele visuell geprüft. S. 145–146 formuliert notwendige Bedingungen; für die erste Kadenzform verlangt S. 146 die Sopran-Anticipatio nach einem punktierten Wert, nicht zwei gleich lange Achtel; S. 147 erlaubt ausdrücklich das Hineinführen in eine Viertelposition; S. 148 erklärt die Bedingungen für nicht hinreichend und nennt nur zwei repräsentative Typen. Die fünfstimmige Ausnahme in Anm. 108 und Telemanns Viertelquinten in Anm. 101 sind keine Regeln für vierstimmige Bach-Choräle."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -6570,6 +7186,48 @@ const ATLAS = {
           "to": "salzer-schachter1989-2",
           "type": "nuance",
           "note": "Salzer und Schachter ermöglichen wiederkehrende Quinten oder Oktaven auf benachbarten Taktanfängen schon mit drei intervenierenden Vierteln, wenn weitere Hervorhebungen ausbleiben. Schönberg spricht auf S. 37 von mindestens vier Zwischentönen und einer Quarte und behält zudem den Notfallvorbehalt bei. Beide prüfen Trennung und Verlauf, setzen den Spielraum aber unterschiedlich eng."
+        },
+        {
+          "from": "daniel2004-v17",
+          "to": "menke2017-6",
+          "type": "nuance",
+          "note": "Menke richtet seine Warnung vor vermindert–rein ausdrücklich auf die Außenstimmen und zeigt die aufsteigende Folge zwischen Oberstimmen. Daniel erlaubt die entsprechende Oberstimmenfolge ebenfalls, formuliert die Bassgrenze aber weiter: An vermindert–rein darf bei ihm überhaupt kein Stimmenpaar mit Bass beteiligt sein, auch nicht Bass–Alt. Daniel präzisiert damit eine Bassbeteiligung, die in Menkes hier angeführter Formulierung nicht gesondert geregelt wird."
+        },
+        {
+          "from": "daniel2004-v18",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin unterscheidet im zweistimmigen barocken Instrumentalsatz wiederkehrende Quinten auf schweren und leichten Zeiten. Daniel setzt beim vierstimmigen Choral zusätzlich am zeitlichen Abstand und an der Bewegungsart an; auch nachschlagende Außenquinten müssen bei kurzem Abstand Gegenbewegung enthalten. Die leichtere Taktposition genügt ihm als Erklärung nicht."
+        },
+        {
+          "from": "daniel2004-v18",
+          "to": "schoenberg1970-e25",
+          "type": "context",
+          "note": "Schönberg erwägt in seiner zweistimmigen dritten Spezies unterbrochene Quinten und Oktaven erst bei großer Trennung und unter einem Notfallvorbehalt. Daniel beschreibt im vierstimmigen Bach-Choral mögliche indirekte Folgen schon im Abstand einer Zählzeit, sofern Bewegungsart und Stimmenpaar passen. Stimmenzahl, Figuration und Lernaufgabe verändern den Spielraum."
+        },
+        {
+          "from": "daniel2004-v19",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch verbieten reine Quinten oder Oktaven in Gegenbewegung noch im vier- und fünfstimmigen einfachen Kontrapunkt. Daniel lässt Antiquinten im vierstimmigen Bach-Choral auch innerhalb der Zeile zu, besonders zwischen Sopran und Tenor. Das ist eine Differenz zwischen der abgegrenzten Lehrübung und der beschriebenen spätbarocken Satzpraxis."
+        },
+        {
+          "from": "daniel2004-v19",
+          "to": "menke2017-6",
+          "type": "context",
+          "note": "Menke hebt die Gegenbewegung von Quinte zu Duodezime als beliebtes Mittel der Monodie um 1600 hervor. Daniel grenzt im späteren vierstimmigen Choralsatz genauer ein: Innerhalb einer Zeile meidet er Antiquinten in den Außenstimmen und bevorzugt die Verengung Duodezime–Quinte im oberen Stimmenbereich. Die Satzart innerhalb des Barockrahmens macht hier einen Unterschied."
+        },
+        {
+          "from": "daniel2004-d19",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Pistons Haydn-Quinten treten hervor, weil sie Dissonanzen auflösen. Daniels repräsentative Bach-Quinten werden dagegen durch die beteiligten figurativen Dissonanzen in ihrer Selbständigkeit abgeschwächt. Er bindet sie zudem an bestimmte Choralformeln; ein allgemeines Dissonanzargument erklärt beide Fälle deshalb nicht gleich."
+        },
+        {
+          "from": "daniel2004-d19",
+          "to": "gallon-bitsch1964-2",
+          "type": "context",
+          "note": "Gallon und Bitsch begründen ihre konkrete Quintenfolge mit der kanonischen Stimmführung und einem Durchgangston. Daniel gewinnt die Choral-Ausnahmen aus eng begrenzten Dissonanzverbindungen und weist nach, dass ein Durchgangston allein nicht genügt. Die Begründung des Kanons lässt sich daher nicht ungeprüft auf den freien Choralsatz übertragen."
         }
       ]
     },
@@ -7040,6 +7698,75 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-v14",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Verdeckte Parallelen“, S. 81–85 · Beteiligung einer Mittelstimme",
+          "text": "Sobald eine Mittelstimme beteiligt ist, unterscheidet Daniel weiterhin nach Stimmenpaar und Zielintervall. Zwischen Tenor und Bass lässt er verdeckte Quinten, Oktaven und selbst Primen zu, auch wenn beide Stimmen springen. Verdeckte Quinten hält er bei Mittelstimmenbeteiligung allgemein für unbedenklich; ein springender Sopran ist dabei kein zusätzlicher Ausschlussgrund. Unter den drei Oberstimmen sind verdeckte Oktaven möglich, besonders zwischen Sopran und Tenor, während er verdeckte Primen als ungebräuchliche Sonderfälle behandelt. Die einfache Formel, nur die Außenstimmen verlangten Vorsicht, wäre deshalb zu grob.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · verdeckte Intervalle mit Mittelstimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Verdeckte Parallelen“, S. 81–85 · Beteiligung einer Mittelstimme",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v15",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Verdeckte Parallelen“, S. 85–87 · springender Sopran zwischen den Außenstimmen",
+          "text": "Bei verdeckten Quinten oder Oktaven zwischen Sopran und Bass fragt Daniel, ob eine neue Harmonie entsteht oder nur die Töne desselben Akkords anders verteilt werden. Springt der Sopran, gehören die gewöhnlichen Fälle für ihn zur zweiten Gruppe, zur historischen „Verwechselung“: etwa ein Oktavsprung des Basses bei gleichzeitigem Lagentausch oben. Dass die Oberstimme lediglich den kleineren Sprung ausführt, reicht ihm als Erklärung nicht. Er zeigt allerdings auch seltene Kadenzfälle mit Harmoniewechsel. Die Unterscheidung ist daher eine Regel mit begründeten Ausnahmen, kein vollständiges Sprungverbot im Sopran.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Außenstimmen bei Akkordwechsel und Tonumverteilung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Verdeckte Parallelen“, S. 85–87 · springender Sopran zwischen den Außenstimmen",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v16",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Verdeckte Parallelen“, S. 88 und Anm. 35 · verdeckte Außenoktave und Zeilenschluss",
+          "text": "Eine verdeckte Oktave zwischen den Außenstimmen kann für Daniel auf die Gliederung des Chorals hinweisen. Geht sie nicht bloß aus einer Umverteilung desselben Akkords hervor, verbindet er sie gewöhnlich mit dem Zeilenschluss: Der schrittweise Sopran und die springende Bassklausel treffen sich in der Oktavlage. Im Zeileninneren würde dieselbe Wendung bereits Abschlusswirkung erzeugen. Eine entsprechende verdeckte Quinte darf dagegen auch im Verlauf stehen. Daniels eigene Fußnote nennt jedoch Binnenkadenzen und eine Kadenzflucht als Gegenbeispiele zur Bindung an das Zeilenende. Das Kadenzsignal ist deshalb genauer als eine ausnahmslose Regel über Fermaten oder Textgrenzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Kadenzfunktion verdeckter Außenoktaven",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Verdeckte Parallelen“, S. 88 und Anm. 35 · verdeckte Außenoktave und Zeilenschluss",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -7126,6 +7853,24 @@ const ATLAS = {
           "to": "salzer-schachter1989-2",
           "type": "nuance",
           "note": "Salzer und Schachter knüpfen den direkten Eintritt mit Mittelstimme an die Gegenbewegung der anderen Außenstimme. Schönbergs erlaubte dreistimmige Fälle umfassen auch gleichgerichtete Bewegung aller Stimmen. Dafür hebt er besonders streng die Oktave hervor, bei der eine zweite Stimme dem zwingenden Ziel einer Dissonanz in gerader Bewegung folgt."
+        },
+        {
+          "from": "daniel2004-v14",
+          "to": "gallon-bitsch1964-2",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch knüpfen die verdeckte Quinte oder Oktave mit zwei springenden Stimmen bis zur Fünfstimmigkeit daran, dass ein Zielton schon der vorigen Harmonie angehört. Daniel räumt Tenor und Bass im Bach-Choral weitergehende Freiheit ein, einschließlich großer Sprünge. Die Bedingungen der strengen Mehrstimmenübung werden im Repertoirebefund nicht unverändert vorausgesetzt."
+        },
+        {
+          "from": "daniel2004-v15",
+          "to": "jeppesen1964-51",
+          "type": "context",
+          "note": "Jeppesen lockert das Verbot verdeckter Außenoktaven in der vierstimmigen ersten Art und bevorzugt dabei die schrittweise Oberstimme. Daniel erklärt die seltenere springende Oberstimme im Bach-Choral zusätzlich durch die Umverteilung desselben Akkords und durch bestimmte Kadenzfälle. Die Renaissance-Übung und die spätbarocke Repertoireanalyse verwenden verschiedene Bedingungen."
+        },
+        {
+          "from": "daniel2004-v16",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Piston beurteilt direkte Quinten und Oktaven in Bach-Fugen nach der rhythmischen Hervorhebung des Zielintervalls. Daniel bindet die nicht bloß aus Tonumverteilung entstehende Außenoktave im Choralsatz vor allem an Kadenz- und Zeilenschlüsse, mit eigens genannten Ausnahmen. Derselbe Komponist liefert je nach Gattung verschiedene Maßstäbe."
         }
       ]
     },
@@ -7166,7 +7911,8 @@ const ATLAS = {
       "related": [
         "stimmuebergreifen",
         "doppelter-kontrapunkt",
-        "stimmen-ergaenzen"
+        "stimmen-ergaenzen",
+        "choral-stimmumfang"
       ],
       "authors": [
         {
@@ -7679,6 +8425,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-v10",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Stimmkreuzungen und Niveauüberschreitungen“, S. 77–78 · vierstimmiger Choralsatz",
+          "text": "Daniel hält die Beschränkung von Stimmkreuzungen auf die Mittelstimmen für unzutreffend. In Bachs Choralsätzen können auch Sopran und Alt oder Tenor und Bass kurzzeitig ihre Lage vertauschen. Solche Stellen ergeben sich häufig aus einer schlüssigen Linie, der Vermeidung von Parallelen oder der Vorbereitung und Auflösung einer Dissonanz. Die Mittelstimmen kreuzen sich dennoch häufiger: Melodie und Bass treten als äußere Träger klanglich besonders hervor und vertragen nur begrenzt Konkurrenz durch ihre Nachbarstimmen. Die Erlaubnis beschreibt eine kurze, begründete Wendung innerhalb des ausgearbeiteten Satzes.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · kurze Stimmkreuzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Stimmkreuzungen und Niveauüberschreitungen“, S. 77–78 · vierstimmiger Choralsatz",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v12",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Stimmkreuzungen und Niveauüberschreitungen“, S. 78 und Anm. 18 · Tenor, Vokalbass und Kontrabass",
+          "text": "Wenn der Tenor unter den notierten Vokalbass tritt, entsteht bei isolierter Betrachtung der vier Singstimmen mitunter ein scheinbarer Quartsextakkord. Daniel verlangt, die tatsächliche Ausführung mitzudenken: Die Oktavverdopplung des Bassfundaments durch den Kontrabass kann unter dem Tenor bleiben und den Gesamtklang weiterhin als Grundakkord tragen. Er lässt solche Kreuzungen auch an Zeilenenden und -anfängen gelten. Der untere Ton des vierstimmigen Klavierauszugs ist hier also nicht automatisch der tiefste Ton der klingenden Besetzung. Ohne diese instrumentale Ergänzung müsste die Basslage neu geprüft werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · vokale Kreuzung bei instrumentalem Bassfundament",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Stimmkreuzungen und Niveauüberschreitungen“, S. 78 und Anm. 18 · Tenor, Vokalbass und Kontrabass",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -7783,6 +8575,18 @@ const ATLAS = {
           "to": "jeppesen1964-20",
           "type": "context",
           "note": "Jeppesen empfiehlt Kreuzungen schon in der zweistimmigen ersten Art als grundlegendes positives Mittel. Schönberg begründet sie an dieser späteren Stelle mit den Schwierigkeiten beim Ergänzen dritter und vierter Stimmen und bei der Neutralisierung. Die Wertung als erwünschtes Ausgangsmittel bzw. möglicher Ausweg gehört zu verschiedenen Aufgaben."
+        },
+        {
+          "from": "daniel2004-v12",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch erlauben die Kreuzung am Schluss ihrer Übung erst ab fünf Stimmen. Daniel behandelt den vierstimmigen Bach-Choral und schließt kurze Kreuzungen an Zeilenenden nicht aus. Stimmenzahl allein erklärt die Differenz nicht; die Lehrübung und der instrumental gestützte Repertoiresatz stellen verschiedene Aufgaben."
+        },
+        {
+          "from": "daniel2004-v12",
+          "to": "salzer-schachter1989-2",
+          "type": "context",
+          "note": "In der dreistimmigen Speziesübung von Salzer und Schachter übernimmt eine unter die bisherige Bassstimme kreuzende Mittelstimme die Bassfunktion. Daniels Choralsatzbeispiel verlangt zusätzlich den klingenden Instrumentalbass zu berücksichtigen: Bleibt dessen Oktavverdopplung darunter, wandert das Bassfundament nicht mit dem tiefsten Vokalton. Entscheidend ist die vollständige Besetzung."
         }
       ]
     },
@@ -7872,6 +8676,37 @@ const ATLAS = {
               "note": "Die Antwort untersucht ein einzelnes Stimmenverhältnis. Ein bestimmter historischer Stilbezug ist dafür noch nicht belegt."
             }
           }
+        },
+        {
+          "id": "daniel2004-v11",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Stimmkreuzungen und Niveauüberschreitungen“, S. 77–78, Bach K 83/5 · Übergreifen benachbarter Stimmen",
+          "text": "Auch eine Niveauüberschreitung, bei der eine Stimme in die zuvor von der Nachbarstimme beanspruchte Lage eintritt, ist für Daniel nicht grundsätzlich ausgeschlossen. An K 83/5 bestreitet er besonders die Vorschrift, dabei dürfe keine Außenstimme beteiligt sein. Wie die Kreuzung kommt das Übergreifen häufiger in den Mittelstimmen vor, kann aber auch an einem äußeren Stimmenpaar durch den Verlauf der Linien begründet sein. Sopran und Bass behalten ihre klangliche Vorrangstellung; die kurzzeitige Überschreitung ist deshalb im Zusammenhang der ganzen Phrase zu beurteilen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Niveauüberschreitung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Stimmkreuzungen und Niveauüberschreitungen“, S. 77–78, Bach K 83/5 · Übergreifen benachbarter Stimmen",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "daniel2004-v11",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prout beanstandet das Übergreifen und sucht in der zweiten Spezies nach einem entlastenden Zwischenton mit Gegenbewegung. Daniel lässt im vierstimmigen Bach-Choral auch eine Niveauüberschreitung mit Außenstimmenbeteiligung aus der Linienführung gelten. Die eng begrenzte Lehrregel und die Untersuchung des Choralsatzes haben unterschiedliche Spielräume."
         }
       ]
     },
@@ -8103,13 +8938,84 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-v02",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Lagen“, S. 64–66 · Lage der Kadenzultima",
+          "text": "Enge und weite Lage sind für Daniel an den Tonraum der einzelnen Singstimmen gebunden. Bei tiefem Melodieton liegen die drei Oberstimmen gewöhnlich eng, bei hohem weit, sofern sie gemeinsam alle drei Dreiklangstöne enthalten. Er entwickelt diese Beobachtung vor allem an den Schlussklängen der Choralzeilen. Die gewöhnliche Untergrenze einer weiten Schlusslage liegt dabei bei a′ im Sopran; das tiefere g′ behandelt er anhand einer besonderen phrygischen Kadenz als Ausnahme. Es genügt daher nicht, einen vollständigen Dreiklang beliebig zwischen enger und weiter Lage umzuverteilen: Dieselbe Verteilung kann die Alt- oder Tenorlage ungünstig verschieben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · enge und weite Lage am Zeilenschluss",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Lagen“, S. 64–66 · Lage der Kadenzultima",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v08",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Große Stimmabstände“, S. 74–77 · benachbarte Oberstimmen",
+          "text": "Die Oktave zwischen benachbarten Oberstimmen ist für Daniel eine Faustregel, keine unverletzliche Grenze. Selbst die Oktave erscheint bereits als ungewöhnlich weiter Abstand; gewöhnliche weite Lagen arbeiten eher mit Sexten. Größere Zwischenräume erklärt er aus konkreter Linienführung, ausholenden Sprüngen oder satztechnischen Zwängen. Eine starre Dezimgrenze würde einige dieser Bach-Beispiele ebenfalls ausschließen. Er unterscheidet jedoch begründete Erweiterung und Extremfall: Die außergewöhnliche Tredezime zwischen Sopran und Alt in K 31/9 gehört zu einer besonderen, instrumental ergänzten Anlage und wird ausdrücklich nicht zur Nachahmung empfohlen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Sopran–Alt und Alt–Tenor",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Große Stimmabstände“, S. 74–77 · benachbarte Oberstimmen",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v09",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Große Stimmabstände“, S. 77, K 113/8 und Johannespassion Nr. 22 · Tenor und Bass",
+          "text": "Der Bass folgt für Daniel nicht denselben Lagebedingungen wie die drei Oberstimmen. Während der Tenor noch hoch liegt, kann der Bass vorübergehend weit nach unten gehen. Die gezeigten Bach-Stellen reichen dabei bis zur Doppeloktave. Entscheidend bleibt, wie die Linien auseinander- und wieder zusammenstreben. Eine Abstandsregel für Sopran–Alt oder Alt–Tenor lässt sich deshalb nicht unverändert auf Tenor–Bass übertragen; ebenso wenig macht das Beispiel eine dauerhafte Trennung um zwei Oktaven zum Normalfall.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Abstand zwischen Tenor und Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Große Stimmabstände“, S. 77, K 113/8 und Johannespassion Nr. 22 · Tenor und Bass",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
       "related": [
         "doppelter-kontrapunkt",
         "doppelchor-basslinien",
-        "fuge-formanalyse"
+        "fuge-formanalyse",
+        "choral-stimmumfang",
+        "akkordvollstaendigkeit"
       ],
       "readingSources": [
         "bellermann1901",
@@ -8158,6 +9064,12 @@ const ATLAS = {
           "to": "motte1995-j05",
           "type": "context",
           "note": "Schönberg erlaubt im anfänglichen Zweistimmensatz nur Sopran–Alt, Alt–Tenor und Tenor–Bass. De la Motte zählt wegen historisch überlappender Stimmumfänge im Josquin-Satz auch Sopran–Tenor und Alt–Bass zu benachbarten Lagen. Derselbe Ausdruck „benachbart“ bezieht sich auf unterschiedliche Besetzungs- und Registervorstellungen."
+        },
+        {
+          "from": "daniel2004-v08",
+          "to": "bellermann1901-1",
+          "type": "context",
+          "note": "Bellermanns benachbarte Singstimmen bleiben in der Speziesübung auch vorübergehend innerhalb einer Dezime. Daniel untersucht den vierstimmigen Bach-Choral und begründet dort einzelne größere Abstände mit Linienführung, Satztechnik und Besetzung. Die enge Übungsgrenze lässt sich nicht ohne diese Prüfung auf den ausgearbeiteten Choralsatz übertragen."
         }
       ]
     },
@@ -8856,6 +9768,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-r03",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Zur Ton- und Tonartensystematik, S. 11–15 · Tonvorrat und Akzidentien im Choralsatz",
+          "text": "Daniel begrenzt den verfügbaren Tonvorrat nach Tonart und Gattung. Für den spätbarocken Choralsatz setzt er keine jederzeit frei verfügbare Gesamtheit enharmonischer Töne voraus. Erhöhte Töne dienen vor allem als Leittöne beziehungsweise als große Terzen und Sexten; erniedrigte Töne können die von ihm beschriebene Mollfärbung erzeugen. Daraus folgt noch nicht, dass jeder solche Ton auch zum Grundton eines Dur- oder Mollakkords werden darf. Die wenigen von ihm genannten Gegenbeispiele bleiben als Ausnahmen sichtbar. Auch enharmonische Varianten innerhalb eines ganzen Chorals, nicht erst unmittelbar nacheinander, behandelt er als seltene, besonders zu begründende Vorgänge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · gattungsgebundener Tonvorrat",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Zur Ton- und Tonartensystematik, S. 11–15 · Tonvorrat und Akzidentien im Choralsatz",
+              "note": "Die Einschränkungen betreffen den gemäßigten Choralsatz; S. 12–15 nennen ausdrücklich außergewöhnliche Bach-Stellen. Daraus wird keine allgemeine Chromatikregel für sämtliche Barockmusik abgeleitet."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d23",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Lizenzen, S. 156–157 · chromatischer Halbton als elliptische Dissonanzeinführung",
+          "text": "Eine chromatisch abwärts erreichte Septime ist für Daniel nicht schon wegen der benachbarten Tonhöhe ein regulärer Transitus. In Beispielen von Telemann und Bach führt die chromatische Senkung zwar zu einer dominantischen Dissonanz, ersetzt aber nicht deren gewöhnliche diatonische Einführung von oben. Daniel versteht den fehlenden Einführungston deshalb als Ellipsis. Bei einer verminderten Septime kann das ausgelassene Modell auch eine Wechselnote sein, wenn der vermeintliche Durchgang sonst einen übermäßigen Schritt verlangte. Der chromatische Halbton bleibt in diesen Fällen möglich, benötigt aber eine genauere Erklärung als das allgemeine Etikett einer schrittweise eingeführten Dissonanz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Choralsätze von Bach und Telemann · chromatisch erreichte dominantische Dissonanz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Lizenzen, S. 156–157 · chromatischer Halbton als elliptische Dissonanzeinführung",
+              "note": "S. 156–157 analysiert Telemanns Allein Gott in der Höh sei Ehr und Bachs K 127/5 (C 70): chromatische Senkung/querständiger Sprung als Ellipsis statt Transitus; beim verminderten Septimfall erklärt eine ausgelassene Wechselnote die Einführung. Beide Seiten visuell geprüft."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "related": [
@@ -8867,7 +9825,9 @@ const ATLAS = {
         "lamento-bass",
         "tritonus-melodiebogen",
         "moll-neutralisierung",
-        "tonart-und-region"
+        "tonart-und-region",
+        "choral-modaler-tonartbezug",
+        "kadenzflucht-und-trugschluss"
       ],
       "relations": [
         {
@@ -8899,6 +9859,18 @@ const ATLAS = {
           "to": "menke2017-4",
           "type": "context",
           "note": "Menkes barocke Skala enthält die veränderlichen sechsten und siebten Stufen als verfügbares Material einschließlich besonderer Fortsetzungen. Schönbergs enge Wendepunktregeln dienen dagegen einer vorläufigen Lernaufgabe; er erklärt ausdrücklich, dass sie Bachs Praxis nicht beschreiben. Der Unterschied betrifft den Geltungsbereich der Vorschrift."
+        },
+        {
+          "from": "daniel2004-r03",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Piston ordnet chromatische Töne nach ihren möglichen Aufgaben in dur-moll-tonaler Melodik. Daniel beschränkt zusätzlich den Tonvorrat und die Verwendung veränderter Töne als Akkordgrundtöne für den spätbarocken Choralsatz. Eine harmonisch erklärbare Alteration ist damit noch nicht automatisch eine für diese Gattung typische Wahl."
+        },
+        {
+          "from": "daniel2004-d23",
+          "to": "neidhoefer-schubert2023-1",
+          "type": "nuance",
+          "note": "Neidhöfer und Schubert erklären die chromatisch abgesenkte Leitton-Septime vom Ausgangston her: Dessen erwartete Auflösung entfällt. Daniel fragt nach der Einführung der neuen Dissonanz und erkennt dort einen ausgelassenen diatonischen Schritt. Die beiden Analysen bezeichnen verschiedene unterbrochene Verbindungen innerhalb des chromatischen Übergangs."
         }
       ]
     },
@@ -10475,7 +11447,9 @@ const ATLAS = {
         "leittonaufloesung",
         "sprung-zum-leitton",
         "kadenz",
-        "kadenz-unterstimme"
+        "kadenz-unterstimme",
+        "picardische-terz",
+        "kadenz-klauselwechsel"
       ],
       "authors": [
         {
@@ -10607,6 +11581,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-c03",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Perfekte Kadenzen, S. 161 und 165–166; S. 172–173 · Klauseltausch und Zielton der Melodie",
+          "text": "Die Bezeichnung einer Klausel legt bei Daniel nicht fest, welche Singstimme sie ausführt. Da viele Choralmelodien im Sekundschritt abwärts schließen, liegt eine Tenorklausel häufig im Sopran. Auch die Altklausel kann nach oben treten: Sie erreicht die Terz durch einen Fall oder bleibt auf der Quinte des Zielklangs liegen. Eine veränderte Tenorklausel steigt ihrerseits zur Terz, etwa wenn die gegebene Melodie dies verlangt oder der vollständige Schlussklang sonst nicht erreichbar wäre. Für die Oberstimme sind deshalb sowohl die melodische Schlussformel als auch ihr Platz im vierstimmigen Klang zu bestimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Vierstimmiger Choral · Klauseln in der Sopranstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Perfekte Kadenzen, S. 161 und 165–166; S. 172–173 · Klauseltausch und Zielton der Melodie",
+              "note": "Die Beispiele untersuchen den Klauseltausch und Varianten konkreter Bach- und Telemann-Choräle. Die Sopranpartie wird nicht mit der Diskantklausel gleichgesetzt."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -10615,6 +11612,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "context",
           "note": "Shaffers erste Spezies verbindet den Schluss 2–1 mit dem unmittelbaren Leittonschritt 7–1. Green und Jones behandeln eine historische Unterterzkadenz, in der vor dem Zielton die sechste Stufe eingeschoben wird."
+        },
+        {
+          "from": "daniel2004-c03",
+          "to": "shaffer2012-1",
+          "type": "context",
+          "note": "Shaffers erste zweistimmige Spezies kombiniert die Schlusszüge 7–1 und 2–1 zum gemeinsamen Grundton. Daniel untersucht einen vierstimmigen Choral: Im Sopran können zusätzlich eine zur Terz steigende Tenorklausel oder eine auf Terz beziehungsweise Quinte zielende Altklausel stehen. Die andere Stimmenzahl und die gegebene Melodie erweitern die Schlussmöglichkeiten."
         }
       ]
     },
@@ -10650,7 +11653,10 @@ const ATLAS = {
         "kadenz",
         "kadenz-oberstimme",
         "cadenza-doppia",
-        "trugschluss-klauseln"
+        "trugschluss-klauseln",
+        "phrygische-schlussdeutung",
+        "kadenz-diminution",
+        "kadenz-klauselwechsel"
       ],
       "authors": [
         {
@@ -10738,6 +11744,83 @@ const ATLAS = {
               "note": "Die vier Typen werden aus barocken Bassklauseln gewonnen und mit Muffats Bezeichnungen beschrieben."
             }
           }
+        },
+        {
+          "id": "daniel2004-c10",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Tenorisierende / Diskantisierende Kadenzen, S. 175–180 · Klauseltausch mit dem Bass",
+          "text": "Die springende Bassklausel ist bei Daniel nur eine Möglichkeit des Choral-Zeilenschlusses. Übernimmt der Bass den fallenden Sekundschritt der Tenorklausel, entsteht eine tenorisierende Kadenz; mit der steigenden Diskantklausel eine diskantisierende. Dabei müssen die anderen Stimmen angepasst werden. Über der Tenorklausel im Bass darf die Altklausel beispielsweise keine fehlerhafte primäre Quarte bilden. Eine im Sopran vorgegebene fallende Quinte kann umgekehrt geradezu nach einem steigenden Bassschritt verlangen. Welche Klausel unten liegt, ergibt sich deshalb aus dem gesamten Stimmenverband und den Möglichkeiten der Choralmelodie.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Vierstimmiger Choral · Tenor- und Diskantklausel im Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Tenorisierende / Diskantisierende Kadenzen, S. 175–180 · Klauseltausch mit dem Bass",
+              "note": "Daniel erläutert die beiden Kadenztypen anhand historischer Klauselmodelle und spätbarocker Choral-Aussetzungen. Die Antwort bleibt beim vierstimmigen Zeilenschluss."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c11",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Altisierende Wendungen, S. 180–181; Ausnahmefälle S. 197–198 · Bass zur Terz des Zielklangs",
+          "text": "Für die reguläre Zeilenschlussbildung schließt Daniel die Altklausel im Bass aus. Bleibt ihr Ton liegen und wird zur Quinte des Zielklangs, entsteht ein Quartsextakkord ohne die erforderliche Schlusskraft. Auch den Fall zur Terz behandelt er hier nicht als geeigneten Zeilen- oder Finalschluss. Solche altisierenden Wendungen können aber innerhalb einer Zeile, an deren Anfang oder beim Übergang in eine neue Zeile auftreten. Daniel trennt somit Satzverlauf und Schlussbildung. Seine später besprochenen seltenen Halbschlüsse auf Dominantumkehrungen bleiben ein gesonderter Ausnahmefall: Sie brauchen die passende Textsituation und eine bestimmte Fortsetzung in der nächsten Zeile.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choral · altisierender Bass und formale Position",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Altisierende Wendungen, S. 180–181; Ausnahmefälle S. 197–198 · Bass zur Terz des Zielklangs",
+              "note": "Die Regel auf S. 180–181 wird von den ausdrücklich als selten bezeichneten Halbabschlüssen auf S. 197–198 unterschieden. Dadurch wird Daniels Grundregel nicht zu einem ausnahmslosen Verbot jeder Bass-Terz am Zeilenende."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c16",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Exkurs über den Quartfall, S. 188–191 · Halbschluss, Plagalschluss und historische Benennungen",
+          "text": "Ein Quartfall im Bass bestimmt für Daniel noch nicht, ob ein Halb- oder ein Plagalschluss vorliegt. Entscheidend ist auch, welche Stufe der Tonart erreicht wird. Die historischen Bezeichnungen fallen dabei unterschiedlich aus: Derselbe Terminus kann verschiedene Ziele umfassen, und gleiche Wendungen können verschieden benannt sein. Deshalb übernimmt Daniel etwa Clausula dissecta nicht unterschiedslos für jeden Quartfall. Er bevorzugt die verständliche Unterscheidung zwischen Halbschluss und Plagalschluss, obwohl deren terminologische Trennung später als manche untersuchte Quelle liegt. Für das Phrygische lässt er die Grenze ausdrücklich offen. Historische Terminologie soll für ihn die beobachtbare Schlussfunktion erklären, ihre Unterschiede nicht verdecken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocke Kadenzlehre · Quartfall und Begriffsvergleich",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Exkurs über den Quartfall, S. 188–191 · Halbschluss, Plagalschluss und historische Benennungen",
+              "note": "Der Exkurs vergleicht mehrere historische Bezeichnungen und begründet Daniels eigenen analytischen Sprachgebrauch für die Bach-Zeit. Die phrygische Ausnahme bleibt erhalten."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "daniel2004-c16",
+          "to": "menke2017-20",
+          "type": "context",
+          "note": "Menke ordnet nach Muffat den Quartfall beziehungsweise Quintanstieg des Basses einem eigenen Kadenztyp zu. Daniel fragt beim gleichen Bassgang zusätzlich nach dem erreichten Tonartziel und unterscheidet Halb- von Plagalschluss; er zeigt, dass die historischen Namen diese Funktionen nicht einheitlich trennen. Die Einteilungen setzen bei Bassmodell und Schlussfunktion unterschiedliche Schwerpunkte."
         }
       ]
     },
@@ -11270,7 +12353,8 @@ const ATLAS = {
       "related": [
         "dissonanzen-s2",
         "harmonik-enharmonische-spannung",
-        "viertel-gegen-viertel"
+        "viertel-gegen-viertel",
+        "quartsext-dissonanz"
       ],
       "authors": [
         {
@@ -11748,6 +12832,75 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-d01",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Dissonanzen, S. 101–102 · Syncopatio und Transitus als Grundkategorien",
+          "text": "Daniel beurteilt die Dissonanz zunächst nach ihrer Einführung und Weiterführung. Die spätbarocke Satz- und Generalbasslehre erklärt fast alle Fälle durch Syncopatio oder Transitus: durch vorbereitete Synkopierung oder schrittweise Bewegung, zu der auch Wechselnoten gehören. Auch ein Zusammenklang, der wie ein selbständiger Septakkord aussieht, erhält deshalb keine eigene Freiheit der Stimmführung. Die damalige Bezeichnung als Akkord besagt zunächst nur, dass mindestens drei Töne zusammenklingen. Zugleich warnt Daniel vor einer starren Zuordnung nach Taktgewicht oder Dauer: Beide Grundverfahren können einander überlagern, und ein Durchgang ist nicht notwendig kürzer als eine Synkopendissonanz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · historische Dissonanzkategorien",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Dissonanzen, S. 101–102 · Syncopatio und Transitus als Grundkategorien",
+              "note": "S. 101 ordnet auch akkordisch erscheinende Dissonanzen den beiden historischen Grundverfahren zu; S. 102 relativiert eine allein metrische oder durch die Dauer bestimmte Klassifikation. Die Einleitung S. 9–10 begrenzt den Ansatz auf die historische Betrachtung des spätbarocken Choralsatzes."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d05",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 104–105 · Quinta syncopata im Quintsextakkord",
+          "text": "Im synkopierten Quintsextakkord ist für Daniel die Quinte der auflösungsbedürftige Ton, auch wenn sie zum Bass als reine Quinte konsoniert. Daniel bezieht ebenso die verminderte Quinte ein; maßgeblich ist die Sekundreibung zwischen Quint- und Sextton. Die Generalbasszahl benennt die dissonierende Quinte dennoch nach ihrem Abstand zum Bass. Diese Quinta syncopata wird vorbereitet und schrittweise abwärts geführt. Die Sexte bleibt meist liegen oder steigt, während der Bass gewöhnlich einen Schritt aufwärts geht. Für die Auflösung ist ein Klangwechsel erforderlich: Ein bloßes 5–4 über festgehaltenem Bass ergäbe hier einen irregulären Terzquartakkord. Die Sexte pauschal als hinzugefügten, eigentlich dissonanten Ton zu erklären, verfehlt daher gerade diese Stimmführungsform.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · synkopierter Quintsextakkord",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 104–105 · Quinta syncopata im Quintsextakkord",
+              "note": "S. 104–105 erklärt die Quinte als dissonierend gegen die Sexte, ihre Abwärtsauflösung, den gewöhnlichen Bassanstieg und den erforderlichen Klangwechsel. S. 105 schließt reine und verminderte Quinten ein; Anm. 61 bezeichnet bei der verminderten Quinte die Sekundreibung zum Sextton als Hauptdissonanz. Daniel weist die pauschale Benennung als Sixte ajoutée zurück. Noten und Text beider Seiten visuell geprüft; keine Übertragung auf jeden denkbaren Quintsextakkord."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d24",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Transitus irregularis, S. 123–124 · Daniels Einwand gegen eine Tertia syncopata",
+          "text": "Dass ein kurzer Zusammenklang als Terzquartakkord bezeichnet werden kann, entscheidet noch nicht, welcher Ton dissoniert. Daniel wendet sich gegen Heimanns Deutung eines Bach-Beispiels als Tertia syncopata: Die kurze Dauer, die Lage auf einer leichten Viertelposition und die unmittelbar folgende Weiterführung sprechen für einen durchgehenden Quartton beziehungsweise Tritonus. Die Terz muss dort nicht abwärts aufgelöst werden; verwandte Beispiele führen sie sogar aufwärts. Daniel begründet seine Lesart außerdem mit einer älteren satztechnischen Entsprechung. Die konkrete Kontroverse betrifft damit die Zuweisung der Dissonanz an eine Stimme und die daraus behauptete Auflösungspflicht, nicht die bloße Benennung des Zusammenklangs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · Deutung eines kurzen Terzquartklangs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Transitus irregularis, S. 123–124 · Daniels Einwand gegen eine Tertia syncopata",
+              "note": "S. 123–124 diskutiert Heimanns Deutung anhand von K 33/6 (C 10), K 126/6 (C 160) und K 135/6 (C 75), samt älterer Analogie. S. 123 visuell geprüft. Heimanns Auffassung ist hier ausschließlich durch Daniels kritisches Referat belegt; kein eigenständiger Heimann-Quelleneintrag wird daraus erzeugt."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -11786,6 +12939,12 @@ const ATLAS = {
           "to": "zarlino1558-1",
           "type": "context",
           "note": "Zarlino erklärt die Dissonanz durch ihre Beziehung zur folgenden Konsonanz. De la Motte setzt bei der untersuchten Webern-Klangsprache diese Polarität nicht voraus: Die große Septime kann deren selbstverständliches Grundmaterial sein. Der Unterschied betrifft den Klangbegriff und seine stilistische Reichweite, nicht allein eine andere Auflösungsregel."
+        },
+        {
+          "from": "daniel2004-d01",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Piston unterscheidet im tonalen Repertoire ausdrücklich die Akkordseptime vom akkordfremden Ton. Daniel rekonstruiert für den spätbarocken Choral die Einführung und Weiterführung auch akkordisch erscheinender Dissonanzen durch Syncopatio oder Transitus. Der Unterschied liegt im historischen Erklärungsrahmen und begründet keine pauschale Freiheit aller Septakkordtöne bei Piston."
         }
       ]
     },
@@ -11819,7 +12978,13 @@ const ATLAS = {
         "choral-fermate",
         "cadenza-doppia",
         "trugschluss-klauseln",
-        "tonart-und-region"
+        "tonart-und-region",
+        "phrygische-schlussdeutung",
+        "choral-kadenzplanung",
+        "picardische-terz",
+        "kadenz-diminution",
+        "kadenz-klauselwechsel",
+        "kadenzflucht-und-trugschluss"
       ],
       "authors": [
         {
@@ -12122,6 +13287,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-c02",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Kadenzen und andere Schlüsse / Perfekte Kadenzen, S. 159–161 · Klauselgerüst und Schlusspositionen",
+          "text": "Daniel erschließt die spätbarocke Kadenz von den einzelnen Stimmen her. Das Tenor-Diskant-Gerüst verbindet den fallenden Sekundschritt der Tenorklausel mit der gewöhnlich synkopierten Diskantklausel, die über den Leitton zum gemeinsamen Ziel führt. Für die vierstimmige perfekte Kadenz treten die springende Bassklausel und die Altklausel hinzu. Diskant, Tenor und Bass erreichen in ihrer Grundform den Zielgrundton; die Altklausel führt zur Quinte oder Terz. Die Begriffe Ultima, Penultima und Antepenultima bezeichnen die letzten drei Positionen, von hinten gezählt. Eine harmonische Deutung bleibt möglich, setzt für Daniel aber das Verständnis der zusammenwirkenden Klauseln voraus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · vierstimmiges Kadenzgerüst",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kadenzen und andere Schlüsse / Perfekte Kadenzen, S. 159–161 · Klauselgerüst und Schlusspositionen",
+              "note": "Daniel führt ältere Klauselformen als Grundlage der anschließend untersuchten spätbarocken Choral-Kadenzen ein. Die Antwort bezieht die historischen Grundformen auf diesen Lehrrahmen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c09",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Perfekte Kadenzen, S. 170–172 · Cadentia simplex und melodisch bedingter Verzicht auf die Synkopendissonanz",
+          "text": "Eine Choralzeile kann nach Daniel eine weitgehend konsonante Kadenz verlangen. Wird die Diskantklausel statt durch eine vorbereitete Synkope schrittweise eingeführt, kann die dafür nötige Dissonanzvorbereitung fehlen. Dann entsteht eine Cadentia simplex. Daniel bestimmt sie hauptsächlich durch das Fehlen der Synkopendissonanz; gleiche Notenwerte aller Stimmen allein reichen nicht zur Unterscheidung. In einem Bach-Beispiel ergibt sich dabei tatsächlich T–S–D–T mit Grundtönen im Bass. Daniel warnt aber davor, diese seltene, durch die Melodie bedingte Gestalt zum Standard des Bach-Chorals zu erklären. Andere konsonante Kadenzen wählen eine andere Vorstufe zur Dominante.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choral · Cadentia simplex",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Perfekte Kadenzen, S. 170–172 · Cadentia simplex und melodisch bedingter Verzicht auf die Synkopendissonanz",
+              "note": "Der Abschnitt erklärt konsonante Kadenzformen aus den konkreten Melodiewendungen und vergleicht mehrere Bach-Choräle. Die Häufigkeitsbewertung ist Daniels Repertoirebefund."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -12130,6 +13341,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Goetschius nennt den gemeinsamen Grundtonschluss in der vollständigen zweistimmigen Phrase fakultativ. Noël-Gallon und Bitsch schreiben ihn für ihre zweistimmige erste Spezies im Einklang oder in der Oktave vor."
+        },
+        {
+          "from": "daniel2004-c09",
+          "to": "schoenberg1970-m06",
+          "type": "context",
+          "note": "Schönberg lässt die erste freie zweistimmige Kadenz durch Elemente von IV oder II, danach V und I die Tonart klären. Daniel erklärt eine tatsächlich vorkommende Grundstellungsfolge T–S–D–T im Bach-Choral als seltene, melodisch bedingte Form der konsonanten Cadentia simplex. Eine harmonische Übungsgrundlage und ein historischer Repertoirebefund erfüllen hier verschiedene Aufgaben."
         }
       ]
     },
@@ -12683,6 +13900,121 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-r01",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Einleitung, S. 9–10; Harmoniesysteme, S. 24–25 und 31 · historische Grundlage der Choralbetrachtung",
+          "text": "Daniel macht die Satz-, Generalbass- und Kadenzlehre der Bach-Zeit zur Grundlage seiner Untersuchung. Spätere Harmoniesysteme dürfen diesen Zugang ergänzen, ihn aber nicht ersetzen. Auch die Funktionstheorie lässt er ausdrücklich als gelegentliches Analysewerkzeug zu; er bestreitet ihren Anspruch, jede Erscheinung hinreichend zu erklären. Ebenso wenig genügen ihm alleinige Stufenbezeichnungen oder Rameaus Fundamentalbass. Entscheidend bleibt, ob das gewählte Verfahren die konkrete Musik verständlich macht. Seine Kritik richtet sich somit gegen die Vorherrschaft eines Systems, nicht gegen jede harmonische Betrachtung des spätbarocken Chorals.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · historische Satzlehre und Analyseverfahren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Harmoniesysteme, S. 24–25 und 31 · historische Grundlage der Choralbetrachtung",
+              "note": "Die Einleitung benennt den spätbarocken Choralsatz und die damaligen theoretischen Quellen. S. 25 und 31 erlauben ausdrücklich einen ergänzenden, selektiven Gebrauch späterer Harmoniebegriffe."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-r06",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Rameaus basse fondamentale, S. 26–30; Zur Funktionstheorie, S. 32 · verschiedene Bedeutungen von Dominante",
+          "text": "Daniel warnt davor, Rameaus dominante ohne Weiteres mit der Dominante späterer Funktionstheorie gleichzusetzen. In seiner Darstellung Rameaus erhält ein Akkord diese Rolle durch seine Fortsetzung im Quintfall und eine tatsächlich erklingende oder hinzugedachte Septime; auch mehrere Septakkorde einer Sequenz können daher nacheinander dominantes sein. Erst die dominante-tonique richtet sich auf die Tonika des Zusammenhangs. Die spätere Funktionstheorie bindet ihre Dominante dagegen an die Stellung zur übergeordneten Tonika, unabhängig vom unmittelbar folgenden Akkord. Gleiche Wörter können somit verschiedene Beziehungen benennen. Für das Lesen einer historischen Erklärung muss zunächst geklärt werden, welcher Begriffsgebrauch vorliegt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Harmoniebegriffe · Rameaus lokale Akkordbeziehungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Rameaus basse fondamentale, S. 26–30; Zur Funktionstheorie, S. 32 · verschiedene Bedeutungen von Dominante",
+              "note": "Die Antwort gibt Daniels Vergleich Rameaus mit späterer Funktionstheorie wieder. Sie schreibt Bach keine nachgewiesene Verwendung von Rameaus System zu."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-r07",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Rameaus basse fondamentale, S. 27–28; Zur Funktionstheorie, S. 36–37; Zur Stufenlehre, S. 45–46 · double emploi",
+          "text": "Am Quintsextakkord über der vierten Bassstufe erläutert Daniel Rameaus double emploi: Die gleichen Töne können verschiedene satztechnische Aufgaben haben. In C-Dur kann im Klang f–a–c–d das c als Quinte über dem Bass dissonieren und zum h eines folgenden G-Dur-Klangs fallen; d bleibt dabei liegen. Geht der Klang unmittelbar nach C-Dur, kann dagegen d als hinzugefügte Sexte zum e steigen. Daniel kritisiert eine Bezeichnung, die unabhängig von dieser Fortsetzung stets dieselbe Note zur Dissonanz erklärt. Auch eine feste Deutung als erste Umkehrung eines Septakkords beantwortet diese Frage für ihn noch nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocke Klangverbindung · Quintsextakkord und double emploi",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Rameaus basse fondamentale, S. 27–28; Zur Funktionstheorie, S. 36–37; Zur Stufenlehre, S. 45–46 · double emploi",
+              "note": "Die Notenbeispiele und ihre Erläuterung auf S. 27–28 unterscheiden die dissonierende Quinte von der sixte ajoutée; S. 36–37 und 45–46 prüfen daran zwei spätere Harmoniesysteme."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-r11",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "„Oktavregel“ und Baßstufen, S. 51–53 · Umkehrung und reelle Verwechselung bei Heinichen",
+          "text": "Gleicher Tonbestand bedeutet in Daniels historischer Betrachtung noch nicht, dass zwei Klänge dieselbe Harmonie mit ausgetauschtem Basston darstellen. Er unterscheidet den späteren allgemeinen Umkehrungsbegriff von Heinichens reeller Verwechselung: Dort tauscht der Bass unmittelbar mit einer Akkordstimme, und ein Klang mit denselben Tönen in neuer Ordnung entsteht. Dieses konkrete Verfahren ist für Daniel noch keine umfassende Einteilung aller Sext-, Quartsext- oder Septakkordstellungen nach einem gleichbleibenden Grundton. Besonders bei der zweiten und sechsten Bassstufe der Oktavregel verlangt er, die tatsächlich erklingenden Intervalle und ihre Fortsetzung zu untersuchen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historischer Generalbass · Heinichens Verwechselung und Akkordidentität",
+            "evidence": {
+              "basis": "passage",
+              "locator": "„Oktavregel“ und Baßstufen, S. 51–53 · Umkehrung und reelle Verwechselung bei Heinichen",
+              "note": "S. 52 zitiert Heinichens Erklärung der reellen Verwechselung und grenzt deren unmittelbaren Vorgang vom späteren systematischen Umkehrungsbegriff ab."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c19",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Halbschlüsse, S. 196–197 · unterschiedliche Bedingungen für Dur- und Moll-Subdominante",
+          "text": "An den Halbschlüssen zeigt Daniel eine Grenze der bloßen Funktionsanalogie. Die Durverbindung S–D und die phrygisch gefärbte Mollverbindung s–D sind in seiner Choral-Auswahl nicht beliebig austauschbar. Den Durfall findet er nur unter besonderen melodischen Voraussetzungen, vor allem wenn ein fallender Durchgang zur Quintlage des Dominantklangs führt. Die Mollwendung gewinnt dagegen durch ihren charakteristischen Halbton eine starke Schlusswirkung. Auch eine in Moll gebräuchliche Führung aus dem Sextakkord lässt sich für ihn nicht einfach als Durversion übernehmen. Die gleichen Funktionsbuchstaben müssen daher an der tatsächlichen Stimmführung und dem untersuchten Repertoire überprüft werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choral · Dur- und Mollformen des Halbschlusses",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Halbschlüsse, S. 196–197 · unterschiedliche Bedingungen für Dur- und Moll-Subdominante",
+              "note": "Daniel vergleicht ausdrücklich konkrete Dur- und Mollwendungen und leitet seine Einschränkung aus den Choral-Beispielen her. Die Antwort gibt diesen Repertoirebefund als seinen Befund wieder."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -12698,7 +14030,8 @@ const ATLAS = {
         "generalbass-bezifferung-stimmfuehrung",
         "tonart-und-region",
         "akkordton-verdopplung",
-        "stimmen-ergaenzen"
+        "stimmen-ergaenzen",
+        "akkordvollstaendigkeit"
       ],
       "readingSources": [
         "prout1890",
@@ -12752,6 +14085,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "context",
           "note": "Prout sucht hinter einem Stimmenpaar die durch seine Fortschreitung bestimmte gemeinsame Harmonie. In den untersuchten Strawinsky-Passagen hört de la Motte mehrere jeweils verständliche, aber gegeneinander gesetzte tonale Verläufe zugleich. Die Voraussetzung einer einzigen gemeinsamen Funktionsfolge ist dort nicht derselbe Ausgangspunkt."
+        },
+        {
+          "from": "daniel2004-r01",
+          "to": "motte1995-r04",
+          "type": "nuance",
+          "note": "Daniel gibt der historischen Satz-, Generalbass- und Kadenzlehre beim Bach-Choral den Vorrang und lässt spätere Harmoniebegriffe ergänzend zu. De la Motte beginnt seinen Lehrgang zu Bachs Instrumentallinien ausdrücklich mit funktionaler Deutung und benennt deren Grenzen später selbst. Der Unterschied liegt in Ausgangspunkt und Gewichtung; keiner der beiden Belege fordert eine lückenlose Funktionalisierung jedes Tons."
         }
       ]
     },
@@ -13845,7 +15184,8 @@ const ATLAS = {
         "choral-vorimitation",
         "obligo-kontrapunkt",
         "choral-gegenstimme",
-        "gregorianische-vorlage"
+        "gregorianische-vorlage",
+        "choral-modaler-tonartbezug"
       ],
       "authors": [
         {
@@ -16507,7 +17847,9 @@ const ATLAS = {
         "choral-fermate",
         "romanesca-satzgeruest",
         "choral-gegenstimme",
-        "kontrapunkt-in-homophonie"
+        "kontrapunkt-in-homophonie",
+        "dissonanz-aufloesungszeit",
+        "kadenz-diminution"
       ],
       "authors": [
         {
@@ -16793,6 +18135,29 @@ const ATLAS = {
           },
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d11",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Durchgang und Wechselnote, S. 114–115; Quintparallelen, S. 147 · scheinbare Akkorde der Figuration",
+          "text": "Gleichzeitige Durchgänge können einen vollständigen Dreiklang oder Septakkord ergeben, ohne damit eine selbständige Harmonie einzuführen. Daniel zeigt im Bach-Choral etwa einen scheinbaren A-Dur-Sextakkord, der aus bewegten Stimmen im Zusammenhang einer anderen Harmonie und einer Synkopenauflösung hervorgeht. Umgekehrt kann ein echter Klangwechsel für die Fortführung eines Durchgangs nötig werden, besonders bei einer abwärtsgeführten dominantischen Septime. Die Entscheidung verlangt deshalb die Betrachtung des ganzen Stimmverlaufs. Daniel hält das Verfahren, zunächst sämtliche Viertel als Akkorde festzulegen und die Zwischenräume nachträglich mit Durchgängen zu füllen, für unzureichend, um Bachs lineare Satzweise zu erfassen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · Figuration und harmonischer Wechsel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Durchgang und Wechselnote, S. 114–115; Quintparallelen, S. 147 · scheinbare Akkorde der Figuration",
+              "note": "S. 114 beschreibt einen aus Transitus und Nona-Syncopatio entstehenden scheinbaren A-Dur-Sextakkord, S. 115 kritisiert die akkordische Vorausplanung jeder Viertelposition und behandelt die besondere Fortführung der dominantischen Durchgangsseptime. S. 147 greift die scheinbare Konsonanz zur Quintenerklärung auf. Es wird keine pauschale Verneinung harmonischer Wechsel behauptet."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
         }
       ],
@@ -18314,6 +19679,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-d04",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 103, 109–111 und Anm. 66 · Zeitmaß und Überdehnung",
+          "text": "Das rhythmische Grundmodell des Chorals besteht aus drei Vierteln für Vorbereitung, Dissonanz und Auflösung. Bach verwendet daneben verkleinerte Synkopendissonanzen in Achteln. Daniel beurteilt ihre Dauer im Zusammenhang des gleichmäßigen Stimmverlaufs: Nach einer nur achtellangen Vorbereitung würde das lange Festhalten der Dissonanz als Überdehnung auffallen; bewegte Figuration kann eine verzögerte Auflösung dagegen überbrücken. Eine Viertel an eine vorbereitende Achtel anzubinden, kommt nach seiner Untersuchung im Choralsatz nicht vor. Nach einer vorbereitenden Viertel nennt er jedoch einzelne längere angebundene Werte, deren Dehnung beim mäßigen Tempo weniger hervortritt. Die Beispiele ergeben somit keine ausnahmslose Regel gleicher Vorbereitungs- und Dissonanzdauer.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · Dauer der Synkopenvorbereitung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 103, 109–111 und Anm. 66 · Zeitmaß und Überdehnung",
+              "note": "S. 103 nennt das Drei-Viertel-Modell, S. 109 Achtel-Syncopationes. S. 110–111 erläutert die durch Bewegung aufgefangene Verzögerung; Anm. 66 unterscheidet ausdrücklich nicht vorkommende Achtel→Viertel-Anbindung und sporadische Viertel→größerer Wert. Keine Verallgemeinerung der seltenen längeren Bindungen auf kurze Vorbereitung."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "readingSources": [],
@@ -18329,6 +19717,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "nuance",
           "note": "Gallon und Bitsch verlangen in der behandelten Übung mindestens eine Halbe als Vorbereitung. Schönberg formuliert das Verhältnis der beiden gebundenen Dauern: Die leichte Vorbereitung muss mindestens so lang sein wie der betonte angebundene Teil. Dadurch bleibt seine Bedingung auch bei einer verkleinerten Synkope anwendbar."
+        },
+        {
+          "from": "daniel2004-d04",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prout verlangt für die gebundene Stimme eine Vorbereitung, die mindestens so lang ist wie der angebundene Wert. Daniel beschreibt im Choralsatz seltene längere Bindungen nach einer vorbereitenden Viertel, weist aber längere Bindungen nach einer bloßen Achtel ausdrücklich zurück. Seine Ausnahmen hängen an Notenwert, Tempo und Stimmfluss."
         }
       ]
     },
@@ -18684,6 +20078,29 @@ const ATLAS = {
               "note": "Der Wechsel des Stufenbezugs wird an einer unveränderten Bassnote in Corellis Violinsonate op. 5 Nr. 10 untersucht."
             }
           }
+        },
+        {
+          "id": "daniel2004-r10",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "„Oktavregel“ und Baßstufen, S. 52–53 · arabische Bassstufen und Intervallziffern",
+          "text": "Daniel verwendet arabische Ziffern für die Stufe des tatsächlich erklingenden Basses und ergänzt daran die Generalbassintervalle. So benennt die vierte Bassstufe mit den Ziffern 6 und 5 zunächst nur einen Quintsextakkord über diesem Skalenton. Die Angabe entscheidet noch nicht, ob die Quinte als Syncopatio behandelt wird, eine sixte ajoutée vorliegt oder der Klang vorübergehend aus anderer Stimmenbewegung entsteht. Ebenso wenig bezeichnet sie automatisch eine Akkordumkehrung. Daniel setzt diese Schreibweise gezielt ein, ohne sie zum einzigen Verfahren zu erklären; eindeutige Tonika- und Dominantbeziehungen dürfen weiterhin entsprechend benannt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocke Satzanalyse · Bassstufe und Generalbassintervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "„Oktavregel“ und Baßstufen, S. 52–53 · arabische Bassstufen und Intervallziffern",
+              "note": "Daniel trennt auf S. 52–53 seine arabischen Bassstufen von römischen Akkordstufen und lässt die satztechnische Bedeutung der bloßen Klangbezeichnung ausdrücklich offen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "readingSources": []
@@ -18723,6 +20140,29 @@ const ATLAS = {
             "foerster-nr8-t7"
           ],
           "speciesScope": []
+        },
+        {
+          "id": "daniel2004-v05",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Zur Tonverdopplung“, S. 67 und 69 · Sextakkord und verminderter Dreiklang",
+          "text": "Beim Sextakkord muss zuerst geklärt sein, ob mit einer Terz oder Sexte das Intervall über dem Bass oder ein Bestandteil des umgedeuteten Dreiklangs gemeint ist. Daniel führt Carl Philipp Emanuel Bachs Empfehlung an, gewöhnlich Terz oder Sexte über dem Bass zu verdoppeln und die Bassoktave seltener hinzuzunehmen. Eine besondere Grenze betrifft den Sextakkord mit kleiner Terz und großer Sexte: Die große Sexte ist hier der Leitton und zugleich der Grundton des verminderten Dreiklangs. Sie soll nicht verdoppelt werden; dafür stehen Bass und Terz zur Verfügung. Eine unterschiedslose Regel für alle Sextakkorde würde diese Stimmführungsbedingung verdecken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · Sextakkordverdopplung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Zur Tonverdopplung“, S. 67 und 69 · Sextakkord und verminderter Dreiklang",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "readingSources": []
@@ -20057,7 +21497,8 @@ const ATLAS = {
         "kadenz",
         "leittonaufloesung",
         "bindung-s4",
-        "trugschluss-klauseln"
+        "trugschluss-klauseln",
+        "kadenzflucht-und-trugschluss"
       ],
       "authors": [
         {
@@ -20836,7 +22277,9 @@ const ATLAS = {
         "bindung-s4",
         "dissonanzaufloesung",
         "speziesmischung",
-        "generalbass-bezifferung-stimmfuehrung"
+        "generalbass-bezifferung-stimmfuehrung",
+        "dissonanz-aufloesungszeit",
+        "quartsext-dissonanz"
       ],
       "comparisons": [],
       "authors": [
@@ -21260,6 +22703,52 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-c15",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Phrygische Varianten, S. 187–188, einschließlich Anm. 36 · Supplementum beim Finalschluss",
+          "text": "Für Bachs phrygische Finalkadenzen beschreibt Daniel eine ergänzende Schlussausformung, das Supplementum. Im Schluss von Christus, der uns selig macht verzögert eine Septimsynkope im Alt den Eintritt des Zielklangs; ihre Fortsetzung führt über einen Quartsextklang mit Wechselquarte und bringt eine plagale Komponente ein. Daniel findet in den von ihm als authentisch behandelten Bach-Chorälen keine phrygische Finalkadenz ohne eine solche Ergänzung. Er grenzt davon sowohl zweifelhafte posthume Zuschreibungen als auch Telemanns Praxis ab: Bei Telemann sind schlichte phrygische Enden ohne Supplementum belegt. Die Erweiterung ist somit kein allgemeines Gesetz jeder phrygischen Kadenz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Phrygischer Choral-Finalschluss · Bach und Telemann",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Phrygische Varianten, S. 187–188, einschließlich Anm. 36 · Supplementum beim Finalschluss",
+              "note": "Die Aussage bewahrt die Begrenzung auf Daniels Bach-Korpus und seine Gegenüberstellung mit Telemann. Sie gilt nicht für beliebige phrygische Binnenkadenzen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c17",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Plagalschlüsse, S. 191–193 · angehängte und ausgezierte Schlusswendungen",
+          "text": "Die meisten Plagalschlüsse beschreibt Daniel als Ergänzungen einer vorausgegangenen Kadenzbildung, in der gewöhnlich bereits ein Leitton vorkam. In einem Bach-Beispiel wird ein zunächst tenorisierend angelegter Schluss durch die weitere Bassbewegung in eine plagale Wendung geführt. Plagale Schlüsse können ihrerseits ausgeziert werden, etwa durch eine Leittonwechselnote oder durch eine in die Mittelstimmen eingefügte Tenor-Diskant-Klausel. Daniel beschränkt sie also nicht auf einen unveränderten Wechsel zweier Grunddreiklänge. Daneben bespricht er seltene, überraschende Plagalschlüsse, deren konkrete melodische oder textliche Motivation er ausdrücklich nicht als vollständig geklärt ausgibt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · plagale Schlussausformung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Plagalschlüsse, S. 191–193 · angehängte und ausgezierte Schlusswendungen",
+              "note": "Die Beispiele behandeln angehängte und verzierte Plagalschlüsse im vierstimmigen Choral; die vermuteten Gründe für einen ungewöhnlichen Einzelfall bleiben bei Daniel als Vermutungen erkennbar."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -21332,7 +22821,8 @@ const ATLAS = {
       "related": [
         "bindung-s4",
         "dissonanzaufloesung",
-        "dissonanzbehandlung"
+        "dissonanzbehandlung",
+        "dissonanz-aufloesungszeit"
       ],
       "authors": [
         {
@@ -21433,6 +22923,29 @@ const ATLAS = {
               "note": "Spiess’ Anticipation und Retardatio werden durch den Vergleich mit einem unverschobenen Gerüstsatz erklärt und bei Bach belegt."
             }
           }
+        },
+        {
+          "id": "daniel2004-d03",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 103 und 109; Anticipatio, S. 137–139 · wiederholter Vorbereitungston",
+          "text": "Eine Syncopatio muss im Choralsatz nicht mit einem Bindebogen notiert sein. Es genügt, dass der unmittelbar zuvor vorbereitete Ton in derselben Stimme erneut angeschlagen wird; die Wiederholung kann der Silbenverteilung folgen. Deshalb ist ein kurzer Ton vor seiner Wiederholung auf schwerer Zeit nicht automatisch eine Vorausnahme. Daniel unterscheidet die echte Anticipatio als vorweggenommenen, ornamentalen Zielton von einer nur ähnlich aussehenden Wiederholung, deren erster Ton die notwendige Vorbereitung der folgenden Synkopendissonanz liefert. Diese zweite Gestalt darf man bei einer Reduktion nicht so behandeln, als sei ihre Vorbereitung beliebig entbehrlich. Die Grenze lässt sich jedoch nicht in jedem Einzelfall eindeutig ziehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · syllabische Wiederholung und Anticipatio",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 103 und 109; Anticipatio, S. 137–139 · wiederholter Vorbereitungston",
+              "note": "S. 103 verlangt für die wiederholte Vorbereitung dieselbe Stimme. S. 109 behandelt verkürzte Synkopen; S. 138–139 unterscheidet echte und unechte Vorausnahmen, betont zugleich die teilweise unscharfe Grenze. Keine Gleichsetzung jedes wiederholten kurzen Tons mit einer Anticipatio."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ]
     },
@@ -21530,6 +23043,29 @@ const ATLAS = {
               "note": "Die Beispiele prüfen innerhalb von Menkes barockem Lehrgang weitere Klangmöglichkeiten auf Bassstufen, ohne Sequenz oder Modulation vorauszusetzen."
             }
           }
+        },
+        {
+          "id": "daniel2004-r08",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "„Oktavregel“ und Baßstufen, S. 46–49 und 51–53 · Stufengang und Klangstellung",
+          "text": "Daniel erklärt die einfachste Oktavregel aus der Bassbewegung und den darüber möglichen Intervallen. Die vierte Bassstufe trägt aufwärts zunächst einen Grunddreiklang, abwärts dagegen gewöhnlich einen Sekundakkord. Auch die zweite und sechste Bassstufe erhalten im schrittweisen Zusammenhang häufig Sextakkorde; bei Sprüngen können andere Klänge angemessen sein. Solche Stellungen sind für ihn nicht beliebig austauschbar. Eine Deutung als bloße Umkehrung derselben Harmonie kann gerade den Unterschied zwischen einer üblichen schrittweisen Verbindung und einer im untersuchten Stil ungebräuchlichen Grundakkordfolge verdecken. Die Oktavregel beschreibt deshalb einen bestimmten Bewegungszusammenhang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Generalbass · Oktavregel im schrittweisen Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "„Oktavregel“ und Baßstufen, S. 46–49 und 51–53 · Stufengang und Klangstellung",
+              "note": "Daniel verbindet seine Erklärung mit Heinichens Regeln und unterscheidet schrittweisen Gang, Sprung und Akkordstellung. Die Antwort macht daraus kein vollständiges Verzeichnis aller möglichen Bassharmonisierungen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -21662,6 +23198,30 @@ const ATLAS = {
           },
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-r12",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Zur Quintfallsequenz und ihrem Ursprung, S. 53–56 · Monteverdis Madrigale von 1590 und 1603",
+          "text": "Daniel zeigt die Quintfallsequenz zunächst als Zusammenwirken von Stimmen. In Monteverdis Madrigalen können über dem springenden Bass zwei Oberstimmen in parallelen Terzen pendeln oder Terzen und Sexten abwechseln. Eine weitere Ausprägung entsteht aus verketteten Synkopendissonanzen, deren Bezugstöne und Auflösungen das wiederkehrende Gerüst tragen. Die beteiligten Klänge wechseln dadurch zwischen konsonanten und dissonanten Zuständen. Das ist noch nicht gleichbedeutend mit der späteren Folge lauter Septakkorde. Daniel verfolgt gerade diese Veränderung der Bass- und Dissonanzbehandlung und weist darauf hin, dass die frühen Beispiele während der Sequenz noch keine einzelne Tonart festigen müssen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historischer Vergleich · Monteverdis Sequenzgerüste und spätere Ausprägungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Zur Quintfallsequenz und ihrem Ursprung, S. 53–56 · Monteverdis Madrigale von 1590 und 1603",
+              "note": "Die Analyse greift über den engeren Bach-Choral hinaus auf Monteverdis Madrigalbücher von 1590 und 1603 zurück und verfolgt die Umformung des Modells im 17. Jahrhundert."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
         }
       ],
@@ -22151,6 +23711,29 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-r14",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Zur Quintfallsequenz und ihrem Ursprung, S. 59–60 · chromatische Modifikation eines Quintfallmodells",
+          "text": "Daniel stellt eine stark chromatisierte Quintfallsequenz einer weitgehend diatonischen Fassung gegenüber. Trotz auffälliger Klangwechsel lässt sich die erste für ihn durch veränderte Töne und einen an anderer Position angesetzten verminderten Quintfall aus dem gleichen Modell erklären. Der Grundtonverlauf und die wiederkehrenden Verbindungen bleiben dabei nachvollziehbar. Rameaus Fundamentalbass bietet ihm hier eine Beschreibung, die mit den tatsächlichen Quintbeziehungen weiterkommt als eine Folge schwer deutbarer Funktionswechsel. Das Beispiel begründet eine konkrete Rückführung dieser Sequenz; es behauptet nicht, jede chromatische Musik lasse sich auf ein solches Gerüst reduzieren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarockes Sequenzmodell · chromatische Varianten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Zur Quintfallsequenz und ihrem Ursprung, S. 59–60 · chromatische Modifikation eines Quintfallmodells",
+              "note": "Die beiden eigenen Modellfolgen des Buchs werden auf S. 59–60 ausdrücklich miteinander verglichen. Der historische Rahmen ist die barocke Quintfallsequenz, obwohl Daniel die Klangnähe zu späterer Harmonik anspricht."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -22165,6 +23748,12 @@ const ATLAS = {
           "to": "menke2017-40",
           "type": "context",
           "note": "Menke gewinnt aus Monteverdis Crucifixus durch das Entfernen der Akzidentien ein diatonisches Gerüst. De la Motte erschließt Schönbergs George-Lieder stattdessen aus Tonhöhenwechsel und wiederkehrenden Ruhepunkten. Beide Verfahren beziehen sich auf ihr jeweiliges Repertoire und sind keine konkurrierenden Reduktionen desselben Stücks."
+        },
+        {
+          "from": "daniel2004-r14",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Daniel führt die chromatische Veränderung seines barocken Quintfallmodells auf dieselben Grundtonbeziehungen zurück. Salzer und Schachter erklären die angeführte Schubert-Passage hingegen durch eine symmetrische Großterzteilung; ihr ces ersetzt dort kein diatonisches c. Die unterschiedliche Reduktion folgt den verschiedenen musikalischen Modellen, nicht zwei Lesarten desselben Beispiels."
         }
       ]
     },
@@ -22272,7 +23861,9 @@ const ATLAS = {
       "related": [
         "kadenz",
         "harmonischer-rhythmus",
-        "kadenz-schlussdehnung"
+        "kadenz-schlussdehnung",
+        "phrygische-schlussdeutung",
+        "choral-kadenzplanung"
       ],
       "comparisons": [],
       "authors": [
@@ -22298,6 +23889,37 @@ const ATLAS = {
               "note": "Die Fermaten werden anhand der bezeichneten Bach-Choräle untersucht. Textzeile und musikalischer Abschluss werden in diesem Repertoire unterschieden."
             }
           }
+        },
+        {
+          "id": "daniel2004-c21",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Halbschlüsse, S. 197–198 · Zeilenabschluss auf einer Dominantumkehrung oder Dissonanz",
+          "text": "Daniel erkennt bei Bach vereinzelt echte Halbschlüsse auf einer Dominantumkehrung oder sogar einem dissonanten Dominantklang an. Die Grenze wird durch den Text und die rhythmische Dauer des Zielklangs gestützt; in einem seiner Beispiele steht dort ein Punkt. Zugleich ist die Fortsetzung verbindlich: Der Leitton oder die Dominantseptime muss am Anfang der nächsten Zeile regulär weitergeführt werden. Ein solcher Zeilenschluss beendet also nicht sämtliche Stimmführungsvorgänge. Daniel zählt diese Fälle ausdrücklich zu seltenen, textlich begründeten Ausnahmen und verlangt eine möglichst lineare Einführung, besonders der Dissonanz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · seltene Halbabschlüsse mit Fortsetzungsbedarf",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Halbschlüsse, S. 197–198 · Zeilenabschluss auf einer Dominantumkehrung oder Dissonanz",
+              "note": "Die Passage unterscheidet ausdrücklich einen textlich markierten Halbschluss von einer Wendung im Zeileninneren, obwohl der erreichte Klang über die Zeilengrenze hinaus Auflösung verlangt."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "daniel2004-c21",
+          "to": "salzer-schachter1989-1",
+          "type": "nuance",
+          "note": "Salzer und Schachter betonen, dass ein fortdrängender Klang unter einer Fermate noch keinen abgeschlossenen musikalischen Gedanken ergibt. Daniel kann eine durch Text und Rhythmus markierte Stelle dennoch ausdrücklich als Halbschluss behandeln, obwohl ihr Leitton oder ihre Septime erst in der nächsten Zeile weitergeführt wird. Die Nuance betrifft den lokalen Abschlussbegriff; beide Aussagen lassen einen Zusammenhang über die Zeilengrenze hinweg bestehen."
         }
       ]
     },
@@ -22874,7 +24496,8 @@ const ATLAS = {
       "related": [
         "generalbass-ziffern-stufen",
         "harmonik",
-        "vorhalt-bewegte-begleitstimme"
+        "vorhalt-bewegte-begleitstimme",
+        "quartsext-dissonanz"
       ],
       "reading": "Vergleiche verschiedene Bezifferungen derselben Fortschreitung. Prüfe, ob die Zahlen tatsächliche Stimmenlagen, nur die Außenstimmen oder eine abgekürzte Klangangabe festhalten, und welche Stimme eine bezeichnete Dissonanz auflösen muss.",
       "readingSources": [
@@ -22904,6 +24527,32 @@ const ATLAS = {
               "note": "Die verschiedenen Bezifferungsweisen werden im barocken Lehrbuchrahmen nach ihrem Gehalt an Stimmeninformation verglichen."
             }
           }
+        },
+        {
+          "id": "daniel2004-d08",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 107–108 · Nona und Secunda syncopata",
+          "text": "Die Zahlen 9 und 2 unterscheiden bei Daniel vor allem, welche Stimme dissoniert. Bei der Nona syncopata liegt die Dissonanz oben und die Oberstimme führt sie abwärts; bei der Secunda syncopata trägt der Bass die Dissonanz und muss selbst abwärts weitergehen. Deshalb kann eine klingende Sekunde als None bezeichnet werden, wenn die obere Stimme auflösungsbedürftig ist. Umgekehrt bleibt eine Sekunddissonanz des Basses funktional eine 2, auch wenn die Stimmen tatsächlich eine None auseinanderliegen. Der registrierte Abstand allein entscheidet ebenso wenig wie die bloße Akkordgestalt: Entscheidend sind Vorbereitung, dissonierende Stimme und Weiterführung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · Generalbassziffer und dissonierende Stimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 107–108 · Nona und Secunda syncopata",
+              "note": "S. 107 erläutert die Nona syncopata einschließlich tatsächlicher Sekundlage, S. 108 die Secunda syncopata mit dissonantem Bass unabhängig von der weiten Lage. S. 108 visuell geprüft. Menkes bereits vorhandene Antwort beschreibt denselben Grundsatz; dafür wird keine künstliche Konfliktverbindung vorgeschlagen."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true,
+          "examples": [
+            "daniel-sekunde-none"
+          ]
         }
       ]
     },
@@ -22991,7 +24640,9 @@ const ATLAS = {
         "kadenz",
         "kadenz-unterstimme",
         "kadenzausweichung",
-        "cadenza-doppia"
+        "cadenza-doppia",
+        "choral-kadenzplanung",
+        "kadenzflucht-und-trugschluss"
       ],
       "reading": "Halte Sopran- und Tenorklausel fest und vergleiche darunter die Bassgänge 5–1 und 5–6. Suche danach eine Kadenz, deren Bass regulär schließt, während eine Oberstimme das erwartete Ziel verhindert.",
       "readingSources": [
@@ -23024,6 +24675,63 @@ const ATLAS = {
               "note": "Menkes barocke Kadenzlehre unterscheidet die abweichende Bassklausel von Walthers Varianten mit abweichenden Oberstimmen."
             }
           }
+        },
+        {
+          "id": "daniel2004-c22",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Kadenzflucht, S. 198–200 · formale Stellung des Trugschlusses",
+          "text": "Den Trugschluss mit Bassfortsetzung zur VI. Stufe setzt Daniel im spätbarocken Choralsatz sparsam und gezielt ein. Ein wichtiger Anlass sind zwei unmittelbar aufeinanderfolgende Zeilen, die dasselbe Kadenzziel erwarten lassen. In seinem Bach-Beispiel weicht die erste in den Trugschluss aus, während die zweite regulär schließt. Daniel begründet die Reihenfolge mit dem vorläufigen Gewicht der ersten und dem abschließenden Gewicht der zweiten Zeile. Auch bei anderen Fällen achtet er auf eine formal untergeordnete Stelle. Ein satztechnisch möglicher Trugschluss ist für ihn deshalb noch nicht an jeder Zeilengrenze stilistisch oder formal überzeugend.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choral · Trugschluss und Zeilenfolge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kadenzflucht, S. 198–200 · formale Stellung des Trugschlusses",
+              "note": "Daniel bewertet konkrete Bach-Aussetzungen nach ihrer formalen Stellung. Die Einschränkung betrifft den Einsatz innerhalb eines Chorals, nicht die bloße Herstellbarkeit der Akkordverbindung."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c23",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Kadenzflucht, S. 199 · fallender Leitton im Alt bei einem Dur-Trugschluss",
+          "text": "Auch die Oberstimmen eines Trugschlusses müssen bei Daniel nicht immer beide zum ursprünglich erwarteten Grundton führen. Im Durbeispiel aus Gloria sei dir gesungen lässt Bach den Leitton im Alt schrittweise abwärts gehen. Damit wird der Grundton der erwarteten Tonika, der im tatsächlich erreichten Klang dessen Terz wäre, nicht obligatorisch verdoppelt. Daniel bindet diese Möglichkeit an die unauffällige Altführung und den fehlenden übermäßigen Sekundschritt. In der entsprechenden Mollwendung entstünde gerade dieser übermäßige Schritt; sie erlaubt daher nicht dieselbe Fortsetzung. Der Wechsel des Bassziels und die Behandlung der übrigen Klauseln sind getrennt zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Dur-Trugschluss und Leitton im Alt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kadenzflucht, S. 199 · fallender Leitton im Alt bei einem Dur-Trugschluss",
+              "note": "Die Ausnahme steht in Daniels unmittelbarem Vergleich einer Dur- mit einer Mollkadenz. Sie wird weder auf jede Stimme noch auf jeden Trugschluss verallgemeinert."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true,
+          "examples": [
+            "daniel-trugschluss-alt"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "from": "daniel2004-c23",
+          "to": "menke2017-26",
+          "type": "nuance",
+          "note": "Menke erklärt den häufigen 5–6-Trugschluss mit regulär endender Sopran- und Tenorklausel; deren gemeinsamer Zielton wird zur verdoppelten Terz. Daniel zeigt für Dur eine begrenzte Abweichung: Der Leitton im Alt kann abwärts gehen, sodass diese Verdopplung entfällt. In Moll verhindert der dabei entstehende übermäßige Sekundschritt dieselbe Lösung."
         }
       ]
     },
@@ -23335,7 +25043,8 @@ const ATLAS = {
         "cantus-firmus",
         "motiv-ueber-cantus",
         "choral-vorimitation",
-        "harmonischer-rhythmus"
+        "harmonischer-rhythmus",
+        "choral-stimmumfang"
       ],
       "authors": [
         {
@@ -23613,7 +25322,8 @@ const ATLAS = {
         "linie-scheinpolyphonie",
         "rhythmische-selbststaendigkeit",
         "motivische-polyphonie",
-        "kontrapunkt-in-homophonie"
+        "kontrapunkt-in-homophonie",
+        "kadenz-klauselwechsel"
       ],
       "authors": [
         {
@@ -23812,6 +25522,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-r02",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Einleitung, S. 9–10 · Linienführung im vierstimmigen Bach-Choral",
+          "text": "Eine Choralmelodie mit Akkorden und gelegentlichen Durchgängen zu versehen, trifft nach Daniel noch nicht die Eigenart von Bachs Choralsatz. Wer nur den jeweiligen Zusammenklang bestimmt, übersieht leicht den Verlauf der Stimmen und die satztechnischen Beziehungen zwischen ihnen. Der weitgehend gemeinsame Textrhythmus macht den Satz deshalb nicht zu einer bloßen Akkordreihe. Für seine historische Satzlehre werden Dissonanzbehandlung, Kadenzbildung und Linienführung zu zentralen Gegenständen. Der vierstimmige Choral bietet damit eine konkrete Aufgabe für kontrapunktisches Denken, auch wenn er im Unterricht häufig der Harmonielehre zugeordnet wird.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs vierstimmiger Choralsatz · Linien und Zusammenklänge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10 · Linienführung im vierstimmigen Bach-Choral",
+              "note": "Daniel begründet seine Untersuchung ausdrücklich mit Kontrapunkt und Linienführung als wesentlichen Aspekten des Bach-Chorals."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ]
     },
@@ -23881,7 +25614,9 @@ const ATLAS = {
         "harmonik",
         "kadenz",
         "chromatik",
-        "moll-neutralisierung"
+        "moll-neutralisierung",
+        "choral-modaler-tonartbezug",
+        "choral-kadenzplanung"
       ],
       "authors": [
         {
@@ -23925,6 +25660,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "daniel2004-r13",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Zur Funktionstheorie, S. 39–40; Zur Quintfallsequenz und ihrem Ursprung, S. 58–59 · Ausweichung und Festigung",
+          "text": "Eine chromatische Erhöhung oder Zwischendominante stellt für Daniel noch nicht von selbst eine neue Tonart her. Mit Kirnberger erläutert er, dass mehrere vorübergehende Leittöne innerhalb einer weiterhin geltenden Haupttonart auftreten können. Bei der Quintfallsequenz nutzt eine Ausweichung einen Abschnitt, der zur Ausgangs- und Zieltonart passt oder entsprechend verändert wird. Die Bestätigung des Ziels beginnt für ihn spätestens mit der II. Stufe als Kadenzvorbereitung (Antepenultima), nicht erst mit der Dominante. Häufig dient die Sequenz selbst vor allem dem Übergang; die dauerhaftere Festigung übernimmt eine anschließende, breiter ausgeführte Kadenz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocke Harmonik · Zwischendominanten und Kadenzfestigung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Zur Funktionstheorie, S. 39–40; Zur Quintfallsequenz und ihrem Ursprung, S. 58–59 · Ausweichung und Festigung",
+              "note": "Die Antwort verbindet Daniels Kirnberger-Beispiel mit seiner Unterscheidung von tonartlichem Übergang und Festigung in der Quintfallsequenz; sie führt keinen eigenen Regionsbegriff Daniels ein."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c20",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Halbschlüsse, S. 195; Kadenzflucht, S. 200 · leittönige Verstärkung eines Schlussziels",
+          "text": "Ein zusätzlich eingeführter Leitton muss für Daniel keine Ausweichung in eine neue Tonart anzeigen. In mehreren Bach-Halbschlüssen verstärkt ein doppeldominantischer Ton vielmehr den Zug zur Dominante der bestehenden Tonart. Entsprechend kann ein Trugschluss chromatisch zugespitzt werden: Im Vergleich zweier Zeilen wird aus dem Bass-Penultimaton durch Erhöhung ein Leitton zur VI. Stufe. Daniel deutet dies als verstärkten Trugschluss, weil sich die Wendung mit dem unalterierten Vergleichsfall und dessen formaler Stellung eng verbinden lässt. Die einzelne Alteration wird also im vollständigen Zeilen- und Satzverlauf beurteilt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · chromatisch verstärkte Halb- und Trugschlüsse",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Halbschlüsse, S. 195; Kadenzflucht, S. 200 · leittönige Verstärkung eines Schlussziels",
+              "note": "Daniel unterscheidet an bestimmten Choralstellen die Verstärkung eines Schlussziels von einer tonartlichen Ausweichung. Er übernimmt dabei nicht Schönbergs Regionssystem."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
         }
       ]
     },
@@ -23943,7 +25724,9 @@ const ATLAS = {
         "harmonik",
         "generalbass-sextakkord",
         "leittonaufloesung",
-        "einklang"
+        "einklang",
+        "akkordvollstaendigkeit",
+        "picardische-terz"
       ],
       "authors": [
         {
@@ -23967,6 +25750,52 @@ const ATLAS = {
           },
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v03",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Zur Tonverdopplung“, S. 66–69 · Grund- und Sextakkorde",
+          "text": "Eine feste Rangfolge der Verdopplungen erklärt für Daniel den Bach-Choral nur unzureichend. Er stellt einer Passage mit konsequenter Grundtonverdopplung andere gegenüber, in denen sich Terzverdopplungen sogar häufen. Maßgeblich ist, wie die verdoppelten Töne zustande kommen: In seinen Beispielen werden sie vorwiegend schrittweise in Gegenbewegung oder in Seitenbewegung eingeführt; wenigstens eine Stimme besitzt einen besonders schlüssigen Linienverlauf. Terzverdopplungen sollen deshalb engschrittig und aus der Linienführung begründet entstehen. Viele Sprünge schränken diese Möglichkeit ein. Das gilt sowohl für Grundstellungen als auch für Sextakkorde.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Terzverdopplung aus den Stimmenwegen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Zur Tonverdopplung“, S. 66–69 · Grund- und Sextakkorde",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v04",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Zur Tonverdopplung“, S. 68–69, Bach K 127/5 und Anm. 10–12 · verdoppelter Leitton",
+          "text": "Auch das Verbot, einen Leitton zu verdoppeln, hält Daniel in dieser Allgemeinheit nicht aufrecht. Im Beginn von Bachs K 127/5 folgt auf die Dominante mit verdoppelter Terz unmittelbar die Tonika. Damit widerspricht er ausdrücklich der von ihm angeführten Einschränkung aus de la Mottes Harmonielehre, eine solche Verdopplung komme nur ohne anschließende Tonika infrage. Die Ausnahme hängt für Daniel an enger, überzeugender Linienführung; sie ist keine allgemeine Freigabe jedes Leittons. Gerade den Leitton als Grundton eines verminderten Dreiklangs in Sextakkordstellung nimmt er davon aus: Dieser Ton soll weiterhin nicht verdoppelt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Leittonverdopplung vor der Tonika",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Zur Tonverdopplung“, S. 68–69, Bach K 127/5 und Anm. 10–12 · verdoppelter Leitton",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
         }
       ]
@@ -24009,6 +25838,652 @@ const ATLAS = {
           },
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "choral-modaler-tonartbezug",
+      "title": "Wie prägt eine modale Choralmelodie ihre spätbarocke Aussetzung?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Choral",
+        "Modus",
+        "Dorisch",
+        "Mixolydisch",
+        "Phrygisch",
+        "Tonart",
+        "Vorzeichnung"
+      ],
+      "reading": "Vergleiche die Vorzeichnung mit der sechsten und siebten Melodiestufe sowie mit den Zeilenschlüssen. Prüfe anschließend, welche dieser Beziehungen die Aussetzung aufgreift.",
+      "readingSources": [
+        "daniel2004"
+      ],
+      "related": [
+        "cantus-firmus",
+        "chromatik",
+        "phrygische-schlussdeutung",
+        "tonart-und-region",
+        "choral-kadenzplanung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-r04",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Modale Verhältnisse, S. 15–19 · überlieferte Melodie und spätbarocke Tonart",
+          "text": "Eine alte Choralmelodie fügt sich für Daniel nicht automatisch in ein einziges Dur- oder Mollschema. Bei dorischen Melodien kann die große sechste Stufe die Hinwendung zur Dominanttonart begünstigen; bei mixolydischen bleibt die erniedrigte siebte Stufe mit einer auffälligen Beziehung zur vierten Tonstufe verbunden. Besonders eigenständig bleibt das Phrygische. Zudem können überlieferte Vorzeichnungen und die tatsächlich wirksamen melodischen Verhältnisse auseinanderfallen. Daniel liest daher Melodieverlauf, Schlusswendungen und Aussetzung gemeinsam. Die Zahl der Vorzeichen allein genügt ihm nicht, um den Modus oder die Haupttonart eines Chorals zu bestimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocke Choralbearbeitung · modale Melodieüberlieferung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Modale Verhältnisse, S. 15–19 · überlieferte Melodie und spätbarocke Tonart",
+              "note": "Die Passage untersucht das Weiterwirken älterer modaler Melodien in Choralsätzen Bachs und Telemanns, nicht eine Renaissance-Speziesübung."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "phrygische-schlussdeutung",
+      "title": "Ist ein phrygischer Schluss eine Tonika oder eine Dominante?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Phrygisch",
+        "Choral",
+        "Finalis",
+        "Halbschluss",
+        "Tonika",
+        "Dominante"
+      ],
+      "reading": "Bestimme zuerst die Finalis der Melodie und ihre Stellung im letzten Klang. Vergleiche danach die modale Deutung mit dem Tonartbezug des übrigen Satzes.",
+      "readingSources": [
+        "daniel2004"
+      ],
+      "related": [
+        "choral-modaler-tonartbezug",
+        "kadenz",
+        "kadenz-unterstimme",
+        "choral-fermate"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-r05",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Sonderfall Phrygisch, S. 19–24 · modale Finalis und harmonische Schlussdeutung",
+          "text": "Ein Schluss auf E-Dur über einer e-phrygischen Melodie kann nach Daniel auf verschiedene Weise verstanden werden. In der von ihm erläuterten Sicht Walthers bleibt e das Zentrum des Modus, auch wenn die Schlusswendung von a-Moll oder d-Moll kommt. Eine harmonische Betrachtung kann denselben Zielklang dagegen als Dominante von a-Moll lesen. Beide Möglichkeiten haben historische Anhaltspunkte: Telemanns eigene Tonartangaben lassen bei verschiedenen Chorälen unterschiedliche Deutungen erkennen. Selbst die Finalis der Melodie muss nicht Grundton des letzten Akkords sein; sie kann dessen Quinte oder Terz bilden. Welche Deutung trägt, entscheidet der weitere Melodie- und Satzverlauf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Phrygische Choräle · Walther, Telemann und Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Sonderfall Phrygisch, S. 19–24 · modale Finalis und harmonische Schlussdeutung",
+              "note": "Daniel erklärt auf S. 19 beide Sichtweisen für legitim und prüft sie anschließend an historischen Tonartangaben und verschiedenen Harmonisierungen der Finalis."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c14",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Phrygische Varianten, S. 185–187; Halbschlüsse, S. 196–197 · Klauseln und Schlusswirkung",
+          "text": "Der phrygische Schluss wird bei Daniel zunächst durch den fallenden Halbton der Tenorklausel bestimmt. Häufig liegt dieser im Bass, während die Diskantklausel im Sopran einen Ganzton aufwärts geht. Die beiden Außenstimmen können ihre Klauseln aber auch tauschen, wenn die Choralmelodie den Halbtonfall vorgibt. Aus dieser kontrapunktischen Beschreibung folgt noch keine eindeutige Entscheidung zwischen Ganz- und Halbschluss. Daniel betont, dass die phrygischen Wendungen im Spätbarock eher halbschlüssig wirken, ohne dass beide Auffassungen sicher trennbar wären. Besonders die diskantisierende Variante aus einem Sextakkord zeigt für ihn diese offene Schlusswirkung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choral · phrygische Klauseln und Schlussdeutung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Phrygische Varianten, S. 185–187; Halbschlüsse, S. 196–197 · Klauseln und Schlusswirkung",
+              "note": "Die Einordnung folgt Daniels eigenen Bach-Beispielen und seiner ausdrücklichen Einschränkung, dass phrygische Ganz- und Halbschlüsse nicht sicher getrennt werden können."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "choral-stimmumfang",
+      "title": "Welche Tonräume eignen sich für die Stimmen eines Bach-Chorals?",
+      "group": "Stimmführung",
+      "tags": [
+        "Choral",
+        "Bach",
+        "Stimmumfang",
+        "Tonraum",
+        "Register",
+        "Sopran",
+        "Alt",
+        "Tenor",
+        "Bass"
+      ],
+      "comparisons": [],
+      "related": [
+        "stimmabstand",
+        "stimmkreuzung",
+        "choral-gegenstimme",
+        "akkordvollstaendigkeit"
+      ],
+      "reading": "Singe die vier Linien einzeln. Unterscheide ihren gewöhnlichen Tonraum von einzelnen Extremtönen und prüfe, ob Tonart, Text oder Kadenz diese besondere Lage erklären.",
+      "readingSources": [
+        "daniel2004"
+      ],
+      "authors": [
+        {
+          "id": "daniel2004-v01",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Stimmumfänge“, S. 61–63 · vierstimmiger Choralsatz",
+          "text": "Daniel unterscheidet den gewöhnlich verwendeten Tonraum von seltenen Extremtönen. Als Standard nennt er Sopran d′–g″, Alt g–c″, Tenor e–g′ und Bass F–d′. Die in manchen Lehrbüchern angegebenen weiteren Grenzen sind deshalb kein Auftrag, den ganzen Raum regelmäßig auszuschöpfen. Tiefe Grenztöne hängen in seinen Bach-Beispielen oft an einer besonderen Tonart, Kadenz oder Textausdeutung; hohe Grenztöne verlangen eine entsprechende Gesamtanlage. Für eigene Choralsätze empfiehlt er die engeren Standardumfänge. Diese Angaben beschreiben die hier untersuchte Choralsatzpraxis, nicht die physiologischen Grenzen sämtlicher Sängerinnen und Sänger.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · gewöhnliche vokale Tonräume und Extremtöne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Stimmumfänge“, S. 61–63 · vierstimmiger Choralsatz",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "akkordvollstaendigkeit",
+      "title": "Muss ein Klang im vierstimmigen Choral vollständig sein?",
+      "group": "Stimmführung",
+      "tags": [
+        "Choral",
+        "Dreiklang",
+        "Vollständigkeit",
+        "Terz",
+        "Quinte",
+        "Verdopplung",
+        "Instrumentation"
+      ],
+      "comparisons": [],
+      "related": [
+        "akkordton-verdopplung",
+        "konsonanz",
+        "harmonik",
+        "stimmabstand",
+        "choral-stimmumfang"
+      ],
+      "reading": "Markiere die fehlenden Akkordtöne. Prüfe getrennt, ob die Quinte oder die Terz fehlt, wann sie wegfällt und ob eine Instrumentalstimme den vokal unvollständigen Klang ergänzt.",
+      "readingSources": [
+        "daniel2004"
+      ],
+      "authors": [
+        {
+          "id": "daniel2004-v06",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Zur Tonverdopplung“, S. 69–71 · unvollständige Konsonanzen",
+          "text": "Vier Stimmen erzwingen bei Daniel nicht an jedem Punkt einen vollständigen Dreiklang. Er zeigt bei Bach Klänge mit zweimal Grundton und zweimal Terz, aber ohne Quinte. Sie können auf tragenden Viertelpositionen stehen und sind nicht bloß flüchtige Zwischenklänge. Ihre Rechtfertigung liegt im Verlauf der Stimmen vor und nach dem Klang. Zugleich warnt die Analyse vor einer vorschnellen Akkorddeutung: Ein bloßes Terz- oder Sextgerüst kann mehrere Ergänzungen nahelegen; in einem Beispiel widerspricht Bachs originale Bezifferung sogar der zunächst naheliegenden Deutung. Vollständigkeit und harmonische Eindeutigkeit sind deshalb getrennt zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Klänge ohne Dreiklangsquinte",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Zur Tonverdopplung“, S. 69–71 · unvollständige Konsonanzen",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-v07",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Satztechnik, „Terzlose Klänge“, S. 71–74 · Bach und Telemann",
+          "text": "Die fehlende Terz beurteilt Daniel erheblich strenger als die fehlende Quinte. Bei Bachs Schlussklängen kann eine scheinbar fehlende Terz der vier Chorstimmen durch eine obligate Instrumentalstimme ergänzt sein; der ganze Klang muss deshalb mitgelesen werden. Im Verlauf zeigt er einen seltenen Quint-Oktav-Klang zu „Todsfurcht“ aus K 95/7 und wenige weitere begründete Ausnahmen. Anders liegt der Fall, wenn eine vorhandene Terz erst auf leichter Achtelposition durch Bassbewegung wegfällt: Eine Ergänzung in einer Mittelstimme kann dann an der notwendigen Vorhaltsvorbereitung oder an einer ungünstigen Pendelbewegung scheitern. Telemanns häufigere terzlose Schlüsse in der Lukaspassion von 1728 belegen für Daniel, dass selbst innerhalb dieses Repertoires nicht jeder Komponist gleich verfährt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · Terzlosigkeit und instrumentale Ergänzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 9–10; Satztechnik, „Terzlose Klänge“, S. 71–74 · Bach und Telemann",
+              "note": "Daniel untersucht den spätbarocken Choralsatz an Bach und seinen Zeitgenossen. Die Aussage gehört zum angegebenen Stimmenpaar und Satzvorgang; sie ist keine stilunabhängige Speziesregel."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "dissonanz-aufloesungszeit",
+      "title": "Muss die Auflösung einer Dissonanz mit dem Harmoniewechsel zusammenfallen?",
+      "group": "Dissonanz",
+      "tags": [
+        "Auflösung",
+        "Phasenverschiebung",
+        "Retardatio",
+        "Synkopendissonanz",
+        "Choralsatz"
+      ],
+      "reading": "Verfolge zuerst den dissonierenden Ton und dann die übrigen Stimmen. Prüfe, wann der Zielton erscheint und wann der Klang seine Auflösung tatsächlich trägt.",
+      "readingSources": [
+        "daniel2004"
+      ],
+      "related": [
+        "dissonanzaufloesung",
+        "vorausnahme-und-vorhalt",
+        "vorhalt-bewegte-begleitstimme",
+        "harmonischer-rhythmus"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-d09",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Synkopendissonanzen, S. 110–112; Transitus, S. 125–126 · verzögerte und verfrühte Auflösung",
+          "text": "Die Bewegung des dissonierenden Tons und der auflösende Klang müssen bei Bach nicht immer gleichzeitig eintreten. Daniel zeigt zunächst verzögerte Synkopenauflösungen: Eine Achtelfiguration führt über den sonst erwarteten Auflösungszeitpunkt hinweg bis zur nächsten schweren Viertelposition oder Fermate. Umgekehrt kann der Bass seine Secunda syncopata schon vor dem entsprechenden Wechsel der Oberstimmen verlassen. Daniel erklärt diesen früheren Eintritt des Zieltons als Phasenverschiebung; ein nachträgliches Glätten auf gleichzeitige Viertel würde den zielgerichteten Basslauf unterbrechen. Ähnliche Verschiebungen kommen auch bei Durchgangsdissonanzen vor. Der Ton gilt deshalb weder allein beim ersten Erklingen seines späteren Zieltons als endgültig aufgelöst noch automatisch als unaufgelöst, weil die Stimmen zeitlich versetzt reagieren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · zeitlich versetzte Dissonanzauflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Synkopendissonanzen, S. 110–112; Transitus, S. 125–126 · verzögerte und verfrühte Auflösung",
+              "note": "S. 110–111 behandelt Verzögerung bis zur nächsten schweren Position; S. 112 erklärt WO 12 (C 36) ausdrücklich durch vorzeitige Bassauflösung/Phasenverschiebung. S. 125–126 überträgt das Prinzip auf den Transitus. Besonders wichtig ist die Unterscheidung zwischen bloßer Antizipation des Zieltons und wirksamer Resolution."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "quartsext-dissonanz",
+      "title": "Wie wird ein Quartsextakkord kontrapunktisch erklärt?",
+      "group": "Dissonanz",
+      "tags": [
+        "Quartsextakkord",
+        "Quarte",
+        "Durchgang",
+        "Synkopendissonanz",
+        "Bass",
+        "Choralsatz"
+      ],
+      "reading": "Bestimme Taktgewicht, Vorbereitung und Bewegungsrichtung jeder Stimme. Unterscheide danach, ob die Oberstimme oder der Bass die dissonierende Bewegung trägt.",
+      "readingSources": [
+        "daniel2004"
+      ],
+      "related": [
+        "konsonanz",
+        "dissonanzbehandlung",
+        "generalbass-bezifferung-stimmfuehrung",
+        "vorhalt-bewegte-begleitstimme"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-d15",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Quarten und Quartsextakkorde, S. 131–135 · Dissonanzträger und Taktgewicht",
+          "text": "Die Quarte im Quartsextklang ist nicht schon deshalb immer der Ton, der sich bewegen muss. Bei einem schweren, synkopierten Quartsextakkord kann die Oberstimme als vorbereitete Quarte dissonieren und erst nach weiteren Bassbewegungen abwärts aufgelöst werden. Beim typischen leichten Durchgangsquartsextakkord liegt dagegen die Oberstimme oft bereits fest, während der Bass durchgeht. Daniel hält hier den Bass eher für den dissonierenden Transitus; besonders deutlich wird dies in Achtelbewegung. Wenn alle Stimmen gleichzeitig wechseln, kann wiederum eine durchgehende Oberstimme die Dissonanz tragen. Die Deutung folgt deshalb der metrischen Lage und den einzelnen Linien und lässt sich nicht aus der Ziffer 6/4 allein ablesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Choralsatz · durchgehender und synkopierter Quartsextklang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Quarten und Quartsextakkorde, S. 131–135 · Dissonanzträger und Taktgewicht",
+              "note": "S. 131–133 beschreibt den gewöhnlichen leichten Durchgangsquartsextakkord und Varianten, S. 134 die schwere Syncopatio, S. 135 formuliert die Deutung des Basses als Transitus ausdrücklich vorsichtig (eher/wohl) und erörtert einen Fall mit anderer dissonierender Stimme. S. 132 und 135 samt Noten visuell geprüft."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-d16",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Quarten und Quartsextakkorde, S. 131–137 · Bach und Telemann im Vergleich",
+          "text": "Daniel unterscheidet auch innerhalb des spätbarocken Choralsatzes verschiedene Gebräuche des Quartsextakkords. Bei Bach ist der leichte tonikale Durchgangsquartsextakkord eine charakteristische Form; ein Quartsextakkord als länger ausgehaltener Wechselklang bleibt selten und benötigt eine besondere Erklärung. Bei Telemann zeigt Daniel dagegen einen dominantischen Quartsextdurchgang in Zählzeitlänge, den er für Bachs Choralstil ausschließt. Daniel führt bei Telemann außerdem einen tatsächlich arpeggierten Quartsextakkord an, der als konsonante Dreiklangsumkehrung verstanden werden kann. Die Bezeichnung barock allein entscheidet somit noch nicht, welche Quartsexttypen für einen bestimmten Komponisten und eine bestimmte Satzweise repräsentativ sind.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choralsatz · Bach und Telemann",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Quarten und Quartsextakkorde, S. 131–137 · Bach und Telemann im Vergleich",
+              "note": "S. 131 begrenzt den Wechselquartsextakkord in Bachs Choralsätzen; S. 136–137 kontrastiert Telemanns längere dominantische Quartsextklänge und die echte Akkordbrechung mit Bachs stärker kontrapunktisch bestimmter Praxis. Es werden keine allgemeinen Aussagen über sämtliche Werke beider Komponisten gemacht."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "choral-kadenzplanung",
+      "title": "Wie plane ich die Zeilenschlüsse einer Choralmelodie?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Choral",
+        "Zeilenschluss",
+        "Kadenzdisposition",
+        "Satzplanung",
+        "Halbschluss",
+        "Melodie"
+      ],
+      "related": [
+        "kadenz",
+        "choral-fermate",
+        "tonart-und-region",
+        "trugschluss-klauseln",
+        "choral-modaler-tonartbezug",
+        "kadenzflucht-und-trugschluss"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-c01",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Zeilengestaltung, S. 159 · vom Ziel der Choralzeile aus planen",
+          "text": "Daniel empfiehlt, die Aussetzung einer Choralmelodie mit der Planung ihrer Schlüsse zu beginnen. Die Tonart des ganzen Chorals und die Ziele seiner einzelnen Zeilen geben eine erste Orientierung. Hinzukommen muss die konkrete Prüfung, welche Wendungen sich aus Anfang, Mitte und Ende jeder Melodiezeile ergeben. Wer ohne diese Übersicht Ton für Ton Akkorde ergänzt, riskiert fortlaufende Korrekturen. Nach den Schlussmöglichkeiten werden die Eröffnungen und der übrige Linienverlauf entworfen. Harmonik bleibt dabei ein Gestaltungsmittel neben anderen; sie erhält in Daniels Methode keinen automatischen Vorrang vor der melodischen und kontrapunktischen Anlage.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Vierstimmiger Choralsatz · Planung der Zeilen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Zeilengestaltung, S. 159 · vom Ziel der Choralzeile aus planen",
+              "note": "Der Abschnitt eröffnet ausdrücklich die Arbeit an der Zeilengestaltung spätbarocker Choräle. Er beschreibt ein kompositorisches Vorgehen mit gegebener Melodie, keine Speziesaufgabe."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c18",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Halbschlüsse, S. 193–194 · zweite Melodiestufe am Ende der ersten Zeile",
+          "text": "Die Auswahl einer Choral-Kadenz hängt für Daniel von der Stellung der Zeile im ganzen Satz ab. Führt schon die erste Zeile auf die zweite Melodiestufe, spricht vieles für einen Halbschluss. Eine Ausweichung zur Tonart dieser Stufe würde die gerade erst zu etablierende Haupttonart zu früh in Frage stellen; in Moll können zusätzlich die konkreten Halbtonverhältnisse gegen eine solche Lösung sprechen. Derselbe Melodieton kann später andere Schlussziele zulassen. Daniel zeigt dies am Beginn des Abgesangs, wo eine zuvor vermiedene Wendung möglich wird. Die Kadenzplanung bewertet deshalb Melodieton, Tonart und formale Position gemeinsam.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choral · erste Zeile und späterer Abgesang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Halbschlüsse, S. 193–194 · zweite Melodiestufe am Ende der ersten Zeile",
+              "note": "Der Abschnitt erklärt Halb- und Ausweichungsschlüsse an bestimmten Positionen konkreter Choralmelodien. Er liefert keine von der Form unabhängige Zuordnung eines Tons zu einem Akkord."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "picardische-terz",
+      "title": "Muss ein Mollsatz mit einer Durterz enden?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Picardische Terz",
+        "Moll",
+        "Dur",
+        "Schlussklang",
+        "Bach",
+        "Telemann"
+      ],
+      "related": [
+        "kadenz",
+        "kadenz-oberstimme",
+        "akkordton-verdopplung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-c04",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Perfekte Kadenzen, S. 163, einschließlich Anm. 7 · Dur- und Mollterz im letzten Klang",
+          "text": "Für die Schlussklänge seiner untersuchten Moll-Choräle beschreibt Daniel einen deutlichen Unterschied zwischen Bach und Telemann. Bach verwendet fast immer die große Terz; Daniel nennt ausdrücklich zwei Ausnahmen. Telemann bevorzugt dagegen die kleine Terz und begründet im von Daniel angeführten Lieder-Buch, weshalb ein Mollklang, der am Anfang möglich ist, auch am Ende stehen kann. Die große Terz lässt Telemann besonders für bestimmte Ausdrucksgehalte zu. Daniels Vergleich spricht deshalb gegen eine einheitliche Vorschrift für sämtliche barocken Mollschlüsse. Auch die einfache Gleichsetzung von Dur mit heiterem Text hilft hier nicht weiter: Seine beiden Bach-Ausnahmen mit kleiner Terz haben eher heitere Textenden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Schlussklänge im Moll-Choral · Bach und Telemann",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Perfekte Kadenzen, S. 163, einschließlich Anm. 7 · Dur- und Mollterz im letzten Klang",
+              "note": "Daniel vergleicht ausdrücklich zwei spätbarocke Komponisten und zitiert Telemanns Stellungnahme. Die Häufigkeitsangaben werden als Befund seiner Auswahl wiedergegeben."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "kadenz-diminution",
+      "title": "Wie verändert die Diminution einer Klausel die Kadenz?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Diminution",
+        "Klausel",
+        "Penultima",
+        "Quartsextakkord",
+        "Synkope",
+        "Choral"
+      ],
+      "related": [
+        "kadenz",
+        "kadenz-unterstimme",
+        "harmonischer-rhythmus",
+        "betonte-dissonanz",
+        "kadenz-klauselwechsel"
+      ],
+      "comparisons": [],
+      "reading": "Vergleiche bei gleichbleibendem Bass eine früher und eine später einsetzende Tenorklausel. Welche Zusammenklänge entstehen, wenn ihr vorletzter Ton um eine Zählzeit verkürzt wird?",
+      "readingSources": [
+        "daniel2004"
+      ],
+      "authors": [
+        {
+          "id": "daniel2004-c07",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Perfekte Kadenzen, S. 166–170 · rhythmisch verkürzte Tenor-, Bass- und Diskantklauseln",
+          "text": "Unter Diminution einer Klausel versteht Daniel ihre rhythmische Verkürzung. Häufig setzt die Penultima von Tenor- oder Bassklausel eine Zählzeit später ein, statt die sonst üblichen zwei Zählzeiten zu beanspruchen. Verkürzt sich die Tenorklausel über einem regulär eintretenden Bass, kann zusammen mit der Diskantklausel ein synkopierter Quartsextklang entstehen: der später so genannte kadenzierende Quartsextakkord. Wird auch die Diskantklausel diminuiert, verlangt dies im Vierteltakt Achtelbewegung. Nicht jede zusätzliche Bassnote verändert dagegen den Rhythmus der Klausel: Den Oktavsprung innerhalb einer rechtzeitig begonnenen Bass-Penultima zählt Daniel zur Verzierung, nicht zur Diminution.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Spätbarocker Choral · Verkürzung der Kadenzklauseln",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Perfekte Kadenzen, S. 166–170 · rhythmisch verkürzte Tenor-, Bass- und Diskantklauseln",
+              "note": "Die Beispiele differenzieren die rhythmische Lage einzelner Klauseln innerhalb derselben vierstimmigen Kadenz. Diminution bezeichnet hier deren Verkürzung, nicht eine neue Spezies."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "kadenz-klauselwechsel",
+      "title": "Kann eine Stimme während derselben Kadenz ihre Klausel wechseln?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "vagierende Klausel",
+        "Klauselwechsel",
+        "Kadenz",
+        "Figuration",
+        "Linienführung"
+      ],
+      "related": [
+        "kadenz",
+        "kadenz-unterstimme",
+        "kadenz-oberstimme",
+        "stimme-und-satzstruktur",
+        "kadenz-diminution"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-c12",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Vagierende Klauseln, S. 181–183 · Wechsel zwischen Tenor- und Altklausel",
+          "text": "Eine Stimme muss bei Daniel nicht bis zum Ziel an der einmal begonnenen Klausel festhalten. Sie kann vorübergehend oder endgültig in eine andere Formel übergehen. Er nennt solche Verläufe vagierende Klauseln. In der spätbarocken Fassung von Herzlich tut mich verlangen wird etwa an die Penultima einer steigenden Tenorklausel eine Altklausel angehängt, deren Terzfall den Schluss prägt. In den Mittelstimmen können Tenor- und Altklausel ebenfalls ineinander übergehen, etwa um parallele Quinten zu vermeiden. Das Verfahren bedeutet jedoch keine beliebige Kombination bekannter Floskeln: Für eine besonders ausgeprägte Tenorverzierung nennt Daniel enge Bedingungen und überprüft sie an den von ihm als authentisch behandelten Bach-Sätzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · vagierende Klauseln der Ober- und Mittelstimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vagierende Klauseln, S. 181–183 · Wechsel zwischen Tenor- und Altklausel",
+              "note": "Die Passage definiert Klauselwechsel an konkreten Choralstellen und unterscheidet eine allgemein verfügbare Technik von einer enger begrenzten Verzierung."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "daniel2004-c13",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Vagierende Klauseln, S. 184–185 · wechselnde Klauseln im Bass",
+          "text": "Wechselt die Bassstimme ihre Klausel, kann sich bei Daniel auch die Art der Kadenz verändern. Eine diskantisierend begonnene Wendung kann durch den Tausch von Akkordtönen in eine perfekte Kadenz übergehen. Ein anderer Bass durchläuft sogar Bass-, Alt- und Tenorklausel innerhalb desselben Schlusses. Daniel erklärt diese Wechsel aus dem zusammenhängenden Linienzug; auch die Mittelstimmen können darauf mit eigenen Klauselwechseln reagieren. Selbst die Akkordfolge II–V–I in Grundstellung beschreibt er nicht als Beweis eines rein harmonischen Ursprungs: In seinem Beispiel beginnt der Bass mit einer Tenorklausel und wechselt beim Quintfall zur Bassklausel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · Basslinie und Wechsel der Kadenzart",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vagierende Klauseln, S. 184–185 · wechselnde Klauseln im Bass",
+              "note": "Daniel analysiert mehrere vollständige Klauselverläufe in Bach-Chorälen. Die harmonische Folge wird ausdrücklich mit den gleichzeitig ablaufenden Stimmenwegen verbunden."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "kadenzflucht-und-trugschluss",
+      "title": "Muss eine Kadenzflucht ein Trugschluss V–VI sein?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Kadenzflucht",
+        "Trugschluss",
+        "Chromatik",
+        "Zeilenschluss",
+        "Textausdeutung"
+      ],
+      "related": [
+        "kadenz",
+        "trugschluss-klauseln",
+        "kadenzausweichung",
+        "chromatik",
+        "choral-kadenzplanung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "daniel2004-c24",
+          "source": "daniel2004",
+          "name": "Thomas Daniel",
+          "locator": "Kadenzflucht, S. 198 und 200–201 · Trugschluss als Sonderfall und chromatische Schlussvermeidung",
+          "text": "Daniel verwendet Kadenzflucht als Oberbegriff für eine begonnene, dann aber umgelenkte Schlussbildung. Der Trugschluss V–VI ist nur ein bestimmter Fall davon. Im spätbarocken Choralsatz können auch chromatische Wendungen das erwartete Ziel ersetzen. Bei Führ auch mein Herz und Sinn liest Daniel die Wendung vom erwarteten B-Dur nach D-Dur als Ausdeutung des Wortes „meiden“. Der Schluss von Was mein Gott will, das gscheh allzeit steigert das Verlassen des erwarteten Ziels mit ungewöhnlicher Chromatik und heftiger Stimmenbewegung. Daniel kennzeichnet solche Fälle als seltene, besonders ausdrucksstarke Verfahren. Sie dienen nicht als austauschbare Standardlösungen für ein beliebiges Zeilenende.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choral · chromatische Kadenzflucht und Textausdruck",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kadenzflucht, S. 198 und 200–201 · Trugschluss als Sonderfall und chromatische Schlussvermeidung",
+              "note": "Daniel verbindet zwei konkret bezeichnete Bach-Stellen mit ihrem Text und grenzt sie vom gewöhnlicheren Trugschluss ab. Verwendet wird nur der vor dem neuen Abschnitt auf S. 201 vollständig vorliegende Gedankengang."
+            }
+          },
+          "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
+          "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
         }
       ]
@@ -25481,6 +27956,36 @@ const ATLAS = {
       "credit": "Eigene redaktionelle Leseübung nach Arnold Schönberg, Preliminary Exercises in Counterpoint, Ausgabe 1970, §§ 161–163, S. 155–159. Neu erfundenes Motiv und seine Varianten, keine Buchabschrift.",
       "image": "quellen/noten/schoenberg-imitation.webp",
       "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+      "catalogue": true
+    },
+    "daniel-gemischte-quinten": {
+      "kind": "leseuebung",
+      "title": "Gemischte Quinten: Welche Stimmen sind beteiligt?",
+      "alt": "Drei eigene Modelle mit jeweils zwei halben Noten in C-Dur. A: Sopran d″–e″, Alt f′–g′, Tenor h–c′, Bass d–c. Zwischen Tenor und Alt steigt eine verminderte Quinte in eine reine. B isoliert dieselben Töne h–f′ und c′–g′ als zweistimmiges Paar; die Unterstimme ist nun Bass. C kontrahiert h–f′ zu c′–e′. A zeigt Daniels erlaubte Oberstimmenfolge, B die ausgeschlossene Folge mit Bassbeteiligung, C die reguläre Auflösung zur Terz.",
+      "caption": "Spiele A, dann nur den Tenor und Alt als Modell B. Derselbe Intervallgang erhält eine andere Rolle, sobald die vorherige Tenorstimme zum Bass wird. In A sind h und f′ zum zusätzlichen Bass d konsonant. In B dissoniert f′ zum tiefsten h; Daniel verlangt hier die Verengung zur Terz, wie in C. Vergleiche die auf das Stimmenpaar bezogene Grenze mit Menkes Aussage zu den Außenstimmen.",
+      "credit": "Eigene redaktionelle Leseübung nach Thomas Daniel, Der Choralsatz bei Bach und seinen Zeitgenossen, Arbeitszuordnung zur 2. Auflage 2004, S. 89–91. Neu erfundene Fragmente zur Bassfunktion, keine Buchabschrift und keine vollständigen Choralsätze.",
+      "image": "quellen/noten/daniel-gemischte-quinten.webp",
+      "url": "https://katalog.slub-dresden.de/id/0-377774707",
+      "catalogue": true
+    },
+    "daniel-trugschluss-alt": {
+      "kind": "leseuebung",
+      "title": "Trugschluss in Dur: fallender Leitton im Alt",
+      "alt": "Eigener vierstimmiger Ausschnitt mit zwei halben Noten in D-Dur, mit fis und cis in der Vorzeichnung. Sopran e′–d′, Alt cis′–h, Tenor a–fis, Bass A–H. A-Dur als V. Stufe führt nach h-Moll als VI. Stufe. Der Leitton cis′ geht im Alt abwärts nach h. Im Zielklang wird h verdoppelt; die Terz d′ erklingt nur im Sopran.",
+      "caption": "Singe zuerst die Altlinie cis′–h. Der Trugschluss erreicht einen vollständigen h-Moll-Klang mit verdoppeltem Grundton. Daniel lässt für den Dur-Trugschluss diese begrenzte Alternative zur regulär aufwärts endenden Diskantklausel zu. Vergleiche Menkes Erklärung der üblichen Terzverdopplung. In der entsprechenden Mollwendung würde die fallende Leittonfortsetzung eine übermäßige Sekunde bilden; die Erlaubnis ist daher nicht unterschiedslos übertragbar.",
+      "credit": "Eigene redaktionelle Leseübung nach Thomas Daniel, Der Choralsatz bei Bach und seinen Zeitgenossen, Arbeitszuordnung zur 2. Auflage 2004, S. 199. Eigener Ausschnitt in D-Dur; kein reproduziertes Bach-Beispiel und kein vollständiger Choral.",
+      "image": "quellen/noten/daniel-trugschluss-alt.webp",
+      "url": "https://katalog.slub-dresden.de/id/0-377774707",
+      "catalogue": true
+    },
+    "daniel-sekunde-none": {
+      "kind": "leseuebung",
+      "title": "Derselbe Zusammenklang: Welche Stimme löst sich auf?",
+      "alt": "Zwei eigene zweistimmige Fragmente mit halbem Auftakt und zwei folgenden Halben im 4/4-Takt. A: obere Stimme d″ übergebunden nach d″, dann c″; untere Stimme g, dann c′ und nochmals c′. B: obere Stimme e″, dann d″ und nochmals d″; untere Stimme c′ übergebunden nach c′, dann h. Beide mittleren Klänge sind c′–d″. In A löst sich die vorbereitete Oberstimme als None abwärts auf; in B die vorbereitete Unterstimme als Secunda syncopata. Die Ziffer 2 benennt hier die Dissonanzfunktion trotz des klingenden Nonenabstands.",
+      "caption": "Vergleiche zuerst nur die mittleren Zusammenklänge. Sie sind identisch, doch ihre Vorbereitung ist verschieden: In A hält die Oberstimme d″ und löst es nach c″ auf; in B hält die Unterstimme c′ und löst es nach h auf. Die Generalbassziffern 9 und 2 unterscheiden bei Daniel damit auch die dissonierende Stimme und ihren Fortgang. Spiele anschließend die vollständigen Fragmente, um die Auflösung aus der Vorbereitung zu hören.",
+      "credit": "Eigene redaktionelle Leseübung nach Thomas Daniel, Der Choralsatz bei Bach und seinen Zeitgenossen, Arbeitszuordnung zur 2. Auflage 2004, S. 107–108. Eigene Zweistimmigkeit zur Nona und Secunda syncopata; keine Reproduktion von Buchnoten und keine vollständige Choralaussetzung.",
+      "image": "quellen/noten/daniel-sekunde-none.webp",
+      "url": "https://katalog.slub-dresden.de/id/0-377774707",
       "catalogue": true
     }
   }
