@@ -948,6 +948,31 @@ const ATLAS = {
         "Heimann"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Walter_Heimann_(Musikp%C3%A4dagoge)"
+    },
+    {
+      "name": "Zsolt Gárdonyi",
+      "aliases": [
+        "Zsolt Gardonyi",
+        "Gárdonyi",
+        "Gardonyi"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Zsolt_G%C3%A1rdonyi"
+    },
+    {
+      "name": "Simon Sechter",
+      "aliases": [
+        "Sechter"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Simon_Sechter"
+    },
+    {
+      "name": "Walter R. Spalding",
+      "aliases": [
+        "Walter Raymond Spalding",
+        "Walter Spalding",
+        "Spalding"
+      ],
+      "wikipedia": "https://ca.wikipedia.org/wiki/Walter_Raymond_Spalding"
     }
   ],
   "sources": [
@@ -1320,6 +1345,39 @@ const ATLAS = {
       "publicationYear": 2004,
       "publicationLabel": "2004 (zugeordnet)",
       "publicationNote": "Arbeitszuordnung zur 2., durchgesehenen Auflage: S. 10 nennt die zweite Auflage; der Bibliotheksnachweis belegt dafür Köln: Dohr, 2004. Das Impressum fehlt im Teilscan, deshalb ist die genaue Druckausgabe des Exemplars nicht abschließend gesichert. Erstveröffentlichung 2000. Erschlossen sind die gedruckten S. 9–201; der Scan bricht auf S. 201 ab. Wiederholte Aufnahmen werden nicht als zusätzliche Seiten gezählt."
+    },
+    {
+      "id": "gardonyi1996",
+      "name": "Zsolt Gárdonyi",
+      "title": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+      "group": "Lehrwerke",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "sortAuthor": "Gárdonyi, Zsolt",
+      "publicationYear": 1996,
+      "publicationLabel": "1996 (zugeordnet)",
+      "publicationNote": "Bibliografische Zuordnung zur italienischen Übersetzung von Antonio Giacometti (Milano: Ricordi, 1996; ISBN 8875924708). Der Bibliothekskatalog belegt diese Ausgabe; Titelblatt und Impressum fehlen im bereitgestellten Scan, deshalb ist dessen genaue Druckausgabe nicht abschließend gesichert. Erschlossen sind das Vorwort S. 8–10 und alle acht Kapitel S. 11–97; das Register reicht bis S. 102. Die gedruckten Buchseiten, nicht die Blattnummern des zweiseitig aufgenommenen PDFs, bilden die Fundstellen."
+    },
+    {
+      "id": "sechter1876",
+      "name": "Simon Sechter",
+      "title": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+      "group": "Lehrwerke",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "sortAuthor": "Sechter, Simon",
+      "publicationYear": 1876,
+      "publicationLabel": "1876 (zugeordnet)",
+      "publicationNote": "Leipziger Ausgabe in einem Bande, F. E. C. Leuckart (Constantin Sander), Plattennummer F.E.C.L. 2777; im Titelblatt steht kein Jahr. Die Zuordnung [1876] folgt dem Nachweis für den identischen Farbscan IMSLP #422079 (Bayerische Staatsbibliothek) und einer Leuckart-Anzeige im Börsenblatt vom 25. Februar 1876, S. 706. Die Datierung bestimmt die Ausgabe, nicht den Zeitpunkt eines möglichen späteren Abzugs. Die Erstausgabe erschien 1830 bei J. Czerny in Wien in zwei Teilen. Gesichtet sind die Vorerinnerung S. 3 und alle 120 Übungen I–CXX auf S. 4–82. Die Fundstellen nennen gedruckte Seiten und die historische Übungsnummer mit arabischer Entsprechung."
+    },
+    {
+      "id": "spalding1904",
+      "name": "Walter R. Spalding",
+      "title": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+      "group": "Lehrwerke",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=5",
+      "sortAuthor": "Spalding, Walter Raymond",
+      "publicationYear": 1904,
+      "publicationLabel": "1904 (Copyright)",
+      "publicationNote": "Das Titelblatt nennt Walter R. Spalding als Assistant Professor of Music in Harvard University und trägt den Copyrightvermerk 1904 von Arthur P. Schmidt. Eine Auflagen- oder Drucknummer ist nicht angegeben. Der Bibliotheksnachweis HathiTrust 001460577 (LCCN 04026134) verzeichnet Boston: A. P. Schmidt, c1904, ix und 258 Seiten. Der Scan entspricht dem Exemplar der Faculty of Music, University of Toronto, bei Internet Archive: tonalcounterpoin00spaluoft. Gesichtet sind das Vorwort S. v–viii und alle 13 Kapitel auf S. 1–258. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 15. 1904 bezeichnet den gedruckten Copyrightvermerk, keine gesondert belegte spätere Druckauflage."
     }
   ],
   "topics": [
@@ -2405,6 +2463,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-anfang-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 56, S. 87–88; § 65, S. 99–100 · Beginn der dritten Ordnung",
+          "text": "Die Gegenstimme der dritten Ordnung soll mit einer Pause beginnen. Ihr erster klingender Ton bildet nach Spaldings Anfangsregel eine vollkommene Konsonanz: Oktave oder Quinte, seltener Einklang. Die beiden restlichen Töne der ersten Vierergruppe dürfen Akkord-, Durchgangs- oder Wechselnoten sein; auch ein betonter Durchgang ist möglich. Ein bloßes Dreiklangsarpeggio hält er als Beginn meist für schwach, ohne es grundsätzlich zu verbieten. Den Einklang bewertet er nach dem Medium: Zwei Streicher können denselben Ton unabhängig ausführen, während am Klavier eine einzige Taste beide Stimmen vertreten müsste.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 56, S. 87–88; § 65, S. 99–100 · Beginn der dritten Ordnung",
+              "note": "Die Anfangsregel und der Unterschied zwischen Streichern und Klavier stehen ausdrücklich in § 56; § 65 erinnert an Anfangspause und Konsonanz. S. 87 visuell geprüft. Kein globales Arpeggioverbot wird abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=101"
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -2779,6 +2859,98 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-trugschluss-dur-moll",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 7, S. 5; § 16, S. 21–22",
+          "text": "Beim Übergang V–VI behandelt Spalding Dur und Moll verschieden. In Dur lässt er eine Fassung mit fallendem Leitton und verdoppeltem Grundton des Zielakkords gelten. Überträgt man dieselbe Stimmführung unverändert nach Moll, entsteht die beanstandete übermäßige Sekunde. Stehen Dominante und VI. Stufe in Moll beide in Grundstellung, verlangt seine Erläuterung ausgeprägte Gegenbewegung und eine Verdopplung der Terz des Zielakkords. Das Durbeispiel ist daher keine allgemeine Erlaubnis, den Mollleitton in gleicher Weise abwärts zu führen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Vierstimmige Verbindung V–VI in Dur und Moll",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 7, S. 5; § 16, S. 21–22",
+              "note": "Die parallelen Dur- und Mollbeispiele auf S. 5 sowie § 16 begründen die unterschiedliche Behandlung. Sie stehen im tonalen Vokalrahmen des Eingangskapitels, nicht in einer benannten Spezies."
+            }
+          },
+          "examples": [
+            "spalding-trugschluss-dur-moll"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=19"
+        },
+        {
+          "id": "spalding1904-open-stufen-und-bewegung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 23, S. 29–31",
+          "text": "Spalding unterscheidet eine fortlaufende Tonleiterbewegung vom melodischen Springen. In einer schrittweisen Skalenlinie können die Töne aufwärts oder abwärts weitergehen, ohne dass jede gewöhnliche Strebewirkung die unmittelbar nächste Note festlegt. Bei Sprüngen werden die verschiedenen Stufeneigenschaften deutlicher: Tonika, Terz und Quinte sind vergleichsweise ruhend, der Leitton strebt aufwärts, die vierte Stufe abwärts und die sechste mit geringerer Stärke ebenfalls abwärts. Diese Übersicht beschreibt normale tonale Tendenzen; sie ist kein Gebot, jede siebte Stufe in jedem melodischen Zusammenhang sofort zur Tonika zu führen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Tonale Melodieführung bei Schritten und Sprüngen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 23, S. 29–31",
+              "note": "§ 23 setzt diatonische tonale Melodik voraus und unterscheidet ausdrücklich Skalengang und Sprung. Der Lehrrahmen seit Bach steht im Vorwort S. v–vi."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=43"
+        },
+        {
+          "id": "spalding1904-open-schluss-innenstimme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 32, S. 50, Muster (a)",
+          "text": "In der vierstimmigen Aussetzung einer gegebenen Sopranmelodie lässt Spalding den Leitton in einer Innenstimme abwärts gehen, um einen vollständigen Schlussakkord zu erhalten. Er weist eigens auf diese Stelle im Muster hin. Die Erlaubnis ist an die Lage der Stimme und das Ziel der vollständigen Schlussharmonie gebunden; das Beispiel begründet keine entsprechende Behandlung eines hervortretenden Leittons im Sopran.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Vierstimmige Schlussbildung mit gegebener Sopranmelodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 32, S. 50, Muster (a)",
+              "note": "Die Erläuterung unter Muster (a) auf S. 50 nennt ausdrücklich die Innenstimme und den vollständigen Schlussakkord. Die Notation wurde am Scan geprüft; die Aufgabe ist noch keine nummerierte Zweistimmigkeitsordnung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=64"
+        },
+        {
+          "id": "spalding1904-multi-leitton-andere-wege",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 98, S. 137, Beispiel 8 (a); § 102, S. 147–148, Mollskalen-Trio (d)",
+          "text": "Spalding zeigt im dreistimmigen Satz mehr als den unmittelbaren Leittonschritt zur Tonika. In Beispiel 8 führt er den Leitton aufwärts zur dritten Stufe, damit kurz vor dem Ende nicht zu viel Tonika entsteht. Im späteren Trio über die Mollskala lässt er den Leitton der Mittelstimme dagegen absteigen, um auf dem nächsten Taktschlag einen vollständigen Klang zu gewinnen. Beide Fälle begründet er aus dem konkreten Verlauf; sie liefern keine allgemeine Vorschrift, den Leitton beliebig weiterzuführen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Beispiele · melodischer Verlauf und Klangvollständigkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 98, S. 137, Beispiel 8 (a); § 102, S. 147–148, Mollskalen-Trio (d)",
+              "note": "Die beiden ausdrücklich kommentierten Stellen gehören verschiedenen Stufen des Lehrgangs an: einer bewegten Gegenstimme und einem freieren Skalen-Trio. Deshalb keine gemeinsame Spezieszuweisung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=151"
         }
       ],
       "relations": [
@@ -2873,7 +3045,8 @@ const ATLAS = {
         "betonte-dissonanz",
         "unbetonte-dissonanz",
         "akkordvollstaendigkeit",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "terzen-sexten-folgen"
       ],
       "authors": [
         {
@@ -3206,6 +3379,49 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-zweistimmige-quartsextbrechung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 28, Übung XXXVIII (38), erste zweistimmige Fassung · Intervallfolge 3–5–4–6",
+          "text": "In der ersten zweistimmigen Fassung von XXXVIII entfaltet die obere Linie über einer längeren Bassnote zunächst die Ziffernfolge 3–5–4–6. Die Töne einer mehrstimmigen Klangfolge erscheinen dadurch nacheinander in nur einer oberen Stimme. Die Quarte bleibt als eigener Intervallton erkennbar; die Aussetzung besteht nicht zu jedem Zeitpunkt aus einem konsonanten Zweiklang. Dies ist eine notierte Generalbassfiguration innerhalb der Quartsextaufgabe. Sechter erklärt damit weder die Quarte allgemein zur Konsonanz noch überträgt er das Modell auf eine Note-gegen-Note-Speziesübung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 28, Übung XXXVIII (38), erste zweistimmige Fassung · Intervallfolge 3–5–4–6",
+              "note": "Die Folge 3–5–4–6 steht unter den ersten vier Achteln der zweistimmigen Aussetzung und wurde am Bild geprüft. Die Aussage ist eine konkrete Notenbeobachtung; das Verhältnis von zwei Stimmen wird nicht automatisch als erste Spezies klassifiziert. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-konsonanzen-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 36, S. 59–61 · Konsonanzen im Note-gegen-Note-Satz",
+          "text": "In der ersten Ordnung verwendet Spalding große und kleine Terzen und Sexten sowie reine Quinten, Oktaven und Einklänge. Terzen und Sexten sollen überwiegen, weil sie die gedachte Harmonie deutlicher bestimmen. Der Einklang bleibt im Allgemeinen dem Anfang oder Ende vorbehalten. Die reine Quarte schließt er hier aus: Im harmonischen Verständnis dieser Anfangsübung würde sie eine unvollständige zweite Umkehrung nahelegen. Die Auswahl gilt für den gleichmäßigen zweistimmigen Einstieg; die späteren bewegten Aufgaben erhalten eigene Bedingungen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 36, S. 59–61 · Konsonanzen im Note-gegen-Note-Satz",
+              "note": "§ 36 begründet die Intervallauswahl ausdrücklich mit der harmonischen Deutlichkeit. Die Quarte wird in diesem Aufgabenrahmen ausgeschlossen, nicht aufgrund eines zeitlosen Intervallverbots."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=73"
         }
       ],
       "relations": [
@@ -3614,12 +3830,100 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-bass-siebte-neunte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 21–22, S. 26–29",
+          "text": "Der Bass soll sich nicht nur als Akkordgrundlage, sondern auch als singbare Linie bewähren. Häufige Schritte und sinnvoll gesetzte Sprünge ergänzen einander. Eine starre Obergrenze der Sprungweite lehnt Spaldings Beispielsammlung ab: Selbst Septimen und Nonen können in einer guten Bassmelodie vorkommen, wie er an Rheinbergers Alpenandacht zeigt. Das Beispiel ist kein Freibrief für unmotivierte große Sprünge. Maßgeblich bleiben melodischer Zusammenhang, Rückkehr aus den Lagen und die Tragfähigkeit der Harmonie.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Große Sprünge in einer vokalen Bassmelodie",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, §§ 21–22, S. 26–29",
+              "note": "Die zugespitzte Erlaubnis wird durch das ausdrücklich genannte romantische Vokalbeispiel von Rheinberger begründet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=40"
+        },
+        {
+          "id": "spalding1904-open-verminderte-und-septimen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 27, S. 36–38",
+          "text": "Spalding behandelt auch veränderte Intervalle und Septimen nach ihrem Zusammenhang. Die verminderte Quinte ist im reinen Vokalsatz geläufiger als die übermäßige Quarte; letztere strebt normalerweise zur Erweiterung, kann aber für besondere Wirkungen anders fortgeführt werden. Eine absteigende verminderte Quarte kann in Moll ausdrucksvoll wirken. Die kleine Septime, besonders als Umfang eines Dominantseptakkords, eignet sich auch für melodische Basssprünge; die verminderte Septime ist in Moll und chromatisch auch in Dur möglich. Instrumentale Möglichkeiten werden dabei von vorsichtigerem vokalem Gebrauch unterschieden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Charakteristische Sprungintervalle im tonalen Satz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 27, S. 36–38",
+              "note": "§ 27 erläutert die Intervalle unter anderem mit Händels Messiah sowie Beethoven, Cui und Liszt und unterscheidet vokalen und instrumentalen Gebrauch."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=50"
+        },
+        {
+          "id": "spalding1904-two-spruenge-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 37, S. 61; § 43, S. 64 · Sprünge in der ersten Ordnung",
+          "text": "Für die erste Ordnung bevorzugt Spalding diatonische Bewegung, erlaubt zur Abwechslung aber große und kleine Terzen, reine Quarten und Quinten, große und kleine Sexten sowie Oktaven als Sprünge. Septimen und übermäßige oder verminderte Intervalle sollen zunächst vermieden werden. Eine ausdrückliche Ausnahme ist die verminderte Quinte: Ihr Zielton muss anschließend in den übersprungenen Raum zurückgeführt werden. Die gestatteten großen Intervalle rechtfertigen keine beliebigen Sprungketten; aufeinanderfolgende weite Sprünge in derselben Richtung lehnt er in dieser Aufgabe ab.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 37, S. 61; § 43, S. 64 · Sprünge in der ersten Ordnung",
+              "note": "Die vorläufige Beschränkung in § 37 und die verminderte Quinte sind ausdrücklich benannt; die Beispiele und § 43 wurden auf S. 61 und 64 visuell geprüft. Keine Regel für sämtliche spätere Instrumentalmelodien."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=75"
+        },
+        {
+          "id": "spalding1904-multi-uebermaessige-sekunde-streicher",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 102, S. 147–148, Mollskalen-Trio (f); Kap. VIII, § 115, S. 178",
+          "text": "Für Streicher lässt Spalding größere melodische Freiheit zu als für Stimmen. Im Trio über die Mollskala begründet er eine absteigende übermäßige Sekunde mit charakteristischer Wirkung und erklärt sie bei nicht zu raschem Tempo für gut ausführbar. Später nennt er weitere Sprünge und chromatische Intervalle als Möglichkeiten des Streichersatzes. Anfänger sollen daraus aber keinen Zwang zu ungewöhnlichen Intervallen machen: Jede Erweiterung braucht einen überzeugenden melodischen Zweck und eine passende Ausführung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Trio- und Quartettsatz · erweiterte melodische Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 102, S. 147–148, Mollskalen-Trio (f); Kap. VIII, § 115, S. 178",
+              "note": "S. 148 nennt ausdrücklich Streicher und Tempo als Bedingungen; § 115 begründet die Abweichung vom Vokalsatz aus instrumentalen Möglichkeiten."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=161"
         }
       ],
       "related": [
         "generalbass-sextakkord",
         "sprung-und-taktgewicht",
-        "tritonus-melodiebogen"
+        "tritonus-melodiebogen",
+        "satzmedium"
       ],
       "relations": [
         {
@@ -3681,6 +3985,18 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "contradiction",
           "note": "Prouts strenger Satz lässt bestimmte verminderte Sprünge und die aufsteigende kleine Septime unter benannten Fortsetzungsbedingungen zu. Schönbergs anfängliche melodische Regeln schließen diese Sprungarten aus. Die Erleichterung für Sexten hebt diesen Unterschied nicht auf."
+        },
+        {
+          "from": "spalding1904-two-spruenge-erste",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Spalding schließt in seiner vorbereitenden ersten Ordnung Septimensprünge und zunächst die meisten verminderten Sprünge aus; nur die verminderte Quinte erhält eine ausdrückliche Ausnahme. Prouts Antwort zur Melodieführung im strengen Satz gestattet dagegen auch verminderte Quarte und Septime sowie eine bestimmte aufsteigende kleine Septime. Der Unterschied betrifft den Umfang der konkreten Lehrvorgabe: Aus Spaldings insgesamt freierem Lehrziel folgt keine größere Freiheit in jedem einzelnen Anfangsschritt."
+        },
+        {
+          "from": "spalding1904-multi-uebermaessige-sekunde-streicher",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Spalding begründet die absteigende übermäßige Sekunde ausdrücklich mit ihrer Ausführbarkeit auf Streichern und einem passenden Tempo. Jeppesens hier belegter melodischer Vorrat für den Palestrina-Stil schließt übermäßige Intervalle aus. Instrumentale Schreibaufgabe und vokales Stilmodell haben unterschiedliche Voraussetzungen."
         }
       ]
     },
@@ -5040,6 +5356,98 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-chromatische-septime",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 26, Bsp. 24 · Chromatische Fuge BWV 903, Beginn",
+          "text": "Am Beginn der Chromatischen Fuge hebt Gárdonyi eine betonte, unvorbereitete Septime als ersten Zusammenklang beim Comes hervor. Ihre Auflösung erfolgt auf dem Durchgangssechzehntel e im Themenkopf des Comes. Dieser Schritt hebt zugleich die tonale Veränderung des Anfangstons wieder auf und erhält die charakteristische Schrittbewegung. Die Erklärung verbindet hier Dissonanzverlauf, Figuration und Einrichtung der tonalen Antwort; sie ist keine allgemeine Erlaubnis unvorbereiteter Septimen in Speziesübungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 26, Bsp. 24 · Chromatische Fuge BWV 903, Beginn",
+              "note": "Die Aussage ist eine Analyse eines genau bezeichneten Satzbeginns von Bach, keine Regel für den strengen Übungssatz."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-betonter-durchgang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45, S. 70–71, und § 46, S. 71–73; Kap. IV, § 58, S. 94 · betonte Durchgänge in zweiter und dritter Ordnung",
+          "text": "Spalding setzt betonte Durchgänge gezielt für eine selbständige, zusammenhängende Gegenstimme ein. In der zweiten Ordnung kann die schwere Note dissonieren, wenn auf der nächsten leichten Position ein Akkordton einen Schritt höher oder tiefer folgt. Sobald das harmonische Gerüst beherrscht wird, empfiehlt er diese Möglichkeit häufig, damit die Stimme nicht bei einer bloßen rhythmischen Ausfüllung von Akkorden stehen bleibt. Auf S. 72 stellt er zwei Fassungen derselben Aufgabe gegenüber. Auch im instrumentalen Vier-gegen-eins dürfen betonte Durchgänge auf dem dritten, sogar auf dem ersten Ton der Gruppe systematisch verwendet werden.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale zweistimmige Übungen · zweite Ordnung und instrumentale dritte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45, S. 70–71, und § 46, S. 71–73; Kap. IV, § 58, S. 94 · betonte Durchgänge in zweiter und dritter Ordnung",
+              "note": "Die Erlaubnis für 2:1 steht ausdrücklich in § 45, ihre häufige Verwendung als Lehrziel in § 46. Die zusätzliche 4:1-Erlaubnis folgt in § 58; § 55, S. 86–87, legt dort Streicher und Klavier als Medium fest. Noten und Text auf S. 70–72 und 94 visuell geprüft."
+            }
+          },
+          "examples": [
+            "spalding-betonte-durchgaenge"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=84"
+        },
+        {
+          "id": "spalding1904-multi-gemischte-dissonanzen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 100, S. 140–141, Beispiel mit (a), (b), (c) · zweite und dritte Ordnung kombiniert",
+          "text": "Zwischen den beiden begleitenden Stimmen lässt Spalding bei gemischten Ordnungen betonte Durchgänge und wechselnotenartige Wendungen entstehen. Zunächst verlangt er Gegenbewegung und einen diatonischen Verlauf wenigstens der Viertelstimme. Im Beispiel mit dem gegebenen Bass können die beiden oberen Stimmen miteinander dissonieren, obwohl jede für sich zum Bass regelgerecht geführt ist. Der Zusammenstoß wird aus den gleichzeitigen Linien erklärt und muss nicht zu einem selbständigen Akkord umgedeutet werden.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweite und dritte Ordnung · drei Stimmen mit bewegten Begleitlinien",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 100, S. 140–141, Beispiel mit (a), (b), (c) · zweite und dritte Ordnung kombiniert",
+              "note": "Die Bedingungen stehen vor dem Beispiel auf S. 140; der Kommentar auf S. 141 unterscheidet ausdrücklich die Beziehung der Oberstimmen untereinander und zum Bass."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=154"
+        },
+        {
+          "id": "spalding1904-multi-chromatischer-zusammenstoss",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 116, S. 180, Fortsetzung der Gluck-Aussetzung (a)",
+          "text": "In Spaldings Streicheraussetzung der Gluck-Melodie trifft ein betontes c im Alt auf cis im Bass. Er erklärt das c als Durchgang und hebt gerade die Wirkung dieser Reibung hervor. Die abweichenden Formen desselben Stammtons bedeuten hier daher nicht automatisch einen Schreibfehler. Zu prüfen sind der Verlauf der Altlinie und der harmonisch bestimmte Bass an dieser konkreten Stelle; eine allgemeine Erlaubnis jedes gleichzeitigen chromatischen Zusammenstoßes gibt die Passage nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmiger Streichersatz über eine Gluck-Melodie · betonter Durchgang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 116, S. 180, Fortsetzung der Gluck-Aussetzung (a)",
+              "note": "Der Kommentar benennt c im Alt und cis im Bass ausdrücklich; der Notentext der markierten Stelle wurde visuell geprüft."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=194"
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -5126,6 +5534,12 @@ const ATLAS = {
           "to": "menke2017-8",
           "type": "nuance",
           "note": "Beide Autoren rechnen betonte Durchgänge und Wechselnoten zum Transitus irregularis. Daniel differenziert innerhalb dieser gemeinsamen Einteilung zusätzlich halbschwere und schwere Achtel sowie ganze Viertel und gewinnt so fünf Grundfälle. Der Mehrwert liegt in der metrischen und zeitlichen Abstufung, nicht in einer gegensätzlichen Zulassung des betonten Transitus."
+        },
+        {
+          "from": "spalding1904-two-betonter-durchgang",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prout lässt im 2:1 einen betonten Durchgang als Ausnahme zugunsten der Linie zu, lehnt ihn im 4:1 aber ausdrücklich ab. Spalding macht solche Töne im 2:1 zu einem häufigen Mittel der melodischen Selbständigkeit und gestattet sie auch systematisch auf Haupt- und Nebenakzenten des 4:1. Für die dritte Ordnung hat er die Aufgabe ausdrücklich auf Streicher und Klavier ausgerichtet; die unterschiedliche Erlaubnis gehört zu diesen verschiedenen Übungsrahmen."
         }
       ]
     },
@@ -5526,6 +5940,29 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-sprung-in-dissonanz",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 51, S. 80–81, Beispiel (a); Kap. IV, § 58, S. 93–94 · angesprungene Nebentöne",
+          "text": "Spaldings Ausdruck „accented passing note“ umfasst auch appoggiaturartige Töne, deren Eintritt nicht schrittweise erfolgt. Im Modell der zweiten Ordnung auf S. 81 wird die markierte betonte Dissonanz durch einen Terzsprung in Gegenbewegung zum Bass erreicht. Für das spätere freie Schreiben für Klavier oder Streicher erklärt er außerdem, dass Wechselnoten häufig angesprungen werden, gewöhnlich aber schrittweise weitergehen. Das ersetzt nicht seine Regel für einen gewöhnlichen Durchgang: Diesen verlangt § 57 schrittweise und in gleichbleibender Richtung. Entscheidend ist also auch, welchen melodischen Vorgang der Ton bildet.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung und freie instrumentale Behandlung in der dritten Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 51, S. 80–81, Beispiel (a); Kap. IV, § 58, S. 93–94 · angesprungene Nebentöne",
+              "note": "Das Modell auf S. 81 und der Kommentar zu angesprungenen Wechselnoten auf S. 94 wurden visuell geprüft. Die unterschiedliche Verwendung der Begriffe passing note und auxiliary note wird gewahrt; es entsteht keine allgemeine Sprungerlaubnis für jeden Durchgang."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=94"
         }
       ],
       "relations": [
@@ -6278,6 +6715,94 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-13",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 78 · Nr. 114 (CXIV), „Die Non im Durchgang“",
+          "text": "Unter Die Non im Durchgang führt Nr. 114 die Oberstimme über liegendem Bass sowohl als 8–9–10 aufwärts als auch als 10–9–8 abwärts. Die None wird in der ersten dieser Figuren also aufwärts weitergeführt. Der Vergleich mit den früheren gebundenen Folgen 9–8 zeigt, dass die Intervallzahl allein noch keine Abwärtsfortsetzung vorschreibt. Sechters Überschrift ordnet diesen Fall ausdrücklich dem Durchgang zu; die beiden Richtungen sind im Notenbild ausgeführt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 78 · Nr. 114 (CXIV), „Die Non im Durchgang“",
+              "note": "Die Überschrift ist verbal belegt. Die Folgen 8–9–10 und 10–9–8 stehen deutlich in der Bezifferung der ersten Fassung und stimmen mit der Oberstimmenbewegung überein. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-vorhalt-aufwaerts",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 75, S. 109–110, Tabellen a–e · Vorhalte von oben und unten",
+          "text": "Im synkopierten Satz lässt Spalding einen Akkordgrundton oder eine Terz von oben verzögern; bei Grundton im Bass ergeben sich die geläufigen Folgen 9–8 und 4–3. Eine Auflösung nach oben ist ebenfalls möglich: Häufig steigt der übergebundene Leitton zur Tonika, gelegentlich die zweite Stufe zur Terz. Den letztgenannten Fall erlaubt er jedoch nicht mit der Terz selbst im Bass. Seine Tabellen unterscheiden deshalb Grundstellung und Sextstellung des Zielakkords. Die Auflösungsrichtung hängt hier vom verzögerten Akkordton und von der Basslage ab.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 75, S. 109–110, Tabellen a–e · Vorhalte von oben und unten",
+              "note": "Die Tabellen und die Erklärung auf S. 109–110 wurden visuell geprüft. 9–8 und 4–3 beschreiben hier die Grundstellungsbeispiele; dieselben Akkordtöne ergeben bei verändertem Bass andere Intervallzahlen. Der Ausschluss bei der von unten verzögerten Terz wird bewahrt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=123"
+        },
+        {
+          "id": "spalding1904-two-verzierung-dreiertakt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 83, S. 116–117 · verzierte Auflösung im synkopierten Dreiertakt",
+          "text": "Für synkopierten Kontrapunkt mit drei Noten gegen eine erklärt Spalding die verzierte Auflösung als Einschub zwischen Vorhalt und normalem Auflösungston. Der eingeschobene Ton kann zum verzögerten Akkord gehören, etwa dessen Quinte. Er kann auch eine akkordfremde „changing note“ sein, die im Terzsprung erreicht und anschließend schrittweise zum dazwischenliegenden Auflösungston geführt wird. Für die Kadenz dieser Bewegungsart verlangt er eine solche Verzierung. Selbst eine unter den Grundton springende Akkordquinte kann als Einschub verwendet werden, ohne hier eine problematische Quartsextwirkung zu erzeugen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Synkopierte Ordnung · dreiteilige Bewegung und verzierte Auflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 83, S. 116–117 · verzierte Auflösung im synkopierten Dreiertakt",
+              "note": "§ 83 steht ausdrücklich innerhalb der synkopierten Ordnung; die Drei-gegen-eins-Rhythmik wird deshalb nicht automatisch als dritte Spezies etikettiert. Tabellen und Bassquintenbeispiel auf S. 117 visuell geprüft. Die Quartsext-Erlaubnis betrifft den ornamental eingeschobenen Ton."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=130"
+        },
+        {
+          "id": "spalding1904-multi-durchgang-terzsprung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 100, S. 141, mittleres Beispiel (a) und (b) · Durchgangsdissonanz mit Terzsprung",
+          "text": "Gelegentlich darf eine dissonierende Durchgangsnote nach Spalding mit einem Terzsprung gegen ihre bisherige Bewegungsrichtung verlassen werden. Er erklärt dies ausdrücklich als Analogie zu den changing notes und zeigt zwei Stellen nach einer vorübergehenden Septime. Solche selbständigen Linienverbindungen findet er charakteristisch, verlangt aber sparsamen Gebrauch. Die Ausnahme betrifft diese bewegten dreistimmigen Kombinationen; sie ersetzt nicht die gewöhnliche schrittweise Führung jeder Durchgangsnote.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Gemischte zweite und dritte Ordnung · besondere Fortführung einer Durchgangsnote",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 100, S. 141, mittleres Beispiel (a) und (b) · Durchgangsdissonanz mit Terzsprung",
+              "note": "Der Text bezeichnet die Terzsprünge ausdrücklich als gelegentliche Analogie zu changing notes und warnt vor zu häufiger Verwendung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=155"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -6358,6 +6883,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-3",
           "type": "nuance",
           "note": "Bei Neidhöfer und Schubert übernimmt die andere Stimme zunächst die Septime und führt diese dann abwärts. Daniels Heterolepsis der Auflösung kann unmittelbar den erwarteten Zielton einer anderen Stimme übertragen. Beide erhalten den Auflösungszusammenhang, verteilen seine beiden Töne aber verschieden auf die notierten Stimmen."
+        },
+        {
+          "from": "spalding1904-two-vorhalt-aufwaerts",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prouts strenge Vorhaltsübung nennt für die Auflösung von unten genau den Leitton zur Tonika. Spalding führt zusätzlich die von der zweiten Stufe aus verzögerte Terz auf, schließt diesen Fall jedoch bei Terz im Bass aus. Die zusätzliche Möglichkeit betrifft seinen tonalen synkopierten Übungsrahmen; Prouts ausdrücklich enger gefasste Vorschrift für den strengen Satz bleibt als solche erkennbar."
         }
       ]
     },
@@ -6401,7 +6932,8 @@ const ATLAS = {
       "related": [
         "verdeckte-parallelen",
         "generalbass-sextakkord",
-        "doppelleitton-kadenz"
+        "doppelleitton-kadenz",
+        "terzen-sexten-folgen"
       ],
       "authors": [
         {
@@ -7124,6 +7656,137 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-parallelen-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 47, S. 75–76 · harmonisch tragende und leichte Positionen",
+          "text": "Spalding prüft in der zweiten Ordnung die Verbindung der Harmonien auf den schweren Positionen. Quinten oder Oktaven zwischen solchen Gerüsttönen werden nicht allein durch eine eingeschobene leichte Note gerechtfertigt. Zwischen leichten Positionen oder von einer leichten zu einer schweren kann die gleiche Intervallfolge dagegen zulässig sein, wenn keine fehlerhafte harmonische Verbindung entsteht. Er zeigt deshalb bei Zweifelsfällen ausdrücklich das vereinfachte Harmoniegerüst. Die metrische Lage ist ein Anhaltspunkt; die Rolle der Töne innerhalb der gemeinten Harmonie entscheidet mit.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 47, S. 75–76 · harmonisch tragende und leichte Positionen",
+              "note": "Text sowie gute und schlechte Beispiele mit harmonischen Reduktionen auf S. 75–76 visuell geprüft. Keine pauschale Aussage, dass sämtliche Quinten auf leichten Positionen erlaubt seien."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=89"
+        },
+        {
+          "id": "spalding1904-two-parallelen-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 60, S. 95–96 · zeitlich getrennte Quinten und Oktaven",
+          "text": "Im Vier-gegen-eins beanstandet Spalding Quint- und Oktavfolgen zwischen den ersten, harmonisch tragenden Noten benachbarter Gruppen. Auch gleiche Positionen innerhalb aufeinanderfolgender Figuren können die Folge hervorheben. Als Faustregel nennt er vier Zwischentöne, die den Zusammenhang aufheben; bei deutlicher Gegenbewegung können schon ein oder zwei genügen. Für Quinten zwischen zwei Durchgangstönen oder von einem Akkord- zu einem Durchgangston erlaubt er einen bis drei Zwischentöne. Geht der Durchgang der zweiten, harmonisch tragenden Note voraus, muss diese schrittweise erreicht und verlassen werden. Eine reine Zählung der Abstände reicht somit nicht: Die harmonische Rolle und die Bewegungsrichtung gehören zur Prüfung.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 60, S. 95–96 · zeitlich getrennte Quinten und Oktaven",
+              "note": "Die Regeln und Beispiele auf S. 95–96 wurden visuell geprüft. Die besondere Regel mit ein bis drei Zwischentönen ist im Text nur für Quinten formuliert; sie wird nicht stillschweigend auf Oktaven erweitert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=109"
+        },
+        {
+          "id": "spalding1904-two-parallelen-synkope",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, §§ 76–79, S. 111–113 · harmonische Reduktion der Synkopen",
+          "text": "Um Quint- und Oktavfolgen im synkopierten Satz zu beurteilen, reduziert Spalding die Bindungen auf ihr harmonisches Gerüst. In seinem ersten Fall bilden die jeweils zweiten Gegenstimmennoten mit dem Subject die maßgebliche Harmonie; scheinbare Quinten auf den Taktanfängen sind deshalb nicht entscheidend. Eine andere Kette verbirgt dagegen drei Oktaven und anschließend drei Quinten und bleibt fehlerhaft. Auch das Unterbrechen einer vorher gültigen Bindung kann den harmonischen Zusammenhang verändern. Die Prüfung besteht somit nicht darin, jeden gleichzeitigen Abstand zu zählen, sondern die tragenden Töne der Fortschreitung freizulegen. Die Fußnote zeigt daneben einen abweichenden Haydn-Fall als Repertoirebeleg.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, §§ 76–79, S. 111–113 · harmonische Reduktion der Synkopen",
+              "note": "Reduktionen, Gegenbeispiele und Haydn-Fußnote auf S. 111–113 visuell geprüft. Der Repertoirefall wird nicht als allgemeine Freigabe für die Übungsaufgabe behandelt; es gibt ebenso ausdrücklich unerlaubte harmonische Folgen trotz Synkopen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=125"
+        },
+        {
+          "id": "spalding1904-two-parallelen-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 90, S. 122 · Quinten und Oktaven in Auflösungsverzierungen",
+          "text": "Bei verzierten Vorhaltsauflösungen lässt Spalding Quint- und Oktavfolgen zu, wenn sie durch die eingeschobene Bewegung entstehen und keine eigenständige harmonische Bedeutung besitzen. Die Beispiele führen solche Intervalle innerhalb des melodischen Auflösungsverlaufs vor. Die Erlaubnis bezieht sich auf diese ornamentalen Verbindungen. Sie hebt seine Prüfung der harmonisch tragenden Fortschreitungen nicht auf: Eine im Gerüst vorhandene fehlerhafte Folge wird nicht schon dadurch gültig, dass man sie mit bewegten Noten umgibt.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 90, S. 122 · Quinten und Oktaven in Auflösungsverzierungen",
+              "note": "§ 90 mit den markierten Quinten und Oktaven auf S. 122 visuell geprüft. Der Zusammenhang mit der Gerüstprüfung folgt den ausdrücklich erläuterten §§ 76–79, S. 111–113; die ornamentale Erlaubnis wird nicht zu einem allgemeinen Parallelverbot oder einer allgemeinen Freigabe umgedeutet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=136"
+        },
+        {
+          "id": "spalding1904-multi-quinten-harmoniewechsel",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 111, S. 165–166, Beispiel 2 (a) · Tenor und bewegter Bass",
+          "text": "In der Aussetzung mit dem Thema im Alt kommentiert Spalding die markierten Quinten zwischen Tenor und Bass als zulässigen Ausnahmefall. Er begründet dies mit einem zusätzlichen Harmoniewechsel auf dem zweiten Schlag, der die Aufmerksamkeit von der beanstandeten Verbindung ablenke. Der Hinweis gilt der konkret notierten Fortschreitung mit bewegtem Bass. Er formuliert keine allgemeine Regel, nach der irgendein eingeschobener Ton oder Akkord jede Quintverbindung unschädlich machen würde.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Aussetzung · zwei Bassnoten gegen einen Melodieton",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 111, S. 165–166, Beispiel 2 (a) · Tenor und bewegter Bass",
+              "note": "Der Kommentar zu Beispiel 2 (a) nennt ausdrücklich Tenor und Bass sowie den exceptional change of harmony on the second beat. Die notierte Ausnahme wird nicht erweitert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=179"
+        },
+        {
+          "id": "spalding1904-free-19",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, Übung 4, S. 249–250 · Stelle (a), Sopran und Tenor",
+          "text": "In der freien vierstimmigen Übung 4 stehen bei (a) parallele Quinten zwischen Sopran und Tenor. Spalding akzeptiert diese konkrete Folge mit einer harmonischen Begründung: Das gis des Soprans ist ein Durchgangston, weshalb die Quinten für ihn keine Folge tragender Harmonietöne darstellen. Die Beurteilung berücksichtigt damit die Funktion der beteiligten Töne im Verlauf. Das Beispiel gibt keine allgemeine Erlaubnis, beliebige Quintparallelen durch die Bezeichnung Durchgang zu entschuldigen; an anderen Stellen desselben Kapitels verlangt Spalding gerade eine eigene Begründung auffälliger Quintfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier vierstimmiger Übungssatz für Stimmen oder Streicher",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, Übung 4, S. 249–250 · Stelle (a), Sopran und Tenor",
+              "note": "Das Notenbild mit Marke (a) steht auf S. 249; der ausdrückliche Kommentar auf S. 250 nennt soprano and tenor sowie g# als passing note. Die Zuordnung wurde im vergrößerten Notenbild geprüft. Auf S. 253 und 257 folgen Fragen nach weiteren Quintfolgen, deren Antworten hier nicht erfunden werden."
+            }
+          },
+          "examples": [
+            "spalding-durchgangsquinten"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=263"
         }
       ],
       "relations": [
@@ -7767,6 +8430,92 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-pref-verdeckte-parallelen",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · harmonische Strenge und gebräuchliche Ausnahmen",
+          "text": "Sechter erklärt, die harmonischen Regeln in seinen Übungen möglichst streng zu beachten. Bei verdeckten Oktaven und Quinten lässt er jedoch diejenigen Fälle zu, die nach seiner Formulierung durch den allgemeinen Gebrauch bereits gerechtfertigt sind. Die Vorrede enthält also kein ausnahmsloses Verbot. Sie gibt an dieser Stelle aber auch keine vollständige Liste erlaubter Stimmenpaare, Sprungrichtungen oder Kadenzen. Solche genaueren Bedingungen müssen am jeweiligen Beispiel oder an einer weiteren ausdrücklich formulierten Regel geprüft werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · harmonische Strenge und gebräuchliche Ausnahmen",
+              "note": "Die Vorrede benennt die begrenzte Ausnahme ausdrücklich, ohne ihren Geltungsbereich auf bestimmte historische Stile, Spezies oder Stimmenpaare festzulegen."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-aussen-innen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 5, S. 3",
+          "text": "Bei einer aufsteigenden Bassverbindung von der zweiten Stufe zur Dominante empfiehlt Spalding in den oberen Stimmen Gegenbewegung. Die verdeckte Oktave zwischen den Außenstimmen ist in seinem Gegenbeispiel deutlich ungünstig. Tritt die entsprechende Verbindung zwischen inneren Stimmen auf, beurteilt er sie weniger streng. Die konkrete Stimmenlage und die Grundtonverbindung gehören damit zur Bewertung; aus dem Beispiel folgt kein unterschiedsloses Verbot jeder ähnlichen Bewegung in allen Stimmenpaaren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Verdeckte Oktaven in einer vierstimmigen Dreiklangverbindung",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 5, S. 3",
+              "note": "§ 5 unterscheidet die im Beispiel markierte Außenstimmenoktave von weniger auffälligen Verbindungen innerer Stimmen. Der tonale Vokalrahmen steht im Vorwort S. vi und Kap. I."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=17"
+        },
+        {
+          "id": "spalding1904-two-verdeckte-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 39, S. 61–62 · verdeckte Quinten und Oktaven",
+          "text": "In der zweistimmigen ersten Ordnung empfiehlt Spalding grundsätzlich Zurückhaltung mit verdeckten Quinten und Oktaven. Besonders bedenklich sind ihm gleichzeitige Sprünge, aufsteigende Bewegung und die Annäherung einer Stimme im Ganzton. Abwärtsbewegung mit einer schrittweise geführten Stimme, besonders im Halbton, eröffnet mehr Möglichkeiten. Eine aufsteigende verdeckte Oktave nennt er ausdrücklich gut, wenn die Oberstimme sie im Halbton erreicht. Seine Bemerkungen über größere Freiheit mit Innenstimmen betreffen dagegen den mehrstimmigen Satz: In der Zweistimmigkeit gelten beide Stimmen für ihn als Außenstimmen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 39, S. 61–62 · verdeckte Quinten und Oktaven",
+              "note": "Text, erlaubte Beispiele und die Fußnote zur Unterscheidung von Zwei- und Mehrstimmigkeit auf S. 62 visuell geprüft. Die besondere aufsteigende Erlaubnis betrifft eine Oktave, nicht pauschal jede verdeckte Quinte."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=75"
+        },
+        {
+          "id": "spalding1904-multi-verdeckte-dreistimmig",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 132; Rückverweis auf Kap. II, § 39 · drei Stimmen",
+          "text": "In der Dreistimmigkeit beurteilt Spalding verdeckte Quinten und Oktaven milder als im besonders durchsichtigen Zweistimmensatz. Sie können zulässig sein, wenn dadurch eine melodisch bessere Fortsetzung entsteht. Diese Lockerung ersetzt seine früheren Bedingungen jedoch nicht: Er verweist ausdrücklich auf § 39 und dessen Unterscheidung nach Stimmenpaar, Bewegungsrichtung und schrittweiser Annäherung. Die zusätzliche Stimme schafft also Spielraum, aber keinen unterschiedslosen Freibrief für jeden direkten Eintritt in eine Quinte oder Oktave.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Übung · verdeckte vollkommene Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 96, S. 132; Rückverweis auf Kap. II, § 39 · drei Stimmen",
+              "note": "S. 132 nennt den Gewinn an melodischer Qualität und behält die Erwägungen aus § 39 ausdrücklich bei. Die Aussage ist nicht auf eine bestimmte historische Periode eingegrenzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=146"
         }
       ],
       "relations": [
@@ -7871,6 +8620,12 @@ const ATLAS = {
           "to": "piston1947-1",
           "type": "context",
           "note": "Piston beurteilt direkte Quinten und Oktaven in Bach-Fugen nach der rhythmischen Hervorhebung des Zielintervalls. Daniel bindet die nicht bloß aus Tonumverteilung entstehende Außenoktave im Choralsatz vor allem an Kadenz- und Zeilenschlüsse, mit eigens genannten Ausnahmen. Derselbe Komponist liefert je nach Gattung verschiedene Maßstäbe."
+        },
+        {
+          "from": "spalding1904-two-verdeckte-erste",
+          "to": "prout1890-1",
+          "type": "nuance",
+          "note": "Für die erste Ordnung empfiehlt Prout, verdeckte Quinten und Oktaven auch an der Kadenz zu meiden. Spalding bewertet innerhalb derselben Note-gegen-Note-Aufgabe bestimmte Annäherungen ausdrücklich positiv, darunter die aufsteigende verdeckte Oktave bei halbtonweise aufsteigender Oberstimme. Verglichen werden diese Anfangsempfehlungen; Prouts gesonderte Möglichkeiten der zweiten Spezies werden dadurch nicht bestritten."
         }
       ]
     },
@@ -7912,7 +8667,9 @@ const ATLAS = {
         "stimmuebergreifen",
         "doppelter-kontrapunkt",
         "stimmen-ergaenzen",
-        "choral-stimmumfang"
+        "choral-stimmumfang",
+        "satzmedium",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -8471,6 +9228,116 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-vokale-innenstimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 26, S. 33–35",
+          "text": "Alt und Tenor können sich kreuzen, wenn ihre Linien dadurch freier und musikalisch besser werden. Spalding zeigt dies unter anderem an Festa und Bachs Weihnachtsoratorium. Für die ersten eigenen Vokalübungen empfiehlt er dennoch seltene und kurze Kreuzungen: Der Lernende soll zunächst auch innerhalb klar unterscheidbarer Lagen gute Linien erfinden können. Die Übungsbeschränkung ist somit enger als die vorgeführte kompositorische Praxis; über eine Kreuzung entscheidet ihr melodischer Gewinn im konkreten Satz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque"
+            ],
+            "reach": "cross-style",
+            "frame": "Kreuzung von Alt und Tenor; Vokalübung und Repertoire",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 26, S. 33–35",
+              "note": "Die Passage nennt Festa und Bach und begrenzt die Zurückhaltung ausdrücklich auf frühe Übungen. Der zusätzliche Renaissancebezug folgt dem Festa-Beispiel, nicht dem Erscheinungsjahr des Lehrbuchs."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=47"
+        },
+        {
+          "id": "spalding1904-two-stimmkreuzung-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 66, S. 102, unteres Mollbeispiel · Kreuzung und Ausführungsmedium",
+          "text": "Im unteren Mollkontrapunkt auf S. 102 lässt Spalding die Gegenstimme am Anfang kurz über das Subject kreuzen. Der hohe Anfang soll ihr einen größeren Gesamtumfang ermöglichen. Auch das dabei auftretende Zusammenfallen auf demselben c beanstandet er für zwei Streichinstrumente nicht. Am Klavier sollen die Stimmen hingegen nicht lange so dicht beieinanderbleiben: Dieselbe Taste kann ihre verschiedenen Funktionen nicht unabhängig ausführen, und die Wiederholung verdeckt die Eigenart des Subjects. Die Stelle begründet eine konkrete Kreuzung aus Linienumfang und Instrument.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 66, S. 102, unteres Mollbeispiel · Kreuzung und Ausführungsmedium",
+              "note": "Unteres Beispiel und Erläuterung auf S. 102 visuell geprüft. Die Erlaubnis betrifft eine kurze Anfangskreuzung, keine dauerhafte Beliebigkeit der Stimmenlage."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=116"
+        },
+        {
+          "id": "spalding1904-multi-kreuzung-instrumente",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 131; Beispiele aus Dvořák op. 74 und Bachs erster Orgel-Triosonate",
+          "text": "Bei instrumentalen Trios kann das Kreuzen der Mittel- und Oberstimme ihren melodischen Raum vergrößern. Spalding führt dafür einen Ausschnitt aus Dvořáks Streichtrio op. 74 und Bachs erster Orgel-Triosonate an. Auf der Orgel erleichtern getrennte Manuale die Ausführung gekreuzter Linien; auf dem Klavier hält er denselben Effekt für weniger günstig. Die erlaubte Kreuzung wird damit aus Besetzung und Ausführung erklärt. Sie ist keine Anweisung, die Registerordnung in jeder Vokalübung aufzugeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Streicher- und Orgeltrio · Stimmkreuzung im Repertoirevergleich",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. VII, § 96, S. 131; Beispiele aus Dvořák op. 74 und Bachs erster Orgel-Triosonate",
+              "note": "Die beiden ausdrücklich bezeichneten Beispiele verbinden Dvořáks Streicherbesetzung mit Bachs Orgeltrio; die Manualverteilung wird als praktischer Grund genannt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=145"
+        },
+        {
+          "id": "spalding1904-multi-kreuzung-vier-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 106, S. 154; § 112, S. 167–169 · vierstimmige Vokalübungen und bewegte Innenstimmen",
+          "text": "Auch im einfachen vierstimmigen Satz lässt Spalding gelegentliche Kreuzungen zu, besonders zwischen den Mittelstimmen. Der Alt kann kurz über den Sopran treten; den Bass über dem Tenor behandelt er als selteneren Fall. In den Übungen mit fließender Innenstimme soll man die normale Lage zunächst ausschöpfen. Erst ein wirklicher Gewinn an Umfang, Abwechslung und melodischem Verlauf rechtfertigt die Kreuzung. Die größere Freiheit späterer Streicherstücke soll nicht schon beim ersten Schreibproblem als Ausweg dienen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmiger Übungssatz · begründete Erweiterung einer Innenstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 106, S. 154; § 112, S. 167–169 · vierstimmige Vokalübungen und bewegte Innenstimmen",
+              "note": "§ 106 gibt die Abstufung nach Stimmenpaar; § 112 verlangt vor der Kreuzung ausdrücklich den Versuch einer überzeugenden Führung in normaler Lage."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
+        },
+        {
+          "id": "spalding1904-free-12",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, §§ 172–173, S. 236–238, und Haydn-Aussetzung S. 239–240 · innere Streicherstimmen",
+          "text": "Im freien Streichersatz empfiehlt Spalding Kreuzungen der Mittelstimmen als ein wesentliches Gestaltungsmittel. Sie können einer Linie eine abwechslungsreichere Kontur geben und wichtige Akkordtöne in das klanglich günstigere Register eines Instruments bringen. Dafür zeigt er unter anderem Ausschnitte von Mozart, Haydn und Richard Strauss; Schumann und Brahms veranschaulichen die Verbindung von Klangverteilung und melodischem Interesse. Im eigenen Modell zur Haydn-Melodie hebt er die Kreuzung von zweiter Violine und Bratsche im dritten und vierten Takt ausdrücklich hervor. Die gekreuzte Lage erfüllt hier eine positive instrumentale Aufgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Freier Streichersatz mit selbstständigen Mittelstimmen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XII, §§ 172–173, S. 236–238, und Haydn-Aussetzung S. 239–240 · innere Streicherstimmen",
+              "note": "§ 173 nennt sowohl die melodische Kontur als auch das sonorste Instrumentenregister als Zwecke der Kreuzung. S. 240 lokalisiert die Kreuzung von zweiter Violine und Bratsche in T. 3–4 des auf S. 239 begonnenen Modells. Die Aussage wird nicht auf alle Stimmenpaare und alle Übungsstufen ausgeweitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=250"
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -8587,6 +9454,12 @@ const ATLAS = {
           "to": "salzer-schachter1989-2",
           "type": "context",
           "note": "In der dreistimmigen Speziesübung von Salzer und Schachter übernimmt eine unter die bisherige Bassstimme kreuzende Mittelstimme die Bassfunktion. Daniels Choralsatzbeispiel verlangt zusätzlich den klingenden Instrumentalbass zu berücksichtigen: Bleibt dessen Oktavverdopplung darunter, wandert das Bassfundament nicht mit dem tiefsten Vokalton. Entscheidend ist die vollständige Besetzung."
+        },
+        {
+          "from": "spalding1904-free-12",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Kennan schließt Kreuzungen in den ersten zweistimmigen Aufgaben vorläufig aus, damit beide Linien als Ober- und Unterstimme lesbar bleiben. Spalding empfiehlt sie im fortgeschrittenen freien Streichersatz gerade für melodische Kontur und Instrumentenregister. Die gegensätzlichen Anweisungen betreffen verschiedene Übungsstufen, Besetzungen und Lernziele; sie sind kein allgemeiner Widerspruch über komponierte Musik."
         }
       ]
     },
@@ -8699,6 +9572,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-uebergreifen-vier-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 106, S. 154, erstes kleines Notenbeispiel · benachbarte Stimmen",
+          "text": "Im vierstimmigen Note-gegen-Note-Satz erlaubt Spalding gelegentlich auch das Übergreifen benachbarter Stimmen. Sein kleines Beispiel zeigt den Wechsel in eine zuvor von der Nachbarstimme besetzte Lage, ohne dies mit einer dauerhaften Umkehrung ihrer Registerordnung gleichzusetzen. Die Erlaubnis steht im Zusammenhang seines Ziels, jede Stimme melodisch beweglich zu halten. Sie betrifft diese mehrstimmige Aufgabe und ist kein Urteil über das Übergreifen in sämtlichen zweistimmigen Anfängerübungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Einfacher vierstimmiger Vokalsatz · gelegentliches Übergreifen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 106, S. 154, erstes kleines Notenbeispiel · benachbarte Stimmen",
+              "note": "§ 106 nennt adjacent voices und overlap ausdrücklich und gibt dazu ein eigenes Notenbeispiel."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
         }
       ],
       "relations": [
@@ -9007,6 +9900,48 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-dreistimmige-lage",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 94 und 96, S. 129–131 · Abstand der drei Stimmen",
+          "text": "Für einen vollen dreistimmigen Klang empfiehlt Spalding zunächst möglichst gleichmäßige Abstände. Erzwingt der Melodieverlauf eine größere Lücke, soll sie eher zwischen Bass und Mittelstimme als dauerhaft zwischen den beiden oberen Stimmen liegen. Die Akkordterz gehört bevorzugt in ein mittleres oder hohes Register und soll nicht dicht am tiefen Bass verborgen werden. Für Instrumente lockert er anschließend die enge Gruppierung: Ihre größeren Umfänge geben den Linien mehr Bewegungsraum als im Vokalsatz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmiger Satz · vokale Klanglage und instrumentale Erweiterung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 94 und 96, S. 129–131 · Abstand der drei Stimmen",
+              "note": "Die Abstandsmodelle stehen in § 94; § 96 begründet größere instrumentale Abstände aus Umfang und Klangwirkung, nicht aus einer historischen Stilperiode."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=143"
+        },
+        {
+          "id": "spalding1904-free-09",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 168, S. 229 · zwei- und dreistimmiger polyphoner Klaviersatz",
+          "text": "Für polyphone Abschnitte im freien Klaviersatz hält Spalding zwei oder drei Stimmen meist für ausreichend. Jede zusätzliche selbstständige Linie erschwert sowohl das Spielen als auch das hörende Verfolgen. Bei zwei Stimmen warnt er zugleich vor einer zu weiten Trennung, weil sie dünn und leer wirken könne. Eine bestimmte Oktav- oder Dezimgrenze nennt er hier nicht. Die sangliche Melodie empfiehlt er vorwiegend für die mittlere Lage des Instruments. Die Empfehlung richtet sich damit auf einen tragfähigen Klavierklang und bleibt an diesen kompositorischen Zusammenhang gebunden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Polyphone Abschnitte innerhalb freien Klaviersatzes",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XI, § 168, S. 229 · zwei- und dreistimmiger polyphoner Klaviersatz",
+              "note": "§ 168 nennt Stimmenzahl, Hörbarkeit, zu weiten Abstand und mittlere Lage der Cantabile-Melodie ausdrücklich. Dies ist die allgemeine Klavierempfehlung dieses Kapitels, nicht die besondere Registeranweisung für zweistimmige Inventionen in § 138."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=243"
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
@@ -9015,7 +9950,8 @@ const ATLAS = {
         "doppelchor-basslinien",
         "fuge-formanalyse",
         "choral-stimmumfang",
-        "akkordvollstaendigkeit"
+        "akkordvollstaendigkeit",
+        "klaviersatz-klanglage"
       ],
       "readingSources": [
         "bellermann1901",
@@ -9103,7 +10039,8 @@ const ATLAS = {
         "cantus-firmus",
         "melodische-fortspinnung",
         "motiv-ueber-cantus",
-        "fuge-formanalyse"
+        "fuge-formanalyse",
+        "fugenthema-umfang"
       ],
       "authors": [
         {
@@ -9405,6 +10342,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-haupt-und-nebenhoehepunkte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 24–25, S. 31–33",
+          "text": "Eine kurze Sopranmelodie soll einen erkennbaren Haupthöhepunkt besitzen. Für einen achttaktigen Gedanken nennt Spalding häufig den fünften oder sechsten Takt, für einen sechzehntaktigen die dritte Viertaktgruppe; ein bis zum Schluss aufgesparter Höhepunkt ist ebenfalls möglich. Kleinere Höhepunkte dürfen zu einem größeren hinführen. Ungünstig ist das ziellose wiederholte Anlaufen derselben höchsten Lage. Tonumfang, Phrasenlänge und Charakter müssen zusammenpassen; die Taktangaben sind Orientierung an üblichen Verläufen, keine unveränderliche Formvorschrift.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Höhepunkt einer kurzen tonalen Sopranmelodie",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 24–25, S. 31–33",
+              "note": "§§ 24–25 geben die genannten Phrasenlängen als normale Modelle und lassen andere Platzierungen ausdrücklich zu. Der Rahmen ist die tonale Melodiebildung des Eingangskapitels."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=45"
         }
       ],
       "relations": [
@@ -9814,6 +10774,94 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-chromatische-terz-quinte",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 12, Übungen IX (9) und X (10) · chromatisch veränderte Intervalle über gehaltenen Basstönen",
+          "text": "Die Aussetzungen von IX und X führen chromatische Veränderungen schon innerhalb des Dreiklangsabschnitts ein. In IX stehen etwa 3 und erniedrigte 3 nacheinander über derselben Bassnote; X arbeitet entsprechend mit 5 und erhöhter 5. Die Veränderung betrifft damit einen bezeichneten Ton über dem Bass, während andere Töne liegen bleiben können. Zum Lesen gehören sowohl das Vorzeichen als auch die Ziffer, auf die es sich bezieht. Die Modelle zeigen konkrete chromatische Stimmenwege; sie geben an dieser Stelle keine allgemeine Erlaubnis beliebiger chromatischer Veränderungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 12, Übungen IX (9) und X (10) · chromatisch veränderte Intervalle über gehaltenen Basstönen",
+              "note": "Redaktionelle Notenbeobachtung der Bezifferung und ihrer ausgeschriebenen Realisierung. Die Zeichen werden nicht als pauschale Tonart- oder Modulationsetiketten behandelt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-moll-siebte-stufe",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 14, S. 16–17",
+          "text": "Die siebte Stufe in Moll muss nicht in jedem Verlauf erhöht erscheinen. Spalding behandelt die erniedrigte siebte Stufe einer absteigenden Basslinie mit Sextakkorden und zeigt ihre charakteristische Wirkung an Mendelssohns Ruy Blas. In der Wiederholung fällt der Bass von der siebten Stufe nur um einen Halbton; dazu tritt ein chromatisch veränderter Septakkord der zweiten Stufe in zweiter Umkehrung. In einem anschließenden Bach-Beispiel kann die betreffende Bewegung als Durchgang verstanden werden. Entscheidend sind also Richtung, Harmonie und Funktion des Tons; die melodische Mollform ist kein unveränderliches Vorratsschema für jede Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Siebte Mollstufe in Basslinie und Durchgang",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 14, S. 16–17",
+              "note": "Die Passage stellt Mendelssohns Ruy Blas und ein Bach-Beispiel nebeneinander. Die Begründung folgt diesen konkreten tonalen Verläufen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=30"
+        },
+        {
+          "id": "spalding1904-two-moll-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 49, S. 77–79; § 52, S. 81 · sechste und siebte Stufe in Moll",
+          "text": "Für die zweite Ordnung vermeidet Spalding die übermäßige Sekunde möglichst durch die melodischen Formen der sechsten und siebten Stufe. Die erhöhte sechste Stufe vermittelt zwischen Dominante und Leitton; die kleine siebte kann zwischen sechster Stufe und Tonika auch aufwärts durchlaufen werden. In diesen Übungsbeispielen sind das melodische Durchgangstöne, keine Begründung für eine Dur-Subdominante oder eine Moll-Dominante: Die entsprechende IV bleibt Moll, die V enthält den Leitton. Die erhöhte sechste Stufe kann dabei auch betont durchgehen. Spalding begrenzt diese Hinweise ausdrücklich; die freie Instrumentalmusik verwendet Moll vielfältiger.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 49, S. 77–79; § 52, S. 81 · sechste und siebte Stufe in Moll",
+              "note": "Text, Akkordangaben und scheinbare Ausnahme in § 49 auf S. 78 sowie das Modell § 52 auf S. 81 visuell geprüft. Deutsche Tonbezeichnungen werden verwendet; die harmonische Einschränkung gilt für die besprochene Übung, nicht für das gesamte Mollrepertoire."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=91"
+        },
+        {
+          "id": "spalding1904-two-moll-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 59, S. 94–95; § 66, S. 102 · Moll in bewegten Instrumentallinien",
+          "text": "Auch in der dritten Ordnung verwendet Spalding aufwärts meist die erhöhte sechste und siebte, abwärts die niedrigen Formen, um die übermäßige Sekunde bei rascher Bewegung zu vermeiden. Beide Formen können zudem in seinen „changing notes“ vorkommen. Neu ist eine ausdrücklich harmonische Verwendung der kleinen siebten Stufe in einem absteigenden Gang: Der erste Gegenstimmton des folgenden Taktes soll dann im Allgemeinen die sechste Stufe sein, sofern nicht deutlich in die Durparallele ausgewichen wird. Im ausgearbeiteten Mollbeispiel bleibt der Leitton für die Dominantharmonie nötig; über der Subdominante kann die kleine siebte Stufe auch aufwärts durchgehen.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 59, S. 94–95; § 66, S. 102 · Moll in bewegten Instrumentallinien",
+              "note": "§ 59 gestattet die kleine siebte ausdrücklich als harmony note und begrenzt ihre Fortsetzung. Das Modell auf S. 102 unterscheidet Dominantharmonie und melodischen Durchgang über der Subdominante. S. 95 und 102 visuell geprüft; englisches B/B-flat würde deutsch h/b lauten."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=108"
         }
       ],
       "related": [
@@ -10150,6 +11198,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-dissonanztypen-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45, S. 68–70 und 74 · Möglichkeiten der bewegten Stimme",
+          "text": "In Spaldings zweiter Ordnung kann die zusätzliche Note ein schrittweise durchlaufender Durchgang, eine zum Ausgangston zurückkehrende Wechselnote oder ein Teil der von ihm als „changing notes“ bezeichneten Umspielung sein. Daneben ist ein weiterer Ton desselben Akkords möglich; nicht jede zweite Note muss also dissonieren. Die Wechselnote setzt in seiner anfänglichen Erklärung ein springendes Subject voraus, das die Rückkehr zum selben Gegenstimmton harmonisch zulässt. Er empfiehlt sie sparsam, weil sie denselben Ton auf zwei aufeinanderfolgenden schweren Positionen wiederholt. Eine weitere ausdrücklich behandelte Möglichkeit kehrt die gewöhnliche Verteilung um: Die Dissonanz steht auf der schweren, ihr Akkordton auf der leichten Position.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45, S. 68–70 und 74 · Möglichkeiten der bewegten Stimme",
+              "note": "Die fünf in § 45 behandelten Bewegungsarten schließen einen Akkordton ein und sind deshalb nicht fünf Dissonanztypen. Die besonderen Bedingungen der Wechselnote und die betonte Variante bleiben erhalten."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=82"
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
@@ -10391,6 +11461,51 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-durchgaenge-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 57, S. 89–90 · zwei aufeinanderfolgende Durchgänge",
+          "text": "Zwei aufeinanderfolgende Durchgangstöne müssen in Spaldings regelgeleitetem Vier-gegen-eins schrittweise erreicht und verlassen werden und in derselben Richtung weitergehen. Springt die Linie aus dem vermeintlichen Durchgang ab, ist die Erklärung als Durchgang nicht mehr ausreichend. Wird der Ton stattdessen zum Akkordton erklärt, muss auch der daraus folgende Harmoniewechsel an einer zulässigen Stelle liegen. Seine guten und schlechten Beispiele prüfen deshalb zugleich Linienführung und harmonischen Rhythmus. Die Fußnote räumt abweichende Figuren in raschen Violinpassagen ein, hält für die Übung aber an dieser Empfehlung fest.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 57, S. 89–90 · zwei aufeinanderfolgende Durchgänge",
+              "note": "Die Gegenüberstellung der Beispiele und die einschränkende Fußnote auf S. 90 wurden visuell geprüft. Die Regel betrifft gewöhnliche Durchgänge; Spaldings gesonderte changing notes sind eine andere Figurenart."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=103"
+        },
+        {
+          "id": "spalding1904-multi-benachbarte-septimen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 100, S. 141–142, letztes Beispiel (c) auf S. 141 und erstes Beispiel auf S. 142",
+          "text": "Gegenbewegung ist in Spaldings gemischten Beispielen die bevorzugte Absicherung vorübergehender Reibungen, aber keine ausnahmslose Bedingung. Eine parallele Abwärtsbewegung erklärt er durch die folgende Sextakkordstellung. Im nächsten Beispiel folgen zwei Septimen unmittelbar aufeinander: Der eine Ton ist eine Wechselnote, der nächste ein betonter Durchgang. Die verschiedenen melodischen Aufgaben und die zugrunde liegende Klangfolge begründen hier das Ergebnis. Die Stelle behandelt die Kombination bewegter Stimmen, nicht eine pauschale Freigabe beliebiger Septimenketten.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Gemischte zweite und dritte Ordnung · aufeinanderfolgende Dissonanzen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 100, S. 141–142, letztes Beispiel (c) auf S. 141 und erstes Beispiel auf S. 142",
+              "note": "Die Erklärung auf S. 142 nennt Abwärtsbewegung und Sextakkord sowie die unterschiedlichen Funktionen der beiden Septimentöne."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=155"
         }
       ],
       "relations": [
@@ -10879,6 +11994,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-synkope-vorhalt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 75, S. 109–111 · Synkope und Vorhalt",
+          "text": "Spalding bildet die Synkope durch das Überbinden von der leichten auf die folgende schwere Takthälfte. Dabei kann der gehaltene Ton konsonant bleiben oder einen Vorhalt erzeugen; natürlich entstehende Dissonanzen bevorzugt er wegen ihres vorwärtstreibenden Interesses. Jeder Vorhalt ist in dieser Erklärung zugleich synkopiert, aber nicht jede Synkope ein Vorhalt. Eine bloße konsonante Bindung kann anschließend auch springen; die normale Vorhaltsauflösung verlangt einen Schritt auf- oder abwärts. Selbst eine reine Quinte kann im gegebenen harmonischen Zusammenhang als Verzögerung einer Sexte wirken, wie sein mit y bezeichnetes Beispiel zeigt.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 75, S. 109–111 · Synkope und Vorhalt",
+              "note": "Definition, Ausnahmen und die ausdrücklich als Vorhaltseffekt beschriebene Quinte zur Sexte auf S. 110 visuell geprüft. Kapitel V wird in § 87, S. 121, ausdrücklich als vierte Ordnung bezeichnet. Der Vorhaltbegriff ist hier harmonisch bestimmt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=123"
         }
       ],
       "relations": [
@@ -11175,6 +12312,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-synkope-unterbrechen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 75, S. 111; § 78, S. 112; § 81, S. 114–115 · Gründe für das Unterbrechen",
+          "text": "Eine Synkopenkette darf bei Spalding unterbrochen werden, um den Melodieumfang sinnvoll zu führen, mehr wirkliche Vorhalte zu gewinnen oder eine Kadenz in der Unterstimme zu ermöglichen. Auch eine monotone Folge von Sextakkorden kann einen ungebundenen Takt nahelegen. Für die Übung soll zwar möglichst oft synkopiert werden, damit die Technik vertraut wird. Eine ebenso lange ununterbrochene Kette betrachtet er aber nicht als normales Kompositionsziel: Den praktischen Wert der Synkope sieht er besonders im Wechsel mit anderen Rhythmen des Floridus. Vor jeder Unterbrechung muss zudem die neue harmonische Verbindung geprüft werden.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 75, S. 111; § 78, S. 112; § 81, S. 114–115 · Gründe für das Unterbrechen",
+              "note": "Die Unterbrechungen a–c auf S. 111 und der Vergleich auf S. 112 wurden visuell geprüft. § 81 trennt das Übungsziel von der Anwendung in tatsächlicher Musik; § 79, S. 112–113, begründet die zusätzliche harmonische Prüfung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=125"
         }
       ],
       "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden.",
@@ -11813,6 +12972,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-22",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, Übung 15 und Anweisung vor § 185, S. 257 · Schlussänderung einer Melodie im Bass",
+          "text": "Wird die vorgegebene Melodie in den Bass gelegt, kann ihre Schlussphrase eine andere Behandlung verlangen als in einer Oberstimme. Bei Übung 15 erlaubt Spalding eine imitative Ausarbeitung der Bassfassung, schreibt für die letzte Phrase aber ausdrücklich eine veränderte Tonfolge vor. Sie soll eine tragfähige Grundlage für die Kadenz bilden. Die Aufgabe besteht daher nicht darin, die Melodie unter allen Umständen unverändert durch jede Stimme zu führen: Ihre neue Funktion als Bass kann eine örtliche Anpassung der Schlussbildung begründen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kadenzbildung beim Versetzen einer gegebenen Melodie in den Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, Übung 15 und Anweisung vor § 185, S. 257 · Schlussänderung einer Melodie im Bass",
+              "note": "Nach Übung 15 steht die ausdrückliche Anweisung, die letzte Phrase für eine befriedigende Kadenzgrundlage zu verändern; die neue Bassfolge ist direkt darunter notiert. Die Aussage bleibt auf diesen konkreten Aufgabenwechsel beschränkt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=271"
         }
       ],
       "relations": [
@@ -12237,13 +13416,82 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-freier-lehrgang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. v–vii",
+          "text": "Spalding versteht den Lehrgang als praktische Vorbereitung auf freie tonale Stimmführung. Seit Bach seien Harmonie und Kontrapunkt untrennbar verbunden. Eine lange Beschränkung auf einen sogenannten strengen Stil mit anschließendem abruptem Übergang zur Freiheit lehnt er ab: Der Lernende soll von einfachen zu reicheren harmonischen Mitteln fortschreiten und deren Wirkung durch eigenes Schreiben beurteilen lernen. Zwischen Übung und ausgereiftem Kunstwerk soll ein Unterschied des Könnens, nicht ein völlig anderer musikalischer Grundsatz bestehen. Die späteren Ordnungen des zweistimmigen Satzes bleiben dabei methodische Übungsstufen; der Einwand richtet sich gegen ihre Abtrennung von musikalisch lebendiger Praxis.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Progressiver Lehrgang zum freien tonalen Satz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. v–vii",
+              "note": "Das Vorwort nennt Bach, Händel, Haydn, Mozart und Beethoven als Studiengrundlage. Modern bezeichnet hier Spaldings Gegensatz zum älteren modalen Schulkontrapunkt, keinen Nachweis für einen Stil des 20./21. Jahrhunderts."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=9"
+        },
+        {
+          "id": "spalding1904-two-erste-ordnung-ziel",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, Einleitung, S. 58–59 · Zweck der ersten Ordnung",
+          "text": "Die erste Ordnung dient Spalding als kurze vorbereitende Schulung im Umgang mit Intervallen und im Entwerfen zusammenhängender Melodien. Weil beide Stimmen gleiche Notenwerte haben, fehlt gerade jene rhythmische Verschiedenheit, die er für wirkungsvollen Kontrapunkt besonders wichtig findet. Deshalb soll man bei diesen Aufgaben nicht lange verweilen. Ihre Qualität bemisst er zunächst an der geschickten Linienführung; den Anspruch einer ausgereiften zweistimmigen Komposition stellt er erst an die spätere Arbeit mit verschiedenen Bewegungsarten und einem bestimmten Instrument.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, Einleitung, S. 58–59 · Zweck der ersten Ordnung",
+              "note": "Der eingerückte Einleitungstext begrenzt ausdrücklich den Zweck der ersten Ordnung. Der dort genannte Mangel rhythmischer Vielfalt wird nicht auf sämtliche Zweistimmigkeit übertragen. Vorwort S. vi erklärt den zunächst vokal gedachten Einstieg."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=72"
+        },
+        {
+          "id": "spalding1904-two-planung-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 91, S. 124–125 · Entwerfen einer ganzen Gegenstimme",
+          "text": "Für den Floridus warnt Spalding vor dem isolierten Abarbeiten einzelner Takte. Zuerst soll das ganze Subject innerlich gehört oder gespielt und ein übergreifender Entwurf skizziert werden. Einfälle für Anfang und Schluss können vorab festgehalten werden; die Einzelheiten folgen danach. Die Bewegung soll im Allgemeinen ruhig beginnen und im Verlauf abwechslungsreicher werden, ohne unnötig überladen zu sein. Auch das Medium gehört zum Entwurf: Lernende sollen sich die Ausführung auf Klavier, Orgel oder zwei Streichinstrumenten vorstellen. Flüssiges Erfinden hat in diesem Arbeitsstadium Vorrang vor einem mühsam zusammengesetzten, nur äußerlich fehlerfreien Ergebnis.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 91, S. 124–125 · Entwerfen einer ganzen Gegenstimme",
+              "note": "Die Arbeitsfolge und der instrumentale Rahmen stehen ausdrücklich in § 91. Die letzte Aussage paraphrasiert die dortige Empfehlung, Erfindungsfähigkeit zunächst auch um den Preis kleiner Fehler zu entwickeln; sie bedeutet keine Aufhebung der erlernten Regeln."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=138"
         }
       ],
       "related": [
         "linie-scheinpolyphonie",
         "beurteilung",
         "romanesca-satzgeruest",
-        "stimmen-ergaenzen"
+        "stimmen-ergaenzen",
+        "satzmedium",
+        "modulation-in-uebungen"
       ],
       "relations": [
         {
@@ -12329,6 +13577,12 @@ const ATLAS = {
           "to": "benjamin1986-1",
           "type": "context",
           "note": "Benjamin arbeitet gezielt an Bachs Instrumentalstil und verzichtet auf die strenge Speziesfolge. Schönberg benutzt die Spezies als vorläufige Aufgabenordnung ohne Verpflichtung auf einen einzelnen historischen Stil. Die Unterrichtsverfahren verfolgen damit unterschiedlich bestimmte Anwendungsziele."
+        },
+        {
+          "from": "spalding1904-open-freier-lehrgang",
+          "to": "motte1995-r01",
+          "type": "context",
+          "note": "Spalding führt innerhalb eines zusammenhängenden tonalen Lehrgangs schrittweise zu freien Satzmitteln und behält dafür die Ordnungen als Übungsstufen. De la Motte organisiert dagegen eigenständige Kurse zu Josquin, Bach und Neuer Musik, deren Reihenfolge offenbleibt. Beide kritisieren eine überall verbindliche Schulmethode; sie unterscheiden sich in der konkreten Organisation des Lernwegs."
         }
       ]
     },
@@ -12354,7 +13608,9 @@ const ATLAS = {
         "dissonanzen-s2",
         "harmonik-enharmonische-spannung",
         "viertel-gegen-viertel",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "generalbass-bassvariation",
+        "generalbass-akkordnamen"
       ],
       "authors": [
         {
@@ -12901,6 +14157,72 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-05",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 71 · unnummerierter Beispielsatz nach Nr. 103, vor Nr. 104 (CIV)",
+          "text": "Sechter bezeichnet den Secundquartseptaccord an dieser Stelle ausdrücklich als Vorhalt beim Secundaccord. Die erste Aussetzung zeigt, was damit gemeint ist: Über dem liegenden Bass wird die Septime zur Sexte geführt, während die übrigen bezeichneten Intervalle bestehen bleiben; aus 7/4/2 wird 6/4/2. Der neue Akkordname bezeichnet hier also zugleich eine vorübergehende Stimmführungssituation. Für die Beurteilung ist entscheidend, welcher Ton sich bewegt und welchen folgenden Zusammenklang er vorbereitet.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 71 · unnummerierter Beispielsatz nach Nr. 103, vor Nr. 104 (CIV)",
+              "note": "Die Überschrift lautet „Secundquartseptaccord als Vorhalt beym Secundaccord“. Das 7–6 über fortgeltender Quarte und Sekunde ist in der ersten Bezifferung und Aussetzung sichtbar. Der Satz trägt keine eigene gedruckte Übungsnummer. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-12",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 77 · Nr. 112–113 (CXII–CXIII), „Die Quart im Durchgange“ und „Besser“",
+          "text": "Unter der Überschrift Die Quart im Durchgange bietet Nr. 112 mehrere Fassungen mit wiederholtem 4–3. Die unmittelbar folgende Nr. 113 überschreibt Sechter ausdrücklich mit Besser. Die Aussetzung ergänzt hier die Quartbewegung um eine weitere Linie 9–8; die Zifferngruppen 9/4 und 8/3 machen den Unterschied sichtbar. Damit ist eine konkrete bevorzugte Fassung belegt. Warum sie besser ist, erläutert Sechter nicht in Prosa. Der Vergleich soll deshalb an diesen beiden Sätzen und ihrer veränderten Stimmenverbindung ansetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 77 · Nr. 112–113 (CXII–CXIII), „Die Quart im Durchgange“ und „Besser“",
+              "note": "Sowohl die Abschnittsüberschrift als auch die Wertung „Besser“ sind gedruckt. Die zusätzliche 9–8-Linie wurde durch den direkten Vergleich der ersten Fassungen von Nr. 112 und Nr. 113 geprüft; eine allgemeine Wertungsregel wird nicht ergänzt. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-quartdurchgang"
+          ],
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-14",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 79–80 · Nr. 117 (CXVII), „Secund und Quart zugleich im Durchgange“",
+          "text": "Sechter behandelt in Nr. 117 ausdrücklich Sekunde und Quarte zugleich im Durchgang. Die erste Aussetzung verbindet dazu zwei bewegte Oberstimmen; die Bezifferung zeigt unter anderem die Folge 6/4, 5/3, 4/2 und wieder 5/3. Der dissonante Zusammenklang 4/2 gehört damit zu einem nachvollziehbaren Verlauf beider Linien. Auf der Folgeseite erscheinen auch fünf- und dreistimmige Fassungen. Zu prüfen sind hier die gleichzeitigen Wege der beteiligten Stimmen, nicht nur ein einzelner isolierter Dissonanzton.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 79–80 · Nr. 117 (CXVII), „Secund und Quart zugleich im Durchgange“",
+              "note": "Die Gleichzeitigkeit wird in der Überschrift ausdrücklich genannt. Die Zahlenfolge und die gemeinsam bewegten Linien wurden am ersten Satz auf S. 79 geprüft; S. 80 liefert weitere Stimmenzahlen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -13333,6 +14655,48 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-kadenz-synkope",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 80, S. 113–114 · Vorbereitung der Schlussbindung",
+          "text": "Die typische Kadenz der synkopierten Ordnung verzögert bei Spalding den Leitton durch die Tonika: Der gebundene Ton geht zur siebten Stufe hinab und danach zum Schlusston zurück. Das ist sowohl in der oberen als auch in der unteren Gegenstimme möglich, sofern die Vorbereitung stimmt. Fehlt sie, soll eine Kadenz der zweiten Ordnung eingesetzt werden. Er prüft dazu verschiedene Subjectschlüsse: Bei 6–2–1 kann die Schlussbindung oben und unten vorbereitet werden, bei 7–2–1 in keiner der beiden Lagen. Eine erzwungene Bindung ist also nicht wichtiger als ein stimmiger Schluss.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 80, S. 113–114 · Vorbereitung der Schlussbindung",
+              "note": "§ 80 und die vollständigen Schlussbeispiele auf S. 113–114 visuell geprüft. Die Stufenfolgen beziehen sich auf den gezeigten dreitönigen Subjectschluss, nicht auf jedes Auftreten eines Sprungs 6–2 oder 7–2."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=127"
+        },
+        {
+          "id": "spalding1904-multi-kadenzvielfalt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 109, S. 158–162 · periodische Melodie und unterschiedliche Schlusswirkungen",
+          "text": "Vor der Aussetzung einer periodischen Melodie lässt Spalding ihre Gliederung und die möglichen Schlüsse untersuchen. Dieselbe letzte Tonfolge kann je nach Stellung im Satz unterschiedlich harmonisiert werden. Aufeinanderfolgende Phrasen sollen möglichst verschiedene Kadenzwirkungen erhalten; einen vollkommenen Tonikaschluss mitten im Verlauf empfiehlt er zu vermeiden. In seinem f-Moll-Beispiel beginnt die Folge deshalb mit einem Trugschluss und hält die endgültige Rückkehr zur Haupttonart zurück. Die Wahl der Kadenz gehört zur Gestaltung des ganzen Verlaufs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Aussetzung einer periodischen Melodie · Kadenzdisposition",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 109, S. 158–162 · periodische Melodie und unterschiedliche Schlusswirkungen",
+              "note": "§ 109 entwickelt alternative Harmonisierungen gleicher Schlusstöne und kommentiert auf S. 161 den unterschiedlichen Abschlussgrad der einzelnen Phrasen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=172"
         }
       ],
       "relations": [
@@ -14015,6 +15379,205 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-linien-und-harmonie",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 1–5, S. 1–2",
+          "text": "Gute Stimmführung verbindet für Spalding zwei Hörweisen: horizontal die einzelnen melodischen Linien und vertikal ihren harmonischen Zusammenhang. Der zusätzliche melodische Anspruch ersetzt die im Harmonielehreunterricht erworbenen Kenntnisse nicht. Auf den metrischen Schwerpunkten muss eine tragfähige harmonische Grundlage erkennbar sein; interessante Linien können eine schlechte Harmonik nicht nachträglich retten. Als Ausgangsmaterial dienen die Dreiklänge einer Tonart. Besonders grundlegend sind ihre Verbindungen durch Grundtonschritte in Quinten beziehungsweise Quarten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Harmonische Grundlage des vierstimmigen Vokalsatzes",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 1–5, S. 1–2",
+              "note": "Die Passage setzt Harmonielehre voraus. Das Vorwort S. v begründet diesen tonalen Ansatz ausdrücklich mit der Verbindung von Harmonie und Kontrapunkt seit Bach."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=15"
+        },
+        {
+          "id": "spalding1904-open-grundtonfolge-und-metrum",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 6–8, S. 4–7",
+          "text": "Die bloße Zugehörigkeit zweier Dreiklänge zur Tonart macht ihre Verbindung noch nicht gleich überzeugend. Spalding unterscheidet Grundtonfortschreitungen und ihre metrische Wirkung. Bei benachbarten Grundtönen, die keinen gemeinsamen Akkordton besitzen, gewinnt die Gegenbewegung besonderes Gewicht. Eine Verbindung von Dominante und Subdominante kann den tonalen Zusammenhang lockern, vor allem wenn die Subdominante auf eine starke Zeit fällt; ihre Wirkung muss deshalb durch den musikalischen Zusammenhang begründet sein. Die Beurteilung einer auffälligen Tritonusbeziehung hängt ebenfalls von der Akkordverbindung ab und lässt sich nicht aus den beiden isolierten Tönen allein ableiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Diatonische Akkordverbindungen im vierstimmigen Satz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 6–8, S. 4–7",
+              "note": "Die Regeln gehören zum tonalen Vokalrahmen von Kap. I; Spalding unterscheidet an den Beispielen Grundtonfolge und Taktgewicht. Der Rahmen seit Bach ist im Vorwort S. v–vi ausdrücklich benannt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=18"
+        },
+        {
+          "id": "spalding1904-open-verminderter-dreiklang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 10 und 13, S. 10–12 und 14–15",
+          "text": "Derselbe verminderte Dreiklang erhält je nach Tonart eine andere Bedeutung. Die Töne h–d–f bilden in C-Dur den Leittondreiklang: Seine Grundstellung und besonders die Verdopplung von h bewertet Spalding als problematisch; geläufig ist die erste Umkehrung. In a-Moll ist h dagegen die zweite Stufe. Derselbe Klang kann hier auch in Grundstellung mit verdoppeltem h verwendet werden und führt häufig zur Dominante. Sein dissonanter Charakter verschwindet dadurch nicht. Die Bewertung folgt also dem tonalen Zusammenhang und nicht allein der abstrakten Intervallgestalt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Leitton- und Supertonikadreiklang im tonalen Vokalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, §§ 10 und 13, S. 10–12 und 14–15",
+              "note": "§ 13 vergleicht ausdrücklich dieselben Töne in C-Dur und a-Moll. Die deutschen Tonbuchstaben h–d–f entsprechen dem englischen B–D–F des Originals."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=24"
+        },
+        {
+          "id": "spalding1904-open-erweiterte-akkorddeutung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 15, Fußnote S. 18–21",
+          "text": "Ungewöhnliche Klänge sollen nicht vorschnell als unvollständig vertretene Undezim- oder Tredezimakkorde erklärt werden. Spalding wendet ein, dass in einem zugrunde gelegten vierstimmigen Satz dabei zu viele für die Deutung wesentliche Bestandteile fehlen. Häufig seien Vorhalt, Vorschlag, Durchgang, Vorausnahme, Orgelpunkt oder das Auslassen einer erwarteten Harmonie die verständlichere Erklärung. Tatsächlich mehrstimmige Sept- und Nonenklänge in neuerem Repertoire erkennt er ausdrücklich an. Seine Kritik gilt einer überdehnten Erklärung durch hohe Terzschichtungen, nicht jeder Deutung eines unvollständigen Akkords.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Harmonische Analyse von Akkord- und Nebennoten",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 15, Fußnote S. 18–21",
+              "note": "Die Fußnote diskutiert Beispiele unter anderem von Chopin und César Franck und grenzt ihre vierstimmige Erklärungsgrundlage von wirklicher fünf- und sechsstimmiger Klangfülle ab."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=32"
+        },
+        {
+          "id": "spalding1904-open-bass-und-umkehrung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 9 und 20–21, S. 8–9 und 24–28",
+          "text": "Der Bass ist zugleich melodische Stimme und Träger der harmonischen Grundlage. Eine dauernde Folge von Dreiklängen in Grundstellung wirkt leicht starr; Sextakkorde ermöglichen eine beweglichere Linie und geben dem Satz Vorwärtsdrang. Spalding verlangt deshalb Abwechslung und ein sinnvolles Verhältnis von Schritten und Sprüngen. Grundstellungen bleiben wertvoll, wenn gerade ihre Festigkeit gewollt ist: Die Beispiele aus Wagner, Chopin und Tschaikowsky zeigen ihre besondere Wirkung. Die Wahl der Umkehrung folgt dem gewünschten Verlauf, nicht einer pauschalen Bevorzugung des Sextakkords.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Bassmelodie und harmonische Beweglichkeit",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 9 und 20–21, S. 8–9 und 24–28",
+              "note": "Spalding erläutert den Wechsel von Grundstellung und Sextakkord sowohl als tonales Übungsprinzip als auch an ausdrücklich genannten romantischen Beispielen; Vorwort S. v–vi und Kap. I bilden den gemeinsamen Rahmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=22"
+        },
+        {
+          "id": "spalding1904-two-harmonisches-geruest",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 36, S. 60–61; § 44, S. 65 · gedachte Akkorde und vierstimmige Probe",
+          "text": "Spalding hört die beiden Stimmen seiner ersten Ordnung als Außenstimmen einer möglichen vollständigen Harmonie. Ein Zweiklang kann mehrdeutig sein: Eine Terz kann zu verschiedenen Dreiklängen gehören, eine Oktave etwa einen Grundton oder eine Terz verdoppeln. Lernende sollen deshalb wissen, welche Harmonie sie jeweils meinen. Bestehen Zweifel, empfiehlt er, die Stimmen weiter auseinanderzulegen und die fehlenden Mittelstimmen zu ergänzen. Auf S. 65 führt er diese vierstimmige Probe an zwei zuvor zweistimmig notierten Aufgaben vor.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 36, S. 60–61; § 44, S. 65 · gedachte Akkorde und vierstimmige Probe",
+              "note": "Die Akkorddeutungen stehen in § 36, die ausdrücklich empfohlene Ergänzungsprobe samt Aussetzungen in § 44. S. 65 visuell geprüft. Die Probe ist ein Hilfsmittel der Anfangsübung; § 54 erweitert später den Intervallbegriff."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=74"
+        },
+        {
+          "id": "spalding1904-two-intervalle-freier-satz",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, §§ 53–54, S. 82–84; Kap. IV, Fußnote zu § 67, S. 104 · Erweiterung des Intervallbegriffs",
+          "text": "Vor den freieren, längeren Aufgaben erweitert Spalding das anfängliche Denken in vollständigen Akkorden. Eine selbständige Gegenstimme kann Intervallverbindungen überzeugend machen, die als bloße Akkordkombination unnatürlich wären. An Bach zeigt er Quarten und Quinten in bewegten Linien; auch Sekunden und Septimen können über die normale Vorhaltsbehandlung hinaus für die Eigenart einer Stimme eingesetzt werden. Dies soll durch Spielen und Analysieren der Beispiele gelernt werden. Die Freiheit hebt die Beziehung zwischen den Stimmen nicht auf: Später formuliert er ausdrücklich die Grenze, dass eine Gegenstimme ihren harmonischen Zusammenhang mit den anderen nicht verlieren darf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Freier tonaler Satz · Repertoirevergleich nach den Anfangsübungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, §§ 53–54, S. 82–84; Kap. IV, Fußnote zu § 67, S. 104 · Erweiterung des Intervallbegriffs",
+              "note": "§ 54 wird an Bach und anschließend Mozart erläutert; die Beispiele auf S. 83–84 wurden visuell gelesen. Die weiterführenden Repertoirebeispiele sind keine reine Speziesaufgabe, deshalb speciesScope leer. Die Grenze des harmonischen Zusammenhangs steht in der Fußnote auf S. 104."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=96"
+        },
+        {
+          "id": "spalding1904-multi-harmoniegeruest-ausarbeiten",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 110, S. 162–164 · einfache und bewegte Fassung desselben Basses",
+          "text": "Spalding harmonisiert den gegebenen Bass zunächst Note gegen Note und behält diese harmonische Grundlage anschließend beim Erfinden kurzer melodischer Phrasen bei. Das Verfahren soll helfen, solange der harmonische Zusammenhang noch nicht sicher beim Schreiben entsteht. Er warnt ausdrücklich davor, daraus eine mechanische Formel zu machen. Auch die bewegtere Musterfassung nennt er nicht vollkommen: Einzelne Stimmen bleiben monoton oder eingeengt. Das Harmoniegerüst ist hier ein vorläufiges Arbeitsmittel, dessen melodisches Ergebnis eigens beurteilt werden muss.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Schreibmethode · Harmoniegerüst und anschließende Bewegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 110, S. 162–164 · einfache und bewegte Fassung desselben Basses",
+              "note": "S. 163 begründet das stufenweise Verfahren; S. 164 benennt offen die Grenzen des eigenen Musterbeispiels."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=176"
+        },
+        {
+          "id": "spalding1904-free-20",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, §§ 182–184, S. 253–256 · Übung 12 und modale Merkmale",
+          "text": "Spaldings tonaler Lehrgang schließt Melodien mit deutlich modaler Prägung ein. Übung 12 nennt er besonders am Ende ihrer zweiten Phrase eher modal als streng tonal. Für ihre Behandlung empfiehlt er überwiegend grundlegende Dreiklänge, bereichert durch Vorhalte und betonte Durchgänge. Zur Orientierung unterscheidet er Äolisch ohne erhöhten Leitton, Dorisch durch kleine Terz und große Sexte sowie Phrygisch durch die kleine Sekunde über dem Grundton. Die kurze Einführung bereitet eine konkrete Harmonisierung vor; sie wird nicht als vollständige Lehre älterer Modi oder als unveränderte Übernahme eines Renaissance-Satzstils ausgegeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Modal geprägte Melodie innerhalb eines tonalen Übungslehrgangs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, §§ 182–184, S. 253–256 · Übung 12 und modale Merkmale",
+              "note": "§ 182 charakterisiert Übung 12 und nennt die vorgesehene harmonische Grundlage. §§ 182–184 erläutern die Skalenmerkmale; die ausgearbeitete Fassung folgt auf S. 256. Die lokale Bezeichnung strict style wird nicht in eine Spezieszuordnung oder in eine pauschale Stilepoche umgedeutet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=267"
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -14031,7 +15594,10 @@ const ATLAS = {
         "tonart-und-region",
         "akkordton-verdopplung",
         "stimmen-ergaenzen",
-        "akkordvollstaendigkeit"
+        "akkordvollstaendigkeit",
+        "fugenthema-harmonik",
+        "modulation-in-uebungen",
+        "terzen-sexten-folgen"
       ],
       "readingSources": [
         "prout1890",
@@ -14091,6 +15657,12 @@ const ATLAS = {
           "to": "motte1995-r04",
           "type": "nuance",
           "note": "Daniel gibt der historischen Satz-, Generalbass- und Kadenzlehre beim Bach-Choral den Vorrang und lässt spätere Harmoniebegriffe ergänzend zu. De la Motte beginnt seinen Lehrgang zu Bachs Instrumentallinien ausdrücklich mit funktionaler Deutung und benennt deren Grenzen später selbst. Der Unterschied liegt in Ausgangspunkt und Gewichtung; keiner der beiden Belege fordert eine lückenlose Funktionalisierung jedes Tons."
+        },
+        {
+          "from": "spalding1904-open-linien-und-harmonie",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Spalding setzt im tonalen Lehrgang die harmonische Grundlage voraus, auf der sich die Stimmen melodisch entfalten. Jeppesens Antwort beschreibt für Palestrina vorrangig das Zusammenwirken melodischer Linien und die Qualität ihrer Zusammenklänge. Jeppesen unterscheidet selbst davon Bachs idealen harmonischen Hintergrund; die Verbindung markiert deshalb zwei Stil- und Aufgabenrahmen, keinen generellen Widerspruch zwischen Harmonie und Linie."
         }
       ]
     },
@@ -14442,6 +16014,134 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-regel-und-wirkung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. vi–vii",
+          "text": "Eine Abweichung von der gewöhnlichen Regel muss sich durch ihre musikalische Wirkung rechtfertigen. Dafür verlangt Spalding ein geschultes Urteil: Die Stimmen sollen lebendig und melodisch sein, Rhythmus und Tonalität verständlich bleiben, und die konkrete Besetzung muss den Satz ausführen können. Verbotslisten allein vermitteln dieses Urteil nicht; es wächst durch das Studium von Bach, Händel, Haydn, Mozart, Beethoven und durch eigene Versuche. Das ist keine Aufhebung methodischer Disziplin. Gerade die Kenntnis des Normalfalls soll eine begründete Abweichung ermöglichen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Beurteilung freier tonaler Satzübungen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. vi–vii",
+              "note": "Spalding begründet die Bewertung ausdrücklich durch die Kompositionen der genannten barocken und klassisch-romantischen Autoren, nicht durch eine datierungsabhängige Stilmarke."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=10"
+        },
+        {
+          "id": "spalding1904-open-schreiben-und-lernen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 18–19, S. 23–24",
+          "text": "Die Grundlagen sollen im Schreiben erprobt werden. Spalding rät davon ab, zuerst das ganze umfangreiche Eingangskapitel auswendig zu lernen; nach den ersten Prinzipien können bereits die Aufgaben begonnen und weitere Erläuterungen bei Bedarf hinzugezogen werden. Beim Prüfen einer vierstimmigen Lösung genügt weder eine richtige Akkordfolge noch die Forderung, jede Stimme müsse in jedem Augenblick wie ein selbstständiges Solo klingen. Entscheidend ist, ob die Stimmen im Verlauf melodisches Interesse gewinnen und zusammen ein stimmiges Ganzes bilden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Einstieg in den vierstimmigen Vokalsatz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 18–19, S. 23–24",
+              "note": "§§ 18–19 beziehen die harmonischen und melodischen Grundlagen des ersten Kapitels auf dessen Vokalübungen. Der stilübergreifende tonale Lehrrahmen ist im Vorwort S. v–vii an Bach bis Beethoven erläutert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=37"
+        },
+        {
+          "id": "spalding1904-multi-singende-pruefung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, §§ 107–108, S. 155–158 · Prüfung der vierstimmigen Übung",
+          "text": "Eine harmonisch korrekte Basslinie kann für Spalding dennoch als Melodie misslingen, wenn sie sich schwach wiederholt oder ohne erkennbaren Verlauf springt. Deshalb sollen die Lernenden jede Stimme singen, auch wenn die zunächst vokal gedachten Übungen noch keinen Text besitzen. Umfang, natürliche Intervalle und ein zusammenhängender Zug lassen sich so prüfen. Die Übung bleibt ein Mittel zur eigenen Musik: Parallel empfiehlt Spalding kleine vierstimmige Lieder und die Analyse von Chorälen, statt das korrekte Ausfüllen der Aufgabe zum Selbstzweck zu machen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Vokalübung · melodische Prüfung und eigenes Komponieren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, §§ 107–108, S. 155–158 · Prüfung der vierstimmigen Übung",
+              "note": "§ 107 verlangt das Singen jeder Stimme; S. 156 vergleicht einen harmonisch möglichen, melodisch schlechten Bass. § 108 leitet zu eigenen kurzen Kompositionen über."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=169"
+        },
+        {
+          "id": "spalding1904-free-11",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 165, S. 226–227, § 169, S. 229–231, und § 171, S. 235 · eigene Klavieraussetzung und Vergleich",
+          "text": "Spalding lässt die Mozart-Melodie zunächst selbstständig harmonisieren und erst danach mit seiner Aussetzung vergleichen. Das gedruckte Modell ist ausdrücklich eine mögliche Behandlung, keine einzige richtige Lösung. Geprüft werden unter anderem der leichte Beginn, das Hervortreten der Melodie, wechselnde Klangdichte und eine passende Begleitfigur. Dazu gehören das Spielen und Analysieren guter Klaviermusik sowie Rückmeldungen des Lehrers. Kurze eigene Stücke, etwa in Tanzrhythmen und zwei- oder dreiteiliger Form, sollen diese Arbeit ergänzen: Klavierstil wird auch durch das Erproben eigener musikalischer Gedanken gelernt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Beurteilung und Weiterentwicklung eigener Klavierarbeiten",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, § 165, S. 226–227, § 169, S. 229–231, und § 171, S. 235 · eigene Klavieraussetzung und Vergleich",
+              "note": "§ 169 fordert den eigenen Versuch vor dem Vergleich und kennzeichnet das Modell als nicht einzig mögliche Lösung. Die Erläuterung auf S. 231 benennt konkrete Prüfmerkmale; §§ 165 und 171 verbinden Analyse, Unterrichtsrückmeldung und eigene Komposition."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=240"
+        },
+        {
+          "id": "spalding1904-free-16",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, § 175, S. 241, und § 179, S. 247 · Hören und Vergleich einer eigenen Streicherfassung",
+          "text": "Die eigene Partitur soll möglichst von den vorgesehenen Spielern zum Klingen gebracht werden. Spalding misst dem tatsächlichen Hören der Übungen und Kompositionen besonderen Lernwert bei. Als ergänzendes Verfahren lässt er zu vorgegebenen Basslinien drei Oberstimmen in freiem, rhythmisch abwechslungsreichem Kontrapunkt schreiben. Auch das Nachbilden einer Quartettpassage aus ihrer Bassstimme und der anschließende Vergleich mit dem Original dient der Prüfung. Man beurteilt dadurch die eigene Entscheidung an einem klingenden Zusammenhang und an einer anderen ausgearbeiteten Lösung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Beurteilung freier Streicherübungen durch Aufführung und Vergleich",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, § 175, S. 241, und § 179, S. 247 · Hören und Vergleich einer eigenen Streicherfassung",
+              "note": "§ 175 fordert Aufführungen; § 179 beschreibt das Ergänzen von drei Oberstimmen und den Vergleich einer eigenen Fassung mit einem Quartettoriginal. Die dort erzählte Rossini-Anekdote wird nicht als selbstständig überprüfte biographische Tatsache übernommen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=255"
+        },
+        {
+          "id": "spalding1904-free-23",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, §§ 185–186, S. 257–258 · weitere Arbeit und Grenzen des Lehrgangs",
+          "text": "Am Ende des Lehrgangs verbindet Spalding zwei Arbeitsweisen: eigene Kompositionsversuche und das Studium ausgearbeiteter Musik. Frühe Arbeiten dürfen noch hörbar von den untersuchten Vorbildern geprägt sein. Zugleich bezeichnet er seine Methode ausdrücklich weder als erschöpfend noch als einzigen Weg zu eigenständigem Komponieren. Bei der Beurteilung sollen technische Sorgfalt, ein erkennbarer musikalischer Gedanke und die Verständlichkeit für einen aufmerksamen Hörer wachsen. Die Frage nach dauerhafter künstlerischer Schönheit lässt sich für ihn nicht durch die sofortige Kontrolle einer fertigen Schulaufgabe erledigen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Weiterarbeit nach dem Lehrgang und Beurteilung eigener Kompositionen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, §§ 185–186, S. 257–258 · weitere Arbeit und Grenzen des Lehrgangs",
+              "note": "§ 185 fordert eigene Arbeit und Analyse älterer sowie neuerer Musik; § 186 schränkt den Anspruch des Buches ein und unterscheidet handwerkliche Arbeit von der späteren künstlerischen Bewertung. Die historischen Beispiele zu den Jugendwerken einzelner Komponisten werden nicht als selbstständig recherchierte Tatsachen übernommen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=271"
         }
       ],
       "related": [
@@ -14739,6 +16439,51 @@ const ATLAS = {
           "examples": [
             "schoenberg-cambiata-dissonanzen"
           ]
+        },
+        {
+          "id": "spalding1904-two-changing-notes",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45, S. 74–75; Kap. IV, § 58, S. 90 · Bedeutung der „changing notes“",
+          "text": "Spaldings „changing notes“ umspielen einen Akkordton von beiden Seiten. Seine Grundform geht etwa f–g–e–f: Nach dem Schritt zur oberen Nebennote führt eine Terz in die Gegenrichtung, anschließend wird der übersprungene mittlere Ton erreicht. Für die dritte Ordnung erläutert er entsprechend c–d–h–c und die umgekehrte Drehung. In dieser Lehrform sind die beiden Nebentöne als zusammengehöriges Paar zu verstehen. Einzelne „changing notes“ ohne die vollständige Rückkehr weist er an Repertoirebeispielen nach, empfiehlt sie aber zunächst seltener. Der englische Ausdruck bezeichnet hier eine bestimmte Umspielungsfigur.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Verzierung innerhalb der zweistimmigen zweiten und dritten Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45, S. 74–75; Kap. IV, § 58, S. 90 · Bedeutung der „changing notes“",
+              "note": "S. 74 und 90 einschließlich Notenbeispiele visuell geprüft. Englisches B wird in der deutschen Tonfolge als h wiedergegeben. Die beschriebenen Umspielungen werden nicht stillschweigend mit Fux’ Figur 8–7–5–6 gleichgesetzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=88"
+        },
+        {
+          "id": "spalding1904-two-changing-notes-anordnung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 58, S. 91–94 · Anordnung und Erweiterung der „changing notes“",
+          "text": "Im Vier-gegen-eins setzt Spalding die beiden „changing notes“ auf die zweite und dritte Position der Vierergruppe, damit die vierte zum umspielten Ton zurückkehrt. Welche Nebennote zuerst kommt, soll vom folgenden Subjectton her geplant werden: Der erste Gegenstimmton des nächsten Taktes soll nicht schon auf dem vorausgehenden Nebenakzent vorweggenommen werden. Auch Schritt und anschließender Terzsprung zum Akzent in derselben Richtung sollen vermieden werden. Die spätere Erweiterung erlaubt in solchen Gruppen gelegentlich sogar eine verminderte Oktave zum Subject; der Einsatz bleibt an eine deutlich beabsichtigte melodische Wirkung gebunden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 58, S. 91–94 · Anordnung und Erweiterung der „changing notes“",
+              "note": "Positionsregel und Planung der Richtung auf S. 91–92, verminderte Oktave auf S. 93, Zurückhaltung bis zur sicheren Beherrschung auf S. 94. Die Beispiele auf S. 91, 93 und 94 wurden visuell geprüft. Die Erweiterung ist keine pauschale Lizenz für alle verminderten Intervalle."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=105"
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -14813,6 +16558,12 @@ const ATLAS = {
           "to": "jeppesen1964-26",
           "type": "context",
           "note": "Jeppesen beschränkt seine Palestrina-orientierten Übungen auf die absteigende Cambiata und bindet ihre Fortsetzung an den jeweiligen Rhythmus. Schönberg systematisiert die Figur als unveränderliche Folge von fünf Tönen in beiden Richtungen. Historische Stilgrundlage und abstrakte Dissonanzformel setzen hier unterschiedliche Grenzen."
+        },
+        {
+          "from": "spalding1904-two-changing-notes",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux’ vorhandene Antwort beschreibt 8–7–5–6: Nach dem Schritt in die Septime setzt der Terzsprung dieselbe Abwärtsrichtung fort, bevor die übersprungene Sexte nachgeholt wird. Spaldings changing notes führen nach dem ersten Schritt eine Terz in die Gegenrichtung und dann zum umspielten Ausgangston zurück, etwa f–g–e–f. Es handelt sich um unterschiedliche Figuren und Begriffsverwendungen innerhalb ihrer Lehrzusammenhänge, nicht um zwei widersprüchliche Beschreibungen desselben Notenverlaufs."
         }
       ]
     },
@@ -15126,6 +16877,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-einklang-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 62, S. 98 · Annäherung an den Einklang",
+          "text": "Wenn sich Subject und Gegenstimme in der dritten Ordnung nähern, hält Spalding den Schritt aus einer Sekunde in den Einklang im Allgemeinen für ungünstig, sofern die bewegte Note als Durchgang wirkt. Besser bewertet er den umgekehrten Vorgang: Ein angesprungener Einklang bildet den Ausgangspunkt, von dem die Stimmen in Seitenbewegung wieder auseinandergehen. Seine Beispiele übertragen dieselbe Unterscheidung auch auf Wechselnoten. Der Einklang wird hier also nicht einfach ausgeschlossen; Eintritt und anschließende Trennung der Stimmen bestimmen seine Wirkung.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 62, S. 98 · Annäherung an den Einklang",
+              "note": "Der vollständige Beispielsatz unter § 62 auf S. 98 wurde visuell geprüft. Die Aussage betrifft den Verlauf im bewegten instrumentalen 4:1 und ersetzt nicht die engeren Regeln der ersten Ordnung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
         }
       ],
       "relations": [
@@ -15185,7 +16958,8 @@ const ATLAS = {
         "obligo-kontrapunkt",
         "choral-gegenstimme",
         "gregorianische-vorlage",
-        "choral-modaler-tonartbezug"
+        "choral-modaler-tonartbezug",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -15291,6 +17065,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-produktive-vorlage",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. v und vii",
+          "text": "Die gegebene Melodie soll selbst musikalische Möglichkeiten eröffnen. Spalding kritisiert Cantus-firmus-Aufgaben, deren zufällige Folge ganzer Noten weder einen klaren Rhythmus noch eine einleuchtende melodische Gestalt besitzt. Eine erkennbare metrische Ordnung ist nötig, weil derselbe Zusammenklang auf schwacher und auf starker Zeit unterschiedlich wirkt. Seine Vorlagen sollen daher eine fließende Gegenstimme anregen und nicht durch ihre eigene Unbeweglichkeit verhindern. Der Cantus dient hier der Erfindung melodischer Linien innerhalb eines tonalen Lehrgangs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Auswahl eines Cantus firmus für tonale Übungen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. v und vii",
+              "note": "Die Anforderungen stehen im ausdrücklich auf freie tonale Stimmführung gerichteten Vorwort; als musikalische Bezugspunkte nennt es Bach, Händel und die Wiener Klassiker."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=9"
         }
       ],
       "relations": [
@@ -15305,6 +17102,12 @@ const ATLAS = {
           "to": "motte1995-r02",
           "type": "context",
           "note": "Schönbergs vorgegebene Cantus firmi sollen gezielt wechselnde Anschlussprobleme erzeugen. De la Motte nimmt für die eigenen Josquin- und Bach-Übungen stattdessen das gemeinsame Erfinden beider Stimmen zum Ausgangspunkt. Die Differenz betrifft die Anlage des Lehrgangs und die Funktion einer Aufgabenstimme."
+        },
+        {
+          "from": "spalding1904-open-produktive-vorlage",
+          "to": "schoenberg1970-e15",
+          "type": "context",
+          "note": "Spalding verlangt vom gegebenen Cantus einen klaren Rhythmus und melodische Anregung für eine fließende Gegenstimme. Schönberg konstruiert Vorlagen gezielt für Übungsprobleme und lässt darin Fortschreitungen zu, die der Lernende in der Gegenstimme vermeiden soll. Die beiden Antworten setzen damit verschiedene Prioritäten bei der Auswahl des Übungsmaterials; daraus folgt kein pauschales Urteil über dessen musikalische Qualität."
         }
       ]
     },
@@ -15322,7 +17125,8 @@ const ATLAS = {
         "cantus-firmus",
         "bindung-s4",
         "linie-orgelpunkt",
-        "textunterlegung"
+        "textunterlegung",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -15598,6 +17402,49 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-bass-und-innenstimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 20 und 26, S. 24–25 und 33–36",
+          "text": "Die Wirkung einer Tonwiederholung hängt von der Aufgabe der Stimme ab. Im Bass schwächen unmittelbare Wiederholungen innerhalb der Phrase leicht den Fortgang; eine Oktavversetzung kann Bewegung schaffen. An der Kadenz ist eine wiederholte Dominante dagegen sinnvoll. In den Innenstimmen bewertet Spalding wiederholte oder gehaltene Töne häufig positiv: Sie geben der Harmonie Halt und lassen den Außenstimmen größere Freiheit. Seine Empfehlung ist daher weder ein allgemeines Wiederholungsverbot noch eine voraussetzungslose Erlaubnis für jede Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Tonwiederholung im vierstimmigen tonalen Satz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 20 und 26, S. 24–25 und 33–36",
+              "note": "Die beiden Abschnitte unterscheiden ausdrücklich Bassfunktion, Kadenz und innere harmonische Stützen. Es handelt sich um das vierstimmige Eingangskapitel, nicht um erste Spezies."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=38"
+        },
+        {
+          "id": "spalding1904-multi-wiederholung-vier-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 106, S. 154–155 · Außen- und Innenstimmen",
+          "text": "Gemeinsame Akkordtöne müssen im vierstimmigen Kontrapunkt nach Spalding nicht automatisch in derselben Stimme liegen bleiben. Für die Melodiebildung kann ein Wechsel günstiger sein. Er unterscheidet dabei deutlich: In den Innenstimmen sind Tonwiederholungen häufig nötig und als Kontrast wirksam; im Sopran empfiehlt er nur selten mehr als eine, im Bass soll man sie mit wenigen Ausnahmen ganz vermeiden. Diese strenge Wertung des stehenden Basses gehört zur Aufgabe, einen durchgehend tragfähigen melodischen Bass zu erfinden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Einfacher vierstimmiger Satz · unterschiedliche Aufgaben der Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 106, S. 154–155 · Außen- und Innenstimmen",
+              "note": "Der Kommentar auf S. 155 unterscheidet ausdrücklich Sopran, Bass und Innenstimmen; die Aussage wird nicht zu einem Verbot von Orgelpunkten in anderer Musik verallgemeinert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
         }
       ],
       "relations": [
@@ -15666,7 +17513,8 @@ const ATLAS = {
         "fuge-quintsprung",
         "fuge-antwortintervall",
         "fuge-modulierendes-thema",
-        "fuge-chromatische-antwort"
+        "fuge-chromatische-antwort",
+        "fugenthema-beginn"
       ],
       "authors": [
         {
@@ -15898,6 +17746,56 @@ const ATLAS = {
               "note": "Das Hexachordmodell ist eine Vorgabe für die Vokalübungsfuge. Jeppesen erklärt ausdrücklich, dass es für die Praxis des 16. Jahrhunderts nicht verbindlich ist; eine engere Stileinordnung dieser Übungsregel bleibt offen."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-grundlagen",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 17–18, Bsp. 11–12 · zweite Themenphase",
+          "text": "Eine reale Antwort überträgt die melodische Intervallfolge des Dux genau. Eine tonale Antwort verändert einzelne Intervalle, um den Tonartenverlauf einzurichten. Gárdonyi trennt dabei die Transpositionsstufe vom Zeitpunkt der Modulation: Ohne vorbereitende Codetta muss die Dominanttonart nicht schon mit dem ersten Ton des Comes erreicht sein. Der Übergang kann erst während der Antwort stattfinden; die zusätzliche Gegenstimme macht dessen harmonischen Verlauf deutlicher. Eine tonale Veränderung kann diesen Übergang verzögern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 17–18, Bsp. 11–12 · zweite Themenphase",
+              "note": "Die Passage erklärt die zweite Themenphase an Bach-Beispielen, insbesondere WTK I C-Dur und WTK II c-Moll."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-tonale-antwort",
+            "bach-wtk1-846-antwort"
+          ]
+        },
+        {
+          "id": "gardonyi1996-open-antwort-typologie",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 19, Anm. 20 · Geltungsanspruch der Antwortmodelle",
+          "text": "Gárdonyi warnt ausdrücklich davor, seine Beschreibungen tonaler Antworten als unveränderliche Vorschriften zu lesen. Es handelt sich um Typen, die aus rückblickender Analyse gewonnen werden. Bach selbst findet auch andere Lösungen. Eine Abweichung von einem nachträglich formulierten Antwortmodell ist daher noch kein Fehler der Komposition. Diese Einschränkung betrifft den Status der vorgeführten Regeln und muss bei ihrer Übertragung auf den Unterricht mitgelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Rückblickende Analyse statt verbindlicher Antwortnorm",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 19, Anm. 20 · Geltungsanspruch der Antwortmodelle",
+              "note": "Die Fußnote erklärt den beschreibenden Status der unmittelbar zuvor analysierten Antworten Bachs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -15936,7 +17834,10 @@ const ATLAS = {
       "related": [
         "fuge-reale-tonale-antwort",
         "fuge-quintsprung",
-        "invention-einsatzplan"
+        "invention-einsatzplan",
+        "fugenthema-beginn",
+        "fuge-gegenbewegung-spiegel",
+        "fuge-fughetta-fugato"
       ],
       "authors": [
         {
@@ -16055,6 +17956,75 @@ const ATLAS = {
               "note": "Die Aussage beschreibt innerhalb von Menkes barocker Fugenlehre den bevorzugten ersten Einsatz in einer Nachbarstimme und berücksichtigt spätere Ausnahmen."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-intervall",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 17 · Stimmennachbarschaft und Oktavlage des Comes",
+          "text": "Gárdonyi beschreibt als üblichen ersten Comes eine Nachbarstimme in der Oberquinte oder Unterquarte. Die Cis-Dur- und cis-Moll-Fugen aus WTK II nennt er als Ausnahmen, bei denen nicht die Nachbarstimme antwortet und eine Duodezime entsteht. Für die weitere Darstellung fasst er Oberquinte und Unterquarte unter derselben Bezeichnung zusammen; entsprechend gehören Unterquinte und Oberquarte zusammen. Beim Lesen seiner Analysen ist deshalb zwischen der verwendeten Kurzbezeichnung und dem tatsächlich notierten Abstand zu unterscheiden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 17 · Stimmennachbarschaft und Oktavlage des Comes",
+              "note": "Die Aussagen beziehen sich auf erste Beantwortungen in Bachs Fugen und nennen zwei genaue Repertoireausnahmen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-antwort-unterquinte",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 21–22, Bsp. 19 · vollständige Antworten in der Unterquinte",
+          "text": "Eine vollständige Antwort in der Unterquinte oder Oberquarte kann die Gestalt eines dominantisch beginnenden Themas besser bewahren. Bei BWV 539 und BWV 565 würde die gewöhnliche einzelne Anpassung des Themenkopfs einen Sekundschritt zum Einklang zusammenziehen. Gárdonyi erklärt die Transposition des ganzen Themas in Gegenrichtung als Möglichkeit, diese Verformung zu vermeiden. Daneben können solche Antworten aus dem Tonartenplan einer größeren Komposition hervorgehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 21–22, Bsp. 19 · vollständige Antworten in der Unterquinte",
+              "note": "Die melodische Begründung gilt den ausdrücklich angeführten d-Moll-Fugen BWV 539 und BWV 565; weitere Antworten werden mit dem Tonartenplan verbunden."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-04",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69 · Beantwortung des zweiten Themas einer Doppelfuge",
+          "text": "Bei der Einführung des zweiten Themas einer Doppelfuge verfolgt Gárdonyi mehrere Antwortabstände. In BWV 540 sowie den cis-Moll- und gis-Moll-Fugen des zweiten WTK-Bands findet er die Unterquinte beziehungsweise Oberquarte. Andere Beispiele beantworten das zweite Thema in der Oberquinte. Besonders hebt er die Oktavantwort in der c-Moll-Orgelfuge BWV 546 hervor. Diese Beobachtungen betreffen einen später eingeführten thematischen Komplex; sie dürfen nicht stillschweigend in eine einheitliche Vorschrift für die erste Antwort jeder Fuge verwandelt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 6, S. 69 · Beantwortung des zweiten Themas einer Doppelfuge",
+              "note": "Der Abschnitt behandelt ausdrücklich die zweite thematische Exposition in Bachs Doppelfugen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [],
@@ -16064,6 +18034,12 @@ const ATLAS = {
           "to": "prout1891-1",
           "type": "context",
           "note": "Cherubinis Quintvorgabe bezieht sich auf seine Realfuge; andere Imitationsintervalle ordnet er einer weiteren Fugenart zu. Prout beschreibt Tonika und Dominante als häufigstes Tonartenpaar im Repertoire und belegt auch eine Antwort in der Subdominante."
+        },
+        {
+          "from": "gardonyi1996-forms-04",
+          "to": "menke2017-51",
+          "type": "context",
+          "note": "Menke beschreibt Oberquinte beziehungsweise Unterquarte als bevorzugten Abstand der ersten Beantwortung in einer benachbarten Stimme. Gárdonyi untersucht hier die Einführung des zweiten Themas einer Doppelfuge und nennt dafür auch Unterquinte und Oktave. Die unterschiedlichen Intervalle gehören zu verschiedenen Stellen des Formverlaufs und bilden daher keinen unmittelbaren Widerspruch über dieselbe erste Antwort."
         }
       ]
     },
@@ -16187,6 +18163,32 @@ const ATLAS = {
               "note": "Die unterschiedliche Beantwortung wird an Bachs F-Dur-Fuge BWV 856 und D-Dur-Fuge BWV 874 erklärt."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-tonale-mutation",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 18–19, Bsp. 12–14 · hervorgehobene fünfte Stufe und Intervalländerung",
+          "text": "Bei der beschriebenen tonalen Anpassung wird die fünfte Stufe des Themenkopfs mit der ursprünglichen Tonika beantwortet, während die übrigen Töne zunächst der gewöhnlichen Quinttransposition folgen. Liegt der angepasste Ton ganz am Anfang, ändert sich dadurch ein melodisches Intervall; liegt er innerhalb des Kopfes, können sich das vorausgehende und das folgende Intervall ändern. Gárdonyi zeigt außerdem Anpassungen weiterer Dominanttöne und Veränderungen ohne fünfte Stufe im Kopf. Entscheidend bleibt die tonale und motivische Einrichtung der Antwort, nicht allein ein anfänglicher Quintsprung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 18–19, Bsp. 12–14 · hervorgehobene fünfte Stufe und Intervalländerung",
+              "note": "Die Erläuterung vergleicht Antworten unter anderem in WTK II c-Moll, BWV 537, BWV 552 und WTK I A-Dur."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-tonale-antwort"
+          ]
         }
       ],
       "readingSources": [
@@ -16219,7 +18221,8 @@ const ATLAS = {
         "fuge-reale-tonale-antwort",
         "fuge-quintsprung",
         "fuge-wechselnde-antwort",
-        "fuge-chromatische-antwort"
+        "fuge-chromatische-antwort",
+        "fugenthema-harmonik"
       ],
       "authors": [
         {
@@ -16296,6 +18299,32 @@ const ATLAS = {
               "note": "Froberger, Pachelbel und Bach bilden die historischen Bezugspunkte der beschriebenen tonalen Rückführung des Comes."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-modulation",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 20–21, Bsp. 15–18 · Dux zur Dominante und Comes zurück zur Tonika",
+          "text": "Moduliert schon der Dux zur Dominante, würde eine durchgehende reale Quintantwort noch eine Stufe im Quintenzirkel weiterführen. Gárdonyi erklärt deshalb die Rückmodulation des Comes durch einen Wechsel der Transposition. In den WTK-I-Themen in Es-Dur und h-Moll kann der Comes nach einer Anpassung des Kopfes zunächst in der Oberquinttransposition bleiben und erst später zur Unterquinttransposition wechseln. In gis-Moll folgt dieser Wechsel dagegen schon unmittelbar nach dem Anfangston. Die notwendige Rückleitung bestimmt also nicht für jedes Thema dieselbe Mutationsstelle.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 20–21, Bsp. 15–18 · Dux zur Dominante und Comes zurück zur Tonika",
+              "note": "Die unterschiedlichen Stellen des Transpositionswechsels werden an Bachs Es-Dur-, h-Moll- und gis-Moll-Fugen aus WTK I gezeigt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "bach-wtk1-852-modulation"
+          ]
         }
       ],
       "readingSources": []
@@ -16378,11 +18407,42 @@ const ATLAS = {
               "note": "Die hybride Themenfassung wird in Bachs dis-Moll-Fuge mit den ursprünglichen Themen- und Antwortformen verglichen."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-antwort-wechsel",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 35 · vierte Themenphase, BWV 541 und BWV 536",
+          "text": "In der vierten Phase einer vierstimmigen Exposition kann die zunächst tonal eingerichtete Antwort nun real erscheinen. Gárdonyi erklärt dies damit, dass der anfängliche Aufschub der Modulation zu diesem späteren Zeitpunkt seine besondere Aufgabe verloren hat. Als Beispiele nennt er die Orgelfugen BWV 541 und BWV 536. Daneben können einzelne Intervalle zwischen erster und zweiter Antwort variieren. Die Antwortform ist deshalb im zeitlichen Verlauf der Exposition zu beurteilen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 35 · vierte Themenphase, BWV 541 und BWV 536",
+              "note": "Die Erklärung betrifft zwei genau benannte Bach-Orgelfugen und die vierte Phase ihrer Exposition."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
         "cherubini1854",
         "prout1891"
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-open-antwort-wechsel",
+          "to": "cherubini1854-1",
+          "type": "context",
+          "note": "Cherubini beschreibt einen Wechsel der Behandlung innerhalb derselben Antwort. Gárdonyi untersucht dagegen zwei zeitlich getrennte Comes-Einsätze innerhalb einer Exposition, von denen der erste tonal und der spätere real sein kann. Beide Beiträge betreffen wechselnde Beantwortung, aber auf unterschiedlicher zeitlicher Ebene."
+        }
       ]
     },
     {
@@ -16403,7 +18463,8 @@ const ATLAS = {
         "fuge-engfuehrung",
         "fuge-kontrasubjekt",
         "fuge-exposition",
-        "fuge-scheineinsatz"
+        "fuge-scheineinsatz",
+        "fuge-themenverwandlung"
       ],
       "authors": [
         {
@@ -16524,6 +18585,29 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-themenende",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 13–15, Bsp. 9–10 · Schlusswendung, Codetta und spätere Einsätze",
+          "text": "Das Ende eines Bach-Themas liegt nach Gárdonyi häufig auf einem betonten oder relativ betonten Grundton oder Terzton der Tonika. Eine bereits laufende Figur kann diese Grenze jedoch verwischen. Der erste Ton der Antwort kann mit dem Schlusston des Themas oder seiner Verlängerung zusammentreffen; vereinzelt beginnt die Antwort schon davor. Wo sich Thema, Codetta und Gegenstimme nicht klar trennen lassen, hilft der Vergleich mit den später wiederkehrenden Themengestalten. Der Einsatz der nächsten Stimme bestimmt die Grenze deshalb nicht allein.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 13–15, Bsp. 9–10 · Schlusswendung, Codetta und spätere Einsätze",
+              "note": "Gárdonyi prüft unterschiedliche Überlappungen und Themengrenzen an Bachs WTK-, Orgel- und Inventionsrepertoire."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -16571,7 +18655,13 @@ const ATLAS = {
         "invention-gegenmotiv",
         "fugenthema-und-kontrasubjekt-erfinden",
         "obligo-kontrapunkt",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "dreifacher-kontrapunkt",
+        "fuge-themenverwandlung",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge",
+        "fuge-und-tanzform"
       ],
       "authors": [
         {
@@ -16818,6 +18908,121 @@ const ATLAS = {
               "note": "Die Beispiele aus dem zweiten Wohltemperierten Klavier dienen dazu, wiedererkennbare Profile und Mischformen von Gegenstimmen zu unterscheiden."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-kontrasubjekt",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 27 · wiederkehrende Gegenstimme und Vertauschbarkeit",
+          "text": "Zur Identifikation eines Kontrasubjekts verlangt Gárdonyi, dass sein Material das Thema an mehr als einer Stelle der Fuge begleitet. Ein einmaliges Gegenstimmenprofil reicht nicht. Davon unterscheidet er den Nachweis doppelten Kontrapunkts: In mindestens zwei Themenphasen erscheinen Thema und Gegenmaterial in vertauschter Ober- und Unterlage. Die Bezeichnung der wiederkehrenden Gegenstimme und die Frage ihres Lagentauschs sind somit getrennt zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 27 · wiederkehrende Gegenstimme und Vertauschbarkeit",
+              "note": "Die Passage definiert die Begriffe für die anschließende Analyse bachischer Themenphasen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-kontrasubjekt-zeitpunkt",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 27; Kap. 3, S. 30–31 · frühester Nachweis und Einsatzordnung",
+          "text": "Beginnt das Stück einstimmig, kann ein Kontrasubjekt nach Gárdonyis Wiederholungskriterium frühestens in der dritten Themenphase feststehen: Erst dann kehrt eine bereits gehörte Gegenstimme wieder. Beginnen Thema und Gegenstimme gemeinsam, ist dies schon in der zweiten Phase möglich. Auch die Einsatzordnung zählt: Bei einer dreistimmigen Exposition von oben nach unten kann das Kontrasubjekt bereits wiederkehren, obwohl sein Lagentausch mit dem Thema erst später im Stück hörbar wird.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 27; Kap. 3, S. 30–31 · frühester Nachweis und Einsatzordnung",
+              "note": "Gárdonyi vergleicht einstimmige Eröffnungen mit zweistimmigen Inventionsanfängen und verschiedenen dreistimmigen Fugenexpositionen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-kontrasubjekt-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 52 · freie Behandlung bereits eingeführter Kontrasubjekte",
+          "text": "Ein bereits erkennbares Kontrasubjekt muss bei Bach nach Gárdonyis Analyse nicht jeden Themeneinsatz begleiten. In der c-Moll-Fuge WTK I und der a-Moll-Fuge WTK II werden zwei Kontrasubjekte früh etabliert; die jeweils achte und letzte Themenphase führt das Thema dennoch mit freien Stimmen weiter. Auch die gis-Moll-Fuge WTK I setzt ihre Gegenkontrapunkte nur in ausgewählten Phasen ein. Das zeitweilige Weglassen hebt ihre Identität als wiederkehrendes Material nicht auf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 52 · freie Behandlung bereits eingeführter Kontrasubjekte",
+              "note": "Gárdonyi bezeichnet das Weglassen eingeführter Kontrasubjekte ausdrücklich als Teil ihrer freien Behandlung und nennt die letzte Phase der beiden dreistimmigen Fugen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-kontrasubjekt-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 53–54 · neue Kontrasubjekte und Formgliederung",
+          "text": "Ein neues Kontrasubjekt kann eine Formgrenze markieren. In der h-Moll-Orgelfuge BWV 544 unterscheidet Gárdonyi zunächst das Thema mit dem ersten Kontrasubjekt, danach mit freien Gegenstimmen, dann mit einem zweiten Kontrasubjekt und schließlich mit dem zurückkehrenden ersten sowie einem neuen dritten. Die Schlussgruppe arbeitet dadurch im dreifachen Kontrapunkt. Die Einführung neuen Gegenmaterials steigert also nicht nur die thematische Dichte; sie kann den Verlauf in unterschiedlich besetzte Abschnitte gliedern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 53–54 · neue Kontrasubjekte und Formgliederung",
+              "note": "Das Schema auf S. 54 unterscheidet vier Abschnitte von BWV 544 anhand des Gegenmaterials und der wechselnden Art des Kontrapunkts."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-kontrasubjekt-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 55–56 · Fugen mit zweistimmigem Thema",
+          "text": "Ein Thema kann bereits bei seinem ersten Auftreten mit einer Gegenstimme verbunden sein. Kehrt diese Verbindung in den folgenden Themenphasen wieder, beschreibt Gárdonyi die Gegenstimme als Kontrasubjekt und das Ganze als zweistimmiges Thema. Eine der beiden Linien kann etwas früher beginnen, wie in BWV 579 und im Thema fugatum von BWV 582. Häufig erhält die erste Gestalt wegen ihres Gewichts, ihrer Formfunktion oder ihres Cantus-firmus-Charakters den Vorrang als Thema; die wiederkehrende andere Linie bleibt der Gegenkontrapunkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 55–56 · Fugen mit zweistimmigem Thema",
+              "note": "Der Abschnitt erklärt die Wiederkehr der anfänglichen Zweistimmigkeit und nennt ausdrücklich leicht versetzte Anfänge sowie verschiedene Gründe für den Vorrang einer Linie."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -16830,6 +19035,18 @@ const ATLAS = {
           "to": "gedalge1901-1",
           "type": "context",
           "note": "Gédalges Schulfugemodell verlangt das Kontrasubjekt bei jedem Themeneinsatz. Prout lässt einzelne Einsätze ohne diese Gegenstimme zu und hält ein festes Kontrasubjekt für die Fuge insgesamt für entbehrlich."
+        },
+        {
+          "from": "gardonyi1996-open-kontrasubjekt",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gárdonyi identifiziert das Kontrasubjekt analytisch an der Wiederkehr seiner Gegenstimme und prüft den Lagentausch gesondert. Gédalge verlangt für den Entwurf der Schulfuge eine von vornherein vertauschbare Begleitung bei jedem Themeneinsatz. Wiedererkennen im Repertoire und verbindliche Anlage einer Übungsfuge sind unterschiedliche Aufgaben."
+        },
+        {
+          "from": "gardonyi1996-dev-fuge-kontrasubjekt-1",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalges Kontrasubjekt der Schulfuge soll jeden Themeneinsatz begleiten. Gárdonyi zeigt in den beiden dreistimmigen Bach-Fugen gerade eine letzte Themenphase ohne die zuvor etablierten Kontrasubjekte. Die durchgehende Begleitung ist hier eine Vorgabe der Schulaufgabe, während der Werkbefund eine freie Auswahl und zeitweiliges Weglassen zeigt."
         }
       ]
     },
@@ -16856,7 +19073,12 @@ const ATLAS = {
         "fuge-schlussrueckkehr",
         "fuge-scheineinsatz",
         "fuge-form-und-gattung",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "fugenthema-umfang",
+        "dreifacher-kontrapunkt",
+        "fuge-tonartenplan",
+        "fuge-permutationsfuge",
+        "fuge-fughetta-fugato"
       ],
       "authors": [
         {
@@ -17101,6 +19323,101 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-exposition-dreistimmig",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 30–31 · dreistimmige Exposition",
+          "text": "Die Exposition ist für Gárdonyi der erste Durchgang des Themas durch alle Stimmen. Dreistimmig umfasst sie deshalb zunächst drei Themenphasen. Am häufigsten nennt er die Einsatzfolgen Oberstimme–Mittelstimme–Bass und Mittelstimme–Oberstimme–Bass; ein Beginn im Bass ist seltener. Der dritte Einsatz bringt gewöhnlich den Dux in anderer Oktavlage. Eine Codetta zwischen zweitem und drittem Einsatz kann die Haupttonart wiederherstellen, ist aber nicht in jedem Stück erforderlich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 30–31 · dreistimmige Exposition",
+              "note": "Die Aussage beschreibt Expositionen dreistimmiger Bach-Fugen und Sinfonien."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-exposition-vierstimmig",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 34–35 · vierstimmige Expositionen in Bachs Tastenmusik",
+          "text": "Gárdonyi unterscheidet die theoretisch 24 Einsatzreihenfolgen von den neun, die er in der hier betrachteten vierstimmigen Tastenmusik Bachs findet. Der zweite Einsatz liegt in dieser Werkgruppe stets in einer Nachbarstimme, der letzte meistens im Bass oder Sopran. Die vertraute Folge Dux–Comes–Dux–Comes ist häufig, aber nicht ausnahmslos: WTK I C-Dur bringt Dux–Comes–Comes–Dux, WTK I f-Moll und fis-Moll Dux–Comes–Dux–Dux. Einsatzfolge und vertikale Stimmlage sind daher gesondert zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 34–35 · vierstimmige Expositionen in Bachs Tastenmusik",
+              "note": "Die Häufigkeiten gelten der auf S. 34 ausdrücklich eingegrenzten Gruppe vierstimmiger Orgel- und Cembalofugen Bachs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "bach-wtk1-846-antwort"
+          ]
+        },
+        {
+          "id": "gardonyi1996-open-exposition-pause",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 35 · Satzdichte beim vierten Themeneinsatz",
+          "text": "Der vierte Einsatz einer vierstimmigen Exposition muss nicht von allen drei bereits eingeführten Stimmen zugleich begleitet werden. Gárdonyi nennt mehrere Bach-Fugen, in denen während dieser Phase eine Stimme pausiert, darunter WTK I g-Moll und WTK II c-Moll, As-Dur und H-Dur. Vier Themenstimmen im Aufbau der Fuge und vier gleichzeitig klingende Linien an jeder Stelle sind also verschiedene Sachverhalte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 35 · Satzdichte beim vierten Themeneinsatz",
+              "note": "Die Aussage ist durch ausdrücklich genannte vierstimmige Bach-Fugen belegt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-exposition-fuenf-sechs",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 37–38 · fünfstimmige Fugen und Ricercar a 6",
+          "text": "Auch für fünf Stimmen setzt Gárdonyi nicht alle rechnerisch möglichen Einsatzfolgen mit musikalisch sinnvollen gleich. Er beobachtet geordnete Eintrittsregister innerhalb zweier Oktaven und antwortende Nachbarstimmen. In BWV 546 ersetzt beim fünften Einsatz ein Comes den erwarteten tieferen Dux, weil dessen Lage den Pedalumfang überschritte. Das sechsstimmige Ricercar aus dem Musikalischen Opfer zeigt dagegen die abwechselnde Folge von Dux und Comes. Instrumentaler Tonraum und Themenform erklären damit konkrete Abweichungen vom regelmäßigen Wechsel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 37–38 · fünfstimmige Fugen und Ricercar a 6",
+              "note": "Die Beobachtungen betreffen ausdrücklich benannte fünfstimmige Orgelfugen und Bachs Ricercar a 6."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -17138,6 +19455,12 @@ const ATLAS = {
           "to": "gedalge1901-1",
           "type": "context",
           "note": "Gédalge verlangt in seiner Schulfuge mindestens vier abwechselnde Einsätze. Menke erklärt am historischen Repertoire auch Dux–Comes–Comes–Dux: Eine regelmäßige Verteilung auf die Stimmlagen muss keine regelmäßig abwechselnde zeitliche Folge ergeben. Übungsvorgabe und Repertoirebeschreibung haben hier verschiedene Reichweiten."
+        },
+        {
+          "from": "gardonyi1996-open-exposition-dreistimmig",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gárdonyi beendet den ersten Durchgang seiner dreistimmigen Repertoireexposition nach drei Themenphasen. Gédalge fordert für die Schulfuge unabhängig von einer geringen Stimmenzahl mindestens vier abwechselnde Einsätze. Die abweichenden Zahlen stammen aus unterschiedlichen Definitionen und Unterrichtsaufgaben."
         }
       ]
     },
@@ -17295,6 +19618,81 @@ const ATLAS = {
               "note": "Gegenstand ist die neue Einsatzgruppe in Bachs F-Dur-Fuge BWV 856."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-gegenexposition-rolle",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 31–32 · Gegenexposition als Technik",
+          "text": "Bei Gárdonyi beginnt eine Stimme gegenzuexponieren, wenn sie im Tonika-Dominant-Bereich nun diejenige Themenform übernimmt, die sie vorher noch nicht hatte: nach dem Dux den Comes oder umgekehrt. Diese Beschreibung betrifft zunächst einen einzelnen Stimmverlauf. Gegenexposition ist für ihn deshalb eine Technik und nicht schon von sich aus ein eigener Formabschnitt. Sie kann sich auf eine Stimme beschränken oder auf mehrere Stimmen ausdehnen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 31–32 · Gegenexposition als Technik",
+              "note": "Gárdonyi entwickelt den Begriff anhand der Rollen einzelner Stimmen in Bachs Fugenexpositionen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-gegenexposition"
+          ]
+        },
+        {
+          "id": "gardonyi1996-open-doppelexposition",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 32–33 · WTK I E-Dur, WTK II cis-Moll und gis-Moll",
+          "text": "Wechseln alle drei Stimmen nach ihrer ersten Vorstellung von Dux zu Comes oder umgekehrt, erhält Gárdonyi sechs Themenphasen und spricht von einer Doppelexposition. Dafür dient ihm WTK I E-Dur als Beispiel. WTK II cis-Moll lässt nur zwei Stimmen gegenzuexponieren. In WTK II gis-Moll verfolgt er sieben Phasen, zwischen denen auch Zwischenspiele stehen. Die Ausweitung des Tonika-Dominant-Bereichs und der Register muss daher nicht in eine gleich lange, unmittelbar anschließende zweite Runde passen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 32–33 · WTK I E-Dur, WTK II cis-Moll und gis-Moll",
+              "note": "Die unterschiedlichen Umfänge werden an drei benannten Bach-Fugen und ihren Einsatzschemata verglichen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-zusatzeinsatz",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 33–34, Anm. 26 · Zusatzeinsatz und WTK II H-Dur",
+          "text": "Wiederholt eine Stimme nach der Exposition im selben Tonartenbereich nochmals dieselbe Dux- oder Comes-Gestalt, nennt Gárdonyi dies einen Zusatzeinsatz. Für WTK II H-Dur verneint er deshalb ausdrücklich eine Gegenexposition: Obwohl die ersten acht Themenphasen regelmäßig zwischen Dux und Comes wechseln, wiederholt jede Stimme ihre eigene bisherige Rolle. Die Zäsur in Takt 27 und ein neues Kontrasubjekt gliedern diese Phasen zwar in zwei Abschnitte, erfüllen aber nicht sein Gegenexpositionskriterium. „Überzählig“ vermeidet er wegen des darin anklingenden normativen Urteils.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 33–34, Anm. 26 · Zusatzeinsatz und WTK II H-Dur",
+              "note": "Die Begriffsentscheidung wird ausdrücklich an Bachs H-Dur-Fuge aus WTK II getroffen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-gegenexposition"
+          ]
         }
       ],
       "readingSources": [
@@ -17307,6 +19705,24 @@ const ATLAS = {
           "to": "prout1910-1",
           "type": "context",
           "note": "Gédalges fakultative Gegenexposition der Schulfuge umfasst genau zwei Einsätze. Prout bezeichnet in Bachs E-Dur-Fuge BWV 854 eine Gruppe von drei Einsätzen mit vertauschten Rollen als Gegenexposition."
+        },
+        {
+          "from": "gardonyi1996-open-gegenexposition-rolle",
+          "to": "prout1891-1",
+          "type": "nuance",
+          "note": "Prout bezeichnet eine zweite Einsatzgruppe im gleichen Tonartenbereich als Gegenexposition und beschreibt den Rollentausch als häufig. Gárdonyi macht dagegen gerade den Wechsel von Dux und Comes in derselben Stimme zum Kriterium und versteht ihn zunächst als Technik einzelner Einsätze. Die Begriffe erfassen deshalb nicht automatisch dieselbe Abschnittsgrenze."
+        },
+        {
+          "from": "gardonyi1996-open-gegenexposition-rolle",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalge legt für die fakultative Gegenexposition der Schulfuge genau zwei aufeinanderfolgende Einsätze fest. Gárdonyi bestimmt an Bach eine Technik des Rollenwechsels, die schon eine einzelne Stimme betreffen und sich auf weitere ausdehnen kann. Ein vorgeschriebener Abschnitt und eine analytische Eigenschaft einzelner Einsätze sind hier zu unterscheiden."
+        },
+        {
+          "from": "gardonyi1996-open-zusatzeinsatz",
+          "to": "kennan1999-1",
+          "type": "contradiction",
+          "note": "Für dasselbe Werk, Bachs H-Dur-Fuge aus WTK II, unterscheiden sich die Bezeichnungen ausdrücklich: Kennan hört eine partielle Gegenexposition; Gárdonyi schließt sie aus, weil die einzelnen Stimmen ihre Dux- bzw. Comes-Rolle wiederholen statt zu wechseln. Der Widerspruch betrifft das analytische Kriterium für „Gegenexposition“, nicht die Richtigkeit von Bachs Satz."
         }
       ]
     },
@@ -17333,7 +19749,8 @@ const ATLAS = {
         "sequenzmodell",
         "fuge-scheineinsatz",
         "fuge-formanalyse",
-        "fuge-form-und-gattung"
+        "fuge-form-und-gattung",
+        "fuge-tonartenplan"
       ],
       "authors": [
         {
@@ -17560,11 +19977,157 @@ const ATLAS = {
               "note": "Die Überlappung von Sequenzglied und Themenbeginn wird an Bachs c-Moll-Fuge WTK I beobachtet."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-open-codetta",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 14–16, Bsp. 7–10 · Verbindung zwischen den ersten Themeneinsätzen",
+          "text": "Die Codetta schließt sich bei Gárdonyi an ein rhythmisch und harmonisch schon bestätigtes Themenende an. Sie kann den Bewegungsimpuls bis zum nächsten Einsatz erhalten und dessen harmonischen Boden vorbereiten. Ihr Material lässt sich nach der Antwort erneut zur Rückleitung in die Haupttonart verwenden und kann spätere Zwischenspiele vorwegnehmen. Thema, Codetta und Gegenstimme müssen im tatsächlichen Verlauf dabei nicht durch deutliche Einschnitte getrennt sein.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 14–16, Bsp. 7–10 · Verbindung zwischen den ersten Themeneinsätzen",
+              "note": "Die Erklärung folgt auf konkrete Beispiele aus Bachs WTK, Sinfonien und Orgelfugen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 59 · Lage, Umfang und Übergangsfunktion",
+          "text": "Gárdonyi nennt Verbindungen zwischen Themenphasen innerhalb der Exposition Codetten; entsprechende Abschnitte außerhalb der Exposition heißen Zwischenspiele. Die Unterscheidung betrifft auch ihre üblichen Ausmaße: Eine Codetta ist nur selten länger als das Thema, während Zwischenspiele erheblich verschieden lang sein können. Beide verbinden benachbarte Themenphasen, häufig auf unterschiedlichen Tonartenebenen. Gemeinsame Motive machen die beiden Abschnittstypen also noch nicht gleich; für ihre Benennung bleibt die Stellung im Verlauf entscheidend.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 59 · Lage, Umfang und Übergangsfunktion",
+              "note": "Der Beginn des Kapitels unterscheidet die beiden Bezeichnungen ausdrücklich nach Stellung und typischer Länge, bei gemeinsamer Übergangsfunktion."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 60 · thematisch abgeleitetes und neu eingeführtes Material",
+          "text": "In einem Zwischenspiel fehlt das vollständige Thema. Das Material kann aus Thema, Kontrasubjekt oder Codetta gewonnen werden; Gárdonyi beschreibt daneben konzertante Abschnitte, deren Figuren nicht auf das Material der Exposition zurückgehen, etwa in Bachs Soloviolinfugen und mehreren Orgelfugen. Neu eingeführtes Material kann später selbst zum Kontrasubjekt werden, wie in der h-Moll- und der Fis-Dur-Fuge WTK I. Die Herkunft eines Motivs und seine spätere thematische Funktion müssen deshalb getrennt verfolgt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 60 · thematisch abgeleitetes und neu eingeführtes Material",
+              "note": "Die Passage unterscheidet ausdrücklich thematisch abgeleitete Zwischenspiele von konzertanten Abschnitten mit anderem Material und nennt dessen spätere Verwendung als Kontrasubjekt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 59–60 · aussetzende Stimmen und nächster Themeneinsatz",
+          "text": "Der nächste Themeneinsatz liegt häufig in einer Stimme, die am vorausgehenden Zwischenspiel nicht beteiligt war. Gárdonyi deutet das Aussetzen oder Unterbrechen ihrer Linie als Vorbereitung des erneuten Auftritts. Dazu passen die von ihm als besonders häufig beschriebenen zweistimmigen Zwischenspiele innerhalb dreistimmiger Fugen und dreistimmigen Zwischenspiele innerhalb vier- oder fünfstimmiger Fugen. Die vorübergehend verringerte Stimmenzahl hat damit eine Funktion im Wechsel von Zwischenabschnitt und Themenphase.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 59–60 · aussetzende Stimmen und nächster Themeneinsatz",
+              "note": "Der Text verbindet die Pause vor dem neuen Themeneinsatz mit den häufigen Besetzungsreduktionen der Zwischenspiele."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-4",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 60–61, Bsp. 48–49 · B-Dur-Fuge WTK I",
+          "text": "Motive, die im Thema nacheinander erscheinen, können im Zwischenspiel gleichzeitig erklingen. In der B-Dur-Fuge WTK I verbindet Gárdonyi den eher springenden Themenkopf in Achteln mit der enger bewegten Fortsetzung in Sechzehnteln: Der ursprüngliche Kontrast innerhalb einer Stimme wird zu einem Kontrast zwischen Stimmen. Im folgenden Zwischenspiel kehrt das Material mit vertauschten Lagen wieder. Motivische Ableitung, Sequenz und doppelter Kontrapunkt wirken hier gemeinsam an der Fortsetzung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 60–61, Bsp. 48–49 · B-Dur-Fuge WTK I",
+              "note": "Die Beispiele 48 und 49 zeigen den Übergang vom horizontalen Kontrast des Themas zur vertikalen Verbindung und deren späterer Vertauschung."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-zwischenspiel-5",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 66–67 · Schlussabschnitt und Zwischenspielmaterial",
+          "text": "Am Ende einer Fuge wird die Bezeichnung Zwischenspiel problematisch, obwohl das verwendete Material dessen Kriterien erfüllen kann. Einige Fugen schließen mit der letzten Themenphase; andere fügen ihr noch eine Coda an, deren motivische Herkunft derjenigen von Zwischenspielen entspricht. Gárdonyi nennt dafür die Schlussabschnitte von BWV 542 und BWV 564. Ob das vollständige Thema fehlt, reicht zur Benennung allein nicht aus: Der Abschnitt kann dieselbe Materialarbeit an einer abschließenden statt einer verbindenden Stelle übernehmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 66–67 · Schlussabschnitt und Zwischenspielmaterial",
+              "note": "Die beiden Seiten benennen ausdrücklich das terminologische Problem abschließender Abschnitte ohne vollständiges Thema und führen die Coda als formale Funktion an."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
         "bach1866-wtk1",
         "prout1891"
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-dev-fuge-zwischenspiel-2",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalge gewinnt das Divertissement seiner Schulfuge aus Material der Exposition. Gárdonyi erfasst neben solchen Ableitungen auch Bach-Abschnitte mit neuem konzertantem Material, das später zum Kontrasubjekt werden kann. Die Herkunftsbeschränkung der Schulaufgabe deckt damit nicht alle von Gárdonyi beschriebenen Zwischenspieltypen ab."
+        }
       ]
     },
     {
@@ -17586,7 +20149,9 @@ const ATLAS = {
         "fuge-themenende",
         "fuge-exposition",
         "fuge-gegenexposition",
-        "imitation-und-kanon"
+        "imitation-und-kanon",
+        "fuge-themenverwandlung",
+        "fuge-kanonische-fuge"
       ],
       "authors": [
         {
@@ -17793,6 +20358,75 @@ const ATLAS = {
               "note": "Im barocken Fugenrahmen beschreibt Menke Engführung als Möglichkeit der Verdichtung, ohne eine feste Schlussform für jede Fuge zu fordern."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-engfuehrung-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 45 · Einsatzüberlappung und Stellung im Verlauf",
+          "text": "Eine Engführung entsteht bei Gárdonyi, wenn eine neue Themenphase einsetzt, während die vorherige noch läuft, und der Einsatzabstand damit gegenüber der Exposition verkürzt ist. Sie verdichtet die Imitation, weil verschiedene Teile des Themas zugleich erklingen und einander kontrapunktieren. Meist beobachtet er dieses Verfahren nach der Exposition; die A-Dur-Fuge WTK I und die Cis-Dur-Fuge WTK II nennt er ausdrücklich als seltene Ausnahmen. Die Stellung einer Engführung ist deshalb jeweils am konkreten Verlauf zu bestimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 45 · Einsatzüberlappung und Stellung im Verlauf",
+              "note": "Die Definition und die Ausnahmen beziehen sich auf die Stellung der Engführung in den untersuchten Bach-Fugen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-engfuehrung-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 45–46 · veränderte und unvollständige Themenformen",
+          "text": "In einer Engführung können die Themenformen durch Modulation stark von der Exposition abweichen. Da die Einsätze nicht nur im Quintverhältnis stehen, spricht Gárdonyi allgemein vom führenden Einsatz (Proposta) und nachfolgenden Antworten. Frühere Einsätze brechen oft zugunsten neuer Themenköpfe ab und gehen in freie Fortsetzungen über; die letzte Antwort bringt das Thema meist vollständig. Für die Analyse sind deshalb der Einsatz des Kopfes, die tatsächlich erhaltene Themenstrecke und ihre freie Fortsetzung auseinanderzuhalten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 45–46 · veränderte und unvollständige Themenformen",
+              "note": "Der Abschnitt beschreibt ausdrücklich unvollständige Themenformen, freie Fortsetzungen und eine meist vollständige letzte Antwort innerhalb von Bachs Engführungen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-engfuehrung-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 50 · Engführung mit Vergrößerung und Umkehrung",
+          "text": "Auch verschiedene Zeitgestalten desselben Themas können in einer Engführung zusammentreffen. In BWV 547 verbindet Bach nach Gárdonyis Analyse ab Takt 48 die ursprüngliche Form mit ihrer Vergrößerung und mit einer vergrößerten Umkehrung. Der rhythmische Gegensatz wird dadurch besonders deutlich. Ab Takt 56 ändern sich in einer Manualstimme zudem einzelne melodische Verhältnisse durch starke Modulation, obwohl ihr thematischer Rhythmus erhalten bleibt. Zeitgestalt, Bewegungsrichtung und harmonische Anpassung sind hier getrennt zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 50 · Engführung mit Vergrößerung und Umkehrung",
+              "note": "Die Passage benennt die drei Themenformen in BWV 547 und erklärt die späteren melodischen Änderungen aus der Modulation innerhalb eines unveränderten Rhythmus."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -17818,6 +20452,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "nuance",
           "note": "Gallon und Bitsch bestimmen die eigentliche Engführung als Kanon von Thema und Antwort. Menke beschreibt auch Engführungen mit verkürzten oder variierten Themen. Seine Darstellung lässt damit eine freiere Behandlung des Themenverlaufs innerhalb der verkürzten Einsatzfolge erkennen."
+        },
+        {
+          "from": "gardonyi1996-dev-fuge-engfuehrung-1",
+          "to": "gedalge1901-1",
+          "type": "context",
+          "note": "Gédalge verwendet Stretto in der Schulfuge sowohl für die einzelne Überlagerung als auch für einen Schlussabschnitt mit zunehmend engeren Einsätzen. Gárdonyi ordnet die Überlagerung in Bachs Verlauf meist nach der Exposition ein und nennt bereits dort mögliche Ausnahmen. Seine Ortsbestimmung ist damit weiter als Gédalges besondere Verwendung des Wortes für den formalen Schlussabschnitt; dessen Definition der einzelnen Engführung bleibt davon unberührt."
         }
       ]
     },
@@ -18159,6 +20799,134 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-bass-und-klangwechsel",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 13–14, Übung XII (12), und S. 18, Übung XX (20) · Bassbewegung und Wechsel der oberen Klänge",
+          "text": "Die Aussetzungen zeigen zwei verschiedene Verhältnisse von Bassbewegung und oberem Klang. In XII bewegen sich Basstöne weiter, während mehrere obere Töne gebunden bleiben. In XX trägt dagegen derselbe länger gehaltene Basston nacheinander die Bezifferungen 5 und 6. Der Rhythmus der Bassnoten allein beschreibt somit noch nicht alle Klangwechsel. Beim Lesen müssen die Dauer des Basstons, die Zeitpunkte der Ziffern und die tatsächlich gehaltenen oder bewegten oberen Stimmen miteinander verglichen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 13–14, Übung XII (12), und S. 18, Übung XX (20) · Bassbewegung und Wechsel der oberen Klänge",
+              "note": "Redaktionelle Gegenüberstellung der ausgeschriebenen Klangverläufe. Es wird keine von Sechter nicht erläuterte allgemeine Funktionstheorie oder feste Zahl von Harmonien je Takt vorausgesetzt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-06",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 55, Übung 80 (LXXX), erste vierstimmige Aussetzung, T. 1–3 · Ziffernwechsel über ganzen Bassnoten",
+          "text": "In Übung 80 bleibt der Bass in den ersten Takten jeweils als ganze Note liegen, während die Ziffern mehrfach wechseln. Im ersten Takt folgen 8, 6/5, 4/3 und 2; in den nächsten Takten beginnt die entsprechende Folge mit 7. Die Aussetzung zeigt damit mehrere bezifferte Klangstadien innerhalb der Dauer eines einzigen Basstones. Für ihren zeitlichen Verlauf müssen die Ziffernpositionen und die Bindungen der Oberstimmen gelesen werden: Der nächste Basswechsel allein reicht dafür nicht aus.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 55, Übung 80 (LXXX), erste vierstimmige Aussetzung, T. 1–3 · Ziffernwechsel über ganzen Bassnoten",
+              "note": "Redaktionelle Beobachtung der notierten Ziffernfolge und der ganzen Bassnoten. Die Passage enthält keine verbale Entscheidung, ob jedes Klangstadium als selbständige funktionale Harmonie gelten soll; der Vorschlag behauptet das deshalb nicht."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-harmonischer-rhythmus-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45 und erste Fußnote, S. 67–68; § 51, S. 79–80 · harmonisches Ausgangsmodell der zweiten Ordnung",
+          "text": "Als Ausgangsmodell der zweiten Ordnung empfiehlt Spalding eine Harmonie pro Takt. Der erste Zusammenklang bestimmt sie, während die zusätzliche Gegenstimmennote Bewegung schaffen soll, ohne ständig einen neuen Akkord einzuführen. Ausnahmen gehören bereits zur Erklärung: Beim Bassgang von der zweiten Stufe zur Tonika kann die Gegenstimme über den Sextakkord der Leittonstufe aufsteigen; das Fußnotenbeispiel verbindet am vorletzten Basston zwei Harmonien. Auch in den ausgearbeiteten Modellen weist Spalding ausdrücklich auf zwei Harmonien gegen einen Subjectton hin. Die Empfehlung ist daher keine starre Gleichsetzung von Takt, Basston und Akkorddauer.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45 und erste Fußnote, S. 67–68; § 51, S. 79–80 · harmonisches Ausgangsmodell der zweiten Ordnung",
+              "note": "Die anfängliche Formulierung lautet eine Harmonie pro Takt; die konkreten Ausnahmen stehen in der Fußnote und bei § 51. S. 67 und 79 visuell geprüft. Die Regel wird nicht mechanisch auf alle späteren, freier rhythmisierten 2:1-Beispiele übertragen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=81"
+        },
+        {
+          "id": "spalding1904-two-harmonischer-rhythmus-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 55, S. 86; § 57, S. 89–90 · Harmoniewechsel innerhalb der Vierergruppe",
+          "text": "Im Vier-gegen-eins lässt Spalding eine, auch zwei Harmonien pro Takt zu. Bleibt die Harmonie gleich, können die weiteren Gegenstimmennoten Akkordtöne, Durchgänge oder Wechselnoten sein. Ein zweiter Akkord soll am Nebenakzent, also mit dem dritten Ton der Vierergruppe, eintreten. In der einleitenden Erklärung heißt es noch „fast immer“; beim regelgeleiteten Ausarbeiten in § 57 verlangt er diesen Zeitpunkt ausdrücklich. Dort empfiehlt er zugleich, im Allgemeinen mit einer Harmonie auszukommen. Eine unpassende melodische Wendung darf daher nicht beliebig durch einen neuen Akkord auf der zweiten oder vierten Position erklärt werden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 55, S. 86; § 57, S. 89–90 · Harmoniewechsel innerhalb der Vierergruppe",
+              "note": "Die unterschiedliche Stärke der Formulierungen in § 55 und § 57 wird ausdrücklich erhalten. Notenbeispiele und Erläuterungen auf S. 89–90 visuell geprüft. § 55 legt den instrumentalen Übungsrahmen fest."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=100"
+        },
+        {
+          "id": "spalding1904-multi-zwei-harmonien",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 132–133, Beispiele 2 und 3 bei (a) · zweite Ordnung in drei Stimmen",
+          "text": "Zwei Töne gegen einen bedeuten bei Spalding nicht zwingend nur eine Harmonie im ganzen Takt. In den dreistimmigen Beispielen 2 und 3 setzt er an den markierten Stellen zwei verschiedene Harmonien innerhalb eines Takts ein. Er nennt dies ein gelegentlich nützliches Mittel, vor dessen häufigem Gebrauch er zugleich warnt. Beim Lesen muss daher geprüft werden, ob der zweite bewegte Ton eine Diminution derselben Harmonie ist oder an einem tatsächlichen Harmoniewechsel beteiligt ist.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweite Ordnung · dreistimmige tonale Aussetzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 96, S. 132–133, Beispiele 2 und 3 bei (a) · zweite Ordnung in drei Stimmen",
+              "note": "Der Kommentar auf S. 133 bezeichnet die markierten Stellen ausdrücklich als zwei Harmonien im Takt und begrenzt ihren Gebrauch."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=146"
+        },
+        {
+          "id": "spalding1904-multi-tempo-und-harmoniewechsel",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 118, S. 182–183 · bewegte Melodien für vier Streicher",
+          "text": "Vor der Harmonisierung einer bewegten Melodie soll entschieden werden, welche Töne Akkordtöne und welche Durchgänge oder Wechselnoten werden. Spalding lehnt dafür eine starre Auswahlregel ebenso ab wie einen neuen Akkord unter fast jeder Note. Das Tempo gehört zur Entscheidung: In rascher Musik braucht die Harmonie weniger häufig zu wechseln; bei langsamer Bewegung kann langes Verharren auf demselben oder eng verwandten Klang dagegen schwach wirken. Die Notenwerte allein legen den harmonischen Rhythmus also nicht fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Streicherübung · Harmonieauswahl unter bewegter Melodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 118, S. 182–183 · bewegte Melodien für vier Streicher",
+              "note": "§ 118 erklärt ausdrücklich die Rolle des Tempos und gibt keine feste Zahl von Harmoniewechseln je Takt vor."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=196"
         }
       ],
       "readingSources": [
@@ -18204,7 +20972,9 @@ const ATLAS = {
         "rhythmuswechsel-s5",
         "viertel-gegen-viertel",
         "stimme-und-satzstruktur",
-        "stimmen-ergaenzen"
+        "stimmen-ergaenzen",
+        "generalbass-bassvariation",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -18579,6 +21349,181 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-gegenstimmen-kontrast",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 24–26, Bsp. 22–24 · Gegenstimme zur Antwort",
+          "text": "Gárdonyi sucht zwischen Antwort und Gegenstimme mehrere mögliche Gegensätze: Schritte gegen Sprünge, Aufwärts- gegen Abwärtsbewegung, chromatische gegen diatonische Wendungen sowie lange gegen kurze Werte. Rhythmische Ergänzung kann dadurch entstehen, dass die Bewegung zwischen den Stimmen wechselt oder eine durchgehende Linie den Pausen der anderen gegenübersteht. Diese Gegensätze erzeugen keine völlige Unabhängigkeit. Gemeinsames Metrum und gemeinsamer harmonischer Verlauf verbinden sie zu einem übergeordneten Zusammenhang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 24–26, Bsp. 22–24 · Gegenstimme zur Antwort",
+              "note": "Die konkreten Kontrastarten werden an den Anfängen bachischer Fugen, einschließlich BWV 903, erläutert."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-rhythmische-selbststaendigkeit-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 55–56, Bsp. 42 · Thema fugatum aus der Passacaglia BWV 582",
+          "text": "Im Thema fugatum von BWV 582 unterscheidet Gárdonyi drei rhythmische Profile. Die erste Hälfte des Passacaglia-Themas bewegt sich in regelmäßigen Vierteln und Halben. Ihr erster Gegenkontrapunkt setzt dem eine unterbrochene Achtelbewegung entgegen; der anschließend hinzutretende zweite führt die Achtel dagegen kontinuierlich weiter. Zwei Stimmen können somit denselben kleinen Notenwert verwenden und doch verschieden wirken, weil seine Bewegung unterschiedlich gegliedert ist. Die wiederkehrenden Profile bleiben auch beim Wechsel ihrer Lage erkennbar.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Rhythmische Profile in Bachs Thema fugatum",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 55–56, Bsp. 42 · Thema fugatum aus der Passacaglia BWV 582",
+              "note": "Gárdonyi beschreibt den dreifachen melodisch-rhythmischen Gegensatz ausdrücklich anhand der drei Materialien des Thema fugatum."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-rhythmische-fassungen",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 6–7, Übung III (3), besonders die drei- und zweistimmigen Fassungen auf S. 7",
+          "text": "In den Fassungen der dritten Übung bleibt das Bassmodell wiedererkennbar, während die oberen Stimmen unterschiedliche Bewegungsarten erhalten. Neben ruhigeren Verläufen stehen Achtelbewegung und punktierte Werte. Die dreistimmigen Beispiele lassen außerdem verfolgen, wie eine obere Linie weitergeht, während die andere einen Ton hält oder später einsetzt. Die Aussetzung zeigt damit eine praktische Möglichkeit rhythmischer Unterscheidung innerhalb derselben harmonischen Aufgabe. Daraus folgt keine Forderung, dass die Stimmen zu jedem Zeitpunkt verschieden rhythmisiert sein müssten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 6–7, Übung III (3), besonders die drei- und zweistimmigen Fassungen auf S. 7",
+              "note": "Die Aussage beschreibt die sichtbaren Rhythmusvarianten der Aussetzungen; Sechter formuliert hier keinen gesonderten allgemeinen Lehrsatz über rhythmische Selbstständigkeit. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-gleicher-rhythmus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 33, S. 52–54",
+          "text": "Melodische Selbstständigkeit setzt nicht voraus, dass die Stimmen dauernd verschiedene Notenwerte haben. Spalding zeigt an einem Abschnitt aus Händels Judas Maccabaeus, dass sich bei weitgehend gleichem Rhythmus freie und interessante Linien verbinden lassen. Die Übung Note gegen Note soll deshalb zuerst die melodische Führung und das Zusammenwirken der Stimmen schulen. Ein rhythmischer Gegensatz wird später ein weiteres Mittel der Gestaltung; er ersetzt die Linienqualität im gleichrhythmischen Satz nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Gleichrhythmischer vierstimmiger Vokalsatz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 33, S. 52–54",
+              "note": "Die Aussage stützt sich auf das ausdrücklich erläuterte Händel-Beispiel aus Judas Maccabaeus. Der Abschnitt gehört noch zum Eingangskapitel und erhält keine automatische S1-Zuordnung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=66"
+        },
+        {
+          "id": "spalding1904-two-rhythmischer-ausgleich-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, nach den Übungen zu § 91, S. 126–127 · frei rhythmisierte Subjects",
+          "text": "Nach den gleichmäßigen Vorlagen erweitert Spalding den Floridus auf Melodien, die selbst einen freien und wechselnden Rhythmus haben. Gegenstimme und Subject sollen dann nicht gleichzeitig um dieselbe rhythmische Aktivität konkurrieren: Wo eine Stimme lebhaft bewegt ist, kann die andere weniger Bewegung haben. Der abschließende Moderato-Satz auf S. 126 führt diesen Ausgleich vor. Die Selbständigkeit entsteht hier aus dem Zusammenspiel verschiedener Bewegungsdichten innerhalb der ganzen Phrase, nicht aus einer unveränderten schnellen Gegenstimme gegen jede Art von Vorlage.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, nach den Übungen zu § 91, S. 126–127 · frei rhythmisierte Subjects",
+              "note": "Der ausdrückliche Schlussabschnitt und das Moderato-Beispiel auf S. 126 wurden visuell geprüft. Die Aufgaben gehören zum erweiterten instrumentalen Floridus; aus der wechselnden Zahl gleichzeitig auftretender Noten wird keine neue Speziesnummer abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=140"
+        },
+        {
+          "id": "spalding1904-multi-florider-ausgleich",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 101, S. 143–145 · zwei floride Gegenstimmen",
+          "text": "Bei zwei floriden Gegenstimmen soll die Bewegung hörbar zwischen den Linien wechseln. Spalding begrenzt Achtelgruppen zunächst meist auf zwei Töne und vermeidet, dass nur eine Stimme lange aktiv bleibt. Punktierungen können die Rhythmen unterscheiden, wenn eine Nachbarstimme den Fortgang trägt. Auch versetzte Einsätze, bis hin zum Eintritt erst in einem späteren Takt, helfen der Individualisierung. Das Ziel ist ein ausgewogenes Wechselspiel und nicht die größtmögliche Zahl kurzer Noten in allen Stimmen.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige floride Übung · Verteilung der rhythmischen Tätigkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 101, S. 143–145 · zwei floride Gegenstimmen",
+              "note": "§ 101 behandelt ausdrücklich eine oder zwei floride Gegenstimmen. Die Beispiele auf S. 144 ergänzen versetzte Einsätze, S. 145 die punktierte Viertel."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=157"
+        },
+        {
+          "id": "spalding1904-multi-quartett-rhythmus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 116, S. 179–180; § 118, S. 184–185 · Gluck-Aussetzung und Schubert-Beispiel",
+          "text": "In der Aussetzung einer Gluck-Melodie versucht Spalding, jeder der vier Streicherstimmen einen erkennbar eigenen Rhythmus zu geben. Dazu gehören gerade auch längere Liegetöne, gegen die andere Linien weitergehen. Rhythmische Verschiedenheit ist für ihn dennoch kein ausnahmsloses Qualitätskriterium: Wenige Seiten später lobt er einen Ausschnitt aus Schuberts d-Moll-Quartett ausdrücklich trotz fehlender rhythmischer Vielfalt. Dort trägt die Gruppierung der Akkorde die Wirkung. Die Schreibaufgabe mit kontrastierenden Rhythmen und das Urteil über ein konkretes Werk haben also unterschiedlichen Umfang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Streicherquartett · rhythmische Kontraste und eine homorhythmische Ausnahme",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. VIII, § 116, S. 179–180; § 118, S. 184–185 · Gluck-Aussetzung und Schubert-Beispiel",
+              "note": "Spalding kommentiert seine Gluck-Aussetzung auf S. 180 und den Schubert-Ausschnitt auf S. 185 ausdrücklich mit gegensätzlicher rhythmischer Beschreibung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=193"
+        },
+        {
+          "id": "spalding1904-free-14",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, § 174, S. 240, und Fortsetzung von § 178, S. 247 · Pausen und wichtige Einsätze",
+          "text": "Selbstständige Stimmen müssen für Spalding nicht ununterbrochen beschäftigt sein. Im Streichquartett dürfen einzelne Instrumente pausieren, sodass zeitweise nur zwei oder drei Stimmen erklingen. Bei der späteren Arbeit mit zwei Hauptmotiven empfiehlt er Pausen gerade als Vorbereitung eines wichtigen melodischen Eintritts. Rhythmische Eigenständigkeit entsteht damit auch durch die Verteilung von Aktivität und Ruhe. Eine dichte imitative Arbeit soll trotzdem natürlich und fließend bleiben, statt jede Stimme fortwährend mit Material zu füllen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Rhythmische Gestaltung im freien Streichquartettsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, § 174, S. 240, und Fortsetzung von § 178, S. 247 · Pausen und wichtige Einsätze",
+              "note": "§ 174 lehnt ausdrücklich das ständige Weiterspielen aller Stimmen ab. Auf S. 247 erklärt Spalding die vorbereitende Wirkung von Pausen vor wichtigen melodischen Phrasen; die Hinweise gelten dort für die Ausarbeitung des Zweithemenentwurfs."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=254"
         }
       ],
       "readingSources": [
@@ -18590,6 +21535,12 @@ const ATLAS = {
           "to": "jeppesen1964-36",
           "type": "context",
           "note": "Jeppesen verbindet die Eigenständigkeit zweier freier Stimmen mit einem erkennbaren gemeinsamen Puls. Im beschriebenen Lutosławski-Intermezzo wählen die Spieler dagegen innerhalb einer ungefähren Geschwindigkeitsvorgabe eigene Tempi zwischen gemeinsamen Start- und Schlusszeichen. Der fehlende gemeinsame Puls ist dort Teil des gewünschten Verfahrens."
+        },
+        {
+          "from": "gardonyi1996-dev-rhythmische-selbststaendigkeit-1",
+          "to": "schoenberg1970-e18",
+          "type": "context",
+          "note": "Schönberg trennt die rhythmische Selbstständigkeit seiner Speziesübungen ausdrücklich von einer bereits motivisch bestimmten Selbstständigkeit des Inhalts. Gárdonyis drei wiederkehrende Profile in BWV 582 besitzen beides: unterschiedliche Bewegung und eine erkennbare thematische Identität, sogar bei gleichem Achtelwert in zwei Stimmen. Die Autoren betrachten damit verschiedene Arbeitsstufen."
         }
       ]
     },
@@ -18620,7 +21571,13 @@ const ATLAS = {
         "imitation-stimmenpaare",
         "fugenthema-und-kontrasubjekt-erfinden",
         "spiegelumkehr-stimmenpaar",
-        "obligo-kontrapunkt"
+        "obligo-kontrapunkt",
+        "dreifacher-kontrapunkt",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge",
+        "fuge-kanonische-fuge",
+        "vierfacher-kontrapunkt"
       ],
       "authors": [
         {
@@ -18954,6 +21911,272 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-oktavtausch",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 27–29, Bsp. 25–26 · Inventionen E-Dur und f-Moll",
+          "text": "Beim doppelten Kontrapunkt in der Oktave werden Thema und Gegenstimme durch Oktavversetzung so angeordnet, dass die zuvor untere Linie nun oberhalb der anderen steht. Ihre melodischen Richtungen bleiben dabei erhalten. Auf die Oktave reduzierte Zusammenklänge ergänzen sich vor und nach dem Tausch zu neun: Terz und Sexte, Sekunde und Septime sowie Quinte und Quarte entsprechen einander. Gárdonyi zeigt diese Beziehungen an aufeinanderfolgenden Themenphasen der E-Dur- und f-Moll-Invention.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 27–29, Bsp. 25–26 · Inventionen E-Dur und f-Moll",
+              "note": "Die Intervallbeziehungen werden an zwei ausdrücklich genannten Inventionen Bachs erläutert."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-quarte-bass",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 29, Bsp. 26 und Verweis auf Bsp. 55 · Quinte, Quarte und Bassfunktion",
+          "text": "Beim Oktavtausch ist für Gárdonyi vor allem der Wechsel zwischen konsonanter Quinte und dissonanter Quarte zu prüfen. Die Quinte wird deshalb gewöhnlich schon so geführt, dass ihre vertauschte Quarte stilgerecht behandelt wäre; in der f-Moll-Invention wird eine erwartete Quarte auch durch Veränderung eines Tons ersetzt. Er begrenzt das Problem jedoch ausdrücklich auf den zweistimmigen Satz oder eine Quarte über der tiefsten Stimme. Zwischen Oberstimmen eines größeren Satzes kann dieselbe Quarte tragfähig sein. Das erlaubt den Tausch dieses Paars über einem weiteren Bass, ohne dadurch jede beliebige Vertauschung aller Stimmen zu rechtfertigen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 29, Bsp. 26 und Verweis auf Bsp. 55 · Quinte, Quarte und Bassfunktion",
+              "note": "Die Bassabhängigkeit wird an Bachs f-Moll-Invention und WTK II cis-Moll erläutert. Die Passage unterscheidet die Quarte über der tiefsten Stimme von der Quarte zwischen Oberstimmen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "gardonyi-oktavtausch-quarte"
+          ]
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 46 und 49 · gleichbleibender Einsatzabstand in Engführungen",
+          "text": "Doppelter Kontrapunkt kann zwei Engführungen miteinander verbinden. Bleibt der zeitliche Abstand der Themenstimmen gleich, kann die zuvor obere Themenfassung später unter der anderen liegen. In der dorischen Orgelfuge BWV 538 beträgt der Abstand innerhalb der untersuchten zweistimmigen Engführungen jeweils einen Takt und eine Oktave; die Folge von oberem und unterem Einsatz wechselt. Gárdonyi erkennt dadurch eine Beziehung im doppelten Oktavkontrapunkt zwischen den verschiedenen Engführungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 46 und 49 · gleichbleibender Einsatzabstand in Engführungen",
+              "note": "Gárdonyi benennt die konstante Zeitdistanz als Voraussetzung des Vergleichs und führt in BWV 538 die verschiedenen Stimmenpaare und Einsatzrichtungen einzeln auf."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-05",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69–72, Bsp. 55–57 · mehrere Vertauschungsintervalle in Bachs Doppelfugen",
+          "text": "Die Themen einer Doppelfuge können in mehr als einem Intervall vertauschbar sein. Gárdonyi weist in der cis-Moll-Fuge WTK II Oktav- und Duodezimtausch nach, im Contrapunctus IX den Duodezimtausch. Im Contrapunctus X unterscheidet er innerhalb desselben Satzes Vertauschungen in Oktave, Dezime und Duodezime. Für die dort gezeigten Verbindungen ist auch die geeignete Führung zusätzlicher Stimmen in Terzen und Sexten zu den Themen bedeutsam. Das Vertauschungsintervall muss deshalb für die konkrete Stimmenverbindung bestimmt werden; die Bezeichnung Doppelfuge entscheidet es noch nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 69–72, Bsp. 55–57 · mehrere Vertauschungsintervalle in Bachs Doppelfugen",
+              "note": "Die drei Arten des Lagentauschs werden an den angegebenen Bach-Sätzen und Intervalltabellen belegt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-16",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 79–81 · vier- und fünffacher Kontrapunkt in vokalen Permutationsfugen",
+          "text": "Die Bezeichnung mehrfacher Kontrapunkt zählt die zugleich vertauschbaren Linien, nicht sämtliche daraus entstehenden Stimmenpaare. Vier Linien enthalten sechs paarweise Beziehungen; dennoch heißt ihr gemeinsamer Lagentausch vierfacher Kontrapunkt. Für die Motivgruppe 1–4 aus Lasset uns den nicht zerteilen zeigt Gárdonyi nur drei der theoretisch 24 vertikalen Anordnungen. In der Kantate BWV 21 findet er fünf tatsächlich verwendete Anordnungen eines Vorrats von fünf Linien: fünffacher Kontrapunkt mit zehn paarweisen Beziehungen und 120 theoretischen Anordnungen. Ein Satz muss also nicht alle denkbaren Permutationen ausschöpfen, um das Verfahren zu verwirklichen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 79–81 · vier- und fünffacher Kontrapunkt in vokalen Permutationsfugen",
+              "note": "Die Zählweise wird an zwei Permutationsfugen Bachs erklärt und durch Tabellen der verwendeten Anordnungen belegt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-33",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 93–94, Bsp. 65–66 · motivischer Rollentausch in Komm, heiliger Geist, BWV 651",
+          "text": "In BWV 651 werden die Synkopenfigur und die durchlaufende Sechzehntelbewegung immer wieder auf andere Stimmen verteilt. Gárdonyi unterscheidet diese Wirkung ausdrücklich von einem in Intervallen und Rhythmus genau entsprechenden doppelten Kontrapunkt. Der Satz erreicht eine verwandte Geschlossenheit durch den fortgesetzten Austausch der Bewegungsprofile. Für die Analyse heißt das: Wiedererkennbare Rollenverteilung kann einen ähnlichen Zusammenhang stiften, ohne dass dieselben vollständigen Linien als exakter Lagentausch nachweisbar wären.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 93–94, Bsp. 65–66 · motivischer Rollentausch in Komm, heiliger Geist, BWV 651",
+              "note": "Gárdonyi nennt die Grenzen der exakten Vertauschbarkeit ausdrücklich bei der Analyse von Bachs BWV 651."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-anwendung-und-begriff",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 119–120, S. 187–188 · vertauschbare Linien außerhalb und innerhalb fugierter Formen",
+          "text": "Doppelter Kontrapunkt bedeutet für Spalding, dass zwei zusammenpassende Melodien ihre Lage tauschen können: Jede muss über und unter der anderen funktionieren. Er führt das Verfahren nicht nur für Fuge und Invention ein. Schon eine Hymne von Sullivan und der Anfang von Chopins As-Dur-Ballade dienen ihm als Beispiele eines freieren, beiläufigen Gebrauchs. Der Nachweis einer vertauschbaren Stimmenverbindung macht einen ganzen Satz somit noch nicht zur Fuge oder zu einer durchgehend mehrfach kontrapunktischen Komposition.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Begriff und Anwendung · Hymne und Klavierballade",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, §§ 119–120, S. 187–188 · vertauschbare Linien außerhalb und innerhalb fugierter Formen",
+              "note": "§ 119 nennt und notiert die Beispiele von Sullivan und Chopin; § 120 definiert den Lagentausch zweier gemeinsam erklingender Melodien."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=201"
+        },
+        {
+          "id": "spalding1904-multi-oktave-und-quintdezime",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 121–122, S. 188–192 · Oktav- und Doppeloktavtausch",
+          "text": "Beim Tausch in der Oktave bleibt bei Spalding eine Stimme liegen, während die andere um eine Oktave versetzt wird. Sind die Stimmen zuvor weiter als eine Oktave auseinander, vertauscht diese einzelne Versetzung ihre Lage an der betreffenden Stelle nicht, sondern verringert nur den Abstand. Der Tausch in der Doppeloktave schafft mehr Raum: Häufig geht die bisher untere Stimme eine Oktave hinauf und die obere eine hinab. Die harmonische Prüfung bleibt weitgehend dieselbe; Register und tatsächliche Höhenordnung müssen in jeder Fassung gesondert stimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige Vertauschungsübung · Intervall und Register des Tauschs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 121–122, S. 188–192 · Oktav- und Doppeloktavtausch",
+              "note": "§ 121 unterscheidet ausdrücklich Kontraktion und wirklichen Lagentausch; § 122 beschreibt die praktische Aufteilung der Doppeloktavversetzung auf beide Stimmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=202"
+        },
+        {
+          "id": "spalding1904-multi-oktavtausch-quinte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 123–124, S. 193–194 · Quinte und Quarte vor und nach dem Tausch",
+          "text": "Beim Oktavtausch bleiben Terzen und Sexten als unvollkommene Konsonanzen brauchbar, während die Quinte zur Quarte wird. Spalding führt eine Quinte deshalb so, dass auch ihre vertauschte Quarte verständlich bleibt: als vorbereitete Dissonanz oder als melodisch begründeter Zwischenton. Seine anschließende Tafel erweitert die erste knappe Formulierung ausdrücklich um eine Quinte als betonten Durchgang bei (d) und eine betonte Quarte als Appoggiatura bei (f). Ein absolutes Verbot jeder Quinte oder jeder betonten Quarte würde diese Beispiele verfehlen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmiger Oktavtausch · dissonanzgerechte Führung beider Lagen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 123–124, S. 193–194 · Quinte und Quarte vor und nach dem Tausch",
+              "note": "S. 193 formuliert die Grundvorsicht; S. 194 nennt ausdrücklich die zusätzlichen betonten Fälle (d) und (f). Die gedruckten Buchstaben bleiben unverändert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=207",
+          "examples": [
+            "spalding-oktavtausch-quinte-quarte"
+          ]
+        },
+        {
+          "id": "spalding1904-multi-chromatische-intervalle",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 125–127, S. 194–195 · chromatische Intervalle in zwei vertauschbaren Stimmen",
+          "text": "Übermäßige Quarte und verminderte Quinte lässt Spalding im doppelten Kontrapunkt auf betonten wie unbetonten Zeiten zu. Eine übermäßige Sexte vermeidet er dagegen im Zweistimmensatz, weil nach dem Tausch eine für ihn unbefriedigende verminderte Terz entsteht. Bei der verminderten Septime entscheidet die Fortführung: Die beiden Töne können nacheinander aufgelöst werden. Eine gleichzeitige Auflösung in eine Quinte auf starkem Taktteil soll unterbleiben, weil diese Quinte nach dem Tausch als problematische Quarte wiederkehrt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmiger vertauschbarer Satz · chromatische Intervalle und Auflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 125–127, S. 194–195 · chromatische Intervalle in zwei vertauschbaren Stimmen",
+              "note": "§§ 125–127 unterscheiden die einzelnen Intervallarten und verlangen für die verminderte Septime ausdrücklich eine passende zeitliche Verteilung der Auflösung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=208"
+        },
+        {
+          "id": "spalding1904-multi-quintenfolge-und-besetzung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 125, S. 194–195 · reine und verminderte Quinte",
+          "text": "Eine reine Quinte unmittelbar vor einer verminderten Quinte lehnt Spalding im zweistimmigen doppelten Kontrapunkt ab: Nach der Vertauschung treten reine und übermäßige Quarte zu auffällig hervor. Eine als Durchgang erklärte Änderung verbessert sein Beispiel. Bei drei Stimmen beurteilt er die entsprechende Verbindung milder, wenn eine Innenstimme beteiligt ist. Daraus folgt jedoch noch nicht, dass alle drei Linien in jeder Lage miteinander vertauschbar wären; diese zusätzliche Forderung behandelt er erst beim dreifachen Kontrapunkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zwei- und dreistimmiger Satz · Wirkung eines vertauschten Stimmenpaars",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 125, S. 194–195 · reine und verminderte Quinte",
+              "note": "Die Passage setzt den zweistimmigen Fall ausdrücklich von Verbindungen zwischen Innen- und Außenstimme ab. Die Forderung vollständiger dreifacher Vertauschbarkeit steht gesondert in § 144."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=208"
+        },
+        {
+          "id": "spalding1904-multi-freie-anpassung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 129, S. 196–197; § 143, S. 206–207 · freie Wiederaufnahme einer vertauschten Verbindung",
+          "text": "Bei freier kompositorischer Verwendung muss die spätere vertauschte Passage bei Spalding nicht in jedem Detail eine mechanische Kopie sein. Im angeführten Händel-Beispiel wird sie durch einen eingeschobenen Takt verlängert. In seiner eigenen Inventionsaufgabe 1 ändert er beim späteren Tausch einen Ton, um am Taktanfang eine leere Quarte zu vermeiden. Die wiederkehrende Verbindung bleibt erkennbar; ihre konkrete Fortsetzung wird zugleich an Harmonie und Form angepasst. Solche Bearbeitungen sind von der strengen Prüfung zweier unveränderter Stimmenlagen zu unterscheiden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier doppelter Kontrapunkt · Repertoirebeispiel und Inventionsentwurf",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 129, S. 196–197; § 143, S. 206–207 · freie Wiederaufnahme einer vertauschten Verbindung",
+              "note": "§ 129 nennt den zusätzlichen Takt im Händel-Beispiel; S. 207 erklärt die Einzelnote im eigenen Inventionsmodell. Die Passage darf nicht als Beweis exakter Identität aller Töne ausgegeben werden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=210"
         }
       ],
       "readingSources": [
@@ -18979,6 +22202,30 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "context",
           "note": "Beide verlangen, dass die aus einer Quinte entstehende Quarte korrekt geführt ist. Schubert prüft beide Lagen innerhalb derselben Spezies; de la Mottes Bach-Beispiel gestattet auch betonte Durchgänge. Die unterschiedliche metrische Freiheit stammt aus dem jeweiligen Stil- und Übungsrahmen."
+        },
+        {
+          "from": "gardonyi1996-open-quarte-bass",
+          "to": "jeppesen1964-68",
+          "type": "context",
+          "note": "Gárdonyi betrachtet auch ein vertauschtes Oberstimmenpaar, dessen Quarte über einem weiteren Bass steht. Jeppesen prüft dagegen bei drei oder mehr frei vertauschbaren Stimmen jedes Paar, weil auch der bisher stützende Bass seine Lage wechseln kann. Die zusätzliche Bassstimme beseitigt die Quartfrage daher nur innerhalb des engeren, nicht für jeden möglichen Lagentausch freigegebenen Satzmodells."
+        },
+        {
+          "from": "gardonyi1996-open-quarte-bass",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch sichern den Oktavtausch ihres Übungsmodells durch die Prüfung jedes Stimmenpaars. Gárdonyi beschreibt an Bach daneben den begrenzten Tausch eines Oberstimmenpaars über einer weiteren Bassstimme. Die Quartbehandlung hängt daran, ob der Bass mit vertauschbar sein soll oder dieses bestimmte Stimmenpaar weiterhin trägt."
+        },
+        {
+          "from": "gardonyi1996-forms-33",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch formulieren die Bedingungen eines wirklichen Oktavtauschs und prüfen seine Intervalle für jedes beteiligte Stimmenpaar. Gárdonyi beschreibt in BWV 651 dagegen einen motivischen Rollentausch, den er ausdrücklich nicht als in Intervallen und Rhythmus genauen doppelten Kontrapunkt einstuft. Die ähnliche Satzwirkung ist keine Ausnahme von der Regel für exakte Vertauschbarkeit."
+        },
+        {
+          "from": "spalding1904-multi-freie-anpassung",
+          "to": "schubert1999-1",
+          "type": "context",
+          "note": "Schubert prüft zwei Lagen derselben Stimmenverbindung innerhalb der Regeln einer Spezies. Spaldings freie Repertoire- und Inventionsbeispiele dürfen bei der späteren Wiederkehr durch einen zusätzlichen Takt oder eine geänderte Einzelnote angepasst werden. Solche kompositorischen Bearbeitungen ersetzen nicht die strengere Prüfung unveränderter Übungsfassungen."
         }
       ]
     },
@@ -19011,7 +22258,9 @@ const ATLAS = {
         "motette-satzwechsel",
         "motivische-polyphonie",
         "reihen-und-stimmen",
-        "kontrapunkt-in-homophonie"
+        "kontrapunkt-in-homophonie",
+        "fuge-kanonische-fuge",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -19300,6 +22549,52 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-kanon-geschichte",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Vorwort, S. 9 · gebundene und freie Imitation",
+          "text": "Gárdonyi unterscheidet, wie viel Material der eröffneten Stimme nachgeahmt wird: Im Kanon wird ihr ganzer Verlauf zum Gegenstand fortgesetzter Imitation; freie Imitation kann auf den Anfangsgedanken beschränkt bleiben. Für die Renaissance-Motette beschreibt er neue Imitationsgedanken zu neuen Textabschnitten. In seiner Darstellung der späteren Fuge wird dagegen ein thematischer Bezugspunkt für den Aufbau eines ganzen Stücks maßgeblich. Diese historische Unterscheidung erklärt seine Verwendung von „Thema“; sie ersetzt nicht die spätere Untersuchung mehrthemiger Fugen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historischer Vergleich von Kanon, Motette und Fuge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. 9 · gebundene und freie Imitation",
+              "note": "Die Passage vergleicht ausdrücklich textbezogene Imitation der Renaissance-Motette mit der späteren Fugentechnik."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-01",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, §§ 152–155, S. 215–217 · freie Imitation bei Schumann, Tschaikowsky und Brahms",
+          "text": "Spalding beschreibt Imitation zunächst als Wiederkehr derselben melodischen Figur in verschiedenen Stimmen, auf anderen Stufen und häufig auch in anderen Tonarten. Sie ist für ihn auch außerhalb von Kanon und Fuge ein wichtiges Mittel des Zusammenhangs. Die Nachahmung muss dabei nicht wörtlich oder völlig genau sein, damit die Stimmen einander hörbar antworten. Dafür führt er unter anderem Ausschnitte aus Tschaikowskys Klavierkonzert op. 23 und Brahms’ Vokalquartett op. 64 an. Eine solche örtliche, freie Antwort bindet noch nicht den ganzen weiteren Verlauf an ein kanonisches Verfahren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Freie motivische Imitation in Klavier- und Vokalmusik",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. X, §§ 152–155, S. 215–217 · freie Imitation bei Schumann, Tschaikowsky und Brahms",
+              "note": "§ 152 definiert die Imitation und nennt ihren Gebrauch auch in freien Formen; § 155 erlaubt ausdrücklich eine nicht wörtliche Nachahmung. Die romantischen Beispiele auf S. 215 und 217 begründen die Stilzuordnung. Die Schlussformulierung grenzt diese örtliche Nachahmung von einer fortgesetzten kanonischen Bindung ab, ohne Spalding eine hier nicht ausgeführte Kanontheorie zuzuschreiben."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=229"
         }
       ],
       "readingSources": [],
@@ -19536,6 +22831,30 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-gemischte-ordnungen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 100–101, S. 140 und 143–145 · zwei begleitende Stimmen",
+          "text": "Spalding verbindet zunächst die zweite und die dritte Ordnung in den beiden Gegenstimmen. Anschließend darf eine oder dürfen beide Gegenstimmen florid werden; später kann sogar das gegebene Thema selbst verschiedene Notenwerte haben. Zwei floride Stimmen sind damit ausdrücklich möglich. Ihr Gewinn liegt im rhythmischen Wechselspiel: Die Bewegung soll nicht lange ausschließlich in derselben Stimme bleiben, während die andere ohne eigene Gestaltung stillsteht. Die freien Aufgaben gehen über eine unveränderliche Verteilung je einer Spezies auf jede Stimme hinaus.",
+          "speciesScope": [
+            2,
+            3,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige Übung · gemischte Ordnungen und Übergang zum freien Satz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 100–101, S. 140 und 143–145 · zwei begleitende Stimmen",
+              "note": "§ 100 benennt die zweite und dritte Ordnung sowie eine oder zwei floride Stimmen; § 101 fordert deren rhythmischen Ausgleich."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=154"
         }
       ],
       "readingSources": [
@@ -19572,6 +22891,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Im grand mélange von Noël-Gallon und Bitsch erhält jede Gegenstimme grundsätzlich eine eigene Bewegungsart. Stein erläutert bei Schönberg zusätzlich drei floride Gegenstimmen und findet diese freiere Verteilung leichter befriedigend als vier fest getrennte Spezies. Die Verschiedenheit der Rollen ist hier ein Mittel, keine durchgehend vorgeschriebene Aufteilung."
+        },
+        {
+          "from": "spalding1904-multi-gemischte-ordnungen",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Spaldings dreistimmiger Übergang zum freien Instrumentalsatz erlaubt ausdrücklich zwei floride Gegenstimmen. Im beschriebenen mélange von Gallon und Bitsch erhält dagegen jede Gegenstimme eine eigene Rhythmusart. Die Vorgaben gehören zu unterschiedlichen Übungsanlagen; Spaldings rhythmisches Wechselspiel ist keine bloße weitere Besetzung derselben festen Rollenverteilung."
         }
       ]
     },
@@ -19750,7 +23075,11 @@ const ATLAS = {
         "kanon-spiralkanon",
         "spiegelumkehr-stimmenpaar",
         "motivische-polyphonie",
-        "tonfolge-und-rhythmus"
+        "tonfolge-und-rhythmus",
+        "fuge-gegenbewegung-spiegel",
+        "fuge-themenverwandlung",
+        "fuge-kanonische-fuge",
+        "fuge-und-tanzform"
       ],
       "comparisons": [],
       "authors": [
@@ -19952,6 +23281,121 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-krebskanon",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 24, Anm. 22 · rückläufige Kanons im Musikalischen Opfer und BWV 1087",
+          "text": "Für den Krebskanon erläutert Gárdonyi nicht nur die rückläufige Tonfolge, sondern auch ihre Wiederholung: Die eine Stimme liest vom Anfang zum Ende, die andere gleichzeitig vom Ende zum Anfang; anschließend kehren beide die Leserichtung um. So vertauschen sie bei der Wiederholung ihre Rollen. Diese von ihm mit Marpurg begründete Ausführung macht aus der zunächst gleichzeitigen Gegenüberstellung einen fortgesetzten Austausch. Seine Kritik an abweichenden modernen Aussetzungen ist als eigene Interpretation der Ausführungspraxis zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse und Ausführungsdeutung rückläufiger Bach-Kanons",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 24, Anm. 22 · rückläufige Kanons im Musikalischen Opfer und BWV 1087",
+              "note": "Gárdonyi bezieht seine Ausführungsdeutung ausdrücklich auf rückläufige Kanons Bachs und eine historische Erläuterung Marpurgs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-kanon-verfahren-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44 · Umkehrung und Krebs in Bachs Fugen und Kanons",
+          "text": "Bei der Umkehrung wird für Gárdonyi die Richtung des ganzen Fugenthemas gewendet. Die genaue Intervallqualität kann sich dabei nach Tonart und Harmonie verändern: Aus der Richtungsumkehr folgt nicht, dass jede Größe in Halbtönen unverändert bleiben muss. Für den Krebs grenzt er den Anwendungsbereich besonders ein. Er schreibt ihm keine Rolle in Bachs Fugentechnik zu und ordnet ihn vielmehr den Kunstgriffen des Kanons zu. Diese historische Einordnung beschreibt den von ihm untersuchten Werkbereich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bachs Fugentechnik und kanonische Verfahren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44 · Umkehrung und Krebs in Bachs Fugen und Kanons",
+              "note": "Die Seite behandelt Umkehrung im tonalen Zusammenhang und unterscheidet ausdrücklich zwischen Fugentechnik und kanonischer Verwendung des Krebses bei Bach."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-kanon-verfahren-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44–45, Bsp. 35–36 · proportionale und partielle Vergrößerung",
+          "text": "Die Augmentation verdoppelt in Gárdonyis Bach-Beispielen gewöhnlich die Dauern, die Diminution halbiert sie. Er beschreibt aber auch eine partielle Vergrößerung: In der dis-Moll-Fuge WTK I werden in Takt 24 und 77 nicht sämtliche Notenwerte verlängert; es entstehen punktierte Werte. In Takt 48–50 verbindet sich eine ebenfalls nur teilweise Vergrößerung mit Umkehrung und weiteren Änderungen. Die Analyse muss daher prüfen, ob der gleiche Faktor das ganze Thema erfasst oder nur ausgewählte Notenwerte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Themenvergrößerung in Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44–45, Bsp. 35–36 · proportionale und partielle Vergrößerung",
+              "note": "Die Seite nennt die allgemeine Verdoppelung und Halbierung sowie ausdrücklich als partiell bezeichnete Vergrößerungen im Bach-Repertoire."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-20",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 82–83 · augmentierter Spiegelkanon der Kunst der Fuge, Graeser-Zählung XV",
+          "text": "Bei einer doppelt so langsamen, umgekehrten Antwort kann bis zum gemeinsamen Ende nur ein Teil der führenden Linie vollständig nachgeahmt werden. Gárdonyi zeigt am augmentierten Spiegelkanon der Kunst der Fuge, dass die weitere Führung der schnellen Stimme deshalb frei werden kann. Diese freie Fortsetzung ist dennoch Bestandteil des größeren kontrapunktischen Plans: In der folgenden Kanonabteilung kehrt auch sie mit vertauschten Rollen wieder und trägt den doppelten Kontrapunkt. Lokal freie Fortsetzung und bindende Anlage des ganzen Satzes schließen einander damit nicht aus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse eines augmentierten Bach-Kanons",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 82–83 · augmentierter Spiegelkanon der Kunst der Fuge, Graeser-Zählung XV",
+              "note": "Die Passage verfolgt die freie Fortsetzung und ihren erneuten Einsatz in Bachs augmentiertem Spiegelkanon."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-21",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 83 · Canon per augmentationem, contrario motu aus dem Musikalischen Opfer",
+          "text": "Im dreistimmigen Augmentationskanon des Musikalischen Opfers liegen führende Kanonstimme und eine Fassung des Thema regium neben der doppelt so langen, umgekehrten Antwort. Die beiden kürzeren Linien können während dieser Antwort zweimal erklingen. Beide müssen sowohl zur ersten als auch zur zweiten Hälfte der vergrößerten und umgekehrten Antwort passen. Gárdonyi bevorzugt ausdrücklich diese vollständige Lösung gegenüber einer Ausführung, die nur die erste Hälfte des Gesamtverlaufs wiederholt. Seine Bemerkung betrifft die konkrete Auflösung dieses Kanons, nicht eine allgemeine Wiederholungsregel für Augmentationskanons.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse und Ausführung eines Bach-Kanons",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 83 · Canon per augmentationem, contrario motu aus dem Musikalischen Opfer",
+              "note": "Gárdonyi erläutert an diesem Bach-Kanon die Dauerverhältnisse und bewertet zwei konkrete Arten seiner Ausführung."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -19963,6 +23407,36 @@ const ATLAS = {
           "to": "motte1995-e04",
           "type": "context",
           "note": "Schönbergs Augmentationsaufgabe verändert jede Note und Pause mit demselben Faktor. De la Motte erklärt bei Ockeghem dagegen ein Mensurverfahren, in dem nur bestimmte lange Werte den Abstand vergrößern und die späteren kurzen Werte gleich lang bleiben. Eine proportionale Lehrformel beschreibt dieses historische Verfahren nicht vollständig."
+        },
+        {
+          "from": "gardonyi1996-dev-kanon-verfahren-1",
+          "to": "schoenberg1970-a08",
+          "type": "context",
+          "note": "Schönberg prüft in seiner strengen Umkehrungsübung auch die Erhaltung der Intervallgrößen. Gárdonyi beschreibt an Bachs Fugenthemen, wie die Bewegungsrichtung umgekehrt bleibt, während die Intervallqualität dem aktuellen tonalen und harmonischen Zusammenhang folgt. Eine strenge Ableitungsaufgabe und die Analyse tonaler Anpassung stellen verschiedene Anforderungen."
+        },
+        {
+          "from": "gardonyi1996-dev-kanon-verfahren-1",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch erläutern Krebs, Gegenbewegung und ihre Verbindungen als verfügbare kanonische Verfahren. Gárdonyi grenzt innerhalb des Bach-Repertoires den Krebs gerade von der Fugentechnik ab und weist ihn der Kanontechnik zu. Die allgemeine Verfügbarkeit eines Verfahrens wird hier von seiner Verwendung in einem bestimmten Werkbereich unterschieden."
+        },
+        {
+          "from": "gardonyi1996-dev-kanon-verfahren-2",
+          "to": "schoenberg1970-a08",
+          "type": "context",
+          "note": "Schönbergs Augmentationsübung verlangt denselben Faktor für jede Note und Pause. Gárdonyi nennt in Bachs dis-Moll-Fuge ausdrücklich auch partielle Vergrößerungen, bei denen nur einzelne Werte verlängert werden. Die ungleichmäßige Veränderung gehört zum beschriebenen Werkbefund, erfüllt aber nicht die Bedingung der proportionalen Übung."
+        },
+        {
+          "from": "gardonyi1996-forms-20",
+          "to": "schoenberg1970-a08",
+          "type": "context",
+          "note": "Schönbergs Übung definiert Augmentation als proportionale Verlängerung der nachgeahmten Noten und Pausen. Gárdonyi verfolgt bei Bach zusätzlich, wie weit die langsamere Antwort innerhalb eines endlichen Satzabschnitts überhaupt gelangen kann: Die von der langsameren Antwort nicht mehr erreichte Fortsetzung der schnellen Stimme wird frei und kehrt später im doppelten Kontrapunkt wieder. Dauerproportion der tatsächlich imitierten Töne und Reichweite der kanonischen Bindung sind getrennte Aufgaben."
+        },
+        {
+          "from": "gardonyi1996-forms-21",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch beschreiben die kombinierbaren Veränderungen von Tonrichtung und Notenwerten. Gárdonyi behandelt die konkrete Ausführung eines dreistimmigen Bach-Kanons: Die beiden kürzeren Linien müssen mit beiden Hälften der doppelt so langen Antwort zusammenpassen. Die abstrakte Vergrößerungsvorschrift allein entscheidet diese Frage der vollständigen Aufführung noch nicht."
         }
       ]
     },
@@ -20040,7 +23514,9 @@ const ATLAS = {
         "harmonik",
         "generalbass-oktavregel",
         "generalbass-bezifferung-stimmfuehrung",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "generalbass-lernfolge",
+        "generalbass-akkordnamen"
       ],
       "authors": [
         {
@@ -20101,6 +23577,27 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-sexten-ueber-steigendem-bass",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 22, Übung XXVIII (28) · wiederholte Ziffer 6 über schrittweise steigendem Bass",
+          "text": "In XXVIII steigt der Bass schrittweise weiter, während über den einzelnen Noten immer wieder die Ziffer 6 steht. Die gleichbleibende Zahl bezeichnet somit nicht einen gleichbleibenden Basston oder stets dieselbe Tonleiterstufe. Sie verlangt jeweils eine Sexte vom gerade notierten Bass aus. Die mehreren Aussetzungen zeigen außerdem, dass derselbe Ziffernvorrat mit verschiedenen Lagen und Stimmenzahlen verbunden werden kann. Bassbewegung und Intervallangabe müssen beim Lesen getrennt verfolgt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 22, Übung XXVIII (28) · wiederholte Ziffer 6 über schrittweise steigendem Bass",
+              "note": "Redaktionelle Beobachtung der durchgehend mit Sexten bezifferten aufsteigenden Basslinie. Dem Buch wird damit kein eigenes zusätzliches Bassstufensystem unterstellt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
         }
       ],
       "readingSources": []
@@ -20125,7 +23622,9 @@ const ATLAS = {
         "generalbass-stimmenzahl",
         "parallelen",
         "harmonischer-rhythmus",
-        "akkordton-verdopplung"
+        "akkordton-verdopplung",
+        "generalbass-lernfolge",
+        "generalbass-lagen"
       ],
       "authors": [
         {
@@ -20163,6 +23662,53 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-sextakkord-formeln",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 13, vor Übung XII (12) · Tabelle „Sextaccord hat“",
+          "text": "Die Sextakkordtabelle nennt vierstimmig 8/6/3, 6/6/3, 6/3/3 und 8/6/6; dreistimmig stehen 6/3, 6/6 und 8/6. Die Zahlen beziehen sich jeweils auf den Bass. Neben vollständigen Verteilungen von Bass, Terz und Sexte enthält die Übersicht also auch ausgewählte Fassungen ohne die Terz über dem Bass. Sie benennt verschiedene Klangvorräte für die anschließenden Übungen, ohne jede Gruppe nach Tonartstufe oder Leittonfunktion einzuschränken. Die bloße Aufnahme in diese Tabelle ersetzt deshalb nicht die Prüfung der konkreten Stimmenwege.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 13, vor Übung XII (12) · Tabelle „Sextaccord hat“",
+              "note": "Die sieben Intervallgruppen wurden am gedruckten Tabellenkopf visuell geprüft. Insbesondere 8/6/6, 6/6 und 8/6 werden als tatsächlich angegebene unvollständige Klangverteilungen erhalten, nicht stillschweigend zu vollständigen Dreiklängen korrigiert. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true,
+          "examples": [
+            "sechter-sextakkord"
+          ]
+        },
+        {
+          "id": "spalding1904-open-leittondreiklang-verdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 10, S. 10–12",
+          "text": "In der ersten Umkehrung des Leittondreiklangs können nach Spalding sowohl dessen ursprüngliche Terz als auch dessen ursprüngliche Quinte verdoppelt werden. Bezogen auf den Sextakkordbass bedeutet das: Entweder wird der Bass selbst oder die Terz über ihm verdoppelt. Beide Möglichkeiten belegt er als brauchbar. Daraus folgt keine beliebige Verdopplung aller drei Töne: Der ursprüngliche Grundton des verminderten Dreiklangs bleibt der tonale Leitton und damit besonders empfindlich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Erste Umkehrung des tonalen Leittondreiklangs",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 10, S. 10–12",
+              "note": "§ 10 nennt die beiden Verdopplungen und führt ein Beispiel aus Händels Messiah an. Es geht um den Leittonsextakkord, nicht um eine allgemeine Tabelle sämtlicher Sextakkorde."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=24"
         }
       ],
       "readingSources": []
@@ -20242,7 +23788,12 @@ const ATLAS = {
         "generalbass-sextakkord",
         "stimmabstand",
         "speziesmischung",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "generalbass-lernfolge",
+        "generalbass-schluessel",
+        "generalbass-pedal",
+        "generalbass-lagen",
+        "generalbass-akkordnamen"
       ],
       "authors": [
         {
@@ -20300,6 +23851,114 @@ const ATLAS = {
               "note": "Niedts ausgearbeitete Allemande belegt den wechselnden Stimmenumfang des Tastensatzes; Menke grenzt ihn von fest besetzten Sonatenstimmen ab."
             }
           }
+        },
+        {
+          "id": "sechter1876-pref-stimmenzahl",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · mehrere Aussetzungen derselben Übung",
+          "text": "Sechter stellt die Übungen zuerst vierstimmig in verschiedenen Lagen vor. Soweit möglich folgen fünf-, drei- und zweistimmige Aussetzungen; zu den meisten Bässen kommen Variationen hinzu. Fünfstimmiges Generalbassspiel erklärt er ausdrücklich nicht zur allgemeinen Notwendigkeit. Die zusätzliche Übung hält er aber besonders für das Präludieren für nützlich. Die wechselnde Stimmenzahl gehört damit zum praktischen Lehrgang: Ein Bass wird unter mehreren spielerischen und satztechnischen Bedingungen erprobt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · mehrere Aussetzungen derselben Übung",
+              "note": "Sechter benennt im Vorwort ausdrücklich die Stimmenzahlen, den Nutzen für das Präludieren und die besondere Ausrichtung auf das Orgelspiel. Eine historische Stilepoche oder Spezieszuordnung wird dadurch nicht festgelegt."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-dreiklang-unvollstaendig",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 4, vor Übung I (1) · vier- und dreistimmige Dreiklangsformeln",
+          "text": "Drei Stimmen bedeuten in Sechters Übersicht nicht zwingend drei verschiedene Dreiklangstöne. Unter „Dreystimmig“ stehen 5/3, 8/3 und 3/3. Die erste Gruppe enthält über dem Bass Terz und Quinte; die anderen beiden verzichten auf die Quinte und verdoppeln stattdessen den Basston oder die Terz. Auch unter den vierstimmigen Formeln stehen mit 8/8/3 und 8/3/3 Klänge ohne Quinte. Stimmenzahl, Zahl verschiedener Töne und Vollständigkeit des Dreiklangs sind deshalb getrennte Lesefragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 4, vor Übung I (1) · vier- und dreistimmige Dreiklangsformeln",
+              "note": "Die Formeln 8/8/3, 8/3/3 sowie die drei dreistimmigen Gruppen sind im Notendruck ausdrücklich angegeben. Die Aussage betrifft diese aufgeführten Klangverteilungen, keine allgemeine Auslassungsregel für sämtliche Akkordarten. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-03",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 34, 45 und 52, Tabellen mit der Bezeichnung „Dreystimmig“; S. 35, Übung 52 (LII), Fassung Nr. 5 „a 6“",
+          "text": "Sechter gibt für dreistimmige Aussetzungen eigene Intervallauswahlen an. Beim Septakkord stehen über dem Bass 7 und 3 oder 7 und 5; beim Terzquartakkord 4 und 3 oder 6 und 3. Die Sekundakkordtabelle nennt 4 und 2 sowie zweimal 2. Diese Angaben bezeichnen jeweils die beiden Stimmen über dem Bass und lassen sich nicht als Forderung nach sämtlichen Tönen einer vierstimmigen Akkordgestalt lesen. Auch eine dichtere Fassung kommt ausdrücklich vor: In Übung 52 ist die fünfte Aussetzung mit „a 6“ bezeichnet. Die Sammlung führt die Stimmenzahl damit an konkreten Aussetzungen und zugehörigen Intervallkombinationen vor.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 34, 45 und 52, Tabellen mit der Bezeichnung „Dreystimmig“; S. 35, Übung 52 (LII), Fassung Nr. 5 „a 6“",
+              "note": "Die Intervallauswahlen und „a 6“ sind ausdrücklich gedruckte Angaben. Die Funktion der Zahlen als Intervalle über dem Bass ergibt sich aus den zugehörigen Notensätzen. Keine zusätzliche generelle Weglassungs- oder Verdopplungsregel wird behauptet."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-09",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 65 · Nr. 95 (im Druck VC), Fassungen zu fünf, drei und zwei Stimmen",
+          "text": "Nr. 95 stellt derselben charakteristischen Zahlenfolge 10/8, 9/7, 8/6 und 7/5 Aussetzungen mit unterschiedlicher Stimmenzahl zur Seite. Die zweistimmige Fassung führt über dem Bass eine laufende Oberstimme; sie spielt die ganze mehrstimmige Intervallauswahl folglich nicht gleichzeitig aus. Die drei- und fünfstimmigen Fassungen verteilen das Material anders. Die Aussetzungen zeigen eine bewusst abgestufte Realisierung des Modells. Beim Vergleich ist zu verfolgen, welche Bewegung die jeweilige Fassung erhält und welche Füllstimmen sie hinzunimmt oder weglässt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 65 · Nr. 95 (im Druck VC), Fassungen zu fünf, drei und zwei Stimmen",
+              "note": "Die gedruckten Angaben a 5, a 3 und a 2 sowie die verschiedenen Aussetzungen stehen auf derselben Seite. Die Aussagen zur Auswahl sind auf diese Übung begrenzte Notenbeobachtungen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-16",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 81 · Nr. 118–119 (CXVIII–CXIX), Eintritt und Aussetzen der Stimmen",
+          "text": "Die Stimmenzahl kann in Sechters Ausführungen auch innerhalb eines einzelnen Beispiels wachsen. Nr. 118 beginnt im oberen Register einstimmig und ergänzt nach und nach die übrigen Linien; Nr. 119 beginnt dagegen im Bassregister. Pausen halten jeweils fest, welche Stimmen bereits beteiligt sind. In Nr. 118 setzt die Oberstimme später auch wieder aus. Die notierte Entwicklung gehört zum Modell: Ein durchgehend vollstimmiger Griff würde gerade diese Abfolge verändern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 81 · Nr. 118–119 (CXVIII–CXIX), Eintritt und Aussetzen der Stimmen",
+              "note": "Die Ausführungen beider Beispiele zeigen anfängliche Pausen und nacheinander eintretende Stimmen. Das spätere Aussetzen der Oberstimme in Nr. 118 ist ebenfalls notiert. Die Aussage ist ein lokaler Befund dieser Schlussbeispiele. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-stimmeneinsaetze"
+          ],
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
         }
       ],
       "readingSources": [],
@@ -20309,6 +23968,18 @@ const ATLAS = {
           "to": "foerster1818-1",
           "type": "context",
           "note": "Försters vier Stimmen bilden eine Übungsvorgabe für angehende Komponisten; für das Begleiten lässt auch er Reduktionen zu. Menke erläutert dagegen einen ausgearbeiteten Tanzsatz, dessen dreistimmiger Kern nur stellenweise erweitert wird. Die feste Zahl der Lernaufgabe ist damit von der variablen Textur der Komposition zu unterscheiden."
+        },
+        {
+          "from": "sechter1876-pref-stimmenzahl",
+          "to": "foerster1818-1",
+          "type": "context",
+          "note": "Förster hält die Kompositionsübung vierstimmig und unterscheidet davon die vereinfachte Orgelbegleitung. Sechter übt an demselben Bass ausdrücklich mehrere Stimmenzahlen und begründet die Fünfstimmigkeit mit ihrem Nutzen für das Präludieren. Die vierstimmige Ausgangslage erfüllt in den beiden Lehrgängen deshalb unterschiedliche Aufgaben."
+        },
+        {
+          "from": "sechter1876-pref-stimmenzahl",
+          "to": "tuerk1791-1",
+          "type": "context",
+          "note": "Türk richtet die Stimmenzahl der tatsächlichen Begleitung unter anderem nach Besetzung und Lautstärke. Sechter begründet die zusätzlichen fünfstimmigen Fassungen dagegen mit einem Lernziel, dem Präludieren an der Orgel. Eine situationsgerechte Begleitstärke und der systematische Vergleich mehrerer Aussetzungen sind verschiedene Entscheidungsebenen."
         }
       ]
     },
@@ -20330,7 +24001,8 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "generalbass-stimmenzahl",
         "chromatik",
-        "generalbass-oktavregel"
+        "generalbass-oktavregel",
+        "generalbass-schluessel"
       ],
       "authors": [
         {
@@ -20345,9 +24017,59 @@ const ATLAS = {
             "foerster-transponieren"
           ],
           "speciesScope": []
+        },
+        {
+          "id": "sechter1876-pref-transponieren",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · schriftliches und vorgestelltes Transponieren",
+          "text": "Den größten Nutzen erwartet Sechter, wenn die Übungen in alle Tonarten übertragen werden. Dafür nennt er zwei Wege: die schriftliche Übertragung und das Transponieren in der Vorstellung. Beim zweiten Verfahren sieht man etwa einen in C-Dur notierten Satz, stellt ihn sich aber in einer anderen Durtonleiter vor. Die gedruckte Ausgangstonart soll so zum Ausgangspunkt wiederholter Übertragungen werden; das Ausschreiben ist ein mögliches Übungsverfahren, keine notwendige Voraussetzung für jede Ausführung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · schriftliches und vorgestelltes Transponieren",
+              "note": "Die Vorrede beschreibt ausdrücklich beide Transponierverfahren für die Generalbassübungen des Bandes."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-08",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 44, Übung 67 (LXVII), Schlusszeile „Transpositio in A. Bass Variation.“",
+          "text": "Am Ende von Übung 67 steht eine ausdrücklich als „Transpositio in A“ bezeichnete Bassvariation. Sechter schreibt sie mit drei Kreuzen als eigenen bezifferten Bass aus. Die Zeile verbindet die Übertragung in eine andere Tonart mit einer bewegteren Fassung des Basses. Dabei stehen die zum Verlauf gehörenden Versetzungszeichen sowohl an den Bassnoten als auch bei einzelnen Ziffern. Beim Lesen dieser konkreten Übertragung sind daher Tonartvorzeichnung, einzelne Basstöne und ihre Bezifferung gemeinsam zu verfolgen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 44, Übung 67 (LXVII), Schlusszeile „Transpositio in A. Bass Variation.“",
+              "note": "Die Überschrift und die ausgeschriebene Transposition sind ausdrückliche Quellenangaben. Die Aufforderung, Vorzeichnung, Bass und Ziffern gemeinsam zu lesen, ist eine redaktionelle Lesehilfe für diese Zeile. Die allgemeine Transponieraufgabe des Vorworts wird hier nur durch einen lokalen Beleg ergänzt."
+            }
+          },
+          "catalogue": true
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "sechter1876-pref-transponieren",
+          "to": "foerster1818-1",
+          "type": "nuance",
+          "note": "Försters zitierte Transponieraufgabe verlangt die Übertragung am Instrument ohne vorheriges Ausschreiben der Akkorde. Sechter stellt schriftliches und vorgestelltes Transponieren als zwei Übungswege nebeneinander und fordert die Übertragung in alle Tonarten. Die Nuance liegt in der Gestaltung der Lernaufgabe, nicht in einer unterschiedlichen Bedeutung der Generalbassziffern."
+        }
+      ]
     },
     {
       "id": "linie-scheinpolyphonie",
@@ -20585,6 +24307,29 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-linie-scheinpolyphonie-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 57–58, Bsp. 43–46 · Prélude der fünften Cellosuite BWV 1011",
+          "text": "Im 3/8-Teil des Préludes der fünften Cellosuite liest Gárdonyi ein Thema aus zwei latenten Stimmen. Er macht die beiden Linien durch entgegengesetzte Notenhälse sichtbar und kennzeichnet diese Schreibweise ausdrücklich als analytische Änderung der Vorlage. Beim dritten Themeneinsatz tauschen die beiden Materialien ihre Höhenlage; daraus entsteht doppelter Kontrapunkt in der Oktave innerhalb der Sololinie. Im weiteren Verlauf vergrößert sich der Abstand zwischen beiden Linien; Gárdonyi verbindet damit eine Steigerung der klanglichen Spannung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Latente Zweistimmigkeit in Bachs Solocello-Satz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 57–58, Bsp. 43–46 · Prélude der fünften Cellosuite BWV 1011",
+              "note": "Der Text und die Beispiele weisen die analytische Umnotation, den Oktavtausch in der dritten Phase und die zunehmende Entfernung der gedachten Stimmen nach."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
         }
       ],
@@ -20991,6 +24736,46 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-drei-gegen-eins",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, §§ 68–69, S. 105–106 · drei Noten gegen einen Subjectton",
+          "text": "Beim Drei-gegen-eins soll nach Spalding jedem Subjectton nur eine Harmonie zugeordnet werden. Ein Dreiklangsarpeggio ist hier häufiger nötig und wirkt für ihn weniger schwach als bei vier Noten gegen eine. Zwischen den Akzenten liegen zwei Noten; deshalb können zwei Durchgänge hintereinander oder die beiden „changing notes“ einer Umspielung eingesetzt werden. Zur Übung dürfen Subjects der vorherigen Kapitel mit dieser neuen Bewegungsart bearbeitet werden. Er empfiehlt, einige solcher Bearbeitungen auszuführen und passende Repertoirebeispiele zu analysieren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · drei gegen eins",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, §§ 68–69, S. 105–106 · drei Noten gegen einen Subjectton",
+              "note": "§§ 68–69 nennen ausdrücklich das rhythmische Verhältnis und seine harmonischen Bedingungen. Der Abschnitt steht zwar in Kap. IV, weist 3:1 aber hier keiner eigenen nummerierten Ordnung zu; speciesScope bleibt deshalb leer."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=119"
+        },
+        {
+          "id": "spalding1904-multi-dreiergruppen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 105, S. 152–153, Übungen 7 und 8 · dreitönige Gruppen im Trio",
+          "text": "Für seine dreistimmigen Aufgaben mit drei Tönen gegen einen verbindet Spalding kurze Skalenstücke mit Akkordbrechungen. Eine ausschließlich diatonische Linie lässt sich nach seiner Erfahrung in diesem Raster selten lange sinnvoll fortsetzen; wenigstens ein Teil der Gruppe soll deshalb häufig arpeggiert sein. Ein betonter Durchgang kann einen kurzen Lauf eröffnen. Die Übungen werden aus zuvor behandelten Melodien durch eine Änderung des Metrums gewonnen und sollen auf Triolenbewegung in freier Komposition vorbereiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentales Trio · drei Töne gegen einen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 105, S. 152–153, Übungen 7 und 8 · dreitönige Gruppen im Trio",
+              "note": "§ 105 bezieht die Dreiergruppen auf freie Komposition und erläutert ausdrücklich ihre Mischung aus Arpeggio und diatonischem Lauf; eine starre Speziesklassifikation wird hier nicht hinzugefügt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=166"
         }
       ],
       "readingSources": [
@@ -21097,6 +24882,28 @@ const ATLAS = {
               "note": "Gegenstand sind Thema und Gegenmotiv in Bachs d-Moll-Invention BWV 775."
             }
           }
+        },
+        {
+          "id": "spalding1904-multi-invention-gegenstimme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 142–143, S. 204–205 · C-Dur-Invention und Gegenstimme",
+          "text": "Am Beginn von Bachs C-Dur-Invention unterscheidet Spalding Thema und kontrastierende Gegenstimme. Diese Gegenstimme soll für seine Inventionsaufgabe von Anfang an vertauschbar geplant werden, damit sie später auch unter dem Thema stehen kann. Im Abschnitt in G-Dur zeigt er die umgekehrte Verteilung: Das Thema beginnt unten, wird oben wiederholt, und die zuvor obere Gegenstimme liegt nun im Bass. Ihre Eignung als melodische Linie und ihre Bassfunktion müssen deshalb zusammen entwickelt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Invention und daran anschließende Schreibaufgabe · vertauschbare Gegenstimme",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, §§ 142–143, S. 204–205 · C-Dur-Invention und Gegenstimme",
+              "note": "Spalding markiert Thema A und Gegenstimme B im Anfang und im G-Dur-Abschnitt. Die Aussage betrifft sein ausdrücklich an dieser Invention entwickeltes Modell."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=218"
         }
       ],
       "readingSources": []
@@ -21227,7 +25034,10 @@ const ATLAS = {
       "related": [
         "fuge-kontrasubjekt",
         "doppelter-kontrapunkt",
-        "fuge-exposition"
+        "fuge-exposition",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -21325,9 +25135,124 @@ const ATLAS = {
               "note": "Händels g-Moll-Fuge HWV 605 bildet den konkreten Grenzfall zwischen simultaner Doppelfuge und Fuge mit Kontrasubjekt."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-doppelfuge-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 54–55 · Kontrasubjekte, selbstständige Themenabschnitte und simultaner Beginn",
+          "text": "Neu hinzukommende Kontrasubjekte erzeugen für Gárdonyi noch keine Doppel- oder Tripelfuge: In BWV 544 und der cis-Moll-Fuge WTK I erscheinen sie nur mit dem schon bekannten Thema. Für die sukzessive Mehrfachfuge unterscheidet er dagegen eigene Abschnitte der neuen Themen, während das erste aussetzt, und ihre spätere Verbindung. Zugleich verzeichnet er die Bezeichnung simultane Doppelfuge für ein von Anfang an zweistimmiges Thema, obwohl dessen Formablauf dem einer einfachen Fuge entspricht. Mehrfacher Kontrapunkt und mehrteilige Themenanlage sind deshalb getrennt zu benennen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 54–55 · Kontrasubjekte, selbstständige Themenabschnitte und simultaner Beginn",
+              "note": "Gárdonyi grenzt die formale Anlage ausdrücklich vom zusätzlichen Kontrasubjekt ab und führt daneben die abweichende Bezeichnung für den simultanen Typ an."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-01",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 68–69 · progressive Doppelfuge in Bachs Instrumentalmusik",
+          "text": "Die progressive Doppelfuge entfaltet die beiden Themen zunächst getrennt und führt sie danach zusammen. Gárdonyi unterscheidet dafür drei große Aufgaben: das erste Thema etablieren, das zweite entfalten und beide synthetisieren. Weil sie in der Vereinigung als gegenseitige Kontrasubjekte wirken, muss ihre kontrapunktische Verträglichkeit bereits in ihrer Gestalt angelegt sein. Diese Dreiteiligkeit bezeichnet den Umgang mit dem Material; sie legt weder für jede Grenze dieselbe Kadenz noch für jeden Abschnitt dieselbe Zahl von Einsätzen fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 6, S. 68–69 · progressive Doppelfuge in Bachs Instrumentalmusik",
+              "note": "Gárdonyi entwickelt das Modell ausdrücklich aus unterschiedlichen Doppelfugen Johann Sebastian Bachs."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-02",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69 · Contrapunctus IX, zweites Thema ohne eigene Exposition im Einzelsatz",
+          "text": "Im Contrapunctus IX folgt auf die erste Abteilung unmittelbar die Verbindung der beiden Themen. Eine selbstständige Exposition des zweiten Themas fehlt innerhalb dieses Satzes. Gárdonyi erklärt die Besonderheit aus dem Zyklus: Dieses zweite Thema ist das Hauptthema der Kunst der Fuge und wurde in vorausgehenden Stücken schon mehrfach allein vorgestellt. Die Vorgeschichte eines Themas im Zyklus kann daher eine Aufgabe übernehmen, die sonst eine eigene Exposition innerhalb der Doppelfuge erfüllt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 69 · Contrapunctus IX, zweites Thema ohne eigene Exposition im Einzelsatz",
+              "note": "Die Ausnahme wird an Bachs Contrapunctus IX und seiner Stellung im Zyklus erläutert."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-03",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 69–70 · Beginn der Synthese, BWV 540 und gis-Moll-Fuge WTK II",
+          "text": "Der erste gemeinsame Auftritt beider Themen muss keine scharf abgesetzte, durch eine vollkommene Kadenz eröffnete Abteilung bilden. Meist verbindet Gárdonyi die Synthese mit der Rückkehr der Grundtonart. In der F-Dur-Orgelfuge BWV 540 kehrt jedoch zunächst nur das erste Thema in der Tonika wieder; beide Themen treffen erst in der folgenden Phase auf der Dominantstufe zusammen. Seine Übersicht zur gis-Moll-Fuge des zweiten WTK-Bands zeigt dagegen die Folge erstes Thema, zweites Thema ab Takt 61 und Vereinigung ab Takt 97 als eine konkrete Lösung unter mehreren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 69–70 · Beginn der Synthese, BWV 540 und gis-Moll-Fuge WTK II",
+              "note": "Die Passage vergleicht formale und tonale Grenzbildungen in mehreren Doppelfugen Bachs."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true,
+          "examples": [
+            "kennan-bach-doppelfuge"
+          ]
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "gardonyi1996-dev-fuge-doppelfuge-1",
+          "to": "kennan1999-1",
+          "type": "nuance",
+          "note": "Kennan kann einem häufig wiederkehrenden Kontrasubjekt das Gewicht eines zweiten Themas geben. Gárdonyi trennt davon die formale Anlage mit eigenen Abschnitten neuer Themen und warnt davor, neu hinzutretende Kontrasubjekte bereits als solchen Formtyp zu zählen. Zugleich kennt er die Bezeichnung simultane Doppelfuge; es handelt sich um unterschiedliche Gewichtungen innerhalb einer mehrdeutigen Terminologie, nicht um ein pauschales Verbot des gemeinsamen Themenbeginns."
+        },
+        {
+          "from": "gardonyi1996-dev-fuge-doppelfuge-1",
+          "to": "neidhoefer-schubert2023-1",
+          "type": "nuance",
+          "note": "Neidhöfer und Schubert führen die Fuge mit wiederkehrendem Kontrasubjekt ausdrücklich als eine von drei Verwendungen des Wortes Doppelfuge. Gárdonyi unterscheidet mehrfachen Kontrapunkt von einer Form mit selbstständigen Themenabschnitten, verzeichnet aber ebenfalls das Etikett simultane Doppelfuge. Die gleiche Bezeichnung kann daher eine Materialkonstellation oder einen eigenen mehrteiligen Formverlauf meinen."
+        },
+        {
+          "from": "gardonyi1996-forms-02",
+          "to": "menke2017-55",
+          "type": "nuance",
+          "note": "Menke kennzeichnet die sukzessive Doppelfuge durch die Folge der beiden Themenexpositionen und ihrer Verbindung. Gárdonyis Contrapunctus-IX-Analyse zeigt eine besondere Verkürzung dieses Modells: Das zweite Thema wird innerhalb des Satzes nicht nochmals allein exponiert, weil es im Zyklus bereits bekannt ist. Der Unterschied betrifft den Umfang der selbstständigen Vorstellung, nicht die Notwendigkeit einer späteren Themenverbindung."
+        }
+      ]
     },
     {
       "id": "kanon-spiralkanon",
@@ -21726,6 +25651,26 @@ const ATLAS = {
               "note": "Die benannten Aufgaben fugato, d’un sol passo und ostinato besitzen unterschiedliche Bindungen. Menke beschreibt sie als eigene historische Übungskonzepte."
             }
           }
+        },
+        {
+          "id": "spalding1904-free-03",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 158, S. 219–220 · Übungen 1–4 mit periodischer Melodie",
+          "text": "Bei einer längeren vorgegebenen Melodie soll die kurze Anfangsphrase des Kontrapunkts in wechselnden Stimmen wiederkehren, soweit dies musikalisch natürlich wirkt. Spalding zeigt denselben melodischen Ausgangspunkt in unterschiedlichen Stimmen und verändert dabei die begleitende Figur: Zur Melodie im Alt tritt eine aufsteigende Figur; für den Bass werden auf- und absteigende Gegenfiguren erprobt. Die Einheit entsteht also durch die wiedererkennbare kleine Gestalt, während Lage, Bewegungsrichtung und Einsatzfolge des übrigen Satzes wechseln können.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Imitative Gegenstimmen zu einer periodischen Melodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, § 158, S. 219–220 · Übungen 1–4 mit periodischer Melodie",
+              "note": "§ 158 gibt das Wiederholen der Anfangsphrase in verschiedenen Stimmen vor. Die Beschriftung von Übung 2 nennt die Melodie im Alt und die aufsteigende Figur; S. 220 stellt die beiden Bassbehandlungen nebeneinander. Die periodische Melodie wird nicht nachträglich als Spezies-Cantus klassifiziert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=233"
         }
       ],
       "reading": "Singe zuerst die wiederkehrende Oberstimme, dann den Bass dazu. Haben sich Tonlage, Rhythmus oder die Intervalle zwischen beiden Stimmen verändert?",
@@ -21893,7 +25838,8 @@ const ATLAS = {
         "imitation-und-kanon",
         "cantus-firmus",
         "invention-gegenmotiv",
-        "choral-gegenstimme"
+        "choral-gegenstimme",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -21941,6 +25887,29 @@ const ATLAS = {
               "note": "Menke behandelt Sweelincks Choralbearbeitung innerhalb seines barocken Lehrgangs; die Aussage betrifft deren wechselnde Begleitkonzepte."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-forms-34",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 95–97, Bsp. 67–70 · Wenn wir in höchsten Nöten sein, BWV 668",
+          "text": "In BWV 668 bereitet ein verkleinertes Motiv der Choralzeile deren späteren Vortrag im Sopran vor. Gerade Gestalt und Umkehrung wirken auch nach dem Einsatz des ornamentierten Cantus firmus weiter. Mit dem Ende der ersten Zeile schließt diese Motivbearbeitung; nach einer Zwischenkadenz kündigt ein neues Imitationsfeld die zweite Zeile an. Bei der letzten Zeile verbindet Gárdonyi außerdem ursprüngliche Notenwerte, Diminution und Umkehrung mit einem späteren Wechsel der Stimmenrollen. Die Vorimitation betrifft somit nicht nur einen Themenkopf am Anfang des ganzen Stücks, sondern kann den Ablauf der einzelnen Choralzeilen tragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 95–97, Bsp. 67–70 · Wenn wir in höchsten Nöten sein, BWV 668",
+              "note": "Die Beschreibung verfolgt vier konkrete Ausschnitte aus Bachs BWV 668 und ihre Beziehung zu den Choralzeilen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ]
     },
@@ -22178,6 +26147,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-invention-sequenzen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 143, S. 205–206 · modulierende Abschnitte und Rückkehr der C-Dur-Invention",
+          "text": "Die freieren Übergänge einer Invention sollen bei Spalding nicht beliebig zwischen Tonarten umhergehen. Er empfiehlt Sequenzen und kurze Imitationen, die den Zusammenhang des Materials erhalten. An der C-Dur-Invention beschreibt er nach dem Erreichen von a-Moll die Gegenbewegung des Anfangsmotivs und weitere Sequenzen über verwandte Tonarten, bevor das Motiv in seiner ursprünglichen Richtung den C-Dur-Schluss trägt. Für den letzten Abschnitt gibt er dennoch keine starre Ausführungsregel: Der motivische Zusammenhang soll die Freiheit des Verlaufs tragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Invention und Schreibaufgabe · motivisch gebundene Modulation",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, § 143, S. 205–206 · modulierende Abschnitte und Rückkehr der C-Dur-Invention",
+              "note": "§ 143 nennt Sequenzen und einfache Imitationen als Mittel gegen zielloses Modulieren und erläutert die Rückkehr am Motiv der C-Dur-Invention."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=219"
         }
       ]
     },
@@ -22199,7 +26190,9 @@ const ATLAS = {
         "fuge-gegenexposition",
         "fuge-kontrasubjekt",
         "fuge-formanalyse",
-        "fuge-form-und-gattung"
+        "fuge-form-und-gattung",
+        "fuge-tonartenplan",
+        "fuge-und-tanzform"
       ],
       "authors": [
         {
@@ -22250,6 +26243,52 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-schlussrueckkehr-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 40 · Rückkehr der Grundtonart",
+          "text": "Die Rückkehr der Grundtonart liegt für Gárdonyi gewöhnlich gegen Ende und wird oft durch zwei oder mehr aufeinanderfolgende Themenphasen verstärkt. Nachbartonarten tragen dagegen vielfach nur einzelne Phasen. Zusammen mit den Tonikaeinsätzen der Exposition und gegebenenfalls der Gegenexposition entsteht so ein deutliches Übergewicht der Grundtonart. Sein Kriterium ist an dieser Stelle die Häufung thematischer Auftritte in derselben Tonart innerhalb des gesamten Verlaufs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 40 · Rückkehr der Grundtonart",
+              "note": "Gárdonyi erklärt das Übergewicht der Grundtonart aus Anfang und Schluss der thematischen Tonartenfolge, nicht aus einem festgelegten Reprisenschema."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-27",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 87–88 · Duetto F-Dur BWV 803, Da-capo-Rückkehr ab Takt 113",
+          "text": "Das F-Dur-Duett BWV 803 verbindet nach Gárdonyi dichte Fugentechnik mit einer Da-capo-Anlage, die er für die selbstständige Fuge nicht als typisch ansieht. Nach dem weit ausgebauten Mittelteil kehrt ab Takt 113 der Hauptteil wieder. Der Dux liegt erneut oben; die untere Gegenstimme nimmt Sechzehntelmaterial auf, das zuvor in Takt 5 in der Oberstimme stand. Hier bezeichnet die Rückkehr also einen ganzen formalen Hauptteil mit neu eingerichteter Begleitung, nicht lediglich die Ankunft der Tonika oder einen letzten Themeneinsatz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 87–88 · Duetto F-Dur BWV 803, Da-capo-Rückkehr ab Takt 113",
+              "note": "Die Gliederung des Bach-Duetts benennt ausdrücklich den Da-capo-Charakter und die veränderte Gegenstimme."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -22258,6 +26297,12 @@ const ATLAS = {
           "to": "benjamin1986-1",
           "type": "context",
           "note": "Benjamin beschreibt an BWV 847 eine Rückkehr von Tonika, Thema und Gegenmaterial in neuer Anordnung und räumt andere Schlussverläufe ein. De la Motte stellt am späten Beethoven die fortgesetzte Veränderung und Zerlegung des Themas in den Vordergrund. Die Gegenüberstellung markiert unterschiedliche Formverläufe; sie behauptet keinen Streit über dieselbe Fuge."
+        },
+        {
+          "from": "gardonyi1996-forms-27",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin beschreibt die Schlussrückkehr einer Fuge als Wiederkehr von Tonika und Thema, gegebenenfalls mit neu angeordneten Kontrasubjekten. Gárdonyi untersucht mit BWV 803 einen fugierten Satz in Da-capo-Form, in dem ein ganzer Hauptteil wiederaufgenommen wird. Die beiden Beschreibungen betreffen unterschiedliche Reichweiten der Rückkehr und unterschiedliche Formtypen."
         }
       ]
     },
@@ -22749,6 +26794,29 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-freies-choralende",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 113, S. 171–172 · verlängertes Choralende und instrumentale Beispiele",
+          "text": "Der letzte Melodieton kann liegen bleiben, während die anderen Stimmen einen freien Schlusszusatz bilden. Spalding zeigt dies an seiner Choralaussetzung und verbindet solche Erweiterungen häufig mit einem Orgelpunkt in einer oder mehreren Stimmen. Er empfiehlt die Aufgabe als Gelegenheit, den erreichten Schluss geschmackvoll auszuformen. Die beigefügten Hinweise auf Bach, Mendelssohn und Brahms machen zugleich deutlich, dass dieses Verfahren für ihn nicht auf unbegleiteten Vokalsatz beschränkt ist.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Schlusserweiterung · Choralsatz und instrumentaler Repertoirevergleich",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. VIII, § 113, S. 171–172 · verlängertes Choralende und instrumentale Beispiele",
+              "note": "Die Seite nennt Mendelssohns Paulus, Ausschnitte aus Bachs Wohltemperiertem Klavier und Brahms’ Haydn-Variationen als verschiedene Anwendungsfelder."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=185"
         }
       ],
       "relations": [
@@ -22946,6 +27014,28 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-kadenz-vorausnahme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, nach § 90, S. 123, Kadenzbeispiel a · vorweggenommene Schlussharmonie",
+          "text": "In einer floriden Kadenz zeigt Spalding als gelegentliche Variante eine punktierte Viertel mit folgender Achtel, die bereits zur Schlussharmonie gehört. Der Schluss wird dadurch in einer Stimme vorweggenommen, bevor die abschließende Harmonie gemeinsam eintritt. Diese Vorausnahme wirkt zeitlich anders als die zuvor behandelten Vorhalte: Dort bleibt ein alter Ton zunächst über den Wechsel hinaus bestehen; hier erscheint ein Ton der kommenden Harmonie zu früh. Spalding empfiehlt die Kadenzfigur als freie rhythmische Wirkung, nicht als verpflichtendes Schlussmuster.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, nach § 90, S. 123, Kadenzbeispiel a · vorweggenommene Schlussharmonie",
+              "note": "Kadenzbeispiel a und seine Erklärung auf S. 123 visuell geprüft. Die Unterscheidung vom Vorhalt verweist auf die ausdrücklich behandelte Bindung in §§ 75 und 87; keine zusätzliche Tonfolge wurde erfunden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=137"
         }
       ]
     },
@@ -23349,7 +27439,8 @@ const ATLAS = {
       "related": [
         "fuge-kontrasubjekt",
         "doppelter-kontrapunkt",
-        "harmonik"
+        "harmonik",
+        "fugenthema-harmonik"
       ],
       "authors": [
         {
@@ -23396,7 +27487,8 @@ const ATLAS = {
       "related": [
         "kanon-verfahren",
         "doppelter-kontrapunkt",
-        "imitation-stimmenpaare"
+        "imitation-stimmenpaare",
+        "fuge-gegenbewegung-spiegel"
       ],
       "authors": [
         {
@@ -23565,6 +27657,50 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-rhythmus-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 86, S. 119–120; § 91, S. 124–125 · rhythmischer Grundriss des Floridus",
+          "text": "Spaldings Floridus mischt die zuvor geübten Bewegungsarten mit Ausnahme des durchgehenden Note-gegen-Note-Satzes. Im zunächst verwendeten 4/4 sollen längere Werte auf den Haupt- und Nebenakzenten stehen, während die leichten Positionen die Bewegung weitertragen. Bei der Mischung aus Halben und Vierteln bevorzugt er deshalb die Halbe vor den kürzeren Werten. Wird 2:1 verwendet, bindet er die zweite Note in den Folgetakt. Gleichartige Muster in benachbarten Takten sollen normalerweise vermieden werden; sein Modell auf S. 125 nimmt jedoch eine sequentielle Imitation ausdrücklich davon aus. Rhythmische Vielfalt dient einer zusammenhängenden Linie, nicht einem schematischen Wechsel um jeden Preis.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 86, S. 119–120; § 91, S. 124–125 · rhythmischer Grundriss des Floridus",
+              "note": "Wortlaut und Rhythmustabelle auf S. 119–120 sowie das Modell mit erklärter Sequenz-Ausnahme auf S. 125 visuell geprüft. § 91, S. 124, bestimmt die Übungen ausdrücklich als instrumental. Die Ausnahme verhindert eine absolute Lesung der Forderung nach wechselnden Mustern."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=133"
+        },
+        {
+          "id": "spalding1904-two-achtel-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 86, S. 120–121; nach § 90, S. 123 · Achtelgruppen im Floridus",
+          "text": "Um eine Folge reiner Vierteltakte zu beleben, ersetzt Spalding gelegentlich die zweite oder vierte Viertelposition durch zwei Achtel, manchmal beide. Die Achtel sollen dabei nicht auf die starken Positionen verlegt werden, und zwischen den beiden Achteln soll kein Sprung liegen. Gruppen aus vier Achteln sind auf beiden Takthälften möglich, sollen aber selten vorkommen. Steht eine solche Gruppe auf der ersten Takthälfte, muss ihr erstes Achtel aus dem vorigen Takt übergebunden sein. Diese Vorgaben sollen eine sprunghafte Beschleunigung verhindern und die kurzen Werte in den größeren Bewegungsverlauf einbinden.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 86, S. 120–121; nach § 90, S. 123 · Achtelgruppen im Floridus",
+              "note": "Die guten und schlechten Rhythmusbeispiele auf S. 120–121 und 123 wurden visuell geprüft. Die Regel zur ersten Takthälfte gilt für die Gruppe von vier Achteln; sie wird nicht mit der gewöhnlichen Zweiergruppe auf leichter Viertelposition vermischt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=134"
         }
       ],
       "relations": [
@@ -24042,6 +28178,50 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-sprungstelle-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 63, S. 98–99 · Lage eines notwendigen Sprungs",
+          "text": "Muss die Gegenstimme im Vier-gegen-eins springen, legt Spalding den Sprung im Allgemeinen lieber in den früheren Teil der Gruppe, nach einem Akzent. Die letzten beiden Töne sollen möglichst schrittweise zum nächsten Akzent führen. Er nennt das ausdrücklich eine Empfehlung. Im Beispiel auf S. 99 steigt die Linie einmal erst zum dritten Ton als Höhepunkt an und springt danach eine Terz in Gegenrichtung. Dieser spätere Sprung vermeidet die bloße Wiederholung des vorherigen Musters. Taktgewicht und Gestaltung der ganzen Phrase müssen daher zusammen beurteilt werden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 63, S. 98–99 · Lage eines notwendigen Sprungs",
+              "note": "S. 99 einschließlich der ausdrücklich erläuterten Ausnahme im dritten Takt von Beispiel b visuell geprüft. Keine starre Vorschrift, dass Sprünge ausschließlich am Taktanfang stehen dürften."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
+        },
+        {
+          "id": "spalding1904-two-vorbereitung-sprung-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 89, S. 122, Beispiele a und b · Erreichen des zu bindenden Tones",
+          "text": "Den später übergebundenen Ton empfiehlt Spalding im Floridus im Allgemeinen durch einen Sprung zu erreichen, besonders wenn er zunächst als Viertel erscheint. Im Vergleich auf S. 122 wirkt ihm dieser Eintritt kräftiger als die schrittweise Vorbereitung: Der aufsteigende Schrittgang wird in der schwächeren Fassung lediglich durch die Bindung angehalten, statt zu einem neuen Akzent weiterzuführen. Gemeint ist das Erreichen des zu bindenden Tones in seinem melodischen Zusammenhang, nicht das freie Anspringen einer unvorbereiteten Vorhaltsdissonanz.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 89, S. 122, Beispiele a und b · Erreichen des zu bindenden Tones",
+              "note": "Beide Beispiele in § 89 auf S. 122 visuell geprüft. Die Aussage wird als Empfehlung zur Vorbereitung der Bindung wiedergegeben, damit das Wort suspended note nicht irrtümlich als Erlaubnis eines Sprungs in eine unvorbereitete Dissonanz gelesen wird."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=136"
         }
       ],
       "relations": [
@@ -24124,6 +28304,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-chromatische-wechselnoten",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 64, S. 99 · chromatische obere und untere Nebentöne",
+          "text": "Spalding unterscheidet chromatische Nebentöne nach ihrer Lage zum Akkordton. Einen chromatisch veränderten Durchgangs- oder Wechselton oberhalb deutet er als Hinweis auf eine Modulation; einen solchen Ton unterhalb hört er ohne Tonartwechsel. Die untere Wechselnote soll fast immer einen Halbton entfernt sein, besonders im Bass. Seine kurzen Muster sind bereits mit Tonartangaben wie F, C oder G versehen. Die Aussage gibt damit seine harmonische Deutung dieser chromatischen Figuren wieder; die obere und untere Umspielung werden in der Übung nicht gleich behandelt.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 64, S. 99 · chromatische obere und untere Nebentöne",
+              "note": "Die starken Formulierungen über implizierte Modulation und den Abstand der unteren Nebennote stehen ausdrücklich in § 64. S. 99 mit Tonartbeschriftungen visuell geprüft. Es wird keine heutige allgemeine Definition von Modulation aus diesen kurzen Mustern abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=113"
         }
       ]
     },
@@ -24218,6 +28420,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-wechselnote-gegen-durchgang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 101, S. 145, oberes vollständiges Beispiel (a) · florider Alt und Bass",
+          "text": "Im Beispiel mit dem Thema im Sopran erklärt Spalding die markierte Reibung zwischen Alt und Bass aus zwei verschiedenen Verzierungsfunktionen: Im Alt steht eine Wechselnote, im Bass ein Durchgang. Die beiden bewegten Stimmen müssen also nicht bei jedem Zusammentreffen miteinander konsonieren. Entscheidend sind hier ihre konkreten Wege innerhalb des dreistimmigen Zusammenhangs. Spalding hebt die Stelle als belebende Durchgangsdissonanz hervor, nicht als beliebig wiederholbares Muster ohne Prüfung der Linien.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige floride Übung · Wechselnote gegen Durchgang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 101, S. 145, oberes vollständiges Beispiel (a) · florider Alt und Bass",
+              "note": "Der Kommentar zu (a) benennt ausdrücklich Wechselnote im Alt und Durchgang im Bass. Die Aussage bleibt an dieses Beispiel gebunden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=159"
         }
       ],
       "relations": [
@@ -24497,7 +28721,10 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "harmonik",
         "vorhalt-bewegte-begleitstimme",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "generalbass-bassvariation",
+        "generalbass-lagen",
+        "generalbass-akkordnamen"
       ],
       "reading": "Vergleiche verschiedene Bezifferungen derselben Fortschreitung. Prüfe, ob die Zahlen tatsächliche Stimmenlagen, nur die Außenstimmen oder eine abgekürzte Klangangabe festhalten, und welche Stimme eine bezeichnete Dissonanz auflösen muss.",
       "readingSources": [
@@ -24553,6 +28780,164 @@ const ATLAS = {
           "examples": [
             "daniel-sekunde-none"
           ]
+        },
+        {
+          "id": "sechter1876-early-fuenf-sechs-stimmenweg",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 18, Übung XX (20) · nacheinander stehende Ziffern 5 und 6",
+          "text": "Die nebeneinander stehenden Zahlen 5 und 6 bezeichnen in XX einen zeitlichen Verlauf über derselben Bassnote. Sie sind nicht als gleichzeitig erklingende Intervallgruppe 6/5 zu lesen. Die verschiedenen Aussetzungen verteilen die oberen Töne dabei unterschiedlich: Welche Linie von der Quinte zur Sexte führt und welche andere einen Ton hält, ergibt sich erst aus dem ausgeschriebenen Satz. Die Bezifferung bestimmt hier eine Intervallfolge, ohne dadurch bereits eine einzige Oberstimmenlage oder eine unveränderliche Zuordnung zum Sopran festzulegen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 18, Übung XX (20) · nacheinander stehende Ziffern 5 und 6",
+              "note": "Die horizontal angeordnete Folge 5–6 und die verschiedenen Realisierungen sind im Notentext sichtbar. Die Abgrenzung vom übereinandergeschriebenen 6/5 ist eine redaktionelle Lesehilfe, kein wörtlicher Zusatz des Buches. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-02",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 52, Übung 77 (LXXVII), erste vierstimmige Aussetzung, T. 1–3 · gebundener Bass und 2–6",
+          "text": "In der ersten Aussetzung von Übung 77 trägt der Bass wiederholt die Bindung in die mit 2 bezeichnete Verbindung hinein. Er geht anschließend einen Schritt abwärts; darüber steht nun 6. Die Auflösung lässt sich hier an der Basslinie ablesen. Wer nur die obere Sekunde als zu bewegenden Ton behandelt, übersieht diese notierte Stimmführung. Zuerst sind deshalb die Haltebögen im Bass und seine anschließenden Schritte zu verfolgen, danach die gleichzeitig erklingenden Oberstimmen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 52, Übung 77 (LXXVII), erste vierstimmige Aussetzung, T. 1–3 · gebundener Bass und 2–6",
+              "note": "Redaktionelle Analyse der Haltebögen, Bassschritte und Ziffern der konkreten Aussetzung. Sie zeigt hier die dissonierende und abwärts weitergeführte Bassstimme; daraus wird keine Regel für jede vorkommende Ziffer 2 abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-sekundakkord"
+          ],
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-04",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 34, Übung 51 (LI), zweistimmige Fassung „a 2“, Anfang · 3–5–8–7 in einer Oberstimme",
+          "text": "Die zweistimmige Fassung von Übung 51 verteilt die Ziffern am Anfang auf aufeinanderfolgende Töne einer einzigen Oberstimme. Über einer halben Bassnote erklingen vier Achtel mit den Intervallen 3–5–8–7. Die Septime wird also erst im Verlauf dieser Linie erreicht. Hier bezeichnet die Bezifferung eine zeitliche Folge von Zweiklängen; sie verlangt keinen gleichzeitig vollständigen Septakkord. Für die Ausführung müssen die Ziffern den jeweiligen Achteln und ihrem noch liegenden Bass zugeordnet werden.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 34, Übung 51 (LI), zweistimmige Fassung „a 2“, Anfang · 3–5–8–7 in einer Oberstimme",
+              "note": "Redaktionelle Beobachtung der ausdrücklich mit „a 2“ überschriebenen Aussetzung. Die am Anfang gedruckte Ziffernfolge und die rhythmische Zuordnung sind visuell geprüft; keine allgemeine Theorie latenter Mehrstimmigkeit wird daraus abgeleitet."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-06",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 72 · Nr. 105 (CV), Secundquartseptaccord statt Quartseptnonaccord",
+          "text": "In Nr. 105 setzt Sechter den Secundquartseptaccord ausdrücklich an die Stelle des Quartseptnonaccords. Die erste Aussetzung führt die Zifferngruppe mit Sekunde, Quarte und Septime über einem liegenden Bass zu 8/3 weiter. Die Sekunde gehört hier zu einer Oberstimme; ihre Weiterführung verlangt keinen absteigenden Bass. Unter demselben Takt steht ergänzend eine Bezifferung mit None, und die fünfstimmige Fassung verwendet ebenfalls die None. Diese Stelle zeigt, warum eine Ziffer innerhalb einer zusammengesetzten Klangangabe zusammen mit der Aussetzung gelesen werden muss: Die 2 allein bestimmt hier nicht die aufzulösende Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 72 · Nr. 105 (CV), Secundquartseptaccord statt Quartseptnonaccord",
+              "note": "Die Überschrift nennt die Vertretung des Quartseptnonaccords ausdrücklich. Im ersten Takt mit der vollständigen Zifferngruppe bleibt der Bass liegen; die Stimmführungszuweisung ist eine lokale Beobachtung an der Aussetzung, keine allgemeine Behauptung über jede historische 2. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-07",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 57–58 · Nr. 83–84 (LXXXIII–LXXXIV), None und bewegte Begleitstimme",
+          "text": "Nr. 83 zeigt wiederholt die abwärts geführte None als 9–8 über einem innerhalb der Auflösung liegenden Bass. In Nr. 84 steht neben dieser Bewegung regelmäßig 5–6. Die Aussetzung zeigt zwei verschiedene Stimmen: Eine geht von der None zur Oktave hinab, eine andere von der Quinte zur Sexte hinauf. Die zweite Stimme bleibt also während der Nonenauflösung nicht notwendig liegen. Die übereinander und nebeneinander notierten Zahlen erfassen gemeinsam diesen Verlauf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 57–58 · Nr. 83–84 (LXXXIII–LXXXIV), None und bewegte Begleitstimme",
+              "note": "Die beiden Übungsgruppen wurden visuell verglichen. Das gleichzeitige 9–8 und 5–6 ist in Nr. 84 ausdrücklich beziffert und in den Noten der ersten Aussetzung nachvollziehbar. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-08",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 59 · Nr. 86 (LXXXVI), wiederholte Folge 9–6",
+          "text": "Die Ziffernfolge muss mit der Bassbewegung gelesen werden. In der ersten Aussetzung von Nr. 86 erscheinen mehrfach 9 und 6 nacheinander. Beim ersten solchen Wechsel im zweiten Takt steigt der Bass eine Terz, während die betreffende Oberstimme einen Schritt abwärts geht. Die größere Änderung der Intervallzahl entsteht hier aus beiden Stimmen zusammen. Der Vergleich mit der einfacheren Folge 9–8 macht den Unterschied zwischen einer melodischen Bewegung und ihrer jeweiligen Entfernung vom Bass hörbar.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 59 · Nr. 86 (LXXXVI), wiederholte Folge 9–6",
+              "note": "Der erste 9–6-Wechsel im zweiten Takt der ersten Fassung wurde vergrößert geprüft: Der Bass steigt eine Terz, die betreffende Oberstimme fällt einen Schritt. Andere 9–6-Stellen können den Bass in einer anderen Oktavlage führen; die lokale Aussage wird nicht auf sie ausgedehnt. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-11",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 75–76 · Nr. 110–111 (CX–CXI), zeitliche Staffelung im Quartsextnonaccord",
+          "text": "Ein mehrgliedriger dissonanter Klang muss in diesen Beispielen nicht mit einem einzigen gemeinsamen Schritt aufgelöst werden. Nr. 110 führt die Bewegungen aus 9/6/4 zeitlich gestaffelt weiter. Nr. 111 hält die None an der ersten entsprechenden Stelle länger fest, während Sexte und Quarte bereits ihre Fortsetzungen erreichen. Die nebeneinander gesetzten Ziffern und ihre Verlängerungsstriche sind deshalb als mehrere zeitliche Linien zu lesen. Die Aussetzungen zeigen unterschiedliche Reihenfolgen innerhalb derselben Intervallzusammenstellung; ein bloßes Akkordetikett würde diesen Unterschied verdecken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 75–76 · Nr. 110–111 (CX–CXI), zeitliche Staffelung im Quartsextnonaccord",
+              "note": "Die ersten entsprechenden Stellen von Nr. 110 und Nr. 111 wurden in vergrößerten Ausschnitten geprüft. Besonders Nr. 111 notiert 9 mit längerer Fortgeltung, während 6–5 und 4–3 früher erfolgen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "sechter1876-late-06",
+          "to": "menke2017-3",
+          "type": "context",
+          "note": "Menke erläutert die übliche funktionale Unterscheidung: 2 steht normalerweise für eine Syncopatio des Basses, 9 für diejenige einer Oberstimme. Sechters zusammengesetzte Angabe mit Sekunde, Quarte und Septime wird in Nr. 105 über liegendem Bass weitergeführt; die 2 gehört dort zur oberen Stimmenverbindung. Der Unterschied betrifft den Gebrauch der Ziffer im konkreten Notationszusammenhang. Menkes ausdrücklich normale Zuordnung ist deshalb nicht schematisch auf jede 2 innerhalb solcher Klangangaben zu übertragen."
         }
       ]
     },
@@ -24896,7 +29281,11 @@ const ATLAS = {
         "fuge-formanalyse",
         "fuge-schlussrueckkehr",
         "generalbass-fuge",
-        "invention-form"
+        "invention-form",
+        "fuge-tripelfuge",
+        "fuge-permutationsfuge",
+        "fuge-fughetta-fugato",
+        "fuge-und-tanzform"
       ],
       "reading": "Vergleiche eine kurze Versettenfuge mit einer längeren Tasten- oder Chorfuge. Zeichne nur Themeneinsätze, Tonartstationen und Zwischenspiele ein. Welche Entscheidungen erklären sich aus Besetzung, Text oder liturgischer Aufgabe?",
       "readingSources": [
@@ -24926,6 +29315,52 @@ const ATLAS = {
               "note": "Die barocken Aufgaben Versetten-, Clavier- und Chorfuge begründen unterschiedliche Formanlagen; Lebègue liefert das ausgearbeitete Beispiel."
             }
           }
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-form-und-gattung-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 39 · Themenphasen nach der Exposition",
+          "text": "Nach der Exposition verfolgt Gárdonyi vor allem den Wechsel einzelner Themenphasen und Zwischenspiele. Den Begriff Durchführung hält er dort für irreführend, wo er einen erneuten vollständigen Durchgang durch alle Stimmen nahelegt: Solche Gruppen seien außerhalb der Exposition gerade nicht der Normalfall. Die Bezeichnung einer kürzeren Gruppe als unvollständige Durchführung kehre damit das Verhältnis von Regel und Ausnahme um. Die besondere Anlage von Permutations- und Engführungsfugen nimmt er ausdrücklich aus dieser Argumentation aus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 39 · Themenphasen nach der Exposition",
+              "note": "Gárdonyi begründet seine Terminologie mit den nach der Exposition beobachteten Verläufen der Bach-Fuge und grenzt besondere Fugentypen ausdrücklich aus."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-28",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 88–89, Bsp. 60 · A-Dur-Präludium WTK I, Thema mit zwei Gegenstimmen",
+          "text": "Fugentypische Materialordnung ist für Gárdonyi nicht an die Überschrift Fuge gebunden. Im A-Dur-Präludium des ersten WTK-Bands beginnt das Thema bereits mit zwei Gegenstimmen, die sich im weiteren Verlauf als Kontrasubjekte erweisen. In den ersten drei Themenphasen erscheint jedes der drei Materialien einmal in jeder Stimme; die Tonartenfolge ist A-Dur, E-Dur, A-Dur. Gárdonyi hält deshalb die strukturelle Beschreibung als Fuge mit dreistimmigem Thema für möglich. Diese Lesart beschreibt den Aufbau des Präludiums, ohne seinen Werktitel durch eine neue Gattungsbezeichnung zu ersetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 88–89, Bsp. 60 · A-Dur-Präludium WTK I, Thema mit zwei Gegenstimmen",
+              "note": "Die alternative strukturelle Lesart wird an Bachs A-Dur-Präludium und dessen dreifachem Kontrapunkt entwickelt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
         }
       ]
     },
@@ -25044,7 +29479,8 @@ const ATLAS = {
         "motiv-ueber-cantus",
         "choral-vorimitation",
         "harmonischer-rhythmus",
-        "choral-stimmumfang"
+        "choral-stimmumfang",
+        "choral-fugentechnik"
       ],
       "authors": [
         {
@@ -25069,6 +29505,59 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-32",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 92–95, Bsp. 64–66 · Komm, heiliger Geist BWV 651 und Nun komm, der Heiden Heiland BWV 661",
+          "text": "In Bachs Choralbearbeitungen richtet Gárdonyi die fugierte Stimmenarbeit auf die Harmonie der vorgegebenen Melodie. Schon in der Eröffnung von BWV 651 stabilisieren tonale Anpassungen den Grundtonbereich, statt den üblichen Wechsel zur Dominante auszuspielen. Mit dem Cantus firmus im Pedal passen sich Einsatzhöhen und melodische Varianten der Manualstimmen dessen harmonischem Feld an. Auch Engführung und Umkehrung in BWV 661 bleiben diesem Zusammenhang untergeordnet. Der Tonartplan einer freien Fuge lässt sich deshalb nicht ohne Weiteres auf einen Satz mit gebundener Choralvorlage übertragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 92–95, Bsp. 64–66 · Komm, heiliger Geist BWV 651 und Nun komm, der Heiden Heiland BWV 661",
+              "note": "Die Passage benennt die Priorität der Choralharmonisierung gegenüber dem Formzusammenhang einer freien Fuge an BWV 651 und 661."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-04",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 159 und Fortsetzung, S. 220–221 · Bach, Vom Himmel hoch da komm ich her",
+          "text": "Das Material der Gegenstimmen kann aus der Choralmelodie selbst gewonnen werden. An Bachs Behandlung von Vom Himmel hoch da komm ich her erklärt Spalding, dass die imitierenden Begleitstimmen durch Diminution aus der Melodie abgeleitet sind. Im abgedruckten Anfang steht der Cantus firmus im Sopran, während die anderen Stimmen die verkleinerten Gestalten aufnehmen. Die Gegenstimmen erhalten damit eigenes rhythmisches Leben und bleiben zugleich mit dem Choral verbunden. Spalding empfiehlt, diesen Zusammenhang am ganzen Satz weiterzuverfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choralbearbeitung mit imitativen Gegenstimmen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. X, § 159 und Fortsetzung, S. 220–221 · Bach, Vom Himmel hoch da komm ich her",
+              "note": "Der Ausschnitt auf S. 220 trägt die Bezeichnung C.F. über dem Sopran; S. 221 benennt ausdrücklich die Ableitung der Begleitstimmen durch diminution. Die Fußnote verweist auf den Anhang von Band XI der Bach-Gesellschaft. Eine hier nicht angegebene BWV-Nummer wird nicht ergänzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=234"
+        }
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-forms-32",
+          "to": "motte1995-r19",
+          "type": "context",
+          "note": "De la Mottes zweistimmige Schreibaufgabe lässt Gegenstimmen aus einer gewählten Harmoniefolge oder einem vorher bestimmten Motiv entstehen. Gárdonyi analysiert mehrstimmige Bach-Choralbearbeitungen, in denen vorhandene Fugengestalten melodisch und tonal an die Choralharmonie angepasst werden. Beide beziehen sich auf eine gegebene Melodie, unterscheiden aber den Entwurf einer Gegenstimme von der Umformung eines bereits etablierten fugierten Materials."
         }
       ]
     },
@@ -25087,7 +29576,8 @@ const ATLAS = {
         "invention-einsatzplan",
         "invention-episode",
         "invention-gegenmotiv",
-        "fuge-form-und-gattung"
+        "fuge-form-und-gattung",
+        "modulation-in-uebungen"
       ],
       "authors": [
         {
@@ -25112,6 +29602,36 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-invention-binaer",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 142–143, S. 204–205 einschließlich Anm. · Bachs zweistimmige Inventionen",
+          "text": "Spalding ordnet Bachs zweistimmige Inventionen ausdrücklich sämtlich einer binären Form zu und entwickelt sein Modell an der C-Dur-Invention. Zugleich gliedert er den zweiten Teil nochmals und beschreibt damit eine Tendenz zur Dreiteiligkeit im Tonartenverlauf: Ausgangstonart, verwandter Bereich und Rückkehr. In Dur führt der erste Weg gewöhnlich zur Dominante; die Mollparallele nennt er in der Fußnote als seltene Ausnahme. Für Moll nennt er Durparallele oder Molldominante. Diese weitreichende Formverallgemeinerung ist Spaldings analytische Position, nicht eine voraussetzungslose Definition jeder Invention.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Inventionen · binäre Gesamtanlage und dreiteiliger Tonartenverlauf",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, §§ 142–143, S. 204–205 einschließlich Anm. · Bachs zweistimmige Inventionen",
+              "note": "S. 204 enthält die ausdrückliche Alle-Aussage; S. 205 relativiert sie nicht durch Aufgabe der binären Anlage, sondern durch die Unterteilung ihres zweiten Teils. Die Ausnahme für Dur steht in der Fußnote."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=218"
+        }
+      ],
+      "relations": [
+        {
+          "from": "spalding1904-multi-invention-binaer",
+          "to": "motte1995-r20",
+          "type": "nuance",
+          "note": "Beide behandeln Bachs zweistimmige Inventionen und verwenden einen ähnlichen Weg zur Dominante und zurück als Schreibmodell. Spalding verallgemeinert jedoch die binäre Gesamtanlage ausdrücklich auf alle Inventionen und ordnet eine dreiteilige Tonartentendenz darin ein; de la Motte begrenzt die gemeinsamen Merkmale und behandelt seinen Formplan als eine mögliche Aufgabe. Die Differenz liegt im Umfang der analytischen Verallgemeinerung, nicht in einer einfachen Opposition binär gegen ternär."
         }
       ]
     },
@@ -25295,6 +29815,46 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-05",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 160, S. 221 · Imitationsübung und ausgearbeitete Komposition",
+          "text": "Die häufige Wiederholung eines Motivs hat in der Übung zunächst einen technischen Zweck. Für die spätere Arbeit, besonders für Stimmen oder Streicher, verlangt Spalding eine andere Gewichtung: Imitationen sollen dort erscheinen, wo sie den Aufbau des Stücks stärken. Ihr Abstand und ihre Häufigkeit lassen sich nicht durch eine feste Zahl bestimmen. Die mechanisch dichte Folge der vorangegangenen Aufgaben wird deshalb nicht zum Formplan jeder Komposition. Wiederkehrende Gestalten sollen einen Zusammenhang hörbar machen und einem zerstreuten, ziellos fortlaufenden Satz entgegenwirken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Übergang von der Imitationsübung zur freien Vokal- oder Streicherkomposition",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, § 160, S. 221 · Imitationsübung und ausgearbeitete Komposition",
+              "note": "§ 160 unterscheidet ausdrücklich die mechanischere Wiederholung der Übungen von der nach künstlerischem Urteil gewählten Imitation in späteren Arbeiten. Es ist eine Anweisung zur Verwendung des Verfahrens, keine feste Regel für eine historische Gattung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=235"
+        },
+        {
+          "id": "spalding1904-free-15",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, § 176, S. 243, und § 178, S. 245–247 · zwei gleichzeitig entwickelte Motive",
+          "text": "Eine freie Ausarbeitung kann mehrere wiedererkennbare Gestalten zugleich verfolgen. In der nach Dubois eingerichteten Übung auf S. 243 sollen zwei Motive miteinander entwickelt werden; verwandte melodische Konturen und entsprechende Rhythmen erleichtern ihre Nachahmung. Die spätere Aufgabe verwendet doppelten Kontrapunkt für die Darstellung und Weiterführung zweier Themen. In der Fortsetzung dürfen auch Teile oder Veränderungen der Hauptmotive erscheinen. Die thematische Einheit verlangt somit nicht, jedes Motiv bei jedem Einsatz vollständig und unverändert zu wiederholen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freie Streichquartettübungen mit zwei Motiven und doppeltem Kontrapunkt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, § 176, S. 243, und § 178, S. 245–247 · zwei gleichzeitig entwickelte Motive",
+              "note": "§ 176 nennt zwei gleichzeitig auszuarbeitende Motive; § 178 beschreibt den systematischen Gebrauch doppelten Kontrapunkts für zwei Themen. S. 247 gestattet Teile und Veränderungen ausdrücklich. Die Modelle sind im Buch als nach Dubois eingerichtet bezeichnet; ihnen wird keine zusätzliche stilgeschichtliche Herkunft zugewiesen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=257"
         }
       ],
       "relations": [
@@ -25323,7 +29883,8 @@ const ATLAS = {
         "rhythmische-selbststaendigkeit",
         "motivische-polyphonie",
         "kontrapunkt-in-homophonie",
-        "kadenz-klauselwechsel"
+        "kadenz-klauselwechsel",
+        "vierfacher-kontrapunkt"
       ],
       "authors": [
         {
@@ -25371,6 +29932,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-orchestrale-verdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 130, S. 197 · Haydn, Sinfonie in D-Dur",
+          "text": "Die Zahl der spielenden Instrumente ist für Spaldings Analyse nicht mit der Zahl selbständiger kontrapunktischer Linien identisch. Den Beginn des angeführten Haydn-Ausschnitts beschreibt er als zweistimmig, obwohl im Orchester jede Linie in der Oktave verdoppelt wird. Beim späteren Tausch kommen außerdem Innenstimmen hinzu, die seine reduzierte Darstellung nicht wiedergibt. Analysiert wird somit die vertauschbare Verbindung zweier tragender Linien innerhalb eines reicheren Orchestersatzes, nicht ein Lagentausch sämtlicher notierter Orchesterstimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Orchestersatz bei Haydn · selbständige Linien und Verdopplungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, § 130, S. 197 · Haydn, Sinfonie in D-Dur",
+              "note": "§ 130 unterscheidet ausdrücklich zweistimmige Harmonie, Oktavverdopplung im Orchester und später ergänzte, im Ausschnitt nicht notierte Innenstimmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=211"
         }
       ]
     },
@@ -25437,6 +30020,26 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-sechsergruppe",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, §§ 70–73, S. 106–108 · Akzente bei sechs gegen eins",
+          "text": "Bei sechs Noten gegen eine zeigt Spalding, dass dieselbe Tonfolge durch ihre Gruppierung unterschiedlich wirkt. Sein Muster im 6/8-Takt ist mit Haupt- und Nebenakzent überzeugend angeordnet; die anschließende Fassung im 3/4-Takt wirkt für ihn wegen der Wiederholung desselben Entwurfs schwach. Auch im ausgearbeiteten 6:1-Modell entsteht Abwechslung durch die Akzentlage: Auf dem vierten Ton der Sechsergruppe, also dem Nebenakzent, verwendet er häufig einen betonten Durchgang oder eine „changing note“. Tonfolge und Akzentordnung sind deshalb gemeinsam zu entwerfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · sechs gegen eins und metrische Gruppierung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, §§ 70–73, S. 106–108 · Akzente bei sechs gegen eins",
+              "note": "Die beiden metrischen Fassungen auf S. 107 und das Modell mit Kommentar auf S. 108 wurden visuell geprüft. Vierter Ton bedeutet hier vierter Ton der Sechsergruppe, nicht vierter Hauptschlag. Keine Spezieszuordnung allein aus der Notenzahl."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=120"
         }
       ]
     },
@@ -25499,7 +30102,8 @@ const ATLAS = {
         "motivische-polyphonie",
         "stimme-und-satzstruktur",
         "harmonischer-rhythmus",
-        "imitation-und-kanon"
+        "imitation-und-kanon",
+        "klaviersatz-klanglage"
       ],
       "authors": [
         {
@@ -25545,6 +30149,85 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-homophonie",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Vorwort, S. 8–10 · Verhältnis von Kontrapunkt, Harmonik und Satzart",
+          "text": "Kontrapunktisches Zusammenwirken findet für Gárdonyi sowohl im polyphonen als auch im homophonen Satz statt. Die Arbeit über einem Cantus firmus ist deshalb ein besonderer Fall, aus dem sich keine vollständige Trennung von Harmonie- und Kontrapunktlehre ableiten lässt. Auch rhythmisch und melodisch gegensätzliche Stimmen bleiben Teile eines gemeinsamen harmonischen Gefüges. Am Ende des Vorworts überträgt er diesen Gedanken auf miteinander verbundene Klangschichten eines Orchesterstücks, die sich nicht notwendig in einzelne melodische Stimmen zerlegen lassen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "cross-style",
+            "frame": "Kontrapunkt als Zusammenwirken von Rhythmus, Melodik und Harmonik",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. 8–10 · Verhältnis von Kontrapunkt, Harmonik und Satzart",
+              "note": "Das Vorwort spricht ausdrücklich über verschiedene Stile, homophone und polyphone Strukturen sowie orchestrale Klangschichten; der allgemeine Gedanke reicht über die folgenden Bach-Analysen hinaus."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-07",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 162, S. 222, und §§ 163–164, S. 225–226 · Hauptmelodie und Begleitfigur",
+          "text": "Im homophonen Klaviersatz liegt die Hauptmelodie für Spalding nicht notwendig oben: Sie kann auch in einer Mittel- oder Unterstimme stehen. Die übrigen Töne ordnen sich ihr als harmonische Begleitung unter. Diese Begleitung soll dennoch ein eigenes rhythmisches Interesse erhalten, etwa durch eine wiederkehrende Arpeggiofigur oder wiederholte Akkorde. Bei Akkordrepetitionen muss die Melodie deutlich genug hervortreten; zugleich sollen die Harmonien selbst charakteristisch bleiben. Die Selbstständigkeit der Begleitung bedeutet hier also nicht die Gleichberechtigung aller Stimmen, sondern eine erkennbare Bewegung innerhalb ihrer begleitenden Funktion.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Homophoner Klaviersatz mit rhythmisch charakteristischer Begleitung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, § 162, S. 222, und §§ 163–164, S. 225–226 · Hauptmelodie und Begleitfigur",
+              "note": "§ 162 nennt Hauptmelodien in oberer, mittlerer oder tiefer Stimme und die rhythmische Eigenart der Begleitung. §§ 163–164 kommentieren die Beispiele von Schumann, Chopin, Beethoven und Mozart; S. 226 zeigt unter anderem Chopins viertes Prélude."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=236"
+        },
+        {
+          "id": "spalding1904-free-13",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, S. 239–240 und § 177, S. 244 · zwei Behandlungen derselben Haydn-Melodie",
+          "text": "Für die G-Dur-Melodie von Haydn empfiehlt Spalding zunächst eine überwiegend homophone Streicherbehandlung mit einfachen Harmonien: Ein aufwendiger Kontrapunkt soll die schlichte Melodie nicht überdecken. Die unteren Stimmen gewinnen dabei durch eine geschickte Verteilung und Kreuzung eigenes Interesse. Später behandelt er ausdrücklich dieselbe Melodie kontrapunktisch, indem eine Mittelstimme ein fließendes Obligato erhält. Sein anfänglicher Rat ist daher keine Festlegung der Melodie auf nur eine Satzart. Entscheidend ist, wie die zusätzliche Bewegung ihren Charakter unterstützt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Homophone und kontrapunktische Streicherfassung derselben Vorlage",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XII, S. 239–240 und § 177, S. 244 · zwei Behandlungen derselben Haydn-Melodie",
+              "note": "S. 239 begründet die erste homophone Behandlung mit der Einfachheit der Melodie. § 177 verweist ausdrücklich auf diese Melodie zurück und zeigt eine Aussetzung mit bewegter Bratschenstimme. Beide Behandlungen werden zusammen gelesen, damit aus der ersten Empfehlung kein generelles Verbot entsteht."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=253"
+        }
+      ],
+      "relations": [
+        {
+          "from": "gardonyi1996-open-homophonie",
+          "to": "schoenberg1970-r05",
+          "type": "context",
+          "note": "Gárdonyi entwickelt eine allgemeine Begründung für das Zusammenwirken von Harmonik und Kontrapunkt und bezieht auch orchestrale Klangschichten ein. Schönbergs Entwurfsnotizen benennen dagegen konkrete Arbeitsweisen und Repertoirebezüge für einen geplanten Band über Kontrapunkt in homophoner Musik. Ausgeführtes Grundverständnis und skizzierter Lehrgang haben hier verschiedene Aufgaben."
+        },
+        {
+          "from": "gardonyi1996-open-homophonie",
+          "to": "daniel2004-r02",
+          "type": "context",
+          "note": "Gárdonyi begründet die Verbindung von Harmonik und Kontrapunkt ausdrücklich über verschiedene Satzarten und Stile hinweg. Daniel prüft die Eigenständigkeit der Linien an einer bestimmten historischen Aufgabe, dem vierstimmigen Bach-Choral. Der allgemeine Begriff und die konkrete Chorallehre haben daher unterschiedliche Reichweiten."
         }
       ]
     },
@@ -25616,7 +30299,9 @@ const ATLAS = {
         "chromatik",
         "moll-neutralisierung",
         "choral-modaler-tonartbezug",
-        "choral-kadenzplanung"
+        "choral-kadenzplanung",
+        "fuge-tonartenplan",
+        "modulation-in-uebungen"
       ],
       "authors": [
         {
@@ -25726,7 +30411,9 @@ const ATLAS = {
         "leittonaufloesung",
         "einklang",
         "akkordvollstaendigkeit",
-        "picardische-terz"
+        "picardische-terz",
+        "generalbass-lagen",
+        "klaviersatz-klanglage"
       ],
       "authors": [
         {
@@ -25797,6 +30484,179 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-dreiklang-verdopplung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 4, vor Übung I (1) · Tabelle „Dreyklang hat“",
+          "text": "Die einleitende Dreiklangstabelle nennt für vier Stimmen neben 8/5/3 unter anderem die Gruppen 5/3/3 und 5/5/3. Mit dem Bass zusammen ergeben diese Formeln unterschiedliche Verdopplungen: des Basstons, der Terz oder der Quinte. Sechter stellt damit mehrere Verteilungen des Dreiklangsmaterials vor. Die Ziffern bezeichnen Intervalle über dem Bass; die Übersicht nennt noch keine Tonleiterstufe und keine besondere Leittonbedingung. Welche Verteilung in einem Verlauf funktioniert, muss deshalb an der jeweiligen Aussetzung gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 4, vor Übung I (1) · Tabelle „Dreyklang hat“",
+              "note": "Die ausdrücklich gedruckte Tabelle wird wörtlich nach ihren Intervallgruppen gelesen. Sie wird nicht zu einer voraussetzungslosen Erlaubnis jeder Verdopplung erweitert. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-quartsext-verdopplung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 27, vor Übung XXXVIII (38) · Tabelle „Quartsextaccord hat“",
+          "text": "Für den Quartsextakkord gibt Sechter die vierstimmigen Gruppen 8/6/4, 6/4/4 und 6/6/4 an. In der ersten wird der Basston durch seine Oktave ergänzt; in den beiden anderen erscheinen Quarte beziehungsweise Sexte über dem Bass doppelt. Die Übersicht lässt sich deshalb nicht auf eine einzige Verdopplungsformel reduzieren. Sie beschreibt allerdings noch keine beliebige Fortschreitung dieser Klänge. Die Lage der verdoppelten Töne und ihre Weiterführung müssen im jeweiligen Beispiel verfolgt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 27, vor Übung XXXVIII (38) · Tabelle „Quartsextaccord hat“",
+              "note": "Die drei Formeln sind im gedruckten Tabellenkopf ausdrücklich aufgeführt. Die Aussage trennt dieses Inventar von einer unbeschränkten Erlaubnis jeder Fortschreitung oder einer bestimmten kontrapunktischen Erklärung des Quartsextklangs. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-07",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 34, Tabelle „Septaccord hat“; S. 52, Tabelle „Secundaccord hat“ · ausdrücklich angegebene Tonverteilungen",
+          "text": "Sechters Tabellen nennen mehrere Tonverteilungen für denselben Akkordnamen. Beim Septakkord stehen über dem Bass wahlweise 7/5/3, 8/7/3 oder 7/3/3: Die zweite Fassung verdoppelt den Bass in der Oktave, die dritte die Terz über dem Bass; beide kommen ohne dessen Quinte aus. Beim Sekundakkord stehen 6/4/2, 4/2/2 und 4/4/2 zur Wahl. Die beiden letzten Fassungen verdoppeln also die Sekunde beziehungsweise die Quarte über dem Bass. Diese Zahlen sind bassbezogene Intervalle und zeigen konkrete Verteilungen für die Aussetzungsübungen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 34, Tabelle „Septaccord hat“; S. 52, Tabelle „Secundaccord hat“ · ausdrücklich angegebene Tonverteilungen",
+              "note": "Die Zahlenkombinationen sind ausdrücklich gedruckt, die Benennung der dadurch verdoppelten und ausgelassenen Intervalle ist eine unmittelbare Lesung der Tabellen. Es wird weder eine allgemeine Freiheit jeder Verdopplung noch eine besondere Erlaubnis zur Leittonverdopplung abgeleitet."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-quartsextbass",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 28, Fußnote S. 39",
+          "text": "Für den betonten, als Doppelvorhalt erklärten Quartsextakkord empfiehlt Spalding die Verdopplung des Basses. In seiner Deutung ist dieser Basston der eigentliche Grundton des zugrunde liegenden Akkords, während Quarte und Sexte dessen Terz und Quinte zunächst vorenthalten. Die Verdopplungsregel gehört zu dieser konkreten Kadenzauffassung; sie ist keine vollständige Aufzählung aller denkbaren vierstimmigen Quartsextlagen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Bassverdopplung im kadenzierenden Doppelvorhalt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 28, Fußnote S. 39",
+              "note": "Die Fußnote begründet die Bassverdopplung unmittelbar aus der Doppelvorhaltsdeutung des betonten Quartsextakkords."
+            }
+          },
+          "examples": [
+            "spalding-quartsext-vorhalt"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=53"
+        },
+        {
+          "id": "spalding1904-two-leittonverdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 61, S. 98, Beispiele a–e · Leitton in rascher Figuration",
+          "text": "In einer vergleichsweise rasch bewegten Gegenstimme erlaubt Spalding die Verdopplung des Leittons unter bestimmten Bedingungen. In den als gut bezeichneten Beispielen liegt der betreffende Ton zwischen anderen Tönen derselben Harmonie und bildet weder den höchsten noch den tiefsten Ton der Figur. Die schlechten Beispiele erfüllen diese Bedingungen nicht. Die Erlaubnis beruht auf der geringen Eigenständigkeit dieses Moments innerhalb der Bewegung; bei langsamerem Verlauf oder stärkerer Hervorhebung könnte derselbe Ton eine problematische Harmonie nahelegen. Es geht um die instrumentale dritte Ordnung, nicht um eine allgemeine Wahlregel für statische Akkordverdopplungen.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 61, S. 98, Beispiele a–e · Leitton in rascher Figuration",
+              "note": "§ 61 samt vollständiger Tabelle visuell und als vergrößerter Quellenausschnitt geprüft. Die Bedingung lautet weder höchster noch tiefster Ton. Sie wird nicht auf ausschließlich unbetonte Positionen verkürzt; die melodische Einbettung ist ebenfalls entscheidend."
+            }
+          },
+          "examples": [
+            "spalding-leitton-figuriert"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
+        },
+        {
+          "id": "spalding1904-multi-verdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 95 mit Anm., S. 130; § 99, S. 138 · Klangvollständigkeit und melodisch begründete Verdopplung",
+          "text": "Im Dreistimmensatz sollen die Akkordtöne besonders auf starken Zeiten möglichst vollständig sein, sofern die Melodien darunter nicht leiden. Häufig lässt Spalding lieber die Quinte weg und verdoppelt den Grundton. Große Terzen empfiehlt er sparsamer zu verdoppeln als kleine, den Leitton nur sehr selten. Die Fußnote setzt jedoch die Linienführung ausdrücklich höher als eine starre Verdopplungsregel. Das nach Cherubini gegebene Beispiel vergleicht vollständige Akkorde mit einer melodisch flüssigeren Fassung. Auf S. 138 begründet Spalding sogar eine Leittonverdopplung mit dem diatonischen Verlauf und kräftiger Gegenbewegung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Übung · Akkordverteilung zugunsten der Linien",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 95 mit Anm., S. 130; § 99, S. 138 · Klangvollständigkeit und melodisch begründete Verdopplung",
+              "note": "Die Ausnahme steht ausdrücklich in § 95 und seiner Fußnote; § 99 zeigt eine Leittonverdopplung bei vorübergehendem Bezug auf die Durparallele. Eine allgemeine Freigabe beliebiger Leittonverdopplungen folgt daraus nicht."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=144",
+          "examples": [
+            "spalding-verdopplung-linien"
+          ]
+        },
+        {
+          "id": "spalding1904-free-10",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 170, S. 233 · Übung 3, Beethoven-Melodie, Stelle (a)",
+          "text": "Auch eine regelmäßig wiederkehrende Klavierfigur soll nicht ungeprüft weiterlaufen. In der Aussetzung der Beethoven-Melodie verändert Spalding bei (a) die Begleitfigur geringfügig, damit der Leitton h nicht verdoppelt wird. Die Abweichung dient der Klarheit des Satzes und erhält zugleich den Charakter der Begleitung. Das Beispiel zeigt damit einen konkreten Grund, eine mechanische Akkordbrechung anzupassen: Die Lage und Funktion des einzelnen Tons können wichtiger sein als die unveränderte Wiederholung des Musters.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Leittonverdopplung in einer freien Klavieraussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, § 170, S. 233 · Übung 3, Beethoven-Melodie, Stelle (a)",
+              "note": "Die Erläuterung unter Übung 3 nennt ausdrücklich die Vermeidung der Verdopplung des leading tone B. Der Tonname wird gemäß deutscher Benennung als h wiedergegeben. Das Notenbild und die kleine Änderung der Begleitfigur wurden vergrößert geprüft; eine allgemeine Erlaubnis oder ein vollständiges Verdopplungsverbot wird aus diesem Beispiel nicht abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=247"
+        }
+      ],
+      "relations": [
+        {
+          "from": "spalding1904-open-quartsextbass",
+          "to": "sechter1876-early-quartsext-verdopplung",
+          "type": "context",
+          "note": "Spaldings Bassverdopplung folgt aus der besonderen Erklärung des betonten Kadenzquartsextakkords als Doppelvorhalt. Sechter führt in seiner Generalbasstabelle drei vierstimmige Quartsextbesetzungen mit unterschiedlicher Verdopplung auf. Die Antworten behandeln damit eine funktional begründete Empfehlung beziehungsweise die Auswahl möglicher Besetzungen; die Tabelle allein bestreitet Spaldings konkrete Kadenzregel nicht."
+        },
+        {
+          "from": "spalding1904-multi-verdopplung",
+          "to": "schoenberg1970-a13",
+          "type": "nuance",
+          "note": "Beide gewichten die melodische Führung hoch. Spalding behält dennoch eine ausdrückliche Grundvorsicht gegenüber verdoppelten großen Terzen bei, die er in begründeten Fällen übergeht; Schönberg übernimmt eine allgemeine Bevorzugung oder ein pauschales Terzverbot gerade nicht in die vierstimmige Kontrapunktübung. Die Differenz betrifft die anfängliche Gewichtung, nicht ein absolutes Erlaubnis-Verbot-Paar."
         }
       ]
     },
@@ -25816,7 +30676,9 @@ const ATLAS = {
         "harmonik",
         "rhythmische-selbststaendigkeit",
         "speziesmischung",
-        "stimmkreuzung"
+        "stimmkreuzung",
+        "generalbass-pedal",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -25839,6 +30701,26 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-dritte-stimme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 92–93, S. 128–129 · vom zweistimmigen Gerüst zur Dreistimmigkeit",
+          "text": "Die beiden Stimmen der bisherigen Übungen gelten für Spalding harmonisch als Außenstimmen, unabhängig von ihren notierten Registern. Eine hinzutretende Mittelstimme bestimmt die zuvor nur angedeuteten Akkorde genauer. Sie soll zugleich eine eigene melodische Aufgabe erhalten und nicht bloß gemeinsame Töne festhalten. Besonders ergiebig findet er deshalb Aufgaben mit bewegter Mittelstimme oder mit dem gegebenen Thema in der Mitte: Im zweiten Fall müssen eine tragfähige Basslinie und eine gute Oberstimme zugleich erfunden werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Schreibübung · Ergänzung und Lage des Themas",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 92–93, S. 128–129 · vom zweistimmigen Gerüst zur Dreistimmigkeit",
+              "note": "§§ 92–93 erklären die neue harmonische und melodische Aufgabe der dritten Stimme; die Übungswahl wird ausdrücklich mit ihrem Nutzen für das Komponieren begründet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=142"
         }
       ]
     },
@@ -25962,6 +30844,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-21",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, § 184, S. 254–256 · phrygische Kadenzmodelle und zweite Phrase von Übung 12",
+          "text": "Spalding erläutert den phrygischen Eindruck durch den Halbton über dem Grundton und den Ganzton unter ihm. Seine Kadenzmodelle führen zu einem chromatisch aufgehellten Durakkord. Dieselbe Wendung überträgt er anschließend auf das Ende der zweiten Phrase einer G-Moll-Melodie: Die melodischen Töne entsprechen transponiert seinem phrygischen Modell. Der Ausdruck phrygisch kennzeichnet hier deshalb zunächst eine bestimmte Schlusswendung innerhalb eines größeren Zusammenhangs, nicht notwendig die Tonart des ganzen Stücks. In der Aussetzung auf S. 256 wird diese Wendung zusätzlich durch einen betonten Durchgang und eine Wechselnote in Alt und Tenor belebt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Phrygische Schlusswendung in einer modal geprägten G-Moll-Übung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, § 184, S. 254–256 · phrygische Kadenzmodelle und zweite Phrase von Übung 12",
+              "note": "S. 254 zeigt die Kadenzmodelle und erklärt die Durterz des Schlussakkords; S. 255 stellt die entsprechenden Melodietöne der G-Moll-Aufgabe daneben. S. 256 erläutert bei (d) die Figuration. Spaldings pauschale historische Aussage, der letzte Akkord sei außer im ältesten Choral stets Dur, wird nicht als allgemeines historisches Gesetz übernommen. Die Passage entscheidet nicht abstrakt zwischen allen möglichen Tonika- und Dominantdeutungen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=268"
         }
       ]
     },
@@ -26136,6 +31038,28 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-aufloesungszeit-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, §§ 87–88, S. 121–122 · normaler Auflösungspunkt und synkopierte Septime",
+          "text": "In der normalen verzierten Vorhaltsauflösung des Floridus hält Spalding am dritten Viertelschlag als Auflösungspunkt fest. Die eingeschobenen Noten ersetzen diesen Zielton nicht; außerdem sollen sie nicht bloß Vorhalt und Auflösung vorweg wiederholen. Direkt anschließend behandelt er einen besonderen Fall: Eine synkopierte kleine Septime über dem Bass kann erst im folgenden Takt aufgelöst werden. Soll ihr Verlauf verziert werden, führt die Verzierung nach oben. Die Verlängerung ist damit für einen bestimmten synkopierten Septimenfall begründet und keine allgemeine Erlaubnis, jeden Vorhalt beliebig stehenzulassen.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, §§ 87–88, S. 121–122 · normaler Auflösungspunkt und synkopierte Septime",
+              "note": "Tabellen, verworfene Auflösung und der besondere Septimenfall auf S. 121–122 visuell geprüft. § 88 spricht von einer syncopated note, nicht pauschal von jeder suspension. Die beiden Fälle werden deshalb getrennt benannt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=135"
         }
       ]
     },
@@ -26159,7 +31083,8 @@ const ATLAS = {
         "konsonanz",
         "dissonanzbehandlung",
         "generalbass-bezifferung-stimmfuehrung",
-        "vorhalt-bewegte-begleitstimme"
+        "vorhalt-bewegte-begleitstimme",
+        "generalbass-lernfolge"
       ],
       "comparisons": [],
       "authors": [
@@ -26208,6 +31133,144 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-quartsext-klangfolge",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 27–28, Übung XXXVIII (38) · Wechsel von 5 und 6/4 über längeren Basstönen",
+          "text": "Die Aussetzung von XXXVIII lässt wiederholt auf eine mit 5 bezeichnete Phase einen Quartsextklang über demselben Basston folgen. Die obere Stimmenbewegung führt hier also in die Quarte und Sexte hinein. Eine pauschale Lesart als zunächst dissonierender Vorhaltsklang, der anschließend stets zu 5/3 zurückgehen müsse, beschreibt diese notierte Reihenfolge nicht. Sechter benennt den Klang und schreibt mehrere Realisierungen aus; eine eigene verbale Dissonanzklassifikation ergänzt er an dieser Stelle nicht. Für die Analyse bleibt deshalb der einzelne Stimmenweg maßgeblich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 27–28, Übung XXXVIII (38) · Wechsel von 5 und 6/4 über längeren Basstönen",
+              "note": "Redaktionelle Beobachtung der ausdrücklich notierten Folge 5 → 6/4. Dem Beispiel wird keine allgemeine Konsonanzerklärung des Quartsextakkords und keine universelle Auflösungsregel zugeschrieben. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-01",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 32, Übung 46 (IVL), erste vierstimmige Aussetzung, T. 1–4 · zwei Fortführungen der Quartsextverbindung",
+          "text": "Die erste Aussetzung von Übung 46 zeigt zwei verschiedene Fortführungen einer Quartsextverbindung. In Takt 1 und 3 geht bei liegendem Bass die Quarte zur Terz, während die Sexte erhalten bleibt: 6/4 wird zu 6/3. In Takt 2 und 4 steigt der Bass einen Schritt und kehrt zurück; dabei entsteht die Ziffernfolge 6–6/4–6. Die gleichen Ziffern 6/4 stehen somit in verschiedenen Bewegungszusammenhängen. Zum Lesen dieser Aussetzung müssen Bassbewegung und Fortführung der Oberstimmen gemeinsam verfolgt werden.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 32, Übung 46 (IVL), erste vierstimmige Aussetzung, T. 1–4 · zwei Fortführungen der Quartsextverbindung",
+              "note": "Redaktionelle Beobachtung der notierten Stimmen, keine ausgeschriebene allgemeine Dissonanzregel. Die Sexte bleibt bei 4–3 erhalten; die Stelle ist nicht als pauschales 6–5/4–3-Modell zu beschreiben. Die historische Übungsnummer lautet IVL (= 46)."
+            }
+          },
+          "examples": [
+            "sechter-quartsext"
+          ],
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-kadenz-doppelvorhalt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 28, S. 38–40",
+          "text": "Ein betonter Quartsextakkord weckt nach Spalding eine Kadenz-Erwartung in der Tonart, deren Dominante sein Bass bildet. Diese Wirkung verstärkt sich, wenn einzelne Stimmen ihre Lage im Klang durch Sprünge erreichen. Er erklärt Quarte und Sexte als doppelten Vorhalt vor Terz und Quinte über demselben Bass: Die Akkordgestalt wird damit aus der Bewegung der Stimmen verstanden. Eine unmittelbar folgende Tonika ist nicht unvermeidlich; eine trugschlüssige oder modulierende Wendung kann die geweckte Erwartung anders beantworten. Ein unbedacht gesetzter betonter Tonikaquartsextakkord mitten in einer Phrase erzeugt dennoch leicht einen unerwünschten Schlusscharakter.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Betonter Quartsextakkord als Kadenzankündigung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 28, S. 38–40",
+              "note": "§ 28 verbindet die metrische Stellung mit der dargestellten Doppelvorhaltsdeutung. Die Notengrafik auf S. 39 und die anschließenden Ausnahmen wurden geprüft."
+            }
+          },
+          "examples": [
+            "spalding-quartsext-vorhalt"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=52"
+        },
+        {
+          "id": "spalding1904-open-unbetont-und-durchgehend",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 28–29, S. 40–43",
+          "text": "Ein Quartsextakkord auf schwacher Zeit kann als Durchgang wirken, wenn die Stimmen schrittweise verbunden sind; häufig ist die Quarte aus dem vorherigen Klang übernommen. Spalding lässt außerdem Verbindungen zwischen verschiedenen Lagen desselben Akkords und Durchgänge über gleichbleibendem Bass zu. Aufeinanderfolgende Quartsextakkorde mit springendem Bass sind dagegen besonders problematisch. Dass eine scheinbare Ausnahme nicht schematisch beurteilt werden darf, zeigt sein Mozart-Beispiel aus der Jupiter-Sinfonie: Dort trägt der schrittweise Bass den Zusammenhang. Vorbereitung, Bassbewegung und Metrum müssen gemeinsam gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Unbetonte Quartsextklänge und ihre Stimmführung",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 28–29, S. 40–43",
+              "note": "§§ 28–29 unterscheiden Durchgangsmodelle und tatsächliche Ausnahmen; Mozart wird ausdrücklich als Repertoirebeleg angeführt. Der allgemeinere tonale Rahmen von Kap. I folgt dem Vorwort S. v–vi."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=54"
+        },
+        {
+          "id": "spalding1904-two-quartsext-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 48, S. 76–77 · Akkordquinte in der unteren Gegenstimme",
+          "text": "Bei einer unteren Gegenstimme im 2:1 warnt Spalding davor, vom Grundton eines Akkords zur tieferen Quinte zu springen, während das Subject dessen Terz hält: So tritt der Eindruck einer zweiten Umkehrung hervor. Er spricht kein absolutes Verbot aus und zeigt einen möglichen Fall. Besonders bei langsamer Bewegung hält er häufige solche Wendungen für stockend; rasche Instrumentalbewegung, erläutert an Mozarts Duo für Violine und Viola, verändert die Wirkung. Für die Anfangsübung empfiehlt er weiterhin Zurückhaltung. Der Aufstieg vom Grundton zur Quinte und der Abstieg von der Quinte zum Grundton sind ausdrücklich möglich.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 48, S. 76–77 · Akkordquinte in der unteren Gegenstimme",
+              "note": "§ 48 enthält zugleich Warnung, erlaubtes Gegenbeispiel, Tempounterschied und Anfängerempfehlung. S. 76–77 visuell geprüft. Der Satz zu Mozart ist ein Repertoirevergleich, keine Übertragung aller dortigen Freiheiten auf die Anfangsübung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=90"
+        },
+        {
+          "id": "spalding1904-two-quartsext-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 60, S. 96–97 · Akkordquinte im bewegten Bass",
+          "text": "Die Quinte eines Dreiklangs ist im Bass der dritten Ordnung freier verwendbar als in Spaldings langsameren 2:1-Aufgaben. Sie kann zwischen anderen Tönen derselben Harmonie stehen, ohne als selbständige zweite Umkehrung hervorzutreten. In den als gut bezeichneten Figuren ist sie weder der höchste noch der letzte Ton der Gruppe. Besonders auffällig wird sie dagegen als Gipfel auf dem Nebenakzent. Selbst ein abwärts gerichteter Sprung zur Akkordquinte ist möglich, wenn sie auf einer leichten Position steht. Die Beurteilung richtet sich hier nach der Stellung des Tones innerhalb der ganzen Figur.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 60, S. 96–97 · Akkordquinte im bewegten Bass",
+              "note": "Text und die Beispiele a–d auf S. 97 visuell geprüft. Für die Akkordquinte lautet die Bedingung ausdrücklich weder höchster noch letzter Ton; sie darf nicht mit der auf S. 98 anders formulierten Leittonbedingung verwechselt werden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=110"
         }
       ]
     },
@@ -26278,6 +31341,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-choral-kadenzen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 113, S. 169–170 · Freue dich, o meine Seele",
+          "text": "Bei Freue dich, o meine Seele skizziert Spalding zuerst die Schlüsse an den Fermaten und arbeitet danach die übrigen Stimmen aus. Die wiederholte erste Zeile soll eine neue harmonische Wirkung erhalten: Zuerst wählt er einen plagalen Schluss in der Haupttonart, bei der Wiederholung einen authentischen Schluss in der Dominanttonart. Solche Varianten halten den Verlauf lebendig. Die Fermaten liefern hier die Stellen für die konkrete Planung; damit ist nicht schon behauptet, jede Fermate jedes Chorals müsse einen vollständig abgeschlossenen musikalischen Gedanken bezeichnen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Choralaussetzung · vorausgeplante und variierte Zeilenschlüsse",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 113, S. 169–170 · Freue dich, o meine Seele",
+              "note": "§ 113 stellt den Kadenzentwurf zur genannten Melodie ausdrücklich vor die vollständige Aussetzung; die erste Zeile erhält bei ihrer Wiederkehr einen anderen Schluss."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=183"
         }
       ]
     },
@@ -26487,6 +31570,2495 @@ const ATLAS = {
           "catalogue": true
         }
       ]
+    },
+    {
+      "id": "fugenthema-harmonik",
+      "title": "Welche Harmonie steckt schon in einem einstimmigen Fugenthema?",
+      "group": "Fuge",
+      "tags": [
+        "Thema",
+        "Harmonik",
+        "Figuration",
+        "Invention",
+        "Soggetto",
+        "Gárdonyi"
+      ],
+      "comparisons": [],
+      "related": [
+        "harmonik",
+        "fugenthema-und-kontrasubjekt-erfinden",
+        "fuge-modulierendes-thema"
+      ],
+      "reading": "Spiele das Thema zunächst einstimmig. Markiere Akkordtöne, Durchgänge und mögliche Harmoniewechsel. Prüfe anschließend, welche Lesart die hinzutretenden Stimmen bestätigen.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-thema-harmonik",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 11–12, Bsp. 1–3 · Inventionen, Sinfonie G-Dur und Orgelfuge BWV 542",
+          "text": "Auch ein zunächst allein erklingendes Fugenthema lässt sich für Gárdonyi als melodische Ausformung einer Harmonie oder einer Harmoniefolge verstehen. An Bachs Inventionen in F-Dur und d-Moll unterscheidet er die Entfaltung eines einzelnen Klangs von einer harmonischen Pendelbewegung. Komplexere Themen können Kadenzbewegungen und Sequenzen verbinden. Die Analyse fragt deshalb zugleich nach der melodisch-rhythmischen Gestalt und nach dem harmonischen Verlauf, den sie hörbar macht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 11–12, Bsp. 1–3 · Inventionen, Sinfonie G-Dur und Orgelfuge BWV 542",
+              "note": "Die Aussage wird an ausdrücklich bezeichneten Inventionen, einer Sinfonie und einer Orgelfuge Bachs entwickelt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-thema-motive",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 12, Bsp. 4–5 · Themen aus WTK I E-Dur und WTK II d-Moll",
+          "text": "Ein Fugenthema muss für Gárdonyi nicht aus einem einzigen gleichförmigen Motiv bestehen. Mehrere unmittelbar aufeinanderfolgende Gedanken können sich durch lange und kurze Werte, Schritte und Sprünge ergänzen. Pausen, Wiederholungen, Haltetöne und Sequenzen wirken ebenfalls an seiner Gliederung mit. Die gegensätzlichen Teilgestalten bleiben dabei in den harmonischen Zusammenhang des ganzen Themas eingebunden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 12, Bsp. 4–5 · Themen aus WTK I E-Dur und WTK II d-Moll",
+              "note": "Gárdonyi beschreibt unterschiedliche thematische Gestalten anhand konkret genannter Fugen Bachs."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fugenthema-beginn",
+      "title": "Auf welcher Stufe und Taktzeit beginnt ein Fugenthema?",
+      "group": "Fuge",
+      "tags": [
+        "Anfangston",
+        "Tonika",
+        "Dominante",
+        "Auftakt",
+        "Akzent",
+        "Themenkopf"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-antwortintervall",
+        "fuge-reale-tonale-antwort",
+        "fugenthema-umfang"
+      ],
+      "reading": "Vergleiche Anfangston und metrische Stellung mehrerer Themen. Untersuche bei späteren Einsätzen, ob Bach den ersten Notenwert verkürzt und wie das Thema an die vorausgehende Stimme anschließt.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-thema-anfang",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 13 · Anfangston und metrische Stellung bachischer Fugenthemen",
+          "text": "Bei den untersuchten Bach-Themen liegt der Anfang meist auf der ersten oder fünften Stufe; Gárdonyi nennt aber auch benachbarte Anfangstöne als Ausnahmen. Sowohl betonte als auch unbetonte Anfänge kommen vor. Ein unbetonter Beginn lässt sich im weiteren Verlauf leichter an vorausgehendes Material anschließen. Deshalb kann Bach bei einem ursprünglich betonten Thema den ersten Notenwert später verkürzen. Aus dieser Beschreibung folgt keine allgemeine Pflicht zu einem bestimmten Anfangston oder Auftakt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 13 · Anfangston und metrische Stellung bachischer Fugenthemen",
+              "note": "Die Seite behandelt Typen bachischer Fugenthemen und nennt unter anderem BWV 574 sowie Beispiele aus beiden WTK-Bänden."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fugenthema-umfang",
+      "title": "Wie weit reicht ein Fugenthema und wo liegt sein Höhepunkt?",
+      "group": "Fuge",
+      "tags": [
+        "Ambitus",
+        "Tonumfang",
+        "Höhepunkt",
+        "Fugenthema",
+        "Stimmenzahl"
+      ],
+      "comparisons": [],
+      "related": [
+        "fugenthema-beginn",
+        "hoehepunkt",
+        "fuge-exposition"
+      ],
+      "reading": "Markiere höchsten und tiefsten Ton sowie den Anfangston. Vergleiche den Ambitus mit Stimmenzahl, Bewegungsart und verfügbarer Lage; behandle die Repertoirebeobachtung nicht als Entwurfsverbot.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-thema-umfang",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 1, S. 13 · Tonumfang, Stimmenzahl und melodische Grenzen",
+          "text": "Die von Gárdonyi angeführten Themen reichen von einer verminderten oder reinen Quarte bis zur Undezime; das Choraltrio BWV 688 erreicht sogar eine Tredezime. Engere Themen mit längeren Werten findet er häufiger in vier- und fünfstimmigen Sätzen, weitere und bewegtere Themen überwiegend in Sätzen mit höchstens drei Stimmen. Als häufige obere Grenze nennt er die sechste Stufe, als untere den Leitton. Das sind Beobachtungen am Bach-Repertoire, keine verbindliche Ambitusnorm für jede Fuge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 1, S. 13 · Tonumfang, Stimmenzahl und melodische Grenzen",
+              "note": "Die Spannweiten und Häufigkeitsaussagen beziehen sich auf ausdrücklich genannte Fugen und das Choraltrio BWV 688."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-gegenbewegung-spiegel",
+      "title": "Was unterscheidet eine Gegenfuge von einer Spiegelfuge?",
+      "group": "Fuge",
+      "tags": [
+        "Gegenfuge",
+        "Spiegelfuge",
+        "Umkehrung",
+        "rectus",
+        "inversus",
+        "Kunst der Fuge"
+      ],
+      "comparisons": [],
+      "related": [
+        "kanon-verfahren",
+        "spiegelumkehr-stimmenpaar",
+        "fuge-antwortintervall"
+      ],
+      "reading": "Prüfe zuerst, ob nur die Antwort oder ein ganzer Satz gespiegelt wird. Vergleiche danach Tonhöhenrichtung, rhythmische Gestalt und die harmonische Einrichtung der umgekehrten Fassung.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-gegenfuge",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 22–23, Bsp. 20 · Gegenfuge, Contrapunctus V–VII",
+          "text": "Bei der Gegenfuge betrifft die Umkehrung zunächst die Antwort: Der Comes kehrt die Intervallrichtungen des Dux um, und beide Themenformen bleiben im weiteren Satz verwendbar. In Contrapunctus V zeigt Gárdonyi eine Achse auf der Terz zwischen Grundton und Quinte; dadurch werden erste und fünfte Stufe aufeinander bezogen. In Contrapunctus VI und VII kommen rhythmische Veränderungen hinzu. Für VII unterscheidet er insgesamt sechs Formen: Grundgestalt und Umkehrung jeweils in ursprünglichen, vergrößerten und verkleinerten Werten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 22–23, Bsp. 20 · Gegenfuge, Contrapunctus V–VII",
+              "note": "Die Erklärung stützt sich auf die Gegenfugen V–VII aus Bachs Kunst der Fuge."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-open-spiegelfuge",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 2, S. 23 · vollständige Spiegelpaare in der Kunst der Fuge",
+          "text": "Eine Spiegelfuge bezeichnet bei Gárdonyi dagegen ein Paar vollständiger Sätze: Der Inversus kehrt den gesamten Intervallverlauf des Rectus um. Eine Gegenfuge und eine Spiegelfuge können zusammenfallen, sind aber verschiedene Begriffe. Das Spiegeln betrifft auch die harmonische Richtung: Eine Dominanttendenz kann zur Subdominanttendenz werden. Gárdonyi erläutert deshalb zugleich, wie einzelne chromatische Veränderungen die umgekehrte Fassung tonal einrichten. Seine Nummern XVI–XVIII folgen der im Band verwendeten Graeser-Zählung und sind nicht ungeprüft auf andere Ausgaben zu übertragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 2, S. 23 · vollständige Spiegelpaare in der Kunst der Fuge",
+              "note": "Die Passage untersucht drei Spiegelpaare der Kunst der Fuge und deren harmonische Konsequenzen; die Editionszählung wird im Buch auf S. 82 ausdrücklich ausgewiesen."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "dreifacher-kontrapunkt",
+      "title": "Was setzt dreifacher Kontrapunkt voraus, und wie viele Anordnungen braucht er?",
+      "group": "Stimmführung",
+      "tags": [
+        "dreifacher Kontrapunkt",
+        "Permutationen",
+        "Stimmtausch",
+        "Kontrasubjekt"
+      ],
+      "comparisons": [],
+      "related": [
+        "doppelter-kontrapunkt",
+        "fuge-kontrasubjekt",
+        "fuge-exposition",
+        "fuge-tripelfuge",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge",
+        "vierfacher-kontrapunkt"
+      ],
+      "reading": "Bezeichne die drei Linien mit A, B und C. Notiere ihre vertikale Reihenfolge bei jedem Wiedererscheinen. Prüfe für jedes Paar den Lagentausch und unterscheide ihn von der Zahl tatsächlich verwendeter Gesamtanordnungen.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-open-dreifacher-kontrapunkt",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 3, S. 36–37 · WTK I f-Moll und Orgelfuge BWV 538",
+          "text": "Für dreifachen Kontrapunkt muss jede der drei beteiligten Linien zu jeder anderen in doppeltem Kontrapunkt stehen. Aus drei Materialien ergeben sich sechs mögliche vertikale Anordnungen, doch Gárdonyi verlangt nicht, dass sie im Stück sämtlich erklingen. Zwei passend gewählte Phasen können bereits den Lagentausch aller drei Paare zeigen. An BWV 538 verfolgt er vier unterschiedliche Anordnungen von Thema und zwei Kontrasubjekten. Die Zahl verwendeter Anordnungen und die paarweise Vertauschbarkeit sind getrennt zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugenstrukturen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 3, S. 36–37 · WTK I f-Moll und Orgelfuge BWV 538",
+              "note": "Die Prüfung der Vertauschbarkeit wird an konkreten Themenphasen zweier Bach-Fugen entwickelt."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 50–51 · dreifacher Kontrapunkt in der Sinfonia D-Dur",
+          "text": "Stehen Thema und zwei Kontrasubjekte jeweils paarweise im doppelten Kontrapunkt, ergibt sich dreifacher Kontrapunkt. Gárdonyi verfolgt in Bachs Sinfonia D-Dur alle sechs möglichen vertikalen Anordnungen dieser drei Gestalten. Zuerst wechseln alle drei ihre Position im Kreis; später werden gegenüber der ersten vollständigen Kombination jeweils nur zwei vertauscht. Die Zahl von drei gleichzeitig vorhandenen Gestalten und die konkrete Folge ihrer Anordnungen sind damit zwei verschiedene analytische Aufgaben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Mehrfacher Kontrapunkt in Bachs Sinfonien",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 50–51 · dreifacher Kontrapunkt in der Sinfonia D-Dur",
+              "note": "Die Seite erklärt den dreifachen Kontrapunkt aus den drei Paarbeziehungen und zeigt die sechs Anordnungen im Materialplan der Sinfonia D-Dur."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 52–53 · Fis-Dur-Fuge WTK I",
+          "text": "Zwei Kontrasubjekte bedeuten für Gárdonyi noch keinen dreifachen Kontrapunkt. In der Fis-Dur-Fuge WTK I ist das erste Kontrasubjekt mit dem Thema in der Oktave und in der Duodezime vertauschbar. Das zweite entsteht aus Material des ersten Zwischenspiels und begleitet nur bestimmte spätere Themeneinsätze. Weil die beiden Kontrasubjekte untereinander keine Beziehung im doppelten Kontrapunkt eingehen, beschreibt Gárdonyi hier keinen dreifachen Kontrapunkt. Zu prüfen sind alle Paarbeziehungen, nicht nur die Zahl der wiederkehrenden Gegenstimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 52–53 · Fis-Dur-Fuge WTK I",
+              "note": "Gárdonyi begründet die fehlende Beziehung im dreifachen Kontrapunkt ausdrücklich mit der nicht vorliegenden Vertauschung zwischen den beiden Kontrasubjekten."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-4",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 51 und 56 · wiederkehrende Anordnungen und wechselnde Tonarten",
+          "text": "Nicht jede neue Themenphase braucht eine neue vertikale Anordnung. Für die neun dreistimmigen Phasen der Sinfonia f-Moll zählt Gárdonyi nur vier verschiedene Anordnungen. Wiederholt sich eine Kombination, wird ihr häufig eine andere Tonart zugewiesen. Auch im Thema fugatum der Passacaglia BWV 582 wechseln Tonart und Stimmenverteilung gegeneinander: Gleiche Anordnungen erscheinen in unterschiedlichen Tonarten, gleiche Tonarten mit anders verteiltem Material. Der Stimmtausch trägt so zusammen mit der Tonartenfolge zur Gestaltung des Verlaufs bei.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonartenplan und Stimmtausch bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 51 und 56 · wiederkehrende Anordnungen und wechselnde Tonarten",
+              "note": "Die Materialpläne der Sinfonia f-Moll und des Thema fugatum setzen wiederholte Stimmenanordnungen ausdrücklich zur Tonartenfolge in Beziehung."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-doppelter-kontrapunkt-5",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 5, S. 61–63, Bsp. 50–52 · As-Dur-Fuge WTK II",
+          "text": "Mehrfacher Kontrapunkt kann schon innerhalb eines kurzen Zwischenspiels entstehen. In der As-Dur-Fuge WTK II tauschen zunächst zwei Oberstimmen ihre Motive, während der Bass eine eigene Bewegung trägt. Ein weiteres Zwischenspiel kombiniert drei Motive so, dass sie im Abstand von anderthalb Takten durch die drei Stimmen wandern. Jedes Motiv erscheint einmal oben, in der Mitte und unten. Gárdonyi erkennt daran drei paarweise Beziehungen im doppelten Kontrapunkt und damit einen dreifachen Kontrapunkt innerhalb weniger Takte.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 5, S. 61–63, Bsp. 50–52 · As-Dur-Fuge WTK II",
+              "note": "Die Seite unterscheidet den Tausch zweier Oberstimmen in Bsp. 50–51 vom dreistimmigen Wechsel aller Materialien in Bsp. 52 und gibt dessen Abstand an."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-dreifacher-bassprobe",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 144, S. 208; §§ 147–148, S. 209–211 · sechs mögliche Anordnungen",
+          "text": "Drei vertauschbare Melodien ergeben sechs vertikale Anordnungen, die nach Spalding nicht alle in einer Komposition verwendet werden müssen. Bei der Prüfung soll jedoch jede Linie einmal als Bass dienen. Besonders die bisherige Akkordquinte braucht Aufmerksamkeit, weil sie unten neue Quartsext- oder Terzquartklänge erzeugt. Spalding empfiehlt ihre sparsame und meist schrittweise Einführung, verbietet sie aber nicht grundsätzlich. Sein Händel-Beispiel aus Hercules verdeutlicht den Unterschied zwischen Möglichkeit und Verwendung: Alle sechs Lagen seien brauchbar, im Werk würden vier genutzt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreifacher Kontrapunkt · Bassprobe und Auswahl der tatsächlich verwendeten Lagen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 144, S. 208; §§ 147–148, S. 209–211 · sechs mögliche Anordnungen",
+              "note": "§ 144 fordert die Prüfung jeder Linie als Bass; §§ 147–148 unterscheiden mögliche und im Repertoire verwendete Anordnungen. S. 213 präzisiert nochmals, dass die Quinte nicht vollständig vermieden werden soll."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=222"
+        },
+        {
+          "id": "spalding1904-multi-sextakkordkette",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 145, S. 208–209 · parallel geführte Sextakkorde",
+          "text": "Die in § 145 gezeigte parallele Sextakkordfolge eignet sich für Spalding nicht als vollständig dreifach vertauschbare Verbindung. In einer anderen Anordnung entstehen aus den ursprünglichen Beziehungen parallele Quinten. Damit reicht es nicht, dass die Ausgangslage für sich gut klingt oder ein einzelnes oberes Stimmenpaar getauscht werden kann. Die mögliche Bassfunktion und sämtliche betroffenen Paarbeziehungen müssen für die verlangten Anordnungen mitgeprüft werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreifache Vertauschungsübung · Sextakkordkette und entstehende Quinten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 145, S. 208–209 · parallel geführte Sextakkorde",
+              "note": "Die gedruckte kleine Tafel zeigt die betreffende parallele Sextakkordfolge; S. 209 nennt die entstehenden Quintparallelen als Ausschlussgrund. Die Aussage wird nicht auf jede denkbare Folge zweier Sextakkorde ausgedehnt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=222"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-tonartenplan",
+      "title": "Welche Tonarten erreichen die späteren Themeneinsätze einer Fuge?",
+      "group": "Fuge",
+      "tags": [
+        "Tonartenplan",
+        "Modulation",
+        "Themenphase",
+        "Dominante",
+        "Subdominante",
+        "Paralleltonart",
+        "Gárdonyi",
+        "piani tonali"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-exposition",
+        "fuge-schlussrueckkehr",
+        "fuge-zwischenspiel",
+        "tonart-und-region",
+        "fuge-themenverwandlung"
+      ],
+      "reading": "Trage die Tonart jeder vollständigen Themenphase ein. Bestimme sie aus dem ganzen Verlauf und seinen Gegenstimmen. Notiere Tonartberührungen in Zwischenspielen gesondert, damit der Plan der Themeneinsätze erkennbar bleibt.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-dev-fuge-tonartenplan-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 39–40, Anm. 29 · Grundtonart und fünf Nachbartonarten",
+          "text": "Für die Tonarten der Themeneinsätze beschreibt Gárdonyi eine häufige Richtung: Zunächst dominieren Grundtonart und Dominante mit ihren Paralleltonarten; Subdominante und deren Parallele treten eher in der zweiten Hälfte oder im letzten Drittel hervor. Längere Verläufe können den subdominantischen Bereich schon um die Mitte erreichen. Kürzere Sätze durchlaufen nicht notwendig den ganzen Bereich aus Grundtonart und fünf Nachbartonarten. Der Plan beschreibt wiederkehrende Dispositionen bei Bach, ohne jede verfügbare Tonart zur Pflichtstation zu machen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonarten der Themeneinsätze bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 39–40, Anm. 29 · Grundtonart und fünf Nachbartonarten",
+              "note": "Die Passage bezeichnet die Tonartenfolge als stilistisch charakteristisch und erläutert an Bachs Sinfonia D-Dur, dass nicht alle verfügbaren Bereiche erreicht werden."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-tonartenplan-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 40, Anm. 31 · Tonart eines Themeneinsatzes",
+          "text": "Der Anfangston eines späteren Themeneinsatzes bestimmt dessen Tonart nicht allein. Auch wenn der erste Dux auf der Tonika begonnen hat, muss der Anfangston späterer Fassungen nicht jeweils die neue Tonika sein. Gárdonyi verlangt, die Harmonisierung des Einsatztons und mögliche Modulationen innerhalb der Themenphase gemeinsam zu betrachten. Erst dieser Zusammenhang zeigt die tonale Richtung des Einsatzes. Eine Tonartenkarte, die nur die ersten Thementöne verzeichnet, kann deshalb irreführen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonarten der Themeneinsätze bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 40, Anm. 31 · Tonart eines Themeneinsatzes",
+              "note": "Die Anmerkung warnt ausdrücklich davor, Tonart und Anfangston gleichzusetzen, und verweist auf Harmonisierung und Modulation im Verlauf der Themenphase."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-tonartenplan-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 41 · abweichende Dispositionen der Themeneinsätze",
+          "text": "Gárdonyis Tonartenplan lässt unterschiedliche Reichweiten zu. Die Themeneinsätze in BWV 533 und BWV 564 bleiben im Bereich von Tonika und Dominante. In BWV 565 führt schon die Beantwortung eine Quinte tiefer nach g-Moll; später kommt c-Moll hinzu, während ein Einsatz auf der Dominante ausbleibt. Umgekehrt überschreiten einzelne Fugen den gewöhnlichen Nachbartonartenbereich nach oben: BWV 532 erreicht cis-Moll ab Takt 80, BWV 903 h-Moll ab Takt 66. Gemeint sind hier die Tonarten der Themenphasen, nicht sämtliche harmonischen Stationen der Zwischenspiele.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Tonarten der Themeneinsätze bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 41 · abweichende Dispositionen der Themeneinsätze",
+              "note": "Der Abschnitt nennt diese Werke als begrenzte, subdominantisch ausgerichtete beziehungsweise erweiterte Fälle innerhalb seiner Untersuchung der thematischen Tonartenfolge."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-themenverwandlung",
+      "title": "Wie kann sich ein Fugenthema im weiteren Verlauf verändern?",
+      "group": "Fuge",
+      "tags": [
+        "Themenverwandlung",
+        "Transformation",
+        "Dux",
+        "Comes",
+        "Transposition",
+        "Pedal",
+        "Anschluss",
+        "Gárdonyi",
+        "trasformazioni"
+      ],
+      "comparisons": [],
+      "related": [
+        "kanon-verfahren",
+        "fuge-engfuehrung",
+        "fuge-themenende",
+        "fuge-tonartenplan",
+        "fuge-kontrasubjekt"
+      ],
+      "reading": "Lege die erste Themengestalt neben spätere Einsätze. Markiere veränderte Töne, Notenwerte, Anfangs- und Schlussstellen. Prüfe, welche Veränderungen aus Harmonik, Engführung oder Instrumentallage hervorgehen.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-1",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 41 · Benennung späterer Themenformen",
+          "text": "Auch nach Exposition und Gegenexposition unterscheidet Gárdonyi die Gestalten des Themas genau. Dux und Comes heißen spätere Fassungen dann, wenn Tonart und Intervallgestalt mit einer entsprechenden Form der Exposition übereinstimmen. Andernfalls bezeichnet er das Thema als transponiert oder verändert. Damit benennt ein späterer Einsatz nicht schon deshalb wieder einen Comes, weil er als nächster auf einen anderen Einsatz folgt; maßgeblich bleibt der Vergleich mit den anfänglichen Themenformen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 41 · Benennung späterer Themenformen",
+              "note": "Die Passage legt die Begriffe ausdrücklich für spätere Phasen von Bachs Fugen fest und trennt Übereinstimmung, Transposition und Veränderung."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-2",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 42–43, Bsp. 31–33 · melodische Anpassungen an Tonart und Harmonie",
+          "text": "Beim Wechsel zwischen Dur- und Mollbereichen können sich die Intervallweiten eines Fugenthemas ändern. Weitere Varianten entstehen, wenn Dux- und Comesgestalt miteinander verbunden werden oder einzelne Töne an die aktuelle Harmonie angepasst werden. Gárdonyi erläutert dies an der g-Moll-Fuge des ersten Wohltemperierten Klaviers, am Contrapunctus I und an den Engführungen der C-Dur-Fuge WTK I. Die veränderte Themenlinie soll jeweils zusammen mit den übrigen Stimmen gelesen werden: Ihr harmonischer Zusammenhang erklärt die Abweichung von der ersten Gestalt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 42–43, Bsp. 31–33 · melodische Anpassungen an Tonart und Harmonie",
+              "note": "Die gedruckten Beispiele verfolgen ausdrücklich das Verhältnis veränderter Themenformen zu Harmonik, Tonart und Engführung in den genannten Bach-Werken."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-3",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44, Bsp. 34 · Pedalfassungen in BWV 542 und BWV 552",
+          "text": "Eine veränderte Themen- oder Kontrasubjektgestalt kann auch durch die Spieltechnik entstehen. Der zweite Gegenkontrapunkt der g-Moll-Orgelfuge BWV 542 erhält im Pedal eine andere Intervallanordnung als zuvor im Manual. Im Es-Dur-Präludium BWV 552 werden bei Pedaleinsätzen des dritten Themas aufsteigende Sechzehntelschritte durch eingeschobene Sprungtöne in eine gestufte Linie verwandelt. Gárdonyi behandelt solche Fassungen als instrumentengerechte Arbeit am wiedererkennbaren Material.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Instrumentengerechte Themenführung bei Bach",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44, Bsp. 34 · Pedalfassungen in BWV 542 und BWV 552",
+              "note": "Die Passage nennt die Pedaltechnik ausdrücklich als Anlass der Veränderungen und unterscheidet die Orgelfuge BWV 542 vom fugierten Material des Präludiums BWV 552."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-dev-fuge-themenverwandlung-4",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "locator": "Kap. 4, S. 44–45 · Anfang und Ende des Themas im Anschluss",
+          "text": "Anfang und Ende eines Themas können sich leicht ändern, damit die Linie an vorausgehende und folgende Motive derselben Stimme anschließt. Häufig wird dafür ein ursprünglich betonter Anfangston verkürzt. Die umgekehrte Veränderung ist ebenfalls möglich: In der C-Dur-Fuge WTK I gewinnt ein unbetonter Anfangston durch Verdoppelung seiner Dauer eine betonte metrische Stellung, wie Gárdonyi für Takt 17 festhält. Der Themenvergleich muss deshalb auch den Anschluss und die metrische Lage einbeziehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 4, S. 44–45 · Anfang und Ende des Themas im Anschluss",
+              "note": "Gárdonyi verbindet kleine melodische und rhythmische Änderungen ausdrücklich mit dem Anschluss innerhalb derselben Stimme und nennt den metrischen Gegenfall."
+            }
+          },
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-tripelfuge",
+      "title": "Wie werden drei Themen zu einer Tripelfuge verbunden?",
+      "group": "Fuge",
+      "tags": [
+        "Tripelfuge",
+        "drei Themen",
+        "dreifacher Kontrapunkt",
+        "Synthese",
+        "fis-Moll",
+        "BWV 552",
+        "Contrapunctus VIII",
+        "Contrapunctus XI"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-doppelfuge",
+        "fuge-quadrupelfuge",
+        "doppelter-kontrapunkt",
+        "fuge-kontrasubjekt",
+        "fuge-form-und-gattung",
+        "dreifacher-kontrapunkt"
+      ],
+      "reading": "Markiere jedes Thema mit einer eigenen Farbe. Trenne seine selbstständigen Einsätze, Paarverbindungen und die Vereinigung aller drei. Prüfe erst danach, ob dieselben Linien auch in vertauschten Lagen erhalten bleiben.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-06",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 71 · Tripelfuge und abschließende Synthese",
+          "text": "In der mehrteiligen Tripelfuge werden drei Themen häufig zunächst einzeln, dann paarweise und schließlich gemeinsam verarbeitet. Das erste Thema besitzt bei Gárdonyi besonderes Gewicht: Es eröffnet den Satz und verbindet sich später mit den anderen. Für den dreifachen Kontrapunkt der abschließenden Synthese muss jedes der drei Themen mit jedem der beiden anderen im doppelten Kontrapunkt stehen. Die Zahl der Themen beschreibt dabei eine formale Aufgabe; die freie Vertauschbarkeit ihrer konkreten Fassungen ist zusätzlich am Notentext zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 6, S. 71 · Tripelfuge und abschließende Synthese",
+              "note": "Gárdonyi erläutert das Modell innerhalb seiner Analyse von Bachs mehrthematischen Fugen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-07",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 71–73 · fis-Moll-Fuge WTK II, Materialplan mit sechs Abschnitten",
+          "text": "Die fis-Moll-Fuge des zweiten WTK-Bands gliedert Gárdonyi nach sechs Materialkonstellationen: A ab Takt 1, B ab Takt 20, A mit B ab Takt 29, C ab Takt 36, A mit C ab Takt 52 und schließlich A mit B und C ab Takt 55. Die letzte Vereinigung beginnt mit der Rückkehr der Grundtonart. Die dortigen drei Themenphasen stehen in dreifachem Kontrapunkt. Eine solche Materialgliederung zählt weder automatisch alle Zwischenspiele als eigene Formteile noch setzt sie für jedes neue Thema dieselbe Länge voraus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 71–73 · fis-Moll-Fuge WTK II, Materialplan mit sechs Abschnitten",
+              "note": "Die Tabelle auf S. 73 unterscheidet ausdrücklich Materialabschnitte von Zwischenspielen in Bachs fis-Moll-Fuge."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-08",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 74–75 · Es-Dur-Orgelfuge BWV 552",
+          "text": "In BWV 552 wechseln mit den thematischen Abteilungen auch die Taktarten 4/2, 6/4 und 12/8. Das erste Thema passt seine rhythmische Gestalt an den neuen Rahmen an. Am Ende hört Gárdonyi eine Synthese dreier Themen, obwohl vom zweiten vor allem dessen bewegter Rhythmus im Manualsatz erhalten bleibt. Wegen dieser Varianten spricht er ausdrücklich nicht von einem vollständig verwirklichten dreifachen Kontrapunkt. Eine hörbare Vereinigung dreier Charaktere und ein genauer Lagentausch dreier unverändert erhaltener Linien sind damit verschiedene Prüffragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 74–75 · Es-Dur-Orgelfuge BWV 552",
+              "note": "Der Text benennt an Bachs BWV 552 sowohl die thematische Synthese als auch die Grenze ihrer exakten kontrapunktischen Vertauschbarkeit."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-09",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 75–76 · Contrapunctus VIII und XI der Kunst der Fuge",
+          "text": "Die Tripelfugen Contrapunctus VIII und XI folgen bei Gárdonyi verschiedenen Materialplänen. Im VIII. Satz erscheinen erstes und zweites Thema bereits gemeinsam, bevor das dritte selbstständig exponiert wird; die Vereinigung aller drei setzt erst ab Takt 148 ein. Der XI. Satz arbeitet dagegen früh mit Themenumkehrungen und erreicht seine dreifache Synthese ab Takt 101. Außerdem sind die Themen beider Sätze zyklisch aufeinander bezogen: Die umgekehrten Themen 1 und 2 des VIII. Satzes werden zu den Themen 2 und 3 des XI., sein umgekehrtes drittes Thema zum ersten. Tripelfuge bezeichnet hier kein unveränderliches Abfolgeformular.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 75–76 · Contrapunctus VIII und XI der Kunst der Fuge",
+              "note": "Die beiden Formtabellen und der anschließende Vergleich beziehen sich auf Bachs dreistimmigen Contrapunctus VIII und vierstimmigen Contrapunctus XI."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-12",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 76 · Confiteor der h-Moll-Messe",
+          "text": "Auch ein Cantus firmus kann innerhalb einer dreithematischen Anlage eine eigene Themenrolle übernehmen. Gárdonyi beschreibt das Confiteor der h-Moll-Messe als fünfstimmige Fugenstruktur mit drei Themen, von denen das letzte ein augmentierter Cantus firmus ist. Er nennt daneben Engführungen des ersten Themas und einen Quintkanon zwischen Bass und Alt beim dritten Material. Stimmenzahl, Themenzahl und kanonisch gebundene Stimmen müssen deshalb getrennt erfasst werden: Fünfstimmiger Satz bedeutet hier weder fünf Themen noch einen Kanon aller fünf Stimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 76 · Confiteor der h-Moll-Messe",
+              "note": "Der Absatz behandelt die Verbindung von Cantus firmus, Kanon und dreithematischer Anlage in Bachs Confiteor."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-quadrupelfuge",
+      "title": "Wann ist eine Fuge mit vier thematischen Gestalten eine Quadrupelfuge?",
+      "group": "Fuge",
+      "tags": [
+        "Quadrupelfuge",
+        "vier Themen",
+        "vierfacher Kontrapunkt",
+        "Kunst der Fuge",
+        "unvollendete Fuge",
+        "BACH",
+        "Contrapunctus XIX"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-tripelfuge",
+        "fuge-doppelfuge",
+        "fuge-kontrasubjekt",
+        "doppelter-kontrapunkt",
+        "fuge-permutationsfuge",
+        "dreifacher-kontrapunkt",
+        "vierfacher-kontrapunkt"
+      ],
+      "reading": "Zähle profilierte Motive und formtragende Themen getrennt. Suche die Stellen, an denen die Themen zusammentreffen, und kennzeichne bei unvollendeten Werken, was im Notentext steht und was eine Rekonstruktion voraussetzt.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-10",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 75 · chromatisches Kontrasubjekt in Contrapunctus XI",
+          "text": "Ein zusätzliches profiliertes Kontrasubjekt macht eine Tripelfuge noch nicht zur Quadrupelfuge. Gárdonyi zählt das chromatische Gegenmaterial ab Takt 28 des Contrapunctus XI nicht als viertes Thema, weil es kein Bestandteil der späteren Synthesephasen wird. Entscheidend ist hier die Rolle im formalen Zusammenhang und in der Vereinigung der Themen. Die bloße Zahl unterscheidbarer melodischer Gestalten reicht für diese Gattungsbezeichnung nicht aus.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 75 · chromatisches Kontrasubjekt in Contrapunctus XI",
+              "note": "Die Abgrenzung wird ausdrücklich am formalen Verhalten des chromatischen Gegenmaterials in Bachs Contrapunctus XI getroffen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-11",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 6, S. 76 · unvollendete Fuge der Kunst der Fuge, bei Gárdonyi „Contrapunctus XIX“",
+          "text": "Gárdonyi vermutet für die unvollendete Schlussfuge eine geplante vierte Themenvereinigung. Im erhaltenen Satz verfolgt er zunächst drei Themen, darunter B–A–C–H, und zuletzt ihre gemeinsame Verbindung. Als möglichen weiteren Schritt nimmt er das Hinzutreten des Hauptthemas des ganzen Zyklus an. Erst wenn alle vier Themen dabei paarweise vertauschbar wären, ergäbe sich vierfacher Kontrapunkt. Der vierte Themenkomplex ist hier eine Annahme über die nicht erhaltene Fortsetzung, kein bereits ausgeführter Abschnitt des überlieferten Satzes. Die Nummer XIX folgt der im Buch benutzten Graeser-Ausgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 6, S. 76 · unvollendete Fuge der Kunst der Fuge, bei Gárdonyi „Contrapunctus XIX“",
+              "note": "Gárdonyi formuliert die vierte Vereinigung bei diesem Bach-Fragment selbst hypothetisch; der Werkbezug trägt die Stilzuordnung."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-permutationsfuge",
+      "title": "Wie verbindet eine Permutationsfuge feste Motivfolgen mit wechselnden Stimmlagen?",
+      "group": "Fuge",
+      "tags": [
+        "Permutationsfuge",
+        "Chorfuge",
+        "Vokalfuge",
+        "Motivfolge",
+        "Permutation",
+        "Johannes-Passion",
+        "BWV 21",
+        "Werner Neumann"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-kanonische-fuge",
+        "fuge-exposition",
+        "fuge-kontrasubjekt",
+        "doppelter-kontrapunkt",
+        "fuge-form-und-gattung",
+        "dreifacher-kontrapunkt",
+        "fuge-quadrupelfuge",
+        "vierfacher-kontrapunkt"
+      ],
+      "reading": "Nummeriere die aufeinanderfolgenden Motive einer Stimme. Lies anschließend dieselben Nummern senkrecht durch den Satz. Welche Anordnungen kehren wieder, und wie viele verschiedene Motive erklingen jeweils gleichzeitig?",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-13",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 77 · Definition der Permutationsfuge in Bachs Vokalmusik",
+          "text": "Die Permutationsfuge verbindet bei Gárdonyi eine kanonisch festgehaltene Folge mehrerer Motive mit dem für die Fuge charakteristischen Wechsel von Dux- und Comesgestalt. Die nachfolgenden Stimmen übernehmen die ganze zunächst vorgestellte Materialfolge; Codetten und Zwischenspiele lösen sie nicht in frei umgebildete Abschnitte auf. Durch die versetzten Einsätze stehen die Motive nacheinander in einer Stimme und gleichzeitig in verschiedenen Stimmlagen. Der Name beschreibt somit die wechselnde vertikale Kombination eines zusammengehörigen Vorrats, nicht beliebige Umstellungen der Motivfolge innerhalb jeder Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 7, S. 77 · Definition der Permutationsfuge in Bachs Vokalmusik",
+              "note": "Die Begriffsbestimmung steht im Abschnitt über Bachs vokale Permutationsfugen und deren Verbindung von Kanon- und Fugentechnik."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-14",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 77 · Textbindung, Tonumfang und formale Anlage der Vokalfuge",
+          "text": "Gárdonyi erklärt die besondere Anlage der Vokalfuge auch aus der Textvertonung. Eine instrumentale Motivabspaltung lässt sich nicht bedenkenlos auf gesungene Wörter übertragen: Der entsprechende sprachliche Ausschnitt könnte seinen Sinn verlieren. Außerdem begrenzen die Stimmlagen den Tonartweg anders als bei Instrumenten, und die Gliederung des Textes steht in Beziehung zur Zahl der Themen. Diese Überlegungen erläutern den Rahmen seiner Permutationsanalysen; sie sind kein allgemeines Verbot motivischer Arbeit in jeder Chorfuge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 7, S. 77 · Textbindung, Tonumfang und formale Anlage der Vokalfuge",
+              "note": "Die Passage stellt ausdrücklich kompositionstechnische Bedingungen von Bachs Vokalfugen denen instrumentaler Fugen gegenüber."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-15",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 77–79 · „Lasset uns den nicht zerteilen“, Johannes-Passion",
+          "text": "Gárdonyi zerlegt die fortlaufende Vokallinie in fünf rhythmisch kontrastierende Motive: Tonwiederholungen in Achteln, Synkopen, schrittweise Achtelbewegung, Sechzehntel und Viertel. Die vier Chorstimmen imitieren einander im Abstand eines Taktes, sodass höchstens vier dieser fünf Motive gleichzeitig erklingen. Würde man die ganze sechstaktige Folge als einziges Thema zählen, erschiene der Satz als fortgesetzte Engführung. Für Gárdonyis Analyse macht die getrennte Nummerierung deutlicher, wie kanonische Folge und wechselnde kontrapunktische Kombination zusammenwirken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 77–79 · „Lasset uns den nicht zerteilen“, Johannes-Passion",
+              "note": "Die fünf Motive und ihre Überlagerung werden an einer konkreten Chorfuge aus Bachs Johannes-Passion untersucht."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-17",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 80–81 · Kantate BWV 21, „dass er meines Angesichtes Hülfe und mein Gott ist“",
+          "text": "Die Permutationsanlage kann zugleich einen Wechsel der Besetzung organisieren. In Gárdonyis Analyse von BWV 21 folgen auf die Phasen des Solistenquartetts ein instrumentaler Durchgang und danach die gemeinsame Beteiligung von Chor und Orchester. Die fünfte Phase verbindet die ersten beiden Gruppen; die neunte verbindet die zweite und die dritte. Motiv 1 tritt besonders häufig auf, während die anderen Motive nur im Zusammenhang mit ihm erscheinen. Dadurch erhält es trotz der dichten Kombination verschiedener Materialien das Gewicht eines Hauptthemas.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 80–81 · Kantate BWV 21, „dass er meines Angesichtes Hülfe und mein Gott ist“",
+              "note": "Die drei Besetzungsgruppen und überlappenden Phasen sind in den Tabellen zu Bachs Kantate BWV 21 verzeichnet."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-kanonische-fuge",
+      "title": "Wann lässt sich ein Kanon zugleich als Fuge gliedern?",
+      "group": "Fuge",
+      "tags": [
+        "kanonische Fuge",
+        "Fuga canonica",
+        "Kanon",
+        "Stimmtausch",
+        "Dux",
+        "Comes",
+        "Kunst der Fuge",
+        "Musikalisches Opfer",
+        "epidiapente"
+      ],
+      "comparisons": [],
+      "related": [
+        "imitation-und-kanon",
+        "kanon-verfahren",
+        "doppelter-kontrapunkt",
+        "fuge-permutationsfuge",
+        "fuge-engfuehrung"
+      ],
+      "reading": "Verfolge führende und folgende Stimme getrennt von den Themeneinsätzen. Wo beginnt das Anfangsmaterial erneut, wo tauschen die Stimmen ihre Rollen, und wann nimmt eine zunächst freie Stimme am Thema teil?",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-18",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 81 · kanonische Fuge und c-Moll-Invention",
+          "text": "Eine kanonische Bindung kann mit einer fugenartigen Gliederung zusammenfallen, wenn sich Thema und Antwort zugleich als führende und folgende Kanonstimme lesen lassen. Neue Themenphasen entstehen bei Gárdonyi, wenn die führende Stimme zum Anfangsmaterial zurückkehrt oder ein bisheriger Kanon unterbrochen und neu begonnen wird. Häufig tauschen dabei die Stimmen ihre Rollen. Seine Übersicht zur c-Moll-Invention zeigt das Verfahren im kleinen Rahmen. Für die Formanalyse genügt deshalb weder die Feststellung, dass ein Kanon vorliegt, noch das bloße Zählen ähnlich beginnender Motive.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 7, S. 81 · kanonische Fuge und c-Moll-Invention",
+              "note": "Die Definition wird an Bachs c-Moll-Invention und den Kanons der Kunst der Fuge erläutert."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-19",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 82 · Duodezim- und Dezimkanon der Kunst der Fuge, Graeser-Zählung XIII und XIV",
+          "text": "Bei den Kanons in Duodezime und Dezime unterscheidet Gárdonyi das aktuelle Imitationsintervall vom Lagentausch zwischen größeren Abschnitten. Der Duodezimkanon beginnt mit einer Antwort in der Oberduodezime; nach dem Rollenwechsel ab Takt 34 antwortet die andere Stimme in der Unteroktave. Im Vergleich korrespondierender Abschnitte entsteht dennoch doppelter Kontrapunkt in der Duodezime. Entsprechend führt der spätere Rollenwechsel des Dezimkanons zur Oktavantwort, während der Abschnittsvergleich den Dezimtausch erkennen lässt. Ein geändertes Kanonintervall widerlegt also nicht automatisch die Vertauschungsbeziehung des Materials.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 82 · Duodezim- und Dezimkanon der Kunst der Fuge, Graeser-Zählung XIII und XIV",
+              "note": "Die Analyse vergleicht Abschnitte zweier Bach-Kanons und benennt deren unterschiedliche Imitations- und Vertauschungsintervalle."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-22",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 7, S. 83 · Fuga canonica in epidiapente aus dem Musikalischen Opfer",
+          "text": "In der Fuga canonica in epidiapente führen die beiden Oberstimmen einen Kanon in der Oberquinte. Die Unterstimme trägt zunächst den Generalbass und übernimmt erst ab Takt 59 selbst das Thema regium. Von dort an beschreibt Gárdonyi den Verlauf als dreistimmige Fugenstruktur. Der Bass muss deshalb nicht schon vom Beginn an kanonisch gebunden sein, damit das ganze Stück die Verbindung von Kanon und Fuge verwirklicht. Gerade sein späterer Funktionswechsel macht diese Verbindung hörbar.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 7, S. 83 · Fuga canonica in epidiapente aus dem Musikalischen Opfer",
+              "note": "Die unterschiedliche Rolle von Oberstimmen und Bass ist an der Fuga canonica des Musikalischen Opfers belegt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-fughetta-fugato",
+      "title": "Worin unterscheiden sich Fuge, Fughetta und Fugato?",
+      "group": "Fuge",
+      "tags": [
+        "Fughetta",
+        "Fugato",
+        "kleine Fuge",
+        "geschlossene Form",
+        "Formabschnitt",
+        "Modulationsumfang",
+        "Quintbeantwortung"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-form-und-gattung",
+        "fuge-exposition",
+        "fuge-antwortintervall",
+        "fuge-und-tanzform",
+        "choral-fugentechnik"
+      ],
+      "reading": "Prüfe zunächst die Grenzen des ganzen Satzes: Ist der fugierte Abschnitt selbstständig abgeschlossen oder Teil eines größeren Verlaufs? Vergleiche danach Zahl der Themeneinsätze, Tonartwege und Art der Beantwortung.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-23",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 84 · Fughetta als abgeschlossene kleine Fugenanlage",
+          "text": "Eine Fughetta bildet für Gárdonyi eine in sich abgeschlossene Form mit Fugentechnik. Das Wort klein bezeichnet dabei nicht unmittelbar eine bestimmte Dauer oder Stimmenzahl. Ausschlaggebend sind vor allem die Zahl der Themenphasen und die Reichweite der Modulationen. Auch ein solcher begrenzter Rahmen kann mehrere Themen verbinden: Die Choralfughetta BWV 677 besitzt für ihn Züge einer kleinen Doppelfuge. Geringer Umfang bedeutet daher weder zwingend nur ein Thema noch Verzicht auf anspruchsvolle kontrapunktische Kombinationen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 84 · Fughetta als abgeschlossene kleine Fugenanlage",
+              "note": "Die Begriffsbestimmung wird unmittelbar an Bachs Orgelfughetten erläutert."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-24",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 84 · Fugato als Abschnitt einer größeren Form",
+          "text": "Ein Fugato ist in Gárdonyis Abgrenzung ein fugierter Abschnitt innerhalb einer größeren, insgesamt anders gebauten Form. Anders als die Fughetta muss er keinen selbstständigen, abgeschlossenen Satz bilden. Nicht jeden imitierenden Abschnitt nennt er deshalb Fugato: Als Erkennungsmerkmal hebt er die Quintbeantwortung hervor. Den Tonartverlauf der von ihm angeführten Präludien-, Ouvertüren- und Toccatenabschnitte erklärt man aus ihrer übergeordneten Form; er kann vom Verlauf einer selbstständigen Fuge abweichen. Diese Kriterien gehören zu Gárdonyis analytischem Sprachgebrauch.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 84 · Fugato als Abschnitt einer größeren Form",
+              "note": "Gárdonyi grenzt den Begriff anhand fugierter Abschnitte in mehreren Gattungen Bachs ein."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fuge-und-tanzform",
+      "title": "Wie verbindet eine Gigue fugierte Arbeit mit ihrer Tanzform?",
+      "group": "Fuge",
+      "tags": [
+        "Gigue",
+        "Suite",
+        "Partita",
+        "Tanzform",
+        "Zweiteiligkeit",
+        "Wiederholungen",
+        "Umkehrung",
+        "BWV 827",
+        "BWV 808"
+      ],
+      "comparisons": [],
+      "related": [
+        "fuge-form-und-gattung",
+        "fuge-fughetta-fugato",
+        "kanon-verfahren",
+        "fuge-kontrasubjekt",
+        "fuge-schlussrueckkehr"
+      ],
+      "reading": "Markiere die beiden wiederholten Teile und ihre Kadenzziele. Vergleiche dann die Themenanfänge und die Reihenfolge der Stimmen: Was kehrt als Gegenbewegung wieder, und was wird harmonisch oder motivisch neu eingerichtet?",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-25",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 84–85, Bsp. 58–59 · fugierte Gigue, zweiteilige Tanzform und Themenumkehrung",
+          "text": "Eine Gigue kann mit einer fugentypischen Exposition beginnen und dennoch ihre eigene zweiteilige Tanzform mit Wiederholung beider Hälften bewahren. Die Kadenz am Ende des ersten Teils trennt die Abschnitte deutlich. Der zweite Teil verwendet häufig eine Umkehrung des Anfangsthemas; dabei wird nach Gárdonyi vor allem die melodische Geste gewendet, nicht mechanisch jedes Intervall gespiegelt. Die einzelnen Töne richten sich nach dem neuen tonalen und harmonischen Zusammenhang. Fugierte Technik erklärt hier die Stimmenarbeit, während die wiederholte Zweiteiligkeit eine andere Formaufgabe erfüllt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 84–85, Bsp. 58–59 · fugierte Gigue, zweiteilige Tanzform und Themenumkehrung",
+              "note": "Die Passage behandelt Bachs Giguen, insbesondere die Beispiele aus BWV 827 und BWV 808."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-26",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 86 · Einsatzfolge und neues Material im zweiten Giguenabschnitt",
+          "text": "In vielen Giguen beobachtet Gárdonyi außer der melodischen Umkehrung eine spiegelbildliche Reihenfolge der eintretenden Stimmen im zweiten Teil. Doch auch ein anderes Verfahren ist möglich: Die Gigue der D-Dur-Partita für Cembalo beginnt ihre zweite Hälfte mit der Imitation neuen Materials, während das Thema des ersten Teils als Kontrasubjekt dagegengeführt wird. Die Beziehung der beiden Teile lässt sich daher nicht allein an einem umgekehrten Themenkopf ablesen; sie kann auch aus dem Funktionswechsel des früheren Themas entstehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Fugen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 86 · Einsatzfolge und neues Material im zweiten Giguenabschnitt",
+              "note": "Die Gegenüberstellung nennt ausdrücklich Bachs Giguen und als besonderen Fall die D-Dur-Partita."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "choral-fugentechnik",
+      "title": "Wie verbindet Bach eine Choralmelodie mit fugierter Arbeit?",
+      "group": "Fuge",
+      "tags": [
+        "Choralfuge",
+        "Choralfughetta",
+        "Choralbearbeitung",
+        "Cantus firmus",
+        "Ostinato",
+        "BWV 677",
+        "BWV 680",
+        "BWV 651",
+        "BWV 769"
+      ],
+      "comparisons": [],
+      "related": [
+        "choral-vorimitation",
+        "choral-gegenstimme",
+        "cantus-firmus",
+        "fuge-fughetta-fugato",
+        "fuge-doppelfuge",
+        "imitation-und-kanon"
+      ],
+      "reading": "Suche zuerst die erkennbare Choralmelodie. Wird sie als ganze Linie vorgetragen, oder liefert sie kurze Fugenthemen? Untersuche anschließend, wie sich ihre einzelnen Zeilen, die begleitenden Motive und die Harmoniewechsel zueinander verhalten.",
+      "readingSources": [
+        "gardonyi1996"
+      ],
+      "authors": [
+        {
+          "id": "gardonyi1996-forms-29",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 90–91 · zwei Grundmodelle der Choralbearbeitung",
+          "text": "Gárdonyi unterscheidet zwei Ausgangslagen: Entweder liefern Teile der Choralmelodie das Thema einer fugierten Komposition, oder die erkennbare Melodie wird als vollständiger Cantus firmus durch einen imitierenden Satz begleitet. Im ersten Fall muss nicht die ganze Chorallinie als eigene Stimme erscheinen. Im zweiten bleibt sie als zusammenhängende Vorlage erhalten, auch wenn ihre Notenwerte verändert oder ihre Zeilen voneinander getrennt werden. Vor jeder Detailanalyse ist deshalb zu klären, ob der Choral hier Themenmaterial oder zugleich eine tatsächlich vorgetragene vollständige Stimme ist.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 90–91 · zwei Grundmodelle der Choralbearbeitung",
+              "note": "Die beiden Modelle werden als Grundtypen von Bachs Choralbearbeitungen eingeführt."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-30",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 90–91, Bsp. 61–63 · Allein Gott in der Höh sei Ehr, BWV 677",
+          "text": "In BWV 677 gewinnen unterschiedliche Choralzeilen zunächst eigene thematische Gestalten. Die Spitzentöne des ersten Themas beziehen sich auf die erste Zeile. Der Beginn der zweiten Zeile wird anschließend als zweistimmiger Themenkomplex eingerichtet; seine bewegte Gegenstimme greift bereits vorhandenes Sechzehntelmaterial auf. Ab Takt 16 überlagern sich die beiden choraleigenen Themen. Der kurze Satz erreicht dadurch für Gárdonyi Züge einer kleinen Doppelfuge, deren Synthese außerdem die frühere Sechzehntelgegenstimme in gerader und umgekehrter Gestalt einbezieht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 90–91, Bsp. 61–63 · Allein Gott in der Höh sei Ehr, BWV 677",
+              "note": "Die Ausführungen und drei Notenbeispiele verfolgen Bachs Choralfughetta BWV 677."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-31",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 91–92 · vollständiger Cantus firmus und Gliederung seiner Zeilen",
+          "text": "Bei einer vollständigen Choralvorlage kann die Melodie in einer Stimme bleiben, auf mehrere Stimmen verteilt oder in einem kanonischen Stimmenpaar geführt werden. Auch ihr zeitlicher Zusammenhang ist variabel: Die Zeilen können unmittelbar aufeinanderfolgen oder durch imitierende Felder und Ritornelle getrennt sein. Das umgebende fugierte Material kann während des ganzen Satzes erhalten bleiben oder mit jeder neuen Choralzeile wechseln. Die Lage des Cantus firmus, die Abstände zwischen seinen Zeilen und der Wechsel der Gegenmotive sind daher drei getrennte Entscheidungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. 8, S. 91–92 · vollständiger Cantus firmus und Gliederung seiner Zeilen",
+              "note": "Gárdonyi beschreibt die Disposition an Bachs Orgelchorälen und vokalen Choralbearbeitungen."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "gardonyi1996-forms-35",
+          "source": "gardonyi1996",
+          "name": "Zsolt Gárdonyi",
+          "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
+          "locator": "Kap. 8, S. 97 · Canonische Veränderungen über Vom Himmel hoch, BWV 769",
+          "text": "In BWV 769 können Choralvorlage und Kanon auf unterschiedliche Weise zusammenwirken. Einerseits wird ein Cantus firmus, auch vergrößert oder verziert, durch kanonisch geführte Gegenstimmen begleitet. Andererseits liefert die Choralmelodie selbst das Material unterschiedlicher Kanons, zu denen freie Stimmen hinzutreten. Gárdonyi fasst damit mehrere zuvor besprochene Choralmodelle zusammen. Ob die gegebene Weise außerhalb des Kanonpaars liegt oder selbst dessen Ausgangsmelodie ist, muss bei jeder Variation neu bestimmt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Analyse von Bachs Choralbearbeitungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. 8, S. 97 · Canonische Veränderungen über Vom Himmel hoch, BWV 769",
+              "note": "Der Schlussabsatz behandelt ausschließlich Bachs kanonische Choralvariationen BWV 769."
+            }
+          },
+          "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-lernfolge",
+      "title": "Wodurch wird eine Generalbassübung schrittweise schwieriger?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Lehrgang",
+        "Progression",
+        "Bezifferung",
+        "Dreiklang",
+        "Septakkord"
+      ],
+      "reading": "Vergleiche die neu hinzutretenden Ziffern mit den zuvor geübten Akkorden. Halte zunächst Bass, Lage oder Stimmenzahl fest und beobachte, welche neue Aufgabe durch die erweiterte Bezifferung entsteht.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "generalbass-stimmenzahl",
+        "generalbass-sextakkord",
+        "quartsext-dissonanz"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-pref-lernfolge",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · Reihenfolge der Akkord- und Bezifferungsaufgaben",
+          "text": "Das Fortschreiten des Lehrgangs liegt für Sechter ausdrücklich in seiner Ordnung. Zunächst werden allein Dreiklänge verwendet, dann treten Sext- und Quartsextakkorde hinzu. Es folgen Septakkorde und nach und nach ihre Umkehrungen, anschließend weitere Klänge wie Non-, Septnon-, Quartquint- und Quartnonakkorde. Die Vielfalt der Bezifferung nimmt auf diese Weise allmählich zu. Mehrere Aussetzungen eines Basses erlauben zugleich, eine harmonische Aufgabe in verschiedenen Lagen und Stimmenzahlen zu bearbeiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · Reihenfolge der Akkord- und Bezifferungsaufgaben",
+              "note": "Sechter erklärt auf S. 3 die Reihenfolge des eigenen Generalbasslehrgangs und das schrittweise Anwachsen der Bezifferung."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-klangvorrat-und-chromatik",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 4, 12–13 und 25–27 · Dreiklang, Sextakkord und Einführung des Quartsextakkords",
+          "text": "Die gedruckte Folge macht Sechters Ordnung nach Klangvorräten konkret: Die Dreiklangstabelle steht vor I, die Sextakkordtabelle vor XII und die Quartsextakkordtabelle vor XXXVIII. Chromatische Veränderungen werden dabei bereits innerhalb der früheren Abschnitte geübt, etwa in IX und X sowie ausführlich in XXXIII bis XXXVII. Das allmähliche Hinzutreten neuer Zifferngruppen bedeutet daher nicht, dass die vorherigen Modelle auf unveränderte diatonische Töne beschränkt blieben. Jede Stufe des Lehrgangs wird durch mehrere notierte Varianten erweitert.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 4, 12–13 und 25–27 · Dreiklang, Sextakkord und Einführung des Quartsextakkords",
+              "note": "Die Stufenfolge ist im Vorwort ausdrücklich erklärt und hier an den tatsächlichen Tabellen und chromatischen Modellen überprüft. Es wird keine zusätzliche feste Untergliederung in benannte Kapitel erfunden. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-schluessel",
+      "title": "Warum werden Generalbassübungen in verschiedenen Schlüsseln notiert?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Schlüssel",
+        "Sopranschlüssel",
+        "Altschlüssel",
+        "Tenorschlüssel",
+        "C-Schlüssel"
+      ],
+      "reading": "Bestimme bei jedem Schlüsselwechsel zuerst das eingestrichene c. Lies danach die unveränderte Intervallfolge und prüfe, ob sich mit dem Schlüssel tatsächlich die klingende Lage ändert.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-transponieren",
+        "generalbass-stimmenzahl",
+        "generalbass-bassvariation",
+        "offene-partitur-schluessel"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-pref-schluessel",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · Sopran-, Alt- und Tenorschlüssel",
+          "text": "Sechter hält die Kenntnis des Sopran-, Alt- und Tenorschlüssels für einen Generalbassspieler für unentbehrlich. Ihre Verwendung im Übungsband dient deshalb zugleich dem Lesenlernen: Die praktische Beschäftigung mit den Aussetzungen soll die Schlüssel vertraut machen. Das Vorwort begründet damit eine Aufgabe der Notation, nicht eine abweichende Zählweise der Intervalle über dem Bass.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · Sopran-, Alt- und Tenorschlüssel",
+              "note": "Die konkrete Vorrede nennt die drei C-Schlüssel und begründet ihre Verwendung als praktische Leseübung für Generalbassspieler."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-17",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 81–82 · Nr. 118 und 120 (CXVIII, CXX), Bezeichnung und Ausführung",
+          "text": "In diesen Schlussbeispielen liest der Spieler die knapp notierte Vorlage mit wechselnden Schlüsseln zusammen mit ihrer mehrstimmigen Ausführung. Die erste Zeile von Nr. 118 und Nr. 120 beginnt in einem höheren Register und erreicht erst später den Bassschlüssel. Die Ausführung zeigt, zu welchen nach und nach eintretenden Stimmen die Noten gehören. Nr. 120 führt dasselbe Prinzip anschließend in einer bewegten Variation weiter. Das Schlüsselbild trägt hier Informationen über Register und Stimmenaufbau; die Vorlage ist vom ersten Ton an als Teil dieses mehrstimmigen Verlaufs zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 81–82 · Nr. 118 und 120 (CXVIII, CXX), Bezeichnung und Ausführung",
+              "note": "Schlüsselwechsel, obere Vorlagenzeile und darunterstehende Ausführung wurden auf S. 81–82 visuell verglichen. Die bewegte Variation von Nr. 120 ist ausdrücklich so beschriftet; eine Bezeichnung als Fuge wird nicht hinzugefügt. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-pedal",
+      "title": "Welche Töne übernimmt das Orgelpedal bei einer Generalbassaussetzung?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Orgel",
+        "Pedal",
+        "Manual",
+        "fünf Stimmen",
+        "Bassvariation"
+      ],
+      "reading": "Spiele zuerst den schlichten Bass mit dem Pedal und verteile die übrigen Stimmen auf die Hände. Vergleiche danach, welche Töne einer bewegten Bassvariante im Pedal übernommen werden können.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-stimmenzahl",
+        "generalbass-bassvariation",
+        "stimmen-ergaenzen"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-pref-pedal-fuenfstimmig",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · Pedalverwendung bei fünfstimmigen Beispielen",
+          "text": "Viele fünfstimmige Beispiele lassen sich nach Sechter mit den Händen allein nicht leicht ausführen. In diesen Fällen kann das Pedal die Basstöne übernehmen. Die zusätzliche Stimme ist damit zugleich eine Frage der instrumentalen Verteilung: Was sich auf zwei Manualhände schwer verteilt, kann durch die Übernahme des Basses mit den Füßen spielbar werden. Sechter formuliert dies als Möglichkeit für die betreffenden Beispiele, nicht als Pflicht zu ständigem Pedalgebrauch.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · Pedalverwendung bei fünfstimmigen Beispielen",
+              "note": "Die Vorrede begründet die Pedalübernahme ausdrücklich mit der Spielbarkeit der fünfstimmigen Beispiele auf der Orgel."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-pref-pedal-bassvariation",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3, letzter Absatz · Pedal und Bassvariation",
+          "text": "Bei einer Bassvariation darf das Pedal nach Sechter die Töne des schlichten Grundbasses beibehalten. Es muss daher nicht jede zusätzliche Bewegung der Variation mitspielen. Zugleich lässt er zu, auch weitere wichtige Töne der bewegten Fassung im Pedal auszudrücken. Schlichter Bass und ausgezierte Basslinie eröffnen damit unterschiedliche Möglichkeiten der Verteilung auf Hände und Füße.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3, letzter Absatz · Pedal und Bassvariation",
+              "note": "Der letzte Absatz der Vorrede stellt beide Möglichkeiten der Pedalverwendung bei Bassvariationen ausdrücklich nebeneinander."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-bassvariation",
+      "title": "Welche Aussetzungen passen zu einer bewegten Bassvariation?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Bassvariation",
+        "Diminution",
+        "Figuration",
+        "Bezifferung",
+        "Aussetzung"
+      ],
+      "reading": "Lege den schlichten Bass und seine Variation nebeneinander. Prüfe die angegebenen Kombinationen mit den Oberstimmen; ein hinzugefügter Basston kann die Zusammenklänge verändern und passt nicht notwendig zu jeder früheren Aussetzung.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-pedal",
+        "generalbass-bezifferung-stimmfuehrung",
+        "dissonanzbehandlung",
+        "rhythmische-selbststaendigkeit",
+        "generalbass-schluessel"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-early-bassvariation-passung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 6, Bassvariationen zu Übung II (2) · Zuordnungen zu den Aussetzungen auf S. 5",
+          "text": "Sechter ordnet die Bassvariationen ausdrücklich bestimmten Aussetzungen zu. Die erste Variante gilt für Nr. 1, 6, 14 und 15; die zweite für Nr. 2, 3, 4, 5, 9, 10 und 13. Die dritte besitzt wiederum eine eigene, größere Auswahl. Für die Varianten vier bis sechs verweist der Druck jeweils auf die Zuordnung der ersten, zweiten und dritten. Die gemeinsame Bassvorlage macht also nicht jede ausgezierte Fassung mit jeder Oberstimmenlösung austauschbar. Beim Zusammenspielen gehören die gedruckten Zuordnungen zur Aufgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 6, Bassvariationen zu Übung II (2) · Zuordnungen zu den Aussetzungen auf S. 5",
+              "note": "Die Kombinationen stehen als ausdrückliche Beschriftungen über den sechs Bassvariationen. Eine nicht angegebene Begründung für jeden einzelnen Ausschluss wird nicht ergänzt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true,
+          "examples": [
+            "sechter-bassvariation"
+          ]
+        },
+        {
+          "id": "sechter1876-early-bassvariation-dreiergruppen",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 20, Übung XXIII (23), erste Bassvariation · C-Takt und 12/8-Fassung",
+          "text": "Die erste Bassvariation zu XXIII ist im 12/8-Takt notiert, während die schlichtere Vorlage im C-Takt steht. Die vier Viertelpositionen der Vorlage werden in der Variation durch vier Dreiergruppen gegliedert. Die zweite notierte Bassvariante verwendet wieder die gerade Unterteilung. Die Variation betrifft somit auch die rhythmische Gruppierung des Bassgangs. Beim Vergleich lassen sich zunächst die entsprechenden Stützpunkte und Taktgrenzen zuordnen, bevor die hinzugefügten Töne mit den oberen Stimmen zusammengesetzt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 20, Übung XXIII (23), erste Bassvariation · C-Takt und 12/8-Fassung",
+              "note": "Die unterschiedlichen Taktangaben und Gruppierungen sind ausdrücklich notiert. Die Hinweise zum Vergleich der Stützpunkte sind redaktionelle Leseaufgaben, keine zusätzlich behauptete Begleitregel. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-05",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 35, Übung 52 (LII), Anweisungen zu den Bassvariationen · Zuordnung zu nummerierten Aussetzungen",
+          "text": "Bei Übung 52 ordnet Sechter bestimmte Bassvariationen ausdrücklich einzelnen Aussetzungen zu. Eine Gruppe ist für Nr. 2, 3, 6 und 7 bezeichnet; eine weitere Fassung erhält den Zusatz „oder auch zu No 1 oder 4“. Die Nummern verweisen auf die zuvor gedruckten Aussetzungen desselben Basses. Für diese Übung ist die Wahl der Bassfiguration daher zusammen mit der gewählten Oberstimmenfassung zu lesen. Die angegebenen Kombinationen sind konkrete Hinweise zur Verwendung der Varianten; sie formulieren kein allgemeines Verbot aller übrigen Kombinationen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 35, Übung 52 (LII), Anweisungen zu den Bassvariationen · Zuordnung zu nummerierten Aussetzungen",
+              "note": "Die Zuordnungen sind ausdrückliche Textangaben im Notendruck. Die lokale Beschränkung der Aussage bewahrt den Unterschied zwischen einer empfohlenen Kombination und einem nicht ausgesprochenen generellen Verbot."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-10",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 57–58 · Nr. 83 (LXXXIII), einfache Fassungen und Bass Variation",
+          "text": "Zur Nonenfolge von Nr. 83 gehört eine Bassvariation mit laufender Achtelbewegung. Die Bezifferung führt die Folge 9–8 und den abschließenden Wechsel 6/4–5/3 über diese Figuration hinweg fort; Verlängerungsstriche machen die Dauer der Angaben sichtbar. Die Aussetzung lässt sich deshalb sinnvoll zusammen mit dem einfachen Bass lesen. So wird erkennbar, welche schnelleren Basstöne die Vorlage ausfüllen und an welcher Stelle die bezeichnete Oberstimmenbewegung weitergeht. Die größere Zahl gespielter Basstöne ist allein noch keine zuverlässige Karte des harmonischen Verlaufs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 57–58 · Nr. 83 (LXXXIII), einfache Fassungen und Bass Variation",
+              "note": "Die Bass Variation auf S. 58 wurde mit den unverzierten Fassungen auf S. 57 verglichen. Figuration, Ziffernfolgen und Verlängerungsstriche sind sichtbar; eine allgemeine Erlaubnis für beliebige Durchgangstöne wird daraus nicht abgeleitet. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-lagen",
+      "title": "Wie verändert die Lage eine Generalbassaussetzung?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Lage",
+        "Aussetzung",
+        "Sopran",
+        "Mittelstimmen",
+        "Stimmführung"
+      ],
+      "reading": "Lege zwei Aussetzungen desselben Basses nebeneinander. Verfolge zuerst die höchste Stimme, dann eine Mittelstimme. Welche Töne bleiben liegen, welche wechseln ihre Lage, und wie verteilt sich der Satz auf die beiden Notensysteme?",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-stimmenzahl",
+        "generalbass-bezifferung-stimmfuehrung",
+        "generalbass-sextakkord",
+        "akkordton-verdopplung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-early-lagenvergleich",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 5, Übung II (2), Aussetzungen Nr. 1–6 · verschiedene vierstimmige Fassungen",
+          "text": "Die ersten sechs Fassungen der zweiten Übung behalten denselben Bassgang und die vierstimmige Anlage bei, verteilen das obere Material aber verschieden. Die Aussetzung zeigt dadurch, dass die Lage nicht nur den ersten Akkord betrifft: Mit ihr verändern sich der Verlauf der höchsten Stimme, die Führung der Mittelstimmen und die Verteilung zwischen den beiden Notensystemen. Beim Vergleichen lohnt es sich, jeweils eine Linie durch die ganze Fassung zu verfolgen. Die mehreren Lösungen sind keine bloßen Kopien eines unverändert verschobenen Akkordblocks.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 5, Übung II (2), Aussetzungen Nr. 1–6 · verschiedene vierstimmige Fassungen",
+              "note": "Redaktionelle Beobachtung der sechs nebeneinander gedruckten vierstimmigen Realisierungen; die folgenden Fassungen Nr. 7–15 erweitern den Vergleich auf fünf, drei und zwei Stimmen. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-15",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 81 · Einleitung zu Nr. 118–120 (CXVIII–CXX), besonders Nr. 118",
+          "text": "Für die letzten Beispiele erklärt Sechter ausdrücklich, dass der Eintritt der Stimmen die Lage der Harmonie bestimmt. Nr. 118 stellt die knappe Bezeichnung ihrer Ausführung gegenüber. Zunächst erklingt eine Oberstimme allein; weitere Stimmen treten darunter hinzu und führen die bereits begonnenen Linien fort. Die Lage ist hier somit eine Folge der Einsatzordnung und des bisherigen Stimmenverlaufs. Wer diese Vorlage spielt, muss die hinzutretenden Stimmen in den Zusammenhang der bereits klingenden setzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 81 · Einleitung zu Nr. 118–120 (CXVIII–CXX), besonders Nr. 118",
+              "note": "Der Satz über die durch den Stimmeneintritt bestimmte Lage ist eine explizite Anweisung auf S. 81. Die Beschreibung des allmählichen Hinzutretens bezieht sich auf Nr. 118. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-stimmeneinsaetze"
+          ],
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-akkordnamen",
+      "title": "Wie lese ich zusammengesetzte Akkordnamen im Generalbass?",
+      "group": "Generalbass",
+      "tags": [
+        "Akkordnamen",
+        "Bezifferung",
+        "Intervalle",
+        "Stimmenzahl",
+        "Vorhalt"
+      ],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "generalbass-bezifferung-stimmfuehrung",
+        "generalbass-stimmenzahl",
+        "dissonanzbehandlung"
+      ],
+      "reading": "Schreibe zu jedem Akkordnamen die tatsächlich angegebenen Intervalle über dem Bass auf. Welche Töne kommen hinzu, welche werden verdoppelt oder ausgelassen? Verfolge anschließend die Stimmen, statt aus dem Namen allein eine Auflösung abzuleiten.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-late-01",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 57 und 62 · Überschriften vor Nr. 83 (LXXXIII) und Nr. 91 (im Druck IXC)",
+          "text": "Sechters Nonaccord enthält nach der gedruckten Formel None, Quinte und Terz über dem Bass: 9/5/3. Der später eingeführte Septnonaccord fügt die Septime als eigenen Bestandteil hinzu. Seine erste angegebene Auswahl lautet 9/7/3; weitere Anordnungen nehmen auch die Quinte auf. Ein Nonaccord ist in dieser Terminologie deshalb noch kein vollständig mit Terz, Quinte, Septime und None besetzter Klang. Der Name und die beigefügte Intervallauswahl müssen zusammen gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 57 und 62 · Überschriften vor Nr. 83 (LXXXIII) und Nr. 91 (im Druck IXC)",
+              "note": "Die beiden Überschriften geben die Intervallauswahl ausdrücklich an. Die Unterscheidung von Nonaccord und Septnonaccord wird aus diesen gedruckten Formeln wiedergegeben, nicht aus einem modernen Akkordsymbol erschlossen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-02",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 65 und 67 · Überschriften vor Nr. 96 (IVC) und Nr. 98 (IIC)",
+          "text": "Den Quartquintaccord erläutert Sechter durch die beiden Auswahlen 8/5/4 und 5/5/4: Quarte und Quinte bleiben vorhanden, während entweder der Bass in der Oktave oder die Quinte verdoppelt wird. Beim Quartnonaccord lautet die vierstimmige Auswahl 9/5/4. Die Quarte steht damit in unterschiedlichen Zusammenklängen. Aus dem Wortteil Quart allein ergibt sich weder die vollständige Besetzung noch der weitere Weg der Stimmen; dafür dienen die Ziffern und die anschließenden Aussetzungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 65 und 67 · Überschriften vor Nr. 96 (IVC) und Nr. 98 (IIC)",
+              "note": "Die Formeln für den Quartquintaccord und den vierstimmigen Quartnonaccord sind direkt lesbar. Die schwach gedruckten fünfstimmigen Alternativen der zweiten Überschrift werden hier nicht ergänzt oder rekonstruiert. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-03",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 68–70 · Nr. 101–103 (CI–CIII), Secundquint-, Secundquartquint- und Secundterzquintaccord",
+          "text": "In dieser Folge unterscheiden die zusammengesetzten Namen verschiedene Ergänzungen über demselben Bezugspunkt, dem Bass. Der Secundquintaccord verbindet Sekunde und Quinte; die Überschrift nennt für drei Stimmen 5/2 und zeigt für vier Stimmen unterschiedliche Verdopplungen. Der Secundquartquintaccord ergänzt die Quarte zu 5/4/2. Beim Secundterzquintaccord tritt stattdessen die Terz hinzu; in Nr. 103 wird sie auch chromatisch verändert. Die ähnlich klingenden Namen bezeichnen somit verschiedene Intervallauswahlen. Vorzeichen und konkrete Stimmführung bleiben zusätzlich zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 68–70 · Nr. 101–103 (CI–CIII), Secundquint-, Secundquartquint- und Secundterzquintaccord",
+              "note": "Die drei Überschriften und die direkt darunterstehenden Formeln beziehungsweise Bezifferungen unterscheiden 2/5, 2/4/5 und 2/3/5 ausdrücklich. Die chromatische Veränderung ist eine Beobachtung an Nr. 103. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-04",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 74–75 · Nr. 108–110 (CVIII–CX), Terzsextsept-, Sextnon- und Quartsextnonaccord",
+          "text": "Auch am Ende der Akkordfolge benennt Sechter die charakteristischen Intervalle über dem Bass. Der Terzsextseptaccord wird mit 7/6/3 angegeben. Unter Sextnonaccord behandelt Nr. 109 die Verbindung von None und Sexte; der folgende Quartsextnonaccord erweitert die ausdrücklich gedruckte Auswahl zu 9/6/4. Die Aussetzungen lassen erkennen, wie solche komplexeren Klänge in einzelne Stimmen zerlegt und weitergeführt werden. Die Benennung beschreibt zunächst die Zusammenstellung; die zeitliche Folge der Auflösungen steht im Notenbild und in den nebeneinander gesetzten Ziffern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 74–75 · Nr. 108–110 (CVIII–CX), Terzsextsept-, Sextnon- und Quartsextnonaccord",
+              "note": "Die Überschriften auf S. 74–75 sind verbal belegt; 7/6/3 und 9/6/4 sind daneben ausdrücklich notiert. Die Aussagen zur Fortführung beziehen sich auf die darunterstehenden Aussetzungen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "satzmedium",
+      "title": "Wie verändert das Instrument oder die Stimme die Satzaufgabe?",
+      "group": "Stimmführung",
+      "tags": [
+        "Besetzung",
+        "Vokalsatz",
+        "Streicher",
+        "Klavier",
+        "Idiom"
+      ],
+      "reading": "Wähle eine kurze Satzaufgabe und benenne die Besetzung. Welche Töne, Lagen und Bewegungen lassen sich darauf leicht ausführen? Prüfe anschließend, welche Stellen sich bei einem Wechsel von Stimmen zu Streichern oder Klavier verändern müssten.",
+      "related": [
+        "grundrahmen",
+        "melodische-intervalle",
+        "stimmkreuzung",
+        "klaviersatz-klanglage",
+        "offene-partitur-schluessel",
+        "innenstimmen-melodiefuehrung"
+      ],
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-vokal-instrumental",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. vi; Kap. I, § 17 mit Fußnote, S. 22–23",
+          "text": "Spalding beginnt mit unbegleitetem Vokalsatz und ergänzt ihn im weiteren Lehrgang durch Streicher- und Klavieraufgaben. Jede Lösung muss von den Möglichkeiten ihrer Besetzung ausgehen: Was auf dem Klavier oder auf Streichinstrumenten gelingt, kann für Singstimmen ungeeignet sein; auch Bachs Klaviersatz und Beethovens Quartettstil stellen verschiedene Aufgaben. Die bevorzugte Einfachheit der Dreiklangsharmonik im Eingangskapitel betrifft deshalb zunächst den reinen Vokalsatz. Spalding vermerkt ausdrücklich, dass eine Betrachtung von Orchester- oder Klaviermusik diese Gewichtung verändern müsste.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Besetzungsabhängiger tonaler Lehrgang",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. vi; Kap. I, § 17 mit Fußnote, S. 22–23",
+              "note": "Das Vorwort stellt Bachs Klaviermusik und Beethovens Quartette ausdrücklich gegenüber; die Fußnote zu § 17 begrenzt die Aussagen des ersten Kapitels auf reine Vokalmusik."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=10"
+        },
+        {
+          "id": "spalding1904-two-satzmedium-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 55, S. 86–87 · Übergang zu Streichern und Klavier",
+          "text": "Mit der dritten Ordnung löst Spalding die Aufgabe ausdrücklich von der Vorstellung, dass jede Stimme tatsächlich gesungen werden müsse. Die folgenden Übungen sind im Allgemeinen für Streicher und Klavier gedacht und dürfen deshalb einen größeren Umfang und höhere Geschwindigkeit haben, als menschliche Stimmen zweckmäßig ausführen könnten. Das Ideal einer fließenden, kantablen Linie bleibt bestehen. Er erläutert es an Bachs Klaviermusik und an Quartetten von Haydn, Mozart und Beethoven. Für wirklichen Vokalsatz kommt dagegen die Textunterlegung hinzu; ein dauerhaftes Vier-gegen-eins lässt sich für ihn außerhalb von Koloraturen schwer mit Silben verbinden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 55, S. 86–87 · Übergang zu Streichern und Klavier",
+              "note": "§ 55 bestimmt das Medium ausdrücklich und nennt das stilübergreifende Repertoire. S. 87 visuell geprüft. Die Zuweisung zu Barock und Klassik/Romantik folgt diesen Beispielen, nicht dem Erscheinungsjahr."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=100"
+        },
+        {
+          "id": "spalding1904-multi-trio-bassartikulation",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 103–104, S. 148–149 · freies Streichtrio und Orgeltrio",
+          "text": "Im freien Streichtrio muss der Bass nach Spalding nicht jeden Schlag ausfüllen. Pausen und Pizzicato können ihn leichter machen, sodass eine fließende Mittelstimme deutlicher hervortritt. Wo die Stimmen weiter auseinanderliegen, empfiehlt er im Beispiel dagegen einen gehaltenen Arco-Bass, um die oberen Linien stärker zu tragen. Für das anschließende Orgeltrio verteilt er die Stimmen auf Manuale und Pedal. Dieselbe dreistimmige Anlage erhält somit je nach Klangmittel unterschiedliche Aufgaben für Tragfähigkeit, Artikulation und Hervortreten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Trioentwurf · Streicherartikulation und Orgelbesetzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 103–104, S. 148–149 · freies Streichtrio und Orgeltrio",
+              "note": "§ 103 erlaubt Basspausen; der Kommentar auf S. 149 verbindet Pizzicato und Arco ausdrücklich mit der Wirkung der Mittelstimme und mit dem Abstand. § 104 zeigt die gesonderte Orgelanlage."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=162"
+        },
+        {
+          "id": "spalding1904-multi-streicher-und-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, §§ 115–117, S. 177–182 · erste Quartettsätze für Streicher",
+          "text": "Im Streichersatz entfallen für Spaldings Übungen die Rücksicht auf Textsilben und die Atemgrenzen der Singstimme. Dadurch werden längere Liegetöne, beweglichere Rhythmen, größere Umfänge und kühnere Sprünge möglich. Zunächst sollen die Instrumente dennoch wie idealisierte menschliche Stimmen behandelt werden und nicht ständig in Extremlagen stehen. Die ersten Beispiele bleiben weitgehend legato; eine ausgearbeitete Bogenbezeichnung verschiebt er auf später. Der Wechsel der Besetzung erweitert die Aufgabe schrittweise, statt sofort möglichst viele instrumentale Effekte zu verlangen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Streicherübung · schrittweiser Übergang vom Vokalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, §§ 115–117, S. 177–182 · erste Quartettsätze für Streicher",
+              "note": "§ 115 begründet Freiheiten aus Text, Atmung und Umfang; § 117 erklärt ausdrücklich, warum spezielle Bogenbezeichnungen in den ersten Beispielen noch fehlen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=191"
+        },
+        {
+          "id": "spalding1904-free-06",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, §§ 161–162, S. 222–223, und Mozart-Aussetzung S. 230–231; Kap. XII, § 172, S. 236 · Klavier und Streicher",
+          "text": "Im Klaviersatz muss nach Spalding weder die Stimmenzahl dauernd gleich bleiben noch jede notierte Stimme eine gleichberechtigte melodische Aufgabe erhalten. Zwei Linien können durch gebrochene Akkorde und Pedal klanglich reich wirken; für besondere Akzente kann der Satz voller werden. Seine Mozart-Aussetzung wechselt zwischen zwei- und sechstönigen Klängen und lässt die Melodie stellenweise kurz unbegleitet. Bei Sängern und Quartettspielern erhält dagegen die Tätigkeit jedes Ausführenden eigenes Gewicht. Auch eine homophone Streicherbegleitung soll deshalb ihren Spielern mehr melodisches Interesse bieten als eine entsprechende Klavierbegleitung. Die Besetzung verändert somit die Aufgabe der einzelnen Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Freier Klaviersatz im Vergleich mit Vokal- und Streichersatz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, §§ 161–162, S. 222–223, und Mozart-Aussetzung S. 230–231; Kap. XII, § 172, S. 236 · Klavier und Streicher",
+              "note": "§ 162 unterscheidet ausdrücklich Klaviertasten von einzelnen Sängern oder Quartettspielern und löst die feste Stimmenzahl für Klavier. S. 231 erläutert die wechselnde Dichte der Mozart-Aussetzung; § 172 verlangt besonderes Interesse der untergeordneten Streicherstimmen. Beethoven, Schumann, Chopin und Mozart bilden den konkreten Klavierrahmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=236"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "offene-partitur-schluessel",
+      "title": "Warum schreibe ich kontrapunktische Übungen in offener Partitur und verschiedenen Schlüsseln?",
+      "group": "Stimmführung",
+      "tags": [
+        "Offene Partitur",
+        "Schlüssel",
+        "Tenorschlüssel",
+        "Altschlüssel",
+        "Vokalsatz"
+      ],
+      "reading": "Lies jede Stimme zunächst einzeln in ihrer eigenen Notenzeile. Vergleiche danach die klingende Tenorlage bei Tenor-, Violin- und Bassschlüssel. Welche Schreibweise zeigt die tatsächliche Lage ohne Oktavversetzung und mit wenigen Hilfslinien?",
+      "related": [
+        "generalbass-schluessel",
+        "innenstimmen-melodiefuehrung",
+        "satzmedium"
+      ],
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-vier-stimmen-lesen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 30, S. 43–44",
+          "text": "Die ersten vierstimmigen Aufgaben sollen in offener Partitur geschrieben werden. Jede Stimme erhält ihre eigene Notenzeile, damit ihre melodische Führung erkennbar bleibt. Den Tenor soll der Lernende von Anfang an im Tenorschlüssel denken: Im Violinschlüssel erklingt er eine Oktave tiefer als notiert, im Bassschlüssel benötigt seine günstige Lage viele Hilfslinien. Spaldings anfängliche Schlüsselanordnung lautet daher Violinschlüssel für Sopran und Alt, Tenorschlüssel für Tenor und Bassschlüssel für Bass. Der Altschlüssel kommt mit wachsender Sicherheit hinzu.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Offene Partitur für vierstimmige Vokalübungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 30, S. 43–44",
+              "note": "§ 30 fordert die offene Partitur und zeigt die Schlüssel grafisch. Die Bezeichnungen F/G sind im erklärenden Drucktext auf S. 44 vertauscht; die dargestellten Schlüssel und Oktavierungsbeispiele sind eindeutig. Der Aufgabenrahmen ist vokal, ein eigener historischer Stil wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=57"
+        },
+        {
+          "id": "spalding1904-free-17",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 156 mit Fußnote, S. 218; Kap. XIII, § 180, S. 248 · offene Partitur und Quartett-Schlüsselanordnung",
+          "text": "Die längeren Imitationsentwürfe sollen in offener Partitur ausgearbeitet werden. Für die abschließenden freien Übungen empfiehlt Spalding außerdem, die Schlüsselanordnung eines Streichquartetts beizubehalten, selbst wenn eine Aufgabe für Singstimmen gedacht ist. Er begründet dies ausdrücklich mit zusätzlicher Lese- und Schreibübung in dieser Partiturform. Die Wahl der Schlüssel ist hier also auch eine bewusste Lernaufgabe. Sie setzt nicht voraus, dass die dargestellten Stimmen tatsächlich von Streichinstrumenten gespielt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Offene Partitur für freie Imitation sowie Vokal- und Streicherübungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, § 156 mit Fußnote, S. 218; Kap. XIII, § 180, S. 248 · offene Partitur und Quartett-Schlüsselanordnung",
+              "note": "Die Fußnote zu § 156 verlangt open score; § 180 nennt den Zweck zusätzlicher Übung und zeigt die Quartettanordnung mit zwei Violinschlüsseln, Altschlüssel und Bassschlüssel. Diese spätere Anweisung wird von den früheren Übungen mit verschiedenen vokalen C-Schlüsseln unterschieden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=232"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "modulation-in-uebungen",
+      "title": "Darf eine Kontrapunktübung die Tonart wechseln?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Modulation",
+        "Tonart",
+        "Übung",
+        "Lehrgang",
+        "Verwandte Tonarten"
+      ],
+      "reading": "Bestimme zuerst, ob die Vorlage oder die Aufgabenstellung einen Tonartwechsel verlangt. Vergleiche eine Lösung innerhalb der Ausgangstonart mit einer Fassung, die eine verwandte Tonart erreicht. Was wird durch die Ausweichung musikalisch gewonnen?",
+      "related": [
+        "tonart-und-region",
+        "harmonik",
+        "grundrahmen",
+        "invention-form"
+      ],
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-zuerst-eine-tonart",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 30, S. 45–48",
+          "text": "Die ersten Aufgaben sollen vorwiegend innerhalb einer Tonart gelöst werden. Spalding warnt davor, jede Schwierigkeit durch eine Ausweichung zu umgehen, bevor die Möglichkeiten der Ausgangstonart beherrscht werden. Das schließt Modulation nicht grundsätzlich aus: Verwandte Tonarten können verwendet werden, und eine gegebene Melodie kann einen Tonartwechsel nahelegen oder verlangen. Seine späteren Muster im selben Abschnitt erweitern den harmonischen Bereich entsprechend. Die Beschränkung dient dem gezielten Lernen; sie definiert keinen zeitlosen Gegensatz von strengem und freiem Kontrapunkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Modulation in frühen vierstimmigen Vokalübungen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 30, S. 45–48",
+              "note": "§ 30 erklärt sowohl die anfängliche Beschränkung als auch ihre Ausnahmen. Die späteren Muster desselben Abschnitts zeigen verwandte Tonarten im ausdrücklich tonalen Lehrgang."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=59"
+        },
+        {
+          "id": "spalding1904-two-modulation-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, §§ 66–67, S. 101 und 103–105 · kurze und fortgeschrittene Aufgaben",
+          "text": "Die ersten kurzen Aufgaben der dritten Ordnung benötigen nach Spalding noch keine Modulation. Danach gibt er längere, periodisch angelegte Subjects, die einfache Modulationen voraussetzen. Dafür müssen die nah verwandten Tonarten bekannt sein; zu Es-Dur nennt er B-Dur, As-Dur, c-Moll, g-Moll und f-Moll. Mit den fortgeschrittenen Streicheraufgaben werden außerdem chromatische Durchgänge und freiere Dissonanzverbindungen zugelassen, damit die Gegenstimme ein eigenes Profil gewinnt. Ob die Tonart wechseln soll, hängt somit vom jeweiligen Aufgabenabschnitt und Subject ab.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, §§ 66–67, S. 101 und 103–105 · kurze und fortgeschrittene Aufgaben",
+              "note": "Der Text unterscheidet ausdrücklich keine Modulation erforderlich von späteren Subjects, die Modulationen implizieren. S. 103 visuell geprüft. Englisches B-flat major ist in der deutschen Aufzählung B-Dur."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=115"
+        },
+        {
+          "id": "spalding1904-multi-modulation-erweiterung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 99, S. 139–140; Kap. IX, § 139, S. 202–203 · fortgeschrittene drei- und zweistimmige Aufgaben",
+          "text": "In den fortgeschrittenen dreistimmigen Aufgaben erlaubt Spalding Modulationen nicht nur dort, wo Vorzeichen des gegebenen Themas sie nahelegen, sondern auch dort, wo sie musikalisch erwünscht sind. Das ist ein größerer Spielraum als in einer zunächst tonartfesten Anfängeraufgabe. Später widmet er auch dem doppelten Kontrapunkt einen Entwurf mit freien Ausweichungen in benachbarte Tonarten. Die Modulation muss dabei mit den weiterhin verwendbaren Melodien und ihrer vertauschten Fassung vereinbar bleiben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Fortgeschrittene tonale Schreibübung · Modulation und Vertauschbarkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 99, S. 139–140; Kap. IX, § 139, S. 202–203 · fortgeschrittene drei- und zweistimmige Aufgaben",
+              "note": "S. 140 erweitert die Modulationsmöglichkeiten ausdrücklich; § 139 zeigt sie anschließend in einer zweistimmigen Vertauschungsaufgabe."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=153"
+        },
+        {
+          "id": "spalding1904-free-02",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, §§ 156–157, S. 218–219 · zwölf- oder sechzehntaktige Imitationsübungen und improvisierte Präludien",
+          "text": "In diesen fortgeschrittenen Imitationsaufgaben soll aus jedem vorgegebenen Motiv ein zwölf- oder sechzehntaktiger Abschnitt entstehen. Modulationen in verwandte Tonarten werden ausdrücklich empfohlen. Daneben regt Spalding kurze improvisierte Präludien am Klavier oder an der Orgel an: Ein Motiv soll in verschiedenen Stimmen erscheinen und weiterentwickelt werden. Der Tonartwechsel gehört hier somit zur freien Ausarbeitung eines Zusammenhangs. Die Anweisung betrifft diese längeren Aufgaben und ist keine pauschale Aufhebung der Tonartvorgaben früherer Übungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freie imitative Übung und Improvisation für Klavier oder Orgel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, §§ 156–157, S. 218–219 · zwölf- oder sechzehntaktige Imitationsübungen und improvisierte Präludien",
+              "note": "§ 156 nennt die Länge, die freie Verwendung verwandter Tonarten und die Improvisation am Klavier oder an der Orgel ausdrücklich. Zwei Orgelmodelle folgen; § 157 ergänzt ein Klaviermotiv aus Tschaikowskys Lied op. 28 Nr. 3. Die unbekannte stilistische Herkunft der beiden Orgelmodelle wird nicht ergänzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=232"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "terzen-sexten-folgen",
+      "title": "Wie viele Terzen oder Sexten dürfen aufeinanderfolgen?",
+      "group": "Stimmführung",
+      "tags": [
+        "Terzen",
+        "Sexten",
+        "Gegenbewegung",
+        "Stimmenselbständigkeit"
+      ],
+      "related": [
+        "konsonanz",
+        "parallelen",
+        "harmonik"
+      ],
+      "reading": "Vergleiche die Bewegungsrichtungen beider Stimmen über mehrere Zusammenklänge. Wann wird die eine Stimme zur gleichförmigen versetzten Wiederholung der anderen? Prüfe neben der Zahl auch die Intervallqualität und den Zusammenhang der Aufgabe.",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-two-terzen-sexten-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, §§ 38 und 40, S. 61–63 · Länge und Qualität von Terz- und Sextfolgen",
+          "text": "In der ersten Ordnung sollen nach Spalding nicht mehr als drei Terzen oder Sexten aufeinanderfolgen: Sonst wird eine Stimme zur bloßen versetzten Nachbildung der anderen. Zusätzlich prüft er die Qualität der Terzen. Zwei große Terzen nacheinander sollen vermieden werden, wenn ihre Fortschreitung einen Tritonus hervortreten lässt. Eine Halbtonverschiebung wie V–VI oder VI–V in Moll nimmt er davon aus. Die letztgenannte Einschränkung bezeichnet seine Fußnote für tatsächliche Kompositionen ausdrücklich als Empfehlung, nicht als ausnahmsloses Gesetz.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, §§ 38 und 40, S. 61–63 · Länge und Qualität von Terz- und Sextfolgen",
+              "note": "Die Mengenbegrenzung steht in § 38, die besondere Folge großer Terzen einschließlich Moll-Ausnahme und Fußnote in § 40. S. 61–63 visuell geprüft. Der weichere Wortlaut des späteren § 78 wird in einer eigenen Antwort behandelt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=75"
+        },
+        {
+          "id": "spalding1904-two-terzen-sexten-synkope",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 78, S. 112, Beispiele a und b · monotone Sextfolgen",
+          "text": "Auch in der synkopierten Ordnung sollen nach Spalding gewöhnlich nicht mehr als drei Terzen oder Sexten aufeinanderfolgen. Er formuliert dies hier als Regel mit Spielraum. Führt ein schrittweise laufendes Subject zu einer gleichförmigen Sextakkordfolge, empfiehlt er, die Synkopierung für einen Takt zu unterbrechen. Im Gegenbeispiel b verändert der ungebundene Abschnitt den Verlauf und ist deshalb der durchgehend gebundenen Fassung a vorzuziehen. Das rhythmische Übungsprinzip soll die melodische Abwechslung nicht verhindern.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 78, S. 112, Beispiele a und b · monotone Sextfolgen",
+              "note": "§ 78 verwendet usually, während § 38 in der ersten Ordnung strenger formuliert ist. Wortlaut und beide Beispiele auf S. 112 visuell geprüft. Die Zahl wird nicht als stilunabhängige Obergrenze verwendet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=126"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "innenstimmen-melodiefuehrung",
+      "title": "Wie viel melodische Eigenständigkeit brauchen die Innenstimmen?",
+      "group": "Stimmführung",
+      "tags": [
+        "Innenstimmen",
+        "Mittelstimme",
+        "Melodie",
+        "Kontrast",
+        "Dreistimmigkeit",
+        "Vierstimmigkeit"
+      ],
+      "reading": "Verfolge eine Innenstimme über die ganze Phrase. Markiere, wo sie liegen bleibt, rhythmisch hervortritt oder ihren Umfang erweitert. Höre dann die Außenstimmen dazu: Unterstützt ihre Ruhe eine andere Linie, oder fehlt ihr über längere Zeit eine eigene Aufgabe?",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "related": [
+        "stimmen-ergaenzen",
+        "rhythmische-selbststaendigkeit",
+        "tonwiederholung",
+        "stimmkreuzung",
+        "satzmedium",
+        "offene-partitur-schluessel"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-wechselnde-rollen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 2, 19 und 26, S. 1, 23–24 und 33–36",
+          "text": "Eine Innenstimme kann die Hauptmelodie tragen; auch sonst soll sie im Verlauf melodisches Interesse gewinnen. Spalding verlangt jedoch nicht, dass alle vier Stimmen ständig gleich frei oder wie Solomelodien geführt werden. Die übrigen Stimmen begrenzen den Bewegungsraum von Alt und Tenor, und zeitweise untergeordnete Aufgaben gehören zum Satz. Wiederholte oder ausgehaltene Töne können in der Mitte gerade als harmonische Stützen nützlich sein, während die Außenstimmen beweglicher werden. Zu beurteilen ist der Wechsel der Rollen über die Phrase hinweg.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Melodische Rollen im vierstimmigen Vokalsatz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 2, 19 und 26, S. 1, 23–24 und 33–36",
+              "note": "Die drei Stellen unterscheiden Hauptmelodie, wechselnde melodische Beteiligung und die durch benachbarte Stimmen begrenzte Beweglichkeit. Sie gehören zum tonalen Vokalrahmen von Kap. I."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=15"
+        },
+        {
+          "id": "spalding1904-open-cantus-innen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 34, S. 54–55",
+          "text": "Liegt die gegebene Melodie im Alt, muss die Ergänzung sowohl einen tragfähigen Bass als auch einen melodisch sinnvollen Sopran gewinnen. Der Sopran darf dabei zur Nebenmelodie werden, soll aber nicht in einer monotonen Tonlage feststecken. Spalding stellt einer solchen schwachen Aussetzung eine bessere gegenüber: Der Sopran erhält einen größeren Bewegungsraum und Sprünge, die zu den gehaltenen Alttönen kontrastieren; der Bass wird zugleich geordneter. Die Mittelstimme bleibt Vorlage, ohne die melodische Qualität der Außenstimmen zu ersetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Vierstimmige Aussetzung einer gegebenen Altmelodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 34, S. 54–55",
+              "note": "Die beiden vollständigen Fassungen auf S. 55 und ihre Kommentare wurden am Notenbild überprüft. Der Vergleich betrifft eine Vokalübung mit vorgegebener Innenstimme."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=68"
+        },
+        {
+          "id": "spalding1904-multi-innenstimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 130–132; Kap. VIII, § 106, S. 154–155 · Eigenständigkeit durch Kontrast",
+          "text": "Eigenständigkeit verlangt bei Spalding nicht, dass jede Stimme jederzeit gleich stark hervortritt. Wenn Bass und Sopran die beiden Hauptlinien tragen, kann eine ruhigere Mittelstimme gerade deren Verhältnis deutlicher machen. Wiederholte oder gehaltene Töne erhalten dann eine sinnvolle Aufgabe. Auch im vierstimmigen Anfangsunterricht warnt er davor, alle Stimmen gleichzeitig möglichst lebhaft zu machen. Jede Linie soll im ganzen Verlauf zu ihrem Recht kommen; eine getragene Stimme kann sich von einer bewegteren ebenso deutlich unterscheiden wie zwei verschieden bewegte Melodien.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Drei- und vierstimmige Schreibübung · abgestufte melodische Aufgaben",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 96, S. 130–132; Kap. VIII, § 106, S. 154–155 · Eigenständigkeit durch Kontrast",
+              "note": "Die Passage unterscheidet ausdrücklich hervortretende Außenstimmen und ruhigere Innenstimmen und beschreibt Kontrast als Grundlage ihrer Wirkung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=144"
+        },
+        {
+          "id": "spalding1904-free-18",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, §§ 180–181, S. 248–252 · vorgegebene Melodie in Alt und Tenor",
+          "text": "Den Fassungen mit einer Hauptmelodie im Alt oder Tenor widmet Spalding besondere Aufmerksamkeit. Die Melodie wird nicht bloß in eine andere Zeile versetzt: Die übrigen Stimmen erhalten dazu neue Anfänge, Bewegungen und teilweise andere harmonische Verläufe. Eine kurze, zwischen den Stimmen wiederkehrende Figur kann den Satz zusammenhalten, während zu einer einfachen diatonischen Melodie keine überladene Rhythmik treten soll. Bei der ersten Melodie verwirft Spalding eine Bassfassung wegen ihrer zahlreichen Terzbewegungen; die beiden folgenden Vorlagen lässt er dagegen in jeder Stimme bearbeiten. Die Eignung der jeweiligen Melodie bleibt somit Teil der Aufgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Hauptmelodie in wechselnden Stimmen einer freien vierstimmigen Übung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, §§ 180–181, S. 248–252 · vorgegebene Melodie in Alt und Tenor",
+              "note": "§ 180 hebt Alt- und Tenorfassungen hervor; § 181 verlangt einen gleichmäßigen Fluss und begrenzt die rhythmische Komplexität. S. 249 schließt nur die erste konkrete Melodie als Bass aus; Übungen 4–7 und 8–11 führen die nachfolgenden Melodien durch alle Stimmen. Daraus wird kein allgemeines Verbot von Terzen im Bass gemacht."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=262"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "vierfacher-kontrapunkt",
+      "title": "Wie prüfe ich vier Stimmen auf ihre Vertauschbarkeit?",
+      "group": "Stimmführung",
+      "tags": [
+        "vierfacher Kontrapunkt",
+        "Vertauschbarkeit",
+        "Permutationen",
+        "Bassfunktion",
+        "Stimmtausch"
+      ],
+      "reading": "Bezeichne die vier Linien mit A, B, C und D. Prüfe Fassungen, in denen jede einmal unten liegt. Verfolge besonders die Töne, die zuvor Akkordquinten waren. Unterscheide die 24 möglichen Reihenfolgen von den tatsächlich verwendeten Anordnungen.",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "related": [
+        "doppelter-kontrapunkt",
+        "dreifacher-kontrapunkt",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge",
+        "stimme-und-satzstruktur"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-multi-vierfacher-test",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 146 und 149–150, S. 209 und 213–214 · vier Stimmen in wechselnden Lagen",
+          "text": "Vier vertauschbare Linien erlauben theoretisch 24 vertikale Anordnungen. Spalding verlangt nicht, sie sämtlich im Stück einzusetzen; die wirkungsvollsten werden ausgewählt. In der Übung soll aber jede Stimme einmal im Bass geprüft werden. Die Akkordquinte verlangt wie beim dreifachen Kontrapunkt besondere Sorgfalt. Zugleich sollen die Linien verschieden charakterisiert sein: versetzte Einsätze und sinnvoll gesetzte Pausen können sie deutlicher unterscheiden, als wenn alle vier ununterbrochen bewegt sind. Vierfache Vertauschbarkeit bezeichnet die Verbindung der Linien, nicht die bloße Zahl von vier Themen im ganzen Werk.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierfache Vertauschungsübung · Bassprobe, Auswahl und Stimmencharakter",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 146 und 149–150, S. 209 und 213–214 · vier Stimmen in wechselnden Lagen",
+              "note": "§ 149 nennt 24 Anordnungen, Pausen und versetzte Einsätze; § 150 verlangt mindestens drei Vertauschungen zur Prüfung jeder Stimme im Bass."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=223"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "klaviersatz-klanglage",
+      "title": "Wie beeinflussen Lage und Verteilung der Töne den Klavierklang?",
+      "group": "Stimmführung",
+      "tags": [
+        "Klavier",
+        "Lage",
+        "Register",
+        "Arpeggio",
+        "Dezime",
+        "Spielbarkeit"
+      ],
+      "related": [
+        "stimmabstand",
+        "satzmedium",
+        "akkordton-verdopplung",
+        "kontrapunkt-in-homophonie"
+      ],
+      "reading": "Vergleiche dieselben Akkordtöne in enger und weiter Lage. Welcher Ton wird in ein anderes Register versetzt, und wie verändert dies Klangdichte, Erkennbarkeit und Spielbarkeit? Unterscheide die Lage eines gebrochenen Akkords vom Abstand zweier selbstständiger Melodien.",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-multi-klavier-register",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 138, S. 201–202; § 139, S. 202–203 · zwei vertauschbare Klavierstimmen",
+          "text": "Für diese zweistimmigen Klavieraufgaben empfiehlt Spalding, beide Register des Instruments zu nutzen: eine obere Linie für die rechte und eine tiefere für die linke Hand. Beide Stimmen sollen nicht dauerhaft zusammen nur hoch oder nur tief liegen. Auch beim Tausch wählt er die Oktavlagen nach ihrer klanglichen Wirkung. In § 138 werden beide Linien jeweils um zwei Oktaven versetzt, im folgenden Beispiel jeweils nur um eine. Die Registerwahl ist Teil der konkreten Aussetzung und keine pauschale Forderung nach möglichst großem Abstand.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige Klavierübung · Registerwahl beim Lagentausch",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 138, S. 201–202; § 139, S. 202–203 · zwei vertauschbare Klavierstimmen",
+              "note": "Die Anweisungen auf S. 202 und 203 nennen unterschiedliche Versetzungen. Sie werden nicht mit dem Standardverfahren einer Oktave je Stimme aus § 122 gleichgesetzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=215"
+        },
+        {
+          "id": "spalding1904-free-08",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, §§ 165–167, S. 227–229 · tiefe Terzen, geöffnete Arpeggien und Spielbarkeit",
+          "text": "Spalding verbindet die Verteilung der Akkordtöne mit dem Klang und dem Verklingen des Klaviers. Er warnt vor dicht besetzten tiefen Akkorden, besonders vor engen oder verdoppelten Terzen in diesem Register. In seinen beiden Arpeggiofiguren wird die tief liegende Terz in die Dezimlage versetzt; die geöffneten Zwischenräume sollen den Klang deutlicher tragen. Seine Beurteilung älterer Haydn- und Beethoven-Akkorde bezieht er ausdrücklich auf den reicheren Klang der stärker besaiteten Instrumente seiner eigenen Zeit. Weite Lage ist aber kein Selbstzweck: Die Figuren müssen in der Hand liegen, und große Griffe sowie schnelle Lagenwechsel dürfen die Spielbarkeit nicht überfordern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Lage und Spielbarkeit im freien Klaviersatz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, §§ 165–167, S. 227–229 · tiefe Terzen, geöffnete Arpeggien und Spielbarkeit",
+              "note": "S. 227 beschreibt die Register und zeigt ältere Akkordlagen; § 167 erklärt die veränderte Klangbeurteilung aus dem Instrumentenbau und stellt auf S. 228 die beiden Arpeggien gegenüber. Der Hinweis auf Handspanne und rasche Positionswechsel reicht bis S. 229. Die historische Klangeinschätzung wird als Spaldings Begründung wiedergegeben, nicht als heutige pauschale Abwertung der zitierten Werke."
+            }
+          },
+          "examples": [
+            "spalding-klavierlage"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=241"
+        }
+      ],
+      "relations": []
     }
   ],
   "examples": {
@@ -27987,6 +35559,154 @@ const ATLAS = {
       "image": "quellen/noten/daniel-sekunde-none.webp",
       "url": "https://katalog.slub-dresden.de/id/0-377774707",
       "catalogue": true
+    },
+    "gardonyi-tonale-antwort": {
+      "kind": "leseuebung",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "catalogue": true,
+      "image": "quellen/noten/gardonyi-tonale-antwort.webp",
+      "title": "Tonale Antwort: ein veränderter Ton im Themenkopf",
+      "alt": "Drei selbst entworfene Notenzeilen im Violinschlüssel mit einem Kreuz und je vier Vierteln. A, Themenkopf in G-Dur: d′–g′–a′–g′ (D4–G4–A4–G4). B, genaue Transposition um eine Quinte: a′–d″–e″–d″ (A4–D5–E5–D5). C, mögliche tonale Antwort: g′–d″–e″–d″ (G4–D5–E5–D5). Nur der erste Ton von C ist hervorgehoben. Aus dem anfänglichen Quartschritt des Themenkopfs wird ein Quintschritt; die übrigen Töne bleiben gegenüber B unverändert.",
+      "caption": "Spiele den Themenkopf und beide Antwortmodelle. Das eröffnende d′ ist die Dominante der Bezugstonart G-Dur. Die reale Quinte führt nach a′; die tonale Variante antwortet stattdessen mit der Ausgangstonika g′. Die übrigen drei Töne sind jeweils eine Quinte höher als im Themenkopf. Das Beispiel isoliert die Veränderung am Kopf und legt keinen vollständigen harmonischen Verlauf fest. Gárdonyi behandelt solche Antworten als analytisch gewonnene Typen und warnt auf S. 19, Anm. 20, vor ihrer Verabsolutierung.",
+      "credit": "Eigene redaktionelle Leseübung nach Zsolt Gárdonyi, La struttura della fuga in Johann Sebastian Bach (Ricordi 1996, bibliografisch zugeordnet), S. 17–19. Neu erfundenes Viernotenmodell; weder Bach-Zitat noch Abschrift eines Buchbeispiels und keine obligatorische Antwortlösung."
+    },
+    "gardonyi-oktavtausch-quarte": {
+      "kind": "leseuebung",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "catalogue": true,
+      "image": "quellen/noten/gardonyi-oktavtausch-quarte.webp",
+      "title": "Oktavtausch und die Rolle des Basses",
+      "alt": "Drei isolierte Zusammenklänge. A enthält c′ unten und g′ oben (C4 und G4), eine reine Quinte. B hält g′ fest und versetzt c′ nach c″ (G4 und C5); die entstandene reine Quarte steht nun über dem tiefsten Ton g′. C enthält dasselbe Oberstimmenpaar g′–c″ und zusätzlich e im Bass (E3). Die Quarte liegt jetzt zwischen den Oberstimmen. Vom e aus entstehen zu g′ eine Dezime und zu c″ eine Tredezime; nach Oktavreduktion sind dies eine Terz und eine Sexte. Die Farben verfolgen das c und das g durch die drei Modelle.",
+      "caption": "Spiele A und B, dann ergänze unter B den Basston e wie in C. Die aus der Quinte entstandene Quarte ist im zweistimmigen Modell ein Bassintervall. Über einem weiteren, passenden Bass kann dieselbe Quarte zwischen den Oberstimmen stehen, während beide Töne mit dem Bass konsonieren. Die Angabe Terz/Sexte bezieht sich auf die Oktavreduktion der tatsächlich notierten Dezime und Tredezime. Diese Einzelklänge erklären die Bassrolle, keine vollständige kontrapunktische Führung und keine beliebige Vertauschbarkeit aller drei Stimmen.",
+      "credit": "Eigene redaktionelle Leseübung nach Zsolt Gárdonyi, La struttura della fuga in Johann Sebastian Bach (Ricordi 1996, bibliografisch zugeordnet), S. 28–29. Neu entworfene Einzelklänge; keine Abschrift eines Bach- oder Buchbeispiels."
+    },
+    "gardonyi-gegenexposition": {
+      "kind": "leseuebung",
+      "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+      "catalogue": true,
+      "image": "quellen/noten/gardonyi-gegenexposition.webp",
+      "title": "Gegenexposition oder zusätzlicher Einsatz?",
+      "alt": "Zwei selbst entworfene Tabellen mit den Zeilen Oberstimme, Mittelstimme und Unterstimme sowie den Spalten Themenphase 1 bis 4. Beide beginnen mit Dux in der Oberstimme, Comes in der Mittelstimme und Dux in der Unterstimme. In A folgt in Phase 4 ein Comes der Oberstimme: Die Stimme wechselt die Themenform und gegenexponiert. In B folgt an derselben Stelle nochmals der Dux der Oberstimme: Dies ist ein zusätzlicher Einsatz. Beide Alternativen verbleiben im Bereich von Tonika und Dominante. Leere Felder enthalten keine Aussage über Pausen oder nichtthematisches Material.",
+      "caption": "Verfolge die Oberstimme horizontal. Entscheidend ist, welche Themenform gerade diese Stimme schon hatte. Ihr Wechsel von Dux zu Comes begründet hier eine gegenexponierende Phase; eine Wiederholung des Dux heißt zusätzlicher Einsatz. Gárdonyis Technik setzt keine zweite vollständige Runde aller Stimmen voraus. Andere Stimmen können später ebenfalls die Form wechseln. Das Diagramm zeigt nur zwei erfundene Fortsetzungen im Tonika-Dominant-Bereich und enthält weder einen Zeitmaßstab noch ein verpflichtendes Fugenschema.",
+      "credit": "Eigene redaktionelle Leseübung nach Zsolt Gárdonyi, La struttura della fuga in Johann Sebastian Bach (Ricordi 1996, bibliografisch zugeordnet), S. 31–34. Eigenes Schema von Themeneintritten; keine Abschrift eines Bach- oder Buchbeispiels."
+    },
+    "sechter-bassvariation": {
+      "image": "quellen/noten/sechter-bassvariation.webp",
+      "title": "Bassvariation: Welche Aussetzung passt?",
+      "alt": "Sechs historische Bassvariationen zu Übung II mit unterschiedlich schneller Figuration. Die erste ist den Aussetzungen 1, 6, 14 und 15 zugeordnet, die zweite den Nummern 2, 3, 4, 5, 9, 10 und 13, die dritte den Nummern 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13 und 14. Die Varianten vier, fünf und sechs übernehmen ausdrücklich die Zuordnungen der ersten, zweiten und dritten.",
+      "caption": "Wähle zunächst eine der Aussetzungen von Übung II auf S. 5 und suche dann die zugehörigen Bassvarianten. Die erste Variante nennt Nr. 1, 6, 14 und 15; die zweite Nr. 2, 3, 4, 5, 9, 10 und 13. Die dritte hat eine größere Auswahl. Die Nummern bezeichnen verschiedene Aussetzungen derselben Übung. Vergleiche beim Zusammenspielen, wie die hinzugefügten Basstöne auf die jeweiligen Oberstimmen treffen.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 6, Bassvariationen zu Übung II (2). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-sextakkord": {
+      "image": "quellen/noten/sechter-sextakkord.webp",
+      "title": "Sextakkord: Besetzung und Lage",
+      "alt": "Über zwei vierstimmigen Notensätzen steht die Tabelle Sextaccord hat. Sie nennt für vier Stimmen 8/6/3, 6/6/3, 6/3/3 und 8/6/6, für drei Stimmen 6/3, 6/6 und 8/6. In der ersten Aussetzung bleiben mehrere Oberstimmen gebunden, während der Bass weitergeht; die zweite führt die oberen Stimmen bewegter.",
+      "caption": "Lies jede Tabellenspalte als Intervalle über einem zusätzlich mitzudenkenden Bass. Welche Verteilungen enthalten die Terz über dem Bass, welche lassen sie aus? Verfolge anschließend in den beiden Aussetzungen denselben Bassgang und vergleiche die oberen Linien. Die beiden Ausschnitte zeigen unterschiedliche Aussetzungen; sie sind keine vollständige Demonstration aller Tabellenformeln.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 13, Tabelle und erste zwei Aussetzungen von Übung XII (12). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-quartsext": {
+      "image": "quellen/noten/sechter-quartsext.webp",
+      "title": "Quartsext: Zwei Arten der Weiterführung",
+      "alt": "Historischer Notenausschnitt aus Sechters Übung IVL (46), Takt 1 bis 4. Die vierstimmige Aussetzung zeigt abwechselnd 6/4–6/3 bei liegendem Bass und 6–6/4–6 mit bewegtem Bass.",
+      "caption": "In Takt 1 und 3 geht bei liegendem Bass die Quarte zur Terz, während die Sexte erhalten bleibt. In Takt 2 und 4 entsteht 6–6/4–6 durch die Aufwärts- und Rückbewegung des Basses. Die Fortführung ergibt sich aus dem Verlauf der Stimmen. Vergleiche die ersten vier Takte. Verfolge zunächst den Bass, dann die Oberstimmen. In Takt 1 und 3 bleibt die Sexte bei 4–3 erhalten; in Takt 2 und 4 führt der Bass einen Schritt aufwärts und zurück.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 32, Übung 46 (IVL), erste vierstimmige Aussetzung, T. 1–4. Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-sekundakkord": {
+      "image": "quellen/noten/sechter-sekundakkord.webp",
+      "title": "2 → 6: Die Bassstimme verfolgen",
+      "alt": "Historischer Notenausschnitt aus Sechters Übung LXXVII (77), erste vierstimmige Aussetzung. In den ersten drei Takten gehen wiederholt gebundene Bassnoten mit der Ziffer 2 einen Schritt abwärts zur Ziffer 6.",
+      "caption": "Die Bindungen führen den Bass in die mit 2 bezeichneten Verbindungen hinein. Auf den anschließenden Abwärtsschritt folgt jeweils die Bezifferung 6. Die Notation macht hier den Bass als aufzulösende Stimme kenntlich. Beginne bei den Haltebögen im Bass. Suche jeweils die 2 und verfolge den anschließenden Abwärtsschritt zur mit 6 bezeichneten Fortsetzung. Betrachte dann die Oberstimmen dazu.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 52, Übung 77 (LXXVII), erste vierstimmige Aussetzung. Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-quartdurchgang": {
+      "image": "quellen/noten/sechter-quartdurchgang.webp",
+      "title": "„Besser“: Zwei Fassungen im Vergleich",
+      "alt": "Zwei kurze vierstimmige Notensätze im Dreivierteltakt. Oben Übung CXII (112) mit wiederholter Bezifferung 4–3; unten Übung CXIII (113) mit 9/4–8/3 und dem historischen Vermerk Besser. Die beiden Ausschnitte zeigen jeweils die erste Aussetzung der Übung.",
+      "caption": "Sechter stellt der Quartenfolge in Nr. 112 unmittelbar die mit Besser bezeichnete Nr. 113 gegenüber. Die zweite Fassung verbindet 4–3 mit einer zusätzlichen Bewegung 9–8. Verfolge zunächst Bass und 4–3 in beiden Fassungen. Welche weitere Stimme übernimmt in Nr. 113 die Folge 9–8? Spiele die beiden Verbindungen im selben Tempo und beschreibe den hörbaren Unterschied. Die gedruckte Wertung gilt diesen konkreten Aussetzungen; eine Begründung in Prosa steht an dieser Stelle nicht.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 77, erste Aussetzungen der Übungen CXII (112) und CXIII (113). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-stimmeneinsaetze": {
+      "image": "quellen/noten/sechter-stimmeneinsaetze.webp",
+      "title": "Stimmeneinsätze bestimmen die Lage",
+      "alt": "Über einer einzelnen, teils bezifferten Notenzeile mit Schlüsselwechseln steht Sechters Satz über die durch Stimmeneintritte bestimmte Lage. Darunter beginnt die Ausführung von Übung CXVIII (118) einstimmig im oberen Register und ergänzt weitere Stimmen. Pausen zeigen auch später das Aussetzen einzelner Linien.",
+      "caption": "In Nr. 118 steht die knappe Bezeichnung über ihrer Ausführung. Eine Oberstimme beginnt allein; nach und nach treten weitere Stimmen hinzu. Sechter erklärt ausdrücklich, dass diese Eintritte die Lage der Harmonie bestimmen. Markiere den ersten Einsatz jeder Stimme und ordne ihm die Töne und Schlüssel der oberen Bezeichnung zu. Wo setzt eine bereits eingeführte Stimme später wieder aus?",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 81, Einleitung und vollständige Übung CXVIII (118). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "spalding-trugschluss-dur-moll": {
+      "image": "quellen/noten/spalding-trugschluss-dur-moll.webp",
+      "title": "V–VI: Dur und Moll verlangen verschiedene Wege",
+      "alt": "Drei historische vierstimmige Akkordverbindungen. Im Durbeispiel V–vi fällt der Leitton abwärts. Daneben stehen eine als bad markierte Mollverbindung mit übermäßiger Sekunde und die mit good und 3d doubled bezeichnete Korrektur.",
+      "caption": "Spalding akzeptiert die Durfassung. Die entsprechende Mollfassung links ist im Original als bad bezeichnet: Der fallende Leitton bildet eine übermäßige Sekunde. Die mit good bezeichnete Korrektur rechts verdoppelt die Terz des Zielakkords. Verfolge den Leitton in jeder Verbindung und vergleiche anschließend die Verdopplung im zweiten Akkord. Warum erzeugt die gleiche Bewegungsrichtung in Dur und Moll hier ein verschiedenes Intervall?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. I · § 7 · S. 5; ergänzende Erklärung § 16, S. 21–22. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=19"
+    },
+    "spalding-quartsext-vorhalt": {
+      "image": "quellen/noten/spalding-quartsext-vorhalt.webp",
+      "title": "Der Quartsextakkord als doppelter Vorhalt",
+      "alt": "Zwei historische Akkordmodelle mit gleicher Vorbereitung. Links werden zwei Töne über den eintretenden Dominantbass gebunden und schrittweise aufgelöst; rechts folgt auf die Vorbereitung die entsprechende Dominantharmonie ohne Vorhalte. Beide Modelle sind unter der Dominante mit V beschriftet.",
+      "caption": "Spalding erklärt den betonten Quartsextklang als doppelten Vorhalt vor Terz und Quinte der zugrunde liegenden Dominantharmonie. Die römische V unter beiden Ausschnitten gehört zum Original. Aus dieser Deutung begründet seine Fußnote die Verdopplung des Basses. Vergleiche die beiden Fassungen ab dem Dominantbass. Verfolge die beiden Vorhaltsstimmen: Welche Akkordtöne werden durch den Quartsextklang zunächst aufgeschoben?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. I · § 28 mit Fußnote · S. 39. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=53"
+    },
+    "spalding-betonte-durchgaenge": {
+      "image": "quellen/noten/spalding-betonte-durchgaenge.webp",
+      "title": "Vom Harmoniegerüst zur bewegten Linie",
+      "alt": "Zwei historische zweistimmige Notenbeispiele aus Spaldings § 46, Seite 72. Dieselbe Oberstimme steht über zwei verschiedenen Gegenstimmen. In der zweiten Fassung tragen mit Sternen markierte betonte Durchgangstöne zur melodischen Kontinuität bei.",
+      "caption": "Spalding hält die erste Fassung harmonisch für möglich, kritisiert aber den wenig zusammenhängenden Verlauf der Unterstimme. Die zweite Fassung gewinnt durch betonte Durchgangstöne eine fortlaufende Linie. Die Sterne gehören zum historischen Notendruck. Spiele beide Fassungen. Verfolge besonders die Unterstimme im zweiten und dritten Takt: Welche Sprünge der ersten Fassung werden in der zweiten durch eine fortlaufende Tonleiterbewegung ersetzt? Prüfe die Harmonie anschließend an den Akkordtönen, zu denen die betonten Durchgänge weitergehen.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Zweite Ordnung · § 46 · S. 72. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=86"
+    },
+    "spalding-leitton-figuriert": {
+      "image": "quellen/noten/spalding-leitton-figuriert.webp",
+      "title": "Leittonverdopplung innerhalb einer Figur",
+      "alt": "Historische Tabelle mit fünf Beispielen zur Leittonverdopplung. Spalding kennzeichnet a, b und d als good, c und e als bad und markiert die betreffenden Töne mit Sternen.",
+      "caption": "Die als good bezeichneten Beispiele a, b und d führen den verdoppelten Leitton zwischen anderen Tönen derselben Harmonie. Er bildet weder den höchsten noch den tiefsten Ton der Figur. Die als bad bezeichneten Beispiele c und e erfüllen diese Bedingungen nicht. Die Erlaubnis gehört zum vergleichsweise raschen instrumentalen Vier-gegen-eins. Suche zunächst in jedem Beispiel den verdoppelten Leitton. Prüfe dann seine Lage innerhalb der bewegten Figur: Liegen andere Töne derselben Harmonie davor und danach, und wird der Leitton als höchster oder tiefster Ton hervorgehoben? Vergleiche a mit c sowie b mit e.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Dritte Ordnung · § 61 · S. 98. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
+    },
+    "spalding-verdopplung-linien": {
+      "image": "quellen/noten/spalding-verdopplung-linien.webp",
+      "title": "Klangvollständigkeit und melodischer Verlauf",
+      "alt": "Historisches dreistimmiges Notenbeispiel mit den Fassungen a und b. Beide stehen in zwei Notensystemen; b verändert die Verteilung der Akkordtöne und die Wege der Stimmen.",
+      "caption": "Spalding gibt nach Cherubini zwei Fassungen: a führt die Folge mit möglichst vollständigen Dreiklängen, b gewinnt durch freiere Verdopplung einen flüssigeren Verlauf der Stimmen. Der offene Schlussklang ist in beiden Fassungen gesondert zu beachten. Die Tafel erläutert den Vorrang der melodischen Führung. Spiele a und b und singe anschließend jede Stimme einzeln. Welche gemeinsamen Töne der ersten Fassung werden in der zweiten anders verteilt? Prüfe, wo die vollständige Dreiklangsgestalt zugunsten eines flüssigeren Stimmenwegs verändert wird.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Drei Stimmen · § 95 · S. 130 · nach Cherubini. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=144"
+    },
+    "spalding-oktavtausch-quinte-quarte": {
+      "image": "quellen/noten/spalding-oktavtausch-quinte-quarte.webp",
+      "title": "Quinte und Quarte vor und nach dem Tausch",
+      "alt": "Historische Tabelle mit den Feldern a, b, c, d und f in zwei Reihen. Die untere Reihe enthält die vertauschten Stimmen. Sterne markieren besondere Intervallstellen; f verwendet mehrere Schlüssel und eine Akkolade.",
+      "caption": "Oben stehen die Ausgangsverbindungen, darunter ihre mit Inversions bezeichneten Fassungen. Spalding erläutert bei d eine Quinte als betonten Durchgang und bei f eine betonte Quarte als Appoggiatura. Die Beispiele zeigen, warum der Tausch eine Prüfung der melodischen Fortführung verlangt. Vergleiche jedes Feld mit seiner Fassung in der unteren Reihe. Verfolge bei d den betonten Durchgang bis zu seinem Zielton. Suche bei f die mit Stern bezeichnete Quarte und ihre Fortführung. Unterscheide den Lagentausch der Linien von einer Umkehrung ihrer melodischen Bewegungsrichtung.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Doppelter Kontrapunkt · § 124 · S. 194. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=208"
+    },
+    "spalding-klavierlage": {
+      "image": "quellen/noten/spalding-klavierlage.webp",
+      "title": "Eine tiefe Terz wird zur Dezime",
+      "alt": "Zwei unveränderte historische Notenausschnitte im Bassschlüssel. Beide zeigen eine auf- und absteigende Sechsergruppe eines gebrochenen Akkords. Die erste Figur enthält die enge tiefe Terz; die zweite verteilt dieselben Akkordfunktionen weiter und setzt die Terz eine Oktave höher in die Dezimlage. Die originalen Vorzeichen, Balken, Sechserziffern, Wiederholungszeichen und Bögen bleiben sichtbar.",
+      "caption": "Spalding stellt zwei Arpeggiofiguren gegenüber: In der zweiten steht die Terz in der Dezimlage über dem tiefsten Ton. Die geöffnete Verteilung soll den tiefen Klavierklang deutlicher tragen; die Spielbarkeit bleibt zu prüfen (§ 167, S. 228–229). Verfolge die Lage der Terz in beiden Figuren. Welche Leerräume entstehen zwischen den tieferen Akkordtönen, und wie lässt sich die geöffnete Figur noch bequem greifen?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. XI, § 167, S. 228 · zwei Arpeggiofiguren. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=242"
+    },
+    "spalding-durchgangsquinten": {
+      "image": "quellen/noten/spalding-durchgangsquinten.webp",
+      "title": "Quinten mit einem Durchgangston",
+      "alt": "Fünf Takte einer vierstimmigen Übung in offener Partitur, mit zwei Violinschlüsseln, Altschlüssel und Bassschlüssel. Alle Stimmen setzen nach der Anfangspause ein. Sopran und dritte Stimme bewegen sich über einem fortschreitenden Bass; in der zweiten Taktspalte steht die gedruckte Marke (a). Auf diese Stelle bezieht Spalding seine Erklärung der Quintparallele mit dem Durchgangston gis im Sopran.",
+      "caption": "Die Quintfolge zwischen Sopran und Tenor bei (a) erhält auf der folgenden Seite eine ausdrückliche Begründung: Das gis im Sopran ist ein Durchgangston; für Spalding handelt es sich deshalb nicht um eine Folge tragender Harmonietöne. Der Ausschnitt zeigt seine konkrete freie Übung, keine allgemeine Ausnahme für beliebige Quintparallelen. Lies die Wege von Sopran und dritter Stimme als festes Stimmenpaar. Welche Töne gehören zum harmonischen Gerüst, und welcher Sopran-Ton ist nach Spaldings Erläuterung ein Durchgang?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. XIII, Übung 4, S. 249, Stelle (a); Erläuterung S. 250. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=263"
     }
   }
 };
