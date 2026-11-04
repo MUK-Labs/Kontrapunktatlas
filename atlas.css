@@ -320,6 +320,33 @@ details.suggest textarea { display: block; width: 100%; margin: .25rem 0 .8rem; 
 .bibliography .hero { display: block; }
 .bibliography .hero p { max-width: 58ch; }
 .bibliography-current { padding: .65rem .12rem; font-size: .86rem; font-weight: 700; color: var(--forest); text-decoration: underline; text-underline-offset: .35em; }
+.source-timeline { margin-top: 1.6rem; padding: 1rem 1.1rem .75rem; border: 1px solid var(--rule); border-radius: .35rem; background: var(--surface); }
+.source-timeline-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .3rem 1.5rem; margin-bottom: .35rem; }
+.source-timeline h2 { color: var(--green-deep); font: 500 1.6rem/1.25 var(--serif); }
+.source-timeline-summary { color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
+.source-timeline-viewport { margin-top: .65rem; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-color: #aebaaa var(--paper); }
+.source-timeline-plot { position: relative; }
+.source-timeline-axis { position: absolute; right: 0; left: 0; border-top: 1px solid #b9bdaf; color: var(--muted); font-size: .72rem; font-variant-numeric: tabular-nums; }
+.source-timeline-tick { position: absolute; padding-top: .45rem; transform: translateX(-50%); }
+.source-timeline-tick::before { position: absolute; top: 0; left: 50%; height: .3rem; border-left: 1px solid #b9bdaf; content: ""; }
+.source-timeline-points { margin: 0; padding: 0; list-style: none; }
+.source-timeline-item { position: absolute; width: 32px; height: 32px; transform: translate(-50%, -50%); }
+.source-timeline-point { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: var(--forest); touch-action: manipulation; }
+.source-timeline-dot { width: 12px; height: 12px; border: 2px solid currentColor; border-radius: 50%; background: currentColor; }
+.source-timeline-point:is(:hover, :focus-visible, [aria-current]) { color: var(--rust); background: var(--rust-light); }
+.source-timeline-point:focus-visible { outline-offset: -2px; }
+.source-timeline-point[aria-current] .source-timeline-dot { box-shadow: 0 0 0 2px var(--surface), 0 0 0 3px currentColor; }
+.source-timeline-scroll-hint { margin-top: .3rem; color: var(--muted); font-size: .78rem; }
+.source-timeline-tooltip { position: fixed; z-index: 20; width: max-content; max-width: min(25rem, calc(100vw - 1.5rem)); padding: .7rem .85rem; border: 1px solid #aebaaa; border-radius: .35rem; background: var(--paper); color: var(--ink); box-shadow: 0 .2rem .8rem #203f3424; overflow-wrap: anywhere; }
+.source-timeline-tooltip strong { display: block; color: var(--green-deep); font-size: .85rem; line-height: 1.4; }
+.source-timeline-tooltip span { display: block; margin-top: .2rem; font-size: .77rem; line-height: 1.45; }
+.source-timeline-undated { margin-top: .7rem; padding-top: .65rem; border-top: 1px solid var(--rule); }
+.source-timeline-undated summary { width: fit-content; padding-block: .3rem; color: var(--forest); font-size: .82rem; font-weight: 650; cursor: pointer; }
+.source-timeline-undated-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem .8rem; margin: .6rem 0 0; padding: 0; list-style: none; }
+.source-timeline-undated-button { width: 100%; padding: .6rem .7rem; border: 1px solid var(--rule); border-radius: .25rem; background: var(--paper); color: var(--forest); text-align: left; }
+.source-timeline-undated-button:is(:hover, [aria-current]) { border-color: var(--forest); background: var(--green-light); }
+.source-timeline-undated-button strong { display: block; font-size: .82rem; }
+.source-timeline-undated-button span { display: block; margin-top: .15rem; font-size: .76rem; line-height: 1.4; }
 .bibliography-order { display: grid; gap: .4rem; margin-top: 1.2rem; }
 .bibliography-order label { color: var(--muted); font-size: .8rem; font-weight: 650; }
 .bibliography-order select { width: min(100%, 22rem); min-width: 0; min-height: 2.75rem; padding: .5rem .65rem; border: 1px solid #b9bdaf; border-radius: .35rem; background: var(--surface); color: var(--ink); font-size: 1rem; }
@@ -334,7 +361,11 @@ details.suggest textarea { display: block; width: 100%; margin: .25rem 0 .8rem; 
 .bibliography-group .bibliography-hint { margin: 0 0 .7rem; max-width: 70ch; }
 .bibliography-group legend { padding: 0 0 .55rem; color: var(--green-deep); font: 500 1.65rem/1.2 var(--serif); }
 .bibliography-works { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; margin: 0; padding: 0; list-style: none; }
-.bibliography-work { padding: .8rem .9rem; border: 1px solid var(--rule); border-radius: .35rem; background: var(--surface); overflow-wrap: anywhere; }
+.bibliography-work { padding: .8rem .9rem; border: 1px solid var(--rule); border-radius: .35rem; background: var(--surface); overflow-wrap: anywhere; scroll-margin-block: 1.2rem; }
+.bibliography-work.is-located-source { border-color: var(--forest); background: var(--green-light); box-shadow: 0 0 0 1px var(--forest); }
+.bibliography-work:focus { outline: 3px solid #a7552b; outline-offset: 3px; }
+.bibliography-timeline-back { margin: .7rem 0 0 1.85rem; padding: .35rem .65rem; border: 1px solid #aebaaa; border-radius: .25rem; background: var(--surface); color: var(--forest); font-size: .78rem; font-weight: 650; }
+.bibliography-timeline-back:hover { text-decoration: underline; }
 .bibliography-label { display: flex; align-items: baseline; gap: .7rem; }
 .bibliography-label input, .bibliography-citation { cursor: pointer; }
 .bibliography-label input { align-self: start; width: 1.15rem; height: 1.15rem; margin: .12rem 0 0; flex: 0 0 auto; accent-color: var(--forest); }
@@ -347,6 +378,8 @@ details.suggest textarea { display: block; width: 100%; margin: .25rem 0 .8rem; 
 .bibliography-note { margin: .45rem 0 0 1.85rem; color: var(--muted); font-size: .76rem; line-height: 1.4; }
 .bibliography .footer { margin-top: 2.6rem; }
 @media (max-width: 660px) {
+  .source-timeline { padding-inline: .75rem; }
+  .source-timeline-undated-list { grid-template-columns: minmax(0, 1fr); }
   .bibliography-works { grid-template-columns: minmax(0, 1fr); }
   .bibliography-tools { align-items: start; }
 }
