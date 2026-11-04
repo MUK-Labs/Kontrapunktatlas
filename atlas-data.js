@@ -927,6 +927,13 @@ const ATLAS = {
         "Zimmermann"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Bernd_Alois_Zimmermann"
+    },
+    {
+      "name": "Leonard Stein",
+      "aliases": [
+        "Stein"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Leonard_Stein"
     }
   ],
   "sources": [
@@ -1278,6 +1285,16 @@ const ATLAS = {
       "sortAuthor": "Motte, Diether de la",
       "publicationYear": 1995,
       "publicationNote": "Jahr der verwendeten zweiten spanischen Auflage. Das deutsche Original erschien 1981; die Fundstellen folgen der spanischen Ausgabe."
+    },
+    {
+      "id": "schoenberg1970",
+      "name": "Arnold Schönberg",
+      "title": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+      "group": "Lehrwerke",
+      "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+      "sortAuthor": "Schönberg, Arnold",
+      "publicationYear": 1970,
+      "publicationNote": "Jahr der bereitgestellten ersten Taschenbuchausgabe. Das Werk erschien zuerst 1963. Fundstellen folgen den gedruckten Seiten; im bereitgestellten Scan fehlen S. 110–111 und 180–181. Von Leonard Stein ergänzte Texte werden gesondert zugeschrieben."
     }
   ],
   "topics": [
@@ -1496,6 +1513,29 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e03",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 7e, S. 7; Kommentar zur ersten Spezies, S. 14 · zusammengesetzte Sprünge",
+          "text": "Zwei einzeln zulässige Sprünge werden für Schönberg nicht allein dadurch zu einer guten Folge. Gehen sie in dieselbe Richtung und umspannen zusammen etwa eine Septime, None oder Undezime, entsteht ein zusammengesetzter dissonanter Sprung, den die Anfängerübung vermeiden soll. Im Kommentar relativiert er zugleich die Vorstellung völlig gleich schwerer Fehler: Eine auffällige Sprungfolge kann gegenüber einer sonst nicht erreichbaren melodischen Möglichkeit das geringere Übel sein. Diese Abwägung ersetzt die Grundregel nicht durch eine allgemeine Erlaubnis für Sprungketten.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · zusammengesetzte melodische Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 7e, S. 7; Kommentar zur ersten Spezies, S. 14 · zusammengesetzte Sprünge; § 7, Anm. 2, S. 6",
+              "note": "Grundregel und ausdrücklich besprochene Abwägung stehen im Kapitel der ersten Spezies. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
         }
       ],
@@ -2294,6 +2334,52 @@ const ATLAS = {
               "note": "Das Benedictus aus Palestrinas Missa brevis dient als Repertoirebeleg für die Wirkung des dritten Stimmeinsatzes. Der Lehrgang überträgt die Beobachtung auch auf die Vokalübungsfuge."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e11",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 10, S. 12; Kommentar, S. 14 · erste Spezies, Tonika am Anfang",
+          "text": "Der Anfang soll die Tonika in Grundstellung deutlich machen. Liegt der Cantus unten auf dem Grundton, darf die Oberstimme Einklang, Oktave, vorzugsweise die Quinte oder auch die Terz ergänzen. Liegt der Cantus oben auf dem Tonikaton, bleibt der unteren Zusatzstimme dagegen nur dessen Einklang oder Oktave. Schönberg lässt die Lösungen systematisch nach ihren verschiedenen Anfangsintervallen erproben. Die Terz ist hier also bereits im zweistimmigen Note-gegen-Note-Satz ein regulärer Anfangston und nicht erst eine Freiheit zusätzlicher Stimmen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · tonaler Anfang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 10, S. 12; Kommentar, S. 14 · erste Spezies, Tonika am Anfang; § 7, Anm. 2, S. 6",
+              "note": "§10 unterscheidet ausdrücklich die Lage des Cantus und nennt die Terz am Anfang. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e12",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 23, S. 25; Kommentar und Bsp. 10 und 13, S. 26–28 · zweite Spezies",
+          "text": "Auch in der zweiten Spezies beginnt die Oberstimme mit Einklang, Oktave, Quinte oder Terz über dem Cantus; die Sexte würde die Tonart nach Schönbergs Begründung nicht eindeutig genug ausdrücken. Unter dem Cantus bleiben Einklang und Oktave. Eine halbe Anfangspause ist möglich und hilft in manchen Lösungen, eine gewünschte Fortsetzung zu erreichen. Sie ist hier keine Pflicht: Die Beispiele zeigen sowohl den gemeinsamen Beginn als auch den verzögerten Einsatz. Die leichte Eintrittszeit hebt die Vorgabe für das Anfangsintervall nicht auf.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweite Spezies · Intervallwahl und Anfangspause",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 23, S. 25; Kommentar und Bsp. 10 und 13, S. 26–28 · zweite Spezies; § 7, Anm. 2, S. 6",
+              "note": "Die Regel über den ersten Ton wird mit den unterschiedlich beginnenden Aussetzungen gelesen. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -2404,6 +2490,18 @@ const ATLAS = {
           "type": "contradiction",
           "note": "Schubert übernimmt für den ersten klingenden Ton der dritten Spezies die Forderung nach einer vollkommenen Konsonanz auch nach einer Anfangspause. Jeppesen erlaubt beim auftaktigen Beginn derselben zweistimmigen Art gelegentlich eine unvollkommene Konsonanz.",
           "from": "jeppesen1964-38"
+        },
+        {
+          "from": "schoenberg1970-e11",
+          "to": "rothgeb1998-s1-1",
+          "type": "contradiction",
+          "note": "Über dem unten liegenden Cantus beschränkt Rothgeb den Anfang auf Einklang, Quinte oder Oktave. Schönberg erlaubt in derselben zweistimmigen ersten Spezies zusätzlich die Terz der Tonika. Unter einem oben liegenden Cantus stimmen beide dagegen in der Beschränkung auf Einklang und Oktave überein."
+        },
+        {
+          "from": "schoenberg1970-e12",
+          "to": "gallon-bitsch1964-2",
+          "type": "contradiction",
+          "note": "Gallon und Bitsch schreiben in der zweiten Spezies die halbe Anfangspause vor. Schönberg verwendet sowohl den gemeinsamen Beginn als auch den Einsatz nach dieser Pause und begründet ihren Gebrauch mit den Möglichkeiten der folgenden Linie. Die Pause ist bei ihm eine Wahl, keine durchgängige Pflicht."
         }
       ]
     },
@@ -2424,7 +2522,9 @@ const ATLAS = {
         "sprung-zum-leitton",
         "kadenz-oberstimme",
         "kadenzausweichung",
-        "doppelleitton-kadenz"
+        "doppelleitton-kadenz",
+        "moll-neutralisierung",
+        "akkordton-verdopplung"
       ],
       "authors": [
         {
@@ -2581,6 +2681,33 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m02",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 64–67, S. 61–62; Kommentar zu Bsp. 34f, S. 65; Teil II, Kommentar zu Bsp. 55a/b/e, S. 102 · Moll und Schlusslizenzen",
+          "text": "Die erhöhte siebte Stufe darf in der elementaren Mollregel zunächst nur zur achten weitergehen; die erhöhte sechste muss ihrerseits über die erhöhte siebte zur Tonika führen. Schönberg kennzeichnet diese Bindung als pädagogische Vereinfachung. Später duldet er am Schluss eine eingeschobene Note: Bei Bsp. 34f versteht er den Umweg zwischen gis und a als unterbrochene Auflösung. In den dreistimmigen Halbenübungen 55a, b und e kann zwischen Leitton und Tonika ein Ton der fünften oder zweiten Stufe treten, damit der vorletzte Takt auskommt. Die Pflicht zum Zielton und die Pflicht, ihn sofort zu erreichen, sind daher nicht in jeder Übungsstufe gleich streng.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Mollübungen: Grundregel und spätere Kadenzlizenzen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 64–67, S. 61–62; Kommentar zu Bsp. 34f, S. 65; Teil II, Kommentar zu Bsp. 55a/b/e, S. 102 · Moll und Schlusslizenzen",
+              "note": "Die Bindung der erhöhten Stufen wird auf S. 62 als pädagogisch begründet; die Kommentare S. 65 und 102 belegen konkrete spätere Schlusslizenzen, keine allgemeine Aufhebung."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -2607,6 +2734,18 @@ const ATLAS = {
           "to": "piston1947-1",
           "type": "context",
           "note": "Piston beschreibt die Aufwärtsauflösung eines als Vorhalt wirksamen Leittons beziehungsweise erhöhten Tons. De la Motte betrachtet bei Palestrina auch erhöhte Töne, die als konsonante große Terzen ohne Leittonfortsetzung erklingen. Vor der Anwendung einer Auflösungsregel muss deshalb die jeweilige Funktion des Tons feststehen."
+        },
+        {
+          "from": "schoenberg1970-m02",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Noël-Gallon und Bitsch geben einem als Akkordton verwendeten Leitton keine obligatorische Fortsetzung. Schönberg bindet die erhöhte siebte Stufe seiner elementaren Mollübungen zunächst ausdrücklich an die Tonika und lockert vor allem den unmittelbaren Anschluss bei bestimmten Schlussproblemen. Die Kriterien Akkordton und vorläufiger Wendepunkt führen zu unterschiedlichem Spielraum."
+        },
+        {
+          "from": "schoenberg1970-m02",
+          "to": "motte1995-e07",
+          "type": "context",
+          "note": "De la Motte zeigt erhöhte Töne bei Palestrina, deren erwartete Leittonfortsetzung ganz entfällt und deren Funktion klanglich ist. Schönbergs Mollregel setzt die erhöhte siebte Stufe gerade wegen ihres Zugs zur Tonika ein. Aus dem historischen Farbton und dem pädagogisch definierten Wendepunkt folgt deshalb nicht dieselbe Fortsetzungspflicht."
         }
       ]
     },
@@ -2890,6 +3029,52 @@ const ATLAS = {
               "note": "Menke begrenzt den Befund ausdrücklich auf Charpentiers französischen Zusammenhang im späten 17. Jahrhundert; Bezifferung und Stimmführung gehören zusammen."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e01",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 1–4, S. 1–3 · erste Spezies, zwei Stimmen",
+          "text": "In der zweistimmigen ersten Spezies wird jeder Cantuston durch eine Konsonanz ergänzt: Einklang, reine Oktave und Quinte sowie große oder kleine Terz und Sexte. Die Quarte bezeichnet Schönberg zwar als nur unter bestimmten Bedingungen konsonant, verlangt hier aber ihre Behandlung als Dissonanz. Auch die verminderte Quinte gehört deshalb nicht zum verfügbaren Material. Wird ein Intervall um eine oder mehrere Oktaven erweitert, behält es für diese Einteilung seine konsonante oder dissonante Qualität.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 1–4, S. 1–3 · erste Spezies, zwei Stimmen; § 7, Anm. 2, S. 6",
+              "note": "Die Intervallauswahl gilt ausdrücklich für die erste zweistimmige Aufgabe. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m10",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. I, §§ 102–110, S. 93–96 · Dreiklänge und Umkehrungen in drei Stimmen",
+          "text": "Mit drei Stimmen entstehen vollständige Dreiklänge. Für Schönberg bleiben aber die Intervalle über der tiefsten Stimme entscheidend: Der verminderte Dreiklang wird nur als Sextakkord konsonant zugelassen, weil dann Terz und Sexte über dem Bass stehen. In Grundstellung bleibt seine verminderte Quinte dissonant. Ebenso zählen der übermäßige Dreiklang und der Quartsextakkord hier zu den Dissonanzen. Solche Klänge können später durch Durchgänge oder Vorhalte entstehen; ihr Auftreten verlangt dann diese Stimmführungserklärung. Die Zulässigkeit des verminderten Sextakkords ist keine allgemeine Freigabe aller verminderten oder übermäßigen Intervalle.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige erste Spezies: konsonanter Klangvorrat und Ausblick auf Dissonanzfiguren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. I, §§ 102–110, S. 93–96 · Dreiklänge und Umkehrungen in drei Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -2916,6 +3101,12 @@ const ATLAS = {
           "to": "jeppesen1964-50",
           "type": "context",
           "note": "Jeppesen lässt im dreistimmigen Palestrina-Lehrsatz den verminderten Dreiklang nur als Sextakkord zu. Menke beschreibt ausdrücklich französische Musik des späten 17. Jahrhunderts, in der Charpentiers Bezifferung auch verminderte und übermäßige Grundstellungen verlangt. Der Unterschied betrifft Stil und Klangbehandlung, keine gegenseitige Korrektur desselben Übungssatzes."
+        },
+        {
+          "from": "schoenberg1970-m10",
+          "to": "menke2017-28",
+          "type": "context",
+          "note": "Schönbergs dreistimmige Vorübung verlangt für verminderte und übermäßige Dreiklänge in Grundstellung eine Dissonanzfigur. In Menkes französischen Beispielen des späten 17. Jahrhunderts gehören dieselben Klangarten dagegen zu einem erweiterten konsonanten Zusammenhang. Die Differenz liegt zwischen dem eingeschränkten Übungsbestand und dem besonderen historischen Repertoire."
         }
       ]
     },
@@ -3263,6 +3454,29 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e02",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 7a–b und d–k, S. 6–8 · melodische Grundregeln der zweistimmigen Vorübung",
+          "text": "Schönberg schließt zunächst übermäßige und verminderte Sprünge, Septimen, Nonen und Sprünge über die Oktave aus. Sexten empfiehlt er ebenfalls zu meiden, sogar die traditionell zugelassene aufsteigende kleine Sexte: Sie können leicht zu verdeckten Quinten oder Oktaven führen. Er formuliert jedoch kein ausnahmsloses Sextverbot. Im Notfall dürfen große und kleine Sexten in beiden Richtungen vorkommen, sofern keine fehlerhaften Parallelen entstehen. Auch die Oktave behandelt er vorerst als Ausweg aus ungünstiger Lage oder überschrittenem Stimmumfang.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Melodische Grundregeln · zweistimmiger Einstieg",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 7a–b und d–k, S. 6–8 · melodische Grundregeln der zweistimmigen Vorübung; § 7, Anm. 2, S. 6",
+              "note": "Die Antwort bewahrt die ausdrücklichen Notfallausnahmen der anfänglichen Intervallregel. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "related": [
@@ -3318,6 +3532,18 @@ const ATLAS = {
           "to": "jeppesen1964-1",
           "type": "context",
           "note": "Jeppesen schließt Sprünge über die Oktave aus seiner Grundlage des Palestrina-Stils aus. De la Motte belegt bei Josquin sogar Dezimen, behandelt sie aber als ausdrücklich außergewöhnliche Ausdrucksmittel. Repertoire und Stellung der Ausnahme im Unterricht sind verschieden."
+        },
+        {
+          "from": "schoenberg1970-e02",
+          "to": "salzer-schachter1989-1",
+          "type": "nuance",
+          "note": "Salzer und Schachter rechnen beide Sextgrößen zum verfügbaren Material der vokal gedachten Spezies. Schönberg empfiehlt auch die aufsteigende kleine Sexte zunächst zu meiden und lässt beide Größen und Richtungen erst als begründeten Ausweg ohne fehlerhafte Parallelen zu. Der Unterschied betrifft ihre Stellung als normales Mittel oder Notlösung."
+        },
+        {
+          "from": "schoenberg1970-e02",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prouts strenger Satz lässt bestimmte verminderte Sprünge und die aufsteigende kleine Septime unter benannten Fortsetzungsbedingungen zu. Schönbergs anfängliche melodische Regeln schließen diese Sprungarten aus. Die Erleichterung für Sexten hebt diesen Unterschied nicht auf."
         }
       ]
     },
@@ -3491,6 +3717,29 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e04",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 7f und l, S. 7 und 9 · Richtungswechsel nach einem Sprung",
+          "text": "Nach einem Sprung soll die Stimme in Schönbergs erster Übung grundsätzlich die Richtung wechseln; auch ein anschließender Schritt in derselben Richtung ist zunächst zu vermeiden. Der Ausgleich selbst darf schrittweise oder durch einen Sprung erfolgen. Als günstige Gesamtbewegung beschreibt er ein Auf und Ab in Wellen, das Schritte und Sprünge mischt. Seine Notenbeispiele unterscheiden dabei bereits zwischen falschen, bloß erträglichen und besseren Fortsetzungen. Die Empfehlung verlangt also keine lückenlose schrittweise Rückkehr über sämtliche übersprungenen Töne.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · melodischer Richtungsausgleich",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 7f und l, S. 7 und 9 · Richtungswechsel nach einem Sprung; § 7, Anm. 2, S. 6",
+              "note": "Die Aussage betrifft die anfangs isolierte Schulung melodischer Bewegung. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -3511,6 +3760,12 @@ const ATLAS = {
           "to": "green-jones2011-1",
           "type": "nuance",
           "note": "Bei Oktave und aufsteigender kleiner Sexte verlangen Green und Jones Gegenbewegung auf beiden Seiten. De la Motte formuliert für seine Josquin-orientierte Arbeit Gegenbewegung vor oder nach dem Sprung. Die beidseitige Einfassung ist damit die engere Übungsvorgabe."
+        },
+        {
+          "from": "schoenberg1970-e04",
+          "to": "green-jones2011-1",
+          "type": "nuance",
+          "note": "Green und Jones lassen bei Terz, Quarte und Quinte den Richtungsausgleich vor oder nach dem Sprung gelten. Schönbergs anfängliche Anweisung setzt ihn grundsätzlich nach dem Sprung an, wobei seine Beispiele bereits verschiedene Grade der Zulässigkeit unterscheiden."
         }
       ]
     },
@@ -3602,6 +3857,30 @@ const ATLAS = {
               "note": "Die Passage beurteilt Arpeggien und ihre gebrochene Umordnung innerhalb einer Gesangslinie."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e05",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 7h, S. 8; Kommentare, S. 14 und 26 · erste und zweite Spezies",
+          "text": "Gebrochene Akkorde sollen in der Gegenstimme möglichst vermieden werden. Schönberg nennt dafür zwei Gründe: Eine deutlich ausgesprochene Harmonie kann die freie Bewegung der anderen Stimme einengen, und die Brechung kann wie eine homophone Begleitung wirken. Er verwirft sie jedoch nicht ausnahmslos. In den Kommentaren duldet er einzelne Akkordbrechungen, wenn dadurch ein sonst schwer erreichbarer Ton in eine brauchbare Linie gelangt. Entscheidend ist der konkrete melodische Gewinn; die bloße Zugehörigkeit aller Sprungtöne zu einem Dreiklang genügt ihm nicht als Begründung.",
+          "speciesScope": [
+            1,
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste und zweite Spezies · melodische Akkordbrechung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 7h, S. 8; Kommentare, S. 14 und 26 · erste und zweite Spezies; § 7, Anm. 2, S. 6",
+              "note": "Die allgemeine Warnung wird an ausdrücklich geduldeten Lösungen der ersten und zweiten Spezies präzisiert. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -3610,6 +3889,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Goetschius beurteilt gleichgerichtete Sprünge in der Durmelodie nach ihrer Zugehörigkeit zu einem gemeinsamen Akkord. Noël-Gallon und Bitsch beanstanden die gewöhnliche auf- oder absteigende Arpeggiofigur in der Gesangslinie und dulden die gebrochene Form mit Richtungswechsel nur ausnahmsweise."
+        },
+        {
+          "from": "schoenberg1970-e05",
+          "to": "goetschius1910-1",
+          "type": "context",
+          "note": "Goetschius prüft Sprungfolgen in einer einzelnen Dur-Melodie auf gemeinsame Akkordzugehörigkeit. Schönberg fragt in der zweistimmigen Vorübung zusätzlich, ob eine Akkordbrechung die andere Stimme harmonisch bindet oder wie Begleitung klingt. Die unterschiedlichen Aufgaben erklären den anderen Stellenwert desselben melodischen Mittels."
         }
       ]
     },
@@ -4479,6 +4764,52 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e20",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 33, S. 34–35 · dritte Spezies, betonter Durchgang",
+          "text": "Ein Durchgang darf in Schönbergs dritter Spezies gelegentlich seine metrische Stelle wechseln. Auch auf dem relativ betonten dritten Viertel ist er möglich, wenn er schrittweise zwischen zwei konsonanten Tönen im Terzabstand liegt. Die Formel wird dadurch nicht zu einer frei eingeführten Dissonanz: Die beiden Nachbartöne und die fortgesetzte Bewegungsrichtung bleiben maßgeblich. Den Durchgang auf dem ersten Viertel zeigt er ebenfalls, verweist jedoch auf dessen Verbot in der älteren Lehre und verlangt, ihn auch in seinen Übungen im Allgemeinen zu vermeiden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dritte Spezies · metrisch verschobene Durchgangsformel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 33, S. 34–35 · dritte Spezies, betonter Durchgang; § 7, Anm. 2, S. 6",
+              "note": "§33 unterscheidet die dritte Viertel vom stärker eingeschränkten Taktanfang. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e27",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 41 und 46, S. 47–48 · vierte Spezies, Vorhalt in der Oberstimme",
+          "text": "In der Oberstimme lässt Schönberg neben 7–6 und 4–3 auch den Vorhalt 9–8 und die engere Form 2–1 zu. Gegen die Auflösung der Sekunde in den Einklang sieht er keinen grundsätzlichen Einwand, warnt aber vor einer undeutlich werdenden Stimmführung, besonders am Klavier. Auch 9–8 gilt als korrekt, solange die Zieloktave nicht leer wirkt. Die Auflösung muss hier folglich nicht ausnahmslos eine unvollkommene Konsonanz erreichen. Ihre Wirkung innerhalb der zweistimmigen Linie bleibt mitzuprüfen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierte Spezies · Oberstimmenvorhalt zur vollkommenen Konsonanz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 41 und 46, S. 47–48 · vierte Spezies, Vorhalt in der Oberstimme; § 7, Anm. 2, S. 6",
+              "note": "§46 erlaubt beide Verbindungen ausdrücklich und nennt ihre hörbaren Nachteile. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -4535,6 +4866,24 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "context",
           "note": "Fux nimmt den Oberstimmenvorhalt 9–8 in die vierte Spezies auf. De la Mottes Josquin-Grundmodell verlangt dagegen die unvollkommene Konsonanz als Auflösungsziel und beschränkt die gewöhnlichen Oberstimmenformen auf 7–6 und 4–3. Die spätere Besprechung seltener Ausnahmen macht daraus kein allgemeines Verbot für jedes Werk."
+        },
+        {
+          "from": "schoenberg1970-e20",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout erlaubt den betonten Durchgang ausnahmsweise im Zwei-gegen-eins, lehnt ihn im Vier-gegen-eins aber ab. Schönberg öffnet gerade die dritte Spezies für gelegentliche Durchgänge auf dem dritten Viertel. Beide Aussagen betreffen die unverzögerte Durchgangsfigur, nicht den gebundenen Vorhalt."
+        },
+        {
+          "from": "schoenberg1970-e20",
+          "to": "jeppesen1964-23",
+          "type": "context",
+          "note": "Jeppesen verwirft den Durchgang auf dem dritten Viertel für seine Palestrina-orientierte dritte Art als dort unbelegt. Schönberg übernimmt ihn in seine ausdrücklich pädagogisch, nicht als historische Stilkopie begründete Übung. Der verschiedene Maßstab führt zu einer tatsächlich anderen erlaubten Dissonanzstelle."
+        },
+        {
+          "from": "schoenberg1970-e27",
+          "to": "jeppesen1964-27",
+          "type": "contradiction",
+          "note": "Jeppesen verlangt für den zweistimmigen Oberstimmenvorhalt eine unvollkommene Zielkonsonanz und schließt 9–8 sowie 2–1 aus. Schönberg erlaubt beide ausdrücklich, warnt jedoch vor leerer Klangwirkung beziehungsweise undeutlicher Stimmführung. Es geht um dieselben Vorhaltsintervalle innerhalb der vierten Spezies."
         }
       ]
     },
@@ -5386,6 +5735,104 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e30",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 39–40, S. 47 · vierte Spezies, zwei Stimmen",
+          "text": "In der vierten Spezies soll der dissonante Vorhalt stets einen Schritt abwärts in eine Konsonanz gehen. Schönberg betont dabei, dass nicht der Cantus als aufzulösende Dissonanz zu behandeln ist, sondern die hinzugefügte, gebundene Stimme. Liegt diese unten, kann ihr Abwärtsschritt den Abstand zum Cantus vergrößern, etwa von der Sekunde zur Terz. Eine aufwärts gerichtete Vorhaltsauflösung sieht seine Regel hier nicht vor; die spätere Verzierung der fünften Spezies ist von dieser unverzierten Grundform zu unterscheiden.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierte Spezies · Auflösung der gebundenen Zusatzstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 39–40, S. 47 · vierte Spezies, zwei Stimmen; § 7, Anm. 2, S. 6",
+              "note": "§40 weist die Auflösungspflicht der Zusatzstimme zu und schließt die Gegenrichtung ausdrücklich aus. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e31",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 54–57, S. 54–56 · fünfte Spezies, unterbrochene Vorhaltsauflösung",
+          "text": "Die Auflösung eines Vorhalts darf in Schönbergs fünfter Spezies durch einen eingeschobenen Ton verzögert werden. Im Grundmodell wird die Dissonanz auf der Eins zur Viertel verkürzt; auf dem zweiten Viertel folgt gewöhnlich eine Konsonanz, auf dem dritten der eigentliche Auflösungston. Der Zwischenton liegt meist tiefer, doch bei Bedarf oder besserer Linienführung lässt Schönberg auch einen höheren zu. Der unmittelbar nächste Ton kann somit aufwärts gehen, während sich der Vorhalt insgesamt abwärts auflöst. Größere Sprünge als eine Quinte scheiden für den Einschub aus; auch die Verzierung beseitigt keine fehlerhaften parallelen Auflösungen.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Fünfte Spezies · verzögerte Auflösung mit Zwischenton",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 54–57, S. 54–56 · fünfte Spezies, unterbrochene Vorhaltsauflösung; § 7, Anm. 2, S. 6",
+              "note": "§§54–56 unterscheiden die Lage des Zwischentons vom eigentlichen Auflösungsziel; §57 behält die Parallelprüfung bei. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true,
+          "examples": [
+            "schoenberg-unterbrochene-aufloesung"
+          ]
+        },
+        {
+          "id": "schoenberg1970-m19",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. IV, § 124, S. 117, Bsp. j und n · Auflösungston in einer anderen Stimme",
+          "text": "Die Wirkung eines Vorhalts hängt für Schönberg auch davon ab, ob sein Zielton bereits in einer anderen Stimme erklingt. Bei der vorgehaltenen Septime soll diese Vorwegnahme vermieden werden; das Beispiel j verwirft er ausdrücklich. Für die None ist er weniger streng. Obwohl der strenge Kontrapunkt nach seiner Darstellung auch hier einen schon klingenden Zielton in Mittel- oder Unterstimme verbietet, toleriert er ihn bei überzeugender Stimmführung. Die beiden Intervalle erhalten in dieser dreistimmigen Übung somit nicht dieselbe Behandlung.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige vierte Spezies: vorweggenommener Zielton von Septime und None",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. IV, § 124, S. 117, Bsp. j und n · Auflösungston in einer anderen Stimme",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m20",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. IV, §§ 127–130, S. 120–122 · Vorhalte als Septakkorde und deren Umkehrungen",
+          "text": "Im dreistimmigen Satz erklärt Schönberg auch Septakkorde und ihre Umkehrungen als mögliche Ergebnisse von Vorhalten. Die konsonante Auflösung entsteht dabei häufig erst, wenn die andere bewegte Stimme gleichzeitig weitergeht. Er zeigt den Zusammenhang zunächst harmonisch als V⁷–I und überträgt ihn auf die zweite Stufe. Beim Terzquartklang müssen in seinen Beispielen beide zum Cantus dissonierenden Stimmen vorbereitet werden. Damit umfasst sein Vorhaltskapitel auch Verbindungen, deren Auflösung einen Harmoniewechsel einschließt; das Wort bezeichnet hier nicht nur eine Verzögerung innerhalb eines unveränderten Akkords.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige Kombinationen: Septakkordklänge aus vorbereiteten Dissonanzen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. IV, §§ 127–130, S. 120–122 · Vorhalte als Septakkorde und deren Umkehrungen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -5418,6 +5865,24 @@ const ATLAS = {
           "to": "menke2017-93",
           "type": "context",
           "note": "De la Motte bindet die Dissonanzauflösung in seiner einstimmigen Bach-Aufgabe an dieselbe gedachte Stimme und Oktavlage. Menkes theatralischer Satz erlaubt nach Heinichen auch eine Umschichtung des dissonanten Klangs und des Auflösungsklangs. Die größere Freiheit betrifft einen anderen Satz- und Stilrahmen, nicht bloß eine abweichende Schreibweise derselben Übung."
+        },
+        {
+          "from": "schoenberg1970-e30",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout nimmt den zur Tonika aufsteigenden gebundenen Leitton ausdrücklich in den strengen Satz auf. Schönbergs Regel der vierten Spezies verlangt für den dissonanten Vorhalt stets den absteigenden Sekundschritt und nennt hier keine solche aufwärts gerichtete Ausnahme. Eine später eingeschobene Verzierung ist damit nicht gemeint."
+        },
+        {
+          "from": "schoenberg1970-e31",
+          "to": "bellermann1901-1",
+          "type": "nuance",
+          "note": "Bellermanns dargestellte Verzierung führt vom Vorhalt zunächst durch Sprung in eine tiefere Konsonanz. Schönberg erklärt daneben ausdrücklich auch höhere Zwischentöne, wenn die tiefere Lösung ausscheidet oder weniger günstig ist. In beiden Fällen bleibt das spätere Auflösungsziel von diesem eingeschobenen Ton zu unterscheiden."
+        },
+        {
+          "from": "schoenberg1970-m20",
+          "to": "neidhoefer-schubert2023-2",
+          "type": "nuance",
+          "note": "Neidhöfer und Schubert trennen den Vorhalt über gleicher Harmonie von der vorbereiteten Akkordseptime mit Harmoniewechsel. Schönberg behandelt auch zu einem neuen Akkord führende Septakkordklänge im Vorhaltskapitel. Die abwärts gerichtete Stimmenbewegung ist vergleichbar; die begriffliche Grenze wird unterschiedlich gezogen."
         }
       ]
     },
@@ -5972,6 +6437,77 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e24",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 8 I a, S. 10; Kommentar, S. 15 · offene und unterbrochene Quint-/Oktavfolgen",
+          "text": "Offene parallele Quinten und Oktaven schließt Schönberg aus, begründet beide Verbote aber unterschiedlich: Oktaven nehmen den Stimmen ihre Selbstständigkeit; gegen parallele Quinten spreche nach seiner Darstellung die Tradition, nicht ein zwingender physikalischer oder ästhetischer Grund. Auch ein eingeschobener anderer Zusammenklang beseitigt das Problem wiederkehrender Quinten oder Oktaven nicht automatisch. Selbst Gegenbewegung beim zweiten Intervall ist dafür noch keine allgemeine Entschuldigung. Unter Hinweis auf Beethoven diskutiert er jedoch begrenzte Fälle mit einem dazwischenliegenden Quart- oder Quintsprung und gegenläufigem Eintritt in das zweite vollkommene Intervall.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · Parallelen und zwischengeschobene Klänge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 8 I a, S. 10; Kommentar, S. 15 · offene und unterbrochene Quint-/Oktavfolgen; § 7, Anm. 2, S. 6",
+              "note": "Die beiden Verbotsbegründungen und die Einschränkung der unterbrochenen Folge stehen in der ersten Spezies. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e25",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 31, S. 34; Kommentar zur dritten Spezies, S. 37 · getrennte vollkommene Intervalle",
+          "text": "Bei der Viertelbewegung hält Schönberg unterbrochene Quinten und Oktaven weiterhin für problematisch. Für besonders schwierige Lösungen erwägt er auf S. 37 eine Duldung, wenn mindestens vier Töne und eine Quarte zwischen den wiederkehrenden vollkommenen Intervallen liegen. Die fehlende bessere Lösung gehört zur Begründung dieser Ausnahme. Schon bei den Cambiata-Versuchen markiert er fragliche Folgen und unterscheidet den zweistimmigen Satz von der größeren Freiheit, die unter Beteiligung einer Mittelstimme in drei Stimmen entsteht.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dritte Spezies · zweistimmige Ausnahme von der Parallelregel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 31, S. 34; Kommentar zur dritten Spezies, S. 37 · getrennte vollkommene Intervalle; § 7, Anm. 2, S. 6",
+              "note": "Die Passage koppelt die größere Trennung an einen Notfall und grenzt den dreistimmigen Fall gesondert ab. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m21",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, §§ 122 und 125, S. 116–118; Kommentare S. 102 und 112 · zeitlich getrennte Quinten und Oktaven in drei Stimmen",
+          "text": "Zeitlich getrennte Quinten oder Oktaven bleiben für Schönberg prüfbedürftig, auch wenn dazwischen Vorhalte oder Durchgänge stehen. Im dreistimmigen Satz kann die zusätzliche Bewegung ihre Wirkung jedoch abschwächen. Er nennt dafür die Bewegung einer dritten Stimme in Halben oder Vierteln und bei Vorhaltsauflösungen die Beteiligung einer Mittelstimme; dichterer Satz und reichere Harmoniewechsel können weiter entlasten. Solche komplizierten Fälle sollen Anfänger zunächst meiden. In einzelnen Kommentaren erklärt er ausdrücklich, warum eine Quintfolge in drei Stimmen tolerierbar ist, die er in zwei Stimmen nicht gestatten würde. Die Stimmenzahl und der gesamte Verlauf gehören somit zur Beurteilung.",
+          "speciesScope": [
+            2,
+            3,
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Vorübungen: zeitlich getrennte vollkommene Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, §§ 122 und 125, S. 116–118; Kommentare S. 102 und 112 · zeitlich getrennte Quinten und Oktaven in drei Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -6028,6 +6564,12 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "context",
           "note": "Fux prüft in der zweiten Spezies, ob Zwischentöne die Quinten oder Oktaven auf schweren Zeiten tatsächlich verdecken. De la Motte unterscheidet im freien Josquin-Duett stärker zwischen den Intervallarten: Seine versetzten Quinten sind gebräuchlich, die entsprechenden Oktaven ausgeschlossen. Die freiere Rhythmik der Werkbeispiele gehört zu diesem Vergleich."
+        },
+        {
+          "from": "schoenberg1970-e25",
+          "to": "salzer-schachter1989-2",
+          "type": "nuance",
+          "note": "Salzer und Schachter ermöglichen wiederkehrende Quinten oder Oktaven auf benachbarten Taktanfängen schon mit drei intervenierenden Vierteln, wenn weitere Hervorhebungen ausbleiben. Schönberg spricht auf S. 37 von mindestens vier Zwischentönen und einer Quarte und behält zudem den Notfallvorbehalt bei. Beide prüfen Trennung und Verlauf, setzen den Spielraum aber unterschiedlich eng."
         }
       ]
     },
@@ -6425,6 +6967,79 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e07",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 8 I a, S. 10 · zweistimmiger Einstieg und Hornquinten/-oktaven",
+          "text": "Im einfachen zweistimmigen Kontrapunkt verlangt Schönberg, verdeckte Quinten und Oktaven zu vermeiden. Eine ausdrücklich benannte Ausnahme sind jedoch die sogenannten Hornquinten und Hornoktaven, die er wegen ihrer kaum vermeidbaren, gebräuchlichen Stimmführung zulässt. Deshalb lässt sich seine Vorschrift nicht auf ein vollständiges Verbot jedes gleichgerichteten Eintritts in ein vollkommenes Intervall verkürzen. Die daneben erwähnte größere Freiheit unter Beteiligung einer Mittelstimme gehört zum Satz mit mindestens drei Stimmen und darf nicht auf die zweistimmige Aufgabe übertragen werden.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · zwei Stimmen und ausdrücklich benannte Ausnahme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 8 I a, S. 10 · zweistimmiger Einstieg und Hornquinten/-oktaven; § 7, Anm. 2, S. 6",
+              "note": "Der Text trennt die zweistimmige Regel von der Erleichterung im mehrstimmigen Satz. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m12",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. I, § 111, S. 96–97; vgl. § 134, S. 127 · drei Stimmen und gerichtete Dissonanzauflösung",
+          "text": "In drei Stimmen beurteilt Schönberg verdeckte Quinten und Oktaven milder als in den ersten zweistimmigen Aufgaben, besonders wenn eine Mittelstimme beteiligt ist. Seine erlaubten Fälle schließen auch Bewegungen ein, bei denen alle Stimmen in dieselbe Richtung gehen. Eine bestimmte Oktavbildung bleibt jedoch ausgeschlossen: Muss ein Durchgang oder Vorhalt einen bestimmten Auflösungston erreichen, soll keine andere Stimme gleichzeitig in gerader Bewegung auf dessen Oktave zulaufen. Die eine Stimme hat ein gerichtetes Ziel; die andere verdoppelt diese Ankunft unnötig. Der größere Spielraum in drei Stimmen hebt diese besondere Auflösungsregel somit nicht auf.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Vorübungen: verdeckte Intervalle und Auflösungstöne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. I, § 111, S. 96–97; vgl. § 134, S. 127 · drei Stimmen und gerichtete Dissonanzauflösung",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a15",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. I, § 174, S. 171 · erste Spezies, vier Stimmen",
+          "text": "Mit der vierten Stimme kommt bei Schönberg eine weitere Begründung hinzu, verdeckte Parallelen zu tolerieren: Sie können zwischen den beiden Mittelstimmen liegen. Er knüpft daran an, dass verdeckte Quinten zwischen einer Mittel- und einer Außenstimme bereits in der Dreistimmigkeit zugelassen wurden. Die konkrete Stellung des Stimmenpaars innerhalb des Satzes gehört damit zur Beurteilung. Die größere Stimmenzahl macht die in der Zweistimmigkeit aufgestellte Vorsicht nicht für jedes Stimmenpaar unverändert verbindlich.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesübung · vier Stimmen und Mittelstimmenpaar",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. I, § 174, S. 171 · erste Spezies, vier Stimmen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -6499,6 +7114,18 @@ const ATLAS = {
           "to": "jeppesen1964-42",
           "type": "context",
           "note": "Jeppesen verbietet verdeckte Quinten und Oktaven in der zweistimmigen ersten Art auch bei schrittweiser Oberstimme. De la Motte nimmt seltene entsprechende Werkstellen in seine Josquin-orientierte freie Satzarbeit auf. Der Gegensatz betrifft eine eng definierte Speziesaufgabe und einen anderen historischen Stilrahmen."
+        },
+        {
+          "from": "schoenberg1970-e07",
+          "to": "rothgeb1998-s1-1",
+          "type": "contradiction",
+          "note": "Rothgebs zweistimmige erste Spezies lässt für den Eintritt in eine vollkommene Konsonanz nur Gegen- oder Seitenbewegung zu. Schönberg nimmt die ausdrücklich gezeigten Hornquinten und Hornoktaven von seinem Verbot verdeckter Parallelen aus. Die Differenz betrifft schon die zweistimmige Aufgabe, nicht erst Mittelstimmen in einem volleren Satz."
+        },
+        {
+          "from": "schoenberg1970-m12",
+          "to": "salzer-schachter1989-2",
+          "type": "nuance",
+          "note": "Salzer und Schachter knüpfen den direkten Eintritt mit Mittelstimme an die Gegenbewegung der anderen Außenstimme. Schönbergs erlaubte dreistimmige Fälle umfassen auch gleichgerichtete Bewegung aller Stimmen. Dafür hebt er besonders streng die Oktave hervor, bei der eine zweite Stimme dem zwingenden Ziel einer Dissonanz in gerader Bewegung folgt."
         }
       ]
     },
@@ -6538,7 +7165,8 @@ const ATLAS = {
       },
       "related": [
         "stimmuebergreifen",
-        "doppelter-kontrapunkt"
+        "doppelter-kontrapunkt",
+        "stimmen-ergaenzen"
       ],
       "authors": [
         {
@@ -6963,6 +7591,94 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e08",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 9, S. 11–12 · anfängliche zweistimmige Übungen",
+          "text": "Die beiden Stimmen sollen zu Beginn ihre obere beziehungsweise untere Lage beibehalten. Schönberg erklärt ausdrücklich, dass Stimmkreuzung an sich nicht falsch sei. In der Vorübung biete sie jedoch häufig eine zu einfache Umgehung der gestellten Schwierigkeiten und solle deshalb ausgespart werden. Er behält das Verfahren für spätere, anspruchsvollere Aufgaben vor, in denen es sogar unvermeidlich werden könne. Die anfängliche Einschränkung ist damit eine Entscheidung über den Lernweg, kein allgemeines Urteil gegen gekreuzte Stimmen in komponierter Musik.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · feste obere und untere Lage",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 9, S. 11–12 · anfängliche zweistimmige Übungen; § 7, Anm. 2, S. 6",
+              "note": "§9 begründet die Einschränkung ausdrücklich mit der anfänglichen Aufgabenstellung. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m04",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VI, S. 66, Kommentar zu Bsp. 34g, T. 4–5 · dritte Spezies in Moll",
+          "text": "Bei den Mollbeispielen lässt Schönberg eine begründete Kreuzung zu, obwohl sie in den ersten Übungen verboten war. In Bsp. 34g ermöglicht das Kreuzen am Ende des vierten Takts die gewünschte Fortsetzung im fünften. Die Ausnahme soll zunächst auf Stellen ohne andere brauchbare Lösung oder mit einem besonders guten musikalischen Grund beschränkt bleiben. Schönberg sagt dabei ausdrücklich, dass die Kreuzung an sich nicht falsch sei: Ihr bisheriges Verbot diente dem Unterricht. Eine erlaubte Notlösung in dieser späteren Übungsstufe ist deshalb von einer allgemeinen Empfehlung zu häufigen Kreuzungen zu unterscheiden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige Mollübung: begründete Ausnahme von der anfänglichen Lagentrennung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VI, S. 66, Kommentar zu Bsp. 34g, T. 4–5 · dritte Spezies in Moll",
+              "note": "Die Passage selbst benennt den pädagogischen Grund des Verbots und die begrenzte Ausnahme innerhalb der späteren zweistimmigen Mollübungen."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a11",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. X, Kommentar zu Bsp. 88a–b, S. 166–167 · Ausführung eines Einklangs- und Oktavkanons",
+          "text": "Beim Einklangskanon hängt die Verständlichkeit einer Kreuzung für Schönberg auch von der Ausführung ab. Verschieden gefärbte Stimmen lassen die beiden Linien leichter unterscheiden als das Klavier. Dort kann die Überkreuzung ihre Bedeutung verdecken; den anschließenden Oktavkanon findet er in dieser Hinsicht befriedigender. Das Urteil betrifft somit nicht nur die notierte Lage. Man soll prüfen, ob die gewählte Besetzung die kanonisch verbundenen Verläufe trotz ihrer Kreuzung hörbar auseinanderhält.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kanonübung · Stimmkreuzung und Klangfarbe der Ausführung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. X, Kommentar zu Bsp. 88a–b, S. 166–167 · Ausführung eines Einklangs- und Oktavkanons",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a12",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. VI, § 188, Schönbergs eingefügte Erläuterung, S. 202–203 · zusätzliche dritte und vierte Stimme",
+          "text": "Beim Hinzufügen einer dritten oder vierten Stimme kann eine Kreuzung nach Schönberg unvermeidlich werden, besonders wenn Wendepunkte und Neutralisierung veränderter Töne zugleich eingehalten werden sollen. In diesem fortgeschrittenen Arbeitsgang wird die ursprüngliche Stimmenlage also nicht um jeden Preis festgehalten. Zugleich darf eine Kadenz der zweistimmigen Vorlage angepasst werden, damit der ergänzte Satz eine brauchbare Fortsetzung erhält. Die Kreuzung ist hier ein möglicher Ausweg aus konkurrierenden Anforderungen an die Linien.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · zusätzliche Stimmen und Neutralisierung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. VI, § 188, Schönbergs eingefügte Erläuterung, S. 202–203 · zusätzliche dritte und vierte Stimme",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -7037,6 +7753,36 @@ const ATLAS = {
           "to": "piston1947-1",
           "type": "context",
           "note": "Piston bindet die Kreuzung im freien Zweistimmensatz an die Erkennbarkeit beider Linien. In de la Mottes Binchois-Analyse sollen die begleitenden Stimmen durch häufige Kreuzungen gerade stärker verschmelzen. Die unterschiedlichen Aufgaben der Stimmen verändern das Bewertungskriterium."
+        },
+        {
+          "from": "schoenberg1970-e08",
+          "to": "cherubini1854-1",
+          "type": "contradiction",
+          "note": "Cherubini gestattet eine kurze Stimmkreuzung bereits in der zweistimmigen ersten Spezies, wenn sie nötig ist oder die Linie verbessert. Schönberg spart sie in seinen Anfangsübungen ausdrücklich aus, obwohl er sie an sich nicht für falsch hält. Es widersprechen sich die Übungsanweisungen, nicht die Anerkennung der Technik in Musik überhaupt."
+        },
+        {
+          "from": "schoenberg1970-e08",
+          "to": "jeppesen1964-20",
+          "type": "contradiction",
+          "note": "Jeppesen empfiehlt gelegentliche Kreuzungen ausdrücklich schon für die zweistimmige erste Art. Schönberg hält die feste obere und untere Lage zunächst gerade deshalb aufrecht, damit Schwierigkeiten ohne diesen Ausweg gelöst werden. Hier stehen verschiedene Empfehlungen für denselben frühen Übungstyp nebeneinander."
+        },
+        {
+          "from": "schoenberg1970-m04",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Noël-Gallon und Bitsch öffnen die Kreuzung grundsätzlich erst ab drei Stimmen. Schönberg duldet sie in einer späteren zweistimmigen Mollübung bereits als besonders begründete Ausnahme. Die Übungsstufe und die Begründung, nicht allein die Zahl der Stimmen, bestimmen hier den Spielraum."
+        },
+        {
+          "from": "schoenberg1970-m04",
+          "to": "jeppesen1964-20",
+          "type": "nuance",
+          "note": "Jeppesen empfiehlt gelegentliche Kreuzungen schon in der ersten zweistimmigen Art als grundlegendes Mittel. Schönberg hält zunächst an der Lagentrennung fest und öffnet sie im gezeigten Mollbeispiel nur mit besonderem Grund. Es unterscheiden sich die Einführung und das Gewicht derselben Technik im Lehrgang."
+        },
+        {
+          "from": "schoenberg1970-a12",
+          "to": "jeppesen1964-20",
+          "type": "context",
+          "note": "Jeppesen empfiehlt Kreuzungen schon in der zweistimmigen ersten Art als grundlegendes positives Mittel. Schönberg begründet sie an dieser späteren Stelle mit den Schwierigkeiten beim Ergänzen dritter und vierter Stimmen und bei der Neutralisierung. Die Wertung als erwünschtes Ausgangsmittel bzw. möglicher Ausweg gehört zu verschiedenen Aufgaben."
         }
       ]
     },
@@ -7334,6 +8080,29 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e09",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 5–6, S. 3–6; § 12, S. 13 · Auswahl der beiden Singstimmen",
+          "text": "Schönberg begrenzt den verfügbaren Tonraum zunächst durch die Besetzung. Die zweistimmigen Übungen werden für zwei benachbarte Singstimmen geschrieben: Sopran und Alt, Alt und Tenor oder Tenor und Bass. Sopran mit Tenor oder Bass sowie Alt mit Bass schließt er hier aus. Der kleinere Tonvorrat soll Anfängern die Aufgabe überschaubar machen. Passt der Cantus nicht in die gewählten Stimmumfänge, wird er transponiert. Diese Vorgabe betrifft die Wahl und Lage der Einzelstimmen; sie ist keine hier formulierte numerische Höchstgrenze für jeden vertikalen Abstand.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige Vorübung · benachbarte vokale Stimmlagen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 5–6, S. 3–6; § 12, S. 13 · Auswahl der beiden Singstimmen; § 7, Anm. 2, S. 6",
+              "note": "Die Passage legt die Besetzung und die Anpassung an deren Tonumfang fest. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
@@ -7383,6 +8152,12 @@ const ATLAS = {
           "to": "jeppesen1964-21",
           "type": "context",
           "note": "Jeppesen nennt für die erste Art die Dezime als grundsätzlich einzuhaltenden Abstand und gestattet melodisch begründete Überschreitungen. De la Motte orientiert seine freien Josquin-Duette stärker an der Oktave, lässt aber ebenfalls zeitweilige Erweiterungen zu. Bevorzugte Lage und Übungsrahmen unterscheiden sich; beide Grenzen sind keine absoluten Verbote."
+        },
+        {
+          "from": "schoenberg1970-e09",
+          "to": "motte1995-j05",
+          "type": "context",
+          "note": "Schönberg erlaubt im anfänglichen Zweistimmensatz nur Sopran–Alt, Alt–Tenor und Tenor–Bass. De la Motte zählt wegen historisch überlappender Stimmumfänge im Josquin-Satz auch Sopran–Tenor und Alt–Bass zu benachbarten Lagen. Derselbe Ausdruck „benachbart“ bezieht sich auf unterschiedliche Besetzungs- und Registervorstellungen."
         }
       ]
     },
@@ -7694,6 +8469,29 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e34",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 52, S. 54; Kommentar zu Bsp. 30–31, S. 56 · fünfte Spezies",
+          "text": "Ein hoher Ton soll seine mögliche Gipfelwirkung nicht durch monotone Wiederholung verlieren. Schönberg beanstandet in Bsp. 30k und 31a das mehrfache Auftreten des höchsten Tons und empfiehlt, ihn für einen wirklichen Höhepunkt aufzusparen, etwa am Ende eines Anstiegs. Daneben kann auch die spätere Einführung kleinerer Notenwerte eine Steigerung erzeugen. Der melodische Gipfel und die rhythmische Verdichtung sind damit verfügbare Gestaltungsmittel, deren Wirkung von ihrer Vorbereitung abhängt; eine feste Taktposition schreibt er hier nicht vor.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Fünfte Spezies · melodischer Gipfel und rhythmische Steigerung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 52, S. 54; Kommentar zu Bsp. 30–31, S. 56 · fünfte Spezies; § 7, Anm. 2, S. 6",
+              "note": "Die Beobachtung bezieht sich auf ausdrücklich benannte floride Musterlösungen. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
         }
       ],
@@ -8031,6 +8829,33 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m01",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VI, §§ 60–71, S. 61–64 · sechste und siebte Stufe in den Mollübungen",
+          "text": "In Schönbergs Mollübungen erhält die erhöhte siebte Stufe ihre Aufgabe durch den Halbtonschritt zur Tonika. Die erhöhte sechste führt zu dieser siebten und vermeidet dadurch die übermäßige Sekunde. Die beiden Formen einer Stufe dürfen nicht unmittelbar chromatisch ineinander übergehen. Bevor eine erhöhte Form folgt, verlangt Schönberg außerdem die vorgeschriebene Abwärtsfortsetzung der zuvor verwendeten natürlichen Form; bei einem Querstand betrifft das alle beteiligten Stimmen. Das ist eine bewusst enge Lernregel. In der von Leonard Stein ergänzten Fußnote erklärt Schönberg ausdrücklich, dass sie weder den Modi noch Bachs Praxis genau entspricht und nach diesen Vorübungen gelockert werden soll.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dur-Moll-tonale Vorübungen: veränderliche Stufen in Moll",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VI, §§ 60–71, S. 61–64 · sechste und siebte Stufe in den Mollübungen",
+              "note": "§ 67 und die ergänzte Fußnote auf S. 62 begründen die strenge Regel als vorläufige Lehrhilfe und unterscheiden sie ausdrücklich sowohl von modaler Technik als auch von Bach."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "related": [
@@ -8040,7 +8865,9 @@ const ATLAS = {
         "fuge-chromatische-antwort",
         "chromatik-ohne-diatonisches-geruest",
         "lamento-bass",
-        "tritonus-melodiebogen"
+        "tritonus-melodiebogen",
+        "moll-neutralisierung",
+        "tonart-und-region"
       ],
       "relations": [
         {
@@ -8060,6 +8887,18 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Das unmittelbare chromatische Fortschreiten ist im strengen Übungsrahmen von Noël-Gallon und Bitsch verboten. In de la Mottes Schütz-Beispielen gehört es dagegen zu den verfügbaren Ausdrucksmitteln und kann außer Klage auch Zärtlichkeit tragen. Die Regeln beziehen sich auf verschiedene Satzweisen."
+        },
+        {
+          "from": "schoenberg1970-m01",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Beide Lehrgänge vermeiden den unmittelbaren chromatischen Schritt, sichern den Abstand aber verschieden: Noël-Gallon und Bitsch wünschen in einer Stimme mindestens drei andere Töne zwischen den beiden Formen einer Stufe. Schönberg verlangt die gerichtete Neutralisierung und berücksichtigt bei Querständen alle beteiligten Stimmen; bloßes Dazwischenschieben beliebiger Töne erfüllt diese Aufgabe nicht."
+        },
+        {
+          "from": "schoenberg1970-m01",
+          "to": "menke2017-4",
+          "type": "context",
+          "note": "Menkes barocke Skala enthält die veränderlichen sechsten und siebten Stufen als verfügbares Material einschließlich besonderer Fortsetzungen. Schönbergs enge Wendepunktregeln dienen dagegen einer vorläufigen Lernaufgabe; er erklärt ausdrücklich, dass sie Bachs Praxis nicht beschreiben. Der Unterschied betrifft den Geltungsbereich der Vorschrift."
         }
       ]
     },
@@ -8293,6 +9132,52 @@ const ATLAS = {
               "note": "Die Unterscheidung von Durchgang und Wechselnote betrifft die zweite Art mit Halben als Zählzeit. Der Palestrina-Bezug ergibt sich aus dem Lehrgang."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e19",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 16–19, S. 22–24 · zweite Spezies, Durchgangsformel",
+          "text": "Die dissonante Halbe gehört bei Schönberg zur genau bestimmten Dreitonformel des Durchgangs. Zwei konsonante Rahmentöne stehen eine Terz auseinander und auf schweren Zeiten; dazwischen verbindet die leichte Halbe beide durch einen Schritt in derselben Richtung. Die Formel kann aufwärts oder abwärts gehen. Ein konsonanter Zwischenton ist ebenfalls möglich, wird hier aber nicht als eigentlicher dissonanter Durchgang bezeichnet. Für eine dissonante Wechselnote, die zum Ausgangston zurückkehrt, eröffnet diese Regel der zweiten Spezies keinen eigenen Spielraum.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweite Spezies · konventionelle Durchgangsformel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 16–19, S. 22–24 · zweite Spezies, Durchgangsformel; § 7, Anm. 2, S. 6",
+              "note": "§§16–19 erlauben Dissonanzen nur nach der dort eingeführten bestimmten Formel. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m15",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. II, §§ 113–116, S. 101 und 106–107 · zwei Halbenstimmen gegen einen Cantus firmus",
+          "text": "Für eine einzelne Halbenstimme bleibt der unbetonte Durchgang die vorgesehene Dissonanz. Bewegen sich beide Zusatzstimmen in Halben, können gleichzeitig zwei Durchgänge auftreten. Schönberg zeigt dafür Terzen oder Sexten in Parallelbewegung sowie Gegenbewegung. Er warnt aber vor einer Häufung gleichzeitiger Dissonanzen, für die Anfänger noch kein sicheres Urteil besitzen. Als einfachere Lösung empfiehlt er, nur eine Stimme als Durchgang zu führen oder die andere mit dem Cantus konsonieren zu lassen. Entscheidend ist dann nicht nur das Verhältnis jeder Zusatzstimme zum Cantus: Auch ihr gegenseitiger Zusammenklang und die gemeinsame Fortsetzung müssen gehört werden.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige zweite Spezies: gleichzeitige Durchgänge in zwei Zusatzstimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. II, §§ 113–116, S. 101 und 106–107 · zwei Halbenstimmen gegen einen Cantus firmus",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
@@ -8337,6 +9222,12 @@ const ATLAS = {
           "type": "contradiction",
           "note": "Prout erlaubt in der zweistimmigen zweiten Spezies auch dissonante Wechselnoten auf der leichten Hälfte. Jeppesen schließt genau diese Rückkehr zum Ausgangston aus und verlangt für die dissonante Halbe die Fortsetzung in derselben Richtung.",
           "from": "jeppesen1964-22"
+        },
+        {
+          "from": "schoenberg1970-e19",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout lässt in der zweistimmigen zweiten Spezies neben Durchgängen auch dissonante Wechselnoten zu. Schönberg führt hier nur die Durchgangsformel mit fortgesetzter Schrittrichtung zwischen zwei Konsonanzen ein. Eine Rückkehr zum Ausgangston erfüllt diese Formel nicht."
         }
       ]
     },
@@ -8459,6 +9350,75 @@ const ATLAS = {
               "note": "Die Pflicht zur Konsonanz auf erstem und drittem Viertel gehört zu Jeppesens dritter Art. Sie bleibt mit anderen Vier-gegen-eins-Lehren vergleichbar."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e22",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 26–29, S. 32–33; Kommentar, S. 37; Bsp. 21–22 und 25a, S. 41–44 · dritte Spezies",
+          "text": "Die zunächst eingeführten Durchgänge werden in Schönbergs dritter Spezies von Konsonanzen getrennt. Eine unmittelbar folgende zweite Dissonanz ist trotzdem nicht in jeder Figur ausgeschlossen: Die Cambiata darf zwei ihrer fünf Töne dissonant führen, auch nebeneinander, sofern mindestens drei Konsonanzen einschließlich der beiden betonten Randtöne bleiben. In seinem 3/2-Beispiel 25a duldet er außerdem zwei aufeinanderfolgende Durchgangsdissonanzen im vorletzten Takt. Diesen Schlussfall bezeichnet er als geringe, durch die Skalenlinie begründete Abweichung; er macht daraus keine allgemeine Erlaubnis beliebiger Dissonanzketten.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dritte Spezies · Dissonanzfolge innerhalb bestimmter Figuren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 26–29, S. 32–33; Kommentar, S. 37; Bsp. 21–22 und 25a, S. 41–44 · dritte Spezies; § 7, Anm. 2, S. 6",
+              "note": "Grundschema, Cambiata und begrenzte Ausnahme im vorletzten Takt werden auseinandergehalten. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m05",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VI, S. 65–66, Alternativen zu Bsp. 34d · Schlussproblem der dritten Spezies in Moll",
+          "text": "Bei einem schwierigen Mollschluss prüft Schönberg ausnahmsweise zwei aufeinanderfolgende Dissonanzen. Sie machen eine Fortsetzung möglich, die die spätere Oktave zum Cantus firmus in Gegenbewegung erreicht. Diese konkrete Lösung steht ausdrücklich unter Vorbehalt. In den benachbarten Alternativen zieht Schönberg schließlich den Schluss auf der Terz vor. Die besondere Dissonanzfolge wird hier also gegen eine andere Schlussgestaltung abgewogen. Andere, bereits eingeführte Dissonanzfiguren müssen weiterhin nach ihren eigenen Regeln beurteilt werden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige dritte Spezies in Moll: abgewogene Schlusslizenz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VI, S. 65–66, Alternativen zu Bsp. 34d · Schlussproblem der dritten Spezies in Moll",
+              "note": "Die Einschränkung ergibt sich aus dem Kommentar zum konkreten Schlussproblem; die Lizenz darf nicht auf den gesamten Verlauf oder jede dritte Spezies übertragen werden."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a24",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. III, Kommentare zu Bsp. 96a und 97a, S. 186–187 · dritte Spezies, vier Stimmen",
+          "text": "In den vierstimmigen Viertelübungen entscheidet Schönberg am konkreten Verlauf. Die drei aufeinanderfolgenden Dissonanzen einer Cambiata in Bsp. 96a findet er fragwürdig; eigens hebt er hervor, dass die letzte davon eine Quarte ist. Zwei unmittelbar aufeinanderfolgende Dissonanzen in Bsp. 97a lässt er dagegen gelten. Die größere Besetzung und die übrigen Stimmen müssen bei solchen Urteilen mitgelesen werden. Aus diesen Einzelbewertungen ergibt sich keine beliebige Freigabe längerer Dissonanzketten.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesübung · vier Stimmen und aufeinanderfolgende Vierteldissonanzen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. III, Kommentare zu Bsp. 96a und 97a, S. 186–187 · dritte Spezies, vier Stimmen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -8473,6 +9433,12 @@ const ATLAS = {
           "type": "contradiction",
           "note": "Salzer und Schachter erlauben in der dritten Spezies zwei benachbarte Durchgangsdissonanzen, wenn verminderte Quinte und reine Quarte aufeinanderfolgen. Jeppesens Pflicht zur Konsonanz auf jedem ersten und dritten Viertel schließt eine solche unmittelbare Dissonanzfolge in seiner dritten Art aus.",
           "from": "jeppesen1964-24"
+        },
+        {
+          "from": "schoenberg1970-e22",
+          "to": "jeppesen1964-24",
+          "type": "context",
+          "note": "Jeppesens Palestrina-orientierte dritte Art verlangt Konsonanz auf dem ersten und dritten Viertel und schließt damit benachbarte dissonante Viertel aus. Schönbergs nicht als Stilkopie angelegte Cambiata-Formel lässt ausdrücklich zwei solche Dissonanzen zu. Der Unterschied betrifft eine konkret erlaubte Figur und folgt zugleich aus den verschiedenen Grundlagen der beiden Übungen."
         }
       ]
     },
@@ -8872,6 +9838,75 @@ const ATLAS = {
               "note": "Die dritte Stimme verändert die Bewertung der Bindung. Die Passage behandelt die dreistimmige vierte Art innerhalb des erklärten Lehrbuchrahmens."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e26",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 39–42 und 47, S. 47–48 · vierte Spezies, zweistimmige Vorhalte",
+          "text": "Die Bindung beginnt bei Schönberg mit einer Konsonanz auf leichter Zeit. Erst der neue Cantuston macht die gehaltene Zusatzstimme dissonant; eine bereits dissonante Durchgangsnote darf die Bindung nicht vorbereiten. Liegt die gebundene Stimme unten, nennt er 2–3, 4–5 sowie die oktavierten Formen 9–10 und 11–12 als mögliche Auflösungen. Die ebenfalls abwärts gehende Verbindung 7–8 schließt er dort dagegen ausdrücklich aus. Ob die Melodie einen Schritt fällt, genügt also nicht: Auch das entstehende Auflösungsintervall muss zur konkreten Vorhaltsart passen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierte Spezies · Vorhalt in der Unterstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 39–42 und 47, S. 47–48 · vierte Spezies, zweistimmige Vorhalte; § 7, Anm. 2, S. 6",
+              "note": "Die Tabelle unterscheidet ausdrücklich obere und untere Zusatzstimme und sperrt unten die Septime. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m18",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. IV, §§ 120–123, S. 116–117 · Vorbereitung und Auflösung in drei Stimmen",
+          "text": "Der Vorhalt wird auch in drei Stimmen auf leichter Zeit vorbereitet. Schönberg verlangt in der Grundregel, dass seine Vorbereitung mit beiden übrigen Stimmen konsoniert; dasselbe gilt für das Auflösungsziel. Dabei kann ein vollständiger Grund- oder Sextakkord entstehen, aber auch ein anderer konsonanter Zusammenklang. Eine Bindung, die auf der schweren Zeit konsonant bleibt, ist von der dissonanten Bindung zu unterscheiden. Die dritte Stimme erweitert die möglichen Klanggestalten, ersetzt jedoch nicht die Prüfung von Vorbereitung, Eintritt und Auflösung zu jedem beteiligten Stimmenpaar.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige vierte Spezies: grundlegende Vorhaltsbedingungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. IV, §§ 120–123, S. 116–117 · Vorbereitung und Auflösung in drei Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a19",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. IV, § 182, S. 194 · vierte Spezies, vier Stimmen",
+          "text": "Bei einem Vorhalt soll dessen Auflösungston nicht schon in einer höher liegenden Stimme erklingen: Dadurch entstünde die von Schönberg beanstandete Septime mit anschließender Oktave. Für die tiefere Lage erweitert er dagegen die herkömmliche Ausnahme. Der Auflösungston darf nicht nur im Bass vorweggenommen werden, sondern auch in einer anderen Stimme unterhalb des Vorhalts. Maßgeblich ist hier das Verhältnis der beiden beteiligten Stimmen, nicht allein die Bezeichnung einer Stimme als Bass oder Mittelstimme.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesübung · vierstimmiger Vorhalt und vorweggenommener Auflösungston",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. IV, § 182, S. 194 · vierte Spezies, vier Stimmen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -8922,6 +9957,30 @@ const ATLAS = {
           "type": "context",
           "note": "Beide Darstellungen erlauben die zunächst mildere Quarte über gehaltenem Bass als Vorbereitung. Jeppesen verwendet dafür „konsonierende Quarte“, obwohl er ihre Dissonanz ausdrücklich anerkennt. Salzer und Schachter verwerfen die Bezeichnung „konsonante Quarte“ und erklären die Figur als übergebundene obere Wechselnote. Der Unterschied betrifft die Deutung und Benennung, nicht die Zulassung der Figur.",
           "from": "jeppesen1964-56"
+        },
+        {
+          "from": "schoenberg1970-e26",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Schönberg schließt den unteren Vorhalt 7–8 in seiner strengen zweistimmigen Übung ausdrücklich aus. Kennan lässt genau diese Verbindung wegen ihres Gebrauchs im 18. Jahrhundert zu und benennt das traditionelle Verbot selbst. Die unterschiedliche Zulassung folgt hier einem ausdrücklich verschiedenen Unterrichts- und Repertoiremaßstab."
+        },
+        {
+          "from": "schoenberg1970-e26",
+          "to": "jeppesen1964-28",
+          "type": "contradiction",
+          "note": "Beide Autoren schließen in der zweistimmigen vierten Art den unteren Vorhalt 7–8 aus. Beim unteren 4–5 unterscheiden sie sich jedoch: Schönbergs Tabelle lässt ihn zu, während Jeppesen ihn wegen der vollkommenen Zielkonsonanz ausschließt. Die gemeinsame Abwärtsbewegung des Vorhalts allein erklärt die unterschiedliche Zulassung nicht."
+        },
+        {
+          "from": "schoenberg1970-m18",
+          "to": "jeppesen1964-56",
+          "type": "nuance",
+          "note": "Schönbergs Grundregel fordert eine zu beiden anderen Stimmen konsonante Vorbereitung. Jeppesen lässt im dreistimmigen Sonderfall die ausdrücklich als mild dissonant beschriebene Quarte über liegendem Bass selbst zur Vorbereitung werden. Deren relative Klangschärfe erweitert also bei Jeppesen die einfache Konsonanzbedingung."
+        },
+        {
+          "from": "schoenberg1970-a19",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Kennan lässt den Unterstimmenvorhalt 7–8 in seiner am 18. Jahrhundert orientierten Zweistimmigkeit zu. Schönberg hält in der vierstimmigen vierten Spezies an der Warnung vor einem bereits oberhalb klingenden Auflösungston fest; seine Erweiterung betrifft nur vorweggenommene Töne unterhalb des Vorhalts. Stilbezug und Übungsbesetzung müssen bei diesem Gegensatz mitgelesen werden."
         }
       ]
     },
@@ -9121,6 +10180,29 @@ const ATLAS = {
               "note": "Die Unterbrechung ist eine Episode der zweiten Art innerhalb der vierten. Die Aussage betrifft diese Übungsfolge des Palestrina-orientierten Lehrgangs."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e28",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 38, S. 46; Kommentar, S. 49 · vierte Spezies",
+          "text": "Die Synkopenkette muss bei Schönberg nicht um jeden Preis lückenlos bleiben. Er kennt kein striktes Verbot, sie für einen oder mehrere Takte durch ungebundene Halbe zu ersetzen; zusammen mit Durchgängen kann das Abwechslung und Bewegungsfreiheit bringen. Eine feste Höchstzahl der Unterbrechungen nennt er hier nicht. Im Kommentar beanstandet er dennoch Lösungen mit zu wenigen Synkopen und fragt, ob ein einzelner neu gewonnener Ton das Abweichen vom vorgeschriebenen Rhythmus wirklich rechtfertigt. Die Freiheit soll die Bindungsübung verbessern, nicht ihren Gegenstand verschwinden lassen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierte Spezies · Unterbrechung und Gewicht der Synkopen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 38, S. 46; Kommentar, S. 49 · vierte Spezies; § 7, Anm. 2, S. 6",
+              "note": "Die Erlaubnis mehrerer ungebundener Takte wird durch die spätere Bewertung der Musterlösungen qualifiziert. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden.",
@@ -9159,6 +10241,18 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "nuance",
           "note": "Prout lässt die Bindung nur ausfallen, wenn keine brauchbare Fortsetzung möglich ist. Salzer und Schachter nennen zusätzlich die Abwechslung einer ständig fallenden Linie und die Begrenzung langer gleichartiger Vorhaltsketten als Gründe."
+        },
+        {
+          "from": "schoenberg1970-e28",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout verbietet zwei ungebundene Takte nacheinander in der vierten Spezies. Schönberg erklärt dagegen ausdrücklich, dass eine Unterbrechung für einen oder mehrere Takte keinem strikten Verbot unterliegt. Auch er bewertet eine Lösung mit zu wenigen Synkopen kritisch, ersetzt diese Abwägung aber nicht durch Prouts feste Grenze."
+        },
+        {
+          "from": "schoenberg1970-e28",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Gallon und Bitsch begrenzen die schwierigkeitshalber nötige Unterbrechung auf eine einzige Stelle je Übung. Schönberg gibt keine solche Anzahl vor und würdigt auch den Gewinn an Abwechslung und Bewegungsfreiheit; zugleich soll die Synkope das Gepräge der Aufgabe behalten."
         }
       ]
     },
@@ -9280,6 +10374,52 @@ const ATLAS = {
               "note": "Die Höchstzahl zählt alle Noten einer Stimme im Takt. Die zusätzlichen Achtelregeln bestimmen deren Platzierung und Fortschreitung."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e33",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 51–52, S. 54; Kommentar, S. 56 · fünfte Spezies",
+          "text": "Schönberg steuert die Dichte im Floridus über die Notenwerte und den Verlauf der ganzen Übung. Achtel sollen selten auftreten, gewöhnlich paarweise auf dem zweiten oder vierten Viertel; mehr als zwei Achtel in einem Takt bleiben die Ausnahme. Auch mit Vierteln empfiehlt er anfangs Zurückhaltung. Kleine Werte neigen nach seiner Beobachtung dazu, sich nach ihrer Einführung auszubreiten. Werden sie für die spätere Steigerung aufgespart, bleibt diese Wirkung verfügbar. Gemeint ist die Dichte der Bewegung einschließlich konsonanter Töne, keine feste Dissonanzquote pro Takt.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Fünfte Spezies · allmähliche rhythmische Verdichtung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 51–52, S. 54; Kommentar, S. 56 · fünfte Spezies; § 7, Anm. 2, S. 6",
+              "note": "Die Regel zählt kurze Notenwerte und ordnet sie im größeren Verlauf an. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m22",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. V, §§ 133–134 und Kommentar zu Bsp. 68b, S. 127–128 · floride Zusatzstimmen in drei Stimmen",
+          "text": "Für die dreistimmige fünfte Spezies führt Schönberg keine neue allgemeine Dissonanzquote ein. Die bisherigen Figuren und rhythmischen Beschränkungen bleiben maßgeblich. An Bsp. 68b zeigt er dennoch, dass mehrere einzeln erklärbare Freiheiten zusammen zu viel werden können: Zwei Achtel führen durch aufeinanderfolgende Dissonanzen, während weitere heikle Vorgänge im selben Takt hinzukommen. Er erklärt die Stelle nicht einfach für vollständig falsch, hält die Häufung aber für bedenklich. Im späteren Verlauf kritisiert er auch eine Stimme, die nacheinander gegen verschiedene Partner dissoniert und schließlich aus der Dissonanz abspringt. Entscheidend ist die gemeinsame Wirkung der Vorgänge.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige fünfte Spezies: Zusammenwirken mehrerer Freiheiten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. V, §§ 133–134 und Kommentar zu Bsp. 68b, S. 127–128 · floride Zusatzstimmen in drei Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "related": [
@@ -9294,6 +10434,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Hier werden verschiedene Größen gezählt: Prout begrenzt die Achtelgruppen im Takt. Noël-Gallon und Bitsch setzen dagegen eine Höchstzahl für alle Töne einer Stimme, einschließlich der Konsonanzen."
+        },
+        {
+          "from": "schoenberg1970-e33",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Gallon und Bitsch setzen im Floridus eine Gesamtgrenze von vier Tönen je Stimme und Takt. Schönberg begrenzt hier stattdessen vor allem die Häufigkeit der Achtel und ihren Zeitpunkt innerhalb der ganzen Übung. Seine Empfehlung von gewöhnlich höchstens einem Achtelpaar ist keine entsprechende Höchstzahl sämtlicher Anschläge."
         }
       ]
     },
@@ -9437,6 +10583,29 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e14",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 20, S. 24 · zweite Spezies, Cantus unten mit Schluss 2–1",
+          "text": "Wenn der tiefer liegende Cantus in Dur von der zweiten Stufe zur Tonika fällt, ergibt sich für Schönberg in der Oberstimme die Schlussfolge der sechsten, siebten und achten Tonleiterstufe. Im vorletzten Takt stehen zwei Halbe, danach der Schlusston: In C-Dur lautet die Oberstimme a–h–c über d–c. Er vergleicht diese Lösung mit anderen Versuchen und beanstandet dort etwa die Dissonanz auf schwerer Zeit, den Tritonussprung oder wiederkehrende Oktaven. Seine Festlegung gilt dieser konkreten Cantus-Kadenz; andere vorletzte Cantustöne behandelt er anschließend gesondert.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweite Spezies · Oberstimmenkadenz über 2–1",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 20, S. 24 · zweite Spezies, Cantus unten mit Schluss 2–1; § 7, Anm. 2, S. 6",
+              "note": "Die Einengung der Schlussformel ist an den ausdrücklich vorausgesetzten Cantusschluss gebunden. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
         }
       ],
@@ -9943,12 +11112,55 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-r01",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Anhang A, Vorreden I–II, S. 221–223; § 7, S. 6, Fußnote · Lehrziel und Stilvorbild",
+          "text": "Schönberg versteht den Lehrgang als Vorbereitung auf das eigene Komponieren. Die strengen Regeln sollen die Aufgaben zunächst überschaubar machen und mit wachsender Erfahrung gelockert werden; sie beanspruchen keine zeitlose Gültigkeit. Seine Speziesübungen dienen ausdrücklich pädagogischen Zwecken, nicht der Nachahmung eines früheren Stils. Im zweiten Vorredenentwurf lehnt er Palestrina als Grundlage des Kontrapunktunterrichts ausdrücklich ab. Auch Bachs von ihm besonders bewunderte Vollkommenheit lässt sich für ihn nicht durch eine äußerliche Stilkopie erlernen: Sie liegt in der musikalischen Grundidee. Der Unterricht soll deshalb Stimmführung, Gehör und kompositorisches Denken entwickeln. Als Fernziel der schrittweisen Erweiterung nennt der erste Entwurf unter anderem die harmonische Beweglichkeit von Brahms und Wagner.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "cross-style",
+            "frame": "Lehrkonzept · Spezies als veränderliche Übungsordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang A, Vorreden I–II, S. 221–223; § 7, S. 6, Fußnote · Lehrziel und Stilvorbild",
+              "note": "Die Vorreden unterscheiden die Entwicklung der Musik von zeitweiligen Unterrichtsbeschränkungen und nennen spätere kompositorische Anwendungen. § 7 erklärt die strengen Regeln ausdrücklich als pädagogisch und nicht als Stilnachahmung. Der stilübergreifende Anspruch betrifft dieses Lehrziel, nicht eine universelle Gültigkeit jeder einzelnen Regel."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m07",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VII, §§ 84–88, S. 74–76 · erste zweistimmige Versuche ohne vorgegebene Stimme",
+          "text": "Auch ohne gegebenen Cantus firmus behält Schönberg einen beweglichen Bezugspunkt: Der jeweils länger gehaltene Ton kann vorübergehend wie ein Cantus behandelt werden, gegen den die andere Stimme gleich lange oder kleinere Noten schreibt. Eine vorbereitete Dissonanz liefert durch ihre notwendige Auflösung bereits einen Ansatz für die Fortsetzung. Dennoch soll nicht mechanisch in jedem Takt die andere Stimme einen Vorhalt übernehmen. Maßgeblich ist, wohin jede Linie beim inneren Hören drängt. Schönberg empfiehlt zunächst kurze Sätze von etwa fünf bis sieben Takten und eine rechtzeitig vorbereitete Kadenz; eine schematisch regelmäßige Phrasierung soll dabei gerade nicht erzwungen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste kompositorische Anwendung: freiere tonale Zweistimmigkeit nach den Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VII, §§ 84–88, S. 74–76 · erste zweistimmige Versuche ohne vorgegebene Stimme",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "related": [
         "linie-scheinpolyphonie",
         "beurteilung",
-        "romanesca-satzgeruest"
+        "romanesca-satzgeruest",
+        "stimmen-ergaenzen"
       ],
       "relations": [
         {
@@ -10016,6 +11228,24 @@ const ATLAS = {
           "to": "jeppesen1964-1",
           "type": "nuance",
           "note": "Jeppesen wählt Palestrina als Grundlage für das Lernen selbstständiger Stimmführung. De la Motte fragt, wie repräsentativ ausgerechnet Palestrinas kurze Zweistimmigkeit dafür ist: Häufig bevorzugt sie gemeinsame Textführung und Terzen-Sexten-Klang. Die Differenz betrifft die Auswahl und Deutung des Unterrichtsmodells, nicht die Existenz von Palestrinas Polyphonie."
+        },
+        {
+          "from": "schoenberg1970-r01",
+          "to": "jeppesen1964-1",
+          "type": "contradiction",
+          "note": "Jeppesen wählt Palestrina ausdrücklich als Grundlage für das Lernen selbstständiger Stimmen. Schönberg lehnt genau diese Wahl als Grundlage des Kontrapunktunterrichts ab. Der Widerspruch betrifft das geeignete Lehrmodell; beide verlangen mehr als eine bloß äußerliche Stilkopie."
+        },
+        {
+          "from": "schoenberg1970-r01",
+          "to": "motte1995-r01",
+          "type": "nuance",
+          "note": "Beide begrenzen den Anspruch allgemeingültiger Regeln. Schönberg hält jedoch an den Spezies als stufenweise gelockerter Übungsordnung fest. De la Motte entwickelt getrennte Zugänge zu Josquin, Bach und Neuer Musik und lehnt eine für alle verbindliche Speziesfolge ab."
+        },
+        {
+          "from": "schoenberg1970-r01",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin arbeitet gezielt an Bachs Instrumentalstil und verzichtet auf die strenge Speziesfolge. Schönberg benutzt die Spezies als vorläufige Aufgabenordnung ohne Verpflichtung auf einen einzelnen historischen Stil. Die Unterrichtsverfahren verfolgen damit unterschiedlich bestimmte Anwendungsziele."
         }
       ]
     },
@@ -10474,6 +11704,50 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-r03",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Anhang B, II.1–2, S. 224 · Entwurfsnotizen zum Kontrapunkt in homophoner Musik nach 1750",
+          "text": "In seinen Notizen für eine geplante Fortsetzung beschreibt Schönberg einen veränderten Umgang mit Dissonanzen in homophoner Musik nach 1750. Viele Septakkorde, verminderte Septakkorde und übermäßige Dreiklänge werden dort für ihn anders behandelt als im Bachschen Kontrapunkt. Auch melodische Töne wie die Sexte oder Septime über der ersten Stufe können wie Konsonanzen gebraucht werden; als Beispiele nennt er unter anderem Franz Schubert und Robert Schumann. Die Notiz bezeichnet einen historischen Wandel der Verwendung. Sie hebt die eng begrenzten Dissonanzformeln der vorausgehenden Anfängerübungen nicht auf. Es handelt sich zudem um eine knappe Arbeitsskizze, nicht um einen ausgeführten Satz von Erlaubnisregeln.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Entwurfsnotizen · homophone Musik nach 1750",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang B, II.1–2, S. 224 · Entwurfsnotizen zum Kontrapunkt in homophoner Musik nach 1750",
+              "note": "Die Überschrift benennt Musik nach 1750 ausdrücklich; die beiden Punkte nennen unter anderem Franz Schubert und Robert Schumann. Der historische Bezug gilt für diese Entwurfsnotiz und wird nicht auf die Speziesübungen übertragen."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a22",
+          "source": "schoenberg1970",
+          "name": "Leonard Stein",
+          "locator": "Teil III, Kap. VII, Kommentar zu Bsp. 108–109, S. 213 · Herausgeberergänzung Leonard Steins, vierstimmige Kadenzen und Modulationen",
+          "text": "Leonard Stein verfolgt in den vierstimmigen Aufgaben auch Dissonanzen, die unmittelbar in anderen Stimmen weitergegeben werden. Durchgänge können einander überlagern; eine Stimme kann ihren Vorhalt auflösen, während eine andere gerade einen dissonanten Durchgang beginnt. An Bsp. 109c beschreibt er eine Folge überlappender Vorhalte in den drei oberen Stimmen und kennzeichnet eine unregelmäßige Vorbereitung ausdrücklich. Für die Beurteilung muss man deshalb den Eintritt, das Halten und die Fortsetzung jeder beteiligten Linie verfolgen. Eine bloße Zählung aufeinanderfolgender dissonanter Zusammenklänge erklärt diese Stellen nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · vier Stimmen und überlagerte Dissonanzen; Herausgeberkommentar",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. VII, Kommentar zu Bsp. 108–109, S. 213 · Herausgeberergänzung Leonard Steins, vierstimmige Kadenzen und Modulationen",
+              "note": "Dieser Text ist ausdrücklich als Herausgeberergänzung Leonard Steins gekennzeichnet und erläutert Schönbergs Unterrichtsbeispiele. Die tonale Aufgabe ist keinem historischen Stil exklusiv zugeordnet."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -10544,7 +11818,8 @@ const ATLAS = {
         "kadenz-schlussdehnung",
         "choral-fermate",
         "cadenza-doppia",
-        "trugschluss-klauseln"
+        "trugschluss-klauseln",
+        "tonart-und-region"
       ],
       "authors": [
         {
@@ -10754,6 +12029,98 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e13",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 10–11, S. 12–13; Kommentare, S. 14 und 35 · Schluss der zweistimmigen Cantus-Übung",
+          "text": "Für die Cantus-Übungen verlangt Schönberg die Tonika in Grundstellung am Ende: Die Unterstimme schließt auf dem Grundton. Oben sind Einklang, Oktave und Quinte verfügbar; die Terz lässt er nur zu, wenn sie eine sonst nicht erreichbare Möglichkeit eröffnet. Der vorletzte Ton wird aus dem Dominantdreiklang oder dem Dreiklang der siebten Stufe gewählt, möglichst unter Beteiligung des Leittons. Die Bassstufe der Subdominante schließt er an dieser Stelle aus. Der gelegentliche Terzschluss wird im Kommentar zur dritten Spezies nochmals ausdrücklich geduldet.",
+          "speciesScope": [
+            1,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige Cantus-Übung · tonaler Schluss",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 10–11, S. 12–13; Kommentare, S. 14 und 35 · Schluss der zweistimmigen Cantus-Übung; § 7, Anm. 2, S. 6",
+              "note": "Die Antwort verbindet die Anfangsregel für den Schluss mit ihrer ausdrücklichen Wiederaufnahme in der dritten Spezies. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m06",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VII, §§ 72–83, S. 71–74, besonders §§ 77–82 und Anm. zu § 81 · zweistimmige Kadenz ohne gegebenen Cantus firmus",
+          "text": "Für Schönbergs erste freien Kadenzübungen muss die Tonart eindeutig hörbar werden. In Dur unterscheiden besonders die vierte und siebte Stufe die Tonart von ihren Quintnachbarn: In C-Dur verhindert f die Deutung als G-Dur, h diejenige als F-Dur. Die Schlussvorbereitung soll Elemente von IV oder II, danach von V und schließlich I erkennen lassen. Dazu brauchen zwei Stimmen nicht jederzeit vollständige Dreiklänge; auch kennzeichnende Skalenabschnitte oder auf beide Stimmen verteilte Akkordtöne können die Funktion klären. Die plagale Kadenz nimmt Schönberg aus dieser Übung heraus, weil sie ihm hier keinen wesentlichen technischen Lerngewinn bietet. Ihre mögliche stilistische Wirkung in Kompositionen erkennt er dennoch an.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Zweistimmigkeit ohne Cantus firmus: authentische Kadenz als Übungsziel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VII, §§ 72–83, S. 71–74, besonders §§ 77–82 und Anm. zu § 81 · zweistimmige Kadenz ohne gegebenen Cantus firmus",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m14",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, S. 98, Kommentar zu Bsp. 52; S. 101–102 und 106–107, Kommentare zu Bsp. 54–57 · Schlüsse in drei Stimmen",
+          "text": "In der dreistimmigen ersten Spezies nennt Schönberg vor der abschließenden Tonika drei Möglichkeiten: V, V⁶ und VII⁶. Sobald Halbenbewegung hinzukommt, kann der vorletzte Takt mehrere harmonische Schritte aufnehmen. Mitunter verändert er dafür sogar die ruhige Zusatzstimme, damit beide Takthälften konsonieren. Wie eng die Regeln des konkreten Beispiels zusammenwirken, zeigt Bsp. 57c in Moll: Hier wird der Leitton wegen der Schwierigkeiten der Stimmführung ganz vermieden, obwohl Schönberg die Verbindung V–I weiterhin als ausgedrückt ansieht. Ein eindeutiger Schluss ist also am vollständigen Stimmenzusammenhang zu prüfen, nicht allein am Vorhandensein jeder denkbaren Akkordnote.",
+          "speciesScope": [
+            1,
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Vorübungen: erste und zweite Spezies an der Kadenz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, S. 98, Kommentar zu Bsp. 52; S. 101–102 und 106–107, Kommentare zu Bsp. 54–57 · Schlüsse in drei Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a16",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. I, §§ 175–176, S. 171 · erste Spezies, vier Stimmen",
+          "text": "Für den vierstimmigen Schluss verlangt Schönberg eine authentische Wendung: Vor I soll V, vorzugsweise in Grundstellung, oder der Sextakkord der VII. Stufe stehen. Eine plagale Verbindung erfüllt diese Aufgabe für ihn nicht. Beim unvollständigen letzten Dreiklang verwirft er jedoch die ältere Vorschrift, eher die Terz als die Quinte auszulassen. Er behandelt sie als Stilkonvention ohne notwendigen technischen Grund. Die Art, wie die Tonika erreicht wird, ist somit strenger festgelegt als die historisch bevorzugte Auswahl ihrer letzten Akkordtöne.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesübung · vierstimmiger authentischer Schluss",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. I, §§ 175–176, S. 171 · erste Spezies, vier Stimmen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
         }
       ],
@@ -11206,6 +12573,116 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-r02",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Anhang A, Vorrede I, S. 221–222 · Harmonie und selbstständige Stimmen",
+          "text": "Im ersten Vorredenentwurf kritisiert Schönberg eine Lehre, die Kontrapunkt auf bewegte Stimmen zu einer schon festgelegten Harmonie reduziert. Die selbstständigen Linien sollen einander durch ihre wechselnden Zusammenklänge Farbe und Bedeutung geben. Ihre Verbindung gehört für ihn zur Ausarbeitung eines musikalischen Gedankens; eine größere Stimmenzahl macht das Ergebnis für sich genommen noch nicht bedeutender. Diese Grundsatzkritik erklärt den Zweck seines Trainings. Sie ersetzt nicht die konkreten Tonalitäts- und Kadenzvorgaben, mit denen die Übungen des Buchs arbeiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "cross-style",
+            "frame": "Lehrkonzept · Zusammenhang von Linie und Harmonie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang A, Vorrede I, S. 221–222 · Harmonie und selbstständige Stimmen",
+              "note": "Die Vorrede diskutiert den Wandel vom älteren Kontrapunkt zu Bach, Brahms und Wagner und begründet daraus das Unterrichtsverfahren. Die Aussage ist keine historische Stilregel und kein pauschales Verbot harmonischer Planung."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m11",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, § 104, S. 93; Kommentar zu Bsp. 64–65, S. 123 · Klangfülle und flüssige Stimmführung in drei Stimmen",
+          "text": "Vollständige Dreiklänge bereichern Schönbergs dreistimmige Übungen, sind aber kein Vorrangziel gegenüber einer flüssigen, korrekten Linie und einer verständlichen Dissonanzbehandlung. In den bewegteren Beispielen gilt dasselbe für den Harmoniewechsel: Eine neue harmonische Deutung innerhalb eines Takts kann den Satz verbessern, muss jedoch aus der Stimmenbewegung hervorgehen. Auf S. 123 beurteilt Schönberg daher die fehlende Dreiklangsvollständigkeit weniger streng als eine stockende oder ungünstige Fortsetzung. Die Akkordbenennung hilft beim Prüfen des Ergebnisses, ohne jede Einzelstimme ihrer eigenen Aufgabe zu entheben.",
+          "speciesScope": [
+            1,
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige Vorübungen: erste Spezies und Vorhalte mit bewegter Zusatzstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, § 104, S. 93; Kommentar zu Bsp. 64–65, S. 123 · Klangfülle und flüssige Stimmführung in drei Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a02",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. VI, §§ 140–142 und Kommentar zu Bsp. 69, S. 132–133 · Ergänzung einer dritten Stimme",
+          "text": "Die hinzutretende Stimme soll den Zusammenklang bestimmter und reicher machen. Eine leere Oktave kann etwa durch Terz, Quinte oder Sexte ergänzt werden; zur Quinte kann die Terz treten. Auch Durchgänge und andere Dissonanzen gehören zu dieser Bereicherung. An den verschiedenen Ergänzungen desselben zweistimmigen Satzes zeigt Schönberg, dass eine neue Ober-, Mittel- oder Unterstimme unterschiedliche harmonische Verläufe erzeugt. Ihre Aufgabe erschöpft sich deshalb nicht in der Verdopplung eines bereits vorhandenen Tons.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · harmonische Wirkung einer dritten Stimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. VI, §§ 140–142 und Kommentar zu Bsp. 69, S. 132–133 · Ergänzung einer dritten Stimme",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a14",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. I, § 173, S. 171 · erste Spezies, vier Stimmen",
+          "text": "Auch im vierstimmigen Note-gegen-Note-Satz strebt Schönberg möglichst vollständige Dreiklänge an. Diese Klangfülle steht jedoch unter einer Bedingung: Sie darf die melodische Qualität der Stimmen nicht beeinträchtigen. Eine zusätzliche Akkordnote ist deshalb kein ausreichender Gewinn, wenn ihre Linie dadurch schlechter wird. Der Satz soll aus brauchbaren Stimmen bestehen und durch deren Zusammenwirken möglichst volle Harmonien bilden.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesübung · vier Stimmen und vollständige Dreiklänge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. I, § 173, S. 171 · erste Spezies, vier Stimmen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a21",
+          "source": "schoenberg1970",
+          "name": "Leonard Stein",
+          "locator": "Teil III, Kap. VII, Kommentar zu Bsp. 108–109, S. 212–213 · Herausgeberergänzung Leonard Steins, freie vierstimmige Aufgaben",
+          "text": "In Schönbergs vierstimmigen Kadenzen und Modulationen beobachtet Leonard Stein fast auf jedem Schlag einen vollständigen Zusammenklang. Er beschreibt diese Fülle als häufiges Ergebnis selbstständiger Bewegung der vier Stimmen, nicht als eine zuvor für jeden Schlag zu erfüllende Aufgabe. Auch Septakkorde und ihre Umkehrungen entstehen dabei aus Durchgängen und Vorhalten. Die Analyse beginnt daher bei den Wegen der Stimmen und erklärt anschließend die entstehenden Klänge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · vier Stimmen; Herausgeberkommentar zur Klangfülle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. VII, Kommentar zu Bsp. 108–109, S. 212–213 · Herausgeberergänzung Leonard Steins, freie vierstimmige Aufgaben",
+              "note": "Dieser Text ist ausdrücklich als Herausgeberergänzung Leonard Steins gekennzeichnet und erläutert Schönbergs Unterrichtsbeispiele. Die tonale Aufgabe ist keinem historischen Stil exklusiv zugeordnet."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -11218,7 +12695,10 @@ const ATLAS = {
         "akkordprolongation",
         "chromatik-ohne-diatonisches-geruest",
         "imitation-funktionswechsel",
-        "generalbass-bezifferung-stimmfuehrung"
+        "generalbass-bezifferung-stimmfuehrung",
+        "tonart-und-region",
+        "akkordton-verdopplung",
+        "stimmen-ergaenzen"
       ],
       "readingSources": [
         "prout1890",
@@ -11556,6 +13036,73 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e17",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kommentare zur ersten bis dritten Spezies, S. 14, 25 und 36–38 · fehlerhafte und verbesserte Lösungen",
+          "text": "Schönbergs gedruckte Lösungen sind ausdrücklich nicht sämtlich vollkommene Muster. Er baut Schwierigkeiten und Fehler ein, damit die Lernenden sie unterscheiden und verbessern. Bei der Bewertung zählt auch ihr Gewicht: Eine weniger günstige Sprungfolge kann einen sonst unerreichbaren Ton ermöglichen, während eine Häufung verschiedener Verstöße durch einen einzelnen Vorzug nicht aufgewogen wird. Die eigenen Lösungen sollen deshalb im Voraus auf ihre nächsten Möglichkeiten und besonders auf den Schluss hin geprüft werden. Anschließend lassen sich markierte Schwächen korrigieren und alternative Fortsetzungen vergleichen.",
+          "speciesScope": [
+            1,
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste bis dritte Spezies · Vergleich und Verbesserung von Lösungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kommentare zur ersten bis dritten Spezies, S. 14, 25 und 36–38 · fehlerhafte und verbesserte Lösungen; § 7, Anm. 2, S. 6",
+              "note": "Die Aussage betrifft die ausdrücklich erläuterte Funktion der kommentierten Übungsbeispiele. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m23",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 87, S. 75; Teil II, S. 97, Anm. zu § 111, und S. 98 · Hörkontrolle und bewusste Regelkonflikte",
+          "text": "Die Regeln müssen für Schönberg mit einer hörbaren Fortsetzung der Stimmen zusammenarbeiten. Beim Schreiben soll man die Linien innerlich hören und auf ihre Richtung, ihren Tonraum und ermüdende Wiederholungen achten. Gerät eine Lösung in einen wirklichen Regelkonflikt, verlangt er nicht, diesen zu verschweigen: In seinem Unterricht mussten Lernende bewusst in Kauf genommene Verstöße mit einem Pluszeichen markieren. Er konnte sie dann als das kleinere Übel beurteilen. Auch die abgedruckten Lösungen werden weiter kritisiert und verändert. Eine markierte Ausnahme ist damit eine begründungsbedürftige Entscheidung, keine automatische Entschuldigung für jeden Fehler.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Pädagogische Beurteilung tonaler Vorübungen und ihrer Regelkonflikte",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 87, S. 75; Teil II, S. 97, Anm. zu § 111, und S. 98 · Hörkontrolle und bewusste Regelkonflikte",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a05",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. VII, § 144, S. 141; Teil III, Kap. VI, § 188, Schönbergs eingefügte Erläuterung, S. 202–203",
+          "text": "Schönberg räumt ein, dass seine sehr strenge Neutralisierung im mehrstimmigen Satz steife, lange oder kaum befriedigend lösbare Übungen hervorbringen kann. Das Erkennen eines solchen Konflikts gehört für ihn zur Gehörbildung. In seiner später eingefügten Erläuterung verlangt er, größere Fehler zu vermeiden; kleinere Mängel soll die Lehrperson korrigieren, um brauchbare Auswege zu zeigen. Das Ziel dieser Korrektur ist nicht, unter jeder künstlichen Beschränkung eine vollkommene Komposition zu erzwingen. Eine Lösung wird auch daran beurteilt, welches Problem die Lernenden erkannt und welche Verbesserungsmöglichkeit sie verstanden haben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Lehrübung · Regelkonflikte beim Hinzufügen weiterer Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. VII, § 144, S. 141; Teil III, Kap. VI, § 188, Schönbergs eingefügte Erläuterung, S. 202–203",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "related": [
@@ -11568,6 +13115,12 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "nuance",
           "note": "Schubert trennt verbindliche Regeln, stilistische Empfehlungen und zusätzliche Beschränkungen der ersten Aufgaben. De la Motte betont dieselbe nötige Trennung von Lehrübung und Repertoire, zeigt aber an einer bewusst ungeeigneten Bach-Vorlage, wie wenig ein Werk auf die Bestätigung des Regelwerks zu reduzieren ist."
+        },
+        {
+          "from": "schoenberg1970-a05",
+          "to": "motte1995-r03",
+          "type": "context",
+          "note": "De la Motte prüft die Überzeugungskraft einer Lösung in einer bestimmten musikalischen Sprache. Schönberg hält hier absichtlich besonders enge Beschränkungen aufrecht, obwohl sie steife oder kaum vollkommen lösbare Beispiele erzeugen können. Die Aufgabe soll gerade das Hören und Bearbeiten solcher Schwierigkeiten schulen; stilistische Nachahmung und begrenzte Vorübung haben unterschiedliche Ziele."
         }
       ]
     },
@@ -11821,6 +13374,32 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e21",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 29–32, S. 33–34; Bsp. 21–22, S. 41–42 · dritte Spezies",
+          "text": "Schönbergs Cambiata ist eine festgelegte Fünftonfigur: Schritt und Terzsprung in derselben Richtung, danach zwei Schritte zurück. Er verwendet sie abwärts und in aufsteigender Umkehrung. Erster und fünfter Ton müssen konsonant auf dem ersten oder dritten Viertel stehen. Insgesamt verlangt er mindestens drei Konsonanzen; ein oder zwei der übrigen Töne dürfen dissonieren. Seine Tabelle und die Beispiele enthalten deshalb auch Formen, deren Terzsprung eine weitere Dissonanz erreicht. Drei Dissonanzen innerhalb derselben Figur kennzeichnet er dagegen als falsch. Die Figur wird als Ganzes geprüft, nicht nur ihr bekannter Anfang 8–7–5–6.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dritte Spezies · feste fünfgliedrige Cambiata",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 29–32, S. 33–34; Bsp. 21–22, S. 41–42 · dritte Spezies; § 7, Anm. 2, S. 6",
+              "note": "Die Zahl der Konsonanzen, beide Bewegungsrichtungen und die metrischen Randtöne werden ausdrücklich festgelegt. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true,
+          "examples": [
+            "schoenberg-cambiata-dissonanzen"
+          ]
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -11877,6 +13456,24 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "nuance",
           "note": "Schuberts Darstellung der dritten Spezies verlangt nach dem absteigenden Terzsprung mindestens zwei aufsteigende Schritte. De la Motte zeigt im freien Josquin-Satz auch eine verspätete Rückkehr zum übersprungenen Ton. Die rhythmische und zeitliche Bindung der Fortsetzung ist dort weniger eng als in der beschriebenen Fünftonübung."
+        },
+        {
+          "from": "schoenberg1970-e21",
+          "to": "cherubini1835-1",
+          "type": "contradiction",
+          "note": "Cherubini dokumentiert die abspringende Dissonanz, lehnt die Cambiata aber als Muster für den strengen Satz ab. Schönberg macht die festgelegte Cambiata dagegen zu einer regulären Dissonanzformel der dritten Spezies. Der historische Nachweis einer Figur und ihre Zulassung zur Übung fallen bei beiden Autoren unterschiedlich zusammen."
+        },
+        {
+          "from": "schoenberg1970-e21",
+          "to": "salzer-schachter1989-1",
+          "type": "contradiction",
+          "note": "Salzer und Schachter verlangen, dass der Terzsprung der Cambiata eine Konsonanz erreicht. Schönbergs Tabelle und Beispiele lassen auch zwei benachbarte Dissonanzen innerhalb der Fünftonfigur zu; der dritte Ton muss deshalb nicht stets konsonieren. Seine Grenze sind mindestens drei Konsonanzen einschließlich der betonten Randtöne."
+        },
+        {
+          "from": "schoenberg1970-e21",
+          "to": "jeppesen1964-26",
+          "type": "context",
+          "note": "Jeppesen beschränkt seine Palestrina-orientierten Übungen auf die absteigende Cambiata und bindet ihre Fortsetzung an den jeweiligen Rhythmus. Schönberg systematisiert die Figur als unveränderliche Folge von fünf Tönen in beiden Richtungen. Historische Stilgrundlage und abstrakte Dissonanzformel setzen hier unterschiedliche Grenzen."
         }
       ]
     },
@@ -11895,7 +13492,8 @@ const ATLAS = {
         "anfangsintervall",
         "stimmkreuzung",
         "konsonanz",
-        "reihen-und-stimmen"
+        "reihen-und-stimmen",
+        "akkordton-verdopplung"
       ],
       "authors": [
         {
@@ -12145,6 +13743,50 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e10",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 8 II, S. 11; Kommentar zur ersten Spezies, S. 15 · innere Einklänge und Oktaven",
+          "text": "Einklang und Oktave schwächen für Schönberg im Moment ihres Eintretens die Verschiedenheit der beiden Stimmen. Im Verlauf bevorzugt er deshalb Terzen, Sexten und Quinten und reserviert die leeren Zusammenklänge zunächst für die Ränder. Im Kommentar erlaubt er dennoch ausdrücklich einen inneren Einklang oder eine Oktave, wenn damit ein Zweck erfüllt wird, etwa die folgende Konsonanz in Gegenbewegung zu erreichen oder eine andere melodische Linie zu gewinnen. Ein pauschales Verbot aller inneren Einklänge würde diese Einschränkung seiner Regel unterschlagen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · zweistimmiger Verlauf",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 8 II, S. 11; Kommentar zur ersten Spezies, S. 15 · innere Einklänge und Oktaven; § 7, Anm. 2, S. 6",
+              "note": "Der Kommentar erklärt den inneren Gebrauch ausdrücklich als möglich, aber begründungsbedürftig. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a25",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. VII, Kommentar zu Bsp. 76a, S. 145 · dreistimmige Modulation ohne vorgegebene Stimmen",
+          "text": "Am Beginn von Bsp. 76a zeigt Schönberg, warum ein melodischer Sprung trotz einer grundsätzlich denkbaren Intervallwahl wirkungslos werden kann. Der Alt springt zu einem a, auf das zugleich der Sopran seinen Vorhalt auflösen muss. Dadurch verschwindet die Altbewegung hinter dem für den Sopran notwendigen Zielton. Die Beurteilung fragt hier nicht nur, ob die kleine Sexte als Sprung erlaubt wäre, sondern ob ihr Ziel die hinzugefügte Stimme hörbar weiterführt. Der Einklang schwächt an dieser Stelle gerade den beabsichtigten Eigenverlauf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · dreistimmige Modulation und hörbare Linienführung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. VII, Kommentar zu Bsp. 76a, S. 145 · dreistimmige Modulation ohne vorgegebene Stimmen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -12165,6 +13807,18 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "context",
           "note": "Fux beschränkt den inneren Einklang in der zweistimmigen ersten Spezies, weil zwei Linien darin zusammenfallen. In Wagners Orchestersatz beschreibt de la Motte gerade das längere Zusammengehen und erneute Verzweigen als Gestaltungsverfahren. Die gegensätzliche Bewertung gehört zu verschiedenen Satzaufgaben."
+        },
+        {
+          "from": "schoenberg1970-e10",
+          "to": "fux1725-1",
+          "type": "contradiction",
+          "note": "Fux schließt den Einklang im Inneren der ersten zweistimmigen Spezies aus. Schönberg bevorzugt zwar ebenfalls andere Zusammenklänge, lässt einen inneren Einklang aber ausdrücklich zu, wenn er einem erkennbaren melodischen Zweck dient. Die unterschiedliche Strenge betrifft das gleiche Note-gegen-Note-Verhältnis."
+        },
+        {
+          "from": "schoenberg1970-a25",
+          "to": "motte1995-l09",
+          "type": "context",
+          "note": "In Schönbergs dreistimmiger Übung verliert die Altbewegung im Einklang mit dem auflösenden Sopran ihre Wirkung. De la Motte beschreibt Unisonostrecken bei Wagner dagegen als Mittel der Verknüpfung und klanglichen Vervielfachung. Ob Stimmenverschmelzung ein Mangel oder eine beabsichtigte Wirkung ist, hängt hier von Satzaufgabe und Besetzung ab."
         }
       ]
     },
@@ -12270,6 +13924,33 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e15",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 12–14, S. 13; Bsp. 9, S. 21 · Auswahl und Wechsel der Übungsvorlage",
+          "text": "Schönbergs Cantus firmi sind gezielt als Aufgabenmaterial gebaut. Sie enthalten sogar Fortschreitungen, die die Lernenden in ihren eigenen Gegenstimmen zunächst vermeiden sollen; auf diese Weise werden unterschiedliche Anschlussprobleme durchgespielt. Er empfiehlt, die Vorlage häufig zu wechseln und neue Aufgaben zunächst in C-Dur, danach in zwei bis vier weiteren Tonarten zu schreiben. Bei Bedarf wird der Cantus an die gewählten Stimmlagen angepasst. Die gegebene Linie ist deshalb nicht in jedem Detail als Muster einer idealen selbst erfundenen Melodie zu lesen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Speziesübungen · bewusst anspruchsvolle Cantus-Vorlagen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 12–14, S. 13; Bsp. 9, S. 21 · Auswahl und Wechsel der Übungsvorlage; § 7, Anm. 2, S. 6",
+              "note": "§§12–14 beschreiben die Funktion des wiederholt verwendeten Aufgabenmaterials. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -12278,6 +13959,12 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "context",
           "note": "Fux lässt den Cantus erfinden oder einem Choralbuch entnehmen und gibt ihn in der ersten Aufgabe fest vor. De la Motte möchte für seine Josquin- und Bach-Übungen beide Stimmen gemeinsam erfinden lassen. Die Differenz betrifft die Aufgabenanlage, nicht die historische Berechtigung einer Komposition über einen gegebenen Choral."
+        },
+        {
+          "from": "schoenberg1970-e15",
+          "to": "motte1995-r02",
+          "type": "context",
+          "note": "Schönbergs vorgegebene Cantus firmi sollen gezielt wechselnde Anschlussprobleme erzeugen. De la Motte nimmt für die eigenen Josquin- und Bach-Übungen stattdessen das gemeinsame Erfinden beider Stimmen zum Ausgangspunkt. Die Differenz betrifft die Anlage des Lehrgangs und die Funktion einer Aufgabenstimme."
         }
       ]
     },
@@ -12525,6 +14212,52 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e16",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kommentar zu Bsp. 1–9, S. 14–15 · erste Spezies, zwei Stimmen",
+          "text": "In der zweistimmigen ersten Spezies ist es für Schönberg nicht falsch, denselben Ton zweimal nacheinander zu verwenden. Weil die betreffende Stimme dabei ihre Tonhöhe nicht ändert, entsteht durch diese Wiederholung auch keine fehlerhafte melodische Bewegung. Eine andere Tonhöhe zu jedem neuen Cantuston findet er allerdings meist interessanter. Die Erlaubnis einer einzelnen Wiederholung darf deshalb nicht mit einer Empfehlung für eine monotone Gegenstimme verwechselt werden.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Erste Spezies · unmittelbare Tonwiederholung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kommentar zu Bsp. 1–9, S. 14–15 · erste Spezies, zwei Stimmen; § 7, Anm. 2, S. 6",
+              "note": "Der Kommentar erlaubt ausdrücklich zwei gleiche Töne und unterscheidet Zulässigkeit von musikalischem Interesse. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m13",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. I, S. 98, Kommentar zu Bsp. 52b/c/d · erste Spezies in drei Stimmen",
+          "text": "Ein wiederkehrender oder gebundener Ton ist in der dreistimmigen ersten Spezies bei Schönberg nicht schon ein Fehler. Gerade eine Mittelstimme kann länger auf derselben Tonhöhe bleiben, während die anderen Stimmen weiterführen. Er prüft jedoch die Dauer und den gesamten Verlauf: Der Bass in Bsp. 52d bleibt ihm möglicherweise zu lange auf einem Ton, und andere Beispiele werden durch zu häufig wiederkehrende Töne oder dieselbe Intervallfigur eintönig. Die Erlaubnis entbindet also nicht davon, zwischen einer sinnvoll ruhenden Stimme und einem monotonen Entwurf zu unterscheiden.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige erste Spezies: ruhende Mittelstimme und Monotonie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. I, S. 98, Kommentar zu Bsp. 52b/c/d · erste Spezies in drei Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -12563,6 +14296,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Noël-Gallon und Bitsch schließen direkte Tonwiederholung in ihrer zweistimmigen Übung aus. De la Motte führt sie bei Schütz sogar auf Durchgangs- und Vorhaltsdissonanzen vor. Die barocke Verzierung einer konkreten Figur hat einen anderen Zweck als die Repetitionsbegrenzung der Übung."
+        },
+        {
+          "from": "schoenberg1970-e16",
+          "to": "gallon-bitsch1964-1",
+          "type": "contradiction",
+          "note": "Gallon und Bitsch verbieten unmittelbare Tonwiederholung im zweistimmigen Satz und öffnen die erste Spezies dafür erst ab fünf Stimmen. Schönberg erlaubt die Wiederholung schon in der zweistimmigen ersten Spezies ausdrücklich, auch wenn ein Tonwechsel meist interessanter wirkt."
         }
       ]
     },
@@ -14767,7 +16506,8 @@ const ATLAS = {
         "akkordprolongation",
         "choral-fermate",
         "romanesca-satzgeruest",
-        "choral-gegenstimme"
+        "choral-gegenstimme",
+        "kontrapunkt-in-homophonie"
       ],
       "authors": [
         {
@@ -15007,6 +16747,53 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-r04",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Anhang B, II.3, S. 224 · Entwurfsnotiz zur homophonen Melodie",
+          "text": "In der Skizze zum Kontrapunkt in homophoner Musik nach 1750 stellt Schönberg die Geschwindigkeit der Melodie derjenigen ihrer Akkordfolge gegenüber: Die Akkorde können langsamer wechseln als die Melodietöne. Bei der Betrachtung einer bewegten Linie ist deshalb zu fragen, welche Töne innerhalb derselben Harmonie liegen und wo die nächste beginnt. Die Notiz beschreibt ein Verhältnis von Melodie und harmonischem Hintergrund; sie legt kein allgemeines Wechselmaß wie einen Akkord pro Takt fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Entwurfsnotiz · Melodie und langsamerer Harmoniewechsel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang B, II.3, S. 224 · Entwurfsnotiz zur homophonen Melodie",
+              "note": "Der dritte Punkt steht ausdrücklich unter der Überschrift zur homophonen Musik nach 1750 und kontrastiert diese Anlage mit kontrapunktischen Themen. Der Text ist ein Entwurf für einen weiteren Band, keine zusätzliche Speziesvorschrift."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-m17",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. II, § 115, S. 101; Kommentar zu Bsp. 64–65, S. 123 · Klangwechsel innerhalb eines Cantus-Tons",
+          "text": "Ein ganzer Cantus-Ton legt bei Schönberg nicht zwangsläufig eine einzige Harmonie für den ganzen Takt fest. In der dreistimmigen zweiten Spezies soll die leichte Halbe nach Möglichkeit entweder den noch fehlenden Dreiklangston ergänzen oder einen Ton einer anderen Harmonie bringen. In den Vorhaltsübungen mit Viertelbewegung kann derselbe Cantus-Ton innerhalb eines Takts mehrfach seine harmonische Bedeutung wechseln. Solche Veränderungen bereichern den Satz, sind aber der flüssigen Stimmführung nachgeordnet. Die Dauer des Cantus-Tons und die Dauer einer Harmonie sind somit getrennt zu prüfen.",
+          "speciesScope": [
+            2,
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige zweite Spezies und Vorhalte mit bewegter Zusatzstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. II, § 115, S. 101; Kommentar zu Bsp. 64–65, S. 123 · Klangwechsel innerhalb eines Cantus-Tons",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -15019,6 +16806,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "context",
           "note": "Prout bevorzugt in der zweiten Spezies eine Harmonie je Cantus-firmus-Ton. Menke verfolgt in einer ausgearbeiteten Solosonate eine Beschleunigung innerhalb derselben Phrase. Der weitgehend feste harmonische Puls der Übung ist von der gezielten Veränderung des harmonischen Rhythmus in der Komposition zu unterscheiden."
+        },
+        {
+          "from": "schoenberg1970-m17",
+          "to": "prout1890-1",
+          "type": "nuance",
+          "note": "Prout bevorzugt in der zweiten Spezies eine Harmonie je Cantus-Ton und begründet einen zweiten Akkord als Ausnahme. Schönberg nennt in seiner dreistimmigen zweiten Spezies den Ton einer anderen Harmonie als reguläre Option der leichten Halben. Unterschiedlich ist die Gewichtung des Harmoniewechsels, nicht die bloße Möglichkeit zweier Klänge."
         }
       ]
     },
@@ -15045,7 +16838,8 @@ const ATLAS = {
         "linie-orgelpunkt",
         "rhythmuswechsel-s5",
         "viertel-gegen-viertel",
-        "stimme-und-satzstruktur"
+        "stimme-und-satzstruktur",
+        "stimmen-ergaenzen"
       ],
       "authors": [
         {
@@ -15372,6 +17166,53 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e18",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 8 und § 8 III, S. 9 und 11 · rhythmische Unabhängigkeit der Spezies",
+          "text": "In den Speziesübungen entsteht rhythmische Selbstständigkeit zunächst dadurch, dass die Gegenstimme kleinere Notenwerte als der Cantus verwendet. Schönberg unterscheidet diese Bewegung von einer weitergehenden Selbstständigkeit des musikalischen Inhalts, die für ihn Motive voraussetzt und hier noch nicht verlangt wird. Wenn später beide Stimmen gemischte Rhythmen führen, kann ihre Unabhängigkeit zunehmen. Dass eine Stimme sich bewegt, während die andere liegt, hilft dabei oft; er erhebt dieses abwechselnde Tätigwerden aber ausdrücklich nicht zur durchgehenden Pflicht.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Speziesübungen · rhythmische statt motivische Selbstständigkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 8 und § 8 III, S. 9 und 11 · rhythmische Unabhängigkeit der Spezies; § 7, Anm. 2, S. 6",
+              "note": "§8 trennt Bewegungsrichtung, Intervall und Rhythmus von der zunächst ausgesparten motivischen Arbeit. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a01",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. VI, §§ 138–139, S. 131–132 · hinzutretende dritte Stimme",
+          "text": "Eine mitspielende Stimme soll nach Schönberg etwas zum Satz beitragen, das ihre Anwesenheit hörbar rechtfertigt. Ein besonders wirksames Mittel ist die rhythmische Unterscheidung: Bewegt sich eine Stimme in kurzen Werten, kann eine andere längere tragen. Er schränkt die zugespitzte Forderung, nie gleichzeitig fortzuschreiten, aber ausdrücklich ein. Gemeinsame Bewegung kann die Umrisse der Stimmen verdecken, hebt ihre Selbstständigkeit jedoch nicht grundsätzlich auf. Rhythmische Verschiedenheit ist ein verlässliches Mittel der Wahrnehmbarkeit, kein ausnahmsloses Verbot gemeinsamer Einsätze.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · dritte Stimme und rhythmische Unterscheidung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. VI, §§ 138–139, S. 131–132 · hinzutretende dritte Stimme",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
         }
       ],
@@ -15804,7 +17645,8 @@ const ATLAS = {
         "textunterlegung",
         "motette-satzwechsel",
         "motivische-polyphonie",
-        "reihen-und-stimmen"
+        "reihen-und-stimmen",
+        "kontrapunkt-in-homophonie"
       ],
       "authors": [
         {
@@ -16027,6 +17869,72 @@ const ATLAS = {
           "examples": [
             "motte-tonfolge-gesamtklang"
           ]
+        },
+        {
+          "id": "schoenberg1970-a06",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. IX, §§ 160–161, S. 155–157 · strenge, semi-strict und freie Imitation",
+          "text": "Schönberg trennt zunächst die Genauigkeit einer Imitation von ihrer Fortdauer. Eine strenge Nachahmung übernimmt Rhythmus und genaue Intervallgrößen; bei einer Transposition können dafür veränderte Töne nötig sein. Die als semi-strict bezeichnete Nachahmung behält den Rhythmus bei, lässt aber etwa eine große an die Stelle einer kleinen Sekunde oder Terz treten. Eine freie Imitation kann darüber hinaus den Rhythmus verändern; für den hier eingegrenzten strengen Kontrapunkt weist er sie zurück. Ob aus einer solchen Nachahmung ein durchgehender Kanon wird, ist eine weitere Frage.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Imitationsübung · Genauigkeit von Rhythmus und Intervall",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. IX, §§ 160–161, S. 155–157 · strenge, semi-strict und freie Imitation",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true,
+          "examples": [
+            "schoenberg-imitation"
+          ]
+        },
+        {
+          "id": "schoenberg1970-a07",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. X, §§ 169–171 und Kommentar zu Bsp. 88–90, S. 166–167 · zwei- und dreistimmige Kanonübung",
+          "text": "Zum Kanon wird die Nachahmung für Schönberg, wenn sie sich durch das ganze Stück fortsetzt; eine kurze freie Schlussbildung kann ausgenommen bleiben. Für seine strengen Übungen verlangt er die genaue Größe der Intervalle und einen verlässlich erhaltenen Rhythmus. Wechsel zwischen Augmentation und Diminution kennt und zeigt er zwar, bezweifelt aber ihren Nutzen für Anfänger: Die Verwandtschaft der Stimmen soll hörbar bleiben. Beim unendlichen Kanon führen die letzten Takte wieder passend in den Anfang. Für erste dreistimmige Versuche empfiehlt er vor allem Einklang und Oktave als Einsatzintervalle.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kanonübung · fortgesetzte und hörbare Nachahmung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. X, §§ 169–171 und Kommentar zu Bsp. 88–90, S. 166–167 · zwei- und dreistimmige Kanonübung",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a23",
+          "source": "schoenberg1970",
+          "name": "Leonard Stein",
+          "locator": "Teil III, Kap. VIII, §§ 191–192 und Kommentar zu Bsp. 110–111, S. 217–218 · Herausgeberergänzung Leonard Steins",
+          "text": "Die von Leonard Stein ergänzte letzte Anwendungsstufe verwendet Imitation auch im Inneren vierstimmiger Modulationen, nicht nur zur Eröffnung. Die meisten Nachahmungen sind genau; daneben kommen Umkehrung, Augmentation, Diminution und kleine Varianten vor. Bsp. 111 verbindet solche Verfahren mit dem Durchgang durch Zwischenregionen. Die Nachahmung dient hier der Verknüpfung eines ganzen Verlaufs, ohne jede Stimme bis zum Ende an eine einzige kanonische Vorschrift zu binden. Stein erläutert damit eine spätere kompositorische Anwendung von Schönbergs Unterrichtsbeispielen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · vier Stimmen, Imitation und Regionen; Herausgeberergänzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. VIII, §§ 191–192 und Kommentar zu Bsp. 110–111, S. 217–218 · Herausgeberergänzung Leonard Steins",
+              "note": "Dieser Text ist ausdrücklich als Herausgeberergänzung Leonard Steins gekennzeichnet und erläutert Schönbergs Unterrichtsbeispiele. Die tonale Aufgabe ist keinem historischen Stil exklusiv zugeordnet."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "readingSources": [],
@@ -16042,6 +17950,30 @@ const ATLAS = {
           "to": "prout1891-1",
           "type": "context",
           "note": "Prout bestimmt den Kanon über die fortgesetzte Nachahmung einer Linie. De la Motte zeigt bei Ligeti, wie die gemeinsame Tonfolge bei wechselnden Zeitabständen zu einem Gesamtklang verschmilzt. Die kanonische Herkunft des Materials und die Hörbarkeit getrennter Stimmen sind hier verschiedene Fragen."
+        },
+        {
+          "from": "schoenberg1970-a07",
+          "to": "prout1891-1",
+          "type": "nuance",
+          "note": "Beide unterscheiden fortgesetzte Nachahmung von freier Weiterführung. Prout lässt im Kanon aber eine große Sekunde zur kleinen werden. Schönberg verlangt für seine strengen Kanonübungen auch die genaue Intervallgröße und begründet die zusätzliche Bindung pädagogisch. Sein Eingeständnis freierer Kompositionen bleibt davon getrennt."
+        },
+        {
+          "from": "schoenberg1970-a07",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Noël-Gallon und Bitsch trennen die fortdauernde kanonische Nachahmung von ihrer regelmäßigen oder unregelmäßigen Intervalltreue. Schönberg fordert im hier behandelten strengen Übungskanon zusätzlich zur Fortdauer genaue Intervallgrößen. Die unterschiedlichen Anforderungen betreffen die zugelassene Veränderung der Antwort, nicht bloß die Länge der Nachahmung."
+        },
+        {
+          "from": "schoenberg1970-a07",
+          "to": "motte1995-e06",
+          "type": "context",
+          "note": "De la Motte beschreibt bei Isaac wechselnde Einsatzabstände und kleine melodische Anpassungen im Kanon. Schönberg verlangt in der Anfängerübung genaue Intervallgrößen und zweifelt am Lerngewinn wechselnder Augmentations- und Diminutionsverhältnisse. Einsatzabstand und Dauerverhältnis sind verschiedene Verfahren; der Vergleich stellt historische Beweglichkeit einer bewusst begrenzten Kanonaufgabe gegenüber."
+        },
+        {
+          "from": "schoenberg1970-a07",
+          "to": "motte1995-l22",
+          "type": "context",
+          "note": "Für Schönbergs Kanonübung soll die Nachahmung die hörbare Verwandtschaft getrennter Stimmen sichern. Im von de la Motte untersuchten Ligeti-Klang führt kanonische Verwandtschaft dagegen gerade zu einer Verschmelzung, in der einzelne Linien zurücktreten. Die Klangabsichten unterscheiden sich: hörbare Beziehungen der Stimmen hier, ein aus kanonischen Linien gebildeter Gesamtklang dort."
         }
       ]
     },
@@ -16065,7 +17997,8 @@ const ATLAS = {
         "dichte-s5",
         "grundrahmen",
         "vorhalt-bewegte-begleitstimme",
-        "viertel-gegen-viertel"
+        "viertel-gegen-viertel",
+        "stimmen-ergaenzen"
       ],
       "comparisons": [],
       "authors": [
@@ -16141,6 +18074,103 @@ const ATLAS = {
               "note": "Die Autoren begrenzen ihre Übungsanlage und erkennen Doppelvorhalte in Kompositionen ausdrücklich an. Der Unterschied liegt zwischen Aufgaben, nicht allein zwischen Epochen."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-m16",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, §§ 113 und 116, S. 101 und 106; §§ 119, 128 und 133–134, S. 116, 120 und 127 · mehrere bewegte Stimmen",
+          "text": "Schönberg beginnt die dreistimmige zweite Spezies mit nur einer Halbenstimme, lässt danach aber beide Zusatzstimmen in Halben gehen. Ebenso kann in der fünften Spezies eine floride Stimme mit Ganzen oder Synkopen verbunden werden, oder beide Zusatzstimmen schreiben gemischte Werte. Auch gleichzeitige Vorhalte sind nicht grundsätzlich ausgeschlossen: Beim behandelten Terzquartklang müssen beide betreffenden Stimmen vorbereitet werden, weil beide zum Cantus dissonieren. Diese Möglichkeiten werden schrittweise eingeführt und verlangen die Prüfung aller Stimmenbeziehungen. Eine allgemeine Regel, nach der jede Zusatzstimme stets eine andere Spezies erhalten müsste, passt deshalb nicht zu diesem Lehrgang.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige Vorübungen: Kombination gleicher und verschiedener Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, §§ 113 und 116, S. 101 und 106; §§ 119, 128 und 133–134, S. 116, 120 und 127 · mehrere bewegte Stimmen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a17",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. II, § 178 und Kommentar zu Bsp. 94j–k, S. 178–179 · vier Stimmen, zweite Spezies",
+          "text": "Schönberg lässt im vierstimmigen Satz eine oder zwei Gegenstimmen in Halben zu. Zwei zugleich bewegte Halbenstimmen bieten allerdings weniger Spielraum für Durchgänge und können den Satz zusätzlich versteifen; ihre Bewegung muss gelegentlich unterbrochen werden. Drei Halbenstimmen gleichzeitig soll man in dieser Aufgabe deshalb gar nicht versuchen. Gleiche Notenwerte in zwei Stimmen sind also möglich, werden aber nach ihrem Gewinn für Bewegung und melodische Freiheit beurteilt.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesübung · vier Stimmen mit einer oder zwei Halbenstimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. II, § 178 und Kommentar zu Bsp. 94j–k, S. 178–179 · vier Stimmen, zweite Spezies",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a18",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. III, §§ 179–180, S. 186 · vier Stimmen, dritte Spezies mit Halbenstimme",
+          "text": "Gleichmäßige Viertel in mehreren Stimmen würden nach Schönberg sowohl die rhythmische Selbstständigkeit als auch die melodische Freiheit zu stark einschränken. Zu einer Viertelstimme empfiehlt er deshalb eher eine Halbenstimme, in der auch eine gelegentliche Synkope vorkommen kann. Die Halbenbewegung darf zeitweise stehen bleiben, weil die Viertel den Fortgang tragen. Sie kann sogar von einer Stimme an eine andere übergehen. Das Ziel ist ein hörbarer Unterschied der Stimmen, nicht das möglichst lange Durchhalten gleicher Bewegungsmuster.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesmischung · vier Stimmen mit Vierteln und Halben",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. III, §§ 179–180, S. 186 · vier Stimmen, dritte Spezies mit Halbenstimme",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a20",
+          "source": "schoenberg1970",
+          "name": "Leonard Stein",
+          "locator": "Teil III, Kap. V, § 184 und Kommentar zu Bsp. 101, S. 199 · Herausgeberergänzung Leonard Steins, vierstimmiger florider Satz",
+          "text": "Leonard Stein erläutert mehrere Varianten der vierstimmigen fünften Spezies nach Schönbergs Beispielen. Zu Cantus firmus und florider Stimme können ganze Noten, Halbe, Synkopen oder weitere floride Stimmen treten. In Bsp. 101e führen alle drei Gegenstimmen gemischte Werte. Den Versuch mit vier verschiedenen Spezies beschreibt Stein dagegen als besonders schwierig und nur teilweise befriedigend; die festgelegten Rollen engen einzelne Linien ein. Mehrere floride Stimmen können hier also gerade leichter zu einem überzeugenden Satz führen als die starre Verteilung je einer anderen Spezies.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesmischung · vier Stimmen; Herausgeberkommentar",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. V, § 184 und Kommentar zu Bsp. 101, S. 199 · Herausgeberergänzung Leonard Steins, vierstimmiger florider Satz",
+              "note": "Dieser Text ist ausdrücklich als Herausgeberergänzung Leonard Steins gekennzeichnet und erläutert Schönbergs Unterrichtsbeispiele. Die tonale Aufgabe ist keinem historischen Stil exklusiv zugeordnet."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -16159,6 +18189,24 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Im grand mélange von Noël-Gallon und Bitsch erhalten die Gegenstimmen verschiedene Rhythmen. Salzer und Schachter beginnen ihren Lehrgang zum kombinierten Kontrapunkt dagegen mit zwei Stimmen derselben zweiten Spezies."
+        },
+        {
+          "from": "schoenberg1970-m16",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Im grand mélange von Noël-Gallon und Bitsch erhalten die Zusatzstimmen verschiedene rhythmische Aufgaben. Schönberg übt ausdrücklich auch zwei Halbenstimmen und zwei floride Stimmen zugleich. Die Verteilung unterschiedlicher Spezies ist damit eine besondere Aufgabenform, keine gemeinsame Voraussetzung aller kombinierten Übungen."
+        },
+        {
+          "from": "schoenberg1970-a17",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Noël-Gallon und Bitsch teilen in ihrer Speziesmischung den Gegenstimmen verschiedene Rhythmen zu. Schönbergs vierstimmige zweite Spezies lässt dagegen zwei Halbenstimmen zu, warnt aber vor der Versteifung und schließt drei gleichzeitige Halbenstimmen aus. Die beiden Lehrgänge legen unterschiedliche Kombinationen als Übung fest."
+        },
+        {
+          "from": "schoenberg1970-a20",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Im grand mélange von Noël-Gallon und Bitsch erhält jede Gegenstimme grundsätzlich eine eigene Bewegungsart. Stein erläutert bei Schönberg zusätzlich drei floride Gegenstimmen und findet diese freiere Verteilung leichter befriedigend als vier fest getrennte Spezies. Die Verschiedenheit der Rollen ist hier ein Mittel, keine durchgehend vorgeschriebene Aufteilung."
         }
       ]
     },
@@ -16242,6 +18290,30 @@ const ATLAS = {
               "note": "Die vierte Spezies wird innerhalb des Renaissance-Lehrgangs auf kleinere Notenwerte übertragen. Die kürzere Vorbereitung ist Teil dieser rhythmischen Übertragung."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e29",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 37, S. 46; § 49, S. 53 · vierte und fünfte Spezies",
+          "text": "Für die Synkope vergleicht Schönberg die Dauer beiderseits der Bindung: Der auf leichter Zeit beginnende Ton muss mindestens so lange dauern wie sein angebundener Teil auf schwerer Zeit. Zwei gebundene Halbe erfüllen diese Forderung ebenso wie eine entsprechend verkleinerte Bindung. Eine Viertel auf der zweiten Zählzeit, die bis zum Taktende als punktierte Halbe weiterklingt, genügt dagegen nicht: Sie bereitet eine längere betonte Halbe nur durch eine Viertel vor. Die fünfte Spezies übernimmt diese Bedingung ausdrücklich.",
+          "speciesScope": [
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierte und fünfte Spezies · Dauerverhältnis der Synkope",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 37, S. 46; § 49, S. 53 · vierte und fünfte Spezies; § 7, Anm. 2, S. 6",
+              "note": "Die Mindestdauer wird relativ zur angebundenen Note definiert; §49 übernimmt die Regel. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "readingSources": [],
@@ -16251,6 +18323,12 @@ const ATLAS = {
           "to": "schubert1999-1",
           "type": "context",
           "note": "Noël-Gallon und Bitsch markieren in ihrer Übung eine Viertelvorbereitung als zu kurz. Schubert überträgt das Synkopenschema dagegen auf eine kleinere Zeitebene, indem er Vorbereitung, Dissonanz und Auflösung gemeinsam halbiert."
+        },
+        {
+          "from": "schoenberg1970-e29",
+          "to": "gallon-bitsch1964-1",
+          "type": "nuance",
+          "note": "Gallon und Bitsch verlangen in der behandelten Übung mindestens eine Halbe als Vorbereitung. Schönberg formuliert das Verhältnis der beiden gebundenen Dauern: Die leichte Vorbereitung muss mindestens so lang sein wie der betonte angebundene Teil. Dadurch bleibt seine Bedingung auch bei einer verkleinerten Synkope anwendbar."
         }
       ]
     },
@@ -16459,10 +18537,39 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a08",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. IX, § 161, S. 156–158; § 166, S. 163 · proportionale Veränderung und Umkehrung",
+          "text": "In Schönbergs Augmentationsübung wird jede Note und jede Pause mit demselben Faktor verlängert; die Diminution teilt ihre Dauern entsprechend. Auch eine Verdreifachung oder Vervierfachung ist denkbar. Die Umkehrung bewahrt Rhythmus oder Dauerproportionen und wendet die Richtung der Intervalle. Sie lässt sich mit Vergrößerung oder Verkleinerung verbinden. Ob eine Fassung streng bleibt, prüft man an den erhaltenen Proportionen und Intervallgrößen. Kompliziertere Verbindungen und Krebsformen verweist er anschließend auf Kompositionen, unter anderem Bachs Musikalisches Opfer.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Imitationsübung · proportionale Veränderung und Umkehrung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. IX, § 161, S. 156–158; § 166, S. 163 · proportionale Veränderung und Umkehrung",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "readingSources": [
         "piston1947"
+      ],
+      "relations": [
+        {
+          "from": "schoenberg1970-a08",
+          "to": "motte1995-e04",
+          "type": "context",
+          "note": "Schönbergs Augmentationsaufgabe verändert jede Note und Pause mit demselben Faktor. De la Motte erklärt bei Ockeghem dagegen ein Mensurverfahren, in dem nur bestimmte lange Werte den Abstand vergrößern und die späteren kurzen Werte gleich lang bleiben. Eine proportionale Lehrformel beschreibt dieses historische Verfahren nicht vollständig."
+        }
       ]
     },
     {
@@ -16600,7 +18707,8 @@ const ATLAS = {
       "related": [
         "generalbass-stimmenzahl",
         "parallelen",
-        "harmonischer-rhythmus"
+        "harmonischer-rhythmus",
+        "akkordton-verdopplung"
       ],
       "authors": [
         {
@@ -17420,6 +19528,29 @@ const ATLAS = {
               "note": "Die Aussage gehört zur zweiten Art des Lehrgangs und setzt eine bestimmte Zählzeit voraus. Die Zahl der Noten allein bestimmt den metrischen Spielraum nicht."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e23",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 35 und Kommentar, S. 35–38 · dritte Spezies in Dreiermetren",
+          "text": "Schönberg behandelt Dreiergruppen im Kapitel der dritten Spezies. Bei drei gleich langen Tönen in 3/4 oder 3/2 kann die zweite oder die dritte Note eine Durchgangsdissonanz tragen; die erste bleibt konsonant. Seine Anfangsschemata sehen dabei jeweils nur eine dissonante Note der Dreiergruppe vor. Die feste Fünfton-Cambiata passt im gleichmäßigen 3/4 oder 6/4 nicht zu seiner Forderung nach betonten Anfangs- und Endtönen. Werden dagegen die Halben eines 3/2-Takts in Viertel unterteilt, lässt sich diese Forderung erfüllen und die Cambiata verwenden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dritte Spezies · Dreiermetrum und Unterteilung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 35 und Kommentar, S. 35–38 · dritte Spezies in Dreiermetren; § 7, Anm. 2, S. 6",
+              "note": "Die Verfügbarkeit der Dissonanzfigur folgt dem ausdrücklich beschriebenen Metrum und seiner Unterteilung. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -17443,6 +19574,18 @@ const ATLAS = {
           "type": "context",
           "note": "Salzer und Schachter behandeln in ihrer Zusatzübung die beiden Positionen nach der Eins als leichte Zeiten. Jeppesen setzt für seine Aussage über drei Halbe ausdrücklich die Halbe als Zählzeit voraus und fordert auf jeder dieser Zählzeiten Konsonanz. Der Vergleich muss deshalb den metrischen Maßstab mit einbeziehen.",
           "from": "jeppesen1964-41"
+        },
+        {
+          "from": "schoenberg1970-e23",
+          "to": "prout1890-1",
+          "type": "contradiction",
+          "note": "Prout lässt im Drei-gegen-eins zwei aufeinanderfolgende Durchgangstöne zwischen konsonanten Rahmentönen zu. Schönbergs Anfangsschemata für die Dreiergruppe sehen dagegen entweder nur Konsonanzen oder eine einzelne Dissonanz auf der zweiten beziehungsweise dritten Position vor. Beide Autoren behandeln dies innerhalb ihrer dritten Spezies."
+        },
+        {
+          "from": "schoenberg1970-e23",
+          "to": "jeppesen1964-41",
+          "type": "context",
+          "note": "Schönberg kann bereits die zweite oder dritte Halbe einer 3/2-Gruppe als leichte Durchgangsposition behandeln. Jeppesen hält bei der Halben als Zählzeit alle drei Halben konsonant und öffnet erst deren Unterteilung für Dissonanzen. Der verschiedene Bezug von Takt und Zählzeit ist Teil der unterschiedlichen Aufgaben, nicht bloß eine andere Schreibweise derselben Regel."
         }
       ]
     },
@@ -18793,6 +20936,27 @@ const ATLAS = {
               "note": "Menke erklärt die Rollen nach Artusi und Berardi. Die eingeschränkte Textlizenz Berardis und Menkes weiter reichender Repertoirebefund bleiben dabei unterscheidbar."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-m08",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VII, § 89, S. 76–77 · bewegte zweite Stimme während und bei der Vorhaltsauflösung",
+          "text": "Die andere Stimme muss während eines Vorhalts nicht liegen bleiben. Sie kann schon vor der Auflösung schrittweise oder springend weitergehen und auch gleichzeitig mit dem Vorhalt einen neuen Ton erreichen. Schönberg prüft deshalb, ob der erreichte Zusammenklang die Auflösung trägt. Bei Sprüngen bevorzugt er Töne, die mit dem gehaltenen Vorhalt konsonieren; im Sekundgang können auch Dissonanzen auftreten. Einzelne Töne erklärt er zudem durch ihre Konsonanz mit der erst bevorstehenden Auflösung. So kann derselbe gehaltene Ton während seiner Dauer mehrere dissonante Intervalle bilden. Die Intervallzahl allein beschreibt seinen Verlauf nicht vollständig.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Zweistimmigkeit ohne Cantus firmus: bewegliche Gegenstimme zum Vorhalt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VII, § 89, S. 76–77 · bewegte zweite Stimme während und bei der Vorhaltsauflösung",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -19472,6 +21636,33 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e35",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 7j, S. 8; Kommentare, S. 25–26 und 38 · Sequenzbegriff und Vorübungen",
+          "text": "Schönberg versteht unter einer Sequenz zunächst die Wiederholung einer musikalischen Einheit auf einer anderen Stufe. Er unterscheidet die Wiederkehr ihrer melodischen, rhythmischen und metrischen Merkmale von einer vollständigen Wiederholung, an der auch Harmonie und Begleitstimmen teilnehmen. In den kurzen Vorübungen werden solche Wiederholungen jedoch bewusst vermieden: Sie prägen eine Einheit als Motiv ein und wecken Erwartungen an ihre weitere Verwendung, denen Anfänger noch nicht gewachsen seien. Der Ausschluss ist daher eine Beschränkung der Aufgabe, keine Behauptung, Sequenzen seien an sich unkontrapunktisch.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Speziesübungen · noch ausgesparte motivische Entwicklung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 7j, S. 8; Kommentare, S. 25–26 und 38 · Sequenzbegriff und Vorübungen; § 7, Anm. 2, S. 6",
+              "note": "Die Definition der Sequenz wird unmittelbar mit ihrer didaktisch begründeten Aussparung verbunden. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
         }
       ],
       "relations": [
@@ -19791,6 +21982,37 @@ const ATLAS = {
               "note": "Die Empfehlungen gelten für die fünfte Art mit Halben als Zählzeit. Der historische Bezug stammt aus dem Lehrbuchrahmen; einzelne Repertoireausnahmen bleiben benannt."
             }
           }
+        },
+        {
+          "id": "schoenberg1970-e32",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, §§ 48–50, S. 53–54 · fünfte Spezies, Viertel vor einer Halben",
+          "text": "Zwei Viertel auf der ersten Takthälfte mit einer anschließenden ungebundenen Halben sollen nach Schönberg nicht beliebig isoliert stehen. Er nennt mehrere Möglichkeiten, die kurze Bewegung einzubetten: Weitere Unterteilung kann folgen; das erste Viertel kann aus dem vorigen Takt übergebunden sein und eine neue Synkope vorbereiten; oder schon die letzte Note des vorigen Takts ist eine Viertel. Damit entscheidet auch der Zusammenhang über die Taktgrenze, nicht nur die Folge zweier kurzer und einer langen Note. Seine rhythmischen Beispiele schließen zugleich kleinere Synkopen und punktierte Werte in den Floridus ein.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Fünfte Spezies · Zusammenhang kurzer und langer Werte",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, §§ 48–50, S. 53–54 · fünfte Spezies, Viertel vor einer Halben; § 7, Anm. 2, S. 6",
+              "note": "Die Bedingungen stehen bei den ausdrücklich gezeigten Rhythmusgruppen der fünften Spezies. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "schoenberg1970-e32",
+          "to": "salzer-schachter1989-1",
+          "type": "nuance",
+          "note": "Salzer und Schachter verlangen nach zwei Vierteln grundsätzlich die Weiterbindung der folgenden Halben und nennen die Kadenz als besondere Ausnahme. Schönberg berücksichtigt außerdem die Einbettung über die vorige Taktgrenze: Eine bereits vorausgehende Viertel kann die Folge anschlussfähig machen. Der Rhythmus wird daher mit unterschiedlichen Nachbarschaftsbedingungen beurteilt."
         }
       ]
     },
@@ -20010,6 +22232,27 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a10",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. IX, § 164, S. 160 · zweistimmige Kadenzen mit Imitation, Bsp. 82",
+          "text": "Bei den Imitationen von Bsp. 82 macht Schönberg auf zwei Veränderungen aufmerksam. Derselbe nachgeahmte Gedanke erzeugt je nach seiner Lage in Ober- oder Unterstimme andere Harmonien. Außerdem begleitet die zunächst führende Stimme nun den Einsatz der zweiten und verändert dafür ihren Rhythmus. Lange Töne der imitierenden Stimme können durch kürzere Werte oder Vorhalte der anderen beantwortet werden. Die erkennbare Wiederkehr einer Gestalt bedeutet daher weder eine unveränderte harmonische Einbettung noch eine dauerhaft gleiche Rolle der beteiligten Stimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · Imitation und wechselnde Stimmenrollen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. IX, § 164, S. 160 · zweistimmige Kadenzen mit Imitation, Bsp. 82",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
         }
       ]
@@ -21247,6 +23490,37 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-e06",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, § 7b–c, S. 6–7 · Tritonus und zusammengesetzter Tritonus",
+          "text": "Für den zweistimmigen Einstieg warnt Schönberg nicht nur vor dem unmittelbaren Tritonussprung. Auch eine Verbindung der vierten mit der siebten Tonleiterstufe, bei der einzelne Töne dazwischentreten, kann als zusammengesetzter Tritonus auffallen. Daraus macht er aber kein Verbot jedes längeren diatonischen Abschnitts, der beide Stufen enthält. Seine Gegenbeispiele lassen fünf oder sechs aufeinanderfolgende Skalentöne zu; eine besonders ungünstige Wendung bleibt allenfalls eine Notlösung. Zu prüfen ist deshalb der hörbare Abschnitt zwischen den betroffenen Stufen, nicht allein ihr Vorkommen irgendwo in derselben Stimme.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Melodische Grundregeln · Tritonusspanne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, § 7b–c, S. 6–7 · Tritonus und zusammengesetzter Tritonus; § 7, Anm. 2, S. 6",
+              "note": "Die Einschränkung betrifft die didaktische Melodiebildung, mit auf derselben Seite gezeigten längeren Skalenausschnitten. Die Fußnote auf S. 6 begründet die strengen Regeln pädagogisch, nicht als Nachahmung eines historischen Stils."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "schoenberg1970-e06",
+          "to": "motte1995-j10",
+          "type": "context",
+          "note": "De la Motte beurteilt die Hervorhebung von Tritonusgrenzen im Josquin-orientierten Melodiebogen. Schönberg beginnt mit einer engeren Übungsregel gegen zusammengesetzte Tritoni und zeigt dann zulässige längere Skalenabschnitte. Der Repertoirebezug und die pädagogische Beschränkung sind hier verschiedene Maßstäbe."
         }
       ]
     },
@@ -21265,7 +23539,8 @@ const ATLAS = {
       "related": [
         "imitation-und-kanon",
         "kanon-verfahren",
-        "stimme-und-satzstruktur"
+        "stimme-und-satzstruktur",
+        "kontrapunkt-in-homophonie"
       ],
       "authors": [
         {
@@ -21290,6 +23565,35 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a09",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. IX, §§ 157–159, S. 155 · Imitation und entwickelnde Variation",
+          "text": "Schönberg deutet Imitation als Verbindung der Stimmen, die über ihre harmonische Verträglichkeit hinausgeht. Dabei zieht er eine begriffliche Grenze: In der homophonen Komposition erzeugt entwickelnde Variation neue, miteinander verbindbare Motivgestalten. In der hier gegenübergestellten kontrapunktischen Schreibweise sollen Umkehrung, Augmentation, Diminution oder die Fugenantwort dagegen vor allem die Beziehungen zwischen den Stimmen und damit den Klang verändern. Die Nachahmung ist zunächst Wiederholung in einer anderen Stimme, nicht schon Entwicklung eines neuen Motivs. Diese Unterscheidung beschreibt Schönbergs Auffassung der beiden Arbeitsweisen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kompositionstheorie · Imitation und entwickelnde Variation",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. IX, §§ 157–159, S. 155 · Imitation und entwickelnde Variation",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "schoenberg1970-a09",
+          "to": "motte1995-l01",
+          "type": "context",
+          "note": "Schönberg trennt entwickelnde Variation der homophonen Komposition begrifflich von den Umformungen des kontrapunktischen Satzes. De la Motte verfolgt bei Haydn, wie gerade das Zerlegen, Verändern und Neuverbinden kleiner Motive Mehrstimmigkeit erzeugt. Seine Repertoireanalyse zeigt damit einen Zusammenhang, den Schönbergs Gegenüberstellung auf verschiedene Arbeitsweisen verteilt."
         }
       ]
     },
@@ -21308,7 +23612,8 @@ const ATLAS = {
       "related": [
         "linie-scheinpolyphonie",
         "rhythmische-selbststaendigkeit",
-        "motivische-polyphonie"
+        "motivische-polyphonie",
+        "kontrapunkt-in-homophonie"
       ],
       "authors": [
         {
@@ -21464,6 +23769,246 @@ const ATLAS = {
           },
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "kontrapunkt-in-homophonie",
+      "title": "Kann ein homophon angelegter Satz kontrapunktisch sein?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Homophonie",
+        "Polyphonie",
+        "Begleitstimme",
+        "Motiv",
+        "Schönberg"
+      ],
+      "comparisons": [],
+      "related": [
+        "motivische-polyphonie",
+        "stimme-und-satzstruktur",
+        "harmonischer-rhythmus",
+        "imitation-und-kanon"
+      ],
+      "authors": [
+        {
+          "id": "schoenberg1970-r05",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Anhang B, II.4–10, S. 224–225 · Entwurfsnotizen für einen weiteren Band",
+          "text": "Schönberg sammelt unter der Überschrift Kontrapunkt in homophoner Musik verschiedene Wege, auf denen selbstständige Stimmen innerhalb eines solchen Satzes wirksam werden. Eine belebte Begleitstimme muss nicht selbst thematisches Material enthalten; daneben nennt er die Überlagerung von Themen oder Motiven, kanonische Abschnitte, Imitationen und Fugati. Als Bezugspunkte dienen unter anderem Haydn, Beethoven, Brahms und eigene Werke. Die kontrapunktische Arbeit ist damit nicht auf eine durchgehend gleichberechtigte Führung aller Stimmen beschränkt. Die Liste gibt einen Ausblick auf einen geplanten weiteren Band. Sie enthält noch keine ausgeführten Analysen der genannten Werke.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "cross-style",
+            "frame": "Entwurfsnotizen · Kontrapunkt innerhalb homophoner Formen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang B, II.4–10, S. 224–225 · Entwurfsnotizen für einen weiteren Band",
+              "note": "Die ausdrücklich nach 1750 angesetzte Sammlung verbindet Haydn, Beethoven und Brahms mit Schönbergs eigenen Werken. Sie ist als Material für weitere Bände gekennzeichnet und nicht als abgeschlossenes Lehrkapitel zu lesen."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "moll-neutralisierung",
+      "title": "Wann müssen natürliche Töne in Moll vor ihrer Erhöhung neutralisiert werden?",
+      "group": "Melodieführung",
+      "tags": [
+        "Moll",
+        "Neutralisierung",
+        "Wendepunkte",
+        "Querstand",
+        "Leitton"
+      ],
+      "comparisons": [],
+      "related": [
+        "chromatik",
+        "leittonaufloesung",
+        "tonart-und-region"
+      ],
+      "authors": [
+        {
+          "id": "schoenberg1970-m03",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VI, §§ 64–71, S. 61–64, besonders § 69 · vier Wendepunkte und stimmübergreifende Neutralisierung",
+          "text": "Vor einer erhöhten siebten Stufe soll die zuvor verwendete natürliche siebte zur natürlichen sechsten absteigen; vor einer erhöhten sechsten muss die natürliche sechste zur fünften gehen. In a-Moll bedeutet das g–f vor gis und f–e vor fis. Diese Neutralisierung muss nicht sofort und nicht bei jedem Auftreten von f oder g geschehen. Sie wird nötig, wenn später die entsprechende erhöhte Form eingeführt werden soll. Bei Querständen ist jede beteiligte Stimme zu prüfen. Die erhöhten Formen sind strenger gebunden: Auf fis muss gis, auf gis muss a folgen. So entstehen vier verschiedene Wendepunkte. Schönberg bezeichnet das Verfahren ausdrücklich als vorläufige Unterrichtsbeschränkung, nicht als vollständige Beschreibung historischer Mollpraxis.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dur-Moll-tonale Vorübungen: vier Wendepunkte in Moll",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VI, §§ 64–71, S. 61–64, besonders § 69 · vier Wendepunkte und stimmübergreifende Neutralisierung",
+              "note": "§ 67 samt ergänzter Fußnote, S. 62, nennt den pädagogischen Zweck und warnt vor einer Gleichsetzung mit den Modi oder Bach. § 69 präzisiert die nur bei bevorstehender Erhöhung nötige Neutralisierung."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true,
+          "examples": [
+            "schoenberg-moll-neutralisierung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tonart-und-region",
+      "title": "Wann ist eine neue Tonart erreicht, wann nur eine andere Region?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Tonart",
+        "Region",
+        "Modulation",
+        "Monotonalität",
+        "Kadenz"
+      ],
+      "comparisons": [],
+      "related": [
+        "harmonik",
+        "kadenz",
+        "chromatik",
+        "moll-neutralisierung"
+      ],
+      "authors": [
+        {
+          "id": "schoenberg1970-m09",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil I, Kap. VIII, §§ 90–99, S. 81–84 · Regionen, Monotonalität und erste Modulationsübungen",
+          "text": "Von einer Modulation im engeren Sinn möchte Schönberg erst sprechen, wenn eine Tonart für längere Zeit verlassen und eine andere etabliert wird. Viele kürzere Ausweichungen versteht er als Wechsel zwischen Regionen einer übergeordneten Tonart. Der Begriff der Monotonalität soll diesen Gesamtzusammenhang hörbar halten. Schönberg weist zugleich darauf hin, dass er im Lehrbuch das vertraute Wort Modulation häufig auch für einen bloßen Regionswechsel verwendet. Für die ersten Übungen gliedert er den Weg in vier Schritte: Ausgangstonart darstellen, eine Zone gemeinsamer Töne mit der nötigen Neutralisierung bilden, charakteristische Töne des neuen Ziels einführen und dort kadenzieren. Eine einzelne Alteration allein entscheidet also noch nicht über den großräumigen Tonartwechsel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dur-Moll-tonale Kompositionsvorübungen: verwandte Regionen und Tonartwechsel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil I, Kap. VIII, §§ 90–99, S. 81–84 · Regionen, Monotonalität und erste Modulationsübungen",
+              "note": "Die Aussage betrifft Schönbergs ausdrücklich pädagogisch begrenzte tonale Vorübungen. § 7, S. 6, Anm. 2, grenzt ihre Regeln von historischer Stilnachahmung ab."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        },
+        {
+          "id": "schoenberg1970-a04",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. VIII, §§ 148–156, S. 147–154 · Zwischenregionen und bereicherte Kadenzen",
+          "text": "Eine Zwischenregion wird für eine Weile deutlich ausgeprägt und später wieder verlassen, etwa zugunsten der Tonikaregion. Schönberg unterscheidet davon den flüchtigen Gebrauch charakteristischer Töne einer Region, ohne diese selbst zu festigen. So kann dieselbe Art von leiterfremdem Ton entweder einen regionalen Abschnitt bilden oder nur eine Kadenz bereichern. In den einfachen Übungen sollen zunächst nahe verwandte Regionen erscheinen und einzelne Zwischenabschnitte etwa zwei bis vier Takte dauern. Auch ihre Reihenfolge zählt: Zwei für sich nahe Beziehungen zur Ausgangstonika müssen untereinander noch keine nahe Verbindung ergeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · drei Stimmen und Zwischenregionen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. VIII, §§ 148–156, S. 147–154 · Zwischenregionen und bereicherte Kadenzen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "akkordton-verdopplung",
+      "title": "Welchen Akkordton darf ich im mehrstimmigen Kontrapunkt verdoppeln?",
+      "group": "Stimmführung",
+      "tags": [
+        "Verdopplung",
+        "Terz",
+        "Vierstimmigkeit",
+        "Harmonik"
+      ],
+      "comparisons": [],
+      "related": [
+        "harmonik",
+        "generalbass-sextakkord",
+        "leittonaufloesung",
+        "einklang"
+      ],
+      "authors": [
+        {
+          "id": "schoenberg1970-a13",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil III, Kap. I, § 172, S. 171 · erste Spezies, vier Stimmen",
+          "text": "Im vierstimmigen Kontrapunkt müssen ein oder mehrere Töne verdoppelt werden. Welcher Ton dafür gewählt wird, soll sich für Schönberg aus der günstigsten Stimmführung ergeben. Ein pauschales Verbot der Terzverdopplung, wie es manche Harmonielehren aufstellen, übernimmt er ausdrücklich nicht in den Kontrapunkt. Die Entscheidung richtet sich nach den tatsächlich entstehenden Linien und Fortschreitungen. Es geht um die Terz als Akkordbestandteil; die Stelle formuliert keine besondere Freigabe einer Leittonverdopplung.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Speziesübung · vier Stimmen und Verdopplung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil III, Kap. I, § 172, S. 171 · erste Spezies, vier Stimmen",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+          "catalogue": true
+        }
+      ]
+    },
+    {
+      "id": "stimmen-ergaenzen",
+      "title": "Wie ergänze ich einen vorhandenen Satz um weitere Stimmen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Ergänzung",
+        "Dreistimmigkeit",
+        "Vierstimmigkeit",
+        "Gegenstimme"
+      ],
+      "comparisons": [],
+      "related": [
+        "grundrahmen",
+        "harmonik",
+        "rhythmische-selbststaendigkeit",
+        "speziesmischung",
+        "stimmkreuzung"
+      ],
+      "authors": [
+        {
+          "id": "schoenberg1970-a03",
+          "source": "schoenberg1970",
+          "name": "Arnold Schönberg",
+          "locator": "Teil II, Kap. VI, §§ 137–141, S. 131–132; Teil III, Kap. VI, § 188, Schönbergs eingefügte Erläuterung, S. 202–203",
+          "text": "Schönberg lässt zunächst gute zweistimmige Sätze um eine obere, mittlere oder untere Stimme ergänzen. Damit die neue Linie Platz findet, können andere Schlüssel oder eine Transposition des vorhandenen Satzes nötig werden. Die zusätzliche Stimme muss sich rhythmisch bemerkbar machen und den Zusammenklang bereichern. Beim Ausbau auf drei oder vier Stimmen darf auch die ursprüngliche Kadenz verändert werden, besonders wenn unter einer bisher bassartig geführten Stimme noch ein neuer Bass hinzutritt. Der vorhandene Zweistimmensatz ist somit Ausgangspunkt einer Anpassung, nicht in jeder Einzelheit unveränderliche Vorlage.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Kompositionsübung · vorhandene Zwei- und Dreistimmigkeit erweitern",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil II, Kap. VI, §§ 137–141, S. 131–132; Teil III, Kap. VI, § 188, Schönbergs eingefügte Erläuterung, S. 202–203",
+              "note": "Der Abschnitt bezeichnet eine tonale Lehr- oder Kompositionsaufgabe. Die strengen Vorgaben dienen laut § 7, S. 6, Anm. 2 pädagogischen Zielen; eine historische Stilzuweisung ergibt sich daraus nicht."
+            }
+          },
+          "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
+          "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
         }
       ]
@@ -22896,6 +25441,46 @@ const ATLAS = {
       "credit": "Eigenes redaktionelles Zeitschema zu Diether de la Motte, Contrapunto, spanische 2. Aufl. 1995, S. 413–418. Tonfolge, Dauern und Anordnung sind neu; keine Reproduktion aus Lux aeterna.",
       "image": "quellen/noten/motte-tonfolge-gesamtklang.webp",
       "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
+      "catalogue": true
+    },
+    "schoenberg-cambiata-dissonanzen": {
+      "kind": "leseuebung",
+      "title": "Eine Cambiata mit zwei Dissonanzen",
+      "alt": "Eigener zweistimmiger Ausschnitt: Der Cantus hält f′, dann g′ als ganze Noten. Die Gegenstimme singt c″, h′, g′, a′ als Viertel und danach h′ als Ganze. Die Intervalle sind Quinte, übermäßige Quarte, Sekunde, Terz und Terz. Der zweite und dritte Ton sind dissonant; erster, vierter und fünfter sind konsonant.",
+      "caption": "Spiele zunächst die fünf Zusammenklänge, dann singe nur die Gegenstimme. Der Terzsprung h′–g′ führt hier in eine weitere Dissonanz. Prüfe die ganze Fünftonfigur: Schritt und Sprung abwärts, zwei Schritte zurück und drei Konsonanzen einschließlich der betonten Randtöne. Vergleiche anschließend Salzer und Schachters Forderung an den Ton nach dem Terzsprung.",
+      "credit": "Eigene redaktionelle Leseübung nach Arnold Schönberg, Preliminary Exercises in Counterpoint, Ausgabe 1970, §§ 29–32, S. 33–34, und Bsp. 21–22, S. 41–42. Neu erfundener innerer Ausschnitt; kein reproduziertes Buchbeispiel und kein vollständiger Übungssatz.",
+      "image": "quellen/noten/schoenberg-cambiata-dissonanzen.webp",
+      "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+      "catalogue": true
+    },
+    "schoenberg-unterbrochene-aufloesung": {
+      "kind": "leseuebung",
+      "title": "Ein eingeschobener Ton verzögert die Auflösung",
+      "alt": "Eigener zweistimmiger Ausschnitt in 4/4: Der Cantus hält c′ und danach d′ als Ganze. Oben folgt auf eine halbe Pause e″ als Halbe, übergebunden in eine Viertel e″. Dann erklingen f″ als Viertel und d″ als Halbe. Die Intervalle der vier klingenden Ereignisse sind Dezime, None, Dezime und Oktave. e″–d″ ist die verzögerte Abwärtsauflösung.",
+      "caption": "Singe den Vorhalt e″ und sein Auflösungsziel d″ zunächst direkt nacheinander. Füge dann das konsonante f″ dazwischen. Die unmittelbar nächste Bewegung geht aufwärts, die eigentliche Auflösung bleibt abwärts gerichtet. Schönberg lässt den oberen Einschub bei Bedarf oder günstigerer Linienführung zu. Die Grafik zeigt eine Figur der fünften Spezies.",
+      "credit": "Eigene redaktionelle Leseübung nach Arnold Schönberg, Preliminary Exercises in Counterpoint, Ausgabe 1970, §§ 54–57, S. 54–56. Eigene Tonfolge zur unterbrochenen Auflösung; keine Abschrift einer Aussetzung des Buchs.",
+      "image": "quellen/noten/schoenberg-unterbrochene-aufloesung.webp",
+      "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+      "catalogue": true
+    },
+    "schoenberg-moll-neutralisierung": {
+      "kind": "leseuebung",
+      "title": "Moll: natürliche und erhöhte Stufen verbinden",
+      "alt": "Zwei eigene Melodieausschnitte in a-Moll, jeweils vier Viertel und eine abschließende Ganze. A: f′–e′–fis′–gis′, danach a′. B: gis′–a′–g′–f′, danach e′; das g′ erhält nach dem gis′ ein ausdrückliches Auflösungszeichen. Die erste Linie zeigt f–e vor fis, die zweite gis–a vor dem natürlichen Abstieg.",
+      "caption": "Vergleiche zwei verschiedene Pflichten. In A muss das natürliche f vor dem späteren fis nach e neutralisiert werden; danach führen fis und gis aufwärts nach a. In B erreicht gis zunächst sein Ziel a, bevor die natürliche Folge g–f–e einsetzt. Diese Melodieausschnitte prüfen Schönbergs vorläufige Regeln; sie sind keine vollständigen Speziesübungen und keine allgemeine Regel für Bachs Mollpraxis.",
+      "credit": "Eigene redaktionelle Leseübung nach Arnold Schönberg, Preliminary Exercises in Counterpoint, Ausgabe 1970, §§ 63–71, S. 61–64. Eigene Fragmente zu den Wendepunkten und zur Neutralisierung; keine Reproduktion von Buchnoten.",
+      "image": "quellen/noten/schoenberg-moll-neutralisierung.webp",
+      "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
+      "catalogue": true
+    },
+    "schoenberg-imitation": {
+      "kind": "leseuebung",
+      "title": "Imitation: Was muss gleich bleiben?",
+      "alt": "Drei getrennte Melodiezeilen mit jeweils vier Vierteln. Ausgangsform c′–d′–f′–e′. Exakte Transposition um eine große Sekunde: d′–e′–g′–fis′. Diatonische Nachahmung mit gleichem Rhythmus: d′–e′–g′–f′. Im letzten Fall wird aus dem abschließenden kleinen Sekundschritt ein großer. Die Zeilen sollen nicht gleichzeitig erklingen.",
+      "caption": "Vergleiche zuerst Rhythmus und Richtung, danach die genauen Intervallgrößen. Nur die Fassung mit fis erhält alle Größen der Ausgangsform. Die Fassung mit f bleibt im Tonvorrat von C-Dur und entspricht Schönbergs Kategorie semi-strict. Die drei getrennten Linien erklären Formen der Nachahmung; sie bilden noch keinen ausgearbeiteten Kanon.",
+      "credit": "Eigene redaktionelle Leseübung nach Arnold Schönberg, Preliminary Exercises in Counterpoint, Ausgabe 1970, §§ 161–163, S. 155–159. Neu erfundenes Motiv und seine Varianten, keine Buchabschrift.",
+      "image": "quellen/noten/schoenberg-imitation.webp",
+      "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
       "catalogue": true
     }
   }
