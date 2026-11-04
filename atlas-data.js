@@ -957,6 +957,13 @@ const ATLAS = {
         "Gardonyi"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Zsolt_G%C3%A1rdonyi"
+    },
+    {
+      "name": "Simon Sechter",
+      "aliases": [
+        "Sechter"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Simon_Sechter"
     }
   ],
   "sources": [
@@ -1340,6 +1347,17 @@ const ATLAS = {
       "publicationYear": 1996,
       "publicationLabel": "1996 (zugeordnet)",
       "publicationNote": "Bibliografische Zuordnung zur italienischen Übersetzung von Antonio Giacometti (Milano: Ricordi, 1996; ISBN 8875924708). Der Bibliothekskatalog belegt diese Ausgabe; Titelblatt und Impressum fehlen im bereitgestellten Scan, deshalb ist dessen genaue Druckausgabe nicht abschließend gesichert. Erschlossen sind das Vorwort S. 8–10 und alle acht Kapitel S. 11–97; das Register reicht bis S. 102. Die gedruckten Buchseiten, nicht die Blattnummern des zweiseitig aufgenommenen PDFs, bilden die Fundstellen."
+    },
+    {
+      "id": "sechter1876",
+      "name": "Simon Sechter",
+      "title": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+      "group": "Lehrwerke",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "sortAuthor": "Sechter, Simon",
+      "publicationYear": 1876,
+      "publicationLabel": "1876 (zugeordnet)",
+      "publicationNote": "Leipziger Ausgabe in einem Bande, F. E. C. Leuckart (Constantin Sander), Plattennummer F.E.C.L. 2777; im Titelblatt steht kein Jahr. Die Zuordnung [1876] folgt dem Nachweis für den identischen Farbscan IMSLP #422079 (Bayerische Staatsbibliothek) und einer Leuckart-Anzeige im Börsenblatt vom 25. Februar 1876, S. 706. Die Datierung bestimmt die Ausgabe, nicht den Zeitpunkt eines möglichen späteren Abzugs. Die Erstausgabe erschien 1830 bei J. Czerny in Wien in zwei Teilen. Gesichtet sind die Vorerinnerung S. 3 und alle 120 Übungen I–CXX auf S. 4–82. Die Fundstellen nennen gedruckte Seiten und die historische Übungsnummer mit arabischer Entsprechung."
     }
   ],
   "topics": [
@@ -3225,6 +3243,27 @@ const ATLAS = {
           },
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-zweistimmige-quartsextbrechung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 28, Übung XXXVIII (38), erste zweistimmige Fassung · Intervallfolge 3–5–4–6",
+          "text": "In der ersten zweistimmigen Fassung von XXXVIII entfaltet die obere Linie über einer längeren Bassnote zunächst die Ziffernfolge 3–5–4–6. Die Töne einer mehrstimmigen Klangfolge erscheinen dadurch nacheinander in nur einer oberen Stimme. Die Quarte bleibt als eigener Intervallton erkennbar; die Aussetzung besteht nicht zu jedem Zeitpunkt aus einem konsonanten Zweiklang. Dies ist eine notierte Generalbassfiguration innerhalb der Quartsextaufgabe. Sechter erklärt damit weder die Quarte allgemein zur Konsonanz noch überträgt er das Modell auf eine Note-gegen-Note-Speziesübung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 28, Übung XXXVIII (38), erste zweistimmige Fassung · Intervallfolge 3–5–4–6",
+              "note": "Die Folge 3–5–4–6 steht unter den ersten vier Achteln der zweistimmigen Aussetzung und wurde am Bild geprüft. Die Aussage ist eine konkrete Notenbeobachtung; das Verhältnis von zwei Stimmen wird nicht automatisch als erste Spezies klassifiziert. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
         }
       ],
@@ -6321,6 +6360,27 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-13",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 78 · Nr. 114 (CXIV), „Die Non im Durchgang“",
+          "text": "Unter Die Non im Durchgang führt Nr. 114 die Oberstimme über liegendem Bass sowohl als 8–9–10 aufwärts als auch als 10–9–8 abwärts. Die None wird in der ersten dieser Figuren also aufwärts weitergeführt. Der Vergleich mit den früheren gebundenen Folgen 9–8 zeigt, dass die Intervallzahl allein noch keine Abwärtsfortsetzung vorschreibt. Sechters Überschrift ordnet diesen Fall ausdrücklich dem Durchgang zu; die beiden Richtungen sind im Notenbild ausgeführt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 78 · Nr. 114 (CXIV), „Die Non im Durchgang“",
+              "note": "Die Überschrift ist verbal belegt. Die Folgen 8–9–10 und 10–9–8 stehen deutlich in der Bezifferung der ersten Fassung und stimmen mit der Oberstimmenbewegung überein. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -7809,6 +7869,27 @@ const ATLAS = {
           },
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-pref-verdeckte-parallelen",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · harmonische Strenge und gebräuchliche Ausnahmen",
+          "text": "Sechter erklärt, die harmonischen Regeln in seinen Übungen möglichst streng zu beachten. Bei verdeckten Oktaven und Quinten lässt er jedoch diejenigen Fälle zu, die nach seiner Formulierung durch den allgemeinen Gebrauch bereits gerechtfertigt sind. Die Vorrede enthält also kein ausnahmsloses Verbot. Sie gibt an dieser Stelle aber auch keine vollständige Liste erlaubter Stimmenpaare, Sprungrichtungen oder Kadenzen. Solche genaueren Bedingungen müssen am jeweiligen Beispiel oder an einer weiteren ausdrücklich formulierten Regel geprüft werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · harmonische Strenge und gebräuchliche Ausnahmen",
+              "note": "Die Vorrede benennt die begrenzte Ausnahme ausdrücklich, ohne ihren Geltungsbereich auf bestimmte historische Stile, Spezies oder Stimmenpaare festzulegen."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
         }
       ],
@@ -9857,6 +9938,27 @@ const ATLAS = {
           },
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-chromatische-terz-quinte",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 12, Übungen IX (9) und X (10) · chromatisch veränderte Intervalle über gehaltenen Basstönen",
+          "text": "Die Aussetzungen von IX und X führen chromatische Veränderungen schon innerhalb des Dreiklangsabschnitts ein. In IX stehen etwa 3 und erniedrigte 3 nacheinander über derselben Bassnote; X arbeitet entsprechend mit 5 und erhöhter 5. Die Veränderung betrifft damit einen bezeichneten Ton über dem Bass, während andere Töne liegen bleiben können. Zum Lesen gehören sowohl das Vorzeichen als auch die Ziffer, auf die es sich bezieht. Die Modelle zeigen konkrete chromatische Stimmenwege; sie geben an dieser Stelle keine allgemeine Erlaubnis beliebiger chromatischer Veränderungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 12, Übungen IX (9) und X (10) · chromatisch veränderte Intervalle über gehaltenen Basstönen",
+              "note": "Redaktionelle Notenbeobachtung der Bezifferung und ihrer ausgeschriebenen Realisierung. Die Zeichen werden nicht als pauschale Tonart- oder Modulationsetiketten behandelt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
         }
       ],
@@ -12398,7 +12500,9 @@ const ATLAS = {
         "dissonanzen-s2",
         "harmonik-enharmonische-spannung",
         "viertel-gegen-viertel",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "generalbass-bassvariation",
+        "generalbass-akkordnamen"
       ],
       "authors": [
         {
@@ -12944,6 +13048,72 @@ const ATLAS = {
           },
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-05",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 71 · unnummerierter Beispielsatz nach Nr. 103, vor Nr. 104 (CIV)",
+          "text": "Sechter bezeichnet den Secundquartseptaccord an dieser Stelle ausdrücklich als Vorhalt beim Secundaccord. Die erste Aussetzung zeigt, was damit gemeint ist: Über dem liegenden Bass wird die Septime zur Sexte geführt, während die übrigen bezeichneten Intervalle bestehen bleiben; aus 7/4/2 wird 6/4/2. Der neue Akkordname bezeichnet hier also zugleich eine vorübergehende Stimmführungssituation. Für die Beurteilung ist entscheidend, welcher Ton sich bewegt und welchen folgenden Zusammenklang er vorbereitet.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 71 · unnummerierter Beispielsatz nach Nr. 103, vor Nr. 104 (CIV)",
+              "note": "Die Überschrift lautet „Secundquartseptaccord als Vorhalt beym Secundaccord“. Das 7–6 über fortgeltender Quarte und Sekunde ist in der ersten Bezifferung und Aussetzung sichtbar. Der Satz trägt keine eigene gedruckte Übungsnummer. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-12",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 77 · Nr. 112–113 (CXII–CXIII), „Die Quart im Durchgange“ und „Besser“",
+          "text": "Unter der Überschrift Die Quart im Durchgange bietet Nr. 112 mehrere Fassungen mit wiederholtem 4–3. Die unmittelbar folgende Nr. 113 überschreibt Sechter ausdrücklich mit Besser. Die Aussetzung ergänzt hier die Quartbewegung um eine weitere Linie 9–8; die Zifferngruppen 9/4 und 8/3 machen den Unterschied sichtbar. Damit ist eine konkrete bevorzugte Fassung belegt. Warum sie besser ist, erläutert Sechter nicht in Prosa. Der Vergleich soll deshalb an diesen beiden Sätzen und ihrer veränderten Stimmenverbindung ansetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 77 · Nr. 112–113 (CXII–CXIII), „Die Quart im Durchgange“ und „Besser“",
+              "note": "Sowohl die Abschnittsüberschrift als auch die Wertung „Besser“ sind gedruckt. Die zusätzliche 9–8-Linie wurde durch den direkten Vergleich der ersten Fassungen von Nr. 112 und Nr. 113 geprüft; eine allgemeine Wertungsregel wird nicht ergänzt. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-quartdurchgang"
+          ],
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-14",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 79–80 · Nr. 117 (CXVII), „Secund und Quart zugleich im Durchgange“",
+          "text": "Sechter behandelt in Nr. 117 ausdrücklich Sekunde und Quarte zugleich im Durchgang. Die erste Aussetzung verbindet dazu zwei bewegte Oberstimmen; die Bezifferung zeigt unter anderem die Folge 6/4, 5/3, 4/2 und wieder 5/3. Der dissonante Zusammenklang 4/2 gehört damit zu einem nachvollziehbaren Verlauf beider Linien. Auf der Folgeseite erscheinen auch fünf- und dreistimmige Fassungen. Zu prüfen sind hier die gleichzeitigen Wege der beteiligten Stimmen, nicht nur ein einzelner isolierter Dissonanzton.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 79–80 · Nr. 117 (CXVII), „Secund und Quart zugleich im Durchgange“",
+              "note": "Die Gleichzeitigkeit wird in der Überschrift ausdrücklich genannt. Die Zahlenfolge und die gemeinsam bewegten Linien wurden am ersten Satz auf S. 79 geprüft; S. 80 liefert weitere Stimmenzahlen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
         }
       ],
@@ -18998,6 +19168,48 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-bass-und-klangwechsel",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 13–14, Übung XII (12), und S. 18, Übung XX (20) · Bassbewegung und Wechsel der oberen Klänge",
+          "text": "Die Aussetzungen zeigen zwei verschiedene Verhältnisse von Bassbewegung und oberem Klang. In XII bewegen sich Basstöne weiter, während mehrere obere Töne gebunden bleiben. In XX trägt dagegen derselbe länger gehaltene Basston nacheinander die Bezifferungen 5 und 6. Der Rhythmus der Bassnoten allein beschreibt somit noch nicht alle Klangwechsel. Beim Lesen müssen die Dauer des Basstons, die Zeitpunkte der Ziffern und die tatsächlich gehaltenen oder bewegten oberen Stimmen miteinander verglichen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 13–14, Übung XII (12), und S. 18, Übung XX (20) · Bassbewegung und Wechsel der oberen Klänge",
+              "note": "Redaktionelle Gegenüberstellung der ausgeschriebenen Klangverläufe. Es wird keine von Sechter nicht erläuterte allgemeine Funktionstheorie oder feste Zahl von Harmonien je Takt vorausgesetzt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-06",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 55, Übung 80 (LXXX), erste vierstimmige Aussetzung, T. 1–3 · Ziffernwechsel über ganzen Bassnoten",
+          "text": "In Übung 80 bleibt der Bass in den ersten Takten jeweils als ganze Note liegen, während die Ziffern mehrfach wechseln. Im ersten Takt folgen 8, 6/5, 4/3 und 2; in den nächsten Takten beginnt die entsprechende Folge mit 7. Die Aussetzung zeigt damit mehrere bezifferte Klangstadien innerhalb der Dauer eines einzigen Basstones. Für ihren zeitlichen Verlauf müssen die Ziffernpositionen und die Bindungen der Oberstimmen gelesen werden: Der nächste Basswechsel allein reicht dafür nicht aus.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 55, Übung 80 (LXXX), erste vierstimmige Aussetzung, T. 1–3 · Ziffernwechsel über ganzen Bassnoten",
+              "note": "Redaktionelle Beobachtung der notierten Ziffernfolge und der ganzen Bassnoten. Die Passage enthält keine verbale Entscheidung, ob jedes Klangstadium als selbständige funktionale Harmonie gelten soll; der Vorschlag behauptet das deshalb nicht."
+            }
+          },
+          "catalogue": true
         }
       ],
       "readingSources": [
@@ -19043,7 +19255,8 @@ const ATLAS = {
         "rhythmuswechsel-s5",
         "viertel-gegen-viertel",
         "stimme-und-satzstruktur",
-        "stimmen-ergaenzen"
+        "stimmen-ergaenzen",
+        "generalbass-bassvariation"
       ],
       "authors": [
         {
@@ -19463,6 +19676,27 @@ const ATLAS = {
           },
           "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
           "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-rhythmische-fassungen",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 6–7, Übung III (3), besonders die drei- und zweistimmigen Fassungen auf S. 7",
+          "text": "In den Fassungen der dritten Übung bleibt das Bassmodell wiedererkennbar, während die oberen Stimmen unterschiedliche Bewegungsarten erhalten. Neben ruhigeren Verläufen stehen Achtelbewegung und punktierte Werte. Die dreistimmigen Beispiele lassen außerdem verfolgen, wie eine obere Linie weitergeht, während die andere einen Ton hält oder später einsetzt. Die Aussetzung zeigt damit eine praktische Möglichkeit rhythmischer Unterscheidung innerhalb derselben harmonischen Aufgabe. Daraus folgt keine Forderung, dass die Stimmen zu jedem Zeitpunkt verschieden rhythmisiert sein müssten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 6–7, Übung III (3), besonders die drei- und zweistimmigen Fassungen auf S. 7",
+              "note": "Die Aussage beschreibt die sichtbaren Rhythmusvarianten der Aussetzungen; Sechter formuliert hier keinen gesonderten allgemeinen Lehrsatz über rhythmische Selbstständigkeit. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
         }
       ],
@@ -21270,7 +21504,9 @@ const ATLAS = {
         "harmonik",
         "generalbass-oktavregel",
         "generalbass-bezifferung-stimmfuehrung",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "generalbass-lernfolge",
+        "generalbass-akkordnamen"
       ],
       "authors": [
         {
@@ -21331,6 +21567,27 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-sexten-ueber-steigendem-bass",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 22, Übung XXVIII (28) · wiederholte Ziffer 6 über schrittweise steigendem Bass",
+          "text": "In XXVIII steigt der Bass schrittweise weiter, während über den einzelnen Noten immer wieder die Ziffer 6 steht. Die gleichbleibende Zahl bezeichnet somit nicht einen gleichbleibenden Basston oder stets dieselbe Tonleiterstufe. Sie verlangt jeweils eine Sexte vom gerade notierten Bass aus. Die mehreren Aussetzungen zeigen außerdem, dass derselbe Ziffernvorrat mit verschiedenen Lagen und Stimmenzahlen verbunden werden kann. Bassbewegung und Intervallangabe müssen beim Lesen getrennt verfolgt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 22, Übung XXVIII (28) · wiederholte Ziffer 6 über schrittweise steigendem Bass",
+              "note": "Redaktionelle Beobachtung der durchgehend mit Sexten bezifferten aufsteigenden Basslinie. Dem Buch wird damit kein eigenes zusätzliches Bassstufensystem unterstellt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
         }
       ],
       "readingSources": []
@@ -21355,7 +21612,9 @@ const ATLAS = {
         "generalbass-stimmenzahl",
         "parallelen",
         "harmonischer-rhythmus",
-        "akkordton-verdopplung"
+        "akkordton-verdopplung",
+        "generalbass-lernfolge",
+        "generalbass-lagen"
       ],
       "authors": [
         {
@@ -21393,6 +21652,30 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-sextakkord-formeln",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 13, vor Übung XII (12) · Tabelle „Sextaccord hat“",
+          "text": "Die Sextakkordtabelle nennt vierstimmig 8/6/3, 6/6/3, 6/3/3 und 8/6/6; dreistimmig stehen 6/3, 6/6 und 8/6. Die Zahlen beziehen sich jeweils auf den Bass. Neben vollständigen Verteilungen von Bass, Terz und Sexte enthält die Übersicht also auch ausgewählte Fassungen ohne die Terz über dem Bass. Sie benennt verschiedene Klangvorräte für die anschließenden Übungen, ohne jede Gruppe nach Tonartstufe oder Leittonfunktion einzuschränken. Die bloße Aufnahme in diese Tabelle ersetzt deshalb nicht die Prüfung der konkreten Stimmenwege.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 13, vor Übung XII (12) · Tabelle „Sextaccord hat“",
+              "note": "Die sieben Intervallgruppen wurden am gedruckten Tabellenkopf visuell geprüft. Insbesondere 8/6/6, 6/6 und 8/6 werden als tatsächlich angegebene unvollständige Klangverteilungen erhalten, nicht stillschweigend zu vollständigen Dreiklängen korrigiert. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true,
+          "examples": [
+            "sechter-sextakkord"
+          ]
         }
       ],
       "readingSources": []
@@ -21472,7 +21755,12 @@ const ATLAS = {
         "generalbass-sextakkord",
         "stimmabstand",
         "speziesmischung",
-        "generalbass-fuge"
+        "generalbass-fuge",
+        "generalbass-lernfolge",
+        "generalbass-schluessel",
+        "generalbass-pedal",
+        "generalbass-lagen",
+        "generalbass-akkordnamen"
       ],
       "authors": [
         {
@@ -21530,6 +21818,114 @@ const ATLAS = {
               "note": "Niedts ausgearbeitete Allemande belegt den wechselnden Stimmenumfang des Tastensatzes; Menke grenzt ihn von fest besetzten Sonatenstimmen ab."
             }
           }
+        },
+        {
+          "id": "sechter1876-pref-stimmenzahl",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · mehrere Aussetzungen derselben Übung",
+          "text": "Sechter stellt die Übungen zuerst vierstimmig in verschiedenen Lagen vor. Soweit möglich folgen fünf-, drei- und zweistimmige Aussetzungen; zu den meisten Bässen kommen Variationen hinzu. Fünfstimmiges Generalbassspiel erklärt er ausdrücklich nicht zur allgemeinen Notwendigkeit. Die zusätzliche Übung hält er aber besonders für das Präludieren für nützlich. Die wechselnde Stimmenzahl gehört damit zum praktischen Lehrgang: Ein Bass wird unter mehreren spielerischen und satztechnischen Bedingungen erprobt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · mehrere Aussetzungen derselben Übung",
+              "note": "Sechter benennt im Vorwort ausdrücklich die Stimmenzahlen, den Nutzen für das Präludieren und die besondere Ausrichtung auf das Orgelspiel. Eine historische Stilepoche oder Spezieszuordnung wird dadurch nicht festgelegt."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-dreiklang-unvollstaendig",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 4, vor Übung I (1) · vier- und dreistimmige Dreiklangsformeln",
+          "text": "Drei Stimmen bedeuten in Sechters Übersicht nicht zwingend drei verschiedene Dreiklangstöne. Unter „Dreystimmig“ stehen 5/3, 8/3 und 3/3. Die erste Gruppe enthält über dem Bass Terz und Quinte; die anderen beiden verzichten auf die Quinte und verdoppeln stattdessen den Basston oder die Terz. Auch unter den vierstimmigen Formeln stehen mit 8/8/3 und 8/3/3 Klänge ohne Quinte. Stimmenzahl, Zahl verschiedener Töne und Vollständigkeit des Dreiklangs sind deshalb getrennte Lesefragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 4, vor Übung I (1) · vier- und dreistimmige Dreiklangsformeln",
+              "note": "Die Formeln 8/8/3, 8/3/3 sowie die drei dreistimmigen Gruppen sind im Notendruck ausdrücklich angegeben. Die Aussage betrifft diese aufgeführten Klangverteilungen, keine allgemeine Auslassungsregel für sämtliche Akkordarten. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-03",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 34, 45 und 52, Tabellen mit der Bezeichnung „Dreystimmig“; S. 35, Übung 52 (LII), Fassung Nr. 5 „a 6“",
+          "text": "Sechter gibt für dreistimmige Aussetzungen eigene Intervallauswahlen an. Beim Septakkord stehen über dem Bass 7 und 3 oder 7 und 5; beim Terzquartakkord 4 und 3 oder 6 und 3. Die Sekundakkordtabelle nennt 4 und 2 sowie zweimal 2. Diese Angaben bezeichnen jeweils die beiden Stimmen über dem Bass und lassen sich nicht als Forderung nach sämtlichen Tönen einer vierstimmigen Akkordgestalt lesen. Auch eine dichtere Fassung kommt ausdrücklich vor: In Übung 52 ist die fünfte Aussetzung mit „a 6“ bezeichnet. Die Sammlung führt die Stimmenzahl damit an konkreten Aussetzungen und zugehörigen Intervallkombinationen vor.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 34, 45 und 52, Tabellen mit der Bezeichnung „Dreystimmig“; S. 35, Übung 52 (LII), Fassung Nr. 5 „a 6“",
+              "note": "Die Intervallauswahlen und „a 6“ sind ausdrücklich gedruckte Angaben. Die Funktion der Zahlen als Intervalle über dem Bass ergibt sich aus den zugehörigen Notensätzen. Keine zusätzliche generelle Weglassungs- oder Verdopplungsregel wird behauptet."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-09",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 65 · Nr. 95 (im Druck VC), Fassungen zu fünf, drei und zwei Stimmen",
+          "text": "Nr. 95 stellt derselben charakteristischen Zahlenfolge 10/8, 9/7, 8/6 und 7/5 Aussetzungen mit unterschiedlicher Stimmenzahl zur Seite. Die zweistimmige Fassung führt über dem Bass eine laufende Oberstimme; sie spielt die ganze mehrstimmige Intervallauswahl folglich nicht gleichzeitig aus. Die drei- und fünfstimmigen Fassungen verteilen das Material anders. Die Aussetzungen zeigen eine bewusst abgestufte Realisierung des Modells. Beim Vergleich ist zu verfolgen, welche Bewegung die jeweilige Fassung erhält und welche Füllstimmen sie hinzunimmt oder weglässt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 65 · Nr. 95 (im Druck VC), Fassungen zu fünf, drei und zwei Stimmen",
+              "note": "Die gedruckten Angaben a 5, a 3 und a 2 sowie die verschiedenen Aussetzungen stehen auf derselben Seite. Die Aussagen zur Auswahl sind auf diese Übung begrenzte Notenbeobachtungen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-16",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 81 · Nr. 118–119 (CXVIII–CXIX), Eintritt und Aussetzen der Stimmen",
+          "text": "Die Stimmenzahl kann in Sechters Ausführungen auch innerhalb eines einzelnen Beispiels wachsen. Nr. 118 beginnt im oberen Register einstimmig und ergänzt nach und nach die übrigen Linien; Nr. 119 beginnt dagegen im Bassregister. Pausen halten jeweils fest, welche Stimmen bereits beteiligt sind. In Nr. 118 setzt die Oberstimme später auch wieder aus. Die notierte Entwicklung gehört zum Modell: Ein durchgehend vollstimmiger Griff würde gerade diese Abfolge verändern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 81 · Nr. 118–119 (CXVIII–CXIX), Eintritt und Aussetzen der Stimmen",
+              "note": "Die Ausführungen beider Beispiele zeigen anfängliche Pausen und nacheinander eintretende Stimmen. Das spätere Aussetzen der Oberstimme in Nr. 118 ist ebenfalls notiert. Die Aussage ist ein lokaler Befund dieser Schlussbeispiele. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-stimmeneinsaetze"
+          ],
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
         }
       ],
       "readingSources": [],
@@ -21539,6 +21935,18 @@ const ATLAS = {
           "to": "foerster1818-1",
           "type": "context",
           "note": "Försters vier Stimmen bilden eine Übungsvorgabe für angehende Komponisten; für das Begleiten lässt auch er Reduktionen zu. Menke erläutert dagegen einen ausgearbeiteten Tanzsatz, dessen dreistimmiger Kern nur stellenweise erweitert wird. Die feste Zahl der Lernaufgabe ist damit von der variablen Textur der Komposition zu unterscheiden."
+        },
+        {
+          "from": "sechter1876-pref-stimmenzahl",
+          "to": "foerster1818-1",
+          "type": "context",
+          "note": "Förster hält die Kompositionsübung vierstimmig und unterscheidet davon die vereinfachte Orgelbegleitung. Sechter übt an demselben Bass ausdrücklich mehrere Stimmenzahlen und begründet die Fünfstimmigkeit mit ihrem Nutzen für das Präludieren. Die vierstimmige Ausgangslage erfüllt in den beiden Lehrgängen deshalb unterschiedliche Aufgaben."
+        },
+        {
+          "from": "sechter1876-pref-stimmenzahl",
+          "to": "tuerk1791-1",
+          "type": "context",
+          "note": "Türk richtet die Stimmenzahl der tatsächlichen Begleitung unter anderem nach Besetzung und Lautstärke. Sechter begründet die zusätzlichen fünfstimmigen Fassungen dagegen mit einem Lernziel, dem Präludieren an der Orgel. Eine situationsgerechte Begleitstärke und der systematische Vergleich mehrerer Aussetzungen sind verschiedene Entscheidungsebenen."
         }
       ]
     },
@@ -21560,7 +21968,8 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "generalbass-stimmenzahl",
         "chromatik",
-        "generalbass-oktavregel"
+        "generalbass-oktavregel",
+        "generalbass-schluessel"
       ],
       "authors": [
         {
@@ -21575,9 +21984,59 @@ const ATLAS = {
             "foerster-transponieren"
           ],
           "speciesScope": []
+        },
+        {
+          "id": "sechter1876-pref-transponieren",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · schriftliches und vorgestelltes Transponieren",
+          "text": "Den größten Nutzen erwartet Sechter, wenn die Übungen in alle Tonarten übertragen werden. Dafür nennt er zwei Wege: die schriftliche Übertragung und das Transponieren in der Vorstellung. Beim zweiten Verfahren sieht man etwa einen in C-Dur notierten Satz, stellt ihn sich aber in einer anderen Durtonleiter vor. Die gedruckte Ausgangstonart soll so zum Ausgangspunkt wiederholter Übertragungen werden; das Ausschreiben ist ein mögliches Übungsverfahren, keine notwendige Voraussetzung für jede Ausführung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · schriftliches und vorgestelltes Transponieren",
+              "note": "Die Vorrede beschreibt ausdrücklich beide Transponierverfahren für die Generalbassübungen des Bandes."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-08",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 44, Übung 67 (LXVII), Schlusszeile „Transpositio in A. Bass Variation.“",
+          "text": "Am Ende von Übung 67 steht eine ausdrücklich als „Transpositio in A“ bezeichnete Bassvariation. Sechter schreibt sie mit drei Kreuzen als eigenen bezifferten Bass aus. Die Zeile verbindet die Übertragung in eine andere Tonart mit einer bewegteren Fassung des Basses. Dabei stehen die zum Verlauf gehörenden Versetzungszeichen sowohl an den Bassnoten als auch bei einzelnen Ziffern. Beim Lesen dieser konkreten Übertragung sind daher Tonartvorzeichnung, einzelne Basstöne und ihre Bezifferung gemeinsam zu verfolgen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 44, Übung 67 (LXVII), Schlusszeile „Transpositio in A. Bass Variation.“",
+              "note": "Die Überschrift und die ausgeschriebene Transposition sind ausdrückliche Quellenangaben. Die Aufforderung, Vorzeichnung, Bass und Ziffern gemeinsam zu lesen, ist eine redaktionelle Lesehilfe für diese Zeile. Die allgemeine Transponieraufgabe des Vorworts wird hier nur durch einen lokalen Beleg ergänzt."
+            }
+          },
+          "catalogue": true
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "sechter1876-pref-transponieren",
+          "to": "foerster1818-1",
+          "type": "nuance",
+          "note": "Försters zitierte Transponieraufgabe verlangt die Übertragung am Instrument ohne vorheriges Ausschreiben der Akkorde. Sechter stellt schriftliches und vorgestelltes Transponieren als zwei Übungswege nebeneinander und fordert die Übertragung in alle Tonarten. Die Nuance liegt in der Gestaltung der Lernaufgabe, nicht in einer unterschiedlichen Bedeutung der Generalbassziffern."
+        }
+      ]
     },
     {
       "id": "linie-scheinpolyphonie",
@@ -25948,7 +26407,10 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "harmonik",
         "vorhalt-bewegte-begleitstimme",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "generalbass-bassvariation",
+        "generalbass-lagen",
+        "generalbass-akkordnamen"
       ],
       "reading": "Vergleiche verschiedene Bezifferungen derselben Fortschreitung. Prüfe, ob die Zahlen tatsächliche Stimmenlagen, nur die Außenstimmen oder eine abgekürzte Klangangabe festhalten, und welche Stimme eine bezeichnete Dissonanz auflösen muss.",
       "readingSources": [
@@ -26004,6 +26466,164 @@ const ATLAS = {
           "examples": [
             "daniel-sekunde-none"
           ]
+        },
+        {
+          "id": "sechter1876-early-fuenf-sechs-stimmenweg",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 18, Übung XX (20) · nacheinander stehende Ziffern 5 und 6",
+          "text": "Die nebeneinander stehenden Zahlen 5 und 6 bezeichnen in XX einen zeitlichen Verlauf über derselben Bassnote. Sie sind nicht als gleichzeitig erklingende Intervallgruppe 6/5 zu lesen. Die verschiedenen Aussetzungen verteilen die oberen Töne dabei unterschiedlich: Welche Linie von der Quinte zur Sexte führt und welche andere einen Ton hält, ergibt sich erst aus dem ausgeschriebenen Satz. Die Bezifferung bestimmt hier eine Intervallfolge, ohne dadurch bereits eine einzige Oberstimmenlage oder eine unveränderliche Zuordnung zum Sopran festzulegen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 18, Übung XX (20) · nacheinander stehende Ziffern 5 und 6",
+              "note": "Die horizontal angeordnete Folge 5–6 und die verschiedenen Realisierungen sind im Notentext sichtbar. Die Abgrenzung vom übereinandergeschriebenen 6/5 ist eine redaktionelle Lesehilfe, kein wörtlicher Zusatz des Buches. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-02",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 52, Übung 77 (LXXVII), erste vierstimmige Aussetzung, T. 1–3 · gebundener Bass und 2–6",
+          "text": "In der ersten Aussetzung von Übung 77 trägt der Bass wiederholt die Bindung in die mit 2 bezeichnete Verbindung hinein. Er geht anschließend einen Schritt abwärts; darüber steht nun 6. Die Auflösung lässt sich hier an der Basslinie ablesen. Wer nur die obere Sekunde als zu bewegenden Ton behandelt, übersieht diese notierte Stimmführung. Zuerst sind deshalb die Haltebögen im Bass und seine anschließenden Schritte zu verfolgen, danach die gleichzeitig erklingenden Oberstimmen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 52, Übung 77 (LXXVII), erste vierstimmige Aussetzung, T. 1–3 · gebundener Bass und 2–6",
+              "note": "Redaktionelle Analyse der Haltebögen, Bassschritte und Ziffern der konkreten Aussetzung. Sie zeigt hier die dissonierende und abwärts weitergeführte Bassstimme; daraus wird keine Regel für jede vorkommende Ziffer 2 abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-sekundakkord"
+          ],
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-04",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 34, Übung 51 (LI), zweistimmige Fassung „a 2“, Anfang · 3–5–8–7 in einer Oberstimme",
+          "text": "Die zweistimmige Fassung von Übung 51 verteilt die Ziffern am Anfang auf aufeinanderfolgende Töne einer einzigen Oberstimme. Über einer halben Bassnote erklingen vier Achtel mit den Intervallen 3–5–8–7. Die Septime wird also erst im Verlauf dieser Linie erreicht. Hier bezeichnet die Bezifferung eine zeitliche Folge von Zweiklängen; sie verlangt keinen gleichzeitig vollständigen Septakkord. Für die Ausführung müssen die Ziffern den jeweiligen Achteln und ihrem noch liegenden Bass zugeordnet werden.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 34, Übung 51 (LI), zweistimmige Fassung „a 2“, Anfang · 3–5–8–7 in einer Oberstimme",
+              "note": "Redaktionelle Beobachtung der ausdrücklich mit „a 2“ überschriebenen Aussetzung. Die am Anfang gedruckte Ziffernfolge und die rhythmische Zuordnung sind visuell geprüft; keine allgemeine Theorie latenter Mehrstimmigkeit wird daraus abgeleitet."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-06",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 72 · Nr. 105 (CV), Secundquartseptaccord statt Quartseptnonaccord",
+          "text": "In Nr. 105 setzt Sechter den Secundquartseptaccord ausdrücklich an die Stelle des Quartseptnonaccords. Die erste Aussetzung führt die Zifferngruppe mit Sekunde, Quarte und Septime über einem liegenden Bass zu 8/3 weiter. Die Sekunde gehört hier zu einer Oberstimme; ihre Weiterführung verlangt keinen absteigenden Bass. Unter demselben Takt steht ergänzend eine Bezifferung mit None, und die fünfstimmige Fassung verwendet ebenfalls die None. Diese Stelle zeigt, warum eine Ziffer innerhalb einer zusammengesetzten Klangangabe zusammen mit der Aussetzung gelesen werden muss: Die 2 allein bestimmt hier nicht die aufzulösende Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 72 · Nr. 105 (CV), Secundquartseptaccord statt Quartseptnonaccord",
+              "note": "Die Überschrift nennt die Vertretung des Quartseptnonaccords ausdrücklich. Im ersten Takt mit der vollständigen Zifferngruppe bleibt der Bass liegen; die Stimmführungszuweisung ist eine lokale Beobachtung an der Aussetzung, keine allgemeine Behauptung über jede historische 2. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-07",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 57–58 · Nr. 83–84 (LXXXIII–LXXXIV), None und bewegte Begleitstimme",
+          "text": "Nr. 83 zeigt wiederholt die abwärts geführte None als 9–8 über einem innerhalb der Auflösung liegenden Bass. In Nr. 84 steht neben dieser Bewegung regelmäßig 5–6. Die Aussetzung zeigt zwei verschiedene Stimmen: Eine geht von der None zur Oktave hinab, eine andere von der Quinte zur Sexte hinauf. Die zweite Stimme bleibt also während der Nonenauflösung nicht notwendig liegen. Die übereinander und nebeneinander notierten Zahlen erfassen gemeinsam diesen Verlauf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 57–58 · Nr. 83–84 (LXXXIII–LXXXIV), None und bewegte Begleitstimme",
+              "note": "Die beiden Übungsgruppen wurden visuell verglichen. Das gleichzeitige 9–8 und 5–6 ist in Nr. 84 ausdrücklich beziffert und in den Noten der ersten Aussetzung nachvollziehbar. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-08",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 59 · Nr. 86 (LXXXVI), wiederholte Folge 9–6",
+          "text": "Die Ziffernfolge muss mit der Bassbewegung gelesen werden. In der ersten Aussetzung von Nr. 86 erscheinen mehrfach 9 und 6 nacheinander. Beim ersten solchen Wechsel im zweiten Takt steigt der Bass eine Terz, während die betreffende Oberstimme einen Schritt abwärts geht. Die größere Änderung der Intervallzahl entsteht hier aus beiden Stimmen zusammen. Der Vergleich mit der einfacheren Folge 9–8 macht den Unterschied zwischen einer melodischen Bewegung und ihrer jeweiligen Entfernung vom Bass hörbar.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 59 · Nr. 86 (LXXXVI), wiederholte Folge 9–6",
+              "note": "Der erste 9–6-Wechsel im zweiten Takt der ersten Fassung wurde vergrößert geprüft: Der Bass steigt eine Terz, die betreffende Oberstimme fällt einen Schritt. Andere 9–6-Stellen können den Bass in einer anderen Oktavlage führen; die lokale Aussage wird nicht auf sie ausgedehnt. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-11",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 75–76 · Nr. 110–111 (CX–CXI), zeitliche Staffelung im Quartsextnonaccord",
+          "text": "Ein mehrgliedriger dissonanter Klang muss in diesen Beispielen nicht mit einem einzigen gemeinsamen Schritt aufgelöst werden. Nr. 110 führt die Bewegungen aus 9/6/4 zeitlich gestaffelt weiter. Nr. 111 hält die None an der ersten entsprechenden Stelle länger fest, während Sexte und Quarte bereits ihre Fortsetzungen erreichen. Die nebeneinander gesetzten Ziffern und ihre Verlängerungsstriche sind deshalb als mehrere zeitliche Linien zu lesen. Die Aussetzungen zeigen unterschiedliche Reihenfolgen innerhalb derselben Intervallzusammenstellung; ein bloßes Akkordetikett würde diesen Unterschied verdecken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 75–76 · Nr. 110–111 (CX–CXI), zeitliche Staffelung im Quartsextnonaccord",
+              "note": "Die ersten entsprechenden Stellen von Nr. 110 und Nr. 111 wurden in vergrößerten Ausschnitten geprüft. Besonders Nr. 111 notiert 9 mit längerer Fortgeltung, während 6–5 und 4–3 früher erfolgen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": [
+        {
+          "from": "sechter1876-late-06",
+          "to": "menke2017-3",
+          "type": "context",
+          "note": "Menke erläutert die übliche funktionale Unterscheidung: 2 steht normalerweise für eine Syncopatio des Basses, 9 für diejenige einer Oberstimme. Sechters zusammengesetzte Angabe mit Sekunde, Quarte und Septime wird in Nr. 105 über liegendem Bass weitergeführt; die 2 gehört dort zur oberen Stimmenverbindung. Der Unterschied betrifft den Gebrauch der Ziffer im konkreten Notationszusammenhang. Menkes ausdrücklich normale Zuordnung ist deshalb nicht schematisch auf jede 2 innerhalb solcher Klangangaben zu übertragen."
         }
       ]
     },
@@ -27295,7 +27915,8 @@ const ATLAS = {
         "leittonaufloesung",
         "einklang",
         "akkordvollstaendigkeit",
-        "picardische-terz"
+        "picardische-terz",
+        "generalbass-lagen"
       ],
       "authors": [
         {
@@ -27366,6 +27987,69 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-dreiklang-verdopplung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 4, vor Übung I (1) · Tabelle „Dreyklang hat“",
+          "text": "Die einleitende Dreiklangstabelle nennt für vier Stimmen neben 8/5/3 unter anderem die Gruppen 5/3/3 und 5/5/3. Mit dem Bass zusammen ergeben diese Formeln unterschiedliche Verdopplungen: des Basstons, der Terz oder der Quinte. Sechter stellt damit mehrere Verteilungen des Dreiklangsmaterials vor. Die Ziffern bezeichnen Intervalle über dem Bass; die Übersicht nennt noch keine Tonleiterstufe und keine besondere Leittonbedingung. Welche Verteilung in einem Verlauf funktioniert, muss deshalb an der jeweiligen Aussetzung gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 4, vor Übung I (1) · Tabelle „Dreyklang hat“",
+              "note": "Die ausdrücklich gedruckte Tabelle wird wörtlich nach ihren Intervallgruppen gelesen. Sie wird nicht zu einer voraussetzungslosen Erlaubnis jeder Verdopplung erweitert. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-quartsext-verdopplung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 27, vor Übung XXXVIII (38) · Tabelle „Quartsextaccord hat“",
+          "text": "Für den Quartsextakkord gibt Sechter die vierstimmigen Gruppen 8/6/4, 6/4/4 und 6/6/4 an. In der ersten wird der Basston durch seine Oktave ergänzt; in den beiden anderen erscheinen Quarte beziehungsweise Sexte über dem Bass doppelt. Die Übersicht lässt sich deshalb nicht auf eine einzige Verdopplungsformel reduzieren. Sie beschreibt allerdings noch keine beliebige Fortschreitung dieser Klänge. Die Lage der verdoppelten Töne und ihre Weiterführung müssen im jeweiligen Beispiel verfolgt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 27, vor Übung XXXVIII (38) · Tabelle „Quartsextaccord hat“",
+              "note": "Die drei Formeln sind im gedruckten Tabellenkopf ausdrücklich aufgeführt. Die Aussage trennt dieses Inventar von einer unbeschränkten Erlaubnis jeder Fortschreitung oder einer bestimmten kontrapunktischen Erklärung des Quartsextklangs. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-07",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 34, Tabelle „Septaccord hat“; S. 52, Tabelle „Secundaccord hat“ · ausdrücklich angegebene Tonverteilungen",
+          "text": "Sechters Tabellen nennen mehrere Tonverteilungen für denselben Akkordnamen. Beim Septakkord stehen über dem Bass wahlweise 7/5/3, 8/7/3 oder 7/3/3: Die zweite Fassung verdoppelt den Bass in der Oktave, die dritte die Terz über dem Bass; beide kommen ohne dessen Quinte aus. Beim Sekundakkord stehen 6/4/2, 4/2/2 und 4/4/2 zur Wahl. Die beiden letzten Fassungen verdoppeln also die Sekunde beziehungsweise die Quarte über dem Bass. Diese Zahlen sind bassbezogene Intervalle und zeigen konkrete Verteilungen für die Aussetzungsübungen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 34, Tabelle „Septaccord hat“; S. 52, Tabelle „Secundaccord hat“ · ausdrücklich angegebene Tonverteilungen",
+              "note": "Die Zahlenkombinationen sind ausdrücklich gedruckt, die Benennung der dadurch verdoppelten und ausgelassenen Intervalle ist eine unmittelbare Lesung der Tabellen. Es wird weder eine allgemeine Freiheit jeder Verdopplung noch eine besondere Erlaubnis zur Leittonverdopplung abgeleitet."
+            }
+          },
+          "catalogue": true
         }
       ]
     },
@@ -27385,7 +28069,8 @@ const ATLAS = {
         "harmonik",
         "rhythmische-selbststaendigkeit",
         "speziesmischung",
-        "stimmkreuzung"
+        "stimmkreuzung",
+        "generalbass-pedal"
       ],
       "authors": [
         {
@@ -27728,7 +28413,8 @@ const ATLAS = {
         "konsonanz",
         "dissonanzbehandlung",
         "generalbass-bezifferung-stimmfuehrung",
-        "vorhalt-bewegte-begleitstimme"
+        "vorhalt-bewegte-begleitstimme",
+        "generalbass-lernfolge"
       ],
       "comparisons": [],
       "authors": [
@@ -27776,6 +28462,51 @@ const ATLAS = {
           },
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-quartsext-klangfolge",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 27–28, Übung XXXVIII (38) · Wechsel von 5 und 6/4 über längeren Basstönen",
+          "text": "Die Aussetzung von XXXVIII lässt wiederholt auf eine mit 5 bezeichnete Phase einen Quartsextklang über demselben Basston folgen. Die obere Stimmenbewegung führt hier also in die Quarte und Sexte hinein. Eine pauschale Lesart als zunächst dissonierender Vorhaltsklang, der anschließend stets zu 5/3 zurückgehen müsse, beschreibt diese notierte Reihenfolge nicht. Sechter benennt den Klang und schreibt mehrere Realisierungen aus; eine eigene verbale Dissonanzklassifikation ergänzt er an dieser Stelle nicht. Für die Analyse bleibt deshalb der einzelne Stimmenweg maßgeblich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 27–28, Übung XXXVIII (38) · Wechsel von 5 und 6/4 über längeren Basstönen",
+              "note": "Redaktionelle Beobachtung der ausdrücklich notierten Folge 5 → 6/4. Dem Beispiel wird keine allgemeine Konsonanzerklärung des Quartsextakkords und keine universelle Auflösungsregel zugeschrieben. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-01",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 32, Übung 46 (IVL), erste vierstimmige Aussetzung, T. 1–4 · zwei Fortführungen der Quartsextverbindung",
+          "text": "Die erste Aussetzung von Übung 46 zeigt zwei verschiedene Fortführungen einer Quartsextverbindung. In Takt 1 und 3 geht bei liegendem Bass die Quarte zur Terz, während die Sexte erhalten bleibt: 6/4 wird zu 6/3. In Takt 2 und 4 steigt der Bass einen Schritt und kehrt zurück; dabei entsteht die Ziffernfolge 6–6/4–6. Die gleichen Ziffern 6/4 stehen somit in verschiedenen Bewegungszusammenhängen. Zum Lesen dieser Aussetzung müssen Bassbewegung und Fortführung der Oberstimmen gemeinsam verfolgt werden.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 32, Übung 46 (IVL), erste vierstimmige Aussetzung, T. 1–4 · zwei Fortführungen der Quartsextverbindung",
+              "note": "Redaktionelle Beobachtung der notierten Stimmen, keine ausgeschriebene allgemeine Dissonanzregel. Die Sexte bleibt bei 4–3 erhalten; die Stelle ist nicht als pauschales 6–5/4–3-Modell zu beschreiben. Die historische Übungsnummer lautet IVL (= 46)."
+            }
+          },
+          "examples": [
+            "sechter-quartsext"
+          ],
           "catalogue": true
         }
       ]
@@ -29383,6 +30114,508 @@ const ATLAS = {
         }
       ],
       "relations": []
+    },
+    {
+      "id": "generalbass-lernfolge",
+      "title": "Wodurch wird eine Generalbassübung schrittweise schwieriger?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Lehrgang",
+        "Progression",
+        "Bezifferung",
+        "Dreiklang",
+        "Septakkord"
+      ],
+      "reading": "Vergleiche die neu hinzutretenden Ziffern mit den zuvor geübten Akkorden. Halte zunächst Bass, Lage oder Stimmenzahl fest und beobachte, welche neue Aufgabe durch die erweiterte Bezifferung entsteht.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "generalbass-stimmenzahl",
+        "generalbass-sextakkord",
+        "quartsext-dissonanz"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-pref-lernfolge",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · Reihenfolge der Akkord- und Bezifferungsaufgaben",
+          "text": "Das Fortschreiten des Lehrgangs liegt für Sechter ausdrücklich in seiner Ordnung. Zunächst werden allein Dreiklänge verwendet, dann treten Sext- und Quartsextakkorde hinzu. Es folgen Septakkorde und nach und nach ihre Umkehrungen, anschließend weitere Klänge wie Non-, Septnon-, Quartquint- und Quartnonakkorde. Die Vielfalt der Bezifferung nimmt auf diese Weise allmählich zu. Mehrere Aussetzungen eines Basses erlauben zugleich, eine harmonische Aufgabe in verschiedenen Lagen und Stimmenzahlen zu bearbeiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · Reihenfolge der Akkord- und Bezifferungsaufgaben",
+              "note": "Sechter erklärt auf S. 3 die Reihenfolge des eigenen Generalbasslehrgangs und das schrittweise Anwachsen der Bezifferung."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-early-klangvorrat-und-chromatik",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 4, 12–13 und 25–27 · Dreiklang, Sextakkord und Einführung des Quartsextakkords",
+          "text": "Die gedruckte Folge macht Sechters Ordnung nach Klangvorräten konkret: Die Dreiklangstabelle steht vor I, die Sextakkordtabelle vor XII und die Quartsextakkordtabelle vor XXXVIII. Chromatische Veränderungen werden dabei bereits innerhalb der früheren Abschnitte geübt, etwa in IX und X sowie ausführlich in XXXIII bis XXXVII. Das allmähliche Hinzutreten neuer Zifferngruppen bedeutet daher nicht, dass die vorherigen Modelle auf unveränderte diatonische Töne beschränkt blieben. Jede Stufe des Lehrgangs wird durch mehrere notierte Varianten erweitert.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 4, 12–13 und 25–27 · Dreiklang, Sextakkord und Einführung des Quartsextakkords",
+              "note": "Die Stufenfolge ist im Vorwort ausdrücklich erklärt und hier an den tatsächlichen Tabellen und chromatischen Modellen überprüft. Es wird keine zusätzliche feste Untergliederung in benannte Kapitel erfunden. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-schluessel",
+      "title": "Warum werden Generalbassübungen in verschiedenen Schlüsseln notiert?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Schlüssel",
+        "Sopranschlüssel",
+        "Altschlüssel",
+        "Tenorschlüssel",
+        "C-Schlüssel"
+      ],
+      "reading": "Bestimme bei jedem Schlüsselwechsel zuerst das eingestrichene c. Lies danach die unveränderte Intervallfolge und prüfe, ob sich mit dem Schlüssel tatsächlich die klingende Lage ändert.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-transponieren",
+        "generalbass-stimmenzahl",
+        "generalbass-bassvariation"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-pref-schluessel",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · Sopran-, Alt- und Tenorschlüssel",
+          "text": "Sechter hält die Kenntnis des Sopran-, Alt- und Tenorschlüssels für einen Generalbassspieler für unentbehrlich. Ihre Verwendung im Übungsband dient deshalb zugleich dem Lesenlernen: Die praktische Beschäftigung mit den Aussetzungen soll die Schlüssel vertraut machen. Das Vorwort begründet damit eine Aufgabe der Notation, nicht eine abweichende Zählweise der Intervalle über dem Bass.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · Sopran-, Alt- und Tenorschlüssel",
+              "note": "Die konkrete Vorrede nennt die drei C-Schlüssel und begründet ihre Verwendung als praktische Leseübung für Generalbassspieler."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-17",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 81–82 · Nr. 118 und 120 (CXVIII, CXX), Bezeichnung und Ausführung",
+          "text": "In diesen Schlussbeispielen liest der Spieler die knapp notierte Vorlage mit wechselnden Schlüsseln zusammen mit ihrer mehrstimmigen Ausführung. Die erste Zeile von Nr. 118 und Nr. 120 beginnt in einem höheren Register und erreicht erst später den Bassschlüssel. Die Ausführung zeigt, zu welchen nach und nach eintretenden Stimmen die Noten gehören. Nr. 120 führt dasselbe Prinzip anschließend in einer bewegten Variation weiter. Das Schlüsselbild trägt hier Informationen über Register und Stimmenaufbau; die Vorlage ist vom ersten Ton an als Teil dieses mehrstimmigen Verlaufs zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 81–82 · Nr. 118 und 120 (CXVIII, CXX), Bezeichnung und Ausführung",
+              "note": "Schlüsselwechsel, obere Vorlagenzeile und darunterstehende Ausführung wurden auf S. 81–82 visuell verglichen. Die bewegte Variation von Nr. 120 ist ausdrücklich so beschriftet; eine Bezeichnung als Fuge wird nicht hinzugefügt. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-pedal",
+      "title": "Welche Töne übernimmt das Orgelpedal bei einer Generalbassaussetzung?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Orgel",
+        "Pedal",
+        "Manual",
+        "fünf Stimmen",
+        "Bassvariation"
+      ],
+      "reading": "Spiele zuerst den schlichten Bass mit dem Pedal und verteile die übrigen Stimmen auf die Hände. Vergleiche danach, welche Töne einer bewegten Bassvariante im Pedal übernommen werden können.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-stimmenzahl",
+        "generalbass-bassvariation",
+        "stimmen-ergaenzen"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-pref-pedal-fuenfstimmig",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3 · Pedalverwendung bei fünfstimmigen Beispielen",
+          "text": "Viele fünfstimmige Beispiele lassen sich nach Sechter mit den Händen allein nicht leicht ausführen. In diesen Fällen kann das Pedal die Basstöne übernehmen. Die zusätzliche Stimme ist damit zugleich eine Frage der instrumentalen Verteilung: Was sich auf zwei Manualhände schwer verteilt, kann durch die Übernahme des Basses mit den Füßen spielbar werden. Sechter formuliert dies als Möglichkeit für die betreffenden Beispiele, nicht als Pflicht zu ständigem Pedalgebrauch.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3 · Pedalverwendung bei fünfstimmigen Beispielen",
+              "note": "Die Vorrede begründet die Pedalübernahme ausdrücklich mit der Spielbarkeit der fünfstimmigen Beispiele auf der Orgel."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-pref-pedal-bassvariation",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "Vorerinnerung, S. 3, letzter Absatz · Pedal und Bassvariation",
+          "text": "Bei einer Bassvariation darf das Pedal nach Sechter die Töne des schlichten Grundbasses beibehalten. Es muss daher nicht jede zusätzliche Bewegung der Variation mitspielen. Zugleich lässt er zu, auch weitere wichtige Töne der bewegten Fassung im Pedal auszudrücken. Schlichter Bass und ausgezierte Basslinie eröffnen damit unterschiedliche Möglichkeiten der Verteilung auf Hände und Füße.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3, letzter Absatz · Pedal und Bassvariation",
+              "note": "Der letzte Absatz der Vorrede stellt beide Möglichkeiten der Pedalverwendung bei Bassvariationen ausdrücklich nebeneinander."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-bassvariation",
+      "title": "Welche Aussetzungen passen zu einer bewegten Bassvariation?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Bassvariation",
+        "Diminution",
+        "Figuration",
+        "Bezifferung",
+        "Aussetzung"
+      ],
+      "reading": "Lege den schlichten Bass und seine Variation nebeneinander. Prüfe die angegebenen Kombinationen mit den Oberstimmen; ein hinzugefügter Basston kann die Zusammenklänge verändern und passt nicht notwendig zu jeder früheren Aussetzung.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-pedal",
+        "generalbass-bezifferung-stimmfuehrung",
+        "dissonanzbehandlung",
+        "rhythmische-selbststaendigkeit",
+        "generalbass-schluessel"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-early-bassvariation-passung",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 6, Bassvariationen zu Übung II (2) · Zuordnungen zu den Aussetzungen auf S. 5",
+          "text": "Sechter ordnet die Bassvariationen ausdrücklich bestimmten Aussetzungen zu. Die erste Variante gilt für Nr. 1, 6, 14 und 15; die zweite für Nr. 2, 3, 4, 5, 9, 10 und 13. Die dritte besitzt wiederum eine eigene, größere Auswahl. Für die Varianten vier bis sechs verweist der Druck jeweils auf die Zuordnung der ersten, zweiten und dritten. Die gemeinsame Bassvorlage macht also nicht jede ausgezierte Fassung mit jeder Oberstimmenlösung austauschbar. Beim Zusammenspielen gehören die gedruckten Zuordnungen zur Aufgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 6, Bassvariationen zu Übung II (2) · Zuordnungen zu den Aussetzungen auf S. 5",
+              "note": "Die Kombinationen stehen als ausdrückliche Beschriftungen über den sechs Bassvariationen. Eine nicht angegebene Begründung für jeden einzelnen Ausschluss wird nicht ergänzt. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true,
+          "examples": [
+            "sechter-bassvariation"
+          ]
+        },
+        {
+          "id": "sechter1876-early-bassvariation-dreiergruppen",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 20, Übung XXIII (23), erste Bassvariation · C-Takt und 12/8-Fassung",
+          "text": "Die erste Bassvariation zu XXIII ist im 12/8-Takt notiert, während die schlichtere Vorlage im C-Takt steht. Die vier Viertelpositionen der Vorlage werden in der Variation durch vier Dreiergruppen gegliedert. Die zweite notierte Bassvariante verwendet wieder die gerade Unterteilung. Die Variation betrifft somit auch die rhythmische Gruppierung des Bassgangs. Beim Vergleich lassen sich zunächst die entsprechenden Stützpunkte und Taktgrenzen zuordnen, bevor die hinzugefügten Töne mit den oberen Stimmen zusammengesetzt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 20, Übung XXIII (23), erste Bassvariation · C-Takt und 12/8-Fassung",
+              "note": "Die unterschiedlichen Taktangaben und Gruppierungen sind ausdrücklich notiert. Die Hinweise zum Vergleich der Stützpunkte sind redaktionelle Leseaufgaben, keine zusätzlich behauptete Begleitregel. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-middle-05",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "locator": "S. 35, Übung 52 (LII), Anweisungen zu den Bassvariationen · Zuordnung zu nummerierten Aussetzungen",
+          "text": "Bei Übung 52 ordnet Sechter bestimmte Bassvariationen ausdrücklich einzelnen Aussetzungen zu. Eine Gruppe ist für Nr. 2, 3, 6 und 7 bezeichnet; eine weitere Fassung erhält den Zusatz „oder auch zu No 1 oder 4“. Die Nummern verweisen auf die zuvor gedruckten Aussetzungen desselben Basses. Für diese Übung ist die Wahl der Bassfiguration daher zusammen mit der gewählten Oberstimmenfassung zu lesen. Die angegebenen Kombinationen sind konkrete Hinweise zur Verwendung der Varianten; sie formulieren kein allgemeines Verbot aller übrigen Kombinationen.",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorerinnerung, S. 3; S. 35, Übung 52 (LII), Anweisungen zu den Bassvariationen · Zuordnung zu nummerierten Aussetzungen",
+              "note": "Die Zuordnungen sind ausdrückliche Textangaben im Notendruck. Die lokale Beschränkung der Aussage bewahrt den Unterschied zwischen einer empfohlenen Kombination und einem nicht ausgesprochenen generellen Verbot."
+            }
+          },
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-10",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 57–58 · Nr. 83 (LXXXIII), einfache Fassungen und Bass Variation",
+          "text": "Zur Nonenfolge von Nr. 83 gehört eine Bassvariation mit laufender Achtelbewegung. Die Bezifferung führt die Folge 9–8 und den abschließenden Wechsel 6/4–5/3 über diese Figuration hinweg fort; Verlängerungsstriche machen die Dauer der Angaben sichtbar. Die Aussetzung lässt sich deshalb sinnvoll zusammen mit dem einfachen Bass lesen. So wird erkennbar, welche schnelleren Basstöne die Vorlage ausfüllen und an welcher Stelle die bezeichnete Oberstimmenbewegung weitergeht. Die größere Zahl gespielter Basstöne ist allein noch keine zuverlässige Karte des harmonischen Verlaufs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 57–58 · Nr. 83 (LXXXIII), einfache Fassungen und Bass Variation",
+              "note": "Die Bass Variation auf S. 58 wurde mit den unverzierten Fassungen auf S. 57 verglichen. Figuration, Ziffernfolgen und Verlängerungsstriche sind sichtbar; eine allgemeine Erlaubnis für beliebige Durchgangstöne wird daraus nicht abgeleitet. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-lagen",
+      "title": "Wie verändert die Lage eine Generalbassaussetzung?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Lage",
+        "Aussetzung",
+        "Sopran",
+        "Mittelstimmen",
+        "Stimmführung"
+      ],
+      "reading": "Lege zwei Aussetzungen desselben Basses nebeneinander. Verfolge zuerst die höchste Stimme, dann eine Mittelstimme. Welche Töne bleiben liegen, welche wechseln ihre Lage, und wie verteilt sich der Satz auf die beiden Notensysteme?",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "related": [
+        "generalbass-stimmenzahl",
+        "generalbass-bezifferung-stimmfuehrung",
+        "generalbass-sextakkord",
+        "akkordton-verdopplung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-early-lagenvergleich",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 5, Übung II (2), Aussetzungen Nr. 1–6 · verschiedene vierstimmige Fassungen",
+          "text": "Die ersten sechs Fassungen der zweiten Übung behalten denselben Bassgang und die vierstimmige Anlage bei, verteilen das obere Material aber verschieden. Die Aussetzung zeigt dadurch, dass die Lage nicht nur den ersten Akkord betrifft: Mit ihr verändern sich der Verlauf der höchsten Stimme, die Führung der Mittelstimmen und die Verteilung zwischen den beiden Notensystemen. Beim Vergleichen lohnt es sich, jeweils eine Linie durch die ganze Fassung zu verfolgen. Die mehreren Lösungen sind keine bloßen Kopien eines unverändert verschobenen Akkordblocks.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 5, Übung II (2), Aussetzungen Nr. 1–6 · verschiedene vierstimmige Fassungen",
+              "note": "Redaktionelle Beobachtung der sechs nebeneinander gedruckten vierstimmigen Realisierungen; die folgenden Fassungen Nr. 7–15 erweitern den Vergleich auf fünf, drei und zwei Stimmen. Der Aufgabenrahmen des Bandes ist in der Vorerinnerung, S. 3, als praktischer Generalbasslehrgang mit Orgelpedal und mehreren Stimmenzahlen beschrieben; eine historische Stilzuweisung oder Speziesaufgabe wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-15",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 81 · Einleitung zu Nr. 118–120 (CXVIII–CXX), besonders Nr. 118",
+          "text": "Für die letzten Beispiele erklärt Sechter ausdrücklich, dass der Eintritt der Stimmen die Lage der Harmonie bestimmt. Nr. 118 stellt die knappe Bezeichnung ihrer Ausführung gegenüber. Zunächst erklingt eine Oberstimme allein; weitere Stimmen treten darunter hinzu und führen die bereits begonnenen Linien fort. Die Lage ist hier somit eine Folge der Einsatzordnung und des bisherigen Stimmenverlaufs. Wer diese Vorlage spielt, muss die hinzutretenden Stimmen in den Zusammenhang der bereits klingenden setzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 81 · Einleitung zu Nr. 118–120 (CXVIII–CXX), besonders Nr. 118",
+              "note": "Der Satz über die durch den Stimmeneintritt bestimmte Lage ist eine explizite Anweisung auf S. 81. Die Beschreibung des allmählichen Hinzutretens bezieht sich auf Nr. 118. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "examples": [
+            "sechter-stimmeneinsaetze"
+          ],
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-akkordnamen",
+      "title": "Wie lese ich zusammengesetzte Akkordnamen im Generalbass?",
+      "group": "Generalbass",
+      "tags": [
+        "Akkordnamen",
+        "Bezifferung",
+        "Intervalle",
+        "Stimmenzahl",
+        "Vorhalt"
+      ],
+      "related": [
+        "generalbass-ziffern-stufen",
+        "generalbass-bezifferung-stimmfuehrung",
+        "generalbass-stimmenzahl",
+        "dissonanzbehandlung"
+      ],
+      "reading": "Schreibe zu jedem Akkordnamen die tatsächlich angegebenen Intervalle über dem Bass auf. Welche Töne kommen hinzu, welche werden verdoppelt oder ausgelassen? Verfolge anschließend die Stimmen, statt aus dem Namen allein eine Auflösung abzuleiten.",
+      "readingSources": [
+        "sechter1876"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "sechter1876-late-01",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 57 und 62 · Überschriften vor Nr. 83 (LXXXIII) und Nr. 91 (im Druck IXC)",
+          "text": "Sechters Nonaccord enthält nach der gedruckten Formel None, Quinte und Terz über dem Bass: 9/5/3. Der später eingeführte Septnonaccord fügt die Septime als eigenen Bestandteil hinzu. Seine erste angegebene Auswahl lautet 9/7/3; weitere Anordnungen nehmen auch die Quinte auf. Ein Nonaccord ist in dieser Terminologie deshalb noch kein vollständig mit Terz, Quinte, Septime und None besetzter Klang. Der Name und die beigefügte Intervallauswahl müssen zusammen gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 57 und 62 · Überschriften vor Nr. 83 (LXXXIII) und Nr. 91 (im Druck IXC)",
+              "note": "Die beiden Überschriften geben die Intervallauswahl ausdrücklich an. Die Unterscheidung von Nonaccord und Septnonaccord wird aus diesen gedruckten Formeln wiedergegeben, nicht aus einem modernen Akkordsymbol erschlossen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-02",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 65 und 67 · Überschriften vor Nr. 96 (IVC) und Nr. 98 (IIC)",
+          "text": "Den Quartquintaccord erläutert Sechter durch die beiden Auswahlen 8/5/4 und 5/5/4: Quarte und Quinte bleiben vorhanden, während entweder der Bass in der Oktave oder die Quinte verdoppelt wird. Beim Quartnonaccord lautet die vierstimmige Auswahl 9/5/4. Die Quarte steht damit in unterschiedlichen Zusammenklängen. Aus dem Wortteil Quart allein ergibt sich weder die vollständige Besetzung noch der weitere Weg der Stimmen; dafür dienen die Ziffern und die anschließenden Aussetzungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 65 und 67 · Überschriften vor Nr. 96 (IVC) und Nr. 98 (IIC)",
+              "note": "Die Formeln für den Quartquintaccord und den vierstimmigen Quartnonaccord sind direkt lesbar. Die schwach gedruckten fünfstimmigen Alternativen der zweiten Überschrift werden hier nicht ergänzt oder rekonstruiert. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-03",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 68–70 · Nr. 101–103 (CI–CIII), Secundquint-, Secundquartquint- und Secundterzquintaccord",
+          "text": "In dieser Folge unterscheiden die zusammengesetzten Namen verschiedene Ergänzungen über demselben Bezugspunkt, dem Bass. Der Secundquintaccord verbindet Sekunde und Quinte; die Überschrift nennt für drei Stimmen 5/2 und zeigt für vier Stimmen unterschiedliche Verdopplungen. Der Secundquartquintaccord ergänzt die Quarte zu 5/4/2. Beim Secundterzquintaccord tritt stattdessen die Terz hinzu; in Nr. 103 wird sie auch chromatisch verändert. Die ähnlich klingenden Namen bezeichnen somit verschiedene Intervallauswahlen. Vorzeichen und konkrete Stimmführung bleiben zusätzlich zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 68–70 · Nr. 101–103 (CI–CIII), Secundquint-, Secundquartquint- und Secundterzquintaccord",
+              "note": "Die drei Überschriften und die direkt darunterstehenden Formeln beziehungsweise Bezifferungen unterscheiden 2/5, 2/4/5 und 2/3/5 ausdrücklich. Die chromatische Veränderung ist eine Beobachtung an Nr. 103. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        },
+        {
+          "id": "sechter1876-late-04",
+          "source": "sechter1876",
+          "name": "Simon Sechter",
+          "locator": "S. 74–75 · Nr. 108–110 (CVIII–CX), Terzsextsept-, Sextnon- und Quartsextnonaccord",
+          "text": "Auch am Ende der Akkordfolge benennt Sechter die charakteristischen Intervalle über dem Bass. Der Terzsextseptaccord wird mit 7/6/3 angegeben. Unter Sextnonaccord behandelt Nr. 109 die Verbindung von None und Sexte; der folgende Quartsextnonaccord erweitert die ausdrücklich gedruckte Auswahl zu 9/6/4. Die Aussetzungen lassen erkennen, wie solche komplexeren Klänge in einzelne Stimmen zerlegt und weitergeführt werden. Die Benennung beschreibt zunächst die Zusammenstellung; die zeitliche Folge der Auflösungen steht im Notenbild und in den nebeneinander gesetzten Ziffern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung für das Orgelspiel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 74–75 · Nr. 108–110 (CVIII–CX), Terzsextsept-, Sextnon- und Quartsextnonaccord",
+              "note": "Die Überschriften auf S. 74–75 sind verbal belegt; 7/6/3 und 9/6/4 sind daneben ausdrücklich notiert. Die Aussagen zur Fortführung beziehen sich auf die darunterstehenden Aussetzungen. Die Vorerinnerung, S. 3, begründet den Übungsrahmen für Generalbassspieler, einschließlich Präludieren und Pedalgebrauch; eine historische Stilzuordnung wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
+          "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+          "catalogue": true
+        }
+      ],
+      "relations": []
     }
   ],
   "examples": {
@@ -30913,6 +32146,60 @@ const ATLAS = {
       "alt": "Zwei selbst entworfene Tabellen mit den Zeilen Oberstimme, Mittelstimme und Unterstimme sowie den Spalten Themenphase 1 bis 4. Beide beginnen mit Dux in der Oberstimme, Comes in der Mittelstimme und Dux in der Unterstimme. In A folgt in Phase 4 ein Comes der Oberstimme: Die Stimme wechselt die Themenform und gegenexponiert. In B folgt an derselben Stelle nochmals der Dux der Oberstimme: Dies ist ein zusätzlicher Einsatz. Beide Alternativen verbleiben im Bereich von Tonika und Dominante. Leere Felder enthalten keine Aussage über Pausen oder nichtthematisches Material.",
       "caption": "Verfolge die Oberstimme horizontal. Entscheidend ist, welche Themenform gerade diese Stimme schon hatte. Ihr Wechsel von Dux zu Comes begründet hier eine gegenexponierende Phase; eine Wiederholung des Dux heißt zusätzlicher Einsatz. Gárdonyis Technik setzt keine zweite vollständige Runde aller Stimmen voraus. Andere Stimmen können später ebenfalls die Form wechseln. Das Diagramm zeigt nur zwei erfundene Fortsetzungen im Tonika-Dominant-Bereich und enthält weder einen Zeitmaßstab noch ein verpflichtendes Fugenschema.",
       "credit": "Eigene redaktionelle Leseübung nach Zsolt Gárdonyi, La struttura della fuga in Johann Sebastian Bach (Ricordi 1996, bibliografisch zugeordnet), S. 31–34. Eigenes Schema von Themeneintritten; keine Abschrift eines Bach- oder Buchbeispiels."
+    },
+    "sechter-bassvariation": {
+      "image": "quellen/noten/sechter-bassvariation.webp",
+      "title": "Bassvariation: Welche Aussetzung passt?",
+      "alt": "Sechs historische Bassvariationen zu Übung II mit unterschiedlich schneller Figuration. Die erste ist den Aussetzungen 1, 6, 14 und 15 zugeordnet, die zweite den Nummern 2, 3, 4, 5, 9, 10 und 13, die dritte den Nummern 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13 und 14. Die Varianten vier, fünf und sechs übernehmen ausdrücklich die Zuordnungen der ersten, zweiten und dritten.",
+      "caption": "Wähle zunächst eine der Aussetzungen von Übung II auf S. 5 und suche dann die zugehörigen Bassvarianten. Die erste Variante nennt Nr. 1, 6, 14 und 15; die zweite Nr. 2, 3, 4, 5, 9, 10 und 13. Die dritte hat eine größere Auswahl. Die Nummern bezeichnen verschiedene Aussetzungen derselben Übung. Vergleiche beim Zusammenspielen, wie die hinzugefügten Basstöne auf die jeweiligen Oberstimmen treffen.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 6, Bassvariationen zu Übung II (2). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-sextakkord": {
+      "image": "quellen/noten/sechter-sextakkord.webp",
+      "title": "Sextakkord: Besetzung und Lage",
+      "alt": "Über zwei vierstimmigen Notensätzen steht die Tabelle Sextaccord hat. Sie nennt für vier Stimmen 8/6/3, 6/6/3, 6/3/3 und 8/6/6, für drei Stimmen 6/3, 6/6 und 8/6. In der ersten Aussetzung bleiben mehrere Oberstimmen gebunden, während der Bass weitergeht; die zweite führt die oberen Stimmen bewegter.",
+      "caption": "Lies jede Tabellenspalte als Intervalle über einem zusätzlich mitzudenkenden Bass. Welche Verteilungen enthalten die Terz über dem Bass, welche lassen sie aus? Verfolge anschließend in den beiden Aussetzungen denselben Bassgang und vergleiche die oberen Linien. Die beiden Ausschnitte zeigen unterschiedliche Aussetzungen; sie sind keine vollständige Demonstration aller Tabellenformeln.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 13, Tabelle und erste zwei Aussetzungen von Übung XII (12). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-quartsext": {
+      "image": "quellen/noten/sechter-quartsext.webp",
+      "title": "Quartsext: Zwei Arten der Weiterführung",
+      "alt": "Historischer Notenausschnitt aus Sechters Übung IVL (46), Takt 1 bis 4. Die vierstimmige Aussetzung zeigt abwechselnd 6/4–6/3 bei liegendem Bass und 6–6/4–6 mit bewegtem Bass.",
+      "caption": "In Takt 1 und 3 geht bei liegendem Bass die Quarte zur Terz, während die Sexte erhalten bleibt. In Takt 2 und 4 entsteht 6–6/4–6 durch die Aufwärts- und Rückbewegung des Basses. Die Fortführung ergibt sich aus dem Verlauf der Stimmen. Vergleiche die ersten vier Takte. Verfolge zunächst den Bass, dann die Oberstimmen. In Takt 1 und 3 bleibt die Sexte bei 4–3 erhalten; in Takt 2 und 4 führt der Bass einen Schritt aufwärts und zurück.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 32, Übung 46 (IVL), erste vierstimmige Aussetzung, T. 1–4. Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-sekundakkord": {
+      "image": "quellen/noten/sechter-sekundakkord.webp",
+      "title": "2 → 6: Die Bassstimme verfolgen",
+      "alt": "Historischer Notenausschnitt aus Sechters Übung LXXVII (77), erste vierstimmige Aussetzung. In den ersten drei Takten gehen wiederholt gebundene Bassnoten mit der Ziffer 2 einen Schritt abwärts zur Ziffer 6.",
+      "caption": "Die Bindungen führen den Bass in die mit 2 bezeichneten Verbindungen hinein. Auf den anschließenden Abwärtsschritt folgt jeweils die Bezifferung 6. Die Notation macht hier den Bass als aufzulösende Stimme kenntlich. Beginne bei den Haltebögen im Bass. Suche jeweils die 2 und verfolge den anschließenden Abwärtsschritt zur mit 6 bezeichneten Fortsetzung. Betrachte dann die Oberstimmen dazu.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 52, Übung 77 (LXXVII), erste vierstimmige Aussetzung. Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-quartdurchgang": {
+      "image": "quellen/noten/sechter-quartdurchgang.webp",
+      "title": "„Besser“: Zwei Fassungen im Vergleich",
+      "alt": "Zwei kurze vierstimmige Notensätze im Dreivierteltakt. Oben Übung CXII (112) mit wiederholter Bezifferung 4–3; unten Übung CXIII (113) mit 9/4–8/3 und dem historischen Vermerk Besser. Die beiden Ausschnitte zeigen jeweils die erste Aussetzung der Übung.",
+      "caption": "Sechter stellt der Quartenfolge in Nr. 112 unmittelbar die mit Besser bezeichnete Nr. 113 gegenüber. Die zweite Fassung verbindet 4–3 mit einer zusätzlichen Bewegung 9–8. Verfolge zunächst Bass und 4–3 in beiden Fassungen. Welche weitere Stimme übernimmt in Nr. 113 die Folge 9–8? Spiele die beiden Verbindungen im selben Tempo und beschreibe den hörbaren Unterschied. Die gedruckte Wertung gilt diesen konkreten Aussetzungen; eine Begründung in Prosa steht an dieser Stelle nicht.",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 77, erste Aussetzungen der Übungen CXII (112) und CXIII (113). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
+    },
+    "sechter-stimmeneinsaetze": {
+      "image": "quellen/noten/sechter-stimmeneinsaetze.webp",
+      "title": "Stimmeneinsätze bestimmen die Lage",
+      "alt": "Über einer einzelnen, teils bezifferten Notenzeile mit Schlüsselwechseln steht Sechters Satz über die durch Stimmeneintritte bestimmte Lage. Darunter beginnt die Ausführung von Übung CXVIII (118) einstimmig im oberen Register und ergänzt weitere Stimmen. Pausen zeigen auch später das Aussetzen einzelner Linien.",
+      "caption": "In Nr. 118 steht die knappe Bezeichnung über ihrer Ausführung. Eine Oberstimme beginnt allein; nach und nach treten weitere Stimmen hinzu. Sechter erklärt ausdrücklich, dass diese Eintritte die Lage der Harmonie bestimmen. Markiere den ersten Einsatz jeder Stimme und ordne ihm die Töne und Schlüssel der oberen Bezeichnung zu. Wo setzt eine bereits eingeführte Stimme später wieder aus?",
+      "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 81, Einleitung und vollständige Übung CXVIII (118). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
+      "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
+      "catalogue": true
     }
   }
 };
