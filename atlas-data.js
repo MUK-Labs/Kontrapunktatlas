@@ -964,6 +964,15 @@ const ATLAS = {
         "Sechter"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Simon_Sechter"
+    },
+    {
+      "name": "Walter R. Spalding",
+      "aliases": [
+        "Walter Raymond Spalding",
+        "Walter Spalding",
+        "Spalding"
+      ],
+      "wikipedia": "https://ca.wikipedia.org/wiki/Walter_Raymond_Spalding"
     }
   ],
   "sources": [
@@ -1358,6 +1367,17 @@ const ATLAS = {
       "publicationYear": 1876,
       "publicationLabel": "1876 (zugeordnet)",
       "publicationNote": "Leipziger Ausgabe in einem Bande, F. E. C. Leuckart (Constantin Sander), Plattennummer F.E.C.L. 2777; im Titelblatt steht kein Jahr. Die Zuordnung [1876] folgt dem Nachweis für den identischen Farbscan IMSLP #422079 (Bayerische Staatsbibliothek) und einer Leuckart-Anzeige im Börsenblatt vom 25. Februar 1876, S. 706. Die Datierung bestimmt die Ausgabe, nicht den Zeitpunkt eines möglichen späteren Abzugs. Die Erstausgabe erschien 1830 bei J. Czerny in Wien in zwei Teilen. Gesichtet sind die Vorerinnerung S. 3 und alle 120 Übungen I–CXX auf S. 4–82. Die Fundstellen nennen gedruckte Seiten und die historische Übungsnummer mit arabischer Entsprechung."
+    },
+    {
+      "id": "spalding1904",
+      "name": "Walter R. Spalding",
+      "title": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+      "group": "Lehrwerke",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=5",
+      "sortAuthor": "Spalding, Walter Raymond",
+      "publicationYear": 1904,
+      "publicationLabel": "1904 (Copyright)",
+      "publicationNote": "Das Titelblatt nennt Walter R. Spalding als Assistant Professor of Music in Harvard University und trägt den Copyrightvermerk 1904 von Arthur P. Schmidt. Eine Auflagen- oder Drucknummer ist nicht angegeben. Der Bibliotheksnachweis HathiTrust 001460577 (LCCN 04026134) verzeichnet Boston: A. P. Schmidt, c1904, ix und 258 Seiten. Der Scan entspricht dem Exemplar der Faculty of Music, University of Toronto, bei Internet Archive: tonalcounterpoin00spaluoft. Gesichtet sind das Vorwort S. v–viii und alle 13 Kapitel auf S. 1–258. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 15. 1904 bezeichnet den gedruckten Copyrightvermerk, keine gesondert belegte spätere Druckauflage."
     }
   ],
   "topics": [
@@ -2443,6 +2463,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-anfang-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 56, S. 87–88; § 65, S. 99–100 · Beginn der dritten Ordnung",
+          "text": "Die Gegenstimme der dritten Ordnung soll mit einer Pause beginnen. Ihr erster klingender Ton bildet nach Spaldings Anfangsregel eine vollkommene Konsonanz: Oktave oder Quinte, seltener Einklang. Die beiden restlichen Töne der ersten Vierergruppe dürfen Akkord-, Durchgangs- oder Wechselnoten sein; auch ein betonter Durchgang ist möglich. Ein bloßes Dreiklangsarpeggio hält er als Beginn meist für schwach, ohne es grundsätzlich zu verbieten. Den Einklang bewertet er nach dem Medium: Zwei Streicher können denselben Ton unabhängig ausführen, während am Klavier eine einzige Taste beide Stimmen vertreten müsste.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 56, S. 87–88; § 65, S. 99–100 · Beginn der dritten Ordnung",
+              "note": "Die Anfangsregel und der Unterschied zwischen Streichern und Klavier stehen ausdrücklich in § 56; § 65 erinnert an Anfangspause und Konsonanz. S. 87 visuell geprüft. Kein globales Arpeggioverbot wird abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=101"
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -2817,6 +2859,98 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-trugschluss-dur-moll",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 7, S. 5; § 16, S. 21–22",
+          "text": "Beim Übergang V–VI behandelt Spalding Dur und Moll verschieden. In Dur lässt er eine Fassung mit fallendem Leitton und verdoppeltem Grundton des Zielakkords gelten. Überträgt man dieselbe Stimmführung unverändert nach Moll, entsteht die beanstandete übermäßige Sekunde. Stehen Dominante und VI. Stufe in Moll beide in Grundstellung, verlangt seine Erläuterung ausgeprägte Gegenbewegung und eine Verdopplung der Terz des Zielakkords. Das Durbeispiel ist daher keine allgemeine Erlaubnis, den Mollleitton in gleicher Weise abwärts zu führen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Vierstimmige Verbindung V–VI in Dur und Moll",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 7, S. 5; § 16, S. 21–22",
+              "note": "Die parallelen Dur- und Mollbeispiele auf S. 5 sowie § 16 begründen die unterschiedliche Behandlung. Sie stehen im tonalen Vokalrahmen des Eingangskapitels, nicht in einer benannten Spezies."
+            }
+          },
+          "examples": [
+            "spalding-trugschluss-dur-moll"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=19"
+        },
+        {
+          "id": "spalding1904-open-stufen-und-bewegung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 23, S. 29–31",
+          "text": "Spalding unterscheidet eine fortlaufende Tonleiterbewegung vom melodischen Springen. In einer schrittweisen Skalenlinie können die Töne aufwärts oder abwärts weitergehen, ohne dass jede gewöhnliche Strebewirkung die unmittelbar nächste Note festlegt. Bei Sprüngen werden die verschiedenen Stufeneigenschaften deutlicher: Tonika, Terz und Quinte sind vergleichsweise ruhend, der Leitton strebt aufwärts, die vierte Stufe abwärts und die sechste mit geringerer Stärke ebenfalls abwärts. Diese Übersicht beschreibt normale tonale Tendenzen; sie ist kein Gebot, jede siebte Stufe in jedem melodischen Zusammenhang sofort zur Tonika zu führen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Tonale Melodieführung bei Schritten und Sprüngen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 23, S. 29–31",
+              "note": "§ 23 setzt diatonische tonale Melodik voraus und unterscheidet ausdrücklich Skalengang und Sprung. Der Lehrrahmen seit Bach steht im Vorwort S. v–vi."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=43"
+        },
+        {
+          "id": "spalding1904-open-schluss-innenstimme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 32, S. 50, Muster (a)",
+          "text": "In der vierstimmigen Aussetzung einer gegebenen Sopranmelodie lässt Spalding den Leitton in einer Innenstimme abwärts gehen, um einen vollständigen Schlussakkord zu erhalten. Er weist eigens auf diese Stelle im Muster hin. Die Erlaubnis ist an die Lage der Stimme und das Ziel der vollständigen Schlussharmonie gebunden; das Beispiel begründet keine entsprechende Behandlung eines hervortretenden Leittons im Sopran.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Vierstimmige Schlussbildung mit gegebener Sopranmelodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 32, S. 50, Muster (a)",
+              "note": "Die Erläuterung unter Muster (a) auf S. 50 nennt ausdrücklich die Innenstimme und den vollständigen Schlussakkord. Die Notation wurde am Scan geprüft; die Aufgabe ist noch keine nummerierte Zweistimmigkeitsordnung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=64"
+        },
+        {
+          "id": "spalding1904-multi-leitton-andere-wege",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 98, S. 137, Beispiel 8 (a); § 102, S. 147–148, Mollskalen-Trio (d)",
+          "text": "Spalding zeigt im dreistimmigen Satz mehr als den unmittelbaren Leittonschritt zur Tonika. In Beispiel 8 führt er den Leitton aufwärts zur dritten Stufe, damit kurz vor dem Ende nicht zu viel Tonika entsteht. Im späteren Trio über die Mollskala lässt er den Leitton der Mittelstimme dagegen absteigen, um auf dem nächsten Taktschlag einen vollständigen Klang zu gewinnen. Beide Fälle begründet er aus dem konkreten Verlauf; sie liefern keine allgemeine Vorschrift, den Leitton beliebig weiterzuführen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Beispiele · melodischer Verlauf und Klangvollständigkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 98, S. 137, Beispiel 8 (a); § 102, S. 147–148, Mollskalen-Trio (d)",
+              "note": "Die beiden ausdrücklich kommentierten Stellen gehören verschiedenen Stufen des Lehrgangs an: einer bewegten Gegenstimme und einem freieren Skalen-Trio. Deshalb keine gemeinsame Spezieszuweisung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=151"
         }
       ],
       "relations": [
@@ -2911,7 +3045,8 @@ const ATLAS = {
         "betonte-dissonanz",
         "unbetonte-dissonanz",
         "akkordvollstaendigkeit",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "terzen-sexten-folgen"
       ],
       "authors": [
         {
@@ -3265,6 +3400,28 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-konsonanzen-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 36, S. 59–61 · Konsonanzen im Note-gegen-Note-Satz",
+          "text": "In der ersten Ordnung verwendet Spalding große und kleine Terzen und Sexten sowie reine Quinten, Oktaven und Einklänge. Terzen und Sexten sollen überwiegen, weil sie die gedachte Harmonie deutlicher bestimmen. Der Einklang bleibt im Allgemeinen dem Anfang oder Ende vorbehalten. Die reine Quarte schließt er hier aus: Im harmonischen Verständnis dieser Anfangsübung würde sie eine unvollständige zweite Umkehrung nahelegen. Die Auswahl gilt für den gleichmäßigen zweistimmigen Einstieg; die späteren bewegten Aufgaben erhalten eigene Bedingungen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 36, S. 59–61 · Konsonanzen im Note-gegen-Note-Satz",
+              "note": "§ 36 begründet die Intervallauswahl ausdrücklich mit der harmonischen Deutlichkeit. Die Quarte wird in diesem Aufgabenrahmen ausgeschlossen, nicht aufgrund eines zeitlosen Intervallverbots."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=73"
         }
       ],
       "relations": [
@@ -3673,12 +3830,100 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-bass-siebte-neunte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 21–22, S. 26–29",
+          "text": "Der Bass soll sich nicht nur als Akkordgrundlage, sondern auch als singbare Linie bewähren. Häufige Schritte und sinnvoll gesetzte Sprünge ergänzen einander. Eine starre Obergrenze der Sprungweite lehnt Spaldings Beispielsammlung ab: Selbst Septimen und Nonen können in einer guten Bassmelodie vorkommen, wie er an Rheinbergers Alpenandacht zeigt. Das Beispiel ist kein Freibrief für unmotivierte große Sprünge. Maßgeblich bleiben melodischer Zusammenhang, Rückkehr aus den Lagen und die Tragfähigkeit der Harmonie.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Große Sprünge in einer vokalen Bassmelodie",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, §§ 21–22, S. 26–29",
+              "note": "Die zugespitzte Erlaubnis wird durch das ausdrücklich genannte romantische Vokalbeispiel von Rheinberger begründet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=40"
+        },
+        {
+          "id": "spalding1904-open-verminderte-und-septimen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 27, S. 36–38",
+          "text": "Spalding behandelt auch veränderte Intervalle und Septimen nach ihrem Zusammenhang. Die verminderte Quinte ist im reinen Vokalsatz geläufiger als die übermäßige Quarte; letztere strebt normalerweise zur Erweiterung, kann aber für besondere Wirkungen anders fortgeführt werden. Eine absteigende verminderte Quarte kann in Moll ausdrucksvoll wirken. Die kleine Septime, besonders als Umfang eines Dominantseptakkords, eignet sich auch für melodische Basssprünge; die verminderte Septime ist in Moll und chromatisch auch in Dur möglich. Instrumentale Möglichkeiten werden dabei von vorsichtigerem vokalem Gebrauch unterschieden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Charakteristische Sprungintervalle im tonalen Satz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 27, S. 36–38",
+              "note": "§ 27 erläutert die Intervalle unter anderem mit Händels Messiah sowie Beethoven, Cui und Liszt und unterscheidet vokalen und instrumentalen Gebrauch."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=50"
+        },
+        {
+          "id": "spalding1904-two-spruenge-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 37, S. 61; § 43, S. 64 · Sprünge in der ersten Ordnung",
+          "text": "Für die erste Ordnung bevorzugt Spalding diatonische Bewegung, erlaubt zur Abwechslung aber große und kleine Terzen, reine Quarten und Quinten, große und kleine Sexten sowie Oktaven als Sprünge. Septimen und übermäßige oder verminderte Intervalle sollen zunächst vermieden werden. Eine ausdrückliche Ausnahme ist die verminderte Quinte: Ihr Zielton muss anschließend in den übersprungenen Raum zurückgeführt werden. Die gestatteten großen Intervalle rechtfertigen keine beliebigen Sprungketten; aufeinanderfolgende weite Sprünge in derselben Richtung lehnt er in dieser Aufgabe ab.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 37, S. 61; § 43, S. 64 · Sprünge in der ersten Ordnung",
+              "note": "Die vorläufige Beschränkung in § 37 und die verminderte Quinte sind ausdrücklich benannt; die Beispiele und § 43 wurden auf S. 61 und 64 visuell geprüft. Keine Regel für sämtliche spätere Instrumentalmelodien."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=75"
+        },
+        {
+          "id": "spalding1904-multi-uebermaessige-sekunde-streicher",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 102, S. 147–148, Mollskalen-Trio (f); Kap. VIII, § 115, S. 178",
+          "text": "Für Streicher lässt Spalding größere melodische Freiheit zu als für Stimmen. Im Trio über die Mollskala begründet er eine absteigende übermäßige Sekunde mit charakteristischer Wirkung und erklärt sie bei nicht zu raschem Tempo für gut ausführbar. Später nennt er weitere Sprünge und chromatische Intervalle als Möglichkeiten des Streichersatzes. Anfänger sollen daraus aber keinen Zwang zu ungewöhnlichen Intervallen machen: Jede Erweiterung braucht einen überzeugenden melodischen Zweck und eine passende Ausführung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Trio- und Quartettsatz · erweiterte melodische Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 102, S. 147–148, Mollskalen-Trio (f); Kap. VIII, § 115, S. 178",
+              "note": "S. 148 nennt ausdrücklich Streicher und Tempo als Bedingungen; § 115 begründet die Abweichung vom Vokalsatz aus instrumentalen Möglichkeiten."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=161"
         }
       ],
       "related": [
         "generalbass-sextakkord",
         "sprung-und-taktgewicht",
-        "tritonus-melodiebogen"
+        "tritonus-melodiebogen",
+        "satzmedium"
       ],
       "relations": [
         {
@@ -3740,6 +3985,18 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "contradiction",
           "note": "Prouts strenger Satz lässt bestimmte verminderte Sprünge und die aufsteigende kleine Septime unter benannten Fortsetzungsbedingungen zu. Schönbergs anfängliche melodische Regeln schließen diese Sprungarten aus. Die Erleichterung für Sexten hebt diesen Unterschied nicht auf."
+        },
+        {
+          "from": "spalding1904-two-spruenge-erste",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Spalding schließt in seiner vorbereitenden ersten Ordnung Septimensprünge und zunächst die meisten verminderten Sprünge aus; nur die verminderte Quinte erhält eine ausdrückliche Ausnahme. Prouts Antwort zur Melodieführung im strengen Satz gestattet dagegen auch verminderte Quarte und Septime sowie eine bestimmte aufsteigende kleine Septime. Der Unterschied betrifft den Umfang der konkreten Lehrvorgabe: Aus Spaldings insgesamt freierem Lehrziel folgt keine größere Freiheit in jedem einzelnen Anfangsschritt."
+        },
+        {
+          "from": "spalding1904-multi-uebermaessige-sekunde-streicher",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Spalding begründet die absteigende übermäßige Sekunde ausdrücklich mit ihrer Ausführbarkeit auf Streichern und einem passenden Tempo. Jeppesens hier belegter melodischer Vorrat für den Palestrina-Stil schließt übermäßige Intervalle aus. Instrumentale Schreibaufgabe und vokales Stilmodell haben unterschiedliche Voraussetzungen."
         }
       ]
     },
@@ -5122,6 +5379,75 @@ const ATLAS = {
           "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
           "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-betonter-durchgang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45, S. 70–71, und § 46, S. 71–73; Kap. IV, § 58, S. 94 · betonte Durchgänge in zweiter und dritter Ordnung",
+          "text": "Spalding setzt betonte Durchgänge gezielt für eine selbständige, zusammenhängende Gegenstimme ein. In der zweiten Ordnung kann die schwere Note dissonieren, wenn auf der nächsten leichten Position ein Akkordton einen Schritt höher oder tiefer folgt. Sobald das harmonische Gerüst beherrscht wird, empfiehlt er diese Möglichkeit häufig, damit die Stimme nicht bei einer bloßen rhythmischen Ausfüllung von Akkorden stehen bleibt. Auf S. 72 stellt er zwei Fassungen derselben Aufgabe gegenüber. Auch im instrumentalen Vier-gegen-eins dürfen betonte Durchgänge auf dem dritten, sogar auf dem ersten Ton der Gruppe systematisch verwendet werden.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale zweistimmige Übungen · zweite Ordnung und instrumentale dritte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45, S. 70–71, und § 46, S. 71–73; Kap. IV, § 58, S. 94 · betonte Durchgänge in zweiter und dritter Ordnung",
+              "note": "Die Erlaubnis für 2:1 steht ausdrücklich in § 45, ihre häufige Verwendung als Lehrziel in § 46. Die zusätzliche 4:1-Erlaubnis folgt in § 58; § 55, S. 86–87, legt dort Streicher und Klavier als Medium fest. Noten und Text auf S. 70–72 und 94 visuell geprüft."
+            }
+          },
+          "examples": [
+            "spalding-betonte-durchgaenge"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=84"
+        },
+        {
+          "id": "spalding1904-multi-gemischte-dissonanzen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 100, S. 140–141, Beispiel mit (a), (b), (c) · zweite und dritte Ordnung kombiniert",
+          "text": "Zwischen den beiden begleitenden Stimmen lässt Spalding bei gemischten Ordnungen betonte Durchgänge und wechselnotenartige Wendungen entstehen. Zunächst verlangt er Gegenbewegung und einen diatonischen Verlauf wenigstens der Viertelstimme. Im Beispiel mit dem gegebenen Bass können die beiden oberen Stimmen miteinander dissonieren, obwohl jede für sich zum Bass regelgerecht geführt ist. Der Zusammenstoß wird aus den gleichzeitigen Linien erklärt und muss nicht zu einem selbständigen Akkord umgedeutet werden.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweite und dritte Ordnung · drei Stimmen mit bewegten Begleitlinien",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 100, S. 140–141, Beispiel mit (a), (b), (c) · zweite und dritte Ordnung kombiniert",
+              "note": "Die Bedingungen stehen vor dem Beispiel auf S. 140; der Kommentar auf S. 141 unterscheidet ausdrücklich die Beziehung der Oberstimmen untereinander und zum Bass."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=154"
+        },
+        {
+          "id": "spalding1904-multi-chromatischer-zusammenstoss",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 116, S. 180, Fortsetzung der Gluck-Aussetzung (a)",
+          "text": "In Spaldings Streicheraussetzung der Gluck-Melodie trifft ein betontes c im Alt auf cis im Bass. Er erklärt das c als Durchgang und hebt gerade die Wirkung dieser Reibung hervor. Die abweichenden Formen desselben Stammtons bedeuten hier daher nicht automatisch einen Schreibfehler. Zu prüfen sind der Verlauf der Altlinie und der harmonisch bestimmte Bass an dieser konkreten Stelle; eine allgemeine Erlaubnis jedes gleichzeitigen chromatischen Zusammenstoßes gibt die Passage nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmiger Streichersatz über eine Gluck-Melodie · betonter Durchgang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 116, S. 180, Fortsetzung der Gluck-Aussetzung (a)",
+              "note": "Der Kommentar benennt c im Alt und cis im Bass ausdrücklich; der Notentext der markierten Stelle wurde visuell geprüft."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=194"
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -5208,6 +5534,12 @@ const ATLAS = {
           "to": "menke2017-8",
           "type": "nuance",
           "note": "Beide Autoren rechnen betonte Durchgänge und Wechselnoten zum Transitus irregularis. Daniel differenziert innerhalb dieser gemeinsamen Einteilung zusätzlich halbschwere und schwere Achtel sowie ganze Viertel und gewinnt so fünf Grundfälle. Der Mehrwert liegt in der metrischen und zeitlichen Abstufung, nicht in einer gegensätzlichen Zulassung des betonten Transitus."
+        },
+        {
+          "from": "spalding1904-two-betonter-durchgang",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prout lässt im 2:1 einen betonten Durchgang als Ausnahme zugunsten der Linie zu, lehnt ihn im 4:1 aber ausdrücklich ab. Spalding macht solche Töne im 2:1 zu einem häufigen Mittel der melodischen Selbständigkeit und gestattet sie auch systematisch auf Haupt- und Nebenakzenten des 4:1. Für die dritte Ordnung hat er die Aufgabe ausdrücklich auf Streicher und Klavier ausgerichtet; die unterschiedliche Erlaubnis gehört zu diesen verschiedenen Übungsrahmen."
         }
       ]
     },
@@ -5608,6 +5940,29 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-sprung-in-dissonanz",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 51, S. 80–81, Beispiel (a); Kap. IV, § 58, S. 93–94 · angesprungene Nebentöne",
+          "text": "Spaldings Ausdruck „accented passing note“ umfasst auch appoggiaturartige Töne, deren Eintritt nicht schrittweise erfolgt. Im Modell der zweiten Ordnung auf S. 81 wird die markierte betonte Dissonanz durch einen Terzsprung in Gegenbewegung zum Bass erreicht. Für das spätere freie Schreiben für Klavier oder Streicher erklärt er außerdem, dass Wechselnoten häufig angesprungen werden, gewöhnlich aber schrittweise weitergehen. Das ersetzt nicht seine Regel für einen gewöhnlichen Durchgang: Diesen verlangt § 57 schrittweise und in gleichbleibender Richtung. Entscheidend ist also auch, welchen melodischen Vorgang der Ton bildet.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung und freie instrumentale Behandlung in der dritten Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 51, S. 80–81, Beispiel (a); Kap. IV, § 58, S. 93–94 · angesprungene Nebentöne",
+              "note": "Das Modell auf S. 81 und der Kommentar zu angesprungenen Wechselnoten auf S. 94 wurden visuell geprüft. Die unterschiedliche Verwendung der Begriffe passing note und auxiliary note wird gewahrt; es entsteht keine allgemeine Sprungerlaubnis für jeden Durchgang."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=94"
         }
       ],
       "relations": [
@@ -6381,6 +6736,73 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-vorhalt-aufwaerts",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 75, S. 109–110, Tabellen a–e · Vorhalte von oben und unten",
+          "text": "Im synkopierten Satz lässt Spalding einen Akkordgrundton oder eine Terz von oben verzögern; bei Grundton im Bass ergeben sich die geläufigen Folgen 9–8 und 4–3. Eine Auflösung nach oben ist ebenfalls möglich: Häufig steigt der übergebundene Leitton zur Tonika, gelegentlich die zweite Stufe zur Terz. Den letztgenannten Fall erlaubt er jedoch nicht mit der Terz selbst im Bass. Seine Tabellen unterscheiden deshalb Grundstellung und Sextstellung des Zielakkords. Die Auflösungsrichtung hängt hier vom verzögerten Akkordton und von der Basslage ab.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 75, S. 109–110, Tabellen a–e · Vorhalte von oben und unten",
+              "note": "Die Tabellen und die Erklärung auf S. 109–110 wurden visuell geprüft. 9–8 und 4–3 beschreiben hier die Grundstellungsbeispiele; dieselben Akkordtöne ergeben bei verändertem Bass andere Intervallzahlen. Der Ausschluss bei der von unten verzögerten Terz wird bewahrt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=123"
+        },
+        {
+          "id": "spalding1904-two-verzierung-dreiertakt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 83, S. 116–117 · verzierte Auflösung im synkopierten Dreiertakt",
+          "text": "Für synkopierten Kontrapunkt mit drei Noten gegen eine erklärt Spalding die verzierte Auflösung als Einschub zwischen Vorhalt und normalem Auflösungston. Der eingeschobene Ton kann zum verzögerten Akkord gehören, etwa dessen Quinte. Er kann auch eine akkordfremde „changing note“ sein, die im Terzsprung erreicht und anschließend schrittweise zum dazwischenliegenden Auflösungston geführt wird. Für die Kadenz dieser Bewegungsart verlangt er eine solche Verzierung. Selbst eine unter den Grundton springende Akkordquinte kann als Einschub verwendet werden, ohne hier eine problematische Quartsextwirkung zu erzeugen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Synkopierte Ordnung · dreiteilige Bewegung und verzierte Auflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 83, S. 116–117 · verzierte Auflösung im synkopierten Dreiertakt",
+              "note": "§ 83 steht ausdrücklich innerhalb der synkopierten Ordnung; die Drei-gegen-eins-Rhythmik wird deshalb nicht automatisch als dritte Spezies etikettiert. Tabellen und Bassquintenbeispiel auf S. 117 visuell geprüft. Die Quartsext-Erlaubnis betrifft den ornamental eingeschobenen Ton."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=130"
+        },
+        {
+          "id": "spalding1904-multi-durchgang-terzsprung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 100, S. 141, mittleres Beispiel (a) und (b) · Durchgangsdissonanz mit Terzsprung",
+          "text": "Gelegentlich darf eine dissonierende Durchgangsnote nach Spalding mit einem Terzsprung gegen ihre bisherige Bewegungsrichtung verlassen werden. Er erklärt dies ausdrücklich als Analogie zu den changing notes und zeigt zwei Stellen nach einer vorübergehenden Septime. Solche selbständigen Linienverbindungen findet er charakteristisch, verlangt aber sparsamen Gebrauch. Die Ausnahme betrifft diese bewegten dreistimmigen Kombinationen; sie ersetzt nicht die gewöhnliche schrittweise Führung jeder Durchgangsnote.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Gemischte zweite und dritte Ordnung · besondere Fortführung einer Durchgangsnote",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 100, S. 141, mittleres Beispiel (a) und (b) · Durchgangsdissonanz mit Terzsprung",
+              "note": "Der Text bezeichnet die Terzsprünge ausdrücklich als gelegentliche Analogie zu changing notes und warnt vor zu häufiger Verwendung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=155"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -6461,6 +6883,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-3",
           "type": "nuance",
           "note": "Bei Neidhöfer und Schubert übernimmt die andere Stimme zunächst die Septime und führt diese dann abwärts. Daniels Heterolepsis der Auflösung kann unmittelbar den erwarteten Zielton einer anderen Stimme übertragen. Beide erhalten den Auflösungszusammenhang, verteilen seine beiden Töne aber verschieden auf die notierten Stimmen."
+        },
+        {
+          "from": "spalding1904-two-vorhalt-aufwaerts",
+          "to": "prout1890-1",
+          "type": "context",
+          "note": "Prouts strenge Vorhaltsübung nennt für die Auflösung von unten genau den Leitton zur Tonika. Spalding führt zusätzlich die von der zweiten Stufe aus verzögerte Terz auf, schließt diesen Fall jedoch bei Terz im Bass aus. Die zusätzliche Möglichkeit betrifft seinen tonalen synkopierten Übungsrahmen; Prouts ausdrücklich enger gefasste Vorschrift für den strengen Satz bleibt als solche erkennbar."
         }
       ]
     },
@@ -6504,7 +6932,8 @@ const ATLAS = {
       "related": [
         "verdeckte-parallelen",
         "generalbass-sextakkord",
-        "doppelleitton-kadenz"
+        "doppelleitton-kadenz",
+        "terzen-sexten-folgen"
       ],
       "authors": [
         {
@@ -7227,6 +7656,137 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-parallelen-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 47, S. 75–76 · harmonisch tragende und leichte Positionen",
+          "text": "Spalding prüft in der zweiten Ordnung die Verbindung der Harmonien auf den schweren Positionen. Quinten oder Oktaven zwischen solchen Gerüsttönen werden nicht allein durch eine eingeschobene leichte Note gerechtfertigt. Zwischen leichten Positionen oder von einer leichten zu einer schweren kann die gleiche Intervallfolge dagegen zulässig sein, wenn keine fehlerhafte harmonische Verbindung entsteht. Er zeigt deshalb bei Zweifelsfällen ausdrücklich das vereinfachte Harmoniegerüst. Die metrische Lage ist ein Anhaltspunkt; die Rolle der Töne innerhalb der gemeinten Harmonie entscheidet mit.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 47, S. 75–76 · harmonisch tragende und leichte Positionen",
+              "note": "Text sowie gute und schlechte Beispiele mit harmonischen Reduktionen auf S. 75–76 visuell geprüft. Keine pauschale Aussage, dass sämtliche Quinten auf leichten Positionen erlaubt seien."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=89"
+        },
+        {
+          "id": "spalding1904-two-parallelen-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 60, S. 95–96 · zeitlich getrennte Quinten und Oktaven",
+          "text": "Im Vier-gegen-eins beanstandet Spalding Quint- und Oktavfolgen zwischen den ersten, harmonisch tragenden Noten benachbarter Gruppen. Auch gleiche Positionen innerhalb aufeinanderfolgender Figuren können die Folge hervorheben. Als Faustregel nennt er vier Zwischentöne, die den Zusammenhang aufheben; bei deutlicher Gegenbewegung können schon ein oder zwei genügen. Für Quinten zwischen zwei Durchgangstönen oder von einem Akkord- zu einem Durchgangston erlaubt er einen bis drei Zwischentöne. Geht der Durchgang der zweiten, harmonisch tragenden Note voraus, muss diese schrittweise erreicht und verlassen werden. Eine reine Zählung der Abstände reicht somit nicht: Die harmonische Rolle und die Bewegungsrichtung gehören zur Prüfung.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 60, S. 95–96 · zeitlich getrennte Quinten und Oktaven",
+              "note": "Die Regeln und Beispiele auf S. 95–96 wurden visuell geprüft. Die besondere Regel mit ein bis drei Zwischentönen ist im Text nur für Quinten formuliert; sie wird nicht stillschweigend auf Oktaven erweitert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=109"
+        },
+        {
+          "id": "spalding1904-two-parallelen-synkope",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, §§ 76–79, S. 111–113 · harmonische Reduktion der Synkopen",
+          "text": "Um Quint- und Oktavfolgen im synkopierten Satz zu beurteilen, reduziert Spalding die Bindungen auf ihr harmonisches Gerüst. In seinem ersten Fall bilden die jeweils zweiten Gegenstimmennoten mit dem Subject die maßgebliche Harmonie; scheinbare Quinten auf den Taktanfängen sind deshalb nicht entscheidend. Eine andere Kette verbirgt dagegen drei Oktaven und anschließend drei Quinten und bleibt fehlerhaft. Auch das Unterbrechen einer vorher gültigen Bindung kann den harmonischen Zusammenhang verändern. Die Prüfung besteht somit nicht darin, jeden gleichzeitigen Abstand zu zählen, sondern die tragenden Töne der Fortschreitung freizulegen. Die Fußnote zeigt daneben einen abweichenden Haydn-Fall als Repertoirebeleg.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, §§ 76–79, S. 111–113 · harmonische Reduktion der Synkopen",
+              "note": "Reduktionen, Gegenbeispiele und Haydn-Fußnote auf S. 111–113 visuell geprüft. Der Repertoirefall wird nicht als allgemeine Freigabe für die Übungsaufgabe behandelt; es gibt ebenso ausdrücklich unerlaubte harmonische Folgen trotz Synkopen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=125"
+        },
+        {
+          "id": "spalding1904-two-parallelen-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 90, S. 122 · Quinten und Oktaven in Auflösungsverzierungen",
+          "text": "Bei verzierten Vorhaltsauflösungen lässt Spalding Quint- und Oktavfolgen zu, wenn sie durch die eingeschobene Bewegung entstehen und keine eigenständige harmonische Bedeutung besitzen. Die Beispiele führen solche Intervalle innerhalb des melodischen Auflösungsverlaufs vor. Die Erlaubnis bezieht sich auf diese ornamentalen Verbindungen. Sie hebt seine Prüfung der harmonisch tragenden Fortschreitungen nicht auf: Eine im Gerüst vorhandene fehlerhafte Folge wird nicht schon dadurch gültig, dass man sie mit bewegten Noten umgibt.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 90, S. 122 · Quinten und Oktaven in Auflösungsverzierungen",
+              "note": "§ 90 mit den markierten Quinten und Oktaven auf S. 122 visuell geprüft. Der Zusammenhang mit der Gerüstprüfung folgt den ausdrücklich erläuterten §§ 76–79, S. 111–113; die ornamentale Erlaubnis wird nicht zu einem allgemeinen Parallelverbot oder einer allgemeinen Freigabe umgedeutet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=136"
+        },
+        {
+          "id": "spalding1904-multi-quinten-harmoniewechsel",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 111, S. 165–166, Beispiel 2 (a) · Tenor und bewegter Bass",
+          "text": "In der Aussetzung mit dem Thema im Alt kommentiert Spalding die markierten Quinten zwischen Tenor und Bass als zulässigen Ausnahmefall. Er begründet dies mit einem zusätzlichen Harmoniewechsel auf dem zweiten Schlag, der die Aufmerksamkeit von der beanstandeten Verbindung ablenke. Der Hinweis gilt der konkret notierten Fortschreitung mit bewegtem Bass. Er formuliert keine allgemeine Regel, nach der irgendein eingeschobener Ton oder Akkord jede Quintverbindung unschädlich machen würde.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Aussetzung · zwei Bassnoten gegen einen Melodieton",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 111, S. 165–166, Beispiel 2 (a) · Tenor und bewegter Bass",
+              "note": "Der Kommentar zu Beispiel 2 (a) nennt ausdrücklich Tenor und Bass sowie den exceptional change of harmony on the second beat. Die notierte Ausnahme wird nicht erweitert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=179"
+        },
+        {
+          "id": "spalding1904-free-19",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, Übung 4, S. 249–250 · Stelle (a), Sopran und Tenor",
+          "text": "In der freien vierstimmigen Übung 4 stehen bei (a) parallele Quinten zwischen Sopran und Tenor. Spalding akzeptiert diese konkrete Folge mit einer harmonischen Begründung: Das gis des Soprans ist ein Durchgangston, weshalb die Quinten für ihn keine Folge tragender Harmonietöne darstellen. Die Beurteilung berücksichtigt damit die Funktion der beteiligten Töne im Verlauf. Das Beispiel gibt keine allgemeine Erlaubnis, beliebige Quintparallelen durch die Bezeichnung Durchgang zu entschuldigen; an anderen Stellen desselben Kapitels verlangt Spalding gerade eine eigene Begründung auffälliger Quintfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier vierstimmiger Übungssatz für Stimmen oder Streicher",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, Übung 4, S. 249–250 · Stelle (a), Sopran und Tenor",
+              "note": "Das Notenbild mit Marke (a) steht auf S. 249; der ausdrückliche Kommentar auf S. 250 nennt soprano and tenor sowie g# als passing note. Die Zuordnung wurde im vergrößerten Notenbild geprüft. Auf S. 253 und 257 folgen Fragen nach weiteren Quintfolgen, deren Antworten hier nicht erfunden werden."
+            }
+          },
+          "examples": [
+            "spalding-durchgangsquinten"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=263"
         }
       ],
       "relations": [
@@ -7891,6 +8451,71 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-aussen-innen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 5, S. 3",
+          "text": "Bei einer aufsteigenden Bassverbindung von der zweiten Stufe zur Dominante empfiehlt Spalding in den oberen Stimmen Gegenbewegung. Die verdeckte Oktave zwischen den Außenstimmen ist in seinem Gegenbeispiel deutlich ungünstig. Tritt die entsprechende Verbindung zwischen inneren Stimmen auf, beurteilt er sie weniger streng. Die konkrete Stimmenlage und die Grundtonverbindung gehören damit zur Bewertung; aus dem Beispiel folgt kein unterschiedsloses Verbot jeder ähnlichen Bewegung in allen Stimmenpaaren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Verdeckte Oktaven in einer vierstimmigen Dreiklangverbindung",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 5, S. 3",
+              "note": "§ 5 unterscheidet die im Beispiel markierte Außenstimmenoktave von weniger auffälligen Verbindungen innerer Stimmen. Der tonale Vokalrahmen steht im Vorwort S. vi und Kap. I."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=17"
+        },
+        {
+          "id": "spalding1904-two-verdeckte-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 39, S. 61–62 · verdeckte Quinten und Oktaven",
+          "text": "In der zweistimmigen ersten Ordnung empfiehlt Spalding grundsätzlich Zurückhaltung mit verdeckten Quinten und Oktaven. Besonders bedenklich sind ihm gleichzeitige Sprünge, aufsteigende Bewegung und die Annäherung einer Stimme im Ganzton. Abwärtsbewegung mit einer schrittweise geführten Stimme, besonders im Halbton, eröffnet mehr Möglichkeiten. Eine aufsteigende verdeckte Oktave nennt er ausdrücklich gut, wenn die Oberstimme sie im Halbton erreicht. Seine Bemerkungen über größere Freiheit mit Innenstimmen betreffen dagegen den mehrstimmigen Satz: In der Zweistimmigkeit gelten beide Stimmen für ihn als Außenstimmen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 39, S. 61–62 · verdeckte Quinten und Oktaven",
+              "note": "Text, erlaubte Beispiele und die Fußnote zur Unterscheidung von Zwei- und Mehrstimmigkeit auf S. 62 visuell geprüft. Die besondere aufsteigende Erlaubnis betrifft eine Oktave, nicht pauschal jede verdeckte Quinte."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=75"
+        },
+        {
+          "id": "spalding1904-multi-verdeckte-dreistimmig",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 132; Rückverweis auf Kap. II, § 39 · drei Stimmen",
+          "text": "In der Dreistimmigkeit beurteilt Spalding verdeckte Quinten und Oktaven milder als im besonders durchsichtigen Zweistimmensatz. Sie können zulässig sein, wenn dadurch eine melodisch bessere Fortsetzung entsteht. Diese Lockerung ersetzt seine früheren Bedingungen jedoch nicht: Er verweist ausdrücklich auf § 39 und dessen Unterscheidung nach Stimmenpaar, Bewegungsrichtung und schrittweiser Annäherung. Die zusätzliche Stimme schafft also Spielraum, aber keinen unterschiedslosen Freibrief für jeden direkten Eintritt in eine Quinte oder Oktave.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Übung · verdeckte vollkommene Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 96, S. 132; Rückverweis auf Kap. II, § 39 · drei Stimmen",
+              "note": "S. 132 nennt den Gewinn an melodischer Qualität und behält die Erwägungen aus § 39 ausdrücklich bei. Die Aussage ist nicht auf eine bestimmte historische Periode eingegrenzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=146"
         }
       ],
       "relations": [
@@ -7995,6 +8620,12 @@ const ATLAS = {
           "to": "piston1947-1",
           "type": "context",
           "note": "Piston beurteilt direkte Quinten und Oktaven in Bach-Fugen nach der rhythmischen Hervorhebung des Zielintervalls. Daniel bindet die nicht bloß aus Tonumverteilung entstehende Außenoktave im Choralsatz vor allem an Kadenz- und Zeilenschlüsse, mit eigens genannten Ausnahmen. Derselbe Komponist liefert je nach Gattung verschiedene Maßstäbe."
+        },
+        {
+          "from": "spalding1904-two-verdeckte-erste",
+          "to": "prout1890-1",
+          "type": "nuance",
+          "note": "Für die erste Ordnung empfiehlt Prout, verdeckte Quinten und Oktaven auch an der Kadenz zu meiden. Spalding bewertet innerhalb derselben Note-gegen-Note-Aufgabe bestimmte Annäherungen ausdrücklich positiv, darunter die aufsteigende verdeckte Oktave bei halbtonweise aufsteigender Oberstimme. Verglichen werden diese Anfangsempfehlungen; Prouts gesonderte Möglichkeiten der zweiten Spezies werden dadurch nicht bestritten."
         }
       ]
     },
@@ -8036,7 +8667,9 @@ const ATLAS = {
         "stimmuebergreifen",
         "doppelter-kontrapunkt",
         "stimmen-ergaenzen",
-        "choral-stimmumfang"
+        "choral-stimmumfang",
+        "satzmedium",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -8595,6 +9228,116 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-vokale-innenstimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 26, S. 33–35",
+          "text": "Alt und Tenor können sich kreuzen, wenn ihre Linien dadurch freier und musikalisch besser werden. Spalding zeigt dies unter anderem an Festa und Bachs Weihnachtsoratorium. Für die ersten eigenen Vokalübungen empfiehlt er dennoch seltene und kurze Kreuzungen: Der Lernende soll zunächst auch innerhalb klar unterscheidbarer Lagen gute Linien erfinden können. Die Übungsbeschränkung ist somit enger als die vorgeführte kompositorische Praxis; über eine Kreuzung entscheidet ihr melodischer Gewinn im konkreten Satz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "renaissance",
+              "baroque"
+            ],
+            "reach": "cross-style",
+            "frame": "Kreuzung von Alt und Tenor; Vokalübung und Repertoire",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 26, S. 33–35",
+              "note": "Die Passage nennt Festa und Bach und begrenzt die Zurückhaltung ausdrücklich auf frühe Übungen. Der zusätzliche Renaissancebezug folgt dem Festa-Beispiel, nicht dem Erscheinungsjahr des Lehrbuchs."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=47"
+        },
+        {
+          "id": "spalding1904-two-stimmkreuzung-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 66, S. 102, unteres Mollbeispiel · Kreuzung und Ausführungsmedium",
+          "text": "Im unteren Mollkontrapunkt auf S. 102 lässt Spalding die Gegenstimme am Anfang kurz über das Subject kreuzen. Der hohe Anfang soll ihr einen größeren Gesamtumfang ermöglichen. Auch das dabei auftretende Zusammenfallen auf demselben c beanstandet er für zwei Streichinstrumente nicht. Am Klavier sollen die Stimmen hingegen nicht lange so dicht beieinanderbleiben: Dieselbe Taste kann ihre verschiedenen Funktionen nicht unabhängig ausführen, und die Wiederholung verdeckt die Eigenart des Subjects. Die Stelle begründet eine konkrete Kreuzung aus Linienumfang und Instrument.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 66, S. 102, unteres Mollbeispiel · Kreuzung und Ausführungsmedium",
+              "note": "Unteres Beispiel und Erläuterung auf S. 102 visuell geprüft. Die Erlaubnis betrifft eine kurze Anfangskreuzung, keine dauerhafte Beliebigkeit der Stimmenlage."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=116"
+        },
+        {
+          "id": "spalding1904-multi-kreuzung-instrumente",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 131; Beispiele aus Dvořák op. 74 und Bachs erster Orgel-Triosonate",
+          "text": "Bei instrumentalen Trios kann das Kreuzen der Mittel- und Oberstimme ihren melodischen Raum vergrößern. Spalding führt dafür einen Ausschnitt aus Dvořáks Streichtrio op. 74 und Bachs erster Orgel-Triosonate an. Auf der Orgel erleichtern getrennte Manuale die Ausführung gekreuzter Linien; auf dem Klavier hält er denselben Effekt für weniger günstig. Die erlaubte Kreuzung wird damit aus Besetzung und Ausführung erklärt. Sie ist keine Anweisung, die Registerordnung in jeder Vokalübung aufzugeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Streicher- und Orgeltrio · Stimmkreuzung im Repertoirevergleich",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. VII, § 96, S. 131; Beispiele aus Dvořák op. 74 und Bachs erster Orgel-Triosonate",
+              "note": "Die beiden ausdrücklich bezeichneten Beispiele verbinden Dvořáks Streicherbesetzung mit Bachs Orgeltrio; die Manualverteilung wird als praktischer Grund genannt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=145"
+        },
+        {
+          "id": "spalding1904-multi-kreuzung-vier-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 106, S. 154; § 112, S. 167–169 · vierstimmige Vokalübungen und bewegte Innenstimmen",
+          "text": "Auch im einfachen vierstimmigen Satz lässt Spalding gelegentliche Kreuzungen zu, besonders zwischen den Mittelstimmen. Der Alt kann kurz über den Sopran treten; den Bass über dem Tenor behandelt er als selteneren Fall. In den Übungen mit fließender Innenstimme soll man die normale Lage zunächst ausschöpfen. Erst ein wirklicher Gewinn an Umfang, Abwechslung und melodischem Verlauf rechtfertigt die Kreuzung. Die größere Freiheit späterer Streicherstücke soll nicht schon beim ersten Schreibproblem als Ausweg dienen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmiger Übungssatz · begründete Erweiterung einer Innenstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 106, S. 154; § 112, S. 167–169 · vierstimmige Vokalübungen und bewegte Innenstimmen",
+              "note": "§ 106 gibt die Abstufung nach Stimmenpaar; § 112 verlangt vor der Kreuzung ausdrücklich den Versuch einer überzeugenden Führung in normaler Lage."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
+        },
+        {
+          "id": "spalding1904-free-12",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, §§ 172–173, S. 236–238, und Haydn-Aussetzung S. 239–240 · innere Streicherstimmen",
+          "text": "Im freien Streichersatz empfiehlt Spalding Kreuzungen der Mittelstimmen als ein wesentliches Gestaltungsmittel. Sie können einer Linie eine abwechslungsreichere Kontur geben und wichtige Akkordtöne in das klanglich günstigere Register eines Instruments bringen. Dafür zeigt er unter anderem Ausschnitte von Mozart, Haydn und Richard Strauss; Schumann und Brahms veranschaulichen die Verbindung von Klangverteilung und melodischem Interesse. Im eigenen Modell zur Haydn-Melodie hebt er die Kreuzung von zweiter Violine und Bratsche im dritten und vierten Takt ausdrücklich hervor. Die gekreuzte Lage erfüllt hier eine positive instrumentale Aufgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Freier Streichersatz mit selbstständigen Mittelstimmen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XII, §§ 172–173, S. 236–238, und Haydn-Aussetzung S. 239–240 · innere Streicherstimmen",
+              "note": "§ 173 nennt sowohl die melodische Kontur als auch das sonorste Instrumentenregister als Zwecke der Kreuzung. S. 240 lokalisiert die Kreuzung von zweiter Violine und Bratsche in T. 3–4 des auf S. 239 begonnenen Modells. Die Aussage wird nicht auf alle Stimmenpaare und alle Übungsstufen ausgeweitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=250"
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -8711,6 +9454,12 @@ const ATLAS = {
           "to": "salzer-schachter1989-2",
           "type": "context",
           "note": "In der dreistimmigen Speziesübung von Salzer und Schachter übernimmt eine unter die bisherige Bassstimme kreuzende Mittelstimme die Bassfunktion. Daniels Choralsatzbeispiel verlangt zusätzlich den klingenden Instrumentalbass zu berücksichtigen: Bleibt dessen Oktavverdopplung darunter, wandert das Bassfundament nicht mit dem tiefsten Vokalton. Entscheidend ist die vollständige Besetzung."
+        },
+        {
+          "from": "spalding1904-free-12",
+          "to": "kennan1999-1",
+          "type": "context",
+          "note": "Kennan schließt Kreuzungen in den ersten zweistimmigen Aufgaben vorläufig aus, damit beide Linien als Ober- und Unterstimme lesbar bleiben. Spalding empfiehlt sie im fortgeschrittenen freien Streichersatz gerade für melodische Kontur und Instrumentenregister. Die gegensätzlichen Anweisungen betreffen verschiedene Übungsstufen, Besetzungen und Lernziele; sie sind kein allgemeiner Widerspruch über komponierte Musik."
         }
       ]
     },
@@ -8823,6 +9572,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-uebergreifen-vier-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 106, S. 154, erstes kleines Notenbeispiel · benachbarte Stimmen",
+          "text": "Im vierstimmigen Note-gegen-Note-Satz erlaubt Spalding gelegentlich auch das Übergreifen benachbarter Stimmen. Sein kleines Beispiel zeigt den Wechsel in eine zuvor von der Nachbarstimme besetzte Lage, ohne dies mit einer dauerhaften Umkehrung ihrer Registerordnung gleichzusetzen. Die Erlaubnis steht im Zusammenhang seines Ziels, jede Stimme melodisch beweglich zu halten. Sie betrifft diese mehrstimmige Aufgabe und ist kein Urteil über das Übergreifen in sämtlichen zweistimmigen Anfängerübungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Einfacher vierstimmiger Vokalsatz · gelegentliches Übergreifen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 106, S. 154, erstes kleines Notenbeispiel · benachbarte Stimmen",
+              "note": "§ 106 nennt adjacent voices und overlap ausdrücklich und gibt dazu ein eigenes Notenbeispiel."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
         }
       ],
       "relations": [
@@ -9131,6 +9900,48 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-dreistimmige-lage",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 94 und 96, S. 129–131 · Abstand der drei Stimmen",
+          "text": "Für einen vollen dreistimmigen Klang empfiehlt Spalding zunächst möglichst gleichmäßige Abstände. Erzwingt der Melodieverlauf eine größere Lücke, soll sie eher zwischen Bass und Mittelstimme als dauerhaft zwischen den beiden oberen Stimmen liegen. Die Akkordterz gehört bevorzugt in ein mittleres oder hohes Register und soll nicht dicht am tiefen Bass verborgen werden. Für Instrumente lockert er anschließend die enge Gruppierung: Ihre größeren Umfänge geben den Linien mehr Bewegungsraum als im Vokalsatz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmiger Satz · vokale Klanglage und instrumentale Erweiterung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 94 und 96, S. 129–131 · Abstand der drei Stimmen",
+              "note": "Die Abstandsmodelle stehen in § 94; § 96 begründet größere instrumentale Abstände aus Umfang und Klangwirkung, nicht aus einer historischen Stilperiode."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=143"
+        },
+        {
+          "id": "spalding1904-free-09",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 168, S. 229 · zwei- und dreistimmiger polyphoner Klaviersatz",
+          "text": "Für polyphone Abschnitte im freien Klaviersatz hält Spalding zwei oder drei Stimmen meist für ausreichend. Jede zusätzliche selbstständige Linie erschwert sowohl das Spielen als auch das hörende Verfolgen. Bei zwei Stimmen warnt er zugleich vor einer zu weiten Trennung, weil sie dünn und leer wirken könne. Eine bestimmte Oktav- oder Dezimgrenze nennt er hier nicht. Die sangliche Melodie empfiehlt er vorwiegend für die mittlere Lage des Instruments. Die Empfehlung richtet sich damit auf einen tragfähigen Klavierklang und bleibt an diesen kompositorischen Zusammenhang gebunden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Polyphone Abschnitte innerhalb freien Klaviersatzes",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XI, § 168, S. 229 · zwei- und dreistimmiger polyphoner Klaviersatz",
+              "note": "§ 168 nennt Stimmenzahl, Hörbarkeit, zu weiten Abstand und mittlere Lage der Cantabile-Melodie ausdrücklich. Dies ist die allgemeine Klavierempfehlung dieses Kapitels, nicht die besondere Registeranweisung für zweistimmige Inventionen in § 138."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=243"
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
@@ -9139,7 +9950,8 @@ const ATLAS = {
         "doppelchor-basslinien",
         "fuge-formanalyse",
         "choral-stimmumfang",
-        "akkordvollstaendigkeit"
+        "akkordvollstaendigkeit",
+        "klaviersatz-klanglage"
       ],
       "readingSources": [
         "bellermann1901",
@@ -9530,6 +10342,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-haupt-und-nebenhoehepunkte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 24–25, S. 31–33",
+          "text": "Eine kurze Sopranmelodie soll einen erkennbaren Haupthöhepunkt besitzen. Für einen achttaktigen Gedanken nennt Spalding häufig den fünften oder sechsten Takt, für einen sechzehntaktigen die dritte Viertaktgruppe; ein bis zum Schluss aufgesparter Höhepunkt ist ebenfalls möglich. Kleinere Höhepunkte dürfen zu einem größeren hinführen. Ungünstig ist das ziellose wiederholte Anlaufen derselben höchsten Lage. Tonumfang, Phrasenlänge und Charakter müssen zusammenpassen; die Taktangaben sind Orientierung an üblichen Verläufen, keine unveränderliche Formvorschrift.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Höhepunkt einer kurzen tonalen Sopranmelodie",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 24–25, S. 31–33",
+              "note": "§§ 24–25 geben die genannten Phrasenlängen als normale Modelle und lassen andere Platzierungen ausdrücklich zu. Der Rahmen ist die tonale Melodiebildung des Eingangskapitels."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=45"
         }
       ],
       "relations": [
@@ -9960,6 +10795,73 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-moll-siebte-stufe",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 14, S. 16–17",
+          "text": "Die siebte Stufe in Moll muss nicht in jedem Verlauf erhöht erscheinen. Spalding behandelt die erniedrigte siebte Stufe einer absteigenden Basslinie mit Sextakkorden und zeigt ihre charakteristische Wirkung an Mendelssohns Ruy Blas. In der Wiederholung fällt der Bass von der siebten Stufe nur um einen Halbton; dazu tritt ein chromatisch veränderter Septakkord der zweiten Stufe in zweiter Umkehrung. In einem anschließenden Bach-Beispiel kann die betreffende Bewegung als Durchgang verstanden werden. Entscheidend sind also Richtung, Harmonie und Funktion des Tons; die melodische Mollform ist kein unveränderliches Vorratsschema für jede Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Siebte Mollstufe in Basslinie und Durchgang",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 14, S. 16–17",
+              "note": "Die Passage stellt Mendelssohns Ruy Blas und ein Bach-Beispiel nebeneinander. Die Begründung folgt diesen konkreten tonalen Verläufen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=30"
+        },
+        {
+          "id": "spalding1904-two-moll-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 49, S. 77–79; § 52, S. 81 · sechste und siebte Stufe in Moll",
+          "text": "Für die zweite Ordnung vermeidet Spalding die übermäßige Sekunde möglichst durch die melodischen Formen der sechsten und siebten Stufe. Die erhöhte sechste Stufe vermittelt zwischen Dominante und Leitton; die kleine siebte kann zwischen sechster Stufe und Tonika auch aufwärts durchlaufen werden. In diesen Übungsbeispielen sind das melodische Durchgangstöne, keine Begründung für eine Dur-Subdominante oder eine Moll-Dominante: Die entsprechende IV bleibt Moll, die V enthält den Leitton. Die erhöhte sechste Stufe kann dabei auch betont durchgehen. Spalding begrenzt diese Hinweise ausdrücklich; die freie Instrumentalmusik verwendet Moll vielfältiger.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 49, S. 77–79; § 52, S. 81 · sechste und siebte Stufe in Moll",
+              "note": "Text, Akkordangaben und scheinbare Ausnahme in § 49 auf S. 78 sowie das Modell § 52 auf S. 81 visuell geprüft. Deutsche Tonbezeichnungen werden verwendet; die harmonische Einschränkung gilt für die besprochene Übung, nicht für das gesamte Mollrepertoire."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=91"
+        },
+        {
+          "id": "spalding1904-two-moll-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 59, S. 94–95; § 66, S. 102 · Moll in bewegten Instrumentallinien",
+          "text": "Auch in der dritten Ordnung verwendet Spalding aufwärts meist die erhöhte sechste und siebte, abwärts die niedrigen Formen, um die übermäßige Sekunde bei rascher Bewegung zu vermeiden. Beide Formen können zudem in seinen „changing notes“ vorkommen. Neu ist eine ausdrücklich harmonische Verwendung der kleinen siebten Stufe in einem absteigenden Gang: Der erste Gegenstimmton des folgenden Taktes soll dann im Allgemeinen die sechste Stufe sein, sofern nicht deutlich in die Durparallele ausgewichen wird. Im ausgearbeiteten Mollbeispiel bleibt der Leitton für die Dominantharmonie nötig; über der Subdominante kann die kleine siebte Stufe auch aufwärts durchgehen.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 59, S. 94–95; § 66, S. 102 · Moll in bewegten Instrumentallinien",
+              "note": "§ 59 gestattet die kleine siebte ausdrücklich als harmony note und begrenzt ihre Fortsetzung. Das Modell auf S. 102 unterscheidet Dominantharmonie und melodischen Durchgang über der Subdominante. S. 95 und 102 visuell geprüft; englisches B/B-flat würde deutsch h/b lauten."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=108"
         }
       ],
       "related": [
@@ -10296,6 +11198,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-dissonanztypen-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45, S. 68–70 und 74 · Möglichkeiten der bewegten Stimme",
+          "text": "In Spaldings zweiter Ordnung kann die zusätzliche Note ein schrittweise durchlaufender Durchgang, eine zum Ausgangston zurückkehrende Wechselnote oder ein Teil der von ihm als „changing notes“ bezeichneten Umspielung sein. Daneben ist ein weiterer Ton desselben Akkords möglich; nicht jede zweite Note muss also dissonieren. Die Wechselnote setzt in seiner anfänglichen Erklärung ein springendes Subject voraus, das die Rückkehr zum selben Gegenstimmton harmonisch zulässt. Er empfiehlt sie sparsam, weil sie denselben Ton auf zwei aufeinanderfolgenden schweren Positionen wiederholt. Eine weitere ausdrücklich behandelte Möglichkeit kehrt die gewöhnliche Verteilung um: Die Dissonanz steht auf der schweren, ihr Akkordton auf der leichten Position.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45, S. 68–70 und 74 · Möglichkeiten der bewegten Stimme",
+              "note": "Die fünf in § 45 behandelten Bewegungsarten schließen einen Akkordton ein und sind deshalb nicht fünf Dissonanztypen. Die besonderen Bedingungen der Wechselnote und die betonte Variante bleiben erhalten."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=82"
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
@@ -10537,6 +11461,51 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-durchgaenge-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 57, S. 89–90 · zwei aufeinanderfolgende Durchgänge",
+          "text": "Zwei aufeinanderfolgende Durchgangstöne müssen in Spaldings regelgeleitetem Vier-gegen-eins schrittweise erreicht und verlassen werden und in derselben Richtung weitergehen. Springt die Linie aus dem vermeintlichen Durchgang ab, ist die Erklärung als Durchgang nicht mehr ausreichend. Wird der Ton stattdessen zum Akkordton erklärt, muss auch der daraus folgende Harmoniewechsel an einer zulässigen Stelle liegen. Seine guten und schlechten Beispiele prüfen deshalb zugleich Linienführung und harmonischen Rhythmus. Die Fußnote räumt abweichende Figuren in raschen Violinpassagen ein, hält für die Übung aber an dieser Empfehlung fest.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 57, S. 89–90 · zwei aufeinanderfolgende Durchgänge",
+              "note": "Die Gegenüberstellung der Beispiele und die einschränkende Fußnote auf S. 90 wurden visuell geprüft. Die Regel betrifft gewöhnliche Durchgänge; Spaldings gesonderte changing notes sind eine andere Figurenart."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=103"
+        },
+        {
+          "id": "spalding1904-multi-benachbarte-septimen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 100, S. 141–142, letztes Beispiel (c) auf S. 141 und erstes Beispiel auf S. 142",
+          "text": "Gegenbewegung ist in Spaldings gemischten Beispielen die bevorzugte Absicherung vorübergehender Reibungen, aber keine ausnahmslose Bedingung. Eine parallele Abwärtsbewegung erklärt er durch die folgende Sextakkordstellung. Im nächsten Beispiel folgen zwei Septimen unmittelbar aufeinander: Der eine Ton ist eine Wechselnote, der nächste ein betonter Durchgang. Die verschiedenen melodischen Aufgaben und die zugrunde liegende Klangfolge begründen hier das Ergebnis. Die Stelle behandelt die Kombination bewegter Stimmen, nicht eine pauschale Freigabe beliebiger Septimenketten.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Gemischte zweite und dritte Ordnung · aufeinanderfolgende Dissonanzen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 100, S. 141–142, letztes Beispiel (c) auf S. 141 und erstes Beispiel auf S. 142",
+              "note": "Die Erklärung auf S. 142 nennt Abwärtsbewegung und Sextakkord sowie die unterschiedlichen Funktionen der beiden Septimentöne."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=155"
         }
       ],
       "relations": [
@@ -11025,6 +11994,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-synkope-vorhalt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 75, S. 109–111 · Synkope und Vorhalt",
+          "text": "Spalding bildet die Synkope durch das Überbinden von der leichten auf die folgende schwere Takthälfte. Dabei kann der gehaltene Ton konsonant bleiben oder einen Vorhalt erzeugen; natürlich entstehende Dissonanzen bevorzugt er wegen ihres vorwärtstreibenden Interesses. Jeder Vorhalt ist in dieser Erklärung zugleich synkopiert, aber nicht jede Synkope ein Vorhalt. Eine bloße konsonante Bindung kann anschließend auch springen; die normale Vorhaltsauflösung verlangt einen Schritt auf- oder abwärts. Selbst eine reine Quinte kann im gegebenen harmonischen Zusammenhang als Verzögerung einer Sexte wirken, wie sein mit y bezeichnetes Beispiel zeigt.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 75, S. 109–111 · Synkope und Vorhalt",
+              "note": "Definition, Ausnahmen und die ausdrücklich als Vorhaltseffekt beschriebene Quinte zur Sexte auf S. 110 visuell geprüft. Kapitel V wird in § 87, S. 121, ausdrücklich als vierte Ordnung bezeichnet. Der Vorhaltbegriff ist hier harmonisch bestimmt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=123"
         }
       ],
       "relations": [
@@ -11321,6 +12312,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-synkope-unterbrechen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 75, S. 111; § 78, S. 112; § 81, S. 114–115 · Gründe für das Unterbrechen",
+          "text": "Eine Synkopenkette darf bei Spalding unterbrochen werden, um den Melodieumfang sinnvoll zu führen, mehr wirkliche Vorhalte zu gewinnen oder eine Kadenz in der Unterstimme zu ermöglichen. Auch eine monotone Folge von Sextakkorden kann einen ungebundenen Takt nahelegen. Für die Übung soll zwar möglichst oft synkopiert werden, damit die Technik vertraut wird. Eine ebenso lange ununterbrochene Kette betrachtet er aber nicht als normales Kompositionsziel: Den praktischen Wert der Synkope sieht er besonders im Wechsel mit anderen Rhythmen des Floridus. Vor jeder Unterbrechung muss zudem die neue harmonische Verbindung geprüft werden.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 75, S. 111; § 78, S. 112; § 81, S. 114–115 · Gründe für das Unterbrechen",
+              "note": "Die Unterbrechungen a–c auf S. 111 und der Vergleich auf S. 112 wurden visuell geprüft. § 81 trennt das Übungsziel von der Anwendung in tatsächlicher Musik; § 79, S. 112–113, begründet die zusätzliche harmonische Prüfung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=125"
         }
       ],
       "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden.",
@@ -11959,6 +12972,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-22",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, Übung 15 und Anweisung vor § 185, S. 257 · Schlussänderung einer Melodie im Bass",
+          "text": "Wird die vorgegebene Melodie in den Bass gelegt, kann ihre Schlussphrase eine andere Behandlung verlangen als in einer Oberstimme. Bei Übung 15 erlaubt Spalding eine imitative Ausarbeitung der Bassfassung, schreibt für die letzte Phrase aber ausdrücklich eine veränderte Tonfolge vor. Sie soll eine tragfähige Grundlage für die Kadenz bilden. Die Aufgabe besteht daher nicht darin, die Melodie unter allen Umständen unverändert durch jede Stimme zu führen: Ihre neue Funktion als Bass kann eine örtliche Anpassung der Schlussbildung begründen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kadenzbildung beim Versetzen einer gegebenen Melodie in den Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, Übung 15 und Anweisung vor § 185, S. 257 · Schlussänderung einer Melodie im Bass",
+              "note": "Nach Übung 15 steht die ausdrückliche Anweisung, die letzte Phrase für eine befriedigende Kadenzgrundlage zu verändern; die neue Bassfolge ist direkt darunter notiert. Die Aussage bleibt auf diesen konkreten Aufgabenwechsel beschränkt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=271"
         }
       ],
       "relations": [
@@ -12383,13 +13416,82 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-freier-lehrgang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. v–vii",
+          "text": "Spalding versteht den Lehrgang als praktische Vorbereitung auf freie tonale Stimmführung. Seit Bach seien Harmonie und Kontrapunkt untrennbar verbunden. Eine lange Beschränkung auf einen sogenannten strengen Stil mit anschließendem abruptem Übergang zur Freiheit lehnt er ab: Der Lernende soll von einfachen zu reicheren harmonischen Mitteln fortschreiten und deren Wirkung durch eigenes Schreiben beurteilen lernen. Zwischen Übung und ausgereiftem Kunstwerk soll ein Unterschied des Könnens, nicht ein völlig anderer musikalischer Grundsatz bestehen. Die späteren Ordnungen des zweistimmigen Satzes bleiben dabei methodische Übungsstufen; der Einwand richtet sich gegen ihre Abtrennung von musikalisch lebendiger Praxis.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Progressiver Lehrgang zum freien tonalen Satz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. v–vii",
+              "note": "Das Vorwort nennt Bach, Händel, Haydn, Mozart und Beethoven als Studiengrundlage. Modern bezeichnet hier Spaldings Gegensatz zum älteren modalen Schulkontrapunkt, keinen Nachweis für einen Stil des 20./21. Jahrhunderts."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=9"
+        },
+        {
+          "id": "spalding1904-two-erste-ordnung-ziel",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, Einleitung, S. 58–59 · Zweck der ersten Ordnung",
+          "text": "Die erste Ordnung dient Spalding als kurze vorbereitende Schulung im Umgang mit Intervallen und im Entwerfen zusammenhängender Melodien. Weil beide Stimmen gleiche Notenwerte haben, fehlt gerade jene rhythmische Verschiedenheit, die er für wirkungsvollen Kontrapunkt besonders wichtig findet. Deshalb soll man bei diesen Aufgaben nicht lange verweilen. Ihre Qualität bemisst er zunächst an der geschickten Linienführung; den Anspruch einer ausgereiften zweistimmigen Komposition stellt er erst an die spätere Arbeit mit verschiedenen Bewegungsarten und einem bestimmten Instrument.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, Einleitung, S. 58–59 · Zweck der ersten Ordnung",
+              "note": "Der eingerückte Einleitungstext begrenzt ausdrücklich den Zweck der ersten Ordnung. Der dort genannte Mangel rhythmischer Vielfalt wird nicht auf sämtliche Zweistimmigkeit übertragen. Vorwort S. vi erklärt den zunächst vokal gedachten Einstieg."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=72"
+        },
+        {
+          "id": "spalding1904-two-planung-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 91, S. 124–125 · Entwerfen einer ganzen Gegenstimme",
+          "text": "Für den Floridus warnt Spalding vor dem isolierten Abarbeiten einzelner Takte. Zuerst soll das ganze Subject innerlich gehört oder gespielt und ein übergreifender Entwurf skizziert werden. Einfälle für Anfang und Schluss können vorab festgehalten werden; die Einzelheiten folgen danach. Die Bewegung soll im Allgemeinen ruhig beginnen und im Verlauf abwechslungsreicher werden, ohne unnötig überladen zu sein. Auch das Medium gehört zum Entwurf: Lernende sollen sich die Ausführung auf Klavier, Orgel oder zwei Streichinstrumenten vorstellen. Flüssiges Erfinden hat in diesem Arbeitsstadium Vorrang vor einem mühsam zusammengesetzten, nur äußerlich fehlerfreien Ergebnis.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 91, S. 124–125 · Entwerfen einer ganzen Gegenstimme",
+              "note": "Die Arbeitsfolge und der instrumentale Rahmen stehen ausdrücklich in § 91. Die letzte Aussage paraphrasiert die dortige Empfehlung, Erfindungsfähigkeit zunächst auch um den Preis kleiner Fehler zu entwickeln; sie bedeutet keine Aufhebung der erlernten Regeln."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=138"
         }
       ],
       "related": [
         "linie-scheinpolyphonie",
         "beurteilung",
         "romanesca-satzgeruest",
-        "stimmen-ergaenzen"
+        "stimmen-ergaenzen",
+        "satzmedium",
+        "modulation-in-uebungen"
       ],
       "relations": [
         {
@@ -12475,6 +13577,12 @@ const ATLAS = {
           "to": "benjamin1986-1",
           "type": "context",
           "note": "Benjamin arbeitet gezielt an Bachs Instrumentalstil und verzichtet auf die strenge Speziesfolge. Schönberg benutzt die Spezies als vorläufige Aufgabenordnung ohne Verpflichtung auf einen einzelnen historischen Stil. Die Unterrichtsverfahren verfolgen damit unterschiedlich bestimmte Anwendungsziele."
+        },
+        {
+          "from": "spalding1904-open-freier-lehrgang",
+          "to": "motte1995-r01",
+          "type": "context",
+          "note": "Spalding führt innerhalb eines zusammenhängenden tonalen Lehrgangs schrittweise zu freien Satzmitteln und behält dafür die Ordnungen als Übungsstufen. De la Motte organisiert dagegen eigenständige Kurse zu Josquin, Bach und Neuer Musik, deren Reihenfolge offenbleibt. Beide kritisieren eine überall verbindliche Schulmethode; sie unterscheiden sich in der konkreten Organisation des Lernwegs."
         }
       ]
     },
@@ -13547,6 +14655,48 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-kadenz-synkope",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 80, S. 113–114 · Vorbereitung der Schlussbindung",
+          "text": "Die typische Kadenz der synkopierten Ordnung verzögert bei Spalding den Leitton durch die Tonika: Der gebundene Ton geht zur siebten Stufe hinab und danach zum Schlusston zurück. Das ist sowohl in der oberen als auch in der unteren Gegenstimme möglich, sofern die Vorbereitung stimmt. Fehlt sie, soll eine Kadenz der zweiten Ordnung eingesetzt werden. Er prüft dazu verschiedene Subjectschlüsse: Bei 6–2–1 kann die Schlussbindung oben und unten vorbereitet werden, bei 7–2–1 in keiner der beiden Lagen. Eine erzwungene Bindung ist also nicht wichtiger als ein stimmiger Schluss.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 80, S. 113–114 · Vorbereitung der Schlussbindung",
+              "note": "§ 80 und die vollständigen Schlussbeispiele auf S. 113–114 visuell geprüft. Die Stufenfolgen beziehen sich auf den gezeigten dreitönigen Subjectschluss, nicht auf jedes Auftreten eines Sprungs 6–2 oder 7–2."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=127"
+        },
+        {
+          "id": "spalding1904-multi-kadenzvielfalt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 109, S. 158–162 · periodische Melodie und unterschiedliche Schlusswirkungen",
+          "text": "Vor der Aussetzung einer periodischen Melodie lässt Spalding ihre Gliederung und die möglichen Schlüsse untersuchen. Dieselbe letzte Tonfolge kann je nach Stellung im Satz unterschiedlich harmonisiert werden. Aufeinanderfolgende Phrasen sollen möglichst verschiedene Kadenzwirkungen erhalten; einen vollkommenen Tonikaschluss mitten im Verlauf empfiehlt er zu vermeiden. In seinem f-Moll-Beispiel beginnt die Folge deshalb mit einem Trugschluss und hält die endgültige Rückkehr zur Haupttonart zurück. Die Wahl der Kadenz gehört zur Gestaltung des ganzen Verlaufs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Aussetzung einer periodischen Melodie · Kadenzdisposition",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 109, S. 158–162 · periodische Melodie und unterschiedliche Schlusswirkungen",
+              "note": "§ 109 entwickelt alternative Harmonisierungen gleicher Schlusstöne und kommentiert auf S. 161 den unterschiedlichen Abschlussgrad der einzelnen Phrasen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=172"
         }
       ],
       "relations": [
@@ -14229,6 +15379,205 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-linien-und-harmonie",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 1–5, S. 1–2",
+          "text": "Gute Stimmführung verbindet für Spalding zwei Hörweisen: horizontal die einzelnen melodischen Linien und vertikal ihren harmonischen Zusammenhang. Der zusätzliche melodische Anspruch ersetzt die im Harmonielehreunterricht erworbenen Kenntnisse nicht. Auf den metrischen Schwerpunkten muss eine tragfähige harmonische Grundlage erkennbar sein; interessante Linien können eine schlechte Harmonik nicht nachträglich retten. Als Ausgangsmaterial dienen die Dreiklänge einer Tonart. Besonders grundlegend sind ihre Verbindungen durch Grundtonschritte in Quinten beziehungsweise Quarten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Harmonische Grundlage des vierstimmigen Vokalsatzes",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 1–5, S. 1–2",
+              "note": "Die Passage setzt Harmonielehre voraus. Das Vorwort S. v begründet diesen tonalen Ansatz ausdrücklich mit der Verbindung von Harmonie und Kontrapunkt seit Bach."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=15"
+        },
+        {
+          "id": "spalding1904-open-grundtonfolge-und-metrum",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 6–8, S. 4–7",
+          "text": "Die bloße Zugehörigkeit zweier Dreiklänge zur Tonart macht ihre Verbindung noch nicht gleich überzeugend. Spalding unterscheidet Grundtonfortschreitungen und ihre metrische Wirkung. Bei benachbarten Grundtönen, die keinen gemeinsamen Akkordton besitzen, gewinnt die Gegenbewegung besonderes Gewicht. Eine Verbindung von Dominante und Subdominante kann den tonalen Zusammenhang lockern, vor allem wenn die Subdominante auf eine starke Zeit fällt; ihre Wirkung muss deshalb durch den musikalischen Zusammenhang begründet sein. Die Beurteilung einer auffälligen Tritonusbeziehung hängt ebenfalls von der Akkordverbindung ab und lässt sich nicht aus den beiden isolierten Tönen allein ableiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Diatonische Akkordverbindungen im vierstimmigen Satz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 6–8, S. 4–7",
+              "note": "Die Regeln gehören zum tonalen Vokalrahmen von Kap. I; Spalding unterscheidet an den Beispielen Grundtonfolge und Taktgewicht. Der Rahmen seit Bach ist im Vorwort S. v–vi ausdrücklich benannt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=18"
+        },
+        {
+          "id": "spalding1904-open-verminderter-dreiklang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 10 und 13, S. 10–12 und 14–15",
+          "text": "Derselbe verminderte Dreiklang erhält je nach Tonart eine andere Bedeutung. Die Töne h–d–f bilden in C-Dur den Leittondreiklang: Seine Grundstellung und besonders die Verdopplung von h bewertet Spalding als problematisch; geläufig ist die erste Umkehrung. In a-Moll ist h dagegen die zweite Stufe. Derselbe Klang kann hier auch in Grundstellung mit verdoppeltem h verwendet werden und führt häufig zur Dominante. Sein dissonanter Charakter verschwindet dadurch nicht. Die Bewertung folgt also dem tonalen Zusammenhang und nicht allein der abstrakten Intervallgestalt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Leitton- und Supertonikadreiklang im tonalen Vokalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, §§ 10 und 13, S. 10–12 und 14–15",
+              "note": "§ 13 vergleicht ausdrücklich dieselben Töne in C-Dur und a-Moll. Die deutschen Tonbuchstaben h–d–f entsprechen dem englischen B–D–F des Originals."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=24"
+        },
+        {
+          "id": "spalding1904-open-erweiterte-akkorddeutung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 15, Fußnote S. 18–21",
+          "text": "Ungewöhnliche Klänge sollen nicht vorschnell als unvollständig vertretene Undezim- oder Tredezimakkorde erklärt werden. Spalding wendet ein, dass in einem zugrunde gelegten vierstimmigen Satz dabei zu viele für die Deutung wesentliche Bestandteile fehlen. Häufig seien Vorhalt, Vorschlag, Durchgang, Vorausnahme, Orgelpunkt oder das Auslassen einer erwarteten Harmonie die verständlichere Erklärung. Tatsächlich mehrstimmige Sept- und Nonenklänge in neuerem Repertoire erkennt er ausdrücklich an. Seine Kritik gilt einer überdehnten Erklärung durch hohe Terzschichtungen, nicht jeder Deutung eines unvollständigen Akkords.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Harmonische Analyse von Akkord- und Nebennoten",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 15, Fußnote S. 18–21",
+              "note": "Die Fußnote diskutiert Beispiele unter anderem von Chopin und César Franck und grenzt ihre vierstimmige Erklärungsgrundlage von wirklicher fünf- und sechsstimmiger Klangfülle ab."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=32"
+        },
+        {
+          "id": "spalding1904-open-bass-und-umkehrung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 9 und 20–21, S. 8–9 und 24–28",
+          "text": "Der Bass ist zugleich melodische Stimme und Träger der harmonischen Grundlage. Eine dauernde Folge von Dreiklängen in Grundstellung wirkt leicht starr; Sextakkorde ermöglichen eine beweglichere Linie und geben dem Satz Vorwärtsdrang. Spalding verlangt deshalb Abwechslung und ein sinnvolles Verhältnis von Schritten und Sprüngen. Grundstellungen bleiben wertvoll, wenn gerade ihre Festigkeit gewollt ist: Die Beispiele aus Wagner, Chopin und Tschaikowsky zeigen ihre besondere Wirkung. Die Wahl der Umkehrung folgt dem gewünschten Verlauf, nicht einer pauschalen Bevorzugung des Sextakkords.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Bassmelodie und harmonische Beweglichkeit",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 9 und 20–21, S. 8–9 und 24–28",
+              "note": "Spalding erläutert den Wechsel von Grundstellung und Sextakkord sowohl als tonales Übungsprinzip als auch an ausdrücklich genannten romantischen Beispielen; Vorwort S. v–vi und Kap. I bilden den gemeinsamen Rahmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=22"
+        },
+        {
+          "id": "spalding1904-two-harmonisches-geruest",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, § 36, S. 60–61; § 44, S. 65 · gedachte Akkorde und vierstimmige Probe",
+          "text": "Spalding hört die beiden Stimmen seiner ersten Ordnung als Außenstimmen einer möglichen vollständigen Harmonie. Ein Zweiklang kann mehrdeutig sein: Eine Terz kann zu verschiedenen Dreiklängen gehören, eine Oktave etwa einen Grundton oder eine Terz verdoppeln. Lernende sollen deshalb wissen, welche Harmonie sie jeweils meinen. Bestehen Zweifel, empfiehlt er, die Stimmen weiter auseinanderzulegen und die fehlenden Mittelstimmen zu ergänzen. Auf S. 65 führt er diese vierstimmige Probe an zwei zuvor zweistimmig notierten Aufgaben vor.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, § 36, S. 60–61; § 44, S. 65 · gedachte Akkorde und vierstimmige Probe",
+              "note": "Die Akkorddeutungen stehen in § 36, die ausdrücklich empfohlene Ergänzungsprobe samt Aussetzungen in § 44. S. 65 visuell geprüft. Die Probe ist ein Hilfsmittel der Anfangsübung; § 54 erweitert später den Intervallbegriff."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=74"
+        },
+        {
+          "id": "spalding1904-two-intervalle-freier-satz",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, §§ 53–54, S. 82–84; Kap. IV, Fußnote zu § 67, S. 104 · Erweiterung des Intervallbegriffs",
+          "text": "Vor den freieren, längeren Aufgaben erweitert Spalding das anfängliche Denken in vollständigen Akkorden. Eine selbständige Gegenstimme kann Intervallverbindungen überzeugend machen, die als bloße Akkordkombination unnatürlich wären. An Bach zeigt er Quarten und Quinten in bewegten Linien; auch Sekunden und Septimen können über die normale Vorhaltsbehandlung hinaus für die Eigenart einer Stimme eingesetzt werden. Dies soll durch Spielen und Analysieren der Beispiele gelernt werden. Die Freiheit hebt die Beziehung zwischen den Stimmen nicht auf: Später formuliert er ausdrücklich die Grenze, dass eine Gegenstimme ihren harmonischen Zusammenhang mit den anderen nicht verlieren darf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Freier tonaler Satz · Repertoirevergleich nach den Anfangsübungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, §§ 53–54, S. 82–84; Kap. IV, Fußnote zu § 67, S. 104 · Erweiterung des Intervallbegriffs",
+              "note": "§ 54 wird an Bach und anschließend Mozart erläutert; die Beispiele auf S. 83–84 wurden visuell gelesen. Die weiterführenden Repertoirebeispiele sind keine reine Speziesaufgabe, deshalb speciesScope leer. Die Grenze des harmonischen Zusammenhangs steht in der Fußnote auf S. 104."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=96"
+        },
+        {
+          "id": "spalding1904-multi-harmoniegeruest-ausarbeiten",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 110, S. 162–164 · einfache und bewegte Fassung desselben Basses",
+          "text": "Spalding harmonisiert den gegebenen Bass zunächst Note gegen Note und behält diese harmonische Grundlage anschließend beim Erfinden kurzer melodischer Phrasen bei. Das Verfahren soll helfen, solange der harmonische Zusammenhang noch nicht sicher beim Schreiben entsteht. Er warnt ausdrücklich davor, daraus eine mechanische Formel zu machen. Auch die bewegtere Musterfassung nennt er nicht vollkommen: Einzelne Stimmen bleiben monoton oder eingeengt. Das Harmoniegerüst ist hier ein vorläufiges Arbeitsmittel, dessen melodisches Ergebnis eigens beurteilt werden muss.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Schreibmethode · Harmoniegerüst und anschließende Bewegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 110, S. 162–164 · einfache und bewegte Fassung desselben Basses",
+              "note": "S. 163 begründet das stufenweise Verfahren; S. 164 benennt offen die Grenzen des eigenen Musterbeispiels."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=176"
+        },
+        {
+          "id": "spalding1904-free-20",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, §§ 182–184, S. 253–256 · Übung 12 und modale Merkmale",
+          "text": "Spaldings tonaler Lehrgang schließt Melodien mit deutlich modaler Prägung ein. Übung 12 nennt er besonders am Ende ihrer zweiten Phrase eher modal als streng tonal. Für ihre Behandlung empfiehlt er überwiegend grundlegende Dreiklänge, bereichert durch Vorhalte und betonte Durchgänge. Zur Orientierung unterscheidet er Äolisch ohne erhöhten Leitton, Dorisch durch kleine Terz und große Sexte sowie Phrygisch durch die kleine Sekunde über dem Grundton. Die kurze Einführung bereitet eine konkrete Harmonisierung vor; sie wird nicht als vollständige Lehre älterer Modi oder als unveränderte Übernahme eines Renaissance-Satzstils ausgegeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Modal geprägte Melodie innerhalb eines tonalen Übungslehrgangs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, §§ 182–184, S. 253–256 · Übung 12 und modale Merkmale",
+              "note": "§ 182 charakterisiert Übung 12 und nennt die vorgesehene harmonische Grundlage. §§ 182–184 erläutern die Skalenmerkmale; die ausgearbeitete Fassung folgt auf S. 256. Die lokale Bezeichnung strict style wird nicht in eine Spezieszuordnung oder in eine pauschale Stilepoche umgedeutet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=267"
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -14246,7 +15595,9 @@ const ATLAS = {
         "akkordton-verdopplung",
         "stimmen-ergaenzen",
         "akkordvollstaendigkeit",
-        "fugenthema-harmonik"
+        "fugenthema-harmonik",
+        "modulation-in-uebungen",
+        "terzen-sexten-folgen"
       ],
       "readingSources": [
         "prout1890",
@@ -14306,6 +15657,12 @@ const ATLAS = {
           "to": "motte1995-r04",
           "type": "nuance",
           "note": "Daniel gibt der historischen Satz-, Generalbass- und Kadenzlehre beim Bach-Choral den Vorrang und lässt spätere Harmoniebegriffe ergänzend zu. De la Motte beginnt seinen Lehrgang zu Bachs Instrumentallinien ausdrücklich mit funktionaler Deutung und benennt deren Grenzen später selbst. Der Unterschied liegt in Ausgangspunkt und Gewichtung; keiner der beiden Belege fordert eine lückenlose Funktionalisierung jedes Tons."
+        },
+        {
+          "from": "spalding1904-open-linien-und-harmonie",
+          "to": "jeppesen1964-1",
+          "type": "context",
+          "note": "Spalding setzt im tonalen Lehrgang die harmonische Grundlage voraus, auf der sich die Stimmen melodisch entfalten. Jeppesens Antwort beschreibt für Palestrina vorrangig das Zusammenwirken melodischer Linien und die Qualität ihrer Zusammenklänge. Jeppesen unterscheidet selbst davon Bachs idealen harmonischen Hintergrund; die Verbindung markiert deshalb zwei Stil- und Aufgabenrahmen, keinen generellen Widerspruch zwischen Harmonie und Linie."
         }
       ]
     },
@@ -14657,6 +16014,134 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-regel-und-wirkung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. vi–vii",
+          "text": "Eine Abweichung von der gewöhnlichen Regel muss sich durch ihre musikalische Wirkung rechtfertigen. Dafür verlangt Spalding ein geschultes Urteil: Die Stimmen sollen lebendig und melodisch sein, Rhythmus und Tonalität verständlich bleiben, und die konkrete Besetzung muss den Satz ausführen können. Verbotslisten allein vermitteln dieses Urteil nicht; es wächst durch das Studium von Bach, Händel, Haydn, Mozart, Beethoven und durch eigene Versuche. Das ist keine Aufhebung methodischer Disziplin. Gerade die Kenntnis des Normalfalls soll eine begründete Abweichung ermöglichen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Beurteilung freier tonaler Satzübungen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. vi–vii",
+              "note": "Spalding begründet die Bewertung ausdrücklich durch die Kompositionen der genannten barocken und klassisch-romantischen Autoren, nicht durch eine datierungsabhängige Stilmarke."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=10"
+        },
+        {
+          "id": "spalding1904-open-schreiben-und-lernen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 18–19, S. 23–24",
+          "text": "Die Grundlagen sollen im Schreiben erprobt werden. Spalding rät davon ab, zuerst das ganze umfangreiche Eingangskapitel auswendig zu lernen; nach den ersten Prinzipien können bereits die Aufgaben begonnen und weitere Erläuterungen bei Bedarf hinzugezogen werden. Beim Prüfen einer vierstimmigen Lösung genügt weder eine richtige Akkordfolge noch die Forderung, jede Stimme müsse in jedem Augenblick wie ein selbstständiges Solo klingen. Entscheidend ist, ob die Stimmen im Verlauf melodisches Interesse gewinnen und zusammen ein stimmiges Ganzes bilden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Einstieg in den vierstimmigen Vokalsatz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 18–19, S. 23–24",
+              "note": "§§ 18–19 beziehen die harmonischen und melodischen Grundlagen des ersten Kapitels auf dessen Vokalübungen. Der stilübergreifende tonale Lehrrahmen ist im Vorwort S. v–vii an Bach bis Beethoven erläutert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=37"
+        },
+        {
+          "id": "spalding1904-multi-singende-pruefung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, §§ 107–108, S. 155–158 · Prüfung der vierstimmigen Übung",
+          "text": "Eine harmonisch korrekte Basslinie kann für Spalding dennoch als Melodie misslingen, wenn sie sich schwach wiederholt oder ohne erkennbaren Verlauf springt. Deshalb sollen die Lernenden jede Stimme singen, auch wenn die zunächst vokal gedachten Übungen noch keinen Text besitzen. Umfang, natürliche Intervalle und ein zusammenhängender Zug lassen sich so prüfen. Die Übung bleibt ein Mittel zur eigenen Musik: Parallel empfiehlt Spalding kleine vierstimmige Lieder und die Analyse von Chorälen, statt das korrekte Ausfüllen der Aufgabe zum Selbstzweck zu machen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Vokalübung · melodische Prüfung und eigenes Komponieren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, §§ 107–108, S. 155–158 · Prüfung der vierstimmigen Übung",
+              "note": "§ 107 verlangt das Singen jeder Stimme; S. 156 vergleicht einen harmonisch möglichen, melodisch schlechten Bass. § 108 leitet zu eigenen kurzen Kompositionen über."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=169"
+        },
+        {
+          "id": "spalding1904-free-11",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 165, S. 226–227, § 169, S. 229–231, und § 171, S. 235 · eigene Klavieraussetzung und Vergleich",
+          "text": "Spalding lässt die Mozart-Melodie zunächst selbstständig harmonisieren und erst danach mit seiner Aussetzung vergleichen. Das gedruckte Modell ist ausdrücklich eine mögliche Behandlung, keine einzige richtige Lösung. Geprüft werden unter anderem der leichte Beginn, das Hervortreten der Melodie, wechselnde Klangdichte und eine passende Begleitfigur. Dazu gehören das Spielen und Analysieren guter Klaviermusik sowie Rückmeldungen des Lehrers. Kurze eigene Stücke, etwa in Tanzrhythmen und zwei- oder dreiteiliger Form, sollen diese Arbeit ergänzen: Klavierstil wird auch durch das Erproben eigener musikalischer Gedanken gelernt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Beurteilung und Weiterentwicklung eigener Klavierarbeiten",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, § 165, S. 226–227, § 169, S. 229–231, und § 171, S. 235 · eigene Klavieraussetzung und Vergleich",
+              "note": "§ 169 fordert den eigenen Versuch vor dem Vergleich und kennzeichnet das Modell als nicht einzig mögliche Lösung. Die Erläuterung auf S. 231 benennt konkrete Prüfmerkmale; §§ 165 und 171 verbinden Analyse, Unterrichtsrückmeldung und eigene Komposition."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=240"
+        },
+        {
+          "id": "spalding1904-free-16",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, § 175, S. 241, und § 179, S. 247 · Hören und Vergleich einer eigenen Streicherfassung",
+          "text": "Die eigene Partitur soll möglichst von den vorgesehenen Spielern zum Klingen gebracht werden. Spalding misst dem tatsächlichen Hören der Übungen und Kompositionen besonderen Lernwert bei. Als ergänzendes Verfahren lässt er zu vorgegebenen Basslinien drei Oberstimmen in freiem, rhythmisch abwechslungsreichem Kontrapunkt schreiben. Auch das Nachbilden einer Quartettpassage aus ihrer Bassstimme und der anschließende Vergleich mit dem Original dient der Prüfung. Man beurteilt dadurch die eigene Entscheidung an einem klingenden Zusammenhang und an einer anderen ausgearbeiteten Lösung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Beurteilung freier Streicherübungen durch Aufführung und Vergleich",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, § 175, S. 241, und § 179, S. 247 · Hören und Vergleich einer eigenen Streicherfassung",
+              "note": "§ 175 fordert Aufführungen; § 179 beschreibt das Ergänzen von drei Oberstimmen und den Vergleich einer eigenen Fassung mit einem Quartettoriginal. Die dort erzählte Rossini-Anekdote wird nicht als selbstständig überprüfte biographische Tatsache übernommen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=255"
+        },
+        {
+          "id": "spalding1904-free-23",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, §§ 185–186, S. 257–258 · weitere Arbeit und Grenzen des Lehrgangs",
+          "text": "Am Ende des Lehrgangs verbindet Spalding zwei Arbeitsweisen: eigene Kompositionsversuche und das Studium ausgearbeiteter Musik. Frühe Arbeiten dürfen noch hörbar von den untersuchten Vorbildern geprägt sein. Zugleich bezeichnet er seine Methode ausdrücklich weder als erschöpfend noch als einzigen Weg zu eigenständigem Komponieren. Bei der Beurteilung sollen technische Sorgfalt, ein erkennbarer musikalischer Gedanke und die Verständlichkeit für einen aufmerksamen Hörer wachsen. Die Frage nach dauerhafter künstlerischer Schönheit lässt sich für ihn nicht durch die sofortige Kontrolle einer fertigen Schulaufgabe erledigen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Weiterarbeit nach dem Lehrgang und Beurteilung eigener Kompositionen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, §§ 185–186, S. 257–258 · weitere Arbeit und Grenzen des Lehrgangs",
+              "note": "§ 185 fordert eigene Arbeit und Analyse älterer sowie neuerer Musik; § 186 schränkt den Anspruch des Buches ein und unterscheidet handwerkliche Arbeit von der späteren künstlerischen Bewertung. Die historischen Beispiele zu den Jugendwerken einzelner Komponisten werden nicht als selbstständig recherchierte Tatsachen übernommen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=271"
         }
       ],
       "related": [
@@ -14954,6 +16439,51 @@ const ATLAS = {
           "examples": [
             "schoenberg-cambiata-dissonanzen"
           ]
+        },
+        {
+          "id": "spalding1904-two-changing-notes",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45, S. 74–75; Kap. IV, § 58, S. 90 · Bedeutung der „changing notes“",
+          "text": "Spaldings „changing notes“ umspielen einen Akkordton von beiden Seiten. Seine Grundform geht etwa f–g–e–f: Nach dem Schritt zur oberen Nebennote führt eine Terz in die Gegenrichtung, anschließend wird der übersprungene mittlere Ton erreicht. Für die dritte Ordnung erläutert er entsprechend c–d–h–c und die umgekehrte Drehung. In dieser Lehrform sind die beiden Nebentöne als zusammengehöriges Paar zu verstehen. Einzelne „changing notes“ ohne die vollständige Rückkehr weist er an Repertoirebeispielen nach, empfiehlt sie aber zunächst seltener. Der englische Ausdruck bezeichnet hier eine bestimmte Umspielungsfigur.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Verzierung innerhalb der zweistimmigen zweiten und dritten Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45, S. 74–75; Kap. IV, § 58, S. 90 · Bedeutung der „changing notes“",
+              "note": "S. 74 und 90 einschließlich Notenbeispiele visuell geprüft. Englisches B wird in der deutschen Tonfolge als h wiedergegeben. Die beschriebenen Umspielungen werden nicht stillschweigend mit Fux’ Figur 8–7–5–6 gleichgesetzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=88"
+        },
+        {
+          "id": "spalding1904-two-changing-notes-anordnung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 58, S. 91–94 · Anordnung und Erweiterung der „changing notes“",
+          "text": "Im Vier-gegen-eins setzt Spalding die beiden „changing notes“ auf die zweite und dritte Position der Vierergruppe, damit die vierte zum umspielten Ton zurückkehrt. Welche Nebennote zuerst kommt, soll vom folgenden Subjectton her geplant werden: Der erste Gegenstimmton des nächsten Taktes soll nicht schon auf dem vorausgehenden Nebenakzent vorweggenommen werden. Auch Schritt und anschließender Terzsprung zum Akzent in derselben Richtung sollen vermieden werden. Die spätere Erweiterung erlaubt in solchen Gruppen gelegentlich sogar eine verminderte Oktave zum Subject; der Einsatz bleibt an eine deutlich beabsichtigte melodische Wirkung gebunden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 58, S. 91–94 · Anordnung und Erweiterung der „changing notes“",
+              "note": "Positionsregel und Planung der Richtung auf S. 91–92, verminderte Oktave auf S. 93, Zurückhaltung bis zur sicheren Beherrschung auf S. 94. Die Beispiele auf S. 91, 93 und 94 wurden visuell geprüft. Die Erweiterung ist keine pauschale Lizenz für alle verminderten Intervalle."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=105"
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -15028,6 +16558,12 @@ const ATLAS = {
           "to": "jeppesen1964-26",
           "type": "context",
           "note": "Jeppesen beschränkt seine Palestrina-orientierten Übungen auf die absteigende Cambiata und bindet ihre Fortsetzung an den jeweiligen Rhythmus. Schönberg systematisiert die Figur als unveränderliche Folge von fünf Tönen in beiden Richtungen. Historische Stilgrundlage und abstrakte Dissonanzformel setzen hier unterschiedliche Grenzen."
+        },
+        {
+          "from": "spalding1904-two-changing-notes",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux’ vorhandene Antwort beschreibt 8–7–5–6: Nach dem Schritt in die Septime setzt der Terzsprung dieselbe Abwärtsrichtung fort, bevor die übersprungene Sexte nachgeholt wird. Spaldings changing notes führen nach dem ersten Schritt eine Terz in die Gegenrichtung und dann zum umspielten Ausgangston zurück, etwa f–g–e–f. Es handelt sich um unterschiedliche Figuren und Begriffsverwendungen innerhalb ihrer Lehrzusammenhänge, nicht um zwei widersprüchliche Beschreibungen desselben Notenverlaufs."
         }
       ]
     },
@@ -15341,6 +16877,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-einklang-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 62, S. 98 · Annäherung an den Einklang",
+          "text": "Wenn sich Subject und Gegenstimme in der dritten Ordnung nähern, hält Spalding den Schritt aus einer Sekunde in den Einklang im Allgemeinen für ungünstig, sofern die bewegte Note als Durchgang wirkt. Besser bewertet er den umgekehrten Vorgang: Ein angesprungener Einklang bildet den Ausgangspunkt, von dem die Stimmen in Seitenbewegung wieder auseinandergehen. Seine Beispiele übertragen dieselbe Unterscheidung auch auf Wechselnoten. Der Einklang wird hier also nicht einfach ausgeschlossen; Eintritt und anschließende Trennung der Stimmen bestimmen seine Wirkung.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 62, S. 98 · Annäherung an den Einklang",
+              "note": "Der vollständige Beispielsatz unter § 62 auf S. 98 wurde visuell geprüft. Die Aussage betrifft den Verlauf im bewegten instrumentalen 4:1 und ersetzt nicht die engeren Regeln der ersten Ordnung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
         }
       ],
       "relations": [
@@ -15507,6 +17065,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-produktive-vorlage",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. v und vii",
+          "text": "Die gegebene Melodie soll selbst musikalische Möglichkeiten eröffnen. Spalding kritisiert Cantus-firmus-Aufgaben, deren zufällige Folge ganzer Noten weder einen klaren Rhythmus noch eine einleuchtende melodische Gestalt besitzt. Eine erkennbare metrische Ordnung ist nötig, weil derselbe Zusammenklang auf schwacher und auf starker Zeit unterschiedlich wirkt. Seine Vorlagen sollen daher eine fließende Gegenstimme anregen und nicht durch ihre eigene Unbeweglichkeit verhindern. Der Cantus dient hier der Erfindung melodischer Linien innerhalb eines tonalen Lehrgangs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Auswahl eines Cantus firmus für tonale Übungen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. v und vii",
+              "note": "Die Anforderungen stehen im ausdrücklich auf freie tonale Stimmführung gerichteten Vorwort; als musikalische Bezugspunkte nennt es Bach, Händel und die Wiener Klassiker."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=9"
         }
       ],
       "relations": [
@@ -15521,6 +17102,12 @@ const ATLAS = {
           "to": "motte1995-r02",
           "type": "context",
           "note": "Schönbergs vorgegebene Cantus firmi sollen gezielt wechselnde Anschlussprobleme erzeugen. De la Motte nimmt für die eigenen Josquin- und Bach-Übungen stattdessen das gemeinsame Erfinden beider Stimmen zum Ausgangspunkt. Die Differenz betrifft die Anlage des Lehrgangs und die Funktion einer Aufgabenstimme."
+        },
+        {
+          "from": "spalding1904-open-produktive-vorlage",
+          "to": "schoenberg1970-e15",
+          "type": "context",
+          "note": "Spalding verlangt vom gegebenen Cantus einen klaren Rhythmus und melodische Anregung für eine fließende Gegenstimme. Schönberg konstruiert Vorlagen gezielt für Übungsprobleme und lässt darin Fortschreitungen zu, die der Lernende in der Gegenstimme vermeiden soll. Die beiden Antworten setzen damit verschiedene Prioritäten bei der Auswahl des Übungsmaterials; daraus folgt kein pauschales Urteil über dessen musikalische Qualität."
         }
       ]
     },
@@ -15538,7 +17125,8 @@ const ATLAS = {
         "cantus-firmus",
         "bindung-s4",
         "linie-orgelpunkt",
-        "textunterlegung"
+        "textunterlegung",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -15814,6 +17402,49 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-bass-und-innenstimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 20 und 26, S. 24–25 und 33–36",
+          "text": "Die Wirkung einer Tonwiederholung hängt von der Aufgabe der Stimme ab. Im Bass schwächen unmittelbare Wiederholungen innerhalb der Phrase leicht den Fortgang; eine Oktavversetzung kann Bewegung schaffen. An der Kadenz ist eine wiederholte Dominante dagegen sinnvoll. In den Innenstimmen bewertet Spalding wiederholte oder gehaltene Töne häufig positiv: Sie geben der Harmonie Halt und lassen den Außenstimmen größere Freiheit. Seine Empfehlung ist daher weder ein allgemeines Wiederholungsverbot noch eine voraussetzungslose Erlaubnis für jede Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Tonwiederholung im vierstimmigen tonalen Satz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 20 und 26, S. 24–25 und 33–36",
+              "note": "Die beiden Abschnitte unterscheiden ausdrücklich Bassfunktion, Kadenz und innere harmonische Stützen. Es handelt sich um das vierstimmige Eingangskapitel, nicht um erste Spezies."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=38"
+        },
+        {
+          "id": "spalding1904-multi-wiederholung-vier-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 106, S. 154–155 · Außen- und Innenstimmen",
+          "text": "Gemeinsame Akkordtöne müssen im vierstimmigen Kontrapunkt nach Spalding nicht automatisch in derselben Stimme liegen bleiben. Für die Melodiebildung kann ein Wechsel günstiger sein. Er unterscheidet dabei deutlich: In den Innenstimmen sind Tonwiederholungen häufig nötig und als Kontrast wirksam; im Sopran empfiehlt er nur selten mehr als eine, im Bass soll man sie mit wenigen Ausnahmen ganz vermeiden. Diese strenge Wertung des stehenden Basses gehört zur Aufgabe, einen durchgehend tragfähigen melodischen Bass zu erfinden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Einfacher vierstimmiger Satz · unterschiedliche Aufgaben der Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 106, S. 154–155 · Außen- und Innenstimmen",
+              "note": "Der Kommentar auf S. 155 unterscheidet ausdrücklich Sopran, Bass und Innenstimmen; die Aussage wird nicht zu einem Verbot von Orgelpunkten in anderer Musik verallgemeinert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
         }
       ],
       "relations": [
@@ -19210,6 +20841,92 @@ const ATLAS = {
             }
           },
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-harmonischer-rhythmus-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 45 und erste Fußnote, S. 67–68; § 51, S. 79–80 · harmonisches Ausgangsmodell der zweiten Ordnung",
+          "text": "Als Ausgangsmodell der zweiten Ordnung empfiehlt Spalding eine Harmonie pro Takt. Der erste Zusammenklang bestimmt sie, während die zusätzliche Gegenstimmennote Bewegung schaffen soll, ohne ständig einen neuen Akkord einzuführen. Ausnahmen gehören bereits zur Erklärung: Beim Bassgang von der zweiten Stufe zur Tonika kann die Gegenstimme über den Sextakkord der Leittonstufe aufsteigen; das Fußnotenbeispiel verbindet am vorletzten Basston zwei Harmonien. Auch in den ausgearbeiteten Modellen weist Spalding ausdrücklich auf zwei Harmonien gegen einen Subjectton hin. Die Empfehlung ist daher keine starre Gleichsetzung von Takt, Basston und Akkorddauer.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 45 und erste Fußnote, S. 67–68; § 51, S. 79–80 · harmonisches Ausgangsmodell der zweiten Ordnung",
+              "note": "Die anfängliche Formulierung lautet eine Harmonie pro Takt; die konkreten Ausnahmen stehen in der Fußnote und bei § 51. S. 67 und 79 visuell geprüft. Die Regel wird nicht mechanisch auf alle späteren, freier rhythmisierten 2:1-Beispiele übertragen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=81"
+        },
+        {
+          "id": "spalding1904-two-harmonischer-rhythmus-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 55, S. 86; § 57, S. 89–90 · Harmoniewechsel innerhalb der Vierergruppe",
+          "text": "Im Vier-gegen-eins lässt Spalding eine, auch zwei Harmonien pro Takt zu. Bleibt die Harmonie gleich, können die weiteren Gegenstimmennoten Akkordtöne, Durchgänge oder Wechselnoten sein. Ein zweiter Akkord soll am Nebenakzent, also mit dem dritten Ton der Vierergruppe, eintreten. In der einleitenden Erklärung heißt es noch „fast immer“; beim regelgeleiteten Ausarbeiten in § 57 verlangt er diesen Zeitpunkt ausdrücklich. Dort empfiehlt er zugleich, im Allgemeinen mit einer Harmonie auszukommen. Eine unpassende melodische Wendung darf daher nicht beliebig durch einen neuen Akkord auf der zweiten oder vierten Position erklärt werden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 55, S. 86; § 57, S. 89–90 · Harmoniewechsel innerhalb der Vierergruppe",
+              "note": "Die unterschiedliche Stärke der Formulierungen in § 55 und § 57 wird ausdrücklich erhalten. Notenbeispiele und Erläuterungen auf S. 89–90 visuell geprüft. § 55 legt den instrumentalen Übungsrahmen fest."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=100"
+        },
+        {
+          "id": "spalding1904-multi-zwei-harmonien",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 132–133, Beispiele 2 und 3 bei (a) · zweite Ordnung in drei Stimmen",
+          "text": "Zwei Töne gegen einen bedeuten bei Spalding nicht zwingend nur eine Harmonie im ganzen Takt. In den dreistimmigen Beispielen 2 und 3 setzt er an den markierten Stellen zwei verschiedene Harmonien innerhalb eines Takts ein. Er nennt dies ein gelegentlich nützliches Mittel, vor dessen häufigem Gebrauch er zugleich warnt. Beim Lesen muss daher geprüft werden, ob der zweite bewegte Ton eine Diminution derselben Harmonie ist oder an einem tatsächlichen Harmoniewechsel beteiligt ist.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweite Ordnung · dreistimmige tonale Aussetzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 96, S. 132–133, Beispiele 2 und 3 bei (a) · zweite Ordnung in drei Stimmen",
+              "note": "Der Kommentar auf S. 133 bezeichnet die markierten Stellen ausdrücklich als zwei Harmonien im Takt und begrenzt ihren Gebrauch."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=146"
+        },
+        {
+          "id": "spalding1904-multi-tempo-und-harmoniewechsel",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 118, S. 182–183 · bewegte Melodien für vier Streicher",
+          "text": "Vor der Harmonisierung einer bewegten Melodie soll entschieden werden, welche Töne Akkordtöne und welche Durchgänge oder Wechselnoten werden. Spalding lehnt dafür eine starre Auswahlregel ebenso ab wie einen neuen Akkord unter fast jeder Note. Das Tempo gehört zur Entscheidung: In rascher Musik braucht die Harmonie weniger häufig zu wechseln; bei langsamer Bewegung kann langes Verharren auf demselben oder eng verwandten Klang dagegen schwach wirken. Die Notenwerte allein legen den harmonischen Rhythmus also nicht fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Streicherübung · Harmonieauswahl unter bewegter Melodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 118, S. 182–183 · bewegte Melodien für vier Streicher",
+              "note": "§ 118 erklärt ausdrücklich die Rolle des Tempos und gibt keine feste Zahl von Harmoniewechseln je Takt vor."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=196"
         }
       ],
       "readingSources": [
@@ -19256,7 +20973,8 @@ const ATLAS = {
         "viertel-gegen-viertel",
         "stimme-und-satzstruktur",
         "stimmen-ergaenzen",
-        "generalbass-bassvariation"
+        "generalbass-bassvariation",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -19698,6 +21416,114 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-gleicher-rhythmus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 33, S. 52–54",
+          "text": "Melodische Selbstständigkeit setzt nicht voraus, dass die Stimmen dauernd verschiedene Notenwerte haben. Spalding zeigt an einem Abschnitt aus Händels Judas Maccabaeus, dass sich bei weitgehend gleichem Rhythmus freie und interessante Linien verbinden lassen. Die Übung Note gegen Note soll deshalb zuerst die melodische Führung und das Zusammenwirken der Stimmen schulen. Ein rhythmischer Gegensatz wird später ein weiteres Mittel der Gestaltung; er ersetzt die Linienqualität im gleichrhythmischen Satz nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Gleichrhythmischer vierstimmiger Vokalsatz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. I, § 33, S. 52–54",
+              "note": "Die Aussage stützt sich auf das ausdrücklich erläuterte Händel-Beispiel aus Judas Maccabaeus. Der Abschnitt gehört noch zum Eingangskapitel und erhält keine automatische S1-Zuordnung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=66"
+        },
+        {
+          "id": "spalding1904-two-rhythmischer-ausgleich-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, nach den Übungen zu § 91, S. 126–127 · frei rhythmisierte Subjects",
+          "text": "Nach den gleichmäßigen Vorlagen erweitert Spalding den Floridus auf Melodien, die selbst einen freien und wechselnden Rhythmus haben. Gegenstimme und Subject sollen dann nicht gleichzeitig um dieselbe rhythmische Aktivität konkurrieren: Wo eine Stimme lebhaft bewegt ist, kann die andere weniger Bewegung haben. Der abschließende Moderato-Satz auf S. 126 führt diesen Ausgleich vor. Die Selbständigkeit entsteht hier aus dem Zusammenspiel verschiedener Bewegungsdichten innerhalb der ganzen Phrase, nicht aus einer unveränderten schnellen Gegenstimme gegen jede Art von Vorlage.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, nach den Übungen zu § 91, S. 126–127 · frei rhythmisierte Subjects",
+              "note": "Der ausdrückliche Schlussabschnitt und das Moderato-Beispiel auf S. 126 wurden visuell geprüft. Die Aufgaben gehören zum erweiterten instrumentalen Floridus; aus der wechselnden Zahl gleichzeitig auftretender Noten wird keine neue Speziesnummer abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=140"
+        },
+        {
+          "id": "spalding1904-multi-florider-ausgleich",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 101, S. 143–145 · zwei floride Gegenstimmen",
+          "text": "Bei zwei floriden Gegenstimmen soll die Bewegung hörbar zwischen den Linien wechseln. Spalding begrenzt Achtelgruppen zunächst meist auf zwei Töne und vermeidet, dass nur eine Stimme lange aktiv bleibt. Punktierungen können die Rhythmen unterscheiden, wenn eine Nachbarstimme den Fortgang trägt. Auch versetzte Einsätze, bis hin zum Eintritt erst in einem späteren Takt, helfen der Individualisierung. Das Ziel ist ein ausgewogenes Wechselspiel und nicht die größtmögliche Zahl kurzer Noten in allen Stimmen.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige floride Übung · Verteilung der rhythmischen Tätigkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 101, S. 143–145 · zwei floride Gegenstimmen",
+              "note": "§ 101 behandelt ausdrücklich eine oder zwei floride Gegenstimmen. Die Beispiele auf S. 144 ergänzen versetzte Einsätze, S. 145 die punktierte Viertel."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=157"
+        },
+        {
+          "id": "spalding1904-multi-quartett-rhythmus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 116, S. 179–180; § 118, S. 184–185 · Gluck-Aussetzung und Schubert-Beispiel",
+          "text": "In der Aussetzung einer Gluck-Melodie versucht Spalding, jeder der vier Streicherstimmen einen erkennbar eigenen Rhythmus zu geben. Dazu gehören gerade auch längere Liegetöne, gegen die andere Linien weitergehen. Rhythmische Verschiedenheit ist für ihn dennoch kein ausnahmsloses Qualitätskriterium: Wenige Seiten später lobt er einen Ausschnitt aus Schuberts d-Moll-Quartett ausdrücklich trotz fehlender rhythmischer Vielfalt. Dort trägt die Gruppierung der Akkorde die Wirkung. Die Schreibaufgabe mit kontrastierenden Rhythmen und das Urteil über ein konkretes Werk haben also unterschiedlichen Umfang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Streicherquartett · rhythmische Kontraste und eine homorhythmische Ausnahme",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. VIII, § 116, S. 179–180; § 118, S. 184–185 · Gluck-Aussetzung und Schubert-Beispiel",
+              "note": "Spalding kommentiert seine Gluck-Aussetzung auf S. 180 und den Schubert-Ausschnitt auf S. 185 ausdrücklich mit gegensätzlicher rhythmischer Beschreibung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=193"
+        },
+        {
+          "id": "spalding1904-free-14",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, § 174, S. 240, und Fortsetzung von § 178, S. 247 · Pausen und wichtige Einsätze",
+          "text": "Selbstständige Stimmen müssen für Spalding nicht ununterbrochen beschäftigt sein. Im Streichquartett dürfen einzelne Instrumente pausieren, sodass zeitweise nur zwei oder drei Stimmen erklingen. Bei der späteren Arbeit mit zwei Hauptmotiven empfiehlt er Pausen gerade als Vorbereitung eines wichtigen melodischen Eintritts. Rhythmische Eigenständigkeit entsteht damit auch durch die Verteilung von Aktivität und Ruhe. Eine dichte imitative Arbeit soll trotzdem natürlich und fließend bleiben, statt jede Stimme fortwährend mit Material zu füllen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Rhythmische Gestaltung im freien Streichquartettsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, § 174, S. 240, und Fortsetzung von § 178, S. 247 · Pausen und wichtige Einsätze",
+              "note": "§ 174 lehnt ausdrücklich das ständige Weiterspielen aller Stimmen ab. Auf S. 247 erklärt Spalding die vorbereitende Wirkung von Pausen vor wichtigen melodischen Phrasen; die Hinweise gelten dort für die Ausarbeitung des Zweithemenentwurfs."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=254"
         }
       ],
       "readingSources": [
@@ -19750,7 +21576,8 @@ const ATLAS = {
         "fuge-tripelfuge",
         "fuge-quadrupelfuge",
         "fuge-permutationsfuge",
-        "fuge-kanonische-fuge"
+        "fuge-kanonische-fuge",
+        "vierfacher-kontrapunkt"
       ],
       "authors": [
         {
@@ -20225,6 +22052,131 @@ const ATLAS = {
           },
           "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-anwendung-und-begriff",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 119–120, S. 187–188 · vertauschbare Linien außerhalb und innerhalb fugierter Formen",
+          "text": "Doppelter Kontrapunkt bedeutet für Spalding, dass zwei zusammenpassende Melodien ihre Lage tauschen können: Jede muss über und unter der anderen funktionieren. Er führt das Verfahren nicht nur für Fuge und Invention ein. Schon eine Hymne von Sullivan und der Anfang von Chopins As-Dur-Ballade dienen ihm als Beispiele eines freieren, beiläufigen Gebrauchs. Der Nachweis einer vertauschbaren Stimmenverbindung macht einen ganzen Satz somit noch nicht zur Fuge oder zu einer durchgehend mehrfach kontrapunktischen Komposition.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Begriff und Anwendung · Hymne und Klavierballade",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, §§ 119–120, S. 187–188 · vertauschbare Linien außerhalb und innerhalb fugierter Formen",
+              "note": "§ 119 nennt und notiert die Beispiele von Sullivan und Chopin; § 120 definiert den Lagentausch zweier gemeinsam erklingender Melodien."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=201"
+        },
+        {
+          "id": "spalding1904-multi-oktave-und-quintdezime",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 121–122, S. 188–192 · Oktav- und Doppeloktavtausch",
+          "text": "Beim Tausch in der Oktave bleibt bei Spalding eine Stimme liegen, während die andere um eine Oktave versetzt wird. Sind die Stimmen zuvor weiter als eine Oktave auseinander, vertauscht diese einzelne Versetzung ihre Lage an der betreffenden Stelle nicht, sondern verringert nur den Abstand. Der Tausch in der Doppeloktave schafft mehr Raum: Häufig geht die bisher untere Stimme eine Oktave hinauf und die obere eine hinab. Die harmonische Prüfung bleibt weitgehend dieselbe; Register und tatsächliche Höhenordnung müssen in jeder Fassung gesondert stimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige Vertauschungsübung · Intervall und Register des Tauschs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 121–122, S. 188–192 · Oktav- und Doppeloktavtausch",
+              "note": "§ 121 unterscheidet ausdrücklich Kontraktion und wirklichen Lagentausch; § 122 beschreibt die praktische Aufteilung der Doppeloktavversetzung auf beide Stimmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=202"
+        },
+        {
+          "id": "spalding1904-multi-oktavtausch-quinte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 123–124, S. 193–194 · Quinte und Quarte vor und nach dem Tausch",
+          "text": "Beim Oktavtausch bleiben Terzen und Sexten als unvollkommene Konsonanzen brauchbar, während die Quinte zur Quarte wird. Spalding führt eine Quinte deshalb so, dass auch ihre vertauschte Quarte verständlich bleibt: als vorbereitete Dissonanz oder als melodisch begründeter Zwischenton. Seine anschließende Tafel erweitert die erste knappe Formulierung ausdrücklich um eine Quinte als betonten Durchgang bei (d) und eine betonte Quarte als Appoggiatura bei (f). Ein absolutes Verbot jeder Quinte oder jeder betonten Quarte würde diese Beispiele verfehlen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmiger Oktavtausch · dissonanzgerechte Führung beider Lagen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 123–124, S. 193–194 · Quinte und Quarte vor und nach dem Tausch",
+              "note": "S. 193 formuliert die Grundvorsicht; S. 194 nennt ausdrücklich die zusätzlichen betonten Fälle (d) und (f). Die gedruckten Buchstaben bleiben unverändert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=207",
+          "examples": [
+            "spalding-oktavtausch-quinte-quarte"
+          ]
+        },
+        {
+          "id": "spalding1904-multi-chromatische-intervalle",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 125–127, S. 194–195 · chromatische Intervalle in zwei vertauschbaren Stimmen",
+          "text": "Übermäßige Quarte und verminderte Quinte lässt Spalding im doppelten Kontrapunkt auf betonten wie unbetonten Zeiten zu. Eine übermäßige Sexte vermeidet er dagegen im Zweistimmensatz, weil nach dem Tausch eine für ihn unbefriedigende verminderte Terz entsteht. Bei der verminderten Septime entscheidet die Fortführung: Die beiden Töne können nacheinander aufgelöst werden. Eine gleichzeitige Auflösung in eine Quinte auf starkem Taktteil soll unterbleiben, weil diese Quinte nach dem Tausch als problematische Quarte wiederkehrt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmiger vertauschbarer Satz · chromatische Intervalle und Auflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 125–127, S. 194–195 · chromatische Intervalle in zwei vertauschbaren Stimmen",
+              "note": "§§ 125–127 unterscheiden die einzelnen Intervallarten und verlangen für die verminderte Septime ausdrücklich eine passende zeitliche Verteilung der Auflösung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=208"
+        },
+        {
+          "id": "spalding1904-multi-quintenfolge-und-besetzung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 125, S. 194–195 · reine und verminderte Quinte",
+          "text": "Eine reine Quinte unmittelbar vor einer verminderten Quinte lehnt Spalding im zweistimmigen doppelten Kontrapunkt ab: Nach der Vertauschung treten reine und übermäßige Quarte zu auffällig hervor. Eine als Durchgang erklärte Änderung verbessert sein Beispiel. Bei drei Stimmen beurteilt er die entsprechende Verbindung milder, wenn eine Innenstimme beteiligt ist. Daraus folgt jedoch noch nicht, dass alle drei Linien in jeder Lage miteinander vertauschbar wären; diese zusätzliche Forderung behandelt er erst beim dreifachen Kontrapunkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zwei- und dreistimmiger Satz · Wirkung eines vertauschten Stimmenpaars",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 125, S. 194–195 · reine und verminderte Quinte",
+              "note": "Die Passage setzt den zweistimmigen Fall ausdrücklich von Verbindungen zwischen Innen- und Außenstimme ab. Die Forderung vollständiger dreifacher Vertauschbarkeit steht gesondert in § 144."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=208"
+        },
+        {
+          "id": "spalding1904-multi-freie-anpassung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 129, S. 196–197; § 143, S. 206–207 · freie Wiederaufnahme einer vertauschten Verbindung",
+          "text": "Bei freier kompositorischer Verwendung muss die spätere vertauschte Passage bei Spalding nicht in jedem Detail eine mechanische Kopie sein. Im angeführten Händel-Beispiel wird sie durch einen eingeschobenen Takt verlängert. In seiner eigenen Inventionsaufgabe 1 ändert er beim späteren Tausch einen Ton, um am Taktanfang eine leere Quarte zu vermeiden. Die wiederkehrende Verbindung bleibt erkennbar; ihre konkrete Fortsetzung wird zugleich an Harmonie und Form angepasst. Solche Bearbeitungen sind von der strengen Prüfung zweier unveränderter Stimmenlagen zu unterscheiden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier doppelter Kontrapunkt · Repertoirebeispiel und Inventionsentwurf",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 129, S. 196–197; § 143, S. 206–207 · freie Wiederaufnahme einer vertauschten Verbindung",
+              "note": "§ 129 nennt den zusätzlichen Takt im Händel-Beispiel; S. 207 erklärt die Einzelnote im eigenen Inventionsmodell. Die Passage darf nicht als Beweis exakter Identität aller Töne ausgegeben werden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=210"
         }
       ],
       "readingSources": [
@@ -20268,6 +22220,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Noël-Gallon und Bitsch formulieren die Bedingungen eines wirklichen Oktavtauschs und prüfen seine Intervalle für jedes beteiligte Stimmenpaar. Gárdonyi beschreibt in BWV 651 dagegen einen motivischen Rollentausch, den er ausdrücklich nicht als in Intervallen und Rhythmus genauen doppelten Kontrapunkt einstuft. Die ähnliche Satzwirkung ist keine Ausnahme von der Regel für exakte Vertauschbarkeit."
+        },
+        {
+          "from": "spalding1904-multi-freie-anpassung",
+          "to": "schubert1999-1",
+          "type": "context",
+          "note": "Schubert prüft zwei Lagen derselben Stimmenverbindung innerhalb der Regeln einer Spezies. Spaldings freie Repertoire- und Inventionsbeispiele dürfen bei der späteren Wiederkehr durch einen zusätzlichen Takt oder eine geänderte Einzelnote angepasst werden. Solche kompositorischen Bearbeitungen ersetzen nicht die strengere Prüfung unveränderter Übungsfassungen."
         }
       ]
     },
@@ -20615,6 +22573,28 @@ const ATLAS = {
           "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
           "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-01",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, §§ 152–155, S. 215–217 · freie Imitation bei Schumann, Tschaikowsky und Brahms",
+          "text": "Spalding beschreibt Imitation zunächst als Wiederkehr derselben melodischen Figur in verschiedenen Stimmen, auf anderen Stufen und häufig auch in anderen Tonarten. Sie ist für ihn auch außerhalb von Kanon und Fuge ein wichtiges Mittel des Zusammenhangs. Die Nachahmung muss dabei nicht wörtlich oder völlig genau sein, damit die Stimmen einander hörbar antworten. Dafür führt er unter anderem Ausschnitte aus Tschaikowskys Klavierkonzert op. 23 und Brahms’ Vokalquartett op. 64 an. Eine solche örtliche, freie Antwort bindet noch nicht den ganzen weiteren Verlauf an ein kanonisches Verfahren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Freie motivische Imitation in Klavier- und Vokalmusik",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. X, §§ 152–155, S. 215–217 · freie Imitation bei Schumann, Tschaikowsky und Brahms",
+              "note": "§ 152 definiert die Imitation und nennt ihren Gebrauch auch in freien Formen; § 155 erlaubt ausdrücklich eine nicht wörtliche Nachahmung. Die romantischen Beispiele auf S. 215 und 217 begründen die Stilzuordnung. Die Schlussformulierung grenzt diese örtliche Nachahmung von einer fortgesetzten kanonischen Bindung ab, ohne Spalding eine hier nicht ausgeführte Kanontheorie zuzuschreiben."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=229"
         }
       ],
       "readingSources": [],
@@ -20851,6 +22831,30 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-gemischte-ordnungen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 100–101, S. 140 und 143–145 · zwei begleitende Stimmen",
+          "text": "Spalding verbindet zunächst die zweite und die dritte Ordnung in den beiden Gegenstimmen. Anschließend darf eine oder dürfen beide Gegenstimmen florid werden; später kann sogar das gegebene Thema selbst verschiedene Notenwerte haben. Zwei floride Stimmen sind damit ausdrücklich möglich. Ihr Gewinn liegt im rhythmischen Wechselspiel: Die Bewegung soll nicht lange ausschließlich in derselben Stimme bleiben, während die andere ohne eigene Gestaltung stillsteht. Die freien Aufgaben gehen über eine unveränderliche Verteilung je einer Spezies auf jede Stimme hinaus.",
+          "speciesScope": [
+            2,
+            3,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige Übung · gemischte Ordnungen und Übergang zum freien Satz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 100–101, S. 140 und 143–145 · zwei begleitende Stimmen",
+              "note": "§ 100 benennt die zweite und dritte Ordnung sowie eine oder zwei floride Stimmen; § 101 fordert deren rhythmischen Ausgleich."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=154"
         }
       ],
       "readingSources": [
@@ -20887,6 +22891,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Im grand mélange von Noël-Gallon und Bitsch erhält jede Gegenstimme grundsätzlich eine eigene Bewegungsart. Stein erläutert bei Schönberg zusätzlich drei floride Gegenstimmen und findet diese freiere Verteilung leichter befriedigend als vier fest getrennte Spezies. Die Verschiedenheit der Rollen ist hier ein Mittel, keine durchgehend vorgeschriebene Aufteilung."
+        },
+        {
+          "from": "spalding1904-multi-gemischte-ordnungen",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Spaldings dreistimmiger Übergang zum freien Instrumentalsatz erlaubt ausdrücklich zwei floride Gegenstimmen. Im beschriebenen mélange von Gallon und Bitsch erhält dagegen jede Gegenstimme eine eigene Rhythmusart. Die Vorgaben gehören zu unterschiedlichen Übungsanlagen; Spaldings rhythmisches Wechselspiel ist keine bloße weitere Besetzung derselben festen Rollenverteilung."
         }
       ]
     },
@@ -21676,6 +23686,29 @@ const ATLAS = {
           "examples": [
             "sechter-sextakkord"
           ]
+        },
+        {
+          "id": "spalding1904-open-leittondreiklang-verdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 10, S. 10–12",
+          "text": "In der ersten Umkehrung des Leittondreiklangs können nach Spalding sowohl dessen ursprüngliche Terz als auch dessen ursprüngliche Quinte verdoppelt werden. Bezogen auf den Sextakkordbass bedeutet das: Entweder wird der Bass selbst oder die Terz über ihm verdoppelt. Beide Möglichkeiten belegt er als brauchbar. Daraus folgt keine beliebige Verdopplung aller drei Töne: Der ursprüngliche Grundton des verminderten Dreiklangs bleibt der tonale Leitton und damit besonders empfindlich.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Erste Umkehrung des tonalen Leittondreiklangs",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 10, S. 10–12",
+              "note": "§ 10 nennt die beiden Verdopplungen und führt ein Beispiel aus Händels Messiah an. Es geht um den Leittonsextakkord, nicht um eine allgemeine Tabelle sämtlicher Sextakkorde."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=24"
         }
       ],
       "readingSources": []
@@ -22703,6 +24736,46 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-drei-gegen-eins",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, §§ 68–69, S. 105–106 · drei Noten gegen einen Subjectton",
+          "text": "Beim Drei-gegen-eins soll nach Spalding jedem Subjectton nur eine Harmonie zugeordnet werden. Ein Dreiklangsarpeggio ist hier häufiger nötig und wirkt für ihn weniger schwach als bei vier Noten gegen eine. Zwischen den Akzenten liegen zwei Noten; deshalb können zwei Durchgänge hintereinander oder die beiden „changing notes“ einer Umspielung eingesetzt werden. Zur Übung dürfen Subjects der vorherigen Kapitel mit dieser neuen Bewegungsart bearbeitet werden. Er empfiehlt, einige solcher Bearbeitungen auszuführen und passende Repertoirebeispiele zu analysieren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · drei gegen eins",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, §§ 68–69, S. 105–106 · drei Noten gegen einen Subjectton",
+              "note": "§§ 68–69 nennen ausdrücklich das rhythmische Verhältnis und seine harmonischen Bedingungen. Der Abschnitt steht zwar in Kap. IV, weist 3:1 aber hier keiner eigenen nummerierten Ordnung zu; speciesScope bleibt deshalb leer."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=119"
+        },
+        {
+          "id": "spalding1904-multi-dreiergruppen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 105, S. 152–153, Übungen 7 und 8 · dreitönige Gruppen im Trio",
+          "text": "Für seine dreistimmigen Aufgaben mit drei Tönen gegen einen verbindet Spalding kurze Skalenstücke mit Akkordbrechungen. Eine ausschließlich diatonische Linie lässt sich nach seiner Erfahrung in diesem Raster selten lange sinnvoll fortsetzen; wenigstens ein Teil der Gruppe soll deshalb häufig arpeggiert sein. Ein betonter Durchgang kann einen kurzen Lauf eröffnen. Die Übungen werden aus zuvor behandelten Melodien durch eine Änderung des Metrums gewonnen und sollen auf Triolenbewegung in freier Komposition vorbereiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentales Trio · drei Töne gegen einen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 105, S. 152–153, Übungen 7 und 8 · dreitönige Gruppen im Trio",
+              "note": "§ 105 bezieht die Dreiergruppen auf freie Komposition und erläutert ausdrücklich ihre Mischung aus Arpeggio und diatonischem Lauf; eine starre Speziesklassifikation wird hier nicht hinzugefügt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=166"
         }
       ],
       "readingSources": [
@@ -22809,6 +24882,28 @@ const ATLAS = {
               "note": "Gegenstand sind Thema und Gegenmotiv in Bachs d-Moll-Invention BWV 775."
             }
           }
+        },
+        {
+          "id": "spalding1904-multi-invention-gegenstimme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 142–143, S. 204–205 · C-Dur-Invention und Gegenstimme",
+          "text": "Am Beginn von Bachs C-Dur-Invention unterscheidet Spalding Thema und kontrastierende Gegenstimme. Diese Gegenstimme soll für seine Inventionsaufgabe von Anfang an vertauschbar geplant werden, damit sie später auch unter dem Thema stehen kann. Im Abschnitt in G-Dur zeigt er die umgekehrte Verteilung: Das Thema beginnt unten, wird oben wiederholt, und die zuvor obere Gegenstimme liegt nun im Bass. Ihre Eignung als melodische Linie und ihre Bassfunktion müssen deshalb zusammen entwickelt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Invention und daran anschließende Schreibaufgabe · vertauschbare Gegenstimme",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, §§ 142–143, S. 204–205 · C-Dur-Invention und Gegenstimme",
+              "note": "Spalding markiert Thema A und Gegenstimme B im Anfang und im G-Dur-Abschnitt. Die Aussage betrifft sein ausdrücklich an dieser Invention entwickeltes Modell."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=218"
         }
       ],
       "readingSources": []
@@ -23556,6 +25651,26 @@ const ATLAS = {
               "note": "Die benannten Aufgaben fugato, d’un sol passo und ostinato besitzen unterschiedliche Bindungen. Menke beschreibt sie als eigene historische Übungskonzepte."
             }
           }
+        },
+        {
+          "id": "spalding1904-free-03",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 158, S. 219–220 · Übungen 1–4 mit periodischer Melodie",
+          "text": "Bei einer längeren vorgegebenen Melodie soll die kurze Anfangsphrase des Kontrapunkts in wechselnden Stimmen wiederkehren, soweit dies musikalisch natürlich wirkt. Spalding zeigt denselben melodischen Ausgangspunkt in unterschiedlichen Stimmen und verändert dabei die begleitende Figur: Zur Melodie im Alt tritt eine aufsteigende Figur; für den Bass werden auf- und absteigende Gegenfiguren erprobt. Die Einheit entsteht also durch die wiedererkennbare kleine Gestalt, während Lage, Bewegungsrichtung und Einsatzfolge des übrigen Satzes wechseln können.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Imitative Gegenstimmen zu einer periodischen Melodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, § 158, S. 219–220 · Übungen 1–4 mit periodischer Melodie",
+              "note": "§ 158 gibt das Wiederholen der Anfangsphrase in verschiedenen Stimmen vor. Die Beschriftung von Übung 2 nennt die Melodie im Alt und die aufsteigende Figur; S. 220 stellt die beiden Bassbehandlungen nebeneinander. Die periodische Melodie wird nicht nachträglich als Spezies-Cantus klassifiziert."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=233"
         }
       ],
       "reading": "Singe zuerst die wiederkehrende Oberstimme, dann den Bass dazu. Haben sich Tonlage, Rhythmus oder die Intervalle zwischen beiden Stimmen verändert?",
@@ -24032,6 +26147,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-invention-sequenzen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 143, S. 205–206 · modulierende Abschnitte und Rückkehr der C-Dur-Invention",
+          "text": "Die freieren Übergänge einer Invention sollen bei Spalding nicht beliebig zwischen Tonarten umhergehen. Er empfiehlt Sequenzen und kurze Imitationen, die den Zusammenhang des Materials erhalten. An der C-Dur-Invention beschreibt er nach dem Erreichen von a-Moll die Gegenbewegung des Anfangsmotivs und weitere Sequenzen über verwandte Tonarten, bevor das Motiv in seiner ursprünglichen Richtung den C-Dur-Schluss trägt. Für den letzten Abschnitt gibt er dennoch keine starre Ausführungsregel: Der motivische Zusammenhang soll die Freiheit des Verlaufs tragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Invention und Schreibaufgabe · motivisch gebundene Modulation",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, § 143, S. 205–206 · modulierende Abschnitte und Rückkehr der C-Dur-Invention",
+              "note": "§ 143 nennt Sequenzen und einfache Imitationen als Mittel gegen zielloses Modulieren und erläutert die Rückkehr am Motiv der C-Dur-Invention."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=219"
         }
       ]
     },
@@ -24657,6 +26794,29 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-freies-choralende",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 113, S. 171–172 · verlängertes Choralende und instrumentale Beispiele",
+          "text": "Der letzte Melodieton kann liegen bleiben, während die anderen Stimmen einen freien Schlusszusatz bilden. Spalding zeigt dies an seiner Choralaussetzung und verbindet solche Erweiterungen häufig mit einem Orgelpunkt in einer oder mehreren Stimmen. Er empfiehlt die Aufgabe als Gelegenheit, den erreichten Schluss geschmackvoll auszuformen. Die beigefügten Hinweise auf Bach, Mendelssohn und Brahms machen zugleich deutlich, dass dieses Verfahren für ihn nicht auf unbegleiteten Vokalsatz beschränkt ist.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Schlusserweiterung · Choralsatz und instrumentaler Repertoirevergleich",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. VIII, § 113, S. 171–172 · verlängertes Choralende und instrumentale Beispiele",
+              "note": "Die Seite nennt Mendelssohns Paulus, Ausschnitte aus Bachs Wohltemperiertem Klavier und Brahms’ Haydn-Variationen als verschiedene Anwendungsfelder."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=185"
         }
       ],
       "relations": [
@@ -24854,6 +27014,28 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-kadenz-vorausnahme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, nach § 90, S. 123, Kadenzbeispiel a · vorweggenommene Schlussharmonie",
+          "text": "In einer floriden Kadenz zeigt Spalding als gelegentliche Variante eine punktierte Viertel mit folgender Achtel, die bereits zur Schlussharmonie gehört. Der Schluss wird dadurch in einer Stimme vorweggenommen, bevor die abschließende Harmonie gemeinsam eintritt. Diese Vorausnahme wirkt zeitlich anders als die zuvor behandelten Vorhalte: Dort bleibt ein alter Ton zunächst über den Wechsel hinaus bestehen; hier erscheint ein Ton der kommenden Harmonie zu früh. Spalding empfiehlt die Kadenzfigur als freie rhythmische Wirkung, nicht als verpflichtendes Schlussmuster.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, nach § 90, S. 123, Kadenzbeispiel a · vorweggenommene Schlussharmonie",
+              "note": "Kadenzbeispiel a und seine Erklärung auf S. 123 visuell geprüft. Die Unterscheidung vom Vorhalt verweist auf die ausdrücklich behandelte Bindung in §§ 75 und 87; keine zusätzliche Tonfolge wurde erfunden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=137"
         }
       ]
     },
@@ -25475,6 +27657,50 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-rhythmus-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 86, S. 119–120; § 91, S. 124–125 · rhythmischer Grundriss des Floridus",
+          "text": "Spaldings Floridus mischt die zuvor geübten Bewegungsarten mit Ausnahme des durchgehenden Note-gegen-Note-Satzes. Im zunächst verwendeten 4/4 sollen längere Werte auf den Haupt- und Nebenakzenten stehen, während die leichten Positionen die Bewegung weitertragen. Bei der Mischung aus Halben und Vierteln bevorzugt er deshalb die Halbe vor den kürzeren Werten. Wird 2:1 verwendet, bindet er die zweite Note in den Folgetakt. Gleichartige Muster in benachbarten Takten sollen normalerweise vermieden werden; sein Modell auf S. 125 nimmt jedoch eine sequentielle Imitation ausdrücklich davon aus. Rhythmische Vielfalt dient einer zusammenhängenden Linie, nicht einem schematischen Wechsel um jeden Preis.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 86, S. 119–120; § 91, S. 124–125 · rhythmischer Grundriss des Floridus",
+              "note": "Wortlaut und Rhythmustabelle auf S. 119–120 sowie das Modell mit erklärter Sequenz-Ausnahme auf S. 125 visuell geprüft. § 91, S. 124, bestimmt die Übungen ausdrücklich als instrumental. Die Ausnahme verhindert eine absolute Lesung der Forderung nach wechselnden Mustern."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=133"
+        },
+        {
+          "id": "spalding1904-two-achtel-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 86, S. 120–121; nach § 90, S. 123 · Achtelgruppen im Floridus",
+          "text": "Um eine Folge reiner Vierteltakte zu beleben, ersetzt Spalding gelegentlich die zweite oder vierte Viertelposition durch zwei Achtel, manchmal beide. Die Achtel sollen dabei nicht auf die starken Positionen verlegt werden, und zwischen den beiden Achteln soll kein Sprung liegen. Gruppen aus vier Achteln sind auf beiden Takthälften möglich, sollen aber selten vorkommen. Steht eine solche Gruppe auf der ersten Takthälfte, muss ihr erstes Achtel aus dem vorigen Takt übergebunden sein. Diese Vorgaben sollen eine sprunghafte Beschleunigung verhindern und die kurzen Werte in den größeren Bewegungsverlauf einbinden.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 86, S. 120–121; nach § 90, S. 123 · Achtelgruppen im Floridus",
+              "note": "Die guten und schlechten Rhythmusbeispiele auf S. 120–121 und 123 wurden visuell geprüft. Die Regel zur ersten Takthälfte gilt für die Gruppe von vier Achteln; sie wird nicht mit der gewöhnlichen Zweiergruppe auf leichter Viertelposition vermischt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=134"
         }
       ],
       "relations": [
@@ -25952,6 +28178,50 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-sprungstelle-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 63, S. 98–99 · Lage eines notwendigen Sprungs",
+          "text": "Muss die Gegenstimme im Vier-gegen-eins springen, legt Spalding den Sprung im Allgemeinen lieber in den früheren Teil der Gruppe, nach einem Akzent. Die letzten beiden Töne sollen möglichst schrittweise zum nächsten Akzent führen. Er nennt das ausdrücklich eine Empfehlung. Im Beispiel auf S. 99 steigt die Linie einmal erst zum dritten Ton als Höhepunkt an und springt danach eine Terz in Gegenrichtung. Dieser spätere Sprung vermeidet die bloße Wiederholung des vorherigen Musters. Taktgewicht und Gestaltung der ganzen Phrase müssen daher zusammen beurteilt werden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 63, S. 98–99 · Lage eines notwendigen Sprungs",
+              "note": "S. 99 einschließlich der ausdrücklich erläuterten Ausnahme im dritten Takt von Beispiel b visuell geprüft. Keine starre Vorschrift, dass Sprünge ausschließlich am Taktanfang stehen dürften."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
+        },
+        {
+          "id": "spalding1904-two-vorbereitung-sprung-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, § 89, S. 122, Beispiele a und b · Erreichen des zu bindenden Tones",
+          "text": "Den später übergebundenen Ton empfiehlt Spalding im Floridus im Allgemeinen durch einen Sprung zu erreichen, besonders wenn er zunächst als Viertel erscheint. Im Vergleich auf S. 122 wirkt ihm dieser Eintritt kräftiger als die schrittweise Vorbereitung: Der aufsteigende Schrittgang wird in der schwächeren Fassung lediglich durch die Bindung angehalten, statt zu einem neuen Akzent weiterzuführen. Gemeint ist das Erreichen des zu bindenden Tones in seinem melodischen Zusammenhang, nicht das freie Anspringen einer unvorbereiteten Vorhaltsdissonanz.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, § 89, S. 122, Beispiele a und b · Erreichen des zu bindenden Tones",
+              "note": "Beide Beispiele in § 89 auf S. 122 visuell geprüft. Die Aussage wird als Empfehlung zur Vorbereitung der Bindung wiedergegeben, damit das Wort suspended note nicht irrtümlich als Erlaubnis eines Sprungs in eine unvorbereitete Dissonanz gelesen wird."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=136"
         }
       ],
       "relations": [
@@ -26034,6 +28304,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-chromatische-wechselnoten",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 64, S. 99 · chromatische obere und untere Nebentöne",
+          "text": "Spalding unterscheidet chromatische Nebentöne nach ihrer Lage zum Akkordton. Einen chromatisch veränderten Durchgangs- oder Wechselton oberhalb deutet er als Hinweis auf eine Modulation; einen solchen Ton unterhalb hört er ohne Tonartwechsel. Die untere Wechselnote soll fast immer einen Halbton entfernt sein, besonders im Bass. Seine kurzen Muster sind bereits mit Tonartangaben wie F, C oder G versehen. Die Aussage gibt damit seine harmonische Deutung dieser chromatischen Figuren wieder; die obere und untere Umspielung werden in der Übung nicht gleich behandelt.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 64, S. 99 · chromatische obere und untere Nebentöne",
+              "note": "Die starken Formulierungen über implizierte Modulation und den Abstand der unteren Nebennote stehen ausdrücklich in § 64. S. 99 mit Tonartbeschriftungen visuell geprüft. Es wird keine heutige allgemeine Definition von Modulation aus diesen kurzen Mustern abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=113"
         }
       ]
     },
@@ -26128,6 +28420,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-wechselnote-gegen-durchgang",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 101, S. 145, oberes vollständiges Beispiel (a) · florider Alt und Bass",
+          "text": "Im Beispiel mit dem Thema im Sopran erklärt Spalding die markierte Reibung zwischen Alt und Bass aus zwei verschiedenen Verzierungsfunktionen: Im Alt steht eine Wechselnote, im Bass ein Durchgang. Die beiden bewegten Stimmen müssen also nicht bei jedem Zusammentreffen miteinander konsonieren. Entscheidend sind hier ihre konkreten Wege innerhalb des dreistimmigen Zusammenhangs. Spalding hebt die Stelle als belebende Durchgangsdissonanz hervor, nicht als beliebig wiederholbares Muster ohne Prüfung der Linien.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige floride Übung · Wechselnote gegen Durchgang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 101, S. 145, oberes vollständiges Beispiel (a) · florider Alt und Bass",
+              "note": "Der Kommentar zu (a) benennt ausdrücklich Wechselnote im Alt und Durchgang im Bass. Die Aussage bleibt an dieses Beispiel gebunden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=159"
         }
       ],
       "relations": [
@@ -27214,6 +29528,28 @@ const ATLAS = {
           },
           "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-04",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 159 und Fortsetzung, S. 220–221 · Bach, Vom Himmel hoch da komm ich her",
+          "text": "Das Material der Gegenstimmen kann aus der Choralmelodie selbst gewonnen werden. An Bachs Behandlung von Vom Himmel hoch da komm ich her erklärt Spalding, dass die imitierenden Begleitstimmen durch Diminution aus der Melodie abgeleitet sind. Im abgedruckten Anfang steht der Cantus firmus im Sopran, während die anderen Stimmen die verkleinerten Gestalten aufnehmen. Die Gegenstimmen erhalten damit eigenes rhythmisches Leben und bleiben zugleich mit dem Choral verbunden. Spalding empfiehlt, diesen Zusammenhang am ganzen Satz weiterzuverfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Choralbearbeitung mit imitativen Gegenstimmen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. X, § 159 und Fortsetzung, S. 220–221 · Bach, Vom Himmel hoch da komm ich her",
+              "note": "Der Ausschnitt auf S. 220 trägt die Bezeichnung C.F. über dem Sopran; S. 221 benennt ausdrücklich die Ableitung der Begleitstimmen durch diminution. Die Fußnote verweist auf den Anhang von Band XI der Bach-Gesellschaft. Eine hier nicht angegebene BWV-Nummer wird nicht ergänzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=234"
         }
       ],
       "relations": [
@@ -27240,7 +29576,8 @@ const ATLAS = {
         "invention-einsatzplan",
         "invention-episode",
         "invention-gegenmotiv",
-        "fuge-form-und-gattung"
+        "fuge-form-und-gattung",
+        "modulation-in-uebungen"
       ],
       "authors": [
         {
@@ -27265,6 +29602,36 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-invention-binaer",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 142–143, S. 204–205 einschließlich Anm. · Bachs zweistimmige Inventionen",
+          "text": "Spalding ordnet Bachs zweistimmige Inventionen ausdrücklich sämtlich einer binären Form zu und entwickelt sein Modell an der C-Dur-Invention. Zugleich gliedert er den zweiten Teil nochmals und beschreibt damit eine Tendenz zur Dreiteiligkeit im Tonartenverlauf: Ausgangstonart, verwandter Bereich und Rückkehr. In Dur führt der erste Weg gewöhnlich zur Dominante; die Mollparallele nennt er in der Fußnote als seltene Ausnahme. Für Moll nennt er Durparallele oder Molldominante. Diese weitreichende Formverallgemeinerung ist Spaldings analytische Position, nicht eine voraussetzungslose Definition jeder Invention.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bach-Inventionen · binäre Gesamtanlage und dreiteiliger Tonartenverlauf",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, §§ 142–143, S. 204–205 einschließlich Anm. · Bachs zweistimmige Inventionen",
+              "note": "S. 204 enthält die ausdrückliche Alle-Aussage; S. 205 relativiert sie nicht durch Aufgabe der binären Anlage, sondern durch die Unterteilung ihres zweiten Teils. Die Ausnahme für Dur steht in der Fußnote."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=218"
+        }
+      ],
+      "relations": [
+        {
+          "from": "spalding1904-multi-invention-binaer",
+          "to": "motte1995-r20",
+          "type": "nuance",
+          "note": "Beide behandeln Bachs zweistimmige Inventionen und verwenden einen ähnlichen Weg zur Dominante und zurück als Schreibmodell. Spalding verallgemeinert jedoch die binäre Gesamtanlage ausdrücklich auf alle Inventionen und ordnet eine dreiteilige Tonartentendenz darin ein; de la Motte begrenzt die gemeinsamen Merkmale und behandelt seinen Formplan als eine mögliche Aufgabe. Die Differenz liegt im Umfang der analytischen Verallgemeinerung, nicht in einer einfachen Opposition binär gegen ternär."
         }
       ]
     },
@@ -27448,6 +29815,46 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-05",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 160, S. 221 · Imitationsübung und ausgearbeitete Komposition",
+          "text": "Die häufige Wiederholung eines Motivs hat in der Übung zunächst einen technischen Zweck. Für die spätere Arbeit, besonders für Stimmen oder Streicher, verlangt Spalding eine andere Gewichtung: Imitationen sollen dort erscheinen, wo sie den Aufbau des Stücks stärken. Ihr Abstand und ihre Häufigkeit lassen sich nicht durch eine feste Zahl bestimmen. Die mechanisch dichte Folge der vorangegangenen Aufgaben wird deshalb nicht zum Formplan jeder Komposition. Wiederkehrende Gestalten sollen einen Zusammenhang hörbar machen und einem zerstreuten, ziellos fortlaufenden Satz entgegenwirken.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Übergang von der Imitationsübung zur freien Vokal- oder Streicherkomposition",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, § 160, S. 221 · Imitationsübung und ausgearbeitete Komposition",
+              "note": "§ 160 unterscheidet ausdrücklich die mechanischere Wiederholung der Übungen von der nach künstlerischem Urteil gewählten Imitation in späteren Arbeiten. Es ist eine Anweisung zur Verwendung des Verfahrens, keine feste Regel für eine historische Gattung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=235"
+        },
+        {
+          "id": "spalding1904-free-15",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, § 176, S. 243, und § 178, S. 245–247 · zwei gleichzeitig entwickelte Motive",
+          "text": "Eine freie Ausarbeitung kann mehrere wiedererkennbare Gestalten zugleich verfolgen. In der nach Dubois eingerichteten Übung auf S. 243 sollen zwei Motive miteinander entwickelt werden; verwandte melodische Konturen und entsprechende Rhythmen erleichtern ihre Nachahmung. Die spätere Aufgabe verwendet doppelten Kontrapunkt für die Darstellung und Weiterführung zweier Themen. In der Fortsetzung dürfen auch Teile oder Veränderungen der Hauptmotive erscheinen. Die thematische Einheit verlangt somit nicht, jedes Motiv bei jedem Einsatz vollständig und unverändert zu wiederholen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freie Streichquartettübungen mit zwei Motiven und doppeltem Kontrapunkt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, § 176, S. 243, und § 178, S. 245–247 · zwei gleichzeitig entwickelte Motive",
+              "note": "§ 176 nennt zwei gleichzeitig auszuarbeitende Motive; § 178 beschreibt den systematischen Gebrauch doppelten Kontrapunkts für zwei Themen. S. 247 gestattet Teile und Veränderungen ausdrücklich. Die Modelle sind im Buch als nach Dubois eingerichtet bezeichnet; ihnen wird keine zusätzliche stilgeschichtliche Herkunft zugewiesen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=257"
         }
       ],
       "relations": [
@@ -27476,7 +29883,8 @@ const ATLAS = {
         "rhythmische-selbststaendigkeit",
         "motivische-polyphonie",
         "kontrapunkt-in-homophonie",
-        "kadenz-klauselwechsel"
+        "kadenz-klauselwechsel",
+        "vierfacher-kontrapunkt"
       ],
       "authors": [
         {
@@ -27524,6 +29932,28 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-orchestrale-verdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 130, S. 197 · Haydn, Sinfonie in D-Dur",
+          "text": "Die Zahl der spielenden Instrumente ist für Spaldings Analyse nicht mit der Zahl selbständiger kontrapunktischer Linien identisch. Den Beginn des angeführten Haydn-Ausschnitts beschreibt er als zweistimmig, obwohl im Orchester jede Linie in der Oktave verdoppelt wird. Beim späteren Tausch kommen außerdem Innenstimmen hinzu, die seine reduzierte Darstellung nicht wiedergibt. Analysiert wird somit die vertauschbare Verbindung zweier tragender Linien innerhalb eines reicheren Orchestersatzes, nicht ein Lagentausch sämtlicher notierter Orchesterstimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Orchestersatz bei Haydn · selbständige Linien und Verdopplungen",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. IX, § 130, S. 197 · Haydn, Sinfonie in D-Dur",
+              "note": "§ 130 unterscheidet ausdrücklich zweistimmige Harmonie, Oktavverdopplung im Orchester und später ergänzte, im Ausschnitt nicht notierte Innenstimmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=211"
         }
       ]
     },
@@ -27590,6 +30020,26 @@ const ATLAS = {
           "work": "Contrapunto (übersetzt von Miguel Ángel Centenero Gallego, 2. Aufl., Barcelona, Editorial Labor, 1995; deutsches Original: Kontrapunkt, 1981)",
           "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-sechsergruppe",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, §§ 70–73, S. 106–108 · Akzente bei sechs gegen eins",
+          "text": "Bei sechs Noten gegen eine zeigt Spalding, dass dieselbe Tonfolge durch ihre Gruppierung unterschiedlich wirkt. Sein Muster im 6/8-Takt ist mit Haupt- und Nebenakzent überzeugend angeordnet; die anschließende Fassung im 3/4-Takt wirkt für ihn wegen der Wiederholung desselben Entwurfs schwach. Auch im ausgearbeiteten 6:1-Modell entsteht Abwechslung durch die Akzentlage: Auf dem vierten Ton der Sechsergruppe, also dem Nebenakzent, verwendet er häufig einen betonten Durchgang oder eine „changing note“. Tonfolge und Akzentordnung sind deshalb gemeinsam zu entwerfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · sechs gegen eins und metrische Gruppierung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, §§ 70–73, S. 106–108 · Akzente bei sechs gegen eins",
+              "note": "Die beiden metrischen Fassungen auf S. 107 und das Modell mit Kommentar auf S. 108 wurden visuell geprüft. Vierter Ton bedeutet hier vierter Ton der Sechsergruppe, nicht vierter Hauptschlag. Keine Spezieszuordnung allein aus der Notenzahl."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=120"
         }
       ]
     },
@@ -27652,7 +30102,8 @@ const ATLAS = {
         "motivische-polyphonie",
         "stimme-und-satzstruktur",
         "harmonischer-rhythmus",
-        "imitation-und-kanon"
+        "imitation-und-kanon",
+        "klaviersatz-klanglage"
       ],
       "authors": [
         {
@@ -27719,6 +30170,50 @@ const ATLAS = {
           "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
           "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-07",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 162, S. 222, und §§ 163–164, S. 225–226 · Hauptmelodie und Begleitfigur",
+          "text": "Im homophonen Klaviersatz liegt die Hauptmelodie für Spalding nicht notwendig oben: Sie kann auch in einer Mittel- oder Unterstimme stehen. Die übrigen Töne ordnen sich ihr als harmonische Begleitung unter. Diese Begleitung soll dennoch ein eigenes rhythmisches Interesse erhalten, etwa durch eine wiederkehrende Arpeggiofigur oder wiederholte Akkorde. Bei Akkordrepetitionen muss die Melodie deutlich genug hervortreten; zugleich sollen die Harmonien selbst charakteristisch bleiben. Die Selbstständigkeit der Begleitung bedeutet hier also nicht die Gleichberechtigung aller Stimmen, sondern eine erkennbare Bewegung innerhalb ihrer begleitenden Funktion.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Homophoner Klaviersatz mit rhythmisch charakteristischer Begleitung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, § 162, S. 222, und §§ 163–164, S. 225–226 · Hauptmelodie und Begleitfigur",
+              "note": "§ 162 nennt Hauptmelodien in oberer, mittlerer oder tiefer Stimme und die rhythmische Eigenart der Begleitung. §§ 163–164 kommentieren die Beispiele von Schumann, Chopin, Beethoven und Mozart; S. 226 zeigt unter anderem Chopins viertes Prélude."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=236"
+        },
+        {
+          "id": "spalding1904-free-13",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XII, S. 239–240 und § 177, S. 244 · zwei Behandlungen derselben Haydn-Melodie",
+          "text": "Für die G-Dur-Melodie von Haydn empfiehlt Spalding zunächst eine überwiegend homophone Streicherbehandlung mit einfachen Harmonien: Ein aufwendiger Kontrapunkt soll die schlichte Melodie nicht überdecken. Die unteren Stimmen gewinnen dabei durch eine geschickte Verteilung und Kreuzung eigenes Interesse. Später behandelt er ausdrücklich dieselbe Melodie kontrapunktisch, indem eine Mittelstimme ein fließendes Obligato erhält. Sein anfänglicher Rat ist daher keine Festlegung der Melodie auf nur eine Satzart. Entscheidend ist, wie die zusätzliche Bewegung ihren Charakter unterstützt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Homophone und kontrapunktische Streicherfassung derselben Vorlage",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XII, S. 239–240 und § 177, S. 244 · zwei Behandlungen derselben Haydn-Melodie",
+              "note": "S. 239 begründet die erste homophone Behandlung mit der Einfachheit der Melodie. § 177 verweist ausdrücklich auf diese Melodie zurück und zeigt eine Aussetzung mit bewegter Bratschenstimme. Beide Behandlungen werden zusammen gelesen, damit aus der ersten Empfehlung kein generelles Verbot entsteht."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=253"
         }
       ],
       "relations": [
@@ -27805,7 +30300,8 @@ const ATLAS = {
         "moll-neutralisierung",
         "choral-modaler-tonartbezug",
         "choral-kadenzplanung",
-        "fuge-tonartenplan"
+        "fuge-tonartenplan",
+        "modulation-in-uebungen"
       ],
       "authors": [
         {
@@ -27916,7 +30412,8 @@ const ATLAS = {
         "einklang",
         "akkordvollstaendigkeit",
         "picardische-terz",
-        "generalbass-lagen"
+        "generalbass-lagen",
+        "klaviersatz-klanglage"
       ],
       "authors": [
         {
@@ -28050,6 +30547,116 @@ const ATLAS = {
             }
           },
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-quartsextbass",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 28, Fußnote S. 39",
+          "text": "Für den betonten, als Doppelvorhalt erklärten Quartsextakkord empfiehlt Spalding die Verdopplung des Basses. In seiner Deutung ist dieser Basston der eigentliche Grundton des zugrunde liegenden Akkords, während Quarte und Sexte dessen Terz und Quinte zunächst vorenthalten. Die Verdopplungsregel gehört zu dieser konkreten Kadenzauffassung; sie ist keine vollständige Aufzählung aller denkbaren vierstimmigen Quartsextlagen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Bassverdopplung im kadenzierenden Doppelvorhalt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 28, Fußnote S. 39",
+              "note": "Die Fußnote begründet die Bassverdopplung unmittelbar aus der Doppelvorhaltsdeutung des betonten Quartsextakkords."
+            }
+          },
+          "examples": [
+            "spalding-quartsext-vorhalt"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=53"
+        },
+        {
+          "id": "spalding1904-two-leittonverdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 61, S. 98, Beispiele a–e · Leitton in rascher Figuration",
+          "text": "In einer vergleichsweise rasch bewegten Gegenstimme erlaubt Spalding die Verdopplung des Leittons unter bestimmten Bedingungen. In den als gut bezeichneten Beispielen liegt der betreffende Ton zwischen anderen Tönen derselben Harmonie und bildet weder den höchsten noch den tiefsten Ton der Figur. Die schlechten Beispiele erfüllen diese Bedingungen nicht. Die Erlaubnis beruht auf der geringen Eigenständigkeit dieses Moments innerhalb der Bewegung; bei langsamerem Verlauf oder stärkerer Hervorhebung könnte derselbe Ton eine problematische Harmonie nahelegen. Es geht um die instrumentale dritte Ordnung, nicht um eine allgemeine Wahlregel für statische Akkordverdopplungen.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 61, S. 98, Beispiele a–e · Leitton in rascher Figuration",
+              "note": "§ 61 samt vollständiger Tabelle visuell und als vergrößerter Quellenausschnitt geprüft. Die Bedingung lautet weder höchster noch tiefster Ton. Sie wird nicht auf ausschließlich unbetonte Positionen verkürzt; die melodische Einbettung ist ebenfalls entscheidend."
+            }
+          },
+          "examples": [
+            "spalding-leitton-figuriert"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
+        },
+        {
+          "id": "spalding1904-multi-verdopplung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 95 mit Anm., S. 130; § 99, S. 138 · Klangvollständigkeit und melodisch begründete Verdopplung",
+          "text": "Im Dreistimmensatz sollen die Akkordtöne besonders auf starken Zeiten möglichst vollständig sein, sofern die Melodien darunter nicht leiden. Häufig lässt Spalding lieber die Quinte weg und verdoppelt den Grundton. Große Terzen empfiehlt er sparsamer zu verdoppeln als kleine, den Leitton nur sehr selten. Die Fußnote setzt jedoch die Linienführung ausdrücklich höher als eine starre Verdopplungsregel. Das nach Cherubini gegebene Beispiel vergleicht vollständige Akkorde mit einer melodisch flüssigeren Fassung. Auf S. 138 begründet Spalding sogar eine Leittonverdopplung mit dem diatonischen Verlauf und kräftiger Gegenbewegung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Übung · Akkordverteilung zugunsten der Linien",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 95 mit Anm., S. 130; § 99, S. 138 · Klangvollständigkeit und melodisch begründete Verdopplung",
+              "note": "Die Ausnahme steht ausdrücklich in § 95 und seiner Fußnote; § 99 zeigt eine Leittonverdopplung bei vorübergehendem Bezug auf die Durparallele. Eine allgemeine Freigabe beliebiger Leittonverdopplungen folgt daraus nicht."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=144",
+          "examples": [
+            "spalding-verdopplung-linien"
+          ]
+        },
+        {
+          "id": "spalding1904-free-10",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, § 170, S. 233 · Übung 3, Beethoven-Melodie, Stelle (a)",
+          "text": "Auch eine regelmäßig wiederkehrende Klavierfigur soll nicht ungeprüft weiterlaufen. In der Aussetzung der Beethoven-Melodie verändert Spalding bei (a) die Begleitfigur geringfügig, damit der Leitton h nicht verdoppelt wird. Die Abweichung dient der Klarheit des Satzes und erhält zugleich den Charakter der Begleitung. Das Beispiel zeigt damit einen konkreten Grund, eine mechanische Akkordbrechung anzupassen: Die Lage und Funktion des einzelnen Tons können wichtiger sein als die unveränderte Wiederholung des Musters.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Leittonverdopplung in einer freien Klavieraussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, § 170, S. 233 · Übung 3, Beethoven-Melodie, Stelle (a)",
+              "note": "Die Erläuterung unter Übung 3 nennt ausdrücklich die Vermeidung der Verdopplung des leading tone B. Der Tonname wird gemäß deutscher Benennung als h wiedergegeben. Das Notenbild und die kleine Änderung der Begleitfigur wurden vergrößert geprüft; eine allgemeine Erlaubnis oder ein vollständiges Verdopplungsverbot wird aus diesem Beispiel nicht abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=247"
+        }
+      ],
+      "relations": [
+        {
+          "from": "spalding1904-open-quartsextbass",
+          "to": "sechter1876-early-quartsext-verdopplung",
+          "type": "context",
+          "note": "Spaldings Bassverdopplung folgt aus der besonderen Erklärung des betonten Kadenzquartsextakkords als Doppelvorhalt. Sechter führt in seiner Generalbasstabelle drei vierstimmige Quartsextbesetzungen mit unterschiedlicher Verdopplung auf. Die Antworten behandeln damit eine funktional begründete Empfehlung beziehungsweise die Auswahl möglicher Besetzungen; die Tabelle allein bestreitet Spaldings konkrete Kadenzregel nicht."
+        },
+        {
+          "from": "spalding1904-multi-verdopplung",
+          "to": "schoenberg1970-a13",
+          "type": "nuance",
+          "note": "Beide gewichten die melodische Führung hoch. Spalding behält dennoch eine ausdrückliche Grundvorsicht gegenüber verdoppelten großen Terzen bei, die er in begründeten Fällen übergeht; Schönberg übernimmt eine allgemeine Bevorzugung oder ein pauschales Terzverbot gerade nicht in die vierstimmige Kontrapunktübung. Die Differenz betrifft die anfängliche Gewichtung, nicht ein absolutes Erlaubnis-Verbot-Paar."
         }
       ]
     },
@@ -28070,7 +30677,8 @@ const ATLAS = {
         "rhythmische-selbststaendigkeit",
         "speziesmischung",
         "stimmkreuzung",
-        "generalbass-pedal"
+        "generalbass-pedal",
+        "innenstimmen-melodiefuehrung"
       ],
       "authors": [
         {
@@ -28093,6 +30701,26 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-dritte-stimme",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 92–93, S. 128–129 · vom zweistimmigen Gerüst zur Dreistimmigkeit",
+          "text": "Die beiden Stimmen der bisherigen Übungen gelten für Spalding harmonisch als Außenstimmen, unabhängig von ihren notierten Registern. Eine hinzutretende Mittelstimme bestimmt die zuvor nur angedeuteten Akkorde genauer. Sie soll zugleich eine eigene melodische Aufgabe erhalten und nicht bloß gemeinsame Töne festhalten. Besonders ergiebig findet er deshalb Aufgaben mit bewegter Mittelstimme oder mit dem gegebenen Thema in der Mitte: Im zweiten Fall müssen eine tragfähige Basslinie und eine gute Oberstimme zugleich erfunden werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige tonale Schreibübung · Ergänzung und Lage des Themas",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 92–93, S. 128–129 · vom zweistimmigen Gerüst zur Dreistimmigkeit",
+              "note": "§§ 92–93 erklären die neue harmonische und melodische Aufgabe der dritten Stimme; die Übungswahl wird ausdrücklich mit ihrem Nutzen für das Komponieren begründet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=142"
         }
       ]
     },
@@ -28216,6 +30844,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-free-21",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, § 184, S. 254–256 · phrygische Kadenzmodelle und zweite Phrase von Übung 12",
+          "text": "Spalding erläutert den phrygischen Eindruck durch den Halbton über dem Grundton und den Ganzton unter ihm. Seine Kadenzmodelle führen zu einem chromatisch aufgehellten Durakkord. Dieselbe Wendung überträgt er anschließend auf das Ende der zweiten Phrase einer G-Moll-Melodie: Die melodischen Töne entsprechen transponiert seinem phrygischen Modell. Der Ausdruck phrygisch kennzeichnet hier deshalb zunächst eine bestimmte Schlusswendung innerhalb eines größeren Zusammenhangs, nicht notwendig die Tonart des ganzen Stücks. In der Aussetzung auf S. 256 wird diese Wendung zusätzlich durch einen betonten Durchgang und eine Wechselnote in Alt und Tenor belebt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Phrygische Schlusswendung in einer modal geprägten G-Moll-Übung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, § 184, S. 254–256 · phrygische Kadenzmodelle und zweite Phrase von Übung 12",
+              "note": "S. 254 zeigt die Kadenzmodelle und erklärt die Durterz des Schlussakkords; S. 255 stellt die entsprechenden Melodietöne der G-Moll-Aufgabe daneben. S. 256 erläutert bei (d) die Figuration. Spaldings pauschale historische Aussage, der letzte Akkord sei außer im ältesten Choral stets Dur, wird nicht als allgemeines historisches Gesetz übernommen. Die Passage entscheidet nicht abstrakt zwischen allen möglichen Tonika- und Dominantdeutungen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=268"
         }
       ]
     },
@@ -28390,6 +31038,28 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-two-aufloesungszeit-floridus",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VI, §§ 87–88, S. 121–122 · normaler Auflösungspunkt und synkopierte Septime",
+          "text": "In der normalen verzierten Vorhaltsauflösung des Floridus hält Spalding am dritten Viertelschlag als Auflösungspunkt fest. Die eingeschobenen Noten ersetzen diesen Zielton nicht; außerdem sollen sie nicht bloß Vorhalt und Auflösung vorweg wiederholen. Direkt anschließend behandelt er einen besonderen Fall: Eine synkopierte kleine Septime über dem Bass kann erst im folgenden Takt aufgelöst werden. Soll ihr Verlauf verziert werden, führt die Verzierung nach oben. Die Verlängerung ist damit für einen bestimmten synkopierten Septimenfall begründet und keine allgemeine Erlaubnis, jeden Vorhalt beliebig stehenzulassen.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentaler Floridus · zwei Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, §§ 87–88, S. 121–122 · normaler Auflösungspunkt und synkopierte Septime",
+              "note": "Tabellen, verworfene Auflösung und der besondere Septimenfall auf S. 121–122 visuell geprüft. § 88 spricht von einer syncopated note, nicht pauschal von jeder suspension. Die beiden Fälle werden deshalb getrennt benannt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=135"
         }
       ]
     },
@@ -28508,6 +31178,99 @@ const ATLAS = {
             "sechter-quartsext"
           ],
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-open-kadenz-doppelvorhalt",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 28, S. 38–40",
+          "text": "Ein betonter Quartsextakkord weckt nach Spalding eine Kadenz-Erwartung in der Tonart, deren Dominante sein Bass bildet. Diese Wirkung verstärkt sich, wenn einzelne Stimmen ihre Lage im Klang durch Sprünge erreichen. Er erklärt Quarte und Sexte als doppelten Vorhalt vor Terz und Quinte über demselben Bass: Die Akkordgestalt wird damit aus der Bewegung der Stimmen verstanden. Eine unmittelbar folgende Tonika ist nicht unvermeidlich; eine trugschlüssige oder modulierende Wendung kann die geweckte Erwartung anders beantworten. Ein unbedacht gesetzter betonter Tonikaquartsextakkord mitten in einer Phrase erzeugt dennoch leicht einen unerwünschten Schlusscharakter.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Betonter Quartsextakkord als Kadenzankündigung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 28, S. 38–40",
+              "note": "§ 28 verbindet die metrische Stellung mit der dargestellten Doppelvorhaltsdeutung. Die Notengrafik auf S. 39 und die anschließenden Ausnahmen wurden geprüft."
+            }
+          },
+          "examples": [
+            "spalding-quartsext-vorhalt"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=52"
+        },
+        {
+          "id": "spalding1904-open-unbetont-und-durchgehend",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 28–29, S. 40–43",
+          "text": "Ein Quartsextakkord auf schwacher Zeit kann als Durchgang wirken, wenn die Stimmen schrittweise verbunden sind; häufig ist die Quarte aus dem vorherigen Klang übernommen. Spalding lässt außerdem Verbindungen zwischen verschiedenen Lagen desselben Akkords und Durchgänge über gleichbleibendem Bass zu. Aufeinanderfolgende Quartsextakkorde mit springendem Bass sind dagegen besonders problematisch. Dass eine scheinbare Ausnahme nicht schematisch beurteilt werden darf, zeigt sein Mozart-Beispiel aus der Jupiter-Sinfonie: Dort trägt der schrittweise Bass den Zusammenhang. Vorbereitung, Bassbewegung und Metrum müssen gemeinsam gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Unbetonte Quartsextklänge und ihre Stimmführung",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 28–29, S. 40–43",
+              "note": "§§ 28–29 unterscheiden Durchgangsmodelle und tatsächliche Ausnahmen; Mozart wird ausdrücklich als Repertoirebeleg angeführt. Der allgemeinere tonale Rahmen von Kap. I folgt dem Vorwort S. v–vi."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=54"
+        },
+        {
+          "id": "spalding1904-two-quartsext-zweite",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. III, § 48, S. 76–77 · Akkordquinte in der unteren Gegenstimme",
+          "text": "Bei einer unteren Gegenstimme im 2:1 warnt Spalding davor, vom Grundton eines Akkords zur tieferen Quinte zu springen, während das Subject dessen Terz hält: So tritt der Eindruck einer zweiten Umkehrung hervor. Er spricht kein absolutes Verbot aus und zeigt einen möglichen Fall. Besonders bei langsamer Bewegung hält er häufige solche Wendungen für stockend; rasche Instrumentalbewegung, erläutert an Mozarts Duo für Violine und Viola, verändert die Wirkung. Für die Anfangsübung empfiehlt er weiterhin Zurückhaltung. Der Aufstieg vom Grundton zur Quinte und der Abstieg von der Quinte zum Grundton sind ausdrücklich möglich.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · zweite Ordnung (2:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, § 48, S. 76–77 · Akkordquinte in der unteren Gegenstimme",
+              "note": "§ 48 enthält zugleich Warnung, erlaubtes Gegenbeispiel, Tempounterschied und Anfängerempfehlung. S. 76–77 visuell geprüft. Der Satz zu Mozart ist ein Repertoirevergleich, keine Übertragung aller dortigen Freiheiten auf die Anfangsübung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=90"
+        },
+        {
+          "id": "spalding1904-two-quartsext-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 60, S. 96–97 · Akkordquinte im bewegten Bass",
+          "text": "Die Quinte eines Dreiklangs ist im Bass der dritten Ordnung freier verwendbar als in Spaldings langsameren 2:1-Aufgaben. Sie kann zwischen anderen Tönen derselben Harmonie stehen, ohne als selbständige zweite Umkehrung hervorzutreten. In den als gut bezeichneten Figuren ist sie weder der höchste noch der letzte Ton der Gruppe. Besonders auffällig wird sie dagegen als Gipfel auf dem Nebenakzent. Selbst ein abwärts gerichteter Sprung zur Akkordquinte ist möglich, wenn sie auf einer leichten Position steht. Die Beurteilung richtet sich hier nach der Stellung des Tones innerhalb der ganzen Figur.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 60, S. 96–97 · Akkordquinte im bewegten Bass",
+              "note": "Text und die Beispiele a–d auf S. 97 visuell geprüft. Für die Akkordquinte lautet die Bedingung ausdrücklich weder höchster noch letzter Ton; sie darf nicht mit der auf S. 98 anders formulierten Leittonbedingung verwechselt werden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=110"
         }
       ]
     },
@@ -28578,6 +31341,26 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-choral-kadenzen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, § 113, S. 169–170 · Freue dich, o meine Seele",
+          "text": "Bei Freue dich, o meine Seele skizziert Spalding zuerst die Schlüsse an den Fermaten und arbeitet danach die übrigen Stimmen aus. Die wiederholte erste Zeile soll eine neue harmonische Wirkung erhalten: Zuerst wählt er einen plagalen Schluss in der Haupttonart, bei der Wiederholung einen authentischen Schluss in der Dominanttonart. Solche Varianten halten den Verlauf lebendig. Die Fermaten liefern hier die Stellen für die konkrete Planung; damit ist nicht schon behauptet, jede Fermate jedes Chorals müsse einen vollständig abgeschlossenen musikalischen Gedanken bezeichnen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Choralaussetzung · vorausgeplante und variierte Zeilenschlüsse",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, § 113, S. 169–170 · Freue dich, o meine Seele",
+              "note": "§ 113 stellt den Kadenzentwurf zur genannten Melodie ausdrücklich vor die vollständige Aussetzung; die erste Zeile erhält bei ihrer Wiederkehr einen anderen Schluss."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=183"
         }
       ]
     },
@@ -29046,7 +31829,8 @@ const ATLAS = {
         "fuge-exposition",
         "fuge-tripelfuge",
         "fuge-quadrupelfuge",
-        "fuge-permutationsfuge"
+        "fuge-permutationsfuge",
+        "vierfacher-kontrapunkt"
       ],
       "reading": "Bezeichne die drei Linien mit A, B und C. Notiere ihre vertikale Reihenfolge bei jedem Wiedererscheinen. Prüfe für jedes Paar den Lagentausch und unterscheide ihn von der Zahl tatsächlich verwendeter Gesamtanordnungen.",
       "readingSources": [
@@ -29167,6 +31951,46 @@ const ATLAS = {
           "work": "La struttura della fuga in Johann Sebastian Bach (übersetzt von Antonio Giacometti, Milano: Ricordi, 1996; bibliografische Zuordnung des Scans)",
           "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
           "catalogue": true
+        },
+        {
+          "id": "spalding1904-multi-dreifacher-bassprobe",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 144, S. 208; §§ 147–148, S. 209–211 · sechs mögliche Anordnungen",
+          "text": "Drei vertauschbare Melodien ergeben sechs vertikale Anordnungen, die nach Spalding nicht alle in einer Komposition verwendet werden müssen. Bei der Prüfung soll jedoch jede Linie einmal als Bass dienen. Besonders die bisherige Akkordquinte braucht Aufmerksamkeit, weil sie unten neue Quartsext- oder Terzquartklänge erzeugt. Spalding empfiehlt ihre sparsame und meist schrittweise Einführung, verbietet sie aber nicht grundsätzlich. Sein Händel-Beispiel aus Hercules verdeutlicht den Unterschied zwischen Möglichkeit und Verwendung: Alle sechs Lagen seien brauchbar, im Werk würden vier genutzt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreifacher Kontrapunkt · Bassprobe und Auswahl der tatsächlich verwendeten Lagen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 144, S. 208; §§ 147–148, S. 209–211 · sechs mögliche Anordnungen",
+              "note": "§ 144 fordert die Prüfung jeder Linie als Bass; §§ 147–148 unterscheiden mögliche und im Repertoire verwendete Anordnungen. S. 213 präzisiert nochmals, dass die Quinte nicht vollständig vermieden werden soll."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=222"
+        },
+        {
+          "id": "spalding1904-multi-sextakkordkette",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 145, S. 208–209 · parallel geführte Sextakkorde",
+          "text": "Die in § 145 gezeigte parallele Sextakkordfolge eignet sich für Spalding nicht als vollständig dreifach vertauschbare Verbindung. In einer anderen Anordnung entstehen aus den ursprünglichen Beziehungen parallele Quinten. Damit reicht es nicht, dass die Ausgangslage für sich gut klingt oder ein einzelnes oberes Stimmenpaar getauscht werden kann. Die mögliche Bassfunktion und sämtliche betroffenen Paarbeziehungen müssen für die verlangten Anordnungen mitgeprüft werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreifache Vertauschungsübung · Sextakkordkette und entstehende Quinten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 145, S. 208–209 · parallel geführte Sextakkorde",
+              "note": "Die gedruckte kleine Tafel zeigt die betreffende parallele Sextakkordfolge; S. 209 nennt die entstehenden Quintparallelen als Ausschlussgrund. Die Aussage wird nicht auf jede denkbare Folge zweier Sextakkorde ausgedehnt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=222"
         }
       ],
       "relations": []
@@ -29559,7 +32383,8 @@ const ATLAS = {
         "fuge-kontrasubjekt",
         "doppelter-kontrapunkt",
         "fuge-permutationsfuge",
-        "dreifacher-kontrapunkt"
+        "dreifacher-kontrapunkt",
+        "vierfacher-kontrapunkt"
       ],
       "reading": "Zähle profilierte Motive und formtragende Themen getrennt. Suche die Stellen, an denen die Themen zusammentreffen, und kennzeichne bei unvollendeten Werken, was im Notentext steht und was eine Rekonstruktion voraussetzt.",
       "readingSources": [
@@ -29637,7 +32462,8 @@ const ATLAS = {
         "doppelter-kontrapunkt",
         "fuge-form-und-gattung",
         "dreifacher-kontrapunkt",
-        "fuge-quadrupelfuge"
+        "fuge-quadrupelfuge",
+        "vierfacher-kontrapunkt"
       ],
       "reading": "Nummeriere die aufeinanderfolgenden Motive einer Stimme. Lies anschließend dieselben Nummern senkrecht durch den Satz. Welche Anordnungen kehren wieder, und wie viele verschiedene Motive erklingen jeweils gleichzeitig?",
       "readingSources": [
@@ -30203,7 +33029,8 @@ const ATLAS = {
       "related": [
         "generalbass-transponieren",
         "generalbass-stimmenzahl",
-        "generalbass-bassvariation"
+        "generalbass-bassvariation",
+        "offene-partitur-schluessel"
       ],
       "comparisons": [],
       "authors": [
@@ -30613,6 +33440,622 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "satzmedium",
+      "title": "Wie verändert das Instrument oder die Stimme die Satzaufgabe?",
+      "group": "Stimmführung",
+      "tags": [
+        "Besetzung",
+        "Vokalsatz",
+        "Streicher",
+        "Klavier",
+        "Idiom"
+      ],
+      "reading": "Wähle eine kurze Satzaufgabe und benenne die Besetzung. Welche Töne, Lagen und Bewegungen lassen sich darauf leicht ausführen? Prüfe anschließend, welche Stellen sich bei einem Wechsel von Stimmen zu Streichern oder Klavier verändern müssten.",
+      "related": [
+        "grundrahmen",
+        "melodische-intervalle",
+        "stimmkreuzung",
+        "klaviersatz-klanglage",
+        "offene-partitur-schluessel",
+        "innenstimmen-melodiefuehrung"
+      ],
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-vokal-instrumental",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Vorwort, S. vi; Kap. I, § 17 mit Fußnote, S. 22–23",
+          "text": "Spalding beginnt mit unbegleitetem Vokalsatz und ergänzt ihn im weiteren Lehrgang durch Streicher- und Klavieraufgaben. Jede Lösung muss von den Möglichkeiten ihrer Besetzung ausgehen: Was auf dem Klavier oder auf Streichinstrumenten gelingt, kann für Singstimmen ungeeignet sein; auch Bachs Klaviersatz und Beethovens Quartettstil stellen verschiedene Aufgaben. Die bevorzugte Einfachheit der Dreiklangsharmonik im Eingangskapitel betrifft deshalb zunächst den reinen Vokalsatz. Spalding vermerkt ausdrücklich, dass eine Betrachtung von Orchester- oder Klaviermusik diese Gewichtung verändern müsste.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Besetzungsabhängiger tonaler Lehrgang",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. vi; Kap. I, § 17 mit Fußnote, S. 22–23",
+              "note": "Das Vorwort stellt Bachs Klaviermusik und Beethovens Quartette ausdrücklich gegenüber; die Fußnote zu § 17 begrenzt die Aussagen des ersten Kapitels auf reine Vokalmusik."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=10"
+        },
+        {
+          "id": "spalding1904-two-satzmedium-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, § 55, S. 86–87 · Übergang zu Streichern und Klavier",
+          "text": "Mit der dritten Ordnung löst Spalding die Aufgabe ausdrücklich von der Vorstellung, dass jede Stimme tatsächlich gesungen werden müsse. Die folgenden Übungen sind im Allgemeinen für Streicher und Klavier gedacht und dürfen deshalb einen größeren Umfang und höhere Geschwindigkeit haben, als menschliche Stimmen zweckmäßig ausführen könnten. Das Ideal einer fließenden, kantablen Linie bleibt bestehen. Er erläutert es an Bachs Klaviermusik und an Quartetten von Haydn, Mozart und Beethoven. Für wirklichen Vokalsatz kommt dagegen die Textunterlegung hinzu; ein dauerhaftes Vier-gegen-eins lässt sich für ihn außerhalb von Koloraturen schwer mit Silben verbinden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, § 55, S. 86–87 · Übergang zu Streichern und Klavier",
+              "note": "§ 55 bestimmt das Medium ausdrücklich und nennt das stilübergreifende Repertoire. S. 87 visuell geprüft. Die Zuweisung zu Barock und Klassik/Romantik folgt diesen Beispielen, nicht dem Erscheinungsjahr."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=100"
+        },
+        {
+          "id": "spalding1904-multi-trio-bassartikulation",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, §§ 103–104, S. 148–149 · freies Streichtrio und Orgeltrio",
+          "text": "Im freien Streichtrio muss der Bass nach Spalding nicht jeden Schlag ausfüllen. Pausen und Pizzicato können ihn leichter machen, sodass eine fließende Mittelstimme deutlicher hervortritt. Wo die Stimmen weiter auseinanderliegen, empfiehlt er im Beispiel dagegen einen gehaltenen Arco-Bass, um die oberen Linien stärker zu tragen. Für das anschließende Orgeltrio verteilt er die Stimmen auf Manuale und Pedal. Dieselbe dreistimmige Anlage erhält somit je nach Klangmittel unterschiedliche Aufgaben für Tragfähigkeit, Artikulation und Hervortreten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Trioentwurf · Streicherartikulation und Orgelbesetzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, §§ 103–104, S. 148–149 · freies Streichtrio und Orgeltrio",
+              "note": "§ 103 erlaubt Basspausen; der Kommentar auf S. 149 verbindet Pizzicato und Arco ausdrücklich mit der Wirkung der Mittelstimme und mit dem Abstand. § 104 zeigt die gesonderte Orgelanlage."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=162"
+        },
+        {
+          "id": "spalding1904-multi-streicher-und-stimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VIII, §§ 115–117, S. 177–182 · erste Quartettsätze für Streicher",
+          "text": "Im Streichersatz entfallen für Spaldings Übungen die Rücksicht auf Textsilben und die Atemgrenzen der Singstimme. Dadurch werden längere Liegetöne, beweglichere Rhythmen, größere Umfänge und kühnere Sprünge möglich. Zunächst sollen die Instrumente dennoch wie idealisierte menschliche Stimmen behandelt werden und nicht ständig in Extremlagen stehen. Die ersten Beispiele bleiben weitgehend legato; eine ausgearbeitete Bogenbezeichnung verschiebt er auf später. Der Wechsel der Besetzung erweitert die Aufgabe schrittweise, statt sofort möglichst viele instrumentale Effekte zu verlangen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige Streicherübung · schrittweiser Übergang vom Vokalsatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, §§ 115–117, S. 177–182 · erste Quartettsätze für Streicher",
+              "note": "§ 115 begründet Freiheiten aus Text, Atmung und Umfang; § 117 erklärt ausdrücklich, warum spezielle Bogenbezeichnungen in den ersten Beispielen noch fehlen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=191"
+        },
+        {
+          "id": "spalding1904-free-06",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, §§ 161–162, S. 222–223, und Mozart-Aussetzung S. 230–231; Kap. XII, § 172, S. 236 · Klavier und Streicher",
+          "text": "Im Klaviersatz muss nach Spalding weder die Stimmenzahl dauernd gleich bleiben noch jede notierte Stimme eine gleichberechtigte melodische Aufgabe erhalten. Zwei Linien können durch gebrochene Akkorde und Pedal klanglich reich wirken; für besondere Akzente kann der Satz voller werden. Seine Mozart-Aussetzung wechselt zwischen zwei- und sechstönigen Klängen und lässt die Melodie stellenweise kurz unbegleitet. Bei Sängern und Quartettspielern erhält dagegen die Tätigkeit jedes Ausführenden eigenes Gewicht. Auch eine homophone Streicherbegleitung soll deshalb ihren Spielern mehr melodisches Interesse bieten als eine entsprechende Klavierbegleitung. Die Besetzung verändert somit die Aufgabe der einzelnen Stimme.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Freier Klaviersatz im Vergleich mit Vokal- und Streichersatz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, §§ 161–162, S. 222–223, und Mozart-Aussetzung S. 230–231; Kap. XII, § 172, S. 236 · Klavier und Streicher",
+              "note": "§ 162 unterscheidet ausdrücklich Klaviertasten von einzelnen Sängern oder Quartettspielern und löst die feste Stimmenzahl für Klavier. S. 231 erläutert die wechselnde Dichte der Mozart-Aussetzung; § 172 verlangt besonderes Interesse der untergeordneten Streicherstimmen. Beethoven, Schumann, Chopin und Mozart bilden den konkreten Klavierrahmen."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=236"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "offene-partitur-schluessel",
+      "title": "Warum schreibe ich kontrapunktische Übungen in offener Partitur und verschiedenen Schlüsseln?",
+      "group": "Stimmführung",
+      "tags": [
+        "Offene Partitur",
+        "Schlüssel",
+        "Tenorschlüssel",
+        "Altschlüssel",
+        "Vokalsatz"
+      ],
+      "reading": "Lies jede Stimme zunächst einzeln in ihrer eigenen Notenzeile. Vergleiche danach die klingende Tenorlage bei Tenor-, Violin- und Bassschlüssel. Welche Schreibweise zeigt die tatsächliche Lage ohne Oktavversetzung und mit wenigen Hilfslinien?",
+      "related": [
+        "generalbass-schluessel",
+        "innenstimmen-melodiefuehrung",
+        "satzmedium"
+      ],
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-vier-stimmen-lesen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 30, S. 43–44",
+          "text": "Die ersten vierstimmigen Aufgaben sollen in offener Partitur geschrieben werden. Jede Stimme erhält ihre eigene Notenzeile, damit ihre melodische Führung erkennbar bleibt. Den Tenor soll der Lernende von Anfang an im Tenorschlüssel denken: Im Violinschlüssel erklingt er eine Oktave tiefer als notiert, im Bassschlüssel benötigt seine günstige Lage viele Hilfslinien. Spaldings anfängliche Schlüsselanordnung lautet daher Violinschlüssel für Sopran und Alt, Tenorschlüssel für Tenor und Bassschlüssel für Bass. Der Altschlüssel kommt mit wachsender Sicherheit hinzu.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Offene Partitur für vierstimmige Vokalübungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 30, S. 43–44",
+              "note": "§ 30 fordert die offene Partitur und zeigt die Schlüssel grafisch. Die Bezeichnungen F/G sind im erklärenden Drucktext auf S. 44 vertauscht; die dargestellten Schlüssel und Oktavierungsbeispiele sind eindeutig. Der Aufgabenrahmen ist vokal, ein eigener historischer Stil wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=57"
+        },
+        {
+          "id": "spalding1904-free-17",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, § 156 mit Fußnote, S. 218; Kap. XIII, § 180, S. 248 · offene Partitur und Quartett-Schlüsselanordnung",
+          "text": "Die längeren Imitationsentwürfe sollen in offener Partitur ausgearbeitet werden. Für die abschließenden freien Übungen empfiehlt Spalding außerdem, die Schlüsselanordnung eines Streichquartetts beizubehalten, selbst wenn eine Aufgabe für Singstimmen gedacht ist. Er begründet dies ausdrücklich mit zusätzlicher Lese- und Schreibübung in dieser Partiturform. Die Wahl der Schlüssel ist hier also auch eine bewusste Lernaufgabe. Sie setzt nicht voraus, dass die dargestellten Stimmen tatsächlich von Streichinstrumenten gespielt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Offene Partitur für freie Imitation sowie Vokal- und Streicherübungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, § 156 mit Fußnote, S. 218; Kap. XIII, § 180, S. 248 · offene Partitur und Quartett-Schlüsselanordnung",
+              "note": "Die Fußnote zu § 156 verlangt open score; § 180 nennt den Zweck zusätzlicher Übung und zeigt die Quartettanordnung mit zwei Violinschlüsseln, Altschlüssel und Bassschlüssel. Diese spätere Anweisung wird von den früheren Übungen mit verschiedenen vokalen C-Schlüsseln unterschieden."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=232"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "modulation-in-uebungen",
+      "title": "Darf eine Kontrapunktübung die Tonart wechseln?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Modulation",
+        "Tonart",
+        "Übung",
+        "Lehrgang",
+        "Verwandte Tonarten"
+      ],
+      "reading": "Bestimme zuerst, ob die Vorlage oder die Aufgabenstellung einen Tonartwechsel verlangt. Vergleiche eine Lösung innerhalb der Ausgangstonart mit einer Fassung, die eine verwandte Tonart erreicht. Was wird durch die Ausweichung musikalisch gewonnen?",
+      "related": [
+        "tonart-und-region",
+        "harmonik",
+        "grundrahmen",
+        "invention-form"
+      ],
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-zuerst-eine-tonart",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 30, S. 45–48",
+          "text": "Die ersten Aufgaben sollen vorwiegend innerhalb einer Tonart gelöst werden. Spalding warnt davor, jede Schwierigkeit durch eine Ausweichung zu umgehen, bevor die Möglichkeiten der Ausgangstonart beherrscht werden. Das schließt Modulation nicht grundsätzlich aus: Verwandte Tonarten können verwendet werden, und eine gegebene Melodie kann einen Tonartwechsel nahelegen oder verlangen. Seine späteren Muster im selben Abschnitt erweitern den harmonischen Bereich entsprechend. Die Beschränkung dient dem gezielten Lernen; sie definiert keinen zeitlosen Gegensatz von strengem und freiem Kontrapunkt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Modulation in frühen vierstimmigen Vokalübungen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, § 30, S. 45–48",
+              "note": "§ 30 erklärt sowohl die anfängliche Beschränkung als auch ihre Ausnahmen. Die späteren Muster desselben Abschnitts zeigen verwandte Tonarten im ausdrücklich tonalen Lehrgang."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=59"
+        },
+        {
+          "id": "spalding1904-two-modulation-dritte",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IV, §§ 66–67, S. 101 und 103–105 · kurze und fortgeschrittene Aufgaben",
+          "text": "Die ersten kurzen Aufgaben der dritten Ordnung benötigen nach Spalding noch keine Modulation. Danach gibt er längere, periodisch angelegte Subjects, die einfache Modulationen voraussetzen. Dafür müssen die nah verwandten Tonarten bekannt sein; zu Es-Dur nennt er B-Dur, As-Dur, c-Moll, g-Moll und f-Moll. Mit den fortgeschrittenen Streicheraufgaben werden außerdem chromatische Durchgänge und freiere Dissonanzverbindungen zugelassen, damit die Gegenstimme ein eigenes Profil gewinnt. Ob die Tonart wechseln soll, hängt somit vom jeweiligen Aufgabenabschnitt und Subject ab.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale zweistimmige Übung · dritte Ordnung (4:1)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, §§ 66–67, S. 101 und 103–105 · kurze und fortgeschrittene Aufgaben",
+              "note": "Der Text unterscheidet ausdrücklich keine Modulation erforderlich von späteren Subjects, die Modulationen implizieren. S. 103 visuell geprüft. Englisches B-flat major ist in der deutschen Aufzählung B-Dur."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=115"
+        },
+        {
+          "id": "spalding1904-multi-modulation-erweiterung",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 99, S. 139–140; Kap. IX, § 139, S. 202–203 · fortgeschrittene drei- und zweistimmige Aufgaben",
+          "text": "In den fortgeschrittenen dreistimmigen Aufgaben erlaubt Spalding Modulationen nicht nur dort, wo Vorzeichen des gegebenen Themas sie nahelegen, sondern auch dort, wo sie musikalisch erwünscht sind. Das ist ein größerer Spielraum als in einer zunächst tonartfesten Anfängeraufgabe. Später widmet er auch dem doppelten Kontrapunkt einen Entwurf mit freien Ausweichungen in benachbarte Tonarten. Die Modulation muss dabei mit den weiterhin verwendbaren Melodien und ihrer vertauschten Fassung vereinbar bleiben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Fortgeschrittene tonale Schreibübung · Modulation und Vertauschbarkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 99, S. 139–140; Kap. IX, § 139, S. 202–203 · fortgeschrittene drei- und zweistimmige Aufgaben",
+              "note": "S. 140 erweitert die Modulationsmöglichkeiten ausdrücklich; § 139 zeigt sie anschließend in einer zweistimmigen Vertauschungsaufgabe."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=153"
+        },
+        {
+          "id": "spalding1904-free-02",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. X, §§ 156–157, S. 218–219 · zwölf- oder sechzehntaktige Imitationsübungen und improvisierte Präludien",
+          "text": "In diesen fortgeschrittenen Imitationsaufgaben soll aus jedem vorgegebenen Motiv ein zwölf- oder sechzehntaktiger Abschnitt entstehen. Modulationen in verwandte Tonarten werden ausdrücklich empfohlen. Daneben regt Spalding kurze improvisierte Präludien am Klavier oder an der Orgel an: Ein Motiv soll in verschiedenen Stimmen erscheinen und weiterentwickelt werden. Der Tonartwechsel gehört hier somit zur freien Ausarbeitung eines Zusammenhangs. Die Anweisung betrifft diese längeren Aufgaben und ist keine pauschale Aufhebung der Tonartvorgaben früherer Übungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freie imitative Übung und Improvisation für Klavier oder Orgel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, §§ 156–157, S. 218–219 · zwölf- oder sechzehntaktige Imitationsübungen und improvisierte Präludien",
+              "note": "§ 156 nennt die Länge, die freie Verwendung verwandter Tonarten und die Improvisation am Klavier oder an der Orgel ausdrücklich. Zwei Orgelmodelle folgen; § 157 ergänzt ein Klaviermotiv aus Tschaikowskys Lied op. 28 Nr. 3. Die unbekannte stilistische Herkunft der beiden Orgelmodelle wird nicht ergänzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=232"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "terzen-sexten-folgen",
+      "title": "Wie viele Terzen oder Sexten dürfen aufeinanderfolgen?",
+      "group": "Stimmführung",
+      "tags": [
+        "Terzen",
+        "Sexten",
+        "Gegenbewegung",
+        "Stimmenselbständigkeit"
+      ],
+      "related": [
+        "konsonanz",
+        "parallelen",
+        "harmonik"
+      ],
+      "reading": "Vergleiche die Bewegungsrichtungen beider Stimmen über mehrere Zusammenklänge. Wann wird die eine Stimme zur gleichförmigen versetzten Wiederholung der anderen? Prüfe neben der Zahl auch die Intervallqualität und den Zusammenhang der Aufgabe.",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-two-terzen-sexten-erste",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. II, §§ 38 und 40, S. 61–63 · Länge und Qualität von Terz- und Sextfolgen",
+          "text": "In der ersten Ordnung sollen nach Spalding nicht mehr als drei Terzen oder Sexten aufeinanderfolgen: Sonst wird eine Stimme zur bloßen versetzten Nachbildung der anderen. Zusätzlich prüft er die Qualität der Terzen. Zwei große Terzen nacheinander sollen vermieden werden, wenn ihre Fortschreitung einen Tritonus hervortreten lässt. Eine Halbtonverschiebung wie V–VI oder VI–V in Moll nimmt er davon aus. Die letztgenannte Einschränkung bezeichnet seine Fußnote für tatsächliche Kompositionen ausdrücklich als Empfehlung, nicht als ausnahmsloses Gesetz.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · erste Ordnung (Note gegen Note)",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, §§ 38 und 40, S. 61–63 · Länge und Qualität von Terz- und Sextfolgen",
+              "note": "Die Mengenbegrenzung steht in § 38, die besondere Folge großer Terzen einschließlich Moll-Ausnahme und Fußnote in § 40. S. 61–63 visuell geprüft. Der weichere Wortlaut des späteren § 78 wird in einer eigenen Antwort behandelt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=75"
+        },
+        {
+          "id": "spalding1904-two-terzen-sexten-synkope",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. V, § 78, S. 112, Beispiele a und b · monotone Sextfolgen",
+          "text": "Auch in der synkopierten Ordnung sollen nach Spalding gewöhnlich nicht mehr als drei Terzen oder Sexten aufeinanderfolgen. Er formuliert dies hier als Regel mit Spielraum. Führt ein schrittweise laufendes Subject zu einer gleichförmigen Sextakkordfolge, empfiehlt er, die Synkopierung für einen Takt zu unterbrechen. Im Gegenbeispiel b verändert der ungebundene Abschnitt den Verlauf und ist deshalb der durchgehend gebundenen Fassung a vorzuziehen. Das rhythmische Übungsprinzip soll die melodische Abwechslung nicht verhindern.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige tonale Übung · synkopierte Ordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, § 78, S. 112, Beispiele a und b · monotone Sextfolgen",
+              "note": "§ 78 verwendet usually, während § 38 in der ersten Ordnung strenger formuliert ist. Wortlaut und beide Beispiele auf S. 112 visuell geprüft. Die Zahl wird nicht als stilunabhängige Obergrenze verwendet."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=126"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "innenstimmen-melodiefuehrung",
+      "title": "Wie viel melodische Eigenständigkeit brauchen die Innenstimmen?",
+      "group": "Stimmführung",
+      "tags": [
+        "Innenstimmen",
+        "Mittelstimme",
+        "Melodie",
+        "Kontrast",
+        "Dreistimmigkeit",
+        "Vierstimmigkeit"
+      ],
+      "reading": "Verfolge eine Innenstimme über die ganze Phrase. Markiere, wo sie liegen bleibt, rhythmisch hervortritt oder ihren Umfang erweitert. Höre dann die Außenstimmen dazu: Unterstützt ihre Ruhe eine andere Linie, oder fehlt ihr über längere Zeit eine eigene Aufgabe?",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "related": [
+        "stimmen-ergaenzen",
+        "rhythmische-selbststaendigkeit",
+        "tonwiederholung",
+        "stimmkreuzung",
+        "satzmedium",
+        "offene-partitur-schluessel"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-open-wechselnde-rollen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, §§ 2, 19 und 26, S. 1, 23–24 und 33–36",
+          "text": "Eine Innenstimme kann die Hauptmelodie tragen; auch sonst soll sie im Verlauf melodisches Interesse gewinnen. Spalding verlangt jedoch nicht, dass alle vier Stimmen ständig gleich frei oder wie Solomelodien geführt werden. Die übrigen Stimmen begrenzen den Bewegungsraum von Alt und Tenor, und zeitweise untergeordnete Aufgaben gehören zum Satz. Wiederholte oder ausgehaltene Töne können in der Mitte gerade als harmonische Stützen nützlich sein, während die Außenstimmen beweglicher werden. Zu beurteilen ist der Wechsel der Rollen über die Phrase hinweg.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Melodische Rollen im vierstimmigen Vokalsatz",
+            "evidence": {
+              "basis": "book",
+              "locator": "Kap. I, §§ 2, 19 und 26, S. 1, 23–24 und 33–36",
+              "note": "Die drei Stellen unterscheiden Hauptmelodie, wechselnde melodische Beteiligung und die durch benachbarte Stimmen begrenzte Beweglichkeit. Sie gehören zum tonalen Vokalrahmen von Kap. I."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=15"
+        },
+        {
+          "id": "spalding1904-open-cantus-innen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. I, § 34, S. 54–55",
+          "text": "Liegt die gegebene Melodie im Alt, muss die Ergänzung sowohl einen tragfähigen Bass als auch einen melodisch sinnvollen Sopran gewinnen. Der Sopran darf dabei zur Nebenmelodie werden, soll aber nicht in einer monotonen Tonlage feststecken. Spalding stellt einer solchen schwachen Aussetzung eine bessere gegenüber: Der Sopran erhält einen größeren Bewegungsraum und Sprünge, die zu den gehaltenen Alttönen kontrastieren; der Bass wird zugleich geordneter. Die Mittelstimme bleibt Vorlage, ohne die melodische Qualität der Außenstimmen zu ersetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque",
+              "classical-romantic"
+            ],
+            "reach": "cross-style",
+            "frame": "Vierstimmige Aussetzung einer gegebenen Altmelodie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, § 34, S. 54–55",
+              "note": "Die beiden vollständigen Fassungen auf S. 55 und ihre Kommentare wurden am Notenbild überprüft. Der Vergleich betrifft eine Vokalübung mit vorgegebener Innenstimme."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=68"
+        },
+        {
+          "id": "spalding1904-multi-innenstimmen",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. VII, § 96, S. 130–132; Kap. VIII, § 106, S. 154–155 · Eigenständigkeit durch Kontrast",
+          "text": "Eigenständigkeit verlangt bei Spalding nicht, dass jede Stimme jederzeit gleich stark hervortritt. Wenn Bass und Sopran die beiden Hauptlinien tragen, kann eine ruhigere Mittelstimme gerade deren Verhältnis deutlicher machen. Wiederholte oder gehaltene Töne erhalten dann eine sinnvolle Aufgabe. Auch im vierstimmigen Anfangsunterricht warnt er davor, alle Stimmen gleichzeitig möglichst lebhaft zu machen. Jede Linie soll im ganzen Verlauf zu ihrem Recht kommen; eine getragene Stimme kann sich von einer bewegteren ebenso deutlich unterscheiden wie zwei verschieden bewegte Melodien.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Drei- und vierstimmige Schreibübung · abgestufte melodische Aufgaben",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, § 96, S. 130–132; Kap. VIII, § 106, S. 154–155 · Eigenständigkeit durch Kontrast",
+              "note": "Die Passage unterscheidet ausdrücklich hervortretende Außenstimmen und ruhigere Innenstimmen und beschreibt Kontrast als Grundlage ihrer Wirkung."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=144"
+        },
+        {
+          "id": "spalding1904-free-18",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XIII, §§ 180–181, S. 248–252 · vorgegebene Melodie in Alt und Tenor",
+          "text": "Den Fassungen mit einer Hauptmelodie im Alt oder Tenor widmet Spalding besondere Aufmerksamkeit. Die Melodie wird nicht bloß in eine andere Zeile versetzt: Die übrigen Stimmen erhalten dazu neue Anfänge, Bewegungen und teilweise andere harmonische Verläufe. Eine kurze, zwischen den Stimmen wiederkehrende Figur kann den Satz zusammenhalten, während zu einer einfachen diatonischen Melodie keine überladene Rhythmik treten soll. Bei der ersten Melodie verwirft Spalding eine Bassfassung wegen ihrer zahlreichen Terzbewegungen; die beiden folgenden Vorlagen lässt er dagegen in jeder Stimme bearbeiten. Die Eignung der jeweiligen Melodie bleibt somit Teil der Aufgabe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Hauptmelodie in wechselnden Stimmen einer freien vierstimmigen Übung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, §§ 180–181, S. 248–252 · vorgegebene Melodie in Alt und Tenor",
+              "note": "§ 180 hebt Alt- und Tenorfassungen hervor; § 181 verlangt einen gleichmäßigen Fluss und begrenzt die rhythmische Komplexität. S. 249 schließt nur die erste konkrete Melodie als Bass aus; Übungen 4–7 und 8–11 führen die nachfolgenden Melodien durch alle Stimmen. Daraus wird kein allgemeines Verbot von Terzen im Bass gemacht."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=262"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "vierfacher-kontrapunkt",
+      "title": "Wie prüfe ich vier Stimmen auf ihre Vertauschbarkeit?",
+      "group": "Stimmführung",
+      "tags": [
+        "vierfacher Kontrapunkt",
+        "Vertauschbarkeit",
+        "Permutationen",
+        "Bassfunktion",
+        "Stimmtausch"
+      ],
+      "reading": "Bezeichne die vier Linien mit A, B, C und D. Prüfe Fassungen, in denen jede einmal unten liegt. Verfolge besonders die Töne, die zuvor Akkordquinten waren. Unterscheide die 24 möglichen Reihenfolgen von den tatsächlich verwendeten Anordnungen.",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "related": [
+        "doppelter-kontrapunkt",
+        "dreifacher-kontrapunkt",
+        "fuge-quadrupelfuge",
+        "fuge-permutationsfuge",
+        "stimme-und-satzstruktur"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-multi-vierfacher-test",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, §§ 146 und 149–150, S. 209 und 213–214 · vier Stimmen in wechselnden Lagen",
+          "text": "Vier vertauschbare Linien erlauben theoretisch 24 vertikale Anordnungen. Spalding verlangt nicht, sie sämtlich im Stück einzusetzen; die wirkungsvollsten werden ausgewählt. In der Übung soll aber jede Stimme einmal im Bass geprüft werden. Die Akkordquinte verlangt wie beim dreifachen Kontrapunkt besondere Sorgfalt. Zugleich sollen die Linien verschieden charakterisiert sein: versetzte Einsätze und sinnvoll gesetzte Pausen können sie deutlicher unterscheiden, als wenn alle vier ununterbrochen bewegt sind. Vierfache Vertauschbarkeit bezeichnet die Verbindung der Linien, nicht die bloße Zahl von vier Themen im ganzen Werk.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierfache Vertauschungsübung · Bassprobe, Auswahl und Stimmencharakter",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, §§ 146 und 149–150, S. 209 und 213–214 · vier Stimmen in wechselnden Lagen",
+              "note": "§ 149 nennt 24 Anordnungen, Pausen und versetzte Einsätze; § 150 verlangt mindestens drei Vertauschungen zur Prüfung jeder Stimme im Bass."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=223"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "klaviersatz-klanglage",
+      "title": "Wie beeinflussen Lage und Verteilung der Töne den Klavierklang?",
+      "group": "Stimmführung",
+      "tags": [
+        "Klavier",
+        "Lage",
+        "Register",
+        "Arpeggio",
+        "Dezime",
+        "Spielbarkeit"
+      ],
+      "related": [
+        "stimmabstand",
+        "satzmedium",
+        "akkordton-verdopplung",
+        "kontrapunkt-in-homophonie"
+      ],
+      "reading": "Vergleiche dieselben Akkordtöne in enger und weiter Lage. Welcher Ton wird in ein anderes Register versetzt, und wie verändert dies Klangdichte, Erkennbarkeit und Spielbarkeit? Unterscheide die Lage eines gebrochenen Akkords vom Abstand zweier selbstständiger Melodien.",
+      "readingSources": [
+        "spalding1904"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "spalding1904-multi-klavier-register",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. IX, § 138, S. 201–202; § 139, S. 202–203 · zwei vertauschbare Klavierstimmen",
+          "text": "Für diese zweistimmigen Klavieraufgaben empfiehlt Spalding, beide Register des Instruments zu nutzen: eine obere Linie für die rechte und eine tiefere für die linke Hand. Beide Stimmen sollen nicht dauerhaft zusammen nur hoch oder nur tief liegen. Auch beim Tausch wählt er die Oktavlagen nach ihrer klanglichen Wirkung. In § 138 werden beide Linien jeweils um zwei Oktaven versetzt, im folgenden Beispiel jeweils nur um eine. Die Registerwahl ist Teil der konkreten Aussetzung und keine pauschale Forderung nach möglichst großem Abstand.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zweistimmige Klavierübung · Registerwahl beim Lagentausch",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, § 138, S. 201–202; § 139, S. 202–203 · zwei vertauschbare Klavierstimmen",
+              "note": "Die Anweisungen auf S. 202 und 203 nennen unterschiedliche Versetzungen. Sie werden nicht mit dem Standardverfahren einer Oktave je Stimme aus § 122 gleichgesetzt."
+            }
+          },
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=215"
+        },
+        {
+          "id": "spalding1904-free-08",
+          "source": "spalding1904",
+          "name": "Walter R. Spalding",
+          "locator": "Kap. XI, §§ 165–167, S. 227–229 · tiefe Terzen, geöffnete Arpeggien und Spielbarkeit",
+          "text": "Spalding verbindet die Verteilung der Akkordtöne mit dem Klang und dem Verklingen des Klaviers. Er warnt vor dicht besetzten tiefen Akkorden, besonders vor engen oder verdoppelten Terzen in diesem Register. In seinen beiden Arpeggiofiguren wird die tief liegende Terz in die Dezimlage versetzt; die geöffneten Zwischenräume sollen den Klang deutlicher tragen. Seine Beurteilung älterer Haydn- und Beethoven-Akkorde bezieht er ausdrücklich auf den reicheren Klang der stärker besaiteten Instrumente seiner eigenen Zeit. Weite Lage ist aber kein Selbstzweck: Die Figuren müssen in der Hand liegen, und große Griffe sowie schnelle Lagenwechsel dürfen die Spielbarkeit nicht überfordern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Lage und Spielbarkeit im freien Klaviersatz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XI, §§ 165–167, S. 227–229 · tiefe Terzen, geöffnete Arpeggien und Spielbarkeit",
+              "note": "S. 227 beschreibt die Register und zeigt ältere Akkordlagen; § 167 erklärt die veränderte Klangbeurteilung aus dem Instrumentenbau und stellt auf S. 228 die beiden Arpeggien gegenüber. Der Hinweis auf Handspanne und rasche Positionswechsel reicht bis S. 229. Die historische Klangeinschätzung wird als Spaldings Begründung wiedergegeben, nicht als heutige pauschale Abwertung der zitierten Werke."
+            }
+          },
+          "examples": [
+            "spalding-klavierlage"
+          ],
+          "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
+          "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=241"
         }
       ],
       "relations": []
@@ -32200,6 +35643,70 @@ const ATLAS = {
       "credit": "Simon Sechter, Praktische Generalbass-Schule, Op. 49, S. 81, Einleitung und vollständige Übung CXVIII (118). Neue Ausgabe in einem Bande, Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777. Bayerische Staatsbibliothek via IMSLP #422079; gemeinfreier Notendruck (IMSLP: Public Domain). Historischer Ausschnitt; Überschriften und Anordnung redaktionell.",
       "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
       "catalogue": true
+    },
+    "spalding-trugschluss-dur-moll": {
+      "image": "quellen/noten/spalding-trugschluss-dur-moll.webp",
+      "title": "V–VI: Dur und Moll verlangen verschiedene Wege",
+      "alt": "Drei historische vierstimmige Akkordverbindungen. Im Durbeispiel V–vi fällt der Leitton abwärts. Daneben stehen eine als bad markierte Mollverbindung mit übermäßiger Sekunde und die mit good und 3d doubled bezeichnete Korrektur.",
+      "caption": "Spalding akzeptiert die Durfassung. Die entsprechende Mollfassung links ist im Original als bad bezeichnet: Der fallende Leitton bildet eine übermäßige Sekunde. Die mit good bezeichnete Korrektur rechts verdoppelt die Terz des Zielakkords. Verfolge den Leitton in jeder Verbindung und vergleiche anschließend die Verdopplung im zweiten Akkord. Warum erzeugt die gleiche Bewegungsrichtung in Dur und Moll hier ein verschiedenes Intervall?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. I · § 7 · S. 5; ergänzende Erklärung § 16, S. 21–22. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=19"
+    },
+    "spalding-quartsext-vorhalt": {
+      "image": "quellen/noten/spalding-quartsext-vorhalt.webp",
+      "title": "Der Quartsextakkord als doppelter Vorhalt",
+      "alt": "Zwei historische Akkordmodelle mit gleicher Vorbereitung. Links werden zwei Töne über den eintretenden Dominantbass gebunden und schrittweise aufgelöst; rechts folgt auf die Vorbereitung die entsprechende Dominantharmonie ohne Vorhalte. Beide Modelle sind unter der Dominante mit V beschriftet.",
+      "caption": "Spalding erklärt den betonten Quartsextklang als doppelten Vorhalt vor Terz und Quinte der zugrunde liegenden Dominantharmonie. Die römische V unter beiden Ausschnitten gehört zum Original. Aus dieser Deutung begründet seine Fußnote die Verdopplung des Basses. Vergleiche die beiden Fassungen ab dem Dominantbass. Verfolge die beiden Vorhaltsstimmen: Welche Akkordtöne werden durch den Quartsextklang zunächst aufgeschoben?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. I · § 28 mit Fußnote · S. 39. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=53"
+    },
+    "spalding-betonte-durchgaenge": {
+      "image": "quellen/noten/spalding-betonte-durchgaenge.webp",
+      "title": "Vom Harmoniegerüst zur bewegten Linie",
+      "alt": "Zwei historische zweistimmige Notenbeispiele aus Spaldings § 46, Seite 72. Dieselbe Oberstimme steht über zwei verschiedenen Gegenstimmen. In der zweiten Fassung tragen mit Sternen markierte betonte Durchgangstöne zur melodischen Kontinuität bei.",
+      "caption": "Spalding hält die erste Fassung harmonisch für möglich, kritisiert aber den wenig zusammenhängenden Verlauf der Unterstimme. Die zweite Fassung gewinnt durch betonte Durchgangstöne eine fortlaufende Linie. Die Sterne gehören zum historischen Notendruck. Spiele beide Fassungen. Verfolge besonders die Unterstimme im zweiten und dritten Takt: Welche Sprünge der ersten Fassung werden in der zweiten durch eine fortlaufende Tonleiterbewegung ersetzt? Prüfe die Harmonie anschließend an den Akkordtönen, zu denen die betonten Durchgänge weitergehen.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Zweite Ordnung · § 46 · S. 72. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=86"
+    },
+    "spalding-leitton-figuriert": {
+      "image": "quellen/noten/spalding-leitton-figuriert.webp",
+      "title": "Leittonverdopplung innerhalb einer Figur",
+      "alt": "Historische Tabelle mit fünf Beispielen zur Leittonverdopplung. Spalding kennzeichnet a, b und d als good, c und e als bad und markiert die betreffenden Töne mit Sternen.",
+      "caption": "Die als good bezeichneten Beispiele a, b und d führen den verdoppelten Leitton zwischen anderen Tönen derselben Harmonie. Er bildet weder den höchsten noch den tiefsten Ton der Figur. Die als bad bezeichneten Beispiele c und e erfüllen diese Bedingungen nicht. Die Erlaubnis gehört zum vergleichsweise raschen instrumentalen Vier-gegen-eins. Suche zunächst in jedem Beispiel den verdoppelten Leitton. Prüfe dann seine Lage innerhalb der bewegten Figur: Liegen andere Töne derselben Harmonie davor und danach, und wird der Leitton als höchster oder tiefster Ton hervorgehoben? Vergleiche a mit c sowie b mit e.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Dritte Ordnung · § 61 · S. 98. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
+    },
+    "spalding-verdopplung-linien": {
+      "image": "quellen/noten/spalding-verdopplung-linien.webp",
+      "title": "Klangvollständigkeit und melodischer Verlauf",
+      "alt": "Historisches dreistimmiges Notenbeispiel mit den Fassungen a und b. Beide stehen in zwei Notensystemen; b verändert die Verteilung der Akkordtöne und die Wege der Stimmen.",
+      "caption": "Spalding gibt nach Cherubini zwei Fassungen: a führt die Folge mit möglichst vollständigen Dreiklängen, b gewinnt durch freiere Verdopplung einen flüssigeren Verlauf der Stimmen. Der offene Schlussklang ist in beiden Fassungen gesondert zu beachten. Die Tafel erläutert den Vorrang der melodischen Führung. Spiele a und b und singe anschließend jede Stimme einzeln. Welche gemeinsamen Töne der ersten Fassung werden in der zweiten anders verteilt? Prüfe, wo die vollständige Dreiklangsgestalt zugunsten eines flüssigeren Stimmenwegs verändert wird.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Drei Stimmen · § 95 · S. 130 · nach Cherubini. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=144"
+    },
+    "spalding-oktavtausch-quinte-quarte": {
+      "image": "quellen/noten/spalding-oktavtausch-quinte-quarte.webp",
+      "title": "Quinte und Quarte vor und nach dem Tausch",
+      "alt": "Historische Tabelle mit den Feldern a, b, c, d und f in zwei Reihen. Die untere Reihe enthält die vertauschten Stimmen. Sterne markieren besondere Intervallstellen; f verwendet mehrere Schlüssel und eine Akkolade.",
+      "caption": "Oben stehen die Ausgangsverbindungen, darunter ihre mit Inversions bezeichneten Fassungen. Spalding erläutert bei d eine Quinte als betonten Durchgang und bei f eine betonte Quarte als Appoggiatura. Die Beispiele zeigen, warum der Tausch eine Prüfung der melodischen Fortführung verlangt. Vergleiche jedes Feld mit seiner Fassung in der unteren Reihe. Verfolge bei d den betonten Durchgang bis zu seinem Zielton. Suche bei f die mit Stern bezeichnete Quarte und ihre Fortführung. Unterscheide den Lagentausch der Linien von einer Umkehrung ihrer melodischen Bewegungsrichtung.",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Doppelter Kontrapunkt · § 124 · S. 194. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=208"
+    },
+    "spalding-klavierlage": {
+      "image": "quellen/noten/spalding-klavierlage.webp",
+      "title": "Eine tiefe Terz wird zur Dezime",
+      "alt": "Zwei unveränderte historische Notenausschnitte im Bassschlüssel. Beide zeigen eine auf- und absteigende Sechsergruppe eines gebrochenen Akkords. Die erste Figur enthält die enge tiefe Terz; die zweite verteilt dieselben Akkordfunktionen weiter und setzt die Terz eine Oktave höher in die Dezimlage. Die originalen Vorzeichen, Balken, Sechserziffern, Wiederholungszeichen und Bögen bleiben sichtbar.",
+      "caption": "Spalding stellt zwei Arpeggiofiguren gegenüber: In der zweiten steht die Terz in der Dezimlage über dem tiefsten Ton. Die geöffnete Verteilung soll den tiefen Klavierklang deutlicher tragen; die Spielbarkeit bleibt zu prüfen (§ 167, S. 228–229). Verfolge die Lage der Terz in beiden Figuren. Welche Leerräume entstehen zwischen den tieferen Akkordtönen, und wie lässt sich die geöffnete Figur noch bequem greifen?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. XI, § 167, S. 228 · zwei Arpeggiofiguren. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=242"
+    },
+    "spalding-durchgangsquinten": {
+      "image": "quellen/noten/spalding-durchgangsquinten.webp",
+      "title": "Quinten mit einem Durchgangston",
+      "alt": "Fünf Takte einer vierstimmigen Übung in offener Partitur, mit zwei Violinschlüsseln, Altschlüssel und Bassschlüssel. Alle Stimmen setzen nach der Anfangspause ein. Sopran und dritte Stimme bewegen sich über einem fortschreitenden Bass; in der zweiten Taktspalte steht die gedruckte Marke (a). Auf diese Stelle bezieht Spalding seine Erklärung der Quintparallele mit dem Durchgangston gis im Sopran.",
+      "caption": "Die Quintfolge zwischen Sopran und Tenor bei (a) erhält auf der folgenden Seite eine ausdrückliche Begründung: Das gis im Sopran ist ein Durchgangston; für Spalding handelt es sich deshalb nicht um eine Folge tragender Harmonietöne. Der Ausschnitt zeigt seine konkrete freie Übung, keine allgemeine Ausnahme für beliebige Quintparallelen. Lies die Wege von Sopran und dritter Stimme als festes Stimmenpaar. Welche Töne gehören zum harmonischen Gerüst, und welcher Sopran-Ton ist nach Spaldings Erläuterung ein Durchgang?",
+      "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. XIII, Übung 4, S. 249, Stelle (a); Erläuterung S. 250. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=263"
     }
   }
 };
