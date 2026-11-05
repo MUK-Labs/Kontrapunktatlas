@@ -4,13 +4,18 @@ const AtlasSourceOrder = (() => {
   const labels = Object.freeze({
     typ: "Nach Quellenart",
     autor: "Nach Autor (A–Z)",
-    jahr: "Nach Erscheinungsjahr"
+    jahr: "Nach erster Fassung"
   });
   const collator = new Intl.Collator("de", { sensitivity: "base", numeric: true });
   const normalize = value => Object.hasOwn(labels, value) ? value : "typ";
   const authorKey = source => source.sortAuthor || source.name || "";
-  const yearOf = source => Number.isInteger(source.publicationYear) &&
-    source.publicationYear > 0 && source.publicationYear <= 9999 ? source.publicationYear : null;
+  const validYear = value => Number.isInteger(value) && value > 0 && value <= 9999;
+  // The consulted edition must never supply a missing date for the original work.
+  const yearOf = source => validYear(source.firstVersion?.year) ? source.firstVersion.year : null;
+  const endYearOf = source => {
+    const year = yearOf(source), end = source.firstVersion?.endYear;
+    return year !== null && validYear(end) && end >= year ? end : year;
+  };
   const compareNames = (a, b) => collator.compare(authorKey(a), authorKey(b));
   const compareYears = (a, b) => (yearOf(a) ?? 10000) - (yearOf(b) ?? 10000);
   const compareWorks = (a, b) => collator.compare(a.title || "", b.title || "") ||
@@ -32,8 +37,8 @@ const AtlasSourceOrder = (() => {
     const sorted = [...sources].sort(mode === "autor" ? byAuthor : byYear);
     if (mode === "autor") return [{ key: "autor", label: "Autoren · A–Z", sources: sorted }];
     return [
-      { key: "jahr", label: "Erscheinungsjahr · älteste zuerst", sources: sorted.filter(source => yearOf(source) !== null) },
-      { key: "undatiert", label: "Ohne belegtes Erscheinungsjahr", sources: sorted.filter(source => yearOf(source) === null) }
+      { key: "jahr", label: "Erste Fassung · älteste zuerst", sources: sorted.filter(source => yearOf(source) !== null) },
+      { key: "undatiert", label: "Erste Fassung nicht datiert", sources: sorted.filter(source => yearOf(source) === null) }
     ].filter(section => section.sources.length);
   }
 
@@ -51,8 +56,13 @@ const AtlasSourceOrder = (() => {
 
   function yearLabel(source) {
     const year = yearOf(source);
-    return year === null ? "Jahr nicht belegt" : source.publicationLabel || String(year);
+    return year === null ? "Jahr nicht belegt" : source.firstVersion.label ||
+      (endYearOf(source) === year ? String(year) : year + "–" + endYearOf(source));
   }
 
-  return Object.freeze({ labels, normalize, yearOf, yearLabel, sections, read, write });
+  function editionYearLabel(source) {
+    return source.editionLabel || (validYear(source.editionYear) ? String(source.editionYear) : "Jahr nicht belegt");
+  }
+
+  return Object.freeze({ labels, normalize, yearOf, endYearOf, yearLabel, editionYearLabel, sections, read, write });
 })();

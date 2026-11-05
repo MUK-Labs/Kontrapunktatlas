@@ -58,13 +58,13 @@ check('timeline follows the full list and bottom return link, before the footer'
 });
 
 check('initial URL selection filters dated and undated controls and recalculates the range',
-  base + '?quellen=prout1890,york1907,spalding1904&sortierung=autor#frage=grundrahmen', ({ doc }) => {
-    assert.deepEqual(controls(doc), ['prout1890', 'spalding1904', 'york1907']);
+  base + '?quellen=artacho-handout,york1907,spalding1904&sortierung=autor#frage=grundrahmen', ({ doc }) => {
+    assert.deepEqual(controls(doc), ['artacho-handout', 'spalding1904', 'york1907']);
     assert.deepEqual([...doc.querySelectorAll('.source-timeline-point')].map(node => node.dataset.source), ['spalding1904', 'york1907']);
     assert.match(doc.querySelector('.source-timeline-summary').textContent, /1904–1907.*2 datierte Quellen/);
     assert.equal(doc.querySelector('.source-timeline-undated').hidden, false);
     assert.equal(doc.querySelector('.source-timeline-undated summary').textContent, '1 Quelle ohne belegtes Jahr');
-    assert.match(doc.querySelector('[data-source="york1907"]').getAttribute('aria-label'), /1907 \(Copyright\)/);
+    assert.match(doc.querySelector('[data-source="york1907"]').getAttribute('aria-label'), /1907/);
     assert.equal(doc.querySelector('.source-timeline-empty').hidden, true);
   });
 
@@ -83,7 +83,7 @@ check('an explicitly empty selection has instructions and no stale source contro
 check('individual toggles and select-all/none update the component without losing checkbox focus',
   base + '?quellen=spalding1904&sortierung=autor&lang=de#frage=grundrahmen', ({ window, doc }) => {
     const existing = doc.querySelector('[data-source="spalding1904"]');
-    for (const id of ['york1907', 'prout1890']) {
+    for (const id of ['york1907', 'artacho-handout']) {
       const box = doc.getElementById('source-' + id);
       box.focus(); box.click();
       assert.equal(doc.activeElement, box);
@@ -93,7 +93,7 @@ check('individual toggles and select-all/none update the component without losin
     const checkbox = doc.getElementById('source-spalding1904');
     checkbox.focus(); checkbox.click();
     assert.equal(doc.activeElement, checkbox);
-    assert.deepEqual(controls(doc), ['prout1890', 'york1907']);
+    assert.deepEqual(controls(doc), ['artacho-handout', 'york1907']);
     assert.match(doc.querySelector('.source-timeline-summary').textContent, /^1907 · 1 datierte Quelle$/);
     const hash = window.location.hash;
     for (const action of ['source-none', 'source-all', 'source-none']) {
@@ -109,10 +109,10 @@ check('individual toggles and select-all/none update the component without losin
 
 for (const prefix of [base, 'file:///tmp/Kontrapunktatlas/quellen.html']) {
   check('dated and undated jumps preserve URL, selection, order and return links: ' + new URL(prefix).protocol,
-    prefix + '?quellen=spalding1904,prout1890&sortierung=autor&von=unterschiede#art=context&vergleich=frage~a~b', state => {
+    prefix + '?quellen=spalding1904,artacho-handout&sortierung=autor&von=unterschiede#art=context&vergleich=frage~a~b', state => {
       const { doc } = state;
       const before = snapshot(state);
-      for (const id of ['spalding1904', 'prout1890']) {
+      for (const id of ['spalding1904', 'artacho-handout']) {
         const button = doc.querySelector('[data-source="' + id + '"]');
         button.focus(); button.click();
         const card = doc.getElementById('source-card-' + id);
@@ -139,7 +139,8 @@ check('deselecting a located source removes its highlight and unavailable return
     assert.equal(doc.activeElement, box);
     assert.equal(card.classList.contains('is-located-source'), false);
     assert.equal(card.querySelector('.bibliography-timeline-back').hidden, true);
-    assert.equal(card.querySelector('.bibliography-year').hidden, true);
+    assert.equal(card.querySelector('.bibliography-year').hidden, false);
+    assert.equal(card.querySelector('.bibliography-dating').hidden, true);
     assert.equal(doc.querySelector('[data-source="spalding1904"]'), null);
     box.click();
     assert.equal(card.querySelector('.bibliography-timeline-back').hidden, true);
@@ -151,7 +152,7 @@ check('popstate retains a surviving point and gives a removed point a stable foc
     const { doc } = state;
     const york = doc.querySelector('[data-source="york1907"]');
     york.focus();
-    restore(state, '?quellen=york1907,prout1890&sortierung=jahr#frage=parallelen');
+    restore(state, '?quellen=york1907,artacho-handout&sortierung=jahr#frage=parallelen');
     assert.equal(doc.activeElement, york);
     assert.equal(doc.querySelector('[data-source="york1907"]'), york);
     assert.deepEqual(controls(doc), selected(doc));
@@ -175,7 +176,7 @@ check('history can remove a focused card-return action and reorder cards without
   });
 
 check('undated-only selections remain accessible and loss of disclosure focus is handled',
-  base + '?quellen=prout1890', state => {
+  base + '?quellen=artacho-handout', state => {
     const { doc } = state;
     const details = doc.querySelector('.source-timeline-undated');
     const summary = details.querySelector('summary');
@@ -184,7 +185,7 @@ check('undated-only selections remain accessible and loss of disclosure focus is
     assert.match(doc.querySelector('.source-timeline-summary').textContent, /Keine ausgewählten Quellen mit belegtem/);
     details.open = true;
     summary.focus();
-    restore(state, '?quellen=prout1890,spalding1904', 'pageshow');
+    restore(state, '?quellen=artacho-handout,spalding1904', 'pageshow');
     assert.equal(doc.activeElement, summary);
     assert.equal(details.open, true);
     restore(state, '?quellen=spalding1904', 'hashchange');
@@ -193,25 +194,27 @@ check('undated-only selections remain accessible and loss of disclosure focus is
     assert.deepEqual(controls(doc), ['spalding1904']);
   });
 
-check('new source records participate dynamically with their qualified edition date',
+check('new sources separate their first version from their later consulted edition',
   base + '?quellen=qa-modern-edition,spalding1904', ({ doc }) => {
     assert.deepEqual(controls(doc), ['qa-modern-edition', 'spalding1904']);
     const point = doc.querySelector('[data-source="qa-modern-edition"]');
-    assert.match(point.getAttribute('aria-label'), /2019 \(Edition\)/);
+    assert.match(point.getAttribute('aria-label'), /1786–1789 \(Handschrift, vermutlich\)/);
     point.click();
     assert.equal(doc.activeElement.id, 'source-card-qa-modern-edition');
-    assert.equal(doc.querySelector('#source-card-qa-modern-edition .bibliography-year').textContent, '2019 (Edition)');
+    assert.equal(doc.querySelector('#source-card-qa-modern-edition .bibliography-year').textContent, 'Erste Fassung: 1786–1789 (Handschrift, vermutlich)');
     assert.match(doc.querySelector('#source-card-qa-modern-edition .bibliography-note').textContent, /Datum der modernen Edition/);
   }, { id: 'qa-modern-edition', name: 'Testautor', title: 'Testedition', group: 'Lehrwerke', sortAuthor: 'Testautor',
-    publicationYear: 2019, publicationLabel: '2019 (Edition)', publicationNote: 'Datum der modernen Edition.' });
+    editionYear: 2019, editionLabel: '2019 (Edition)', editionNote: 'Datum der modernen Edition.',
+    firstVersion: { year: 1786, endYear: 1789, label: '1786–1789 (Handschrift, vermutlich)', kind: 'manuscript',
+      note: 'Datierte historische Vorlage.', evidence: [{ label: 'Katalog', url: 'https://example.org/source' }] } });
 
-check('same-year editions retain distinct labels and chronological focus order after sorting',
-  base + '?quellen=york1907,bach1866-wtk2,bach1866-wtk1,spalding1904', ({ doc, window }) => {
-    const expected = ['bach1866-wtk1', 'bach1866-wtk2', 'spalding1904', 'york1907'];
+check('translations of one work share its first date and retain distinct source targets',
+  base + '?quellen=york1907,cherubini1854,cherubini1835,spalding1904', ({ doc, window }) => {
+    const expected = ['cherubini1854', 'cherubini1835', 'spalding1904', 'york1907'];
     const original = [...doc.querySelectorAll('.source-timeline-point')];
     assert.deepEqual(original.map(node => node.dataset.source), expected);
-    assert.match(original[0].getAttribute('aria-label'), /Teil I \(/);
-    assert.match(original[1].getAttribute('aria-label'), /Teil II \(/);
+    assert.match(original[0].getAttribute('aria-label'), /A Treatise on Counterpoint/);
+    assert.match(original[1].getAttribute('aria-label'), /Cours de contrepoint/);
     for (const mode of ['jahr', 'autor', 'typ']) {
       const order = doc.getElementById('source-order');
       order.value = mode;
