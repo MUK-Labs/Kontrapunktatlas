@@ -1,4 +1,4 @@
-/* Publication dates, never dates inferred from a title, author, or source ID. */
+/* First versions, never dates inferred from an edition, title, author, or source ID. */
 const AtlasSourceTimeline = (() => {
   "use strict";
   const targetSize = 32;
@@ -14,17 +14,19 @@ const AtlasSourceTimeline = (() => {
     if (!dated.length) return { width, height: 0, points: [], ticks: [], undated, range: null, targetSize };
 
     const first = AtlasSourceOrder.yearOf(dated[0]);
-    const last = AtlasSourceOrder.yearOf(dated.at(-1));
+    const last = Math.max(...dated.map(AtlasSourceOrder.endYearOf));
     const xFor = year => first === last ? width / 2 :
       edge + (year - first) / (last - first) * (width - edge * 2);
     const laneEnds = [];
     const points = dated.map(source => {
       const year = AtlasSourceOrder.yearOf(source);
+      const endYear = AtlasSourceOrder.endYearOf(source);
       const x = xFor(year);
+      const endX = xFor(endYear);
       let lane = laneEnds.findIndex(end => x - end >= targetSize + 2);
       if (lane < 0) lane = laneEnds.length;
-      laneEnds[lane] = x;
-      return { source, year, x, lane };
+      laneEnds[lane] = endX;
+      return { source, year, endYear, x, endX, lane };
     });
     const axisY = laneEnds.length * targetSize + 12;
     for (const point of points) point.y = axisY - 24 - point.lane * targetSize;
@@ -69,7 +71,7 @@ const AtlasSourceTimeline = (() => {
     const axis = element("div", "source-timeline-axis");
     axis.setAttribute("aria-hidden", "true");
     const points = element("ol", "source-timeline-points");
-    points.setAttribute("aria-label", "Ausgewählte Quellen nach Erscheinungsjahr");
+    points.setAttribute("aria-label", "Ausgewählte Quellen nach erster Fassung");
     points.setAttribute("aria-describedby", hint.id);
     plot.append(axis, points);
     viewport.append(plot);
@@ -126,6 +128,7 @@ const AtlasSourceTimeline = (() => {
       tooltipButton = button;
       tooltip.replaceChildren(
         element("strong", "", source.name + " · " + AtlasSourceOrder.yearLabel(source)),
+        element("span", "", "Erste Fassung · Verwendete Ausgabe: " + AtlasSourceOrder.editionYearLabel(source)),
         element("span", "", source.title)
       );
       button.setAttribute("aria-describedby", tooltip.id);
@@ -153,7 +156,7 @@ const AtlasSourceTimeline = (() => {
       button.type = "button";
       button.dataset.source = source.id;
       button.setAttribute("aria-controls", "source-card-" + source.id);
-      button.setAttribute("aria-label", source.name + " · " + AtlasSourceOrder.yearLabel(source) +
+      button.setAttribute("aria-label", source.name + " · Erste Fassung: " + AtlasSourceOrder.yearLabel(source) +
         " · " + source.title + " – zum Quelleintrag");
       if (dated) {
         const dot = element("span", "source-timeline-dot");
@@ -179,6 +182,11 @@ const AtlasSourceTimeline = (() => {
         let item = buttons.get(source.id)?.parentElement;
         if (!item) {
           item = element("li", dated ? "source-timeline-item" : "");
+          if (dated) {
+            const range = element("span", "source-timeline-range");
+            range.setAttribute("aria-hidden", "true");
+            item.append(range);
+          }
           item.append(sourceButton(source, dated));
           if (dated) pointItems.set(source.id, item);
         }
@@ -217,12 +225,12 @@ const AtlasSourceTimeline = (() => {
       empty.hidden = !!sources.length;
       hint.hidden = !sources.length;
       hint.textContent = chart.points.length
-        ? "Nur die oben ausgewählten Quellen, nach dem Jahr der verwendeten Ausgabe. Wähle einen Punkt, um zum Eintrag zu springen."
+        ? "Nur ausgewählte Quellen, nach ihrer ersten Fassung. Spätere Ausgaben stehen im Eintrag. Datierungsspannen sind gestrichelt markiert; der Punkt steht am Beginn der Spanne. Wähle einen Punkt, um zum Eintrag zu springen."
         : "Öffne die Liste der Quellen ohne belegtes Jahr, um zu einem Eintrag zu springen.";
       summary.textContent = chart.range
         ? (chart.range[0] === chart.range[1] ? chart.range[0] : chart.range.join("–")) +
           " · " + chart.points.length + (chart.points.length === 1 ? " datierte Quelle" : " datierte Quellen")
-        : sources.length ? "Keine ausgewählten Quellen mit belegtem Erscheinungsjahr" : "Keine Quellen ausgewählt";
+        : sources.length ? "Keine ausgewählten Quellen mit belegtem Jahr der ersten Fassung" : "Keine Quellen ausgewählt";
       drawnWidth = undefined;
       if (!chart.points.length) {
         scrollHint.hidden = true;
@@ -265,6 +273,9 @@ const AtlasSourceTimeline = (() => {
           const item = pointItems.get(point.source.id);
           item.style.left = point.x + "px";
           item.style.top = point.y + "px";
+          const range = item.querySelector(".source-timeline-range");
+          range.hidden = point.endYear === point.year;
+          range.style.width = (point.endX - point.x) + "px";
         }
       }
       if (firstLayout || (selectionChanged && atEnd)) {

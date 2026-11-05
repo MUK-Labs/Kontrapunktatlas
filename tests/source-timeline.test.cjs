@@ -33,21 +33,22 @@ test("the timeline includes every dated source once and gives undated works sepa
   assert.deepEqual(new Set(identifiers(chart.points)), new Set(identifiers(dated)));
   assert.deepEqual(new Set(identifiers(chart.undated)), new Set(identifiers(undated)));
   assert.equal(chart.points.length + chart.undated.length, ATLAS.sources.length);
-  assert.equal(chart.points.find(point => point.source.id === "piston1947").year, 1970);
-  assert.ok(chart.undated.some(item => item.id === "prout1890"));
-  assert.equal(AtlasSourceOrder.yearLabel(chart.points.find(point => point.source.id === "cherubini1835").source), "um 1835");
-  assert.equal(chart.points.find(point => point.source.id === "spalding1904").source.publicationLabel, "1904 (Copyright)");
+  assert.equal(chart.points.find(point => point.source.id === "piston1947").year, 1947);
+  assert.ok(chart.undated.some(item => item.id === "artacho-handout"));
+  assert.equal(chart.points.find(point => point.source.id === "prout1890").year, 1890);
+  assert.equal(AtlasSourceOrder.yearLabel(chart.points.find(point => point.source.id === "cherubini1835").source), "1835");
+  assert.equal(chart.points.find(point => point.source.id === "spalding1904").source.editionLabel, "1904 (Copyright)");
 });
 
 test("true year positions remain proportional while simultaneous and nearby works stay reachable", () => {
   const rows = [
-    { id: "early", name: "A", title: "First", publicationYear: 1600 },
-    { id: "mid", name: "B", title: "Middle", publicationYear: 1800 },
+    { id: "early", name: "A", title: "First", firstVersion: { year: 1600 } },
+    { id: "mid", name: "B", title: "Middle", firstVersion: { year: 1800 } },
     ...Array.from({ length: 16 }, (_, index) => ({
       id: "dense-" + index, name: "C", title: "Book " + index,
-      publicationYear: 1988 + Math.floor(index / 3)
+      firstVersion: { year: 1988 + Math.floor(index / 3) }
     })),
-    { id: "late", name: "D", title: "Last", publicationYear: 2000 }
+    { id: "late", name: "D", title: "Last", firstVersion: { year: 2000 } }
   ];
   for (const width of [280, 600, 960, 1400, 2200]) {
     const chart = AtlasSourceTimeline.layout(rows, width);
@@ -66,7 +67,7 @@ test("true year positions remain proportional while simultaneous and nearby work
 
 test("the complete catalogue has no overlapping touch or keyboard targets at responsive widths", () => {
   for (const width of [320, 660, 960, 1100, 1400]) assertReachable(AtlasSourceTimeline.layout(ATLAS.sources, width));
-  const chart = AtlasSourceTimeline.layout([source("bach1866-wtk1"), source("bach1866-wtk2")], 960);
+  const chart = AtlasSourceTimeline.layout([source("cherubini1835"), source("cherubini1854")], 960);
   assert.equal(chart.points.length, 2);
   assert.equal(chart.points[0].x, chart.points[1].x);
   assert.notEqual(chart.points[0].y, chart.points[1].y);
@@ -75,7 +76,7 @@ test("the complete catalogue has no overlapping touch or keyboard targets at res
 
 test("empty, undated-only and single-year catalogues do not invent a date span", () => {
   const unknown = [null, undefined, "1900", -1, 0, 2020.5, 10000, NaN, Infinity].map((year, index) => ({
-    id: "unknown-" + index, name: "Author", title: "A book from 1550", publicationYear: year
+    id: "unknown-" + index, name: "Author", title: "A book from 1550", firstVersion: { year }, editionYear: 2020
   }));
   for (const rows of [[], unknown]) {
     const chart = AtlasSourceTimeline.layout(rows, 960);
@@ -85,7 +86,7 @@ test("empty, undated-only and single-year catalogues do not invent a date span",
     assert.equal(chart.undated.length, rows.length);
   }
   const rows = Array.from({ length: 8 }, (_, index) => ({
-    id: "same-" + index, name: "Same author", title: "Volume " + index, publicationYear: 1900
+    id: "same-" + index, name: "Same author", title: "Volume " + index, firstVersion: { year: 1900 }
   }));
   for (const width of [undefined, NaN, 0, -1, 320, 960]) {
     const chart = AtlasSourceTimeline.layout(rows, width);
@@ -101,8 +102,8 @@ test("axis labels stay inside the chart and apart, including very short and very
   for (const [start, end] of [[1, 9999], [1558, 2023], [1999, 2000], [1900, 1902]]) {
     for (const width of [128, 320, 960, 1600]) {
       const chart = AtlasSourceTimeline.layout([
-        { id: "a", name: "A", publicationYear: start },
-        { id: "b", name: "B", publicationYear: end }
+        { id: "a", name: "A", firstVersion: { year: start } },
+        { id: "b", name: "B", firstVersion: { year: end } }
       ], width);
       assert.equal(chart.ticks[0].year, start);
       assert.equal(chart.ticks.at(-1).year, end);
@@ -128,18 +129,35 @@ test("timeline layout is deterministic and preserves the source objects and cata
 });
 
 test("a selected subset gets its own date span, including same-year and undated-only selections", () => {
-  const selected = [source("prout1890"), source("york1907"), source("spalding1904")];
+  const selected = [source("artacho-handout"), source("york1907"), source("spalding1904")];
   const chart = AtlasSourceTimeline.layout(selected, 320);
   assert.deepEqual(identifiers(chart.points), ["spalding1904", "york1907"]);
   assert.deepEqual(Array.from(chart.range), [1904, 1907]);
-  assert.deepEqual(identifiers(chart.undated), ["prout1890"]);
+  assert.deepEqual(identifiers(chart.undated), ["artacho-handout"]);
   assertReachable(chart);
-  const sameYear = AtlasSourceTimeline.layout([source("bach1866-wtk2"), source("bach1866-wtk1")], 320);
-  assert.deepEqual(Array.from(sameYear.range), [1866, 1866]);
+  const sameYear = AtlasSourceTimeline.layout([source("cherubini1835"), source("cherubini1854")], 320);
+  assert.deepEqual(Array.from(sameYear.range), [1835, 1835]);
   assertReachable(sameYear);
-  const undated = AtlasSourceTimeline.layout([source("prout1890")], 320);
+  const undated = AtlasSourceTimeline.layout([source("artacho-handout")], 320);
   assert.equal(undated.range, null);
   assert.equal(undated.points.length, 0);
   assert.equal(undated.ticks.length, 0);
-  assert.deepEqual(identifiers(undated.undated), ["prout1890"]);
+  assert.deepEqual(identifiers(undated.undated), ["artacho-handout"]);
+});
+
+test("date ranges extend the axis and reserve a lane without positioning the work at its later edition", () => {
+  const range = { id: "manuscript", name: "A", firstVersion: { year: 1786, endYear: 1789 }, editionYear: 2019 };
+  const inside = { id: "inside", name: "B", firstVersion: { year: 1788 }, editionYear: 2024 };
+  for (const width of [320, 960]) {
+    const chart = AtlasSourceTimeline.layout([range, inside], width);
+    assert.deepEqual(Array.from(chart.range), [1786, 1789]);
+    const a = chart.points.find(point => point.source.id === "manuscript");
+    const b = chart.points.find(point => point.source.id === "inside");
+    assert.equal(a.year, 1786);
+    assert.equal(a.endYear, 1789);
+    assert.ok(a.endX > b.x && b.x > a.x);
+    assert.notEqual(a.lane, b.lane);
+    assertReachable(chart);
+    assert.equal(chart.ticks.at(-1).year, 1789);
+  }
 });

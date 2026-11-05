@@ -332,8 +332,10 @@ details.suggest textarea { display: block; width: 100%; margin: .25rem 0 .8rem; 
 .source-timeline-tick { position: absolute; padding-top: .45rem; transform: translateX(-50%); }
 .source-timeline-tick::before { position: absolute; top: 0; left: 50%; height: .3rem; border-left: 1px solid #b9bdaf; content: ""; }
 .source-timeline-points { margin: 0; padding: 0; list-style: none; }
+.source-timeline-range { position: absolute; left: 50%; top: 50%; border-top: 2px dashed var(--muted); pointer-events: none; }
+.source-timeline-range::after { content: ""; position: absolute; right: 0; top: -4px; height: 6px; border-right: 1px solid var(--muted); }
 .source-timeline-item { position: absolute; width: 32px; height: 32px; transform: translate(-50%, -50%); }
-.source-timeline-point { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: var(--forest); touch-action: manipulation; }
+.source-timeline-point { position: relative; display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: var(--forest); touch-action: manipulation; }
 .source-timeline-dot { width: 12px; height: 12px; border: 2px solid currentColor; border-radius: 50%; background: currentColor; }
 .source-timeline-point:is(:hover, :focus-visible, [aria-current]) { color: var(--rust); background: var(--rust-light); }
 .source-timeline-point:focus-visible { outline-offset: -2px; }
@@ -377,6 +379,8 @@ details.suggest textarea { display: block; width: 100%; margin: .25rem 0 .8rem; 
 .bibliography-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1rem; margin: .45rem 0 0 1.85rem; color: var(--muted); font-size: .76rem; }
 .bibliography-meta code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
 .bibliography-year { font-weight: 650; font-variant-numeric: tabular-nums; }
+.bibliography-edition { font-variant-numeric: tabular-nums; }
+.bibliography-dating p + p { margin-top: .4rem; }
 .bibliography-note { margin: .45rem 0 0 1.85rem; color: var(--muted); font-size: .76rem; line-height: 1.4; }
 .bibliography .footer { margin-top: 2.6rem; }
 @media (max-width: 660px) {

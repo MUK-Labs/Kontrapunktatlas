@@ -50,10 +50,12 @@
     const meta = element("div", "bibliography-meta");
     meta.append(element("code", "", source.id));
     const kind = element("span", "bibliography-kind", source.group);
-    const year = element("span", "bibliography-year", AtlasSourceOrder.yearLabel(source));
+    const year = element("span", "bibliography-year", "Erste Fassung: " + AtlasSourceOrder.yearLabel(source));
     year.id = checkbox.id + "-year";
-    item.setAttribute("aria-describedby", year.id);
-    meta.append(kind, year);
+    const edition = element("span", "bibliography-edition", "Verwendete Ausgabe: " + AtlasSourceOrder.editionYearLabel(source));
+    edition.id = checkbox.id + "-edition";
+    item.setAttribute("aria-describedby", year.id + " " + edition.id);
+    meta.append(kind, year, edition);
     if (source.url) {
       const link = element("a", "", "Zum Nachweis");
       link.href = source.url;
@@ -61,8 +63,22 @@
       meta.append(link);
     }
     item.append(row, meta);
-    const dateNote = source.publicationNote ? element("p", "bibliography-note", source.publicationNote) : null;
-    if (dateNote) item.append(dateNote);
+    const dateNote = element("div", "bibliography-note bibliography-dating");
+    if (source.firstVersion?.note) dateNote.append(element("p", "", source.firstVersion.note));
+    const evidence = source.firstVersion?.evidence || [];
+    if (evidence.length) {
+      const links = element("p", "bibliography-date-evidence");
+      links.append(document.createTextNode("Datierungsbelege: "));
+      evidence.forEach((record, index) => {
+        if (index) links.append(document.createTextNode(" · "));
+        const link = element("a", "", record.label);
+        link.href = record.url;
+        links.append(link);
+      });
+      dateNote.append(links);
+    }
+    if (source.editionNote) dateNote.append(element("p", "bibliography-edition-note", "Zur verwendeten Ausgabe: " + source.editionNote));
+    item.append(dateNote);
     const handoutNote = source.id === "artacho-handout" ? element("p", "bibliography-note", handoutHint) : null;
     if (handoutNote) item.append(handoutNote);
     const timelineBack = element("button", "bibliography-timeline-back", "Zur Zeitleiste ↓");
@@ -80,7 +96,7 @@
     orderHint.textContent = mode === "autor"
       ? "Nach dem Nachnamen der zuerst genannten Person. Gemeinsam verfasste Werke bleiben zusammen."
       : mode === "jahr"
-        ? "Erscheinungsjahr der verwendeten Ausgabe, älteste zuerst. Quellen ohne belegtes Jahr stehen am Ende."
+        ? "Erste Fassung des Werks, unabhängig von Übersetzung oder späterer Auflage. Handschriften und Unterrichtsfassungen sind gekennzeichnet; undatierte Werke stehen am Ende."
         : "Nach Quellenart gruppiert. Die Auswahl bleibt beim Umsortieren erhalten.";
     const active = list.contains(document.activeElement) ? document.activeElement : null;
     list.replaceChildren();
@@ -94,7 +110,6 @@
       for (const source of group.sources) {
         const entry = items.get(source.id);
         entry.kind.hidden = mode === "typ";
-        entry.year.hidden = mode !== "jahr" && source.id !== locatedSource;
         if (entry.dateNote) entry.dateNote.hidden = mode !== "jahr" && source.id !== locatedSource;
         if (entry.handoutNote) entry.handoutNote.hidden = mode === "typ";
         works.append(entry.item);
@@ -117,7 +132,6 @@
       const active = sourceId === id;
       entry.item.classList.toggle("is-located-source", active);
       entry.timelineBack.hidden = !active;
-      entry.year.hidden = displayedOrder !== "jahr" && !active;
       if (entry.dateNote) entry.dateNote.hidden = displayedOrder !== "jahr" && !active;
     }
   }

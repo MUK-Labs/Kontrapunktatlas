@@ -1011,7 +1011,19 @@ const ATLAS = {
       "group": "Unterrichtshandout",
       "url": "quellen/handout.pdf",
       "sortAuthor": "Artacho, Adrián",
-      "publicationYear": null
+      "editionYear": null,
+      "firstVersion": {
+        "year": null,
+        "label": "Erstfassung nicht datiert",
+        "kind": "undated",
+        "note": "Die bereitgestellten Handoutseiten 6, 8 und 9 nennen kein Erscheinungsjahr und kein Datum einer Erstfassung. Die technischen PDF-Erstellungsdaten belegen lediglich den Export dieser Datei und werden nicht als Werkdatum verwendet.",
+        "evidence": [
+          {
+            "label": "Adrián Artacho: MUK · Woche 1, bereitgestellte Handoutseiten 6, 8 und 9",
+            "url": "quellen/handout.pdf"
+          }
+        ]
+      }
     },
     {
       "id": "bellermann1901",
@@ -1020,7 +1032,19 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=71310&itemId=22248",
       "sortAuthor": "Bellermann, Heinrich",
-      "publicationYear": 1901
+      "editionYear": 1901,
+      "firstVersion": {
+        "year": 1862,
+        "label": "1862",
+        "kind": "publication",
+        "note": "Erstausgabe 1862. Bellermann nennt dieses Jahr ausdrücklich im Vorwort zur vierten Auflage; die ausgewertete Ausgabe von 1901 bleibt die Grundlage der Fundstellen.",
+        "evidence": [
+          {
+            "label": "Bellermann: Der Contrapunkt, 4. Auflage, Vorwort",
+            "url": "https://s9.imslp.org/files/imglnks/usimg/4/48/IMSLP506323-PMLP820605-Bellerman_Contrapunkt.pdf"
+          }
+        ]
+      }
     },
     {
       "id": "benjamin1986",
@@ -1029,7 +1053,27 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://openlibrary.org/books/OL2537553M/Counterpoint_in_the_style_of_J.S._Bach",
       "sortAuthor": "Benjamin, Thomas",
-      "publicationYear": 1986
+      "editionYear": 1986,
+      "firstVersion": {
+        "year": 1986,
+        "label": "1986",
+        "kind": "publication",
+        "note": "Erstausgabe: Schirmer Books, New York 1986. Die spätere Bearbeitung erschien 2003 unter dem Titel The Craft of Tonal Counterpoint.",
+        "evidence": [
+          {
+            "label": "Mercyhurst University Libraries: Counterpoint in the style of J.S. Bach (1986)",
+            "url": "https://catalog.mercyhurst.edu/cgi-bin/koha/opac-detail.pl?biblionumber=10855"
+          },
+          {
+            "label": "ZGMTH: Jan Philipp Sprick, Fugen-Lehrbücher im 20. Jahrhundert (2008)",
+            "url": "https://www.gmth.de/zeitschrift/artikel/299.aspx"
+          },
+          {
+            "label": "Finna / JAMK: The Craft of Tonal Counterpoint",
+            "url": "https://www.finna.fi/Record/jamk.993632480206251"
+          }
+        ]
+      }
     },
     {
       "id": "cherubini1835",
@@ -1038,8 +1082,24 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cours_de_contrepoint_et_de_fugue_%28IA_imslp-de-contrepoint-et-de-fugue-cherubini-luigi%29.pdf",
       "sortAuthor": "Cherubini, Luigi",
-      "publicationYear": 1835,
-      "publicationLabel": "um 1835"
+      "editionYear": 1835,
+      "editionLabel": "um 1835",
+      "firstVersion": {
+        "year": 1835,
+        "label": "1835",
+        "kind": "publication",
+        "note": "Französische Erstausgabe 1835 unter dem Titel Cours de contrepoint et de fugue. Die benutzte deutsch-französische Ausgabe bleibt als eigene Ausgabe nachgewiesen; der kritische Katalog datiert diese auf 1835–1836.",
+        "evidence": [
+          {
+            "label": "RISM: Cherubini-Katalog, Einleitung und Bibliographie",
+            "url": "https://github.com/rism-digital/rism-catalog-bacch/blob/main/introduction.en.md"
+          },
+          {
+            "label": "Google Books: digitalisiertes Exemplar der Österreichischen Nationalbibliothek",
+            "url": "https://books.google.com/books/about/Cours_de_Contrepoint_et_de_Fugue.html?id=FoGtJmakTEwC"
+          }
+        ]
+      }
     },
     {
       "id": "cherubini1854",
@@ -1048,16 +1108,55 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/A_treatise_on_counterpoint_%26_fugue_%28IA_atreatiseoncoun00pittgoog%29.pdf",
       "sortAuthor": "Cherubini, Luigi",
-      "publicationYear": 1854
+      "editionYear": 1854,
+      "firstVersion": {
+        "year": 1835,
+        "label": "1835",
+        "kind": "publication",
+        "note": "Französische Erstausgabe 1835 unter dem Titel Cours de contrepoint et de fugue. Die englische Übersetzung von Mary Cowden Clarke, herausgegeben von Josiah Pittman (Novello, 1854), ist die hier benutzte spätere Ausgabe.",
+        "evidence": [
+          {
+            "label": "RISM: Cherubini-Katalog, Einleitung und Bibliographie",
+            "url": "https://github.com/rism-digital/rism-catalog-bacch/blob/main/introduction.en.md"
+          }
+        ]
+      }
     },
     {
       "id": "foerster1804",
       "name": "Emanuel Aloys Förster",
-      "title": "Anleitung zum General-Bass (Leipzig, Breitkopf & Härtel, 1804)",
+      "title": "Anleitung zum General-Bass (Leipzig, Breitkopf & Härtel, o. J., Plattennummer 3488)",
       "group": "Lehrwerke",
       "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf",
       "sortAuthor": "Förster, Emanuel Aloys",
-      "publicationYear": 1804
+      "editionYear": null,
+      "firstVersion": {
+        "year": 1804,
+        "endYear": 1805,
+        "label": "1804–1805 (Datierung offen)",
+        "kind": "publication",
+        "note": "Die Literatur nennt Leipzig [1804] und Wien 1805; die moderne Neuausgabe bezeichnet die Wiener Ausgabe von 1805 als erste Auflage. Das Ersterscheinen wird deshalb vorläufig als 1804–1805 ausgewiesen. Die konkret benutzte Leipziger Ausgabe ist undatiert.",
+        "evidence": [
+          {
+            "label": "Felix Diergarten: Joachim Hoffmann. Ein Kompositionslehrer in Schuberts Wien, Anm. 23",
+            "url": "https://www.hkb-interpretation.ch/fileadmin/user_upload/documents/Publikationen/Bd.7/HKB7_103-114_Diergarten.pdf"
+          },
+          {
+            "label": "ibidem: Förster / Hensel, Anleitung zum General-Bass (1805)",
+            "url": "https://www.ibidem.eu/en/Topics/Liberal-Arts/Music/Anleitung-zum-General-Bass-1805-einschliesslich-der-Biographie-Karl-Weigl-Emanuel-Aloys-Foerster-1913.html"
+          },
+          {
+            "label": "IMSLP: Anleitung zum General-Bass, Scan #522102",
+            "url": "https://imslp.org/wiki/Anleitung_zum_General-Bass_(F%C3%B6rster,_Emanuel_Aloys)"
+          },
+          {
+            "label": "Förster: Anleitung zum Generalbass, benutzter Scan #522102, Titelblatt und Vorrede",
+            "url": "https://s9.imslp.org/files/imglnks/usimg/0/05/IMSLP522102-PMLP845377-F%C3%B6rster_anleitung_zum_general-bass_breitkopf_1804_portrait_text.pdf"
+          }
+        ]
+      },
+      "editionLabel": "o. J.",
+      "editionNote": "Die benutzte Leipziger Ausgabe ist im Titelblatt undatiert; IMSLP #522102 weist sie als Hochformat-Ausgabe mit Plattennummer 3488 nach. 1804 ist eine in der Forschung verwendete Datierung der frühen Werküberlieferung, kein gesichertes Erscheinungsjahr dieses Exemplars."
     },
     {
       "id": "foerster1818",
@@ -1066,7 +1165,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://s9.imslp.org/files/imglnks/usimg/b/bc/IMSLP756100-PMLP1199877-Practische_Beyspiele.pdf",
       "sortAuthor": "Förster, Emanuel Aloys",
-      "publicationYear": 1818
+      "editionYear": 1818,
+      "firstVersion": {
+        "year": 1818,
+        "label": "1818",
+        "kind": "publication",
+        "note": "Erstausgabe der eigenständigen Fortsetzung Practische Beyspiele 1818 bei Artaria in Wien. Diese Beispielsammlung wird nicht auf das Jahr der vorausgehenden Anleitung zum General-Bass zurückdatiert.",
+        "evidence": [
+          {
+            "label": "IMSLP: Practische Beyspiele, Druck Artaria 1818",
+            "url": "https://imslp.org/wiki/Practische_Beyspiele_(F%C3%B6rster,_Emanuel_Aloys)"
+          },
+          {
+            "label": "Deutsche Biographie: Förster, Emanuel Aloys",
+            "url": "https://www.deutsche-biographie.de/gnd129653128.html?language=de"
+          }
+        ]
+      }
     },
     {
       "id": "fux1725",
@@ -1075,7 +1190,19 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/4118035",
       "sortAuthor": "Fux, Johann Joseph",
-      "publicationYear": 1725
+      "editionYear": 1725,
+      "firstVersion": {
+        "year": 1725,
+        "label": "1725",
+        "kind": "publication",
+        "note": "Erstausgabe des Gradus ad Parnassum 1725 in Wien; die verwendete lateinische Quelle gehört zu diesem Erstdruck.",
+        "evidence": [
+          {
+            "label": "Wienbibliothek: Gradus ad Parnassum, Titelaufnahme",
+            "url": "https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/4118035"
+          }
+        ]
+      }
     },
     {
       "id": "gallon-bitsch1964",
@@ -1084,7 +1211,27 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/index.html",
       "sortAuthor": "Gallon, Noël; Bitsch, Marcel",
-      "publicationYear": 1964
+      "editionYear": 1964,
+      "firstVersion": {
+        "year": 1964,
+        "label": "1964",
+        "kind": "publication",
+        "note": "Erstausgabe: Durand, Paris 1964 (D. & F. 13955).",
+        "evidence": [
+          {
+            "label": "Philharmonie de Paris: Traité de contrepoint",
+            "url": "https://mediatheque.philharmoniedeparis.fr/mediatheque/doc/ALOES/1083376/traite-de-contrepoint-noel-gallon-marcel-bitsch"
+          },
+          {
+            "label": "Larousse: Noël-Gallon",
+            "url": "https://www.larousse.fr/archives/musique/page/451"
+          },
+          {
+            "label": "Marc Sage: traité de contrepoint (chapter scans)",
+            "url": "https://www.normalesup.org/~sage/Musique/%3E16/contrepoint/index.html"
+          }
+        ]
+      }
     },
     {
       "id": "gedalge1901",
@@ -1093,7 +1240,19 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=73074&itemId=23136",
       "sortAuthor": "Gédalge, André",
-      "publicationYear": 1901
+      "editionYear": 1901,
+      "firstVersion": {
+        "year": 1901,
+        "label": "1901",
+        "kind": "publication",
+        "note": "Erstveröffentlichung 1901 bei Enoch in Paris. Die Datierung stimmt mit der hier verwendeten französischen Ausgabe überein.",
+        "evidence": [
+          {
+            "label": "University of Rochester / Sibley Music Library: Traité de la fugue",
+            "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=22662"
+          }
+        ]
+      }
     },
     {
       "id": "goetschius1910",
@@ -1102,8 +1261,24 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Exercises_in_elementary_counterpoint_%28IA_cu31924021751098%29.pdf",
       "sortAuthor": "Goetschius, Percy",
-      "publicationYear": null,
-      "publicationNote": "Die Quellenangabe nennt © 1910; das Erscheinungsjahr der verwendeten 5. Auflage ist nicht belegt."
+      "editionYear": null,
+      "editionNote": "Die Quellenangabe nennt © 1910; das Erscheinungsjahr der verwendeten 5. Auflage ist nicht belegt.",
+      "firstVersion": {
+        "year": 1910,
+        "label": "1910",
+        "kind": "publication",
+        "note": "Das Werk ist seit 1910 nachgewiesen; Copyright und Bibliothekskataloge nennen 1910. Das Erscheinungsjahr der konkret benutzten fünften Auflage bleibt unbekannt.",
+        "evidence": [
+          {
+            "label": "University of Rochester / Sibley Music Library: Exercises in Elementary Counterpoint",
+            "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=27012"
+          },
+          {
+            "label": "Open Library: Percy Goetschius, Werkdatierung",
+            "url": "https://openlibrary.org/authors/OL1243695A/Percy_Goetschius"
+          }
+        ]
+      }
     },
     {
       "id": "green-jones2011",
@@ -1112,7 +1287,19 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Green-Jones/p/book/9780415988650",
       "sortAuthor": "Green, Douglass M.; Jones, Evan",
-      "publicationYear": 2011
+      "editionYear": 2011,
+      "firstVersion": {
+        "year": 2011,
+        "label": "2011",
+        "kind": "publication",
+        "note": "Erstausgabe: Routledge, New York/London 2011.",
+        "evidence": [
+          {
+            "label": "Routledge: The Principles and Practice of Modal Counterpoint, 1st Edition",
+            "url": "https://www.routledge.com/The-Principles-and-Practice-of-Modal-Counterpoint/Jones-Green/p/book/9780415988650"
+          }
+        ]
+      }
     },
     {
       "id": "hindemith-tonsatz1",
@@ -1121,8 +1308,24 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/33620/dl/ED3600_Unterweisung_im_Tonsatz_Einleger.pdf",
       "sortAuthor": "Hindemith, Paul",
-      "publicationYear": null,
-      "publicationNote": "Die verwendete Ausgabe ist in der Quellenangabe nicht datiert."
+      "editionYear": null,
+      "editionNote": "Die verwendete Ausgabe ist in der Quellenangabe nicht datiert.",
+      "firstVersion": {
+        "year": 1937,
+        "label": "1937",
+        "kind": "publication",
+        "note": "Erstausgabe des ersten Bandes: B. Schott’s Söhne, Mainz 1937. Die verwendete Ausgabe bleibt undatiert.",
+        "evidence": [
+          {
+            "label": "Universität der Künste Berlin: Paul Hindemith",
+            "url": "https://www.udk-berlin.de/universitaet/fakultaet-musik/die-fakultaet/geschichte/paul-hindemith/"
+          },
+          {
+            "label": "Cambridge University Press: The Music and Music Theory of Paul Hindemith, theory-publications bibliography",
+            "url": "https://www.cambridge.org/core/books/music-and-music-theory-of-paul-hindemith/51EBFF51C4B2A13C1C83544B31D978ED/listing"
+          }
+        ]
+      }
     },
     {
       "id": "hindemith-tonsatz2",
@@ -1131,8 +1334,28 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://www.schott-music.com/de/unterweisung-im-tonsatz-no33622.html",
       "sortAuthor": "Hindemith, Paul",
-      "publicationYear": null,
-      "publicationNote": "Die verwendete Ausgabe ist in der Quellenangabe nicht datiert."
+      "editionYear": null,
+      "editionNote": "Die verwendete Ausgabe ist in der Quellenangabe nicht datiert.",
+      "firstVersion": {
+        "year": 1939,
+        "label": "1939",
+        "kind": "publication",
+        "note": "Erstausgabe des zweiten Bandes: B. Schott’s Söhne, Mainz 1939. Die verwendete Ausgabe bleibt undatiert.",
+        "evidence": [
+          {
+            "label": "Cambridge University Press: The Music and Music Theory of Paul Hindemith, theory-publications bibliography",
+            "url": "https://www.cambridge.org/core/books/music-and-music-theory-of-paul-hindemith/51EBFF51C4B2A13C1C83544B31D978ED/listing"
+          },
+          {
+            "label": "Hochschule Osnabrück: Literatur zur Musiktheorie",
+            "url": "https://www.hs-osnabrueck.de/module/66b6237/"
+          },
+          {
+            "label": "CiNii Books: Übungsbuch für den zweistimmigen Satz",
+            "url": "https://ci.nii.ac.jp/ncid/BA35377949"
+          }
+        ]
+      }
     },
     {
       "id": "keller1965",
@@ -1141,7 +1364,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv872.pdf",
       "sortAuthor": "Keller, Hermann",
-      "publicationYear": 1965
+      "editionYear": 1965,
+      "firstVersion": {
+        "year": 1965,
+        "label": "1965",
+        "kind": "publication",
+        "note": "Erstausgabe: Bärenreiter, Kassel 1965. Übersetzungen und spätere Auflagen folgen auf diese deutsche Originalausgabe.",
+        "evidence": [
+          {
+            "label": "Hermann Keller: Bücher und Lehrwerke",
+            "url": "https://www.hermann-keller.org/content/buecherundlehrwerke/buecher.html"
+          },
+          {
+            "label": "Deutsche Biographie: Hermann Keller",
+            "url": "https://www.deutsche-biographie.de/sfz40437.html"
+          }
+        ]
+      }
     },
     {
       "id": "kennan1999",
@@ -1150,7 +1389,27 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://iucat.iu.edu/iub/4609610",
       "sortAuthor": "Kennan, Kent",
-      "publicationYear": 1999
+      "editionYear": 1999,
+      "firstVersion": {
+        "year": 1959,
+        "label": "1959",
+        "kind": "publication",
+        "note": "Erstausgabe: Prentice-Hall, Englewood Cliffs 1959. Die verwendete vierte Auflage erschien 1999.",
+        "evidence": [
+          {
+            "label": "CiNii Books: Counterpoint, based on eighteenth century practice",
+            "url": "https://ci.nii.ac.jp/ncid/BA45842819"
+          },
+          {
+            "label": "Open Library: Counterpoint (1959 edition)",
+            "url": "https://openlibrary.org/books/OL21210551M/Counterpoint"
+          },
+          {
+            "label": "ZGMTH: Jan Philipp Sprick, Fugen-Lehrbücher im 20. Jahrhundert (2008)",
+            "url": "https://www.gmth.de/zeitschrift/artikel/299.aspx"
+          }
+        ]
+      }
     },
     {
       "id": "kurth1917",
@@ -1159,7 +1418,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://s9.imslp.org/files/imglnks/usimg/9/97/IMSLP563567-PMLP907935-Kurth_-_Grundlagen_des_linearen_Kontrapunkts_%28JBIG2%29.pdf",
       "sortAuthor": "Kurth, Ernst",
-      "publicationYear": 1917
+      "editionYear": 1917,
+      "firstVersion": {
+        "year": 1917,
+        "label": "1917",
+        "kind": "publication",
+        "note": "Erstausgabe 1917 bei Max Drechsel in Bern. Spätere Auflagen ändern das Werkdatum nicht.",
+        "evidence": [
+          {
+            "label": "Google Books: digitalisierter Erstdruck, University of California",
+            "url": "https://books.google.com/books?id=k7I6AQAAMAAJ"
+          },
+          {
+            "label": "IMSLP: Grundlagen des linearen Kontrapunkts",
+            "url": "https://imslp.org/wiki/Grundlagen_des_linearen_Kontrapunkts_(Kurth,_Ernst)"
+          }
+        ]
+      }
     },
     {
       "id": "piston1947",
@@ -1168,7 +1443,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en",
       "sortAuthor": "Piston, Walter",
-      "publicationYear": 1970
+      "editionYear": 1970,
+      "firstVersion": {
+        "year": 1947,
+        "label": "1947",
+        "kind": "publication",
+        "note": "Erstausgabe: W. W. Norton, New York 1947. Die verwendete sechste Londoner Druckauflage bei Gollancz stammt von 1970.",
+        "evidence": [
+          {
+            "label": "CiNii Books: Counterpoint",
+            "url": "https://ci.nii.ac.jp/ncid/BA86907493?l=en"
+          },
+          {
+            "label": "Google Books: Counterpoint (1947)",
+            "url": "https://books.google.com/books/about/Counterpoint.html?hl=en&id=xxgKRwAACAAJ&output=html_text"
+          }
+        ]
+      }
     },
     {
       "id": "prout1890",
@@ -1177,8 +1468,28 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Counterpoint-_strict_and_free_%28IA_cu31924021789650%29.pdf",
       "sortAuthor": "Prout, Ebenezer",
-      "publicationYear": null,
-      "publicationNote": "Das Vorwort ist auf 1890 datiert; das Erscheinungsjahr der verwendeten 3. Auflage ist nicht eindeutig belegt."
+      "editionYear": null,
+      "editionNote": "Das Vorwort ist auf 1890 datiert; das Erscheinungsjahr der verwendeten 3. Auflage ist nicht eindeutig belegt.",
+      "firstVersion": {
+        "year": 1890,
+        "label": "1890",
+        "kind": "publication",
+        "note": "Erstveröffentlichung 1890 nach der zeitnahen Werkbibliographie von 1912 und den Bibliotheksnachweisen. Das Erscheinungsjahr der verwendeten dritten Auflage bleibt unbekannt; die Datierung wird nicht allein aus ihrem Vorwort abgeleitet.",
+        "evidence": [
+          {
+            "label": "Dictionary of National Biography, Supplement 1912: Ebenezer Prout",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Prout,_Ebenezer"
+          },
+          {
+            "label": "National Library of Ireland: Counterpoint: strict and free",
+            "url": "https://catalogue.nli.ie/Record/vtls000475107"
+          },
+          {
+            "label": "Norwegian Academy of Music: Bjørnar Utne-Reitan, Masterarbeit, Quellenübersicht",
+            "url": "https://nmh.brage.unit.no/nmh-xmlui/bitstream/handle/11250/2503814/Utne-Reitan_Masteroppgave.pdf?isAllowed=y&sequence=1"
+          }
+        ]
+      }
     },
     {
       "id": "prout1891",
@@ -1187,8 +1498,24 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fugue_%28IA_fugueprout%29.pdf",
       "sortAuthor": "Prout, Ebenezer",
-      "publicationYear": null,
-      "publicationNote": "Das Vorwort ist auf 1891 datiert; das Erscheinungsjahr des verwendeten 9. Drucks ist nicht belegt."
+      "editionYear": null,
+      "editionNote": "Das Vorwort ist auf 1891 datiert; das Erscheinungsjahr des verwendeten 9. Drucks ist nicht belegt.",
+      "firstVersion": {
+        "year": 1891,
+        "label": "1891",
+        "kind": "publication",
+        "note": "Erstveröffentlichung 1891 nach der zeitnahen Werkbibliographie von 1912. Das Jahr des verwendeten neunten Drucks bleibt unbekannt; sein Vorwort von 1891 ist kein Druckdatumsnachweis.",
+        "evidence": [
+          {
+            "label": "Dictionary of National Biography, Supplement 1912: Ebenezer Prout",
+            "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Prout,_Ebenezer"
+          },
+          {
+            "label": "Google Books: Fugue, digitalisiertes Exemplar der New York Public Library",
+            "url": "https://books.google.com/books/about/Fugue.html?id=tQotAAAAYAAJ"
+          }
+        ]
+      }
     },
     {
       "id": "prout1910",
@@ -1197,7 +1524,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf",
       "sortAuthor": "Prout, Ebenezer",
-      "publicationYear": 1910
+      "editionYear": 1910,
+      "firstVersion": {
+        "year": 1910,
+        "label": "1910",
+        "kind": "publication",
+        "note": "Erstveröffentlichung 1910, postum von Louis B. Prout herausgegeben. Ein Manuskript mit Partituren und Analysen von 1890 liegt dem Band zugrunde. Nach dem Vorwort arbeitete Prout bis zu seinem Tod an dem Handbuch; der Herausgeber stellte die noch nicht druckfertigen Teile durch Auswahl und Kürzung der handschriftlichen Notizen zusammen. Für das erst später als Handbuch zusammengestellte Werk zählt hier die Erstausgabe 1910.",
+        "evidence": [
+          {
+            "label": "Trinity College Dublin Library: In Tune, Collection Expansion",
+            "url": "https://www.tcd.ie/library/exhibitions/in-tune/collection_expansion.php"
+          },
+          {
+            "label": "Analysis of J. S. Bach’s Forty-Eight Fugues, Editor’s Preface, S. iii–iv",
+            "url": "https://waltercosand.com/CosandScores/Composers%20L-P/Composers_P/Prout%2C%20Ebenezer/Prout-Analysis_of_Bach%27s_48_Fugues.pdf"
+          }
+        ]
+      }
     },
     {
       "id": "schubert1999",
@@ -1206,7 +1549,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://search.worldcat.org/title/Modal-counterpoint-Renaissance-style/oclc/39162285",
       "sortAuthor": "Schubert, Peter",
-      "publicationYear": 1999
+      "editionYear": 1999,
+      "firstVersion": {
+        "year": 1999,
+        "label": "1999",
+        "kind": "publication",
+        "note": "Erstausgabe: Oxford University Press, New York 1999.",
+        "evidence": [
+          {
+            "label": "McGill University: Music Theory program bibliography",
+            "url": "https://www.mcgill.ca/music/programs/phd-music-theory/program-overview/admitted"
+          },
+          {
+            "label": "Society for Music Theory: New Books, December 1998",
+            "url": "https://mtosmt.org/issues/mto.98.4.6/bks.4.6.html"
+          }
+        ]
+      }
     },
     {
       "id": "tuerk1791",
@@ -1215,7 +1574,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kurze_anweisung_zum_generalbasspielen_%28IA_kurzeanweisungzu00trkd%29.pdf",
       "sortAuthor": "Türk, Daniel Gottlob",
-      "publicationYear": 1791
+      "editionYear": 1791,
+      "firstVersion": {
+        "year": 1791,
+        "label": "1791",
+        "kind": "publication",
+        "note": "Erstausgabe 1791 in Halle und Leipzig unter dem Titel Kurze Anweisung zum Generalbaßspielen. Spätere Ausgaben mit verkürztem Titel ändern das Erstveröffentlichungsjahr nicht.",
+        "evidence": [
+          {
+            "label": "Beethoven-Haus Bonn: Neuerwerbungen, erstes Halbjahr 2019",
+            "url": "https://internet.beethoven.de/pdf-web/Neuerwerbungsliste-2019-1.pdf"
+          },
+          {
+            "label": "Russische Staatsbibliothek: Kurze Anweisung zum Generalbaßspielen",
+            "url": "https://search.rsl.ru/ru/record/01004795615"
+          }
+        ]
+      }
     },
     {
       "id": "zarlino1558",
@@ -1224,7 +1599,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html",
       "sortAuthor": "Zarlino, Gioseffo",
-      "publicationYear": 1558
+      "editionYear": 1558,
+      "firstVersion": {
+        "year": 1558,
+        "label": "1558",
+        "kind": "publication",
+        "note": "Erstausgabe 1558 in Venedig. Die verwendete Transkription bezieht sich ausdrücklich auf diese Ausgabe.",
+        "evidence": [
+          {
+            "label": "Utrecht University / Thesaurus Musicarum Italicarum: Le istitutioni harmoniche 1558",
+            "url": "https://tmiweb.science.uu.nl/text/transcription/zarins58.html"
+          },
+          {
+            "label": "University of North Texas: Le istitutioni harmoniche, Ausgabe 1562",
+            "url": "https://digital.library.unt.edu/ark:/67531/metadc25955/"
+          }
+        ]
+      }
     },
     {
       "id": "gotham-shaffer-s5",
@@ -1233,7 +1624,27 @@ const ATLAS = {
       "group": "Online-Lehrtexte",
       "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/",
       "sortAuthor": "Gotham, Mark; Shaffer, Kris",
-      "publicationYear": null
+      "editionYear": null,
+      "firstVersion": {
+        "year": null,
+        "label": "Erstfassung des Kapitels nicht belegt",
+        "kind": "undated",
+        "note": "Für dieses einzelne Kapitel ist kein verlässlich belegtes Erstfassungsjahr ausgewiesen. Open Music Theory als Gesamtprojekt erschien 2014, doch dessen erste Fassung enthält in der Inhaltsübersicht nur die ersten vier Spezies. Das Jahr 2014 des Gesamtprojekts und spätere allgemeine Copyrightjahre des Lehrbuchs werden deshalb nicht auf das fünfte-Spezies-Kapitel übertragen.",
+        "evidence": [
+          {
+            "label": "Mark Gotham und Kris Shaffer: Fifth-Species Counterpoint, Open Music Theory",
+            "url": "https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/"
+          },
+          {
+            "label": "Open Music Theory, Version 1: Table of Contents",
+            "url": "https://openmusictheory.github.io/contents.html"
+          },
+          {
+            "label": "Kris Shaffer / Hybrid Pedagogy Publishing: Hack This Book: Announcing Open Music Theory (2. Oktober 2014)",
+            "url": "https://hybridpedagogy.org/hack-book-announcing-open-music-theory/"
+          }
+        ]
+      }
     },
     {
       "id": "rothgeb1998-cf",
@@ -1242,7 +1653,19 @@ const ATLAS = {
       "group": "Online-Lehrtexte",
       "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html",
       "sortAuthor": "Rothgeb, John",
-      "publicationYear": 1998
+      "editionYear": 1998,
+      "firstVersion": {
+        "year": 1998,
+        "label": "1998 (Copyright)",
+        "kind": "copyright",
+        "note": "Der einzelne Lehrtext trägt den ausdrücklichen Copyrightvermerk 1998 von John Rothgeb. Dies ist die belegte Datierung der vorliegenden Lehrfassung; ein davon abweichendes Erstveröffentlichungsdatum ist nicht nachgewiesen.",
+        "evidence": [
+          {
+            "label": "John Rothgeb: The Cantus Firmus (UCSB, Music 103)",
+            "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Cantus_Firmus.html"
+          }
+        ]
+      }
     },
     {
       "id": "rothgeb1998-s1",
@@ -1251,7 +1674,19 @@ const ATLAS = {
       "group": "Online-Lehrtexte",
       "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html",
       "sortAuthor": "Rothgeb, John",
-      "publicationYear": 1998
+      "editionYear": 1998,
+      "firstVersion": {
+        "year": 1998,
+        "label": "1998 (Copyright)",
+        "kind": "copyright",
+        "note": "Der einzelne Lehrtext trägt den ausdrücklichen Copyrightvermerk 1998 von John Rothgeb. Dies ist die belegte Datierung der vorliegenden Lehrfassung; ein davon abweichendes Erstveröffentlichungsdatum ist nicht nachgewiesen.",
+        "evidence": [
+          {
+            "label": "John Rothgeb: The First Species of Counterpoint (UCSB, Music 103)",
+            "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/First_Species(2v).html"
+          }
+        ]
+      }
     },
     {
       "id": "rothgeb1993-s2",
@@ -1260,7 +1695,19 @@ const ATLAS = {
       "group": "Online-Lehrtexte",
       "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html",
       "sortAuthor": "Rothgeb, John",
-      "publicationYear": 1993
+      "editionYear": 1993,
+      "firstVersion": {
+        "year": 1993,
+        "label": "1993 (Copyright)",
+        "kind": "copyright",
+        "note": "Der einzelne Lehrtext trägt den ausdrücklichen Copyrightvermerk 1993 von John Rothgeb. Dies ist die belegte Datierung der vorliegenden Lehrfassung; ein davon abweichendes Erstveröffentlichungsdatum ist nicht nachgewiesen.",
+        "evidence": [
+          {
+            "label": "John Rothgeb: The Second Species of Counterpoint (UCSB, Music 103)",
+            "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Second_Species(2v).html"
+          }
+        ]
+      }
     },
     {
       "id": "rothgeb1995-s3",
@@ -1269,7 +1716,19 @@ const ATLAS = {
       "group": "Online-Lehrtexte",
       "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html",
       "sortAuthor": "Rothgeb, John",
-      "publicationYear": 1995
+      "editionYear": 1995,
+      "firstVersion": {
+        "year": 1995,
+        "label": "1995 (Copyright)",
+        "kind": "copyright",
+        "note": "Der einzelne Lehrtext trägt den ausdrücklichen Copyrightvermerk 1995 von John Rothgeb. Dies ist die belegte Datierung der vorliegenden Lehrfassung; ein davon abweichendes Erstveröffentlichungsdatum ist nicht nachgewiesen.",
+        "evidence": [
+          {
+            "label": "John Rothgeb: The Third Species of Counterpoint (UCSB, Music 103)",
+            "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Third_Species(2v).html"
+          }
+        ]
+      }
     },
     {
       "id": "rothgeb1995-s4",
@@ -1278,16 +1737,46 @@ const ATLAS = {
       "group": "Online-Lehrtexte",
       "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html",
       "sortAuthor": "Rothgeb, John",
-      "publicationYear": 1995
+      "editionYear": 1995,
+      "firstVersion": {
+        "year": 1995,
+        "label": "1995 (Copyright)",
+        "kind": "copyright",
+        "note": "Der einzelne Lehrtext trägt den ausdrücklichen Copyrightvermerk 1995 von John Rothgeb. Dies ist die belegte Datierung der vorliegenden Lehrfassung; ein davon abweichendes Erstveröffentlichungsdatum ist nicht nachgewiesen.",
+        "evidence": [
+          {
+            "label": "John Rothgeb: The Fourth Species of Counterpoint (UCSB, Music 103)",
+            "url": "https://rothfarb.faculty.music.ucsb.edu/courses/103/Fourth_Species(2v).html"
+          }
+        ]
+      }
     },
     {
       "id": "shaffer2012",
       "name": "Kris Shaffer",
-      "title": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
+      "title": "Composing a first-species counterpoint (Musicianship Resources, undatierte Onlinefassung)",
       "group": "Online-Lehrtexte",
       "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
       "sortAuthor": "Shaffer, Kris",
-      "publicationYear": 2012
+      "editionYear": null,
+      "firstVersion": {
+        "year": 2013,
+        "label": "2013 (erste belegte Onlinefassung)",
+        "kind": "documented",
+        "note": "Die Quelldatei firstSpecies.md wurde am 9. Januar 2013 erstmals im Originalrepository angelegt (Commit 7381144). Die pauschale Copyrightangabe 2012 im Footer gilt für die gesamte Website und belegt nicht das Erstjahr dieses Kapitels. Eine frühere Fassung des konkreten Lehrtexts ist nicht nachgewiesen.",
+        "evidence": [
+          {
+            "label": "Kris Shaffer: Added first species, Original-Commit vom 9. Januar 2013",
+            "url": "https://github.com/kshaffer/musicianshipResources/commit/7381144c5b76be76f4295c315ab70d25f0b97167"
+          },
+          {
+            "label": "Kris Shaffer: Composing a first-species counterpoint, Musicianship Resources",
+            "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html"
+          }
+        ]
+      },
+      "editionLabel": "o. J.; Website © 2012",
+      "editionNote": "Die aktuelle Webseite trägt kein eigenes Ausgabenjahr. Ihr allgemeiner Footer nennt © 2012 für die gesamte Website; diese Angabe wird nicht mehr als Erscheinungsjahr des Kapitels verwendet. Die erste im Originalrepository belegte Fassung des konkreten Lehrtexts stammt vom 9. Januar 2013."
     },
     {
       "id": "bach1866-wtk1",
@@ -1296,7 +1785,19 @@ const ATLAS = {
       "group": "Partituren",
       "url": "https://s9.imslp.org/files/imglnks/usimg/2/2b/IMSLP173661-PMLP05948-1.pdf",
       "sortAuthor": "Bach, Johann Sebastian",
-      "publicationYear": 1866
+      "editionYear": 1866,
+      "firstVersion": {
+        "year": 1722,
+        "label": "1722 (Handschrift)",
+        "kind": "manuscript",
+        "note": "Die autographe Reinschrift des ersten Teils ist auf 1722 datiert. Einzelne Stücke haben Vorstufen; später überarbeitete Bach das Autograph mehrfach. Für die Chronologie dient die datierte frühe Fassung der Sammlung. Die im Atlas verwendete Ausgabe der Bach-Gesellschaft von Franz Kroll erschien 1866.",
+        "evidence": [
+          {
+            "label": "G. Henle Verlag: Vorwort zu Das Wohltemperierte Klavier, Teil I, S. III–IV",
+            "url": "https://www.henle.de/media/22/35/3a/1690899702/9014-1690899702-sync.pdf"
+          }
+        ]
+      }
     },
     {
       "id": "bach1866-wtk2",
@@ -1305,7 +1806,24 @@ const ATLAS = {
       "group": "Partituren",
       "url": "https://s9.imslp.org/files/imglnks/usimg/4/4b/IMSLP173660-PMLP05899-2.pdf",
       "sortAuthor": "Bach, Johann Sebastian",
-      "publicationYear": 1866
+      "editionYear": 1866,
+      "firstVersion": {
+        "year": 1739,
+        "endYear": 1742,
+        "label": "1739–1742 (Handschrift)",
+        "kind": "manuscript",
+        "note": "Der zweite Teil wurde zwischen 1739 und 1742 zusammengestellt; die in der British Library überlieferten Originalhandschriften werden diesem Zeitraum zugeordnet. Frühere Einzelstücke und die Abschrift von 1744 sind davon zu unterscheiden. Die benutzte Bach-Gesellschaft-Ausgabe von Franz Kroll stammt von 1866.",
+        "evidence": [
+          {
+            "label": "British Library: Preserving Bach’s manuscripts (28. März 2023)",
+            "url": "https://www.bl.uk/stories/blogs/posts/preserving-bachs-manuscripts"
+          },
+          {
+            "label": "Bachfest Leipzig 2025, Konzert 184: Das Wohltemperierte Clavier, 2. Teil",
+            "url": "https://www.bachfestleipzig.de/sites/default/files/files/BA_2025_184.pdf"
+          }
+        ]
+      }
     },
     {
       "id": "neidhoefer-schubert2023",
@@ -1314,7 +1832,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://sunypress.edu/Books/B/Baroque-Counterpoint",
       "sortAuthor": "Neidhöfer, Christoph; Schubert, Peter",
-      "publicationYear": 2023
+      "editionYear": 2023,
+      "firstVersion": {
+        "year": 2006,
+        "label": "2006",
+        "kind": "publication",
+        "note": "Erstausgabe: Pearson Prentice Hall, Upper Saddle River 2006. Die verwendete überarbeitete und erweiterte Ausgabe erschien 2023 bei SUNY Press.",
+        "evidence": [
+          {
+            "label": "Arcadia University library: Baroque Counterpoint, MARC catalog",
+            "url": "https://koha.arcadia.edu/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=388940"
+          },
+          {
+            "label": "McGill University: Music Theory program bibliography",
+            "url": "https://www.mcgill.ca/music/programs/phd-music-theory/program-overview/admitted"
+          }
+        ]
+      }
     },
     {
       "id": "salzer-schachter1989",
@@ -1323,7 +1857,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://cup.columbia.edu/book/counterpoint-in-composition/9780231070393/",
       "sortAuthor": "Salzer, Felix; Schachter, Carl",
-      "publicationYear": 1989
+      "editionYear": 1989,
+      "firstVersion": {
+        "year": 1969,
+        "label": "1969",
+        "kind": "publication",
+        "note": "Erstausgabe: McGraw-Hill, New York 1969. Die verwendete Columbia-Morningside-Ausgabe erschien 1989.",
+        "evidence": [
+          {
+            "label": "Arcadia University library: Counterpoint in Composition, MARC catalog",
+            "url": "https://koha.arcadia.edu/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=54930"
+          },
+          {
+            "label": "WorldCat: Counterpoint in Composition",
+            "url": "https://search.worldcat.org/title/Counterpoint-in-composition-the-study-of-voice-leading/oclc/21717"
+          }
+        ]
+      }
     },
     {
       "id": "jeppesen1964",
@@ -1332,7 +1882,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://www.breitkopf.com/work/3447/kontrapunkt",
       "sortAuthor": "Jeppesen, Knud",
-      "publicationYear": 1964
+      "editionYear": 1964,
+      "firstVersion": {
+        "year": 1930,
+        "label": "1930",
+        "kind": "publication",
+        "note": "Dänische Erstausgabe: Kontrapunkt (Vokalpolyfoni), Wilhelm Hansen, Kopenhagen/Leipzig 1930. Die deutsche Übersetzung erschien 1935; verwendet wird die dritte deutsche Auflage von 1964.",
+        "evidence": [
+          {
+            "label": "Det Kongelige Bibliotek: Knud Jeppesen Katalog, B1930-a und B1935-a",
+            "url": "https://tidsskrift.dk/fundogforskning/article/download/132879/178038/284053#page=28"
+          },
+          {
+            "label": "Fund og Forskning: Knud Jeppesen Katalog (publication landing page)",
+            "url": "https://tidsskrift.dk/fundogforskning/article/view/132879"
+          }
+        ]
+      }
     },
     {
       "id": "menke2017",
@@ -1341,7 +1907,23 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f",
       "sortAuthor": "Menke, Johannes",
-      "publicationYear": 2017
+      "editionYear": 2017,
+      "firstVersion": {
+        "year": 2017,
+        "label": "2017",
+        "kind": "publication",
+        "note": "Erstausgabe des zweiten Bandes: Laaber-Verlag, Laaber 2017. Der 2015 erschienene erste Band behandelt ein anderes Repertoire und ist kein früherer Stand dieses Bandes.",
+        "evidence": [
+          {
+            "label": "FHNW institutional repository: Kontrapunkt II, Die Musik des Barock",
+            "url": "https://irf.fhnw.ch/entities/publication/d6fb93b6-3862-48ea-8a2e-1b2a4342042f"
+          },
+          {
+            "label": "FHNW: Johannes Menke",
+            "url": "https://www.fhnw.ch/de/musik/ueber-uns/portrait-organisation/personen/johannes-menke"
+          }
+        ]
+      }
     },
     {
       "id": "motte1995",
@@ -1350,8 +1932,24 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://biblio.unvm.edu.ar/opac_css/index.php?lvl=notice_display&id=7494",
       "sortAuthor": "Motte, Diether de la",
-      "publicationYear": 1995,
-      "publicationNote": "Jahr der verwendeten zweiten spanischen Auflage. Das deutsche Original erschien 1981; die Fundstellen folgen der spanischen Ausgabe."
+      "editionYear": 1995,
+      "editionNote": "Jahr der verwendeten zweiten spanischen Auflage. Das deutsche Original erschien 1981; die Fundstellen folgen der spanischen Ausgabe.",
+      "firstVersion": {
+        "year": 1981,
+        "label": "1981",
+        "kind": "publication",
+        "note": "Deutsche Erstausgabe: Kontrapunkt. Ein Lese- und Arbeitsbuch, Deutscher Taschenbuch Verlag/Bärenreiter, München/Kassel 1981. Verwendet wird die zweite spanische Ausgabe Contrapunto von 1995.",
+        "evidence": [
+          {
+            "label": "Open Library: Kontrapunkt, original 1981 edition",
+            "url": "https://openlibrary.org/works/OL3603932W/Kontrapunkt?edition=key%3A%2Fbooks%2FOL3838369M"
+          },
+          {
+            "label": "Oesterreichisches Musiklexikon: Diether de la Motte",
+            "url": "https://www.musiklexikon.ac.at/0xc1aa5576_0x0001da28"
+          }
+        ]
+      }
     },
     {
       "id": "schoenberg1970",
@@ -1360,8 +1958,24 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
       "sortAuthor": "Schönberg, Arnold",
-      "publicationYear": 1970,
-      "publicationNote": "Jahr der bereitgestellten ersten Taschenbuchausgabe. Das Werk erschien zuerst 1963. Fundstellen folgen den gedruckten Seiten; im bereitgestellten Scan fehlen S. 110–111 und 180–181. Von Leonard Stein ergänzte Texte werden gesondert zugeschrieben."
+      "editionYear": 1970,
+      "editionNote": "Jahr der bereitgestellten ersten Taschenbuchausgabe. Das Werk erschien zuerst 1963. Fundstellen folgen den gedruckten Seiten; im bereitgestellten Scan fehlen S. 110–111 und 180–181. Von Leonard Stein ergänzte Texte werden gesondert zugeschrieben.",
+      "firstVersion": {
+        "year": 1963,
+        "label": "1963",
+        "kind": "publication",
+        "note": "Postume Erstausgabe, herausgegeben von Leonard Stein: Faber and Faber, London 1963. Die verwendete erste Taschenbuchausgabe bei St. Martin’s Press erschien 1970.",
+        "evidence": [
+          {
+            "label": "Arnold Schönberg Center: Preliminary Exercises in Counterpoint",
+            "url": "https://asc-online-shop.myshopify.com/products/bel1067"
+          },
+          {
+            "label": "Open Library: Preliminary Exercises in Counterpoint, 1970 edition",
+            "url": "https://openlibrary.org/books/OL15066209M/Preliminary_exercises_in_counterpoint"
+          }
+        ]
+      }
     },
     {
       "id": "daniel2004",
@@ -1370,9 +1984,21 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://katalog.slub-dresden.de/id/0-377774707",
       "sortAuthor": "Daniel, Thomas",
-      "publicationYear": 2004,
-      "publicationLabel": "2004 (zugeordnet)",
-      "publicationNote": "Arbeitszuordnung zur 2., durchgesehenen Auflage: S. 10 nennt die zweite Auflage; der Bibliotheksnachweis belegt dafür Köln: Dohr, 2004. Das Impressum fehlt im Teilscan, deshalb ist die genaue Druckausgabe des Exemplars nicht abschließend gesichert. Erstveröffentlichung 2000. Erschlossen sind die gedruckten S. 9–201; der Scan bricht auf S. 201 ab. Wiederholte Aufnahmen werden nicht als zusätzliche Seiten gezählt."
+      "editionYear": 2004,
+      "editionLabel": "2004 (zugeordnet)",
+      "editionNote": "Arbeitszuordnung zur 2., durchgesehenen Auflage: S. 10 nennt die zweite Auflage; der Bibliotheksnachweis belegt dafür Köln: Dohr, 2004. Das Impressum fehlt im Teilscan, deshalb ist die genaue Druckausgabe des Exemplars nicht abschließend gesichert. Erstveröffentlichung 2000. Erschlossen sind die gedruckten S. 9–201; der Scan bricht auf S. 201 ab. Wiederholte Aufnahmen werden nicht als zusätzliche Seiten gezählt.",
+      "firstVersion": {
+        "year": 2000,
+        "label": "2000",
+        "kind": "publication",
+        "note": "Erstausgabe: Dohr, Köln 2000. Der vorhandene Auszug bleibt der zweiten, durchgesehenen Auflage von 2004 zugeordnet; das Ausgabenjahr ist mangels Titelblatt nicht direkt belegt.",
+        "evidence": [
+          {
+            "label": "Verlag Dohr: Thomas Daniel",
+            "url": "https://dohr.de/autor/daniel-thomas"
+          }
+        ]
+      }
     },
     {
       "id": "gardonyi1996",
@@ -1381,9 +2007,29 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://opacnow.provincia.rovigo.it/it/now/conservatorio-rovigo/record/PUV0301964",
       "sortAuthor": "Gárdonyi, Zsolt",
-      "publicationYear": 1996,
-      "publicationLabel": "1996 (zugeordnet)",
-      "publicationNote": "Bibliografische Zuordnung zur italienischen Übersetzung von Antonio Giacometti (Milano: Ricordi, 1996; ISBN 8875924708). Der Bibliothekskatalog belegt diese Ausgabe; Titelblatt und Impressum fehlen im bereitgestellten Scan, deshalb ist dessen genaue Druckausgabe nicht abschließend gesichert. Erschlossen sind das Vorwort S. 8–10 und alle acht Kapitel S. 11–97; das Register reicht bis S. 102. Die gedruckten Buchseiten, nicht die Blattnummern des zweiseitig aufgenommenen PDFs, bilden die Fundstellen."
+      "editionYear": 1996,
+      "editionLabel": "1996 (zugeordnet)",
+      "editionNote": "Bibliografische Zuordnung zur italienischen Übersetzung von Antonio Giacometti (Milano: Ricordi, 1996; ISBN 8875924708). Der Bibliothekskatalog belegt diese Ausgabe; Titelblatt und Impressum fehlen im bereitgestellten Scan, deshalb ist dessen genaue Druckausgabe nicht abschließend gesichert. Erschlossen sind das Vorwort S. 8–10 und alle acht Kapitel S. 11–97; das Register reicht bis S. 102. Die gedruckten Buchseiten, nicht die Blattnummern des zweiseitig aufgenommenen PDFs, bilden die Fundstellen.",
+      "firstVersion": {
+        "year": 1980,
+        "label": "1980",
+        "kind": "publication",
+        "note": "Erstausgabe: Kontrapunkt: dargestellt an der Fugentechnik Bachs, Möseler, Wolfenbüttel/Zürich 1980. Die überarbeitete Neuausgabe erschien 1991 als Kontrapunkt: dargestellt an Fugenstrukturen bei Johann Sebastian Bach; darauf beruht die italienische Übersetzung La struttura della fuga in Johann Sebastian Bach von 1996.",
+        "evidence": [
+          {
+            "label": "CiNii Books: Kontrapunkt, 1980",
+            "url": "https://ci.nii.ac.jp/ncid/BA65194926"
+          },
+          {
+            "label": "CiNii Books: Kontrapunkt, revised edition 1991",
+            "url": "https://ci.nii.ac.jp/ncid/BA27400397"
+          },
+          {
+            "label": "Pontificio Istituto di Musica Sacra: Descrizione analitica delle singole attività formative",
+            "url": "https://www.musicasacra.va/content/dam/musicasacra/documenti/corsi-accademici/Descrizione-analitica-delle-singole-attivita-formative.pdf#page=8"
+          }
+        ]
+      }
     },
     {
       "id": "sechter1876",
@@ -1392,9 +2038,25 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
       "sortAuthor": "Sechter, Simon",
-      "publicationYear": 1876,
-      "publicationLabel": "1876 (zugeordnet)",
-      "publicationNote": "Leipziger Ausgabe in einem Bande, F. E. C. Leuckart (Constantin Sander), Plattennummer F.E.C.L. 2777; im Titelblatt steht kein Jahr. Die Zuordnung [1876] folgt dem Nachweis für den identischen Farbscan IMSLP #422079 (Bayerische Staatsbibliothek) und einer Leuckart-Anzeige im Börsenblatt vom 25. Februar 1876, S. 706. Die Datierung bestimmt die Ausgabe, nicht den Zeitpunkt eines möglichen späteren Abzugs. Die Erstausgabe erschien 1830 bei J. Czerny in Wien in zwei Teilen. Gesichtet sind die Vorerinnerung S. 3 und alle 120 Übungen I–CXX auf S. 4–82. Die Fundstellen nennen gedruckte Seiten und die historische Übungsnummer mit arabischer Entsprechung."
+      "editionYear": 1876,
+      "editionLabel": "1876 (zugeordnet)",
+      "editionNote": "Leipziger Ausgabe in einem Bande, F. E. C. Leuckart (Constantin Sander), Plattennummer F.E.C.L. 2777; im Titelblatt steht kein Jahr. Die Zuordnung [1876] folgt dem Nachweis für den identischen Farbscan IMSLP #422079 (Bayerische Staatsbibliothek) und einer Leuckart-Anzeige im Börsenblatt vom 25. Februar 1876, S. 706. Die Datierung bestimmt die Ausgabe, nicht den Zeitpunkt eines möglichen späteren Abzugs. Die Erstausgabe erschien 1830 bei J. Czerny in Wien in zwei Teilen. Gesichtet sind die Vorerinnerung S. 3 und alle 120 Übungen I–CXX auf S. 4–82. Die Fundstellen nennen gedruckte Seiten und die historische Übungsnummer mit arabischer Entsprechung.",
+      "firstVersion": {
+        "year": 1830,
+        "label": "1830",
+        "kind": "publication",
+        "note": "Erstausgabe 1830 bei J. Czerny in Wien in zwei Teilen, durch den zeitgenössischen Hofmeister-Monatsbericht belegt. Die benutzte Leipziger Neuausgabe in einem Bande [1876] bleibt die Grundlage der Fundstellen.",
+        "evidence": [
+          {
+            "label": "Hofmeister Monatsberichte, September–Oktober 1830, S. 80",
+            "url": "https://hofmeister-os.kdl.kcl.ac.uk/2008/content/monatshefte/1830_09/80.html"
+          },
+          {
+            "label": "IMSLP: Praktische Generalbass-Schule, Op. 49",
+            "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29"
+          }
+        ]
+      }
     },
     {
       "id": "spalding1904",
@@ -1403,9 +2065,25 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=5",
       "sortAuthor": "Spalding, Walter Raymond",
-      "publicationYear": 1904,
-      "publicationLabel": "1904 (Copyright)",
-      "publicationNote": "Das Titelblatt nennt Walter R. Spalding als Assistant Professor of Music in Harvard University und trägt den Copyrightvermerk 1904 von Arthur P. Schmidt. Eine Auflagen- oder Drucknummer ist nicht angegeben. Der Bibliotheksnachweis HathiTrust 001460577 (LCCN 04026134) verzeichnet Boston: A. P. Schmidt, c1904, ix und 258 Seiten. Der Scan entspricht dem Exemplar der Faculty of Music, University of Toronto, bei Internet Archive: tonalcounterpoin00spaluoft. Gesichtet sind das Vorwort S. v–viii und alle 13 Kapitel auf S. 1–258. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 15. 1904 bezeichnet den gedruckten Copyrightvermerk, keine gesondert belegte spätere Druckauflage."
+      "editionYear": 1904,
+      "editionLabel": "1904 (Copyright)",
+      "editionNote": "Das Titelblatt nennt Walter R. Spalding als Assistant Professor of Music in Harvard University und trägt den Copyrightvermerk 1904 von Arthur P. Schmidt. Eine Auflagen- oder Drucknummer ist nicht angegeben. Der Bibliotheksnachweis HathiTrust 001460577 (LCCN 04026134) verzeichnet Boston: A. P. Schmidt, c1904, ix und 258 Seiten. Der Scan entspricht dem Exemplar der Faculty of Music, University of Toronto, bei Internet Archive: tonalcounterpoin00spaluoft. Gesichtet sind das Vorwort S. v–viii und alle 13 Kapitel auf S. 1–258. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 15. 1904 bezeichnet den gedruckten Copyrightvermerk, keine gesondert belegte spätere Druckauflage.",
+      "firstVersion": {
+        "year": 1904,
+        "label": "1904 (Copyright)",
+        "kind": "copyright",
+        "note": "Der frühe Druck bei Arthur P. Schmidt trägt den Copyrightvermerk 1904; der Katalog des University-of-Toronto-Exemplars nennt c 1904. Ein gesondertes Datum eines späteren Abzugs ist nicht belegt. Für die Chronologie bleibt 1904 als belegte frühe Datierung des Werks erhalten.",
+        "evidence": [
+          {
+            "label": "Walter R. Spalding: Tonal Counterpoint, Titelblatt des University-of-Toronto-Exemplars",
+            "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=5"
+          },
+          {
+            "label": "Internet Archive / University of Toronto: Metadaten zu tonalcounterpoin 00 spaluoft",
+            "url": "https://archive.org/metadata/tonalcounterpoin00spaluoft"
+          }
+        ]
+      }
     },
     {
       "id": "york1907",
@@ -1414,9 +2092,29 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=5",
       "sortAuthor": "York, Francis Lodowick",
-      "publicationYear": 1907,
-      "publicationLabel": "1907 (Copyright)",
-      "publicationNote": "Das Titelblatt nennt Francis L. York, M. A., und Oliver Ditson Company, Boston; das Copyrightblatt trägt MCMVII (1907). Eine nummerierte Auflage oder ein gesondertes Druckjahr ist nicht angegeben. Das Vorwort ist Detroit, 20. Juli 1907 datiert. HathiTrust 001980801 (LCCN 08001124) verzeichnet c1907, viii und 149 Seiten. Der Scan ist das Exemplar der Cornell University Library bei Internet Archive: cu31924022379741; die bereitgestellte Datei und das öffentliche PDF stimmen in Prüfsummen und Umfang überein. Gesichtet sind Vorwort S. v–vi, Einleitung S. 1–5, alle 16 Kapitel, die Cantus-firmus-Sammlung und der Anhang bis S. 149. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 13. 1907 bezeichnet den Copyrightvermerk, kein separat belegtes späteres Druckjahr."
+      "editionYear": 1907,
+      "editionLabel": "1907 (Copyright)",
+      "editionNote": "Das Titelblatt nennt Francis L. York, M. A., und Oliver Ditson Company, Boston; das Copyrightblatt trägt MCMVII (1907). Eine nummerierte Auflage oder ein gesondertes Druckjahr ist nicht angegeben. Das Vorwort ist Detroit, 20. Juli 1907 datiert. HathiTrust 001980801 (LCCN 08001124) verzeichnet c1907, viii und 149 Seiten. Der Scan ist das Exemplar der Cornell University Library bei Internet Archive: cu31924022379741; die bereitgestellte Datei und das öffentliche PDF stimmen in Prüfsummen und Umfang überein. Gesichtet sind Vorwort S. v–vi, Einleitung S. 1–5, alle 16 Kapitel, die Cantus-firmus-Sammlung und der Anhang bis S. 149. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 13. 1907 bezeichnet den Copyrightvermerk, kein separat belegtes späteres Druckjahr.",
+      "firstVersion": {
+        "year": 1907,
+        "label": "1907 (Copyright)",
+        "kind": "copyright",
+        "note": "Der frühe Ditson-Druck trägt den Copyrightvermerk MCMVII (1907); das Cornell-Exemplar wird mit 1907 katalogisiert. Die Chronologie behält diese ursprüngliche Datierung bei. Eine spätere Digitalisierungs- oder Nachdruckausgabe wird nicht als Erstfassung ausgegeben.",
+        "evidence": [
+          {
+            "label": "Francis L. York: Counterpoint Simplified, Copyrightblatt des Cornell-Exemplars",
+            "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=6"
+          },
+          {
+            "label": "Internet Archive / Cornell University Library: Metadaten zu cu 31924022379741",
+            "url": "https://archive.org/metadata/cu31924022379741"
+          },
+          {
+            "label": "CiNii Books: Counterpoint simplified, NCID BA 45843163",
+            "url": "https://ci.nii.ac.jp/ncid/BA45843163"
+          }
+        ]
+      }
     },
     {
       "id": "kittel2019",
@@ -1425,9 +2123,26 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://storage.gmth.de/zgmth/pdf/1013#page=1",
       "sortAuthor": "Kittel, Johann Christian",
-      "publicationYear": 2019,
-      "publicationLabel": "2019 (Quellenedition)",
-      "publicationNote": "2019 bezeichnet die moderne Quellenedition von Derek Remeš, nicht das Entstehungsjahr der Handschrift. Remeš datiert Johann Christian Heinrich Rincks Abschrift von Kittels Unterrichtsmaterial (US-NH, LM 3911, ma21y11k652) wahrscheinlich auf dessen Unterrichtszeit 1786–1789. Bearbeitet ist die vorliegende Edition mit zehn Regeln und Notenbeispielen: Druckseiten 143–164, entsprechend Handschriftenseiten [1]–[48]; S. 165 enthält den Editions- und Lizenznachweis. Die Handschriftenseiten [49]–[257] sind ausdrücklich nicht abgedruckt und hier nicht erschlossen. Die Fundstellen nennen die gedruckten Seiten; S. 143 entspricht PDF-Seite 1. Erstveröffentlichung: 23. Dezember 2019; letzter Aktualisierungsstand: 5. Januar 2020. DOI: 10.31751/1013. Quellentext, Herausgeberhinweise und hypothetische Aussetzungen werden unterschieden."
+      "editionYear": 2019,
+      "editionLabel": "2019 (Quellenedition)",
+      "editionNote": "2019 bezeichnet die moderne Quellenedition von Derek Remeš, nicht das Entstehungsjahr der Handschrift. Remeš datiert Johann Christian Heinrich Rincks Abschrift von Kittels Unterrichtsmaterial (US-NH, LM 3911, ma21y11k652) wahrscheinlich auf dessen Unterrichtszeit 1786–1789. Bearbeitet ist die vorliegende Edition mit zehn Regeln und Notenbeispielen: Druckseiten 143–164, entsprechend Handschriftenseiten [1]–[48]; S. 165 enthält den Editions- und Lizenznachweis. Die Handschriftenseiten [49]–[257] sind ausdrücklich nicht abgedruckt und hier nicht erschlossen. Die Fundstellen nennen die gedruckten Seiten; S. 143 entspricht PDF-Seite 1. Erstveröffentlichung: 23. Dezember 2019; letzter Aktualisierungsstand: 5. Januar 2020. DOI: 10.31751/1013. Quellentext, Herausgeberhinweise und hypothetische Aussetzungen werden unterschieden.",
+      "firstVersion": {
+        "year": 1786,
+        "endYear": 1789,
+        "label": "1786–1789 (Handschrift, vermutlich)",
+        "kind": "manuscript",
+        "note": "Die überlieferte Generalbass Schule steht in Johann Christian Heinrich Rincks Hand. Remeš datiert sie, McCormick folgend, wahrscheinlich in Rincks Unterrichtszeit bei Kittel in Erfurt, 1786–1789. Der Zeitraum bezeichnet die erhaltene Handschrift; die verwendete Quellenedition und englische Übersetzung von Derek Remeš erschien 2019.",
+        "evidence": [
+          {
+            "label": "Derek Remeš: Thoroughbass Pedagogy Near Johann Sebastian Bach (2019)",
+            "url": "https://www.gmth.de/zeitschrift/artikel/997.aspx"
+          },
+          {
+            "label": "Johann Christian Kittel / Derek Remeš: Generalbass Schule (ZGMTH 16/2, 2019)",
+            "url": "https://www.gmth.de/zeitschrift/artikel/1013.aspx"
+          }
+        ]
+      }
     },
     {
       "id": "weber2018",
@@ -1436,9 +2151,25 @@ const ATLAS = {
       "group": "Lehrwerke",
       "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=3",
       "sortAuthor": "Weber, Hans Peter",
-      "publicationYear": 2018,
-      "publicationLabel": "2018",
-      "publicationNote": "2018 bezeichnet die erste synoptische Ausgabe in Deutsch und Englisch; das handschriftliche Unterrichtsmaterial war seit 1997 in Gebrauch. Englische Übersetzung: Maria Raffaele. Bearbeitet ist die vollständige bereitgestellte Textfassung ohne eingebettete Audios: 100 PDF-Seiten mit Vorworten, Teil A (Signaturen), Teil B (Bassfiguren), Teil C (Zur Terminologie), Anhang und Quellenverzeichnis. Das Vorwort nennt als Gegenstand die Musik der ersten Hälfte des 18. Jahrhunderts. Fundstellen verwenden die gedruckten Seiten einschließlich 28a; die Links öffnen die jeweilige deutsche Seite der bytegleichen öffentlichen PDF-Fassung. ISBN 978-3-9524701-1-4 (PDF); 978-3-9524701-0-7 (Druck)."
+      "editionYear": 2018,
+      "editionLabel": "2018",
+      "editionNote": "2018 bezeichnet die erste synoptische Ausgabe in Deutsch und Englisch; das handschriftliche Unterrichtsmaterial war seit 1997 in Gebrauch. Englische Übersetzung: Maria Raffaele. Bearbeitet ist die vollständige bereitgestellte Textfassung ohne eingebettete Audios: 100 PDF-Seiten mit Vorworten, Teil A (Signaturen), Teil B (Bassfiguren), Teil C (Zur Terminologie), Anhang und Quellenverzeichnis. Das Vorwort nennt als Gegenstand die Musik der ersten Hälfte des 18. Jahrhunderts. Fundstellen verwenden die gedruckten Seiten einschließlich 28a; die Links öffnen die jeweilige deutsche Seite der bytegleichen öffentlichen PDF-Fassung. ISBN 978-3-9524701-1-4 (PDF); 978-3-9524701-0-7 (Druck).",
+      "firstVersion": {
+        "year": 1997,
+        "label": "1997 (Unterrichtsfassung)",
+        "kind": "teaching",
+        "note": "Das Generalbass-Compendium wurde 1997 erstmals als handschriftliches Unterrichtsskript vorgestellt und in Fotokopien verwendet. Nach sechs handschriftlichen, teilweise überarbeiteten Auflagen erschien 2018 erstmals die digitalisierte synoptische Fassung in Deutsch und Englisch, die im Atlas benutzt wird.",
+        "evidence": [
+          {
+            "label": "FHNW / Schola Cantorum Basiliensis: Generalbass-Compendium (19. Oktober 2018)",
+            "url": "https://www.fhnw.ch/de/musik/aktuelles/news-storys/alle/generalbass-compendium"
+          },
+          {
+            "label": "Hans Peter Weber: Generalbass-Compendium, Impressum und Vorwort (2018)",
+            "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=4"
+          }
+        ]
+      }
     }
   ],
   "topics": [
@@ -10771,7 +11502,7 @@ const ATLAS = {
           "id": "shaffer2012-1",
           "source": "shaffer2012",
           "name": "Kris Shaffer",
-          "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
+          "work": "Composing a first-species counterpoint (Musicianship Resources, undatierte Onlinefassung)",
           "locator": "Independence of the lines · erste Spezies, zwei Stimmen",
           "text": "Vergleiche die neue Bassnote mit der letzten Oberstimmennote. Stand oben E4, soll unten im nächsten Takt kein F4 folgen. Die Stimmen können also übergreifen, auch wenn sie sich auf keiner Zählzeit kreuzen.",
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
@@ -10924,7 +11655,7 @@ const ATLAS = {
           "id": "shaffer2012-1",
           "source": "shaffer2012",
           "name": "Kris Shaffer",
-          "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
+          "work": "Composing a first-species counterpoint (Musicianship Resources, undatierte Onlinefassung)",
           "locator": "Intervals and motion · erste Spezies, zwei Stimmen",
           "text": "Die Duodezime ist die äußerste Grenze. Wenn möglich bleiben die Stimmen innerhalb einer Oktave. Mehr als eine Dezime empfiehlt Shaffer nur kurzzeitig, für ein oder zwei Töne.",
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
@@ -11409,7 +12140,7 @@ const ATLAS = {
           "id": "shaffer2012-1",
           "source": "shaffer2012",
           "name": "Kris Shaffer",
-          "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
+          "work": "Composing a first-species counterpoint (Musicianship Resources, undatierte Onlinefassung)",
           "locator": "Independence of the lines · erste Spezies, zwei Stimmen",
           "text": "Beide Linien erhalten jeweils einen Höhepunkt. Liegen diese an verschiedenen Stellen, bleibt der Verlauf jeder Stimme leichter zu hören.",
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
@@ -14294,7 +15025,7 @@ const ATLAS = {
           "id": "shaffer2012-1",
           "source": "shaffer2012",
           "name": "Kris Shaffer",
-          "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
+          "work": "Composing a first-species counterpoint (Musicianship Resources, undatierte Onlinefassung)",
           "locator": "Ending a first-species counterpoint · erste Spezies, zwei Stimmen",
           "text": "Schließt der Cantus mit 2–1, führt die Gegenstimme 7–1. Gibt der Cantus 7–1 vor, übernimmt die Gegenstimme 2–1. Welche Stimme steigt, hängt somit vom gegebenen Schluss ab.",
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
@@ -17794,7 +18525,7 @@ const ATLAS = {
           "id": "shaffer2012-1",
           "source": "shaffer2012",
           "name": "Kris Shaffer",
-          "work": "Composing a first-species counterpoint (Musicianship Resources, 2012)",
+          "work": "Composing a first-species counterpoint (Musicianship Resources, undatierte Onlinefassung)",
           "locator": "Einleitung und Independence of the lines · erste Spezies, zwei Stimmen",
           "text": "Singe jede Linie einzeln und prüfe ihren Verlauf. Höre sie anschließend zusammen und achte auf die Intervalle und darauf, ob beide Stimmen erkennbar bleiben. Diese Hörprobe folgt Shaffers Unterscheidung zwischen melodischer Gestalt und Zusammenklang.",
           "url": "https://kshaffer.github.io/musicianshipResources/firstSpecies.html",
