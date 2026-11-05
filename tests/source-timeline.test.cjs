@@ -126,3 +126,20 @@ test("timeline layout is deterministic and preserves the source objects and cata
   assert.equal(JSON.stringify(rows), before);
   for (const point of first.points) assert.ok(rows.includes(point.source));
 });
+
+test("a selected subset gets its own date span, including same-year and undated-only selections", () => {
+  const selected = [source("prout1890"), source("york1907"), source("spalding1904")];
+  const chart = AtlasSourceTimeline.layout(selected, 320);
+  assert.deepEqual(identifiers(chart.points), ["spalding1904", "york1907"]);
+  assert.deepEqual(Array.from(chart.range), [1904, 1907]);
+  assert.deepEqual(identifiers(chart.undated), ["prout1890"]);
+  assertReachable(chart);
+  const sameYear = AtlasSourceTimeline.layout([source("bach1866-wtk2"), source("bach1866-wtk1")], 320);
+  assert.deepEqual(Array.from(sameYear.range), [1866, 1866]);
+  assertReachable(sameYear);
+  const undated = AtlasSourceTimeline.layout([source("prout1890")], 320);
+  assert.equal(undated.range, null);
+  assert.equal(undated.points.length, 0);
+  assert.equal(undated.ticks.length, 0);
+  assert.deepEqual(identifiers(undated.undated), ["prout1890"]);
+});
