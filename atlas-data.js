@@ -2170,6 +2170,38 @@ const ATLAS = {
           }
         ]
       }
+    },
+    {
+      "id": "haendel-generalbass",
+      "name": "Georg Friedrich Händel",
+      "title": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+      "group": "Lehrwerke",
+      "url": "https://doi.org/10.17877/TUDODATA-2025-MC0APUER",
+      "sortAuthor": "Händel, Georg Friedrich",
+      "editionYear": 2018,
+      "editionLabel": "2018 (Version); TUDOdata 2025",
+      "editionNote": "Die verwendete Hochformatfassung von Derek Remeš umfasst die 24 Generalbassübungen auf 13 PDF-Seiten und trägt auf S. 1 die Versionsangabe 12. Juni 2018. Der TUDOdata-Datensatz wurde am 17. Juni 2025 unter CC BY 4.0 veröffentlicht. Alle Fundstellen und Notenausschnitte beziehen sich auf diese öffentliche Datei; eine unveränderte Kopie ist im Atlas hinterlegt. Die bereitgestellte 25-seitige Fassung diente der Orientierung und wurde vollständig gelesen. Sie enthält zusätzliche redaktionelle Überschriften, eine andere Seiteneinteilung und einzelne abweichende Bezifferungen; auch die öffentliche Querformatfassung weicht an einzelnen Stellen ab. Diese Fassungen werden nicht vermischt. Erschlossen ist der Zyklus der 24 Generalbassübungen, nicht die gesamte Sammlung der Kompositions- und Fugenübungen. Die Oberstimmen bleiben in der verwendeten Arbeitsfassung zur Aussetzung offen; die Atlas-Beiträge sind redaktionelle Partiturbeobachtungen.",
+      "firstVersion": {
+        "year": 1725,
+        "endYear": 1726,
+        "label": "1725–1726 (handschriftliche Übungen)",
+        "kind": "manuscript",
+        "note": "Datierung der handschriftlichen Unterrichtsübungen, nicht eines Erstdrucks. Terence Best datiert die Generalbass- und Fugenübungen auf 1725–1726 und verweist auf HHA Supplement 1, S. 23–37 und 48–51. Amanda Babington beschreibt den einschlägigen Generalbasszyklus als 24 Bässe auf fünfzehn Seiten und verweist dafür auf Manns Einleitung S. 22. Die Zuordnung der fünfzehnseitigen Bassfolge zu HHA S. 23–37 ergibt sich aus diesen Angaben. Die erheblich weitere Datierung des Fitzwilliam-Sammelkonvoluts (ca. 1712–1733) bezeichnet nicht allein diesen Zyklus.",
+        "evidence": [
+          {
+            "label": "Terence Best, Vorwort zu Händel: Sämtliche Sonaten für Blockflöte und Basso continuo, BA 4259, S. III, Anm. 2 (englisch S. VIII)",
+            "url": "https://www.barenreiter.co.uk/prefaces/9790006521920_Innenansicht.pdf#page=3"
+          },
+          {
+            "label": "Amanda Babington, Handel the Tutor, Brio 51/1 (2014), S. 21, Anm. 30: 24 Bassstudien auf fünfzehn Seiten; Verweis auf Mann S. 22",
+            "url": "https://iaml-uk-irl.org/media/Brio_51_1_2014.pdf#page=25"
+          },
+          {
+            "label": "Fitzwilliam Museum, autograph composition-lesson collection MU.MS.260.p.27 (broader composite manuscript date)",
+            "url": "https://data.fitzmuseum.cam.ac.uk/id/object/267572"
+          }
+        ]
+      }
     }
   ],
   "topics": [
@@ -8396,6 +8428,55 @@ const ATLAS = {
           },
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=24"
+        },
+        {
+          "id": "haendel-generalbass-o08",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 10, T. 1–4, S. 3 · Quart-Terz-Bewegung über längerem Basston",
+          "text": "Nach dem eröffnenden Oktavwechsel des Basses steht in Takt 1 über c die Folge 4–3. Der Quartton f soll in der Ergänzung zur Terz e weitergehen, während c noch liegt. Takt 2 wiederholt den Weg über zwei anderen Basstönen, g und d; dadurch ändern sich die konkret zu führenden Töne. Die zeitliche Reihenfolge der Ziffern ist also ebenso wichtig wie ihr vertikaler Abstand zum Bass. Weil die Oberstimmen leer bleiben, zeigt die Arbeitsfassung den geforderten Intervallweg, aber noch keine vollständig ausgeschriebene Vorbereitung, Lage oder Stimmenverteilung.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 10, T. 1–4, S. 3 · Quart-Terz-Bewegung über längerem Basston",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=3",
+          "examples": [
+            "haendel-quart-terz"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-m06",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 17, T. 3–4 und 9–10, S. 7 · 9–8 neben 4–3",
+          "text": "Übung 17 stellt die absteigende Nonenauflösung mehrfach neben einen Quartvorhalt. In T. 3 steht über der ersten halben Bassnote 9–8, über der zweiten 4–3; T. 4 beginnt erneut mit 9–8. In T. 9–10 wechseln beide Figuren innerhalb derselben Folge halber Bassnoten. Bei diesen Stellen bleibt der jeweilige Bass während des Ziffernwechsels liegen. Die Aufgabe bezeichnet deshalb für die vorgehaltene Stimme jeweils einen Schritt abwärts, einmal von der None zur Oktave und einmal von der Quarte zur Terz. Sie führt beide Wege innerhalb einer zusammenhängenden Aussetzung zusammen.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 17, T. 3–4 und 9–10, S. 7 · 9–8 neben 4–3",
+              "note": "Notierte Ziffernfolgen über jeweils gehaltenem Bass. Der Befund betrifft diese Stellen, nicht jeden mit 9 oder 4 bezifferten Klang der Sammlung."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=7"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -8494,6 +8575,12 @@ const ATLAS = {
           "to": "weber2018-middle-quarta-irregularis",
           "type": "context",
           "note": "York verlangt beim eigentlichen dissonanten Vorhalt seiner zweistimmigen vierten Spezies den Abwärtsschritt in eine Konsonanz. Webers Heinichen-Zitat behandelt eine andere Generalbassfigur: Eine bereits vorhandene Quarte bleibt auch im folgenden Klang liegen und erhält deshalb den Namen Quarta irregularis. Ihre Bedingungen sind keine allgemeine Ausnahme von Yorks Speziesregel."
+        },
+        {
+          "from": "haendel-generalbass-m06",
+          "to": "kittel2019-late-02",
+          "type": "context",
+          "note": "Kittel formuliert für die vorbereitete None ausdrücklich den Abwärtsschritt zur Oktave und ergänzt mögliche weitere Ziffern. Händels Übung 17 setzt 9–8 und 4–3 mehrfach nebeneinander über gehaltene Bassnoten. Sie bietet damit einen auszusetzenden Ablauf für diese Wege; Eintritt und Vorbereitung der oberen Stimmen müssen in der Lösung erst sichtbar gemacht werden."
         }
       ]
     },
@@ -13063,6 +13150,55 @@ const ATLAS = {
           },
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=74",
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
+        },
+        {
+          "id": "haendel-generalbass-o03",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 5, T. 6–8, S. 2 · veränderter Bass und Begleitterz in g-Moll",
+          "text": "In der g-Moll-Übung lautet die Bassfolge in Takt 6 d–e–fis–d–g. Das e wird ausdrücklich gegenüber dem vorgezeichneten es aufgelöst, das fis erhält ein Kreuz unmittelbar vor der Note. Zugleich steht unter dem ersten d ein allein stehendes Kreuz für die Begleitterz. Die Stelle enthält damit zwei getrennt zu lesende Ebenen: Veränderungen der notierten Bassmelodie und eine Veränderung der zu ergänzenden Harmonie. Der anschließende Schluss über c und d nach g gibt der Wendung ihren örtlichen Zusammenhang. Aus diesen konkreten Zeichen ergibt sich noch keine Vorschrift für eine beliebige chromatische Veränderung anderer Stimmen.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 5, T. 6–8, S. 2 · veränderter Bass und Begleitterz in g-Moll",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=2"
+        },
+        {
+          "id": "haendel-generalbass-l03",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 22, T. 11–13, S. 10 · chromatische Bezifferung über dem Orgelpunkt g",
+          "text": "Der Orgelpunkt auf g bleibt in T. 11–13 unverändert, während Vorzeichen in der Bezifferung die Begleitung verändern. In T. 11 wird die Septime durch ein Auflösungszeichen erniedrigt: Aus dem durch die Vorzeichnung gegebenen fis wird f. In T. 12 erscheint eine ausdrücklich erniedrigte Sexte, also es über g. Chromatische Bewegung entsteht hier oberhalb des Basses, ohne dass dieser selbst einen Halbtonschritt ausführt. Für die Aussetzung müssen die Vorzeichen deshalb mit dem jeweils bezeichneten Intervall gelesen werden.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · chromatische Oberstimmen über Orgelpunkt",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 22, T. 11–13, S. 10 · chromatische Bezifferung über dem Orgelpunkt g",
+              "note": "Die Vorzeichnung mit fis, das Auflösungszeichen an der 7 in T. 11 und das b vor der 6 in T. 12 sind in der öffentlichen Ausgabe sichtbar. Die Tonbenennungen folgen diesen notierten Intervallen; es wird kein allgemeines Chromatikverbot oder eine allgemeine Alterationsfreiheit behauptet."
+            }
+          },
+          "examples": [
+            "haendel-pedal-anfang"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=10"
         }
       ],
       "related": [
@@ -16889,7 +17025,8 @@ const ATLAS = {
         "kadenz-klauselwechsel",
         "kadenzflucht-und-trugschluss",
         "moll-stufenfuehrung",
-        "generalbass-bassspruenge"
+        "generalbass-bassspruenge",
+        "generalbass-stueckform"
       ],
       "authors": [
         {
@@ -24330,6 +24467,81 @@ const ATLAS = {
           },
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=20"
+        },
+        {
+          "id": "haendel-generalbass-o04",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 6, T. 1–2 und 4–5, S. 2 · Terzveränderung über gehaltenem Bass",
+          "text": "Über den halben Bassnoten c und g stehen in Takt 1 jeweils zunächst die 3 und danach ein Be. Die Terz verändert sich also noch während desselben Basstons. Im folgenden Takt werden über d und a ein Kreuz und anschließend ein Auflösungszeichen angegeben. Weitere solcher Wechsel stehen in Takt 4 und 5. Die Aussetzung muss die zeitliche Folge der Zeichen innerhalb der Bassdauer berücksichtigen. Ein neuer Zusammenklang setzt hier keinen neuen Bassanschlag voraus; umgekehrt reicht das Festhalten einer einzigen Terz für die ganze halbe Note nicht aus. Die konkrete Lage und Verteilung der ergänzten Töne bleibt Aufgabe der Aussetzung.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 6, T. 1–2 und 4–5, S. 2 · Terzveränderung über gehaltenem Bass",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=2",
+          "examples": [
+            "haendel-terzveraenderung"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-m02",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 14, T. 4–5, 6–7 und 10–12, S. 6 · Ziffernwechsel auf gebundenen Basstönen",
+          "text": "Die Bassbindungen in Übung 14 überbrücken mehrere Taktgrenzen, während die Ziffern neue Zusammenklänge verlangen. Am Ende von T. 4 steht über dem letzten Viertel zunächst 6–5; derselbe Basston wird in T. 5 mit erhöhter Quarte und Sekunde weitergeführt. Am Übergang T. 6–7 wechselt die Bezifferung auf dem gehaltenen Ton von 6 zu 4/2. Am Übergang T. 10–11 folgt ebenfalls 4/2 auf die 6 des gebundenen Tons. Erst am Ende von T. 11 steht wieder 6–5, bevor derselbe Bass in T. 12 die Gruppe 4/2 erhält. Bassanschlag, Dauer des Basstons und Zeitpunkt des Ziffernwechsels müssen deshalb getrennt gelesen werden.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 14, T. 4–5, 6–7 und 10–12, S. 6 · Ziffernwechsel auf gebundenen Basstönen",
+              "note": "Die Haltebögen und zeitlich versetzten Ziffern sind direkt notiert. Die obere Aussetzungsstimme bleibt leer; es wird keine zusätzliche Melodie behauptet."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=6"
+        },
+        {
+          "id": "haendel-generalbass-l08",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 23, T. 6–7, S. 11 · Bezifferungswechsel an einer Bassbindung",
+          "text": "Am Ende von T. 6 wird das b im Bass mit der Ziffer 6 erreicht und über den Taktstrich in T. 7 gebunden. Bei der gebundenen Fortsetzung steht nun 6/4/2. Der bezeichnete Zusammenklang verändert sich damit, obwohl der Bass an dieser Stelle nicht erneut angeschlagen wird. Die Bindung betrifft die Bassnote; sie ist keine Anweisung, zugleich sämtliche Töne der Begleitung unverändert zu lassen. Beim Aussetzen müssen der Rhythmus des gegebenen Basses und die Position der neuen Zifferngruppe getrennt verfolgt werden.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · Bassbindung und neuer Zusammenklang",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 23, T. 6–7, S. 11 · Bezifferungswechsel an einer Bassbindung",
+              "note": "Die Viertelnote b am Ende von T. 6, ihre Bindung zur Achtel am Anfang von T. 7 und die Folge 6–6/4/2 sind in der öffentlichen Ausgabe sichtbar. Die Aussage macht keine pauschale Regel aus allen Bindungen und ergänzt keine unnotierte Oberstimmenlösung."
+            }
+          },
+          "examples": [
+            "haendel-figuration"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=11"
         }
       ],
       "readingSources": [
@@ -24348,6 +24560,24 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "nuance",
           "note": "Prout bevorzugt in der zweiten Spezies eine Harmonie je Cantus-Ton und begründet einen zweiten Akkord als Ausnahme. Schönberg nennt in seiner dreistimmigen zweiten Spezies den Ton einer anderen Harmonie als reguläre Option der leichten Halben. Unterschiedlich ist die Gewichtung des Harmoniewechsels, nicht die bloße Möglichkeit zweier Klänge."
+        },
+        {
+          "from": "haendel-generalbass-o04",
+          "to": "kittel2019-late-08",
+          "type": "context",
+          "note": "Kittels Rezitativ verbindet Ziffernwechsel über gebundenem Bass mit einer bereits ausgeschriebenen, frei einsetzenden Oberstimme. Händels sechste Übung isoliert dagegen die Veränderung der Begleitterz über gehaltenen Basstönen und lässt die oberen Stimmen zum Ergänzen frei. Dieselbe Unterscheidung zwischen Bassdauer und Klangwechsel wird in verschiedenen Aufgabenrahmen sichtbar."
+        },
+        {
+          "from": "haendel-generalbass-m02",
+          "to": "kittel2019-late-08",
+          "type": "context",
+          "note": "Beide Notenbefunde trennen die Dauer eines gebundenen Basstons vom Ziffernwechsel. Kittels Recit enthält zusätzlich eine ausgeschriebene, rhythmisch freie obere Melodie. Händels Übung isoliert die Aufgabe im bezifferten Bass; dessen Bindung und neue Ziffer müssen beim Ergänzen der oberen Stimmen aufeinander bezogen werden."
+        },
+        {
+          "from": "haendel-generalbass-l08",
+          "to": "kittel2019-late-08",
+          "type": "context",
+          "note": "Kittel zeigt den Wechsel des bezeichneten Zusammenklangs über gebundenem Bass in einem ausdrücklich als Recit bezeichneten Modell mit ausgeführter Melodie. Händels Beispiel gehört zu einer fortlaufenden Generalbassübung und lässt die zu ergänzenden Stimmen offen. In beiden Aufgaben muss der Bezifferungswechsel unabhängig von einem erneuten Bassanschlag gelesen werden."
         }
       ]
     },
@@ -27028,7 +27258,8 @@ const ATLAS = {
         "generalbass-fuge",
         "generalbass-lernfolge",
         "generalbass-akkordnamen",
-        "historische-intervallnamen"
+        "historische-intervallnamen",
+        "generalbass-ohne-ziffer"
       ],
       "authors": [
         {
@@ -27154,6 +27385,32 @@ const ATLAS = {
           },
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=78",
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
+        },
+        {
+          "id": "haendel-generalbass-o05",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 7, T. 2, S. 2 · dieselbe Ziffer über verschiedenen Basstönen",
+          "text": "Am Beginn von Takt 2 stehen im G-Dur-Bass nacheinander c, d, e und fis; zu jedem dieser vier Töne ist eine 6 angegeben. Die Zahl bezeichnet jeweils die Sexte über dem gerade erklingenden Bass: a über c, h über d, c über e und d über fis. Damit ändern sich sowohl der obere Ton als auch die Größe der Sexte, obwohl die gedruckte Ziffer gleich bleibt. Sie zählt an dieser Stelle weder die Bassstufe noch einen Akkordgrundton. Beim Aussetzen ist jeder neue Bezug zum Bass zu lesen; die 6 allein bestimmt noch keine einzige höchste Stimme oder Verdopplung.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 7, T. 2, S. 2 · dieselbe Ziffer über verschiedenen Basstönen",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=2",
+          "examples": [
+            "haendel-sextbezifferung"
+          ]
         }
       ],
       "readingSources": []
@@ -28117,9 +28374,44 @@ const ATLAS = {
               "note": "Der wiederkehrende obere Ton wird in Bachs Bourrée I aus BWV 1009 als Teil einer scheinpolyphonen Linie untersucht."
             }
           }
+        },
+        {
+          "id": "haendel-generalbass-l06",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 23, T. 9–11, S. 11; Übung 24, T. 29–30, S. 13 · wiederkehrende Töne innerhalb einer notierten Linie",
+          "text": "Die laufenden Sechzehntel in Nr. 23, T. 9–11, kehren regelmäßig zu einem oberen Bezugston zurück: zunächst d, dann c und schließlich b. Zwischen diesen Wiederholungen bewegt sich eine tiefere Tonfolge. In Nr. 24, T. 29–30, ist die Anordnung anders: Innerhalb der Achtelgruppen kehrt ein tiefer liegendes b wieder, während die darüberliegenden Gruppentöne schrittweise sinken. Beide Stellen lassen sich redaktionell als Aufteilung einer einzigen notierten Linie in einen wiederkehrenden Ton und eine bewegte Schicht lesen. Der stehende Anteil ist dabei durch erneutes Anschlagen gegenwärtig, nicht als zusätzlich ausgehaltene Note ausgeschrieben.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · implizite Mehrstimmigkeit der gegebenen Linie",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 23, T. 9–11, S. 11; Übung 24, T. 29–30, S. 13 · wiederkehrende Töne innerhalb einer notierten Linie",
+              "note": "Beide Figuren wurden im Notentext der öffentlichen Ausgabe gelesen. In Nr. 24 ist der Violinschlüssel in T. 29–30 zu berücksichtigen. Die Deutung als zwei hörbare Schichten ist ausdrücklich redaktionell; der Quelltext notiert an diesen Stellen eine Linie und keine zusätzliche liegende Stimme."
+            }
+          },
+          "examples": [
+            "haendel-figuration",
+            "haendel-schluss-12-8"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=11"
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "haendel-generalbass-l06",
+          "to": "benjamin1986-1",
+          "type": "context",
+          "note": "Benjamin liest den wiederkehrenden oberen Ton in einer ausgeführten Cellostimme als eigene hörbare Schicht. Die Händel-Stellen zeigen eine vergleichbare Schichtung innerhalb der erst noch auszusetzenden Aufgabenlinie; in Nr. 24 liegt der wiederkehrende Ton unter der bewegten Schicht. Der analytische Höransatz wird damit auf unterschiedliche instrumentale und didaktische Aufgaben bezogen."
+        }
+      ]
     },
     {
       "id": "melodische-fortspinnung",
@@ -30233,6 +30525,55 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=136"
+        },
+        {
+          "id": "haendel-generalbass-m07",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 18, T. 2–3, S. 8 · 9–6 bei gleichzeitigem Basssprung",
+          "text": "Zu Beginn von Übung 18 steht in T. 2 und 3 jeweils eine 9, auf die eine 6 über einem neuen Basston folgt. Der Bass springt dabei abwärts um eine Sexte. Die beiden Ziffern messen ihre Intervalle deshalb von verschiedenen Tönen aus; 9–6 beschreibt hier nicht unmittelbar die Sprunggröße einer Oberstimme. Für die Aussetzung ist ein abwärts gerichteter Auflösungsschritt mit dieser Zahlenfolge vereinbar, wenn der Basswechsel mitgerechnet wird. Die Ziffer 6 kann dabei eine Sexte in einer höheren Oktave bezeichnen, also eine Tredezime (13). Die konkrete Lage und Stimmenverteilung bleiben im leeren oberen System zu ergänzen.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 18, T. 2–3, S. 8 · 9–6 bei gleichzeitigem Basssprung",
+              "note": "Basssprünge und Ziffern 9–6 direkt abgelesen. Der mögliche Auflösungsschritt ist ausdrücklich eine aus den Intervallverhältnissen gewonnene Lesart für die Aussetzung, keine ausgeschriebene Oberstimme. Die Überschrift 9–8 Vorhalte steht nur in der gelieferten 25-seitigen Fassung; die Aussage benötigt diese Überschrift nicht."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=8",
+          "examples": [
+            "haendel-none-bewegter-bass"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-m08",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 19, T. 2 und 4, S. 8 · 9–3 über fallender Bassterz",
+          "text": "In Übung 19 führen T. 2 und 4 von einer Nonenziffer zur Terzziffer, während der Bass jeweils um eine Terz fällt. Die Folge 9–3 muss damit auf den bewegten Bass bezogen werden. Eine Oberstimme, die sich einen Schritt abwärts löst, kann dabei im neuen Klang die Terz in einer höheren Oktave bilden; die verkürzte Ziffer 3 legt diesen tatsächlichen Abstand nicht fest. Die Aufgabe macht so zwei Entscheidungen der Aussetzung sichtbar: die melodische Verbindung des Vorhalttons und die Wahl der Lage über dem neuen Bass.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 19, T. 2 und 4, S. 8 · 9–3 über fallender Bassterz",
+              "note": "9–3 und die fallende Bassterz sind direkt notiert. Die Realisierung als schrittweise abwärts geführter Vorhalt und die höhere Terzlage sind als mögliche Aussetzungslesart formuliert, nicht als gedruckte Oberstimmen."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=8"
         }
       ],
       "relations": [
@@ -30247,6 +30588,18 @@ const ATLAS = {
           "to": "salzer-schachter1989-1",
           "type": "context",
           "note": "Salzer und Schachter gewinnen 9–10 und 9–6 aus einem abwärts aufgelösten Oberstimmenvorhalt mit bewegtem Bass. Menkes Berardi-Beispiele ergänzen den Fall eines Vorhalts in der Unterstimme: Auch daraus kann die Zahlenfolge 9–10 entstehen. Die gleiche Intervallfolge lässt deshalb verschiedene Verteilungen der Stimmenrollen zu."
+        },
+        {
+          "from": "haendel-generalbass-m07",
+          "to": "menke2017-9",
+          "type": "nuance",
+          "note": "Menke erklärt, weshalb die Bewegung des Agente die Intervallzahlen ändern kann, während der Patiente abwärts aufgelöst wird. Händels 9–6-Folge mit gleichzeitig fallendem Bass bietet dafür eine bezifferte Aufgabe. Da die oberen Stimmen fehlen, muss die Verteilung dieser Rollen bei der Aussetzung bestimmt werden; sie ist aus den Zahlen allein noch nicht vollständig gegeben."
+        },
+        {
+          "from": "haendel-generalbass-m08",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Salzer und Schachter erläutern den bewegten Bass anhand ausgeschriebener 9–10- und 9–6-Modelle einer Speziesmischung. Händels Generalbassübung erweitert die Leseaufgabe um die verkürzte Terzziffer nach einem Basssprung. Hier muss zusätzlich die konkrete Oktavlage einer möglichen schrittweisen Auflösung ergänzt werden."
         }
       ]
     },
@@ -31191,7 +31544,8 @@ const ATLAS = {
         "lamento-bass",
         "romanesca-satzgeruest",
         "generalbass-schrittgaenge",
-        "generalbass-bassspruenge"
+        "generalbass-bassspruenge",
+        "generalbass-stueckform"
       ],
       "authors": [
         {
@@ -31432,6 +31786,32 @@ const ATLAS = {
           ],
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=72"
+        },
+        {
+          "id": "haendel-generalbass-m05",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 16, T. 14–16, S. 7 · Septimenziffern über einer Quart-Quint-Folge",
+          "text": "In T. 14–15 von Übung 16 wechseln aufwärts gerichtete Quartsprünge und abwärts gerichtete Quintsprünge des Basses miteinander ab. Unter jedem Viertel steht eine 7; der gleiche Zifferntyp begleitet also mehrere aufeinanderfolgende Stellungen des Bassmodells. In T. 16 beginnt die Fortsetzung noch mit einer Septime, bevor die Bezifferung zu 6/5 und anschließend in die Schlusswendung führt. Beim Aussetzen lässt sich deshalb zuerst die wiederkehrende Bassbewegung verfolgen und dann jede Septime in diesen Verlauf einordnen. Die Zahlen bezeichnen dabei keine identischen Tonhöhen und keine ausgeschriebene, überall gleiche Oberstimmenlage.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 16, T. 14–16, S. 7 · Septimenziffern über einer Quart-Quint-Folge",
+              "note": "Die Intervallnamen bezeichnen diatonische Sprunggrößen, keine Behauptung ausschließlich reiner Quarten und Quinten. T. 14–15 vollständig visuell geprüft; keine vollständige Oberstimmen-Sequenz ist notiert."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=7",
+          "examples": [
+            "haendel-septimenfolge"
+          ]
         }
       ],
       "relations": [
@@ -31446,6 +31826,12 @@ const ATLAS = {
           "to": "menke2017-35",
           "type": "nuance",
           "note": "De la Motte unterscheidet an der Quintfallsequenz ein- und zweiakkordige melodische Modelle. Menke trennt zusätzlich Klangwechsel, Gerüstglied und motivisches Glied. Beide warnen damit auf unterschiedliche Weise davor, jeden Harmoniewechsel schon für den Beginn eines vollständigen neuen Sequenzmodells zu halten."
+        },
+        {
+          "from": "haendel-generalbass-m05",
+          "to": "weber2018-late-07",
+          "type": "context",
+          "note": "Weber erklärt, wie die Bewegung innerhalb eines Basspaares und die Versetzung der Paare zusammen ein Quintfallmodell bilden. Händels Übung stellt eine solche fortlaufende Quart-Quint-Bewegung als bezifferten Arbeitsbass bereit und versieht hier jedes Viertel mit einer Septime. Die Modellanalyse und die konkrete Wahl der Bezifferung erfüllen dabei unterschiedliche Aufgaben."
         }
       ]
     },
@@ -33000,7 +33386,9 @@ const ATLAS = {
         "generalbass-schrittgaenge",
         "generalbass-bassspruenge",
         "generalbass-rueckung",
-        "generalbass-haupt-fuellstimmen"
+        "generalbass-haupt-fuellstimmen",
+        "generalbass-ohne-ziffer",
+        "generalbass-stueckform"
       ],
       "reading": "Vergleiche verschiedene Bezifferungen derselben Fortschreitung. Prüfe, ob die Zahlen tatsächliche Stimmenlagen, nur die Außenstimmen oder eine abgekürzte Klangangabe festhalten, und welche Stimme eine bezeichnete Dissonanz auflösen muss.",
       "readingSources": [
@@ -33537,6 +33925,208 @@ const ATLAS = {
           "examples": [
             "weber-vorhaltskombinationen"
           ]
+        },
+        {
+          "id": "haendel-generalbass-o06",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 8, T. 1 und 3, S. 3 · Vorzeichen am Bass und an der Ziffer",
+          "text": "Über dem fis in Takt 1 steht eine erhöhte Sexte: Das Kreuz gehört zur 6 und betrifft damit den zu ergänzenden Ton dis. Später, in Takt 3, ist dagegen das cis unmittelbar in der Basszeile bezeichnet; unter diesem Basston steht wiederum eine erhöhte Sexte. Die beiden Schreiborte erfüllen unterschiedliche Aufgaben. Ein Zeichen vor der Bassnote verändert die tatsächlich notierte Unterstimme, ein Zeichen bei einer Intervallziffer den entsprechenden Ton der Ergänzung. Die Abfolge verlangt deshalb das gemeinsame Lesen von Bass, Vorzeichnung und Ziffern, bevor die oberen Stimmen in eine geeignete Lage gebracht werden.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 8, T. 1 und 3, S. 3 · Vorzeichen am Bass und an der Ziffer",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=3",
+          "examples": [
+            "haendel-veraenderte-sexten"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-o11",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 11, T. 12, S. 4 · 5–6 bei fallendem Bass",
+          "text": "In Takt 12 steht eine 5 über es und eine 6 über dem folgenden c. Die zugehörigen oberen Töne sind b und a: Wer diese beiden bezeichneten Töne in einer Stimme verbindet, führt sie abwärts, obwohl die Intervallzahl von fünf auf sechs wächst. Die zweite Hälfte des Takts zeigt denselben Zusammenhang über f und d, sodass c–b einen entsprechenden oberen Weg ergibt. Entscheidend ist der gleichzeitige Basswechsel. Eine Folge von Generalbasszahlen lässt sich deshalb nicht unmittelbar als Bewegungsrichtung einer einzelnen Stimme lesen. Die noch leere obere Notenzeile legt die konkrete Stimmenverteilung nicht fest.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 11, T. 12, S. 4 · 5–6 bei fallendem Bass",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=4",
+          "examples": [
+            "haendel-fuenf-sechs"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-m01",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 13, T. 1–4 und 10–11, S. 5 · 4/2 und absteigender Bass",
+          "text": "In Übung 13 verbindet die Bezifferung den 4/2-Klang mehrfach mit einer folgenden Sexte über dem eine Stufe tieferen Bass. Zu Beginn trägt der wiederholte Basston 4/2; erst auf dem nächsten Viertel geht der Bass abwärts und erhält die 6. An den Übergängen T. 3–4 und 10–11 wird der Basston dagegen über die Taktgrenze gebunden und erhält auf der neuen schweren Zeit 4/2, bevor er abwärts geht. Die Übung bietet somit sowohl den lokalen Ziffernwechsel als auch dessen Einbindung in eine Bassbindung zur Aussetzung an.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 13, T. 1–4 und 10–11, S. 5 · 4/2 und absteigender Bass",
+              "note": "Visuell geprüfte Bassnoten, Haltebögen und Ziffern. Die Verbindung 4/2–6 ist beobachtet; eine allgemeine Vorbereitungspflicht oder vollständige Oberstimmenführung wird dem unausgesetzten Bass nicht zugeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=5",
+          "examples": [
+            "haendel-sekundakkord"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-m04",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 15, T. 2 und 7, S. 6; Übung 16, T. 2, 7 und 14–15, S. 7 · 7–6 und einzelne Septimenziffern",
+          "text": "Die aufeinanderfolgenden Übungen unterscheiden zwei Arten von Septimenaufgaben. Übung 15 setzt 7 und 6 nacheinander unter denselben gehaltenen Bass und bezeichnet damit einen zeitlichen Weg. In Übung 16 stehen in T. 2, 7 und 14–15 dagegen einzelne Septimenziffern unter aufeinanderfolgenden Vierteln des wechselnden Basses. Hier muss jede 7 auf ihren eigenen Basston bezogen und mit den Nachbarklängen verbunden werden. Beide Schreibweisen lassen zusätzliche Oberstimmen zur Aussetzung offen, enthalten aber unterschiedliche Informationen über den Zeitpunkt einer Bewegung.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 15, T. 2 und 7, S. 6; Übung 16, T. 2, 7 und 14–15, S. 7 · 7–6 und einzelne Septimenziffern",
+              "note": "Vergleich der gedruckten Ziffern und Bassdauern. Keine spezielle Regel für die fehlenden Füllstimmen wird ergänzt."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=6",
+          "examples": [
+            "haendel-septimenfolge"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-m09",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 19, T. 9, S. 8 · Akzidentien innerhalb einer Zifferngruppe",
+          "text": "T. 9 von Übung 19 unterscheidet die veränderten Intervalle innerhalb der Bezifferung genau. Zunächst steht ein Auflösungszeichen bei der 9; danach folgt die 3. Beim dritten Bassviertel ist dagegen die 6 durch ein b verändert, während die darunter stehende 5 kein eigenes Zeichen trägt. Beim vierten Viertel wechselt diese Verteilung: Die 6 steht ohne Zusatz, das b gehört zur 5. Für die Aussetzung muss daher bei jedem Griff bestimmt werden, auf welche einzelne Ziffer sich das Zeichen bezieht. Ein pauschales Übertragen der Veränderung auf die ganze Zifferngruppe würde diese notierte Unterscheidung verlieren.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 19, T. 9, S. 8 · Akzidentien innerhalb einer Zifferngruppe",
+              "note": "Direkte Lesung der Zeichenpositionen ♮9, ♭6/5 und 6/♭5. Die Aussage erteilt keine allgemeine Chromatiklizenz und deutet die Tonart nicht allein aus einem einzelnen Vorzeichen."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=8"
+        },
+        {
+          "id": "haendel-generalbass-m10",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 20, T. 2 sowie 5–7, S. 9 · Doppelvorhalt 9/7–8/6",
+          "text": "In Übung 20 verbindet die Zifferngruppe 9/7 zwei Vorhaltswege. In T. 2 folgt über jeder der beiden halben Bassnoten die Gruppe 8/6: Die None geht zur Oktave, die Septime zur Sexte, während der Bass noch gehalten wird. Dasselbe Paar kehrt in T. 5–7 wieder. Für die Aussetzung sind deshalb zwei gleichzeitig bezeichnete Bewegungen zu verfolgen. Die obere Notenzeile enthält ihre konkrete Verteilung und die weiteren Begleitstimmen noch nicht; diese müssen so ergänzt werden, dass beide angegebenen Wege im Satz erhalten bleiben.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 20, T. 2 sowie 5–7, S. 9 · Doppelvorhalt 9/7–8/6",
+              "note": "9/7 und 8/6 stehen an getrennten Zeitpunkten über demselben Basston. Direkte Partiturbeobachtung, keine besondere Ergänzungsregel für Füllstimmen."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=9"
+        },
+        {
+          "id": "haendel-generalbass-m11",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 21, T. 3, 6 und 9, S. 9 · Doppelvorhalt 9/4–8/3",
+          "text": "Übung 21 koppelt die Nonenauflösung an den Quartvorhalt. In der ersten Hälfte von T. 3 führen die beiden Ziffern 9 und 4 über einem gehaltenen Bass zu 8 und 3; danach folgt ein einzelnes 4–3. T. 6 und 9 verwenden dieselben beiden Wege noch einmal, wobei die Ziffern als 4 über 9 und anschließend 3 über 8 angeordnet sind. Für die Aussetzung bleibt der zeitliche Zusammenhang entscheidend: 9 gehört zu 8 und 4 zu 3. Aus der Reihenfolge der übereinandergestellten Zahlen allein folgt hier keine ausgeschriebene Registerordnung der Oberstimmen.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 21, T. 3, 6 und 9, S. 9 · Doppelvorhalt 9/4–8/3",
+              "note": "Vergleich der tatsächlich unterschiedlich angeordneten Ziffernpaare. Keine notierte Oberstimmenlage wird vorausgesetzt."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=9",
+          "examples": [
+            "haendel-doppelvorhalt"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-l04",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 22, T. 46–49, S. 10 · verschiedene Intervallbewegungen über d",
+          "text": "Im letzten langen d-Abschnitt wird die Bezifferung gegenüber dem ersten Orgelpunkt verdichtet. Nach 5/3 und 8/6 in T. 46 steht in T. 47 zunächst 7/6, gefolgt von den Ziffern 5–4–5. T. 48 beginnt mit 6/5 und setzt mit 4–3–4 fort; T. 49 verbindet 5/4, die folgende 3 und schließlich 7/2. Die Zahlen beschreiben also einen zeitlichen Verlauf innerhalb desselben Basstons. Eine Aussetzung muss diese nacheinander geforderten Intervalle nachvollziehen; das bloße Benennen eines einzigen Akkords für den ganzen Orgelpunkt erfasst die Aufgabe nicht.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · wechselnde Intervalle innerhalb eines Orgelpunkts",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 22, T. 46–49, S. 10 · verschiedene Intervallbewegungen über d",
+              "note": "Die Antwort bleibt bei den tatsächlich sichtbaren Zahlenfolgen der öffentlichen Ausgabe. Sie setzt keine zusätzliche ausgeschriebene Oberstimme voraus und überträgt keine in der kompakten Ausgabe fehlenden Verlängerungsstriche aus der anders gesetzten 25-seitigen Datei."
+            }
+          },
+          "examples": [
+            "haendel-pedal-schluss"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=10"
         }
       ],
       "relations": [
@@ -33551,6 +34141,24 @@ const ATLAS = {
           "to": "kittel2019-middle-sekundakkord",
           "type": "context",
           "note": "Kittels hier behandelter 4/2-Griff soll gebunden erscheinen und mit absteigendem Bass zum Sextgriff weitergehen. Weber ordnet derselben Intervallgruppe getrennte Synkopierungs- und Durchgangsfiguren zu. Seine Übersicht umfasst somit auch eine andere Entstehungsart; Kittels Bindungsvorschrift darf nicht ohne Prüfung der Bassfigur auf jeden 6/4/2-Klang übertragen werden."
+        },
+        {
+          "from": "haendel-generalbass-m01",
+          "to": "kittel2019-middle-sekundakkord",
+          "type": "nuance",
+          "note": "Kittel erläutert 4/2–6 als gebundenen Zusammenhang und schreibt außerdem die Ergänzung durch die Sexte sowie bestimmte Wege der oberen Stimmen vor. Händels bezifferter Bass zeigt konkrete Bindungen und den absteigenden Bassschritt, lässt die oberen Stimmen aber zur Aussetzung offen. Das Notenmodell belegt den Zusammenhang an diesen Stellen, ohne Kittels gesamte Aussetzungsregel selbst auszuformulieren."
+        },
+        {
+          "from": "haendel-generalbass-m04",
+          "to": "menke2017-3",
+          "type": "nuance",
+          "note": "Menke unterscheidet verschiedene Informationsumfänge von Bezifferungen. Die Nachbarschaft von Händels Übungen 15 und 16 konkretisiert eine solche Leseentscheidung: Eine zeitliche Folge 7–6 unter einem gehaltenen Ton gibt eine Bewegung vor, während einzelne Septimenziffern über wechselnden Bassnoten die Verbindung zwischen mehreren Klängen offenlassen."
+        },
+        {
+          "from": "haendel-generalbass-m10",
+          "to": "weber2018-middle-vorhalt-fuellstimmen",
+          "type": "nuance",
+          "note": "Weber nennt beim Doppelvorhalt 9/7 neben den Wegen 9–8 und 7–6 ausdrücklich die Terz als Füllstimme. Händels Übung schreibt dieselben beiden Wege als zeitlich aufeinanderfolgende Zifferngruppen vor, enthält aber keine ausnotierte Verteilung oder zusätzliche Ergänzungsanweisung. Die Übung eignet sich deshalb zum Anwenden der Unterscheidung zwischen bewegten Stimmen und Füllstimmen, ohne selbst jede Ergänzung festzulegen."
         }
       ]
     },
@@ -36101,6 +36709,29 @@ const ATLAS = {
           },
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=34"
+        },
+        {
+          "id": "haendel-generalbass-m03",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 15, T. 2 und 7, S. 6 · zweimal 7–6 innerhalb eines Taktes",
+          "text": "In T. 2 von Übung 15 steht unter jeder der beiden halben Bassnoten eine zeitliche Folge 7–6. Das Auflösungsziel 6 wird also noch während desselben Basstons erreicht; erst danach beginnt mit dem nächsten Bass die nächste 7–6-Verbindung. T. 7 wiederholt diese Anordnung. Für die Aussetzung sind damit zwei Zeitabläufe vorgegeben: der Wechsel der halben Bassnoten und die jeweils innerhalb ihrer Dauer stattfindende Bewegung von Septime zu Sexte. Die Ziffer 6 wartet hier nicht auf einen neuen Bassanschlag.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 15, T. 2 und 7, S. 6 · zweimal 7–6 innerhalb eines Taktes",
+              "note": "Direkt ablesbare Anordnung der Ziffern unter zwei halben Noten. Die obere Stimme ist nicht ausgeschrieben; die beschriebene Bewegung ist der durch 7–6 bezeichnete Aussetzungsweg."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=6"
         }
       ]
     },
@@ -36467,6 +37098,58 @@ const ATLAS = {
           },
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=28"
+        },
+        {
+          "id": "haendel-generalbass-o10",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 11, T. 1–4, S. 4 · gekoppelte Wege 6–5 und 4–3",
+          "text": "Die elfte Übung stellt zwei Intervallwege übereinander: Aus 6/4 wird 5/3. Am Ende von Takt 1 liegt darunter f; die Ergänzung führt daher d–c und b–a. In Takt 2 erscheint dieselbe Bezifferungsfolge über g. Der Quartsextklang wird in diesen Stellen als gerichtete Verbindung zweier oberer Töne mit ihrem folgenden Griff lesbar. Das ist ein bestimmter Gebrauch innerhalb dieser Übung. Die einzelne Zifferngruppe 6/4 liefert weder für sich eine allgemeine Akkordfunktion noch eine fertig notierte Vorbereitung oder Lage; diese ist beim Ergänzen des Basses auszuarbeiten.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 11, T. 1–4, S. 4 · gekoppelte Wege 6–5 und 4–3",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=4",
+          "examples": [
+            "haendel-quartsext-wege"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-m12",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 21, T. 2, 6 und 7, S. 9 · 6/4–5/3 über gehaltenem Bass",
+          "text": "Übung 21 enthält mehrfach den Übergang von 6/4 zu 5/3 innerhalb der Dauer einer halben Bassnote. In T. 2 liegt er in der zweiten Takthälfte, in T. 6 und 7 jeweils in der ersten. Die Aussetzung hat dabei zwei bezeichnete Wege zu verbinden: 6–5 und 4–3, während der Bass unverändert bleibt. Die Wiederkehr mitten in der Übung zeigt diesen Vorgang als Baustein einer fortlaufenden Verbindung. Der gedruckte Bass legt damit einen konkreten Bewegungsverlauf aus dem Quartsextklang vor; weitere mögliche Fortsetzungen dieses Klangtyps behandelt die Stelle nicht.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 21, T. 2, 6 und 7, S. 9 · 6/4–5/3 über gehaltenem Bass",
+              "note": "Die Ziffern bezeichnen zwei gleichzeitige Bewegungen über einem gehaltenen Bass. Eine allgemeine Dissonanzklassifikation der Sexte oder aller Quartsextklänge wird daraus nicht abgeleitet."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=9",
+          "examples": [
+            "haendel-doppelvorhalt"
+          ]
         }
       ],
       "relations": [
@@ -36487,6 +37170,18 @@ const ATLAS = {
           "to": "york1907-two-implizierter-quartsext",
           "type": "context",
           "note": "Kittels Generalbassregel nimmt den 6/4-Griff als eigene praktische Aufgabe auf und führt mehrere mögliche Fortsetzungen vor. York behandelt dagegen einen angedeuteten selbstständigen Quartsextbezug als Verstoß innerhalb seiner strengen zweistimmigen Übung. Der Unterschied betrifft die zugelassenen Klangaufgaben der beiden Lehrgänge; er begründet kein allgemeines Verbot des Quartsextklangs bei York außerhalb dieses Übungsrahmens."
+        },
+        {
+          "from": "haendel-generalbass-o10",
+          "to": "kittel2019-middle-quartsext-fortsetzungen",
+          "type": "nuance",
+          "note": "Die angeführten Anfangstakte von Händels elfter Übung konzentrieren sich auf die gekoppelte Bewegung 6–5 und 4–3. Kittels fünfte Regel nennt neben 5/3 auch mehrere andere Fortsetzungen des 6/4-Griffs und belegt sie durch eigene Figuren. Die gezielte Übungsfigur und der umfassendere Vorrat möglicher Fortsetzungen haben daher unterschiedliche Reichweite."
+        },
+        {
+          "from": "haendel-generalbass-m12",
+          "to": "kittel2019-middle-quartsext-fortsetzungen",
+          "type": "context",
+          "note": "Kittel nennt 5/3 als einen Auflösungsweg aus 6/4 und führt daneben mehrere andere Fortsetzungen auf. Händels Übung 21 wiederholt gerade 6/4–5/3 über gehaltenem Bass. Sie konkretisiert diesen einen Weg in einer fortlaufenden Übung; die weiteren Möglichkeiten in Kittels Regel werden dadurch nicht ausgeschlossen."
         }
       ]
     },
@@ -36671,6 +37366,40 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "haendel-generalbass-l10",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 24, T. 9, 19 und 32, S. 12–13 · Oktavversetzung des vorletzten Basstons",
+          "text": "Vor dem Zielton teilt der Bass seine vorletzte Position in zwei Anschläge: In T. 9 und T. 32 steht zunächst f als Viertel, dann das tiefere f als Achtel; darauf folgt b als punktierte Viertel. T. 19 verwendet dieselbe Rhythmik mit a–a–d. Der Oktavsprung verändert also die Lage innerhalb der bereits erreichten vorletzten Bassstufe. Er fügt keinen weiteren Skalenschritt zwischen dieser und dem Zielton ein. Beim Vergleichen einer verzierten Kadenz sind die Dauer der Bassposition und ihre inneren Anschläge deshalb getrennt zu betrachten.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · Oktavverzierung der Bass-Penultima",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 24, T. 9, 19 und 32, S. 12–13 · Oktavversetzung des vorletzten Basstons",
+              "note": "Die Notenwerte und Oktavsprünge sind in den drei Takten sichtbar. Die Begriffe Bassposition und Oktavverzierung beschreiben den notierten Vorgang redaktionell; Händel wird keine ausformulierte Definition der Klauseldiminution zugeschrieben."
+            }
+          },
+          "examples": [
+            "haendel-schluss-12-8"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=13"
+        }
+      ],
+      "relations": [
+        {
+          "from": "haendel-generalbass-l10",
+          "to": "daniel2004-c07",
+          "type": "nuance",
+          "note": "Daniel unterscheidet die rhythmische Verkürzung einer Klausel von der Oktavverzierung einer rechtzeitig erreichten Bass-Penultima. Händels notierter Vorgang macht die zweite Unterscheidung konkret: Viertel und folgendes Achtel teilen dieselbe vorletzte Bassstufe zwischen zwei Oktavlagen. Die begriffliche Erklärung stammt bei diesem Vergleich von Daniel; der Händel-Beitrag beschreibt die sichtbare Notation."
         }
       ]
     },
@@ -38200,7 +38929,9 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "generalbass-stimmenzahl",
         "generalbass-sextakkord",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "generalbass-ohne-ziffer",
+        "generalbass-stueckform"
       ],
       "comparisons": [],
       "authors": [
@@ -38265,9 +38996,74 @@ const ATLAS = {
           },
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=3"
+        },
+        {
+          "id": "haendel-generalbass-o02",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übungen 1–12, S. 1–5 · Tonarten, Rhythmus und wachsender Ziffernvorrat",
+          "text": "Die Schwierigkeit wächst bereits vor dem ersten Sextakkord: Auf den überwiegend in Halben geführten C-Dur-Bass der ersten Übung folgen Viertel in G-Dur und Achtel in F-Dur. Die vierte und fünfte Übung erweitern den Rahmen um Moll und den Dreihalbetakt. Danach kommen Veränderungen der Begleitterz, Sextgriffe und verschiedene Vorhaltsfiguren hinzu. Auch innerhalb einer längeren Übung wächst die rhythmische Aufgabe: Nr. 12 verbindet ihren 6/5-Vorrat später mit Oktavversetzungen, Pausen und Sechzehntelfiguren. Die Folge lässt sich daher nach mehreren Lernschritten lesen: Klangvorrat, Tonart, Bassbewegung, Rhythmus und selbstständige Ergänzung der oberen Stimmen.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übungen 1–12, S. 1–5 · Tonarten, Rhythmus und wachsender Ziffernvorrat",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=1",
+          "examples": [
+            "haendel-fruehe-baesse"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-l01",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übungen 22–24, S. 10–13 · Verbindung der Figuren in längeren Sätzen",
+          "text": "Die letzten drei Übungen verbinden die zuvor einzeln behandelten Ziffernfolgen zu längeren Verläufen. Nr. 22 steht im 3/4-Takt und verbindet bewegte Bassgesten mit ausgedehnten Orgelpunkten. Nr. 23 verwendet im C-Takt Achtel, Sechzehntel, Bindungen und kurze Pausen; Nr. 24 entwickelt seine Figuren im 12/8-Takt. Die Aufgabe wächst damit auch durch den Zusammenhang: Bereits bekannte Griffe und Auflösungen müssen zu einem fortlaufenden Satz mit wiederkehrenden Figuren und erkennbaren Schlüssen verbunden werden. Die Vorlage enthält jeweils den auszusetzenden Noten- und Ziffernverlauf; eine bestimmte Oberstimmenlösung ist hier nicht ausgeschrieben.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassunterricht · letzte drei Übungen des Lehrgangs",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übungen 22–24, S. 10–13 · Verbindung der Figuren in längeren Sätzen",
+              "note": "Redaktioneller Vergleich der vollständig gelesenen Übungen 22–24. Metrum, Bassrhythmus, Ziffern und Schlussbildung sind unmittelbar notiert. Die Bezeichnung als Verbindung bekannter Figuren ist eine Analyse des Lehrgangs, keine zusätzlich überlieferte verbale Anweisung Händels."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=10",
+          "examples": [
+            "haendel-figuration"
+          ]
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "from": "haendel-generalbass-o02",
+          "to": "kittel2019-open-vom-griff-zum-bassgang",
+          "type": "nuance",
+          "note": "Kittels frühe Folge führt von Griffen und ausgeschriebenen Bassgängen zu weiteren Tonarten und selbstständigen Aussetzungen; dabei wird die obere Anfangslage ausdrücklich verglichen. Händels Arbeitsfolge variiert innerhalb des anfänglichen Klangvorrats besonders Bassrhythmus und Tonart und erweitert danach die Bezifferung. Beide Folgen staffeln die Schwierigkeit, setzen dabei aber andere erkennbare Schwerpunkte."
+        },
+        {
+          "from": "haendel-generalbass-l01",
+          "to": "sechter1876-pref-lernfolge",
+          "type": "nuance",
+          "note": "Sechter erklärt die zunehmende Schwierigkeit zunächst durch das Hinzutreten neuer Akkord- und Zifferngruppen. Händels letzte Übungen verbinden die bereits eingeführten Figuren zusätzlich mit längeren Verläufen, wechselnden Bassrhythmen und unterschiedlichen Metren. Der Vergleich unterscheidet das Erweitern des Klangvorrats von seiner Anwendung in einem zusammenhängenden Satz."
+        }
+      ]
     },
     {
       "id": "generalbass-schluessel",
@@ -38334,9 +39130,42 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "haendel-generalbass-l11",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 24, T. 14–18 und 29–31, S. 12–13 · Schlüsselwechsel innerhalb der gegebenen Linie",
+          "text": "Die gegebene Linie erreicht in Nr. 24 mehrfach ein hohes Register. Die öffentliche Remeš-Ausgabe wechselt in T. 14 zum Violinschlüssel und in T. 18 zum Bassschlüssel zurück. In T. 29–30 steht die Linie erneut im Violinschlüssel, ab T. 31 wieder im Bassschlüssel. Die Wechsel gehören zum fortlaufenden Notentext und müssen beim Lesen der Tonhöhen mitvollzogen werden. Die Bezifferung begleitet weiterhin dieselbe Aufgabenlinie; allein durch den Schlüsselwechsel erscheint noch keine zusätzlich ausgeschriebene Begleitstimme.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · Register und Schlüsselwechsel der Vorlage",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 24, T. 14–18 und 29–31, S. 12–13 · Schlüsselwechsel innerhalb der gegebenen Linie",
+              "note": "Die Schlüsselwechsel wurden direkt in der öffentlichen 13-seitigen PDF-Ausgabe geprüft. Die 25-seitige bereitgestellte Fassung zeigt diese Schlüsselwechsel nicht in gleicher Weise; deshalb wird hier ausdrücklich die öffentliche Ausgabe genannt. Die Antwort behauptet keine festgelegte Zuordnung der impliziten Stimmen einer späteren Aussetzung."
+            }
+          },
+          "examples": [
+            "haendel-schluss-12-8"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=12"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "from": "haendel-generalbass-l11",
+          "to": "sechter1876-late-17",
+          "type": "context",
+          "note": "Sechter druckt zur wechselnd geschlüsselten Vorlage eine mehrstimmige Ausführung, die den Stimmenaufbau erkennen lässt. In der hier verwendeten Händel-Ausgabe steht nur die Aufgabenlinie mit ihren Schlüssel- und Registerwechseln. Die Zuordnung zu einzelnen Stimmen einer Aussetzung ist deshalb bei Sechter zusätzlich ausnotiert, bei Händel noch Teil der Ausarbeitung."
+        }
+      ]
     },
     {
       "id": "generalbass-pedal",
@@ -38540,9 +39369,71 @@ const ATLAS = {
           "examples": [
             "kittel-fundament-noten"
           ]
+        },
+        {
+          "id": "haendel-generalbass-o09",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 10, T. 12–14, S. 4 · Quart-Terz-Figur im bewegten Bass",
+          "text": "In Takt 12 wird die Folge 4–3 auf zwei wiederkehrende c-Basstöne bezogen; zwischen ihnen liegt ein b als Achtelnote. Danach versetzt sich der Bass c in die tiefere Oktave und setzt seinen Lauf fort. Takt 13 und 14 führen verwandte Figuren über anderen Stützpunkten weiter. Gegenüber den längeren Bassnoten am Anfang der Übung ist der Bass nun rhythmisch und melodisch ausgestaltet. Beim Ergänzen lässt sich zunächst der bezifferte Quart-Terz-Weg verfolgen und anschließend seine Verbindung mit den eingeschobenen Bassnoten prüfen. Die Arbeitsfassung schreibt dafür noch keine fertige Oberstimmenlösung vor.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 10, T. 12–14, S. 4 · Quart-Terz-Figur im bewegten Bass",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=4"
+        },
+        {
+          "id": "haendel-generalbass-l07",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 23, T. 13–15, S. 11 · wiederkehrende Sechzehntelfigur und bezifferte Stützpunkte",
+          "text": "In T. 13–14 kehrt die kleine Folge f–e–f mehrfach nach unterschiedlichen tieferen Gruppentönen wieder. Die Ziffern stehen dabei an bestimmten Anfängen: etwa 6 über a beziehungsweise d und 6/4 über c. In T. 15 wird das Bewegungsmuster zunächst fortgesetzt und dann zu anderen Figuren weitergeführt. Als redaktionelle Lesehilfe lassen sich die unteren Gruppentöne zuerst verfolgen und die wiederkehrenden Sechzehntel anschließend einsetzen. So werden Gerüst und Auszierung unterscheidbar, bevor die Oberstimmen ergänzt werden. Eine gesonderte vereinfachte Bassfassung ist neben dieser Übung nicht abgedruckt.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · Leseanalyse eines figurierten Basses",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 23, T. 13–15, S. 11 · wiederkehrende Sechzehntelfigur und bezifferte Stützpunkte",
+              "note": "Die Tonfolge und die Ziffernpositionen wurden in der öffentlichen Ausgabe geprüft. Die vorgeschlagene Reduktion ist eine redaktionelle Übung und wird nicht als eine zusätzliche von Händel notierte Grundbassfassung ausgegeben."
+            }
+          },
+          "examples": [
+            "haendel-figuration"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=11"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "from": "haendel-generalbass-o09",
+          "to": "kittel2019-middle-fundament-noten",
+          "type": "context",
+          "note": "Kittel druckt neben dem bewegten Bass eine vereinfachte Fassung in Fundament-Noten ab. In Händels zehnter Übung ist die Quart-Terz-Figur auf wiederkehrenden Stützpunkten der bewegten Basslinie beziffert. Eine entsprechende Reduktion kann zum Vergleich erarbeitet werden; sie ist, ebenso wie eine fertige Oberstimmenlösung, hier nicht abgedruckt. Die beiden Belege unterscheiden damit eine vorgegebene Gegenüberstellung von einer noch auszuarbeitenden Übung."
+        },
+        {
+          "from": "haendel-generalbass-l07",
+          "to": "kittel2019-middle-fundament-noten",
+          "type": "nuance",
+          "note": "Kittel stellt der bewegten Fassung ausdrücklich eine zweite Version in Fundament-Noten gegenüber. Bei Händels Übung 23 muss die Trennung von Stützpunkten und wiederkehrender Sechzehntelfigur erst aus dem notierten Verlauf erschlossen werden. Die vereinfachende Leseaufgabe im Atlas bleibt hier eine redaktionelle Analyse, während sie bei Kittel auf einer eigenen Quellenfassung beruht."
+        }
+      ]
     },
     {
       "id": "generalbass-lagen",
@@ -39908,7 +40799,8 @@ const ATLAS = {
         "linie-orgelpunkt",
         "harmonik",
         "konsonanz",
-        "vorhalt-bewegte-begleitstimme"
+        "vorhalt-bewegte-begleitstimme",
+        "generalbass-stueckform"
       ],
       "comparisons": [],
       "authors": [
@@ -39980,6 +40872,32 @@ const ATLAS = {
           },
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=64"
+        },
+        {
+          "id": "haendel-generalbass-l02",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 22, T. 4–6, S. 10 · bewegte Ziffernpaare über wiederholtem d",
+          "text": "In T. 4–6 bleibt der Bass auf d, das zu jedem Taktbeginn erneut angeschlagen wird. Darüber wechseln die Ziffernpaare: T. 4 führt von 5/3 über 8/6 zu 7/5, T. 5 von 6/4 über 7/5 zurück zu 6/4, T. 6 von 5/3 über 6/4 zu 5/3. Der unveränderte Basston trägt somit mehrere Bewegungen der Begleitung. Beim Aussetzen lassen sich zuerst diese bezifferten Intervallpaare verfolgen und anschließend ihre Lage und Ergänzung bestimmen. Der Orgelpunkt besteht hier durch wiederholte Bassnoten; eine Bindung über die drei Takte steht nicht in der Vorlage.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · Orgelpunkt mit bewegter Begleitung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 22, T. 4–6, S. 10 · bewegte Ziffernpaare über wiederholtem d",
+              "note": "Die Ziffernpaare und drei punktierten halben Bassnoten wurden in der öffentlichen Remeš-Ausgabe visuell geprüft. Die Beobachtung unterscheidet ausdrücklich einen wiederholt angeschlagenen Basston von einer nicht notierten durchgehenden Bindung."
+            }
+          },
+          "examples": [
+            "haendel-pedal-anfang"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=10"
         }
       ],
       "relations": []
@@ -40496,6 +41414,58 @@ const ATLAS = {
           },
           "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
           "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=40"
+        },
+        {
+          "id": "haendel-generalbass-o07",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 9, T. 1–2 und 5–6, S. 3 · absteigender Bass und veränderte Sexten",
+          "text": "Die neunte Übung eröffnet mit dem schrittweisen Bass a–g–f–e. Unter g, f und e stehen Sexten; der folgende Basston d erhält in Takt 2 eine erniedrigte Sexte. Die Abwärtsbewegung wird damit nicht durch einen unveränderten Griff begleitet. Der einzelne Basston und das Vorzeichen bei der 6 müssen jeweils neu berücksichtigt werden. In Takt 5 und 6 kehrt die erniedrigte Sexte über d wieder; dazwischen verbinden Achtelfiguren die tragenden Töne. Die Stelle zeigt einen konkret bezifferten Bassgang in a-Moll, aus dem sich keine obligatorische Harmonisierung sämtlicher absteigender Tonleitern ableiten lässt.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 9, T. 1–2 und 5–6, S. 3 · absteigender Bass und veränderte Sexten",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=3",
+          "examples": [
+            "haendel-veraenderte-sexten"
+          ]
+        },
+        {
+          "id": "haendel-generalbass-o12",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 12, T. 1–4, S. 4 · 6/5 vor steigendem Bassschritt",
+          "text": "Zu Beginn der zwölften Übung steht 6/5 wiederholt vor einem steigenden Bassschritt: In Takt 1 über b vor c, in Takt 2 über a vor b und über g vor a. Takt 3 und 4 greifen diese Bewegung in einer stärker ausgestalteten Basslinie wieder auf. Zum Lesen gehören deshalb Zifferngruppe und folgende Bassnote zusammen. Die Übung verbindet den Klangvorrat mit konkreten kurzen Fortsetzungen, bevor später weitere Bassfiguren und rhythmische Schwierigkeiten hinzutreten. Aus den Anfangstakten wird hier nur dieses wiederkehrende Modell abgelesen, keine ausnahmslose Regel für jeden 6/5-Klang der ganzen Sammlung.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 12, T. 1–4, S. 4 · 6/5 vor steigendem Bassschritt",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=4",
+          "examples": [
+            "haendel-quintsext-schritte"
+          ]
         }
       ],
       "relations": []
@@ -40950,6 +41920,142 @@ const ATLAS = {
         }
       ],
       "relations": []
+    },
+    {
+      "id": "generalbass-ohne-ziffer",
+      "title": "Was bedeutet eine unbezifferte Bassnote?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "unbeziffert",
+        "Bezifferung",
+        "Dreiklang",
+        "Terz",
+        "Quinte",
+        "5/3",
+        "Händel"
+      ],
+      "comparisons": [],
+      "related": [
+        "generalbass-bezifferung-stimmfuehrung",
+        "generalbass-ziffern-stufen",
+        "generalbass-lernfolge"
+      ],
+      "authors": [
+        {
+          "id": "haendel-generalbass-o01",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übungen 1–5, S. 1–2 · anfänglicher 5/3-Klangvorrat",
+          "text": "Die ersten fünf Übungen beginnen mit einem weitgehend unbezifferten Bass. Im anfänglichen 5/3-Aufgabenrahmen sind Terz und Quinte zum jeweiligen Basston zu ergänzen; die leere obere Notenzeile bietet dafür Platz. Schon innerhalb dieses Klangvorrats wechseln Tonart, Bassbewegung und Notenwerte. Einzelne Vorzeichen unter dem Bass präzisieren die Begleitung, etwa die erhöhte Terz in Übung 4. Die fehlenden Zahlen sind somit innerhalb dieses Übungsblocks als verkürzte Angabe zu lesen. Welche Lage und Verdopplung gewählt wird, ist im leeren Oberstimmensystem noch nicht festgelegt. Die Deutung darf nicht ohne Prüfung auf jede unbezifferte Stelle eines späteren, komplexeren Basses übertragen werden.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · ergänzende Aussetzung",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übungen 1–5, S. 1–2 · anfänglicher 5/3-Klangvorrat",
+              "note": "Redaktionelle Beobachtung am notierten Bass und seiner Bezifferung in Händels Übungszyklus; die ergänzenden Oberstimmen sind in dieser Arbeitsfassung nicht ausgeschrieben."
+            }
+          },
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=1",
+          "examples": [
+            "haendel-fruehe-baesse"
+          ]
+        }
+      ],
+      "relations": [],
+      "readingSources": [
+        "haendel-generalbass"
+      ],
+      "reading": "Beginne mit der Tonart und dem Aufgabenrahmen der ersten Übungen. Ergänze Terz und Quinte zu einigen Bassnoten und prüfe die einzelnen Vorzeichen. Unterscheide die Intervallangabe von Entscheidungen über Lage, Verdopplung und melodische Verbindung."
+    },
+    {
+      "id": "generalbass-stueckform",
+      "title": "Wie wird aus Generalbassfiguren ein zusammenhängender Satz?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Satzform",
+        "Bassfigur",
+        "Kadenz",
+        "Orgelpunkt",
+        "Wiederkehr",
+        "Händel"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "haendel-generalbass-l05",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 22, T. 1–10 und 43–52, S. 10 · Wiederaufnahme von Bassgesten und Schlusswendung",
+          "text": "Der Schluss greift mehrere Elemente des Anfangs wieder auf. T. 44 greift die Bassfigur aus T. 2 eine Oktave tiefer auf; T. 45 entspricht T. 3; danach folgt erneut ein Orgelpunkt auf d. Gegenüber T. 4–6 ist dieser letzte Abschnitt in T. 46–49 länger und anders beziffert. T. 50–52 nimmt anschließend die Bass- und Ziffernbewegung von T. 8–10 wieder auf und führt zum abschließenden g. Die Übung erhält ihren Zusammenhang somit durch erkennbare Rückkehr und örtliche Veränderung. Zum Entwerfen einer Aussetzung lohnt es sich, diese Beziehungen über die einzelnen Taktgrenzen hinweg zu verfolgen.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · Zusammenhang von Anfang und Schluss",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 22, T. 1–10 und 43–52, S. 10 · Wiederaufnahme von Bassgesten und Schlusswendung",
+              "note": "Redaktioneller Vergleich der Bassnoten, Dauern und Figuren am Anfang und Ende von Nr. 22. Es wird keine vom Quellentext benannte Großform oder vorgeschriebene identische Oberstimmenreprise ergänzt."
+            }
+          },
+          "examples": [
+            "haendel-pedal-anfang",
+            "haendel-pedal-schluss"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=10"
+        },
+        {
+          "id": "haendel-generalbass-l09",
+          "source": "haendel-generalbass",
+          "name": "Georg Friedrich Händel",
+          "work": "24 Generalbass-Übungen / Handel’s Thoroughbass Exercises (hg. Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025)",
+          "locator": "Übung 24, T. 1–2, 9, 19–21 und 32, S. 12–13 · Schlussrhythmus und Rückkehr der Anfangsfigur",
+          "text": "Nr. 24 gliedert seinen fortlaufenden 12/8-Bass durch wiederkehrende Schlussgestalten. T. 9 und T. 32 enden auf b; T. 19 führt denselben rhythmischen Schluss auf d. In allen drei Fällen folgt auf den punktierten Viertel-Zielton eine punktierte Viertelpause. Nach dem mittleren Schluss setzt T. 20–21 die Anfangsfigur von T. 1–2 wieder ein. Die Folge der Figuren ist somit durch Ankunft, Pause und Wiederaufnahme organisiert. Diese Stellen bieten Orientierungspunkte für eine Aussetzung, deren Oberstimmen den größeren Verlauf hörbar machen sollen.",
+          "speciesScope": [],
+          "kind": "partitur",
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassübung · Kadenzgliederung im 12/8-Satz",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Übung 24, T. 1–2, 9, 19–21 und 32, S. 12–13 · Schlussrhythmus und Rückkehr der Anfangsfigur",
+              "note": "Die drei Zielnoten und Pausen sowie die Übereinstimmung der Bassnoten und Dauern von T. 1–2 und T. 20–21 wurden unmittelbar verglichen. Der Hinweis zur Gestaltung der Oberstimmen ist eine redaktionelle Arbeitsanregung, keine zusätzliche Textanweisung des Komponisten."
+            }
+          },
+          "examples": [
+            "haendel-schluss-12-8"
+          ],
+          "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=12"
+        }
+      ],
+      "relations": [],
+      "related": [
+        "generalbass-lernfolge",
+        "generalbass-bezifferung-stimmfuehrung",
+        "orgelpunkt-mehrstimmig",
+        "sequenzmodell",
+        "kadenz"
+      ],
+      "readingSources": [
+        "haendel-generalbass"
+      ],
+      "reading": "Markiere in einer längeren Bassübung wiederkehrende Figuren, Orgelpunkte und Schlusswendungen. Vergleiche Anfang und Ende: Was kehrt unverändert zurück, was verändert Register, Rhythmus oder Bezifferung? Entwirf anschließend obere Stimmen, die diese Zusammenhänge hörbar machen."
     }
   ],
   "examples": {
@@ -42830,6 +43936,134 @@ const ATLAS = {
       "caption": "Die vollständige Seite verbindet Webers Erklärung der Haupt- und Füllstimmen mit einer historischen Begriffstabelle, Halbtonnamen und kurzen Kadenzbässen. Die charakteristische Septime beziehungsweise der Weg 4–3 wird von den ergänzenden Intervallen unterschieden. Suche zuerst die charakteristische 7 und den Weg 4–3. Welche weiteren Intervalle nennt die Seite als Füllstimmen? Lies dann die historischen Namen und prüfe, ob sie Stimmenaufgaben, Intervallarten oder Kadenzbewegungen benennen.",
       "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil C, S. 32. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
       "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=76"
+    },
+    "haendel-fruehe-baesse": {
+      "image": "quellen/noten/haendel-fruehe-baesse.webp",
+      "title": "Vom Halbenbass zur Viertelbewegung",
+      "alt": "Zwei unausgesetzte Bassübungen mit leeren oberen Notensystemen. Nr. 1 steht in C-Dur, bewegt sich überwiegend in halben Noten und endet auf c. Nr. 2 steht in G-Dur und führt den Bass überwiegend in Vierteln mit Oktav- und weiteren Sprüngen; die letzten Takte beruhigen die Bewegung.",
+      "caption": "Übungen 1–2, S. 1. Vergleiche zuerst Tonart, Basssprünge und Notenwerte. Die ersten beiden Übungen verwenden noch den anfänglichen 5/3-Klangvorrat; eine bestimmte Lage oder Verdopplung der ergänzenden Stimmen ist in dieser Arbeitsfassung nicht eingetragen.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übungen 1–2, S. 1. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=1"
+    },
+    "haendel-terzveraenderung": {
+      "image": "quellen/noten/haendel-terzveraenderung.webp",
+      "title": "Eine Bassnote, zwei Formen der Terz",
+      "alt": "Acht Takte der sechsten Übung. Unter den halben Bassnoten c und g stehen jeweils die 3 und danach ein Be. Im zweiten Takt folgen unter d und a Kreuz und Auflösungszeichen. Spätere Takte greifen diese Änderungen über längerem Bass auf; das obere System ist leer.",
+      "caption": "Übung 6, T. 1–8, S. 2. Lies die nebeneinander stehenden Zeichen als zeitliche Folge innerhalb der Bassdauer. Die zu ergänzende Terz verändert sich, während der Basston noch klingt. Die Abstände und Vorzeichen sind unverändert aus der öffentlichen Ausgabe übernommen.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 6, T. 1–8, S. 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=2"
+    },
+    "haendel-sextbezifferung": {
+      "image": "quellen/noten/haendel-sextbezifferung.webp",
+      "title": "Die Sexte bezieht sich auf jeden neuen Basston",
+      "alt": "Fünf Takte der siebten Übung in G-Dur mit bewegtem Achtelbass und vielen einzelnen Sextziffern. Der zweite Takt beginnt mit c, d, e und fis, die jeweils eine 6 tragen. Das obere Notensystem ist zum Ergänzen leer.",
+      "caption": "Übung 7, T. 1–5, S. 2. Bestimme in Takt 2 die Sexte über c, d, e und fis jeweils neu. Die gleiche gedruckte Ziffer bezeichnet verschiedene obere Töne und verschiedene Intervallgrößen; Lage und Stimmenverteilung bleiben Teil der Aussetzung.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 7, T. 1–5, S. 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=2"
+    },
+    "haendel-veraenderte-sexten": {
+      "image": "quellen/noten/haendel-veraenderte-sexten.webp",
+      "title": "Vorzeichen am Bass und bei der Sexte",
+      "alt": "Die achte und neunte Übung mit leeren oberen Systemen. In Nr. 8 stehen Kreuze sowohl vor einzelnen Bassnoten als auch bei Sextziffern. Nr. 9 eröffnet mit dem absteigenden Bass a–g–f–e und Sexten unter g, f und e; das folgende d trägt eine erniedrigte Sexte. Weitere Bassgänge und veränderte Sexten folgen.",
+      "caption": "Übungen 8–9, S. 3. Unterscheide das Vorzeichen unmittelbar vor einer Bassnote von dem Zeichen bei einer Generalbassziffer. Lies anschließend den absteigenden Anfang von Nr. 9 und die erniedrigte Sexte über d. Die Abbildung zeigt die öffentliche Hochformatfassung; ihre Bezifferung wird als Bezugstext verwendet.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übungen 8–9, S. 3. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=3"
+    },
+    "haendel-quart-terz": {
+      "image": "quellen/noten/haendel-quart-terz.webp",
+      "title": "Quart und Terz als aufeinanderfolgende Stationen",
+      "alt": "Beginn der zehnten Übung in F-Dur. Nach einem Oktavwechsel steht unter der halben Bassnote c die Folge 4 und 3. Im zweiten Takt erscheint 4–3 über g und d. Der Verlauf setzt die Quart-Terz-Figuren zwischen bewegtere Basstöne und einzelne Sextziffern.",
+      "caption": "Übung 10, T. 1–6, S. 3. Verfolge die Quart-Terz-Folge über jedem länger liegenden Basston. Eine mögliche Aussetzung verbindet die bezeichneten Töne in einer Stimme; ihre Vorbereitung und Lage sind im leeren Oberstimmensystem noch auszuarbeiten.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 10, T. 1–6, S. 3. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=3"
+    },
+    "haendel-quartsext-wege": {
+      "image": "quellen/noten/haendel-quartsext-wege.webp",
+      "title": "Zwei Wege vom Quartsext- zum Terzquintgriff",
+      "alt": "Die ersten sechs Takte der elften Übung in B-Dur. Über mehreren längeren Bassnoten stehen die Gruppen 6/4 und danach 5/3 nebeneinander. Über f am Ende des ersten Takts ergeben sich die oberen Wege d–c und b–a. Später wechseln Bassrhythmus, Sextziffern und Vorzeichen.",
+      "caption": "Übung 11, T. 1–6, S. 4. Lies 6–5 und 4–3 getrennt und bringe beide anschließend zusammen. Der Ausschnitt zeigt einen bestimmten Fortsetzungsweg des 6/4-Griffs. Die übrigen Töne und ihre Lage sind in dieser Arbeitsfassung zu ergänzen.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 11, T. 1–6, S. 4. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=4"
+    },
+    "haendel-fuenf-sechs": {
+      "image": "quellen/noten/haendel-fuenf-sechs.webp",
+      "title": "Steigende Intervallzahl, möglicher absteigender Stimmenweg",
+      "alt": "Schlussgruppe der elften Übung. In Takt 12 stehen 5 über es und 6 über c, danach 5 über f und 6 über d. Der Bass fällt in beiden Fällen eine Terz. Die folgenden Takte enthalten weitere 5–6-Folgen und eine abschließende 6/4–5/3-Verbindung.",
+      "caption": "Übung 11, T. 11–15, besonders T. 12, S. 4. Verbinde in Takt 12 die Töne b–a und danach c–b in einer möglichen oberen Stimme. Durch den fallenden Bass wächst der Abstand von der Quinte zur Sexte, obwohl diese Linie abwärts geht. Die Stimmenzuordnung ist eine Lesehilfe der Redaktion, keine ausgeschriebene Oberstimme der Vorlage.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 11, T. 11–15, besonders T. 12, S. 4. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=4"
+    },
+    "haendel-quintsext-schritte": {
+      "image": "quellen/noten/haendel-quintsext-schritte.webp",
+      "title": "Wiederkehrende Bassschritte nach 6/5",
+      "alt": "Die ersten sechs Takte der zwölften Übung. Die Gruppe 6/5 steht wiederholt vor einem steigenden Bassschritt: über b vor c, über a vor b und über g vor a. Der Bass kombiniert Viertel und Achtelfiguren; das obere System ist leer.",
+      "caption": "Übung 12, T. 1–6, besonders T. 1–4, S. 4. Suche in Takt 1–4 die wiederkehrenden steigenden Bassschritte nach der 6/5-Gruppe. Vergleiche die wechselnden Notenwerte und Zwischenbewegungen. Der Ausschnitt belegt dieses Anfangsmodell, ohne die übrigen Fortsetzungen der längeren Übung darauf festzulegen.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 12, T. 1–6, besonders T. 1–4, S. 4. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=4"
+    },
+    "haendel-sekundakkord": {
+      "image": "quellen/noten/haendel-sekundakkord.webp",
+      "title": "Händel: 4/2 mit absteigendem und gebundenem Bass",
+      "alt": "Bezifferter Bass in drei Kreuzen: 4/2 geht zu 6, ein Haltebogen verbindet die letzte Note von Takt 3 mit dem Anfang von Takt 4.",
+      "caption": "Übung 13, T. 1–4, S. 5. Der Wechsel 4/2–6 tritt mit einem absteigenden Bassschritt auf; am Übergang T. 3–4 wird der neue 4/2-Klang auf einem gebundenen Basston erreicht.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 13, T. 1–4, S. 5. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=5"
+    },
+    "haendel-septimenfolge": {
+      "image": "quellen/noten/haendel-septimenfolge.webp",
+      "title": "Händel: Septimen in einer Quart-Quint-Folge",
+      "alt": "Bassmodell mit abwechselnd aufsteigenden Quarten und absteigenden Quinten, jeweils mit einer Septimenziffer, danach Schluss mit 6/4–5/3.",
+      "caption": "Übung 16, T. 13–18, S. 7. In T. 14–15 begleitet die einzelne Ziffer 7 jeden Viertelton der fortlaufenden Bassfigur; anschließend führt die Übung in die Schlusswendung.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 16, T. 13–18, S. 7. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=7"
+    },
+    "haendel-none-bewegter-bass": {
+      "image": "quellen/noten/haendel-none-bewegter-bass.webp",
+      "title": "Händel: 9–6 über bewegtem Bass",
+      "alt": "Bezifferter Bass in drei b mit zweimaliger Folge 9 und 6 über einem fallenden Sextsprung.",
+      "caption": "Übung 18, T. 1–5, S. 8. In T. 2–3 folgt auf die None eine Sexte, während der Bass nach unten springt. Beide Zahlen beziehen sich auf verschiedene Basstöne.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 18, T. 1–5, S. 8. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=8"
+    },
+    "haendel-doppelvorhalt": {
+      "image": "quellen/noten/haendel-doppelvorhalt.webp",
+      "title": "Händel: Paarweise Ziffernbewegung im Doppelvorhalt",
+      "alt": "Bass mit zwei gleichzeitig bewegten Ziffern: 6 und 4 führen zu 5 und 3; 4 und 9 führen zu 3 und 8.",
+      "caption": "Übung 21, T. 6–10, S. 9. Ausschnitt der vollständigen Basszeile mit Bezifferung; das leere obere System ist weggelassen. 6/4–5/3 und 9/4–8/3 stehen als verschiedene Paare nebeneinander; die Ziffernordnung 4 über 9 ändert die zugehörigen Wege nicht.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 21, T. 6–10, S. 9. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=9"
+    },
+    "haendel-pedal-anfang": {
+      "image": "quellen/noten/haendel-pedal-anfang.webp",
+      "title": "Händel: bewegte Figuren über einem Orgelpunkt",
+      "alt": "Unausgesetzter Generalbass im Dreivierteltakt. Die ersten drei Takte bewegen sich in Vierteln und punktiertem Rhythmus. In Takt vier bis sechs steht jeweils ein punktiertes halbes d unter wechselnden Ziffernpaaren. Takt elf bis dreizehn hält g als wiederholte Bassnote fest; an der Septime und Sexte stehen chromatische Vorzeichen. Die obere Notenzeile bleibt für die Aussetzung leer.",
+      "caption": "Übung 22, T. 1–27, S. 10. In T. 4–6 bleibt d als wiederholt angeschlagener Bass erhalten, während die Ziffernpaare wechseln. Der anschließende g-Abschnitt zeigt chromatische Veränderungen in der Bezifferung.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 22, T. 1–27, S. 10. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=10"
+    },
+    "haendel-pedal-schluss": {
+      "image": "quellen/noten/haendel-pedal-schluss.webp",
+      "title": "Händel: Rückkehr der Bassgesten am Schluss",
+      "alt": "Die letzten beiden Systeme von Händels Übung 22 zeigen zunächst bewegte Bassnoten, danach vier Takte mit punktierten halben d. Darunter folgen unter anderem die Gruppen fünf und drei, acht und sechs, sieben und sechs sowie einzelne weiterführende Ziffern. Die abschließende Wendung erreicht g nach einem Quart-Terz-Wechsel über d. Die Oberstimmen sind nicht ausgeschrieben.",
+      "caption": "Übung 22, T. 40–52, S. 10. T. 44 greift den Bass aus T. 2 eine Oktave tiefer auf; T. 45 entspricht T. 3. Der letzte d-Orgelpunkt trägt nun andere Ziffernfolgen; T. 50–52 kehrt zur Schlusswendung von T. 8–10 zurück.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 22, T. 40–52, S. 10. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=10"
+    },
+    "haendel-figuration": {
+      "image": "quellen/noten/haendel-figuration.webp",
+      "title": "Händel: Bindung und Figuration in Übung 23",
+      "alt": "Figurierter, noch nicht ausgesetzter Bass im C-Takt mit einem b in der Vorzeichnung. Die siebzehn Takte enthalten Achtel- und Sechzehntelbewegung, kurze Pausen und Bindungen. In den Takten sechs und sieben verbindet ein Bogen zwei gleiche Bassnoten über den Taktstrich; darunter wechseln die Ziffern von sechs zu sechs vier zwei. Die späteren Sechzehntel pendeln regelmäßig zu wiederkehrenden Tönen zurück. Am Schluss folgt auf eine bewegte Kadenz ein ganzes f.",
+      "caption": "Übung 23, T. 1–17, S. 11. Die Bindung von T. 6 zu T. 7 trägt einen Bezifferungswechsel. T. 9–11 verbindet wiederkehrende obere Töne mit einer bewegten tieferen Schicht; T. 13–15 gliedert seine Sechzehntel durch wiederkehrende kleine Figuren.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 23, T. 1–17, S. 11. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=11"
+    },
+    "haendel-schluss-12-8": {
+      "image": "quellen/noten/haendel-schluss-12-8.webp",
+      "title": "Händel: Rückkehr und Schluss im Zwölfachteltakt",
+      "alt": "Fortsetzung eines unausgesetzten Generalbasses im Zwölfachteltakt. Takt neunzehn endet mit einer punktierten Viertel auf d und einer gleich langen Pause. Takt zwanzig nimmt die Anfangsfigur der Übung wieder auf. In Takt neunundzwanzig wechselt die Aufgabenlinie in den Violinschlüssel und in Takt einunddreißig zurück in den Bassschlüssel. Takt zweiunddreißig schließt nach zwei f in verschiedenen Oktavlagen auf b und einer punktierten Viertelpause.",
+      "caption": "Übung 24, T. 19–32, S. 13. Nach dem Schluss auf d und der Pause kehrt die Anfangsfigur zurück. Der endgültige Schluss in T. 32 erreicht b nach dem Oktavsprung f–f; eine punktierte Viertelpause beendet den Satz.",
+      "credit": "Georg Friedrich Händel, Handel’s Thoroughbass Exercises, hg. und gesetzt von Derek Remeš, Hochformatfassung, Version 12. Juni 2018; TUDOdata 2025, DOI: 10.17877/TUDODATA-2025-MC0APUER. Übung 24, T. 19–32, S. 13. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Ausschnitt aus dem modernen Notensatz; Noten unverändert, Zuschnitt und Erläuterung redaktionell.",
+      "url": "https://muk-labs.github.io/Kontrapunktatlas/quellen/haendel-generalbass-remes.pdf#page=13"
     }
   }
 };
