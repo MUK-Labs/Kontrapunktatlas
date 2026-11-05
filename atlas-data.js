@@ -973,6 +973,19 @@ const ATLAS = {
         "Spalding"
       ],
       "wikipedia": "https://ca.wikipedia.org/wiki/Walter_Raymond_Spalding"
+    },
+    {
+      "name": "Francis L. York",
+      "aliases": [
+        "Francis Lodowick York",
+        "Francis York",
+        "York"
+      ],
+      "exclude": [
+        "New York",
+        "New-York"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Francis_Lodowick_York"
     }
   ],
   "sources": [
@@ -1378,6 +1391,17 @@ const ATLAS = {
       "publicationYear": 1904,
       "publicationLabel": "1904 (Copyright)",
       "publicationNote": "Das Titelblatt nennt Walter R. Spalding als Assistant Professor of Music in Harvard University und trägt den Copyrightvermerk 1904 von Arthur P. Schmidt. Eine Auflagen- oder Drucknummer ist nicht angegeben. Der Bibliotheksnachweis HathiTrust 001460577 (LCCN 04026134) verzeichnet Boston: A. P. Schmidt, c1904, ix und 258 Seiten. Der Scan entspricht dem Exemplar der Faculty of Music, University of Toronto, bei Internet Archive: tonalcounterpoin00spaluoft. Gesichtet sind das Vorwort S. v–viii und alle 13 Kapitel auf S. 1–258. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 15. 1904 bezeichnet den gedruckten Copyrightvermerk, keine gesondert belegte spätere Druckauflage."
+    },
+    {
+      "id": "york1907",
+      "name": "Francis L. York",
+      "title": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+      "group": "Lehrwerke",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=5",
+      "sortAuthor": "York, Francis Lodowick",
+      "publicationYear": 1907,
+      "publicationLabel": "1907 (Copyright)",
+      "publicationNote": "Das Titelblatt nennt Francis L. York, M. A., und Oliver Ditson Company, Boston; das Copyrightblatt trägt MCMVII (1907). Eine nummerierte Auflage oder ein gesondertes Druckjahr ist nicht angegeben. Das Vorwort ist Detroit, 20. Juli 1907 datiert. HathiTrust 001980801 (LCCN 08001124) verzeichnet c1907, viii und 149 Seiten. Der Scan ist das Exemplar der Cornell University Library bei Internet Archive: cu31924022379741; die bereitgestellte Datei und das öffentliche PDF stimmen in Prüfsummen und Umfang überein. Gesichtet sind Vorwort S. v–vi, Einleitung S. 1–5, alle 16 Kapitel, die Cantus-firmus-Sammlung und der Anhang bis S. 149. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 13. 1907 bezeichnet den Copyrightvermerk, kein separat belegtes späteres Druckjahr."
     }
   ],
   "topics": [
@@ -1620,6 +1644,32 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "york1907-open-geteiltes-verbot",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 3, Fig. 2–3",
+          "text": "Ein verbotenes melodisches Intervall wird für York nicht besser, wenn man es in zwei Sprünge zerlegt. Seine Beispiele verbinden etwa den Umfang einer Septime oder übermäßigen Quinte durch einen Zwischenton; der problematische Gesamtzug bleibt bestehen. Als allgemeine Anfangsregel sollen auch zwei Sprünge in dieselbe Richtung vermieden werden. Nach einer schrittweisen Bewegung soll die Stimme zudem nicht in derselben Richtung auf einen betonten Ton springen. Es genügt deshalb nicht, jeden unmittelbar benachbarten Tonabstand einzeln als erlaubt abzuhaken.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Zusammenhang aufeinanderfolgender Schritte und Sprünge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 3, Fig. 2–3",
+              "note": "Fig. 2 zeigt die zerlegten verbotenen Intervalle, Fig. 3 die gleichgerichtete Sprungfolge und den Sprung zum Akzent."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=15"
         }
       ],
       "reading": "Prüfe dieselben Töne einmal als Linie und einmal als Akkordbrechung. Goetschius kann mit seinem Akkordkriterium auch eine Sprungkette erklären, die über den Dreiklang des Handouts hinausgeht.",
@@ -2485,6 +2535,121 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=101"
+        },
+        {
+          "id": "york1907-two-erste-anfang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 7, Fig. 5",
+          "text": "Steht die Gegenstimme über dem Cantus, beginnt sie bei York im Einklang, in der Oktave oder in der reinen Quinte. Unter dem Cantus sind nur Einklang oder Oktave erlaubt. Eine Terz oder Sexte ist für den Beginn dieser ersten Spezies zu unbestimmt, auch wenn sie im weiteren Verlauf zu den bevorzugten Konsonanzen zählt. Der Schluss ist in beiden Lagen auf Einklang oder Oktave beschränkt. Die Lage der Gegenstimme entscheidet also mit darüber, ob ein an sich konsonantes Anfangsintervall zulässig ist.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Anfang und Ende der ersten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 7, Fig. 5",
+              "note": "Die verschiedenen Lagen und die ausgeschlossenen Anfänge stehen in Fig. 5; der Text erklärt die Asymmetrie zwischen oberer und unterer Gegenstimme."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=19"
+        },
+        {
+          "id": "york1907-two-pausenbeginn",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 15; Kap. III, S. 27; Kap. IV, S. 39; Kap. V, S. 49",
+          "text": "In den bewegten Spezies empfiehlt York einen versetzten Beginn. Die zweite und vierte können mit einer halben Pause einsetzen, die dritte mit einer Viertelpause; im Floridus sind beide Möglichkeiten vorgesehen. Das macht den Eintritt der Gegenstimme klarer und belebt den Rhythmus. Ihr erster tatsächlich klingender Ton muss dennoch eine vollkommene Konsonanz bilden: oben Einklang, Oktave oder Quinte, unten Einklang oder Oktave. Der Pausenbeginn ist also keine Erlaubnis, die sonstige Anfangsbedingung aufzugeben.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Pausenbeginn und erstes klingendes Intervall",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 15; Kap. III, S. 27; Kap. IV, S. 39; Kap. V, S. 49",
+              "note": "Die vier Kapitel wiederholen die Intervallbedingung trotz der unterschiedlichen erlaubten Anfangspausen; die Rhythmustabelle auf S. 49 wurde visuell geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=27"
+        },
+        {
+          "id": "york1907-multi-anfang-drei",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 58, Fig. 59a; Kap. VII, S. 61 · dreistimmiger Anfang",
+          "text": "Für den dreistimmigen Anfang verlangt York den Akkordgrundton im Bass. Der erste Klang kann vollständig sein oder nur aus Einklängen und Oktaven bestehen. Auch ein Anfang ohne Terz ist zugelassen, doch York bevorzugt gegenüber der bloßen offenen Quinte die beiden zuvor genannten Möglichkeiten. Im Fehlerbeispiel auf S. 61 beanstandet er deshalb ausdrücklich den Beginn mit der Terz im Bass. Die erste Klanglage erhält damit eine eigene Einschränkung, obwohl Sextakkorde im weiteren Satz zum normalen Material gehören.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige erste Spezies · harmonische Lage des Anfangs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 58, Fig. 59a; Kap. VII, S. 61 · dreistimmiger Anfang",
+              "note": "Fig. 59a und der Kommentar zum ersten Fehlerbeispiel auf S. 61 wurden visuell geprüft. Es wird keine Beschränkung sämtlicher späterer Akkorde auf die Grundstellung behauptet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=70"
+        },
+        {
+          "id": "york1907-multi-anfang-zweite",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 65–66, Fig. 60b und 64 · versetzter Einsatz der zweiten Spezies",
+          "text": "Beginnt die bewegte Stimme mit einer Pause, bilden Cantus und Zusatzstimme bei York gewöhnlich zunächst Einklang, Quinte oder Oktave. Die später eintretende Gegenstimme darf dann jeden Akkordton nehmen, sofern sie Ober- oder Mittelstimme ist. Der Einsatz im Bass ist von dieser Erweiterung nicht erfasst. Als besonderen Anfangsfall lässt er auch eine Quarte zwischen den oberen Stimmen zu, bevor der zunächst pausierende Bass den Klang vervollständigt. Diese dreistimmige Anfangsanlage ist daher weiter gefasst als die isolierte Wahl eines Anfangsintervalls in zwei Stimmen.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige zweite Spezies · Pause, Eintritt und Ergänzung des Anfangsklangs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 65–66, Fig. 60b und 64 · versetzter Einsatz der zweiten Spezies",
+              "note": "Die Formulierung usually wird als gewöhnlich, nicht als ausnahmsloses Gebot übersetzt. Fig. 60b auf S. 59 und die ausdrückliche Rückverweisung auf S. 65 belegen die anfängliche unvollständige Quarte."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=77"
+        },
+        {
+          "id": "york1907-multi-einsaetze-mischung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 122, Fig. 79b · zeitlich versetzte Einsätze",
+          "text": "Beim Kombinieren der Spezies müssen die Stimmen nicht im selben Takt einsetzen: York erlaubt, dass eine Gegenstimme erst im zweiten oder einem späteren Takt hinzukommt. Als gewöhnliche Anordnung im ersten Takt nennt er für die zweite und vierte Spezies den Einsatz auf dem dritten Viertel und für die dritte Spezies auf dem zweiten Viertel. Fig. 79b zeigt diese Staffelung. Die Einsatzzeiten sind damit nach Bewegungsart unterschieden; sie bilden keine einzige verpflichtende Eintrittsformel für sämtliche Mischungen.",
+          "speciesScope": [
+            2,
+            3,
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierter Kontrapunkt · übliche Einsatzzeiten und spätere Eintritte",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 122, Fig. 79b · zeitlich versetzte Einsätze",
+              "note": "York formuliert die Anfangspositionen als Regelgebrauch und erlaubt davor ausdrücklich unterschiedliche Einsatztakte. Für die fünfte Spezies wird an dieser Stelle keine feste Viertelposition angegeben."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=134"
         }
       ],
       "reading": "Liegt der Cantus oben oder unten? Beginnen die Stimmen zusammen? Bei Fux entscheidet die Lage der Gegenstimme über die Anfangsquinte. Zarlino trennt bei der Imitation das Einsatzintervall vom ersten Zusammenklang. Prout hört am Anfangsterzklang bereits das Tongeschlecht.",
@@ -2629,7 +2794,8 @@ const ATLAS = {
         "kadenzausweichung",
         "doppelleitton-kadenz",
         "moll-neutralisierung",
-        "akkordton-verdopplung"
+        "akkordton-verdopplung",
+        "moll-stufenfuehrung"
       ],
       "authors": [
         {
@@ -2951,6 +3117,28 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=151"
+        },
+        {
+          "id": "york1907-two-leitton-richtung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 9",
+          "text": "Der Leitton geht bei York gewöhnlich zur Tonika, muss dies außerhalb des eigentlichen Schlusses aber nicht ausnahmslos tun. Wird er von unten erreicht, steigt er in der Regel weiter. Nach einer Annäherung von oben kann die Stimme in beide Richtungen fortfahren. Diese melodische Aussage ist von den gesonderten Verboten einer Leittonoktave zu unterscheiden. Im Kadenzmodell ist die Zielwirkung zur Tonika enger bestimmt als in einer beliebigen Stelle der laufenden Melodie.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Melodische Fortsetzung des Leittons in der ersten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 9",
+              "note": "Der Absatz auf S. 9 unterscheidet ausdrücklich die Annäherungsrichtung und verwendet generally, though not necessarily."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=21"
         }
       ],
       "relations": [
@@ -3046,7 +3234,8 @@ const ATLAS = {
         "unbetonte-dissonanz",
         "akkordvollstaendigkeit",
         "quartsext-dissonanz",
-        "terzen-sexten-folgen"
+        "terzen-sexten-folgen",
+        "orgelpunkt-mehrstimmig"
       ],
       "authors": [
         {
@@ -3422,6 +3611,120 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=73"
+        },
+        {
+          "id": "york1907-two-erste-konsonanzen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 7",
+          "text": "In der zweistimmigen ersten Spezies stehen nur Einklänge, reine Oktaven und Quinten sowie große oder kleine Terzen und Sexten zur Verfügung. Sekunden, Quarten, Septimen und sämtliche übermäßigen oder verminderten Zusammenklänge sind ausgeschlossen. York hebt die Quarte ausdrücklich als Dissonanz hervor. Er verlangt zugleich, harmonische und melodische Intervalle auseinanderzuhalten: Eine Quarte darf als Melodiesprung möglich sein und dennoch als Zusammenklang dieser Aufgabe verboten bleiben.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Konsonanzvorrat der zweistimmigen ersten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 7",
+              "note": "S. 7 führt beide Intervallarten getrennt auf. Die Quarte wird hier auf den zweistimmigen Satz bezogen, nicht auf spätere Oberstimmenintervalle."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=19"
+        },
+        {
+          "id": "york1907-two-dritte-akzent",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 27, Fig. 29",
+          "text": "Im Vier-gegen-eins muss bei York die erste Note jedes folgenden Taktes konsonant sein. Die übrigen drei können Konsonanzen oder schrittweise geführte Durchgänge enthalten; mindestens einen Durchgang pro Takt hält er für günstig. Konsonante Akkordtöne dürfen springen, harmoniefremde Töne nicht. Dabei kann selbst eine Intervallkonsonanz zum Cantus der zugrunde gelegten Harmonie fremd sein. Das Akzentraster und der harmonische Bezug erklären gemeinsam, welche Freiheit eine konkrete Note hat.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Konsonanz auf dem Hauptakzent der dritten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 27, Fig. 29",
+              "note": "S. 27 unterscheidet ausdrücklich Intervallkonsonanz und prevailing harmony und bevorzugt einen passing tone pro Takt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=39"
+        },
+        {
+          "id": "york1907-multi-oberstimmen-quarte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 59, Fig. 60; Kap. VII, S. 60, Fig. 61 · Quarte und Tritonus oberhalb des Basses",
+          "text": "Im Dreistimmensatz beurteilt York ein Intervall auch nach seiner Lage zum Bass. Eine Quarte zwischen den beiden Oberstimmen ist als Bestandteil eines Sextakkords zulässig; dieselbe Quarte zwischen Bass und Oberstimme gehört nicht zur konsonanten Klangbesetzung. In der ersten Umkehrung des verminderten Dreiklangs auf dem Leitton dürfen die oberen Stimmen ebenso eine übermäßige Quarte oder verminderte Quinte bilden. Diese Intervalle sollen in der ersten Spezies nicht zwischen Bass und einer Oberstimme liegen. Die Behauptung, in der ersten Spezies müsse jedes beliebige Stimmenpaar ausschließlich aus den zweistimmigen Konsonanzen bestehen, wäre deshalb für York zu eng.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige erste Spezies · bassbezogene Konsonanzbewertung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 59, Fig. 60; Kap. VII, S. 60, Fig. 61 · Quarte und Tritonus oberhalb des Basses",
+              "note": "Die beiden ausdrücklich erläuterten Tafeln wurden visuell geprüft. Der besondere Anfangsfall einer zunächst unvollständigen Quarte in der zweiten Spezies steht auf S. 65 und wird dort separat eingeordnet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=71"
+        },
+        {
+          "id": "york1907-multi-bewegte-bassreferenz",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 123, Fig. 80a–b · tiefste bewegte Stimme als Bezug",
+          "text": "Nach dem ersten Schlag des Taktes betrachtet York die tiefste bewegte Stimme als maßgeblichen Bass für die über ihr bewegte Stimme. Sein Beispiel kombiniert einen gehaltenen Cantus im Bass, zweite Spezies im Tenor und dritte im Sopran: In der zweiten Takthälfte muss der Sopran besonders zum Tenor passen. Dabei können beide Oberstimmen mit dem gehaltenen Cantuston dissonieren und untereinander konsonant sein. York vergleicht ihren Zusammenhang mit korrektem zweistimmigem Kontrapunkt, behält aber die schon zugelassene Quarte zwischen Oberstimmen ausdrücklich bei. Die Prüfung gegen den Cantus allein genügt daher nicht.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierte Spezies · gegenseitiger Bezug bewegter Oberstimmen über gehaltenem Cantus",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 123, Fig. 80a–b · tiefste bewegte Stimme als Bezug",
+              "note": "Die Regel wird allgemein für bewegte Spezies formuliert und an der Kombination zweite/dritte erläutert. Fig. 80a–b und die Quartenqualifikation wurden visuell geprüft; die Oberstimmenquarte wird nicht durch eine pauschale Zweistimmigkeitsregel ausgeschlossen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=135",
+          "examples": [
+            "york-bewegte-bassreferenz"
+          ]
+        },
+        {
+          "id": "york1907-free-02",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 133; Fig. 88f–g, S. 137–138 · Sonderstellung des Dominantseptakkords",
+          "text": "Der Dominantseptakkord nimmt in Yorks freiem Kontrapunkt eine besondere Stellung ein. Er darf dort so häufig und selbstverständlich verwendet werden, dass York ihn für die praktische Arbeit wie einen konsonanten Akkord behandelt. Deshalb kann eine weitere Dissonanz sogar zur Septime dieses Akkords aufgelöst werden, wie Fig. 88f zeigt; Fig. 88g führt zu einem anderen Akkordton. Gemeint ist die Verwendbarkeit des ganzen Dominantseptakkords in diesem tonalen Satz, nicht eine allgemeine Umbenennung jedes Septimintervalls zur Konsonanz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier tonaler Kontrapunkt · Dominantseptakkord als Auflösungsziel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 133; Fig. 88f–g, S. 137–138 · Sonderstellung des Dominantseptakkords",
+              "note": "S. 133 formuliert used practically as if it were a consonant chord. Die Erläuterung zu Fig. 88f–g auf S. 137 und die Noten auf S. 138 sichern die besondere Auflösungsmöglichkeit."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=145"
         }
       ],
       "relations": [
@@ -3460,6 +3763,12 @@ const ATLAS = {
           "to": "schoenberg1970-m10",
           "type": "context",
           "note": "Beide Belege lassen den Sextakkord mit Tritonus zwischen den Oberstimmen konsonant zu. Schönberg ordnet ihn in seiner dreistimmigen Übung als erste Umkehrung eines verminderten Dreiklangs ein. Daniel bestreitet für die historische Generalbassauffassung gerade, dass Umkehrung oder ein hinzugedachter Dominantgrundton die satztechnische Eigenart dieses Klangs ausreichend erklären. Verschieden ist hier die Erklärung, nicht die Erlaubnis."
+        },
+        {
+          "from": "york1907-free-02",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux verlangt in der strengen ersten Spezies ausschließlich konsonante Intervalle. York behandelt den Dominantseptakkord in seinem freien tonalen Satz praktisch wie eine Konsonanz und sogar als Ziel einer weiteren Dissonanz. Die verschiedene Verwendung beruht auf dem Aufgabenrahmen und der Betrachtung des vollständigen Akkords."
         }
       ]
     },
@@ -3917,13 +4226,83 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=161"
+        },
+        {
+          "id": "york1907-open-sprungvorrat",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 2–3, Fig. 1c",
+          "text": "Schrittweise Bewegung ist für York am glattesten. Große und kleine Terzen, reine Quarten und Quinten, kleine Sexten sowie Oktaven gehören zum guten Sprungvorrat. Verminderte Quarten, verminderte Quinten und große Sexten bezeichnet er als selten; die verminderte Quinte braucht eine schrittweise Rückkehr in den übersprungenen Raum. Übermäßige Intervalle, Septimen und Sprünge über die Oktave schließt er aus, ebenso die meisten chromatischen und verminderten Intervalle. Selbst der sonst mögliche Oktavsprung ist auf dem Leitton verboten. Die unterschiedliche Bewertung der großen und kleinen Sexte gehört zu seinem bewusst engen Anfangsrahmen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Melodische Intervalle im strengen, vokal gedachten Lehrgang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 2–3, Fig. 1c",
+              "note": "Die Intervallliste und die Fußnote zur Leittonoktave stehen auf S. 2; Fig. 1c und der anschließende Text präzisieren die verminderte Quinte."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=14"
+        },
+        {
+          "id": "york1907-multi-verminderte-quarte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 71, Saunders-Modell, T. 2–3 · melodische verminderte Quarte in Moll",
+          "text": "Im dreistimmigen Mollmodell nach Saunders nennt York die verminderte Quarte zwischen dem zweiten und dritten Takt ausdrücklich gut. Damit erhält seine strenge Übungspraxis eine konkret belegte Ausnahme, die sich nicht durch ein pauschales Verbot aller verminderten melodischen Intervalle beschreiben lässt. Die Aussage bleibt an diesen Mollverlauf gebunden. Dieselbe Erläuterung beurteilt die später markierte Folge von reiner zu verminderter Quinte in gleichgerichteter Bewegung als zweifelhaft; die melodische Intervallerlaubnis rechtfertigt also nicht zugleich jede vertikale Fortschreitung.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige zweite Spezies in Moll · lokaler melodischer Ausnahmefall",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 71, Saunders-Modell, T. 2–3 · melodische verminderte Quarte in Moll",
+              "note": "Der Kommentar und das Saunders-Modell auf S. 71 wurden visuell gelesen. Melodische verminderte Quarte und gleichzeitig kommentierte vertikale Quintfolge werden ausdrücklich getrennt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=83"
+        },
+        {
+          "id": "york1907-free-12",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 138, Fig. 89 · erweiterte Sprungintervalle",
+          "text": "York lässt im freien Kontrapunkt auch übermäßige und verminderte melodische Intervalle zu. Als häufige Fälle nennt er übermäßige Sekunde und Quarte sowie verminderte Quinte und Septime. Besonders naheliegend sind für ihn solche Intervalle, deren Töne bereits zum Dur- oder Mollmaterial gehören; in seiner Erläuterung erscheint dabei auch die verminderte Quarte in Moll. Chromatisch entstehende ungewöhnliche Sprünge führen häufig zu einem dissonanten Durchgangs- oder Vorschlagston. Entscheidend bleibt damit der Verlauf der Linie, in dem das Intervall eine verständliche Aufgabe erhält.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · melodische Sprünge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 138, Fig. 89 · erweiterte Sprungintervalle",
+              "note": "Der Text und Fig. 89 wurden visuell geprüft. Die Stelle enthält keine eigene allgemeine Vokal-/Instrumentaltrennung; eine solche wird nicht aus dem Publikationsdatum oder aus anderen Lehrbüchern ergänzt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=150"
         }
       ],
       "related": [
         "generalbass-sextakkord",
         "sprung-und-taktgewicht",
         "tritonus-melodiebogen",
-        "satzmedium"
+        "satzmedium",
+        "melodischer-ambitus",
+        "moll-stufenfuehrung"
       ],
       "relations": [
         {
@@ -3997,6 +4376,12 @@ const ATLAS = {
           "to": "jeppesen1964-1",
           "type": "context",
           "note": "Spalding begründet die absteigende übermäßige Sekunde ausdrücklich mit ihrer Ausführbarkeit auf Streichern und einem passenden Tempo. Jeppesens hier belegter melodischer Vorrat für den Palestrina-Stil schließt übermäßige Intervalle aus. Instrumentale Schreibaufgabe und vokales Stilmodell haben unterschiedliche Voraussetzungen."
+        },
+        {
+          "from": "york1907-open-sprungvorrat",
+          "to": "spalding1904-two-spruenge-erste",
+          "type": "nuance",
+          "note": "Beide bevorzugen Schritte und verlangen nach der verminderten Quinte eine Rückkehr in den übersprungenen Raum. Spalding zählt die große Sexte im Sprungvorrat der ersten Ordnung gleich mit auf; York bezeichnet sie ausdrücklich als selten und setzt den übrigen Vorrat enger an."
         }
       ]
     },
@@ -4193,6 +4578,32 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "york1907-open-verminderte-quinte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 2–3, Fig. 1c",
+          "text": "Die verminderte Quinte ist bei York eine sparsam einzusetzende Ausnahme vom engen Sprungvorrat. Nach dem Sprung muss die Stimme schrittweise in den übersprungenen Raum zurückkehren. Die folgende Bewegung gehört damit zur Beurteilung des Sprungs selbst. Fig. 1c stellt die rückkehrende Fortsetzung einer unzulässigen Weiterführung gegenüber. Daraus lässt sich keine allgemeine Erlaubnis beliebiger verminderter Intervalle ableiten.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Rückkehr nach einem ausnahmsweise erlaubten Sprung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 2–3, Fig. 1c",
+              "note": "Der Text nennt die Bedingung returns within the interval by degrees ausdrücklich und verweist auf Fig. 1c."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=14"
         }
       ],
       "relations": [
@@ -4334,6 +4745,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "york1907-two-arpeggien-und-figuren",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 1; Kap. I, S. 8–9, Fig. 8; Kap. III, S. 28, Fig. 31",
+          "text": "Für seine strengen Übungen misstraut York einer Melodie, die nur einen Dreiklang auseinanderlegt. Akkordbrechungen können den Eindruck einer einzigen Harmonie verstärken und damit die Eigenständigkeit der Linie schwächen. In der dritten Spezies fordert er deshalb ausdrücklich, Arpeggiogruppen und wiederholte Figuren zu vermeiden. Das ist eine Auswahlregel seines Anfangsunterrichts. Sie besagt nicht, dass ein Dreiklang in der Harmonie fehlen soll oder dass sämtliche historischen Instrumentalmelodien ohne Akkordbrechungen auskommen müssten.",
+          "speciesScope": [
+            1,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Melodische Eigenständigkeit gegenüber bloßer Akkordzerlegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 1; Kap. I, S. 8–9, Fig. 8; Kap. III, S. 28, Fig. 31",
+              "note": "Die Einleitung begründet das Vermeiden durch variety; die späteren Figuren konkretisieren dieselbe didaktische Wahl."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=13"
         }
       ],
       "relations": [
@@ -4714,6 +5148,28 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "york1907-two-zweite-durchgang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 15–16, Fig. 14–16",
+          "text": "In der zweiten Spezies ist die erste Takthälfte konsonant; auf der zweiten darf eine Dissonanz stehen. Sie muss schrittweise erreicht und verlassen werden. York lässt sowohl den gerichteten Durchgang als auch die Rückkehr zum Ausgangston zu, die er changing tone nennt. Ein dissonanter Ton auf der leichten Hälfte ist ihm sogar lieber als eine ausschließlich konsonante Ausfüllung. Die Quarte bleibt dabei eine Dissonanz und darf nicht wie ein frei springender Akkordton behandelt werden.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Durchgang und rückkehrende Nebennote im Zwei-gegen-eins",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 15–16, Fig. 14–16",
+              "note": "Fig. 14–16 unterscheiden Konsonanz, Durchgang und rückkehrende changing tone. Der Wortgebrauch ist hier enger als die auf S. 30 ergänzte Umspielungsfigur."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=27"
         }
       ],
       "relations": [
@@ -5448,6 +5904,50 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=194"
+        },
+        {
+          "id": "york1907-two-vorhalte-oben-unten",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 38–40, Fig. 41–44",
+          "text": "Der betonte dissonante Ton der vierten Spezies muss bei York aus einer vorherigen Konsonanz gebunden sein. Für die obere Gegenstimme nennt er 9–8, 7–6 und 4–3; 7–6 ist ihm am günstigsten, 2–1 schließt er aus. Unten nennt er 2–3, 4–5 und 5–6, bevorzugt 2–3 und verbietet 7–8. Diese Zahlen beschreiben Intervalle zwischen den Stimmen: Bei einem Bassvorhalt kann deshalb ein größer werdendes Intervall mit einem abwärtsgehenden Basston verbunden sein. Die seltene obere Fortschreitung 5–6 erklärt er gesondert als aufwärts gerichtete Verzögerung oder als Wechsel der Harmonie.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Obere und untere Vorhaltsintervalle im Zweistimmensatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 38–40, Fig. 41–44",
+              "note": "Die vollständigen Listen stehen auf S. 40; S. 38–39 erörtern den besonderen oberen Fall 5–6. Intervallrichtung und Stimmbewegung werden getrennt gehalten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=50"
+        },
+        {
+          "id": "york1907-free-07",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 136, Fig. 86a · betonter Durchgang",
+          "text": "In der zweiten Spezies des freien Kontrapunkts darf ein Durchgangston nach York auch auf der betonten Zeit stehen. Fig. 86a verlegt die Dissonanz auf die schwere Position, statt sie wie im strengen Lehrgang ausschließlich der leichten Takthälfte zuzuweisen. Die Bewegungsrichtung und der Anschluss an die umgebenden Töne bleiben entscheidend. Die Betonung allein macht einen solchen Ton im freien Satz somit noch nicht fehlerhaft.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · zweite Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 136, Fig. 86a · betonter Durchgang",
+              "note": "Der Text vor Fig. 86 bezeichnet passing tones on the accented part ausdrücklich als Erweiterung gegenüber Strict Counterpoint. Fig. 86a wurde visuell gelesen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=148"
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -5963,6 +6463,53 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=94"
+        },
+        {
+          "id": "york1907-multi-sprung-gegen-durchgang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 124, Fig. 82b · Akkordsprung gegen Durchgangsbewegung",
+          "text": "Eine Stimme darf in Yorks kombiniertem Satz zwischen Akkordtönen springen, während eine andere schrittweise Durchgangstöne führt. Der Zielton des Sprungs muss aber auch zum gleichzeitig erklingenden Durchgangston passen. Dass der springende Ton zum zugrunde liegenden Akkord gehört, genügt also nicht, wenn er mit der anderen bewegten Stimme dissoniert. Fig. 82b zeigt die Unterscheidung unmittelbar: York verwirft den zweiten Ton, während er den vierten anerkennt. Zu prüfen ist das wirkliche Stimmenpaar am Sprungziel, nicht nur die abstrakte Akkordzugehörigkeit.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierte Spezies · Sprungziel gegenüber einer gleichzeitig bewegten Stimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 124, Fig. 82b · Akkordsprung gegen Durchgangsbewegung",
+              "note": "Die Regel und die Bewertung des zweiten und vierten Tons stehen ausdrücklich bei Fig. 82b. Partitur und Kommentar wurden gemeinsam geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=136"
+        },
+        {
+          "id": "york1907-free-08",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 136, Fig. 86b und d · angesprungene Dissonanz",
+          "text": "York erlaubt im freien Zwei-gegen-eins auch den Sprung in eine betonte Dissonanz; Fig. 86b zeigt dies einschließlich chromatischer Töne. Für eine angesprungene Dissonanz auf unbetonter Zeit nennt er eine bestimmte Fortführung: Sie muss anschließend im Sekundschritt aufgelöst werden, wie Fig. 86d. Anspringen und Verlassen werden damit getrennt beurteilt. Die Erlaubnis des ersten Sprungs gestattet nicht zugleich einen beliebigen zweiten Sprung aus der unbetonten Dissonanz.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · zweite Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 136, Fig. 86b und d · angesprungene Dissonanz",
+              "note": "S. 136 nennt für b den accented dissonance by a leap; für d lautet die Bedingung must be resolved by a step of a second. Diese explizite Bedingung wird nicht unbesehen auf jedes andere freie Dissonanzmodell übertragen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=148"
         }
       ],
       "relations": [
@@ -6013,6 +6560,12 @@ const ATLAS = {
           "to": "piston1947-1",
           "type": "context",
           "note": "Piston beschreibt die häufig angesprungene Appoggiatura des tonalen Repertoires ohne die hier formulierte Dominantbeschränkung. Daniel trennt heteroleptische und elliptische Einführung und lässt die eigentliche Auslassung des Einführungstons im Choralsatz nur bei dominantischen Dissonanzen gelten."
+        },
+        {
+          "from": "york1907-free-08",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux verlangt für den angesprungenen Ton der leichten Halben eine Konsonanz. York lässt ihn in der freien zweiten Spezies dissonieren, wenn anschließend die schrittweise Auflösung folgt. Beide Aussagen beziehen sich auf denselben Eintrittsvorgang, aber auf verschiedene Übungsrahmen."
         }
       ]
     },
@@ -6803,6 +7356,94 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=155"
+        },
+        {
+          "id": "york1907-two-synkope-aufloesung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 38–40, Fig. 41–44",
+          "text": "Den eigentlichen dissonanten Vorhalt führt York in der vierten Spezies einen Schritt abwärts in eine Konsonanz. Eine konsonante Synkope ist freier und kann springen. Den oberen Gang 5–6 lässt er selten zu, behandelt ihn aber als Sonderfall: Entweder wirkt die Quinte hier wie eine aufwärts aufgelöste Verzögerung, oder man nimmt zwei Harmonien innerhalb des Taktes an. Dieses Beispiel rechtfertigt kein allgemeines Aufwärtsauflösen jeder Vorhaltsdissonanz. Die Zahlen von Bassvorhalten sind außerdem vom tatsächlichen Weg der Bassstimme zu unterscheiden.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Regel und besonders erklärte Ausnahme der Vorhaltsauflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 38–40, Fig. 41–44",
+              "note": "Die beiden Deutungen der Quinte stehen im Übergang S. 38–39; die übrigen dissonanten Vorhalte werden ausdrücklich abwärts geführt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=50"
+        },
+        {
+          "id": "york1907-free-10",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 137, Fig. 88a–d · freie dritte Spezies",
+          "text": "Eine betonte Dissonanz kann in Yorks freier dritter Spezies wie ein Vorhalt vorbereitet und aufgelöst werden. Sie kann auch zunächst konsonant erklingen und beim erneuten Anschlag dissonant werden. Für die Fortsetzung lässt York mehrere Wege zu: die gewöhnliche schrittweise Auflösung, den Wechsel zu einem anderen Ton des folgenden Akkords oder den Sprung zu einem Nachbarton des Auflösungsziels mit anschließender Rückkehr zum Zielton. Die Beispiele unterscheiden somit die direkte Auflösung von ihrer melodischen Umspielung und von einem anders geführten Harmoniewechsel.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · betonte Dissonanzen in der dritten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 137, Fig. 88a–d · freie dritte Spezies",
+              "note": "Die Abfolge a–d folgt der wörtlichen Erläuterung zu Fig. 88 auf S. 137. Die besondere Auflösung zum Dominantseptakkord f–g erhält eine eigene Antwort unter konsonanz."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=149"
+        },
+        {
+          "id": "york1907-free-17",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 141–142, Fig. 93–94 und Bach-Beispiel · verzierte Vorhaltsauflösung",
+          "text": "Vor dem eigentlichen Auflösungston darf ein freier Vorhalt nach York zunächst einen anderen Ton des Akkords anspringen und anschließend zum Ziel zurückkehren. Eine weitere Möglichkeit führt im Terzsprung zu einem Ton unmittelbar ober- oder unterhalb des Auflösungsziels; erst danach folgt der Sekundschritt zum Ziel. Fig. 93 und 94 unterscheiden diese Wege. York zählt solche Auszierungen eher zur fünften Spezies und ergänzt ein Bach-Beispiel für unregelmäßige Auflösungen. Der aufgeschobene Zielton bleibt dabei als Bezugspunkt hörbar.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier florider Kontrapunkt · Umspielung der Vorhaltsauflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XVI, S. 141–142, Fig. 93–94 und Bach-Beispiel · verzierte Vorhaltsauflösung",
+              "note": "Die Zuordnung eher zur fünften als zur vierten Spezies steht nach Fig. 94 auf S. 142. Das folgende Beispiel trägt nur die Zuschreibung Bach; eine nicht angegebene Werknummer wird nicht ergänzt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=153"
+        },
+        {
+          "id": "york1907-free-20",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 143, Fig. 98 · Übertragung der Auflösung auf eine andere Stimme",
+          "text": "Eine Dissonanz muss im freien Satz nach York nicht immer von derselben Stimme vollständig aufgelöst werden. Die betroffene Stimme kann zu einem anderen Ton des dissonanten Akkords wechseln, während eine zweite Stimme die Auflösungsbewegung übernimmt. Fig. 98 zeigt diese Verteilung der Aufgabe. Der Auflösungszusammenhang wird damit zwischen den Stimmen weitergegeben; York bezeichnet gerade dieses Verfahren als unzulässig im strengen Kontrapunkt.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier florider Kontrapunkt · stimmübergreifende Dissonanzauflösung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XVI, S. 143, Fig. 98 · Übertragung der Auflösung auf eine andere Stimme",
+              "note": "Die Erklärung vor Fig. 98 nennt ausdrücklich leaving to another voice the duty of resolving the dissonance. Dies wird nicht als beliebiges Ausbleiben jeder Auflösung wiedergegeben."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=155"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -7787,6 +8428,183 @@ const ATLAS = {
           ],
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=263"
+        },
+        {
+          "id": "york1907-two-erste-parallelen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 8, Fig. 6",
+          "text": "York schließt in der ersten Spezies aufeinanderfolgende reine Quinten und Oktaven sowohl bei gleicher als auch bei entgegengesetzter Bewegungsrichtung aus. Der Richtungswechsel allein rettet also eine solche Intervallfolge nicht. Zusätzlich ist eine Oktavverdopplung des Leittons verboten. Die Regel betrifft die einfachen Note-gegen-Note-Verbindungen dieser Anfangsaufgabe; die späteren Unterscheidungen zwischen harmonisch tragenden und durchgehenden Tönen werden hier noch nicht angewendet.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Offene Quinten- und Oktavfolgen der ersten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 8, Fig. 6",
+              "note": "S. 8 nennt ausdrücklich auch contrary motion und führt die Leittonoktave als zusätzliche Beschränkung an."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=20"
+        },
+        {
+          "id": "york1907-two-zweite-parallelen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 17–18, Fig. 20–21; S. 25",
+          "text": "York prüft im Zwei-gegen-eins drei Verbindungen: den unmittelbaren Taktübergang, die beiden aufeinanderfolgenden Taktanfänge und die jeweils zweiten Noten benachbarter Takte. In allen drei können unerlaubte Quinten- oder Oktavfolgen entstehen. Für die Verbindung der leichten Hälften nennt er jedoch eine Einschränkung: Ist einer der beteiligten Töne nur Durchgang und kein harmonisch tragender Ton, kann die Folge zugelassen werden. Das kommentierte Modell auf S. 25 wendet diese Begründung auf Quinten an. Ein beliebiger eingeschobener Ton beseitigt dagegen nicht automatisch eine schlechte Fortschreitung.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Quinten- und Oktavprüfung über mehrere metrische Positionen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 17–18, Fig. 20–21; S. 25",
+              "note": "Die drei Prüfstellen und die Durchgangsausnahme stehen ausdrücklich auf S. 17–18; Fig. 21 und das spätere Modell wurden im Zusammenhang gelesen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=29"
+        },
+        {
+          "id": "york1907-two-dritte-abstand",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 29; S. 31, Fig. 38a",
+          "text": "Für das Vier-gegen-eins gibt York eine vorsichtige Abstandsempfehlung: Zwischen zwei Quinten beziehungsweise zwei Oktaven sollen mindestens vier Noten stehen, um ihre schlechte Wirkung sicher zu vermeiden. Mehr Freiheit ist möglich, wenn einer oder beide der beteiligten Töne Durchgänge sind. Die Fehleranalyse auf S. 31 zeigt zugleich, dass wiederkehrende Oktaven auf Akzenten auch über einen längeren Ausschnitt hinweg gehört werden müssen. Der bloße Blick auf unmittelbar benachbarte Töne genügt deshalb nicht.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Abstand und metrische Hervorhebung reiner Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 29; S. 31, Fig. 38a",
+              "note": "S. 29 formuliert eine sichere Vermeidungsstrategie, keine erschöpfende Erlaubnistabelle für alle kürzeren Abstände. Die Fernbezüge in Fig. 38a werden nicht auf die unmittelbare Folge reduziert."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=41"
+        },
+        {
+          "id": "york1907-two-synkope-parallelen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 39–42, Fig. 41c und 45–47",
+          "text": "Eine schlechte Quinten- oder Oktavfolge der zugrunde liegenden ersten Spezies wird bei York durch Synkopierung nicht gut. Deshalb prüft er die harmonisch tragenden Auflösungen. Umgekehrt können auf den gebundenen, harmonisch untergeordneten Taktanfängen Quinten erscheinen, ohne dieselbe Wirkung zu haben. Das von Bridge übernommene Beispiel Fig. 46 lässt er unter dieser Begründung gelten, empfiehlt es dem Anfänger aber ausdrücklich nicht als Muster. Verdeckte Quinten bleiben gesondert zu prüfen. Zählzeit, harmonische Funktion und die didaktische Empfehlung sind hier voneinander zu unterscheiden.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Parallelenprüfung am harmonischen Gerüst einer Synkope",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 39–42, Fig. 41c und 45–47",
+              "note": "Fig. 45 zeigt erfolglose rhythmische Verschleierung, Fig. 46 die ausdrücklich eingeschränkte Ausnahme; die verbale Ablehnung als Schülermodell bleibt erhalten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=51",
+          "examples": [
+            "york-synkope-harmonie"
+          ]
+        },
+        {
+          "id": "york1907-multi-parallelen-zweite",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 66–67, Fig. 65a; S. 72, Fétis-Modell · starke Positionen der zweiten Spezies",
+          "text": "In der dreistimmigen zweiten Spezies verbietet York Quint- und Oktavfolgen zwischen den ersten Noten benachbarter Takte in jedem Stimmenpaar. Ein Zwischenton auf der leichten Hälfte beseitigt das Problem nicht automatisch. Am Fétis-Modell auf S. 72 spricht er eine verbreitete Begründung ausdrücklich an: Manche hielten den eingeschobenen Quartsprung für ausreichend, um die dortigen Quinten zu entschärfen. York empfiehlt dem Schüler dennoch, diese Fortschreitung nicht nachzuahmen. Die Stelle dokumentiert seine strenge Übungsauswahl, ohne zu behaupten, alle Lehrbücher beurteilten den Fall gleich.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige zweite Spezies · verdeckte Gerüstparallelen und Lehrmodellkritik",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 66–67, Fig. 65a; S. 72, Fétis-Modell · starke Positionen der zweiten Spezies",
+              "note": "Die Quintenmarkierungen und der Quartsprung im sechsten Takt des Fétis-Modells wurden visuell geprüft. Ein Vergleich mit Fux wäre vorsichtig zu führen: Der bestehende Fux-Endpunkt erlaubt einen Quartsprung ausdrücklich im Oktavbeispiel, während York hier ein Quintbeispiel kommentiert."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=78"
+        },
+        {
+          "id": "york1907-multi-parallelen-dritte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IX, S. 75, Fig. 69, und S. 81–82; Kap. XII, S. 108 · Abstand und Hervorhebung perfekter Intervalle",
+          "text": "In drei Stimmen sollen bei York weder die ersten noch die dritten Viertel aufeinanderfolgender Takte Quint- oder Oktavparallelen bilden; auch der Übergang vom vierten Viertel zum nächsten ersten bleibt gesperrt. Für andere Positionen kann eine geringere Trennung als vier Viertel zulässig sein, besonders wenn wenigstens einer der beteiligten Töne Durchgangscharakter hat. Am Modell auf S. 81–82 akzeptiert er zwei dazwischenliegende Viertel, betont aber, dass zwei entsprechende tiefste Gruppentöne die Oktavfolge auffälliger machen würden. Auch das vierstimmige Beispiel auf S. 108 zeigt kürzere Abstände, verbunden mit der ausdrücklichen Warnung vor freiem Gebrauch. Die reine Zahl der Zwischentöne entscheidet somit nicht allein.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Drei- und vierstimmige dritte Spezies · Gerüstpositionen, Durchgänge und Gruppengrenzen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, S. 75, Fig. 69, und S. 81–82; Kap. XII, S. 108 · Abstand und Hervorhebung perfekter Intervalle",
+              "note": "Die erste/dritte/vierte Positionsregel stammt aus S. 75. Die beiden ausdrücklich kommentierten Modellqualifikationen auf S. 82 und 108 bleiben als begrenzte Fälle erhalten; die tiefsten Gruppentöne sind nur für den konkreten Oktavvergleich auf S. 82 genannt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=87"
+        },
+        {
+          "id": "york1907-multi-parallelen-synkope",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. X, S. 83–84 · Auflösungspositionen der vierten Spezies",
+          "text": "Bei der dreistimmigen vierten Spezies dürfen nach York keine Quint- oder Oktavparallelen zwischen den zweiten Hälften benachbarter Takte entstehen. Gerade diese Auflösungspositionen bilden das harmonische Gerüst. Die vorhergehende Bindung auf der ersten Hälfte kann den Satz zwar vorübergehend dissonant machen, sie heilt aber keine falsche Verbindung der anschließenden konsonanten Klänge. Zur Prüfung ist deshalb die Folge der zweiten Halben zusätzlich zum vollständigen rhythmischen Verlauf zu lesen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige vierte Spezies · Verbindung der Auflösungsklänge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, S. 83–84 · Auflösungspositionen der vierten Spezies",
+              "note": "S. 84 formuliert das Verbot für die zweite Hälfte ausdrücklich; S. 83 begründet deren harmonische Bedeutung. Der Hinweis auf eine zusätzliche Lesung der zweiten Halben ist die unmittelbar daraus folgende Prüfanweisung."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=95"
+        },
+        {
+          "id": "york1907-multi-gegenlaeufige-perfekte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 99; Kap. XIII, S. 118–119, Fig. 79a · perfekte Intervalle in Gegenbewegung",
+          "text": "In vier Stimmen hält York aufeinanderfolgende Quinten oder Oktaven in Gegenbewegung für kaum besser als die verbotenen parallelen Folgen. Bei fünf oder mehr Stimmen räumt er gelegentliche gegenläufige Oktaven und seltener Quinten ein. Für acht Stimmen nennt er die Erlaubnis nochmals ausdrücklich: Oktave und Einklang dürfen ineinander übergehen, ebenso Oktave in Oktave oder Quinte in Quinte, wenn Gegenbewegung vorliegt. Fig. 79a zeigt den Nutzen besonders für die beiden Bassstimmen. Parallel geführte Quinten und Oktaven bleiben auch in diesem Kapitel verboten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vier- bis achtstimmige strenge Übungen · Gegenbewegung als gestufte Ausnahme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 99; Kap. XIII, S. 118–119, Fig. 79a · perfekte Intervalle in Gegenbewegung",
+              "note": "Die allgemeine Lockerung beginnt auf S. 118 bei fünf Stimmen; die konkret aufgezählten Folgen und das Bassbeispiel auf S. 119 beziehen sich ausdrücklich auf acht Stimmen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=111"
         }
       ],
       "relations": [
@@ -8516,6 +9334,73 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=146"
+        },
+        {
+          "id": "york1907-two-verdeckte-erste-zweite",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 8; Kap. II, S. 17, Fig. 19",
+          "text": "Im strengen zweistimmigen Anfangssatz verbietet York verdeckte Quinten und Oktaven. In der zweiten Spezies erläutert er den Ausdruck als Erreichen einer Quinte oder Oktave durch gleichgerichtete Bewegung beider Stimmen. Da der Cantus innerhalb des Taktes ruht, tritt dieser Fall dort am Übergang von der zweiten Takthälfte zum nächsten Taktanfang auf. Eine pauschale Erleichterung für schrittweise Oberstimmen oder Halbtonschritte nennt er an dieser Stelle nicht. Sein Begriff ist von der offenen Folge zweier bereits vorhandener Quinten oder Oktaven zu unterscheiden.",
+          "speciesScope": [
+            1,
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Verdeckte reine Intervalle im strengen Zweistimmensatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 8; Kap. II, S. 17, Fig. 19",
+              "note": "Kap. II definiert die in Kap. I knapp genannte Regel und lokalisiert den möglichen Übergang genau."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=20"
+        },
+        {
+          "id": "york1907-multi-verdeckte-drei",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 58, Fig. 58; Kap. VIII, S. 67, Fig. 65b; Kap. IX, S. 75 · drei Stimmen",
+          "text": "Im Dreistimmensatz soll man verdeckte Quinten und Oktaven besonders zwischen den Außenstimmen vermeiden. York lässt sie bei der Kadenz sowie bei der bloßen Umverteilung desselben Akkords zu. In der zweiten und dritten Spezies lockert er die Forderung etwas, ohne auffällige Fälle deshalb zu empfehlen. Für die zweite Spezies nennt er eine konkrete Grenze: Eine Septime oder None soll nicht durch gleichgerichtete Bewegung in eine Oktave übergehen. Die zusätzliche Stimme beseitigt für ihn also nicht die Notwendigkeit, das betreffende Stimmenpaar einzeln zu prüfen.",
+          "speciesScope": [
+            1,
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge dreistimmige Übung · verdeckte perfekte Intervalle nach Satzlage und Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 58, Fig. 58; Kap. VIII, S. 67, Fig. 65b; Kap. IX, S. 75 · drei Stimmen",
+              "note": "Die allgemeine Regel und ihre zwei genannten Ausnahmen stehen auf S. 58; die beiden späteren Kapitel formulieren die Lockerung ausdrücklich. Fig. 65b zeigt die beanstandeten Folgen 9–8 und 7–8."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=70"
+        },
+        {
+          "id": "york1907-multi-verdeckte-vier-viel",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 99; Kap. XIII, S. 118 · verdeckte Quinten und Oktaven bei steigender Stimmenzahl",
+          "text": "Im Vierstimmensatz behandelt York verdeckte Quinten und Oktaven freier als in zwei oder drei Stimmen, empfiehlt aber weiterhin, sie besonders zwischen den Außenstimmen zu vermeiden. Verdeckte Außenstimmenoktaven an der Kadenz bezeichnet er als gebräuchlich. Bei fünf oder mehr Stimmen lässt er verdeckte Quinten und Oktaven zwischen anderen Stimmen ausdrücklich zu. Zwischen den Außenstimmen gilt dort die zusätzliche Bedingung, dass der Sopran schrittweise und der Bass springend fortschreitet. Die größere Freiheit hängt somit an Stimmenzahl und Stimmenpaar.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge vier- und vielstimmige Übungen · verdeckte perfekte Intervalle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 99; Kap. XIII, S. 118 · verdeckte Quinten und Oktaven bei steigender Stimmenzahl",
+              "note": "S. 99 unterscheidet vierstimmigen Regelfall und Kadenz. S. 118 nennt für fünf und mehr Stimmen die genaue Außenstimmenbedingung; die Aussage wird nicht auf Zweistimmigkeit übertragen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=111"
         }
       ],
       "relations": [
@@ -8626,6 +9511,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "nuance",
           "note": "Für die erste Ordnung empfiehlt Prout, verdeckte Quinten und Oktaven auch an der Kadenz zu meiden. Spalding bewertet innerhalb derselben Note-gegen-Note-Aufgabe bestimmte Annäherungen ausdrücklich positiv, darunter die aufsteigende verdeckte Oktave bei halbtonweise aufsteigender Oberstimme. Verglichen werden diese Anfangsempfehlungen; Prouts gesonderte Möglichkeiten der zweiten Spezies werden dadurch nicht bestritten."
+        },
+        {
+          "from": "york1907-two-verdeckte-erste-zweite",
+          "to": "spalding1904-two-verdeckte-erste",
+          "type": "nuance",
+          "note": "Für die zweistimmige Anfangsaufgabe formuliert York ein Verbot verdeckter Quinten und Oktaven. Spalding differenziert im gleichen Note-gegen-Note-Rahmen nach Richtung, Schrittgröße und Oberstimmenführung und erlaubt etwa die aufsteigende Oktave bei oberem Halbtonschritt. Es handelt sich um unterschiedlich enge Übungsregeln."
         }
       ]
     },
@@ -9338,6 +10229,90 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=250"
+        },
+        {
+          "id": "york1907-two-erste-kreuzung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 8",
+          "text": "Die Stimmen sollen sich in Yorks erster Spezies nicht kreuzen. Er begründet dies mit Klarheit: Die Registerordnung hilft, die einzelnen Fortschreitungen voneinander zu unterscheiden. Das Verbot gehört zur einfachen Anfangsaufgabe. In der dritten Spezies formuliert York bereits vorsichtiger und erwähnt gelegentlich zugelassene Kreuzungen; seine Aussagen sind daher nach Übungsstufe zu lesen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Klare Registerordnung der ersten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 8",
+              "note": "S. 8 beruft sich auf das Prinzip clearness; die Einschränkung gegenüber dem späteren Wortlaut auf S. 30 wird ausdrücklich kenntlich gemacht."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=20"
+        },
+        {
+          "id": "york1907-two-dritte-kreuzung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 30",
+          "text": "In der dritten Spezies empfiehlt York weiterhin, Kreuzungen zu vermeiden, erwähnt aber ausdrücklich, dass sie manchmal zugelassen werden. Er nennt an dieser Stelle keine allgemeine Falltabelle solcher Ausnahmen. Die stärkere Bindung besteht beim Übergreifen und bei der Tonwiederholung fort. Die Formulierung ist deshalb vorsichtiger als das Kreuzungsverbot der ersten Spezies, ohne bereits eine freie instrumentale Kreuzungspraxis zu eröffnen.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vorzugsweise klare Registerordnung in der dritten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 30",
+              "note": "Der Wortlaut best ... though this is sometimes allowed unterscheidet sich von den unmittelbar davor genannten Verboten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=42"
+        },
+        {
+          "id": "york1907-multi-kreuzung-drei-vier",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 58–59; Kap. VII, S. 61; Kap. IX, S. 74; Kap. XII, S. 100 · begrenzte Kreuzung der Oberstimmen",
+          "text": "Gelegentliche Stimmkreuzung kann bei York eine bessere melodische Fortschreitung ermöglichen; im Dreistimmensatz sollen die Stimmen aber nicht länger als zwei Takte gekreuzt bleiben. Das Kreuzen des Basses beanstandet er bereits im dreistimmigen Modellkommentar. Für die dritte Spezies präzisiert er: Die beiden oberen Stimmen dürfen sich für wenige Töne kreuzen, keine von ihnen soll unter die tiefste Stimme treten. Im vierstimmigen Satz bleiben Kreuzung und Übergreifen ebenfalls sparsame Hilfsmittel; die tiefste Stimme soll auch hier nicht gekreuzt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge drei- und vierstimmige Übung · melodischer Gewinn und erhaltene Bassgrenze",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 58–59; Kap. VII, S. 61; Kap. IX, S. 74; Kap. XII, S. 100 · begrenzte Kreuzung der Oberstimmen",
+              "note": "Die allgemeine Zweitaktgrenze steht auf S. 59, die ausdrückliche Bassgrenze auf S. 74 und 100; S. 61 nennt dieselbe Vorsicht am Cherubini-Modell. Keine universelle Ablehnung jeder Oberstimmenkreuzung."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=70"
+        },
+        {
+          "id": "york1907-multi-kreuzung-vielstimmig",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIII, S. 118 · Innenstimmen bei fünf oder mehr Stimmen",
+          "text": "Mit fünf oder mehr Stimmen verändert York die Bewertung von Innenstimmenkreuzungen deutlich. Häufige Kreuzungen zwischen den inneren Stimmen sind nun nicht nur zulässig, sondern bisweilen nötig; auch Überlappungen lassen sich nicht immer vermeiden. Diese Aussage betrifft den dichten vielstimmigen Satz. Sie darf nicht als rückwirkende Aufhebung seiner sparsamen Behandlung der Kreuzung in drei und vier Stimmen gelesen werden. Die einzelne Linie muss trotz wechselnder vertikaler Reihenfolge verständlich bleiben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge Übungen mit fünf oder mehr Stimmen · notwendige Innenstimmenkreuzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, S. 118 · Innenstimmen bei fünf oder mehr Stimmen",
+              "note": "Die ausdrückliche Lockerung auf S. 118 betrifft die inneren Stimmen. Eine neue Erlaubnis zum Kreuzen der tiefsten Stimme wird aus dieser Passage nicht abgeleitet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=130"
         }
       ],
       "reading": "Im Handout steht für beide Speziesmodelle „Verboten“. Suche im Beispiel von Fux die Stelle, an der die Unterstimme über den Cantus steigt. Prüfe bei Prout zusätzlich, auf welche Zählzeit die Kreuzung fällt.",
@@ -9460,6 +10435,12 @@ const ATLAS = {
           "to": "kennan1999-1",
           "type": "context",
           "note": "Kennan schließt Kreuzungen in den ersten zweistimmigen Aufgaben vorläufig aus, damit beide Linien als Ober- und Unterstimme lesbar bleiben. Spalding empfiehlt sie im fortgeschrittenen freien Streichersatz gerade für melodische Kontur und Instrumentenregister. Die gegensätzlichen Anweisungen betreffen verschiedene Übungsstufen, Besetzungen und Lernziele; sie sind kein allgemeiner Widerspruch über komponierte Musik."
+        },
+        {
+          "from": "york1907-multi-kreuzung-drei-vier",
+          "to": "spalding1904-multi-kreuzung-vier-stimmen",
+          "type": "nuance",
+          "note": "Im vierstimmigen Übungsrahmen erlauben beide Autoren gelegentliche Kreuzungen, besonders zwischen Innenstimmen. York hält auf S. 100 die tiefste Stimme ausdrücklich von solchen Kreuzungen frei. Spaldings vierstimmige Erläuterung nennt neben dem Alt über dem Sopran auch den selteneren Fall eines Basses über dem Tenor. Der Unterschied betrifft diese konkrete Bassgrenze, nicht eine allgemeine Gegenüberstellung von Kreuzungsverbot und beliebiger Kreuzungsfreiheit."
         }
       ]
     },
@@ -9592,6 +10573,29 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
+        },
+        {
+          "id": "york1907-two-uebergreifen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 8, Fig. 8a; Kap. III, S. 30",
+          "text": "York unterscheidet das Übergreifen von einer tatsächlichen Kreuzung. Eine Stimme soll nicht über den Ton hinausspringen, den die andere gerade verlassen hat. Auch wenn die beiden aktuellen Töne noch in der üblichen Registerordnung liegen, kann dieser Wechsel die melodischen Zuständigkeiten verwischen. Fig. 8a zeigt die beanstandeten Fälle. Das Verbot wird in der dritten Spezies wiederholt und dort nicht mit der vorsichtigen Lockerung für Kreuzungen gleichgesetzt.",
+          "speciesScope": [
+            1,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Übergreifen als Verlust der melodischen Zuordnung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 8, Fig. 8a; Kap. III, S. 30",
+              "note": "Die Definition steht auf S. 8; S. 30 unterscheidet erneut zwischen unverändertem Übergreifverbot und nur vorzugsweise vermiedener Kreuzung."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=20"
         }
       ],
       "relations": [
@@ -9942,6 +10946,70 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=243"
+        },
+        {
+          "id": "york1907-two-zweite-lagenabstand",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 23–24",
+          "text": "Bei den Modellen der zweiten Spezies beurteilt York nicht nur richtige Intervalle und Fortschreitungen, sondern auch die gemeinsame Lage. Für zwei aufeinanderfolgende Beispiele empfiehlt er, den Sopran eine Oktave tiefer oder den Bass eine Oktave höher zu setzen; dann würden die Stimmen besser zusammenwirken. Er nennt an dieser Stelle keine allgemeine zahlenmäßige Abstandsgrenze. Die konkrete Oktavversetzung soll vielmehr zeigen, dass ein korrektes Zweistimmenpaar durch eine passendere Registerverteilung gewinnen kann.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Registerabstand zweier ansonsten ausführbarer Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 23–24",
+              "note": "Der Kommentar am Anfang von S. 24 bezieht sich auf das vorausgehende und das folgende Modell und nennt beide möglichen Oktavversetzungen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=35"
+        },
+        {
+          "id": "york1907-multi-abstand-drei-vier",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 57, Fig. 56; Kap. XII, S. 98, Fig. 74 · drei- und vierstimmige Klanglage",
+          "text": "York bevorzugt eine ungefähr gleichmäßige Verteilung der Stimmen. Im Dreistimmensatz sollen benachbarte Stimmen gewöhnlich nicht weiter als eine Oktave auseinanderliegen; zwischen der tiefsten und der mittleren lässt er gelegentlich eine Dezime oder Duodezime zu. Ein größerer Zwischenraum ist dort günstiger als zwischen den beiden oberen Stimmen. Dieselbe Gewichtung gilt beim vierstimmigen Vokalmodell: Muss ein weiter Abstand entstehen, liegt er am ehesten zwischen Tenor und Bass. Zu große Lücken im übrigen Satz lassen das Ensemble für York in getrennte Gruppen auseinanderfallen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge drei- und vierstimmige Übung · ausgewogene Registerverteilung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 57, Fig. 56; Kap. XII, S. 98, Fig. 74 · drei- und vierstimmige Klanglage",
+              "note": "Die Grenzen Oktave, gelegentlich Dezime oder Duodezime betreffen die Dreistimmigkeit auf S. 57. S. 98 begründet die vierstimmige Verteilung mit dem Zusammenhalt des Vokalquartetts."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=69"
+        },
+        {
+          "id": "york1907-free-11",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 137, Fig. 88e · Dissonanz und ihr Auflösungston zugleich",
+          "text": "Im freien Satz darf nach York eine betonte Dissonanz bereits zugleich mit dem Ton erklingen, in den sie sich auflösen soll. Für dieses besondere Zusammentreffen verlangt er mindestens eine Oktave Abstand. Fig. 88e zeigt die räumliche Trennung im mehrstimmigen Satz. Die Angabe ist eine Bedingung für diese Dissonanzkonstellation, keine allgemeine Mindestdistanz zwischen sämtlichen Stimmen einer Kontrapunktübung.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · dritte Spezies und Abstand zum vorweg erklingenden Auflösungston",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 137, Fig. 88e · Dissonanz und ihr Auflösungston zugleich",
+              "note": "Der Wortlaut zu Fig. 88e lautet at the interval of at least an octave. Die Einschränkung wird auf das gleichzeitige Erklingen der Dissonanz und ihres Auflösungstons bezogen, nicht auf den allgemeinen Stimmabstand."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=149"
         }
       ],
       "reading": "Bellermann setzt für zwei benachbarte Singstimmen die Dezime als Grenze, Shaffer die Duodezime. Goetschius verteidigt in Beispiel 43c sogar einen Abstand von mehr als zwei Oktaven. Singe seine Linien einzeln und spiele dann den dritten Takt zweistimmig.",
@@ -10040,7 +11108,8 @@ const ATLAS = {
         "melodische-fortspinnung",
         "motiv-ueber-cantus",
         "fuge-formanalyse",
-        "fugenthema-umfang"
+        "fugenthema-umfang",
+        "melodischer-ambitus"
       ],
       "authors": [
         {
@@ -10862,6 +11931,31 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=108"
+        },
+        {
+          "id": "york1907-free-09",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 137, Fig. 87 · chromatische Durchgänge in der dritten Spezies",
+          "text": "Chromatische Durchgänge sind in Yorks freier dritter Spezies ausdrücklich erlaubt. Nach einem Halbtonschritt empfiehlt er, zunächst in derselben Richtung weiterzugehen. Nach zwei unmittelbar aufeinanderfolgenden Halbtonschritten verlangt er dies verbindlich: Die Stimme soll sich in weiteren Halbtonschritten bis zu einem Akkordton fortsetzen. Seine Gegenüberstellung guter und schlechter Fassungen prüft also nicht bloß, ob ein Vorzeichen vorkommt, sondern ob die begonnene chromatische Bewegung schlüssig weitergeführt wird.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · chromatische Linie in der dritten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 137, Fig. 87 · chromatische Durchgänge in der dritten Spezies",
+              "note": "Der Text unterscheidet it is best nach einem Halbton von must nach zwei aufeinanderfolgenden Halbtönen. Fig. 87 samt Good/Bad-Beschriftungen wurde vergrößert geprüft."
+            }
+          },
+          "examples": [
+            "york-chromatische-durchgaenge"
+          ],
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=149"
         }
       ],
       "related": [
@@ -10875,7 +11969,8 @@ const ATLAS = {
         "moll-neutralisierung",
         "tonart-und-region",
         "choral-modaler-tonartbezug",
-        "kadenzflucht-und-trugschluss"
+        "kadenzflucht-und-trugschluss",
+        "moll-stufenfuehrung"
       ],
       "relations": [
         {
@@ -11220,6 +12315,53 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=82"
+        },
+        {
+          "id": "york1907-two-harmoniefremde-konsonanz",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 16–17, Fig. 17",
+          "text": "Nicht jeder Ton, der zum Cantus eine Terz, Quinte oder Sexte bildet, ist bei York schon ein frei beweglicher Akkordton. Die zweite Spezies hält im Normalfall eine Harmonie pro Takt fest. Passt der zweite Gegenstimmton nicht zu dieser Harmonie, gilt er in diesem Zusammenhang als fremder Ton und muss schrittweise geführt werden. Fig. 17 erklärt das unter anderem mit g und a über c. Für die Dissonanzprüfung sind deshalb sowohl der vertikale Abstand zum Cantus als auch der harmonische Zusammenhang des ganzen Taktes nötig.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dissonanzbehandlung trotz einzelner Intervallkonsonanz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 16–17, Fig. 17",
+              "note": "Die gedruckte Erläuterung nennt die Tonpaare und folgert ausdrücklich stepwise progression aus dem Bezug auf die prevailing harmony."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=28",
+          "examples": [
+            "york-harmonie-zweistimmig"
+          ]
+        },
+        {
+          "id": "york1907-multi-dissonanz-zweite",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 65–66, Fig. 63 · drei Stimmen, zweite Spezies",
+          "text": "Die erste Hälfte der bewegten Stimme muss bei York zu beiden übrigen Stimmen passen. Eine Konsonanz nur zum Cantus genügt nicht, wenn gleichzeitig zur Zusatzstimme eine unzulässige Dissonanz entsteht. Auf der zweiten Hälfte darf die Gegenstimme dagegen zu einer oder zu beiden anderen Stimmen dissonieren, sofern die Bewegung korrekt ist. Dissonante Töne werden schrittweise erreicht und verlassen. Fig. 63b macht die Mehrfachprüfung deutlich: Eine Note kann zur einen Stimme konsonieren und dennoch gegenüber dem Bass oder der anderen gehaltenen Stimme falsch sein.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige zweite Spezies · Prüfung beider gleichzeitiger Stimmenbeziehungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 65–66, Fig. 63 · drei Stimmen, zweite Spezies",
+              "note": "Die Fälle von Fig. 63 werden über ihre Intervallbeziehungen beschrieben. Die Quarte zwischen den beiden Oberstimmen folgt weiterhin der gesonderten Regel aus Kap. VI; nicht jede isolierte Quarte wird unterschiedslos verboten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=77"
         }
       ],
       "reading": "Sing zuerst einen Durchgang und dann eine Wechselnote. Fux und Rothgeb verlangen beim dissonanten zweiten Ton die Fortsetzung in derselben Richtung. Prout lässt auch die Rückkehr zum Ausgangston zu.",
@@ -11506,6 +12648,28 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=155"
+        },
+        {
+          "id": "york1907-two-zwei-durchgaenge",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 27–28, Fig. 29–30",
+          "text": "Zwei Durchgangstöne dürfen in Yorks dritter Spezies aufeinanderfolgen. Ihre Folge muss jedoch ebenso streng schrittweise geführt werden wie ein einzelner Durchgang. Ein Sprung zwischen den fremden Tönen oder aus ihnen heraus lässt sich nicht mit der größeren Notenzahl rechtfertigen. Fig. 30 stellt eine schlechte und eine gute Führung gegenüber. Die ausdrücklich zugelassene changing-note-Figur mit Terzsprung wird anschließend als besonderer Fall behandelt und ersetzt diese allgemeine Durchgangsregel nicht.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Schrittweise Folge zweier Durchgangstöne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 27–28, Fig. 29–30",
+              "note": "Der Satz vor Fig. 30 und die spätere Sonderfigur auf S. 30 werden auseinandergehalten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=39"
         }
       ],
       "relations": [
@@ -12016,6 +13180,81 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=123"
+        },
+        {
+          "id": "york1907-two-synkopierung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 37–38, Fig. 39–41",
+          "text": "Die vierte Spezies verschiebt den Einsatz der Gegenstimme auf die zweite Takthälfte und bindet ihn in den nächsten Takt. York definiert Synkopierung als Verlängerung eines unbetonten Tones in eine betonte Position. Der neu einsetzende Ton auf der zweiten Hälfte muss zum Cantus konsonant sein. Beim Wechsel des Cantus kann derselbe gehaltene Ton dissonant werden; dann braucht er eine schrittweise Auflösung in eine Konsonanz. Bleibt er am neuen Taktanfang konsonant, darf er auch durch einen Sprung weitergeführt werden. Bindung und wirklicher dissonanter Vorhalt sind somit nicht dasselbe.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Konsonante Vorbereitung und dissonanter oder konsonanter Überhang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 37–38, Fig. 39–41",
+              "note": "Fig. 39–41 und der Text unterscheiden Synkope und suspension. Im ersten Absatz steht einmal Cantus Firmus, obwohl Figur und Erklärung die Gegenstimme meinen; die Rollen werden aus der Notation eindeutig wiedergegeben."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=49",
+          "examples": [
+            "york-synkope-harmonie"
+          ]
+        },
+        {
+          "id": "york1907-multi-vorhalt-bassbezug",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. X, S. 83–84, Fig. 72a–c · Bassbezug und vorweggenommener Auflösungston",
+          "text": "Den Vorhalt bestimmt York von der tatsächlich tiefsten Stimme aus. Fig. 72a ist deshalb 9–8 über dem Bass, obwohl das obere Stimmenpaar 7–6 bildet. Bei 72b wäre die isolierte Betrachtung zweier oberer Stimmen irreführend: Zum Bass entsteht 4–3. York verbietet, den Auflösungston gleichzeitig schon in einer anderen Stimme hören zu lassen; ausdrücklich ausgenommen ist 9–8. Daher ist a gut, b wegen des bereits vorhandenen Auflösungstons schlecht. Liegt die gebundene Stimme selbst im Bass, müssen ihre Vorhalte und Auflösungen zu beiden oberen Stimmen korrekt sein, wie Fig. 72c zeigt.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige vierte Spezies · vollständige Stimmenbeziehung des Vorhalts",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, S. 83–84, Fig. 72a–c · Bassbezug und vorweggenommener Auflösungston",
+              "note": "Fig. 72a–c und beide erklärenden Absätze wurden visuell geprüft. In der Erläuterung zu b auf S. 84 steht ein widersprüchlicher Tonbuchstabe C; das Notenbild und die Angabe 4–3 auf E zeigen g als Auflösungston. Der Antworttext bleibt deshalb bei den eindeutigen Intervallbeziehungen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=95",
+          "examples": [
+            "york-vorhalt-bassbezug"
+          ]
+        },
+        {
+          "id": "york1907-free-16",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 141, Fig. 92a–b · Vorbereitung durch eine Dissonanz",
+          "text": "Im freien Kontrapunkt muss bei York die Vorbereitung einer Dissonanz nicht selbst konsonant sein. Eine Dissonanz darf durch eine andere vorbereitet werden, etwa durch einen Durchgangston. Fig. 92a zeigt solche Anschlüsse; in b wird bereits der vorbereitende dissonante Ton durch einen Sprung erreicht. York erörtert dies im Abschnitt zur vierten Spezies, notiert die Übergänge in Fig. 92 aber mit Wiederanschlag. Die Freiheit betrifft hier die dissonante Vorbereitung, nicht eine bestimmte Bindungsschreibweise.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier mehrstimmiger Kontrapunkt · dissonante Vorbereitung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XVI, S. 141, Fig. 92a–b · Vorbereitung durch eine Dissonanz",
+              "note": "Fig. 92 steht im Abschnitt zur freien vierten Spezies; die einzelnen Töne sind im Beispiel neu angeschlagen, nicht sämtlich übergebunden. Die Antwort behauptet deshalb keine im Bild nicht vorhandenen Bindebögen. Die b-Fassung ist separat bezeichnet und wurde zusammen mit a vergrößert gelesen."
+            }
+          },
+          "examples": [
+            "york-dissonante-vorbereitung"
+          ],
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=153"
         }
       ],
       "relations": [
@@ -12090,6 +13329,12 @@ const ATLAS = {
           "to": "kennan1999-1",
           "type": "context",
           "note": "Kennan lässt den Unterstimmenvorhalt 7–8 in seiner am 18. Jahrhundert orientierten Zweistimmigkeit zu. Schönberg hält in der vierstimmigen vierten Spezies an der Warnung vor einem bereits oberhalb klingenden Auflösungston fest; seine Erweiterung betrifft nur vorweggenommene Töne unterhalb des Vorhalts. Stilbezug und Übungsbesetzung müssen bei diesem Gegensatz mitgelesen werden."
+        },
+        {
+          "from": "york1907-free-16",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Bei Fux beginnt die gebundene Halbe als Konsonanz und kann erst durch den Wechsel des Cantus dissonieren. York erlaubt im Abschnitt zur freien vierten Spezies bereits eine dissonante Vorbereitung, zeigt sie in Fig. 92 jedoch mit Wiederanschlag. Die Erweiterung betrifft die Klangbedingung der Vorbereitung; die Beispiele haben nicht dieselbe Bindungsschreibweise."
         }
       ]
     },
@@ -12334,6 +13579,50 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=125"
+        },
+        {
+          "id": "york1907-two-synkope-unterbrechen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 39–41",
+          "text": "Wenn eine Synkopenkette kaum sinnvoll fortzuführen ist, darf Yorks Gegenstimme für höchstens zwei Takte in die zweite Spezies wechseln. Bei einem sehr langen Cantus kann eine solche Unterbrechung sogar erwünscht sein. Sie soll jedoch keine gewöhnliche Schwierigkeit bequem umgehen. Auch vor dem Schluss wird die vorletzte Taktgruppe häufig ungebunden geschrieben, damit eine der Kadenzformen der zweiten Spezies möglich wird. Die Übungsidentität bleibt die vierte Spezies, obwohl einzelne Stellen einen anderen Rhythmus brauchen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Begründete Unterbrechung einer Synkopenkette",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 39–41",
+              "note": "Die Kadenzunterbrechung steht auf S. 39, die allgemeine Zweitaktgrenze und ihr Zweck auf S. 40–41."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=51"
+        },
+        {
+          "id": "york1907-multi-synkope-unterbrechen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. X, S. 84 · Unterbrechung und Pausen in der vierten Spezies",
+          "text": "Die Synkopenkette muss in Yorks dreistimmiger vierter Spezies nicht lückenlos bleiben. Für ein oder zwei Takte darf sie durch Bewegung der zweiten Spezies ersetzt werden. Außerdem kann die synkopierte Stimme erst nach anderthalb Takten Pause einsetzen; auch eine einzelne halbe Pause innerhalb des Kontrapunkts ist zugelassen. Diese Möglichkeiten sind ausdrücklich Bestandteil der Aufgabe. Sie ändern jedoch nicht die Regeln für jene Töne, die weiterhin als vorbereitete und aufzulösende Vorhalte auftreten.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige vierte Spezies · begrenzte Unterbrechungen und spätere Einsätze",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, S. 84 · Unterbrechung und Pausen in der vierten Spezies",
+              "note": "Alle drei Erlaubnisse stehen unmittelbar nacheinander auf S. 84. Die Mozart zugeschriebene Anekdote wird nicht als gesicherte historische Tatsache übernommen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=96"
         }
       ],
       "reading": "Markiere zuerst, wo eine weitere Bindung überhaupt möglich wäre. Fux akzeptiert in einem solchen Fall die Unterbrechung zugunsten der melodischen Vielfalt. Bei Rothgeb und Prout ist sie an eine satztechnische Notwendigkeit gebunden.",
@@ -12384,6 +13673,12 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "nuance",
           "note": "Gallon und Bitsch begrenzen die schwierigkeitshalber nötige Unterbrechung auf eine einzige Stelle je Übung. Schönberg gibt keine solche Anzahl vor und würdigt auch den Gewinn an Abwechslung und Bewegungsfreiheit; zugleich soll die Synkope das Gepräge der Aufgabe behalten."
+        },
+        {
+          "from": "york1907-two-synkope-unterbrechen",
+          "to": "spalding1904-two-synkope-unterbrechen",
+          "type": "nuance",
+          "note": "Beide gestatten begründete Unterbrechungen und berücksichtigen die Kadenz. York nennt höchstens zwei Takte und warnt vor dem Ausweichen vor gewöhnlichen Schwierigkeiten; Spalding entfaltet mehrere positive Gründe wie Melodieumfang, wirkliche Vorhalte und das Aufbrechen monotoner Sextfolgen."
         }
       ]
     },
@@ -12763,6 +14058,50 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "york1907-two-kadenz-gegenstimme",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 29, Fig. 35; Kap. IV, S. 39, Fig. 42; Kap. V, S. 50",
+          "text": "Für die dritte Spezies verlangt York vor dem Schlusston gewöhnlich den Leitton, zeigt in Fig. 35b aber eine ausdrücklich zugelassene alternative Kadenz. Im synkopierten Satz muss die letzte Note vor dem Schluss Leitton sein, gleichgültig ob die Gegenstimme oben oder unten steht. Häufig wird dafür vorübergehend die zweite Spezies benutzt. Im Floridus sind die Kadenzformen der zweiten und vorzugsweise der vierten Spezies möglich; letztere können verziert werden. Die Kadenzvorgabe muss also mit der jeweiligen Bewegungsart zusammen gelesen werden.",
+          "speciesScope": [
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Leitton und Rhythmus der schließenden Gegenstimme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 29, Fig. 35; Kap. IV, S. 39, Fig. 42; Kap. V, S. 50",
+              "note": "Die ausdrücklich genannte Ausnahme Fig. 35b wird nicht unterschlagen; S. 39 bezieht die Leittonbedingung auf beide Lagen der Gegenstimme."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=41"
+        },
+        {
+          "id": "york1907-multi-schlusston-oben",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 58; Kap. XII, S. 99 sowie Modellkommentare S. 116–117 · oberster Schlusston",
+          "text": "York bevorzugt auch bei mehreren Stimmen die Tonika als letzten Ton der höchsten Stimme. Bereits für drei oder mehr Stimmen erlaubt er jedoch die Terz. In der Vierstimmigkeit erweitert er die ausdrückliche Wahl auf jeden Ton des Tonikadreiklangs. Das ist eine Erlaubnis, keine Gleichbewertung aller Lösungen: Der Grundton bleibt seine erste Empfehlung, und die Terzschlüsse mehrerer übernommener Modelle werden eigens kommentiert. Man sollte daher aus der bevorzugten Grundtonlage kein ausnahmsloses Terzverbot machen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge mehrstimmige Übung · bevorzugter und zugelassener Oberstimmenschluss",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 58; Kap. XII, S. 99 sowie Modellkommentare S. 116–117 · oberster Schlusston",
+              "note": "Die ausdrücklichen Erlaubnisse auf S. 58 und 99 werden gegenüber den kritischen Modellbemerkungen bewahrt. Der Kommentar S. 61 nennt einen Terzschluss sogar im Fehlerkatalog; dieser redaktionelle Spannungsfall ist im Review vermerkt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=70"
         }
       ],
       "relations": [
@@ -13483,6 +14822,26 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=138"
+        },
+        {
+          "id": "york1907-open-strenger-lehrgang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Vorwort, S. v–vi; Einleitung, S. 1–2",
+          "text": "York entwirft einen kurzen praktischen Lehrgang für Lernende, die Stimmen melodisch verfolgen und selbst zusammenfügen möchten. Die strenge Übung verbindet eine gegebene Melodie mit einer oder mehreren Gegenstimmen. Im Zweifelsfall wählt er bewusst die engere Regel: Lizenzen, die in einer Komposition gut wirken können, sollen den Anfangsunterricht noch nicht belasten. Zugleich erklärt er die Grenze zum freien Kontrapunkt für unscharf. Die beiden Schlusskapitel sollen den Übergang zum weiterführenden Komponieren öffnen. Seine strengen Verbote sind deshalb als Entscheidungen dieses Lehrgangs zu lesen, nicht als vollständige Beschreibung aller historischen Mehrstimmigkeit.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Didaktischer Rahmen des strengen und freien Kontrapunkts",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. v–vi; Einleitung, S. 1–2",
+              "note": "Das Vorwort begründet die Auswahl strenger Regeln ausdrücklich mit dem Lernziel; S. 1–2 definieren die Aufgabe und unterscheiden horizontales Stimmenhören vom bloßen Akkorddenken."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=9"
         }
       ],
       "related": [
@@ -13583,6 +14942,12 @@ const ATLAS = {
           "to": "motte1995-r01",
           "type": "context",
           "note": "Spalding führt innerhalb eines zusammenhängenden tonalen Lehrgangs schrittweise zu freien Satzmitteln und behält dafür die Ordnungen als Übungsstufen. De la Motte organisiert dagegen eigenständige Kurse zu Josquin, Bach und Neuer Musik, deren Reihenfolge offenbleibt. Beide kritisieren eine überall verbindliche Schulmethode; sie unterscheiden sich in der konkreten Organisation des Lernwegs."
+        },
+        {
+          "from": "york1907-open-strenger-lehrgang",
+          "to": "spalding1904-open-freier-lehrgang",
+          "type": "context",
+          "note": "York trennt den absichtlich engen Anfangslehrgang von späteren Freiheiten und begründet dies mit Übersicht für Anfänger. Spalding möchte denselben Übergang von Anfang an innerhalb tonaler Praxis entwickeln. Der Unterschied betrifft den Aufbau des Unterrichts, nicht die Behauptung, einer der beiden kenne nur strenge oder nur freie Musik."
         }
       ]
     },
@@ -14306,7 +15671,8 @@ const ATLAS = {
         "picardische-terz",
         "kadenz-diminution",
         "kadenz-klauselwechsel",
-        "kadenzflucht-und-trugschluss"
+        "kadenzflucht-und-trugschluss",
+        "moll-stufenfuehrung"
       ],
       "authors": [
         {
@@ -14697,6 +16063,93 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=172"
+        },
+        {
+          "id": "york1907-open-vollstaendiger-schluss",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 4–5; Kap. I, S. 7 und 9, Fig. 10",
+          "text": "Am Ende verlangt York eine authentische Kadenz. Die tiefste Stimme muss auf dem Grundton schließen; eine obere Stimme endet gewöhnlich ebenfalls dort, andernfalls auf einem Ton des Tonikadreiklangs. Für die zweistimmige erste Spezies verengt er dies weiter: Der letzte Zusammenklang ist Einklang oder Oktave. Eine vollständige Kadenz soll nur am Übungsende stehen. Fig. 10 zeigt verschiedene Lagen derselben Grundlösung; sie ist nicht als Aussage zu verstehen, dass sämtliche musikalischen Gattungen nur diese eine Schlussart kennen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Schlusswirkung und Schlussintervall der ersten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 4–5; Kap. I, S. 7 und 9, Fig. 10",
+              "note": "Die allgemeinere Einleitungsregel und die engere zweistimmige Vorgabe werden getrennt wiedergegeben; Fig. 10 auf S. 9 wurde geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=16"
+        },
+        {
+          "id": "york1907-two-begrenzter-cantus-schluss",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 18, Fig. 22",
+          "text": "York erklärt seine Kadenzformen im Zwei-gegen-eins aus einer bewusst beschränkten Auswahl von Cantus-firmus-Schlüssen. Die vorletzte Cantus-Note ist dabei die zweite Stufe. Andere vorletzte Stufen würden weitere Kadenzmöglichkeiten erzeugen, werden im gegenwärtigen Lehrgang aber nicht behandelt. Sein Satz, es seien keine anderen Formen möglich, gilt deshalb innerhalb dieser Aufgabenwahl. Die gedruckte Einschränkung verhindert, eine lokale Übungssystematik als erschöpfende Theorie sämtlicher Kadenzen zu lesen.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kadenzmöglichkeiten bei festgelegtem Cantus-firmus-Ende",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 18, Fig. 22",
+              "note": "Unmittelbar nach Fig. 22 nennt York andere mögliche Cantus-Schlüsse und erklärt sie für außerhalb des Umfangs dieses Lehrgangs."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=30"
+        },
+        {
+          "id": "york1907-multi-kadenz-zweite-synkope",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 67, Fig. 66; Modelle S. 70–71 · vierte Spezies am Ende einer Übung der zweiten",
+          "text": "Die Kadenz einer dreistimmigen Übung der zweiten Spezies darf bei York ausnahmsweise in die vierte Spezies wechseln. Fig. 66 zeigt die Bindung über den Taktstrich und die anschließende Auflösung vor dem Schluss. York behandelt diesen Wechsel jedoch als Hilfe für einen schwierigen Fall, nicht als regelmäßig vorgeschriebene Schlussform. Die späteren Modelle kennzeichnen solche Stellen ausdrücklich mit Fourth Species. Beim Prüfen der Übung muss deshalb die lokale Synkopenbehandlung von der sonstigen Halbenbewegung unterschieden werden.",
+          "speciesScope": [
+            2,
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige Kadenz · notwendiger lokaler Wechsel von zweiter zu vierter Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 67, Fig. 66; Modelle S. 70–71 · vierte Spezies am Ende einer Übung der zweiten",
+              "note": "S. 67 begrenzt die Lösung ausdrücklich auf Fälle der Notwendigkeit. Die beschrifteten Modellschlüsse auf S. 70–71 bestätigen den lokalen Spezieswechsel."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=79"
+        },
+        {
+          "id": "york1907-multi-kadenz-vier-viel",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 99–100; Kap. XIII, S. 119 · Schlussbildung nach Lage des Cantus firmus",
+          "text": "York richtet den vorletzten Klang der vierstimmigen Übung nach der Lage des Cantus firmus: Liegt er im Bass, steht vor dem Schluss der verminderte Dreiklang der siebten Stufe in erster Umkehrung; liegt er oben, verwendet York gewöhnlich die Dominante in Grundstellung. Im Kapitel für fünf und mehr Stimmen nennt er dieselben beiden Wege. Dort muss der Schlussakkord vollständig sein. Für vier Stimmen hatte er am Anfang und Schluss auch unvollständige Klänge oder bloße Oktaven und Einklänge zugelassen. Die Anforderungen an die Klangfülle werden also nicht für alle Stimmenzahlen gleich formuliert.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge vier- und vielstimmige Übungen · Cantuslage und vollständiger Schluss",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 99–100; Kap. XIII, S. 119 · Schlussbildung nach Lage des Cantus firmus",
+              "note": "Die gedruckten Stufenzeichen auf S. 100 und 119 wurden visuell geprüft: VII. Stufe als Sextakkord beziehungsweise V. Stufe in Grundstellung, kein Dominantseptakkord. Das Wort gewöhnlich steht bei der vierstimmigen Oberstimmenvariante."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=111"
         }
       ],
       "relations": [
@@ -15578,6 +17031,97 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=267"
+        },
+        {
+          "id": "york1907-open-dreiklaenge-und-lagen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 3–5",
+          "text": "Obwohl die Aufmerksamkeit den Melodien gilt, erläutert York viele Zusammenklänge durch Dreiklänge. Im strengen Grundvorrat stehen Dur- und Molldreiklänge in Grundstellung sowie Dur-, Moll- und verminderte Dreiklänge als Sextakkorde. Den verminderten Leittondreiklang in Grundstellung verbietet er; die Grundstellung der dritten Stufe soll vermieden werden. Quartsextstellungen schließt er grundsätzlich aus. Für Moll zeigt er einen eigenen, nach gewöhnlichem, nur möglichem und ausgeschlossenem Gebrauch abgestuften Vorrat. Akkordfolgen sind nicht das vorrangige Entwurfsprinzip; Verbindungen benachbarter Grundtöne empfiehlt er für Anfänger dennoch vorsichtig zu behandeln, besonders ohne Sextakkordlage.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Harmonischer Grundvorrat der strengen Übungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 3–5",
+              "note": "Die Akkordnotation a/b/c bezeichnet Grundstellung, erste und zweite Umkehrung. Die Stufensymbole und die nach Klammern differenzierte Molltabelle auf S. 4 wurden visuell geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=15"
+        },
+        {
+          "id": "york1907-multi-klangfuellung-drei",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 57; Kap. VII, S. 60; Kap. IX, S. 74 und 77, Fig. 68 · Zeitpunkt der vollständigen Dreiklangsgestalt",
+          "text": "Im Dreistimmensatz wünscht York möglichst einen vollständigen Akkord pro Takt, gewöhnlich auf dessen Anfang. Die erste Spezies soll daher außer am Anfang und Schluss möglichst jeden Klang vollständig besetzen. Muss für eine flüssigere Linie ein Ton fehlen, kann die Quinte entfallen. In der dritten Spezies darf die Vervollständigung später eintreten: Gelingt sie nicht auf dem ersten Viertel, soll das dritte Viertel den vollständigen Klang herstellen. Die Bemerkung zu Takt 11 des Beethoven-Modells auf S. 77 verweist ausdrücklich auf dieses spätere Eintreten der Terz.",
+          "speciesScope": [
+            1,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige Speziesübung · Klangvollständigkeit im Taktverlauf",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 57; Kap. VII, S. 60; Kap. IX, S. 74 und 77, Fig. 68 · Zeitpunkt der vollständigen Dreiklangsgestalt",
+              "note": "Die zeitliche Abstufung steht ausdrücklich in den drei genannten Kapiteln. Die Erklärung des Beethoven-Modells wird als Yorks Kommentar wiedergegeben, nicht als allgemeine Freigabe beliebiger unvollständiger Klänge."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=69"
+        },
+        {
+          "id": "york1907-multi-synkopen-harmonie",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. X, S. 83 · harmonische Bezugszeit der dreistimmigen vierten Spezies",
+          "text": "In der vierten Spezies liegt für York die eigentliche Harmonie des Takts auf dessen zweiter Hälfte, wenn der Vorhalt aufgelöst ist. Von diesem Zielklang aus wird auch die Note der zusätzlichen Stimme bestimmt. Ein dissonanter oder vorübergehend unvollständiger Zusammenklang auf der ersten Hälfte kann deshalb richtig sein, obwohl er in der ersten oder zweiten Spezies am Taktanfang unzulässig wäre. Umgekehrt gelten auf der zweiten Hälfte jetzt strengere Anforderungen an Verdopplung, Klangbesetzung und Fortschreitung. Die Synkope verschiebt also die für die harmonische Prüfung maßgebliche Position.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige vierte Spezies · Auflösung als harmonisches Gerüst",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, S. 83 · harmonische Bezugszeit der dreistimmigen vierten Spezies",
+              "note": "S. 83 nennt die zweite Halbe ausdrücklich als real harmony und leitet die Wahl der Zusatzstimme daraus ab. Die Aussage behauptet keinen zusätzlichen Harmoniewechsel allein durch jede Bindung."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=95"
+        },
+        {
+          "id": "york1907-free-01",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 132–134; Fig. 85, S. 136 · freier Kontrapunkt und Akkordvorrat",
+          "text": "Im freien Kontrapunkt erweitert York den Vorrat um Quartsextakkorde, übermäßige Dreiklänge, Sept-, Nonen- und höhere Akkorde sowie chromatische Klänge. Ausgenommen bleibt die Grundstellung des verminderten Leittondreiklangs; seine Sextstellung erscheint dagegen in Fig. 85. Der größere Vorrat bedeutet für York keine beliebige Akkordfolge: In der ersten Spezies wird die harmonische Fortschreitung stärker bestimmend als im strengen Lehrgang. Dissonante Klänge sollen die fließende Melodik nicht unnötig erschweren oder die Stimmen durch Auflösungspflichten einengen. Auch mit erweitertem Material bleibt die Aufgabe, Melodien miteinander zu verbinden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · harmonischer Vorrat und melodische Führung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 132–134; Fig. 85, S. 136 · freier Kontrapunkt und Akkordvorrat",
+              "note": "S. 133 nennt vii° als Ausnahme, Fig. 85 zeigt VII° in b-Stellung. Yorks auf S. 4 erklärte Buchstaben bezeichnen a=Grundstellung, b=erste, c=zweite Umkehrung. Die Ausnahme wird deshalb auf die Grundstellung präzisiert. Die historische Behauptung auf S. 132 über Komposition vor 1600 wird nicht als heutige Tatsachenaussage übernommen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=144"
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -15597,7 +17141,8 @@ const ATLAS = {
         "akkordvollstaendigkeit",
         "fugenthema-harmonik",
         "modulation-in-uebungen",
-        "terzen-sexten-folgen"
+        "terzen-sexten-folgen",
+        "orgelpunkt-mehrstimmig"
       ],
       "readingSources": [
         "prout1890",
@@ -16142,6 +17687,105 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=271"
+        },
+        {
+          "id": "york1907-open-drei-prinzipien",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 1–2",
+          "text": "York prüft eine Übung nach Abwechslung, Klarheit und Wohlklang. Abwechslung bedeutet für ihn, monotone Akkordbrechungen, bloß versetzte Parallelstimmen, wiederholte Figuren und fast unbewegte Linien zu vermeiden. Klarheit verlangt, jede Stimme in ihrer Lage und ihrem Verlauf verfolgen zu können; Kreuzungen, Übergreifen und zielloses Wandern können das erschweren. Wohlklang bleibt auch dort ein Ziel, wo das Vergnügen aus dem Zusammenwirken selbstständiger Melodien entsteht. Die drei Gesichtspunkte begründen viele seiner Einzelregeln. Sie sollen beim Hören und Schreiben zusammenwirken, statt nur eine Liste verbotener Intervalle zu ersetzen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Beurteilung einer strengen Kontrapunktübung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 1–2",
+              "note": "Die drei ausdrücklich benannten Prinzipien variety, clearness und euphony werden in der Einleitung erklärt und später wieder aufgegriffen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=13"
+        },
+        {
+          "id": "york1907-two-historische-modelle",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 10–13; Kap. V, S. 50",
+          "text": "York lässt die Modelle wiederholt spielen und ihre Fortschreitungen genau beobachten; anschließend sollen zahlreiche eigene Übungen und Fehlerkorrekturen folgen. Er warnt zugleich davor, jede gedruckte Autorität als Bestätigung seiner Anfängerregeln zu lesen. Manche Modelle stammen aus anderen Entwicklungsstufen des Kontrapunkts oder folgen anderen Lehrmeinungen. Beim von ihm Franco von Köln zugeschriebenen Beispiel nennt er ausdrücklich Tonwiederholungen, einen Spezieswechsel und eine verdeckte Oktave; die Notenwerte wurden für die Darstellung vereinheitlicht. Lernende sollen solche Abweichungen erkennen und zunächst meiden. Historische Praxis und schulische Auswahl fallen hier bewusst nicht vollständig zusammen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Modelle hören, Fehler erkennen und Regelabweichungen einordnen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 10–13; Kap. V, S. 50",
+              "note": "Die Anmerkung auf S. 11 begründet die Abweichungen; S. 12 erklärt Zuschreibung, veränderte Notenwerte und Abschnittsgrenze des historischen Modells. Die Zuschreibung wird als Yorks Angabe wiedergegeben, nicht unabhängig bestätigt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=22"
+        },
+        {
+          "id": "york1907-multi-modelle-pruefen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 72; Kap. IX, S. 77–78; Kap. XIV, S. 125–127 · kommentierte fremde Modelle",
+          "text": "Ein berühmter Name macht für York nicht jede Einzelheit eines Beispiels nachahmenswert. Er beanstandet im Fétis-Modell auf S. 72 eine Quintenfolge trotz eingeschobenen Quartsprungs und im Beethoven-Modell auf S. 77 einen durch Sprung verlassenen Durchgangston; dieselbe Kritik greift er beim folgenden Fux-Modell wieder auf. Ein weiteres Fux-Beispiel mit kombinierten Spezies nennt er auf S. 125 ausdrücklich unzureichend als Vorbild. Bei der Auswertung sind daher Partitur, Kommentar und konkrete Fehlerstelle gemeinsam zu lesen. Ein gedrucktes Modell ist keine pauschale Erlaubnis für alle enthaltenen Wendungen.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge Speziesübungen · kritische Auswertung übernommener Modelle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 72; Kap. IX, S. 77–78; Kap. XIV, S. 125–127 · kommentierte fremde Modelle",
+              "note": "Die genannten Einwände sind ausdrücklich Yorks eigene Kommentare. Daraus wird kein allgemeines Urteil über das gesamte kompositorische Werk der genannten Autoren abgeleitet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=84"
+        },
+        {
+          "id": "york1907-multi-akkordbrechung-zweite",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 113; Kap. XIV, S. 126 · regelarme, aber melodisch schwache Übungen",
+          "text": "Eine Übung kann Yorks Urteil nach schlecht sein, obwohl sich nur wenige eindeutige Regelverstöße benennen lassen. Zum vierstimmigen Beispiel der zweiten Spezies auf S. 113 sagt er, abgesehen von einer Leittonverdopplung gebe es kaum einen klaren Fehler; dennoch sei die Übung äußerst schwach, weil auf den leichten Zeiten die dissonanten Töne fehlen und die Stimmen fast nur Akkordtöne umverteilen. Auch beim kombinierten Modell auf S. 126 kritisiert er fehlende Durchgangstöne im Bass und die Wiederholung derselben Figur. Regelkontrolle und melodische Qualität sind für ihn deshalb zwei notwendige Prüfungen.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige zweite Spezies und kombinierte Übung · melodische Qualität jenseits einzelner Verbote",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 113; Kap. XIV, S. 126 · regelarme, aber melodisch schwache Übungen",
+              "note": "Die scharfe qualitative Bewertung wird York zugeschrieben. Sie ist kein allgemeines Verbot aller rein konsonanten Abschnitte; die beiden konkreten Modelle sind der Bezug."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=125"
         }
       ],
       "related": [
@@ -16484,6 +18128,32 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=105"
+        },
+        {
+          "id": "york1907-two-changing-notes",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 16, Fig. 16; Kap. III, S. 30, Fig. 36–37a",
+          "text": "York verwendet changing tone zunächst für eine schrittweise Nebennote mit Rückkehr zum Ausgangston. In der dritten Spezies ergänzt er eine Umspielungsfigur: Nach dem dissonanten Ton folgt ein Terzsprung, anschließend kehrt die Stimme schrittweise zu dem übersprungenen Ton zurück. Fig. 36 zeigt beide Richtungen, etwa h–c–a–h und c–h–d–c in deutscher Tonbenennung. Die geschlossene Form mit gleichem Anfangs- und Endton ist ihm lieber; die auf S. 30 ebenfalls gezeigte Fortsetzung ohne diese vollständige Rückkehr ist dennoch möglich. Der englische Begriff deckt hier mehrere verwandte Gestalten ab und darf nicht ungeprüft mit jeder anderswo so genannten Cambiata gleichgesetzt werden.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Bedeutungen der changing tone und vollständige Umspielung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 16, Fig. 16; Kap. III, S. 30, Fig. 36–37a",
+              "note": "Die beiden Bedeutungen stehen auf S. 16 und 30. Fig. 36 und die ausdrücklich zugelassene Alternative Fig. 37a wurden visuell gelesen; deutsche Tonbenennung ist redaktionell."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=28",
+          "examples": [
+            "york-changing-notes"
+          ]
         }
       ],
       "reading": "Singe Fux’ 8–7–5–6 und dann Cherubinis Variante 8–6–5–6. Nur ein Ton ändert sich. Prüfe an Bellermanns Palestrina-Beispiel, worauf er seinen Widerspruch zu Cherubini stützt.",
@@ -16564,6 +18234,12 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "context",
           "note": "Fux’ vorhandene Antwort beschreibt 8–7–5–6: Nach dem Schritt in die Septime setzt der Terzsprung dieselbe Abwärtsrichtung fort, bevor die übersprungene Sexte nachgeholt wird. Spaldings changing notes führen nach dem ersten Schritt eine Terz in die Gegenrichtung und dann zum umspielten Ausgangston zurück, etwa f–g–e–f. Es handelt sich um unterschiedliche Figuren und Begriffsverwendungen innerhalb ihrer Lehrzusammenhänge, nicht um zwei widersprüchliche Beschreibungen desselben Notenverlaufs."
+        },
+        {
+          "from": "york1907-two-changing-notes",
+          "to": "spalding1904-two-changing-notes",
+          "type": "nuance",
+          "note": "Beide zeigen die geschlossene Umspielung mit Terzsprung zwischen Nebentönen und anschließender Rückkehr. York verwendet changing tone zusätzlich für eine einfache rückkehrende Nebennote und bevorzugt ausdrücklich die geschlossene Form. Der gemeinsame englische Ausdruck ist deshalb nur nach Prüfung der jeweiligen Figur eindeutig."
         }
       ]
     },
@@ -16899,6 +18575,159 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=112"
+        },
+        {
+          "id": "york1907-two-erste-einklang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 7–8",
+          "text": "In der ersten Spezies steht der Einklang bei York nur im ersten oder letzten Takt. Im Inneren der Übung sollen die beiden Melodien als unterscheidbare Stimmen hörbar bleiben. Dass der Einklang zum konsonanten Intervallvorrat gehört, bedeutet daher keine freie Verwendbarkeit an jeder Stelle. Für die späteren Spezies formuliert York eigene, nach Taktgewicht differenzierte Möglichkeiten.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Einklang als Grenzpunkt einer zweistimmigen Übung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 7–8",
+              "note": "Der allgemeine Konsonanzvorrat auf S. 7 wird auf S. 8 durch die ausdrückliche Platzierungsregel eingegrenzt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=19"
+        },
+        {
+          "id": "york1907-two-zweite-einklang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 17, Fig. 18; S. 21, Fig. 27b",
+          "text": "Im Inneren der zweiten Spezies soll der Einklang auf der ersten Takthälfte vermieden werden, auf der zweiten darf er bei York selten vorkommen. Anfang und Ende bleiben ausgenommen. Für die Variante mit drei Tönen gegen einen warnt er zusätzlich vor dem Erreichen des Einklangs in Seitenbewegung. Diese ortsabhängigen Freiheiten sind enger als die bloße Feststellung, dass ein Einklang konsonant ist.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Einklang auf leichter Zeit und seine Annäherung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 17, Fig. 18; S. 21, Fig. 27b",
+              "note": "S. 17 gibt die Halbierung nach Taktgewicht; Fig. 27b auf S. 21 gehört zur ausdrücklich als zweite Spezies behandelten Dreierbewegung."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=29"
+        },
+        {
+          "id": "york1907-two-dritte-einklang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 30, Fig. 37b–c",
+          "text": "Abgesehen von Anfang und Ende darf der Einklang in Yorks dritter Spezies weder auf dem Haupt- noch auf dem Nebenakzent stehen, also nicht auf der ersten oder dritten Position der Vierergruppe. Die leichte Stellung allein genügt jedoch nicht: Gleichgerichtete Bewegung in den Einklang ist ebenfalls schlecht. Fig. 37b–c trennt die erlaubte metrische Platzierung von einer ungeeigneten Annäherung. So bleiben die Stimmen auch bei einer kurzen Berührung melodisch unterscheidbar.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Metrische Stellung und Annäherung an den Einklang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 30, Fig. 37b–c",
+              "note": "Die Positionsangaben first or third und der schlechte Parallelbewegungsfall sind auf S. 30 ausdrücklich bezeichnet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=42"
+        },
+        {
+          "id": "york1907-two-synkope-einklang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 42, Fig. 48",
+          "text": "In der vierten Spezies darf der Einklang bei York außer am Anfang und Ende auch gelegentlich im Inneren auftreten. Fig. 48 zeigt ihn im Zusammenhang mit der synkopierten Führung. Die Formulierung verlangt Maßhalten; sie hebt nicht die besondere Ablehnung des oberen Vorhalts 2–1 auf. Ein kurz zulässiger Einklang und eine als Vorhaltsauflösung unerwünschte Führung sind deshalb getrennt zu beurteilen.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Gelegentlicher Einklang innerhalb der synkopierten Übung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 42, Fig. 48",
+              "note": "S. 42 erlaubt with moderation weitere Positionen; das Verbot 2–1 steht in der Vorhaltsliste auf S. 40."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=54"
+        },
+        {
+          "id": "york1907-multi-einklang-erste-zweite",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 58; Kap. VIII, S. 65, Fig. 62 · Einklang zwischen drei Stimmen",
+          "text": "Als Grundregel des Dreistimmensatzes beschränkt York den Einklang auf den ersten und letzten Takt. Für die zweite Spezies nennt er danach eine zusätzliche Möglichkeit im Verlauf: Die bewegte Stimme darf mit einer der beiden anderen Stimmen auf der zweiten Takthälfte zusammenfallen. Fig. 62 stellt diese leichte Position dem unerwünschten Einklang auf der ersten Hälfte gegenüber. Die Zulassung betrifft den Zeitpunkt und die Rolle der bewegten Stimme; sie erlaubt keine beliebigen längeren Unisonoführungen.",
+          "speciesScope": [
+            1,
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige erste und zweite Spezies · Einklang und Taktposition",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 58; Kap. VIII, S. 65, Fig. 62 · Einklang zwischen drei Stimmen",
+              "note": "Fig. 62 zeigt den Einklang auf der zweiten Hälfte gegenüber dem als nicht richtig bezeichneten Beginn desselben Takts. Die spätere Regel der dritten Spezies wird gesondert behandelt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=70"
+        },
+        {
+          "id": "york1907-multi-einklang-dritte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IX, S. 75, Fig. 70 · schrittweise erreichter Einklang",
+          "text": "Ein schrittweiser Eintritt in den Einklang soll in Yorks dreistimmiger dritter Spezies vermieden werden. Eine Ausnahme entsteht, wenn die Viertelstimme die andere tatsächlich durchkreuzt. Fig. 70 vergleicht entsprechend eine Bewegung, die beim gemeinsamen Ton umkehrt, mit einer Linie, die durch ihn hindurch auf die andere Seite der gehaltenen Stimme führt. Der Einklang wird dadurch als Moment einer fortgesetzten Kreuzung verständlich, nicht als Ziel einer an der anderen Stimme endenden Linie.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige dritte Spezies · Einklang als Durchgang einer Kreuzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, S. 75, Fig. 70 · schrittweise erreichter Einklang",
+              "note": "Die als Avoid und Good bezeichneten Teile von Fig. 70 wurden visuell geprüft. Die Interpretation als Umkehr bzw. fortgesetzte Kreuzung beschreibt unmittelbar die notierten Wege."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=87"
+        },
+        {
+          "id": "york1907-multi-einklang-vielstimmig",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIII, S. 118–119 · Einklang in fünf oder mehr Stimmen",
+          "text": "In fünf oder mehr Stimmen hält York es gelegentlich für notwendig, einen Einklang in gleichgerichteter Bewegung zu erreichen. Damit gibt er jedoch nicht jede Annäherung frei. Aus einer Sekunde soll weiterhin nur dann ein Einklang entstehen, wenn die Stimmen dabei kreuzen. Die erhöhte Stimmenzahl erlaubt also eine bestimmte Ausnahme, ohne die selbstständige Linienführung und die besondere Prüfung des Sekundschritts aufzugeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge Übungen mit fünf oder mehr Stimmen · begrenzte Einklangsannäherung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, S. 118–119 · Einklang in fünf oder mehr Stimmen",
+              "note": "Der Satz beginnt auf S. 118 und wird auf S. 119 fortgesetzt. Die Sekunde-zu-Einklang-Bedingung gehört ausdrücklich zur selben Lockerung."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=130"
         }
       ],
       "relations": [
@@ -16959,7 +18788,8 @@ const ATLAS = {
         "choral-gegenstimme",
         "gregorianische-vorlage",
         "choral-modaler-tonartbezug",
-        "choral-fugentechnik"
+        "choral-fugentechnik",
+        "solmisationssilben"
       ],
       "authors": [
         {
@@ -17088,6 +18918,32 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=9"
+        },
+        {
+          "id": "york1907-two-feste-vorlage",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 6–7",
+          "text": "Der Cantus firmus ist in Yorks Anfangsaufgabe eine vorgegebene, meist kurze Melodie in ganzen Noten, gewöhnlich ohne Tonartwechsel. Der Lernende darf diese Melodie nicht verändern. Seine Aufgabe ist, eine selbstständige Gegenstimme darüber oder darunter zu ergänzen; die fünf Spezies bestimmen jeweils deren Bewegungsart. Die klare Kennzeichnung der festen Stimme und die Trennung der Notenzeilen helfen, eine gute Lösung nicht durch nachträgliches Umbauen der Aufgabe zu erkaufen. Yorks Beschreibung ist zunächst eine Arbeitsanweisung zum gegebenen Cantus, keine vollständige Lehre seiner freien Erfindung.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Gegebener Cantus firmus als unveränderliche Übungsgrundlage",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 6–7",
+              "note": "Kap. I definiert den Cantus und sagt ausdrücklich must never be altered; die fünf Spezies können später auch mehrstimmig verwendet werden."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=18"
         }
       ],
       "relations": [
@@ -17445,6 +19301,95 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=168"
+        },
+        {
+          "id": "york1907-open-wiederholung-und-seitenbewegung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 3; Kap. I, S. 8; Kap. III, S. 30",
+          "text": "York verbietet im strengen Anfangsrahmen die unmittelbare Wiederholung eines Tones. In der ersten Spezies schließt er deshalb auch Seitenbewegung aus: Sie würde verlangen, dass eine Stimme stehen bleibt beziehungsweise ihren Ton erneut anschlägt. Die dritte Spezies wiederholt das Verbot ausdrücklich. Seine Begründung ist die gewünschte Abwechslung und Beweglichkeit der Linien. Eine spätere synkopische Bindung ist davon zu unterscheiden: Dort wird ein Ton über die Taktgrenze gehalten und gerade nicht als gleichartiger neuer Einsatz wiederholt.",
+          "speciesScope": [
+            1,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonwiederholung in erster und dritter Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 3; Kap. I, S. 8; Kap. III, S. 30",
+              "note": "Die allgemeine Regel auf S. 3 wird auf S. 8 für die Seitenbewegung und auf S. 30 für die dritte Spezies konkretisiert; Bindung wird erst in Kap. IV behandelt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=15"
+        },
+        {
+          "id": "york1907-multi-wiederholung-stimmenrollen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VII, S. 60; Kap. XII, S. 98 und 100 · Wiederholung in der ersten Spezies",
+          "text": "In der dreistimmigen ersten Spezies erlaubt York die Wiederholung eines Tons in einer oberen Stimme, wenn dadurch eine schlechte Fortschreitung vermieden wird; im Bass hält er sie für weniger günstig. Für vier Stimmen unterscheidet er genauer: Eine einzige Wiederholung in einer Innenstimme ist unbedenklich, längere Wiederholungsreihen sind es nicht. Im Sopran wirken wiederholte Töne für ihn besonders schwach; im Bass soll eine anhaltende Wiederholung als Orgelpunkt behandelt werden. Einen gemeinsamen Akkordton automatisch in derselben Stimme liegen zu lassen, ist daher keine allgemeine Arbeitsregel seiner Kontrapunktübung.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Drei- und vierstimmige erste Spezies · Wiederholung nach Stimmenfunktion",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VII, S. 60; Kap. XII, S. 98 und 100 · Wiederholung in der ersten Spezies",
+              "note": "S. 60 formuliert die Vermeidung einer schlechteren Fortschreitung; S. 100 nennt ausdrücklich nur eine Wiederholung in den Innenstimmen. S. 98 grenzt den Lehrgang von einer schematischen harmonischen Liegetonregel ab."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=72"
+        },
+        {
+          "id": "york1907-multi-textbedingte-wiederholung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 100–101, Fig. 78 · als Gloria bezeichnetes Palestrina-Beispiel",
+          "text": "York erläutert an einem Palestrina-Ausschnitt, warum Tonwiederholungen in einem wirklichen Vokalsatz auftreten können: Die Wörter verlangen zusätzliche Anschläge desselben Tons. Er stellt das Beispiel in den Zusammenhang der ersten Spezies und unterscheidet dadurch die rhythmische Textverteilung von der melodischen Fortschreitung zwischen den tragenden Tönen. Die sonst schwache Wirkung bloßer Wiederholung wird damit nicht allgemein aufgehoben; hier erhält die Wiederholung eine konkrete Aufgabe durch den gesungenen Text.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [
+              "renaissance"
+            ],
+            "reach": "specific",
+            "frame": "Palestrina-Ausschnitt · Textverteilung im Vokalsatz und Einordnung als erste Spezies",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XII, S. 100–101, Fig. 78 · als Gloria bezeichnetes Palestrina-Beispiel",
+              "note": "York nennt das Beispiel ein Gloria von Palestrina und erklärt die wiederholten Töne aus den Wörtern. Partitur und anschließende Erläuterung wurden auf beiden Seiten geprüft; ein genauerer Werktitel wird nicht ergänzt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=112"
+        },
+        {
+          "id": "york1907-free-06",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 134 und 136; Kap. XVI, S. 142 · gemeinsame Töne und Wiederholungen",
+          "text": "York erlaubt im freien Kontrapunkt deutlich mehr Tonwiederholungen; gelegentlich hält er sie sogar für wünschenswert. Im floriden Satz darf auch ein vollständiger konsonanter oder dissonanter Akkord zur Bekräftigung wiederholt werden, sofern gerade Betonung statt Abwechslung gewollt ist. Daraus folgt jedoch keine Vorliebe für unbewegte Stimmen beim Harmoniewechsel: Ein Ton, der zwei verschiedenen Akkorden gemeinsam ist, soll nach Möglichkeit von einer anderen Stimme übernommen werden. Nur bei der Wiederholung desselben Akkords nimmt York diese Forderung ausdrücklich zurück.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · Wiederholung, Akzent und Stimmenbewegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 134 und 136; Kap. XVI, S. 142 · gemeinsame Töne und Wiederholungen",
+              "note": "Drei präzise Aussagen werden zusammengeführt: gemeinsamer Ton möglichst in anderer Stimme S. 134; größere Freiheit der Notenwiederholung S. 136; vollständige Akkordwiederholung for the sake of emphasis S. 142. Keine generelle Bindepflicht für gemeinsame Akkordtöne."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=146"
         }
       ],
       "relations": [
@@ -20927,6 +22872,130 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=196"
+        },
+        {
+          "id": "york1907-open-ein-klang-pro-takt",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 4; Kap. II, S. 16–17, Fig. 17; Kap. III, S. 27, Fig. 29",
+          "text": "York verlangt zunächst eine einzige konsonante harmonische Wirkung pro Takt. Am einfachsten erreicht man sie durch einen Akkord pro Cantus-firmus-Ton. Deshalb können zwei Töne, die einzeln beide mit dem Cantus konsonieren, innerhalb desselben Taktes nicht beliebig als Akkordtöne behandelt werden. In Fig. 17 gehören etwa g und a über c nicht zu derselben zugrunde gelegten Harmonie; der fremde Ton muss entsprechend schrittweise geführt werden. Die Harmonie des Taktes erklärt hier, warum bloße Intervallkonsonanz noch keine Sprungfreiheit bedeutet.",
+          "speciesScope": [
+            1,
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Ein harmonischer Bezug pro Cantus-firmus-Ton",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 4; Kap. II, S. 16–17, Fig. 17; Kap. III, S. 27, Fig. 29",
+              "note": "S. 4 formuliert das Grundprinzip; Fig. 17 und 29 führen es im zwei- und vierteiligen Takt auf konkrete Melodietöne zurück."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=16",
+          "examples": [
+            "york-harmonie-zweistimmig"
+          ]
+        },
+        {
+          "id": "york1907-two-synkope-harmoniekern",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 37–39, Fig. 40–41",
+          "text": "In der vierten Spezies liegt Yorks harmonischer Bezug auf der zweiten Takthälfte. Die neue Cantus-Note kann am Taktanfang zunächst mit dem gebundenen Gegenstimmton dissonieren; erst dessen Auflösung zeigt die tragende Konsonanz. Zur Kontrolle soll die synkopierte Fassung auf eine erste Spezies zurückgeführt werden. Fig. 40 stellt erste, zweite und vierte Spezies über demselben harmonischen Gerüst gegenüber. Dadurch wird hörbar, welche Töne die eigentliche Fortschreitung tragen und welche nur ihre rhythmische Erscheinung verändern.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Harmonischer Bezugspunkt der synkopierten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 37–39, Fig. 40–41",
+              "note": "S. 37 vergleicht die tragende Takthälfte mit der zweiten Spezies; S. 39 fordert ausdrücklich die Reduktion auf erste Spezies."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=49",
+          "examples": [
+            "york-synkope-harmonie"
+          ]
+        },
+        {
+          "id": "york1907-multi-harmonierhythmus-vier",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 98 und 100, Fig. 77 · Harmonie und Bewegung im vierstimmigen Grundsatz",
+          "text": "Im vierstimmigen Grundsatz wünscht York einen Harmoniewechsel von Takt zu Takt. Kann die Harmonie nicht wechseln, sollen die Stimmen durch genügend eigene Bewegung Interesse erzeugen; Fig. 77 vergleicht dafür eine schwächere und eine bessere Fortsetzung. Das passt zu seiner Abgrenzung von einer bloßen Harmonieübung: Die einzelnen Stimmen brauchen mehr Individualität, und ein gemeinsamer Akkordton muss nicht automatisch in derselben Stimme liegen bleiben. Die Bewegung ist daher nicht vollständig aus dem Wechsel der Akkordnamen abzulesen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige erste Spezies · Abwechslung bei gleicher oder wechselnder Harmonie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 98 und 100, Fig. 77 · Harmonie und Bewegung im vierstimmigen Grundsatz",
+              "note": "S. 98 beschreibt den Unterschied zum einfachen vierstimmigen Harmoniesatz. S. 100 fordert den Harmoniewechsel als wünschenswert, nicht als ausnahmslose Taktregel."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=110"
+        },
+        {
+          "id": "york1907-multi-harmoniewechsel-mischung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 125 · Harmoniewechsel innerhalb des Taktes",
+          "text": "Beim Kombinieren der Spezies tritt für York ein Harmoniewechsel innerhalb desselben Taktes häufig auf und braucht nicht vermieden zu werden. Die lange Note des Cantus firmus verpflichtet die anderen Stimmen also nicht dazu, den ganzen Takt hindurch nur einen einzigen unveränderten Akkord darzustellen. Für die Beurteilung bleiben die Bewegungsregeln der beteiligten Spezies und die tatsächlichen Zusammenklänge maßgeblich. Die größere harmonische Beweglichkeit gehört hier zur ausdrücklich beschriebenen kombinierten Aufgabe.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierte strenge Spezies · bewegliche Harmonie unter dem Cantus firmus",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 125 · Harmoniewechsel innerhalb des Taktes",
+              "note": "Der erste Absatz auf S. 125 erklärt den Harmoniewechsel im Takt für häufig und verlangt nicht, ihn zu vermeiden. Eine bestimmte Zahl von Harmonien oder ein neuer Akkordvorrat wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=137"
+        },
+        {
+          "id": "york1907-free-04",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 135–136, Fig. 85 · mehrere Harmonien im Takt",
+          "text": "In der zweiten und den folgenden Spezies des freien Kontrapunkts hebt York die Beschränkung auf nur eine Harmonie pro Takt weitgehend auf. Fig. 85 zeigt, wie innerhalb eines Takts verschiedene Akkorde und Umkehrungen aufeinanderfolgen können. Die Einordnung eines bewegten Tons hängt dadurch auch vom jeweiligen Harmoniewechsel ab: Eine zweite Note gegen den Cantuston muss nicht bloß Durchgang oder Nebenton desselben Akkords sein. Die Freiheit ist ausdrücklich Teil des freien Satzes; die zeitliche Ordnung der Harmonie bleibt beim Lesen der Stimmen mitzuhören.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · zweite und folgende Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 135–136, Fig. 85 · mehrere Harmonien im Takt",
+              "note": "Der Übergangssatz auf S. 135 bezeichnet die Einschränkung als largely removed; Fig. 85 ist mit Akkordstufen und Umkehrungssymbolen versehen. Daraus wird keine Pflicht zum Harmoniewechsel auf jedem bewegten Ton abgeleitet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=147"
         }
       ],
       "readingSources": [
@@ -21524,6 +23593,28 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=254"
+        },
+        {
+          "id": "york1907-multi-ausgleich-mischung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 124 · rhythmischer Ausgleich beim Kombinieren der Spezies",
+          "text": "Beim Verbinden mehrerer Spezies, besonders mit floriden Stimmen, wünscht York möglichst fortdauernde Bewegung irgendwo im Satz. Hält eine Stimme einen langen Ton, soll eine andere gleichzeitig kürzere Werte übernehmen. Das gilt auch, wenn fünfte Spezies gegen fünfte steht. Zugleich soll man dauernde Bewegung in sämtlichen Stimmen vermeiden. Die Aufgabe besteht daher im Weitergeben der Aktivität: Die Stimmen können gemeinsam einen fließenden Satz tragen, ohne ständig dieselbe Bewegungsdichte zu haben.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierter florider Satz · wechselnde Verteilung langer und kurzer Werte",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 124 · rhythmischer Ausgleich beim Kombinieren der Spezies",
+              "note": "S. 124 nennt ausdrücklich fünfte Spezies gegen sich selbst oder andere Spezies und stellt fortdauernde Bewegung irgendwo der unerwünschten ständigen Bewegung aller Stimmen gegenüber."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=136"
         }
       ],
       "readingSources": [
@@ -22658,7 +24749,8 @@ const ATLAS = {
         "grundrahmen",
         "vorhalt-bewegte-begleitstimme",
         "viertel-gegen-viertel",
-        "stimmen-ergaenzen"
+        "stimmen-ergaenzen",
+        "spezies-und-notenwerte"
       ],
       "comparisons": [],
       "authors": [
@@ -22855,6 +24947,31 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=154"
+        },
+        {
+          "id": "york1907-multi-gleiche-spezies",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 122; Saunders-Modell S. 127 · Kombinationen mit gleichen oder verschiedenen Spezies",
+          "text": "Kombinierter Kontrapunkt bedeutet bei York nicht, dass jede Gegenstimme eine andere Spezies haben muss. Über dem weiterhin vorhandenen Cantus firmus der ersten Spezies können beide Gegenstimmen gemeinsam in zweiter, dritter, vierter oder fünfter Spezies stehen; ebenso sind Mischungen verschiedener Spezies möglich. Auch zwei synkopierte Stimmen gehören ausdrücklich zu seinem Übungsplan und erscheinen im Saunders-Modell auf S. 127. Cantus und Gegenstimmen können in den verschiedenen Stimmlagen angeordnet werden. Für vier Stimmen eröffnet York entsprechend weitere Kombinationen, ohne eine feste unterschiedliche Rhythmusart pro Stimme vorzuschreiben.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierte strenge Speziesübung · gleiche und verschiedene Bewegungsarten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 122; Saunders-Modell S. 127 · Kombinationen mit gleichen oder verschiedenen Spezies",
+              "note": "S. 122 zählt die gleichen Speziespaare ausdrücklich auf. Das zweifach synkopierte Modell auf S. 127 wurde visuell geprüft. Yorks ungeklärte Gesamtzahl der möglichen Anordnungen wird nicht übernommen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=134"
         }
       ],
       "readingSources": [
@@ -22897,6 +25014,18 @@ const ATLAS = {
           "to": "gallon-bitsch1964-1",
           "type": "context",
           "note": "Spaldings dreistimmiger Übergang zum freien Instrumentalsatz erlaubt ausdrücklich zwei floride Gegenstimmen. Im beschriebenen mélange von Gallon und Bitsch erhält dagegen jede Gegenstimme eine eigene Rhythmusart. Die Vorgaben gehören zu unterschiedlichen Übungsanlagen; Spaldings rhythmisches Wechselspiel ist keine bloße weitere Besetzung derselben festen Rollenverteilung."
+        },
+        {
+          "from": "york1907-multi-gleiche-spezies",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Die Lehrgänge ordnen ihre Mischübungen unterschiedlich an. Gallon/Bitsch geben den Gegenstimmen im beschriebenen drei- und vierstimmigen Mélange unterschiedliche Rhythmusarten. York zählt ausdrücklich auch zwei Gegenstimmen derselben zweiten, dritten, vierten oder fünften Spezies auf. Das ist eine unterschiedliche Konstruktion der Übungsaufgabe, kein gegenseitiges Verbot entsprechender Satzweisen im Repertoire."
+        },
+        {
+          "from": "york1907-multi-gleiche-spezies",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "York nimmt zwei synkopierte Gegenstimmen ausdrücklich in seinen Übungsplan auf und zeigt dafür ein Saunders-Modell. Salzer/Schachter schließen zwei durchgehend synkopierte Stimmen als eigene Übung aus, weil die gemeinsamen Abwärtsauflösungen übermäßige Parallelbewegung fördern würden. Ihre ausdrückliche Anerkennung doppelter Vorhalte in Kompositionen bleibt davon unberührt: Verglichen werden die Grenzen der Lehrübung."
         }
       ]
     },
@@ -23027,6 +25156,54 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "york1907-two-floridus-bindungslaenge",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. V, S. 50",
+          "text": "Bei einer Bindung im Floridus darf Yorks vorbereitender Notenwert nicht kürzer sein als der gebundene Folgewert. Eine Halbe kann also mit einer Halben oder Viertel verbunden werden; eine Viertel darf nicht in eine Halbe hineinreichen. Häufig ist die Vorbereitung länger als die Fortsetzung. Punktierte Halbe und punktierte Viertel schließt er in dieser zweistimmigen Darstellung aus. Diese Schreibregeln betreffen die zeitliche Gestalt der Bindung; ob der übergebundene Ton anschließend konsonant oder dissonant ist, muss gesondert geprüft werden.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Verhältnis der gebundenen Notenwerte im zweistimmigen Floridus",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, S. 50",
+              "note": "S. 50 nennt das Verhältnis der beiden Notenwerte und die ausgeschlossenen Punktierungen ausdrücklich. Die späteren Regeln des kombinierten Satzes werden nicht vorweggenommen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=62",
+          "examples": [
+            "york-floridus-rhythmus"
+          ]
+        },
+        {
+          "id": "york1907-free-15",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 141, Fig. 91 · kurze Vorbereitung durch Wiederanschlag",
+          "text": "Für einen gebundenen Vorhalt behält York auch im freien Kontrapunkt die Dauerregel bei: Die Vorbereitung darf nicht kürzer sein als die angebundene Dissonanz. Einen kurzen Ton kann er dennoch vor eine längere Dissonanz setzen, indem diese neu angeschlagen statt übergebunden wird. Fig. 91 zeigt diesen Unterschied. York ordnet die freie Wiederholung ausdrücklich eher der fünften als der vierten Spezies zu; sie ist somit keine nachträgliche Aufhebung der Regel für die eigentliche Bindung.",
+          "speciesScope": [
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Kontrapunkt · Bindung und Wiederanschlag",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XVI, S. 141, Fig. 91 · kurze Vorbereitung durch Wiederanschlag",
+              "note": "Die erste Passage des Kapitels hält die Bindungsregel ausdrücklich aufrecht und bezeichnet das Umgehen durch Repetition als zur fünften Spezies gehörend."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=153"
         }
       ],
       "readingSources": [],
@@ -24354,7 +26531,8 @@ const ATLAS = {
         "linie-scheinpolyphonie",
         "tonwiederholung",
         "harmonischer-rhythmus",
-        "akkordprolongation"
+        "akkordprolongation",
+        "orgelpunkt-mehrstimmig"
       ],
       "authors": [
         {
@@ -24776,6 +26954,28 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=166"
+        },
+        {
+          "id": "york1907-two-dreierbewegung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 20–22, Fig. 26–27; Kap. III, S. 30",
+          "text": "York behandelt drei Töne gegen einen als Variante der zweiten Spezies, empfiehlt ihre praktische Ausarbeitung aber erst nach dem Vier-gegen-eins. Der erste klingende Ton ist vollkommen konsonant; ein Pausenbeginn ist gewöhnlich günstig. Die zweite und dritte Note können beide Durchgänge sein, müssen dann jedoch in der begonnenen Richtung schrittweise weitergehen. In einer unteren Gegenstimme soll die Akkordquinte nicht als höchster oder tiefster Ton der Gruppe hervortreten, sofern sie nicht wirklich als Durchgang behandelt wird. Am Ende steht wieder ein Ton von gleicher Dauer wie der Cantus-Ton.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Drei Töne gegen einen als Variante der zweiten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 20–22, Fig. 26–27; Kap. III, S. 30",
+              "note": "S. 20 nennt die Zuordnung zur zweiten Spezies und die Bedingungen; S. 22 sowie S. 30 bestimmen die spätere Position im Lernweg. Diese Zuordnung ist Yorks eigene."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=32"
         }
       ],
       "readingSources": [
@@ -26324,7 +28524,8 @@ const ATLAS = {
         "speziesmischung",
         "generalbass-bezifferung-stimmfuehrung",
         "dissonanz-aufloesungszeit",
-        "quartsext-dissonanz"
+        "quartsext-dissonanz",
+        "orgelpunkt-mehrstimmig"
       ],
       "comparisons": [],
       "authors": [
@@ -26445,6 +28646,29 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "york1907-multi-vorhalt-harmoniewechsel",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 124, Fig. 83 · vierte Spezies gegen bewegten Bass",
+          "text": "Eine gebundene Dissonanz kann in Yorks kombiniertem Kontrapunkt regelgerecht um eine Stufe abwärts aufgelöst werden, während die Bewegung einer anderen Stimme zugleich den Auflösungsklang verändert. Als typischen Fall nennt er vierte Spezies in einer Oberstimme gegen zweite Spezies im Bass. Fig. 83 zeigt, dass dabei sowohl die Akkordlage als auch die Harmonie wechseln kann: Zu den gedruckten Stufenfolgen gehören II–IIb und Ib–VI, wobei b die erste Umkehrung bezeichnet. Die korrekte Abwärtsbewegung der gebundenen Stimme verlangt also keinen unveränderten Begleitklang.",
+          "speciesScope": [
+            2,
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierte zweite und vierte Spezies · Vorhaltsauflösung mit bewegter Begleitung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 124, Fig. 83 · vierte Spezies gegen bewegten Bass",
+              "note": "Die ersten beiden Fälle zeigen ausdrücklich die genannten Stufenfolgen. Im dritten Beispiel ist die gebundene Stimme der Bass; deshalb werden nicht alle drei Notenbilder als Oberstimmenvorhalt bezeichnet. Die Antwort unterscheidet Umkehrungswechsel und Harmoniewechsel."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=136"
         }
       ],
       "relations": [
@@ -27036,6 +29260,28 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=137"
+        },
+        {
+          "id": "york1907-free-18",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 142–143, Fig. 95–96 · kürzerer Vorgriff und Vorausnahme",
+          "text": "York lässt im freien floriden Satz einen später länger erklingenden konsonanten Ton bereits in kürzerer Dauer vorwegnehmen. Neben diesem Wiederanschlag in Fig. 95 zeigt Fig. 96 die eigentliche Vorausnahme eines Tons der kommenden Harmonie. Ein solcher Ton weist zeitlich nach vorn, während der Vorhalt einen vorherigen Ton über den Wechsel hinaus festhält. York verweist für die Vorausnahme außerdem auf den Schluss seines Mendelssohn-Ausschnitts. Die beiden Verfahren sollen daher aus ihrem Verhältnis zum Harmoniewechsel, nicht allein aus einer kurzen Notenfigur erkannt werden.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier florider Kontrapunkt · zeitliche Stellung zum Harmoniewechsel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XVI, S. 142–143, Fig. 95–96 · kürzerer Vorgriff und Vorausnahme",
+              "note": "S. 142 führt den kürzeren consonant note ein, S. 143 Fig. 95–96 und den Verweis auf Mendelssohn. Die unterschiedlichen Fälle werden nicht in eine allgemeine Gleichsetzung von Wiederholung und harmonischer Vorausnahme aufgelöst."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=154"
         }
       ]
     },
@@ -27701,6 +29947,103 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=134"
+        },
+        {
+          "id": "york1907-two-floridus-aufbau",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. V, S. 48",
+          "text": "Die fünfte Spezies verbindet bei York die vorherigen Bewegungsarten, nimmt aber die vierte als bevorzugte Grundlage. Synkopen und verzierte Auflösungen sollen häufiger sein als reine Note-gegen-Note- oder Halbnotengruppen. Erste Spezies steht nur im Schlusstakt; zweite ist zwar korrekt, begegnet aber vor allem an der Kadenz. Dritte Spezies soll nicht länger als zwei Takte am Stück laufen, meist kürzer. Ein bloßes Aneinanderreihen je eines ganzen Taktes verschiedener Spezies ergibt für York noch keinen guten Floridus: Besonders erwünscht ist die Mischung innerhalb eines Taktes.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Synkopische Grundlage und innertaktige Mischung des Floridus",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, S. 48",
+              "note": "S. 48 ordnet alle vier vorausgehenden Spezies nach ihrer Rolle im Floridus und betont die Kombination innerhalb desselben Taktes."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=60",
+          "examples": [
+            "york-floridus-rhythmus"
+          ]
+        },
+        {
+          "id": "york1907-two-floridus-abwechslung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. V, S. 48–50, Fig. 51 und 54",
+          "text": "Im Floridus sollen Figuren und Rhythmen abwechslungsreich verbunden werden. York empfiehlt, dieselbe Spezies nicht länger als zwei Takte hintereinander zu verwenden und weder ein Motiv noch dessen Rhythmus mechanisch zu wiederholen. Folgt innerhalb eines Taktes auf kürzere Werte eine Halbe, soll diese in den nächsten Takt gebunden werden. Die Kadenz nimmt er davon aus. Fig. 54 zeigt schlechte, gute und am Schluss zulässige Fassungen. Die längere Note soll den bewegten Verlauf weitertragen, statt ihn ohne Anlass stocken zu lassen.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Rhythmischer Übergang zwischen kurzen und langen Werten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, S. 48–50, Fig. 51 und 54",
+              "note": "Die allgemeine Abwechslung auf S. 48 und die konkrete Binderegel auf S. 50 mit Kadenz-Ausnahme werden zusammen gelesen; Fig. 54 wurde visuell geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=60",
+          "examples": [
+            "york-floridus-rhythmus"
+          ]
+        },
+        {
+          "id": "york1907-two-floridus-achtel",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. V, S. 49, Fig. 52–53",
+          "text": "York erlaubt und empfiehlt Achtel auf der zweiten oder vierten Viertelposition des Floridus. Sie müssen schrittweise geführt werden. Fig. 52 verbindet solche kurzen Werte mit einer übergebundenen Linie; die Auflösungsvarianten in Fig. 53 zeigen, wie sie eine größere Vorhaltsbewegung ausfüllen können. Die Achtel sind damit an leichte Positionen und an eine verständliche melodische Fortsetzung gebunden. Aus der Empfehlung folgt keine allgemeine Erlaubnis, jeden Akzent beliebig zu unterteilen.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Schrittweise Achtel als Ausfüllung leichter Viertelpositionen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. V, S. 49, Fig. 52–53",
+              "note": "S. 49 nennt ausdrücklich second or fourth beat und stepwise progression; die Beispiele wurden visuell geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=61",
+          "examples": [
+            "york-floridus-rhythmus"
+          ]
+        },
+        {
+          "id": "york1907-multi-notenwerte-mischung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 124 · zusätzliche Werte im kombinierten floriden Satz",
+          "text": "Für die fünfte Spezies in Verbindung mit anderen Spezies erweitert York die verfügbaren Taktfiguren. Eine punktierte Halbe darf am Taktanfang stehen, sogar eine punktierte Viertel auf dem dritten Viertel des Taktes. Gelegentlich ist auch eine ganze Note möglich, besonders wenn sie an die folgende Note gebunden wird. Diese Möglichkeiten gehören zu seinem kombinierten Satz und müssen mit der Bewegung der übrigen Stimmen zusammengedacht werden. Sie bilden keine nachträgliche pauschale Freigabe derselben Figuren in jeder vorangehenden Einzelübung.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierte fünfte Spezies · punktierte Werte und gelegentliche ganze Noten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 124 · zusätzliche Werte im kombinierten floriden Satz",
+              "note": "Die drei Werte und ihre Positionen stehen ausdrücklich auf S. 124, unmittelbar nach der Regel für den rhythmischen Ausgleich der Stimmen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=136"
         }
       ],
       "relations": [
@@ -27709,6 +30052,12 @@ const ATLAS = {
           "to": "salzer-schachter1989-1",
           "type": "nuance",
           "note": "Salzer und Schachter verlangen nach zwei Vierteln grundsätzlich die Weiterbindung der folgenden Halben und nennen die Kadenz als besondere Ausnahme. Schönberg berücksichtigt außerdem die Einbettung über die vorige Taktgrenze: Eine bereits vorausgehende Viertel kann die Folge anschlussfähig machen. Der Rhythmus wird daher mit unterschiedlichen Nachbarschaftsbedingungen beurteilt."
+        },
+        {
+          "from": "york1907-two-floridus-abwechslung",
+          "to": "spalding1904-two-rhythmus-floridus",
+          "type": "context",
+          "note": "Beide suchen rhythmische Vielfalt und vermeiden schematisch gleichartige Taktmuster. Yorks strenger Floridus vermeidet wiederholte Figuren allgemein; Spaldings instrumentaler Entwurf erklärt eine sequentielle Imitation ausdrücklich zur sinnvollen Ausnahme."
         }
       ]
     },
@@ -28222,6 +30571,29 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=136"
+        },
+        {
+          "id": "york1907-two-sprungposition-zweite-dritte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 15–16, Fig. 14; Kap. III, S. 28–29, Fig. 33",
+          "text": "Im Zwei-gegen-eins bevorzugt York einen zulässigen Sprung zwischen den beiden Tönen desselben Taktes gegenüber einem Sprung vom leichten Taktteil auf den folgenden Taktanfang. Im Vier-gegen-eins soll ein schrittweiser Lauf nicht durch einen Sprung in derselben Richtung zum nächsten Akzent verlängert werden. Ein Sprung in Gegenrichtung kann den Zug dagegen sinnvoll wenden. Die Entscheidung hängt somit auch davon ab, ob der Sprung innerhalb eines harmonischen Feldes steht oder einen neuen Akzent erreicht.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Sprungrichtung und Stellung zum Akzent",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 15–16, Fig. 14; Kap. III, S. 28–29, Fig. 33",
+              "note": "Die Präferenz der zweiten Spezies und der gute Gegenfall in Fig. 33 werden als verschiedene, zusammenhängende Beobachtungen wiedergegeben."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=27"
         }
       ],
       "relations": [
@@ -28442,6 +30814,31 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=159"
+        },
+        {
+          "id": "york1907-multi-dissonanzen-gleichzeitiger-bewegung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIV, S. 123–125, Fig. 81, 82a und 84 · Gleichzeitigkeit und Gegenbewegung",
+          "text": "Gleichzeitig neu angeschlagene Töne sollen in Yorks kombiniertem Kontrapunkt grundsätzlich miteinander konsonieren. Eine besondere Freiheit entsteht, wenn zwei Stimmen schrittweise in Gegenbewegung gehen: Sie dürfen dabei dissonante Zusammenklänge durchlaufen, bis sie wieder eine Konsonanz erreichen. York warnt ausdrücklich vor übermäßigem Gebrauch dieser Möglichkeit. Die Erlaubnis ist zudem nicht grenzenlos auf kleinere Werte übertragbar: Eine Achtelnote gegen eine Viertelnote soll auf S. 125 ausdrücklich mit dieser konsonieren. Beim Prüfen muss deshalb die konkrete Bewegungsart samt den beteiligten Werten berücksichtigt werden.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kombinierte Spezies · dissonante Gleichzeitigkeit bei schrittweiser Gegenbewegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIV, S. 123–125, Fig. 81, 82a und 84 · Gleichzeitigkeit und Gegenbewegung",
+              "note": "Fig. 81 und 82a erläutern die Ausnahme von der Konsonanz gleichzeitig angeschlagener Töne. Fig. 84 steht bei der gesonderten Achtel-gegen-Viertel-Regel; diese Einschränkung bleibt erhalten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=135"
         }
       ],
       "relations": [
@@ -29742,6 +32139,28 @@ const ATLAS = {
           "work": "Preliminary Exercises in Counterpoint (hrsg. und mit einem Vorwort von Leonard Stein, erste Taschenbuchausgabe, New York: St. Martin’s Press, 1970)",
           "url": "https://openlibrary.org/books/OL19042083M/Preliminary_exercises_in_counterpoint",
           "catalogue": true
+        },
+        {
+          "id": "york1907-two-tritonus-gruppenrahmen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 29, Fig. 34",
+          "text": "Ein melodischer Teilbogen soll bei York nicht durch die beiden Töne eines Tritonus begrenzt sein. Es reicht daher nicht, den direkten Tritonussprung zu vermeiden: Auch Anfang, Ende oder äußere Kontur einer Figur können denselben Abstand stark hervortreten lassen. Fig. 34b ist für ihn gut, obwohl beide Tritonustöne im Inneren vorkommen, weil sie den Bogen nicht als Außentöne bestimmen. Entscheidend ist die Funktion des Intervalls innerhalb der gesamten Figur.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tritonus als auffälliger Rahmen eines Melodiebogens",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 29, Fig. 34",
+              "note": "Fig. 34 wird ausdrücklich durch outside notes erklärt; die Regel wird nicht in ein Verbot jedes indirekten Auftretens umgedeutet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=41"
         }
       ],
       "relations": [
@@ -29972,7 +32391,8 @@ const ATLAS = {
       "related": [
         "kanon-verfahren",
         "reihen-und-stimmen",
-        "obligo-kontrapunkt"
+        "obligo-kontrapunkt",
+        "spezies-und-notenwerte"
       ],
       "authors": [
         {
@@ -30040,6 +32460,31 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=120"
+        },
+        {
+          "id": "york1907-free-14",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 139–140 · Richter-Beispiele mit rhythmisch verändertem Cantus",
+          "text": "Auch der Cantus darf im freien Kontrapunkt rhythmisch verändert werden. York stellt nach Richter zuerst eine Folge gleich langer ganzer Noten vor und anschließend eine Fassung mit anderen Dauern und Bindungen. Dazu zeigt er zweistimmige Gegenstimmen in der ersten, zweiten und vierten sowie gesondert in der dritten Spezies. Die Tonfolge der Vorlage ist damit noch nicht ihre einzige mögliche musikalische Gestalt: Durch die neue Zeitordnung entstehen andere Ansatzpunkte für die Gegenstimme und ein abwechslungsreicherer Verlauf.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier zweistimmiger Kontrapunkt · rhythmische Variation eines Cantus",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 139–140 · Richter-Beispiele mit rhythmisch verändertem Cantus",
+              "note": "Die Zuschreibung der Beispiele an Richter steht ausdrücklich auf S. 139. S. 140 benennt die Spezies der beiden Aussetzungen. Die rhythmische Änderung wird nicht als freie Erlaubnis beliebiger Tonhöhenänderungen derselben Vorlage ausgegeben."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=151"
         }
       ]
     },
@@ -30214,6 +32659,26 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=253"
+        },
+        {
+          "id": "york1907-free-21",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 143–144 · Akkordbrechung, Begleitung und selbstständige Stimme",
+          "text": "Eine Stimme, die fortwährend nur Akkordtöne arpeggiert, nennt York zunächst Begleitung. Treten harmoniefremde Töne hinzu, kann sie sich einer selbstständigen melodischen Stimme annähern. Ob er die Regeln der Harmonie oder des Kontrapunkts anwendet, entscheidet er nach dem Grad dieser Eigenständigkeit: Wirken mehrere Stimmen an einer gemeinsamen Idee mit, spricht er von Harmonie; trägt jede eine eigene Idee, von Kontrapunkt. Die bloße Bewegung einer Begleitfigur genügt für seine begriffliche Unterscheidung also noch nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier Satz · Eigenständigkeit einer begleitenden Linie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XVI, S. 143–144 · Akkordbrechung, Begleitung und selbstständige Stimme",
+              "note": "Die Abgrenzung steht als pädagogische Entscheidungshilfe auf S. 144. York beschreibt einen Grad der Selbstständigkeit; es wird daraus kein allgemeines Verbot von Begleitfiguren in polyphoner Musik konstruiert."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=155"
         }
       ],
       "relations": [
@@ -30228,6 +32693,12 @@ const ATLAS = {
           "to": "daniel2004-r02",
           "type": "context",
           "note": "Gárdonyi begründet die Verbindung von Harmonik und Kontrapunkt ausdrücklich über verschiedene Satzarten und Stile hinweg. Daniel prüft die Eigenständigkeit der Linien an einer bestimmten historischen Aufgabe, dem vierstimmigen Bach-Choral. Der allgemeine Begriff und die konkrete Chorallehre haben daher unterschiedliche Reichweiten."
+        },
+        {
+          "from": "york1907-free-21",
+          "to": "gardonyi1996-open-homophonie",
+          "type": "nuance",
+          "note": "York trennt für die Unterrichtsentscheidung Harmonie und Kontrapunkt nach dem Grad der eigenen melodischen Idee jeder Stimme. Gárdonyis weiterer Begriff erfasst kontrapunktisches Zusammenwirken ausdrücklich auch im homophonen Satz und begründet daraus keine vollständige Trennung der beiden Lehren."
         }
       ]
     },
@@ -30246,7 +32717,8 @@ const ATLAS = {
       "related": [
         "chromatik",
         "leittonaufloesung",
-        "tonart-und-region"
+        "tonart-und-region",
+        "moll-stufenfuehrung"
       ],
       "authors": [
         {
@@ -30301,7 +32773,8 @@ const ATLAS = {
         "choral-modaler-tonartbezug",
         "choral-kadenzplanung",
         "fuge-tonartenplan",
-        "modulation-in-uebungen"
+        "modulation-in-uebungen",
+        "solmisationssilben"
       ],
       "authors": [
         {
@@ -30643,6 +33116,112 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=247"
+        },
+        {
+          "id": "york1907-multi-verdopplung-drei",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 57, Fig. 57; Kap. VII, S. 60 · Verdopplung in drei Stimmen",
+          "text": "Wenn im Dreistimmensatz die Quinte entfällt, kann York den Grundton oder die Terz verdoppeln. Die Terz eines Mollakkords hält er dafür für günstiger als die eines Durakkords; als sichere Orientierung nennt er die erste, vierte und fünfte Tonleiterstufe. Den Leitton schließt er auf dem Taktanfang aus. Für die erste Spezies, deren Klänge alle auf diesen tragenden Positionen stehen, wiederholt er das Leittonverbot ausdrücklich. Die spätere, flüchtige Verdopplung in der dritten Spezies erhält eine eigene Regel und darf mit dieser Klangbesetzung nicht gleichgesetzt werden.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige erste Spezies · Verdopplung bei unvollständigem Dreiklang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 57, Fig. 57; Kap. VII, S. 60 · Verdopplung in drei Stimmen",
+              "note": "S. 57 unterscheidet große und kleine Terzen und bindet das Leittonverbot an den Taktanfang; S. 60 wiederholt es für die erste Spezies. Die gesonderte Ausnahme steht erst auf S. 74."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=69"
+        },
+        {
+          "id": "york1907-multi-leitton-figuriert",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IX, S. 74, Fig. 67 · Leitton im Inneren der Viertelbewegung",
+          "text": "In der dreistimmigen dritten Spezies darf der Leitton bei York gelegentlich durch die Bewegung innerhalb des Takts doppelt erscheinen. Fig. 67 zeigt den betreffenden Ton auf dem dritten Viertel. Die Erlaubnis lässt sich deshalb nicht auf die Behauptung verkürzen, jede solche Verdopplung müsse ausschließlich auf einem schwachen Viertel liegen. Entscheidend ist hier der vorübergehende Verlauf der bewegten Stimme. Die ausdrückliche Ablehnung der Leittonverdopplung in der ersten Spezies und auf dem anfänglichen Gerüstklang bleibt davon zu unterscheiden.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige dritte Spezies · vorübergehende Leittonverdopplung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, S. 74, Fig. 67 · Leitton im Inneren der Viertelbewegung",
+              "note": "Fig. 67 trägt Correct und markiert die Verdopplung mit einem Pluszeichen auf dem dritten Viertel. Keine Übertragung auf beliebige liegende oder langsame Leittonverdopplungen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=86"
+        },
+        {
+          "id": "york1907-multi-verdopplung-vier",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 99, Fig. 75 · vollständiger vierstimmiger Klang und Verdopplung",
+          "text": "Für den vierstimmigen Grundsatz ordnet York die Verdopplungen nach einer Präferenz: zuerst der Grundton, danach die Quinte, zuletzt die Terz. Die Terz eines Mollakkords darf jedoch frei verdoppelt werden; ein allgemeines Terzverdopplungsverbot stellt er also nicht auf. Den Leitton schließt er aus und bevorzugt wiederum die erste, vierte und fünfte Tonleiterstufe. Der Klang soll grundsätzlich alle drei Akkordtöne enthalten. Nur beim Akkord in Grundstellung kann die Quinte ausnahmsweise fehlen, was York für wenig wünschenswert und selten notwendig hält.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmige erste Spezies · vollständige Dreiklänge und Rangfolge der Verdopplungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 99, Fig. 75 · vollständiger vierstimmiger Klang und Verdopplung",
+              "note": "Die Regeln stehen unmittelbar nach der Beschreibung des vierstimmigen Grundsatzes. Fig. 75 unterscheidet weniger gute, mögliche und bessere Lösungen; die ausdrückliche Mollterz-Erlaubnis bleibt erhalten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=111"
+        },
+        {
+          "id": "york1907-multi-leitton-vielstimmig",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIII, S. 119; zum gesonderten früheren Fall Kap. IX, S. 74, Fig. 67 · Leitton und Aufgabenrahmen",
+          "text": "Im Kapitel über fünf und mehr Stimmen setzt York für die Leittonverdopplung eine Schwelle: Unter sechs Stimmen soll sie nicht vorkommen. Diese Anweisung steht neben seiner früheren, ausdrücklich auf die dreistimmige dritte Spezies bezogenen Erlaubnis einer beiläufigen Verdopplung innerhalb des Taktes. Die beiden Stellen müssen mit ihrem jeweiligen Aufgabenrahmen gelesen werden. Die vielstimmige Anweisung ist weder eine nachträgliche Streichung der früheren Ausnahme noch eine pauschale Empfehlung, den Leitton ab sechs Stimmen regelmäßig zu verdoppeln.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vielstimmige strenge Übung · lokale Leittonregel neben einer früheren figurierten Ausnahme",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, S. 119; zum gesonderten früheren Fall Kap. IX, S. 74, Fig. 67 · Leitton und Aufgabenrahmen",
+              "note": "S. 119 nennt die Grenze von sechs Stimmen ohne weitere Ausführung. S. 74 erlaubt ausdrücklich die beiläufige Verdopplung in der dritten Spezies. Die Antwort stellt beide lokalen Aussagen nebeneinander, ohne eine im Buch nicht formulierte allgemeine Systematik zu erfinden."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=131"
+        },
+        {
+          "id": "york1907-free-05",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 136 · Verdopplungen im freien Satz",
+          "text": "Die Erweiterung zum freien Kontrapunkt lockert bei York nicht jede Verdopplungsregel. Die Terz eines Durakkords soll besonders vorsichtig verdoppelt werden, vor allem in der Sextstellung. Für den Leitton formuliert er eine strengere Grenze: In weniger als fünf Stimmen ist seine Verdopplung ausgeschlossen. Diese Formulierung darf nicht in eine allgemeine Erlaubnis für fünf oder mehr Stimmen umgedeutet werden; der Satz nennt hier ausdrücklich die Grenze des Verbots, nicht die Bedingungen sämtlicher größerer Besetzungen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier mehrstimmiger Kontrapunkt · Durterz und Leitton",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 136 · Verdopplungen im freien Satz",
+              "note": "S. 136 spricht von more carefully avoided für die Durterz und strictly forbidden in less than five parts für den Leitton. Die beiden unterschiedlichen Verbindlichkeitsgrade bleiben erhalten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=148"
         }
       ],
       "relations": [
@@ -30657,6 +33236,18 @@ const ATLAS = {
           "to": "schoenberg1970-a13",
           "type": "nuance",
           "note": "Beide gewichten die melodische Führung hoch. Spalding behält dennoch eine ausdrückliche Grundvorsicht gegenüber verdoppelten großen Terzen bei, die er in begründeten Fällen übergeht; Schönberg übernimmt eine allgemeine Bevorzugung oder ein pauschales Terzverbot gerade nicht in die vierstimmige Kontrapunktübung. Die Differenz betrifft die anfängliche Gewichtung, nicht ein absolutes Erlaubnis-Verbot-Paar."
+        },
+        {
+          "from": "york1907-multi-verdopplung-vier",
+          "to": "schoenberg1970-a13",
+          "type": "nuance",
+          "note": "Beide Stellen behandeln vierstimmige erste Spezies und verbieten Terzverdopplung nicht pauschal. York nennt dennoch eine feste Präferenzfolge Grundton–Quinte–Terz und hebt die frei verdoppelbare Mollterz hervor. Schönberg macht die günstigste konkrete Stimmführung zum Ausgangspunkt und übernimmt gerade kein allgemeines Terzverdopplungsverbot aus der Harmonielehre. Die Nuance betrifft die Gewichtung der Ausgangsentscheidung, nicht einen Gegensatz zwischen vollständiger Erlaubnis und vollständigem Verbot."
+        },
+        {
+          "from": "york1907-free-05",
+          "to": "spalding1904-multi-verdopplung",
+          "type": "nuance",
+          "note": "York schließt die Leittonverdopplung auch im freien Satz unter fünf Stimmen ausdrücklich aus. Spalding lässt in seiner dreistimmigen tonalen Übung eine eng begrenzte Ausnahme bei diatonischem Verlauf und kräftiger Gegenbewegung zu. Die Differenz betrifft die Verbindlichkeit der Verdopplungsregel."
         }
       ]
     },
@@ -30678,7 +33269,8 @@ const ATLAS = {
         "speziesmischung",
         "stimmkreuzung",
         "generalbass-pedal",
-        "innenstimmen-melodiefuehrung"
+        "innenstimmen-melodiefuehrung",
+        "spezies-und-notenwerte"
       ],
       "authors": [
         {
@@ -30721,6 +33313,97 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=142"
+        },
+        {
+          "id": "york1907-multi-aufbau-drei",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VI, S. 56–58 · drei Stimmen und die Beziehung von Harmonie und Melodie",
+          "text": "Mit der zweiten Gegenstimme kann der Dreiklang vollständig erscheinen; deshalb gewinnen die harmonischen Beziehungen für York gegenüber der Zweistimmigkeit an Gewicht. Dennoch soll bei einem wirklichen Konflikt die überzeugende melodische Fortschreitung Vorrang haben. Die dritte Stimme dient also nicht bloß dazu, fehlende Akkordtöne einzusetzen. York verlangt weiterhin die selbstständige Prüfung jeder Linie und besonders des Außenstimmenpaars. Alle Stimmen sollen nur selten gleichzeitig in dieselbe Richtung gehen; die Umverteilung desselben Akkords nennt er als möglichen unbedenklichen Fall.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge dreistimmige Übung · zusätzliche Linie und harmonischer Zusammenhang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VI, S. 56–58 · drei Stimmen und die Beziehung von Harmonie und Melodie",
+              "note": "Kap. VI bezeichnet seine Beobachtungen ausdrücklich als Grundlage sämtlicher fünf Spezies in drei Stimmen. S. 56 setzt die melodische Führung an die erste Stelle; S. 58 qualifiziert die gleichgerichtete Bewegung aller Stimmen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=68"
+        },
+        {
+          "id": "york1907-multi-zusatzstimme",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 65; Kap. IX, S. 74; Kap. X, S. 83; Kap. XI, S. 91; Kap. XII, S. 98 · Additional Part",
+          "text": "Beim dreistimmigen Durchgang durch die zweite bis fünfte Spezies kombiniert York zunächst den Cantus firmus mit einer Gegenstimme in der betreffenden Spezies und einer weiteren Stimme in der ersten Spezies. Diese Additional Part setzt zusammen mit dem Cantus ein und folgt dessen langen Notenwerten. Sie muss dennoch als eigene Melodie geführt werden. Im ersten vierstimmigen Übungsmodell treten zum Cantus zwei solche Zusatzstimmen; nur eine weitere Stimme trägt zunächst die jeweils geübte bewegte Spezies. Mehrere bewegte Stimmen werden anschließend als kombinierter Kontrapunkt eigens behandelt.",
+          "speciesScope": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Aufbau drei- und vierstimmiger Speziesübungen · feste und bewegte Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 65; Kap. IX, S. 74; Kap. X, S. 83; Kap. XI, S. 91; Kap. XII, S. 98 · Additional Part",
+              "note": "Die Kapitel bezeichnen die Zusatzstimme jeweils ausdrücklich als erste Spezies. Die Eintrittsbedingung steht auf S. 65, die Erweiterung um zwei Zusatzstimmen auf S. 98."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=77"
+        },
+        {
+          "id": "york1907-multi-stimmen-hinzunehmen",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIII, S. 118–119 · fünf bis acht Stimmen und Übungsfolge",
+          "text": "Beim Ausbau des Satzes empfiehlt York zunächst einen zweiten Sopran, dann einen zweiten Tenor, danach einen zweiten Alt und zuletzt einen zweiten Bass. Gemeint sind zusätzliche selbstständige Stimmen, keine durchgehenden Oktavverdopplungen. Die größere Stimmenzahl bringt mehr Freiheiten der Führung, aber keine neuen Akkorde. Für die Übung bevorzugt York zunächst fünf bis acht Stimmen gemeinsam in erster Spezies und anschließend dieselben Besetzungen mit floriden Gegenstimmen. Nur eine bewegte Stimme der zweiten, dritten oder vierten Spezies gegen zahlreiche Stimmen im Grundsatz hält er für wenig lohnend im Verhältnis zur Schwierigkeit. In der vielstimmigen fünften Spezies erlaubt er auch ganze, halbe und Viertelpausen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge Übungen mit fünf bis acht Stimmen · Besetzung und Reihenfolge der Aufgaben",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, S. 118–119 · fünf bis acht Stimmen und Übungsfolge",
+              "note": "S. 118 nennt die Reihenfolge der zusätzlichen Stimmlagen und schließt neue Akkorde aus. S. 119 unterscheidet die möglichen von den pädagogisch bevorzugten Aufgaben und nennt die Pausenwerte."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=130"
+        },
+        {
+          "id": "york1907-free-13",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 133 und 139, Fig. 90 · wechselnde Stimmenzahl und bewegte Stimme",
+          "text": "Im freien Kontrapunkt muss die Stimmenzahl nach York nicht während des ganzen Stücks gleich bleiben. Stimmen können aussetzen oder hinzutreten; auch Verdopplungen erhalten mehr Spielraum. Zugleich soll die eigentliche bewegte Gegenstimme im mehrstimmigen Satz nicht immer derselben Lage zugewiesen werden. Fig. 90 zeigt ihre Verlagerung zwischen den Stimmen. Eine Erweiterung des Satzes betrifft deshalb nicht nur die Menge gleichzeitig erklingender Töne, sondern auch die Verteilung der melodischen Tätigkeit.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier mehrstimmiger Kontrapunkt · veränderliche Besetzung und Gegenstimmenlage",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XV, S. 133 und 139, Fig. 90 · wechselnde Stimmenzahl und bewegte Stimme",
+              "note": "S. 133 erlaubt ausdrücklich veränderte Stimmenzahl und das Wandern des Kontrapunkts; S. 139 empfiehlt dies als Übung in more than two parts. Der Hinweis wird nicht als Vorschrift für den vorangehenden strengen Satz verwendet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=145"
         }
       ]
     },
@@ -30887,7 +33570,8 @@ const ATLAS = {
         "stimmabstand",
         "stimmkreuzung",
         "choral-gegenstimme",
-        "akkordvollstaendigkeit"
+        "akkordvollstaendigkeit",
+        "melodischer-ambitus"
       ],
       "reading": "Singe die vier Linien einzeln. Unterscheide ihren gewöhnlichen Tonraum von einzelnen Extremtönen und prüfe, ob Tonart, Text oder Kadenz diese besondere Lage erklären.",
       "readingSources": [
@@ -31060,6 +33744,28 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=135"
+        },
+        {
+          "id": "york1907-two-dreiertakt-ornament",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 42, Fig. 49",
+          "text": "Im Dreiertakt löst York die übergebundene Dissonanz gewöhnlich auf dem zweiten Schlag auf. Eine verzierte Auflösung kann den regulären Schritt bis zum dritten Schlag aufschieben: Zunächst springt die Stimme auf dem zweiten Schlag zu einem konsonanten Ton und kehrt danach zum eigentlichen Auflösungston zurück. Der Zwischenton ersetzt die erwartete Auflösung nicht, sondern verzögert sie innerhalb einer klar beschriebenen Figur. York verbindet dieses Verfahren mit den zuvor erläuterten changing tones.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Aufgeschobene Vorhaltsauflösung im Dreiertakt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 42, Fig. 49",
+              "note": "Fig. 49a–b stellt den Normalfall und die ornamental resolution gegenüber; der zweite Schlag muss im verzierten Fall konsonant sein."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=54"
         }
       ]
     },
@@ -31271,6 +33977,133 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=110"
+        },
+        {
+          "id": "york1907-two-implizierter-quartsext",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 19, Fig. 23",
+          "text": "Auch zwei Stimmen können für York einen ausgeschlossenen Quartsextakkord andeuten, obwohl der vollständige Dreiklang nicht gleichzeitig erklingt. In Fig. 23 kann die Bassbewegung so gelesen werden, dass die Akkordquinte unten steht. Deutet man dieselbe Stelle stattdessen als anderen erlaubten Akkord, wird der folgende Basston zum harmoniefremden Ton, der unzulässig angesprungen ist. Der Lernende soll deshalb nicht nur die zwei vertikalen Intervalle prüfen, sondern die durch ihre Verbindung nahegelegte Harmonie. Yorks strenger Übungsrahmen verbietet hier den selbstständigen Quartsextbezug.",
+          "speciesScope": [
+            2
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Angedeutete zweite Umkehrung im Zweistimmensatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 19, Fig. 23",
+              "note": "Der Text auf S. 19 diskutiert ausdrücklich beide möglichen harmonischen Deutungen von Fig. 23; es geht nicht um jeden klingenden Quartvorhalt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=31",
+          "examples": [
+            "york-harmonie-zweistimmig"
+          ]
+        },
+        {
+          "id": "york1907-two-quinte-im-bass-dritte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. III, S. 28, Fig. 32; S. 31, Fig. 38a",
+          "text": "Auch in der dritten Spezies soll die Bassfigur keinen Quartsextakkord hervortreten lassen. York empfiehlt, die Akkordquinte nicht zum höchsten oder tiefsten Ton der Taktgruppe zu machen. Damit lässt sich der problematische Eindruck meist vermeiden. Im Fehlerbeispiel auf S. 31 bezeichnet er einen angedeuteten Quartsextklang als Verstoß, fügt aber hinzu, dass manche Autoren ihn zulassen. Die Enge dieser Lösung ist also ausdrücklich eine Lehrentscheidung und keine verschwiegen einheitliche historische Praxis.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kontur des bewegten Basses und angedeutete zweite Umkehrung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. III, S. 28, Fig. 32; S. 31, Fig. 38a",
+              "note": "S. 28 sagt highest or lowest, nicht highest or last. S. 31 nennt die abweichende Lehrmeinung zu Nr. 7 ausdrücklich."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=40"
+        },
+        {
+          "id": "york1907-two-vorhalt-statt-quartsext",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 40, Fig. 44; S. 43, Fig. 50b",
+          "text": "Yorks Verbot einer selbstständigen Quartsextstellung bedeutet nicht, dass jede Quartwirkung der Synkope gleich behandelt wird. Fig. 44a lässt er ausdrücklich zu und erklärt, diese Verbindung werde nicht als Quartsextakkord aufgefasst. Auch im Fehlerbeispiel Fig. 50b ist der scheinbare Quartsextfall im sechsten Takt gerade kein Fehler: Der betreffende Ton gehört nicht zur tragenden Harmonie. Die Quarte bleibt als Dissonanz regelgerecht zu führen. Entscheidend ist, ob ein Ton eine zweite Umkehrung begründet oder als bewegter beziehungsweise gebundener fremder Ton verständlich wird.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Quartdissonanz ohne selbstständige Quartsext-Harmonie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 40, Fig. 44; S. 43, Fig. 50b",
+              "note": "S. 40 grenzt Fig. 44a ausdrücklich vom c-position chord ab; S. 43 hebt den sechsten Takt innerhalb eines sonst fehlerhaften Beispiels als richtig hervor."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=52"
+        },
+        {
+          "id": "york1907-multi-quartsext-dritte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IX, S. 75–76, Fig. 71 · bewegter Bass in der dritten Spezies",
+          "text": "Liegt die dritte Spezies im Bass, soll ihre Figur bei York keinen tragenden Quartsextakkord nahelegen. Die Akkordquinte darf deshalb nicht auf dem ersten oder dritten Viertel als Basston auftreten. Auf dem zweiten oder vierten Viertel ist sie eher möglich. Fig. 71 stellt den beiden schlechten Positionen einen Fall auf leichter Zeit gegenüber, den York ausdrücklich nur als möglich, nicht als empfehlenswert bezeichnet. Aus dem schwachen Taktteil folgt somit noch keine automatische Empfehlung für jede Bassbrechung.",
+          "speciesScope": [
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige dritte Spezies · Akkordquinte im bewegten Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IX, S. 75–76, Fig. 71 · bewegter Bass in der dritten Spezies",
+              "note": "Die Tafel enthält die Wortlaute Bad, Bad sowie Possible, but not recommended. Die unterschiedlichen metrischen Positionen wurden im Notenbild überprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=87"
+        },
+        {
+          "id": "york1907-multi-quartsext-floridus",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XI, S. 91, Fig. 73a–b · Akkordquinte im floriden Bass",
+          "text": "In der dreistimmigen fünften Spezies lockert York seine vorherige Beschränkung der Akkordquinte im Bass. Fig. 73a enthält sie auf dem dritten Viertel und wird ausdrücklich als korrekt anerkannt. Zugleich kritisiert er an dieser Figur den arpeggierenden Verlauf, den man besser vermeiden sollte. Die Ausnahme ist deshalb weder ein pauschales Verbot jeder solchen Quinte noch eine allgemeine Empfehlung für Akkordbrechungen. Fig. 73b zeigt daneben den schon aus der dritten Spezies bekannten Gebrauch auf leichterer Zeit.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Dreistimmige fünfte Spezies · begrenzte Erweiterung der Bassfigur",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XI, S. 91, Fig. 73a–b · Akkordquinte im floriden Bass",
+              "note": "Die Erläuterung unterscheidet ausdrücklich regeltechnische Zulässigkeit und melodischen Nachteil. Fig. 73a zeigt zwar vier Viertel, wird aber im Kapitel der fünften Spezies behandelt; die Spezies wird nicht allein aus dieser einen Taktfigur abgeleitet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=103"
+        }
+      ],
+      "relations": [
+        {
+          "from": "york1907-two-implizierter-quartsext",
+          "to": "spalding1904-two-quartsext-zweite",
+          "type": "nuance",
+          "note": "Beide prüfen im Zwei-gegen-eins die von einer Bassbewegung angedeutete zweite Umkehrung. York verwirft sie im strengen Anfangsrahmen; Spalding warnt vor ihrer häufigen oder langsamen Verwendung, zeigt aber eine mögliche Fassung und unterscheidet die Wirkung rascher Instrumentalbewegung."
+        },
+        {
+          "from": "york1907-two-quinte-im-bass-dritte",
+          "to": "spalding1904-two-quartsext-dritte",
+          "type": "context",
+          "note": "Yorks strenge Vier-gegen-eins-Empfehlung hält die Akkordquinte vom höchsten und tiefsten Ton der Taktfigur fern. Spaldings instrumental gedachte dritte Ordnung differenziert nach anderer Kontur und metrischer Stellung und lässt sogar einen leichten abwärts gerichteten Sprung zur Quinte zu. Die unterschiedlichen Grenzen gehören zu den jeweiligen Übungsrahmen."
         }
       ]
     },
@@ -31707,7 +34540,8 @@ const ATLAS = {
       "related": [
         "fugenthema-beginn",
         "hoehepunkt",
-        "fuge-exposition"
+        "fuge-exposition",
+        "melodischer-ambitus"
       ],
       "reading": "Markiere höchsten und tiefsten Ton sowie den Anfangston. Vergleiche den Ambitus mit Stimmenzahl, Bewegungsart und verfügbarer Lage; behandle die Repertoirebeobachtung nicht als Entwurfsverbot.",
       "readingSources": [
@@ -33462,7 +36296,8 @@ const ATLAS = {
         "stimmkreuzung",
         "klaviersatz-klanglage",
         "offene-partitur-schluessel",
-        "innenstimmen-melodiefuehrung"
+        "innenstimmen-melodiefuehrung",
+        "melodischer-ambitus"
       ],
       "readingSources": [
         "spalding1904"
@@ -33578,6 +36413,76 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=236"
+        },
+        {
+          "id": "york1907-open-vokale-vorstellung",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 2",
+          "text": "Die strenge Gegenstimme soll zunächst so geschrieben werden, als würde sie gesungen. York verlangt, den Tonraum der vorgestellten Stimme einzuhalten und ihre einzelnen Schritte und Sprünge als melodischen Verlauf zu prüfen. Diese vokale Vorstellung ist eine Arbeitsbedingung des Lehrgangs. Seine allgemeine Definition des Kontrapunkts schließt zwar auch eine komplexe Orchesterpartitur ein; daraus folgt aber keine entsprechende instrumentale Freiheit in den ersten Übungen.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vokale Vorstellung im strengen Lehrgang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 2",
+              "note": "S. 2 fordert ausdrücklich Schreiben wie für Stimmen; die weite Definition auf S. 1 wird vom gegenwärtigen Gegenstand strict counterpoint getrennt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=14"
+        },
+        {
+          "id": "york1907-multi-satzmedium-vier",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 98; Beethoven-Modell und Kommentar S. 117 · Vokalquartett als Vorstellung",
+          "text": "Für vierstimmige Übungen empfiehlt York, sich zunächst ein gemischtes Vokalquartett aus Sopran, Alt, Tenor und Bass vorzustellen und die tatsächlichen Stimmumfänge einzuhalten. Er berücksichtigt auch vier gleichartige Stimmen: zwei Soprane und zwei Alte oder zwei Tenöre und zwei Bässe. Die Besetzung verändert damit die Lageplanung, ohne die Forderung nach eigenständigen Linien aufzuheben. Seine Kritik am zu großen Tenorumfang eines späteren Modells zeigt, dass die gewählte Singstimme eine wirkliche Grenze für die Übung bildet.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenger vierstimmiger Kontrapunkt · gedachte Vokalbesetzung und Stimmumfang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 98; Beethoven-Modell und Kommentar S. 117 · Vokalquartett als Vorstellung",
+              "note": "S. 98 nennt die drei Besetzungen ausdrücklich; S. 117 beanstandet den Tenorumfang. Daraus wird keine zusätzliche Regel für Instrumentalsatz abgeleitet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=110"
+        },
+        {
+          "id": "york1907-free-03",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XV, S. 134–135; Rückverweis S. 138 · Mendelssohn und Saint-Saëns",
+          "text": "Für den freien Note-gegen-Note-Satz stellt York zwei verschieden anspruchsvolle Vorbilder gegenüber. Den vierstimmigen Vokalausschnitt von Mendelssohn empfiehlt er als geeigneteres Modell für Lernende. Der Orchesterausschnitt von Saint-Saëns zeigt dagegen einen besonders weitgehenden Gebrauch dissonanter und tonartfremder Akkorde. Beide sollen sorgfältige Stimmführung erkennen lassen; ihre harmonische Kühnheit macht sie als Anfangsmodell aber nicht gleich geeignet. Bei der Wahl eines Vorbilds zählen somit auch Besetzung und Schwierigkeitsgrad.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Freier vierstimmiger Satz · vokales Lehrmodell und orchestrales Extrembeispiel",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XV, S. 134–135; Rückverweis S. 138 · Mendelssohn und Saint-Saëns",
+              "note": "York nennt Mendelssohns Besetzung ausdrücklich four vocal parts und Saint-Saëns orchestra. S. 138 ordnet Mendelssohns Beispiel ausdrücklich der ersten Spezies zu. Die Werktitel nennt der Ausschnitt nicht; es wird keine zusätzliche Werkidentifizierung behauptet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=146"
         }
       ],
       "relations": []
@@ -33643,9 +36548,56 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=232"
+        },
+        {
+          "id": "york1907-open-schluessel-und-systeme",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Vorwort, S. v; Kap. I, S. 6–7",
+          "text": "York empfiehlt für die zweistimmige Übung zwei getrennte Notenzeilen und eine deutliche Kennzeichnung des Cantus firmus mit C. F. Die feste Stimme soll bei der Abgabe mit Tinte, die veränderbare Gegenstimme mit Bleistift geschrieben werden. C-Schlüssel lässt er dagegen absichtlich aus seinem Buch weg. Er bestreitet ihren Wert nicht, hält aber für seinen praktisch orientierten Anfängerunterricht einen leichteren Zugang ohne diese zusätzliche Leseaufgabe für günstiger. Die Trennung der Stimmen im Notenbild und die Entscheidung über die verwendeten Schlüssel sind bei ihm somit zwei verschiedene Unterrichtsfragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Notationsweise für den Einstieg in den Kontrapunkt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. v; Kap. I, S. 6–7",
+              "note": "Das Vorwort nennt den bewussten Verzicht auf C-Schlüssel; die getrennten Systeme und Arbeitsmaterialien stehen auf S. 6–7. Daraus wird keine generelle Ablehnung offener Partitur abgeleitet."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=9"
+        },
+        {
+          "id": "york1907-multi-offene-partitur",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XIII, S. 119 · Notation vielstimmiger Übungen",
+          "text": "Für mehr als vier Stimmen reichen York zwei Notensysteme nicht mehr aus, wenn die Fortschreitung jeder einzelnen Stimme deutlich bleiben soll. Er empfiehlt darüber hinaus, grundsätzlich jede Übungsstimme auf ein eigenes System zu schreiben. Die offene Partitur hilft dabei, jede Linie als eigene musikalische Handlung zu verfolgen, und bereitet zugleich auf das Partiturlesen vor. Hier begründet York die Anordnung der Systeme aus der Lesbarkeit der Stimmen; die Wahl bestimmter Schlüssel ist eine davon getrennte Frage.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vielstimmige Speziesübungen · offene Partitur als Hilfe für Stimmverfolgung und Partiturlesen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XIII, S. 119 · Notation vielstimmiger Übungen",
+              "note": "S. 119 verlangt mehr als zwei Systeme bei mehr als vier Stimmen und empfiehlt anschließend ein eigenes System für jede Stimme sämtlicher Übungen. Die Passage fordert keine bestimmten C-Schlüssel."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=131"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "from": "york1907-open-schluessel-und-systeme",
+          "to": "spalding1904-open-vier-stimmen-lesen",
+          "type": "context",
+          "note": "Beide machen die einzelnen Stimmen im Notenbild sichtbar. York spart C-Schlüssel bewusst als zusätzliche Anfängerhürde aus; Spalding macht den Tenorschlüssel bereits in den ersten vierstimmigen Aufgaben zum Lerngegenstand. Die Empfehlungen folgen verschiedenen Unterrichtszielen und Stimmenzahlen."
+        }
+      ]
     },
     {
       "id": "modulation-in-uebungen",
@@ -33754,6 +36706,32 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=232"
+        },
+        {
+          "id": "york1907-open-nahe-tonarten",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 4",
+          "text": "Modulation ist in Yorks strengen Übungen nicht grundsätzlich ausgeschlossen. Er lässt Übergänge in die nächstverwandten Dur- und Molltonarten zu, begrenzt aber Häufigkeit, Dauer und Entfernung. Die neue Tonart soll nicht viele Takte beanspruchen und nicht mehr als ein zusätzliches Kreuz oder Be erfordern. Ein kurzer harmonischer Seitenweg bleibt damit Teil einer klar erkennbaren Haupttonart. Diese Möglichkeit ist von der üblichen Gestalt des gegebenen Cantus firmus zu unterscheiden, den York zunächst ohne Tonartwechsel beschreibt.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Kurze Ausweichungen innerhalb einer strengen Übung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 4",
+              "note": "S. 4 nennt alle drei Beschränkungen; S. 6 beschreibt den gewöhnlichen Cantus firmus. Es wird keine Pflicht zur Modulation hinzugefügt."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=16"
         }
       ],
       "relations": []
@@ -33822,9 +36800,60 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=126"
+        },
+        {
+          "id": "york1907-two-terzen-sexten",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 8–9 und 13, Fig. 7 und 9",
+          "text": "Terzen und Sexten sind York lieber als eine Häufung reiner Quinten oder Oktaven; dennoch sollen höchstens drei Terzen beziehungsweise Sexten nacheinander stehen, besser nur zwei. Gegenbewegung ist günstig, braucht aber ebenfalls Abwechslung. Zusätzlich prüft er die Tonqualitäten: Eine Verbindung mit vierter Stufe und Leitton kann den Tritonus hervortreten lassen. Ein Sprung in einer oder beiden Stimmen kann diese Wirkung mildern. Zwei große Terzen sind deshalb nicht allein wegen ihrer Größe immer gleich zu bewerten; das Mollmodell auf S. 13 erlaubt eine Folge, aus der kein Tritonus entsteht.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Selbstständigkeit und Intervallqualität in Terz- und Sextfolgen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 8–9 und 13, Fig. 7 und 9",
+              "note": "Die Mengenregel und die besonderen Tritonusverbindungen stehen auf S. 8–9; S. 13 erklärt die Mollausnahme ausdrücklich. Die betreffenden Figuren wurden visuell geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=20"
+        },
+        {
+          "id": "york1907-free-19",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 143, Fig. 97a–b · parallele Durchgangs- und Vorschlagsbewegungen",
+          "text": "Im freien floriden Satz hebt York die frühere Grenze von höchstens drei aufeinanderfolgenden Terzen oder Sexten auf. Zwei Stimmen dürfen sich gemeinsam in Durchgangstönen bewegen und dabei im Terz- oder Sextabstand bleiben. Entsprechend können auch zwei Vorschlagstöne parallel geführt werden. Fig. 97 stellt Durchgang und Vorschlag nebeneinander. Die Erlaubnis betrifft eine bewusst gekoppelte Bewegung innerhalb des freien Satzes; sie macht die Forderung nach selbstständigen Linien nicht in jeder anderen Aufgabe bedeutungslos.",
+          "speciesScope": [
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Freier florider Kontrapunkt · parallele Terz- und Sextbewegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XVI, S. 143, Fig. 97a–b · parallele Durchgangs- und Vorschlagsbewegungen",
+              "note": "Der Text hebt former prohibition of more than three ausdrücklich auf. Fig. 97a–b nennt passing and appoggiatura tones, also zwei verschiedene Dissonanztypen."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=155"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "from": "york1907-free-19",
+          "to": "spalding1904-two-terzen-sexten-erste",
+          "type": "context",
+          "note": "Spaldings erste Ordnung begrenzt Terz- und Sextfolgen zur Wahrung der melodischen Eigenständigkeit auf drei. York hebt diese Mengenbegrenzung für die gemeinsam bewegten Durchgangs- und Vorschlagslinien seines freien floriden Satzes ausdrücklich auf."
+        }
+      ]
     },
     {
       "id": "innenstimmen-melodiefuehrung",
@@ -33937,6 +36966,30 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=262"
+        },
+        {
+          "id": "york1907-multi-innenstimme",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. VIII, S. 69; Kap. XI, S. 92; Kap. XII, S. 103 und 116–117 · Kritik wenig bewegter Zusatzstimmen",
+          "text": "Auch eine Stimme, die gegenüber dem bewegten Kontrapunkt in langen Werten bleibt, muss eine überzeugende eigene Linie bilden. York beanstandet in seinen Modellbesprechungen wiederholt monotone Tenor- und Altstimmen, übermäßige Tonwiederholungen und ungünstig geführte Abschnitte. Die vollständige Harmonie allein rechtfertigt diese Schwächen nicht. Besonders deutlich wird das im vierstimmigen Beethoven-Modell auf S. 117: York kritisiert die über mehrere Takte monotone Altstimme ebenso wie den übermäßigen Umfang des Tenors. Die ruhigere Stimme ist damit weiterhin Gegenstand der melodischen Beurteilung.",
+          "speciesScope": [
+            1,
+            2,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Drei- und vierstimmige Speziesübungen · melodische Qualität der Zusatzstimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. VIII, S. 69; Kap. XI, S. 92; Kap. XII, S. 103 und 116–117 · Kritik wenig bewegter Zusatzstimmen",
+              "note": "Die Kommentare betreffen erste Spezies sowie bewegte Übungen mit Zusatzstimmen in erster Spezies. Auf S. 116 fehlt die Modellkritik weitgehend im nativen Text; sie wurde durch OCR und die Seitenansicht geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=81"
         }
       ],
       "relations": []
@@ -34056,6 +37109,324 @@ const ATLAS = {
           ],
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=241"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "melodischer-ambitus",
+      "title": "Wie groß darf der Tonumfang einer einzelnen Stimme sein?",
+      "group": "Melodieführung",
+      "tags": [
+        "Tonumfang",
+        "Ambitus",
+        "Singbarkeit",
+        "Lage"
+      ],
+      "reading": "Unterscheide den Gesamtumfang einer Linie von der Weite eines einzelnen Sprungs und vom Abstand zweier Stimmen. Prüfe dann, für welches Ausführungsmedium und welche Übungsstufe die Grenze gilt.",
+      "readingSources": [
+        "york1907"
+      ],
+      "related": [
+        "melodische-intervalle",
+        "hoehepunkt",
+        "satzmedium",
+        "choral-stimmumfang",
+        "fugenthema-umfang"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "york1907-open-tonumfang",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Einleitung, S. 2–3, Fig. 1b",
+          "text": "York unterscheidet den verfügbaren Stimmraum vom Umfang einer einzelnen Übungslinie. Die Stimme soll in ihrer eigenen singbaren Lage bleiben; zusätzlich soll ihre Linie eine Oktave und eine Quarte nur selten überschreiten. Das ist eine Empfehlung für den gesamten Weg zwischen tiefstem und höchstem Ton. Sie darf nicht als Erlaubnis eines entsprechenden Einzelsprungs verstanden werden: Für diesen gelten die gesonderten Intervallregeln. Auch ein engerer Gesamtumfang schützt nicht davor, dass eine als Sopran gedachte Linie in eine unpassende Lage gerät.",
+          "speciesScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Gesamtumfang einer vokal gedachten Übungslinie",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Einleitung, S. 2–3, Fig. 1b",
+              "note": "Die Umfangsangabe an octave and a fourth auf S. 3 und das Lagenbeispiel Fig. 1b auf S. 2 wurden visuell geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=14"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "moll-stufenfuehrung",
+      "title": "Wie führe ich die sechste und siebte Stufe in Moll?",
+      "group": "Melodieführung",
+      "tags": [
+        "Moll",
+        "Leitton",
+        "sechste Stufe",
+        "siebte Stufe",
+        "Skala"
+      ],
+      "reading": "Trenne die Funktion eines Tones als Akkordton, Durchgang, Wechselnote oder Kadenzton. Eine einzige auf- oder absteigende Skalenform erklärt diese unterschiedlichen Aufgaben nicht vollständig.",
+      "readingSources": [
+        "york1907"
+      ],
+      "related": [
+        "leittonaufloesung",
+        "moll-neutralisierung",
+        "chromatik",
+        "melodische-intervalle",
+        "kadenz",
+        "solmisationssilben"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "york1907-two-moll-erste",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. I, S. 9–10, Fig. 11–12",
+          "text": "Für die erste Spezies empfiehlt York zunächst den Tonvorrat von harmonisch Moll: Die siebte Stufe ist erhöht, die sechste bleibt klein. Die daraus entstehende übermäßige Sekunde darf jedoch nicht melodisch durchlaufen werden. Enthält der vorgegebene Cantus bereits die natürliche siebte Stufe, muss der Lernende den festen Ton harmonisch sinnvoll einordnen, etwa als Terz der Mollgestalt der fünften Stufe, oder eine Wendung zur parallelen Durtonart bilden. Eine Skalenempfehlung hebt somit weder das Sprungverbot noch die Bindung an den gegebenen Cantus auf.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Sechste und siebte Stufe in der ersten Spezies",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. I, S. 9–10, Fig. 11–12",
+              "note": "Fig. 11–12 und der begleitende Text auf S. 9–10 unterscheiden harmonischen Tonvorrat, melodisches Intervall und gegebenen natürlichen siebten Ton."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=21"
+        },
+        {
+          "id": "york1907-two-moll-bewegte-stimme",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. II, S. 19–20, Fig. 24; Kap. III, S. 33–35",
+          "text": "In der bewegten Gegenstimme richtet York die Mollstufen nach ihrer Funktion. Die siebte Stufe ist gewöhnlich Leitton, kann abwärts aber natürlich erscheinen: als Durchgang und bei schrittweiser Führung sogar als harmonischer Ton. Die sechste bleibt als Akkordton klein; als Durchgang darf sie groß sein, ebenso in einer gezeigten Kadenzwendung. Die übermäßige Sekunde zwischen kleiner sechster und erhöhter siebter Stufe bleibt verboten. Die späteren Modelle unterscheiden außerdem zwischen natürlicher siebter Stufe als Nebenton und erhöhtem Leitton am Schluss. Die Notenform folgt damit dem jeweiligen melodischen und harmonischen Zweck.",
+          "speciesScope": [
+            2,
+            3
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Funktionabhängige Mollstufen in bewegten Gegenstimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. II, S. 19–20, Fig. 24; Kap. III, S. 33–35",
+              "note": "Fig. 24 enthält die ausdrücklich erläuterten Funktionen; die Modellkommentare auf S. 33–35 bestätigen die Unterscheidung. Die Vorzeichen der Modelle auf S. 33–35 wurden visuell geprüft; die natürlichen und erhöhten Töne werden nicht allein aus OCR-Namen rekonstruiert."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=31"
+        },
+        {
+          "id": "york1907-two-moll-synkopenmodelle",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. IV, S. 45–46, Modelle nach Saunders und Fux",
+          "text": "York kommentiert die Mollstufen auch innerhalb vollständiger Synkopenmodelle. Im Saunders-Beispiel auf S. 45 lässt er eine verminderte Quarte ausdrücklich zu und weist auf die natürliche sechste und siebte Stufe im Abstieg hin. Das folgende, von der vorigen Seite fortgesetzte Fux-Modell bezeichnet er als dorisch: Ein a statt as vermeidet dort den Tritonus as–d. Diese Bemerkungen zeigen konkrete melodische Gründe für den Tonvorrat. Sie ersetzen die allgemeine Leittonbedingung der Kadenz nicht und dürfen nicht zu einer unterschiedslosen Erhöhung aller sechsten Mollstufen werden.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Lokale Moll- und dorische Wendungen in Synkopenmodellen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. IV, S. 45–46, Modelle nach Saunders und Fux",
+              "note": "Die Kommentare auf S. 45–46 nennen die verminderte Quarte, den absteigenden natürlichen Tonvorrat und ausdrücklich Dorian Mode. Die Zuschreibung Fux steht beim auf S. 45 beginnenden, auf S. 46 fortgesetzten Modell."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=57"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "orgelpunkt-mehrstimmig",
+      "title": "Wie bleibt ein Orgelpunkt bestehen, während sich die Oberstimmen bewegen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Orgelpunkt",
+        "Bass",
+        "Tonika",
+        "Dominante",
+        "Vorhalt"
+      ],
+      "reading": "Prüfe zuerst Anfang und Ende des gehaltenen Basstons. Betrachte anschließend die bewegten Oberstimmen als eigenes Stimmenpaar und unterscheide ihre gegenseitigen Intervalle von ihren Zusammenklängen mit dem Orgelpunkt.",
+      "readingSources": [
+        "york1907"
+      ],
+      "related": [
+        "linie-orgelpunkt",
+        "harmonik",
+        "konsonanz",
+        "vorhalt-bewegte-begleitstimme"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "york1907-multi-orgelpunkt",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. X, S. 84; Saunders-Modell S. 89–90 · kurzer Orgelpunkt in drei Stimmen",
+          "text": "Ab der dreistimmigen vierten Spezies lässt York einen kurzen Orgelpunkt im Bass zu. Er soll auf Tonika oder Dominante liegen, nicht viele Takte dauern und mit einem konsonanten Zusammenklang beginnen und enden. Währenddessen müssen die beiden Oberstimmen als eigenständiger korrekter zweistimmiger Satz weitergeführt werden, als wäre der gehaltene Bass vorübergehend nicht da. Das bedeutet keine beliebige Dissonanzfreiheit der Oberstimmen untereinander. Am Ende des Saunders-Modells markiert York einen über zwei Takte gehaltenen Bass ausdrücklich als Pedal Point.",
+          "speciesScope": [
+            4
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Strenge dreistimmige Übung · Orgelpunkt und selbstständiger Oberstimmensatz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. X, S. 84; Saunders-Modell S. 89–90 · kurzer Orgelpunkt in drei Stimmen",
+              "note": "Die Regel steht auf S. 84. Das vollständige Saunders-Modell beginnt auf S. 89; seine Schlussfortsetzung mit der ausdrücklich gedruckten Orgelpunktbeschriftung auf S. 90 wurde visuell geprüft."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=96",
+          "examples": [
+            "york-orgelpunkt"
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "spezies-und-notenwerte",
+      "title": "Wie erkenne ich eine Spezies bei anderen Notenwerten und wechselnden Stimmen?",
+      "group": "Satzmodelle",
+      "tags": [
+        "Spezies",
+        "Notenwerte",
+        "Cantus firmus",
+        "Satzanalyse"
+      ],
+      "reading": "Vergleiche zuerst die Einsatzabstände der Stimmen, nicht die Namen der Notenwerte. Wo bleibt das Verhältnis Note gegen Note erhalten, obwohl Halbe durch Viertel ersetzt werden? Verfolge anschließend den Cantus beim Wechsel der Lage und markiere, welche anderen Stimmen ihre Bewegungsart ändern.",
+      "readingSources": [
+        "york1907"
+      ],
+      "related": [
+        "speziesmischung",
+        "tonfolge-und-rhythmus",
+        "stimmen-ergaenzen"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "york1907-multi-relative-notenwerte",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XII, S. 102 · Albrechtsberger-Modell mit überwiegenden halben Noten",
+          "text": "Ein Beispiel der ersten Spezies muss bei York nicht überwiegend aus ganzen Noten bestehen. Das Albrechtsberger-Modell auf S. 102 enthält hauptsächlich halbe Noten und gehört trotzdem ausdrücklich zur ersten Spezies, weil Note gegen Note steht. Entscheidend ist hier das Verhältnis der Stimmen, nicht der absolute grafische Notenwert. Wer nur ganze, halbe oder Viertelnoten zählt, ohne die gleichzeitige Bewegung der anderen Stimmen zu berücksichtigen, würde die Aufgabe falsch einordnen.",
+          "speciesScope": [
+            1
+          ],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vierstimmiges Modell der ersten Spezies · relative statt absolute Notenwerte",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Kap. XII, S. 102 · Albrechtsberger-Modell mit überwiegenden halben Noten",
+              "note": "Die Erklärung steht unmittelbar nach dem Albrechtsberger-Beispiel auf S. 102. Die Partitur bestätigt die gemeinsame Bewegung in den verkürzten Werten."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=114"
+        },
+        {
+          "id": "york1907-free-22",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Kap. XVI, S. 146–147; Erläuterung S. 149 · Beethoven-Ausschnitt",
+          "text": "Die Spezies erkennt York am Verhältnis der Stimmen, nicht an einer unveränderlichen Notengestalt. Im Beethoven-Ausschnitt heißt ein Abschnitt mit Viertelnoten ausdrücklich erste Spezies, weil die Stimmen weiterhin Note gegen Note verlaufen. Daneben erkennt er gebundene Gegenstimmen der vierten und bewegte der dritten Spezies. Der Cantus wandert zwischen hoher und tiefer Lage; zeitweise treten zwei weitere Stimmen hinzu und verbinden unterschiedliche Spezies. York verwendet die Einteilungen hier als Mittel, wechselnde Satzvorgänge in einem Kompositionsausschnitt zu beschreiben.",
+          "speciesScope": [
+            1,
+            3,
+            4
+          ],
+          "context": {
+            "styles": [
+              "classical-romantic"
+            ],
+            "reach": "specific",
+            "frame": "Beethoven-Analyse · relative Notenwerte, Stimmenzahl und Spezieswechsel",
+            "evidence": {
+              "basis": "repertoire",
+              "locator": "Kap. XVI, S. 146–147; Erläuterung S. 149 · Beethoven-Ausschnitt",
+              "note": "S. 149 erläutert ausdrücklich First, though in quarter notes, den Wechsel zwischen zwei und vier Stimmen sowie die Lage des Cantus. Der Notentext auf S. 146–147 wurde vollständig gelesen. Keine ungesicherte Werkidentifizierung."
+            }
+          },
+          "examples": [
+            "york-beethoven-spezies"
+          ],
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=158"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "solmisationssilben",
+      "title": "Was zeigen relative Solmisationssilben über die Stellung eines Tons in der Tonart?",
+      "group": "Melodieführung",
+      "tags": [
+        "Solmisation",
+        "Tonic Sol-Fa",
+        "Tonstufe",
+        "Dur",
+        "Moll"
+      ],
+      "reading": "Singe dieselbe Durtonfolge in zwei Tonarten. Welche Tonbuchstaben ändern sich, welche Solmisationssilben bleiben gleich? Vergleiche danach Yorks Bezeichnung der ersten Stufe in Dur und Moll.",
+      "readingSources": [
+        "york1907"
+      ],
+      "related": [
+        "cantus-firmus",
+        "moll-stufenfuehrung",
+        "tonart-und-region"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "york1907-free-23",
+          "source": "york1907",
+          "name": "Francis L. York",
+          "locator": "Anhang, S. 149 · Tonic-Sol-Fa-Silben",
+          "text": "York verwendet relative Solmisationssilben, um die tonale Stellung eines Tons leichter denken zu können. Doh bezeichnet für ihn den Mittelpunkt der Durtonleiter; der erste Ton einer Molltonleiter kann dagegen Lah heißen. Tonbuchstaben bezeichnen eine bestimmte Tonhöhe, ohne dieselbe Stellung in jeder Tonart auszudrücken. Seine C-Dur-Tabelle ordnet Doh–Ray–Me–Fah–Soh–Lah–Te den Tönen c–d–e–f–g–a–h zu. Für Erhöhungen nennt er eigene Silben, etwa De für cis und Fe für fis. Die Benennung soll somit die musikalische Beziehung eines Tons verdeutlichen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Tonale Begriffsbildung · relative Solmisation",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang, S. 149 · Tonic-Sol-Fa-Silben",
+              "note": "Der Anhang steht auf der unteren Hälfte von S. 149 und setzt sich nicht in den Verlagsanzeigen fort. Englisches B wird als deutsches h wiedergegeben. Yorks spezielle Unterscheidung zwischen Doh als Ton und Tonic als Akkord wird nicht zu einer allgemein verbindlichen deutschen Terminologie erhoben."
+            }
+          },
+          "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
+          "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=161"
         }
       ],
       "relations": []
@@ -35707,6 +39078,86 @@ const ATLAS = {
       "caption": "Die Quintfolge zwischen Sopran und Tenor bei (a) erhält auf der folgenden Seite eine ausdrückliche Begründung: Das gis im Sopran ist ein Durchgangston; für Spalding handelt es sich deshalb nicht um eine Folge tragender Harmonietöne. Der Ausschnitt zeigt seine konkrete freie Übung, keine allgemeine Ausnahme für beliebige Quintparallelen. Lies die Wege von Sopran und dritter Stimme als festes Stimmenpaar. Welche Töne gehören zum harmonischen Gerüst, und welcher Sopran-Ton ist nach Spaldings Erläuterung ein Durchgang?",
       "credit": "Walter R. Spalding, Tonal Counterpoint: Studies in Part-Writing (Arthur P. Schmidt, Copyright 1904), Kap. XIII, Übung 4, S. 249, Stelle (a); Erläuterung S. 250. Exemplar: Faculty of Music, University of Toronto; Digitalisat: Internet Archive, tonalcounterpoin00spaluoft. US-Public-Domain-Status laut Internet Archive. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
       "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=263"
+    },
+    "york-harmonie-zweistimmig": {
+      "image": "quellen/noten/york-harmonie-zweistimmig.webp",
+      "title": "Harmonie hinter zwei Stimmen",
+      "alt": "Zwei historische Notenfiguren aus Yorks zweiter Spezies: Fig. 17 mit der Überschrift Bad und markierten harmoniefremden Tönen; Fig. 23 mit über dem Bass eingetragenen Ic-Bezeichnungen für die angedeutete zweite Umkehrung.",
+      "caption": "Fig. 17 beanstandet die frei springende Behandlung von Tönen, die einzeln mit dem Cantus konsonieren, aber nicht derselben Harmonie angehören. Fig. 23 zeigt eine Bassbewegung, die einen in Yorks strenger Aufgabe ausgeschlossenen Quartsextakkord andeutet. Leseauftrag: Spiele zunächst jeden Zusammenklang einzeln, dann die ganze Taktgruppe. Welche Harmonie hält das Ohr fest, und welcher Ton braucht deshalb eine schrittweise Führung?",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. II, S. 16 und 19, Fig. 17 und 23. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=28"
+    },
+    "york-changing-notes": {
+      "image": "quellen/noten/york-changing-notes.webp",
+      "title": "Geschlossene und offene Umspielung",
+      "alt": "Zwei Ausschnitte von S. 30: Fig. 36 zeigt zwei geschlossene Viertelgruppen mit Terzsprung zwischen den mittleren Tönen; Der erste Takt aus Fig. 37a zeigt eine zugelassene Fortsetzung, deren vierter Ton nicht zum ersten zurückkehrt.",
+      "caption": "York bevorzugt in Fig. 36 die Umspielung mit vollständiger Rückkehr zum Ausgangston. Fig. 37a lässt die Bewegung anschließend anders weitergehen. Beide Formen stehen bei ihm unter changing note; die einfache schrittweise Wechselnote auf S. 16 trägt ebenfalls diesen Namen. Leseauftrag: Verfolge nur die bewegte Stimme. Finde den Terzsprung, den übersprungenen Ton und die Stelle der Rückkehr; vergleiche dann Anfang und Ende jeder Vierergruppe.",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. III, S. 30, Fig. 36 und 37a. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=42"
+    },
+    "york-synkope-harmonie": {
+      "image": "quellen/noten/york-synkope-harmonie.webp",
+      "title": "Was unter der Synkope gleich bleibt",
+      "alt": "Oben Yorks Fig. 40 mit aufeinanderfolgenden Abschnitten in erster, zweiter und vierter Spezies und Stufenbezeichnungen; darunter Fig. 45 mit einer als All bad bezeichneten Fassung und ihrer als Equally bad bezeichneten Synkopierung.",
+      "caption": "Fig. 40 führt denselben harmonischen Grundriss durch erste, zweite und vierte Spezies. Fig. 45 zeigt die Grenze der rhythmischen Veränderung: Eine schlechte Folge im tragenden Gerüst wird durch Überbindung nicht besser. Leseauftrag: Reduziere die gebundene Fassung auf ihre tragenden Konsonanzen. Vergleiche diese mit der ersten Spezies und prüfe, welche Quinten- oder Oktavfolge trotz verschobenem Einsatz bestehen bleibt.",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. IV, S. 38 und 41, Fig. 40 und 45. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=50"
+    },
+    "york-floridus-rhythmus": {
+      "image": "quellen/noten/york-floridus-rhythmus.webp",
+      "title": "Floridus: kurze Werte und gebundene Halbe",
+      "alt": "Zwei zweistimmige Notenausschnitte: Fig. 52 mit Bindungen und kurzen Achtelgruppen; Fig. 54 mit zwei als Not bezeichneten Fassungen, einer gebundenen guten Fassung und einer nur in der Kadenz guten ungebundenen Fassung.",
+      "caption": "Fig. 52 verbindet die synkopische Grundlage mit schrittweisen Achteln auf leichter Zeit. Fig. 54 vergleicht schlechte und gute Übergänge von kürzeren Werten zur Halben; die ungebundene Schlusswendung erhält eine eigene Kadenz-Ausnahme. Leseauftrag: Klopfe den Viertelpuls und markiere die Achtelpositionen. Vergleiche anschließend, ob die Halbe nach den Vierteln die Bewegung weiterbindet oder sie vor der Kadenz abschließt.",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. V, S. 49–50, Fig. 52 und 54. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=61"
+    },
+    "york-vorhalt-bassbezug": {
+      "image": "quellen/noten/york-vorhalt-bassbezug.webp",
+      "title": "Der Bass bestimmt den Vorhalt",
+      "alt": "Zwei dreistimmige Notenbeispiele aus Yorks Fig. 72. Das mit Good bezeichnete Beispiel a trägt die Ziffern 9, 8; das mit Bad bezeichnete Beispiel b trägt 4, 3. In beiden wird eine Oberstimmennote gebunden und danach abwärts aufgelöst.",
+      "caption": "York beurteilt a als 9–8-Vorhalt über dem Bass. Bei b steht der Auflösungston bereits in einer Mittelstimme; über dem wirklichen Bass entsteht aber ein 4–3-Vorhalt. Die Ausnahme, die bei 9–8 das gleichzeitige Erklingen des Auflösungstons gestattet, gilt für diesen zweiten Fall nicht. Bestimme zuerst die tiefste klingende Stimme. Zähle von ihr aus Vorbereitung, Vorhalt und Auflösung. Vergleiche anschließend das obere Stimmenpaar: Warum würde dessen isolierte Betrachtung bei b zu einer falschen Beurteilung führen?",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Drei Stimmen · vierte Spezies · Fig. 72a–b · S. 83. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=95"
+    },
+    "york-bewegte-bassreferenz": {
+      "image": "quellen/noten/york-bewegte-bassreferenz.webp",
+      "title": "Die tiefste bewegte Stimme als Bezug",
+      "alt": "Historische dreistimmige Notenbeispiele a und b der Fig. 80. Unter den bewegten Stimmen liegt ein Cantus firmus in langen Noten. Pluszeichen markieren die betrachteten Zusammenklänge; Beispiel b ist Fux zugeschrieben.",
+      "caption": "An den markierten Stellen können beide bewegten Stimmen mit dem gehaltenen Cantus firmus dissonieren, während sie untereinander konsonieren. York prüft nach dem Taktanfang die höhere bewegte Stimme gegenüber der tieferen bewegten Stimme. Die bereits zugelassene Quarte zwischen Oberstimmen bleibt dabei eine besondere Möglichkeit. Spiele zunächst nur die beiden bewegten Stimmen und bestimme ihre Intervalle an den Pluszeichen. Füge dann den gehaltenen Cantus hinzu. Welche Dissonanzen entstehen allein gegenüber dem Cantus, und welche Stimme dient beim nächsten gemeinsamen Einsatz als Bezug für die andere?",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kombinierter Kontrapunkt · Fig. 80a–b · S. 123 · b nach Fux. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=135"
+    },
+    "york-orgelpunkt": {
+      "image": "quellen/noten/york-orgelpunkt.webp",
+      "title": "Bewegte Oberstimmen über einem Orgelpunkt",
+      "alt": "Sechs abschließende Takte eines dreistimmigen Beispiels. In den beiden Takten vor dem Schluss ist eine Bassnote über den Taktstrich gebunden und mit Pedal Point beschriftet; die mittlere Stimme bewegt sich weiter in Synkopen.",
+      "caption": "Am Ende des auf S. 89 begonnenen Saunders-Modells bleibt der Bass für zwei Takte liegen, während die Oberstimmen ihre Fortschreitung fortsetzen. York kennzeichnet diese Stelle ausdrücklich als Pedal Point. Das Beispiel veranschaulicht seine auf S. 84 eingeführte Regel, den Satz über einem kurzen Orgelpunkt als eigenständige Zweistimmigkeit weiterzuprüfen. Höre zuerst die beiden oberen Linien ohne Bass. Ergänze dann den gehaltenen Basston und verfolge, wie sich seine Beziehung zu den Oberstimmen verändert. Prüfe Beginn und Ende des Orgelpunkts gesondert und anschließend den Schlussklang.",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Drei Stimmen · vierte Spezies · Schluss des Saunders-Modells · S. 90. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=102"
+    },
+    "york-dissonante-vorbereitung": {
+      "image": "quellen/noten/york-dissonante-vorbereitung.webp",
+      "title": "Eine Dissonanz bereitet die nächste vor",
+      "alt": "Historischer Notenausschnitt, Fig. 92 auf Seite 141: mehrstimmiger Satz auf zwei Notensystemen. Unter a stehen drei kurze Varianten der dissonanten Vorbereitung, jeweils mit einem Pluszeichen am folgenden betonten Ton; rechts folgt die gesondert mit b bezeichnete Sprungvariante.",
+      "caption": "York, freier Kontrapunkt: Eine Dissonanz kann eine weitere Dissonanz vorbereiten. Fig. 92a zeigt mehrere Anschlüsse; b führt den vorbereitenden Ton sprunghaft ein. Verfolge jeweils die bewegte Oberstimme über den Taktstrich. Wie verändert sich ihr Verhältnis zur Harmonie, und worin unterscheidet sich ihr Eintritt in b von den vorigen Varianten?",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. XVI, S. 141, Fig. 92a–b. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=153"
+    },
+    "york-beethoven-spezies": {
+      "image": "quellen/noten/york-beethoven-spezies.webp",
+      "title": "Spezies bei wechselnden Notenwerten und Stimmen",
+      "alt": "Historischer Beethoven-Ausschnitt auf zwei übereinander angeordneten Seitenfragmenten. Im ersten Fragment stehen zwei Systeme: zuerst ein mit C.F. bezeichneter Cantus oben, danach unten; im zweiten System treten zusätzliche Stimmen hinzu. Das folgende Seitenfragment führt den vierstimmigen Satz fort und bezeichnet den Cantus im Bass erneut mit C.F.",
+      "caption": "Yorks Beethoven-Ausschnitt, S. 146–147: Der mit C.F. bezeichnete Cantus wechselt die Lage; der zunächst zweistimmige Satz wächst auf vier Stimmen. York erklärt auf S. 149 dabei erste und vierte Spezies, auch bei veränderten Notenwerten. Suche die C.F.-Markierungen und verfolge, welche Stimme jeweils die Vorlage trägt. Wo bleibt Note gegen Note erhalten, obwohl Viertelnoten erscheinen? An welcher Stelle treten zwei neue Stimmen hinzu, und welche Bindungen zeigen dort die vierte Spezies?",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. XVI, S. 146–147, Beethoven-Ausschnitt; Erklärung S. 149. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=158"
+    },
+    "york-chromatische-durchgaenge": {
+      "image": "quellen/noten/york-chromatische-durchgaenge.webp",
+      "title": "Chromatische Bewegung weiterführen",
+      "alt": "Historischer Notenausschnitt Fig. 87 mit fünf kurzen Beispielen für eine chromatisch bewegte Oberstimme über gehaltenen Tönen. Über den Beispielen stehen von links nach rechts Good, Bad, Bad, Good und Good.",
+      "caption": "York, Fig. 87: fünf chromatische Fortsetzungen im freien Kontrapunkt. Die originalen Bewertungen lauten Good, Bad, Bad, Good, Good. Vergleiche besonders die Richtung nach den Halbtonschritten. Wo führt die Linie die begonnene Chromatik bis zu einem Akkordton weiter, und wo bricht sie diesen Zusammenhang ab?",
+      "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. XV, S. 137, Fig. 87. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
+      "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=149"
     }
   }
 };

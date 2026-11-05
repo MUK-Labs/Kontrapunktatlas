@@ -14,6 +14,7 @@
   const orderHint = document.getElementById("source-order-hint");
   const handoutHint = "Auf den gedruckten Seiten 6 und 8 vergleicht Artacho die fünf Spezies im modalen und tonalen Satz. Seite 9 stellt seine Lesart von Hindemiths zweistimmigem Kontrapunkt daneben.";
   let displayedOrder;
+  let locatedSource;
 
   function element(tag, className, text) {
     const node = document.createElement(tag);
@@ -35,6 +36,9 @@
     author.id = checkbox.id + "-author";
     const title = element("span", AtlasSources.isBook(source.id) ? "book-title" : "", source.title);
     title.id = checkbox.id + "-title";
+    item.id = "source-card-" + source.id;
+    item.tabIndex = -1;
+    item.setAttribute("aria-labelledby", author.id + " " + title.id);
     checkbox.setAttribute("aria-labelledby", author.id + " " + title.id);
     citation.append(author, title);
     // Keep the citation selectable without putting biography links inside a label.
@@ -47,6 +51,8 @@
     meta.append(element("code", "", source.id));
     const kind = element("span", "bibliography-kind", source.group);
     const year = element("span", "bibliography-year", AtlasSourceOrder.yearLabel(source));
+    year.id = checkbox.id + "-year";
+    item.setAttribute("aria-describedby", year.id);
     meta.append(kind, year);
     if (source.url) {
       const link = element("a", "", "Zum Nachweis");
@@ -59,7 +65,12 @@
     if (dateNote) item.append(dateNote);
     const handoutNote = source.id === "artacho-handout" ? element("p", "bibliography-note", handoutHint) : null;
     if (handoutNote) item.append(handoutNote);
-    items.set(source.id, { item, kind, year, dateNote, handoutNote });
+    const timelineBack = element("button", "bibliography-timeline-back", "Zur Zeitleiste ↑");
+    timelineBack.type = "button";
+    timelineBack.hidden = true;
+    timelineBack.addEventListener("click", () => timeline.focusSource(source.id));
+    item.append(timelineBack);
+    items.set(source.id, { item, kind, year, dateNote, handoutNote, timelineBack });
   }
 
   function arrange(mode) {
@@ -82,8 +93,8 @@
       for (const source of group.sources) {
         const entry = items.get(source.id);
         entry.kind.hidden = mode === "typ";
-        entry.year.hidden = mode !== "jahr";
-        if (entry.dateNote) entry.dateNote.hidden = mode !== "jahr";
+        entry.year.hidden = mode !== "jahr" && source.id !== locatedSource;
+        if (entry.dateNote) entry.dateNote.hidden = mode !== "jahr" && source.id !== locatedSource;
         if (entry.handoutNote) entry.handoutNote.hidden = mode === "typ";
         works.append(entry.item);
       }
@@ -91,6 +102,22 @@
       list.append(section);
     }
     AtlasAuthors.linkify(list);
+  }
+
+  function locateSource(id) {
+    const target = items.get(id);
+    if (!target) return;
+    locatedSource = id;
+    for (const [sourceId, entry] of items) {
+      const active = sourceId === id;
+      entry.item.classList.toggle("is-located-source", active);
+      entry.timelineBack.hidden = !active;
+      entry.year.hidden = displayedOrder !== "jahr" && !active;
+      if (entry.dateNote) entry.dateNote.hidden = displayedOrder !== "jahr" && !active;
+    }
+    // A local jump must not replace the hash that restores a question or comparison.
+    target.item.focus({ preventScroll: true });
+    target.item.scrollIntoView({ block: "center" });
   }
 
   function render(selected, url) {
@@ -163,4 +190,5 @@
   window.addEventListener("pageshow", restore);
   window.addEventListener("hashchange", restore);
   restore();
+  const timeline = AtlasSourceTimeline.mount(document.getElementById("source-timeline"), sources, locateSource);
 })();
