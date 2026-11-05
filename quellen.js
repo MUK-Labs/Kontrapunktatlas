@@ -65,12 +65,12 @@
     if (dateNote) item.append(dateNote);
     const handoutNote = source.id === "artacho-handout" ? element("p", "bibliography-note", handoutHint) : null;
     if (handoutNote) item.append(handoutNote);
-    const timelineBack = element("button", "bibliography-timeline-back", "Zur Zeitleiste ↑");
+    const timelineBack = element("button", "bibliography-timeline-back", "Zur Zeitleiste ↓");
     timelineBack.type = "button";
     timelineBack.hidden = true;
     timelineBack.addEventListener("click", () => timeline.focusSource(source.id));
     item.append(timelineBack);
-    items.set(source.id, { item, kind, year, dateNote, handoutNote, timelineBack });
+    items.set(source.id, { item, checkbox, kind, year, dateNote, handoutNote, timelineBack });
   }
 
   function arrange(mode) {
@@ -82,6 +82,7 @@
       : mode === "jahr"
         ? "Erscheinungsjahr der verwendeten Ausgabe, älteste zuerst. Quellen ohne belegtes Jahr stehen am Ende."
         : "Nach Quellenart gruppiert. Die Auswahl bleibt beim Umsortieren erhalten.";
+    const active = list.contains(document.activeElement) ? document.activeElement : null;
     list.replaceChildren();
     for (const group of AtlasSourceOrder.sections(sources, mode)) {
       const section = element("fieldset", "bibliography-group");
@@ -102,11 +103,15 @@
       list.append(section);
     }
     AtlasAuthors.linkify(list);
+    if (active?.isConnected) active.focus({ preventScroll: true });
   }
 
-  function locateSource(id) {
-    const target = items.get(id);
-    if (!target) return;
+  function markLocatedSource(id) {
+    const previous = items.get(locatedSource);
+    if (!id && previous?.timelineBack === document.activeElement) {
+      previous.checkbox.focus({ preventScroll: true });
+      previous.checkbox.scrollIntoView({ block: "nearest" });
+    }
     locatedSource = id;
     for (const [sourceId, entry] of items) {
       const active = sourceId === id;
@@ -115,6 +120,12 @@
       entry.year.hidden = displayedOrder !== "jahr" && !active;
       if (entry.dateNote) entry.dateNote.hidden = displayedOrder !== "jahr" && !active;
     }
+  }
+
+  function locateSource(id) {
+    const target = items.get(id);
+    if (!target) return;
+    markLocatedSource(id);
     // A local jump must not replace the hash that restores a question or comparison.
     target.item.focus({ preventScroll: true });
     target.item.scrollIntoView({ block: "center" });
@@ -123,6 +134,8 @@
   function render(selected, url) {
     arrange(AtlasSourceOrder.read(url));
     for (const checkbox of checkboxes) checkbox.checked = selected.has(checkbox.value);
+    if (locatedSource && !selected.has(locatedSource)) markLocatedSource(null);
+    timeline.update(sources.filter(source => selected.has(source.id)));
     count.textContent = selected.size + " von " + sources.length + " Quellen ausgewählt";
     const fromDifferences = url.searchParams.get("von") === "unterschiede";
     const atlas = new URL("index.html", url);
@@ -189,6 +202,6 @@
   window.addEventListener("popstate", restore);
   window.addEventListener("pageshow", restore);
   window.addEventListener("hashchange", restore);
+  const timeline = AtlasSourceTimeline.mount(document.getElementById("source-timeline"), [], locateSource);
   restore();
-  const timeline = AtlasSourceTimeline.mount(document.getElementById("source-timeline"), sources, locateSource);
 })();

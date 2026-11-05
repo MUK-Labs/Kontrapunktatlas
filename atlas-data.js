@@ -986,6 +986,13 @@ const ATLAS = {
         "New-York"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Francis_Lodowick_York"
+    },
+    {
+      "name": "Johann Christian Kittel",
+      "aliases": [
+        "Kittel"
+      ],
+      "wikipedia": "https://de.wikipedia.org/wiki/Johann_Christian_Kittel"
     }
   ],
   "sources": [
@@ -1402,6 +1409,17 @@ const ATLAS = {
       "publicationYear": 1907,
       "publicationLabel": "1907 (Copyright)",
       "publicationNote": "Das Titelblatt nennt Francis L. York, M. A., und Oliver Ditson Company, Boston; das Copyrightblatt trägt MCMVII (1907). Eine nummerierte Auflage oder ein gesondertes Druckjahr ist nicht angegeben. Das Vorwort ist Detroit, 20. Juli 1907 datiert. HathiTrust 001980801 (LCCN 08001124) verzeichnet c1907, viii und 149 Seiten. Der Scan ist das Exemplar der Cornell University Library bei Internet Archive: cu31924022379741; die bereitgestellte Datei und das öffentliche PDF stimmen in Prüfsummen und Umfang überein. Gesichtet sind Vorwort S. v–vi, Einleitung S. 1–5, alle 16 Kapitel, die Cantus-firmus-Sammlung und der Anhang bis S. 149. Die Fundstellen nennen gedruckte Seiten; S. 1 entspricht PDF-Seite 13. 1907 bezeichnet den Copyrightvermerk, kein separat belegtes späteres Druckjahr."
+    },
+    {
+      "id": "kittel2019",
+      "name": "Johann Christian Kittel",
+      "title": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+      "group": "Lehrwerke",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=1",
+      "sortAuthor": "Kittel, Johann Christian",
+      "publicationYear": 2019,
+      "publicationLabel": "2019 (Quellenedition)",
+      "publicationNote": "2019 bezeichnet die moderne Quellenedition von Derek Remeš, nicht das Entstehungsjahr der Handschrift. Remeš datiert Johann Christian Heinrich Rincks Abschrift von Kittels Unterrichtsmaterial (US-NH, LM 3911, ma21y11k652) wahrscheinlich auf dessen Unterrichtszeit 1786–1789. Bearbeitet ist die vorliegende Edition mit zehn Regeln und Notenbeispielen: Druckseiten 143–164, entsprechend Handschriftenseiten [1]–[48]; S. 165 enthält den Editions- und Lizenznachweis. Die Handschriftenseiten [49]–[257] sind ausdrücklich nicht abgedruckt und hier nicht erschlossen. Die Fundstellen nennen die gedruckten Seiten; S. 143 entspricht PDF-Seite 1. Erstveröffentlichung: 23. Dezember 2019; letzter Aktualisierungsstand: 5. Januar 2020. DOI: 10.31751/1013. Quellentext, Herausgeberhinweise und hypothetische Aussetzungen werden unterschieden."
     }
   ],
   "topics": [
@@ -7444,6 +7462,29 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=155"
+        },
+        {
+          "id": "kittel2019-late-02",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 9, S. 159, Handschrift [29] · gebundene None und Auflösung 9–8",
+          "text": "Für die in Regula 9 behandelte None verlangt der Text einen gebundenen Eintritt und einen Schritt abwärts zur Oktave. Die kleinen Modelle zeigen diese Bewegung als 9–8; weitere Ziffern können sich daran anschließen, etwa 4–3. Entscheidend ist zunächst der Weg der Stimme, die die None führt. Die Regel beschreibt damit einen vorbereiteten dissonanten Ton innerhalb der Generalbassaussetzung. Sie ist nicht als vollständige Aufzählung aller möglichen Durchgangs- oder Verzierungstöne mit dem klingenden Abstand einer None formuliert.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassaussetzung · gebundene None",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 9, S. 159, Handschrift [29] · gebundene None und Auflösung 9–8",
+              "note": "Text und erste drei Modelle auf S. 159 visuell geprüft. [anders] ist eine editorische Ergänzung in der Annotation. Remeš’ Fußnote 7 über unvorbereitete Quarten, verminderte Quinten und Septimen wird nicht als Wortlaut dieser Regel übernommen. Keine Spezieszuordnung."
+            }
+          },
+          "examples": [
+            "kittel-nona-lagen"
+          ],
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=17"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -7530,6 +7571,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "context",
           "note": "Prouts strenge Vorhaltsübung nennt für die Auflösung von unten genau den Leitton zur Tonika. Spalding führt zusätzlich die von der zweiten Stufe aus verzögerte Terz auf, schließt diesen Fall jedoch bei Terz im Bass aus. Die zusätzliche Möglichkeit betrifft seinen tonalen synkopierten Übungsrahmen; Prouts ausdrücklich enger gefasste Vorschrift für den strengen Satz bleibt als solche erkennbar."
+        },
+        {
+          "from": "kittel2019-late-02",
+          "to": "sechter1876-late-13",
+          "type": "context",
+          "note": "Kittels Regula 9 führt die gebundene None als 9–8 abwärts. Sechters ausdrücklich als Durchgang bezeichnete None erscheint dagegen auch in der aufsteigenden Folge 8–9–10. Die unterschiedliche Fortsetzung betrifft zwei verschiedene Behandlungsarten derselben Intervallzahl; sie ist kein Widerspruch über einen identischen Vorhalt."
         }
       ]
     },
@@ -7574,7 +7621,8 @@ const ATLAS = {
         "verdeckte-parallelen",
         "generalbass-sextakkord",
         "doppelleitton-kadenz",
-        "terzen-sexten-folgen"
+        "terzen-sexten-folgen",
+        "bewegungsarten"
       ],
       "authors": [
         {
@@ -8605,6 +8653,26 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=111"
+        },
+        {
+          "id": "kittel2019-open-offene-quinten-oktaven",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 143, Einleitung; S. 144, Notenbeispiele [3]",
+          "text": "Offene Oktaven und Quinten gehören für Kittel zu den grundlegenden Fehlern der Generalbassaussetzung. Die erste Notenzeile stellt entsprechende Fortschreitungen vor und bewertet sie als böse; das gleichzeitige Auftreten beider Fehler heißt am bösesten. Die Warnung richtet sich auf die Beziehungen der geführten Stimmen. Ein vollständig gegriffener Terz-Quint-Oktavklang gewährleistet für sich noch keine richtige Verbindung mit dem nächsten Klang. Deshalb folgt auf die Fehlerbeispiele die Unterscheidung der Bewegungsarten: Die Stimmen müssen so gegeneinander geführt werden, dass sich die unerwünschten Folgen vermeiden lassen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Grundregeln für die Stimmführung einer Generalbassaussetzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 143, Einleitung; S. 144, Notenbeispiele [3]",
+              "note": "Einleitung und erste Notenzeile nennen und bewerten die offenen Folgen. Eine zusätzliche Regel für rhythmisch untergeordnete Durchgangstöne wird daraus nicht abgeleitet."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=1"
         }
       ],
       "relations": [
@@ -8749,7 +8817,8 @@ const ATLAS = {
         ]
       },
       "related": [
-        "parallelen"
+        "parallelen",
+        "bewegungsarten"
       ],
       "authors": [
         {
@@ -9401,6 +9470,29 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=111"
+        },
+        {
+          "id": "kittel2019-open-verdeckte-und-lagenwahl",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 143–144, Einleitung und Notenbeispiele [3]; S. 147, Modelle [9]",
+          "text": "Kittel zählt verdeckte Quinten und Oktaven ausdrücklich zu den zu vermeidenden Verbindungen. Auf S. 144 folgen den offenen Fehlern zwei als verdeckte Quinten bezeichnete Beispiele. Die spätere Lagenübung zeigt die praktische Folge: Eine ihrer gegenläufig angelegten Fassungen gilt wegen verdeckter Quinten als gefährlich. Die gewählte Bewegungsart oder ein guter Anfangsakkord entbindet also nicht davon, die einzelnen Stimmenpaare während der Fortsetzung zu prüfen. Eine allgemeine Ausnahme für bestimmte Stimmenzahlen oder eine schrittweise Oberstimme formuliert die einleitende Regel hier nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Verdeckte perfekte Intervalle im Generalbassunterricht",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 143–144, Einleitung und Notenbeispiele [3]; S. 147, Modelle [9]",
+              "note": "Das Verbot steht in der Einleitung; der Bezug zur Lagenwahl ist am ausdrücklich kommentierten Modell auf S. 147 belegt. Fehlende Ausnahmeregeln werden nur für diese Stellen festgestellt."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=1",
+          "examples": [
+            "kittel-accord-und-lagen"
+          ]
         }
       ],
       "relations": [
@@ -9517,6 +9609,12 @@ const ATLAS = {
           "to": "spalding1904-two-verdeckte-erste",
           "type": "nuance",
           "note": "Für die zweistimmige Anfangsaufgabe formuliert York ein Verbot verdeckter Quinten und Oktaven. Spalding differenziert im gleichen Note-gegen-Note-Rahmen nach Richtung, Schrittgröße und Oberstimmenführung und erlaubt etwa die aufsteigende Oktave bei oberem Halbtonschritt. Es handelt sich um unterschiedlich enge Übungsregeln."
+        },
+        {
+          "from": "kittel2019-open-verdeckte-und-lagenwahl",
+          "to": "sechter1876-pref-verdeckte-parallelen",
+          "type": "nuance",
+          "note": "Kittels Einleitung nennt verdeckte Quinten und Oktaven ohne dort eine allgemeine Ausnahmeliste zu geben; eine konkrete Lagenfassung wird deshalb als gefährlich bezeichnet. Sechters Vorrede lässt ausdrücklich diejenigen Fälle zu, die der allgemeine Gebrauch rechtfertigt, zählt sie dort aber ebenfalls nicht vollständig auf. Der Vergleich betrifft die Reichweite der formulierten Grundregel, nicht einen nachgewiesenen Gegensatz über dasselbe Notenbeispiel."
         }
       ]
     },
@@ -11956,6 +12054,29 @@ const ATLAS = {
           ],
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=149"
+        },
+        {
+          "id": "kittel2019-open-querstand-und-versetzung",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 143–144, Relatio non harmonica; S. 149, Nota bene [14]",
+          "text": "Kittel warnt in seiner Fehlerliste vor der Relatio non harmonica, dem unharmonischen Querstand, und stellt dafür eigene Notenbeispiele bereit. Diese Warnung ist von einem Verbot sämtlicher Versetzungszeichen zu unterscheiden. Auf S. 149 lehrt er ausdrücklich, wie Kreuz, Be und Auflösungszeichen über einer Bassnote zu lesen sind, und gibt dafür chromatisch veränderte Begleitungen vor. Beanstandet wird am Schluss die übermäßige chromatische Härte eines bestimmten Beispiels. Zu prüfen sind daher sowohl die Verteilung veränderter Töne auf die Stimmen als auch die Wirkung der konkreten Folge; das bloße Vorhandensein eines Vorzeichens beantwortet die Frage noch nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Querstand und chromatische Klangveränderung im Generalbass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 143–144, Relatio non harmonica; S. 149, Nota bene [14]",
+              "note": "Die Querstandsbeispiele wurden mit der Vorzeichenregel auf S. 149 zusammen gelesen. Remeš weist in Anm. 2 darauf hin, dass die letzten vier Bassnoten des Querstandsbeispiels im Original ohne Oberstimmen stehen; daraus werden keine ergänzten Stimmenwege als Kittels Text ausgegeben."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=1",
+          "examples": [
+            "kittel-vorzeichen-terz"
+          ]
         }
       ],
       "related": [
@@ -17122,6 +17243,29 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=144"
+        },
+        {
+          "id": "kittel2019-open-bass-und-accord",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 143, Einleitung und Regula 1; S. 145, Notenbeispiele [5]",
+          "text": "Kittel beginnt beim Basston: Die darüber gesetzten Ziffern zeigen, welche Harmonie zu greifen ist. Als Accord bezeichnet Regula 1 zunächst die Verbindung von Terz, Quinte und Oktave über diesem Bass. Dur und Moll unterscheiden sich durch die große oder kleine Terz. Die dritte Form nennt er Naturell: Hier sind Terz und Quinte klein, die Quinte also vermindert. Das Notenbeispiel stellt entsprechend H-Dur, h-Moll und den verminderten Dreiklang über h nebeneinander. Naturell bedeutet in dieser besonderen Benennung somit weder eine unveränderte Tonleiter noch einen dritten gleichrangigen Tonarttyp neben Dur und Moll.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Bassbezogene Klangbildung im Anfangsunterricht des Generalbasses",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 143, Einleitung und Regula 1; S. 145, Notenbeispiele [5]",
+              "note": "Die Bedeutung von Accord und Naturell folgt der Definition in Regula 1 und dem H-Beispiel auf S. 145. Sie wird nicht aus einer modernen Akkordbezeichnung oder aus dem Erscheinungsjahr erschlossen."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=1",
+          "examples": [
+            "kittel-accord-und-lagen"
+          ]
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -17786,6 +17930,29 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=125"
+        },
+        {
+          "id": "kittel2019-open-chromatische-haerte",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 149, Schluss von Nota bene [14]",
+          "text": "Nach den Übungen mit veränderter Terz warnt Kittel vor der Wirkung eines der notierten Beispiele: Es sei zu chromatisch und für das Gehör etwas zu hart. Die Bemerkung beurteilt damit eine konkrete Folge auch klanglich, obwohl ihre Vorzeichen nach der gerade erklärten Regel lesbar sind. Beim Ausarbeiten und Spielen genügt die richtige Entschlüsselung der Ziffern also nicht als Qualitätsnachweis. Zugleich darf aus dieser örtlichen Kritik kein allgemeines Verbot chromatischer Töne gemacht werden, denn die Passage übt deren Bezeichnung ausdrücklich ein.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Klangliche Beurteilung einer chromatischen Generalbassübung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 149, Schluss von Nota bene [14]",
+              "note": "Die Wertung steht unmittelbar unter dem betreffenden Beispiel. Sie wird auf dieses beschränkt und nicht als allgemeine Stilregel ausgegeben."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=7",
+          "examples": [
+            "kittel-vorzeichen-terz"
+          ]
         }
       ],
       "related": [
@@ -18982,7 +19149,8 @@ const ATLAS = {
         "bindung-s4",
         "linie-orgelpunkt",
         "textunterlegung",
-        "innenstimmen-melodiefuehrung"
+        "innenstimmen-melodiefuehrung",
+        "bewegungsarten"
       ],
       "authors": [
         {
@@ -22996,6 +23164,26 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=147"
+        },
+        {
+          "id": "kittel2019-late-08",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 162, „Recit:“ vor dem Arioso, Handschrift [36] · Bassbindung und Ziffernwechsel",
+          "text": "Im ersten mit Recit überschriebenen Abschnitt wird der anfängliche Bass über die Taktgrenze gehalten. Darüber wechselt die Bezifferung von 8/3 zu 4/2; erst danach setzt der Bass seine Bewegung fort. Zugleich führt die obere Melodie deutlich kleinere und unregelmäßig einsetzende Notenwerte. Bassdauer, Wechsel des bezeichneten Zusammenklangs und Melodierhythmus fallen hier also nicht zusammen. Das folgende Arioso setzt einen regelmäßigeren, oft in Achteln bewegten Bass dagegen. Diese notierten Unterschiede sind beim Aussetzen getrennt zu verfolgen, statt jeden neuen Melodieton oder jeden Bassanschlag mit einer neuen Harmonie gleichzusetzen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Rezitativ- und Arioso-Beispiel mit beziffertem Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 162, „Recit:“ vor dem Arioso, Handschrift [36] · Bassbindung und Ziffernwechsel",
+              "note": "Notenbefund auf S. 162: erster und zweiter Takt des ersten Recit, anschließend beide Arioso-Systeme und der zweite Recit vollständig gelesen. Es wird keine bestimmte Vokal- oder Instrumentalbesetzung behauptet; die Abschnittsbezeichnungen stehen im Notenbild. Die Bassbindung führt über die erste Taktgrenze, nicht über den anschließenden Basstonwechsel hinweg."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=20"
         }
       ],
       "readingSources": [
@@ -25801,7 +25989,8 @@ const ATLAS = {
         "harmonischer-rhythmus",
         "akkordton-verdopplung",
         "generalbass-lernfolge",
-        "generalbass-lagen"
+        "generalbass-lagen",
+        "generalbass-septakkord-fuellstimmen"
       ],
       "authors": [
         {
@@ -25886,9 +26075,40 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=24"
+        },
+        {
+          "id": "kittel2019-middle-sextverdopplung",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 2, Ausgabe S. 150, Handschrift [15–16], Fig. 1–2 · zwei schrittweise folgende Sextgriffe",
+          "text": "Kittel ergänzt die Sexte zunächst mit Terz und Oktave über dem Bass. Bei zwei schrittweise aufeinanderfolgenden Sextgriffen verändert er jedoch die Verdopplung im zweiten Griff. Liegt die Sexte oben, wird sie im zweiten Klang verdoppelt und die Bassoktave entfällt. Liegt die Terz oben, wird stattdessen diese verdoppelt, ebenfalls ohne zusätzliche Bassoktave. Der erste Griff bleibt jeweils bei der gewöhnlichen Ergänzung mit Terz und Oktave. Die Wahl des verdoppelten Tons folgt hier also der konkreten Oberstimmenlage und der Verbindung zweier Griffe; sie ist keine unterschiedslose Verdopplungsregel für jeden Sextakkord.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · Verdopplungswechsel in schrittweisen Sextenfolgen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 2, Ausgabe S. 150, Handschrift [15–16], Fig. 1–2 · zwei schrittweise folgende Sextgriffe",
+              "note": "Die beiden Fälle sind im Regeltext ausdrücklich getrennt. Die ausgeschriebenen Fassungen auf Handschrift [16] wurden mit den Beschriftungen male/bene und Fig. 1–2 geprüft. Die gestrichelten Bögen stammen nach den Editionsrichtlinien vom Herausgeber; aus ihnen wird keine eigene Anweisung Kittels abgeleitet."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=8",
+          "examples": [
+            "kittel-sexten-verdopplung"
+          ]
         }
       ],
-      "readingSources": []
+      "readingSources": [],
+      "relations": [
+        {
+          "from": "kittel2019-middle-sextverdopplung",
+          "to": "daniel2004-v05",
+          "type": "nuance",
+          "note": "Kittel setzt für den ersten Sextgriff ausdrücklich Terz und Bassoktave an und verändert die Verdopplung beim zweiten schrittweise folgenden Griff nach der Oberstimmenlage. Daniel führt im Zusammenhang des spätbarocken Choralsatzes C. P. E. Bachs andere allgemeine Gewichtung an: gewöhnlich Terz oder Sexte über dem Bass, die Bassoktave seltener. Der Unterschied betrifft Ausgangsgriff und Auswahlkriterium. Daniels zusätzliche Einschränkung beim Leittonsextakkord wird dadurch weder bestritten noch auf jede Sextenfolge übertragen."
+        }
+      ]
     },
     {
       "id": "generalbass-zweideutiger-septakkord",
@@ -25970,7 +26190,8 @@ const ATLAS = {
         "generalbass-schluessel",
         "generalbass-pedal",
         "generalbass-lagen",
-        "generalbass-akkordnamen"
+        "generalbass-akkordnamen",
+        "generalbass-septakkord-fuellstimmen"
       ],
       "authors": [
         {
@@ -26136,6 +26357,49 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "kittel2019-middle-rasche-sexten",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 2, Ausgabe S. 150, Handschrift [15–16], Fig. 3 · schnelle Sextenfolge",
+          "text": "Für viele rasch aufeinanderfolgende Sextgriffe lässt Kittel die Oktave über dem Bass durchgehend weg. Es bleiben die Sexte in der höchsten Stimme und die Terz dazwischen. Zusammen mit dem Bass ergibt das drei Stimmen. Fig. 3 schreibt diese reduzierte Folge aus; die mittlere Linie wechselt dabei im Notenbild zwischen den beiden Systemen, bleibt aber eine eigene Stimme. Beim Spielen soll deshalb nicht auf jedem schnellen Basston wieder ein vierter Ton ergänzt werden. Die verringerte Stimmenzahl gehört ausdrücklich zur Ausführung dieser bewegten Sextenfolge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · dreistimmige Ausführung rascher Sextenfolgen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 2, Ausgabe S. 150, Handschrift [15–16], Fig. 3 · schnelle Sextenfolge",
+              "note": "Der Text verlangt ausdrücklich das durchgehende Weglassen der Oktave und nennt obere Sexte und mittlere Terz. Fig. 3 wurde vergrößert geprüft: Es erklingen drei Linien, auch dort, wo die Mittelstimme auf dem anderen Notensystem notiert ist."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=8",
+          "examples": [
+            "kittel-sexten-verdopplung"
+          ]
+        },
+        {
+          "id": "kittel2019-late-09",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 163–164, Allegretto, Handschrift [44]–[47]; Begleitaufsatz, Abschnitt „Johann Christian Kittel“ · unvollständige Aussetzung",
+          "text": "Das Allegretto ist zunächst mit oberen Stimmen ausgeführt, setzt sich auf der nächsten Druckseite aber nur noch als bezifferter Bass unter einem leeren oberen System fort. Daraus folgt keine Anweisung, an dieser Stelle zur Einstimmigkeit zu wechseln. Der überlieferte Satz ist vielmehr unvollständig ausgesetzt. Remeš nimmt gerade diesen Befund zum Anlass, die Urheberschaft einzelner Aussetzungen offenzulassen: Sie könnten teilweise Rincks Schülerarbeit sein; eine Korrektur durch Kittel ist nicht gesichert. Beim Lesen muss deshalb zwischen vorhandenen Noten, noch zu ergänzender Harmonie und einer tatsächlich vorgeschriebenen Stimmenzahl unterschieden werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassübung mit unvollständig ausgeschriebenen Oberstimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 163–164, Allegretto, Handschrift [44]–[47]; Begleitaufsatz, Abschnitt „Johann Christian Kittel“ · unvollständige Aussetzung",
+              "note": "Beginn [44] auf S. 163; leere Oberstimme ab [46] auf S. 164. Remeš, Begleitaufsatz https://www.gmth.de/zeitschrift/artikel/997.aspx, Kittel-Abschnitt, stellt die Fragen nach Rincks Beteiligung und Kittels Korrektur ausdrücklich offen. Keine behauptete absichtliche Steigerung des Lehrgangs oder stilistische Erlaubnis aus dem Abbruch abgeleitet."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=21"
         }
       ],
       "readingSources": [],
@@ -26236,6 +26500,26 @@ const ATLAS = {
             }
           },
           "catalogue": true
+        },
+        {
+          "id": "kittel2019-open-accorde-durch-tonarten",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 145–147, Exempla zur Übung der Accorde durch alle Tonarten [5]–[8]",
+          "text": "Das Üben in verschiedenen Tonarten beginnt bei Kittel mit ausgeschriebenen Griffmodellen. Über einem wiederkehrenden tiefen Fundament werden die oberen Akkordtöne in mehreren Höhen angeordnet; das Modell erscheint nacheinander in Dur- und Molltonarten mit verschiedenen Vorzeichnungen. Die Beschriftungen erinnern zugleich an verwandte Tonarten mit gleicher Vorzeichnung. Wer die Reihe spielt, verbindet so das Wiedererkennen eines Griffprinzips mit den jeweils benötigten Tasten und Vorzeichen. Diese notierte Hilfe ist der konkrete Gegenstand der Stelle. Eine Anweisung, alle Fassungen ausschließlich vom Blatt im Kopf zu transponieren, enthält sie nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Instrumentale Akkordübung durch verschiedene Dur- und Molltonarten",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 145–147, Exempla zur Übung der Accorde durch alle Tonarten [5]–[8]",
+              "note": "Überschrift, Tonartbeschriftungen und Notenreihe auf S. 145–147 sind gemeinsam berücksichtigt. Die von Remeš in Anm. 3 nur als möglich bezeichnete Abhängigkeit von Heinichen wird nicht als gesicherte Herkunft behauptet."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=3"
         }
       ],
       "readingSources": [],
@@ -26245,6 +26529,12 @@ const ATLAS = {
           "to": "foerster1818-1",
           "type": "nuance",
           "note": "Försters zitierte Transponieraufgabe verlangt die Übertragung am Instrument ohne vorheriges Ausschreiben der Akkorde. Sechter stellt schriftliches und vorgestelltes Transponieren als zwei Übungswege nebeneinander und fordert die Übertragung in alle Tonarten. Die Nuance liegt in der Gestaltung der Lernaufgabe, nicht in einer unterschiedlichen Bedeutung der Generalbassziffern."
+        },
+        {
+          "from": "kittel2019-open-accorde-durch-tonarten",
+          "to": "sechter1876-pref-transponieren",
+          "type": "nuance",
+          "note": "Kittel bietet ausgeschriebene Griffmodelle in vielen Dur- und Molltonarten. Sechter fordert die Übertragung der Übungen in alle Tonarten und unterscheidet ausdrücklich schriftliches vom nur vorgestellten Transponieren. Die gemeinsame Breite des Tonartentrainings führt damit zu verschieden angeleiteten Übungswegen."
         }
       ]
     },
@@ -30348,7 +30638,8 @@ const ATLAS = {
         "harmonischer-rhythmus",
         "kadenz-schlussdehnung",
         "phrygische-schlussdeutung",
-        "choral-kadenzplanung"
+        "choral-kadenzplanung",
+        "choral-zwischenspiel"
       ],
       "comparisons": [],
       "authors": [
@@ -31121,7 +31412,8 @@ const ATLAS = {
         "quartsext-dissonanz",
         "generalbass-bassvariation",
         "generalbass-lagen",
-        "generalbass-akkordnamen"
+        "generalbass-akkordnamen",
+        "generalbass-septakkord-fuellstimmen"
       ],
       "reading": "Vergleiche verschiedene Bezifferungen derselben Fortschreitung. Prüfe, ob die Zahlen tatsächliche Stimmenlagen, nur die Außenstimmen oder eine abgekürzte Klangangabe festhalten, und welche Stimme eine bezeichnete Dissonanz auflösen muss.",
       "readingSources": [
@@ -31327,6 +31619,152 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "kittel2019-open-alleinstehendes-vorzeichen",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 149, Nota bene [14] · Vorzeichen über einer Bassnote",
+          "text": "Steht ein Kreuz, Be oder Auflösungszeichen allein über einer Bassnote, bezieht es Kittel auf die Terz. Es verändert an dieser Stelle weder die Quinte noch die Oktave. Die Notenzeilen darunter lassen diese Regel praktisch lesen: Der Basston bildet weiterhin den Bezug, während seine obere Terz die bezeichnete Veränderung erhält. Davon zu trennen ist ein Versetzungszeichen unmittelbar an der Bassnote, das den Bass selbst verändert. Die Regel legt somit fest, welcher Bestandteil des zu greifenden Klangs gemeint ist; sie schreibt noch keine bestimmte Verteilung der oberen Töne auf die einzelnen Stimmen vor.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Lesen eines unbezifferten Versetzungszeichens im Generalbass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 149, Nota bene [14] · Vorzeichen über einer Bassnote",
+              "note": "Das Nota bene nennt Terz, Quinte und Oktave ausdrücklich. Die Unterscheidung zwischen einem Zeichen über dem Bass und einem Zeichen an der Bassnote folgt dem sichtbaren Notenbild."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=7",
+          "examples": [
+            "kittel-vorzeichen-terz"
+          ]
+        },
+        {
+          "id": "kittel2019-middle-sextquint-fortsetzung",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 3, Ausgabe S. 151, Handschrift [17], Fig. 1–3 · Weiterführung von 6/5",
+          "text": "Zum 6/5-Griff gehört bei Kittel die Terz. Als gewöhnlichen Weg beschreibt er einen um eine Stufe steigenden Bass, über dessen Zielton der gewöhnliche Accord, also der 5/3-Klang, erscheint. Fig. 2 zeigt eine weitere Möglichkeit mit steigendem Bass: den Übergang zu 6/4. Danach nennt der Text selbst eine Ausnahme von seiner zunächst mit „allezeit“ formulierten Aufwärtsregel. Fällt der Bass einen Halbton, kann 6/5 in 4/2 weitergehen; Fig. 3 zeigt zwei solche Fälle. Für die Aussetzung sind daher Zifferngruppe und tatsächlicher Bassweg gemeinsam zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · Regelfall und Halbtonausnahme beim 6/5-Griff",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 3, Ausgabe S. 151, Handschrift [17], Fig. 1–3 · Weiterführung von 6/5",
+              "note": "Terzergänzung, steigender Bass, 6/4-Alternative und fallender Halbton stehen im selben Regeltext. Alle drei Figurengruppen wurden visuell geprüft. Die erste allgemeine Formulierung wird nicht gegen die anschließend ausdrücklich genannte Ausnahme verabsolutiert."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=9",
+          "examples": [
+            "kittel-sextquint-weiterfuehrung"
+          ]
+        },
+        {
+          "id": "kittel2019-middle-sekundakkord",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 4, Ausgabe S. 152–153, Handschrift [19] · 4/2 und Auflösung zum Sextgriff",
+          "text": "Der 4/2-Griff wird bei Kittel durch die Sexte ergänzt. Bei seiner Weiterführung geht der Bass eine Stufe abwärts; die bisherige Sekunde wird dadurch zur Terz. Die Stimme, die die Quarte hatte, soll die Sexte des folgenden Klangs erreichen. Entscheidend ist also, welche Linie welches Intervall übernimmt, nicht nur der Wechsel eines Akkordnamens. Kittel verlangt für diese Ziffer außerdem Vorbereitung: Sie müsse gebunden erscheinen und dürfe nicht frei gebraucht werden. Diese Forderung gehört zu seinem hier behandelten 4/2-Zusammenhang und wird nicht auf jede beliebige Quartdissonanz übertragen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · Bassauflösung und Vorbereitung des 4/2-Griffs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 4, Ausgabe S. 152–153, Handschrift [19] · 4/2 und Auflösung zum Sextgriff",
+              "note": "Die Ergänzung und beide Stimmenwege sowie das Gebot der gebundenen Vorbereitung sind Kittels ausdrücklicher Text. Die guten Fassungen auf S. 153 bestätigen den absteigenden Bass und die neue Intervallverteilung. Die weitergehende editorische Diskussion unvorbereiteter Dissonanzen wird nicht mit diesem lokalen Wortlaut vermischt."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=10"
+        },
+        {
+          "id": "kittel2019-middle-terzquart-fortsetzung",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 6, Ausgabe S. 155, Handschrift [23] · Quarta Tertia und anschließende Modellreihe",
+          "text": "Kittels Quarta Tertia wird durch die Sexte ergänzt: Gemeint ist die gleichzeitige Zusammenstellung 6/4/3 über dem Bass. Für ihre Auflösung nennt er zwei Ziele, den gewöhnlichen Accord mit 5/3 oder einen Sextgriff mit 6/3. Die anschließende Notenreihe führt beide Möglichkeiten in verschiedenen Lagen und mit unterschiedlichen Vorzeichen vor. Beim Lesen sollte daher zuerst die vollständige Intervallgruppe ergänzt und dann die konkrete Fortsetzung verfolgt werden. Die anfängliche Bezeichnung 4/3 legt für sich noch nicht einen einzigen Zielklang oder eine feste höchste Stimme fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · Ergänzung und zwei Auflösungsziele des 4/3-Griffs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 6, Ausgabe S. 155, Handschrift [23] · Quarta Tertia und anschließende Modellreihe",
+              "note": "Die Sexte als Ergänzung und beide Auflösungsziele stehen ausdrücklich im knappen Regeltext. Die gesamte erste Modellreihe wurde vergrößert gelesen. Einzelne mit sic markierte Noten werden nicht als eigenständige neue Norm ausgewertet."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=13"
+        },
+        {
+          "id": "kittel2019-middle-quart-terz-folge",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 8, Ausgabe S. 157–158, Handschrift [27], erste Modellreihe · eigentliche Quarta und folgende Terz",
+          "text": "Wenn neben der Quarte die nachfolgende Terz steht, ergänzt Kittel den Quartgriff mit Quinte und Oktave: Zunächst erklingt also 8/5/4, danach erreicht die Quartstimme ihre Terz. Die nebeneinander stehenden Zahlen 4–3 beschreiben einen zeitlichen Weg. Das unterscheidet diese Aufgabe von der gleichzeitigen Quarta Tertia der sechsten Regel, in der Quarte und Terz Bestandteile desselben Griffs sind. Die erste Modellreihe auf S. 158 zeigt die Quart-Terz-Bewegung in mehreren Lagen. Für die Aussetzung muss deshalb die zuständige Linie verfolgt werden, statt alle gedruckten Zahlen zugleich anzuschlagen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · zeitliche Quart-Terz-Folge und gleichzeitige Intervallgruppen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 8, Ausgabe S. 157–158, Handschrift [27], erste Modellreihe · eigentliche Quarta und folgende Terz",
+              "note": "Ergänzung mit 5 und 8 sowie Weiterführung zur danebenstehenden 3 sind der Wortlaut von Regula 8. Die drei Beispiele am Kopf von S. 158 wurden geprüft. Die darunter ausdrücklich als hypothetical realization gekennzeichnete Ergänzung gehört dem Herausgeber und wird nicht als zusätzliche authentische Regel Kittels verwendet."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=15"
+        },
+        {
+          "id": "kittel2019-middle-null-pausen",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Ausgabe S. 157, Anm. 6, und S. 158, Exemplum, erste Notenzeile; Handschrift [27] · editorische Erklärung der 0",
+          "text": "Remeš erläutert in einer Fußnote der Edition, dass die Ziffer 0 verlangt, den betreffenden Basston ohne Aussetzung zu spielen: Die Oberstimmen sollen dort pausieren. Im Exemplum auf S. 158 stehen solche Nullen an Stellen, an denen der notierte Diskant aussetzt und die Bassbewegung weitergeht. Das Zeichen bezeichnet somit eine konkrete Unterbrechung der Begleitung. Beim Ergänzen fehlender Stimmen ist diese Pause ebenfalls zu beachten; die Lücke soll nicht automatisch durch einen vollständigen Griff gefüllt werden. Die ausdrückliche Erklärung stammt vom Herausgeber, während die bezeichneten Stellen Teil des edierten Notentextes sind.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Edition der Generalbassschule · Pausenzeichen und nicht ausgesetzte Basstöne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Ausgabe S. 157, Anm. 6, und S. 158, Exemplum, erste Notenzeile; Handschrift [27] · editorische Erklärung der 0",
+              "note": "Die Bedeutung von 0 ist Remešs redaktionelle Anm. 6, nicht ein als Kittel-Text gedruckter Satz. Die Null und die entsprechende Diskantpause in der ersten Zeile des Exemplums wurden visuell geprüft. Eine bloß zweistimmig notierte Vorlage wird dabei nicht automatisch als vollständig zweistimmige Aussetzung interpretiert."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=15"
+        },
+        {
+          "id": "kittel2019-late-01",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 9, S. 159, Handschrift [29] · None und Sekunde mit unterschiedlichen Begleitintervallen",
+          "text": "Die None und die Sekunde sind in Regula 9 nicht als austauschbare Bezeichnungen desselben Griffes zu lesen. Zur None gehören Terz und Quinte; zur Sekunde dagegen Quarte und Sexte. Die Zusammenstellung 9/5/3 erhält außerdem eine bestimmte Fortsetzung: Die None geht zur Oktave hinab. Beim Aussetzen reicht es deshalb nicht, nur die Entfernung eines oberen Tons vom Bass zu bestimmen. Die Ziffer muss zusammen mit ihren ergänzenden Intervallen und der bezeichneten Auflösung gelesen werden. Die None verlangt hier insbesondere keine zusätzlich hinzuzufügende Septime.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassaussetzung · Unterscheidung von 9/5/3 und 6/4/2",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 9, S. 159, Handschrift [29] · None und Sekunde mit unterschiedlichen Begleitintervallen",
+              "note": "Wörtliche Intervallzuordnungen in Regula 9. Die Ausgabe kennzeichnet das für den Sinn entscheidende [nicht!] ausdrücklich als editorische Ergänzung. Die Aussage über 9/5/3 wird nicht zu einem modernen Nonenakkord mit zusätzlicher Septime umgedeutet."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=17"
         }
       ],
       "relations": [
@@ -31877,7 +32315,8 @@ const ATLAS = {
         "choral-vorimitation",
         "harmonischer-rhythmus",
         "choral-stimmumfang",
-        "choral-fugentechnik"
+        "choral-fugentechnik",
+        "choral-zwischenspiel"
       ],
       "authors": [
         {
@@ -33404,6 +33843,29 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=145"
+        },
+        {
+          "id": "kittel2019-late-07",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 160–161, „Jesu deine Paßion“ und „Valet will ich dir geben“, Handschrift [30]–[35] · gegebene Außenstimmen und Bezifferung",
+          "text": "Die Choralbeispiele geben über weite Strecken eine obere Melodie und einen bezifferten Bass vor. Die fehlenden Töne sind deshalb unter zwei bereits festgelegten Bedingungen zu ergänzen: Sie müssen zur Bezifferung passen und sich mit der notierten Oberstimme verbinden. Bei einer Folge wie 9–8 ist zunächst zu prüfen, ob die Melodie selbst den bezeichneten Weg übernimmt oder ob er einer ergänzten Stimme zufällt. Das zweisystemige Notenbild ist hier somit keine vollständig ausgeschriebene zweistimmige Lösung. Es enthält eine harmonisch bestimmte Aufgabe zum Ergänzen der inneren Stimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Choralaussetzung · gegebene Oberstimme und bezifferter Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 160–161, „Jesu deine Paßion“ und „Valet will ich dir geben“, Handschrift [30]–[35] · gegebene Außenstimmen und Bezifferung",
+              "note": "Beschreibung des sichtbaren Außenstimmengerüsts; die Notation wird nicht mit der beabsichtigten Gesamtstimmenzahl gleichgesetzt. Für die Übeüberlegung werden keine ungedruckten Innenstimmen als Kittels eigene Lösung ausgegeben. Remeš benennt die Außenstimmennotation von Chorälen ausdrücklich im Begleitaufsatz."
+            }
+          },
+          "examples": [
+            "kittel-choral-zwischenspiel"
+          ],
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=18"
         }
       ]
     },
@@ -34090,6 +34552,26 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=103"
+        },
+        {
+          "id": "kittel2019-middle-quartsext-fortsetzungen",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 5, Ausgabe S. 154, Handschrift [21], Fig. 1–7 · mehrere Fortsetzungen des 6/4-Griffs",
+          "text": "Zum 6/4-Griff gehört bei Kittel die Oktave; als ersten Auflösungsweg nennt er 5/3. Die Regel endet jedoch nicht dort. Sie nennt weitere Fortsetzungen zu 4/2 und 7/5 sowie eine Verbindung über 6/4/3 zum Sextgriff. Hinzu kommen die Gruppen 7/4/2 und 6/4/7. Die zugehörigen Figuren zeigen deshalb keinen einzigen überall gleichen Weg aus dem Quartsextklang. Beim Aussetzen sind die konkreten Bassbewegungen und Zwischenklänge mitzulesen. Kittels „Ausweichungen“ bezeichnet an dieser Stelle zunächst diese verschiedenen Fortsetzungen und ist hier keine selbstständige Anweisung zu einem Tonartwechsel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · Quartsextgriff und unterschiedliche Weiterführungen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 5, Ausgabe S. 154, Handschrift [21], Fig. 1–7 · mehrere Fortsetzungen des 6/4-Griffs",
+              "note": "Die Ergänzung und Fortsetzungsliste stehen im Regeltext. Fig. 4 bestätigt den Weg über 6/4/3 zu 6. Die Überschrift von Fig. 5 lautet in Septam [sic], obwohl 6/4–6–6 notiert ist; daraus wird kein zusätzlicher Septimenfall erschlossen. In Fig. 6 ersetzt die Edition die ursprüngliche 6 durch [7]; die benutzte Gruppe 7/4/2 ist zugleich im Regeltext ausdrücklich belegt."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=12"
         }
       ],
       "relations": [
@@ -34104,6 +34586,12 @@ const ATLAS = {
           "to": "spalding1904-two-quartsext-dritte",
           "type": "context",
           "note": "Yorks strenge Vier-gegen-eins-Empfehlung hält die Akkordquinte vom höchsten und tiefsten Ton der Taktfigur fern. Spaldings instrumental gedachte dritte Ordnung differenziert nach anderer Kontur und metrischer Stellung und lässt sogar einen leichten abwärts gerichteten Sprung zur Quinte zu. Die unterschiedlichen Grenzen gehören zu den jeweiligen Übungsrahmen."
+        },
+        {
+          "from": "kittel2019-middle-quartsext-fortsetzungen",
+          "to": "york1907-two-implizierter-quartsext",
+          "type": "context",
+          "note": "Kittels Generalbassregel nimmt den 6/4-Griff als eigene praktische Aufgabe auf und führt mehrere mögliche Fortsetzungen vor. York behandelt dagegen einen angedeuteten selbstständigen Quartsextbezug als Verstoß innerhalb seiner strengen zweistimmigen Übung. Der Unterschied betrifft die zugelassenen Klangaufgaben der beiden Lehrgänge; er begründet kein allgemeines Verbot des Quartsextklangs bei York außerhalb dieses Übungsrahmens."
         }
       ]
     },
@@ -35840,6 +36328,26 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "kittel2019-open-vom-griff-zum-bassgang",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 145–149, Übungen [5]–[14], besonders S. 147–148 und Anm. 4",
+          "text": "Die erste Übungsfolge erweitert die Aufgabe in mehreren Schritten. Zunächst werden die Accorde durch verschiedene Tonarten gespielt. Darauf folgen ausgesetzte C-Dur-Bassgänge, die Bewegungsart und obere Anfangslage vergleichen. Anschließend stehen entsprechende Bassgänge in weiteren Dur- und Molltonarten ohne ausgeschriebene Oberstimmen. Der Herausgeber vermutet, dass sie in den zuvor gezeigten Lagen gespielt werden sollten; diese Unterrichtsanweisung ist also erschlossen. Am Ende kommt die besondere Leseregel für allein stehende Vorzeichen über dem Bass hinzu. Die Schwierigkeit wächst hier bereits innerhalb des ersten Klangvorrats durch Tonart, Lage und selbstständige Ergänzung der Oberstimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Aufbau der ersten Generalbassübungen vor Regula 2",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 145–149, Übungen [5]–[14], besonders S. 147–148 und Anm. 4",
+              "note": "Die Abfolge ist an den ausgeschriebenen und unausgesetzten Modellen sichtbar. Die Deutung der letzten Gruppe als Übung aller Anfangslagen bleibt ausdrücklich Remeš’ Vermutung in Anm. 4."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=3"
         }
       ],
       "relations": []
@@ -36092,6 +36600,29 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "kittel2019-middle-fundament-noten",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 4, Ausgabe S. 153, Handschrift [19] · Beispiel und »Daß nehmliche Exempel in Fundament-Noten«",
+          "text": "Kittel stellt einem bewegten Bass ausdrücklich dasselbe Beispiel in Fundament-Noten gegenüber. Die vereinfachte Fassung macht die tragenden Basstöne und die Verbindungen 4/2–6 leichter verfolgbar; die Oberstimmen lassen sich dazu in Beziehung setzen. Die raschen Zwischenbewegungen des ersten Basses erfordern daher beim Lesen nicht schon für sich jeweils einen neuen vollständigen Griff. Für das Üben können zuerst die Stützpunkte beider Fassungen zugeordnet und danach die zusätzlichen Basstöne eingesetzt werden. Fundament-Noten bezeichnet hier die vereinfachten Töne dieses notierten Zusammenhangs, nicht eine unabhängig hinzuerfundene Akkordgrundtonfolge.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · figuriertes Beispiel und ausdrücklich beigefügtes Bassgerüst",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 4, Ausgabe S. 153, Handschrift [19] · Beispiel und »Daß nehmliche Exempel in Fundament-Noten«",
+              "note": "Beide Fassungen und die deutsche Quellenüberschrift wurden gemeinsam geprüft. Die letzte Unterscheidung folgt aus dem konkreten Notenvergleich. Remeš nennt in Anm. 5 auf S. 152 einen möglichen Bezug zu Heinichen; diese vorsichtige editorische Hypothese wird nicht zu einer gesicherten Abhängigkeit gemacht."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=11",
+          "examples": [
+            "kittel-fundament-noten"
+          ]
         }
       ],
       "relations": []
@@ -36116,7 +36647,9 @@ const ATLAS = {
         "generalbass-stimmenzahl",
         "generalbass-bezifferung-stimmfuehrung",
         "generalbass-sextakkord",
-        "akkordton-verdopplung"
+        "akkordton-verdopplung",
+        "bewegungsarten",
+        "choral-zwischenspiel"
       ],
       "comparisons": [],
       "authors": [
@@ -36164,6 +36697,95 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "kittel2019-open-drei-oberstimmenlagen",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 143, Regula 1; S. 145, Notenbeispiele [5]",
+          "text": "Derselbe Accord lässt sich bei Kittel in drei oberen Lagen greifen: Zuoberst kann seine Oktave, Quinte oder Terz stehen. Das C-Dur-Beispiel ordnet die drei oberen Töne entsprechend um, während der Bass c bleibt. Gemeint sind verschiedene Oberstimmenlagen derselben bassbezogenen Verbindung, nicht drei Akkordumkehrungen mit wechselndem Basston. Für das Spielen ist deshalb beides getrennt zu verfolgen: Welcher Ton bleibt als Fundament liegen, und welcher der drei Begleittöne wird zur höchsten Stimme? Diese Ausgangslage wird später auch für die Fortschreitung einer ganzen Bassübung wichtig.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Drei Griff- und Oberstimmenlagen über unverändertem Bass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 143, Regula 1; S. 145, Notenbeispiele [5]",
+              "note": "Regula 1 benennt den jeweils höchsten Ton; die drei C-Dur-Griffe auf S. 145 machen den unveränderten Bass sichtbar."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=1",
+          "examples": [
+            "kittel-accord-und-lagen"
+          ]
+        },
+        {
+          "id": "kittel2019-open-lage-und-fortschreitung",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 147, Notenbeispiele [9] · C-Dur-Fortschreitungen in verschiedenen Lagen",
+          "text": "Die Wahl der Anfangslage verändert bei Kittel die Möglichkeiten der weiteren Stimmführung. Über dem C-Dur-Bassgang stehen Aussetzungen mit Seiten-, Gleich- und Gegenbewegung sowie verschiedenen oberen Anfangsintervallen. Unter den als Motus contrarius bezeichneten Fassungen nennt er den Beginn in Terzlage wegen verdeckter Quinten gefährlich, denjenigen in Quintlage etwas besser und denjenigen in Oktavlage den besten. Diese Abstufung gehört zu den hier notierten Verbindungen. Sie ist keine allgemeine Rangliste sämtlicher Terz-, Quint- und Oktavlagen. Beim Vergleich muss man die oberen Einzelstimmen mitlesen; die Gegenrichtung einer Linie zum Bass entscheidet noch nicht über alle Stimmenpaare.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Vergleich ausgeführter Generalbassmodelle bei gleichem Bassgang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 147, Notenbeispiele [9] · C-Dur-Fortschreitungen in verschiedenen Lagen",
+              "note": "Die drei Wertungen stehen unmittelbar an den Notenmodellen auf S. 147. Der Bezug auf diese konkreten Fassungen verhindert eine Verallgemeinerung der bevorzugten Anfangslage."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=5",
+          "examples": [
+            "kittel-accord-und-lagen"
+          ]
+        },
+        {
+          "id": "kittel2019-middle-lagen-und-funktionen",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 4, Ausgabe S. 153, Handschrift [19], erste drei mit bene bezeichnete Fassungen · 4., 2. und 6. oben",
+          "text": "Die erste Notenreihe zu Regula 4 führt dieselbe Verbindung 4/2–6 in unterschiedlichen Lagen vor. Einmal liegt die Quarte oben, einmal die Sekunde und einmal die Sexte; alle drei Fassungen sind als gut bezeichnet. Die Ziffer 4 oder 2 bestimmt folglich nicht von selbst, dass gerade der Sopran dieses Intervall übernehmen muss. Beim Vergleich lässt sich die jeweils zuständige Stimme durch ihre Lage hindurch verfolgen. So bleibt die Aufgabe der Quart- beziehungsweise Sekundstimme erkennbar, auch wenn ein anderer Ton die oberste Lage einnimmt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · wechselnde Oberstimmenlage bei gleichbleibender Stimmenaufgabe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 4, Ausgabe S. 153, Handschrift [19], erste drei mit bene bezeichnete Fassungen · 4., 2. und 6. oben",
+              "note": "Die Quellenbeschriftungen 4. oben, 2. oben und 6. oben sowie bene stehen unmittelbar bei den ersten drei Fassungen. Die Antwort ist eine Beobachtung dieser Notenreihe und keine zusätzliche Freigabe beliebiger Lagenwechsel innerhalb einer Aussetzung."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=11"
+        },
+        {
+          "id": "kittel2019-late-03",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 9, S. 159, erste drei kurze Modelle, Handschrift [29] · Lage der Nonenauflösung",
+          "text": "Die drei kurzen Modelle zu Beginn von Regula 9 ordnen die Folge 9–8–4–3 verschiedenen Stimmenlagen zu. Die auflösungsbedürftige Linie liegt dabei nicht durchweg im Sopran: Im dritten Modell erscheint sie deutlich als oberste Linie, während die vorhergehenden Muster sie innerhalb des rechten Handgriffs führen. Dieselbe Bezifferungsfolge legt somit nicht schon eine einzige Oberstimmenmelodie fest. Beim Vergleich sind die gebundenen Töne und ihre anschließenden Schritte zu verfolgen. Die wechselnde Lage verändert die sichtbare Melodie, während die bezeichneten Auflösungsschritte erhalten bleiben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassaussetzung · Lagewechsel in kurzen Nonenmodellen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 9, S. 159, erste drei kurze Modelle, Handschrift [29] · Lage der Nonenauflösung",
+              "note": "Reiner Notenbefund der ersten drei Modelle; nicht als zusätzliche wörtliche Lehrregel ausgegeben. Diese drei Modelle tragen keine Kennzeichnung hypothetical realization. Die allgemeine Unsicherheit der Urheberschaft einzelner Aussetzungsstimmen bleibt bestehen. Der Ausdruck melior wird ohne unbelegte Begründung nicht zur allgemeinen Rangordnung ausgebaut."
+            }
+          },
+          "examples": [
+            "kittel-nona-lagen"
+          ],
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=17"
         }
       ],
       "relations": []
@@ -36183,7 +36805,8 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "generalbass-bezifferung-stimmfuehrung",
         "generalbass-stimmenzahl",
-        "dissonanzbehandlung"
+        "dissonanzbehandlung",
+        "generalbass-septakkord-fuellstimmen"
       ],
       "reading": "Schreibe zu jedem Akkordnamen die tatsächlich angegebenen Intervalle über dem Bass auf. Welche Töne kommen hinzu, welche werden verdoppelt oder ausgelassen? Verfolge anschließend die Stimmen, statt aus dem Namen allein eine Auflösung abzuleiten.",
       "readingSources": [
@@ -37427,6 +38050,193 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=161"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "bewegungsarten",
+      "title": "Was unterscheidet Parallel-, Gleich-, Seiten- und Gegenbewegung?",
+      "group": "Stimmführung",
+      "tags": [
+        "Bewegungsarten",
+        "Gleichbewegung",
+        "Seitenbewegung",
+        "Gegenbewegung",
+        "Motus rectus"
+      ],
+      "reading": "Verfolge zunächst zwei Stimmen: Bewegen sich beide, und in welche Richtung? Prüfe erst danach die entstehenden Intervalle. Eine Bewegungsart allein entscheidet noch nicht, ob eine konkrete Verbindung erlaubt ist.",
+      "readingSources": [
+        "kittel2019"
+      ],
+      "related": [
+        "parallelen",
+        "verdeckte-parallelen",
+        "tonwiederholung",
+        "generalbass-lagen"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "kittel2019-open-drei-motus",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 143, Anm. 1; S. 144–145, Erklärungen und Notenbeispiele [4]",
+          "text": "Kittel unterscheidet drei Bewegungsarten. Im Motus rectus gehen zwei oder mehr Stimmen miteinander aufwärts oder abwärts. Wie der Herausgeber erläutert, umfasst dieser historische Begriff sowohl parallele Führung als auch sonstige gleichgerichtete Bewegung: Eine gleichbleibende Intervallart ist dafür nicht erforderlich. Im Motus obliquus bleibt eine Stimme liegen, während die andere fortschreitet. Im Motus contrarius bewegen sich die Stimmen aufeinander zu oder voneinander weg; dies kann schrittweise oder springend geschehen. Gleichbewegung ist damit nicht schon eine verbotene Parallelfolge. Erst die konkreten Intervalle bestimmen, ob etwa unerlaubte Quinten oder Oktaven entstehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Terminologie der Bewegungsarten in Kittels Generalbassschule",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 143, Anm. 1; S. 144–145, Erklärungen und Notenbeispiele [4]",
+              "note": "Die drei Definitionen stammen aus dem Quellentext. Die ausdrückliche Zusammenfassung von Parallel- und sonstiger Gleichbewegung unter motus rectus erläutert Remeš in Anm. 1; sie wird als Herausgeberkommentar ausgewiesen."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=2",
+          "examples": [
+            "kittel-bewegungsarten"
+          ]
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-septakkord-fuellstimmen",
+      "title": "Welche Begleitintervalle gehören im Generalbass zur Septime?",
+      "group": "Generalbass",
+      "tags": [
+        "Septime",
+        "Füllstimmen",
+        "Quinte",
+        "Oktave",
+        "7–6",
+        "7/4"
+      ],
+      "reading": "Lies die Septime zusammen mit den weiteren Ziffern und ihrer zeitlichen Folge. Eine einzelne 7, die Verbindung 7/4 und die Folge 7–6 können unterschiedliche Ergänzungen verlangen; auch der vorhergehende Griff kann die Wahl beeinflussen.",
+      "readingSources": [
+        "kittel2019"
+      ],
+      "related": [
+        "generalbass-bezifferung-stimmfuehrung",
+        "generalbass-akkordnamen",
+        "generalbass-sextakkord",
+        "generalbass-stimmenzahl"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "kittel2019-middle-septimen-fuellstimmen",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 7, Ausgabe S. 156, Handschrift [24–25] · einzelne und aufeinanderfolgende Septimen",
+          "text": "Steht die Septime allein als Ziffer, ergänzt Kittel sie mit Quinte und Terz. Für zwei aufeinanderfolgende Septimen verlangt er jedoch einen Wechsel der Füllstimmen. Wurde die erste mit 5/3 gegriffen, so erhält die zweite weiterhin die Terz, aber anstelle der Quinte die Oktave. Umgekehrt folgt auf eine erste Septime mit Terz und Oktave die gewöhnliche Ergänzung mit Terz und Quinte. Die beiden Zusammenstellungen lauten damit 7/5/3 und 8/7/3. Die Quinte gehört also nicht unterschiedslos zu jeder Septime; ihre Besetzung hängt hier auch vom vorhergehenden Griff ab.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassunterricht · wechselnde Füllstimmen bei aufeinanderfolgenden Septimen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 7, Ausgabe S. 156, Handschrift [24–25] · einzelne und aufeinanderfolgende Septimen",
+              "note": "Die alternierenden Ergänzungen sind im deutschen Regeltext ausdrücklich und in beiden Richtungen beschrieben; die englischen Klammerformeln sind Remešs erklärende Wiedergabe. Die im deutschen 7/4-Satz zusätzlich auftauchende Zeichenfolge 7/5/3 wird hier nicht ausgewertet; Regula 10 auf S. 160 nennt die Ergänzung des 7/4-Griffs eindeutig."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=14"
+        },
+        {
+          "id": "kittel2019-late-04",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "Regula 10, S. 160, Handschrift [32] · Ergänzung und Fortsetzung von 7/4",
+          "text": "Zur gleichzeitig angegebenen Septime und Quarte verlangt Regula 10 die Sekunde: Der Griff enthält also 7/4/2 über dem Bass. Als gewöhnliche Fortsetzung nennt der Text 8/5/3. Daneben steht ausdrücklich die Möglichkeit, bei liegendem Bass nach 7/5/3 weiterzugehen. Eine Auflösung muss in diesem zweiten Fall daher nicht sofort alle dissonanten Intervalle beseitigen. Für die Aussetzung sind die vollständige Zifferngruppe und ihre Fortsetzung maßgeblich; eine isolierte 7 mit ihren gewöhnlichen Begleitintervallen erklärt diesen besonderen Griff noch nicht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassaussetzung · Zifferngruppe 7/4/2",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Regula 10, S. 160, Handschrift [32] · Ergänzung und Fortsetzung von 7/4",
+              "note": "Beide Fortsetzungen stehen ausdrücklich im deutschen Text von Regula 10. Die drei kleinen Notenmodelle darunter zeigen verschiedene Lagen der notierten Folge 7, 7/4/2, 8/5/3. Das längere Exemplum auf S. 161 trägt dagegen die Kennzeichnung einer hypothetischen Herausgeberaussetzung."
+            }
+          },
+          "examples": [
+            "kittel-septquartsekund"
+          ],
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=18"
+        },
+        {
+          "id": "kittel2019-late-05",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "N. B. zu 7–6, S. 162, Handschrift [41] · Oktave statt Quinte",
+          "text": "Steht neben der Septime eine nachfolgende Sexte, verlangt die kurze Anmerkung eine andere Ergänzung als beim gewöhnlichen isolierten Septimengriff: Die Quinte soll nicht hinzugenommen werden, wohl aber die Oktave. Gemeint ist die zeitliche Folge 7–6, wie die englische Übersetzung ausdrücklich verdeutlicht. Diese Bestimmung gilt daher nicht unterschiedslos für jede Septime. Vor dem Greifen ist zu prüfen, ob eine einzelne Ziffer mit Begleitintervallen vorliegt oder ob die nebeneinander gesetzten Zahlen bereits einen bestimmten Stimmenweg bezeichnen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Generalbassaussetzung · Begleitintervalle bei 7–6",
+            "evidence": {
+              "basis": "passage",
+              "locator": "N. B. zu 7–6, S. 162, Handschrift [41] · Oktave statt Quinte",
+              "note": "Die Anmerkung steht nach den nur als Titel verzeichneten Chorälen [38]–[39] und der leeren Seite [40]. Keine zusätzliche Begründung oder allgemeine Verdopplungsregel wird aus dem knappen Satz erfunden."
+            }
+          },
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=20"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "choral-zwischenspiel",
+      "title": "Wie verbindet ein Zwischenspiel zwei Choralzeilen?",
+      "group": "Beginn und Kadenz",
+      "tags": [
+        "Choral",
+        "Zwischenspiel",
+        "Generalbass",
+        "Fermate",
+        "Zeilenschluss"
+      ],
+      "reading": "Markiere zuerst die in längeren Noten geführten Choralzeilen und ihre Fermaten. Verfolge dann die kürzeren Übergangsfiguren: Welche Stimme setzt die Bewegung fort, wo pausiert der Bass, und mit welchem Einsatz beginnt wieder der Choral?",
+      "readingSources": [
+        "kittel2019"
+      ],
+      "related": [
+        "choral-fermate",
+        "choral-gegenstimme",
+        "generalbass-lagen"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "kittel2019-late-06",
+          "source": "kittel2019",
+          "name": "Johann Christian Kittel",
+          "locator": "S. 160–161, Choräle „Jesu deine Paßion“ und „Valet will ich dir geben“, Handschrift [30]–[35] · Zwischenspiele zwischen den Zeilen",
+          "text": "In den beiden Choralbeispielen enden längere Melodietöne wiederholt unter einer Fermate, bevor eine bewegte Figur zur nächsten Zeile führt. Bei Jesu deine Paßion schweigt der Bass in mehreren solchen Übergängen, während die obere Linie allein weiterläuft. Valet will ich dir geben verteilt bewegte Verbindungen auch auf die tiefere Lage. Die Zwischenspiele heben sich dadurch vom in längeren Noten geführten Choral ab. Die Beispiele zeigen konkrete Möglichkeiten der Verbindung; sie formulieren keine Forderung, nach jeder Choralzeile ein gleich langes oder gleich besetztes Zwischenspiel einzufügen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [],
+            "reach": "unclassified",
+            "frame": "Choral mit beziffertem Bass und ausgeschriebenen Zwischenspielen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "S. 160–161, Choräle „Jesu deine Paßion“ und „Valet will ich dir geben“, Handschrift [30]–[35] · Zwischenspiele zwischen den Zeilen",
+              "note": "Notenbefund, keine zusätzliche verbale Regel. Alle Systeme beider Choräle visuell gelesen. Die Einordnung als Zwischenspiele wird durch Remeš’ Beschreibung choraler Modelle im Begleitaufsatz gestützt; die konkrete Gestalt ist im bereitgestellten PDF überprüfbar. Keine pauschale Zuschreibung sämtlicher Noten an Kittel allein."
+            }
+          },
+          "examples": [
+            "kittel-choral-zwischenspiel"
+          ],
+          "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
+          "url": "https://storage.gmth.de/zgmth/pdf/1013#page=18"
         }
       ],
       "relations": []
@@ -39158,6 +39968,78 @@ const ATLAS = {
       "caption": "York, Fig. 87: fünf chromatische Fortsetzungen im freien Kontrapunkt. Die originalen Bewertungen lauten Good, Bad, Bad, Good, Good. Vergleiche besonders die Richtung nach den Halbtonschritten. Wo führt die Linie die begonnene Chromatik bis zu einem Akkordton weiter, und wo bricht sie diesen Zusammenhang ab?",
       "credit": "Francis L. York, Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Oliver Ditson Company, Copyright 1907), Kap. XV, S. 137, Fig. 87. Exemplar: Cornell University Library; Digitalisat: Internet Archive, cu31924022379741. US-Public-Domain-Status laut HathiTrust und Commons-Dateinachweis. Historische Notenausschnitte; Überschriften und Anordnung redaktionell.",
       "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=149"
+    },
+    "kittel-bewegungsarten": {
+      "image": "quellen/noten/kittel-bewegungsarten.webp",
+      "title": "Drei historische Bewegungsarten",
+      "alt": "Drei Ausschnitte aus Kittels Generalbassschule: gleichgerichtete Bewegung, eine liegende gegen eine bewegte Stimme und entgegengesetzte Bewegung.",
+      "caption": "Die Notenbeispiele führen Motus rectus, Motus obliquus und Motus contrarius vor. Die Edition bewahrt beim ersten Beispiel der Seitenbewegung einen mit sic bezeichneten auffälligen Zusammenklang. Verfolge jeweils ein Stimmenpaar. Bestimme zuerst die Bewegungsrichtung und prüfe dann seine Intervalle; Gleichbewegung ist nicht gleichbedeutend mit verbotenen Quint- oder Oktavparallelen.",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), S. 144–145, Notenbeispiele [4]. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=2"
+    },
+    "kittel-accord-und-lagen": {
+      "image": "quellen/noten/kittel-accord-und-lagen.webp",
+      "title": "Vom Akkordgriff zur geeigneten Anfangslage",
+      "alt": "Oben drei C-Dur-Lagen bei gleichbleibendem Bass, daneben H-Dur, h-Moll und H naturell als verminderter Dreiklang. Unten drei unterschiedlich bewertete Gegenbewegungsmodelle über demselben C-Dur-Bassgang.",
+      "caption": "Regula 1 unterscheidet Oberstimmenlagen und Klangformen. Im späteren Fortschreitungsmodell bewertet Kittel die drei Anfangslagen unterschiedlich: Die Wertungen gehören zu diesen notierten Fassungen. Vergleiche zuerst den unveränderten Bass mit dem jeweils höchsten Akkordton. Verfolge danach die oberen Linien der drei Fortschreitungen und lies die gedruckten Warnungen zu verdeckten Quinten mit.",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), S. 145 [5] und S. 147 [9]. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=3"
+    },
+    "kittel-vorzeichen-terz": {
+      "image": "quellen/noten/kittel-vorzeichen-terz.webp",
+      "title": "Ein allein stehendes Vorzeichen gilt der Terz",
+      "alt": "Nota bene mit der Regel, dass ein Kreuz, Be oder Auflösungszeichen über dem Bass die Terz verändert; darunter zwei Bassübungen und die kritische Bemerkung zur chromatischen Härte des letzten Beispiels.",
+      "caption": "Die Vorzeichenregel bestimmt den zu verändernden Begleitton. Unter dem letzten Beispiel folgt eine eigene klangliche Wertung: Kittel hält diese konkrete Folge für zu chromatisch und etwas zu hart für das Gehör. Unterscheide die Zeichen über dem Bass von den Zeichen direkt an einer Bassnote. Greife die veränderte Terz und vergleiche anschließend die klangliche Wirkung der beiden Folgen.",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), S. 149, Nota bene [14]. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=7"
+    },
+    "kittel-sexten-verdopplung": {
+      "image": "quellen/noten/kittel-sexten-verdopplung.webp",
+      "title": "Sextenfolgen: Verdopplung und Stimmenzahl",
+      "alt": "Kittels Fig. 1 stellt eine mit male bezeichnete Sextenfolge einer mit bene bezeichneten Aussetzung gegenüber; daneben zeigt Fig. 3 eine aufsteigende dreistimmige Sextenfolge in kurzen Werten.",
+      "caption": "Die als schlecht und gut bezeichneten Fassungen zu Fig. 1 zeigen den Wechsel der Verdopplung bei zwei schrittweise aufeinanderfolgenden Sextgriffen. Fig. 3 führt eine rasche Folge nur mit Bass, Terz und oberer Sexte aus. Die Bassoktave bleibt dort durchgehend weg. Zähle die Stimmen und bestimme beim zweiten Sextgriff, welcher Ton verdoppelt wird. Vergleiche anschließend Fig. 3: Welche zusätzliche Stimme der vierstimmigen Griffe fehlt?",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), Regula 2, S. 150, Handschrift [15–16], Fig. 1 und 3. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=8"
+    },
+    "kittel-sextquint-weiterfuehrung": {
+      "image": "quellen/noten/kittel-sextquint-weiterfuehrung.webp",
+      "title": "6/5: steigender Bass und Halbtonausnahme",
+      "alt": "Drei Gruppen von Generalbassaussetzungen: 6/5 mit steigendem Bass zum gewöhnlichen Akkord, 6/5 zu 6/4 sowie zwei chromatische Fälle mit fallendem Halbton im Bass und 4/2 als Folge.",
+      "caption": "Regula 3 ergänzt den 6/5-Griff mit der Terz. Fig. 1 zeigt den schrittweise steigenden Bass zum gewöhnlichen Accord, Fig. 2 die Weiterführung zu 6/4. Fig. 3 fügt die ausdrücklich genannte Ausnahme hinzu: Der Bass fällt einen Halbton und die Bezifferung wechselt zu 4/2. Verfolge zuerst nur den Bass in jeder Figur. Welche Richtung wiederholen Fig. 1 und 2, und welche konkrete Ausnahme zeigt Fig. 3? Ergänze danach die nicht eigens wiederholte Terz des 6/5-Griffs.",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), Regula 3, S. 151, Handschrift [17], Fig. 1–3. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=9"
+    },
+    "kittel-fundament-noten": {
+      "image": "quellen/noten/kittel-fundament-noten.webp",
+      "title": "Bewegter Bass und Fundament-Noten",
+      "alt": "Zwei Aussetzungen zeigen zunächst einen schnell bewegten Bass und darunter die mit Fundament-Noten überschriebene einfachere Fassung desselben Beispiels; mehrfach steht 4/2 neben 6.",
+      "caption": "Die Quelle stellt einem bewegten Bass ausdrücklich dasselbe Beispiel in Fundament-Noten gegenüber. In der vereinfachten Fassung lassen sich die tragenden Bassschritte und die Folge 4/2–6 zusammen mit den Oberstimmen verfolgen. Die Bezeichnung meint hier die strukturellen Töne dieses Beispiels. Ordne die tragenden Bassnoten der unteren Fassung den Positionen im bewegten Bass zu. Verfolge dabei die Verbindungen 4/2–6. Welche Zwischenbewegungen fehlen in der vereinfachten Fassung?",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), Regula 4, S. 153, Handschrift [19], Beispiel und »Daß nehmliche Exempel in Fundament-Noten«. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=11"
+    },
+    "kittel-nona-lagen": {
+      "image": "quellen/noten/kittel-nona-lagen.webp",
+      "title": "Die Nonenauflösung in verschiedenen Lagen",
+      "alt": "Drei kurze Notenmodelle auf je zwei Systemen im Violinschlüssel und Bassschlüssel. Unter jedem Modell steht die Folge 9, 8, 4, 3. Bindungen zeigen den Eintritt der auflösungsbedürftigen Töne. In den ersten Modellen verläuft die Auflösung innerhalb des oberen Griffes, im dritten in der obersten Linie. Unter dem ersten steht melior mit der Übersetzung besser.",
+      "caption": "Die ersten drei Modelle zu Regula 9 führen die bezifferte Folge 9–8–4–3 in unterschiedlichen Lagen. Der Vermerk melior gehört zur Edition der Quelle; eine allgemeine Begründung dieser Wertung steht hier nicht. Die benachbarten hypothetischen Herausgeberaussetzungen sind nicht Teil des Ausschnitts. Verfolge in jedem Modell den Ton, zu dem die 9 gehört. Welche Stimme führt 9–8 und anschließend 4–3, und wie verändern die anderen Stimmen ihre Lage?",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), S. 159. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=17"
+    },
+    "kittel-septquartsekund": {
+      "image": "quellen/noten/kittel-septquartsekund.webp",
+      "title": "Zum Griff 7/4 gehört die Sekunde",
+      "alt": "Drei kurze vierstimmige Akkordmodelle auf einem oberen System im Violinschlüssel und einem Basssystem. Jedes Modell trägt zuerst die Ziffer 7, danach die übereinanderstehenden Zahlen 7, 4 und 2 sowie zuletzt 8, 5 und 3. Die oberen Töne stehen in verschiedenen Lagen; im dritten Modell sind die drei oberen Stimmen zwischen den ersten beiden Griffen gebunden.",
+      "caption": "Drei Lagenmodelle zu Regula 10. Die Bezifferungen führen jeweils von 7 über 7/4/2 nach 8/5/3. Der zugehörige Text nennt daneben die Fortsetzung nach 7/5/3 bei liegendem Bass; diese weitere Möglichkeit wird durch den Ausschnitt nicht eigens vorgeführt. Ergänze die isolierte Angabe 7/4 gedanklich zur vollständigen Gruppe. Vergleiche dann die drei Lagen: Welche Töne bleiben beim Wechsel in 7/4/2 liegen, und wie entsteht die jeweils folgende 8/5/3-Gestalt?",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), S. 160. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=18"
+    },
+    "kittel-choral-zwischenspiel": {
+      "image": "quellen/noten/kittel-choral-zwischenspiel.webp",
+      "title": "Choralzeilen und bewegte Zwischenspiele",
+      "alt": "Zwei Notensystempaare mit dem Titel Choral. Jesu deine Paßion. Die obere Linie wechselt zwischen kurzen verbundenen Figuren und längeren Choralnoten. Der Bass trägt Ziffern wie 4–3, 9–8 und 7–6. Nach Fermaten am Ende einer Zeile folgen schnellere Noten oben; darunter stehen Basspausen, bevor die nächste ruhige Choralphrase beginnt.",
+      "caption": "Anfang des Chorals Jesu deine Paßion mit gegebener Oberstimme und beziffertem Bass. Auf Fermaten folgen bewegte Figuren der oberen Linie, während der Bass zeitweise pausiert. Die äußeren Stimmen und die Ziffern sind vorgegeben; eine vollständige Aussetzung aller Innenstimmen ist hier nicht ausgeschrieben. Markiere zuerst die längeren Choralnoten und ihre Fermaten. Wo beginnt ein Zwischenspiel, wo tritt die nächste Choralzeile ein, und welche Töne müsste eine Generalbassaussetzung noch ergänzen?",
+      "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), S. 160. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
+      "url": "https://storage.gmth.de/zgmth/pdf/1013#page=18"
     }
   }
 };

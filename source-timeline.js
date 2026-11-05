@@ -45,7 +45,7 @@ const AtlasSourceTimeline = (() => {
     return { width, height: axisY + 30, axisY, points, ticks, undated, range: [first, last], targetSize };
   }
 
-  function mount(container, sources, onNavigate) {
+  function mount(container, initialSources, onNavigate) {
     const doc = container.ownerDocument;
     const view = doc.defaultView;
     const element = (tag, className, text) => {
@@ -56,18 +56,20 @@ const AtlasSourceTimeline = (() => {
     };
     const heading = element("h2", "", "Quellen im Zeitverlauf");
     heading.id = "source-timeline-heading";
+    heading.tabIndex = -1;
     const summary = element("p", "source-timeline-summary");
     const head = element("div", "source-timeline-head");
     head.append(heading, summary);
-    const hint = element("p", "bibliography-hint",
-      "Ein Punkt pro Quelle, nach dem Jahr der verwendeten Ausgabe. Wähle einen Punkt, um zum Eintrag zu springen.");
+    const hint = element("p", "bibliography-hint");
     hint.id = "source-timeline-hint";
+    const empty = element("p", "bibliography-hint source-timeline-empty",
+      "Wähle oben eine oder mehrere Quellen aus, um sie hier im Zeitverlauf zu sehen.");
     const viewport = element("div", "source-timeline-viewport");
     const plot = element("div", "source-timeline-plot");
     const axis = element("div", "source-timeline-axis");
     axis.setAttribute("aria-hidden", "true");
     const points = element("ol", "source-timeline-points");
-    points.setAttribute("aria-label", "Quellen nach Erscheinungsjahr");
+    points.setAttribute("aria-label", "Ausgewählte Quellen nach Erscheinungsjahr");
     points.setAttribute("aria-describedby", hint.id);
     plot.append(axis, points);
     viewport.append(plot);
@@ -77,10 +79,16 @@ const AtlasSourceTimeline = (() => {
     tooltip.id = "source-timeline-tooltip";
     tooltip.setAttribute("role", "tooltip");
     tooltip.hidden = true;
-    container.replaceChildren(head, hint, viewport, scrollHint, tooltip);
+    const undatedDetails = element("details", "source-timeline-undated");
+    const undatedSummary = element("summary");
+    const undatedList = element("ul", "source-timeline-undated-list");
+    undatedDetails.append(undatedSummary, undatedList);
+    container.replaceChildren(head, hint, empty, viewport, scrollHint, undatedDetails, tooltip);
     container.hidden = false;
 
-    const initial = layout(sources, minimumWidth);
+    let sources = [];
+    let chart = layout(sources, minimumWidth);
+    let rendered = false;
     const buttons = new Map();
     const pointItems = new Map();
     let tooltipButton = null;
@@ -88,7 +96,6 @@ const AtlasSourceTimeline = (() => {
     let currentButton = null;
     let drawnWidth;
     let firstLayout = true;
-    let undatedDetails;
 
     function hideTooltip() {
       view.clearTimeout(hideTimer);
@@ -166,34 +173,81 @@ const AtlasSourceTimeline = (() => {
       return button;
     }
 
-    for (const point of initial.points) {
-      const item = element("li", "source-timeline-item");
-      item.append(sourceButton(point.source, true));
-      pointItems.set(point.source.id, item);
-      points.append(item);
-    }
-    if (initial.undated.length) {
-      undatedDetails = element("details", "source-timeline-undated");
-      const label = initial.undated.length === 1 ? "1 Quelle ohne belegtes Jahr" :
-        initial.undated.length + " Quellen ohne belegtes Jahr";
-      const undatedList = element("ul", "source-timeline-undated-list");
-      for (const source of initial.undated) {
-        const item = element("li");
-        item.append(sourceButton(source, false));
-        undatedList.append(item);
+    function reconcile(parent, entries, dated) {
+      let cursor = parent.firstElementChild;
+      for (const source of entries) {
+        let item = buttons.get(source.id)?.parentElement;
+        if (!item) {
+          item = element("li", dated ? "source-timeline-item" : "");
+          item.append(sourceButton(source, dated));
+          if (dated) pointItems.set(source.id, item);
+        }
+        // Retain surviving nodes, including the reader's keyboard focus.
+        if (item !== cursor) parent.insertBefore(item, cursor);
+        cursor = item.nextElementSibling;
       }
-      undatedDetails.append(element("summary", "", label), undatedList);
-      container.append(undatedDetails);
     }
-    viewport.hidden = !initial.points.length;
-    summary.textContent = initial.range
-      ? (initial.range[0] === initial.range[1] ? initial.range[0] : initial.range.join("–")) +
-        " · " + initial.points.length + (initial.points.length === 1 ? " datierte Quelle" : " datierte Quellen")
-      : "Keine Quellen mit belegtem Erscheinungsjahr";
 
-    function reflow() {
-      if (!initial.points.length) return;
-      const width = Math.max(minimumWidth, Math.floor(viewport.clientWidth));
+    function update(nextSources) {
+      if (rendered && sources.length === nextSources.length &&
+          sources.every((source, index) => source === nextSources[index])) return;
+      rendered = true;
+      sources = [...nextSources];
+      chart = layout(sources, minimumWidth);
+      const ids = new Set(sources.map(source => source.id));
+      const active = doc.activeElement;
+      const losingFocus = container.contains(active) &&
+        ((active.dataset.source && !ids.has(active.dataset.source)) ||
+          (undatedDetails.contains(active) && !chart.undated.length));
+      if (losingFocus) heading.focus({ preventScroll: true });
+      if (tooltipButton && !ids.has(tooltipButton.dataset.source)) hideTooltip();
+      if (currentButton && !ids.has(currentButton.dataset.source)) currentButton = null;
+      for (const [id, button] of buttons) {
+        if (ids.has(id)) continue;
+        button.parentElement.remove();
+        buttons.delete(id);
+        pointItems.delete(id);
+      }
+      reconcile(points, chart.points.map(point => point.source), true);
+      reconcile(undatedList, chart.undated, false);
+      undatedDetails.hidden = !chart.undated.length;
+      undatedSummary.textContent = chart.undated.length === 1 ? "1 Quelle ohne belegtes Jahr" :
+        chart.undated.length + " Quellen ohne belegtes Jahr";
+      viewport.hidden = !chart.points.length;
+      empty.hidden = !!sources.length;
+      hint.hidden = !sources.length;
+      hint.textContent = chart.points.length
+        ? "Nur die oben ausgewählten Quellen, nach dem Jahr der verwendeten Ausgabe. Wähle einen Punkt, um zum Eintrag zu springen."
+        : "Öffne die Liste der Quellen ohne belegtes Jahr, um zu einem Eintrag zu springen.";
+      summary.textContent = chart.range
+        ? (chart.range[0] === chart.range[1] ? chart.range[0] : chart.range.join("–")) +
+          " · " + chart.points.length + (chart.points.length === 1 ? " datierte Quelle" : " datierte Quellen")
+        : sources.length ? "Keine ausgewählten Quellen mit belegtem Erscheinungsjahr" : "Keine Quellen ausgewählt";
+      drawnWidth = undefined;
+      if (!chart.points.length) {
+        scrollHint.hidden = true;
+        axis.replaceChildren();
+        plot.style.width = "";
+        plot.style.height = "";
+      }
+      reflow(true);
+      if (losingFocus) {
+        heading.scrollIntoView({ block: "nearest" });
+      } else if (container.contains(active) && active.dataset.source) {
+        active.scrollIntoView({ block: "nearest", inline: "nearest" });
+        if (pointItems.has(active.dataset.source)) {
+          showTooltip(active, sources.find(source => source.id === active.dataset.source));
+        }
+      }
+    }
+
+    function reflow(selectionChanged = false) {
+      if (!chart.points.length) return;
+      const previousEnd = viewport.scrollWidth - viewport.clientWidth;
+      const atEnd = viewport.scrollLeft >= previousEnd - 1;
+      // Small selections fit a phone; dense catalogues retain room for separate targets.
+      const width = Math.max(Math.min(minimumWidth, chart.points.length * targetSize * 2),
+        Math.floor(viewport.clientWidth) || minimumWidth);
       scrollHint.hidden = viewport.clientWidth >= width;
       if (drawnWidth !== width) {
         drawnWidth = width;
@@ -213,9 +267,9 @@ const AtlasSourceTimeline = (() => {
           item.style.top = point.y + "px";
         }
       }
-      if (firstLayout) {
+      if (firstLayout || (selectionChanged && atEnd)) {
         firstLayout = false;
-        // Show the populated end on phones, then leave scrolling to the reader.
+        // Start at recent dates on phones; resizing alone preserves the reader's pan.
         if (view.innerWidth < 660) viewport.scrollLeft = viewport.scrollWidth - viewport.clientWidth;
       }
       positionTooltip();
@@ -234,14 +288,19 @@ const AtlasSourceTimeline = (() => {
       if (tooltipButton && !tooltipButton.contains(event.target) && !tooltip.contains(event.target)) hideTooltip();
     });
     view.addEventListener("scroll", positionTooltip, true);
-    view.addEventListener("resize", reflow);
-    if (view.ResizeObserver) new view.ResizeObserver(reflow).observe(viewport);
-    reflow();
+    view.addEventListener("resize", () => reflow());
+    if (view.ResizeObserver) new view.ResizeObserver(() => reflow()).observe(viewport);
+    update(initialSources);
 
     return Object.freeze({
+      update,
       focusSource(id) {
         const button = buttons.get(id);
-        if (!button) return;
+        if (!button) {
+          heading.focus({ preventScroll: true });
+          heading.scrollIntoView({ block: "center" });
+          return;
+        }
         if (button.classList.contains("source-timeline-undated-button")) undatedDetails.open = true;
         button.focus({ preventScroll: true });
         button.scrollIntoView({ block: "center", inline: "center" });
