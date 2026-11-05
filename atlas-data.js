@@ -993,6 +993,14 @@ const ATLAS = {
         "Kittel"
       ],
       "wikipedia": "https://de.wikipedia.org/wiki/Johann_Christian_Kittel"
+    },
+    {
+      "name": "Hans Peter Weber",
+      "aliases": [
+        "Hans-Peter Weber",
+        "Weber"
+      ],
+      "wikipedia": null
     }
   ],
   "sources": [
@@ -1420,6 +1428,17 @@ const ATLAS = {
       "publicationYear": 2019,
       "publicationLabel": "2019 (Quellenedition)",
       "publicationNote": "2019 bezeichnet die moderne Quellenedition von Derek Remeš, nicht das Entstehungsjahr der Handschrift. Remeš datiert Johann Christian Heinrich Rincks Abschrift von Kittels Unterrichtsmaterial (US-NH, LM 3911, ma21y11k652) wahrscheinlich auf dessen Unterrichtszeit 1786–1789. Bearbeitet ist die vorliegende Edition mit zehn Regeln und Notenbeispielen: Druckseiten 143–164, entsprechend Handschriftenseiten [1]–[48]; S. 165 enthält den Editions- und Lizenznachweis. Die Handschriftenseiten [49]–[257] sind ausdrücklich nicht abgedruckt und hier nicht erschlossen. Die Fundstellen nennen die gedruckten Seiten; S. 143 entspricht PDF-Seite 1. Erstveröffentlichung: 23. Dezember 2019; letzter Aktualisierungsstand: 5. Januar 2020. DOI: 10.31751/1013. Quellentext, Herausgeberhinweise und hypothetische Aussetzungen werden unterschieden."
+    },
+    {
+      "id": "weber2018",
+      "name": "Hans Peter Weber",
+      "title": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+      "group": "Lehrwerke",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=3",
+      "sortAuthor": "Weber, Hans Peter",
+      "publicationYear": 2018,
+      "publicationLabel": "2018",
+      "publicationNote": "2018 bezeichnet die erste synoptische Ausgabe in Deutsch und Englisch; das handschriftliche Unterrichtsmaterial war seit 1997 in Gebrauch. Englische Übersetzung: Maria Raffaele. Bearbeitet ist die vollständige bereitgestellte Textfassung ohne eingebettete Audios: 100 PDF-Seiten mit Vorworten, Teil A (Signaturen), Teil B (Bassfiguren), Teil C (Zur Terminologie), Anhang und Quellenverzeichnis. Das Vorwort nennt als Gegenstand die Musik der ersten Hälfte des 18. Jahrhunderts. Fundstellen verwenden die gedruckten Seiten einschließlich 28a; die Links öffnen die jeweilige deutsche Seite der bytegleichen öffentlichen PDF-Fassung. ISBN 978-3-9524701-1-4 (PDF); 978-3-9524701-0-7 (Druck)."
     }
   ],
   "topics": [
@@ -2813,7 +2832,8 @@ const ATLAS = {
         "doppelleitton-kadenz",
         "moll-neutralisierung",
         "akkordton-verdopplung",
-        "moll-stufenfuehrung"
+        "moll-stufenfuehrung",
+        "historische-intervallnamen"
       ],
       "authors": [
         {
@@ -3743,6 +3763,31 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=145"
+        },
+        {
+          "id": "weber2018-middle-verminderter-dreiklang",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 10, „Verminderter Dreiklang“, Mattheson-Zitat 1735, S. 180 ff.",
+          "text": "Den verminderten Dreiklang mit verminderter Quinte über dem Bass führt Weber als relativ selten an. Das dazu angeführte Mattheson-Zitat verlangt zur verminderten Quinte Terz und Oktave, ausdrücklich nicht Sexte und Terz. Mattheson behandelt die Quinte hier als ungebunden einsetzbar, beschreibt ihre Auflösung als der Sexte vergleichbar und schreibt ihr Kennzeichen der Konsonanz zu. Diese Aussage gehört zur zitierten Generalbassauffassung und darf nicht stillschweigend durch die Regeln einer strengen Speziesübung ersetzt werden. Weber zeigt außerdem ihre Verwendung am Beginn von Modulations- und Sequenzverbindungen mit absteigenden großen Basssekunden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Matthesons verminderter Dreiklang mit Terz und Oktave",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 10, „Verminderter Dreiklang“, Mattheson-Zitat 1735, S. 180 ff.",
+              "note": "Ergänzung, fehlende Bindung und Konsonanzbeschreibung stammen aus Matthesons Zitat; „relativ selten“ und der Hinweis auf Modulation beziehungsweise Sequenz stehen in Webers eigener Rahmung. Sämtliche zugehörigen Bassbeispiele wurden geprüft."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=30",
+          "examples": [
+            "weber-verminderte-quinte"
+          ]
         }
       ],
       "relations": [
@@ -3787,6 +3832,12 @@ const ATLAS = {
           "to": "fux1725-1",
           "type": "context",
           "note": "Fux verlangt in der strengen ersten Spezies ausschließlich konsonante Intervalle. York behandelt den Dominantseptakkord in seinem freien tonalen Satz praktisch wie eine Konsonanz und sogar als Ziel einer weiteren Dissonanz. Die verschiedene Verwendung beruht auf dem Aufgabenrahmen und der Betrachtung des vollständigen Akkords."
+        },
+        {
+          "from": "salzer-schachter1989-1",
+          "to": "weber2018-middle-verminderter-dreiklang",
+          "type": "context",
+          "note": "Salzer und Schachter schließen den verminderten Dreiklang in Grundstellung aus der dreistimmigen ersten Spezies aus. Das von Weber angeführte Mattheson-Zitat gehört zur historischen Generalbasspraxis und behandelt die verminderte Quinte mit Terz und Oktave ohne Bindung als konsonanzähnlich. Die unterschiedliche Zulässigkeit betrifft verschiedene Satzaufgaben, nicht eine einheitliche Norm für jeden verminderten Dreiklang."
         }
       ]
     },
@@ -4833,7 +4884,8 @@ const ATLAS = {
       },
       "related": [
         "leittonaufloesung",
-        "kadenz-oberstimme"
+        "kadenz-oberstimme",
+        "generalbass-bassspruenge"
       ],
       "authors": [
         {
@@ -4899,6 +4951,28 @@ const ATLAS = {
               "note": "Die Stelle entwickelt innerhalb von Menkes barockem Lehrgang Richtungsbedingungen für bestimmte verminderte und übermäßige Sprungintervalle."
             }
           }
+        },
+        {
+          "id": "weber2018-late-13",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 25–26 · verminderte Quinte und Septime als Sprung in einen Leitton",
+          "text": "Ein Sprung in den Leitton ist in Webers Bassmodellen ein gezieltes Mittel der Kadenzbildung und Modulation. Bei der fallenden verminderten Quinte kann die erhöhte vierte Stufe die Kadenz zuspitzen oder als Leitton die Dominanttonart vorbereiten. Die verminderte Septime nennt Weber ausdrücklich für Rezitative, thematische Bässe und den Eintritt in den Leitton einer neuen Tonart. Er zeigt dazu mehrere bezifferte Fortsetzungen. Die Erlaubnis betrifft diese gerichteten Bassmodelle; sie ist keine allgemeine Regel für jeden großen Sprung in einer beliebigen Schlussmelodie.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Leittonsprung in Kadenz, Rezitativ und Modulation",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 25–26 · verminderte Quinte und Septime als Sprung in einen Leitton",
+              "note": "Die verminderte Quinte auf PDF 60–63 und sämtliche verminderten Septimenmodelle auf PDF 62–63 wurden gelesen. Das große Sprungintervall ist ausdrücklich im Quellentext benannt; die Beispiele werden nicht in eine Speziesaufgabe umgedeutet. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=60"
         }
       ],
       "relations": [
@@ -4907,6 +4981,12 @@ const ATLAS = {
           "to": "bellermann1901-1",
           "type": "context",
           "note": "Goetschius wägt in der Durmelodie nach einem weiten Aufwärtssprung zum Leitton zwischen Richtungswechsel und Auflösung ab. Bellermanns Verbot betrifft dagegen den Aufwärtssprung zur siebten Stufe unmittelbar vor einem modalen Schluss."
+        },
+        {
+          "from": "weber2018-late-13",
+          "to": "bellermann1901-1",
+          "type": "context",
+          "note": "Bellermann lässt unmittelbar vor dem modalen Schluss von oben nur einen Terzsprung zur siebten Stufe zu und schließt größere Sprünge aus. Weber zeigt dagegen verminderte Quint- und Septimsprünge in einen Leitton als Bassmodelle für Kadenz, Rezitativ und Modulation. Die Leittonfunktion wird in verschiedenen Satzaufgaben und an verschiedenen Bass- beziehungsweise Schlussstimmen beurteilt."
         }
       ]
     },
@@ -5966,6 +6046,53 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=148"
+        },
+        {
+          "id": "weber2018-open-quinta-syncopata",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 3 · Quinta syncopata",
+          "text": "In der Quinta syncopata wird eine reine Quinte durch die gleichzeitig erklingende Sexte zur Dissonanz. Weber verlangt ihre Vorbereitung, den Eintritt auf betonter Zeit und die Abwärtsauflösung zur Quarte. Die Formel kommt auf der ersten oder fünften Bassstufe vor; als Füllstimme ist nur die Oktave vorgesehen, keine Terz. Das Beispiel zeigt damit, weshalb eine konsonante Intervallart zum Bass im mehrstimmigen Zusammenhang vorhaltartig behandelt werden kann. Die zusätzliche Stimme verändert den Dissonanzstatus. Auch längere Vorhaltsketten über einem liegenden Bass können diese Quint-Quart-Bewegung enthalten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Mehrstimmige Syncopatio · dissonante reine Quinte",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 3 · Quinta syncopata",
+              "note": "Vorbereitung, Betonung, Abwärtsauflösung und Ausschluss der Terz stehen direkt bei der Figur; die Folge 5–4 ist im Notenbild sichtbar. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=16",
+          "examples": [
+            "weber-cadenza-retardatio"
+          ]
+        },
+        {
+          "id": "weber2018-middle-transitus-irregularis",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 8–9, „Transitus irregularis im Bass“ und Anmerkungen",
+          "text": "Weber lässt im Bass einen betonten Durchgang als Transitus irregularis zu. Auf die dissonante Note folgt eine harmonietragende Bassnote, die er mit Heinichen Fundamentalnote nennt. Für die Beurteilung reicht deshalb der betonte Augenblick allein nicht aus: Die Folge dieser Fundamentalnoten muss einen sinnvollen harmonischen Zusammenhang bilden. Die zugehörigen Oberstimmen können schon mit dem Durchgang eintreten und erst durch den folgenden Bass konsonant werden. Da der Durchgang auf- oder abwärts führen und auf verschiedene Klangtypen zielen kann, besitzt diese Figur keine einzige überall passende Bezifferung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · betonter Bassdurchgang und harmonietragende Folgetöne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 8–9, „Transitus irregularis im Bass“ und Anmerkungen",
+              "note": "Die Definition steht auf S. 8; S. 9 verlangt ausdrücklich den sinnvollen Zusammenhang der Fundamentalnoten und erklärt zwei gleich auszuführende Bezifferungsweisen. Fundamentalnote bezeichnet hier die folgende harmonietragende Bassnote, nicht einen hinzugedachten Akkordgrundton."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=26"
         }
       ],
       "reading": "Finde zuerst den Stern in Cherubinis Beispiel 48. Vergleiche dieselben Takte bei Prout. Beide begründen den betonten Durchgang mit der Melodieführung. Fux zeigt unter derselben Frage einen anderen Fall, den vorbereiteten Vorhalt.",
@@ -6058,6 +6185,12 @@ const ATLAS = {
           "to": "prout1890-1",
           "type": "context",
           "note": "Prout lässt im 2:1 einen betonten Durchgang als Ausnahme zugunsten der Linie zu, lehnt ihn im 4:1 aber ausdrücklich ab. Spalding macht solche Töne im 2:1 zu einem häufigen Mittel der melodischen Selbständigkeit und gestattet sie auch systematisch auf Haupt- und Nebenakzenten des 4:1. Für die dritte Ordnung hat er die Aufgabe ausdrücklich auf Streicher und Klavier ausgerichtet; die unterschiedliche Erlaubnis gehört zu diesen verschiedenen Übungsrahmen."
+        },
+        {
+          "from": "weber2018-open-quinta-syncopata",
+          "to": "fux1725-1",
+          "type": "context",
+          "note": "Fux behandelt im zweistimmigen Beispiel eine zum Bass dissonante Septime, die aus konsonanter Vorbereitung entsteht. Webers Quinta syncopata betrifft einen mehrstimmigen Klang: Erst die hinzutretende Sexte macht die reine Quinte vorhaltartig behandlungsbedürftig. Die zusätzliche Stimmenbeziehung verändert hier, welches Intervall als betonte Dissonanz geführt wird."
         }
       ]
     },
@@ -7485,6 +7618,53 @@ const ATLAS = {
           ],
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=17"
+        },
+        {
+          "id": "weber2018-open-retardatio-aufwaerts",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 3 · übermäßige Quinte und erhöhte Septime",
+          "text": "Weber beschreibt beim übermäßigen Grundakkord eine verzögerte Aufwärtsauflösung: Häufig steht dieser Klang auf der dritten Stufe in Moll. Seine übermäßige Quinte ist dann der Leitton, bleibt gewöhnlich vorbereitet liegen und steigt schließlich zur Sexte über dem Bass. Weber bezeichnet dies als Retardatio, also als eine dem abwärts gerichteten Vorhalt entgegengesetzte Verzögerung. Die Figur lässt sich mit 7–6, 9–8 oder 4–3 in anderen Stimmen verbinden. Auch die erhöhte Septime kann als Retardatio zur Oktave führen. Die Aufwärtsrichtung gehört zu diesen bestimmten Leittonfiguren und ist keine beliebige Alternative für jede gebundene Dissonanz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Retardatio · verzögerte Aufwärtsauflösung des Leittons",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 3 · übermäßige Quinte und erhöhte Septime",
+              "note": "Die Erläuterung zur übermäßigen Quinte und die gesonderte Variante „als retardatio zur 8“ wurden zusammen gelesen; der danebenstehende Orgelpunktfall wird nicht gleichgesetzt. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=16",
+          "examples": [
+            "weber-cadenza-retardatio"
+          ]
+        },
+        {
+          "id": "weber2018-middle-quarta-irregularis",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 7, Heinichen-Zitat S. 151 · Quarta irregularis",
+          "text": "Bei Heinichens Quarta irregularis, die Weber ausführlich zitiert, muss die Quarte keinen eigenen Auflösungsschritt machen. Eine bereits vorhandene reine Quarte kann zur kleinen Terz und großen Sexte an die Stelle der Oktave treten, wenn sie auch im folgenden Klang liegen bleiben kann. Bei einer übermäßigen Quarte nennt Heinichen dagegen die große Terz als Begleitintervall. Die Figur beruht somit auf dem Liegenbleiben eines Tones über wechselnden Basszusammenhängen. Sie darf nicht ohne diese Voraussetzungen in eine allgemeine Erlaubnis für unaufgelöste Quartvorhalte verwandelt werden. Die große Sexte kann bei einer Bezifferung mit 4/3 beziehungsweise erhöhter 4/3 mitgemeint sein.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · liegenbleibende Quarte nach Heinichen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 7, Heinichen-Zitat S. 151 · Quarta irregularis",
+              "note": "Der zitierte Regeltext verlangt ausdrücklich Herkunft aus dem vorigen Klang und erneutes Liegenbleiben im folgenden. „Ohne Resolution“ ist die Erklärung dieses besonderen Quartenverhaltens; keine Freigabe aller Dissonanzen."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=24"
         }
       ],
       "reading": "Trenne zwei Fälle. Bei der Cambiata verlässt ein Sprung die Dissonanz. Beim Vorhalt ist die Frage, welche Stimme sich schrittweise wohin auflöst. Prouts Leittonvorhalt erlaubt hier einen Vergleich mit Rothgebs Abwärtsauflösung in der vierten Spezies.",
@@ -7577,6 +7757,12 @@ const ATLAS = {
           "to": "sechter1876-late-13",
           "type": "context",
           "note": "Kittels Regula 9 führt die gebundene None als 9–8 abwärts. Sechters ausdrücklich als Durchgang bezeichnete None erscheint dagegen auch in der aufsteigenden Folge 8–9–10. Die unterschiedliche Fortsetzung betrifft zwei verschiedene Behandlungsarten derselben Intervallzahl; sie ist kein Widerspruch über einen identischen Vorhalt."
+        },
+        {
+          "from": "york1907-two-synkope-aufloesung",
+          "to": "weber2018-middle-quarta-irregularis",
+          "type": "context",
+          "note": "York verlangt beim eigentlichen dissonanten Vorhalt seiner zweistimmigen vierten Spezies den Abwärtsschritt in eine Konsonanz. Webers Heinichen-Zitat behandelt eine andere Generalbassfigur: Eine bereits vorhandene Quarte bleibt auch im folgenden Klang liegen und erhält deshalb den Namen Quarta irregularis. Ihre Bedingungen sind keine allgemeine Ausnahme von Yorks Speziesregel."
         }
       ]
     },
@@ -12077,6 +12263,75 @@ const ATLAS = {
           "examples": [
             "kittel-vorzeichen-terz"
           ]
+        },
+        {
+          "id": "weber2018-middle-neapolitansext",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 10, „Neapolitanischer Sextakkord“; Teil B, S. 17, Verweis „Neapolitaner“",
+          "text": "Die Neapolitan-Sext bezeichnet bei Weber eine erniedrigte Sexte über der vierten Bassstufe in Moll. Verändert wird also ein Intervall über dem tatsächlich notierten Bass; die Ziffer 6 bezeichnet hier nicht die sechste Tonleiterstufe. Ein Beispiel lässt die erniedrigte Sexte zunächst zur Quinte gehen, ein anderes führt die Verbindung über eine chromatisch veränderte Bassnote weiter. Die Formel ist deshalb mit ihrem konkreten Bassweg zu üben. Sie zeigt eine bestimmte chromatische Klangmöglichkeit innerhalb des Mollzusammenhangs, ohne daraus eine Regel zur Verdopplung oder eine obligatorische Form jedes Subdominantklanges zu machen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · erniedrigte Sexte auf der vierten Mollstufe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 10, „Neapolitanischer Sextakkord“; Teil B, S. 17, Verweis „Neapolitaner“",
+              "note": "Die Überschrift verbindet ♭6 ausdrücklich mit der vierten Stufe in Moll. Beide Modelle auf S. 10 und der erneute Verweis auf S. 17 wurden visuell gelesen; es wird keine nicht genannte Verdopplungsnorm ergänzt."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=30",
+          "examples": [
+            "weber-verminderte-quinte"
+          ]
+        },
+        {
+          "id": "weber2018-late-10",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 24 · übermäßige Prime: chromatischer Halbton im Bass",
+          "text": "Die übermäßige Prime beschreibt Weber als chromatischen Halbton. Aufwärts kann der höhere Basston wie eine vorübergehende siebte Stufe wirken; dafür nennt er unter anderem 6, 6/5, 6–5 und die verminderte Septime. Abwärts begegnet auf dem tieferen Ton häufig 6/♯4/2, auf der sechsten Mollstufe dagegen 6/4/♯2. Die Bedeutung des Halbtons ergibt sich somit aus seiner Richtung und dem erreichten Bassbezug. Die benachbarten Beispiele ordnen solche Veränderungen einer zugespitzten Kadenz, einem Rezitativ oder der Modulation über den Leitton einer neuen Tonart zu.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · aufsteigender und absteigender chromatischer Bassschritt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 24 · übermäßige Prime: chromatischer Halbton im Bass",
+              "note": "Definition und Figuren am Fuß von PDF 58–59 sowie die drei vorhergehenden Beispielgruppen wurden visuell geprüft. Die Vorzeichen beziehen sich auf die jeweils bezeichneten Intervalle; ♯4 und ♯2 wurden nicht aus dem fehlerhaften nativen Text übernommen. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=58"
+        },
+        {
+          "id": "weber2018-term-alteration",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 31, „Alteration“",
+          "text": "Ein durch ein Vorzeichen versetzter Ton ist in Webers historischer Begriffserklärung nicht automatisch chromatisch. Er unterscheidet naturalis für eine zur Tonart gehörende, diatonische Veränderung und accidentalis für einen tonartfremden, chromatischen Ton. Beim Lesen muss daher neben dem Vorzeichen auch die geltende Tonart bestimmt werden. Die Unterscheidung erklärt den historischen Wortgebrauch von Alteration; sie ist keine pauschale Erlaubnis, einen Ton unabhängig von seiner Fortschreitung zu verändern.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Generalbassterminologie · Vorzeichen und Tonartzugehörigkeit",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 31, „Alteration“",
+              "note": "Die beiden Kategorien stehen ausdrücklich unter Alteration. Aus dieser Definition wird keine allgemeine chromatische Stimmführungsregel abgeleitet. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=74",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "related": [
@@ -12091,7 +12346,9 @@ const ATLAS = {
         "tonart-und-region",
         "choral-modaler-tonartbezug",
         "kadenzflucht-und-trugschluss",
-        "moll-stufenfuehrung"
+        "moll-stufenfuehrung",
+        "generalbass-rueckung",
+        "historische-intervallnamen"
       ],
       "relations": [
         {
@@ -12135,6 +12392,12 @@ const ATLAS = {
           "to": "neidhoefer-schubert2023-1",
           "type": "nuance",
           "note": "Neidhöfer und Schubert erklären die chromatisch abgesenkte Leitton-Septime vom Ausgangston her: Dessen erwartete Auflösung entfällt. Daniel fragt nach der Einführung der neuen Dissonanz und erkennt dort einen ausgelassenen diatonischen Schritt. Die beiden Analysen bezeichnen verschiedene unterbrochene Verbindungen innerhalb des chromatischen Übergangs."
+        },
+        {
+          "from": "weber2018-late-10",
+          "to": "gallon-bitsch1964-1",
+          "type": "context",
+          "note": "Gallon und Bitsch verbieten in ihrer Moll-Melodieübung den unmittelbaren chromatischen Schritt und verlangen Abstand zwischen zwei Formen derselben Stufe. Weber behandelt gerade diesen unmittelbaren Halbton als Bassmodell und bestimmt seine Begleitung nach Richtung und lokalem Tonartbezug. Die unterschiedlichen Anweisungen gehören zu einer beschränkten Melodieübung beziehungsweise zum barocken Generalbassvokabular."
         }
       ]
     },
@@ -14452,6 +14715,31 @@ const ATLAS = {
           },
           "work": "Tonal Counterpoint: Studies in Part-Writing (Boston, Leipzig und New York: Arthur P. Schmidt, Copyright 1904)",
           "url": "https://archive.org/download/tonalcounterpoin00spaluoft/tonalcounterpoin00spaluoft.pdf#page=271"
+        },
+        {
+          "id": "weber2018-term-bassklauseln",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 32, „Kadenzen“ · kurze Bassmodelle",
+          "text": "In Webers Übersicht richtet sich die Kadenzbezeichnung nach der Schlussfortschreitung des Basses. Bassierend nennt er den Quintfall beziehungsweise Quartsprung aufwärts, tenorisierend den fallenden Ganzton und phrygisch den fallenden Halbton. Ein steigender Schritt steht für die diskantisierende Schlussbewegung. Zusätzlich stellt die Seite dem authentischen Quintfall den plagalen Quartfall gegenüber. Die kleinen Notenmodelle isolieren dafür die Bassklauseln. Sie zeigen die terminologische Zuordnung der Bewegungen, ohne einen vollständigen Stimmenverband oder dessen tonales Schlussziel auszuarbeiten.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassterminologie · Kadenznamen nach der Bassklausel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 32, „Kadenzen“ · kurze Bassmodelle",
+              "note": "Alle fünf Bewegungsformen sowie die authentisch/plagal-Gegenüberstellung wurden im Notenbild geprüft. Die Bassschemata werden nicht als vollständige Funktionsanalyse eines beliebigen Schlusses ausgegeben. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=76",
+          "examples": [
+            "weber-haupt-fuellstimmen"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "relations": [
@@ -14460,6 +14748,12 @@ const ATLAS = {
           "to": "menke2017-20",
           "type": "context",
           "note": "Menke ordnet nach Muffat den Quartfall beziehungsweise Quintanstieg des Basses einem eigenen Kadenztyp zu. Daniel fragt beim gleichen Bassgang zusätzlich nach dem erreichten Tonartziel und unterscheidet Halb- von Plagalschluss; er zeigt, dass die historischen Namen diese Funktionen nicht einheitlich trennen. Die Einteilungen setzen bei Bassmodell und Schlussfunktion unterschiedliche Schwerpunkte."
+        },
+        {
+          "from": "weber2018-term-bassklauseln",
+          "to": "daniel2004-c16",
+          "type": "context",
+          "note": "Weber isoliert für seine Begriffstafel die Bassbewegung und bezeichnet den Quartfall als plagal. Daniel untersucht dagegen, welches tonale Ziel der Quartfall im Choral erreicht, und unterscheidet deshalb Halb- und Plagalschluss. Die Form der Bassklausel und die Schlussfunktion des vollständigen Satzes sind hier verschiedene Bestimmungsebenen."
         }
       ]
     },
@@ -15096,7 +15390,8 @@ const ATLAS = {
         "viertel-gegen-viertel",
         "quartsext-dissonanz",
         "generalbass-bassvariation",
-        "generalbass-akkordnamen"
+        "generalbass-akkordnamen",
+        "historische-intervallnamen"
       ],
       "authors": [
         {
@@ -15709,6 +16004,75 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "weber2018-open-quintsext-reine-verminderte-quinte",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 2 · Quintsextakkord, einschließlich Sternanmerkung",
+          "text": "Beim Quintsextakkord unterscheidet Weber zwei typische Situationen. Auf der aufwärtsgehenden vierten Bassstufe wird die reine Quinte durch die hinzutretende Sexte dissonant gehört; sie soll wie ein Vorhalt vorbereitet und abwärts aufgelöst werden. Als Ausnahme ist ihre Verwendung als Wechselnote notiert. Auf der aufwärtsgehenden siebten Stufe beziehungsweise einem vorübergehenden aufsteigenden Leitton liegt dagegen eine verminderte Quinte vor, die keine Vorbereitung verlangt. Die bloße Intervallgröße entscheidet somit nicht über dieselbe Behandlung: Die reine Quinte ist im ersten Zusammenhang gebunden, während die verminderte im zweiten frei eintreten kann.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Quintsextklänge auf steigenden Bassstufen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 2 · Quintsextakkord, einschließlich Sternanmerkung",
+              "note": "Die beiden Bassstufen, die unterschiedliche Vorbereitung und die Wechselnoten-Ausnahme wurden am Text und an den Notenbeispielen geprüft. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=14"
+        },
+        {
+          "id": "weber2018-open-septimen-vorbereitung",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 4 · Septakkord",
+          "text": "Die Vorbereitung einer Septime hängt in Webers Übersicht vom Zusammenhang ab. Er unterscheidet zunächst die historischen Bezeichnungen für gebundene und ungebundene Septimen. Beim dominantischen Septakkord auf der fünften Stufe ist keine Vorbereitung nötig. Für den als subdominantisch bezeichneten Septakkord auf der zweiten Stufe fordert er sie, auf der vierten Stufe nennt er sie als Regelfall. Zusätzlich führt er Muffats frei angeschlagene Septime an und verweist auf die Quintfallsequenz. Die spätere Einteilung in dominantisch und subdominantisch bleibt dabei ausdrücklich eine Beschreibung nach der Harmonielehre; sie ersetzt nicht die historische Unterscheidung des Eintritts.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Septakkorde · Bassstufe, Leittonbezug und Vorbereitung",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 4 · Septakkord",
+              "note": "Die unterschiedlichen Formulierungen „muss“, „in der Regel“ und „muss nicht“ werden erhalten. Die Ausdrücke dominantisch und subdominantisch sind im Compendium als harmonielehrliche Terminologie gekennzeichnet. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=18",
+          "examples": [
+            "weber-septimen"
+          ]
+        },
+        {
+          "id": "weber2018-term-figuren-und-geruest",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 31, „zur Figurenlehre“ · Syncopatio und Transitus",
+          "text": "Weber fasst unter Hinweis auf Christoph Bernhard zwei Hauptfiguren des stile antico zusammen. Die Syncopatio wird in derselben Stimme vorbereitet, tritt dissonant auf betonter Zeit ein und löst sich abwärts, gewöhnlich in eine imperfekte Konsonanz. Der Transitus wird schrittweise erreicht und verlassen; unbetont heißt er regularis, betont irregularis beziehungsweise Quasitransitus. Entscheidend ist für Weber zugleich der Stilzusammenhang der Figur. Entfernt man die Syncopatio oder den Transitus, muss ein korrekter kontrapunktischer Satz übrig bleiben. Die Benennung der Dissonanz ersetzt damit weder die Prüfung ihrer Stimmenführung noch die Prüfung des Gerüsts.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historisch bestimmte Figurenlehre · stile antico und stilgebundene Dissonanz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 31, „zur Figurenlehre“ · Syncopatio und Transitus",
+              "note": "Der deutsche Text verlangt ausdrücklich die Gerüstprüfung nach Weglassung der syncopatio oder des transitus. Die englische Parallelseite lässt in diesem Satz transitus aus; die deutsche Paraphrase folgt dem deutschen Original. Keine Speziesnummer wird aus den Figurennamen abgeleitet. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=74",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "relations": [
@@ -15793,7 +16157,8 @@ const ATLAS = {
         "kadenz-diminution",
         "kadenz-klauselwechsel",
         "kadenzflucht-und-trugschluss",
-        "moll-stufenfuehrung"
+        "moll-stufenfuehrung",
+        "generalbass-bassspruenge"
       ],
       "authors": [
         {
@@ -17266,6 +17631,50 @@ const ATLAS = {
           "examples": [
             "kittel-accord-und-lagen"
           ]
+        },
+        {
+          "id": "weber2018-open-vokabular-und-musikalischer-verlauf",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Vorwort, S. i · Signaturen und Bassfiguren",
+          "text": "Weber versteht Generalbasssignaturen als verdichtete Hinweise auf melodische, kontrapunktische und harmonische Verläufe. Einzelne Formeln ergeben jedoch noch keine Musik: Zum Verständnis müssen Nachdenken, Hören, instrumentales Spielen und Singen zusammenwirken. Die Gliederung nach Signaturen in Teil A und Bassfiguren in Teil B bietet deshalb zwei Zugänge zu denselben musikalischen Vorgängen. Auch die Unterscheidung zwischen vertikalem und horizontalem Denken erfasst für ihn jeweils nur einen Teil des Zusammenhangs. Das Compendium dient dem Gehörbildungsunterricht und behandelt Generalbass ausdrücklich als Mittel der Komposition in der Musik der ersten Hälfte des 18. Jahrhunderts.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass in der Komposition · Gehörbildung und musikalisches Vokabular",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Vorwort, S. i · Signaturen und Bassfiguren",
+              "note": "Die Aufgabenbeschreibung und die Begrenzung beider Betrachtungsweisen stehen ausdrücklich im Vorwort; daraus wird kein vollständiger Kompositionslehrgang abgeleitet. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=8"
+        },
+        {
+          "id": "weber2018-term-umkehrung",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 33, „Umkehrung“",
+          "text": "Weber ordnet Umkehrung der Harmonielehre zu und grenzt diesen Begriff von der Generalbassterminologie ab. Zugleich nennt er bereits vor der Mitte des 18. Jahrhunderts Ansätze, Klänge gleichen Tonmaterials als Umkehrungen eines Grundakkordes zu verstehen: Rameaus Fundamentale, Heinichens Verkehrung oder Verwechselung der Stimmen beziehungsweise Harmonie und Kellners Umwendung der Partien. Seine Unterscheidung trennt also theoretische Begriffe und Perspektiven, ohne frühere verwandte Vorstellungen zu bestreiten. Ein bassbezogener Griffname und eine grundtonbezogene Umkehrungsdeutung dürfen beim historischen Lesen nicht stillschweigend gleichgesetzt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Begriffsvergleich · historische Generalbasslehre und Harmonielehre",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 33, „Umkehrung“",
+              "note": "Die starke Begriffsabgrenzung und ihre unmittelbar folgende historische Qualifikation sind beide erhalten. Die Passage wird nicht zur Behauptung, Generalbassautoren hätten Zusammenhänge gleichen Tonmaterials nie erkannt. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=78",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "reading": "Prout deutet den Zweiklang als Ausschnitt eines möglichen Akkords. Hindemiths Bestimmungstafel ordnet vollständige Klänge unter anderem nach ihrem Tritonusgehalt. Prüfe bei jedem Beleg, welche Töne tatsächlich erklingen und welche ergänzt werden.",
@@ -17352,6 +17761,12 @@ const ATLAS = {
           "to": "jeppesen1964-1",
           "type": "context",
           "note": "Spalding setzt im tonalen Lehrgang die harmonische Grundlage voraus, auf der sich die Stimmen melodisch entfalten. Jeppesens Antwort beschreibt für Palestrina vorrangig das Zusammenwirken melodischer Linien und die Qualität ihrer Zusammenklänge. Jeppesen unterscheidet selbst davon Bachs idealen harmonischen Hintergrund; die Verbindung markiert deshalb zwei Stil- und Aufgabenrahmen, keinen generellen Widerspruch zwischen Harmonie und Linie."
+        },
+        {
+          "from": "weber2018-term-umkehrung",
+          "to": "piston1947-1",
+          "type": "context",
+          "note": "Die Bezugspunkte der Benennung unterscheiden sich: Weber trennt die historische, am wirklichen Bass gelesene Signatur von der harmonischen Umkehrungsdeutung; Piston kann einen in beiden Stimmen fehlenden Harmoniegrundton ansetzen. Beim Vergleich muss deshalb geklärt werden, ob die Bezeichnung den klingenden Bass oder einen erschlossenen Grundton voraussetzt."
         }
       ]
     },
@@ -25881,7 +26296,8 @@ const ATLAS = {
         "generalbass-bezifferung-stimmfuehrung",
         "generalbass-fuge",
         "generalbass-lernfolge",
-        "generalbass-akkordnamen"
+        "generalbass-akkordnamen",
+        "historische-intervallnamen"
       ],
       "authors": [
         {
@@ -25963,6 +26379,50 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "weber2018-term-signatur-und-stufe",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 33, „Signatur“ und „Stufe“",
+          "text": "Die Signatur ist bei Weber die Bezifferung eines Klanges; sie bezeichnet seinen Aufbau und schließt den kontrapunktischen Zusammenhang ein. Eine melodische Stufe benennt dagegen einen einzelnen Ton nach seiner Stellung in der aufsteigenden Skala. Im absteigenden Notenbeispiel werden diese Stufen entsprechend rückwärts gezählt, nicht neu vom oberen Ton aus nummeriert. Davon unterscheidet Weber harmonische Stufen mit römischen Ziffern, die Akkorde über den entsprechenden Bassstufen bezeichnen. Vor der Aussetzung ist somit zu klären, ob eine Zahl ein Intervall, einen Skalenton oder eine harmonische Zuordnung meint.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbasslesen · Intervallziffer, melodische und harmonische Stufe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 33, „Signatur“ und „Stufe“",
+              "note": "Deutsch und Englisch wurden gemeinsam mit dem auf- und absteigenden Skalenbeispiel geprüft. Die historische bassbezogene Darstellung wird nicht stillschweigend zur grundtonbezogenen römischen Analyse umgedeutet. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=78",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
+        },
+        {
+          "id": "weber2018-term-subtonium",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 33, „Stufe“ · subtonium und subsemitonium; Verweis auf S. 38",
+          "text": "Für den Ton unter der Finalis unterscheidet Weber subtonium und subsemitonium. Das subtonium liegt einen Ganzton unter dem Zielton, etwa c im Dorischen oder g in a-Moll. Subsemitonium setzt er dagegen mit semitonium modi, dem Leitton der Tonart, gleich. Das subtonium hebt er besonders für modal geprägte Bassmodelle hervor und verweist auf die Tonartenbeziehungen in Heinichens Zirkel. Die Stellung unter dem Zielton reicht deshalb noch nicht für eine Leittondeutung; der konkrete Halb- oder Ganztonbezug muss mitgelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Modal geprägte Bassmodelle · siebte Stufe und Finalisbezug",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 33, „Stufe“ · subtonium und subsemitonium; Verweis auf S. 38",
+              "note": "Definition und Beispiele sind explizit auf S. 33 gegeben. S. 38 zeigt den genannten Zirkel, erläutert an dieser Stelle aber keine zusätzlichen Modulationsregeln. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=78",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "readingSources": []
@@ -26098,6 +26558,28 @@ const ATLAS = {
           "examples": [
             "kittel-sexten-verdopplung"
           ]
+        },
+        {
+          "id": "weber2018-open-sextakkord-verdopplungen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 1 · Beispiele und Verdopplungsmöglichkeiten des Sextakkords",
+          "text": "Der Sextakkord enthält bei Weber zunächst Terz und Sexte über dem Bass. In der dreistimmigen Grundfassung ist jeder dieser Töne einmal vorhanden. Die anschließende vierstimmige Übersicht zeigt drei Möglichkeiten: den Bass verdoppeln, die Terz verdoppeln oder die Sexte verdoppeln. Bei den oberen Tönen sind sowohl Oktav- als auch Einklangsverdopplungen notiert. Die Übersicht stellt damit mögliche Verteilungen des Klanges bereit. Welche davon in einer bestimmten Fortschreitung geeignet ist, wird hier noch nicht als allgemeine Vorrangregel festgelegt; dafür verweist Weber auf die Oktavregeln und die einzelnen Bassfiguren.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Sextakkord · dreistimmiger Kern und vierstimmige Verteilungen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 1 · Beispiele und Verdopplungsmöglichkeiten des Sextakkords",
+              "note": "Alle angegebenen Verdopplungen stehen sichtbar unter dem Notensystem. Die Tabelle wird als Übersicht gelesen, nicht als Freigabe jeder Verdopplung in jeder Stimmführung. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=12"
         }
       ],
       "readingSources": [],
@@ -26107,6 +26589,12 @@ const ATLAS = {
           "to": "daniel2004-v05",
           "type": "nuance",
           "note": "Kittel setzt für den ersten Sextgriff ausdrücklich Terz und Bassoktave an und verändert die Verdopplung beim zweiten schrittweise folgenden Griff nach der Oberstimmenlage. Daniel führt im Zusammenhang des spätbarocken Choralsatzes C. P. E. Bachs andere allgemeine Gewichtung an: gewöhnlich Terz oder Sexte über dem Bass, die Bassoktave seltener. Der Unterschied betrifft Ausgangsgriff und Auswahlkriterium. Daniels zusätzliche Einschränkung beim Leittonsextakkord wird dadurch weder bestritten noch auf jede Sextenfolge übertragen."
+        },
+        {
+          "from": "weber2018-open-sextakkord-verdopplungen",
+          "to": "kittel2019-middle-sextverdopplung",
+          "type": "context",
+          "note": "Weber zeigt zunächst einen Vorrat möglicher vierstimmiger Verteilungen: Bass, Terz oder Sexte können verdoppelt sein. Kittels Regel betrifft dagegen die konkrete Verbindung zweier schrittweise folgender Sextgriffe; im zweiten Griff entscheidet der oben liegende Ton über die Verdopplung. Eine Einzelklang-Tabelle und eine Fortschreitungsregel beantworten damit verschiedene Teile der Aussetzungsaufgabe."
         }
       ]
     },
@@ -26191,7 +26679,8 @@ const ATLAS = {
         "generalbass-pedal",
         "generalbass-lagen",
         "generalbass-akkordnamen",
-        "generalbass-septakkord-fuellstimmen"
+        "generalbass-septakkord-fuellstimmen",
+        "generalbass-haupt-fuellstimmen"
       ],
       "authors": [
         {
@@ -26400,6 +26889,28 @@ const ATLAS = {
           },
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=21"
+        },
+        {
+          "id": "weber2018-term-radical-stimmen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 31, „Grund-Stimmen oder Radical-Stimmen“ · Heinichen-Zitat, S. 558",
+          "text": "Die von Weber zitierte Unterscheidung Heinichens zählt verschiedene Akkordbestandteile und trennt sie von ihren Verdopplungen. Als Grund- oder Radical-Stimmen gelten Töne, die untereinander weder Einklang noch Oktave bilden. Der vollständige Septakkord besitzt so vier Grund-Stimmen: Bass, Terz, Quinte und Septime. Der gewöhnliche Dreiklang und der Sextakkord besitzen drei; eine vierte Stimme verdoppelt dort einen vorhandenen Bestandteil. Vier klingende Stimmen und vier verschiedene Akkordtöne sind folglich unterschiedliche Angaben. Diese Begriffserklärung schreibt nicht für jede Generalbassstelle dieselbe Stimmenzahl vor.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassterminologie · Akkordbestandteile und reale Stimmenzahl",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 31, „Grund-Stimmen oder Radical-Stimmen“ · Heinichen-Zitat, S. 558",
+              "note": "Die Zahlen drei und vier folgen dem ausdrücklich zitierten Heinichen-Absatz. Daraus wird keine allgemeine Vollständigkeits- oder Besetzungsforderung gewonnen. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=74",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "readingSources": [],
@@ -26976,7 +27487,8 @@ const ATLAS = {
         "chromatik",
         "dissonanzbehandlung",
         "melodische-fortspinnung",
-        "chromatik-ohne-diatonisches-geruest"
+        "chromatik-ohne-diatonisches-geruest",
+        "generalbass-rueckung"
       ],
       "authors": [
         {
@@ -27047,6 +27559,31 @@ const ATLAS = {
               "note": "Die enharmonischen Resolutionen gehören zu Menkes Darstellung von Heinichen und werden an Alessandro Scarlatti und Bach veranschaulicht."
             }
           }
+        },
+        {
+          "id": "weber2018-late-18",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 29 · vier Lesarten des verminderten Septakkords und ihre Fortsetzungen",
+          "text": "Weber schreibt denselben Tastenzusammenklang in vier verschiedenen tonalen Lesarten. Der Bass kann erhöhte siebte Stufe in e-Moll, zweite in cis-Moll, vierte in b-Moll oder sechste in g-Moll sein; die erste Lesart erscheint außerdem als erhöhte vierte Stufe in a-Moll. Die anschließenden Bassgänge bestätigen jeweils einen anderen Bezug. Damit erhalten enharmonische Schreibweise und Bezifferung eine konkrete Aufgabe für die Fortsetzung. Weber stellt diesem Vergleich ein Zitat Carl Philipp Emanuel Bachs voran, das den verminderten Septakkord für entfernte Tonarten empfiehlt, solche chromatischen Verbindungen aber nur gelegentlich, kunstvoll und langsam vorgetragen wissen will.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · enharmonische Lesart und bestätigende Bassfortsetzung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 29 · vier Lesarten des verminderten Septakkords und ihre Fortsetzungen",
+              "note": "Alle vier Akkordschreibweisen und fünf Fortsetzungen auf PDF 70–71 visuell gelesen; Akkordtöne zusätzlich in 3,5-facher Skalierung geprüft. b-Moll ist B-flat minor, nicht h-Moll. Die Aussage Carl Philipp Emanuel Bachs wird ausschließlich als Webers Zitat aus Versuch S. 335, § 11 wiedergegeben. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "examples": [
+            "weber-enharmonik"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=70"
         }
       ],
       "readingSources": [
@@ -27058,6 +27595,12 @@ const ATLAS = {
           "to": "kurth1917-1",
           "type": "context",
           "note": "Kurth verbindet seine beiden Schreibweisen mit verschiedenen melodischen Fortsetzungen. Im Tristan-Ausschnitt von Salzer und Schachter dient der Wechsel zu Kreuznamen dagegen nur der Lesbarkeit; die analysierte Vorhaltsfunktion bleibt dabei gleich."
+        },
+        {
+          "from": "weber2018-late-18",
+          "to": "salzer-schachter1989-1",
+          "type": "context",
+          "note": "Webers vier Lesarten führen denselben Tastenzusammenklang in ausdrücklich verschiedene tonale Zusammenhänge weiter. Salzer und Schachter erklären Wagners enharmonische Umschreibung im genannten Tristan-Ausschnitt hingegen als Leseerleichterung innerhalb einer fortbestehenden 7–6-Kette. Ob die Schreibänderung einen neuen harmonischen Bezug anzeigt, entscheidet somit die konkrete Fortsetzung, nicht die Umschreibung allein."
         }
       ]
     },
@@ -29598,7 +30141,10 @@ const ATLAS = {
         "generalbass-ziffern-stufen",
         "generalbass-transponieren",
         "harmonischer-rhythmus",
-        "harmonik"
+        "harmonik",
+        "generalbass-schrittgaenge",
+        "generalbass-bassspruenge",
+        "generalbass-rueckung"
       ],
       "authors": [
         {
@@ -29692,6 +30238,191 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "weber2018-middle-oktavregel-modelle",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 16, Einführung zu den Oktavregeln und Übersicht S. 16–18",
+          "text": "Weber behandelt die Oktavregel als einprägsames Modell unter vielen möglichen Harmonisierungsmethoden. Seine vollständige Oktavregel steht für eine Grundform, die sich im frühen 18. Jahrhundert ausgebildet hat. Die von ihm so genannten einfachen und erweiterten Oktavregeln sind dagegen aus Musik abgeleitete Lehrmodelle, keine historischen Vorbilder. Die einfache Form verwendet überwiegend Dreiklänge und Sextakkorde, schließt aber 6/5 auf der steigenden vierten Stufe ein. Weber lässt außerdem zur Übersicht die Hexachordgliederung mancher Quellen weg. Das Modell soll die Vielfalt erschließbar machen; es ist weder ein lückenloses Regelverzeichnis noch eine unveränderte Abschrift einer einzigen Quelle.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · historische Grundform und didaktische Oktavregelmodelle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 16, Einführung zu den Oktavregeln und Übersicht S. 16–18",
+              "note": "Diese methodischen Grenzen stehen ausdrücklich vor den Tabellen. Die Quellenmodelle auf S. 18, darunter Muffat, Geminiani und C. Ph. E. Bach, belegen die von Weber angekündigte Vielfalt. Seine didaktischen Bezeichnungen werden nicht als historische Fachtermini ausgegeben."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=42",
+          "examples": [
+            "weber-oktavregel"
+          ]
+        },
+        {
+          "id": "weber2018-middle-oktavregel-richtung",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 16, vollständige Oktavregeln in Dur und Moll; Hinweise unter den Tabellen",
+          "text": "Für die Bezifferung einer Bassnote ist nach Weber entscheidend, ob der Bass danach steigt oder fällt. Die Richtung wird also vom nächsten Schritt her bestimmt, nicht allein von dem Weg, auf dem die Note erreicht wurde. In seinen vollständigen Tabellen erhält die vierte Bassstufe aufwärts 6/5, abwärts dagegen 6/4/2, in Moll mit erhöhter Quarte. Der Hinweis, bei absteigendem Bass keinen 6/5-Klang zu verwenden, gehört zu diesem Oktavregelzusammenhang. Er sollte nicht als Verbot sämtlicher anders gestalteter Durchgangs-, Vorhalts- oder Sequenzmodelle außerhalb der Tabelle gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · der nächste Bassschritt bestimmt den Griff",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 16, vollständige Oktavregeln in Dur und Moll; Hinweise unter den Tabellen",
+              "note": "Die beiden Richtungssätze stehen direkt unter den Tabellen. Die Figuren auf der vierten Stufe wurden in Dur und Moll geprüft. Die Beschränkung des 6/5-Hinweises auf die besprochenen Skalenmodelle wahrt Webers ausdrückliche Einleitung über die Vielfalt möglicher Harmonisierung."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=42",
+          "examples": [
+            "weber-oktavregel"
+          ]
+        },
+        {
+          "id": "weber2018-middle-oktavregel-sechste",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 16, Hinweis zur sechsten Bassstufe; Gasparini S. 87 und Heinichen S. 746, 765",
+          "text": "Bei der sechsten Bassstufe in der absteigenden Durtonleiter lässt Weber die darüber liegende Sexte groß oder klein zu. Dasselbe nennt er für die erhöhte sechste Bassstufe bei absteigendem Moll. Er verweist dafür auf Gasparini und Heinichen. Bassstufe und Intervallzahl sind dabei auseinanderzuhalten: Die Angabe betrifft die Qualität der Sexte über der Bassnote und nicht bloß ein Vorzeichen der sechsten Tonleiterstufe. Die Alternative erweitert das Oktavregelmodell an einer bestimmten Stelle; sie macht nicht sämtliche Vorzeichen oder Klangstellungen beliebig. Beim Spielen müssen die betroffene Oberstimme und ihre Fortsetzung mitgehört werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · veränderliche Sexte über der fallenden sechsten Bassstufe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 16, Hinweis zur sechsten Bassstufe; Gasparini S. 87 und Heinichen S. 746, 765",
+              "note": "Der Wortlaut benennt ausdrücklich sechste Stufe abwärts in Dur und erhöhte sechste abwärts in Moll. Gasparinis Zitat erlaubt maggiore oder minore; es wird nicht auf die in der Molltabelle regulär abgesenkte sechste Bassstufe umgedeutet."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=42",
+          "examples": [
+            "weber-oktavregel"
+          ]
+        },
+        {
+          "id": "weber2018-middle-oktavregel-erweitert",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 17, „erweiterte“ Oktavregel; dazu Teil A, S. 8, gleiche Tonmaterialien",
+          "text": "Die erweiterte Oktavregel baut Weber zunächst in Moll auf; in Dur kann entsprechendes Material als Mollanleihe auftreten. Die zusätzlichen verminderten Klänge können nach moderner Harmonielehre als Umkehrungen des verminderten Septakkords der erhöhten siebten Stufe verstanden werden. Weber bietet daneben die Deutung als Verdichtung von drei Leittönen an. Die Figuren 6/erhöhter 4/erniedrigter 3, 6/4/erhöhter 2 und erhöhte 6/erniedrigte 5 sind deshalb zugleich als konkrete Stimmenkonstellationen zu verfolgen. Die gemeinsame Tonmenge hebt Unterschiede im Bass, in der Bezifferung und in der gerichteten Fortsetzung nicht auf.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · verminderte Klänge in der erweiterten Moll-Oktavregel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 17, „erweiterte“ Oktavregel; dazu Teil A, S. 8, gleiche Tonmaterialien",
+              "note": "Die drei Erläuterungspunkte stehen unmittelbar unter der erweiterten Molltabelle. S. 8 zeigt die zugehörigen identischen Tonmaterialien ausdrücklich als moderne Inversionsdeutung. Der zusätzliche kurze Hinweis auf einen Klang mit vier Leittönen wird nicht zu einer allgemeinen Zählregel ausgeweitet."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=44"
+        },
+        {
+          "id": "weber2018-middle-oktavregel-sept-und-sextquint",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 17, „weitere Möglichkeiten“, erste zwei Modelle",
+          "text": "Weber erweitert die Oktavregel an genau bezeichneten Stellen. Auf der steigenden vierten Bassstufe kann in Dur und Moll anstelle von 6/5 ein Septakkord stehen. Auf der steigenden sechsten Stufe erlaubt er in Dur und melodischem Moll statt des gewöhnlichen Sextgriffes einen 6/5-Klang. Für diesen zweiten Fall verlangt er ausdrücklich die Vorbereitung der Quinte. Die Alternativen sind damit nicht frei austauschbare zusätzliche Akkordnamen: Ihre Lage im Bassgang und ihre jeweilige Dissonanzbehandlung bleiben maßgeblich. Vor allem darf die ausdrückliche Vorbereitungsbedingung des zweiten Beispiels beim Übertragen des Modells nicht verloren gehen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · örtliche Alternativen auf steigender vierter und sechster Stufe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 17, „weitere Möglichkeiten“, erste zwei Modelle",
+              "note": "Beide Ersetzungen und ihre Tonartbedingungen stehen wörtlich neben den Modellen. „Diese 5 muss vorbereitet sein“ gehört zur sechsten Bassstufe; es wird weder auf jede Quinte noch auf alle 6/5-Klänge verallgemeinert."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=44"
+        },
+        {
+          "id": "weber2018-middle-oktavregel-kadenzsechste",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 17, sechste Stufe vor der vierten in der Kadenz und eingeschobene Zwischendominante",
+          "text": "Geht die sechste Bassstufe in der Kadenz zur vierten, kann sie bei Weber 6/4/3 tragen. Er betont, dass hier nicht die erhöhte Sexte gemeint ist: Die Töne dieses Griffes stimmen mit denen des folgenden 6/5-Klanges über der vierten Stufe überein. Der Basswechsel verändert also die Intervalle der gleichen Tonmenge. Davon unterscheidet Weber eine zusätzlich eingeschobene Verbindung mit erhöhter Sexte, die er als Zwischendominante deutet. Beim Lesen ist zu entscheiden, ob eine bestehende Stimmengruppe durch den Bass anders bezogen oder ob ein neuer, chromatisch gerichteter Zwischenklang eingefügt wird.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Kadenzweg über sechste und vierte Bassstufe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 17, sechste Stufe vor der vierten in der Kadenz und eingeschobene Zwischendominante",
+              "note": "Die ausdrücklich verneinte erhöhte Sexte und die Identität mit dem folgenden 6/5-Tonmaterial stehen beim dritten Modell; die beiden darunter stehenden Modelle sind als eingeschobene Zwischendominante beschriftet. Die Passage ergänzt den auf S. 6 eingeführten Kadenzfall."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=44"
+        },
+        {
+          "id": "weber2018-middle-oktavregel-bachsche",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 17, „Bachsche Oktavregel“; Teil B, S. 15, Quartgang",
+          "text": "In der von Weber als Bachsche Oktavregel bezeichneten Variante erhält die tiefe siebte Mollstufe im fallenden Bass einen Tritonusklang. Zur erhöhten Quarte kann eine Sekunde oder eine erniedrigte Terz treten; die Sexte gehört zur gezeigten Gruppe. Weber erklärt dies als Zwischendominante zur Subdominante: Die betreffende Bassnote wird lokal wie eine fallende vierte Stufe dieser Zieltonart behandelt. So verbindet sich die globale Bassstufe mit einer örtlichen Fortsetzungsfunktion. Die Bezeichnung meint in diesem Compendium ein bestimmtes Harmonisierungsmuster; sie belegt für sich keine von Bach selbst verfasste oder so benannte Oktavregeltafel.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Tritonusklang auf der tiefen siebten Mollstufe",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 17, „Bachsche Oktavregel“; Teil B, S. 15, Quartgang",
+              "note": "Der Text nennt die tiefe siebte Stufe in Moll, beide Ergänzungen und die Deutung zur Subdominante ausdrücklich. Die Quartgangmodelle auf S. 15 greifen dieselbe Bezeichnung auf; der gewöhnliche 7/4/3-Transitus darunter wird nicht als Septakkord mit diesem Fall vermischt."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=44"
+        },
+        {
+          "id": "weber2018-middle-oktavregel-vorhalte",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 18, Oktavregeln „mit Vorhalten“, „mit Durchgängen“ und Quellen-Beispiele",
+          "text": "Die Vorhaltstabelle der Oktavregel ist bei Weber eine Sammlung stufeneigener Möglichkeiten. Er warnt ausdrücklich, dass sich die Einträge nur teilweise in der gezeichneten Reihenfolge verbinden lassen. Neben einzelnen 7–6-, 9–8- und 4–3-Wegen stehen kombinierte Figuren; die weitere Tabelle ergänzt Durchgänge. Man sollte deshalb eine einzelne Stelle mit ihrer Vorbereitung und Fortsetzung ausarbeiten, bevor man daraus einen durchgehenden Skalenbass bildet. Die historischen Beispiele von Muffat, Geminiani und C. Ph. E. Bach zeigen anschließend unterschiedliche Belegungen und Bewegungstypen. Sie bestätigen die Auswahlmöglichkeit und ersetzen nicht die Prüfung eines zusammenhängenden Stimmenverlaufs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · stufeneigene Möglichkeiten statt obligatorischer Gesamtfolge",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 18, Oktavregeln „mit Vorhalten“, „mit Durchgängen“ und Quellen-Beispiele",
+              "note": "Der einschränkende Hinweis steht direkt neben der Vorhaltstabelle. Beide Tabellen und sämtliche Quellenbeispiele, einschließlich des als Bernardi ohne Jahreszahl bezeichneten Beispiels, wurden visuell gelesen. Die Quellenbeispiele reichen ausdrücklich von 1699 bis zur Mitte des 18. Jahrhunderts; ihre späteren Daten werden nicht aus dem Buchrahmen ausgeblendet."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=46"
         }
       ],
       "relations": [
@@ -29727,7 +30458,9 @@ const ATLAS = {
         "invention-episode",
         "cadenza-doppia",
         "lamento-bass",
-        "romanesca-satzgeruest"
+        "romanesca-satzgeruest",
+        "generalbass-schrittgaenge",
+        "generalbass-bassspruenge"
       ],
       "authors": [
         {
@@ -29849,6 +30582,125 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "weber2018-middle-sekundsequenz",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 14, „6/4/2-Sequenz“, diatonische, chromatisierte und modulierende Modelle",
+          "text": "Webers 6/4/2-Sequenz wiederholt einen Stimmenvorgang über schrittweise fallendem Bass. Auf einen mit 2 bezeichneten Sekundgriff folgt ein Sextgriff, gegebenenfalls mit Quinte; anschließend setzt die Verbindung auf einer tieferen Stufe erneut ein. Das Glied umfasst somit die Beziehung zwischen zwei aufeinanderfolgenden Bassstationen, nicht nur einen einzelnen vertikalen Klang. Die daneben stehenden chromatisierten und modulierenden Fassungen verändern Intervallqualitäten und Vorzeichen, während der Zusammenhang der Griffe erkennbar bleibt. Beim Vergleichen sollten daher Bassgang, vollständige Ergänzung der abgekürzten 2 und tatsächliche Stimmenwege gemeinsam verfolgt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · wiederkehrende Verbindung von Sekund- und Sextgriffen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 14, „6/4/2-Sequenz“, diatonische, chromatisierte und modulierende Modelle",
+              "note": "Die diatonische Reihe zeigt den wiederholten Wechsel 2–6(5); darunter stehen eigenständig beschriftete chromatisierte und modulierende Fassungen sowie eine Variante mit 6/♯4/♭3. Die Antwort behauptet keine identische wörtliche Transposition aller Varianten."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=38"
+        },
+        {
+          "id": "weber2018-late-07",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 23 und 30 · Versetzung von Quintfallpaaren",
+          "text": "Weber bildet größere Bassgestalten aus Paaren, deren Binnenbewegung eine fallende Quinte oder steigende Quarte ist. Werden solche Paare sekundweise abwärts versetzt, entstehen der kleine Quintfall in einer Kadenz oder eine fortlaufende Quintfallsequenz. Bei Versetzung aufwärts entsteht der „aufsteigende Quintfall“: Der Name bezeichnet weiterhin die Bewegung innerhalb des Paares. Terzversetzungen verbindet Weber mit zwei Tonalitätsebenen und der Folia-Harmonik; die abwärts quartversetzten Paare ergeben sein Schema I–IV–V–I. Für das Modell müssen also die Binnenbewegung und das Intervall zwischen den Paaranfängen getrennt bestimmt werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Binnenbewegung und Versetzung eines Bassmodells",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 23 und 30 · Versetzung von Quintfallpaaren",
+              "note": "Alle fünf gruppierten Pfeildiagramme auf PDF 56–57 sowie die Übersicht zum aufsteigenden Quintfall auf PDF 72–73 wurden gelesen. Die Zuordnung I–IV–V–I steht beim abwärts quartversetzten Paar, nicht bei der Sekundversetzung. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "examples": [
+            "weber-sequenzvergleich"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=56"
+        },
+        {
+          "id": "weber2018-late-09",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 20 · 6/5-Sequenz: diatonische, chromatisierte und modulierende Varianten",
+          "text": "Die 6/5-Sequenz wird bei Weber als Familie verwandter Bassverläufe behandelt. Auf einen Terzfall folgt im Grundmodell jeweils ein Sekundschritt aufwärts, bevor der nächste Terzfall beginnt. Die Tabelle unterscheidet diatonische, chromatisierte und modulierende Fassungen. Zusätzliche 9/4-Verbindungen können die Folge ausgestalten; ebenso lassen sich Durchgangsnoten in den Bass einfügen. Für fünf Stimmen zeigt Weber auch eine Ergänzung mit Septimen. Ein Sequenzmodell besteht hier folglich nicht aus einer einzigen unveränderlichen Folge von Griffen: Bassgerüst, Bezifferung, Dissonanzbewegung und Stimmenzahl lassen mehrere konkret notierte Varianten zu.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Varianten der 6/5-Sequenz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 20 · 6/5-Sequenz: diatonische, chromatisierte und modulierende Varianten",
+              "note": "Sämtliche sechs Tabellenabschnitte der 6/5-Sequenz auf PDF 50–51 wurden gelesen. Der Text verallgemeinert weder die fünfte Stimme noch die Septimenergänzung zu einer notwendigen Besetzung jeder 6/5-Sequenz. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=50"
+        },
+        {
+          "id": "weber2018-late-19",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 30 · Quintfall und Stimmenverwechslung: 7, 6/5, 6/4/2 und 6/4/3",
+          "text": "Webers Übersicht stellt die Quintfallsequenz mit Septimen neben verwandte Folgen mit 6/5, 6/4/2 und 6/4/3. Das vorangestellte Wiedeburg-Zitat erklärt diese Gänge durch Verwechslung der Stimmen. Die Tabellen lassen erkennen, wie eine andere Bassstimme auch andere Bassintervalle und Generalbassziffern hervorbringt. Die Bezeichnungen sind deshalb nicht bloß austauschbare Namen derselben gedruckten Basslinie. Sie verweisen auf verwandte kontrapunktische Verbindungen in verschiedener Stimmenanordnung. Weber ergänzt dies um mehrere Fassungen des aufsteigenden Quintfalls und stellt am Ende den Quartfall zum Vergleich daneben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Sequenzfamilien und Verwechslung der Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 30 · Quintfall und Stimmenverwechslung: 7, 6/5, 6/4/2 und 6/4/3",
+              "note": "Die vollständige Übersicht auf PDF 72–73 wurde visuell gelesen, einschließlich der alternativen 6/4/3-Fassung, aller vier aufsteigenden Quintfall-Modelle und der abschließenden Quartfallzeile. Das Wiedeburg-Zitat von 1775 ist ein von Weber herangezogener terminologischer Vergleich, keine eigenständige Bearbeitung von Wiedeburgs Werk. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "examples": [
+            "weber-sequenzvergleich"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=72"
+        },
+        {
+          "id": "weber2018-late-20",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 30 · Vergleich von Quintfall und 7–6-Kette durch den Bassbezug",
+          "text": "In einer eigenen Vergleichszeile zeigt Weber Quintfall und 7–6-Kette an demselben notierten Stimmengefüge. Liest man die untersten schwarzen Notenköpfe als Bass, ergibt sich die 7–6-Kette; die weißen Notenköpfe bezeichnen den Bass für die Quintfallfassung. Die Intervallzahlen erhalten dadurch einen anderen Bezug. Zum Erkennen des Modells genügt es folglich nicht, nur die Bewegung der höchsten Stimme zu verfolgen. Man muss bestimmen, welche Linie den Bass bildet und auf welche Stimme sich die jeweilige Septime oder Sexte bezieht.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Bassbezug im Vergleich zweier Sequenzmodelle",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 30 · Vergleich von Quintfall und 7–6-Kette durch den Bassbezug",
+              "note": "Die Zeile „Vergleich Quintfall und 7–6-Kette“ auf PDF 72–73 samt schwarzer/weißer Legende wurde zusätzlich in vierfacher Skalierung geprüft. Die schwarzen unteren Töne bleiben im notierten Stimmengefüge vorhanden; es wird nicht behauptet, sie müssten bei der Quintfallfassung ersatzlos gestrichen werden. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "examples": [
+            "weber-sequenzvergleich"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=72"
         }
       ],
       "relations": [
@@ -31413,7 +32265,11 @@ const ATLAS = {
         "generalbass-bassvariation",
         "generalbass-lagen",
         "generalbass-akkordnamen",
-        "generalbass-septakkord-fuellstimmen"
+        "generalbass-septakkord-fuellstimmen",
+        "generalbass-schrittgaenge",
+        "generalbass-bassspruenge",
+        "generalbass-rueckung",
+        "generalbass-haupt-fuellstimmen"
       ],
       "reading": "Vergleiche verschiedene Bezifferungen derselben Fortschreitung. Prüfe, ob die Zahlen tatsächliche Stimmenlagen, nur die Außenstimmen oder eine abgekürzte Klangangabe festhalten, und welche Stimme eine bezeichnete Dissonanz auflösen muss.",
       "readingSources": [
@@ -31765,6 +32621,191 @@ const ATLAS = {
           },
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=17"
+        },
+        {
+          "id": "weber2018-open-verkuerzte-signaturen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 1 · Dreiklang und Sextakkord",
+          "text": "Weber beginnt mit verkürzten Klangangaben. Beim gewöhnlichen Dreiklang müssen die Intervalle nicht eigens beziffert werden; nötig werden Zeichen insbesondere bei Abweichungen von der Tonart. Ein allein stehendes Vorzeichen verändert die Terz. Beim Sextakkord genügt gewöhnlich die 6, während eine veränderte Terz zusätzlich bezeichnet wird und die 8 selten ausgeschrieben ist. Solche Kürzungen setzen einen bekannten Klangvorrat voraus. Sie legen damit noch nicht fest, welche Oberstimme welchen Ton übernimmt: Die danebenstehenden Aussetzungen zeigen verschiedene Lagen und Verdopplungen derselben Intervallzusammenstellung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Lesen verkürzter Generalbasssignaturen",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 1 · Dreiklang und Sextakkord",
+              "note": "Die Regeln zur Bezifferung wurden mit den ausgeschriebenen Dreiklangs- und Sextakkordbeispielen auf derselben Seite verglichen. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=12"
+        },
+        {
+          "id": "weber2018-open-sekundakkord-bassfigur",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 5–6 · Sekundakkord / Tritonusakkord",
+          "text": "Die Gruppe 6/4/2 erscheint bei Weber sowohl als Synkopendissonanz als auch im Bassdurchgang. In beiden Fällen liegt die dissonierende Stimme unten; die oberen Intervalle müssen deshalb nicht ihrerseits vorbereitet sein. Welche Art vorliegt, erkennt man am Bassverlauf. Weber zeigt außerdem, dass die Ziffern oft verkürzt werden: Nach dem von ihm angeführten Heinichen können schon 2 oder 4/2 die vollständige Gruppe vertreten, bei übermäßiger Quarte auch deren einzelnes Zeichen. Der notierte Ziffernvorrat allein bestimmt folglich weder die Anzahl der Stimmen noch die Entstehungsart der Dissonanz.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Sekund- und Tritonusklänge · Synkopierung oder Durchgang im Bass",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 5–6 · Sekundakkord / Tritonusakkord",
+              "note": "Die beiden Bassfiguren wurden auf S. 5 verglichen; die verkürzten Signaturen folgen dem ausdrücklich als Heinichen-Zitat gekennzeichneten Abschnitt auf S. 6. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=20"
+        },
+        {
+          "id": "weber2018-middle-unbezifferte-quarte",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 8, Telemann-Zitate aus den Singe-, Spiel- und Generalbass-Übungen Nr. 2 und 6",
+          "text": "Eine nicht ausgeschriebene Quarte kann nach den von Weber angeführten Telemann-Regeln zu Terz und Sexte hinzutreten. Zwei Basswege sind genannt: Der Bass fällt einen Ganz- oder Halbton zum gewöhnlichen 5/3-Klang, oder er steigt einen Ganz- oder Halbton zu einem weiteren Sextakkord. In beiden Fällen muss die Sexte des ersten Klanges groß sein. Die Ergänzung hängt damit von der Fortsetzung ab; eine allein stehende 6 bedeutet hier nicht, dass jeder weitere Ton ausgeschlossen wäre. Ebenso wenig erlaubt die Stelle, zu jedem Sextakkord ohne Prüfung von Intervallqualität und nächster Bassnote eine Quarte hinzuzufügen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · ergänzte Quarte bei Telemann",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 8, Telemann-Zitate aus den Singe-, Spiel- und Generalbass-Übungen Nr. 2 und 6",
+              "note": "Beide Bassrichtungen und die Bedingung der großen ersten Sexte stehen ausdrücklich in den zwei Telemann-Zitaten. Die folgende Corrette-Definition der petite sixte bestätigt nur die Zusammenstellung 6/4/3, nicht eine zusätzliche Fortschreitungsregel."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=26"
+        },
+        {
+          "id": "weber2018-middle-transitus-zielklang",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 8–9, Signaturen des Transitus irregularis",
+          "text": "Die Ziffern des unregelmäßigen Bassdurchgangs hängen bei Weber vom folgenden Griff ab. Vor einem Dreiklang zeigt er 7/4/2. Vor einem Sextakkord über einem Leitton genügt das Modell 5/2, weil der folgende Bass nicht in den Oberstimmen verdoppelt wird. Ist beim Sextakkord dagegen Bassverdopplung vorgesehen, tritt eine 7 hinzu, die durch die Bassbewegung zur Oktave wird. Vor 6/5 steht entsprechend 5/4/2. Die Ziffern bezeichnen hier also zunächst die Intervalle über der Durchgangsnote. Ihre Umwandlung in den Zielklang ist ebenso wichtig wie die momentane Zusammenstellung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Bezifferung des Bassdurchgangs nach seinem Zielklang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 8–9, Signaturen des Transitus irregularis",
+              "note": "Die vier Zieltypen sind auf S. 8 und am Anfang von S. 9 beschriftet. Das Modell mit 7/5/2 erklärt ausdrücklich die folgende Oktave; die Darstellung wird nicht als selbstständige Septakkordfolge umgedeutet."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=26"
+        },
+        {
+          "id": "weber2018-middle-transitus-ziffernzeit",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 9, Anmerkungen zum Transitus irregularis, Notationsvergleich a/b",
+          "text": "Beim Transitus irregularis können dieselben Töne unterschiedlich beziffert sein. Weber zeigt einmal die Ziffern unmittelbar unter der dissonanten Bassnote und einmal unter der folgenden Fundamentalnote. Im zweiten Fall soll der bezeichnete Griff trotzdem schon zur vorausgehenden Dissonanz angeschlagen werden. Die beiden notierten Fassungen werden ausdrücklich gleich gespielt. Man darf den Schreibort der Ziffer deshalb nicht mechanisch als neuen Anschlagszeitpunkt lesen. Weber nennt als häufige Hinweise unter anderem eine Bezifferung auf unbetonter Note sowie bestimmte vorausgehende Sechzehntelfiguren; entscheidend bleibt aber der Zusammenhang aus Bassbewegung, Durchgang und folgendem Klang.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Anschlagszeit und Schreibort der Ziffern",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 9, Anmerkungen zum Transitus irregularis, Notationsvergleich a/b",
+              "note": "Der vergrößert geprüfte Vergleich a/b zeigt dieselbe Basslinie und unterscheidet die Stellung von 5/4/2 beziehungsweise 6/5. Die im Beispiel notierten Achtel werden nicht mit den im Kommentar zusätzlich genannten vier Sechzehnteln verwechselt."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=28"
+        },
+        {
+          "id": "weber2018-middle-vorhalt-fuellstimmen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 11, „Weitere Vorhaltsfiguren“, Gruppen 9/4 und 9/7",
+          "text": "Bei zusammengesetzten Vorhaltsziffern trennt Weber die bewegten Stimmen von ihrer Ergänzung. Zur Verbindung 9/4 nennt er die Quinte als Füllstimme; die beiden angegebenen Wege führen 9–8 und 4–3. Häufig entsteht die Verbindung dadurch, dass ein vorausgehender 6/5-Klang bei einem Basswechsel liegen bleibt. Bei 9/7 ist dagegen die Terz die genannte Füllstimme, während None und Septime zu Oktave und Sexte gehen. Auf der dritten Stufe in Moll kann eine erhöhte Quinte hinzutreten. Die Ergänzung ergibt sich somit aus der gesamten Figur und ihrem Ort, nicht aus einer isolierten Vorhaltsziffer.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Füllstimmen bei doppelten Vorhaltsfiguren",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 11, „Weitere Vorhaltsfiguren“, Gruppen 9/4 und 9/7",
+              "note": "Die ersten beiden Gruppen der Tafel nennen 5 beziehungsweise 3 ausdrücklich als Füllstimme. Die Modelle sowie der Verweis auf die dritte Mollstufe wurden vergrößert geprüft."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=32",
+          "examples": [
+            "weber-vorhaltskombinationen"
+          ]
+        },
+        {
+          "id": "weber2018-middle-vorhalt-mehrfach",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 11, Vorhaltskombinationen 9/6/4 und 9/7/4",
+          "text": "Weber erklärt größere Zifferngruppen durch die Verbindung bekannter Stimmenwege. 9/6/4 vereinigt 9–8 mit 6–5 und 4–3; als Vorbereitung zeigt er einen liegenbleibenden Septakkord der vierten Stufe. Für Mattheson vermerkt er, dass die None dabei meist auch ohne ausdrückliche Bezifferung mitgespielt wird. 9/7/4 verbindet dagegen 9–8 und 7–6 mit einem zusätzlichen Quartvorhalt: An die Stelle der sonst ergänzten Terz tritt zunächst die Quarte. Zum Aussetzen sollte man die einzelnen Wege zuerst verfolgen und anschließend prüfen, welche Töne bereits aus dem vorigen Griff übernommen werden können.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Verbindung mehrerer selbstständiger Auflösungswege",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 11, Vorhaltskombinationen 9/6/4 und 9/7/4",
+              "note": "Die Erläuterungen stehen neben den Gruppen 9/6/4 und 9/7/4. Die Aussage zur unbezifferten None wird ausdrücklich Mattheson zugeschrieben; sie wird nicht auf jede historische Quelle oder jede 6/4-Bezifferung übertragen."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=32",
+          "examples": [
+            "weber-vorhaltskombinationen"
+          ]
+        },
+        {
+          "id": "weber2018-middle-vorhalt-septime-none",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 11, Vorhaltskombination 9/♯7/4 und unmittelbar folgende Varianten",
+          "text": "In Webers Gruppe 9/erhöhter 7/4 laufen nicht alle Stimmen abwärts. Die None sinkt zur Oktave, während die erhöhte Septime zu derselben Oktave steigt; die Quarte geht zur Terz. Als Füllstimme ist die Quinte angegeben. Weber erklärt den Ausgangsklang als liegenbleibenden Dominantseptakkord beziehungsweise dessen Umkehrung und verweist auf den Orgelpunkt. Die Notation beschreibt damit mehrere gleichzeitig wirksame Stimmenwege, einschließlich einer aufwärts gerichteten Auflösung. Dieser besondere chromatische Zusammenhang sollte vollständig gelesen werden; aus der aufsteigenden Septime folgt keine allgemeine Umkehrung der sonst üblichen Vorhaltsrichtung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · gegenläufige Auflösung von None und erhöhter Septime",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 11, Vorhaltskombination 9/♯7/4 und unmittelbar folgende Varianten",
+              "note": "Die Pfeile 9→8 und ♯7→8 sowie 4–3 sind im vergrößerten deutschen Notenbild eindeutig. Ein weiteres Modell enthält zusätzlich eine erniedrigte Sexte. Die Antwort bleibt bei dem ausdrücklich bezeichneten Grundmodell."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=32",
+          "examples": [
+            "weber-vorhaltskombinationen"
+          ]
         }
       ],
       "relations": [
@@ -31773,6 +32814,12 @@ const ATLAS = {
           "to": "menke2017-3",
           "type": "context",
           "note": "Menke erläutert die übliche funktionale Unterscheidung: 2 steht normalerweise für eine Syncopatio des Basses, 9 für diejenige einer Oberstimme. Sechters zusammengesetzte Angabe mit Sekunde, Quarte und Septime wird in Nr. 105 über liegendem Bass weitergeführt; die 2 gehört dort zur oberen Stimmenverbindung. Der Unterschied betrifft den Gebrauch der Ziffer im konkreten Notationszusammenhang. Menkes ausdrücklich normale Zuordnung ist deshalb nicht schematisch auf jede 2 innerhalb solcher Klangangaben zu übertragen."
+        },
+        {
+          "from": "weber2018-open-sekundakkord-bassfigur",
+          "to": "kittel2019-middle-sekundakkord",
+          "type": "context",
+          "note": "Kittels hier behandelter 4/2-Griff soll gebunden erscheinen und mit absteigendem Bass zum Sextgriff weitergehen. Weber ordnet derselben Intervallgruppe getrennte Synkopierungs- und Durchgangsfiguren zu. Seine Übersicht umfasst somit auch eine andere Entstehungsart; Kittels Bindungsvorschrift darf nicht ohne Prüfung der Bassfigur auf jeden 6/4/2-Klang übertragen werden."
         }
       ]
     },
@@ -31843,6 +32890,31 @@ const ATLAS = {
               "note": "Die scheinbar irregulären Dissonanzen werden aus Varianten eines um 1700 idiomatischen Kadenzmodells erklärt."
             }
           }
+        },
+        {
+          "id": "weber2018-open-quartenformel-varianten",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 3 · Quartenformeln / Cadenze doppie",
+          "text": "Weber fasst die Quartenformel über der fünften Bassstufe durch den Oberstimmenkern 3–4–4–3 zusammen. Eine Oktave kann als Füllstimme hinzutreten. Seine Übersicht vergleicht eine unvollständige und eine vollständige Fassung sowie Varianten, in denen statt der Quinte eine vorbereitete Septime oder eine Sexte erscheint. Bei wechselnder Ergänzung bleibt die charakteristische Quartbewegung erkennbar. Die Zahlen sind deshalb als Verlauf mehrerer Stimmen zu lesen: Die hintereinander stehenden Ziffern bezeichnen keine unverändert auszuhaltende Akkordgruppe. Der hier gezeigte Rahmen ist die bassierende Kadenz über der fünften Stufe.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Bassierende Kadenz · Kern und Ergänzungen der Cadenza doppia",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 3 · Quartenformeln / Cadenze doppie",
+              "note": "Der gemeinsame Kern, die Füllstimme und die Vorbereitung der ersetzenden Septime sind ausdrücklich angegeben. Weitergehende Einsatzmöglichkeiten der Formel werden dieser Übersicht nicht unterstellt. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=16",
+          "examples": [
+            "weber-cadenza-retardatio"
+          ]
         }
       ]
     },
@@ -31969,7 +33041,8 @@ const ATLAS = {
         "chromatik",
         "chromatik-ohne-diatonisches-geruest",
         "passacaglia-chaconne",
-        "sequenzmodell"
+        "sequenzmodell",
+        "generalbass-schrittgaenge"
       ],
       "reading": "Spiele zunächst den fallenden Mollbass von 1 nach 5. Ergänze eine Oberstimme mit Tritonus über der tiefen siebten Stufe und vergleiche danach eine Fortsetzung mit übermäßiger Sexte sowie eine Variante mit dominantischem Quartvorhalt.",
       "readingSources": [
@@ -31999,6 +33072,28 @@ const ATLAS = {
               "note": "Das Modell wird an Purcell sowie Bachs Sinfonia BWV 795 und h-Moll-Messe erläutert; die Intervalle und ihre Fortsetzung gehören zur Aufgabe."
             }
           }
+        },
+        {
+          "id": "weber2018-middle-chromatischer-quartgang",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 15, „chromatischer Quartgang“, sämtliche Varianten",
+          "text": "Den chromatisch fallenden Quartgang behandelt Weber als Bassmodell mit mehreren möglichen Aussetzungen. Die Reihen verbinden unter anderem Sexten, Septimen und Tritonusgruppen; einige erweitern die abschließende Dominantverbindung oder verändern den Verlauf durch zusätzliche Bassnoten. Eine einzige feste Bezifferung wird dem Modell deshalb nicht zugeordnet. Weber verweist ausdrücklich auf das Crucifixus der h-Moll-Messe und auf die anschließenden Beispiele von Emanuel Bach sowie auf Rückung und enharmonische Verwechslung. Für eine eigene Aussetzung sollte man einen vollständigen Stimmenweg aus einer Variante nachvollziehen, bevor einzelne Griffe zwischen den Modellen ausgetauscht werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · alternative Aussetzungen des chromatischen Tetrachords",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 15, „chromatischer Quartgang“, sämtliche Varianten",
+              "note": "Die chromatische Bassgrundform und alle vier folgenden Notenzeilen wurden vollständig visuell geprüft. Der Crucifixus-Hinweis ist Webers Repertoireverweis; die hier gezeichneten Modelle werden nicht als wörtliche Abschrift eines bestimmten Bach-Taktes ausgegeben."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=40"
         }
       ]
     },
@@ -33661,6 +34756,31 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=148"
+        },
+        {
+          "id": "weber2018-middle-doppelte-quinte",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 10, „2x5-Akkord“, Fehler- und Lösungsmodelle",
+          "text": "Eine verdoppelte Quinte kann eine konkrete Stimmführungsaufgabe lösen. Weber zeigt die Gefahr von Quintparallelen, wenn nach einem Septakkord der Bass eine Sekunde steigt und die Septime im Sopran liegt. Seine Lösung führt die Terz des Septakkords zur Quinte des folgenden Dominantklanges statt zu dessen Oktave; dadurch besitzt die Dominante zwei Quinten. Die Sopranklausel erklärt, weshalb dieser Fall im Choral häufig ist. Weitere Modelle füllen den dabei entstehenden Quintsprung aus und verbinden ihn mit 8–7- oder 5–6–7-Bewegungen. Die Verdopplung wird aus den Stimmenwegen begründet, nicht durch eine allgemeine Rangliste bevorzugter Akkordtöne.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Choralsatz im Generalbass · doppelte Dominantquinte gegen Quintparallelen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 10, „2x5-Akkord“, Fehler- und Lösungsmodelle",
+              "note": "Die schlechten und guten Modelle wurden vergrößert verglichen. Weber nennt die ausgestalteten Wege Standardlösungen Bachs. Die deutsche Beschriftung spricht von Transitus; die abweichende englische Bezeichnung von 8–7 als suspension wird nicht übernommen."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=30",
+          "examples": [
+            "weber-verminderte-quinte"
+          ]
         }
       ],
       "relations": [
@@ -34228,6 +35348,28 @@ const ATLAS = {
           },
           "work": "Counterpoint Simplified: A Text-Book in Simple Strict Counterpoint (Boston: Oliver Ditson Company, Copyright 1907)",
           "url": "https://archive.org/download/cu31924022379741/cu31924022379741.pdf#page=54"
+        },
+        {
+          "id": "weber2018-middle-quartenformeln-zeit",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 11–12, Sexta syncopata und „Weitere Quartenformeln“, Gasparini- und Heinichen-Beispiele",
+          "text": "Bei den Quartenformeln müssen die beteiligten Stimmen nicht gleichzeitig ihre Zielintervalle erreichen. Das erste von Weber angeführte Gasparini-Modell führt über gehaltenem Bass die Quinte zur Sexte und wieder zur Quinte, während eine andere Stimme von der Terz zur Quarte geht und diese zunächst festhält. Erst anschließend folgt deren 4–3-Schritt. Die Rückkehr der Sexte zur Quinte beseitigt somit nicht sofort die Quartdissonanz. Die weiteren Gasparini- und Heinichen-Modelle verbinden solche Vorgänge mit Septimen. Für die Aussetzung ist die zeitliche Stellung jeder Ziffer wichtig; ein einzelnes Akkordsymbol würde diese Staffelung nicht wiedergeben.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · zeitlich versetzte Bewegungen innerhalb einer Quartenformel",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 11–12, Sexta syncopata und „Weitere Quartenformeln“, Gasparini- und Heinichen-Beispiele",
+              "note": "Das erste Gasparini-Modell auf S. 12 zeigt oben 5–6–5–Halt und darunter 3–4–4–3 vor der Bassfortsetzung; die übrigen sechs Formeln wurden vollständig geprüft. S. 11 ergänzt den Zusammenhang mit der als Sexta syncopata bezeichneten Verbindung. Pennas am Ende wiedergegebenes Modell bleibt als eigener historischer Beleg kenntlich."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=34"
         }
       ]
     },
@@ -34572,6 +35714,28 @@ const ATLAS = {
           },
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=12"
+        },
+        {
+          "id": "weber2018-middle-quartsext-durchgang",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 9, „Quartsextakkord“",
+          "text": "Weber unterscheidet den Quartsextakkord als Vorhaltsverbindung von einem Quartsextklang, der durch Durchgang entsteht. Im zweiten Fall verbinden sich liegenbleibende Stimmen mit Durchgangsfiguren, die gleich- oder gegenläufig zum Bass geführt werden. Die Beispiele stehen sowohl auf der ersten Bassstufe als auch auf der fünften; diese kann dabei vorübergehend wie eine erste Stufe aufgefasst werden. Weitere Beispiele verbinden mehrere Vorgänge zu Mischformen. Ein 6/4 ist daher nicht allein durch seinen vertikalen Abstand erklärt. Für die Aussetzung muss geprüft werden, welche Töne gehalten werden, welche durchgehen und wie der Bass die Figur weiterführt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Quartsextklang als Durchgangsbildung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 9, „Quartsextakkord“",
+              "note": "Die beiden Erklärungstypen sind ausdrücklich getrennt; die Notenbeispiele zeigen eine ausgeschriebene Aussetzung, eine weitere Durchgangsfigur auf der fünften Stufe und rhythmisch verschiedene Mischformen. Aus der Seite wird keine allgemeine Zulassung unvorbereiteter Quartsextsprünge abgeleitet."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=28"
         }
       ],
       "relations": [
@@ -34889,6 +36053,28 @@ const ATLAS = {
           "work": "Der Choralsatz bei Bach und seinen Zeitgenossen. Eine historische Satzlehre (2., durchgesehene Auflage, Köln: Dohr, 2004; Arbeitszuordnung des Teilscans)",
           "url": "https://katalog.slub-dresden.de/id/0-377774707",
           "catalogue": true
+        },
+        {
+          "id": "weber2018-late-06",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 22 · Gasparinis Cadenza finta bei Moll- statt Durauflösung",
+          "text": "Der bei Weber zitierte Gasparini bezeichnet auch eine Auflösung in Moll statt des erwarteten Dur als Cadenza finta. Welche Fassung gemeint ist, soll aus den Ziffern oder aus der komponierten Oberstimme hervorgehen. Webers anschließende Bassbeispiele enthalten entsprechend verschiedene Terzformen und Fortsetzungen. Für diesen historischen Gebrauch ist die Bezeichnung deshalb weiter als die feste Akkordfolge V–VI. Entscheidend ist an der zitierten Stelle die veränderte Auflösung; das Wort allein legt weder eine sechste Zielstufe noch eine bestimmte Schlussstimme fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Gasparinis von Weber zitierter Begriff Cadenza finta",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 22 · Gasparinis Cadenza finta bei Moll- statt Durauflösung",
+              "note": "Das Zitat verweist auf Gasparini S. 52; die englische Parallelseite nennt ausdrücklich minor instead of major. Die Antwort paraphrasiert Webers Quellenwiedergabe und setzt Cadenza finta nicht ungeprüft mit Daniels eigenem Oberbegriff Kadenzflucht gleich. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=54"
         }
       ]
     },
@@ -36786,6 +37972,28 @@ const ATLAS = {
           ],
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=17"
+        },
+        {
+          "id": "weber2018-term-lage-zwei-bedeutungen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 33, „Lage“",
+          "text": "Weber trennt zwei Bedeutungen von Lage. Zum einen benennt das Wort im Grundakkord das Intervall zwischen Bass und Sopran: Oktav-, Quint- oder Terzlage. Bei anderen Klängen wird eher das konkrete obere Intervall genannt, etwa die Septime im Sopran. Zum anderen unterscheidet er weite und enge Verteilung der Stimmen. Die weite Lage verbindet er mit Chorsatz beziehungsweise einer Verteilung 2+2 am Cembalo, die enge mit der üblichen vierstimmigen Generalbassaussetzung 1+3. Beim Vergleich zweier Fassungen sind daher die höchste Akkordnote und die Verteilung des gesamten Griffes als verschiedene Fragen zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbassaussetzung · Oberstimmenlage und enge oder weite Verteilung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 33, „Lage“",
+              "note": "Die beiden Definitionen stehen als a und b nebeneinander. Die Notenbeispiele wurden visuell geprüft. Der Begriff üblich bleibt erhalten; 1+3 wird nicht zum ausnahmslosen Generalbassgebot erklärt. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=78",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "relations": []
@@ -36897,6 +38105,72 @@ const ATLAS = {
           "work": "Praktische Generalbass-Schule, Op. 49. Neue Ausgabe in einem Bande (Leipzig: F. E. C. Leuckart, o. J. [1876], Plattennummer F.E.C.L. 2777)",
           "url": "https://imslp.org/wiki/Praktische_Generalbass-Schule%2C_Op.49_%28Sechter%2C_Simon%29",
           "catalogue": true
+        },
+        {
+          "id": "weber2018-open-sekund-und-tritonusakkord",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 5–6 · Namen und Intervallstruktur von 6/4/2",
+          "text": "Weber unterscheidet innerhalb von 6/4/2 zwei Hauptfälle. Bei reiner Quarte bezeichnet er den Klang als Sekundakkord: Die Sekunde gehört zur Hauptstimme, Quarte und Sexte sind Füllstimmen. Bei übermäßiger Quarte steht dagegen diese als Hauptstimme im Vordergrund; Weber verwendet dafür unter anderem Tritonusakkord. Die Sekunde kann im ersten Fall groß oder klein, im zweiten groß oder übermäßig sein. Er warnt zugleich vor einer einheitlichen historischen Benennung. Mattheson zählt beispielsweise auch 6/♯4/3 zu seiner Gruppe der übermäßigen Quartakkorde. Name, Intervallgröße und Quellengebrauch müssen deshalb gemeinsam gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Klangnamen · Haupt- und Füllstimmen bei 6/4/2",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 5–6 · Namen und Intervallstruktur von 6/4/2",
+              "note": "Die Unterscheidung nach reiner und übermäßiger Quarte sowie die Mattheson-Fußnote sind auf S. 5 belegt; S. 6 erklärt ausdrücklich die Uneinheitlichkeit der alten Systematik. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=20"
+        },
+        {
+          "id": "weber2018-middle-terzquart-namen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 6–7, „Terzquartakkord“ und Mattheson-Zitate, S. 224–230",
+          "text": "Weber stellt den Terzquartakkord als 6/4/3 dar und ordnet ihm historische Bezeichnungen wie petite sixte, Welsche Quart und Quarta irregularis zu. Die anschließenden Mattheson-Zitate zeigen jedoch verschiedene Intervallqualitäten: Neben der häufigen großen Sexte stehen Beispiele mit kleiner Sexte, verminderter Quarte sowie die seltenere übermäßige Quarte mit kleiner Terz. Mattheson nennt die Sexte dabei eine Nebenstimme; die besondere Signatur betrifft zunächst das Zusammentreffen von Quarte und Terz. Die verminderte Quarte erklärt Weber als Vorausnahme in den Oberstimmen. Der Name allein ersetzt deshalb weder die Prüfung der Vorzeichen noch diejenige der konkreten Fortschreitung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · historische Bezeichnungen und Varianten des 4/3-Klangs",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 6–7, „Terzquartakkord“ und Mattheson-Zitate, S. 224–230",
+              "note": "Die Benennungen stehen auf S. 6, die Fortsetzung des Mattheson-Zitats und sämtliche Variantengruppen auf S. 7. Die Seltenheitsangabe wird nur auf die dort bezeichnete übermäßige Quartverbindung bezogen. Die drei modernen Inversionsbilder auf S. 8 werden nicht mit diesen historischen Namen gleichgesetzt."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=22"
+        },
+        {
+          "id": "weber2018-middle-dominantseptnon",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 8, „Dominantseptnonakkord“",
+          "text": "Der von Weber als Dominantseptnonakkord bezeichnete Klang steht auf der fünften Bassstufe in Moll und verbindet kleine None, Septime, Quinte und Terz. Ein Modell behandelt ihn als Dominantseptakkord mit 9–8-Vorhalt: Die None geht zur Oktave, während der Septimenzusammenhang fortbesteht. Ein zweites Modell führt unmittelbar in einen Quartsextklang. Weber nennt außerdem die mögliche Auffassung als Überlagerung von Dominantseptakkord und vermindertem Septakkord. Diese Deutungen beschreiben verschiedene Zugänge zum selben notierten Material; welche Stimmen sich bewegen und welcher Klang folgt, ist aus dem jeweiligen Modell zu lesen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · kleine None über der Moll-Dominante",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 8, „Dominantseptnonakkord“",
+              "note": "Die Signatur zeigt ♭9/7/5/3; der Text nennt ausdrücklich die fünfte Stufe in Moll. Beide Fortschreitungsmodelle und das daneben stehende gemeinsame Tonmaterial wurden im deutschen und englischen Notenbild geprüft."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=26"
         }
       ],
       "relations": []
@@ -37500,7 +38774,8 @@ const ATLAS = {
         "tonwiederholung",
         "stimmkreuzung",
         "satzmedium",
-        "offene-partitur-schluessel"
+        "offene-partitur-schluessel",
+        "generalbass-haupt-fuellstimmen"
       ],
       "comparisons": [],
       "authors": [
@@ -37930,6 +39205,50 @@ const ATLAS = {
           "examples": [
             "york-orgelpunkt"
           ]
+        },
+        {
+          "id": "weber2018-late-14",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 27 · Grundformel und dominantische Erweiterungen",
+          "text": "Webers Grundformel lässt den Basston liegen, während die Begleitung die Funktionen Tonika, Subdominante, Dominante und Tonika durchläuft. Im Durmodell stehen dabei unter anderem 6/4 und 7/4/2; in Moll ist das siebte Intervall über dem Bass erhöht. Eine Erweiterung betrifft die Füllung des Dominantklangs: Mit einer hinzugefügten Quinte ergeben die Oberstimmen einen vollständigen Dominantseptakkord, mit der Sexte einen verminderten Septakkord mit zusätzlichem Leitton. Weber nennt diesen zweiten Fall auch in Dur eine Moll-Anleihe. Die wechselnden Ziffern beschreiben also einen bewegten harmonischen Zusammenhang über dem festgehaltenen Bass.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · harmonische Grundformel über einem Orgelpunkt",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 27 · Grundformel und dominantische Erweiterungen",
+              "note": "Grundformel und Erweiterungen a/b auf PDF 64–65. Die Quinte und Sexte sind im Notenbild ausdrücklich eingekreist; die Gleichsetzungen mit Dominantseptakkord und vermindertem Septakkord stehen im Text. Gemeint sind Begleitintervalle über dem gehaltenen Bass, keine Änderung seines Tons. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=64"
+        },
+        {
+          "id": "weber2018-late-15",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 27 · 7–6-Kette, Vorhalte und Durchgänge über gehaltenem Bass",
+          "text": "Über einem Orgelpunkt müssen die Oberstimmen nicht in unveränderten Griffen verharren. Weber zeigt eine 7–6-Kette über liegendem Bass, Vorhalte zwischen den Oberstimmen und zusätzliche Durchgänge. Die Bezifferung erfasst dabei auch Bewegungen, deren unmittelbarer Dissonanzbezug zwischen zwei oberen Stimmen liegt. Als weitere Beispiele folgen von Weber ausdrücklich mit den Einleitungen der Johannes-Passion und Matthäus-Passion verbundene g-Moll- beziehungsweise e-Moll-Modelle. Beim Lesen sind deshalb der konstante Basston, die einzelnen oberen Bewegungen und die daraus entstehenden wechselnden Intervalle getrennt zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · bewegte Oberstimmen über Orgelpunkt und Bach-Beispiele",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 27 · 7–6-Kette, Vorhalte und Durchgänge über gehaltenem Bass",
+              "note": "Alle Abschnitte ab „Beispiele für weitere Signaturen“ auf PDF 64–65 wurden gelesen, einschließlich der letzten beiden Systeme. Die Bezeichnungen Johannes-Passion/g-Moll und Matthäus-Passion/e-Moll folgen Webers eigener Zuordnung; keine Taktzahlen oder vollständige Werkanalyse werden ergänzt. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=64"
         }
       ],
       "relations": []
@@ -38123,7 +39442,8 @@ const ATLAS = {
         "generalbass-bezifferung-stimmfuehrung",
         "generalbass-akkordnamen",
         "generalbass-sextakkord",
-        "generalbass-stimmenzahl"
+        "generalbass-stimmenzahl",
+        "generalbass-haupt-fuellstimmen"
       ],
       "comparisons": [],
       "authors": [
@@ -38189,9 +39509,72 @@ const ATLAS = {
           },
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=20"
+        },
+        {
+          "id": "weber2018-open-septima-in-transitu",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 4 · Septima in transitu",
+          "text": "Eine einzelne 7 bezeichnet bei Weber nicht immer den gewöhnlichen Septakkord mit Terz und Quinte. Bei der Septima in transitu wird sie mit Terz und Quarte ergänzt. Der Bass steigt als Durchgang; seine Terz geht parallel mit, während Quinte und Oktave des vorausgehenden Dreiklangs liegen bleiben. Durch die veränderte Basslage werden die gehaltenen Töne nun als Quarte und Septime gelesen. Weber grenzt diesen Vorgang ausdrücklich vom Septakkord mit 5/3 ab. Für die Aussetzung müssen deshalb der vorausgehende Klang und die Bassbewegung mitgelesen werden, bevor man die fehlenden Intervalle ergänzt.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Steigender Bassdurchgang · Septima in transitu",
+            "evidence": {
+              "basis": "book",
+              "locator": "Vorwort, S. i; Teil A, S. 4 · Septima in transitu",
+              "note": "Die Gruppe 7/4/3, die gehaltenen Stimmen und die parallele Terz sind im Text und im ausgeschriebenen Beispiel geprüft. Die Quelle verweist dazu auf Heinichen und Matthesons Gegenposition. Das Vorwort begrenzt das behandelte Vokabular auf die Musik der ersten Hälfte des 18. Jahrhunderts."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=18",
+          "examples": [
+            "weber-septimen"
+          ]
+        },
+        {
+          "id": "weber2018-middle-sieben-sechs-fuellstimmen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil A, S. 11, „Füllstimmen zu 7–6, weitere Möglichkeiten“",
+          "text": "Weber zeigt für die Folge 7–6 mehrere zusätzliche Besetzungen. Einige Modelle verbinden sie mit einer liegenbleibenden Quinte und Terz: Während die Septime zur Sexte geht, bleiben diese Füllstimmen bestehen. Andere verwenden eine Quarte, teils erhöht, oder verändern eine anfängliche Quinte zur Quarte im Verlauf der Figur. Auch die anschließende Bassbewegung gehört zum Modell. Deshalb kann die Folge 7–6 nicht in jedem Zusammenhang auf eine einzige Ergänzung reduziert werden. Beim Üben sind der bewegte Septimenton, die gehaltenen oder mitbewegten Füllstimmen und der nächste Bassschritt getrennt zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · verschiedene Begleitintervalle zu 7–6",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil A, S. 11, „Füllstimmen zu 7–6, weitere Möglichkeiten“",
+              "note": "Die gesamte untere Tafel wurde vergrößert geprüft. In der oberen Reihe stehen ausdrücklich 7–6 mit gehaltenem 5/3 sowie 7–♯6 mit gehaltenem 5/3. Die Aussage wird als zusätzliche Modellpalette formuliert, nicht als Standardergänzung jeder unbezifferten Septime."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=32",
+          "examples": [
+            "weber-vorhaltskombinationen"
+          ]
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "from": "weber2018-open-septima-in-transitu",
+          "to": "kittel2019-middle-septimen-fuellstimmen",
+          "type": "context",
+          "note": "Kittels Grundregel ergänzt eine isolierte Septime mit Terz und Quinte und verändert die Füllung bei aufeinanderfolgenden Septimen. Webers Septima in transitu ist ausdrücklich ein anderer Entstehungsfall: Ein steigender Bass und eine parallele Terz bewegen sich unter liegenbleibenden Stimmen, sodass 7/4/3 entsteht. Die Quinte darf deshalb nicht allein aufgrund derselben Ziffer 7 ergänzt werden."
+        },
+        {
+          "from": "kittel2019-late-05",
+          "to": "weber2018-middle-sieben-sechs-fuellstimmen",
+          "type": "nuance",
+          "note": "Kittels knappe Anmerkung zur Folge 7–6 verlangt die Oktave und schließt die Quinte als Ergänzung aus. Weber stellt ausdrücklich weitere, harmonisch bestimmte Modelle vor, darunter 7–6 mit liegenbleibender Quinte und Terz. Damit ist Kittels Ergänzung nicht auf jede mögliche 7–6-Figur übertragbar; Webers Beispiele formulieren ihrerseits keine neue einzige Standardergänzung."
+        }
+      ]
     },
     {
       "id": "choral-zwischenspiel",
@@ -38237,6 +39620,602 @@ const ATLAS = {
           ],
           "work": "Generalbass Schule. Herausgegeben und ins Englische übersetzt von Derek Remeš (ZGMTH 16/2, 2019, S. 143–165)",
           "url": "https://storage.gmth.de/zgmth/pdf/1013#page=18"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-schrittgaenge",
+      "title": "Wie wird ein schrittweise geführter Bass harmonisiert?",
+      "group": "Generalbass",
+      "tags": [
+        "Bassgang",
+        "Sekunde",
+        "Terzgang",
+        "Quartgang",
+        "Leitton",
+        "Bezifferung"
+      ],
+      "reading": "Bestimme zuerst Richtung, Schrittgröße und Ziel des Bassganges. Vergleiche dann die Intervalle über den Basstönen und ihre zeitliche Folge. Derselbe Bassumriss kann verschiedene Stimmenwege tragen; kurze Modelle und Oktavregeln ergänzen einander.",
+      "readingSources": [
+        "weber2018"
+      ],
+      "related": [
+        "generalbass-bassspruenge",
+        "generalbass-rueckung",
+        "generalbass-oktavregel",
+        "sequenzmodell",
+        "generalbass-bezifferung-stimmfuehrung",
+        "lamento-bass"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "weber2018-middle-sekunde-aufwaerts",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 13, „Aufsteigende Sekunde“, Gasparini-Modell und Halbtonschritte",
+          "text": "Für den aufsteigenden Bass zeigt Weber zunächst ein Gasparini-Modell mit wiederholter 5–6-Bewegung über den einzelnen Basstönen. Den halbtönigen Aufstieg behandelt er gesondert als Leittonschritt, der natürlich in der Tonart liegen oder durch ein Vorzeichen entstehen kann. Über der ersten Bassnote steht dann eine kleine Sexte. Diese lässt sich mit der verminderten Quinte verbinden, entweder nacheinander als 6–5 oder gleichzeitig als 6/5. Zum Üben sollte deshalb zuerst die Größe des Bassschritts und seine lokale Leittonfunktion bestimmt werden. Die zusätzlichen Intervalle sind keine beliebige Ausschmückung jeder steigenden Sekunde.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · steigender Bassgang und lokale Leittöne",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 13, „Aufsteigende Sekunde“, Gasparini-Modell und Halbtonschritte",
+              "note": "Die erste Bassskala, sämtliche Halbtonpaare und die Folge mit nacheinander beziehungsweise gleichzeitig gesetzter Sexte und verminderter Quinte wurden im Notenbild gelesen. Die Passage sagt ausdrücklich „naturale, o accidentale“; dies wird nicht mit einer festen globalen Tonartstufe verwechselt."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=36",
+          "examples": [
+            "weber-schrittgaenge"
+          ]
+        },
+        {
+          "id": "weber2018-middle-sekunde-grosse-terz",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 13, aufsteigende Sekunde mit großer Terz; Trugschlussmodelle und chromatischer Gang",
+          "text": "Hat die erste Note des aufsteigenden Bassschritts eine große Terz über sich, erhält die zweite in Webers erster Modellgruppe eine Sexte. Eine andere Verbindung setzt schon über die erste Bassnote Sexte und große Terz und führt danach zur Quinte; Weber nennt diesen Weg Trugschluss. Der Unterschied liegt also nicht allein in den zwei Basstönen, sondern in den hinzugenommenen Intervallen und ihrer Führung. Die anschließende chromatische Basslinie wird entsprechend mit mehreren Bezifferungen angeboten. Ein chromatisch steigender Bass legt weder für jede Note denselben Griff noch eine einzige Folge von Akkordnamen fest.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · alternative Harmonisierung eines steigenden Bassschritts",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 13, aufsteigende Sekunde mit großer Terz; Trugschlussmodelle und chromatischer Gang",
+              "note": "Die beiden Gruppen sind durch „bei grosser 3“ und „oder“ ausdrücklich unterschieden. Die untere chromatische Zeile enthält mehrere alternative Bezifferungsreihen; aus ihnen wird keine obligatorische durchgehende Harmonisierung konstruiert."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=36",
+          "examples": [
+            "weber-schrittgaenge"
+          ]
+        },
+        {
+          "id": "weber2018-middle-sekunde-abwaerts",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 14, „Absteigende Sekunde“, Gasparini-Modell und Kadenzpaare",
+          "text": "Den absteigenden Bass verbindet Weber in einem Gasparini-Modell zunächst mit 5–6, anschließend wiederholt mit 7–6. Daneben stellt er zwei fallende Kadenzschritte gegenüber: die tenorisierende und die phrygische Wendung. Für deren vorletzte Bassnote nennt er dieselben Möglichkeiten 5–6, 6 oder 7–6. Die Ziffernfolge allein entscheidet daher nicht über den Kadenztyp; auch die Größe und tonale Stellung des Bassschritts ist zu hören. Weitere Reihen zeigen, wie solche Schritte zu Terz-, Quart-, Quint- und Sextgängen zusammengeschlossen werden. Der Umfang des Ganges bezeichnet dabei die durchschrittene Strecke, keinen Basssprung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · fallender Bassgang und seine Schlusswendung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 14, „Absteigende Sekunde“, Gasparini-Modell und Kadenzpaare",
+              "note": "Die Kadenzpaare und die unter ihnen stehende gemeinsame Liste wurden visuell verglichen. Die Unterscheidung Gang/Sprung entspricht Webers Terminologie auf S. 31; die Antwort übernimmt keine über den gezeigten Bassschluss hinausgehende Klauseldefinition."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=38"
+        },
+        {
+          "id": "weber2018-middle-terzgang",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 14, „Terzgang“, kleine und große Terz; Vergleich mit Quartgang",
+          "text": "Beim Terzgang unterscheidet Weber den schrittweisen Abstieg durch eine kleine von dem durch eine große Terz. Als charakteristischen Klang nennt er im ersten Fall die erhöhte Quarte, im zweiten die erniedrigte Sekunde; die vollständigen Figuren verbinden diese Töne mit weiteren Intervallen. Beim anschließenden Sextgriff soll die Quarte normalerweise entfallen. Solche Terzgänge können zu einem Terzenzirkel sequenziert werden oder eine 6/4/2-Sequenz abschließen. Der Vergleich mit dem längeren Quartgang zeigt, dass sich dieselbe anfängliche Bassbewegung je nach Ziel anders beziffern lässt: Die voraussichtliche Fortsetzung ist Teil der Harmonisierung.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Zielrichtung eines fallenden Terzganges",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 14, „Terzgang“, kleine und große Terz; Vergleich mit Quartgang",
+              "note": "Die Klammern über den Bassnoten markieren den jeweils durchschrittenen Terzraum, nicht einen Sprung. Die Schlüsselintervalle ♯4 und ♭2 sowie der Sternhinweis „normalerweise ohne 4“ wurden im vergrößerten Notenbild gelesen. Der Vergleich darunter unterscheidet ausdrücklich große und gewöhnliche Sexte."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=38"
+        },
+        {
+          "id": "weber2018-middle-quartgang",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 15, „Quartgang“, diatonische Modellreihen",
+          "text": "Ein Quartgang führt den Bass schrittweise durch den Raum einer fallenden Quarte. Weber beginnt mit Dur, einer als dorisch bezeichneten Variante und Moll; die unterschiedlichen Halbtonlagen verändern die erforderlichen Vorzeichen und Sexten. An bezeichneten Stellen bietet er entweder den einfachen Sextgriff oder 6/4/3 an. Weitere Fassungen fügen eine Secunda in transitu ein oder verwenden den Tritonusklang der von ihm sogenannten Bachschen Oktavregel. Der gleichbleibende Bassumriss erlaubt also mehrere konkrete Stimmführungen. Zum Vergleich sind zunächst die Bassnoten und ihr Ziel festzuhalten, danach die Unterschiede zwischen den Intervallgruppen zu verfolgen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · diatonischer Abstieg durch eine Quarte",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 15, „Quartgang“, diatonische Modellreihen",
+              "note": "Alle fünf diatonischen Modellzeilen einschließlich der länger ausgebauten letzten Fassung wurden gelesen. Der Stern auf der ersten Zeile bedeutet ausdrücklich 6 oder 6/4/3; „dorisch“ und „Bachsche OR“ bleiben Webers Bezeichnungen, keine hier neu behaupteten historischen Urheberschaften."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=40"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-bassspruenge",
+      "title": "Wie beeinflussen Basssprünge die Bezifferung?",
+      "group": "Generalbass",
+      "tags": [
+        "Basssprung",
+        "Terz",
+        "Quarte",
+        "Quinte",
+        "Bezifferung",
+        "Kadenz",
+        "Leitton"
+      ],
+      "reading": "Bestimme zuerst das Sprungintervall und seine Richtung. Lies anschließend die vorausgehende Bezifferung und die nächste Bassbewegung: Gehört der Sprung zu einer Kadenz, einer Sequenz oder zum Beginn einer neuen Phrase?",
+      "readingSources": [
+        "weber2018"
+      ],
+      "related": [
+        "generalbass-schrittgaenge",
+        "generalbass-oktavregel",
+        "generalbass-bezifferung-stimmfuehrung",
+        "sequenzmodell",
+        "kadenz",
+        "sprung-zum-leitton"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "weber2018-late-01",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 19 · steigende Terz: Gasparinis Grundregel und ihre Bedingungen",
+          "text": "Bei einer steigenden großen oder kleinen Terz erhält die erreichte Bassnote nach der von Weber zitierten Gasparini-Regel gewöhnlich eine Sexte. Muss bereits die erste Note eine Sexte tragen, bekommt die zweite dagegen eine Quinte. Eine weitere Bedingung betrifft den erhöhten Zielton: Steht dort ein Kreuz, verlangt Gasparini die Sexte, während über der vorhergehenden Bassnote eine große Terz steht. Das Sprungintervall allein bestimmt die Begleitung somit nicht. Die bereits gegebene Bezifferung und die chromatische Form des Zieltons müssen mitgelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Bezifferung einer aufsteigenden Bass-Terz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 19 · steigende Terz: Gasparinis Grundregel und ihre Bedingungen",
+              "note": "Die ersten drei Gasparini-Zitate und sämtliche unmittelbar zugeordneten Bassbeispiele wurden mit der englischen Fassung auf PDF 49 verglichen. Die Regeln werden als von Weber wiedergegebene Gasparini-Aussagen kenntlich gemacht. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=48"
+        },
+        {
+          "id": "weber2018-late-02",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 19 · steigende Terz vor Kadenzsprung oder fortgesetzter Sprungkette",
+          "text": "Auf eine steigende Terz kann ein Kadenzsprung folgen: eine Quinte abwärts oder Quarte aufwärts. Für diesen Zusammenhang zitiert Weber Gasparinis Anweisung, der ersten Note eine natürliche Sexte und der zweiten eine große Terz zu geben. Folgen dagegen zwei oder mehr steigende Quarten beziehungsweise fallende Quinten, nennt das nächste Zitat einfache Konsonanzen ohne zusätzliche Akzidentien. Schon der Umfang der Fortsetzung verändert also die Behandlung. Die große Terz des einzelnen Kadenzsprungs darf nicht ohne Prüfung über eine ganze Sprungkette fortgeschrieben werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · aufsteigende Terz zwischen Kadenz und Sprungkette",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 19 · steigende Terz vor Kadenzsprung oder fortgesetzter Sprungkette",
+              "note": "Die beiden abschließenden Gasparini-Zitate zur steigenden Terz und ihre unterschiedlichen Bassfortsetzungen sind auf PDF 48–49 sichtbar. „Natürliche Sexte“ und der Verzicht auf zusätzliche Akzidentien bleiben auf die jeweils beschriebene Bedingung begrenzt. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=48"
+        },
+        {
+          "id": "weber2018-late-03",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 21 · fallende Terz: anschließender Schritt, Sprung und liegenbleibende rechte Hand",
+          "text": "Nach der bei Weber wiedergegebenen Gasparini-Regel hängt eine fallende Terz auch von der nächsten Bassbewegung ab. Trägt die erste Note einfache Konsonanzen, erhält die zweite eine Sexte, wenn anschließend ein Schritt folgt; geht es mit einem Sprung weiter, bleiben einfache Konsonanzen vorgesehen. Eine andere Ausgangslage entsteht, wenn schon die erste Bassnote eine Sexte trägt: Dann bekommt die zweite die einfachen Konsonanzen, und Gasparini verlangt ausdrücklich keine Bewegung der rechten Hand. Ein veränderter Basston kann hier also die neue Intervallstellung unter denselben oberen Tönen herstellen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · fallender Terzsprung und folgende Bassbewegung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 21 · fallende Terz: anschließender Schritt, Sprung und liegenbleibende rechte Hand",
+              "note": "Erstes und viertes Gasparini-Zitat sowie ihre Basszeilen wurden auf PDF 52–53 vollständig gelesen. Die liegenbleibende rechte Hand ist ausdrücklicher Bestandteil des Zitats und keine nachträglich erfundene Aussetzungsregel. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=52"
+        },
+        {
+          "id": "weber2018-late-04",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 21 · fallende Terz mit großer Begleitterz und Neubeginn nach einer Kadenz",
+          "text": "Eine große Terz über der ersten Bassnote verschärft bei Gasparini die Sextforderung für den folgenden Terzfall. Weber zitiert sie als ausnahmslos für den fallenden großen Terzsprung; beim kleinen kann die weitere Bewegung auch eine Quinte zulassen. Davon wird ein Phrasenwechsel unterschieden: Ruht die Musik kadenzartig auf einem Klang mit großer Terz und beginnt eine Terz tiefer neu, soll dort eine Quinte stehen. Gasparini verbindet diesen Fall mit fragenden oder ausrufenden Vokalphrasen sowie Stilo grave und Rezitativ. Ein solcher Neubeginn wird deshalb anders gelesen als die gewöhnliche Fortsetzung innerhalb eines Bassgangs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Terzfall innerhalb einer Phrase oder nach kadenzartigem Stillstand",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 21 · fallende Terz mit großer Begleitterz und Neubeginn nach einer Kadenz",
+              "note": "Zweites und drittes Gasparini-Zitat auf PDF 52–53. Die Hinweise auf Vokalmusik, Stilo grave und Rezitativ stammen aus dem von Weber wiedergegebenen Text; keine konkrete Oper, Kantate oder Besetzung wird ergänzt. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=52"
+        },
+        {
+          "id": "weber2018-late-05",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 21–22 · Quartfall als plagale Kadenz und als Sequenz",
+          "text": "Weber unterscheidet beim fallenden Quartsprung beziehungsweise steigenden Quintsprung die plagale Kadenz von der Sequenz. Für lange Bassnoten von einem oder einem halben Takt zitiert er Gasparinis Kirchenmusik-Regel: Auf dem ersten Basston geht die Begleitung von Terz und Quinte zu Quarte und großer Sexte über; danach erfolgt der Sprung. Die Notenbeispiele zeigen somit auch Bewegung über dem noch liegenden Bass. Daneben stehen Quartfallsequenzen und historische Beispiele, unter anderem nach Durante, Mattheson und Muffat. Die Kadenzanweisung für lange Noten ist keine pauschale Bezifferung sämtlicher Quartfälle.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Quartfall in plagaler Kadenz und Sequenz",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 21–22 · Quartfall als plagale Kadenz und als Sequenz",
+              "note": "PDF 52–55 einschließlich der vollständigen Kadenz- und Sequenzzeilen. „Gebundene siesse Quart“ gehört auf S. 22 zu Muffat; die andere längere Quelle wird ausdrücklich nur Bach zugeschrieben. Diese Zuschreibung wird nicht verstärkt. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=52"
+        },
+        {
+          "id": "weber2018-late-08",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 23–24 · Quintfall: einfache Konsonanzen, Septimen und Terzform",
+          "text": "Ein Quintfall verlangt bei Weber nicht automatisch einen Septakkord: Für die Sequenz nennt er 5/3, 7 und 8–7 als gebräuchliche Möglichkeiten. Das anschließend zitierte Gasparini-Modell versieht dagegen alle Glieder außer dem ersten und letzten mit Septimen. Jede soll aus dem vorhergehenden Klang gebunden eintreten; dessen Terz wird zur Septime des nächsten. Auch die Terzform braucht den Zusammenhang: Weber unterscheidet die tonale Terz innerhalb der Sequenz von der großen Terz in der Kadenz. Die Sprungfolge, die Dissonanzeinführung und die Schlussfunktion wirken bei der Bezifferung zusammen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · Quintfallsequenz und authentischer Kadenzsprung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 23–24 · Quintfall: einfache Konsonanzen, Septimen und Terzform",
+              "note": "Die Figurenliste auf PDF 56 und das Gasparini-Zitat mit beiden Basszeilen auf PDF 58–59 wurden visuell geprüft. Die Septimenkette ist eine von mehreren Behandlungen, nicht die Definition jedes Quintfalls. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=56"
+        },
+        {
+          "id": "weber2018-late-11",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 25 · verminderte Terz zwischen zwei Leittönen zur Dominante",
+          "text": "Weber erklärt die verminderte Terz im Bass als Verbindung der beiden Leittöne zur Dominante: von der erniedrigten sechsten zur erhöhten vierten Stufe. Sein ausgeschriebener Bass zeigt es–cis–d. Der Sprung führt somit zunächst vom oberen Nachbarton des Dominanttons zu dessen unterem Leitton und erst anschließend auf das gemeinsame Ziel. Daneben steht ein von Weber Bach zugeordnetes melodisches Beispiel. Für das Lesen zählt die gerichtete Verbindung beider Töne; der auffällige Intervallname allein erklärt noch nicht die Funktion des Sprungs.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · verminderter Terzsprung vor der Dominante",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 25 · verminderte Terz zwischen zwei Leittönen zur Dominante",
+              "note": "Die Bassnoten es–cis–d und ihre Bezifferung wurden in vierfacher PDF-Skalierung überprüft. Weber bezeichnet das benachbarte Beispiel nur mit „Bach“; ein Werk, Instrument oder Takt wird deshalb nicht ergänzt. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=60"
+        },
+        {
+          "id": "weber2018-late-12",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 25 · verminderte Quarte in verschiedenen tonalen Fortsetzungen",
+          "text": "Bei der verminderten Quarte stellt Weber verschiedene Fortsetzungen desselben Intervalltyps nebeneinander. Der absteigende Sprung erscheint sowohl in einer als diatonisch bezeichneten Verbindung als auch in Wendungen zur Mollparallele. Die folgende Bassbewegung und Kadenz machen den jeweiligen Tonartbezug hörbar. Aufwärts nennt Weber außerdem den Absprung in die dritte statt in die erste Stufe einer Molltonart. Die Beispiele legen deshalb keine einzige Bedeutung für das Intervall fest. Seine Richtung, die Ziffern und das anschließend bestätigte Ziel müssen zusammen gelesen werden.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · verminderte Quarte und tonaler Zusammenhang",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 25 · verminderte Quarte in verschiedenen tonalen Fortsetzungen",
+              "note": "Alle vier absteigenden und das aufsteigende Modell unter „verminderte Quarte“ auf PDF 60–61 wurden visuell gelesen. Die Antwort folgt den gedruckten Bezeichnungen diatonisch, modulierend zur Mollparallele und Absprung in die dritte Stufe. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=60"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-rueckung",
+      "title": "Wie wird eine chromatische Rückung im Generalbass beziffert?",
+      "group": "Generalbass",
+      "tags": [
+        "Rückung",
+        "Chromatik",
+        "verminderter Septakkord",
+        "Oktavregel",
+        "Bassstufe",
+        "Bezifferung"
+      ],
+      "reading": "Verfolge in Webers Modellen zunächst den chromatischen Halbton im Bass. Ordne den beiden Tönen ihre Ziffern zu und prüfe dann den lokalen Bezug auf Tonika, Dominante oder Subdominante. Vergleiche diese Klangverschiebung mit der enharmonischen Lesart eines unveränderten Tastengriffs.",
+      "readingSources": [
+        "weber2018"
+      ],
+      "related": [
+        "chromatik",
+        "generalbass-oktavregel",
+        "generalbass-schrittgaenge",
+        "generalbass-bezifferung-stimmfuehrung",
+        "harmonik-enharmonische-spannung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "weber2018-late-16",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 28 · Rückung auf vierter, sechster und siebter Bassstufe",
+          "text": "Mit Rückung bezeichnet Weber hier die Verschiebung eines verminderten Septakkords oder seiner Umkehrungen über einem chromatischen Halbton im Bass. Seine Tabelle ordnet die Modelle der vierten, sechsten und siebten Stufe zu und unterscheidet jeweils eine reguläre, als naturalis bezeichnete Form von einer akzidentalen. Die nebeneinander stehenden Fassungen zeigen, wie diese Veränderung in einen größeren Bassgang eingebunden werden kann. Für die Aussetzung müssen somit sowohl die chromatische Bassbewegung als auch die dazugehörigen veränderten Intervalle erfasst werden; der verminderte Septakkord ist nicht in jeder Stellung mit derselben Zifferngruppe bezeichnet.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · chromatische Rückung verminderter Septakkorde",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 28 · Rückung auf vierter, sechster und siebter Bassstufe",
+              "note": "Die Definition und alle drei Tabellenblöcke auf PDF 66–67 wurden vollständig visuell gelesen. „Rückung“ wird im hier ausdrücklich festgelegten Sinn Webers verwendet; keine allgemeine moderne Modulationstheorie wird unterstellt. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "examples": [
+            "weber-rueckung"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=66"
+        },
+        {
+          "id": "weber2018-late-17",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil B, S. 28a · Bezifferung durch erweiterte Oktavregel und lokalen Tonartbezug",
+          "text": "Für die Bezifferung einer Rückung verweist Weber bei leitereigenen Stufen auf die erweiterte Oktavregel. Akzidentale Stufen können auf Dominante oder Subdominante bezogen und entsprechend harmonisiert werden: Die erhöhte sechste Stufe lässt sich wie eine zweite Stufe zur Dominante lesen, die mit Auflösungszeichen bezeichnete siebte wie eine vierte zur Subdominante. In Zweifelsfällen empfiehlt Weber der Tonart nahe Vorzeichen. Seine weiteren Modelle unterscheiden einfache, zweifache und dreifache Rückungen. Die Anzahl der Verschiebungen ersetzt also nicht die Prüfung des jeweiligen lokalen Bezugs und der korrekten Intervallzeichen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Generalbass · lokale Bezugsstufen bei einfacher und mehrfacher Rückung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Vorwort, S. i; Teil B, S. 28a · Bezifferung durch erweiterte Oktavregel und lokalen Tonartbezug",
+              "note": "PDF 68–69 vollständig gelesen. Die Zeichen ♯6 und ♮7 sowie der Verweis auf ♯6/♭5 wurden im vergrößerten deutschen Text geprüft. Die Formulierung „mit Auflösungszeichen bezeichnete siebte“ vermeidet eine Verwechslung von ♮7 mit ♭7 oder mit Webers technischem naturalis-Begriff. Der Stilrahmen folgt Webers ausdrücklicher Ausrichtung auf das kontrapunktisch-harmonische Vokabular der ersten Hälfte des 18. Jahrhunderts im Vorwort, nicht dem Erscheinungsjahr 2018."
+            }
+          },
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)",
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=68"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "generalbass-haupt-fuellstimmen",
+      "title": "Welche Stimmen bilden im Generalbass den kontrapunktischen Kern?",
+      "group": "Generalbass",
+      "tags": [
+        "Generalbass",
+        "Hauptstimme",
+        "Füllstimme",
+        "Signatur",
+        "Heinichen",
+        "Mattheson"
+      ],
+      "reading": "Trenne in einer Bezifferung die charakteristischen Intervalle und Stimmenwege von den hinzukommenden Füllintervallen. Prüfe dann in der jeweiligen Quelle, welche Ergänzungen verlangt werden und welche ausdrücklich entfallen dürfen. Eine Füllstimme ist nicht allein durch ihren Namen beliebig weglassbar.",
+      "readingSources": [
+        "weber2018"
+      ],
+      "related": [
+        "generalbass-stimmenzahl",
+        "generalbass-septakkord-fuellstimmen",
+        "generalbass-bezifferung-stimmfuehrung",
+        "innenstimmen-melodiefuehrung"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "weber2018-term-haupt-und-fuellstimmen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 32, „Haupt- und Füllstimmen“",
+          "text": "Weber erklärt die historische Trennung von Haupt- und Füllstimmen vom kontrapunktischen Kern aus. Seine Beispiele beziehen eine charakteristische Gegenstimme auf den Bass: Beim Septimengriff bildet die 7 die Hauptstimme, während 5 und 3 als Füllstimmen erscheinen; beim zweiten Beispiel wird der Weg 4–3 hervorgehoben. Die Hauptstimmen bestimmen die Bezeichnung des Zusammenhangs und werden beziffert. Die übrigen Stimmen ergänzen ihn dem harmonischen Sinn entsprechend. Weber stellt dafür auch Heinichens Wörter domina und ancilla den Bezeichnungen Matthesons gegenüber. Gemeint sind unterschiedliche Aufgaben innerhalb des Satzes, keine allgemeine Erlaubnis zum Weglassen aller Füllstimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Generalbassperspektive · charakteristische Stimmen und harmonische Füllung",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 32, „Haupt- und Füllstimmen“",
+              "note": "Die Beschreibung bleibt bei Webers ausdrücklich als historisch eingeführtem Modell und seinen zwei Beispielen. Sie begrenzt einen mehrstimmigen Satz nicht allgemein auf genau eine Hauptgegenstimme. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=76",
+          "examples": [
+            "weber-haupt-fuellstimmen"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
+        },
+        {
+          "id": "weber2018-term-heinichen-tabelle",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Anhang, S. 36 · Heinichens Signaturentabelle zu S. 256, § 96",
+          "text": "Die von Weber wiedergegebene Tabelle Heinichens ergänzt die charakteristischen Ziffern um die zugehörigen weiteren Stimmen. Gesucht wird eine Zifferngruppe unter ihrer größten Zahl: 9/4 steht beispielsweise unter 9. Für alterierte Signaturen soll man die entsprechende nicht alterierte Zahlengruppe heranziehen, um die zusätzlichen Stimmen zu finden. Ein Stern kennzeichnet bestimmte Stimmen, die beim vierstimmigen Accompagnement nicht zwingend erforderlich sind und entfallen können, wenn sie nicht bequem in die Hände fallen. Diese ausdrückliche Markierung begründet die jeweilige Auslassung; sie betrifft nicht unterschiedslos sämtliche Füllstimmen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Generalbasstabelle · Ergänzungsintervalle und ausdrücklich optionale Stimmen",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang, S. 36 · Heinichens Signaturentabelle zu S. 256, § 96",
+              "note": "Tabelle und deutsche Erläuterungen Nr. 1–3 wurden zusammen visuell gelesen. Das Nachschlagen ohne Vorzeichen betrifft die Zuordnung der Nebenstimmen und entfernt keine Vorzeichen aus der tatsächlich zu spielenden Signatur. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=84",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
+        },
+        {
+          "id": "weber2018-term-mattheson-tabelle",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Anhang, S. 37 · Matthesons Signaturen-Tabelle, Kleine General-Baß-Schule, S. 136, § 8",
+          "text": "Matthesons von Weber abgedruckte Tabelle trennt die Generalbasssignaturen von den zugehörigen Füllstimmen und ordnet die Kombinationen nach Intervallgruppen. Ihre siebzig Signaturen werden ausdrücklich nicht als abgeschlossener Vorrat ausgegeben. Der beigegebene Kommentar versteht die Zusammenstellung als Sammlung der bekannten gewöhnlichen und ungewöhnlichen Verbindungen; weitere Erfindungen und Mischungen bleiben möglich. Für das Lesen bedeutet das: Die Tabelle erklärt eine historische Zuordnung von Hauptangaben und Ergänzungen. Sie ist keine Behauptung, außerhalb ihrer Spalten könne kein weiterer Generalbassklang vorkommen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Generalbasstabelle · Signatur und Füllstimmen als offener Katalog",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Anhang, S. 37 · Matthesons Signaturen-Tabelle, Kleine General-Baß-Schule, S. 136, § 8",
+              "note": "Die Zahl siebzig und die Öffnung für weitere Kombinationen stehen in Matthesons beigegebenem § 8. Daraus wird keine pauschale musikalische Erlaubnis für jede denkbare Ziffernmischung abgeleitet. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=86",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "historische-intervallnamen",
+      "title": "Wie lese ich historische Namen für Halbtöne und alterierte Intervalle?",
+      "group": "Generalbass",
+      "tags": [
+        "Halbton",
+        "semitonium",
+        "Falsae",
+        "Alteration",
+        "Intervallnamen",
+        "Generalbass"
+      ],
+      "reading": "Vergleiche eine übermäßige Prime mit einer kleinen Sekunde. Unterscheide zunächst die Schreibweise des Intervalls und dann die Stellung eines Tons in der Skala. Welche historische Benennung beschreibt die Intervallart, welche die Leittonfunktion?",
+      "readingSources": [
+        "weber2018"
+      ],
+      "related": [
+        "chromatik",
+        "dissonanzbehandlung",
+        "leittonaufloesung",
+        "generalbass-ziffern-stufen"
+      ],
+      "comparisons": [],
+      "authors": [
+        {
+          "id": "weber2018-term-falsae",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 31, „Falsae“ · Heinichen-Zitat, S. 225–226",
+          "text": "Weber erläutert Falsae durch ein Zitat Heinichens: Gemeint sind übermäßige und verminderte Intervalle, für die auch die Wörter superfluae und deficientes stehen. Seine anschließende Liste nennt übermäßige Sekunden, Quarten, Quinten und Sexten sowie verminderte Terzen, Quarten, Quinten und Septimen. Heinichens Beschreibung ihrer Härte bezieht ausdrücklich die mögliche Vermittlung durch andere Stimmen ein. Die Passage benennt damit eine historische Intervallklasse; sie gibt an dieser Stelle keine einheitliche Einsatzregel für sämtliche genannten Intervalle.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Intervallnamen · Heinichens Falsae im Generalbass",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 31, „Falsae“ · Heinichen-Zitat, S. 225–226",
+              "note": "Liste und Zuschreibung wurden am deutschen Druckbild geprüft. Die Bemerkung zur Härte wird nicht in ein Verbot aller verminderten oder übermäßigen Intervalle umgedeutet. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=74",
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
+        },
+        {
+          "id": "weber2018-term-halbtonnamen",
+          "source": "weber2018",
+          "name": "Hans Peter Weber",
+          "locator": "Teil C, S. 32, „zur Intervalllehre“",
+          "text": "Webers Übersicht unterscheidet die historischen Halbtonnamen nach ihrer Schreibweise: semitonium minor oder minus bezeichnet das chroma, den chromatischen Halbton als übermäßige Prime; semitonium major oder majus bezeichnet den diatonischen Halbton als kleine Sekunde. Davon ist semitonium modi zu unterscheiden. Dieser Ausdruck benennt den Leitton der Tonart, also ihre gegebenenfalls erhöhte siebte Stufe. Beim Lesen sind somit die Intervallbezeichnung und die Funktion eines Tons in seiner Skala getrennt zu prüfen.",
+          "speciesScope": [],
+          "context": {
+            "styles": [
+              "baroque"
+            ],
+            "reach": "specific",
+            "frame": "Historische Intervallterminologie · chromatischer und diatonischer Halbton",
+            "evidence": {
+              "basis": "passage",
+              "locator": "Teil C, S. 32, „zur Intervalllehre“",
+              "note": "Die Zuordnung folgt wörtlich den drei Begriffen auf S. 32. Die Antwort behauptet weder identische noch bestimmte unterschiedliche Centgrößen und legt kein Stimmungssystem fest. Der Vorwort-Rahmen (S. i, PDF8) nennt die kontrapunktisch-harmonische Sprache der ersten Hälfte des 18. Jahrhunderts; die Stilzuordnung folgt diesem erklärten Gegenstand, nicht dem Publikationsjahr."
+            }
+          },
+          "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=76",
+          "examples": [
+            "weber-haupt-fuellstimmen"
+          ],
+          "work": "Generalbass-Compendium. Eine Art Vokabular / a Kind of Vocabulary. Für den Gehörbildungsunterricht zusammengestellt; englische Übersetzung von Maria Raffaele (1. synoptische Auflage Deutsch/Englisch, Basel: Schola Cantorum Basiliensis, 2018)"
         }
       ],
       "relations": []
@@ -40040,6 +42019,86 @@ const ATLAS = {
       "caption": "Anfang des Chorals Jesu deine Paßion mit gegebener Oberstimme und beziffertem Bass. Auf Fermaten folgen bewegte Figuren der oberen Linie, während der Bass zeitweise pausiert. Die äußeren Stimmen und die Ziffern sind vorgegeben; eine vollständige Aussetzung aller Innenstimmen ist hier nicht ausgeschrieben. Markiere zuerst die längeren Choralnoten und ihre Fermaten. Wo beginnt ein Zwischenspiel, wo tritt die nächste Choralzeile ein, und welche Töne müsste eine Generalbassaussetzung noch ergänzen?",
       "credit": "Johann Christian Kittel, Generalbass Schule, hg. und übersetzt von Derek Remeš, ZGMTH 16/2 (2019), S. 160. DOI 10.31751/1013. © 2019 Derek Remeš, CC BY 4.0. Ausschnitte aus dem modernen Notensatz; Zuschnitt, Überschriften und Anordnung redaktionell, Noten unverändert.",
       "url": "https://storage.gmth.de/zgmth/pdf/1013#page=18"
+    },
+    "weber-cadenza-retardatio": {
+      "image": "quellen/noten/weber-cadenza-retardatio.webp",
+      "title": "Quartenformeln, Quinta syncopata und Retardatio",
+      "alt": "Vollständige Seite 3 von Webers Generalbass-Compendium. Oben stehen vier Quartenformeln mit dem Kern 3–4–4–3. Darunter folgen die vorbereitete Quinta syncopata mit ihrer Bewegung 5–4 sowie Beispiele zur aufwärts geführten übermäßigen Quinte und erhöhten Septime.",
+      "caption": "Die Seite stellt mehrere Vorgänge nebeneinander: den gemeinsamen Kern der Cadenza doppia, die durch eine Sexte dissonant werdende reine Quinte und die verzögerte Aufwärtsauflösung des Leittons. Verfolge jeweils eine einzelne Stimmenbewegung und ihre Füllstimmen. Vergleiche danach die Abwärtsauflösung der Quinta syncopata mit ♯5–6 beziehungsweise ♯7–8 in den Retardatio-Beispielen; die Vorzeichen und die jeweilige Vorbereitung gehören zur Figur.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil A, S. 3. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=16"
+    },
+    "weber-septimen": {
+      "image": "quellen/noten/weber-septimen.webp",
+      "title": "Septakkord und Septima in transitu",
+      "alt": "Vollständige Seite 4 des Generalbass-Compendiums. Die Übersicht enthält den 8–7-Durchgang, Septakkorde auf verschiedenen Bassstufen und den verminderten Septakkord. Unten erklärt ein ausgeschriebenes Beispiel die Septima in transitu mit paralleler Bass- und Terzbewegung unter gehaltenen Stimmen.",
+      "caption": "Die Seite unterscheidet Septimen nach Bassstufe, Vorbereitung und Entstehung. Suche zunächst beim gewöhnlichen Septakkord die Ergänzung 5/3. Verfolge dann im untersten Beispiel den aufsteigenden Bass mit seiner parallelen Terz: Die beiden liegenbleibenden Stimmen werden nun als Quarte und Septime gelesen. So lässt sich am Notenbild prüfen, weshalb die Septima in transitu die Gruppe 7/4/3 ergibt.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil A, S. 4. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=18"
+    },
+    "weber-verminderte-quinte": {
+      "image": "quellen/noten/weber-verminderte-quinte.webp",
+      "title": "Verminderte Quinte und doppelte Dominantquinte",
+      "alt": "Vollständige deutsche Seite 10 mit zwei Neapolitan-Sext-Modellen, Matthesons Erläuterung des verminderten Dreiklangs und unteren Notenreihen, die Quintparallelen sowie Lösungen mit verdoppelter Dominantquinte gegenüberstellen.",
+      "caption": "Hans Peter Weber, Generalbass-Compendium (2018), Teil A, S. 10: Neapolitan-Sext, verminderter Dreiklang nach Mattheson und „2x5-Akkord“. Die unveränderte Seite verbindet die Intervallzusammenstellung mit konkreten Fortsetzungsmodellen. Lies im unteren Abschnitt zuerst die fehlerhaften Quintführungen. Verfolge anschließend die Terz des Septakkords: In der Lösung geht sie zur Quinte des Dominantklanges. Vergleiche danach die ausgeschriebenen Diminutionen.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil A, S. 10. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=30"
+    },
+    "weber-vorhaltskombinationen": {
+      "image": "quellen/noten/weber-vorhaltskombinationen.webp",
+      "title": "Vorhaltskombinationen und Füllstimmen",
+      "alt": "Vollständige deutsche Seite 11 mit den Signaturgruppen 9/4, 9/7, 9/6/4, 9/7/4 und 9/erhöhter 7/4, anschließend weiteren kombinierten Figuren sowie zwei unteren Notenzeilen zu den Füllstimmen von 7–6.",
+      "caption": "Hans Peter Weber, Generalbass-Compendium (2018), Teil A, S. 11: vollständige Tafel der weiteren Vorhaltsfiguren. Die Beispiele unterscheiden bewegte Dissonanzen, ergänzende Intervalle und mehrere mögliche Besetzungen der Folge 7–6. Trenne in jeder Gruppe die aufzulösenden Stimmen von den Füllstimmen. Beachte bei 9/erhöhter 7/4 die gegenläufigen Wege zur Oktave. Vergleiche unten die 7–6-Modelle mit gehaltener Quinte und Terz mit den Varianten, die eine Quarte enthalten.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil A, S. 11. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=32"
+    },
+    "weber-schrittgaenge": {
+      "image": "quellen/noten/weber-schrittgaenge.webp",
+      "title": "Harmonisierung steigender Bassschritte",
+      "alt": "Vollständige deutsche Seite 13 mit einer steigenden 5–6-Bassskala, mehreren Halbtonmodellen mit Sexte und verminderter Quinte, Paaren mit großer Terz beziehungsweise Trugschluss sowie einer chromatischen Basslinie mit mehreren Ziffernreihen.",
+      "caption": "Hans Peter Weber, Generalbass-Compendium (2018), Teil B, S. 13: aufsteigende Sekunden, natürliche und veränderte Leittöne, Trugschlussmodelle und alternative Bezifferungen eines chromatischen Ganges. Vergleiche zuerst die zwei Basstöne der einzelnen Halbtonmodelle. Lies die Sexte und die verminderte Quinte einmal nacheinander und einmal zugleich. Prüfe anschließend, wie sich der Zielgriff ändert, wenn über der ersten Bassnote große Terz und Sexte zusammenstehen.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil B, S. 13. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=36"
+    },
+    "weber-oktavregel": {
+      "image": "quellen/noten/weber-oktavregel.webp",
+      "title": "Einfache und vollständige Oktavregeln",
+      "alt": "Vollständige deutsche Seite 16 mit einer methodischen Einleitung, je zwei steigenden und fallenden Dur- und Mollskalen für einfache und vollständige Oktavregeln sowie Hinweisen zu 6/5, Bassrichtung und veränderlicher Sexte.",
+      "caption": "Hans Peter Weber, Generalbass-Compendium (2018), Teil B, S. 16: einfache und vollständige Oktavregelmodelle in Dur und Moll. Einleitung und Hinweise begrenzen den Geltungsbereich der Tabellen und bestimmen die Bezifferung vom folgenden Bassschritt her. Vergleiche die vierte Bassstufe aufwärts und abwärts. Bestimme für jede Note die Richtung ihres nächsten Schritts. Lies den Hinweis gegen 6/5 im fallenden Bass zusammen mit der Einleitung über den Modellcharakter und den weiteren Möglichkeiten auf den folgenden Seiten.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil B, S. 16. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=42"
+    },
+    "weber-rueckung": {
+      "image": "quellen/noten/weber-rueckung.webp",
+      "title": "Chromatische Rückung auf drei Bassstufen",
+      "alt": "Vollständige deutsche Buchseite 28 mit dem Titel Rückung. Unter einer Definition stehen drei durch horizontale Linien getrennte Tabellenblöcke für vierte, sechste und siebte Bassstufe. Jeder Block zeigt links zwei chromatisch benachbarte Bassnoten mit Zifferngruppen und Hinweisen naturalis beziehungsweise accidentalis. Rechts stehen je drei längere bezifferte Bassfortsetzungen; eckige Klammern markieren die betreffenden Halbtonschritte.",
+      "caption": "Webers vollständige Seite zur Rückung: Verschiebungen verminderter Septakkorde und ihrer Umkehrungen über chromatischen Halbtönen im Bass. Die drei Blöcke behandeln vierte, sechste und siebte Stufe; links stehen naturalis/accidentalis gegenüber, rechts folgen ausgeführte Bassgänge. Wähle zunächst nur einen Tabellenblock. Vergleiche den chromatischen Halbton im linken Modell mit den markierten Stellen rechts und bestimme, welche Intervalle sich zugleich mit dem Basston verändern.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil B, S. 28. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=66"
+    },
+    "weber-enharmonik": {
+      "image": "quellen/noten/weber-enharmonik.webp",
+      "title": "Enharmonische Lesarten des verminderten Septakkords",
+      "alt": "Vollständige deutsche Buchseite 29 über die enharmonische Verwechslung des verminderten Septakkords. Oben steht ein Zitat Carl Philipp Emanuel Bachs. Darunter erscheinen vier Akkordschreibweisen mit denselben Klaviertasten und verschiedenen Figuren, als a bis d bezeichnet. Fünf bezifferte Bassfortsetzungen ordnen sie e-Moll, a-Moll, cis-Moll, b-Moll und g-Moll zu.",
+      "caption": "Vier enharmonische Lesarten eines verminderten Septakkords und ihre tonalen Fortsetzungen. Die Bassnoten werden als erhöhte siebte Stufe in e-Moll, zweite in cis-Moll, vierte in b-Moll und sechste in g-Moll gelesen; a enthält außerdem die erhöhte vierte Stufe in a-Moll. Webers Zitat Carl Philipp Emanuel Bachs steht über den Beispielen. Vergleiche zunächst die vier Akkordschreibweisen, ohne die Tasten zu wechseln. Spiele dann die Fortsetzungen a bis d und verfolge, welche Töne nun als Leitton oder auflösungsbedürftiges Intervall wirken.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil B, S. 29. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=70"
+    },
+    "weber-sequenzvergleich": {
+      "image": "quellen/noten/weber-sequenzvergleich.webp",
+      "title": "Quintfall, aufsteigender Quintfall und Quartfall",
+      "alt": "Vollständige deutsche Buchseite 30 mit der Überschrift Sequenzen – Übersicht und Vergleich. Ein Wiedeburg-Zitat steht über mehreren bezifferten Akkordfolgen: Quintfallsequenz, 6/5, 6/4/2 und zwei 6/4/3-Fassungen. Eine mittlere Zeile vergleicht die 7–6-Kette über schwarzen Bassnoten mit Quintfall über weißen Bassnoten. Darunter folgen vier Fassungen des aufsteigenden Quintfalls und eine abschließende Quartfallzeile.",
+      "caption": "Webers Übersicht verwandter Sequenzmodelle: Quintfall mit Septimen und seine Stimmenverwechslungen, Vergleich mit der 7–6-Kette, aufsteigender Quintfall und Quartfall. Im mittleren Vergleich unterscheiden schwarze und weiße Notenköpfe den Bassbezug. Verfolge in der mittleren Vergleichszeile zuerst die untersten schwarzen Notenköpfe und danach die weißen. Prüfe, wie sich dadurch die Bezugsintervalle ändern. Vergleiche anschließend, welche Stimme in den oberen Sequenzfassungen jeweils den Bass übernimmt.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil B, S. 30. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=72"
+    },
+    "weber-haupt-fuellstimmen": {
+      "image": "quellen/noten/weber-haupt-fuellstimmen.webp",
+      "title": "Hauptstimmen, Füllstimmen und historische Begriffe",
+      "alt": "Vollständige Seite 32 des Generalbass-Compendiums. Oben werden Haupt- und Füllstimmen an den Zahlen 7 mit 5 und 3 sowie 4–3 erläutert. Darunter stehen Begriffe Heinichens und Matthesons, historische Halbtonnamen sowie kurze Bassnotenbeispiele für Kadenztypen.",
+      "caption": "Die vollständige Seite verbindet Webers Erklärung der Haupt- und Füllstimmen mit einer historischen Begriffstabelle, Halbtonnamen und kurzen Kadenzbässen. Die charakteristische Septime beziehungsweise der Weg 4–3 wird von den ergänzenden Intervallen unterschieden. Suche zuerst die charakteristische 7 und den Weg 4–3. Welche weiteren Intervalle nennt die Seite als Füllstimmen? Lies dann die historischen Namen und prüfe, ob sie Stimmenaufgaben, Intervallarten oder Kadenzbewegungen benennen.",
+      "credit": "Hans Peter Weber, Generalbass-Compendium (Schola Cantorum Basiliensis, 2018), Teil C, S. 32. Englische Übersetzung: Maria Raffaele. © Schola Cantorum Basiliensis 2018. Unveränderte vollständige Buchseite; didaktische Verwendung gemäß Impressum. Erläuterung außerhalb des Bildes redaktionell.",
+      "url": "https://www.fhnw.ch/++api++/de/musik/aktuelles/news-storys/alle/generalbass-compendium/compendium_generalbass_nur_text_ohne_audio.pdf/@@inline-file/file#page=76"
     }
   }
 };
